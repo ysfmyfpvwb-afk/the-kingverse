@@ -191,6 +191,16 @@ def main():
    if not f.get(field):f['audit']['uncertain'].append(field)
   if not f.get('director') and not f.get('showrunner'):f['audit']['uncertain'].append('directorOrShowrunner')
   if f.get('Medium')=='Televisie':f['audit']['uncertain'].append('tvFormat')
+ # Supplemental evidence is keyed by exact title AND year, after source-work resolution.
+ for evidence in read('data/reference/screen-1.5.1.json')['records']:
+  film=next(f for f in F if filmname(f)+'|'+str(f.get('Jaar'))==evidence['key'])
+  film.update(copy.deepcopy(evidence['values']))
+  film['audit']['fields'].update(copy.deepcopy(evidence['fields']))
+  film['audit']['notes']=evidence['notes']
+  film['audit']['supplementaryReference']=True
+  resolved={'referenceMatch','sourceRelationship','tvFormat','cast','directorOrShowrunner'}
+  film['audit']['uncertain']=[x for x in film['audit']['uncertain'] if x not in resolved]+evidence.get('uncertain',[])
+  if not film.get('sourceWorks'):raise ValueError('Supplementary source work must resolve: '+evidence['key'])
  # Dutch references: exact independently recorded original-title pairs plus explicitly curated aliases.
  nlmap={}
  for r in dutch['records']:

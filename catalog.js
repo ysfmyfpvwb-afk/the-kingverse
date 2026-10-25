@@ -18552,24 +18552,67 @@ const DB = {
       "Medium": "Televisiefilm",
       "Bronwerk (EN)": "Carrie",
       "Oorspronkelijke bundel": null,
-      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Relatie": "Romanadaptatie",
       "Status": "Uitgebracht / datum te controleren",
-      "Bron": "https://www.swank.com/public-libraries/details/21296-carrie",
+      "Bron": "https://tv.apple.com/us/movie/carrie/umc.cmc.4iz6xmn32vca6hcyv5ulbtfx",
       "director": "David Carson",
       "status": "released",
       "cast": [
         "Angela Bettis — Carrie White",
-        "Patricia Clarkson — Margaret White"
+        "Patricia Clarkson — Margaret White",
+        "David Keith — Detective John Mulcahey"
       ],
       "id": "films:carrie-2002",
       "audit": {
         "checked": "2026-10-25",
         "scope": "field-level",
-        "fields": {},
+        "fields": {
+          "title": {
+            "status": "checked",
+            "source": "https://tv.apple.com/us/movie/carrie/umc.cmc.4iz6xmn32vca6hcyv5ulbtfx"
+          },
+          "date": {
+            "status": "checked",
+            "source": "https://tv.apple.com/us/movie/carrie/umc.cmc.4iz6xmn32vca6hcyv5ulbtfx",
+            "precision": "year",
+            "meaning": "release-year"
+          },
+          "director": {
+            "status": "checked",
+            "source": "https://tv.apple.com/us/movie/carrie/umc.cmc.4iz6xmn32vca6hcyv5ulbtfx"
+          },
+          "studio": {
+            "status": "checked",
+            "source": "https://tv.apple.com/us/movie/carrie/umc.cmc.4iz6xmn32vca6hcyv5ulbtfx"
+          },
+          "cast": {
+            "status": "checked",
+            "source": "https://tv.apple.com/us/movie/carrie/umc.cmc.4iz6xmn32vca6hcyv5ulbtfx"
+          },
+          "status": {
+            "status": "checked",
+            "source": "https://tv.apple.com/us/movie/carrie/umc.cmc.4iz6xmn32vca6hcyv5ulbtfx"
+          },
+          "format": {
+            "status": "checked",
+            "source": "https://playbill.com/article/carrie-minus-the-songs-to-air-on-nbc-tv-november-4-angela-bettis-stars-com-109355",
+            "access": "indexed result; full page returned 403"
+          },
+          "sourceWorks": {
+            "status": "checked",
+            "source": "https://www.swank.com/public-libraries/details/21296-carrie"
+          }
+        },
         "uncertain": [
-          "referenceMatch",
-          "sourceRelationship"
-        ]
+          "premiereDate",
+          "imdbRating"
+        ],
+        "notes": [
+          "Swank mixes multiple crew roles in its Directors field; David Carson is independently confirmed by Apple TV.",
+          "Exact broadcast date is not certified here: the contemporary Playbill result was indexed but its full page returned 403.",
+          "IMDb title page returned 403; no verified numeric rating or IMDb synopsis was available. Summary uses distributor facts."
+        ],
+        "supplementaryReference": true
       },
       "sourceWorks": [
         {
@@ -18577,6 +18620,28 @@ const DB = {
           "title": "Carrie",
           "id": "books:carrie"
         }
+      ],
+      "studio": "MGM",
+      "release": "2002",
+      "reportedDate": "2002",
+      "dateMeaning": "release-year",
+      "imdb": {
+        "id": "tt0319970",
+        "url": "https://www.imdb.com/title/tt0319970/",
+        "rating": null,
+        "scale": 10,
+        "checked": "2026-10-25",
+        "access": "indexed IMDb result; cached, not a live rating",
+        "summary": {
+          "en": "A bullied teenager discovers a dangerous power that threatens everyone around her."
+        },
+        "summarySource": "https://tv.apple.com/us/movie/carrie/umc.cmc.4iz6xmn32vca6hcyv5ulbtfx"
+      },
+      "sources": [
+        "https://tv.apple.com/us/movie/carrie/umc.cmc.4iz6xmn32vca6hcyv5ulbtfx",
+        "https://playbill.com/article/carrie-minus-the-songs-to-air-on-nbc-tv-november-4-angela-bettis-stars-com-109355",
+        "https://www.swank.com/public-libraries/details/21296-carrie",
+        "https://www.imdb.com/title/tt0319970/"
       ]
     },
     {
@@ -19767,24 +19832,63 @@ const DB = {
       "Verfilming (EN)": "The Dead Zone",
       "Nederlandse releasetitel": null,
       "Jaar": 2002,
-      "Medium": "Televisie",
+      "Medium": "Televisieserie",
       "Bronwerk (EN)": "The Dead Zone",
       "Oorspronkelijke bundel": null,
-      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Relatie": "Gebaseerd op personages uit de roman",
       "Status": "Uitgebracht / datum te controleren",
-      "Bron": "https://stephenking.com/works/television/",
+      "Bron": "https://tv.apple.com/us/show/the-dead-zone/umc.cmc.5syjc2wjt8qygwav1wvrb8hh3",
       "id": "films:the-dead-zone-2002",
       "audit": {
         "checked": "2026-10-25",
         "scope": "field-level",
-        "fields": {},
-        "uncertain": [
-          "referenceMatch",
-          "sourceRelationship",
-          "cast",
-          "directorOrShowrunner",
-          "tvFormat"
-        ]
+        "fields": {
+          "title": {
+            "status": "checked",
+            "source": "https://tv.apple.com/us/show/the-dead-zone/umc.cmc.5syjc2wjt8qygwav1wvrb8hh3"
+          },
+          "format": {
+            "status": "checked",
+            "source": "https://tv.apple.com/us/show/the-dead-zone/umc.cmc.5syjc2wjt8qygwav1wvrb8hh3"
+          },
+          "studio": {
+            "status": "checked",
+            "source": "https://tv.apple.com/us/show/the-dead-zone/umc.cmc.5syjc2wjt8qygwav1wvrb8hh3"
+          },
+          "cast": {
+            "status": "checked",
+            "source": "https://tv.apple.com/us/show/the-dead-zone/umc.cmc.5syjc2wjt8qygwav1wvrb8hh3"
+          },
+          "status": {
+            "status": "checked",
+            "source": "https://tv.apple.com/us/show/the-dead-zone/umc.cmc.5syjc2wjt8qygwav1wvrb8hh3"
+          },
+          "sourceWorks": {
+            "status": "checked",
+            "source": "https://tv.apple.com/us/show/the-dead-zone/umc.cmc.5syjc2wjt8qygwav1wvrb8hh3"
+          },
+          "showrunner": {
+            "status": "checked-contemporary-producer-interview",
+            "source": "https://www.tvtechnology.com/miscellaneous/content-is-kingbrthe-dead-zones-lloyd-segan"
+          },
+          "date": {
+            "status": "checked-contemporary-producer-interview",
+            "source": "https://www.tvtechnology.com/miscellaneous/content-is-kingbrthe-dead-zones-lloyd-segan",
+            "precision": "day",
+            "meaning": "US-series-premiere"
+          },
+          "network": {
+            "status": "checked",
+            "source": "https://www.tvtechnology.com/miscellaneous/content-is-kingbrthe-dead-zones-lloyd-segan"
+          },
+          "creators": {
+            "status": "checked",
+            "source": "https://www.imdb.com/title/tt0281432/"
+          }
+        },
+        "uncertain": [],
+        "notes": [],
+        "supplementaryReference": true
       },
       "sourceWorks": [
         {
@@ -19792,30 +19896,108 @@ const DB = {
           "title": "The Dead Zone",
           "id": "books:the-dead-zone"
         }
+      ],
+      "showrunner": "Michael Piller",
+      "creators": [
+        "Michael Piller",
+        "Shawn Piller"
+      ],
+      "studio": "Lionsgate",
+      "network": "USA Network",
+      "release": "2002-06-16",
+      "reportedDate": "2002-06-16",
+      "dateMeaning": "US-series-premiere",
+      "status": "released",
+      "cast": [
+        "Anthony Michael Hall — Johnny Smith",
+        "Nicole de Boer — Sarah Bracknell Bannerman",
+        "Chris Bruno — Sheriff Walt Bannerman",
+        "John L. Adams — Bruce Lewis",
+        "David Ogden Stiers — Rev. Gene Purdy"
+      ],
+      "imdb": {
+        "id": "tt0281432",
+        "url": "https://www.imdb.com/title/tt0281432/",
+        "rating": 7.3,
+        "scale": 10,
+        "checked": "2026-10-25",
+        "access": "indexed IMDb result; cached, not a live rating",
+        "summary": {
+          "en": "Johnny returns from a prolonged coma with unsettling visions and a radically altered personal life."
+        },
+        "summarySource": "https://www.imdb.com/title/tt0281432/"
+      },
+      "sources": [
+        "https://tv.apple.com/us/show/the-dead-zone/umc.cmc.5syjc2wjt8qygwav1wvrb8hh3",
+        "https://www.tvtechnology.com/miscellaneous/content-is-kingbrthe-dead-zones-lloyd-segan",
+        "https://www.imdb.com/title/tt0281432/"
       ]
     },
     {
       "Verfilming (EN)": "Haven",
       "Nederlandse releasetitel": null,
       "Jaar": 2010,
-      "Medium": "Televisie",
+      "Medium": "Televisieserie",
       "Bronwerk (EN)": "The Colorado Kid",
       "Oorspronkelijke bundel": null,
-      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Relatie": "Los geïnspireerd door",
       "Status": "Uitgebracht / datum te controleren",
-      "Bron": "https://stephenking.com/works/television/",
+      "Bron": "https://www.awn.com/news/syfys-haven-renewed-season-two",
       "id": "films:haven-2010",
       "audit": {
         "checked": "2026-10-25",
         "scope": "field-level",
-        "fields": {},
-        "uncertain": [
-          "referenceMatch",
-          "sourceRelationship",
-          "cast",
-          "directorOrShowrunner",
-          "tvFormat"
-        ]
+        "fields": {
+          "title": {
+            "status": "checked",
+            "source": "https://www.awn.com/news/syfys-haven-renewed-season-two"
+          },
+          "format": {
+            "status": "checked",
+            "source": "https://www.awn.com/news/syfys-haven-renewed-season-two"
+          },
+          "date": {
+            "status": "checked",
+            "source": "https://www.awn.com/news/syfys-haven-renewed-season-two",
+            "precision": "day",
+            "meaning": "US-series-premiere"
+          },
+          "showrunner": {
+            "status": "checked",
+            "source": "https://www.awn.com/news/syfys-haven-renewed-season-two"
+          },
+          "studio": {
+            "status": "checked",
+            "source": "https://www.awn.com/news/syfys-haven-renewed-season-two"
+          },
+          "network": {
+            "status": "checked",
+            "source": "https://www.awn.com/news/syfys-haven-renewed-season-two"
+          },
+          "cast": {
+            "status": "checked",
+            "source": "https://www.awn.com/news/syfys-haven-renewed-season-two"
+          },
+          "status": {
+            "status": "checked",
+            "source": "https://www.awn.com/news/syfys-haven-renewed-season-two"
+          },
+          "sourceWorks": {
+            "status": "checked",
+            "source": "https://www.awn.com/news/syfys-haven-renewed-season-two"
+          },
+          "creators": {
+            "status": "checked",
+            "source": "https://www.imdb.com/title/tt1519931/"
+          }
+        },
+        "uncertain": [],
+        "notes": [
+          "Syfy press release reproduced by AWN establishes the original US premiere; Canada premiered on Showcase on July 12.",
+          "The Colorado Kid is a loose inspiration, not a scene-for-scene adaptation.",
+          "Showrunner credit is scoped to the contemporary first-season press release."
+        ],
+        "supplementaryReference": true
       },
       "sourceWorks": [
         {
@@ -19823,6 +20005,38 @@ const DB = {
           "title": "The Colorado Kid",
           "id": "books:the-colorado-kid"
         }
+      ],
+      "showrunner": "Scott Shepherd (season 1)",
+      "creators": [
+        "Jim Dunn",
+        "Sam Ernst"
+      ],
+      "studio": "Entertainment One / Piller, Segan and Shepherd",
+      "network": "Syfy",
+      "release": "2010-07-09",
+      "reportedDate": "2010-07-09",
+      "dateMeaning": "US-series-premiere",
+      "status": "released",
+      "cast": [
+        "Emily Rose — Audrey Parker",
+        "Lucas Bryant — Nathan Wuornos",
+        "Eric Balfour — Duke Crocker"
+      ],
+      "imdb": {
+        "id": "tt1519931",
+        "url": "https://www.imdb.com/title/tt1519931/",
+        "rating": 7.5,
+        "scale": 10,
+        "checked": "2026-10-25",
+        "access": "indexed IMDb result; cached, not a live rating",
+        "summary": {
+          "en": "An FBI investigation draws Audrey into a coastal community where hidden afflictions become deadly."
+        },
+        "summarySource": "https://www.imdb.com/title/tt1519931/"
+      },
+      "sources": [
+        "https://www.awn.com/news/syfys-haven-renewed-season-two",
+        "https://www.imdb.com/title/tt1519931/"
       ]
     },
     {
@@ -19986,24 +20200,70 @@ const DB = {
       "Jaar": 2013,
       "Medium": "Film",
       "Bronwerk (EN)": "Carrie",
-      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Relatie": "Romanadaptatie",
       "Bron": "https://www.demilofilm.com/works/carrie",
       "director": "Kimberly Peirce",
       "release": "2013-10-18",
       "cast": [
         "Chloë Grace Moretz — Carrie White",
-        "Julianne Moore — Margaret White"
+        "Julianne Moore — Margaret White",
+        "Judy Greer",
+        "Portia Doubleday"
       ],
       "status": "released",
       "id": "films:carrie-2013",
       "audit": {
         "checked": "2026-10-25",
         "scope": "field-level",
-        "fields": {},
-        "uncertain": [
-          "referenceMatch",
-          "sourceRelationship"
-        ]
+        "fields": {
+          "title": {
+            "status": "checked",
+            "source": "https://www.demilofilm.com/works/carrie"
+          },
+          "format": {
+            "status": "checked",
+            "source": "https://www.demilofilm.com/works/carrie"
+          },
+          "date": {
+            "status": "checked",
+            "source": "https://www.demilofilm.com/works/carrie",
+            "precision": "day",
+            "meaning": "US-theatrical-release"
+          },
+          "director": {
+            "status": "checked",
+            "source": "https://www.demilofilm.com/works/carrie"
+          },
+          "distributor": {
+            "status": "checked",
+            "source": "https://www.demilofilm.com/works/carrie"
+          },
+          "studio": {
+            "status": "checked",
+            "source": "https://www.demilofilm.com/works/carrie"
+          },
+          "cast": {
+            "status": "checked",
+            "source": "https://www.demilofilm.com/works/carrie"
+          },
+          "screenwriters": {
+            "status": "checked",
+            "source": "https://www.demilofilm.com/works/carrie"
+          },
+          "status": {
+            "status": "checked",
+            "source": "https://www.demilofilm.com/works/carrie"
+          },
+          "sourceWorks": {
+            "status": "checked",
+            "source": "https://www.demilofilm.com/works/carrie"
+          }
+        },
+        "uncertain": [],
+        "notes": [
+          "IMDb rating available in indexed ratings page; main title page returned 403. Summary uses production-company facts rather than an inaccessible IMDb synopsis."
+        ],
+        "supplementaryReference": true
       },
       "sourceWorks": [
         {
@@ -20011,6 +20271,31 @@ const DB = {
           "title": "Carrie",
           "id": "books:carrie"
         }
+      ],
+      "distributor": "Sony Pictures Releasing",
+      "studio": "Metro-Goldwyn-Mayer Pictures / Screen Gems / Misher Films",
+      "reportedDate": "2013-10-18",
+      "dateMeaning": "US-theatrical-release",
+      "screenwriters": [
+        "Lawrence D. Cohen",
+        "Roberto Aguirre-Sacasa"
+      ],
+      "imdb": {
+        "id": "tt1939659",
+        "url": "https://www.imdb.com/title/tt1939659/",
+        "rating": 5.8,
+        "scale": 10,
+        "checked": "2026-10-25",
+        "access": "indexed IMDb result; cached, not a live rating",
+        "summary": {
+          "en": "Cruel classmates push a young woman with telekinetic abilities toward a disastrous prom night."
+        },
+        "summarySource": "https://www.demilofilm.com/works/carrie",
+        "ratingSource": "https://www.imdb.com/title/tt1939659/ratings/"
+      },
+      "sources": [
+        "https://www.demilofilm.com/works/carrie",
+        "https://www.imdb.com/title/tt1939659/"
       ]
     },
     {

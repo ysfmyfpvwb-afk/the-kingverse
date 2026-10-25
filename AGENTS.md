@@ -49,6 +49,10 @@ The Kingverse is een tweetalige encyclopedie van Stephen Kings literaire werken,
 - Behoud het filter “Samenwerkingen / Collaborations” en dezelfde zoek-, taal-, editie-, adaptatie- en detailfunctionaliteit. Controlevoorbeelden: The Talisman, Black House, Sleeping Beauties; de inventarisatie is niet tot deze voorbeelden beperkt.
 - Richard Bachman is een pseudoniem van Stephen King, geen tweede co-auteur.
 
+## IMDb-omschrijvingen en scores
+
+Gebruik IMDb als aanvullende bron voor korte, in eigen woorden geschreven Engelse beschrijvingen en gebruikersscores. Leg de exacte IMDb-ID per titel/jaar/formaat vast. Vermeld bron, raadpleegdatum en dat de score een opgeslagen momentopname is; geïndexeerde resultaten kunnen ouder zijn. Vul een ontoegankelijke of onbevestigde score nooit in op basis van geheugen. Gebruik dan een zichtbare onbevestigde status. Vermeld een andere bron als een beschrijving daarop berust. Productiebronnen blijven leidend voor credits en releasegegevens. Omzeil geen toegangsbeperkingen.
+
 ## Adaptaties en Dark Tower
 
 - Film-/serietitels en posters blijven Engels in beide interfaces. Gebruik een stabiele identiteit die remakes onderscheidt; koppel nooit alleen op titel.

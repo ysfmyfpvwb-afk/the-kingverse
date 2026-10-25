@@ -1,11 +1,11 @@
-# The Kingverse 1.5 — validation
+# The Kingverse 1.5.1 — validation
 
 Checked locally on 25 October 2026. This is an English-first structure/data batch. Further Dutch development and image research have been deferred at the user's request. Existing Dutch behavior remains available.
 
 ## Automated checks
 
 - JavaScript syntax checked for `app.js`, `about.js`, `catalog.js` and `media.js`.
-- 24 Node tests pass. They cover original-work preservation, stable work/view/edition identities, source-scope coverage, serial-publication consolidation, unique story membership, collection artwork by language, standalone-publication rules, approved artwork, contributor roles, collaborations filtering, remake collisions, date precision, cross-language/exact-title search, a shared search submission action, quality-report counts, image-error behavior, Tower links, secondary collection filters and the English default shell.
+- 26 Node tests pass. They cover original-work preservation, stable work/view/edition identities, source-scope coverage, serial-publication consolidation, unique story membership, collection artwork by language, standalone-publication rules, approved artwork, contributor roles, collaborations filtering, remake collisions, date precision, cross-language/exact-title search, a shared search submission action, quality-report counts, image-error behavior, Tower links, secondary collection filters and the English default shell.
 - Generated output is checked for deterministic rebuilds from the committed factual snapshots.
 - Raw original 1.4 import is preserved separately from the original 1.4 view data. Imported works survive corrected titles/aliases and documented consolidation.
 
@@ -27,3 +27,7 @@ Checked locally on 25 October 2026. This is an English-first structure/data batc
 Title/type inventory comparison is distinct from independent first-publication research. The quality report identifies open fields, source conflicts and the derivative/short-film groups not exhaustively audited. Brooks was checked through publisher/library metadata, not through a complete authorized text. Image approval performed before the priority change remains recorded; no additional image research is required to complete this structure batch.
 
 Push and GitHub Pages publication are verified after committing. Their actual result is reported in the delivery message; this file does not claim deployment succeeded before it happened.
+
+## 1.5.1 focused verification
+
+The four supplementary adaptation records have exact title/year keys and per-field sources. Added tests check distinct Carrie directors, series showrunner roles, resolved source works, IMDb IDs, cached-score dates, unavailable ratings and description rendering. JavaScript/Python syntax and whitespace checks passed. Catalog/report rebuilding is deterministic and existing media mappings remain identical. Browser checks opened the English Haven details, its linked Colorado Kid record and reverse adaptation link; the four updated detail routes display their credits, score state and release precision. Earlier 1.5 responsive checks above describe the previous batch, not newly repeated checks.

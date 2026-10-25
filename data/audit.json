@@ -9628,11 +9628,53 @@
         "audit": {
           "checked": "2026-10-25",
           "scope": "field-level",
-          "fields": {},
+          "fields": {
+            "title": {
+              "status": "checked",
+              "source": "https://tv.apple.com/us/movie/carrie/umc.cmc.4iz6xmn32vca6hcyv5ulbtfx"
+            },
+            "date": {
+              "status": "checked",
+              "source": "https://tv.apple.com/us/movie/carrie/umc.cmc.4iz6xmn32vca6hcyv5ulbtfx",
+              "precision": "year",
+              "meaning": "release-year"
+            },
+            "director": {
+              "status": "checked",
+              "source": "https://tv.apple.com/us/movie/carrie/umc.cmc.4iz6xmn32vca6hcyv5ulbtfx"
+            },
+            "studio": {
+              "status": "checked",
+              "source": "https://tv.apple.com/us/movie/carrie/umc.cmc.4iz6xmn32vca6hcyv5ulbtfx"
+            },
+            "cast": {
+              "status": "checked",
+              "source": "https://tv.apple.com/us/movie/carrie/umc.cmc.4iz6xmn32vca6hcyv5ulbtfx"
+            },
+            "status": {
+              "status": "checked",
+              "source": "https://tv.apple.com/us/movie/carrie/umc.cmc.4iz6xmn32vca6hcyv5ulbtfx"
+            },
+            "format": {
+              "status": "checked",
+              "source": "https://playbill.com/article/carrie-minus-the-songs-to-air-on-nbc-tv-november-4-angela-bettis-stars-com-109355",
+              "access": "indexed result; full page returned 403"
+            },
+            "sourceWorks": {
+              "status": "checked",
+              "source": "https://www.swank.com/public-libraries/details/21296-carrie"
+            }
+          },
           "uncertain": [
-            "referenceMatch",
-            "sourceRelationship"
-          ]
+            "premiereDate",
+            "imdbRating"
+          ],
+          "notes": [
+            "Swank mixes multiple crew roles in its Directors field; David Carson is independently confirmed by Apple TV.",
+            "Exact broadcast date is not certified here: the contemporary Playbill result was indexed but its full page returned 403.",
+            "IMDb title page returned 403; no verified numeric rating or IMDb synopsis was available. Summary uses distributor facts."
+          ],
+          "supplementaryReference": true
         }
       },
       {
@@ -10426,14 +10468,53 @@
         "audit": {
           "checked": "2026-10-25",
           "scope": "field-level",
-          "fields": {},
-          "uncertain": [
-            "referenceMatch",
-            "sourceRelationship",
-            "cast",
-            "directorOrShowrunner",
-            "tvFormat"
-          ]
+          "fields": {
+            "title": {
+              "status": "checked",
+              "source": "https://tv.apple.com/us/show/the-dead-zone/umc.cmc.5syjc2wjt8qygwav1wvrb8hh3"
+            },
+            "format": {
+              "status": "checked",
+              "source": "https://tv.apple.com/us/show/the-dead-zone/umc.cmc.5syjc2wjt8qygwav1wvrb8hh3"
+            },
+            "studio": {
+              "status": "checked",
+              "source": "https://tv.apple.com/us/show/the-dead-zone/umc.cmc.5syjc2wjt8qygwav1wvrb8hh3"
+            },
+            "cast": {
+              "status": "checked",
+              "source": "https://tv.apple.com/us/show/the-dead-zone/umc.cmc.5syjc2wjt8qygwav1wvrb8hh3"
+            },
+            "status": {
+              "status": "checked",
+              "source": "https://tv.apple.com/us/show/the-dead-zone/umc.cmc.5syjc2wjt8qygwav1wvrb8hh3"
+            },
+            "sourceWorks": {
+              "status": "checked",
+              "source": "https://tv.apple.com/us/show/the-dead-zone/umc.cmc.5syjc2wjt8qygwav1wvrb8hh3"
+            },
+            "showrunner": {
+              "status": "checked-contemporary-producer-interview",
+              "source": "https://www.tvtechnology.com/miscellaneous/content-is-kingbrthe-dead-zones-lloyd-segan"
+            },
+            "date": {
+              "status": "checked-contemporary-producer-interview",
+              "source": "https://www.tvtechnology.com/miscellaneous/content-is-kingbrthe-dead-zones-lloyd-segan",
+              "precision": "day",
+              "meaning": "US-series-premiere"
+            },
+            "network": {
+              "status": "checked",
+              "source": "https://www.tvtechnology.com/miscellaneous/content-is-kingbrthe-dead-zones-lloyd-segan"
+            },
+            "creators": {
+              "status": "checked",
+              "source": "https://www.imdb.com/title/tt0281432/"
+            }
+          },
+          "uncertain": [],
+          "notes": [],
+          "supplementaryReference": true
         }
       },
       {
@@ -10442,14 +10523,57 @@
         "audit": {
           "checked": "2026-10-25",
           "scope": "field-level",
-          "fields": {},
-          "uncertain": [
-            "referenceMatch",
-            "sourceRelationship",
-            "cast",
-            "directorOrShowrunner",
-            "tvFormat"
-          ]
+          "fields": {
+            "title": {
+              "status": "checked",
+              "source": "https://www.awn.com/news/syfys-haven-renewed-season-two"
+            },
+            "format": {
+              "status": "checked",
+              "source": "https://www.awn.com/news/syfys-haven-renewed-season-two"
+            },
+            "date": {
+              "status": "checked",
+              "source": "https://www.awn.com/news/syfys-haven-renewed-season-two",
+              "precision": "day",
+              "meaning": "US-series-premiere"
+            },
+            "showrunner": {
+              "status": "checked",
+              "source": "https://www.awn.com/news/syfys-haven-renewed-season-two"
+            },
+            "studio": {
+              "status": "checked",
+              "source": "https://www.awn.com/news/syfys-haven-renewed-season-two"
+            },
+            "network": {
+              "status": "checked",
+              "source": "https://www.awn.com/news/syfys-haven-renewed-season-two"
+            },
+            "cast": {
+              "status": "checked",
+              "source": "https://www.awn.com/news/syfys-haven-renewed-season-two"
+            },
+            "status": {
+              "status": "checked",
+              "source": "https://www.awn.com/news/syfys-haven-renewed-season-two"
+            },
+            "sourceWorks": {
+              "status": "checked",
+              "source": "https://www.awn.com/news/syfys-haven-renewed-season-two"
+            },
+            "creators": {
+              "status": "checked",
+              "source": "https://www.imdb.com/title/tt1519931/"
+            }
+          },
+          "uncertain": [],
+          "notes": [
+            "Syfy press release reproduced by AWN establishes the original US premiere; Canada premiered on Showcase on July 12.",
+            "The Colorado Kid is a loose inspiration, not a scene-for-scene adaptation.",
+            "Showrunner credit is scoped to the contemporary first-season press release."
+          ],
+          "supplementaryReference": true
         }
       },
       {
@@ -10572,11 +10696,55 @@
         "audit": {
           "checked": "2026-10-25",
           "scope": "field-level",
-          "fields": {},
-          "uncertain": [
-            "referenceMatch",
-            "sourceRelationship"
-          ]
+          "fields": {
+            "title": {
+              "status": "checked",
+              "source": "https://www.demilofilm.com/works/carrie"
+            },
+            "format": {
+              "status": "checked",
+              "source": "https://www.demilofilm.com/works/carrie"
+            },
+            "date": {
+              "status": "checked",
+              "source": "https://www.demilofilm.com/works/carrie",
+              "precision": "day",
+              "meaning": "US-theatrical-release"
+            },
+            "director": {
+              "status": "checked",
+              "source": "https://www.demilofilm.com/works/carrie"
+            },
+            "distributor": {
+              "status": "checked",
+              "source": "https://www.demilofilm.com/works/carrie"
+            },
+            "studio": {
+              "status": "checked",
+              "source": "https://www.demilofilm.com/works/carrie"
+            },
+            "cast": {
+              "status": "checked",
+              "source": "https://www.demilofilm.com/works/carrie"
+            },
+            "screenwriters": {
+              "status": "checked",
+              "source": "https://www.demilofilm.com/works/carrie"
+            },
+            "status": {
+              "status": "checked",
+              "source": "https://www.demilofilm.com/works/carrie"
+            },
+            "sourceWorks": {
+              "status": "checked",
+              "source": "https://www.demilofilm.com/works/carrie"
+            }
+          },
+          "uncertain": [],
+          "notes": [
+            "IMDb rating available in indexed ratings page; main title page returned 403. Summary uses production-company facts rather than an inaccessible IMDb synopsis."
+          ],
+          "supplementaryReference": true
         }
       },
       {
@@ -11053,7 +11221,7 @@
       "present": 96,
       "referenceMatched": 90,
       "missing": [],
-      "uncertainRecords": 95,
+      "uncertainRecords": 92,
       "expectedUniqueWorks": 90
     }
   },

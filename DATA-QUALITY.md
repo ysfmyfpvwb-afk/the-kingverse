@@ -1,4 +1,4 @@
-# The Kingverse 1.5 — catalogusaudit en datakwaliteit
+# The Kingverse 1.5.1 — catalogusaudit en datakwaliteit
 
 Peildatum: **25 oktober 2026**. Dit rapport beschrijft een reproduceerbare auditbatch. Het archief is aantoonbaar uitgebreid; de volledige bibliografie, eerste-publicatiegeschiedenis en alle afgeleide adaptaties zijn **niet** volledig onafhankelijk geverifieerd. Op verzoek ligt de afronding nu eerst bij de Engelse structuur, pagina’s en gegevens. Engels is de standaard voor nieuwe bezoekers; bestaande NL-functionaliteit blijft behouden, verdere Nederlandse uitwerking en beeldresearch zijn latere fasen.
 
@@ -46,7 +46,7 @@ Er zijn 256 unieke literaire identiteiten in `works`. De bibliotheek heeft 86 re
 | --- | ---: | ---: | ---: | ---: | ---: |
 | Boeken/bundels + afgebakende samenwerkingsuitbreiding | 86 | 86 | 86 | 0 | 85 |
 | Korte fictie + behouden overige bundelbijdragen | 166 | 173 | 173 | 0 | 173 |
-| Film/TV uit primaire lijst + aanvullingen | 90 | 96 | 92 | 0 | 95 |
+| Film/TV uit primaire lijst + aanvullingen | 90 | 96 | 96 | 0 | 92 |
 
 De 166 unieke korte-fictiewerken corresponderen met 168 afzonderlijke officiële URL’s: *N/N.* en *The Glass Floor* komen in meerdere bronrubrieken voor; daarnaast bevat de index een herhaalde Glass Floor-vermelding. Er blijven zeven bestaande bijdragen buiten die fictionele types behouden (zoals gedichten, een essay en een scenario). De film/TV-telling omvat 90 primaire bronentiteiten en zes aanvullende records. De boekenvergelijking omvat ook 92 publicatie-/werkregels vóór werk/uitgave-consolidatie, plus de vier afzonderlijk toegevoegde samenwerkingsprojecten.
 
@@ -235,3 +235,20 @@ node --test tests/*.test.cjs
 ```
 
 Bronnen opnieuw ophalen gebeurt apart via `scripts/collect_reference.py` en `scripts/collect-dutch.py`, met cache en maximaal twee gelijktijdige verzoeken. Visuele goedkeuring wordt niet uit HTTP-succes afgeleid. `scripts/check_images.py` is voor een latere beeldcontrolefase en wijzigt zelf geen goedkeuringsstatus. `VALIDATION.md` beschrijft de daadwerkelijk uitgevoerde tests. Publicatiestatus wordt pas na deployment in de oplevering bevestigd.
+
+## Update 1.5.1 — vier aanvullende film/TV-records
+
+Carrie (2002), Carrie (2013), The Dead Zone (2002) en Haven (2010) zijn per veld gecontroleerd buiten de primaire King-lijst. De bronfeiten, rollen, datumsemantiek en beperkingen staan reproduceerbaar in `data/reference/screen-1.5.1.json`. De 96 film/TV-titels zijn nu alle tegen een benoemde bron vergeleken; dat is geen volledige verificatie van alle metadata.
+
+IMDb levert aanvullende gebruikersscores en beschrijvingsfeiten. Scores zijn opgeslagen waarnemingen uit geïndexeerde IMDb-resultaten, geraadpleegd op 25 oktober 2026; de index kan ouder zijn. Het zijn geen live scores. Korte beschrijvingen zijn in eigen woorden geschreven. Bij de twee Carrie-records gebruiken de beschrijvingen productie-/distributeursfeiten, omdat de IMDb-hoofdpagina’s 403 gaven. De score van Carrie (2002) blijft expliciet onbevestigd. Geen toegangsbeperking is omzeild.
+
+| Record | Hoofdbron | Resultaat / grens |
+| --- | --- | --- |
+| Carrie|2002 | [Bron](https://tv.apple.com/us/movie/carrie/umc.cmc.4iz6xmn32vca6hcyv5ulbtfx) | Swank mixes multiple crew roles in its Directors field; David Carson is independently confirmed by Apple TV.; Exact broadcast date is not certified here: the contemporary Playbill result was indexed but its full page returned 403.; IMDb title page returned 403; no verified numeric rating or IMDb synopsis was available. Summary uses distributor facts. |
+| Carrie|2013 | [Bron](https://www.demilofilm.com/works/carrie) | IMDb rating available in indexed ratings page; main title page returned 403. Summary uses production-company facts rather than an inaccessible IMDb synopsis. |
+| The Dead Zone|2002 | [Bron](https://tv.apple.com/us/show/the-dead-zone/umc.cmc.5syjc2wjt8qygwav1wvrb8hh3) | Titel, formaat, credits, bronwerk en releasedatum per veld vastgelegd. |
+| Haven|2010 | [Bron](https://www.awn.com/news/syfys-haven-renewed-season-two) | Syfy press release reproduced by AWN establishes the original US premiere; Canada premiered on Showcase on July 12.; The Colorado Kid is a loose inspiration, not a scene-for-scene adaptation.; Showrunner credit is scoped to the contemporary first-season press release. |
+
+Swank presenteert bij Carrie (2002) meerdere crewrollen samen onder Directors. Apple TV bevestigt afzonderlijk David Carson; de overige namen zijn niet als regisseurs overgenomen. De exacte TV-premièredatum blijft open omdat de volledige contemporaine Playbill-pagina 403 gaf. Demilo bevestigt voor Carrie (2013) de Amerikaanse bioscooprelease van 18 oktober 2013. Het contemporaine producenteninterview bij TV Tech bevestigt Michael Piller als showrunner van The Dead Zone en de USA-première van 16 juni 2002. Het Syfy-persbericht, gereproduceerd door AWN, bevestigt Haven op 9 juli 2010 in de VS versus 12 juli in Canada; Scott Shepherd is uitsluitend als showrunner van seizoen 1 vermeld. Haven is los geïnspireerd op The Colorado Kid.
+
+Geen nieuwe afbeeldingen of verdere Nederlandse uitwerking in deze batch. Eerste-publicatieonderzoek volgt later.

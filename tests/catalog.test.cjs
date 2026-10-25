@@ -145,3 +145,25 @@ test('Exact story titles are not drowned out by an edition marketing subtitle',(
 test('Every entry in the official collaboration index resolves to a recorded project',()=>{
  const ledger=JSON.parse(fs.readFileSync('data/audit.json','utf8'));assert.equal(ledger.collaborations.referenceEntries,11);assert.deepEqual(ledger.collaborations.missingReferenceEntries,[]);
 });
+
+test('Supplementary adaptations retain exact remake identity and field evidence',()=>{
+ const extras=JSON.parse(fs.readFileSync('data/reference/screen-1.5.1.json','utf8'));
+ for(const e of extras.records){
+  const f=plain(`F.find(f=>fn(f)+'|'+f.Jaar===${JSON.stringify(e.key)})`);
+  assert.ok(f.sourceWorks.length);assert.ok(f.audit.fields.sourceWorks.source);
+  for(const key of ['referenceMatch','sourceRelationship','tvFormat','cast','directorOrShowrunner'])assert.ok(!f.audit.uncertain.includes(key));
+  assert.ok(f.imdb.url.endsWith(f.imdb.id+'/'));assert.equal(f.imdb.checked,'2026-10-25');
+ }
+ assert.equal(run("F.find(f=>fn(f)==='Carrie'&&f.Jaar===2002).director"),'David Carson');
+ assert.equal(run("F.find(f=>fn(f)==='Carrie'&&f.Jaar===2013).director"),'Kimberly Peirce');
+ assert.equal(run("F.find(f=>fn(f)==='Haven').showrunner"),'Scott Shepherd (season 1)');
+ assert.equal(run("F.find(f=>fn(f)==='The Dead Zone'&&f.Jaar===2002).showrunner"),'Michael Piller');
+});
+
+test('IMDb observations disclose unavailable scores, provenance and cached dates',()=>{
+ run("tab='films';lang='en'");
+ const old=run("detailContent(F.find(f=>fn(f)==='Carrie'&&f.Jaar===2002))");
+ assert.match(old,/Rating not yet verified/);assert.match(old,/exact premiere date/);assert.match(old,/not a live rating/);
+ const current=run("detailContent(F.find(f=>fn(f)==='Haven'))");
+ assert.match(current,/7.5\/10/);assert.match(current,/Short description/);assert.match(current,/Loosely inspired by/);assert.match(current,/2010-07-09/);
+});

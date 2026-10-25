@@ -15,7 +15,7 @@ const B = DB.books, S = DB.stories, F = DB.films, T = DB.tower;
 const translations = {
   'Roman / novelle':'Novel / novella', 'Roman':'Novel', 'Novelle':'Novella', 'Verhaal':'Short story', 'Gedicht':'Poem', 'Scenario':'Screenplay', 'Bijdrage':'Contribution', 'Non-fictie':'Nonfiction', 'Strip':'Comic', 'Fotoboek':'Photobook', 'Musical':'Musical', 'Bijdragenbundel':'Contributed collection', 'Prequel':'Prequel', 'Vervolgfilm':'Sequel', 'Nog te verifiëren':'Not yet verified', 'Verhalenbundel':'Story collection', 'Bundel / verzameling':'Collection', 'Film':'Film',
   'Televisie':'Television · format unverified', 'Televisiefilm':'TV movie', 'Televisieserie':'TV series', 'Miniserie':'Miniseries',
-  'Gebaseerd op / geïnspireerd door':'Based on / inspired by', 'Origineel scenario':'Original screenplay',
+  'Romanadaptatie':'Novel adaptation', 'Los geïnspireerd door':'Loosely inspired by', 'Gebaseerd op personages uit de roman':'Based on characters from the novel', 'Gebaseerd op / geïnspireerd door':'Based on / inspired by', 'Origineel scenario':'Original screenplay',
   'Hoofdreeks':'Core series', 'Tussenboek':'Interquel', 'Roland-verhaal':'Roland story', 'Personage':'Character', 'Kosmologie':'Cosmology', 'Thematisch':'Thematic',
   'Roland en de Ka-tet; zeven kerndelen':'Roland and the ka-tet; seven core volumes',
   'Gesitueerd tussen deel IV en V':'Set between volumes IV and V', 'Opgenomen in Everything’s Eventual':"Collected in Everything’s Eventual",
@@ -155,10 +155,19 @@ function detailContent(r) {
   if (tab === 'films') {
     out += line(tr('Bronwerk','Source work'),r['Bronwerk (EN)']) + line(tr('Jaar','Year'),r.Jaar || tr('Niet bevestigd','Unconfirmed')) + line(tr('Medium','Format'),localize(r.Medium));
     const m = media(r);
-    out += line(tr('Regisseur / showrunner','Director / showrunner'),r.showrunner || r.director || m?.director || tr('Nog te verifiëren','Not yet verified'));
+    out += line(r.showrunner ? 'Showrunner' : tr('Regisseur','Director'),r.showrunner || r.director || m?.director || tr('Nog te verifiëren','Not yet verified'));
+    if(r.creators) out += line(tr('Makers','Creators'),r.creators.join(', '));
+    if(r.screenwriters) out += line(tr('Scenario','Screenplay'),r.screenwriters.join(', '));
+    if(r.network) out += line(tr('Oorspronkelijke zender','Original network'),r.network);
+    if(r.imdb) {
+      const info=r.imdb;
+      if(info.summary?.[lang] || info.summary?.en) out+=section(tr('Korte omschrijving','Short description'),`<p>${safe(info.summary[lang] || info.summary.en)}</p><small>${sourceLink(info.summarySource,tr('Bron omschrijving','Description source'))}</small>`);
+      out+=line('IMDb',info.rating==null ? tr('Score nog niet bevestigd','Rating not yet verified') : info.rating.toFixed(1)+'/10');
+      out+=`<p><small>${sourceLink(info.url,'IMDb')} · ${tr('Geraadpleegd','Consulted')} ${safe(info.checked)} · ${tr('Opgeslagen momentopname; geen live score.','Cached observation; not a live rating.')}</small></p>`;
+    }
     if(r.distributor)out+=line(tr('Oorspronkelijke distributeur','Original distributor'),r.distributor);
     if(r.audit?.uncertain.length)out+=`<div class="notice">${tr('Nog te controleren: ','Still to verify: ')}${safe(r.audit.uncertain.map(auditLabel).join(', '))}</div>`;
-    if(r.release) out += line(tr('Releasedatum','Release date'),r.release);
+    if(r.release) out += line(r.dateMeaning==='US-series-premiere' ? tr('Première serie (VS)','US series premiere') : r.dateMeaning==='US-theatrical-release' ? tr('Bioscooprelease (VS)','US theatrical release') : r.dateMeaning==='release-year' ? tr('Releasejaar','Release year') : tr('Releasedatum','Release date'),r.release);
     if(r.directors) out += line(tr('Regie per aflevering','Episode directors'),r.directors);
     if(r.studio) out += line(tr('Productiestudio','Production studio'),r.studio);
     if(r.platform) out += line(tr('Streamingplatform','Streaming platform'),r.platform);
@@ -191,7 +200,7 @@ function detailContent(r) {
 }
 function certainty(value) {return ({explicit:tr('Expliciet','Explicit'),'strongly-implied':tr('Sterk geïmpliceerd','Strongly implied'),interpretive:tr('Interpretatief','Interpretive')})[value] || tr('Nog te controleren','Unverified');}
 function localizeRole(role) {return ({author:tr('Auteur','Author'),coauthor:tr('Co-auteur','Co-author'),illustrator:tr('Illustrator','Illustrator'),photographer:tr('Fotograaf','Photographer'),contributor:tr('Bijdrage aan bundel','Collection contributor'),editor:tr('Redacteur','Editor'),librettist:tr('Libretto','Libretto'),composer:tr('Muziek / liedteksten','Music / lyrics'),pseudonym:tr('Pseudoniem van Stephen King','Stephen King pseudonym')})[role]||role;}
-function auditLabel(key) {return ({publicationYear:tr('eerste publicatiejaar','first publication year'),releaseDate:tr('releasedatum','release date'),dutchEdition:tr('Nederlandse editie','Dutch edition'),cast:tr('cast','cast'),directorOrShowrunner:tr('regisseur / showrunner','director / showrunner'),sourceRelationship:tr('bronrelatie','source relationship'),tvFormat:tr('TV-formaat','TV format'),referenceMatch:tr('aanvullende broncontrole','additional source check'),firstPublicationHistory:tr('eerste-publicatiegeschiedenis','first-publication history'),completeContributorList:tr('volledige makerslijst','complete contributor list'),collectionMembership:tr('bundelrelatie','collection membership'),publicationDate:tr('publicatiedatum','publication date'),sharedSourceUrlCollision:tr('bronpagina gedeeld door verschillende remakes','source page shared by distinct remakes')})[key]||key;}
+function auditLabel(key) {return ({premiereDate:tr('exacte premièredatum','exact premiere date'),imdbRating:tr('IMDb-score','IMDb rating'),publicationYear:tr('eerste publicatiejaar','first publication year'),releaseDate:tr('releasedatum','release date'),dutchEdition:tr('Nederlandse editie','Dutch edition'),cast:tr('cast','cast'),directorOrShowrunner:tr('regisseur / showrunner','director / showrunner'),sourceRelationship:tr('bronrelatie','source relationship'),tvFormat:tr('TV-formaat','TV format'),referenceMatch:tr('aanvullende broncontrole','additional source check'),firstPublicationHistory:tr('eerste-publicatiegeschiedenis','first-publication history'),completeContributorList:tr('volledige makerslijst','complete contributor list'),collectionMembership:tr('bundelrelatie','collection membership'),publicationDate:tr('publicatiedatum','publication date'),sharedSourceUrlCollision:tr('bronpagina gedeeld door verschillende remakes','source page shared by distinct remakes')})[key]||key;}
 function workLink(w,label) {
  const all=({books:B,stories:S,films:F})[w.kind];
  const i=all?.findIndex(r=>w.id ? r.id===w.id : (w.kind==='books'?bn(r):w.kind==='stories'?sn(r):fn(r))===w.title);
@@ -231,7 +240,7 @@ function applyLang() {
   $('search').setAttribute('aria-label',tr('Zoeken','Search'));$('searchButtonLabel').textContent=tr('Zoek','Search');$('searchButton').setAttribute('aria-label',tr('Zoek in de catalogus','Search the catalog'));$('filter').setAttribute('aria-label',tr('Filter op type of bundel','Filter by type or collection'));$('sort').setAttribute('aria-label',tr('Sorteren','Sort'));$('results').setAttribute('aria-label',labelHeading());
   $('sort').options[0].textContent=tr('Chronologisch','Chronological');$('sort').options[1].textContent=tr('Alfabetisch','Alphabetical');$('close').textContent=tr('✕ Sluiten','✕ Close');
   $('stats').innerHTML = [[B.length,tr('boeken en bundels','books & collections')],[S.length,tr('verhaalvermeldingen','story entries')],[F.length,tr('film- en tv-vermeldingen','film & TV entries')],[T.length,tr('Dark Tower-links','Dark Tower links')]].map(([count,label])=>`<div class="stat"><strong>${count}</strong><span>${label}</span></div>`).join('');
-  document.querySelector('footer').innerHTML = tr('THE KINGVERSE · Editie 1.5 · Een groeiend archief; nog niet volledig geverifieerd.','THE KINGVERSE · Edition 1.5 · A growing archive; not yet fully verified.') + ` <a href="about.html">${tr('Bronnen & controlestatus','Sources & verification status')}</a> · ${sourceLink('https://openlibrary.org', 'Open Library')} 🌹`;
+  document.querySelector('footer').innerHTML = tr('THE KINGVERSE · Editie 1.5.1 · Een groeiend archief; nog niet volledig geverifieerd.','THE KINGVERSE · Edition 1.5.1 · A growing archive; not yet fully verified.') + ` <a href="about.html">${tr('Bronnen & controlestatus','Sources & verification status')}</a> · ${sourceLink('https://openlibrary.org', 'Open Library')} 🌹`;
 }
 function setLang(next) {
   lang=next; try {localStorage.setItem('kingverse-lang',next);} catch { /* Keep the language usable without storage. */ }
