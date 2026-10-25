@@ -1,0 +1,30 @@
+[
+  {
+    "id": "per:000001",
+    "entityType": "person",
+    "verification": {
+      "claimIds": [
+        "clm:000001"
+      ],
+      "open": []
+    },
+    "name": "Stephen King",
+    "aliases": [],
+    "pseudonyms": [],
+    "externalIds": {}
+  },
+  {
+    "id": "per:000002",
+    "entityType": "person",
+    "verification": {
+      "claimIds": [
+        "clm:000002"
+      ],
+      "open": []
+    },
+    "name": "Peter Straub",
+    "aliases": [],
+    "pseudonyms": [],
+    "externalIds": {}
+  }
+]

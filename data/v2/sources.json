@@ -1,0 +1,62 @@
+[
+  {
+    "id": "src:000001",
+    "entityType": "source",
+    "url": "https://stephenking.com/works/novel/talisman.html",
+    "publisher": "StephenKing.com",
+    "sourceType": "official-bibliography",
+    "publishedAt": null,
+    "observedAt": "2026-10-25",
+    "access": "available",
+    "snapshotRef": "data/reference/official.json",
+    "notes": "Rechecked structured metadata and selected character facts; not a first-edition audit."
+  },
+  {
+    "id": "src:000002",
+    "entityType": "source",
+    "url": "https://stephenking.com/works/novel/black-house.html",
+    "publisher": "StephenKing.com",
+    "sourceType": "official-bibliography",
+    "publishedAt": null,
+    "observedAt": "2026-10-25",
+    "access": "available",
+    "snapshotRef": "data/reference/official.json",
+    "notes": "Rechecked title, source release, coauthor, sequel and Jack Sawyer premise."
+  },
+  {
+    "id": "src:000003",
+    "entityType": "source",
+    "url": "https://stephenking.com/darktower/connections/",
+    "publisher": "StephenKing.com",
+    "sourceType": "official-bibliography",
+    "publishedAt": null,
+    "observedAt": "2026-10-25",
+    "access": "available",
+    "snapshotRef": "data/tower-connections.json",
+    "notes": "Concrete references and editorial confidence are distinct."
+  },
+  {
+    "id": "src:000004",
+    "entityType": "source",
+    "url": "https://www.lsuitgeverij.nl/boek/de-talisman-pod/",
+    "publisher": "Luitingh-Sijthoff",
+    "sourceType": "official-publisher",
+    "publishedAt": null,
+    "observedAt": "2026-10-25",
+    "access": "archived-snapshot",
+    "snapshotRef": "data/reference/dutch.json",
+    "notes": "Existing edition facts carried forward; publisher access not newly confirmed."
+  },
+  {
+    "id": "src:000005",
+    "entityType": "source",
+    "url": "https://www.lsuitgeverij.nl/boek/zwart-huis/",
+    "publisher": "Luitingh-Sijthoff",
+    "sourceType": "official-publisher",
+    "publishedAt": null,
+    "observedAt": "2026-10-25",
+    "access": "archived-snapshot",
+    "snapshotRef": "data/reference/dutch.json",
+    "notes": "Existing edition facts carried forward; publisher access not newly confirmed."
+  }
+]

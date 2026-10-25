@@ -1,0 +1,96 @@
+{
+  "checked": "2026-10-25",
+  "scope": "Existing four IMDb objects; no OMDb or other ratings API found in runtime or collectors.",
+  "paidServices": "prohibited",
+  "records": [
+    {
+      "legacyId": "films:carrie-2002",
+      "imdbId": "tt0319970",
+      "evidenceFile": "data/reference/screen-1.5.1.json",
+      "acquisition": "Manual transcription of indexed IMDb search observations during 1.5.1; no API or live refresh.",
+      "rating": {
+        "field": "values.imdb.rating",
+        "reviewStatus": "not-present",
+        "permissionEvidence": null
+      },
+      "description": {
+        "field": "values.imdb.summary.en",
+        "source": "https://tv.apple.com/us/movie/carrie/umc.cmc.4iz6xmn32vca6hcyv5ulbtfx",
+        "reviewStatus": "retained-original-editorial-facts",
+        "note": "Own short editorial wording; actual factual source is recorded. No source synopsis or review copied."
+      },
+      "decision": "Legacy data retained unchanged for this isolated foundation; no permission inferred and no additional IMDb content imported. Review before extending public use."
+    },
+    {
+      "legacyId": "films:carrie-2013",
+      "imdbId": "tt1939659",
+      "evidenceFile": "data/reference/screen-1.5.1.json",
+      "acquisition": "Manual transcription of indexed IMDb search observations during 1.5.1; no API or live refresh.",
+      "rating": {
+        "field": "values.imdb.rating",
+        "reviewStatus": "needs-review",
+        "permissionEvidence": null
+      },
+      "description": {
+        "field": "values.imdb.summary.en",
+        "source": "https://www.demilofilm.com/works/carrie",
+        "reviewStatus": "retained-original-editorial-facts",
+        "note": "Own short editorial wording; actual factual source is recorded. No source synopsis or review copied."
+      },
+      "decision": "Legacy data retained unchanged for this isolated foundation; no permission inferred and no additional IMDb content imported. Review before extending public use."
+    },
+    {
+      "legacyId": "films:the-dead-zone-2002",
+      "imdbId": "tt0281432",
+      "evidenceFile": "data/reference/screen-1.5.1.json",
+      "acquisition": "Manual transcription of indexed IMDb search observations during 1.5.1; no API or live refresh.",
+      "rating": {
+        "field": "values.imdb.rating",
+        "reviewStatus": "needs-review",
+        "permissionEvidence": null
+      },
+      "description": {
+        "field": "values.imdb.summary.en",
+        "source": "https://www.imdb.com/title/tt0281432/",
+        "reviewStatus": "needs-review",
+        "note": "Own short editorial wording; actual factual source is recorded. No source synopsis or review copied."
+      },
+      "decision": "Legacy data retained unchanged for this isolated foundation; no permission inferred and no additional IMDb content imported. Review before extending public use."
+    },
+    {
+      "legacyId": "films:haven-2010",
+      "imdbId": "tt1519931",
+      "evidenceFile": "data/reference/screen-1.5.1.json",
+      "acquisition": "Manual transcription of indexed IMDb search observations during 1.5.1; no API or live refresh.",
+      "rating": {
+        "field": "values.imdb.rating",
+        "reviewStatus": "needs-review",
+        "permissionEvidence": null
+      },
+      "description": {
+        "field": "values.imdb.summary.en",
+        "source": "https://www.imdb.com/title/tt1519931/",
+        "reviewStatus": "needs-review",
+        "note": "Own short editorial wording; actual factual source is recorded. No source synopsis or review copied."
+      },
+      "decision": "Legacy data retained unchanged for this isolated foundation; no permission inferred and no additional IMDb content imported. Review before extending public use."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://help.imdb.com/article/imdb/general-information/can-i-use-imdb-data-in-my-software/G5JTRESSHJBBHTGX",
+      "finding": "IMDb describes restrictions on website extraction and republication. No permission evidence for the legacy indexed observations was found."
+    },
+    {
+      "url": "https://developer.themoviedb.org/docs/faq",
+      "finding": "Potential free non-commercial alternative subject to applicable conditions and attribution. Not connected or activated."
+    }
+  ],
+  "alternatives": [
+    "Retain an external IMDb link and show rating unavailable where republication is not established.",
+    "Use own brief descriptions based on verified production facts with the actual source named.",
+    "Consider TMDb only after non-commercial eligibility and full terms are confirmed; include approved branding and the required non-endorsement notice; label any TMDb rating as TMDb, never IMDb."
+  ],
+  "credentials": "No key, account, subscription or API has been activated. No frontend keys are permitted.",
+  "limits": "This review flags uncertainty; it does not grant reuse rights, decide legality of each factual mention, or certify a provider licence."
+}

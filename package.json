@@ -1,0 +1,13 @@
+{
+  "name": "the-kingverse",
+  "version": "1.6.0",
+  "private": true,
+  "description": "Offline foundation validation; the existing static site needs no npm runtime",
+  "scripts": {
+    "test": "node --test tests/*.test.cjs",
+    "validate:foundation": "node scripts/validate_foundation.cjs"
+  },
+  "devDependencies": {
+    "ajv": "8.20.0"
+  }
+}

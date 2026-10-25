@@ -1,12 +1,12 @@
 # The Kingverse 1.6 — uitvoerbare ontwikkelroadmap
 
-Status: ontwerp, geen implementatieautorisatie binnen deze documentatieopdracht. Peildatum: 25 oktober 2026. Basis: applicatie 1.5.1, commit `ca5f336f72ad6c41a28e30d3ac79a4667b5c9032`. Het gekozen domeinmodel, de bronhiërarchie en het concrete Talisman-voorbeeld staan in [ARCHITECTURE.md](ARCHITECTURE.md).
+Status: fase 1 foundation uitgevoerd; verdere migratie en Explorer nog gepland. Peildatum: 25 oktober 2026. Basis: applicatie 1.5.1, commit `ca5f336f72ad6c41a28e30d3ac79a4667b5c9032`. Het gekozen domeinmodel, de bronhiërarchie en het concrete Talisman-voorbeeld staan in [ARCHITECTURE.md](ARCHITECTURE.md).
 
 ## Uitvoeringskeuzes en volgorde
 
 Behoud de bestaande GitHub Pages-site, identiteit, deelbare routes, zoekknop/Enter/live zoeken, filters, taalwisseling en modalfunctionaliteit tijdens migratie. Bouw eerst Engelse informatie en navigatie. Breid Nederlandse inhoud en afbeeldingen pas uit in een later door de gebruiker gekozen traject; migreer bestaande NL- en beeldgegevens wel zonder verlies.
 
-Werk in kleine gecontroleerde releases, met offline reproduceerbare builds, gerichte tests en vergelijking tegen de vorige dataset. Voer iedere volgende fase pas uit na de acceptatiepoort van haar afhankelijkheden. De fasen hieronder zijn concrete werkpakketten, geen reeds ingeplande taken of tijdsbeloften. Deze opdracht levert uitsluitend de twee ontwerpdocumenten op.
+Werk in kleine gecontroleerde releases, met offline reproduceerbare builds, gerichte tests en vergelijking tegen de vorige dataset. Voer iedere volgende fase pas uit na de acceptatiepoort van haar afhankelijkheden. De fasen hieronder zijn concrete werkpakketten, geen reeds ingeplande taken of tijdsbeloften. De foundation levert de beperkte v2-proef, register, schema, validator, compatibiliteitsadapter, tests en bijgewerkte documentatie op.
 
 ```mermaid
 flowchart LR
@@ -26,7 +26,7 @@ De volledige spoilerbediening zit in fase 6, maar het dataschema krijgt spoilerl
 
 ## Fase 1 — canoniek datamodel en begrensde migratieproef
 
-**Doel en op te leveren werk.** Voeg bij een latere implementatie JSON Schema draft 2020-12, een vast ID-/aliasregister en een offline integriteitsvalidator toe. Leg works, collections, editions, adaptations, people, characters, locations, connections en sources vast, plus claims, credits, memberships, publicationEvents en artworks. Controleer bestaande bijdragegenres naast fictie. Iedere bronclaim bewaart veldscope, toegangsstatus, datumprecisie en onafhankelijke bevestiging apart van interpretatiezekerheid.
+**Doel en op te leveren werk.** Uitgevoerd in de foundation: JSON Schema draft 2020-12, een vast opaque ID-/aliasregister en een offline integriteitsvalidator. Leg works, collections, editions, adaptations, people, characters, locations, connections en sources vast, plus claims, credits, memberships, publicationEvents en artworks. Controleer bestaande bijdragegenres naast fictie. Iedere bronclaim bewaart veldscope, toegangsstatus, datumprecisie en onafhankelijke bevestiging apart van interpretatiezekerheid.
 
 Maak een minimale fixture voor The Talisman en Black House: twee werken, twee schrijvers, twee bestaande Talisman-editievoorbeelden, sequel-relatie, twee gecontroleerde personages, de Territories, claim-/bronrecords en de oude route-aliases. Neem geen onbevestigd ISBN of adaptatieproject op als vastgesteld feit. De voorgestelde records staan eerst in een aparte proef; de live catalogus wordt nog niet omgeschakeld.
 
@@ -34,7 +34,7 @@ Maak een minimale fixture voor The Talisman en Black House: twee werken, twee sc
 
 **Risico’s en maatregelen.** Titel-slugs kunnen botsen; zet IDs eenmalig vast en toets registeruniciteit. Dezelfde titel kan een verhaal en een bundel zijn; de getypeerde identiteit bepaalt het verschil. Onvolledige edities mogen niet alsnog eerste drukken worden; bewaak `identityStatus` en claimscope. Maak geen generiek grafieksysteem dat credits en uitgaven hun specifieke betekenis ontneemt.
 
-**Acceptatiecriteria.** De Talisman-fixture valideert volledig, alle verwijzingen bestaan en beide schrijvers hebben gelijkwaardige tekstcredits. `1984-11` behoudt maandprecisie; ISBN/druk van het EN-editievoorbeeld blijft onbekend. Bestaande IDs en routes veranderen niet. De fixture kan een expliciete sequel en een interpretatief kosmologieverband onderscheiden. De proef schrijft niet naar bestaande publieke bestanden.
+**Acceptatiecriteria.** De Talisman-fixture valideert volledig, alle verwijzingen bestaan en beide schrijvers hebben gelijkwaardige tekstcredits. `1984-11` behoudt maandprecisie; ISBN/druk van het EN-editievoorbeeld blijft onbekend. Bestaande IDs en routes blijven als legacy-alias bereikbaar; nieuwe canonieke IDs zijn titelonafhankelijk. De fixture kan een expliciete sequel en een interpretatief kosmologieverband onderscheiden. De proef schrijft niet naar bestaande publieke bestanden.
 
 **Benodigde tests.** Positieve fixture; negatieve gevallen voor dubbele IDs, verkeerd entiteittype, ontbrekende bron, losse referentie, ongeldige dagprecisie, onbekend predicate, tegenstrijdige ISBN-toewijzing en spoilergevoelige alias zonder label. Test dat één naamalias geen automatische merge veroorzaakt. De bestaande 26 tests blijven groen.
 
@@ -102,19 +102,19 @@ Genereer met een adapter bestaande DB-/MEDIA-weergaven uit de nieuwe gegevens. E
 
 **Benodigde tests.** Matrix van vier niveaus, ontbrekende labels, meerdere werkcontexten, corrupte/opgeslagen oude voorkeuren, uitgeschakelde opslag, toetsenbordbediening en screenreader-teksten. Inspecteer initiële HTML/JSON-LD, index en dynamische DOM op spoilerlekken, ook na taalwissel en browser Back.
 
-## Fase 7 — uitgebreide adaptatiepagina’s en officiële IMDb-API
+## Fase 7 — uitgebreide adaptatiepagina’s en toegestane kosteloze bronnen
 
-**Doel en op te leveren werk.** Genereer aparte adaptatiepagina’s met bronwerken, type relatie, cast/rollen, makerscredits, regionale release-events, productiegeschiedenis, korte eigen omschrijving en IMDb-gebruikersscore met bron/datum. Maak de officiële IMDb GraphQL-API via AWS Data Exchange de voorkeursimportadapter. Er komt geen OMDb-integratie.
+**Doel en op te leveren werk.** Aparte adaptatiepagina’s met bronwerken, cast/rollen, credits, regionale releases, projectgeschiedenis, korte eigen omschrijvingen en alleen aantoonbaar toegestane beoordelingen. De eigenaar heeft de betaalde IMDb-API en abonnementen uitgesloten. Er wordt geen OMDb- of betaalde vervangende koppeling ontworpen. Officiële productiebronnen blijven leidend.
 
-De import is een afzonderlijk, aanvankelijk handmatig gestart werkproces, buiten de browser en normale offline build. Sla credentials afgeschermd op; commit/publiceer uitsluitend contractueel toegestane velden, provenance en timestamps. Controleer schema, exacte IMDb-ID, serie versus aflevering, titel/jaar, `null`/`N/A`, scorebereik, quota en kosten vóór review. Een API levert kandidaten en waarnemingen, geen automatische correctie van productiebronnen. Laat bij fouten de laatst geldige toegestane data staan en verwijder verlopen scoreweergave bij een contractuele bewaartermijn.
+De huidige vier legacy-IMDb-objecten zijn handmatige waarnemingen uit geïndexeerde resultaten. Drie scores en twee IMDb-gebaseerde beschrijvingen hebben status `needs-review` in `data/reviews/screen-data-rights.json`. Bewijs van hergebruikstoestemming ontbreekt. Eerst toestemming onderbouwen of vervangen/weglaten bij uitbreiding; geen automatische uitbreiding vanuit webextractie. De twee Carrie-beschrijvingen zijn eigen tekst op andere expliciet geregistreerde bronfeiten. De foundation laat deze bestaande data intact en importeert ze niet als toegestane nieuwe v2-scores.
 
-**Afhankelijkheden.** Fase 3 en 6, credits/source-workmigratie, bruikbare adaptation-IDs. Voor daadwerkelijke API-import: passend IMDb-pakket/toegang, expliciete toestemming voor kosten en vastgelegde rechten voor publieke weergave/caching/omschrijvingen/attributie. [Officiële API-documentatie](https://data.imdb.com/documentation) en [IMDb-gebruiksvoorwaarden voor softwaredata](https://help.imdb.com/article/imdb/general-information/can-i-use-imdb-data-in-my-software/G5JTRESSHJBBHTGX) zijn hierbij leidend. Er is nog geen API-key of abonnement aangemaakt, en geen kostenschatting zonder gekozen pakket.
+**Afhankelijkheden.** Fase 3 en 6, stabiele adaptatie-IDs en productie-evidence. Als kosteloos alternatief is TMDb alleen onderzocht: niet-commercieel gebruik, volledige toepasselijke voorwaarden, juiste attributie en gecontroleerde toegang moeten vóór aansluiting zijn vastgesteld. Een TMDb-score heet TMDb en krijgt eigen provider-ID, datum en provenance. Geen account, key of betaalde dienst activeren als onderdeel van deze foundation.
 
-**Risico’s en maatregelen.** Verkeerde remake, onjuist live-label, uitlekkende key, ongeoorloofde publicatie of stale status. Koppel uitsluitend exact geverifieerde IMDb-IDs. Toon provider, schaal, waarnemingsdatum en bekende bronupdatedatum. Geen API-secret in frontend, logs, repository of buildartefact. Laat onbedoelde netwerkcalls falen in gewone builds. Importeer geen synopsis/reviews in bulk. IMDb-rechten voor de bestaande vier records moeten vóór uitbreiding expliciet worden beoordeeld; oude webwaarnemingen bewijzen geen licentie.
+**Risico’s en maatregelen.** Verkeerde remake, verkeerd providerlabel, onbewezen rechten, geheime key in publieke code en verouderde status. Gebruik exacte leverancier-IDs en eigen bronvelden. Een eventuele toegestane kosteloze import draait buiten de browser, los van de offline build; credentials blijven buiten repository, frontend, logs en publicatiebestanden. Toon een eerlijke ontbrekende-scorestatus en externe verwijzing als er geen toegestane score is. Maak eigen korte beschrijvingen uit verifieerbare productiefeiten; geen synopsis/reviews kopiëren.
 
-**Acceptatiecriteria.** Carrie 1976/2002/2013/2026 blijven aparte producties. The Dead Zone-film en serie, evenals Firestarter 1984/2022, behouden juiste credits en bronwerken. Haven toont “inspired by”. Een onbevestigd Talisman-project krijgt geen release of score van een gelijknamige productie. API-fouten blokkeren de site niet. Zonder gelicentieerde toegang verschijnen geen nieuw geïmporteerde IMDb-waarden; gewone bronpagina’s en links blijven bruikbaar. De site noemt opgeslagen scores nooit live.
+**Acceptatiecriteria.** Carrie-remakes, The Dead Zone-film/serie en Firestarter 1984/2022 behouden aparte identiteiten. Haven toont inspired-by. Een onbevestigd Talisman-project krijgt geen release, productieclaim of score van een gelijknamige titel. Geen nieuwe numerieke score zonder `reuseStatus: allowed`; provider, datum en schaal zichtbaar. Geen betaalde integratie of afhankelijkheid voor normaal bezoek.
 
-**Benodigde tests.** Mock-API met verkeerd IMDb-ID, ontbrekende rating/votes, buitenbereikscore, ontbrekende synopsis, rate-limit, timeout, schemawijziging, ingetrokken toegang en verlopen gebruikstermijn. Test remakes, statusgeschiedenis, regionale datums, oorspronkelijke scenario’s en meervoudige bronwerken. Controleer publicatieartefact/logs op credentials en volledige API-responsen. Browsercontrole van bronnen, scorestatus, omschrijvingsfallback en spoilerinstelling. Gebruik geen betaald verzoek voor een unit-test.
+**Benodigde tests.** Ontbrekende score, verkeerde provider-ID, ongeldige schaal, ingetrokken/ontbrekende hergebruikstoestemming, ontbreken van verplichte attributie, eventuele import-timeout/rate-limit, verkeerde remake en onbedoelde netwerkcalls. Inspecteer artefact/logs op credentials. Browsercontrole van bronnen, omschrijvingsfallback en spoilerbeleid. Tests gebruiken uitsluitend lokale fixtures, geen betaald verzoek.
 
 ## Fase 8 — persoonlijke lees- en kijklijsten
 
@@ -138,10 +138,14 @@ De import is een afzonderlijk, aanvankelijk handmatig gestart werkproces, buiten
 
 ## Eerste concrete ontwikkelstap na dit ontwerp
 
-Implementeer uitsluitend fase 1: één schema-contract, vast ID-/aliasregister, offline validator en de afgebakende Talisman/Black House-fixture in een aparte proef. Lever een validatierapport dat alle referenties oplost, bestaande IDs behoudt en onzekere velden intact laat. Laat de bestaande `catalog.js`, `media.js`, applicatie en live routes in die eerste stap ongewijzigd.
+Fase 1 is nu geïmplementeerd: schema-contract, opaque ID-/aliasregister, offline validator en afgebakende Talisman/Black House-fixture staan naast de actieve catalogus. Het validatierapport bevestigt opgeloste referenties, behouden legacy-aliases en intacte onzekerheden. De bestaande `catalog.js`, `media.js`, applicatie en live routes zijn ongewijzigd gebleven. Volgende stap is een eerste Engelse Explorer-preview die deze beperkte data gebruikt, met behoud van de legacycatalogus; de volledige fase-2-migratie wordt daardoor niet stilzwijgend geautoriseerd.
 
-Daarmee wordt de moeilijkste keuze vroeg toetsbaar: kan het nieuwe model publicatie, bundel, editie, co-auteurschap en onderbouwde verbindingen uitdrukken zonder de bestaande gegevens te vervormen? Pas na dat bewijs volgt de volledige migratie. IMDb-toegang hoeft deze eerste stap niet te blokkeren.
+Daarmee wordt de moeilijkste keuze vroeg toetsbaar: kan het nieuwe model publicatie, bundel, editie, co-auteurschap en onderbouwde verbindingen uitdrukken zonder de bestaande gegevens te vervormen? Pas na dat bewijs volgt de volledige migratie. Betaalde IMDb-toegang is uitgesloten; een ontbrekende aanvullende score blokkeert de Explorer niet.
 
-## Controle van deze ontwerpoplevering
+## Controle van ontwerp en foundation
 
-De twee documenten zijn vergeleken met `AGENTS.md`, `DATA-QUALITY.md`, `VALIDATION.md`, huidige generatoren, runtime, catalogus, bronrecords en Git-historie. De correctie “IMDb, geen OMDb” en de vraag naar API-gebruik zijn verwerkt. Technische bronnen zijn officiële GitHub-/IMDb-documentatie; het Talisman-voorbeeld vermeldt feitelijke bronnen en toegangslimieten. JSON-voorbeeld, lokale documentlinks, tellingen en documentatiescope worden vóór commit gecontroleerd. Deze ontwerpoplevering voert geen nieuwe bronimport, datamigratie, applicatiebuild, API-aanmelding of functionele wijziging uit.
+De twee documenten zijn vergeleken met `AGENTS.md`, `DATA-QUALITY.md`, `VALIDATION.md`, huidige generatoren, runtime, catalogus, bronrecords en Git-historie. De correctie “IMDb, geen OMDb” en de vraag naar API-gebruik zijn verwerkt. Technische bronnen zijn officiële GitHub-/IMDb-documentatie; het Talisman-voorbeeld vermeldt feitelijke bronnen en toegangslimieten. JSON-voorbeeld, lokale documentlinks, tellingen en documentatiescope worden vóór commit gecontroleerd. De foundation migreert uitsluitend de twee genoemde werken naast de oude data. Geen volledige bronimport, runtimeomschakeling, nieuwe Explorer, API-aanmelding of betaald abonnement. Zie `FOUNDATION-DELIVERY.md` voor validator- en testresultaten.
+
+## Foundationstatus
+
+Fase 1 is uitgevoerd als gecontroleerde schaduwproef. De schema’s ondersteunen alle voorziene entiteiten, ook de lege bundel-/adaptatietabellen. De compatibiliteitsadapter controleert oude identifiers, routes, editions/covers en bestaande viewfeiten. De bestaande runtime blijft autoriteit voor de live site. De in deze foundation toegevoegde API-/rechtenbeslissing vervangt alle eerdere betaalde IMDb-plannen. Verdere migratie, interactieve pagina’s en aanvullende databronnen zijn afzonderlijke fasen.

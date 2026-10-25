@@ -50,3 +50,19 @@ See `VALIDATION.md` for performed browser checks and `DATA-QUALITY.md` for sourc
 Image research is a separate later phase at the user’s request. `scripts/check_images.py` checks availability and makes temporary contact sheets; it never automatically approves a candidate. Only records explicitly approved in `data/image-review.json` enter the public artwork mappings. Do not create own covers for collected stories or use story illustrations as edition evidence.
 
 Publish tested, reviewed changes to `origin/main` without force push. GitHub Pages serves the repository root. Verify the deployment commit and the actual live files separately.
+
+## 1.6 foundation (shadow dataset)
+
+The live site continues to use the unchanged 1.5.1 `catalog.js` / `media.js`. Only The Talisman and Black House have been represented in the separate v2 proof of concept; this is not a complete catalog migration or a new Explorer page.
+
+```sh
+npm ci --ignore-scripts
+npm run validate:foundation
+npm test
+```
+
+Node.js 20 or later and npm are needed for these developer commands. Ajv is a pinned development dependency, never a browser dependency. After installation the validator and tests run offline. `npm run validate:foundation` is read-only and exits nonzero on schema, reference, provenance, role, membership, date/ISBN, cover, ID/route or legacy-compatibility errors. It also checks the hashes of the unchanged live runtime files.
+
+`schemas/foundation.schema.json` defines the entities. `data/v2/` contains their separate tables, a permanent opaque ID/legacy-alias registry and the baseline manifest. `scripts/foundation_compat.cjs` resolves legacy references and produces a shadow projection of migrated view facts; it does not replace the active runtime router. Existing source snapshots remain the migration evidence.
+
+No paid IMDb API or other paid service is planned or activated. Actual legacy IMDb acquisition and unresolved reuse permissions are recorded in `data/reviews/screen-data-rights.json`; no OMDb integration was found. TMDb was only researched as a conditional free alternative, not connected. See `FOUNDATION-DELIVERY.md`, `ARCHITECTURE.md`, `ROADMAP.md` and the generated `DATA-QUALITY.md`.

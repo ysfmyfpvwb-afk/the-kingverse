@@ -1,0 +1,2276 @@
+[
+  {
+    "id": "clm:000001",
+    "entityType": "claim",
+    "subject": {
+      "type": "person",
+      "id": "per:000001"
+    },
+    "fieldPath": "/name",
+    "value": "Stephen King",
+    "sourceIds": [
+      "src:000001",
+      "src:000002"
+    ],
+    "locator": "Written With / author attribution",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Official source supports this field; no independent confirmation claimed."
+  },
+  {
+    "id": "clm:000002",
+    "entityType": "claim",
+    "subject": {
+      "type": "person",
+      "id": "per:000002"
+    },
+    "fieldPath": "/name",
+    "value": "Peter Straub",
+    "sourceIds": [
+      "src:000001",
+      "src:000002"
+    ],
+    "locator": "Written With / author attribution",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Official source supports this field; no independent confirmation claimed."
+  },
+  {
+    "id": "clm:000003",
+    "entityType": "claim",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000001"
+    },
+    "fieldPath": "/kind",
+    "value": "novel",
+    "sourceIds": [
+      "src:000001"
+    ],
+    "locator": "Structured metadata",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Official source supports this field; no independent confirmation claimed."
+  },
+  {
+    "id": "clm:000004",
+    "entityType": "claim",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000001"
+    },
+    "fieldPath": "/originalTitle",
+    "value": "The Talisman",
+    "sourceIds": [
+      "src:000001"
+    ],
+    "locator": "Structured metadata",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Official source supports this field; no independent confirmation claimed."
+  },
+  {
+    "id": "clm:000005",
+    "entityType": "claim",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000001"
+    },
+    "fieldPath": "/originalLanguage",
+    "value": "en",
+    "sourceIds": [
+      "src:000001"
+    ],
+    "locator": "Structured metadata",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Official source supports this field; no independent confirmation claimed."
+  },
+  {
+    "id": "clm:000006",
+    "entityType": "claim",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000001"
+    },
+    "fieldPath": "/aliases",
+    "value": [
+      {
+        "language": "nl",
+        "value": "De talisman",
+        "spoiler": {
+          "level": "none",
+          "workIds": []
+        }
+      }
+    ],
+    "sourceIds": [
+      "src:000004"
+    ],
+    "locator": "Structured metadata",
+    "status": "provisional",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Retained translated title from the existing publisher snapshot; no new translation research."
+  },
+  {
+    "id": "clm:000007",
+    "entityType": "claim",
+    "subject": {
+      "type": "credit",
+      "id": "crd:000001"
+    },
+    "fieldPath": "/personId",
+    "value": "per:000001",
+    "sourceIds": [
+      "src:000001"
+    ],
+    "locator": "Written With / author attribution",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Official source supports this field; no independent confirmation claimed."
+  },
+  {
+    "id": "clm:000008",
+    "entityType": "claim",
+    "subject": {
+      "type": "credit",
+      "id": "crd:000001"
+    },
+    "fieldPath": "/subject",
+    "value": {
+      "type": "work",
+      "id": "wrk:000001"
+    },
+    "sourceIds": [
+      "src:000001"
+    ],
+    "locator": "Written With / author attribution",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Official source supports this field; no independent confirmation claimed."
+  },
+  {
+    "id": "clm:000009",
+    "entityType": "claim",
+    "subject": {
+      "type": "credit",
+      "id": "crd:000001"
+    },
+    "fieldPath": "/role",
+    "value": "coauthor",
+    "sourceIds": [
+      "src:000001"
+    ],
+    "locator": "Written With / author attribution",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Official source supports this field; no independent confirmation claimed."
+  },
+  {
+    "id": "clm:000010",
+    "entityType": "claim",
+    "subject": {
+      "type": "credit",
+      "id": "crd:000001"
+    },
+    "fieldPath": "/scope",
+    "value": "whole-text",
+    "sourceIds": [
+      "src:000001"
+    ],
+    "locator": "Written With / author attribution",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Official source supports this field; no independent confirmation claimed."
+  },
+  {
+    "id": "clm:000011",
+    "entityType": "claim",
+    "subject": {
+      "type": "credit",
+      "id": "crd:000002"
+    },
+    "fieldPath": "/personId",
+    "value": "per:000002",
+    "sourceIds": [
+      "src:000001"
+    ],
+    "locator": "Written With / author attribution",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Official source supports this field; no independent confirmation claimed."
+  },
+  {
+    "id": "clm:000012",
+    "entityType": "claim",
+    "subject": {
+      "type": "credit",
+      "id": "crd:000002"
+    },
+    "fieldPath": "/subject",
+    "value": {
+      "type": "work",
+      "id": "wrk:000001"
+    },
+    "sourceIds": [
+      "src:000001"
+    ],
+    "locator": "Written With / author attribution",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Official source supports this field; no independent confirmation claimed."
+  },
+  {
+    "id": "clm:000013",
+    "entityType": "claim",
+    "subject": {
+      "type": "credit",
+      "id": "crd:000002"
+    },
+    "fieldPath": "/role",
+    "value": "coauthor",
+    "sourceIds": [
+      "src:000001"
+    ],
+    "locator": "Written With / author attribution",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Official source supports this field; no independent confirmation claimed."
+  },
+  {
+    "id": "clm:000014",
+    "entityType": "claim",
+    "subject": {
+      "type": "credit",
+      "id": "crd:000002"
+    },
+    "fieldPath": "/scope",
+    "value": "whole-text",
+    "sourceIds": [
+      "src:000001"
+    ],
+    "locator": "Written With / author attribution",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Official source supports this field; no independent confirmation claimed."
+  },
+  {
+    "id": "clm:000015",
+    "entityType": "claim",
+    "subject": {
+      "type": "publication",
+      "id": "pub:000001"
+    },
+    "fieldPath": "/subject",
+    "value": {
+      "type": "work",
+      "id": "wrk:000001"
+    },
+    "sourceIds": [
+      "src:000001"
+    ],
+    "locator": "Released / Publisher",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Official source supports this field; no independent confirmation claimed."
+  },
+  {
+    "id": "clm:000016",
+    "entityType": "claim",
+    "subject": {
+      "type": "publication",
+      "id": "pub:000001"
+    },
+    "fieldPath": "/eventType",
+    "value": "source-reported-release",
+    "sourceIds": [
+      "src:000001"
+    ],
+    "locator": "Released / Publisher",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Official source supports this field; no independent confirmation claimed."
+  },
+  {
+    "id": "clm:000017",
+    "entityType": "claim",
+    "subject": {
+      "type": "publication",
+      "id": "pub:000001"
+    },
+    "fieldPath": "/date",
+    "value": {
+      "value": "1984-11",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "sourceIds": [
+      "src:000001"
+    ],
+    "locator": "Released / Publisher",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Official source supports this field; no independent confirmation claimed."
+  },
+  {
+    "id": "clm:000018",
+    "entityType": "claim",
+    "subject": {
+      "type": "publication",
+      "id": "pub:000001"
+    },
+    "fieldPath": "/publisher",
+    "value": "G.P. Putnam's & Sons",
+    "sourceIds": [
+      "src:000001"
+    ],
+    "locator": "Released / Publisher",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Official source supports this field; no independent confirmation claimed."
+  },
+  {
+    "id": "clm:000019",
+    "entityType": "claim",
+    "subject": {
+      "type": "edition",
+      "id": "edn:000001"
+    },
+    "fieldPath": "/publicationOf",
+    "value": {
+      "type": "work",
+      "id": "wrk:000001"
+    },
+    "sourceIds": [
+      "src:000004"
+    ],
+    "locator": "Structured metadata",
+    "status": "provisional",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Existing edition example retained; precise printing and date remain unconfirmed."
+  },
+  {
+    "id": "clm:000020",
+    "entityType": "claim",
+    "subject": {
+      "type": "edition",
+      "id": "edn:000001"
+    },
+    "fieldPath": "/language",
+    "value": "nl",
+    "sourceIds": [
+      "src:000004"
+    ],
+    "locator": "Structured metadata",
+    "status": "provisional",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Existing edition example retained; precise printing and date remain unconfirmed."
+  },
+  {
+    "id": "clm:000021",
+    "entityType": "claim",
+    "subject": {
+      "type": "edition",
+      "id": "edn:000001"
+    },
+    "fieldPath": "/title",
+    "value": "De talisman (POD)",
+    "sourceIds": [
+      "src:000004"
+    ],
+    "locator": "Structured metadata",
+    "status": "provisional",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Existing edition example retained; precise printing and date remain unconfirmed."
+  },
+  {
+    "id": "clm:000022",
+    "entityType": "claim",
+    "subject": {
+      "type": "edition",
+      "id": "edn:000001"
+    },
+    "fieldPath": "/isbn13",
+    "value": "9789021037400",
+    "sourceIds": [
+      "src:000004"
+    ],
+    "locator": "Structured metadata",
+    "status": "provisional",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Existing edition example retained; precise printing and date remain unconfirmed."
+  },
+  {
+    "id": "clm:000023",
+    "entityType": "claim",
+    "subject": {
+      "type": "artwork",
+      "id": "art:000001"
+    },
+    "fieldPath": "/kind",
+    "value": "cover",
+    "sourceIds": [
+      "src:000004"
+    ],
+    "locator": "Structured metadata",
+    "status": "provisional",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Retained existing cover mapping; no new image fetching or rights approval."
+  },
+  {
+    "id": "clm:000024",
+    "entityType": "claim",
+    "subject": {
+      "type": "artwork",
+      "id": "art:000001"
+    },
+    "fieldPath": "/editionId",
+    "value": "edn:000001",
+    "sourceIds": [
+      "src:000004"
+    ],
+    "locator": "Structured metadata",
+    "status": "provisional",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Retained existing cover mapping; no new image fetching or rights approval."
+  },
+  {
+    "id": "clm:000025",
+    "entityType": "claim",
+    "subject": {
+      "type": "artwork",
+      "id": "art:000001"
+    },
+    "fieldPath": "/url",
+    "value": "https://www.lsuitgeverij.nl/wp-content/uploads/2026/10/9789021037400_frontcover_original.jpg",
+    "sourceIds": [
+      "src:000004"
+    ],
+    "locator": "Structured metadata",
+    "status": "provisional",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Retained existing cover mapping; no new image fetching or rights approval."
+  },
+  {
+    "id": "clm:000026",
+    "entityType": "claim",
+    "subject": {
+      "type": "artwork",
+      "id": "art:000001"
+    },
+    "fieldPath": "/language",
+    "value": "nl",
+    "sourceIds": [
+      "src:000004"
+    ],
+    "locator": "Structured metadata",
+    "status": "provisional",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Retained existing cover mapping; no new image fetching or rights approval."
+  },
+  {
+    "id": "clm:000027",
+    "entityType": "claim",
+    "subject": {
+      "type": "edition",
+      "id": "edn:000002"
+    },
+    "fieldPath": "/publicationOf",
+    "value": {
+      "type": "work",
+      "id": "wrk:000001"
+    },
+    "sourceIds": [
+      "src:000001"
+    ],
+    "locator": "Structured metadata",
+    "status": "provisional",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Existing edition example retained; precise printing and date remain unconfirmed."
+  },
+  {
+    "id": "clm:000028",
+    "entityType": "claim",
+    "subject": {
+      "type": "edition",
+      "id": "edn:000002"
+    },
+    "fieldPath": "/language",
+    "value": "en",
+    "sourceIds": [
+      "src:000001"
+    ],
+    "locator": "Structured metadata",
+    "status": "provisional",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Existing edition example retained; precise printing and date remain unconfirmed."
+  },
+  {
+    "id": "clm:000029",
+    "entityType": "claim",
+    "subject": {
+      "type": "edition",
+      "id": "edn:000002"
+    },
+    "fieldPath": "/title",
+    "value": "The Talisman",
+    "sourceIds": [
+      "src:000001"
+    ],
+    "locator": "Structured metadata",
+    "status": "provisional",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Existing edition example retained; precise printing and date remain unconfirmed."
+  },
+  {
+    "id": "clm:000030",
+    "entityType": "claim",
+    "subject": {
+      "type": "artwork",
+      "id": "art:000002"
+    },
+    "fieldPath": "/kind",
+    "value": "cover",
+    "sourceIds": [
+      "src:000001"
+    ],
+    "locator": "Structured metadata",
+    "status": "provisional",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Retained existing cover mapping; no new image fetching or rights approval."
+  },
+  {
+    "id": "clm:000031",
+    "entityType": "claim",
+    "subject": {
+      "type": "artwork",
+      "id": "art:000002"
+    },
+    "fieldPath": "/editionId",
+    "value": "edn:000002",
+    "sourceIds": [
+      "src:000001"
+    ],
+    "locator": "Structured metadata",
+    "status": "provisional",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Retained existing cover mapping; no new image fetching or rights approval."
+  },
+  {
+    "id": "clm:000032",
+    "entityType": "claim",
+    "subject": {
+      "type": "artwork",
+      "id": "art:000002"
+    },
+    "fieldPath": "/url",
+    "value": "https://stephenking.com/images/books/talisman/hardcover_prop_embed.jpg",
+    "sourceIds": [
+      "src:000001"
+    ],
+    "locator": "Structured metadata",
+    "status": "provisional",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Retained existing cover mapping; no new image fetching or rights approval."
+  },
+  {
+    "id": "clm:000033",
+    "entityType": "claim",
+    "subject": {
+      "type": "artwork",
+      "id": "art:000002"
+    },
+    "fieldPath": "/language",
+    "value": "en",
+    "sourceIds": [
+      "src:000001"
+    ],
+    "locator": "Structured metadata",
+    "status": "provisional",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Retained existing cover mapping; no new image fetching or rights approval."
+  },
+  {
+    "id": "clm:000034",
+    "entityType": "claim",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000002"
+    },
+    "fieldPath": "/kind",
+    "value": "novel",
+    "sourceIds": [
+      "src:000002"
+    ],
+    "locator": "Structured metadata",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Official source supports this field; no independent confirmation claimed."
+  },
+  {
+    "id": "clm:000035",
+    "entityType": "claim",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000002"
+    },
+    "fieldPath": "/originalTitle",
+    "value": "Black House",
+    "sourceIds": [
+      "src:000002"
+    ],
+    "locator": "Structured metadata",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Official source supports this field; no independent confirmation claimed."
+  },
+  {
+    "id": "clm:000036",
+    "entityType": "claim",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000002"
+    },
+    "fieldPath": "/originalLanguage",
+    "value": "en",
+    "sourceIds": [
+      "src:000002"
+    ],
+    "locator": "Structured metadata",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Official source supports this field; no independent confirmation claimed."
+  },
+  {
+    "id": "clm:000037",
+    "entityType": "claim",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000002"
+    },
+    "fieldPath": "/aliases",
+    "value": [
+      {
+        "language": "nl",
+        "value": "Zwart huis",
+        "spoiler": {
+          "level": "none",
+          "workIds": []
+        }
+      }
+    ],
+    "sourceIds": [
+      "src:000005"
+    ],
+    "locator": "Structured metadata",
+    "status": "provisional",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Retained translated title from the existing publisher snapshot; no new translation research."
+  },
+  {
+    "id": "clm:000038",
+    "entityType": "claim",
+    "subject": {
+      "type": "credit",
+      "id": "crd:000003"
+    },
+    "fieldPath": "/personId",
+    "value": "per:000001",
+    "sourceIds": [
+      "src:000002"
+    ],
+    "locator": "Written With / author attribution",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Official source supports this field; no independent confirmation claimed."
+  },
+  {
+    "id": "clm:000039",
+    "entityType": "claim",
+    "subject": {
+      "type": "credit",
+      "id": "crd:000003"
+    },
+    "fieldPath": "/subject",
+    "value": {
+      "type": "work",
+      "id": "wrk:000002"
+    },
+    "sourceIds": [
+      "src:000002"
+    ],
+    "locator": "Written With / author attribution",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Official source supports this field; no independent confirmation claimed."
+  },
+  {
+    "id": "clm:000040",
+    "entityType": "claim",
+    "subject": {
+      "type": "credit",
+      "id": "crd:000003"
+    },
+    "fieldPath": "/role",
+    "value": "coauthor",
+    "sourceIds": [
+      "src:000002"
+    ],
+    "locator": "Written With / author attribution",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Official source supports this field; no independent confirmation claimed."
+  },
+  {
+    "id": "clm:000041",
+    "entityType": "claim",
+    "subject": {
+      "type": "credit",
+      "id": "crd:000003"
+    },
+    "fieldPath": "/scope",
+    "value": "whole-text",
+    "sourceIds": [
+      "src:000002"
+    ],
+    "locator": "Written With / author attribution",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Official source supports this field; no independent confirmation claimed."
+  },
+  {
+    "id": "clm:000042",
+    "entityType": "claim",
+    "subject": {
+      "type": "credit",
+      "id": "crd:000004"
+    },
+    "fieldPath": "/personId",
+    "value": "per:000002",
+    "sourceIds": [
+      "src:000002"
+    ],
+    "locator": "Written With / author attribution",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Official source supports this field; no independent confirmation claimed."
+  },
+  {
+    "id": "clm:000043",
+    "entityType": "claim",
+    "subject": {
+      "type": "credit",
+      "id": "crd:000004"
+    },
+    "fieldPath": "/subject",
+    "value": {
+      "type": "work",
+      "id": "wrk:000002"
+    },
+    "sourceIds": [
+      "src:000002"
+    ],
+    "locator": "Written With / author attribution",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Official source supports this field; no independent confirmation claimed."
+  },
+  {
+    "id": "clm:000044",
+    "entityType": "claim",
+    "subject": {
+      "type": "credit",
+      "id": "crd:000004"
+    },
+    "fieldPath": "/role",
+    "value": "coauthor",
+    "sourceIds": [
+      "src:000002"
+    ],
+    "locator": "Written With / author attribution",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Official source supports this field; no independent confirmation claimed."
+  },
+  {
+    "id": "clm:000045",
+    "entityType": "claim",
+    "subject": {
+      "type": "credit",
+      "id": "crd:000004"
+    },
+    "fieldPath": "/scope",
+    "value": "whole-text",
+    "sourceIds": [
+      "src:000002"
+    ],
+    "locator": "Written With / author attribution",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Official source supports this field; no independent confirmation claimed."
+  },
+  {
+    "id": "clm:000046",
+    "entityType": "claim",
+    "subject": {
+      "type": "publication",
+      "id": "pub:000002"
+    },
+    "fieldPath": "/subject",
+    "value": {
+      "type": "work",
+      "id": "wrk:000002"
+    },
+    "sourceIds": [
+      "src:000002"
+    ],
+    "locator": "Released / Publisher",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Official source supports this field; no independent confirmation claimed."
+  },
+  {
+    "id": "clm:000047",
+    "entityType": "claim",
+    "subject": {
+      "type": "publication",
+      "id": "pub:000002"
+    },
+    "fieldPath": "/eventType",
+    "value": "source-reported-release",
+    "sourceIds": [
+      "src:000002"
+    ],
+    "locator": "Released / Publisher",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Official source supports this field; no independent confirmation claimed."
+  },
+  {
+    "id": "clm:000048",
+    "entityType": "claim",
+    "subject": {
+      "type": "publication",
+      "id": "pub:000002"
+    },
+    "fieldPath": "/date",
+    "value": {
+      "value": "2001-09-15",
+      "precision": "day",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "sourceIds": [
+      "src:000002"
+    ],
+    "locator": "Released / Publisher",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Official source supports this field; no independent confirmation claimed."
+  },
+  {
+    "id": "clm:000049",
+    "entityType": "claim",
+    "subject": {
+      "type": "publication",
+      "id": "pub:000002"
+    },
+    "fieldPath": "/publisher",
+    "value": "Random House",
+    "sourceIds": [
+      "src:000002"
+    ],
+    "locator": "Released / Publisher",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Official source supports this field; no independent confirmation claimed."
+  },
+  {
+    "id": "clm:000050",
+    "entityType": "claim",
+    "subject": {
+      "type": "edition",
+      "id": "edn:000003"
+    },
+    "fieldPath": "/publicationOf",
+    "value": {
+      "type": "work",
+      "id": "wrk:000002"
+    },
+    "sourceIds": [
+      "src:000005"
+    ],
+    "locator": "Structured metadata",
+    "status": "provisional",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Existing edition example retained; precise printing and date remain unconfirmed."
+  },
+  {
+    "id": "clm:000051",
+    "entityType": "claim",
+    "subject": {
+      "type": "edition",
+      "id": "edn:000003"
+    },
+    "fieldPath": "/language",
+    "value": "nl",
+    "sourceIds": [
+      "src:000005"
+    ],
+    "locator": "Structured metadata",
+    "status": "provisional",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Existing edition example retained; precise printing and date remain unconfirmed."
+  },
+  {
+    "id": "clm:000052",
+    "entityType": "claim",
+    "subject": {
+      "type": "edition",
+      "id": "edn:000003"
+    },
+    "fieldPath": "/title",
+    "value": "Zwart Huis",
+    "sourceIds": [
+      "src:000005"
+    ],
+    "locator": "Structured metadata",
+    "status": "provisional",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Existing edition example retained; precise printing and date remain unconfirmed."
+  },
+  {
+    "id": "clm:000053",
+    "entityType": "claim",
+    "subject": {
+      "type": "edition",
+      "id": "edn:000003"
+    },
+    "fieldPath": "/isbn13",
+    "value": "9789021048383",
+    "sourceIds": [
+      "src:000005"
+    ],
+    "locator": "Structured metadata",
+    "status": "provisional",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Existing edition example retained; precise printing and date remain unconfirmed."
+  },
+  {
+    "id": "clm:000054",
+    "entityType": "claim",
+    "subject": {
+      "type": "artwork",
+      "id": "art:000003"
+    },
+    "fieldPath": "/kind",
+    "value": "cover",
+    "sourceIds": [
+      "src:000005"
+    ],
+    "locator": "Structured metadata",
+    "status": "provisional",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Retained existing cover mapping; no new image fetching or rights approval."
+  },
+  {
+    "id": "clm:000055",
+    "entityType": "claim",
+    "subject": {
+      "type": "artwork",
+      "id": "art:000003"
+    },
+    "fieldPath": "/editionId",
+    "value": "edn:000003",
+    "sourceIds": [
+      "src:000005"
+    ],
+    "locator": "Structured metadata",
+    "status": "provisional",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Retained existing cover mapping; no new image fetching or rights approval."
+  },
+  {
+    "id": "clm:000056",
+    "entityType": "claim",
+    "subject": {
+      "type": "artwork",
+      "id": "art:000003"
+    },
+    "fieldPath": "/url",
+    "value": "https://www.lsuitgeverij.nl/wp-content/uploads/2025/02/9789021048383_frontcover_original.jpg",
+    "sourceIds": [
+      "src:000005"
+    ],
+    "locator": "Structured metadata",
+    "status": "provisional",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Retained existing cover mapping; no new image fetching or rights approval."
+  },
+  {
+    "id": "clm:000057",
+    "entityType": "claim",
+    "subject": {
+      "type": "artwork",
+      "id": "art:000003"
+    },
+    "fieldPath": "/language",
+    "value": "nl",
+    "sourceIds": [
+      "src:000005"
+    ],
+    "locator": "Structured metadata",
+    "status": "provisional",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Retained existing cover mapping; no new image fetching or rights approval."
+  },
+  {
+    "id": "clm:000058",
+    "entityType": "claim",
+    "subject": {
+      "type": "edition",
+      "id": "edn:000004"
+    },
+    "fieldPath": "/publicationOf",
+    "value": {
+      "type": "work",
+      "id": "wrk:000002"
+    },
+    "sourceIds": [
+      "src:000002"
+    ],
+    "locator": "Structured metadata",
+    "status": "provisional",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Existing edition example retained; precise printing and date remain unconfirmed."
+  },
+  {
+    "id": "clm:000059",
+    "entityType": "claim",
+    "subject": {
+      "type": "edition",
+      "id": "edn:000004"
+    },
+    "fieldPath": "/language",
+    "value": "en",
+    "sourceIds": [
+      "src:000002"
+    ],
+    "locator": "Structured metadata",
+    "status": "provisional",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Existing edition example retained; precise printing and date remain unconfirmed."
+  },
+  {
+    "id": "clm:000060",
+    "entityType": "claim",
+    "subject": {
+      "type": "edition",
+      "id": "edn:000004"
+    },
+    "fieldPath": "/title",
+    "value": "Black House",
+    "sourceIds": [
+      "src:000002"
+    ],
+    "locator": "Structured metadata",
+    "status": "provisional",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Existing edition example retained; precise printing and date remain unconfirmed."
+  },
+  {
+    "id": "clm:000061",
+    "entityType": "claim",
+    "subject": {
+      "type": "artwork",
+      "id": "art:000004"
+    },
+    "fieldPath": "/kind",
+    "value": "cover",
+    "sourceIds": [
+      "src:000002"
+    ],
+    "locator": "Structured metadata",
+    "status": "provisional",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Retained existing cover mapping; no new image fetching or rights approval."
+  },
+  {
+    "id": "clm:000062",
+    "entityType": "claim",
+    "subject": {
+      "type": "artwork",
+      "id": "art:000004"
+    },
+    "fieldPath": "/editionId",
+    "value": "edn:000004",
+    "sourceIds": [
+      "src:000002"
+    ],
+    "locator": "Structured metadata",
+    "status": "provisional",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Retained existing cover mapping; no new image fetching or rights approval."
+  },
+  {
+    "id": "clm:000063",
+    "entityType": "claim",
+    "subject": {
+      "type": "artwork",
+      "id": "art:000004"
+    },
+    "fieldPath": "/url",
+    "value": "https://stephenking.com/images/books/black_house/hardcover_prop_embed.jpg",
+    "sourceIds": [
+      "src:000002"
+    ],
+    "locator": "Structured metadata",
+    "status": "provisional",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Retained existing cover mapping; no new image fetching or rights approval."
+  },
+  {
+    "id": "clm:000064",
+    "entityType": "claim",
+    "subject": {
+      "type": "artwork",
+      "id": "art:000004"
+    },
+    "fieldPath": "/language",
+    "value": "en",
+    "sourceIds": [
+      "src:000002"
+    ],
+    "locator": "Structured metadata",
+    "status": "provisional",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Retained existing cover mapping; no new image fetching or rights approval."
+  },
+  {
+    "id": "clm:000065",
+    "entityType": "claim",
+    "subject": {
+      "type": "character",
+      "id": "chr:000001"
+    },
+    "fieldPath": "/name",
+    "value": "Jack Sawyer",
+    "sourceIds": [
+      "src:000001"
+    ],
+    "locator": "Characters: Sawyer, Jack / Sawyer, Lily Cavanaugh",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Official source supports this field; no independent confirmation claimed."
+  },
+  {
+    "id": "clm:000066",
+    "entityType": "claim",
+    "subject": {
+      "type": "character",
+      "id": "chr:000002"
+    },
+    "fieldPath": "/name",
+    "value": "Lily Cavanaugh Sawyer",
+    "sourceIds": [
+      "src:000001"
+    ],
+    "locator": "Characters: Sawyer, Jack / Sawyer, Lily Cavanaugh",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Official source supports this field; no independent confirmation claimed."
+  },
+  {
+    "id": "clm:000067",
+    "entityType": "claim",
+    "subject": {
+      "type": "location",
+      "id": "loc:000001"
+    },
+    "fieldPath": "/name",
+    "value": "The Territories",
+    "sourceIds": [
+      "src:000001",
+      "src:000003"
+    ],
+    "locator": "Synopsis / Talisman: TERRITORIES",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Official source supports this field; no independent confirmation claimed."
+  },
+  {
+    "id": "clm:000068",
+    "entityType": "claim",
+    "subject": {
+      "type": "location",
+      "id": "loc:000001"
+    },
+    "fieldPath": "/locationKind",
+    "value": "world",
+    "sourceIds": [
+      "src:000001",
+      "src:000003"
+    ],
+    "locator": "Synopsis / Talisman: TERRITORIES",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Official source supports this field; no independent confirmation claimed."
+  },
+  {
+    "id": "clm:000069",
+    "entityType": "claim",
+    "subject": {
+      "type": "externalReference",
+      "id": "xref:000001"
+    },
+    "fieldPath": "/legacyId",
+    "value": "work:the-dark-tower-the-waste-lands",
+    "sourceIds": [
+      "src:000003"
+    ],
+    "locator": "Structured metadata",
+    "status": "provisional",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Identifier resolved against the existing catalog; no third work migrated."
+  },
+  {
+    "id": "clm:000070",
+    "entityType": "claim",
+    "subject": {
+      "type": "externalReference",
+      "id": "xref:000002"
+    },
+    "fieldPath": "/legacyId",
+    "value": "work:the-dark-tower",
+    "sourceIds": [
+      "src:000003"
+    ],
+    "locator": "Structured metadata",
+    "status": "provisional",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Identifier resolved against the existing catalog; no third work migrated."
+  },
+  {
+    "id": "clm:000071",
+    "entityType": "claim",
+    "subject": {
+      "type": "connection",
+      "id": "rel:000001"
+    },
+    "fieldPath": "/from",
+    "value": {
+      "type": "work",
+      "id": "wrk:000002"
+    },
+    "sourceIds": [
+      "src:000002"
+    ],
+    "locator": "Synopsis / selected connection entry",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Direct source evidence."
+  },
+  {
+    "id": "clm:000072",
+    "entityType": "claim",
+    "subject": {
+      "type": "connection",
+      "id": "rel:000001"
+    },
+    "fieldPath": "/predicate",
+    "value": "sequel_to",
+    "sourceIds": [
+      "src:000002"
+    ],
+    "locator": "Synopsis / selected connection entry",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Direct source evidence."
+  },
+  {
+    "id": "clm:000073",
+    "entityType": "claim",
+    "subject": {
+      "type": "connection",
+      "id": "rel:000001"
+    },
+    "fieldPath": "/to",
+    "value": {
+      "type": "work",
+      "id": "wrk:000001"
+    },
+    "sourceIds": [
+      "src:000002"
+    ],
+    "locator": "Synopsis / selected connection entry",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Direct source evidence."
+  },
+  {
+    "id": "clm:000074",
+    "entityType": "claim",
+    "subject": {
+      "type": "connection",
+      "id": "rel:000001"
+    },
+    "fieldPath": "/certainty",
+    "value": "explicit",
+    "sourceIds": [
+      "src:000002"
+    ],
+    "locator": "Synopsis / selected connection entry",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Direct source evidence."
+  },
+  {
+    "id": "clm:000075",
+    "entityType": "claim",
+    "subject": {
+      "type": "connection",
+      "id": "rel:000001"
+    },
+    "fieldPath": "/explanation",
+    "value": {
+      "en": "Black House is a sequel to The Talisman."
+    },
+    "sourceIds": [
+      "src:000002"
+    ],
+    "locator": "Synopsis / selected connection entry",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Direct source evidence."
+  },
+  {
+    "id": "clm:000076",
+    "entityType": "claim",
+    "subject": {
+      "type": "connection",
+      "id": "rel:000002"
+    },
+    "fieldPath": "/from",
+    "value": {
+      "type": "character",
+      "id": "chr:000001"
+    },
+    "sourceIds": [
+      "src:000001"
+    ],
+    "locator": "Synopsis / selected connection entry",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Direct source evidence."
+  },
+  {
+    "id": "clm:000077",
+    "entityType": "claim",
+    "subject": {
+      "type": "connection",
+      "id": "rel:000002"
+    },
+    "fieldPath": "/predicate",
+    "value": "appears_in",
+    "sourceIds": [
+      "src:000001"
+    ],
+    "locator": "Synopsis / selected connection entry",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Direct source evidence."
+  },
+  {
+    "id": "clm:000078",
+    "entityType": "claim",
+    "subject": {
+      "type": "connection",
+      "id": "rel:000002"
+    },
+    "fieldPath": "/to",
+    "value": {
+      "type": "work",
+      "id": "wrk:000001"
+    },
+    "sourceIds": [
+      "src:000001"
+    ],
+    "locator": "Synopsis / selected connection entry",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Direct source evidence."
+  },
+  {
+    "id": "clm:000079",
+    "entityType": "claim",
+    "subject": {
+      "type": "connection",
+      "id": "rel:000002"
+    },
+    "fieldPath": "/certainty",
+    "value": "explicit",
+    "sourceIds": [
+      "src:000001"
+    ],
+    "locator": "Synopsis / selected connection entry",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Direct source evidence."
+  },
+  {
+    "id": "clm:000080",
+    "entityType": "claim",
+    "subject": {
+      "type": "connection",
+      "id": "rel:000002"
+    },
+    "fieldPath": "/explanation",
+    "value": {
+      "en": "Jack Sawyer is the protagonist."
+    },
+    "sourceIds": [
+      "src:000001"
+    ],
+    "locator": "Synopsis / selected connection entry",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Direct source evidence."
+  },
+  {
+    "id": "clm:000081",
+    "entityType": "claim",
+    "subject": {
+      "type": "connection",
+      "id": "rel:000003"
+    },
+    "fieldPath": "/from",
+    "value": {
+      "type": "character",
+      "id": "chr:000002"
+    },
+    "sourceIds": [
+      "src:000001"
+    ],
+    "locator": "Synopsis / selected connection entry",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Direct source evidence."
+  },
+  {
+    "id": "clm:000082",
+    "entityType": "claim",
+    "subject": {
+      "type": "connection",
+      "id": "rel:000003"
+    },
+    "fieldPath": "/predicate",
+    "value": "appears_in",
+    "sourceIds": [
+      "src:000001"
+    ],
+    "locator": "Synopsis / selected connection entry",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Direct source evidence."
+  },
+  {
+    "id": "clm:000083",
+    "entityType": "claim",
+    "subject": {
+      "type": "connection",
+      "id": "rel:000003"
+    },
+    "fieldPath": "/to",
+    "value": {
+      "type": "work",
+      "id": "wrk:000001"
+    },
+    "sourceIds": [
+      "src:000001"
+    ],
+    "locator": "Synopsis / selected connection entry",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Direct source evidence."
+  },
+  {
+    "id": "clm:000084",
+    "entityType": "claim",
+    "subject": {
+      "type": "connection",
+      "id": "rel:000003"
+    },
+    "fieldPath": "/certainty",
+    "value": "explicit",
+    "sourceIds": [
+      "src:000001"
+    ],
+    "locator": "Synopsis / selected connection entry",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Direct source evidence."
+  },
+  {
+    "id": "clm:000085",
+    "entityType": "claim",
+    "subject": {
+      "type": "connection",
+      "id": "rel:000003"
+    },
+    "fieldPath": "/explanation",
+    "value": {
+      "en": "Lily is Jack’s mother."
+    },
+    "sourceIds": [
+      "src:000001"
+    ],
+    "locator": "Synopsis / selected connection entry",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Direct source evidence."
+  },
+  {
+    "id": "clm:000086",
+    "entityType": "claim",
+    "subject": {
+      "type": "connection",
+      "id": "rel:000004"
+    },
+    "fieldPath": "/from",
+    "value": {
+      "type": "character",
+      "id": "chr:000001"
+    },
+    "sourceIds": [
+      "src:000002"
+    ],
+    "locator": "Synopsis / selected connection entry",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Direct source evidence."
+  },
+  {
+    "id": "clm:000087",
+    "entityType": "claim",
+    "subject": {
+      "type": "connection",
+      "id": "rel:000004"
+    },
+    "fieldPath": "/predicate",
+    "value": "appears_in",
+    "sourceIds": [
+      "src:000002"
+    ],
+    "locator": "Synopsis / selected connection entry",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Direct source evidence."
+  },
+  {
+    "id": "clm:000088",
+    "entityType": "claim",
+    "subject": {
+      "type": "connection",
+      "id": "rel:000004"
+    },
+    "fieldPath": "/to",
+    "value": {
+      "type": "work",
+      "id": "wrk:000002"
+    },
+    "sourceIds": [
+      "src:000002"
+    ],
+    "locator": "Synopsis / selected connection entry",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Direct source evidence."
+  },
+  {
+    "id": "clm:000089",
+    "entityType": "claim",
+    "subject": {
+      "type": "connection",
+      "id": "rel:000004"
+    },
+    "fieldPath": "/certainty",
+    "value": "explicit",
+    "sourceIds": [
+      "src:000002"
+    ],
+    "locator": "Synopsis / selected connection entry",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Direct source evidence."
+  },
+  {
+    "id": "clm:000090",
+    "entityType": "claim",
+    "subject": {
+      "type": "connection",
+      "id": "rel:000004"
+    },
+    "fieldPath": "/explanation",
+    "value": {
+      "en": "Jack Sawyer returns in Black House."
+    },
+    "sourceIds": [
+      "src:000002"
+    ],
+    "locator": "Synopsis / selected connection entry",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Direct source evidence."
+  },
+  {
+    "id": "clm:000091",
+    "entityType": "claim",
+    "subject": {
+      "type": "connection",
+      "id": "rel:000005"
+    },
+    "fieldPath": "/from",
+    "value": {
+      "type": "work",
+      "id": "wrk:000001"
+    },
+    "sourceIds": [
+      "src:000001"
+    ],
+    "locator": "Synopsis / selected connection entry",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Direct source evidence."
+  },
+  {
+    "id": "clm:000092",
+    "entityType": "claim",
+    "subject": {
+      "type": "connection",
+      "id": "rel:000005"
+    },
+    "fieldPath": "/predicate",
+    "value": "set_in",
+    "sourceIds": [
+      "src:000001"
+    ],
+    "locator": "Synopsis / selected connection entry",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Direct source evidence."
+  },
+  {
+    "id": "clm:000093",
+    "entityType": "claim",
+    "subject": {
+      "type": "connection",
+      "id": "rel:000005"
+    },
+    "fieldPath": "/to",
+    "value": {
+      "type": "location",
+      "id": "loc:000001"
+    },
+    "sourceIds": [
+      "src:000001"
+    ],
+    "locator": "Synopsis / selected connection entry",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Direct source evidence."
+  },
+  {
+    "id": "clm:000094",
+    "entityType": "claim",
+    "subject": {
+      "type": "connection",
+      "id": "rel:000005"
+    },
+    "fieldPath": "/certainty",
+    "value": "explicit",
+    "sourceIds": [
+      "src:000001"
+    ],
+    "locator": "Synopsis / selected connection entry",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Direct source evidence."
+  },
+  {
+    "id": "clm:000095",
+    "entityType": "claim",
+    "subject": {
+      "type": "connection",
+      "id": "rel:000005"
+    },
+    "fieldPath": "/explanation",
+    "value": {
+      "en": "The journey includes the Territories."
+    },
+    "sourceIds": [
+      "src:000001"
+    ],
+    "locator": "Synopsis / selected connection entry",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Direct source evidence."
+  },
+  {
+    "id": "clm:000096",
+    "entityType": "claim",
+    "subject": {
+      "type": "connection",
+      "id": "rel:000006"
+    },
+    "fieldPath": "/from",
+    "value": {
+      "type": "work",
+      "id": "wrk:000001"
+    },
+    "sourceIds": [
+      "src:000003"
+    ],
+    "locator": "Synopsis / selected connection entry",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Direct source evidence."
+  },
+  {
+    "id": "clm:000097",
+    "entityType": "claim",
+    "subject": {
+      "type": "connection",
+      "id": "rel:000006"
+    },
+    "fieldPath": "/predicate",
+    "value": "shared_reference",
+    "sourceIds": [
+      "src:000003"
+    ],
+    "locator": "Synopsis / selected connection entry",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Direct source evidence."
+  },
+  {
+    "id": "clm:000098",
+    "entityType": "claim",
+    "subject": {
+      "type": "connection",
+      "id": "rel:000006"
+    },
+    "fieldPath": "/to",
+    "value": {
+      "type": "externalReference",
+      "id": "xref:000001"
+    },
+    "sourceIds": [
+      "src:000003"
+    ],
+    "locator": "Synopsis / selected connection entry",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Direct source evidence."
+  },
+  {
+    "id": "clm:000099",
+    "entityType": "claim",
+    "subject": {
+      "type": "connection",
+      "id": "rel:000006"
+    },
+    "fieldPath": "/certainty",
+    "value": "explicit",
+    "sourceIds": [
+      "src:000003"
+    ],
+    "locator": "Synopsis / selected connection entry",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Direct source evidence."
+  },
+  {
+    "id": "clm:000100",
+    "entityType": "claim",
+    "subject": {
+      "type": "connection",
+      "id": "rel:000006"
+    },
+    "fieldPath": "/explanation",
+    "value": {
+      "en": "The official connections index notes the Territories in The Waste Lands."
+    },
+    "sourceIds": [
+      "src:000003"
+    ],
+    "locator": "Synopsis / selected connection entry",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Direct source evidence."
+  },
+  {
+    "id": "clm:000101",
+    "entityType": "claim",
+    "subject": {
+      "type": "connection",
+      "id": "rel:000007"
+    },
+    "fieldPath": "/from",
+    "value": {
+      "type": "work",
+      "id": "wrk:000002"
+    },
+    "sourceIds": [
+      "src:000003"
+    ],
+    "locator": "Synopsis / selected connection entry",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Direct source evidence."
+  },
+  {
+    "id": "clm:000102",
+    "entityType": "claim",
+    "subject": {
+      "type": "connection",
+      "id": "rel:000007"
+    },
+    "fieldPath": "/predicate",
+    "value": "shared_cosmology",
+    "sourceIds": [
+      "src:000003"
+    ],
+    "locator": "Synopsis / selected connection entry",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Direct source evidence."
+  },
+  {
+    "id": "clm:000103",
+    "entityType": "claim",
+    "subject": {
+      "type": "connection",
+      "id": "rel:000007"
+    },
+    "fieldPath": "/to",
+    "value": {
+      "type": "externalReference",
+      "id": "xref:000002"
+    },
+    "sourceIds": [
+      "src:000003"
+    ],
+    "locator": "Synopsis / selected connection entry",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Direct source evidence."
+  },
+  {
+    "id": "clm:000104",
+    "entityType": "claim",
+    "subject": {
+      "type": "connection",
+      "id": "rel:000007"
+    },
+    "fieldPath": "/certainty",
+    "value": "explicit",
+    "sourceIds": [
+      "src:000003"
+    ],
+    "locator": "Synopsis / selected connection entry",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Direct source evidence."
+  },
+  {
+    "id": "clm:000105",
+    "entityType": "claim",
+    "subject": {
+      "type": "connection",
+      "id": "rel:000007"
+    },
+    "fieldPath": "/explanation",
+    "value": {
+      "en": "The official index links Black House through the Breakers and the Tower."
+    },
+    "sourceIds": [
+      "src:000003"
+    ],
+    "locator": "Synopsis / selected connection entry",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Direct source evidence."
+  },
+  {
+    "id": "clm:000106",
+    "entityType": "claim",
+    "subject": {
+      "type": "connection",
+      "id": "rel:000008"
+    },
+    "fieldPath": "/from",
+    "value": {
+      "type": "work",
+      "id": "wrk:000001"
+    },
+    "sourceIds": [
+      "src:000003"
+    ],
+    "locator": "Synopsis / selected connection entry",
+    "status": "provisional",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Retained editorial inference; not an asserted identity of all worlds."
+  },
+  {
+    "id": "clm:000107",
+    "entityType": "claim",
+    "subject": {
+      "type": "connection",
+      "id": "rel:000008"
+    },
+    "fieldPath": "/predicate",
+    "value": "shared_cosmology",
+    "sourceIds": [
+      "src:000003"
+    ],
+    "locator": "Synopsis / selected connection entry",
+    "status": "provisional",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Retained editorial inference; not an asserted identity of all worlds."
+  },
+  {
+    "id": "clm:000108",
+    "entityType": "claim",
+    "subject": {
+      "type": "connection",
+      "id": "rel:000008"
+    },
+    "fieldPath": "/to",
+    "value": {
+      "type": "work",
+      "id": "wrk:000002"
+    },
+    "sourceIds": [
+      "src:000003"
+    ],
+    "locator": "Synopsis / selected connection entry",
+    "status": "provisional",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Retained editorial inference; not an asserted identity of all worlds."
+  },
+  {
+    "id": "clm:000109",
+    "entityType": "claim",
+    "subject": {
+      "type": "connection",
+      "id": "rel:000008"
+    },
+    "fieldPath": "/certainty",
+    "value": "strongly-implied",
+    "sourceIds": [
+      "src:000003"
+    ],
+    "locator": "Synopsis / selected connection entry",
+    "status": "provisional",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Retained editorial inference; not an asserted identity of all worlds."
+  },
+  {
+    "id": "clm:000110",
+    "entityType": "claim",
+    "subject": {
+      "type": "connection",
+      "id": "rel:000008"
+    },
+    "fieldPath": "/explanation",
+    "value": {
+      "en": "The Territories and the White suggest a wider shared cosmology; this does not prove every world is identical."
+    },
+    "sourceIds": [
+      "src:000003"
+    ],
+    "locator": "Synopsis / selected connection entry",
+    "status": "provisional",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Retained editorial inference; not an asserted identity of all worlds."
+  },
+  {
+    "id": "clm:000111",
+    "entityType": "claim",
+    "subject": {
+      "type": "character",
+      "id": "chr:000001"
+    },
+    "fieldPath": "/continuity",
+    "value": "Talisman / Black House literary continuity",
+    "sourceIds": [
+      "src:000001",
+      "src:000002"
+    ],
+    "locator": "Selected character premise / setting",
+    "status": "provisional",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Editorial context label, not a claim of identity between all parallel worlds."
+  },
+  {
+    "id": "clm:000112",
+    "entityType": "claim",
+    "subject": {
+      "type": "character",
+      "id": "chr:000002"
+    },
+    "fieldPath": "/continuity",
+    "value": "The Talisman literary continuity",
+    "sourceIds": [
+      "src:000001"
+    ],
+    "locator": "Selected character premise / setting",
+    "status": "provisional",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Editorial context label, not a claim of identity between all parallel worlds."
+  },
+  {
+    "id": "clm:000113",
+    "entityType": "claim",
+    "subject": {
+      "type": "location",
+      "id": "loc:000001"
+    },
+    "fieldPath": "/continuity",
+    "value": "Talisman literary setting",
+    "sourceIds": [
+      "src:000001"
+    ],
+    "locator": "Selected character premise / setting",
+    "status": "provisional",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Editorial context label, not a claim of identity between all parallel worlds."
+  }
+]

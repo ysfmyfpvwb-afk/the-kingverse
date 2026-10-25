@@ -1,0 +1,58 @@
+[
+  {
+    "id": "wrk:000001",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000003",
+        "clm:000004",
+        "clm:000005",
+        "clm:000006"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "The Talisman",
+    "originalLanguage": "en",
+    "aliases": [
+      {
+        "language": "nl",
+        "value": "De talisman",
+        "spoiler": {
+          "level": "none",
+          "workIds": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "wrk:000002",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000034",
+        "clm:000035",
+        "clm:000036",
+        "clm:000037"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "Black House",
+    "originalLanguage": "en",
+    "aliases": [
+      {
+        "language": "nl",
+        "value": "Zwart huis",
+        "spoiler": {
+          "level": "none",
+          "workIds": []
+        }
+      }
+    ]
+  }
+]

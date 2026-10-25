@@ -1,0 +1,86 @@
+[
+  {
+    "id": "art:000001",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:000023",
+        "clm:000024",
+        "clm:000025",
+        "clm:000026"
+      ],
+      "open": []
+    },
+    "kind": "cover",
+    "editionId": "edn:000001",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2026/10/9789021037400_frontcover_original.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000004",
+    "rightsNote": "Existing visual title/language approval retained. Copyright stays with rights holders; no redistribution licence is asserted."
+  },
+  {
+    "id": "art:000002",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:000030",
+        "clm:000031",
+        "clm:000032",
+        "clm:000033"
+      ],
+      "open": []
+    },
+    "kind": "cover",
+    "editionId": "edn:000002",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/talisman/hardcover_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000001",
+    "rightsNote": "Existing visual title/language approval retained. Copyright stays with rights holders; no redistribution licence is asserted."
+  },
+  {
+    "id": "art:000003",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:000054",
+        "clm:000055",
+        "clm:000056",
+        "clm:000057"
+      ],
+      "open": []
+    },
+    "kind": "cover",
+    "editionId": "edn:000003",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2025/02/9789021048383_frontcover_original.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000005",
+    "rightsNote": "Existing visual title/language approval retained. Copyright stays with rights holders; no redistribution licence is asserted."
+  },
+  {
+    "id": "art:000004",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:000061",
+        "clm:000062",
+        "clm:000063",
+        "clm:000064"
+      ],
+      "open": []
+    },
+    "kind": "cover",
+    "editionId": "edn:000004",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/black_house/hardcover_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000002",
+    "rightsNote": "Existing visual title/language approval retained. Copyright stays with rights holders; no redistribution licence is asserted."
+  }
+]

@@ -49,9 +49,20 @@ The Kingverse is een tweetalige encyclopedie van Stephen Kings literaire werken,
 - Behoud het filter “Samenwerkingen / Collaborations” en dezelfde zoek-, taal-, editie-, adaptatie- en detailfunctionaliteit. Controlevoorbeelden: The Talisman, Black House, Sleeping Beauties; de inventarisatie is niet tot deze voorbeelden beperkt.
 - Richard Bachman is een pseudoniem van Stephen King, geen tweede co-auteur.
 
-## IMDb-omschrijvingen en scores
+## Screen-data, kosten en hergebruik
 
-Gebruik IMDb als aanvullende bron voor korte, in eigen woorden geschreven Engelse beschrijvingen en gebruikersscores. Leg de exacte IMDb-ID per titel/jaar/formaat vast. Vermeld bron, raadpleegdatum en dat de score een opgeslagen momentopname is; geïndexeerde resultaten kunnen ouder zijn. Vul een ontoegankelijke of onbevestigde score nooit in op basis van geheugen. Gebruik dan een zichtbare onbevestigde status. Vermeld een andere bron als een beschrijving daarop berust. Productiebronnen blijven leidend voor credits en releasegegevens. Omzeil geen toegangsbeperkingen.
+- Geen betaalde IMDb-API, IMDb-abonnementen of andere betaalde diensten activeren. Er is geen OMDb-integratie; ga nooit op basis van een scorelabel uit van de feitelijke leverancier.
+- De bestaande vier IMDb-objecten zijn handmatig vastgelegde waarnemingen uit geïndexeerde webresultaten, geen API-responsen. Drie scores en twee IMDb-gebaseerde omschrijvingen hebben geen aantoonbare toestemming voor herpublicatie; zie `data/reviews/screen-data-rights.json`. Markeer deze voor beoordeling en breid ze niet uit op basis van aannames. Bestaande brondata wordt in de foundation niet stilzwijgend verwijderd of opnieuw als gelicentieerd gepresenteerd.
+- Maak korte eigen omschrijvingen op basis van verifieerbare feiten en vermeld de werkelijk gebruikte bron. Officiële productie-/distributiebronnen blijven leidend voor credits, adaptaties en hun status. Geen synopsis/reviews kopiëren of toegangsbeperkingen omzeilen.
+- Onderzoek alleen waar nodig een kosteloos toegestaan alternatief. TMDb is uitsluitend kandidaat onder zijn toepasselijke voorwaarden, inclusief eventuele niet-commerciële beperking, toestemming en vereiste attributie; een TMDb-score is nooit een IMDb-score. Geen API-integratie zonder bevestigde voorwaarden en toegang.
+- Geen API-sleutels in frontend, repository, publieke JSON, logs of publicatieartefact. Import buiten de bezoeker-runtime; gewone builds en tests werken offline. Geen account, API-key of betaald pakket activeren binnen deze fase.
+
+## Foundation 1.6
+
+- De beperkte v2-dataset in `data/v2/` bevat uitsluitend The Talisman en Black House als gemigreerde werken. De actieve `DB`/`MEDIA`-catalogus blijft intact; geen volledige migratie of Explorer-pagina in deze fase.
+- Canonieke v2-IDs zijn eenmalig geregistreerde opaque nummers per type, onafhankelijk van titel, naam, jaar, ISBN of bron-URL. Behoud oude IDs en hashes als bevroren aliases. Voeg geen titelafleiding of automatische naamsmerge toe.
+- Gebruik `npm ci --ignore-scripts` voor de ontwikkelvalidator, `npm run validate:foundation` voor schema-, integriteits- en compatibiliteitscontrole, en `npm test` voor de volledige suite. Ajv is uitsluitend ontwikkelgereedschap; de website laadt geen npm-dependencies.
+- De validator is read-only. Iedere nieuwe inhoudelijke claim krijgt veldgerichte bronverwijzingen; auteursrollen, onzekerheid, datumprecisie, spoilercontext en editie/covers blijven afzonderlijk controleerbaar.
 
 ## Adaptaties en Dark Tower
 

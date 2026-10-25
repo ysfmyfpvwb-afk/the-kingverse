@@ -1,0 +1,30 @@
+[
+  {
+    "id": "chr:000001",
+    "entityType": "character",
+    "verification": {
+      "claimIds": [
+        "clm:000065",
+        "clm:000111"
+      ],
+      "open": []
+    },
+    "name": "Jack Sawyer",
+    "aliases": [],
+    "continuity": "Talisman / Black House literary continuity"
+  },
+  {
+    "id": "chr:000002",
+    "entityType": "character",
+    "verification": {
+      "claimIds": [
+        "clm:000066",
+        "clm:000112"
+      ],
+      "open": []
+    },
+    "name": "Lily Cavanaugh Sawyer",
+    "aliases": [],
+    "continuity": "The Talisman literary continuity"
+  }
+]

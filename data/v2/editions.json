@@ -1,0 +1,118 @@
+[
+  {
+    "id": "edn:000001",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:000019",
+        "clm:000020",
+        "clm:000021",
+        "clm:000022"
+      ],
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000001"
+    },
+    "language": "nl",
+    "title": "De talisman (POD)",
+    "isbn13": "9789021037400",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000002",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:000027",
+        "clm:000028",
+        "clm:000029"
+      ],
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "translator",
+        "isbn"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000001"
+    },
+    "language": "en",
+    "title": "The Talisman",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000003",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:000050",
+        "clm:000051",
+        "clm:000052",
+        "clm:000053"
+      ],
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000002"
+    },
+    "language": "nl",
+    "title": "Zwart Huis",
+    "isbn13": "9789021048383",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000004",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:000058",
+        "clm:000059",
+        "clm:000060"
+      ],
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "translator",
+        "isbn"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000002"
+    },
+    "language": "en",
+    "title": "Black House",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  }
+]

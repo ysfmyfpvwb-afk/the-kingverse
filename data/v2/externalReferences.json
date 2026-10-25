@@ -1,0 +1,28 @@
+[
+  {
+    "id": "xref:000001",
+    "entityType": "externalReference",
+    "verification": {
+      "claimIds": [
+        "clm:000069"
+      ],
+      "open": []
+    },
+    "legacyId": "work:the-dark-tower-the-waste-lands",
+    "targetType": "work",
+    "scopeNote": "Resolvable reference to the unchanged legacy catalog, not an additional migrated work."
+  },
+  {
+    "id": "xref:000002",
+    "entityType": "externalReference",
+    "verification": {
+      "claimIds": [
+        "clm:000070"
+      ],
+      "open": []
+    },
+    "legacyId": "work:the-dark-tower",
+    "targetType": "work",
+    "scopeNote": "Resolvable reference to the unchanged legacy catalog, not an additional migrated work."
+  }
+]

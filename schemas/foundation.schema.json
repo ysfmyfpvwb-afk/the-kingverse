@@ -1,0 +1,1477 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ysfmyfpvwb-afk.github.io/the-kingverse/schemas/foundation.schema.json",
+  "title": "Kingverse v2 foundation bundle",
+  "type": "object",
+  "properties": {
+    "manifest": {
+      "$ref": "#/$defs/manifest"
+    },
+    "registry": {
+      "$ref": "#/$defs/registry"
+    },
+    "works": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/work"
+      }
+    },
+    "collections": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/collection"
+      }
+    },
+    "editions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/edition"
+      }
+    },
+    "people": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/person"
+      }
+    },
+    "credits": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/credit"
+      }
+    },
+    "adaptations": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/adaptation"
+      }
+    },
+    "characters": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/character"
+      }
+    },
+    "locations": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/location"
+      }
+    },
+    "connections": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/connection"
+      }
+    },
+    "collectionMemberships": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/membership"
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/source"
+      }
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/claim"
+      }
+    },
+    "publicationEvents": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/publication"
+      }
+    },
+    "artworks": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/artwork"
+      }
+    },
+    "externalReferences": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/externalReference"
+      }
+    }
+  },
+  "required": [
+    "manifest",
+    "registry",
+    "works",
+    "collections",
+    "editions",
+    "people",
+    "credits",
+    "adaptations",
+    "characters",
+    "locations",
+    "connections",
+    "collectionMemberships",
+    "sources",
+    "claims",
+    "publicationEvents",
+    "artworks",
+    "externalReferences"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "ref": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "enum": [
+            "work",
+            "collection",
+            "edition",
+            "person",
+            "adaptation",
+            "character",
+            "location",
+            "connection",
+            "credit",
+            "membership",
+            "publication",
+            "artwork",
+            "externalReference"
+          ]
+        },
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z]{3,4}:[0-9]{6}$"
+        }
+      },
+      "required": [
+        "type",
+        "id"
+      ],
+      "additionalProperties": false
+    },
+    "verification": {
+      "type": "object",
+      "properties": {
+        "claimIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z]{3,4}:[0-9]{6}$"
+          }
+        },
+        "open": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "required": [
+        "claimIds",
+        "open"
+      ],
+      "additionalProperties": false
+    },
+    "spoiler": {
+      "type": "object",
+      "properties": {
+        "level": {
+          "enum": [
+            "none",
+            "premise",
+            "plot",
+            "ending"
+          ]
+        },
+        "workIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z]{3,4}:[0-9]{6}$"
+          }
+        }
+      },
+      "required": [
+        "level",
+        "workIds"
+      ],
+      "additionalProperties": false
+    },
+    "alias": {
+      "type": "object",
+      "properties": {
+        "language": {
+          "enum": [
+            "en",
+            "nl"
+          ]
+        },
+        "value": {
+          "type": "string",
+          "minLength": 1
+        },
+        "spoiler": {
+          "$ref": "#/$defs/spoiler"
+        }
+      },
+      "required": [
+        "language",
+        "value",
+        "spoiler"
+      ],
+      "additionalProperties": false
+    },
+    "text": {
+      "type": "object",
+      "properties": {
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "nl": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "en"
+      ],
+      "additionalProperties": false
+    },
+    "date": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": "string",
+          "pattern": "^\\d{4}(-\\d{2})?(-\\d{2})?$"
+        },
+        "precision": {
+          "enum": [
+            "year",
+            "month",
+            "day"
+          ]
+        },
+        "meaning": {
+          "enum": [
+            "source-reported-release",
+            "first-publication",
+            "edition-publication",
+            "US-series-premiere",
+            "festival-premiere",
+            "theatrical-release",
+            "serial-part",
+            "revision",
+            "reprint"
+          ]
+        },
+        "territory": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "value",
+        "precision",
+        "meaning",
+        "territory"
+      ],
+      "additionalProperties": false
+    },
+    "work": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z]{3,4}:[0-9]{6}$"
+        },
+        "entityType": {
+          "const": "work"
+        },
+        "verification": {
+          "$ref": "#/$defs/verification"
+        },
+        "kind": {
+          "enum": [
+            "novel",
+            "novella",
+            "short-story",
+            "poem",
+            "essay",
+            "screenplay",
+            "comic",
+            "nonfiction",
+            "contribution"
+          ]
+        },
+        "originalTitle": {
+          "type": "string",
+          "minLength": 1
+        },
+        "originalLanguage": {
+          "enum": [
+            "en",
+            "nl"
+          ]
+        },
+        "aliases": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/alias"
+          }
+        },
+        "summary": {
+          "$ref": "#/$defs/text"
+        }
+      },
+      "required": [
+        "id",
+        "entityType",
+        "verification",
+        "kind",
+        "originalTitle",
+        "originalLanguage",
+        "aliases"
+      ],
+      "additionalProperties": false
+    },
+    "collection": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z]{3,4}:[0-9]{6}$"
+        },
+        "entityType": {
+          "const": "collection"
+        },
+        "verification": {
+          "$ref": "#/$defs/verification"
+        },
+        "originalTitle": {
+          "type": "string",
+          "minLength": 1
+        },
+        "collectionKind": {
+          "enum": [
+            "story-collection",
+            "anthology",
+            "contributed-collection",
+            "collected-novels"
+          ]
+        },
+        "aliases": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/alias"
+          }
+        }
+      },
+      "required": [
+        "id",
+        "entityType",
+        "verification",
+        "originalTitle",
+        "collectionKind",
+        "aliases"
+      ],
+      "additionalProperties": false
+    },
+    "edition": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z]{3,4}:[0-9]{6}$"
+        },
+        "entityType": {
+          "const": "edition"
+        },
+        "verification": {
+          "$ref": "#/$defs/verification"
+        },
+        "publicationOf": {
+          "$ref": "#/$defs/ref"
+        },
+        "language": {
+          "enum": [
+            "en",
+            "nl"
+          ]
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "isbn13": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^\\d{13}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "publisher": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "publicationDate": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/date"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "format": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "translationCredits": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z]{3,4}:[0-9]{6}$"
+          }
+        },
+        "identityStatus": {
+          "enum": [
+            "identified",
+            "incomplete-example"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "entityType",
+        "verification",
+        "publicationOf",
+        "language",
+        "title",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format",
+        "translationCredits",
+        "identityStatus"
+      ],
+      "additionalProperties": false
+    },
+    "person": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z]{3,4}:[0-9]{6}$"
+        },
+        "entityType": {
+          "const": "person"
+        },
+        "verification": {
+          "$ref": "#/$defs/verification"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "aliases": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/alias"
+          }
+        },
+        "pseudonyms": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "externalIds": {
+          "type": "object",
+          "properties": {
+            "imdb": {
+              "type": "string",
+              "pattern": "^nm[0-9]+$"
+            }
+          },
+          "required": [],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "id",
+        "entityType",
+        "verification",
+        "name",
+        "aliases",
+        "pseudonyms",
+        "externalIds"
+      ],
+      "additionalProperties": false
+    },
+    "credit": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z]{3,4}:[0-9]{6}$"
+        },
+        "entityType": {
+          "const": "credit"
+        },
+        "verification": {
+          "$ref": "#/$defs/verification"
+        },
+        "personId": {
+          "type": "string",
+          "pattern": "^[a-z]{3,4}:[0-9]{6}$"
+        },
+        "subject": {
+          "$ref": "#/$defs/ref"
+        },
+        "role": {
+          "enum": [
+            "author",
+            "coauthor",
+            "contributor",
+            "editor",
+            "illustrator",
+            "photographer",
+            "foreword",
+            "translator",
+            "actor",
+            "director",
+            "showrunner",
+            "creator",
+            "screenwriter",
+            "producer"
+          ]
+        },
+        "creditedAs": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "scope": {
+          "type": "string",
+          "minLength": 1
+        },
+        "characterId": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[a-z]{3,4}:[0-9]{6}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "entityType",
+        "verification",
+        "personId",
+        "subject",
+        "role",
+        "creditedAs",
+        "scope",
+        "characterId"
+      ],
+      "additionalProperties": false
+    },
+    "character": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z]{3,4}:[0-9]{6}$"
+        },
+        "entityType": {
+          "const": "character"
+        },
+        "verification": {
+          "$ref": "#/$defs/verification"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "aliases": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/alias"
+          }
+        },
+        "continuity": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "id",
+        "entityType",
+        "verification",
+        "name",
+        "aliases",
+        "continuity"
+      ],
+      "additionalProperties": false
+    },
+    "location": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z]{3,4}:[0-9]{6}$"
+        },
+        "entityType": {
+          "const": "location"
+        },
+        "verification": {
+          "$ref": "#/$defs/verification"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "locationKind": {
+          "enum": [
+            "place",
+            "region",
+            "world"
+          ]
+        },
+        "aliases": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/alias"
+          }
+        },
+        "continuity": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "id",
+        "entityType",
+        "verification",
+        "name",
+        "locationKind",
+        "aliases",
+        "continuity"
+      ],
+      "additionalProperties": false
+    },
+    "connection": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z]{3,4}:[0-9]{6}$"
+        },
+        "entityType": {
+          "const": "connection"
+        },
+        "verification": {
+          "$ref": "#/$defs/verification"
+        },
+        "from": {
+          "$ref": "#/$defs/ref"
+        },
+        "predicate": {
+          "enum": [
+            "sequel_to",
+            "prequel_to",
+            "adaptation_of",
+            "inspired_by",
+            "appears_in",
+            "mentioned_in",
+            "set_in",
+            "shared_reference",
+            "shared_cosmology",
+            "thematic_parallel",
+            "same_as"
+          ]
+        },
+        "to": {
+          "$ref": "#/$defs/ref"
+        },
+        "certainty": {
+          "enum": [
+            "explicit",
+            "strongly-implied",
+            "interpretive"
+          ]
+        },
+        "explanation": {
+          "$ref": "#/$defs/text"
+        },
+        "spoiler": {
+          "$ref": "#/$defs/spoiler"
+        }
+      },
+      "required": [
+        "id",
+        "entityType",
+        "verification",
+        "from",
+        "predicate",
+        "to",
+        "certainty",
+        "explanation",
+        "spoiler"
+      ],
+      "additionalProperties": false
+    },
+    "membership": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z]{3,4}:[0-9]{6}$"
+        },
+        "entityType": {
+          "const": "membership"
+        },
+        "verification": {
+          "$ref": "#/$defs/verification"
+        },
+        "collectionId": {
+          "type": "string",
+          "pattern": "^[a-z]{3,4}:[0-9]{6}$"
+        },
+        "workId": {
+          "type": "string",
+          "pattern": "^[a-z]{3,4}:[0-9]{6}$"
+        },
+        "order": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "editionIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z]{3,4}:[0-9]{6}$"
+          }
+        }
+      },
+      "required": [
+        "id",
+        "entityType",
+        "verification",
+        "collectionId",
+        "workId",
+        "order",
+        "editionIds"
+      ],
+      "additionalProperties": false
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z]{3,4}:[0-9]{6}$"
+        },
+        "entityType": {
+          "const": "source"
+        },
+        "url": {
+          "type": "string",
+          "pattern": "^https://[^\\s]+$"
+        },
+        "publisher": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sourceType": {
+          "enum": [
+            "official-bibliography",
+            "official-publisher",
+            "official-production",
+            "reference",
+            "editorial"
+          ]
+        },
+        "publishedAt": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "observedAt": {
+          "type": "string",
+          "minLength": 1
+        },
+        "access": {
+          "enum": [
+            "available",
+            "indexed-only",
+            "blocked",
+            "unavailable",
+            "archived-snapshot"
+          ]
+        },
+        "snapshotRef": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "notes": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "id",
+        "entityType",
+        "url",
+        "publisher",
+        "sourceType",
+        "publishedAt",
+        "observedAt",
+        "access",
+        "snapshotRef",
+        "notes"
+      ],
+      "additionalProperties": false
+    },
+    "claim": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z]{3,4}:[0-9]{6}$"
+        },
+        "entityType": {
+          "const": "claim"
+        },
+        "subject": {
+          "$ref": "#/$defs/ref"
+        },
+        "fieldPath": {
+          "type": "string",
+          "pattern": "^/[^\\s]+"
+        },
+        "value": {},
+        "sourceIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z]{3,4}:[0-9]{6}$"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "locator": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "enum": [
+            "verified",
+            "provisional",
+            "disputed",
+            "unknown"
+          ]
+        },
+        "observedAt": {
+          "type": "string",
+          "minLength": 1
+        },
+        "independentlyConfirmed": {
+          "type": "boolean"
+        },
+        "selected": {
+          "type": "boolean"
+        },
+        "decisionNote": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "id",
+        "entityType",
+        "subject",
+        "fieldPath",
+        "value",
+        "sourceIds",
+        "locator",
+        "status",
+        "observedAt",
+        "independentlyConfirmed",
+        "selected",
+        "decisionNote"
+      ],
+      "additionalProperties": false
+    },
+    "publication": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z]{3,4}:[0-9]{6}$"
+        },
+        "entityType": {
+          "const": "publication"
+        },
+        "verification": {
+          "$ref": "#/$defs/verification"
+        },
+        "subject": {
+          "$ref": "#/$defs/ref"
+        },
+        "eventType": {
+          "enum": [
+            "source-reported-release",
+            "first-publication",
+            "edition-publication",
+            "serial-part",
+            "revision",
+            "reprint"
+          ]
+        },
+        "date": {
+          "$ref": "#/$defs/date"
+        },
+        "editionId": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[a-z]{3,4}:[0-9]{6}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "part": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "publisher": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "id",
+        "entityType",
+        "verification",
+        "subject",
+        "eventType",
+        "date",
+        "editionId",
+        "part",
+        "publisher"
+      ],
+      "additionalProperties": false
+    },
+    "artwork": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z]{3,4}:[0-9]{6}$"
+        },
+        "entityType": {
+          "const": "artwork"
+        },
+        "verification": {
+          "$ref": "#/$defs/verification"
+        },
+        "kind": {
+          "enum": [
+            "cover",
+            "poster"
+          ]
+        },
+        "editionId": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[a-z]{3,4}:[0-9]{6}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "adaptationId": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[a-z]{3,4}:[0-9]{6}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "url": {
+          "type": "string",
+          "pattern": "^https://[^\\s]+$"
+        },
+        "language": {
+          "enum": [
+            "en",
+            "nl"
+          ]
+        },
+        "review": {
+          "enum": [
+            "legacy-visually-reviewed",
+            "pending",
+            "rejected"
+          ]
+        },
+        "sourceId": {
+          "type": "string",
+          "pattern": "^[a-z]{3,4}:[0-9]{6}$"
+        },
+        "rightsNote": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "id",
+        "entityType",
+        "verification",
+        "kind",
+        "editionId",
+        "adaptationId",
+        "url",
+        "language",
+        "review",
+        "sourceId",
+        "rightsNote"
+      ],
+      "additionalProperties": false
+    },
+    "rating": {
+      "type": "object",
+      "properties": {
+        "provider": {
+          "enum": [
+            "IMDb",
+            "TMDb"
+          ]
+        },
+        "value": {
+          "anyOf": [
+            {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 10
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "scale": {
+          "const": 10
+        },
+        "votes": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 0
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "observedAt": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sourceUpdatedAt": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "sourceId": {
+          "type": "string",
+          "pattern": "^[a-z]{3,4}:[0-9]{6}$"
+        },
+        "reuseStatus": {
+          "enum": [
+            "needs-review",
+            "allowed",
+            "rejected"
+          ]
+        },
+        "accessMethod": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "provider",
+        "value",
+        "scale",
+        "votes",
+        "observedAt",
+        "sourceUpdatedAt",
+        "sourceId",
+        "reuseStatus",
+        "accessMethod"
+      ],
+      "additionalProperties": false
+    },
+    "adaptation": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z]{3,4}:[0-9]{6}$"
+        },
+        "entityType": {
+          "const": "adaptation"
+        },
+        "verification": {
+          "$ref": "#/$defs/verification"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "format": {
+          "enum": [
+            "film",
+            "tv-series",
+            "miniseries",
+            "tv-movie",
+            "short",
+            "episode",
+            "other-screen"
+          ]
+        },
+        "externalIds": {
+          "type": "object",
+          "properties": {
+            "imdb": {
+              "type": "string",
+              "pattern": "^tt[0-9]+$"
+            },
+            "tmdb": {
+              "type": "integer",
+              "minimum": 1
+            }
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        "releaseEvents": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/date"
+          }
+        },
+        "statusHistory": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "status": {
+                "enum": [
+                  "announced",
+                  "development",
+                  "production",
+                  "released",
+                  "cancelled",
+                  "unknown"
+                ]
+              },
+              "asOf": {
+                "type": "string",
+                "minLength": 1
+              },
+              "projectScope": {
+                "type": "string",
+                "minLength": 1
+              },
+              "claimIds": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^[a-z]{3,4}:[0-9]{6}$"
+                },
+                "minItems": 1
+              }
+            },
+            "required": [
+              "status",
+              "asOf",
+              "projectScope",
+              "claimIds"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "summary": {
+          "$ref": "#/$defs/text"
+        },
+        "ratingObservations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/rating"
+          }
+        }
+      },
+      "required": [
+        "id",
+        "entityType",
+        "verification",
+        "title",
+        "format",
+        "externalIds",
+        "releaseEvents",
+        "statusHistory",
+        "ratingObservations"
+      ],
+      "additionalProperties": false
+    },
+    "externalReference": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z]{3,4}:[0-9]{6}$"
+        },
+        "entityType": {
+          "const": "externalReference"
+        },
+        "verification": {
+          "$ref": "#/$defs/verification"
+        },
+        "legacyId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "targetType": {
+          "enum": [
+            "work",
+            "collection"
+          ]
+        },
+        "scopeNote": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "id",
+        "entityType",
+        "verification",
+        "legacyId",
+        "targetType",
+        "scopeNote"
+      ],
+      "additionalProperties": false
+    },
+    "registry": {
+      "type": "object",
+      "properties": {
+        "schemaVersion": {
+          "const": 2
+        },
+        "entries": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[a-z]{3,4}:[0-9]{6}$"
+              },
+              "type": {
+                "enum": [
+                  "work",
+                  "collection",
+                  "edition",
+                  "person",
+                  "credit",
+                  "adaptation",
+                  "character",
+                  "location",
+                  "connection",
+                  "membership",
+                  "source",
+                  "claim",
+                  "publication",
+                  "artwork",
+                  "externalReference"
+                ]
+              }
+            },
+            "required": [
+              "id",
+              "type"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "aliases": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "alias": {
+                "type": "string",
+                "minLength": 1
+              },
+              "kind": {
+                "enum": [
+                  "legacy-id",
+                  "legacy-route"
+                ]
+              },
+              "target": {
+                "$ref": "#/$defs/ref"
+              }
+            },
+            "required": [
+              "alias",
+              "kind",
+              "target"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "schemaVersion",
+        "entries",
+        "aliases"
+      ],
+      "additionalProperties": false
+    },
+    "manifest": {
+      "type": "object",
+      "properties": {
+        "schemaVersion": {
+          "const": 2
+        },
+        "scope": {
+          "const": "two-work-foundation-poc"
+        },
+        "baselineCommit": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{40}$"
+        },
+        "migratedLegacyWorkIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 2,
+          "maxItems": 2,
+          "uniqueItems": true
+        },
+        "runtimeHashes": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "minProperties": 7
+        },
+        "notes": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "required": [
+        "schemaVersion",
+        "scope",
+        "baselineCommit",
+        "migratedLegacyWorkIds",
+        "runtimeHashes",
+        "notes"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

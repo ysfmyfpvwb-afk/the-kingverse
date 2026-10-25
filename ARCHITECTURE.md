@@ -1,6 +1,6 @@
 # The Kingverse 1.6 — architectuur en The Connected Kingverse
 
-Status: gecontroleerd ontwerp, nog niet geïmplementeerd. Peildatum: 25 oktober 2026. Onderzochte applicatiebasis: commit `ca5f336f72ad6c41a28e30d3ac79a4667b5c9032` (1.5.1). Deze opdracht wijzigt uitsluitend dit document en `ROADMAP.md`; de applicatie blijft versie 1.5.1.
+Status: foundation fase 1 geïmplementeerd in een aparte v2-dataset; latere Explorer-/runtimefasen blijven ontwerp. Peildatum: 25 oktober 2026. Onderzochte applicatiebasis: commit `ca5f336f72ad6c41a28e30d3ac79a4667b5c9032` (1.5.1). De actieve website en catalogus blijven op de bestaande 1.5.1-runtime. De foundation voegt offline data, schema, register, validator en compatibiliteitsadapter toe zonder die runtime om te schakelen.
 
 ## 1. Besluiten
 
@@ -8,9 +8,9 @@ Behoud GitHub Pages, HTML, CSS en JavaScript. Normaliseer de redactionele bronda
 
 Engels blijft de eerste ontwikkeltaal en de standaard voor nieuwe bezoekers. Behoud Nederlandse titels, edities, opgeslagen taalvoorkeur en bestaande fallbackregels. Verdere Nederlandse uitwerking en nieuwe beeldresearch blijven uitgesteld. Het ontwerp ondersteunt die gegevens wel.
 
-StephenKing.com is de primaire bibliografische standaard. **IMDb** is de gekozen aanvullende bron voor screen-omschrijvingen en gebruikersscores. Op expliciete verduidelijking van de gebruiker wordt geen OMDb-integratie ontworpen. Productie-, distributeurs- en streamingbronnen blijven leidend voor credits en actuele adaptatiestatus.
+StephenKing.com is de primaire bibliografische standaard. **IMDb** is de historische aanvullende bron van vier bestaande screen-records; hergebruik is nog niet aangetoond. Geen betaalde IMDb-API of abonnementen. Een eventuele kosteloze aanvullende bron wordt pas gekozen na toetsing van de toepasselijke voorwaarden. Op expliciete verduidelijking van de gebruiker wordt geen OMDb-integratie ontworpen. Productie-, distributeurs- en streamingbronnen blijven leidend voor credits en actuele adaptatiestatus.
 
-De eerste implementatie wordt een schema- en migratieproef met The Talisman. Deze ontwerpcommit bouwt die proef nog niet.
+De eerste implementatie is de beperkte migratieproef met The Talisman en Black House. De bestaande website blijft leidend; de interactieve Explorer is de volgende afzonderlijke ontwikkelfase.
 
 ## 2. Analyse van de huidige applicatie
 
@@ -60,11 +60,15 @@ Zoeken ondersteunt nu live invoer, knop en Enter via één actie, exacte titels,
 
 Een repositorybrede inspectie vindt geen OMDb-client, OMDb-key of OMDb-fetch. De vier `imdb`-objecten komen uit `data/reference/screen-1.5.1.json`. Carrie (2013), The Dead Zone (2002) en Haven hebben een score; Carrie (2002) heeft `null`. Het zijn waarnemingen uit geïndexeerde IMDb-resultaten, geen live API-resultaten. De Carrie-beschrijvingen gebruiken andere expliciet genoemde bronnen wegens ontoegankelijke IMDb-hoofdpagina’s.
 
-Aanbevolen na de aanvullende API-vraag: gebruik de officiële IMDb-API als voorkeursadapter voor een redactionele import buiten de bezoeker-runtime, zodra passende toegang en publicatierechten geregeld zijn. Zoek steeds de exacte IMDb-ID voor titel, jaar en formaat; geen koppeling op titel alleen. Bewaar score, schaal, eventueel bevestigd stemaantal, bron, `observedAt`, `sourceUpdatedAt` indien bekend, `accessMethod` en toegangsstatus. Onbekende bronupdatedatum blijft `null`; een raadpleegdatum bewijst geen versheid van een zoekindex. Vermeld zichtbaar “IMDb user rating — cached observation”, datum en link. Een score is geen leeftijdsclassificatie. Verzin ontbrekende scores/stemaantallen niet.
+**Eigenaarsbesluit foundation:** geen betaalde IMDb-API of abonnement, geen automatische scraper en geen OMDb-koppeling. De eerdere voorkeursroute via de officiële betaalde IMDb-dienst is vervallen.
 
-Schrijf korte beschrijvingen zelf op basis van toegankelijke feiten en vermeld de werkelijke beschrijvingsbron; een fallback wordt niet ten onrechte IMDb genoemd. Bewaar geen volledige IMDb-synopsis of reviews. Geen automatische scraping, toegangsbeperking-omzeiling of veronderstelde licentie. De [officiële IMDb API](https://data.imdb.com/documentation) is een GraphQL-dienst via AWS Data Exchange; [IMDb beschrijft toegang en abonnement](https://help.imdb.com/article/contribution/new-features-updates/introducing-the-imdb-api/G49M5Y59L5N4WABM). Beschikbare velden en rechten voor publieke weergave, caching, afgeleide omschrijvingen, attributie en bewaartermijnen hangen af van het gekozen pakket en contract. Leg die voorwaarden vóór import vast als importconfiguratie. Beschouw de gratis niet-commerciële datasets niet als automatische toestemming voor deze publieke encyclopedie: [IMDb beperkt herpublicatie en website-extractie](https://help.imdb.com/article/imdb/general-information/can-i-use-imdb-data-in-my-software/G5JTRESSHJBBHTGX). De huidige opgeslagen waarnemingen worden door dit ontwerp niet automatisch gelicentieerd; neem hun hergebruik mee als open releasecontrole vóór uitbreiding. Er wordt hier geen abonnement afgesloten en geen huidige data gewijzigd.
+De huidige data en herkomst zijn per veld geregistreerd in `data/reviews/screen-data-rights.json`. De drie scores komen uit geïndexeerde IMDb-webresultaten; de twee eigen beschrijvingen bij The Dead Zone en Haven zijn op IMDb-feiten gebaseerd. De Carrie-beschrijvingen zijn eigen redactionele teksten op basis van Apple TV/distributeurs- en productiefeiten. Geen live API, API-key, oorspronkelijke IMDb-synopsis of gebruikersreview is opgenomen. Een indexraadpleegdatum bewijst geen actuele score. De actieve dataset blijft in deze beperkte foundation intact, maar de IMDb-afgeleide velden staan expliciet op `needs-review`; er wordt geen toestemming verondersteld en er vindt geen uitbreiding plaats.
 
-Voorgestelde stroom: exacte IMDb-ID’s → geautoriseerde importtaak met afgeschermde AWS-credentials → validatie en redactionele review → alleen toegestane rating-/beschrijvingsvelden en provenance → statische JSON. Bewaar geen volledige API-respons in een publieke snapshot. Gebruik een handmatig gestarte import met caching, beperkte batches, foutafhandeling en controle op quota/kosten; geen live API-call per bezoeker. Configureer toekomstige credentials als CI-secrets of lokale afgeschermde credentials, nooit in repository, frontend, logs of previewbestanden. Een toekomstige Actions-import gebruikt minimale rechten en draait niet op onbeoordeelde forkcode. Houd import los van de normale offline build en laat fouten de laatst geldige toegestane dataset intact. Indien een bewaartermijn verloopt, sluit de build verlopen velden uit; toon “Rating unavailable” en een IMDb-link in plaats van stilzwijgend oneindig cachen. Geen key of toegang betekent een werkende encyclopedie zonder onbevestigde nieuwe scores. Korte omschrijvingen krijgen steeds de werkelijk gebruikte bron en worden alleen binnen de overeengekomen hergebruikmogelijkheden geschreven.
+[IMDb beperkt website-extractie en herpublicatie](https://help.imdb.com/article/imdb/general-information/can-i-use-imdb-data-in-my-software/G5JTRESSHJBBHTGX). Ook gratis datasettoegang is geen algemene toestemming voor een publieke filmencyclopedie. Er is geen toestemmingsbewijs in deze repository aangetroffen. Dit is een vastgelegde hergebruiksonzekerheid, geen uitspraak dat iedere losse feitelijke vermelding onrechtmatig is. Vóór verdere publicatie-uitbreiding: toestemming onderbouwen of de betreffende score/IMDb-afgeleide tekst vervangen door een toegestane bron/eigen tekst en correcte leveranciersvermelding. IMDb-ID en externe link kunnen als verwijzing blijven bestaan zonder een onbevestigde score te kopiëren.
+
+Kosteloos alternatief dat alleen is onderzocht, niet aangesloten: [TMDb developer API](https://developer.themoviedb.org/docs/faq) is volgens zijn documentatie kosteloos voor niet-commercieel gebruik onder attributievoorwaarden. Onder meer een goedgekeurd logo in About/Credits en de voorgeschreven niet-endorsementvermelding zijn nodig. De commerciële status van The Kingverse en de volledige toepasselijke voorwaarden moeten vóór gebruik zijn vastgesteld. Een TMDb-score krijgt label **TMDb**, eigen ID, bron, schaal, stemaantal waar bekend en waarnemingsdatum; nooit label IMDb. Er is geen TMDb-account/key aangemaakt, geen voorwaarden namens de eigenaar geaccepteerd en geen import uitgevoerd. Nieuwe afbeeldingen blijven uitgesteld.
+
+De eenvoudigste toegestane basis blijft: eigen korte beschrijvingen uit gecontroleerde productiefeiten en een externe link voor ontbrekende beoordelingen. Een toekomstige kosteloze importadapter draait buiten de browser, publiceert alleen toegestane velden met attribution en houdt credentials buiten Git, frontend, logs en publicatieartefacten. Import staat los van de gewone offline build. Ontbrekende toegang, providerfouten of ingetrokken toestemming blokkeren de encyclopedie niet; toon een eerlijke ontbrekende-scorestatus. Het v2-schema weigert een numerieke geïmporteerde score zolang `reuseStatus` niet `allowed` is. De drie legacywaarnemingen worden dus niet als toegestane nieuwe v2-score geïmporteerd.
 
 ### 2.5 GitHub Pages
 
@@ -80,11 +84,13 @@ Genereer bij een latere migratie een geselecteerd publicatieartefact. CI kan off
 
 ### 3.1 Regels voor identiteit en data-eigenaarschap
 
-Gebruik UTF-8 JSON, `schemaVersion: 2`, gecontroleerde enumeraties en JSON Schema (draft 2020-12). Een kleine offline validator controleert daarnaast referentiële integriteit en inhoudelijke regels die JSON Schema niet kan bewijzen. Data hoort in `data/v2/`; dit is een voorgestelde locatie, geen in deze opdracht aangemaakte map.
+Gebruik UTF-8 JSON, `schemaVersion: 2`, gecontroleerde enumeraties en JSON Schema (draft 2020-12). Een kleine offline validator controleert daarnaast referentiële integriteit en inhoudelijke regels die JSON Schema niet kan bewijzen. De beperkte proof of concept staat in `data/v2/`, met aparte JSON-tabellen. `schemas/foundation.schema.json` implementeert draft 2020-12; de read-only Node/Ajv-validator controleert daarnaast domeinregels.
 
-Ieder record heeft `id`, `entityType`, `slug`, `aliases`, `verification` en waar nodig gelokaliseerde tekst. IDs worden eenmalig redactioneel toegekend, nooit herberekend na een titel-, jaar-, bron- of ISBN-correctie. Nieuwe IDs gebruiken een leesbare typeprefix en een handmatig toegewezen onderscheidend suffix bij botsingen. Bestaande IDs blijven bevroren: bijvoorbeeld `work:the-talisman` en `edition:9789021037400`. Ook bestaande collectie-identiteiten zoals `work:collection:night-shift` mogen als ID in de nieuwe `collections` blijven bestaan; `entityType` bepaalt het type. Nieuwe collecties krijgen `collection:*`. Prefixverschil is minder kostbaar dan kapotte verwijzingen.
+Ieder entiteitrecord heeft `id`, `entityType` en domeinvelden met verificatie. De foundation gebruikt opaque nummers zoals `wrk:000001`, `edn:000001` en `per:000001`, eenmalig toegekend en vastgelegd in `data/v2/registry.json`. Deze worden niet afgeleid van titel, naam, jaar, ISBN of URL. Dit expliciete foundationbesluit vervangt de eerdere ontwerpkeuze om legacy-slugs als canonieke v2-ID te behouden. Oude IDs zoals `work:the-talisman`, `books:the-talisman` en `edition:9789021037400` blijven bevroren aliases; oude detail-URL’s blijven naar dezelfde identiteit leiden. De ongewijzigde site gebruikt voorlopig haar oude IDs.
 
-Een centraal ID-/aliasregister voorkomt botsingen en bewaart oude `books:*`, `stories:*`, `films:*` en eerdere routes. Een naamsalias is geen bewijs dat twee entiteiten identiek zijn. ISBN, IMDb-ID en bron-URL zijn externe identifiers met hun eigen verificatie; geen primaire sleutel. Een taalvertaling of nieuwe editie maakt geen nieuw literair werk. Een substantieel herziene tekst wordt eerst als versie binnen hetzelfde werk vastgelegd; opsplitsen vraagt een onderbouwde redactionele beslissing en migratiemapping.
+Titels, ISBN’s, bron-URL’s, aliassen en toekomstige vriendelijke routes zijn veranderlijke labels/externe identifiers. Hun wijziging wijzigt geen ID. Naamsaliassen zijn geen bewijs van identiteit en veroorzaken geen automatische merge. Een registerwijziging of migratiebeslissing moet apart worden beoordeeld. De validator controleert unieke registratie, type, referenties, aliasconflicten en overeenstemming met de oude routes. Aanvullende `externalReferences` verwijzen naar twee bestaande legacy-Tower-werken zonder ze als extra werk te migreren.
+
+De foundationrecords gebruiken geen route-slug als identiteit. Voor toekomstige pagina’s kan een los wijzigbaar `slug` worden toegevoegd met route-aliases. Een herziene tekst blijft een versie binnen hetzelfde werk totdat onderbouwd is dat opsplitsen nodig is. De vertaler en druk van onvolledige editievoorbeelden blijven onbekend.
 
 ### 3.2 Entiteiten en ondersteunende relaties
 
@@ -105,7 +111,7 @@ Een centraal ID-/aliasregister voorkomt botsingen en bewaart oude `books:*`, `st
 | `publicationEvents` | `id`, `subject`, `eventType`, `date`, `territory`, `editionId`, `part`, `claimIds` | Eerste publicatie, tijdschriftpublicatie, seriële aflevering, herziening en herdruk gescheiden van de werkidentiteit. |
 | `artworks` | `id`, `editionId` of `adaptationId`, `kind`, `url`, `language`, `review`, `sourceId`, `rightsNote` | Cover bij een editie; poster bij de juiste adaptatie. Beeldstatus staat los van bibliografische verificatie. |
 
-`from`, `to`, `subject` en `publicationOf` zijn altijd getypeerde referenties `{ "type": "work", "id": "work:the-talisman" }`; geldige typen zijn centraal vastgesteld. Collections, people en characters worden niet als werken vermomd om een generieke grafiek mogelijk te maken. Credits en bundellidmaatschappen blijven eigen relaties omdat ze extra domeinvelden hebben. Reverse-lijsten worden gegenereerd, niet dubbel geredigeerd.
+`from`, `to`, `subject` en `publicationOf` zijn altijd getypeerde referenties `{ "type": "work", "id": "wrk:000001" }`; geldige typen zijn centraal vastgesteld. Collections, people en characters worden niet als werken vermomd om een generieke grafiek mogelijk te maken. Credits en bundellidmaatschappen blijven eigen relaties omdat ze extra domeinvelden hebben. Reverse-lijsten worden gegenereerd, niet dubbel geredigeerd.
 
 Publicatie-events maken The Green Mile tot één roman met zes seriële gebeurtenissen. Een verhaal in drie bundels blijft één werk met drie memberships. Een editie is geen cover en een cover bewijst geen ISBN. Behoud bestaande goedgekeurde beelden zonder nieuw onderzoek; individuele verhalen gebruiken standaard de eerste/relevantste geregistreerde bundeluitgave in de actieve taal. Alleen bewijs van een zelfstandige editie rechtvaardigt een eigen cover. De kwaliteitsrapportage telt geen ontbrekende eigen cover voor een uitsluitend gebundeld verhaal.
 
@@ -121,46 +127,122 @@ Een adaptatie heeft bronwerkrelaties met predicates `adaptation_of`, `inspired_b
 
 ### 3.4 Voorbeeldcontract: The Talisman
 
-Onderstaand geldig JSON is een ontwerpvoorbeeld, geen nieuw catalogusrecord. Claims zijn hieronder schematisch aangeduid; de concrete bronbetekenissen staan in §5. Alleen bestaande werk-/editie-IDs worden hergebruikt; voorgestelde credit-, personage- en relatie-IDs moeten in de proef aan het register worden toegevoegd.
+Onderstaand JSON blijft een verkort uitlegvoorbeeld, geen invoerfixture. De daadwerkelijk uitvoerbare en volledig geclaimde records staan in `data/v2/*.json`; register en validator zijn daarvoor de autoriteit. Canonieke IDs zijn opaque; legacy-IDs worden via aliases opgelost.
 
 ```json
 {
-  "schemaVersion": 2,
   "work": {
-    "id": "work:the-talisman",
+    "id": "wrk:000001",
     "entityType": "work",
-    "slug": "the-talisman",
+    "verification": {
+      "claimIds": [
+        "clm:000003",
+        "clm:000004",
+        "clm:000005",
+        "clm:000006"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
     "kind": "novel",
     "originalTitle": "The Talisman",
     "originalLanguage": "en",
-    "aliases": [{"language": "nl", "value": "De talisman"}],
-    "verification": {"claimIds": ["claim:talisman-title", "claim:talisman-authors"], "open": ["firstPublicationHistory"]}
+    "aliases": [
+      {
+        "language": "nl",
+        "value": "De talisman",
+        "spoiler": {
+          "level": "none",
+          "workIds": []
+        }
+      }
+    ]
   },
-  "credits": [
-    {"id": "credit:talisman-king", "personId": "person:stephen-king", "subject": {"type": "work", "id": "work:the-talisman"}, "role": "coauthor", "scope": "whole-text"},
-    {"id": "credit:talisman-straub", "personId": "person:peter-straub", "subject": {"type": "work", "id": "work:the-talisman"}, "role": "coauthor", "scope": "whole-text"}
-  ],
+  "credit": {
+    "id": "crd:000001",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000007",
+        "clm:000008",
+        "clm:000009",
+        "clm:000010"
+      ],
+      "open": []
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000001"
+    },
+    "role": "coauthor",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
   "publicationEvent": {
-    "id": "publication:talisman-source-release",
-    "subject": {"type": "work", "id": "work:the-talisman"},
+    "id": "pub:000001",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:000015",
+        "clm:000016",
+        "clm:000017",
+        "clm:000018"
+      ],
+      "open": []
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000001"
+    },
     "eventType": "source-reported-release",
-    "date": {"value": "1984-11", "precision": "month", "meaning": "source-reported-release", "territory": null},
-    "claimIds": ["claim:talisman-release"]
+    "date": {
+      "value": "1984-11",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "G.P. Putnam's & Sons"
   },
-  "editionIds": ["edition:9789021037400", "edition:1de916e95d67fdd3"],
   "connection": {
-    "id": "connection:black-house-sequel-talisman",
-    "from": {"type": "work", "id": "work:black-house"},
+    "id": "rel:000001",
+    "entityType": "connection",
+    "verification": {
+      "claimIds": [
+        "clm:000071",
+        "clm:000072",
+        "clm:000073",
+        "clm:000074",
+        "clm:000075"
+      ],
+      "open": []
+    },
+    "from": {
+      "type": "work",
+      "id": "wrk:000002"
+    },
     "predicate": "sequel_to",
-    "to": {"type": "work", "id": "work:the-talisman"},
+    "to": {
+      "type": "work",
+      "id": "wrk:000001"
+    },
     "certainty": "explicit",
-    "spoiler": {"level": "none", "workIds": []},
-    "verification": {"claimIds": ["claim:black-house-sequel"], "open": []}
+    "explanation": {
+      "en": "Black House is a sequel to The Talisman."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    }
   }
 }
 ```
 
-Het voorbeeld is bewust geen volledige fixture: bij implementatie leveren aparte `people`, `sources` en `claims`-records de genoemde referenties. Beide schrijvers krijgen gelijkwaardige tekstcredits; de oorspronkelijke rolwaarden uit 1.5 blijven traceerbaar in de migratiemapping.
+Het verkorte voorbeeld is bewust geen volledige fixture. De implementatie levert afzonderlijke `people`, `sources` en `claims`-tabellen met gecontroleerde verwijzingen; gebruik die bestanden voor daadwerkelijke IDs en claims. Beide schrijvers krijgen gelijkwaardige tekstcredits; de oorspronkelijke rolwaarden uit 1.5 blijven traceerbaar in de migratiemapping.
 
 ## 4. Runtime en publicatiearchitectuur
 
@@ -257,3 +339,13 @@ Persoonlijke legacy-status blijft bewaard in het expliciete legacy-archief/migra
 Een compatibiliteitsadapter genereert tijdens de overgang de bestaande `DB`/`MEDIA`-vorm en route-aliases uit het nieuwe model. Voorkom twee handmatig bewerkbare waarheden: na gecontroleerde omschakeling wordt uitsluitend canonieke JSON geredigeerd. Bouw en vergelijking moeten deterministisch zijn; geen externe netwerkverzoeken tijdens normale builds. Rollback is de vorige gevalideerde publicatiecommit en bijbehorend manifest, met behoud van aliasregister en exportformaten.
 
 Dit ontwerp volgt `AGENTS.md` en de grenzen van `DATA-QUALITY.md`: EN eerst; primaire officiële inventarisatie; controle per veld; open onafhankelijke verificatie; bijdragenrollen; cover/edition-scheiding; geen eigen verhaalcover zonder zelfstandige uitgave; geen nieuwe afbeeldingen; geen globale volledigheidsclaim. De verdere fasen en hun releasecriteria staan in [ROADMAP.md](ROADMAP.md).
+
+## 7. Foundation: geïmplementeerd en begrensd
+
+- `data/v2/`: twee werken, vier editievoorbeelden/covers, twee personen, vier co-auteurscredits, twee personages, één locatie, acht relaties, vijf bronnen, veldclaims en twee publicatie-events. Geen bundels of adaptaties verzonnen; hun tabellen blijven leeg en het schema wordt met synthetische testrecords getest.
+- `data/v2/registry.json`: titelonafhankelijke IDs plus oude werk-, boek-, editie-, cover-IDs en detailhashes. De live router blijft intact.
+- `scripts/foundation_compat.cjs`: read-only aliasresolver en projectie van gemigreerde feiten naar bestaande viewcontracten; bewaart query/filter/sortering/taalcontext bij volledige URL’s.
+- `scripts/validate_foundation.cjs`: Ajv-schema, dubbele IDs, bronclaims en veldwaarden, typen, rollen, bundelinhoud, datumprecisie, ISBN, covers, referenties en compatibility; controleert ook de hashes van de ongewijzigde runtimebestanden.
+- `npm ci --ignore-scripts`, `npm run validate:foundation`, `npm test`. Node en eenmalige installatie van de vastgepinde devdependencies zijn nodig; validator en tests doen daarna geen netwerkverzoeken. De website zelf heeft geen npm-runtime nodig.
+
+Dit is geen volledige catalogusmigratie en geen nieuwe Explorer-pagina. De externe Tower-verwijzingen zijn getypeerde verwijzingen naar de oude catalogus, geen derde/vierde gemigreerde werken. Er worden geen onbevestigde adaptatieprojecten geïmporteerd. Alle drie zekerheidsniveaus worden ondersteund; de echte fixture behoudt alleen de onderbouwde expliciete en bestaande sterk geïmpliceerde relaties. Interpretatieve labels worden met tests gecontroleerd zonder een nieuwe theorie als catalogusfeit te verzinnen. Zie `FOUNDATION-DELIVERY.md` voor uitgevoerde controles en grenzen.

@@ -1,0 +1,90 @@
+[
+  {
+    "id": "crd:000001",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000007",
+        "clm:000008",
+        "clm:000009",
+        "clm:000010"
+      ],
+      "open": []
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000001"
+    },
+    "role": "coauthor",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000002",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000011",
+        "clm:000012",
+        "clm:000013",
+        "clm:000014"
+      ],
+      "open": []
+    },
+    "personId": "per:000002",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000001"
+    },
+    "role": "coauthor",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000003",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000038",
+        "clm:000039",
+        "clm:000040",
+        "clm:000041"
+      ],
+      "open": []
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000002"
+    },
+    "role": "coauthor",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000004",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000042",
+        "clm:000043",
+        "clm:000044",
+        "clm:000045"
+      ],
+      "open": []
+    },
+    "personId": "per:000002",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000002"
+    },
+    "role": "coauthor",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  }
+]

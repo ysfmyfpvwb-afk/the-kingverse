@@ -1,0 +1,18 @@
+[
+  {
+    "id": "loc:000001",
+    "entityType": "location",
+    "verification": {
+      "claimIds": [
+        "clm:000067",
+        "clm:000068",
+        "clm:000113"
+      ],
+      "open": []
+    },
+    "name": "The Territories",
+    "locationKind": "world",
+    "aliases": [],
+    "continuity": "Talisman literary setting"
+  }
+]

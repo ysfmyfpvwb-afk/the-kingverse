@@ -1,0 +1,715 @@
+{
+  "schemaVersion": 2,
+  "entries": [
+    {
+      "id": "wrk:000001",
+      "type": "work"
+    },
+    {
+      "id": "wrk:000002",
+      "type": "work"
+    },
+    {
+      "id": "edn:000001",
+      "type": "edition"
+    },
+    {
+      "id": "edn:000002",
+      "type": "edition"
+    },
+    {
+      "id": "edn:000003",
+      "type": "edition"
+    },
+    {
+      "id": "edn:000004",
+      "type": "edition"
+    },
+    {
+      "id": "per:000001",
+      "type": "person"
+    },
+    {
+      "id": "per:000002",
+      "type": "person"
+    },
+    {
+      "id": "crd:000001",
+      "type": "credit"
+    },
+    {
+      "id": "crd:000002",
+      "type": "credit"
+    },
+    {
+      "id": "crd:000003",
+      "type": "credit"
+    },
+    {
+      "id": "crd:000004",
+      "type": "credit"
+    },
+    {
+      "id": "chr:000001",
+      "type": "character"
+    },
+    {
+      "id": "chr:000002",
+      "type": "character"
+    },
+    {
+      "id": "loc:000001",
+      "type": "location"
+    },
+    {
+      "id": "rel:000001",
+      "type": "connection"
+    },
+    {
+      "id": "rel:000002",
+      "type": "connection"
+    },
+    {
+      "id": "rel:000003",
+      "type": "connection"
+    },
+    {
+      "id": "rel:000004",
+      "type": "connection"
+    },
+    {
+      "id": "rel:000005",
+      "type": "connection"
+    },
+    {
+      "id": "rel:000006",
+      "type": "connection"
+    },
+    {
+      "id": "rel:000007",
+      "type": "connection"
+    },
+    {
+      "id": "rel:000008",
+      "type": "connection"
+    },
+    {
+      "id": "src:000001",
+      "type": "source"
+    },
+    {
+      "id": "src:000002",
+      "type": "source"
+    },
+    {
+      "id": "src:000003",
+      "type": "source"
+    },
+    {
+      "id": "src:000004",
+      "type": "source"
+    },
+    {
+      "id": "src:000005",
+      "type": "source"
+    },
+    {
+      "id": "clm:000001",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000002",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000003",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000004",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000005",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000006",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000007",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000008",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000009",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000010",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000011",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000012",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000013",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000014",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000015",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000016",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000017",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000018",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000019",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000020",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000021",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000022",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000023",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000024",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000025",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000026",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000027",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000028",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000029",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000030",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000031",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000032",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000033",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000034",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000035",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000036",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000037",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000038",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000039",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000040",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000041",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000042",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000043",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000044",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000045",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000046",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000047",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000048",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000049",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000050",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000051",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000052",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000053",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000054",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000055",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000056",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000057",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000058",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000059",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000060",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000061",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000062",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000063",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000064",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000065",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000066",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000067",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000068",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000069",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000070",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000071",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000072",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000073",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000074",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000075",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000076",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000077",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000078",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000079",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000080",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000081",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000082",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000083",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000084",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000085",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000086",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000087",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000088",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000089",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000090",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000091",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000092",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000093",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000094",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000095",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000096",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000097",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000098",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000099",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000100",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000101",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000102",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000103",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000104",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000105",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000106",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000107",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000108",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000109",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000110",
+      "type": "claim"
+    },
+    {
+      "id": "pub:000001",
+      "type": "publication"
+    },
+    {
+      "id": "pub:000002",
+      "type": "publication"
+    },
+    {
+      "id": "art:000001",
+      "type": "artwork"
+    },
+    {
+      "id": "art:000002",
+      "type": "artwork"
+    },
+    {
+      "id": "art:000003",
+      "type": "artwork"
+    },
+    {
+      "id": "art:000004",
+      "type": "artwork"
+    },
+    {
+      "id": "xref:000001",
+      "type": "externalReference"
+    },
+    {
+      "id": "xref:000002",
+      "type": "externalReference"
+    },
+    {
+      "id": "clm:000111",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000112",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000113",
+      "type": "claim"
+    }
+  ],
+  "aliases": [
+    {
+      "alias": "books:the-talisman",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000001"
+      }
+    },
+    {
+      "alias": "work:the-talisman",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000001"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Athe-talisman",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000001"
+      }
+    },
+    {
+      "alias": "edition:9789021037400",
+      "kind": "legacy-id",
+      "target": {
+        "type": "edition",
+        "id": "edn:000001"
+      }
+    },
+    {
+      "alias": "cover:5fd7b8dd2fc01991",
+      "kind": "legacy-id",
+      "target": {
+        "type": "artwork",
+        "id": "art:000001"
+      }
+    },
+    {
+      "alias": "edition:1de916e95d67fdd3",
+      "kind": "legacy-id",
+      "target": {
+        "type": "edition",
+        "id": "edn:000002"
+      }
+    },
+    {
+      "alias": "cover:2b1fdc9a6b9992b4",
+      "kind": "legacy-id",
+      "target": {
+        "type": "artwork",
+        "id": "art:000002"
+      }
+    },
+    {
+      "alias": "books:black-house",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000002"
+      }
+    },
+    {
+      "alias": "work:black-house",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000002"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Ablack-house",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000002"
+      }
+    },
+    {
+      "alias": "edition:9789021048383",
+      "kind": "legacy-id",
+      "target": {
+        "type": "edition",
+        "id": "edn:000003"
+      }
+    },
+    {
+      "alias": "cover:aa68fb368a583dc0",
+      "kind": "legacy-id",
+      "target": {
+        "type": "artwork",
+        "id": "art:000003"
+      }
+    },
+    {
+      "alias": "edition:b054170050e854d6",
+      "kind": "legacy-id",
+      "target": {
+        "type": "edition",
+        "id": "edn:000004"
+      }
+    },
+    {
+      "alias": "cover:902ae607cc29f903",
+      "kind": "legacy-id",
+      "target": {
+        "type": "artwork",
+        "id": "art:000004"
+      }
+    }
+  ]
+}
