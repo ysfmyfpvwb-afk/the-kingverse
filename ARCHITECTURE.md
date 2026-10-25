@@ -349,3 +349,14 @@ Dit ontwerp volgt `AGENTS.md` en de grenzen van `DATA-QUALITY.md`: EN eerst; pri
 - `npm ci --ignore-scripts`, `npm run validate:foundation`, `npm test`. Node en eenmalige installatie van de vastgepinde devdependencies zijn nodig; validator en tests doen daarna geen netwerkverzoeken. De website zelf heeft geen npm-runtime nodig.
 
 Dit is geen volledige catalogusmigratie en geen nieuwe Explorer-pagina. De externe Tower-verwijzingen zijn getypeerde verwijzingen naar de oude catalogus, geen derde/vierde gemigreerde werken. Er worden geen onbevestigde adaptatieprojecten geïmporteerd. Alle drie zekerheidsniveaus worden ondersteund; de echte fixture behoudt alleen de onderbouwde expliciete en bestaande sterk geïmpliceerde relaties. Interpretatieve labels worden met tests gecontroleerd zonder een nieuwe theorie als catalogusfeit te verzinnen. Zie `FOUNDATION-DELIVERY.md` voor uitgevoerde controles en grenzen.
+
+
+## Connected Explorer-preview — gekozen tussenstap
+
+De eigenaar heeft na foundationcommit `87ef9dd` een beperkte Engelse preview vóór de volledige schaduwmigratie geautoriseerd. Deze tussenstap vervangt de afhankelijkheid van de **uitgebreide** fase-3-Explorer niet. `scripts/build_explorer.cjs` valideert dezelfde v2-bundle en genereert statische pagina’s onder `explorer/`. Werk-, persoon-, personage- en locatieroutes gebruiken de vaste canonieke nummers uit het register. De landingpagina is een gegenereerde weergave van het eerste geregistreerde werk; geen tweede redactionele dataset.
+
+De read-only viewlaag in `scripts/explorer_model.cjs` leidt navigatie en omgekeerde verbindingen af uit bestaande credits/connections. Externe Tower-verwijzingen worden tegen exacte legacy-workIds opgelost en openen de bestaande boekenroute. De preview laadt geen legacycatalogus, volledige claimadministratie of npm-code in de browser. De originele applicatiebestanden en routes blijven intact.
+
+Statische HTML bevat kernfeiten, premisse-informatie, editie-onzekerheden, bronnen en werkende navigatie. Een klein los script voegt filters, verbindingslijnen en het expliciet laden van `plot.json` toe. Plotverbindingen staan niet in de standaard-HTML, metadata of toegankelijke namen. Toestemming wordt niet opgeslagen, niet uit URL’s afgeleid en bij terugkeer uit de back/forward-cache ingetrokken. Statische JSON blijft publiek: dit is leesbescherming, geen geheimhouding. Er is geen interpretatieve relatie toegevoegd om een lege categorie te vullen.
+
+Twee korte, eigen Engelse premisseomschrijvingen zijn in `works.summary` toegevoegd met claims `clm:000114` en `clm:000115`, gecontroleerd op de officiële werkpagina’s op 25 oktober 2026. De bibliografische schema’s en canonieke IDs blijven gelijk. De volledige migratie, nieuwe adaptatiegegevens, vertaalonderzoek en nieuwe beelden vallen buiten deze preview. IMDb-hergebruik blijft ter beoordeling; geen betaalde API of nieuwe score-import.

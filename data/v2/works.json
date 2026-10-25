@@ -7,7 +7,8 @@
         "clm:000003",
         "clm:000004",
         "clm:000005",
-        "clm:000006"
+        "clm:000006",
+        "clm:000114"
       ],
       "open": [
         "firstPublicationHistory"
@@ -25,7 +26,10 @@
           "workIds": []
         }
       }
-    ]
+    ],
+    "summary": {
+      "en": "A boy’s search for a way to save his mother takes him across America and into the parallel world of the Territories."
+    }
   },
   {
     "id": "wrk:000002",
@@ -35,7 +39,8 @@
         "clm:000034",
         "clm:000035",
         "clm:000036",
-        "clm:000037"
+        "clm:000037",
+        "clm:000115"
       ],
       "open": [
         "firstPublicationHistory"
@@ -53,6 +58,9 @@
           "workIds": []
         }
       }
-    ]
+    ],
+    "summary": {
+      "en": "Years after The Talisman, Jack Sawyer has left police work behind. A murder investigation in Wisconsin draws him back into danger."
+    }
   }
 ]

@@ -596,6 +596,14 @@
     {
       "id": "clm:000113",
       "type": "claim"
+    },
+    {
+      "id": "clm:000114",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000115",
+      "type": "claim"
     }
   ],
   "aliases": [

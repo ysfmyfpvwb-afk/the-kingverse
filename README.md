@@ -66,3 +66,10 @@ Node.js 20 or later and npm are needed for these developer commands. Ajv is a pi
 `schemas/foundation.schema.json` defines the entities. `data/v2/` contains their separate tables, a permanent opaque ID/legacy-alias registry and the baseline manifest. `scripts/foundation_compat.cjs` resolves legacy references and produces a shadow projection of migrated view facts; it does not replace the active runtime router. Existing source snapshots remain the migration evidence.
 
 No paid IMDb API or other paid service is planned or activated. Actual legacy IMDb acquisition and unresolved reuse permissions are recorded in `data/reviews/screen-data-rights.json`; no OMDb integration was found. TMDb was only researched as a conditional free alternative, not connected. See `FOUNDATION-DELIVERY.md`, `ARCHITECTURE.md`, `ROADMAP.md` and the generated `DATA-QUALITY.md`.
+
+
+## Connected Explorer preview
+
+The English preview is available separately at `explorer/`. The existing archive remains the default. Generate the preview offline with `npm run build:explorer`; the script validates the v2 bundle first. Then run `npm run validate:foundation` and `npm test`.
+
+Only The Talisman and Black House are migrated. Their canonical routes are `explorer/work/000001/` and `explorer/work/000002/`. Authors, characters and the Territories have static pages linked from the works. Core navigation works without JavaScript. Plot connections load only after an explicit choice. Existing edition examples retain their uncertainty; no adaptation or rating data is imported. See `EXPLORER-DELIVERY.md` for validation and scope.

@@ -2272,5 +2272,47 @@
     "independentlyConfirmed": false,
     "selected": true,
     "decisionNote": "Editorial context label, not a claim of identity between all parallel worlds."
+  },
+  {
+    "id": "clm:000114",
+    "entityType": "claim",
+    "subject": {
+      "id": "wrk:000001",
+      "type": "work"
+    },
+    "fieldPath": "/summary",
+    "value": {
+      "en": "A boy’s search for a way to save his mother takes him across America and into the parallel world of the Territories."
+    },
+    "sourceIds": [
+      "src:000001"
+    ],
+    "locator": "Synopsis premise only; official page rechecked 2026-10-25. Original short editorial description, not copied synopsis text.",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Premise-only introduction for the English Explorer; no ending or plot connection disclosed."
+  },
+  {
+    "id": "clm:000115",
+    "entityType": "claim",
+    "subject": {
+      "id": "wrk:000002",
+      "type": "work"
+    },
+    "fieldPath": "/summary",
+    "value": {
+      "en": "Years after The Talisman, Jack Sawyer has left police work behind. A murder investigation in Wisconsin draws him back into danger."
+    },
+    "sourceIds": [
+      "src:000002"
+    ],
+    "locator": "Synopsis premise only; official page rechecked 2026-10-25. Original short editorial description, not copied synopsis text.",
+    "status": "verified",
+    "observedAt": "2026-10-25",
+    "independentlyConfirmed": false,
+    "selected": true,
+    "decisionNote": "Premise-only introduction for the English Explorer; no ending or plot connection disclosed."
   }
 ]

@@ -59,7 +59,7 @@ The Kingverse is een tweetalige encyclopedie van Stephen Kings literaire werken,
 
 ## Foundation 1.6
 
-- De beperkte v2-dataset in `data/v2/` bevat uitsluitend The Talisman en Black House als gemigreerde werken. De actieve `DB`/`MEDIA`-catalogus blijft intact; geen volledige migratie of Explorer-pagina in deze fase.
+- De beperkte v2-dataset in `data/v2/` bevat uitsluitend The Talisman en Black House als gemigreerde werken. De actieve `DB`/`MEDIA`-catalogus blijft intact; geen volledige migratie in de foundation. De afzonderlijk geautoriseerde Engelse Explorer-preview gebruikt alleen deze twee werken en komt vóór de volledige schaduwmigratie; de actieve site blijft de standaard.
 - Canonieke v2-IDs zijn eenmalig geregistreerde opaque nummers per type, onafhankelijk van titel, naam, jaar, ISBN of bron-URL. Behoud oude IDs en hashes als bevroren aliases. Voeg geen titelafleiding of automatische naamsmerge toe.
 - Gebruik `npm ci --ignore-scripts` voor de ontwikkelvalidator, `npm run validate:foundation` voor schema-, integriteits- en compatibiliteitscontrole, en `npm test` voor de volledige suite. Ajv is uitsluitend ontwikkelgereedschap; de website laadt geen npm-dependencies.
 - De validator is read-only. Iedere nieuwe inhoudelijke claim krijgt veldgerichte bronverwijzingen; auteursrollen, onzekerheid, datumprecisie, spoilercontext en editie/covers blijven afzonderlijk controleerbaar.

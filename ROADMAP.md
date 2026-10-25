@@ -1,6 +1,6 @@
 # The Kingverse 1.6 — uitvoerbare ontwikkelroadmap
 
-Status: fase 1 foundation uitgevoerd; verdere migratie en Explorer nog gepland. Peildatum: 25 oktober 2026. Basis: applicatie 1.5.1, commit `ca5f336f72ad6c41a28e30d3ac79a4667b5c9032`. Het gekozen domeinmodel, de bronhiërarchie en het concrete Talisman-voorbeeld staan in [ARCHITECTURE.md](ARCHITECTURE.md).
+Status: foundation en beperkte Engelse Explorer-preview uitgevoerd; de volledige schaduwmigratie volgt daarna. Peildatum: 25 oktober 2026. Basis: applicatie 1.5.1, commit `ca5f336f72ad6c41a28e30d3ac79a4667b5c9032`. Het gekozen domeinmodel, de bronhiërarchie en het concrete Talisman-voorbeeld staan in [ARCHITECTURE.md](ARCHITECTURE.md).
 
 ## Uitvoeringskeuzes en volgorde
 
@@ -10,13 +10,14 @@ Werk in kleine gecontroleerde releases, met offline reproduceerbare builds, geri
 
 ```mermaid
 flowchart LR
-  F1[1 Model en proef] --> F2[2 Migratie en compatibiliteit]
-  F2 --> F3[3 Talisman Explorer]
+  F1[1 Model en proef] --> P[Beperkte Engelse Explorer-preview]
+  P --> F2[2 Migratie en compatibiliteit]
+  F2 --> F3[3 Uitgebreide Talisman Explorer]
   F3 --> F4[4 Interactieve relaties]
   F4 --> F5[5 Personages en locaties]
   F3 --> F6[6 Volledige spoilerinstellingen]
   F5 --> F6
-  F3 --> F7[7 Adaptatiepagina's en IMDb-import]
+  F3 --> F7[7 Adaptatiepagina's en toegestane bronnen]
   F6 --> F7
   F2 --> F8[8 Persoonlijke lees- en kijklijsten]
   F7 --> F8
@@ -38,13 +39,21 @@ Maak een minimale fixture voor The Talisman en Black House: twee werken, twee sc
 
 **Benodigde tests.** Positieve fixture; negatieve gevallen voor dubbele IDs, verkeerd entiteittype, ontbrekende bron, losse referentie, ongeldige dagprecisie, onbekend predicate, tegenstrijdige ISBN-toewijzing en spoilergevoelige alias zonder label. Test dat één naamalias geen automatische merge veroorzaakt. De bestaande 26 tests blijven groen.
 
+## Tussenstap — beperkte Engelse Connected Explorer-preview
+
+Deze door de eigenaar gekozen tussenstap komt **vóór de volledige fase-2-schaduwmigratie**. Genereer uitsluitend uit de bestaande v2-proef statische Engelse boekpagina’s voor The Talisman en Black House, met navigeerbare auteurs, personages, locatie, editievoorbeelden, bronverwijzingen en een interactieve relatiekaart. De preview staat onder `explorer/`; de huidige site en publieke boek-URL’s blijven de standaard.
+
+De gedeelde renderer gebruikt IDs/register en bronclaims; geen tweede handmatige relatiecatalogus. Premisse-informatie is standaard zichtbaar. Plotverbanden worden pas na een expliciete actie geladen, met aparte labels voor zekerheid en bronstatus. Geen interpretatieve relatie verzinnen wanneer er geen is geregistreerd. Geen volledige migratie, aanvullende beeldresearch of IMDb-gegevens importeren. Betaalde IMDb-API’s blijven uitgesloten; bestaande onbewezen hergebruikrechten blijven `needs-review`.
+
+Acceptatie: volledige validator/testsuite, reproduceerbare generatie, werkende statische links zonder JavaScript, toetsenbordbediening, 390/768/1440 px, afbeeldingsfallback, spoilerfilters en controle van de daadwerkelijke Pages-publicatie. Zie `EXPLORER-DELIVERY.md` voor de oplevering. De uitgebreide fase 3 blijft afhankelijk van fase 2.
+
 ## Fase 2 — migratie zonder gegevensverlies en compatibiliteitslaag
 
 **Doel en op te leveren werk.** Migreer de volledige huidige dataset in de schaduw naar `data/v2/`. Maak per bronbestand/JSON-pointer een mapping naar nieuw veld/ID of een expliciet bewaard legacyveld met reden. Gebruik de 1.5.1-snapshots en correcties als invoer; haal niet gelijktijdig de hele bibliografie opnieuw op. Behoud originele import, bronhashes, conflicten, onzekerheden, afgewezen beelden en statusgeschiedenis. Maak een machineleesbaar verschillenrapport en een menselijk migratieverslag.
 
 Genereer met een adapter bestaande DB-/MEDIA-weergaven uit de nieuwe gegevens. Eerste omschakeling verandert alleen de bron van de bestaande UI-data. Oude schrijfpaden worden daarna read-only; toekomstige wijzigingen gaan naar canonieke JSON. Generatie van historische bestanden uit de ongewijzigde oorspronkelijke generator blijft mogelijk als referentie, maar wordt geen tweede redactionele waarheid.
 
-**Afhankelijkheden.** Fase 1 geaccepteerd, fixture en ID-register vastgelegd. Een expliciet gekozen lijst van publieke buildbestanden; historische researchbestanden zijn niet automatisch runtimepayload.
+**Afhankelijkheden.** Fase 1 en de beperkte Engelse Explorer-preview geaccepteerd, fixture en ID-register vastgelegd. Een expliciet gekozen lijst van publieke buildbestanden; historische researchbestanden zijn niet automatisch runtimepayload.
 
 **Risico’s en maatregelen.** Getallen kunnen verschuiven door normalisatie. Vergelijk identiteiten en veldwaarden, niet alleen totaaltellingen. De 256 huidige werkidentiteiten omvatten 15 collecties; verplaatsen naar een aparte tabel vermindert de dekking niet. Bewaar drie boek/verhaal-overlappingen als gedeeld werk. Persoonlijke legacy-`Status` wordt geen algemene bezoekersstatus; bewaar herkomst apart. Koppel posters aan exact remake-ID, covers aan editie-ID. Nieuwe onzekere relaties blijven onzeker.
 
@@ -138,7 +147,7 @@ De huidige vier legacy-IMDb-objecten zijn handmatige waarnemingen uit geïndexee
 
 ## Eerste concrete ontwikkelstap na dit ontwerp
 
-Fase 1 is nu geïmplementeerd: schema-contract, opaque ID-/aliasregister, offline validator en afgebakende Talisman/Black House-fixture staan naast de actieve catalogus. Het validatierapport bevestigt opgeloste referenties, behouden legacy-aliases en intacte onzekerheden. De bestaande `catalog.js`, `media.js`, applicatie en live routes zijn ongewijzigd gebleven. Volgende stap is een eerste Engelse Explorer-preview die deze beperkte data gebruikt, met behoud van de legacycatalogus; de volledige fase-2-migratie wordt daardoor niet stilzwijgend geautoriseerd.
+Fase 1 is nu geïmplementeerd: schema-contract, opaque ID-/aliasregister, offline validator en afgebakende Talisman/Black House-fixture staan naast de actieve catalogus. Het validatierapport bevestigt opgeloste referenties, behouden legacy-aliases en intacte onzekerheden. De bestaande `catalog.js`, `media.js`, applicatie en live routes zijn ongewijzigd gebleven. De beperkte Engelse Explorer-preview is nu gebouwd op deze data, met behoud van de legacycatalogus. Na beoordeling van deze preview is de volledige fase-2-schaduwmigratie de volgende aanbevolen ontwikkelfase; die wordt met de previewopdracht niet stilzwijgend uitgevoerd.
 
 Daarmee wordt de moeilijkste keuze vroeg toetsbaar: kan het nieuwe model publicatie, bundel, editie, co-auteurschap en onderbouwde verbindingen uitdrukken zonder de bestaande gegevens te vervormen? Pas na dat bewijs volgt de volledige migratie. Betaalde IMDb-toegang is uitgesloten; een ontbrekende aanvullende score blokkeert de Explorer niet.
 

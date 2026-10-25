@@ -1,5 +1,7 @@
 # The Kingverse 1.6 — Foundation oplevering
 
+Historische oplevering van foundationcommit `87ef9dd`; de latere preview staat in `EXPLORER-DELIVERY.md`. De tellingen en 43 tests hieronder betreffen de foundation op het moment van oplevering.
+
 Peildatum: 25 oktober 2026. Basis vóór deze wijziging: `a8fde6da35233673e57685b61f447c5d97b82c18`. De foundation staat naast de bestaande site; de actieve runtime en catalogus blijven versie 1.5.1.
 
 ## Gebouwd
@@ -62,6 +64,6 @@ De broncontrole is per veld, geen onafhankelijke verificatie van de hele bibliog
 
 ## Volgende stap en publicatie
 
-Volgende concrete stap: een eerste Engelse Explorer-preview voor deze twee werken op de gevalideerde v2-data, met bron-/zekerheidslabels en veilige inhoud. Oude URL’s blijven via het register herleidbaar. Die pagina en volledige catalogusmigratie zijn in deze foundation nog niet uitgevoerd.
+Volgende concrete stap: een eerste Engelse Explorer-preview voor deze twee werken op de gevalideerde v2-data, met bron-/zekerheidslabels en veilige inhoud. Oude URL’s blijven via het register herleidbaar. Die pagina en volledige catalogusmigratie zijn in deze foundation nog niet uitgevoerd. De beperkte Explorer-preview is nu expliciet de tussenstap vóór de volledige fase-2-schaduwmigratie; de uitgebreide fase-3-Explorer volgt pas daarna. Zie `EXPLORER-DELIVERY.md` voor de afzonderlijke preview-oplevering.
 
 Commit en push volgen alleen na alle kritieke checks. De werkelijke commit, Pages-deployment en live-bestandscontrole worden in het eindbericht bevestigd; deze notitie claimt geen publicatie voordat die is uitgevoerd. De ontwikkelvalidator draait lokaal; GitHub Pages hoeft geen Node/Ajv te starten. Publieke foundation-JSON bevat uitsluitend bewust publieke feiten en bronverwijzingen, zonder credentials of nieuw geïmporteerde gebruikersdata.

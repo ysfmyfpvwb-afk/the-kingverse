@@ -5,7 +5,8 @@
   "description": "Offline foundation validation; the existing static site needs no npm runtime",
   "scripts": {
     "test": "node --test tests/*.test.cjs",
-    "validate:foundation": "node scripts/validate_foundation.cjs"
+    "validate:foundation": "node scripts/validate_foundation.cjs",
+    "build:explorer": "node scripts/build_explorer.cjs"
   },
   "devDependencies": {
     "ajv": "8.20.0"
