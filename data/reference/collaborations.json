@@ -1,0 +1,235 @@
+{
+  "checked": "2026-10-25",
+  "source": "https://stephenking.com/works/collaboration/index.html",
+  "index": [
+    {
+      "title": "A Face in the Crowd",
+      "type": "Collaboration with Stewart O'Nan",
+      "displayDate": "TBD",
+      "url": "https://stephenking.com/works/short_story/a-face-in-the-crowd.html"
+    },
+    {
+      "title": "American Vampire",
+      "type": "Collaboration with Scott Snyder",
+      "displayDate": "March 2010",
+      "url": "https://stephenking.com/works/comic/american-vampire.html"
+    },
+    {
+      "title": "Black House",
+      "type": "Collaboration with Peter Straub",
+      "displayDate": "September 15th, 2001",
+      "url": "https://stephenking.com/works/novel/black-house.html"
+    },
+    {
+      "title": "Faithful",
+      "type": "Collaboration with Stewart O'Nan",
+      "displayDate": "September 2005",
+      "url": "https://stephenking.com/works/nonfiction/faithful.html"
+    },
+    {
+      "title": "Gwendy's Final Task",
+      "type": "Collaboration with Richard Chizmar",
+      "displayDate": "February 15th, 2022",
+      "url": "https://stephenking.com/works/novel/gwendys-final-task.html"
+    },
+    {
+      "title": "In the Tall Grass",
+      "type": "Collaboration with Joe Hill",
+      "displayDate": "TBD",
+      "url": "https://stephenking.com/works/short_story/in-the-tall-grass.html"
+    },
+    {
+      "title": "Mid-Life Confidential",
+      "type": "Collaboration with Dave Barry, Amy Tan et al",
+      "displayDate": "1994",
+      "url": "https://stephenking.com/works/nonfiction/mid-life-confidential-the-rock-bottom-remainders-tour-america-with-three-chords-and-an-attitude.html"
+    },
+    {
+      "title": "Nightmares in the Sky",
+      "type": "Collaboration with f-stop Fitzgerald",
+      "displayDate": "1988",
+      "url": "https://stephenking.com/works/nonfiction/nightmares-in-the-sky.html"
+    },
+    {
+      "title": "Sleeping Beauties",
+      "type": "Collaboration with Owen King",
+      "displayDate": "September 26th, 2017",
+      "url": "https://stephenking.com/works/novel/sleeping-beauties.html"
+    },
+    {
+      "title": "The Talisman",
+      "type": "Collaboration with Peter Straub",
+      "displayDate": "November 1984",
+      "url": "https://stephenking.com/works/novel/talisman.html"
+    },
+    {
+      "title": "Throttle",
+      "type": "Collaboration with Joe Hill",
+      "displayDate": "TBD",
+      "url": "https://stephenking.com/works/short_story/throttle.html"
+    }
+  ],
+  "details": [
+    {
+      "url": "https://stephenking.com/works/comic/american-vampire.html",
+      "title": "American Vampire",
+      "fields": {
+        "Released": "March 2010",
+        "Available Format(s)": "Paperback Comic Book",
+        "Written With": "Scott Snyder"
+      },
+      "image": "https://stephenking.com/images/other_project/american_vampire/amercian_vampire_prop_embed.jpg",
+      "imageAlt": "American Vampire Art",
+      "related": [],
+      "workLinks": [],
+      "sha256": "43c8d47fb5e5e813b0bd936265ec9712e4d20c3805a2a456b0ea601cf3ade2e4"
+    },
+    {
+      "url": "https://stephenking.com/works/novel/black-house.html",
+      "title": "Black House",
+      "fields": {
+        "Released": "September 15th, 2001",
+        "Available Format(s)": "Hardcover / Paperback / Limited Edition / Audio / Kindle",
+        "Written With": "Peter Straub",
+        "Publisher": "Random House"
+      },
+      "image": "https://stephenking.com/images/books/black_house/hardcover_prop_embed.jpg",
+      "imageAlt": "Black House Art",
+      "related": [
+        {
+          "url": "https://stephenking.com/works/audiobook/black-house.html",
+          "label": "Black House (Audiobook)"
+        }
+      ],
+      "workLinks": [],
+      "sha256": "cecb1d36775e9598366606d41623f8d547cd246636ba58663ce5b59f801908e5"
+    },
+    {
+      "url": "https://stephenking.com/works/nonfiction/faithful.html",
+      "title": "Faithful",
+      "fields": {
+        "Released": "September 2005",
+        "Available Format(s)": "Hardcover",
+        "Written With": "Stewart O'Nan",
+        "Publisher": "Scribner"
+      },
+      "image": "https://stephenking.com/images/books/faithful/hardcover_prop_embed.jpg",
+      "imageAlt": "Faithful Art",
+      "related": [
+        {
+          "url": "https://stephenking.com/works/audiobook/faithful.html",
+          "label": "Faithful (Audiobook)"
+        }
+      ],
+      "workLinks": [],
+      "sha256": "75ee9f6bb868ae2e17ae3eee70b4511ba24048c73475fc9799f27dd6dde1a5cf"
+    },
+    {
+      "url": "https://stephenking.com/works/novel/gwendys-final-task.html",
+      "title": "Gwendy's Final Task",
+      "fields": {
+        "Released": "February 15th, 2022",
+        "Available Format(s)": "Trade Hardcover",
+        "Written With": "Richard Chizmar",
+        "Publisher": "Cemetery Dance Publications"
+      },
+      "image": "https://stephenking.com/images/novel/gwendy-ft.jpg",
+      "imageAlt": "Gwendy's Final Task Art",
+      "related": [],
+      "workLinks": [],
+      "sha256": "f4463161a65b66cd6e46d9fb229fbc8435fb302d868dc53baacdd69c27e12262"
+    },
+    {
+      "url": "https://stephenking.com/works/nonfiction/mid-life-confidential-the-rock-bottom-remainders-tour-america-with-three-chords-and-an-attitude.html",
+      "title": "Mid-Life Confidential: The Rock Bottom Remainders Tour America With Three Chords and an Attitude",
+      "fields": {
+        "Released": "1994",
+        "Available Format(s)": "Hardcover",
+        "Written With": "Dave Barry, Amy Tan et al",
+        "Publisher": "Viking Press"
+      },
+      "image": "https://stephenking.com/images/nonfiction/5/hardcover_prop_embed.jpg",
+      "imageAlt": "Mid-Life Confidential: The Rock Bottom Remainders Tour America With Three Chords and an Attitude Art",
+      "related": [],
+      "workLinks": [],
+      "sha256": "0d10fa68634e41a4e00efd1b5e2ebedb29a7a87f6d662499b80adc25eb99158c"
+    },
+    {
+      "url": "https://stephenking.com/works/nonfiction/nightmares-in-the-sky.html",
+      "title": "Nightmares in the Sky",
+      "fields": {
+        "Released": "1988",
+        "Available Format(s)": "Hardcover",
+        "Written With": "f-stop Fitzgerald",
+        "Publisher": "Viking Press"
+      },
+      "image": "https://stephenking.com/images/nonfiction/6/nightmaresinthesky.jpg",
+      "imageAlt": "Nightmares in the Sky Art",
+      "related": [],
+      "workLinks": [],
+      "sha256": "d96f3d0692b7538f1e1b7d2f9a7849c68c63ecf0b1fe37cbaea6358c78d84eef"
+    },
+    {
+      "url": "https://stephenking.com/works/novel/sleeping-beauties.html",
+      "title": "Sleeping Beauties",
+      "fields": {
+        "Released": "September 26th, 2017",
+        "Available Format(s)": "Hardcover / eBook / Audiobook",
+        "Written With": "Owen King",
+        "Publisher": "Scribner"
+      },
+      "image": "https://stephenking.com/images/books/sleeping_beauties/sleeping_beauties_prop_embed.png",
+      "imageAlt": "Sleeping Beauties Art",
+      "related": [],
+      "workLinks": [],
+      "sha256": "5182125f17df39d107896f9ad4e03884a007d07c8a5078bea2b5b00e7f45befa"
+    },
+    {
+      "url": "https://stephenking.com/works/novel/talisman.html",
+      "title": "The Talisman",
+      "fields": {
+        "Released": "November 1984",
+        "Available Format(s)": "Hardcover / Paperback / Limited Edition / Kindle / Audio",
+        "Written With": "Peter Straub",
+        "Publisher": "G.P. Putnam's & Sons"
+      },
+      "image": "https://stephenking.com/images/books/talisman/hardcover_prop_embed.jpg",
+      "imageAlt": "The Talisman Art",
+      "related": [
+        {
+          "url": "https://stephenking.com/works/audiobook/talisman.html",
+          "label": "The Talisman (Audiobook)"
+        }
+      ],
+      "workLinks": [],
+      "sha256": "a88f3682e8689cee23808f58a22ff9558b968e850532f841bab8f9c6e8cd37c3"
+    },
+    {
+      "url": "https://stephenking.com/works/other-project/ghost-brothers-of-darkland-county.html",
+      "title": "Ghost Brothers of Darkland County",
+      "fields": {
+        "Released": "April 2012",
+        "Available Format(s)": "Musical Theater",
+        "Project Type": "Theater"
+      },
+      "image": "https://stephenking.com/images/other_project/ghost_brothers_of_darkland_county/ghost_brothers_of_darkland_county_prop_embed2.jpg",
+      "imageAlt": "Ghost Brothers of Darkland County Art",
+      "related": [],
+      "workLinks": [],
+      "sha256": "809a804c05d851a09ebdc39e72c4ed9403b08dc85409bc696d57005003318890"
+    },
+    {
+      "url": "https://stephenking.com/works/novella/gwendys-button-box.html",
+      "title": "Gwendy's Button Box",
+      "fields": {
+        "Released": "May 16th, 2017",
+        "Available Format(s)": "Hardcover"
+      },
+      "image": "https://stephenking.com/images/novella/19/gwendy.jpg",
+      "imageAlt": "Gwendy's Button Box Art",
+      "related": [],
+      "workLinks": [],
+      "sha256": "61e855475c6014906d1736ba170bed91f5ed8179bdb90fcf595a92494eb2f0a8"
+    }
+  ]
+}

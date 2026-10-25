@@ -1,0 +1,25 @@
+{
+  "checked": "2026-10-25",
+  "brooks": {
+    "title": "Stephen King: A Primary Bibliography of the World's Most Popular Author",
+    "author": "Justin Brooks",
+    "publisherMetadataSource": "https://www.cemeterydance.com/stephen-king-a-primary-bibliography-of-the-worlds-most-popular-author.html",
+    "libraryMetadataSource": "https://search.worldcat.org/title/Stephen-King-%3A-a-primary-bibliography-of-the-world%27s-most-popular-author/oclc/234087633",
+    "editionChecked": "Cemetery Dance, May 2008; ISBN 1-58767-153-0; 560 pages",
+    "accessScope": "Publisher and library metadata/description consulted. No complete authorized text or primary-entry-by-entry comparison was available during this batch. Search also exposed a third-party 2013 revised-text mirror, whose completeness and provenance were not established; it was not used as a verified master list.",
+    "limit": "The publisher describes coverage through 2005 across broader genres and publication appearances. Its entry counts cannot be equated with the current site's unique-fiction-work counts. Deep first-publication and rare-work checking remains open."
+  },
+  "independentScreenComparison": {
+    "source": "https://en.wikipedia.org/wiki/List_of_adaptations_of_works_by_Stephen_King",
+    "access": "Public web page consulted; direct scripted request returned 403 and was not bypassed.",
+    "use": "Discovery of additional derivative/remake/short-film groups; not used to assert unsupported current production status. See the supplementary screen queue."
+  },
+  "modernPrimaryChecks": [
+    "https://www.aboutamazon.com/news/entertainment/carrie-stephen-king-mike-flanagan-prime-video",
+    "https://press.hulu.com/pressrelease/hulu-original-11-22-63-to-make-world-premiere-at-the-2016-sundance-film-festival/",
+    "https://paramountglobalcontent.com/title/pet-sematary-bloodlines-1969",
+    "https://www.neonrated.com/film/the-life-of-chuck",
+    "https://www.simonandschuster.com/books/Other-Worlds-Than-These/Stephen-King/The-Talisman-Trilogy/9781668233092",
+    "https://www.cemeterydance.com/extras/interview-with-stephen-king-and-rich-chizmar/"
+  ]
+}

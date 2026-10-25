@@ -1,0 +1,476 @@
+[
+  {
+    "Werk / verwijzing": "The Dark Tower: The Gunslinger",
+    "Soort connectie": "Hoofdreeks",
+    "Toelichting": "Begin van Rolands reis; de reeks bestaat uit zeven kerndelen.",
+    "description": {
+      "nl": "Begin van Rolands reis; de reeks bestaat uit zeven kerndelen.",
+      "en": "The start of Roland’s journey; seven volumes form the core series."
+    },
+    "concepts": [
+      "Roland Deschain",
+      "ka-tet"
+    ],
+    "certainty": "explicit",
+    "works": [
+      {
+        "kind": "books",
+        "title": "The Dark Tower: The Gunslinger"
+      },
+      {
+        "kind": "books",
+        "title": "The Dark Tower: The Drawing of the Three"
+      },
+      {
+        "kind": "books",
+        "title": "The Dark Tower: The Waste Lands"
+      },
+      {
+        "kind": "books",
+        "title": "The Dark Tower: Wizard and Glass"
+      },
+      {
+        "kind": "books",
+        "title": "The Dark Tower: Wolves of the Calla"
+      },
+      {
+        "kind": "books",
+        "title": "The Dark Tower: Song of Susannah"
+      },
+      {
+        "kind": "books",
+        "title": "The Dark Tower"
+      }
+    ],
+    "Bron": "https://stephenking.com/darktower/books/",
+    "checked": "2026-10-25"
+  },
+  {
+    "Werk / verwijzing": "The Dark Tower: The Wind Through the Keyhole",
+    "Soort connectie": "Tussenboek",
+    "Toelichting": "Het tussenboek speelt tussen Tovenaarsglas en Wolven van de Calla.",
+    "description": {
+      "nl": "Het tussenboek speelt tussen Tovenaarsglas en Wolven van de Calla.",
+      "en": "The interquel is set between Wizard and Glass and Wolves of the Calla."
+    },
+    "concepts": [
+      "Roland Deschain"
+    ],
+    "certainty": "explicit",
+    "works": [
+      {
+        "kind": "books",
+        "title": "The Dark Tower: The Wind Through the Keyhole"
+      },
+      {
+        "kind": "books",
+        "title": "The Dark Tower: Wizard and Glass"
+      },
+      {
+        "kind": "books",
+        "title": "The Dark Tower: Wolves of the Calla"
+      }
+    ],
+    "Bron": "https://stephenking.com/darktower/books/",
+    "checked": "2026-10-25"
+  },
+  {
+    "Werk / verwijzing": "The Little Sisters of Eluria",
+    "Soort connectie": "Roland-verhaal",
+    "Toelichting": "Een zelfstandig avontuur van Roland, opgenomen in Everything’s Eventual.",
+    "description": {
+      "nl": "Een zelfstandig avontuur van Roland, opgenomen in Everything’s Eventual.",
+      "en": "A separate Roland adventure collected in Everything’s Eventual."
+    },
+    "concepts": [
+      "Roland Deschain"
+    ],
+    "certainty": "explicit",
+    "works": [
+      {
+        "kind": "stories",
+        "title": "The Little Sisters of Eluria"
+      },
+      {
+        "kind": "books",
+        "title": "The Dark Tower: The Gunslinger"
+      }
+    ],
+    "Bron": "https://stephenking.com/darktower/connections/",
+    "checked": "2026-10-25"
+  },
+  {
+    "Werk / verwijzing": "The Stand",
+    "Soort connectie": "Personage",
+    "Toelichting": "Randall Flagg en de door supergriep getroffen wereld keren terug.",
+    "description": {
+      "nl": "Randall Flagg en de door supergriep getroffen wereld keren terug.",
+      "en": "Randall Flagg and the superflu-stricken world recur."
+    },
+    "concepts": [
+      "Randall Flagg",
+      "Captain Trips"
+    ],
+    "certainty": "explicit",
+    "works": [
+      {
+        "kind": "books",
+        "title": "The Stand"
+      },
+      {
+        "kind": "books",
+        "title": "The Dark Tower: Wizard and Glass"
+      }
+    ],
+    "Bron": "https://stephenking.com/darktower/connections/",
+    "checked": "2026-10-25"
+  },
+  {
+    "Werk / verwijzing": "The Eyes of the Dragon",
+    "Soort connectie": "Personage",
+    "Toelichting": "Flagg, Dennis en Thomas verbinden Delain met Rolands wereld.",
+    "description": {
+      "nl": "Flagg, Dennis en Thomas verbinden Delain met Rolands wereld.",
+      "en": "Flagg, Dennis and Thomas link Delain to Roland’s world."
+    },
+    "concepts": [
+      "Randall Flagg",
+      "Dennis",
+      "Thomas",
+      "Delain"
+    ],
+    "certainty": "explicit",
+    "works": [
+      {
+        "kind": "books",
+        "title": "The Eyes of the Dragon"
+      },
+      {
+        "kind": "books",
+        "title": "The Dark Tower: The Drawing of the Three"
+      }
+    ],
+    "Bron": "https://stephenking.com/darktower/connections/",
+    "checked": "2026-10-25"
+  },
+  {
+    "Werk / verwijzing": "'Salem's Lot",
+    "Soort connectie": "Personage",
+    "Toelichting": "Father Callahan vervolgt zijn verhaal in Rolands wereld.",
+    "description": {
+      "nl": "Father Callahan vervolgt zijn verhaal in Rolands wereld.",
+      "en": "Father Callahan continues his story in Roland’s world."
+    },
+    "concepts": [
+      "Father Callahan"
+    ],
+    "certainty": "explicit",
+    "works": [
+      {
+        "kind": "books",
+        "title": "'Salem's Lot"
+      },
+      {
+        "kind": "books",
+        "title": "The Dark Tower: Wolves of the Calla"
+      }
+    ],
+    "Bron": "https://stephenking.com/darktower/connections/",
+    "checked": "2026-10-25"
+  },
+  {
+    "Werk / verwijzing": "Hearts in Atlantis",
+    "Soort connectie": "Kosmologie",
+    "Toelichting": "Ted Brautigan en de Low Men verbinden de bundel met de Toren.",
+    "description": {
+      "nl": "Ted Brautigan en de Low Men verbinden de bundel met de Toren.",
+      "en": "Ted Brautigan and the Low Men link the collection to the Tower."
+    },
+    "concepts": [
+      "Ted Brautigan",
+      "Low Men"
+    ],
+    "certainty": "explicit",
+    "works": [
+      {
+        "kind": "books",
+        "title": "Hearts in Atlantis"
+      },
+      {
+        "kind": "books",
+        "title": "The Dark Tower"
+      }
+    ],
+    "Bron": "https://stephenking.com/darktower/connections/",
+    "checked": "2026-10-25"
+  },
+  {
+    "Werk / verwijzing": "Insomnia",
+    "Soort connectie": "Kosmologie",
+    "Toelichting": "Patrick Danville en de Crimson King spelen een rol in de Torenwereld.",
+    "description": {
+      "nl": "Patrick Danville en de Crimson King spelen een rol in de Torenwereld.",
+      "en": "Patrick Danville and the Crimson King figure in the Tower world."
+    },
+    "concepts": [
+      "Patrick Danville",
+      "Crimson King"
+    ],
+    "certainty": "explicit",
+    "works": [
+      {
+        "kind": "books",
+        "title": "Insomnia"
+      },
+      {
+        "kind": "books",
+        "title": "The Dark Tower"
+      }
+    ],
+    "Bron": "https://stephenking.com/darktower/connections/",
+    "checked": "2026-10-25"
+  },
+  {
+    "Werk / verwijzing": "Black House",
+    "Soort connectie": "Kosmologie",
+    "Toelichting": "De Breakers vormen een directe bedreiging voor de Toren.",
+    "description": {
+      "nl": "De Breakers vormen een directe bedreiging voor de Toren.",
+      "en": "The Breakers directly threaten the Tower."
+    },
+    "concepts": [
+      "Breakers",
+      "Crimson King",
+      "Territories"
+    ],
+    "certainty": "explicit",
+    "works": [
+      {
+        "kind": "books",
+        "title": "Black House"
+      },
+      {
+        "kind": "books",
+        "title": "The Dark Tower"
+      }
+    ],
+    "Bron": "https://stephenking.com/darktower/connections/",
+    "checked": "2026-10-25"
+  },
+  {
+    "Werk / verwijzing": "IT",
+    "Soort connectie": "Concept",
+    "Toelichting": "De officiële index noemt de schildpad. Dezelfde identiteit is hiermee niet vastgesteld.",
+    "description": {
+      "nl": "De officiële index noemt de schildpad. Dezelfde identiteit is hiermee niet vastgesteld.",
+      "en": "The official index identifies the turtle motif; this does not establish identical identity."
+    },
+    "concepts": [
+      "Turtle",
+      "Derry"
+    ],
+    "certainty": "interpretive",
+    "works": [
+      {
+        "kind": "books",
+        "title": "IT"
+      },
+      {
+        "kind": "books",
+        "title": "The Dark Tower"
+      }
+    ],
+    "Bron": "https://stephenking.com/darktower/connections/",
+    "checked": "2026-10-25"
+  },
+  {
+    "Werk / verwijzing": "Everything's Eventual",
+    "Soort connectie": "Personage",
+    "Toelichting": "Dinky Earnshaw verschijnt als Breaker in het slotdeel.",
+    "description": {
+      "nl": "Dinky Earnshaw verschijnt als Breaker in het slotdeel.",
+      "en": "Dinky Earnshaw appears as a Breaker in the final volume."
+    },
+    "concepts": [
+      "Dinky Earnshaw"
+    ],
+    "certainty": "explicit",
+    "works": [
+      {
+        "kind": "stories",
+        "title": "Everything's Eventual"
+      },
+      {
+        "kind": "books",
+        "title": "The Dark Tower"
+      }
+    ],
+    "Bron": "https://stephenking.com/darktower/connections/",
+    "checked": "2026-10-25"
+  },
+  {
+    "Werk / verwijzing": "UR",
+    "Soort connectie": "Kosmologie",
+    "Toelichting": "De Low Men, de roos en de Toren verschijnen in dit verhaal.",
+    "description": {
+      "nl": "De Low Men, de roos en de Toren verschijnen in dit verhaal.",
+      "en": "The Low Men, the rose and the Tower appear in this story."
+    },
+    "concepts": [
+      "Low Men",
+      "Dark Tower",
+      "Rose"
+    ],
+    "certainty": "explicit",
+    "works": [
+      {
+        "kind": "stories",
+        "title": "UR"
+      },
+      {
+        "kind": "books",
+        "title": "The Dark Tower"
+      }
+    ],
+    "Bron": "https://stephenking.com/darktower/connections/",
+    "checked": "2026-10-25"
+  },
+  {
+    "Werk / verwijzing": "The Talisman",
+    "Soort connectie": "Kosmologie",
+    "Toelichting": "De Territories en het Witte verbinden het verhaal met de grotere kosmologie.",
+    "description": {
+      "nl": "De Territories en het Witte verbinden het verhaal met de grotere kosmologie.",
+      "en": "The Territories and the White link the story to the larger cosmology."
+    },
+    "concepts": [
+      "Territories",
+      "White"
+    ],
+    "certainty": "strongly-implied",
+    "works": [
+      {
+        "kind": "books",
+        "title": "The Talisman"
+      },
+      {
+        "kind": "books",
+        "title": "Black House"
+      }
+    ],
+    "Bron": "https://stephenking.com/darktower/connections/",
+    "checked": "2026-10-25"
+  },
+  {
+    "Werk / verwijzing": "Rose Madder",
+    "Soort connectie": "Locatie",
+    "Toelichting": "Lud wordt genoemd; dat is een benoemde wereldverwijzing.",
+    "description": {
+      "nl": "Lud wordt genoemd; dat is een benoemde wereldverwijzing.",
+      "en": "Lud is named, providing a specific world reference."
+    },
+    "concepts": [
+      "Lud"
+    ],
+    "certainty": "explicit",
+    "works": [
+      {
+        "kind": "books",
+        "title": "Rose Madder"
+      },
+      {
+        "kind": "books",
+        "title": "The Dark Tower: The Waste Lands"
+      }
+    ],
+    "Bron": "https://stephenking.com/darktower/connections/",
+    "checked": "2026-10-25"
+  },
+  {
+    "Werk / verwijzing": "Desperation",
+    "Soort connectie": "Concept",
+    "Toelichting": "De termen can-toi en can-tah verbinden de kosmologieën; geen direct vervolg.",
+    "description": {
+      "nl": "De termen can-toi en can-tah verbinden de kosmologieën; geen direct vervolg.",
+      "en": "Can-toi and can-tah link the cosmologies; this is not a direct sequel."
+    },
+    "concepts": [
+      "can-toi",
+      "can-tah"
+    ],
+    "certainty": "strongly-implied",
+    "works": [
+      {
+        "kind": "books",
+        "title": "Desperation"
+      },
+      {
+        "kind": "books",
+        "title": "The Dark Tower: Wolves of the Calla"
+      }
+    ],
+    "Bron": "https://stephenking.com/darktower/connections/",
+    "checked": "2026-10-25"
+  },
+  {
+    "Werk / verwijzing": "The Regulators",
+    "Soort connectie": "Kosmologie",
+    "Toelichting": "De officiële connectie-index bespreekt de Regulators binnen Rolands multiversum.",
+    "description": {
+      "nl": "De officiële connectie-index bespreekt de Regulators binnen Rolands multiversum.",
+      "en": "The official connection index places the Regulators within Roland’s multiverse."
+    },
+    "concepts": [
+      "Regulators",
+      "can-toi"
+    ],
+    "certainty": "strongly-implied",
+    "works": [
+      {
+        "kind": "books",
+        "title": "The Regulators"
+      },
+      {
+        "kind": "books",
+        "title": "The Dark Tower"
+      }
+    ],
+    "Bron": "https://stephenking.com/darktower/connections/",
+    "checked": "2026-10-25"
+  },
+  {
+    "Werk / verwijzing": "Other Worlds Than These",
+    "Soort connectie": "Kosmologie",
+    "Toelichting": "Slot van de Talisman-trilogie met een expliciete verbinding naar Mid-World en de Toren.",
+    "description": {
+      "nl": "Slot van de Talisman-trilogie met een expliciete verbinding naar Mid-World en de Toren.",
+      "en": "The Talisman trilogy finale explicitly links Mid-World and the Tower."
+    },
+    "concepts": [
+      "Jack Sawyer",
+      "Mid-World",
+      "Territories"
+    ],
+    "certainty": "explicit",
+    "works": [
+      {
+        "kind": "books",
+        "title": "Other Worlds Than These"
+      },
+      {
+        "kind": "books",
+        "title": "The Talisman"
+      },
+      {
+        "kind": "books",
+        "title": "Black House"
+      },
+      {
+        "kind": "books",
+        "title": "The Dark Tower"
+      }
+    ],
+    "Bron": "https://www.simonandschuster.com/books/Other-Worlds-Than-These/Stephen-King/The-Talisman-Trilogy/9781668233092",
+    "checked": "2026-10-25"
+  }
+]

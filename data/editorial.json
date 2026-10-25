@@ -1,0 +1,153 @@
+{
+  "checked": "2026-10-25",
+  "bookAliases": {
+    "The Dark Tower I: The Gunslinger": "The Dark Tower: The Gunslinger",
+    "The Dark Tower II: The Drawing of the Three": "The Dark Tower: The Drawing of the Three",
+    "The Dark Tower III: The Waste Lands": "The Dark Tower: The Waste Lands",
+    "The Dark Tower IV: Wizard and Glass": "The Dark Tower: Wizard and Glass",
+    "The Dark Tower V: Wolves of the Calla": "The Dark Tower: Wolves of the Calla",
+    "The Dark Tower VI: Song of Susannah": "The Dark Tower: Song of Susannah",
+    "The Dark Tower VII: The Dark Tower": "The Dark Tower",
+    "The Green Mile": "The Green Mile",
+    "The Green Mile: The Complete Serial Novel": "The Green Mile"
+  },
+  "storyAliases": {
+    "The Little Green God of Agony": "Little Green God of Agony",
+    "N.": "N",
+    "Ur": "UR"
+  },
+  "editionVariants": {
+    "'Salem's Lot Illustrated Edition": "'Salem's Lot",
+    "Joyland Illustrated Edition": "Joyland",
+    "The Dark Tower: The Gunslinger (Revised)": "The Dark Tower: The Gunslinger",
+    "The Stand: The Complete & Uncut Edition": "The Stand"
+  },
+  "dutchAliases": {
+    "De duistere kant": "The Dark Half",
+    "Harten in Atlantis": "Hearts in Atlantis",
+    "De Donkere Toren": "The Dark Tower",
+    "De talisman (POD)": "The Talisman",
+    "De talisman": "The Talisman",
+    "Tovenaarsglas": "The Dark Tower: Wizard and Glass",
+    "Duma": "Duma Key",
+    "Het verloren rijk": "The Dark Tower: The Waste Lands",
+    "De spelbreker": "Gerald's Game",
+    "Het teken van drie": "The Dark Tower: The Drawing of the Three",
+    "De gloed": "The Tommyknockers",
+    "De scherpschutter": "The Dark Tower: The Gunslinger",
+    "Zwart Huis": "Black House",
+    "Vlucht naar de top": "The Running Man",
+    "Nachtmerries en droomlandschappen": "Nightmares & Dreamscapes",
+    "Desperation": "Desperation",
+    "De Groene Mijl": "The Green Mile",
+    "Firestarter": "Firestarter",
+    "Firestarter (Ogen van Vuur)": "Firestarter",
+    "Dodenwake (Pet Sematary)": "Pet Sematary",
+    "Pet Sematary": "Pet Sematary",
+    "11.22.63 (22-11-1963)": "11/22/63",
+    "Nachtmerries / Droomlandschappen": "Nightmares & Dreamscapes",
+    "The Green Mile": "The Green Mile",
+    "Een lied van Susannah": "The Dark Tower: Song of Susannah",
+    "Het meisje dat hield van Tom Gordon": "The Girl Who Loved Tom Gordon",
+    "Alles is eventueel - 1408": "Everything's Eventual",
+    "De vervloeking": "Thinner",
+    "Wolven van de Calla": "The Dark Tower: Wolves of the Calla",
+    "De ontvoering": "Blaze",
+    "Schemerwereld": "The Dead Zone",
+    "Ogen van de Draak": "The Eyes of the Dragon",
+    "De storm van de eeuw": "Storm of the Century",
+    "Tweeduister": "Four Past Midnight",
+    "4 seizoenen": "Different Seasons",
+    "De Colorado Kid": "The Colorado Kid",
+    "De wind door het sleutelgat": "The Dark Tower: The Wind Through the Keyhole",
+    "Rosie": "Rose Madder",
+    "Het geheim van de Buick": "From A Buick 8",
+    "De dromenvanger": "Dreamcatcher",
+    "Vel over been": "Bag of Bones",
+    "Dichte mist (POD)": "The Mist",
+    "De Spelbreker (POD)": "Gerald's Game",
+    "Under the Dome (Gevangen)": "Under the Dome",
+    "Het hoge gras": "In the Tall Grass",
+    "Hoogste versnelling": "Throttle",
+    "Mijl 81": "Mile 81",
+    "Een goed huwelijk": "A Good Marriage"
+  },
+  "screenAliases": {
+    "IT - Part 1: The Losers' Club": "IT",
+    "IT: Chapter Two": "IT Chapter Two",
+    "Stand By Me": "Stand by Me",
+    "11/22/63": "11.22.63",
+    "'Salem's Lot (remake)": "'Salem's Lot",
+    "Salem's Lot": "'Salem's Lot",
+    "The Stand (2020)": "The Stand",
+    "Pet Sematary (1989)": "Pet Sematary",
+    "Pet Sematary (2019)": "Pet Sematary",
+    "The Running Man (2025)": "The Running Man"
+  },
+  "dateOverrides": {
+    "11.22.63|2016": {
+      "date": "2016-02-15",
+      "source": "https://press.hulu.com/pressrelease/hulu-original-11-22-63-to-make-world-premiere-at-the-2016-sundance-film-festival/",
+      "reason": "Official King listing uses a 2015 announcement/trailer date; Hulu confirms its 2016 debut."
+    },
+    "In the Tall Grass": {
+      "date": "2012",
+      "source": "https://stephenking.com/works/short/in-the-tall-grass.html",
+      "reason": "The page header says Unreleased, but its notes explicitly identify the 2012 Esquire publication."
+    }
+  },
+  "extraFilms": [
+    {
+      "Verfilming (EN)": "Pet Sematary: Bloodlines",
+      "Jaar": 2023,
+      "Medium": "Film",
+      "Bronwerk (EN)": "Pet Sematary",
+      "Relatie": "Prequel",
+      "release": "2023-10-06",
+      "platform": "Paramount+",
+      "cast": [
+        "Jackson White — Jud Crandall",
+        "Natalie Alyn Lind — Norma",
+        "Forrest Goodluck — Manny",
+        "Isabella Star LaBlanc — Donna",
+        "Henry Thomas — Dan Crandall",
+        "David Duchovny — Bill Baterman"
+      ],
+      "Bron": "https://paramountglobalcontent.com/title/pet-sematary-bloodlines-1969",
+      "sources": [
+        "https://www.paramountplus.com/movies/video/QBPRNOkc0WBjiqzhW12xpMtqR71mzbL1/"
+      ],
+      "status": "released",
+      "relationVerified": true
+    },
+    {
+      "Verfilming (EN)": "The Rage: Carrie 2",
+      "Jaar": 1999,
+      "Medium": "Film",
+      "Bronwerk (EN)": "Carrie",
+      "Relatie": "Vervolgfilm",
+      "release": "1999-03-12",
+      "platform": "MGM",
+      "Bron": "https://www.boxofficemojo.com/title/tt0144814/",
+      "status": "released",
+      "relationVerified": true,
+      "sources": [
+        "https://www.stephenking.nl/skfnieuw/boeken/boeken-op-titel/boek-carrie/"
+      ]
+    }
+  ],
+  "supplementaryScreenQueue": [
+    "Children of the Corn (2009)",
+    "Children of the Corn (2020/2023)",
+    "Children of the Corn sequels",
+    "Pet Sematary Two (1992)",
+    "The Lawnmower Man (1992; disputed connection)",
+    "Julie Ganapathi (2003)",
+    "No Smoking (2007)",
+    "Creepshow (2019 series)",
+    "The Dead Zone / other anthology episodes",
+    "Dollar Baby and other short-film adaptations",
+    "Derivative sequels to The Mangler, Sometimes They Come Back and Firestarter"
+  ],
+  "comparisonSource": "https://en.wikipedia.org/wiki/List_of_adaptations_of_works_by_Stephen_King"
+}

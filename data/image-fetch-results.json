@@ -1,0 +1,2133 @@
+[
+  {
+    "index": 0,
+    "candidateId": "de69c6bd31a61565",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789024591350_frontcover_original.jpg",
+    "fetchStatus": "available",
+    "sha256": "de051c8585635d7bc52bd10668ca41553c8b06cbf8ead23ba9e8c14f661e0428",
+    "width": 960,
+    "height": 960
+  },
+  {
+    "index": 1,
+    "candidateId": "45fabace5d6451be",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789024578108_frontcover.jpg",
+    "fetchStatus": "available",
+    "sha256": "ef8260253bc218cba0b3eae32baf2e30c3cc36db9807958a452e79d7117c7f4b",
+    "width": 514,
+    "height": 800
+  },
+  {
+    "index": 2,
+    "candidateId": "8e8881793097ad63",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2026/06/9789021066561_frontcover_original.jpg",
+    "fetchStatus": "available",
+    "sha256": "c4084028ebf948561d806bc168fc967bd2b3209bc605490392e4cb1da7ab3bbf",
+    "width": 960,
+    "height": 1235
+  },
+  {
+    "index": 3,
+    "candidateId": "33713e802a9613f3",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021027791_frontcover.jpg",
+    "fetchStatus": "available",
+    "sha256": "2bf3e069c0bb05a6d57394dd5c8d86450564cda74d955f3da0dd4c9c729b9f5f",
+    "width": 520,
+    "height": 800
+  },
+  {
+    "index": 4,
+    "candidateId": "4c8b627892ca67a4",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021025131_frontcover.jpg",
+    "fetchStatus": "available",
+    "sha256": "1dd624b8b921114e08eab4c123fce3d74b9d7d3d5231956a32e147e59496f8c1",
+    "width": 514,
+    "height": 800
+  },
+  {
+    "index": 5,
+    "candidateId": "734a3adaff0862c7",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021043425_frontcover.jpg",
+    "fetchStatus": "available",
+    "sha256": "07df5dfe075c164627955d35aec533a66f63838900f80051d12bec6c8bcde665",
+    "width": 960,
+    "height": 1452
+  },
+  {
+    "index": 6,
+    "candidateId": "3b2b29a41914924c",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789024578146_frontcover.jpg",
+    "fetchStatus": "available",
+    "sha256": "92672255649c495969a5f9edf009afbe75150997bc41136aada042d8bc4f9a2d",
+    "width": 514,
+    "height": 800
+  },
+  {
+    "index": 7,
+    "candidateId": "e071da9710d20214",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789024578214_frontcover.jpg",
+    "fetchStatus": "available",
+    "sha256": "5ac4ec21d10b79bc4f3a9655573d5488b1e972c49b4e1ae12226cee417c92e97",
+    "width": 514,
+    "height": 800
+  },
+  {
+    "index": 8,
+    "candidateId": "3f966d69fdcaeb47",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021031354_frontcover_original.jpg",
+    "fetchStatus": "available",
+    "sha256": "29398b21d666c3573760588db7f805cd166f678b6eb3b3421a1a4d3526281acd",
+    "width": 600,
+    "height": 1060
+  },
+  {
+    "index": 9,
+    "candidateId": "2309e72dcbe0d539",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021043449_frontcover.jpg",
+    "fetchStatus": "available",
+    "sha256": "7d970a361eeea9908b2156e2660385bb5f9f3fec2bb138d268b28d1def6f9ebd",
+    "width": 345,
+    "height": 500
+  },
+  {
+    "index": 10,
+    "candidateId": "7d816cb584961dec",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021049151_frontcover.jpg",
+    "fetchStatus": "available",
+    "sha256": "3ec7428ae031d3c81ab5565878c47f7bf56f767c361d218fe1770fd9f846cee9",
+    "width": 960,
+    "height": 1494
+  },
+  {
+    "index": 11,
+    "candidateId": "45e7c911947cd067",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021015873_frontcover.jpg",
+    "fetchStatus": "available",
+    "sha256": "e921e1fa892ae29a530f6763ec16badec8b343cd8790e3ae11e8e715887649e1",
+    "width": 552,
+    "height": 800
+  },
+  {
+    "index": 12,
+    "candidateId": "5fd7b8dd2fc01991",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2026/10/9789021037400_frontcover_original.jpg",
+    "fetchStatus": "available",
+    "sha256": "e3efec591213001f7cc1b65e39235dd28cf608f4a5e949058d6ddbd69953cfef",
+    "width": 960,
+    "height": 1463
+  },
+  {
+    "index": 13,
+    "candidateId": "5be9db88bb061582",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2025/11/9789021062419_frontcover_original.jpg",
+    "fetchStatus": "available",
+    "sha256": "e91b01503138845c8109700c2231450c9ba34503ccfb44412606309a3f7017e8",
+    "width": 960,
+    "height": 960
+  },
+  {
+    "index": 14,
+    "candidateId": "e5a24a5f571acf01",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021027432_frontcover_original.jpg",
+    "fetchStatus": "available",
+    "sha256": "2d247949a0aa57d53daf34c3c7ad970a2cba0af075854da52f160fffa57ec176",
+    "width": 960,
+    "height": 1474
+  },
+  {
+    "index": 15,
+    "candidateId": "f92f142e448acfae",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021025261_frontcover_original.jpg",
+    "fetchStatus": "available",
+    "sha256": "83cf785606c7eb4fa668daaf687fdcc0c8599f59a8d5ff15e92aac36519da952",
+    "width": 960,
+    "height": 1493
+  },
+  {
+    "index": 16,
+    "candidateId": "201fa2c10a00bcf8",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789024578160_frontcover.jpg",
+    "fetchStatus": "available",
+    "sha256": "a7c23c677d141e94fbb9ecdd36587d52183ad59a178c64baa522a29f2ea9e48b",
+    "width": 514,
+    "height": 800
+  },
+  {
+    "index": 17,
+    "candidateId": "772968af75188b2a",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/06/9789021051420_frontcover_original.jpg",
+    "fetchStatus": "available",
+    "sha256": "f4c98780fa51c6db1b6874f886391f4d9d60a4d7d52c9a4e7c3e800bd72b76e3",
+    "width": 960,
+    "height": 1494
+  },
+  {
+    "index": 18,
+    "candidateId": "062f758e6997e718",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021048390_frontcover_original.jpg",
+    "fetchStatus": "available",
+    "sha256": "75b5c2dde5ade92e1cc09a346f7d6d3a6efb07fede2939de5d4a959b3041ffa3",
+    "width": 960,
+    "height": 960
+  },
+  {
+    "index": 19,
+    "candidateId": "356e7c1d3c9265cc",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2026/06/9789021066547_frontcover.jpg",
+    "fetchStatus": "available",
+    "sha256": "ea01dcecce73e243092b1b7a77721770b78e0ab876ca91c40fc4a046f3064872",
+    "width": 960,
+    "height": 1495
+  },
+  {
+    "index": 20,
+    "candidateId": "caba1b758ddda8b4",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/11/9789021053653_frontcover_original.jpg",
+    "fetchStatus": "unavailable",
+    "error": "cannot identify image file <_io.BytesIO object at 0x1069f8270>"
+  },
+  {
+    "index": 21,
+    "candidateId": "d73e3d5aa9f0d4c7",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021037264_frontcover_original.jpg",
+    "fetchStatus": "available",
+    "sha256": "6a47b4306bca35390cfa654767599733fc5ec7941ed1c771f194efc3aa18ea82",
+    "width": 960,
+    "height": 1494
+  },
+  {
+    "index": 22,
+    "candidateId": "cfafd204ae25d747",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021048413_frontcover_original.jpg",
+    "fetchStatus": "available",
+    "sha256": "bfdf497fe4620fe1d55ac671ea21aeeb19ad1b8cc2c0bfe3b28ce3209de4a116",
+    "width": 960,
+    "height": 960
+  },
+  {
+    "index": 23,
+    "candidateId": "b835f54b1608b3e9",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2026/03/9789021064383_frontcover.jpg",
+    "fetchStatus": "available",
+    "sha256": "0bbad92cbab1e72be7823a5c0da76e6789639f3a7923ff9adeb6c26c05d170c2",
+    "width": 960,
+    "height": 1315
+  },
+  {
+    "index": 24,
+    "candidateId": "0cbe139da772e180",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021049144_frontcover.jpg",
+    "fetchStatus": "available",
+    "sha256": "a6cbd9c37b17b103b0c5d1e3100b072ef2d84ca0a914a59ae85b139fc41501c3",
+    "width": 960,
+    "height": 1490
+  },
+  {
+    "index": 25,
+    "candidateId": "024fd79327e60aff",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021037431_frontcover_original.jpg",
+    "fetchStatus": "available",
+    "sha256": "d3b193bd495676a4b536e4dfc41ad8db00f77c5a48d77d6e4fb16acab61a5440",
+    "width": 960,
+    "height": 1494
+  },
+  {
+    "index": 26,
+    "candidateId": "bcb37c3be2a2816f",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021025360_frontcover_original.jpg",
+    "fetchStatus": "available",
+    "sha256": "c6097e2fd620a4cf974cd5bae29c35b402961812143bd1de9e222a14c4a7267b",
+    "width": 960,
+    "height": 1390
+  },
+  {
+    "index": 27,
+    "candidateId": "fc133518fd705f90",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021036830_frontcover.jpg",
+    "fetchStatus": "available",
+    "sha256": "eb29f9e90e71ddb72eee50aea258af4a2e8a74466a6b47ae283a4bd21702ed24",
+    "width": 960,
+    "height": 1494
+  },
+  {
+    "index": 28,
+    "candidateId": "3654fcdef86d5684",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021037301_frontcover.jpg",
+    "fetchStatus": "available",
+    "sha256": "c43a818393611806e7f66d084955e687ad97a9ddea10652246dc04d05f9d7e4f",
+    "width": 960,
+    "height": 1494
+  },
+  {
+    "index": 29,
+    "candidateId": "03c6ff12c14d4a62",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2025/03/9789021055725_frontcover.jpg",
+    "fetchStatus": "available",
+    "sha256": "3c1995a7112da6c95732cea5d31e8b65881cd9e73be70fb4d39f91dc39741bc2",
+    "width": 960,
+    "height": 1465
+  },
+  {
+    "index": 30,
+    "candidateId": "5f3a816b134f1af5",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021037325_frontcover_original.jpg",
+    "fetchStatus": "available",
+    "sha256": "12aff12ac508a6d941907d8742cb24f4eb90109a684ee989f5090d78ceabe543",
+    "width": 960,
+    "height": 1494
+  },
+  {
+    "index": 31,
+    "candidateId": "368b725a390463b4",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021037332_frontcover_original.jpg",
+    "fetchStatus": "available",
+    "sha256": "f94d9bd52bd841e5f0b638b0a2a352bd22093c5133b829e8f9c47f5c92f3f586",
+    "width": 960,
+    "height": 1494
+  },
+  {
+    "index": 32,
+    "candidateId": "9de909c884878aa3",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021037356_frontcover_original.jpg",
+    "fetchStatus": "available",
+    "sha256": "429a0367733501a86f8a780af8a495519c74443d1613cb4d01e0c705b71ac613",
+    "width": 960,
+    "height": 1494
+  },
+  {
+    "index": 33,
+    "candidateId": "aa68fb368a583dc0",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2025/02/9789021048383_frontcover_original.jpg",
+    "fetchStatus": "available",
+    "sha256": "1f47bb0bcc2288bfb2b7370b49a8172be1838a95117a521985025f76be13019f",
+    "width": 960,
+    "height": 960
+  },
+  {
+    "index": 34,
+    "candidateId": "7bb5b9f853bdebdb",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021037363_frontcover_original.jpg",
+    "fetchStatus": "available",
+    "sha256": "dbc7f095f5965f009e0b64b30ada3e78820c750d48996b7e54802b1feb84e793",
+    "width": 960,
+    "height": 1494
+  },
+  {
+    "index": 35,
+    "candidateId": "555ef9dfbf420407",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2025/11/9789021062433_frontcover.jpg",
+    "fetchStatus": "available",
+    "sha256": "2816793fe144cb3e7bb9974eb0cd250af9f7d8a9a72a7edcee65f8f98a146c6f",
+    "width": 960,
+    "height": 1503
+  },
+  {
+    "index": 36,
+    "candidateId": "b8a7213bae001c6a",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2026/03/9789021064390_frontcover.jpg",
+    "fetchStatus": "available",
+    "sha256": "df776a228a49d100649a688d19e8d6d18d27410281bbebafd50f229835581499",
+    "width": 960,
+    "height": 1505
+  },
+  {
+    "index": 37,
+    "candidateId": "fe2c7138b4b38162",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2026/07/9789021066554_frontcover_original.jpg",
+    "fetchStatus": "available",
+    "sha256": "2b4ad5022dfec047bc083f2de1477ae7a0db0f1a253d51987d2393259774fdf6",
+    "width": 960,
+    "height": 1466
+  },
+  {
+    "index": 38,
+    "candidateId": "7c3c70cb7098f458",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2026/10/9789024578207_frontcover.jpg",
+    "fetchStatus": "available",
+    "sha256": "c289014711b4aaa919290296984ea376500ac9858424232f904bbff6be905a32",
+    "width": 514,
+    "height": 800
+  },
+  {
+    "index": 39,
+    "candidateId": "da3bb077b458fe86",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021037448_frontcover_original.jpg",
+    "fetchStatus": "available",
+    "sha256": "e15d2694b2aca2410bb53ccba07f1b5ab482801297e2e6e253b793b87f026f15",
+    "width": 960,
+    "height": 1494
+  },
+  {
+    "index": 40,
+    "candidateId": "aac8c8499c4f3d93",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021030098_frontcover_original.jpg",
+    "fetchStatus": "available",
+    "sha256": "2dd669dd66b76caa2000ef43c80bc00a0135d578dedd9e0d1dc06b11b85bef72",
+    "width": 600,
+    "height": 917
+  },
+  {
+    "index": 41,
+    "candidateId": "f83885275a2d0ed8",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2025/06/9789021059662_frontcover.jpg",
+    "fetchStatus": "available",
+    "sha256": "1cd53a17997e549f1bda5de0bfc1dde6b946cd14b4c4ea89028dac3405d5fdf4",
+    "width": 960,
+    "height": 1474
+  },
+  {
+    "index": 42,
+    "candidateId": "ebdf290565ec359f",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2025/03/9789021055718_frontcover.jpg",
+    "fetchStatus": "available",
+    "sha256": "4b3bd803b76f9cbaf2e591142a0b138f61b3e1c293505e0358bdbfb970bd4276",
+    "width": 960,
+    "height": 960
+  },
+  {
+    "index": 43,
+    "candidateId": "1ca87daee52d9e0d",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021026152_frontcover.jpg",
+    "fetchStatus": "available",
+    "sha256": "98a0df002be6cc032c47d167d65f892581492bf53269c0ff6919bdbfbfb727ec",
+    "width": 514,
+    "height": 800
+  },
+  {
+    "index": 44,
+    "candidateId": "bd07909696fea603",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021019321_frontcover.jpg",
+    "fetchStatus": "available",
+    "sha256": "ae9c31280e95bf5ab82d4f1bf400fc7b23b84abf1836641ec46e124889e695b9",
+    "width": 600,
+    "height": 930
+  },
+  {
+    "index": 45,
+    "candidateId": "c5b8aa85363dd697",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021037653_frontcover_original.jpg",
+    "fetchStatus": "available",
+    "sha256": "a119b46ca5e957ef8101f69e010667b64c8ef03a39cfcbe5e28b1cd4b9117669",
+    "width": 960,
+    "height": 1494
+  },
+  {
+    "index": 46,
+    "candidateId": "400c625bd41fd21d",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021027784_frontcover.jpg",
+    "fetchStatus": "available",
+    "sha256": "3db58d12498ea8fb3f1f9f7e8013836ce319a0f1f574661b831f1d183bd64b77",
+    "width": 185,
+    "height": 288
+  },
+  {
+    "index": 47,
+    "candidateId": "c1cc78a994699860",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789024576135_frontcover.jpg",
+    "fetchStatus": "available",
+    "sha256": "2229f0ed4f52590d5c01e1cc50871b34648ef35f54b13f5d423d038ad05195d9",
+    "width": 511,
+    "height": 800
+  },
+  {
+    "index": 48,
+    "candidateId": "2c33d7c3956e606c",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021023281_frontcover.jpg",
+    "fetchStatus": "available",
+    "sha256": "3e9374c727b671c18d4e09cd1fac79b8b3f35894bafd1b520fd758af65b55e35",
+    "width": 512,
+    "height": 800
+  },
+  {
+    "index": 49,
+    "candidateId": "b1cba17e34ca5ef5",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021025285_frontcover.jpg",
+    "fetchStatus": "available",
+    "sha256": "906773da4d2ffde89714584c0c515a4607e9bae046b4e27ac3fd4e077ddf0ff4",
+    "width": 514,
+    "height": 800
+  },
+  {
+    "index": 50,
+    "candidateId": "b785851439dc8189",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021024417_frontcover.jpg",
+    "fetchStatus": "available",
+    "sha256": "20f5bff87f543ce3872f5eae2762151f5cd7c1c46ed069b103a79ba4cb2f4246",
+    "width": 292,
+    "height": 448
+  },
+  {
+    "index": 51,
+    "candidateId": "d5c8a1a227d9339c",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021025742_frontcover_original.jpg",
+    "fetchStatus": "available",
+    "sha256": "894df7726647e51182a5e6758313716fdbf1af8162db99175e78e741a1d4dfe7",
+    "width": 600,
+    "height": 930
+  },
+  {
+    "index": 52,
+    "candidateId": "b1ea28e499202035",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2026/10/9789024559688_frontcover.jpg",
+    "fetchStatus": "available",
+    "sha256": "76a9c6b8cd68f2fd783a55ba7f01a9044a4d83b76c4f63c6e7f8c0a69bee2005",
+    "width": 513,
+    "height": 800
+  },
+  {
+    "index": 53,
+    "candidateId": "26c516bec028be4e",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789024578245_frontcover.jpg",
+    "fetchStatus": "available",
+    "sha256": "8d91d2414e6c0bcb288b2dd4bd74c188d7b23f6156aea6301426ef5ab62ec8b3",
+    "width": 514,
+    "height": 800
+  },
+  {
+    "index": 54,
+    "candidateId": "a90d8b2a235f4c5f",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2026/10/9789021037196_frontcover_original.jpg",
+    "fetchStatus": "available",
+    "sha256": "845625372a3572511b80e6267d6014bef6cb13ab2b752397c556f13787d2549a",
+    "width": 960,
+    "height": 1494
+  },
+  {
+    "index": 55,
+    "candidateId": "df9aaee0905ae4fa",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789024578047_frontcover.jpg",
+    "fetchStatus": "available",
+    "sha256": "90add356036ddb9a4a1df196495ac477ac8b1fc9467bf308b49c5de1374862e0",
+    "width": 514,
+    "height": 800
+  },
+  {
+    "index": 56,
+    "candidateId": "0ef4d7f27c5305ed",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021039800_frontcover.jpg",
+    "fetchStatus": "available",
+    "sha256": "e03c1b3024822c880ce8bafea6472f1e3c9ce4790665bce9783fd7cd1bb6707c",
+    "width": 960,
+    "height": 1493
+  },
+  {
+    "index": 57,
+    "candidateId": "e2b8f900c345be9f",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2026/06/9789021064468_frontcover.jpg",
+    "fetchStatus": "available",
+    "sha256": "b53b4c4e39a6c89b22f1914df487dd82d605c87d03c400cae0f61157992a4c98",
+    "width": 960,
+    "height": 1493
+  },
+  {
+    "index": 58,
+    "candidateId": "132c7e4e29853fcc",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2025/03/9789021055732_frontcover_original.jpg",
+    "fetchStatus": "available",
+    "sha256": "de08f5bf4932723894c3067f990dd5697ba00fe8ac30d59ca9116e03a783f9ea",
+    "width": 960,
+    "height": 1461
+  },
+  {
+    "index": 59,
+    "candidateId": "d805d445cd8ed9fa",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2025/11/9789021062440_frontcover.jpg",
+    "fetchStatus": "available",
+    "sha256": "ad29a07c36d0059a0f0c68852b534ca15855ef05cda3a9b98162ede122816119",
+    "width": 960,
+    "height": 1492
+  },
+  {
+    "index": 60,
+    "candidateId": "b048880e515a6cc9",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789024578115_frontcover.jpg",
+    "fetchStatus": "available",
+    "sha256": "a884d702237d31281ceade5c2be169bfbcaf1ec06bd744b7e32fc707139c68ab",
+    "width": 514,
+    "height": 800
+  },
+  {
+    "index": 61,
+    "candidateId": "c2ec0b090819489d",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021022925_frontcover_original.jpg",
+    "fetchStatus": "available",
+    "sha256": "5340e713a5fecbe807d96f84ba1c67abfad59e696a8c93342d063d22dcfbdc42",
+    "width": 600,
+    "height": 917
+  },
+  {
+    "index": 62,
+    "candidateId": "465da5f2352e6ca6",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2025/02/9789021037226_frontcover_original.jpg",
+    "fetchStatus": "available",
+    "sha256": "922f007cd1123240ba389131d9c10c1334aee6c75c207f7bae6d967f77a4a4b4",
+    "width": 960,
+    "height": 1494
+  },
+  {
+    "index": 63,
+    "candidateId": "9681931ee5483615",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789024567515_frontcover.jpg",
+    "fetchStatus": "available",
+    "sha256": "b9d68295169544e2d79005642b8385cab3b035000e93b0af222582e0afc8c27f",
+    "width": 521,
+    "height": 800
+  },
+  {
+    "index": 64,
+    "candidateId": "f59328b2f4a1c766",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789024552290_frontcover.jpg",
+    "fetchStatus": "available",
+    "sha256": "e4142277d4068c2c57b379265a3533ad1df87ea19933db214c6d67e848ef84a2",
+    "width": 600,
+    "height": 921
+  },
+  {
+    "index": 65,
+    "candidateId": "4babd9ccd203d41c",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789024561179_frontcover.jpg",
+    "fetchStatus": "available",
+    "sha256": "a39607e72ccd00bc8b1db5feed35d8e9659958fde2a7a2ca67b5f9f84c0f15bd",
+    "width": 548,
+    "height": 800
+  },
+  {
+    "index": 66,
+    "candidateId": "632725729548b2ac",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789024561186_frontcover.jpg",
+    "fetchStatus": "available",
+    "sha256": "0ff932a20d53f1a866f6e29fc616044f4cff4c4b6546352d08160195fb209ba2",
+    "width": 548,
+    "height": 800
+  },
+  {
+    "index": 67,
+    "candidateId": "7abc49a5cf4bf7b7",
+    "url": "https://stephenking.com/images/books/carrie/hardcover_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "c85418ef8fc20c4275ae3643a072430e901a9175340255d2d15197ba8f072887",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 68,
+    "candidateId": "69b00f853c601a43",
+    "url": "https://stephenking.com/images/books/salems_lot/hardcover_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "188682aae5b2abea9c9e07512d3d818a20911c39dd67bab930d2c5676644701c",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 69,
+    "candidateId": "1d6eb53315a5f06e",
+    "url": "https://stephenking.com/images/books/shining/hardcover_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "77587026ede4308abf1d1c2ce990a856c8bf0b1fd14b34cd194a95b9d75f7620",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 70,
+    "candidateId": "bc3574c13a533c65",
+    "url": "https://stephenking.com/images/books/rage/paperback_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "f2cb74602bd1b7e03842d4782e2a3ec5426791daabbcb5a079a24fd9dae5ed7b",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 71,
+    "candidateId": "b56f21ed194795d7",
+    "url": "https://stephenking.com/images/books/78_stand/prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "ca2f0515fe4705e8e1228e4bddce73c53695a0cf6afdb0f82b74c6e1b0c11cd5",
+    "width": 256,
+    "height": 383
+  },
+  {
+    "index": 72,
+    "candidateId": "a0463260008efbf6",
+    "url": "https://stephenking.com/images/books/long_walk/paperback_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "de2d6ffba109a67b97296d55e877260a6808d5bd75ce7e3942578d29c75a2a62",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 73,
+    "candidateId": "84f71bf161c19911",
+    "url": "https://stephenking.com/images/books/dead_zone/hardcover_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "04700f6a21eba372cc91bb803c5a4ed5901c6314d3bc594cd2e32413b956e45c",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 74,
+    "candidateId": "7ef9ba0d542da17c",
+    "url": "https://stephenking.com/images/books/firestarter/hardcover_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "eacabe26f23ad087f201647fa43ba637ee9e5b41c609b1bb6bc3e857cd6c4feb",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 75,
+    "candidateId": "28d6110b9f9955ae",
+    "url": "https://stephenking.com/images/books/roadwork/paperback_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "4d0f7de469b82a1a4f4ddbf92b597e539d744a7a25253d963780e9f89511d09c",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 76,
+    "candidateId": "e0b043f39028493a",
+    "url": "https://stephenking.com/images/books/cujo/hardcover_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "57aa14cb5a789dcbf2b8b310a8ec5c7dc11626b9e482585a329923a07b1efed1",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 77,
+    "candidateId": "bcfac9059226baad",
+    "url": "https://stephenking.com/images/books/running_man/hardcover_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "5aedd618800c0bb9605424664f1d986db6405c38811b7ac00aacbf6a9c31890f",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 78,
+    "candidateId": "13bf897e48788f53",
+    "url": "https://stephenking.com/images/novel/70/the_gunslinger.jpg",
+    "fetchStatus": "available",
+    "sha256": "4d2b317675d2a291b629ecd264bd6ec85e56ff3f5da9e9d9ba8a2ae350dcbe8b",
+    "width": 255,
+    "height": 373
+  },
+  {
+    "index": 79,
+    "candidateId": "4ed69b9859c5e384",
+    "url": "https://stephenking.com/images/books/christine/hardcover_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "c9a3d1d4479c50f4b853b77db524c20c2ff6180a5c5ea0390eb5558e171af42f",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 80,
+    "candidateId": "da8206fa9b0b3f4f",
+    "url": "https://stephenking.com/images/books/pet_sematary/hardcover_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "8a3f8c7f19cdf628d47e85401959f4439d31e5c7c6f9557fe1d1195b2944dd09",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 81,
+    "candidateId": "e9e04a2a1ab029d7",
+    "url": "https://stephenking.com/images/books/cycle_of_the_werewolf/hardcover_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "314eb6634cd85979a3b45df95d428726f9c3afe1ff8cb7736518ec03a28ce616",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 82,
+    "candidateId": "2b1fdc9a6b9992b4",
+    "url": "https://stephenking.com/images/books/talisman/hardcover_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "95fe2b897a2c68726248c9f9319ebc2a8239a0c3fbeaff020c1d22be9d7f04ee",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 83,
+    "candidateId": "faf9c59cee3791cc",
+    "url": "https://stephenking.com/images/books/thinner/hardcover_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "6c395674b54b9a1094b4876efa065a7f938ac9013f76b2ace6015ed72f3ffcd9",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 84,
+    "candidateId": "345e0233f0f20165",
+    "url": "https://stephenking.com/images/books/it/hardcover_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "d1f83240137fff924ac4484dae5218f0e13e108eea4c97971e766c6b265d65a0",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 85,
+    "candidateId": "87e0edc2a4746da7",
+    "url": "https://stephenking.com/images/books/eyes_of_the_dragon/hardcover_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "252d1a6166da739d8779494f5791f20d929db7bcbf9721b4de74df0900739795",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 86,
+    "candidateId": "fd0f201a62487689",
+    "url": "https://stephenking.com/images/books/misery/hardcover_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "7687d937d72fbffce827c66130817e31e33960d2c6f7f1f8b4f7504484ebe4b0",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 87,
+    "candidateId": "2dac98e84c24c754",
+    "url": "https://stephenking.com/images/novel/12/the_drawing_of_the_three.jpg",
+    "fetchStatus": "available",
+    "sha256": "1e9fd153bc5477f83debad0a405e0995954ed49459f6631e75ae07b32f62b2c8",
+    "width": 255,
+    "height": 364
+  },
+  {
+    "index": 88,
+    "candidateId": "c0003fc64534821f",
+    "url": "https://stephenking.com/images/books/tommyknockers/hardcover_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "cf3d2c403326dd806884cdf1ac0fbf3ec2d7e3b8045d8375ee03b54516fffc91",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 89,
+    "candidateId": "0357c0b266b4775f",
+    "url": "https://stephenking.com/images/novel/1/hardcover_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "3647806561e96fa50edea120f701295a130815b5669b7963a17fac22aa0c6b60",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 90,
+    "candidateId": "20c73d92e0479f91",
+    "url": "https://stephenking.com/images/novel/13/the_waste_lands.jpg",
+    "fetchStatus": "available",
+    "sha256": "111c485d63fc9d24d9f53bf6760a4f39e7a1f43ad2e3fac790a9a529c72a7674",
+    "width": 254,
+    "height": 374
+  },
+  {
+    "index": 91,
+    "candidateId": "ff67f6bfd1fa715c",
+    "url": "https://stephenking.com/images/books/needfull_things/hardcover_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "4d83ff9bccaec851cbd88417374349ff76526059e8ffe8faab6e153b32938939",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 92,
+    "candidateId": "658be333c8c6314d",
+    "url": "https://stephenking.com/images/books/geralds_game/hardcover_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "b13cf7f6c1a1d9b1f0f6eeb751ac754c9ec4ea54302302befaad6b6aa3e260ee",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 93,
+    "candidateId": "6fd84d053f22afd3",
+    "url": "https://stephenking.com/images/books/dolores_claiborne/hardcover_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "ed03bbdf45e2d1eaf94fe5b78627033570f0bcfb6ac6500344a4cd28a5a807a3",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 94,
+    "candidateId": "3021d117c9da82a9",
+    "url": "https://stephenking.com/images/books/insomnia/hardcover_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "a46c626d2b6591fc2ac9b239b051f6fdef771d6e6a239f2398c4b046f70327d8",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 95,
+    "candidateId": "ba19c5219bc78058",
+    "url": "https://stephenking.com/images/books/rose_madder/hardcover_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "348d655b291a2d5286d8e52be7f63d25dd6846662b547b1d09704ceae3b0b3c0",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 96,
+    "candidateId": "961aa074ad0e6b18",
+    "url": "https://stephenking.com/images/novel/45/hardcover.jpg",
+    "fetchStatus": "available",
+    "sha256": "2a7c752964cd9ea93f218ab5fa77543d8218db131c9c8193188e2da274d865ea",
+    "width": 255,
+    "height": 384
+  },
+  {
+    "index": 97,
+    "candidateId": "08f0d87a14118ebe",
+    "url": "https://stephenking.com/images/books/desperation/hardcover_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "4fe46baf900789c20a8718abff55d25b3fde30444dd28a2591cf7582e581846c",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 98,
+    "candidateId": "b1c371401b22bf0e",
+    "url": "https://stephenking.com/images/books/regulators/hardcover_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "b9224bb0544665c3c6ca63c8947cc30fec83dbfc0837dc3ea4557e6a4c038b23",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 99,
+    "candidateId": "aa8a10d650f9fff1",
+    "url": "https://stephenking.com/images/novel/14/wizard_and_glass.jpg",
+    "fetchStatus": "available",
+    "sha256": "2701c2c18a3603658bd823c1e3d5d41f0d651107a76e77caa3f9c286acb5bd24",
+    "width": 255,
+    "height": 350
+  },
+  {
+    "index": 100,
+    "candidateId": "8af6f5ad536a1582",
+    "url": "https://stephenking.com/images/books/bag_of_bones/hardcover_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "21627f873e23f0b164df7871ae4cb5cb7f571e0b0519a180ecdf5c6fee4d6006",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 101,
+    "candidateId": "63e470374c022807",
+    "url": "https://stephenking.com/images/books/girl_who_loved_tom_gordon/hardcover_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "c16943804f75063117f4c5c798a5a9e25c0770a45b635167f15be8263647b8b6",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 102,
+    "candidateId": "befde7906f4daf9e",
+    "url": "https://stephenking.com/images/books/dreamcatcher/hardcover_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "926ca14b9c89cc42d33720dd06a68e30a43e82c52a587d8975c5406b71dc3f1a",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 103,
+    "candidateId": "902ae607cc29f903",
+    "url": "https://stephenking.com/images/books/black_house/hardcover_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "9e070d30de30d471ca6ef88f04e4529aeeb0ac6494d3d287f231033fe2a3fe80",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 104,
+    "candidateId": "c34759f554915d9f",
+    "url": "https://stephenking.com/images/books/from_a_buick_8/hardcover_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "f9ff2bf9df5eecc3fdf9bfc65de7190ec87bc0c2179bbbf46bd7d3b53f494291",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 105,
+    "candidateId": "21cb60abeef05edc",
+    "url": "https://stephenking.com/images/novel/16/hardcover_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "a0b88ff5b37e36b0bb7f30658737313e1cf9950c47f3d7ff7a454055a8524002",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 106,
+    "candidateId": "e6384b18411748a7",
+    "url": "https://stephenking.com/images/books/song_of_sussanah/hardcover_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "a052ea7df56c8185d591901adf661ffa66ef84f0ced0ed2ee129b0beb7c311ae",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 107,
+    "candidateId": "899082b3204f9eac",
+    "url": "https://stephenking.com/images/books/dark_tower/hardcover_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "d43ee54eb4eedbc53e29145591fc5036f649136c77c9907f4f2e04f9d844f3ba",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 108,
+    "candidateId": "85f7440f29c1d53d",
+    "url": "https://stephenking.com/images/books/colorado_kid/paperback_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "496cf9c21102acb46290586ba73c637e06f073c1a8c46e5e6bf97de26e9136ba",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 109,
+    "candidateId": "eb17f02031a09441",
+    "url": "https://stephenking.com/images/books/cell/hardcover_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "7a4a4b55e69b9b4105eadc5a5e1bb52ecf82d48338fe275b5f27ed8d7f741993",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 110,
+    "candidateId": "490994adc7c1f59b",
+    "url": "https://stephenking.com/images/books/liseys_story/hardcover_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "48894bac46d95b89e94259fbc68f3a73ef8533494c76f441e3a8fde159d7676e",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 111,
+    "candidateId": "5963336cddd357c4",
+    "url": "https://stephenking.com/images/books/blaze/hardcover_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "6fdaa7a6026669e5f08ffe2e5f4cec2a6eaa1a82fccfca434517faa3d6d56fff",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 112,
+    "candidateId": "101fcc8548fb160d",
+    "url": "https://stephenking.com/images/books/duma_key/hardcover_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "dc602d7f53fc8a3d5a6b98de455ed145c7861c1af5efdfa13858354f1dfd2a4b",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 113,
+    "candidateId": "d92ef955280c950c",
+    "url": "https://stephenking.com/images/novel/56/utd.jpg",
+    "fetchStatus": "available",
+    "sha256": "e0d39d3a31f752bf215ff9559d57364dfa76af52e7f1f6d16fe8b00ef70dc1d8",
+    "width": 255,
+    "height": 314
+  },
+  {
+    "index": 114,
+    "candidateId": "2ef11737a1a59439",
+    "url": "https://stephenking.com/images/books/11-22-63/11-22-63_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "d71e629a8dd677c224b33325dd3228ef690fc04a4398e0aec9dba25ba7d4678f",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 115,
+    "candidateId": "37415063a6e697ef",
+    "url": "https://stephenking.com/images/books/wind_through_the_keyhole/wind_through_the_keyhole_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "f8e097590608dae448fdd5c922c21723cf569a120bbb2b9a578a855f584fd8e1",
+    "width": 255,
+    "height": 410
+  },
+  {
+    "index": 116,
+    "candidateId": "ad082a4590fb89a6",
+    "url": "https://stephenking.com/images/books/joyland/joyland_property_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "1b571a2577136e0e62fb7c6f24e1d2857e1c29ae689ff042045fdfe5db44a37d",
+    "width": 256,
+    "height": 410
+  },
+  {
+    "index": 117,
+    "candidateId": "fdbdc81a385ace86",
+    "url": "https://stephenking.com/images/books/doctor_sleep/doctor_sleep_property_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "371e18c22440562b45201a95c16ea86617398adccbac2283333220b25a4fda85",
+    "width": 256,
+    "height": 389
+  },
+  {
+    "index": 118,
+    "candidateId": "ce44a035abbd8d85",
+    "url": "https://stephenking.com/images/books/mr_mercedes/mr_mecedes_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "8b624e693440ba3f8764a955290322cab851ba9917700c0626765a2c063d12db",
+    "width": 256,
+    "height": 388
+  },
+  {
+    "index": 119,
+    "candidateId": "331e49ddc622d3a5",
+    "url": "https://stephenking.com/images/books/revival/revival_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "eb874c70de86d51fe204b3ea47985b68e7b54c95074c010050d97e0c3b1c60d2",
+    "width": 256,
+    "height": 397
+  },
+  {
+    "index": 120,
+    "candidateId": "5ea0efd2e1d50cf5",
+    "url": "https://stephenking.com/images/books/finders-keepers/finders_keepers_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "0f5f15ab1a2fefb3ac20a92be7b2137e8c96afde108393fee8bd0b8c8cd25969",
+    "width": 256,
+    "height": 398
+  },
+  {
+    "index": 121,
+    "candidateId": "fd9d837e52285324",
+    "url": "https://stephenking.com/images/novel/68/end_of_watch_rev_lr.jpg",
+    "fetchStatus": "available",
+    "sha256": "f234769e8e3dc6a7f70f368a1f23ef2107a2f7298c881de91c30b91a30e2c6ad",
+    "width": 248,
+    "height": 385
+  },
+  {
+    "index": 122,
+    "candidateId": "dd2ff198467e9a57",
+    "url": "https://stephenking.com/images/books/sleeping_beauties/sleeping_beauties_prop_embed.png",
+    "fetchStatus": "available",
+    "sha256": "a7b6b0a217bee4b29591a5f33ca6c6c649ecd84eb8d3b3e68f635508b9bb3ece",
+    "width": 256,
+    "height": 368
+  },
+  {
+    "index": 123,
+    "candidateId": "cde8c13929ac2a5a",
+    "url": "https://stephenking.com/images/novella/19/gwendy.jpg",
+    "fetchStatus": "available",
+    "sha256": "c2809243376aa12582d46015b3a0ff465a8d760bce6652be978ce98883873a0b",
+    "width": 247,
+    "height": 385
+  },
+  {
+    "index": 124,
+    "candidateId": "5e8f23903d29f1fe",
+    "url": "https://stephenking.com/images/novel/71/outsider.png",
+    "fetchStatus": "available",
+    "sha256": "f0e1770baf0a8b5ef12e62f07f075f0fc3aa25d94e04b465b21096df453ead9b",
+    "width": 254,
+    "height": 379
+  },
+  {
+    "index": 125,
+    "candidateId": "7e2be415fb88b2f4",
+    "url": "https://stephenking.com/images/novella/20/elevation.large.jpg",
+    "fetchStatus": "available",
+    "sha256": "a4ac56284387ac5a9d9ba8a321d69ff3c08bd4c44dd3840dc5594436ef60958f",
+    "width": 255,
+    "height": 360
+  },
+  {
+    "index": 126,
+    "candidateId": "dd16fee17646b358",
+    "url": "https://stephenking.com/images/novel/72/institutem.jpg",
+    "fetchStatus": "available",
+    "sha256": "3540eff49f58782fb4e4f61bad2bce7bc656b6b88f325172cb111b6a53d9212c",
+    "width": 254,
+    "height": 384
+  },
+  {
+    "index": 127,
+    "candidateId": "edf2d93b1fd54436",
+    "url": "https://stephenking.com/images/novel/74/later.jpg",
+    "fetchStatus": "available",
+    "sha256": "758a073fc7857c566a0e1dec7bd82715fecaa2bde68df8954a673ebdd7125bc4",
+    "width": 240,
+    "height": 385
+  },
+  {
+    "index": 128,
+    "candidateId": "39f0194d0c0b2617",
+    "url": "https://stephenking.com/images/novel/billy-summers.jpg",
+    "fetchStatus": "available",
+    "sha256": "3b6398241974ba280b5fb4185fea50325b19391c9c805d66575813bce66e60df",
+    "width": 1830,
+    "height": 2769
+  },
+  {
+    "index": 129,
+    "candidateId": "ce639f8dacf882ac",
+    "url": "https://stephenking.com/images/novel/gwendy-ft.jpg",
+    "fetchStatus": "available",
+    "sha256": "42e01e6b1b01386c62bca8ce78389446d97f25917c6f1eb12d95915ce3fe9331",
+    "width": 500,
+    "height": 766
+  },
+  {
+    "index": 130,
+    "candidateId": "422bb605730ce2b8",
+    "url": "https://stephenking.com/images/novel/fairy-tale.jpg",
+    "fetchStatus": "available",
+    "sha256": "efeb5f26ee990f6f16042eac90e42a10e9e1aba2912a086f6d8ef70e89d2105a",
+    "width": 593,
+    "height": 900
+  },
+  {
+    "index": 131,
+    "candidateId": "da93e64809226e73",
+    "url": "https://stephenking.com/images/novel/holly.jpg",
+    "fetchStatus": "available",
+    "sha256": "5bc9097ea78a1b3a0eb012dc7982d4f7cc79063bc5ee67349f89e4ccb86db069",
+    "width": 265,
+    "height": 400
+  },
+  {
+    "index": 132,
+    "candidateId": "dff5d2d467c2dc03",
+    "url": "https://stephenking.com/images/novel/like-it-darker.jpg",
+    "fetchStatus": "available",
+    "sha256": "4fc1170e0f0030df1d7b56ebcf6972488bc0b0d99b49ea5fc203a8a3a851130b",
+    "width": 750,
+    "height": 1145
+  },
+  {
+    "index": 133,
+    "candidateId": "c5eed47dfffbd922",
+    "url": "https://stephenking.com/images/novel/never-flinch.jpg",
+    "fetchStatus": "available",
+    "sha256": "ba550b33da1a9c7300bf3d39cb8a941da363f82d638d188f82ebfbdb69752100",
+    "width": 1325,
+    "height": 2000
+  },
+  {
+    "index": 134,
+    "candidateId": "8d30b417a2bddfaa",
+    "url": "https://stephenking.com/images/novel/other-worlds-cover.png",
+    "fetchStatus": "available",
+    "sha256": "5279965cadb7de18c076b42ab8ca3d8f44ed9c39dba1e5ba3556f5db60605658",
+    "width": 592,
+    "height": 898
+  },
+  {
+    "index": 135,
+    "candidateId": "17dd5ff4261c0298",
+    "url": "https://stephenking.com/images/books/nightshift/hardcover_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "567010ee761c485c2a5e3efeaeaaeef689bac63d46c0f2efe513c14ca75be8c6",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 136,
+    "candidateId": "4a3b0e7a470514f3",
+    "url": "https://stephenking.com/images/books/different_seasons/hardcover_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "57340982c5d705a8530dd3492c79bdb7f25f9a4685dde0c108547292ad565ac3",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 137,
+    "candidateId": "bb9131fb057df8a0",
+    "url": "https://stephenking.com/images/books/skeleton_crew/hardcover_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "30448464bc24d9bafaa2cbeabe204baf704637cdbba363e5398b6351f7c76193",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 138,
+    "candidateId": "0ee1acb266e74397",
+    "url": "https://stephenking.com/images/books/four_past_midnight/hardcover_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "8118844bcf3d435ccd1d84fe599b23982242002aaad6d43170df4e713a94e7bf",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 139,
+    "candidateId": "4a9f6a51de568334",
+    "url": "https://stephenking.com/images/books/nightmares_and_dreamscapes/hardcover_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "b6762fac162962a098e550e43ab3e746020c8d85b6eed9930747e117f9e5b7e6",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 140,
+    "candidateId": "9a9933b0223f76db",
+    "url": "https://stephenking.com/images/books/hearts_in_atlantis/hardcover_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "d9823455429e9ba905185e1a4872725696d1ca4431924aff74848b254ae0496d",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 141,
+    "candidateId": "2170c7f98850fec2",
+    "url": "https://stephenking.com/images/books/everythings_eventual/hardcover_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "975cf487ef73686c3a58a98a3f9e0900f2662f1b2fe80d22fc956cca1304b4c9",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 142,
+    "candidateId": "c49271d14db03fc9",
+    "url": "https://stephenking.com/images/story_collection/8/just_after_sunset.jpg",
+    "fetchStatus": "available",
+    "sha256": "c43695443b333b81530a344ddf66d149627e39ff39714cdc17f5cc6e43066a60",
+    "width": 255,
+    "height": 372
+  },
+  {
+    "index": 143,
+    "candidateId": "f1b4b47f7274ebff",
+    "url": "https://stephenking.com/images/new_in_stores/skgttm/skgttm_full.jpg",
+    "fetchStatus": "available",
+    "sha256": "ab03486e19739db66fe0ffbc36059beb57f8de7b0f410f85abc895546ee6547a",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 144,
+    "candidateId": "48202c8f88486d48",
+    "url": "https://stephenking.com/images/books/full_dark_no_stars/full_dark_no_stars_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "99c083d8357e73e4ecd997651f67d63da6aa1b586e27c4d29ca5eab4c2af9c01",
+    "width": 255,
+    "height": 388
+  },
+  {
+    "index": 145,
+    "candidateId": "69fc38349671a896",
+    "url": "https://stephenking.com/images/books/bazaar-of-bad-dreams/bobd_cover_1_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "cb717b0b0d6563e65729669225c05313758ec0c724d2ab654ece7ac8525e8ef1",
+    "width": 256,
+    "height": 387
+  },
+  {
+    "index": 146,
+    "candidateId": "c778ccaeb6fed6b1",
+    "url": "https://stephenking.com/images/story_collection/12/bleeds.jpg",
+    "fetchStatus": "available",
+    "sha256": "3ddb77fa06b8f6310a9608a5d51714854961bde51cda00ee0e94ea66054538b3",
+    "width": 255,
+    "height": 384
+  },
+  {
+    "index": 147,
+    "candidateId": "bc8fe84c748b106f",
+    "url": "https://stephenking.com/images/bachman_novel/7/hardcover_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "9acf19f95afdbced259d02b666fbed448178dc00776528b8cc0e4c2363d8681e",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 148,
+    "candidateId": "821c78890806ffed",
+    "url": "https://stephenking.com/images/books/blockade_billy/blockade_billy_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "8931bc52a99a43d453d48b8ecb704791ec39d9ac86a7bc8c3d0024b0ed1ac1c3",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 149,
+    "candidateId": "d3c041703e3a3b4d",
+    "url": "https://stephenking.com/images/other_project/american_vampire/amercian_vampire_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "f9ade1a804adc99390fe2a3e960a4eaa00e08a9c638bfd81751f684e243f1ad6",
+    "width": 251,
+    "height": 381
+  },
+  {
+    "index": 150,
+    "candidateId": "d30423435fc72856",
+    "url": "https://stephenking.com/images/books/faithful/hardcover_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "d575f5a66c730bceb17f0e5d84aaf5daf0e06565a14332816a78b52fc83c24a0",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 151,
+    "candidateId": "af9d6f0817bcb83e",
+    "url": "https://stephenking.com/images/nonfiction/5/hardcover_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "660f605d760117f122b4173f7b35ab6c7cb9593a3ebec650db19d38d7d3d1bbf",
+    "width": 225,
+    "height": 339
+  },
+  {
+    "index": 152,
+    "candidateId": "e3e2743f7da33a52",
+    "url": "https://stephenking.com/images/nonfiction/6/nightmaresinthesky.jpg",
+    "fetchStatus": "available",
+    "sha256": "0b90e807d42c086aaef942859bbf1a753e8b10c3956fed466b1bc4ae1cc0c5c9",
+    "width": 225,
+    "height": 248
+  },
+  {
+    "index": 153,
+    "candidateId": "0ca76ec583607e84",
+    "url": "https://stephenking.com/images/movies/a-good-marriage/a_good_marriage_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "697960e4620c68cc0621e804a34e14c3e30077728cf919fb5f95aae0f6c867bf",
+    "width": 256,
+    "height": 359
+  },
+  {
+    "index": 154,
+    "candidateId": "2b017051754b7896",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/apt_pupil/us_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "70dd4cf64ed114f48e82bd2142f000a393f7bbe08e5a144ebb95067e6711bea4",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 155,
+    "candidateId": "a369dc31cf945935",
+    "url": "https://stephenking.com/images/movie/boogeyman2.jpg",
+    "fetchStatus": "available",
+    "sha256": "b99287d645035a1e8ae03ddc27dcb66cd89022b9da2a4c9ed08f3a8095ac46b6",
+    "width": 540,
+    "height": 810
+  },
+  {
+    "index": 156,
+    "candidateId": "e98670df4543b626",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/carrie/us_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "7b9fbc1d7dcb980eb05f6b88249691d185cec852a260b765a340e17738cdeeab",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 157,
+    "candidateId": "63242c20a0765f37",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/cats_eye/us_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "7b3a69fc9b59b484e0c4780f9df6d2b4d8176c54a0062f6ed342a1f9a510fdd6",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 158,
+    "candidateId": "165ce381c6d238d2",
+    "url": "https://stephenking.com/images/movie/39/cellposterfinal.jpg",
+    "fetchStatus": "available",
+    "sha256": "b2299b1eb248719879dbee789c7f1ba26b12814b7fb652b623d8a0347adfae71",
+    "width": 255,
+    "height": 377
+  },
+  {
+    "index": 159,
+    "candidateId": "f8de111397a13742",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/children_of_the_corn/us_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "b0dd474a3b9a1ebb75dc9887c292423f9400173fa06237880ba6b38867875848",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 160,
+    "candidateId": "f10d1b4b2d914472",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/christine/us_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "52d6f08fb76f99ffdfcc5f02e56d4e5e0ee4df1310ad51467b8065bcddb9a3b2",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 161,
+    "candidateId": "74bbdc1c22db4606",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/creepshow/us_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "28eade532700fc80bc9d1bdf5193be0f0aaa3fd4554a0b6fac62f064dec184e8",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 162,
+    "candidateId": "d6348b76744c0d1c",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/creepshow2/us_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "cea87c4712401aa81a5559253c688429c582e9562ccd3cf3ce83f6be7f8fe9c0",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 163,
+    "candidateId": "e4729a5214795bee",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/cujo/us_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "4e65156886389dd10bcfcaa6cedb6218344200b738b9de46b2a6eab784f36b03",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 164,
+    "candidateId": "e28b04af6dbd5ac7",
+    "url": "https://stephenking.com/images/movie/24/thedarkhalf_movie_poster.jpg",
+    "fetchStatus": "available",
+    "sha256": "07253dcd4ffbe43997bfe61cc3afa43c3cb8a006d7c4fcdd9eb6fa7182576f6e",
+    "width": 255,
+    "height": 373
+  },
+  {
+    "index": 165,
+    "candidateId": "36e21e1df7f98719",
+    "url": "https://stephenking.com/images/movie/40/darktower.library.jpg",
+    "fetchStatus": "available",
+    "sha256": "994a6628ae11c69e06de6dbd4df4518c2ff8662c3630cf2caa13fa2d53969af0",
+    "width": 255,
+    "height": 378
+  },
+  {
+    "index": 166,
+    "candidateId": "ec483b1599edbdd4",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/the_dead_zone/us2_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "e8b738d43f834df66ef7dd60ae6f517f774b0c59385774b0a61d2f80cdf831b6",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 167,
+    "candidateId": "6bccc4e5d92d9983",
+    "url": "https://stephenking.com/images/movie/48/sleepposter1.jpg",
+    "fetchStatus": "available",
+    "sha256": "8b2a6f59d0681aa5193afdb865b134214682d0bbbbf40e0382546a34e3391f86",
+    "width": 255,
+    "height": 377
+  },
+  {
+    "index": 168,
+    "candidateId": "229620f97521adf6",
+    "url": "https://stephenking.com/images/movie/51/dolan.jpg",
+    "fetchStatus": "available",
+    "sha256": "a8d1570923e8e6f759d150c998b2bfabc7557e3f3966461d30dc32fb6a6d452e",
+    "width": 255,
+    "height": 357
+  },
+  {
+    "index": 169,
+    "candidateId": "c175b2403ec134b1",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/dolores_claiborne/us_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "5ca301bec4ac04779b3416c6d7aab20f210a85dc3a1b48bb40bb78a8d93bb6d1",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 170,
+    "candidateId": "2982e38a351b43ec",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/dreamcatcher/us_promo_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "f3ef033e57daca06bb80a60ebc3553590712add3f68a68394d3438fb094d2705",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 171,
+    "candidateId": "daa3a0f58c2de3c1",
+    "url": "https://stephenking.com/images/movie/firestarter2022.jpg",
+    "fetchStatus": "available",
+    "sha256": "c83c36acf03ae9bb10e4697326b1d670b189b6cac3d277fa4e07f7dd5fc7bde1",
+    "width": 758,
+    "height": 1200
+  },
+  {
+    "index": 172,
+    "candidateId": "e74bfd22294eac44",
+    "url": "https://stephenking.com/images/movie/45/geraldsgame.medium.jpg",
+    "fetchStatus": "available",
+    "sha256": "6f71df84c7aa06b44d83493dc896ffaac5296cb2fc4987200264ad6a6fae4bbd",
+    "width": 254,
+    "height": 385
+  },
+  {
+    "index": 173,
+    "candidateId": "0780f2978880cd8a",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/graveyard_shift/us_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "976ef6537181718deb6937d7a2334af8f3a964d17768db4849d552c02659d03a",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 174,
+    "candidateId": "eb5446e0e3161d59",
+    "url": "https://stephenking.com/images/movie/26/us2.jpg",
+    "fetchStatus": "available",
+    "sha256": "98f9a582bb205914d79ec0737f6eba61163b8e680b50fe6303b4f751ba74e974",
+    "width": 255,
+    "height": 352
+  },
+  {
+    "index": 175,
+    "candidateId": "da3ab1ad16fd6f8f",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/hearts_in_atlantis/us_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "ee820e5d828d9c45770e3b0834ddda3df427891c786a7f5f0d601b2e7d4e493a",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 176,
+    "candidateId": "6b39d1df5873f86a",
+    "url": "https://stephenking.com/images/movie/49/tallgrass.medium.jpg",
+    "fetchStatus": "available",
+    "sha256": "011d5dd3736785a3d8ad0d13027ff780dac2cc2b5aa34ee34e679fd10729bd94",
+    "width": 255,
+    "height": 377
+  },
+  {
+    "index": 177,
+    "candidateId": "af9757e9513e3459",
+    "url": "https://stephenking.com/images/movie/41/itposter01.jpg",
+    "fetchStatus": "available",
+    "sha256": "97aadb2496f8ef3171d2b5d60576801379e56f127b5c3e9854d0930172324926",
+    "width": 255,
+    "height": 377
+  },
+  {
+    "index": 178,
+    "candidateId": "8e052c0f5b674d88",
+    "url": "https://stephenking.com/images/movie/47/it_chapter_2.jpg",
+    "fetchStatus": "available",
+    "sha256": "06e901cbfe5cf51a83f1f84606aa1dc00b9a6e7e16ab7e6889f6b00f4ecc7372",
+    "width": 255,
+    "height": 378
+  },
+  {
+    "index": 179,
+    "candidateId": "ba0b72b7d608e538",
+    "url": "https://stephenking.com/images/movie/tloc.jpg",
+    "fetchStatus": "available",
+    "sha256": "d9a77cc204e29fc31c75b0a8775e1cfcc39667d62e57b2ddf91cd6b9f70910c4",
+    "width": 1373,
+    "height": 2000
+  },
+  {
+    "index": 180,
+    "candidateId": "fa7a9dc9891548b0",
+    "url": "https://stephenking.com/images/movie/long-walk.jpg",
+    "fetchStatus": "available",
+    "sha256": "bc6abfdd538be22552f90908534f808ce75b4edfd4c0d39271ba986b4d1f2dae",
+    "width": 1013,
+    "height": 1500
+  },
+  {
+    "index": 181,
+    "candidateId": "35e3c90ca10c29e1",
+    "url": "https://stephenking.com/images/movie/32/the_mangler_poster.jpg",
+    "fetchStatus": "available",
+    "sha256": "4e7f382491a64e7ff5aa850e71b8d8f30aa7acfa5c387f4bda0e0b6d10c2f8f5",
+    "width": 196,
+    "height": 301
+  },
+  {
+    "index": 182,
+    "candidateId": "60cbdcc1f897aeec",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/maximum_overdrive/us_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "07d467b933b4e15153ce574ce011f92726e80762a165bd1eda38b3a27d91006c",
+    "width": 255,
+    "height": 375
+  },
+  {
+    "index": 183,
+    "candidateId": "9bc3320d0557d5bf",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/misery/us_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "cac69a8e6a95734a4e546da51ea96ba612a86b86a538d83d710c37735c71d74c",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 184,
+    "candidateId": "563eb288ec3f0138",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/the_mist/us_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "35304456da6c708cd0de181d946cf0436ce04c990e73da00f2b560d095e38505",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 185,
+    "candidateId": "3b57daaec960a1fc",
+    "url": "https://stephenking.com/images/movie/57/the_monkey_film_poster.jpg",
+    "fetchStatus": "available",
+    "sha256": "d395bf2710173fca49e4ba8e78435cc8f7ac0b8af2cbd65ac88acfafd3fb3726",
+    "width": 255,
+    "height": 362
+  },
+  {
+    "index": 186,
+    "candidateId": "b66fbe291b27a518",
+    "url": "https://stephenking.com/images/movie/harrigan.jpg",
+    "fetchStatus": "available",
+    "sha256": "0b58a62bb376b3accfd5f9e8e6d0d156953f48a210c39e73bd07de244dd25982",
+    "width": 1080,
+    "height": 1350
+  },
+  {
+    "index": 187,
+    "candidateId": "7b49d3a31a180ea3",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/needful_things/us_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "1bb3d3dffa9d781bb410ccfa032545d1dae30fc5c3fa95d9ec5bab7f18f9f058",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 188,
+    "candidateId": "5019fb98cb047f12",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/night_flier/us_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "8af8349f6339723d825e2aa38f1e4cb97e1e7ca46441c60fb38eb2de50501c48",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 189,
+    "candidateId": "758ab868c53eff59",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/pet_sematary/us_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "0d71043360b4bf06fe5d79fafd40aaebbdfb0465ed28c10b94962b76ec137c4b",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 190,
+    "candidateId": "37ac930603fb8a98",
+    "url": "https://stephenking.com/images/movie/50/psupload.jpg",
+    "fetchStatus": "available",
+    "sha256": "9a04e588cd7a8a065de962d77cbc02e83cbf05eb5b4bda3a5d5936ef96428cfe",
+    "width": 255,
+    "height": 361
+  },
+  {
+    "index": 191,
+    "candidateId": "98868e0bbc087989",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/riding_the_bullet/us_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "0d07092eb7ee1f791788b90735cab863d9a5f31757f06f474ad1aad6eb1d4891",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 192,
+    "candidateId": "76014ce44f7d525b",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/the_running_man/us_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "f90989dbffd8cd21acefe9a03a6447b0d178099c0c161b3674c929999e837c57",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 193,
+    "candidateId": "643cf0457a3f8d6a",
+    "url": "https://stephenking.com/images/movie/running-man-2025.jpg",
+    "fetchStatus": "available",
+    "sha256": "f6fa06b7c979715767fea1a2b803d47ba0119d416f684b235e88fcb4793e33f5",
+    "width": 1013,
+    "height": 1500
+  },
+  {
+    "index": 194,
+    "candidateId": "193c603827b9f37b",
+    "url": "https://stephenking.com/images/movie/salem2024.jpg",
+    "fetchStatus": "available",
+    "sha256": "0548db4f57b071432340a006d1b23a81b64047fdd782b4143b0dc6197abf8f1c",
+    "width": 810,
+    "height": 1200
+  },
+  {
+    "index": 195,
+    "candidateId": "d8a5444167871f05",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/secret_window/us_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "7bdf2c2e3f7535391b45c40e0120893d1b61a5e308f3f7b31ca5ad3d777f80c4",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 196,
+    "candidateId": "17916d89bebeff2d",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/the_shawshank_redemption/us_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "7837c9438e73a5f8e99281fcbeacee00ee389377a83d35226c6be28c146912b1",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 197,
+    "candidateId": "c388ce89eeac19fe",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/the_shining/us_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "51576111d24896342d5fe4f038928106a06bd79e8a74687936bf5fb34b13d60d",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 198,
+    "candidateId": "b422d87b81bd6a21",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/silver_bullet/us_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "7ae67e803426036f1426c1ce7fc6c34b46f25a48ec10f9855c745113fce0d960",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 199,
+    "candidateId": "eb8092c74f0f7709",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/stand_by_me/us_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "08acc3903bc00f97a21cc74917af4d80b2f6da073e3e334cc8ebce001cec1011",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 200,
+    "candidateId": "33ea4fc061252562",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/thinner/us_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "59ea3611ee6ff2663b183af246691907bc92a24d27303171e517724f16943595",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 201,
+    "candidateId": "e568dcd471eb6ba4",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/1408/us_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "fcd865a214143cddaf5bc88422c463afb30dc702956d08b94355daa3cbcf51ba",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 202,
+    "candidateId": "82ab079a2960581f",
+    "url": "https://stephenking.com/images/movie/44/1922.full.jpg",
+    "fetchStatus": "available",
+    "sha256": "cac78be59a6b09f41af15337aa8a88ec942834ce19dc65dc7e5400fc9e24aebd",
+    "width": 255,
+    "height": 382
+  },
+  {
+    "index": 203,
+    "candidateId": "3efa1296d1c83edf",
+    "url": "https://stephenking.com/images/television/11-22-63/11_22_63_hulu_prop_embed.png",
+    "fetchStatus": "available",
+    "sha256": "e981c47fdf07f75ae148e458fe52701fb149c11df9d36e9af6b89e4c1968b549",
+    "width": 256,
+    "height": 379
+  },
+  {
+    "index": 204,
+    "candidateId": "17b6e3f99fb355ec",
+    "url": "https://stephenking.com/images/television/bag_of_bones_tv/bag_of_bones_property_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "a2d9294c2d7b94116bb1789ed4380931dbf5701c8f0f06493523be67f9cfdca9",
+    "width": 255,
+    "height": 388
+  },
+  {
+    "index": 205,
+    "candidateId": "92d11c1648c5b85d",
+    "url": "https://stephenking.com/images/television/20/lifetimebigdriverposter.jpg",
+    "fetchStatus": "available",
+    "sha256": "2a906f2af531cc8f2c16590082802e6e2e17c8b945e0921e31958ab3d875aeab",
+    "width": 255,
+    "height": 339
+  },
+  {
+    "index": 206,
+    "candidateId": "6d31b69329e0b1da",
+    "url": "https://stephenking.com/images/television/chap.jpg",
+    "fetchStatus": "available",
+    "sha256": "350471b1c29ab7cdf5bd9073dd5d4e6e3bf5bb7e803e2f706da723aff45eec0a",
+    "width": 1944,
+    "height": 2880
+  },
+  {
+    "index": 207,
+    "candidateId": "22f81d1e36c443eb",
+    "url": "https://stephenking.com/images/movies/tv_movie/desperation/us_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "45e5dc1ab330db12d7c1b2f48938c957648ad0f62db8ad96f2f3bce1fa69ee1d",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 208,
+    "candidateId": "fe24d420c8ea425e",
+    "url": "https://stephenking.com/images/television/institute.jpg",
+    "fetchStatus": "available",
+    "sha256": "af88800f3177e77c54fbd1dfae1ade627545dc1b93b4fdbde0f619d07e3c0101",
+    "width": 1080,
+    "height": 1547
+  },
+  {
+    "index": 209,
+    "candidateId": "5bba26a456638530",
+    "url": "https://stephenking.com/images/movies/tv_mini-series/it/us_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "98440d8fb48d5954472262d4940a4cb13055403d961f844fd1d53d6e1334a729",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 210,
+    "candidateId": "1c2c4ebf5d56ec6e",
+    "url": "https://stephenking.com/images/television/welcome-to-derry.jpg",
+    "fetchStatus": "available",
+    "sha256": "80bbcf1565a86475a764284ce9f65be521963f1e162800452f4e431ed65f02cd",
+    "width": 1536,
+    "height": 1920
+  },
+  {
+    "index": 211,
+    "candidateId": "f316e7f4bddf2996",
+    "url": "https://stephenking.com/images/movies/tv_mini-series/langoliers/us_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "89cbb42576f61982826ed8ed6eaa4a277aa1a36daa24711ed888909d97f70c78",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 212,
+    "candidateId": "028991f5f72a77db",
+    "url": "https://stephenking.com/images/future-works/lisey-s1.jpg",
+    "fetchStatus": "available",
+    "sha256": "93453c2ead6005480f1d11c673bf2136dc65ae1ec6c44c1781531920c59235f2",
+    "width": 1001,
+    "height": 1778
+  },
+  {
+    "index": 213,
+    "candidateId": "b66bfe9a49a55e9d",
+    "url": "https://stephenking.com/images/television/23/mistposter.jpg",
+    "fetchStatus": "available",
+    "sha256": "85362a74a50a1b7b867d1ef808893b3193ff8583a52bda9fe43a57190131fe65",
+    "width": 255,
+    "height": 369
+  },
+  {
+    "index": 214,
+    "candidateId": "beee8855b0170ac2",
+    "url": "https://stephenking.com/images/television/25/mercedesposter01.jpg",
+    "fetchStatus": "available",
+    "sha256": "2050c4309904ded9a153147229b74f84b2aac5ad9c61be8bbed643e6b111efc9",
+    "width": 255,
+    "height": 377
+  },
+  {
+    "index": 215,
+    "candidateId": "1b14e07a4c7fa74d",
+    "url": "https://stephenking.com/images/movies/tv_mini-series/nightmares_and_dreamscapes/us_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "f7d2807899f4651f27febb75155b8a1a2fc0773468e339334cdbb87e837d9525",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 216,
+    "candidateId": "e318763b2e4c4467",
+    "url": "https://stephenking.com/images/movies/tv_mini-series/salems_lot/us_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "7ae24cec422ad106ee0c6adb11160e984147e27c9a530dc1788cfb2053545832",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 217,
+    "candidateId": "a513d1924b24c1b3",
+    "url": "https://stephenking.com/images/television/7/salems_lot_2004.jpg",
+    "fetchStatus": "available",
+    "sha256": "a62e0d6bb657fd4ee7ecf29f5282fe16fb5be79d88d3be14431e4a55ed0479e7",
+    "width": 252,
+    "height": 385
+  },
+  {
+    "index": 218,
+    "candidateId": "2084d41eb6906d71",
+    "url": "https://stephenking.com/images/movies/tv_mini-series/the_shining97/us_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "7104507171546d2d56bda8eecbaf74f95d2c39b85f9394ce47cf09fa3c6a2949",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 219,
+    "candidateId": "fd53d89a778a123e",
+    "url": "https://stephenking.com/images/television/3/sometimes_they_come_back.jpg",
+    "fetchStatus": "available",
+    "sha256": "121085921434e51852ad220d1e630dbbad97c8b81a4ce4931c33b7085bc6bae7",
+    "width": 210,
+    "height": 385
+  },
+  {
+    "index": 220,
+    "candidateId": "b596c7b8399badea",
+    "url": "https://stephenking.com/images/television/15/the_stand_miniseries.jpg",
+    "fetchStatus": "available",
+    "sha256": "cd56bf4f56aaf5b68fcf4d6c9f2d8c450b73a18cdaa53db194ab3f46810d9d63",
+    "width": 255,
+    "height": 383
+  },
+  {
+    "index": 221,
+    "candidateId": "94f6fb10f56fe88a",
+    "url": "https://stephenking.com/images/television/stand-cbsaa-poster.jpg",
+    "fetchStatus": "available",
+    "sha256": "d8b2370b93b48137790273112564f8696dd8c616650b36afe766c961a3fdf665",
+    "width": 750,
+    "height": 1125
+  },
+  {
+    "index": 222,
+    "candidateId": "b5b9521f770f2096",
+    "url": "https://stephenking.com/images/movies/tv_mini-series/tommyknockers/us_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "98f69d82535c4706b1fba0ed7ef4b59cd9adc83d5767811b9a79fe99e8afd3e2",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 223,
+    "candidateId": "88f33349fc001692",
+    "url": "https://stephenking.com/images/movies/tv_movie/trucks/us_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "ef674a0470ef021975378cf5a8b2ec95a04cd6411e53eb95a42b00ee1558f19d",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 224,
+    "candidateId": "4850ba57ef2745de",
+    "url": "https://stephenking.com/images/television/utd/utd_property_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "3facf7d2d6d48814cd7c2148cd743d53882d6fd32c331a0e4d9e0470e2411ced",
+    "width": 256,
+    "height": 338
+  },
+  {
+    "index": 225,
+    "candidateId": "ac0f29b37ca0280a",
+    "url": "https://stephenking.com/images/television/28/outsiderhbo.png",
+    "fetchStatus": "available",
+    "sha256": "de7f34dcabb2bcc6a887aa7d6bb5c4bd27e01a37337c989a05785b56c999dc66",
+    "width": 255,
+    "height": 358
+  },
+  {
+    "index": 226,
+    "candidateId": "6f5c235ac5e901a2",
+    "url": "https://stephenking.com/images/television/castle-rock.jpg",
+    "fetchStatus": "available",
+    "sha256": "df27958a626c7dc8d50916a2aa711050c460beb46afe91bd0bd2f5062bbd95bd",
+    "width": 960,
+    "height": 1440
+  },
+  {
+    "index": 227,
+    "candidateId": "fa43e6a3006bd70d",
+    "url": "https://stephenking.com/images/movies/tv_mini-series/rose_red/us_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "d59a78ad7b17aa32a1a9123dee61dbd374b86f895d505f27115c17dddc25d4c0",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 228,
+    "candidateId": "57c32c791c9b21e0",
+    "url": "https://stephenking.com/images/movies/tv_mini-series/storm_of_the_century/us_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "03288adf0189984bd07e3ab26e268848319af787735038bc404fe43792819d91",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 229,
+    "candidateId": "ffd8e90f7e6cbca2",
+    "url": "https://stephenking.com/images/television/carrie2026.jpg",
+    "fetchStatus": "available",
+    "sha256": "79e2ebab871323f2663def839156726c4238c13bdc67976fd3ee3a03309edfe9",
+    "width": 1080,
+    "height": 1350
+  },
+  {
+    "index": 230,
+    "candidateId": "d42bee109e83b1cb",
+    "url": "https://stephenking.com/images/movies/tv_movie/the_diary_of_ellen_rimbauer/us_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "10e80c10ce96c4edacc4830b873e59df24e24cc22c4339554cbda7722c2b6753",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 231,
+    "candidateId": "2b7ca1581cbf0551",
+    "url": "https://stephenking.com/images/movies/tv_series/the_golden_years/us_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "7c898d1a7afd1e191d05ef37808772e8cd14ef9a666f30af604ef9150678b9ca",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 232,
+    "candidateId": "91a3bac8abf2709e",
+    "url": "https://stephenking.com/images/movies/tv_series/kingdom_hospital/us_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "1c0ba7ec41e575b20dede66b0e4b9bf99e7e3a9e0a4d556dc1308c1e73734379",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 233,
+    "candidateId": "78971bc32bf80731",
+    "url": "https://stephenking.com/images/movies/tv_mini-series/quicksilver_highway/us_prop_embed.jpg",
+    "fetchStatus": "available",
+    "sha256": "9064ce261e63f66d93ea741ff248fc6b07b77a6482441f9299f75d65a41883de",
+    "width": 255,
+    "height": 385
+  },
+  {
+    "index": 234,
+    "candidateId": "3149a6f860521f93",
+    "url": "https://stephenking.com/images/movie/23/us3.jpg",
+    "fetchStatus": "available",
+    "sha256": "5a6264c501e88a217afe5a9a14b6fd473aeb630cfacbebd1b6a3799d31cb1c19",
+    "width": 255,
+    "height": 380
+  },
+  {
+    "index": 235,
+    "candidateId": "aa3f0e279ee7aba4",
+    "url": "https://stephenking.com/images/movie/36/talesfromthedarkside.jpg",
+    "fetchStatus": "available",
+    "sha256": "8efc95269f780e27ec1127b49b4cf99828f3f42c09138dc06aef398311ab19b0",
+    "width": 255,
+    "height": 248
+  },
+  {
+    "index": 236,
+    "candidateId": "7ae1da4029261e67",
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789024561575_frontcover.jpg",
+    "fetchStatus": "available",
+    "sha256": "7e87b971e3f38487aeb4eed373254cafa2371df983d981a2590cbd61a057b59a",
+    "width": 960,
+    "height": 1493
+  }
+]

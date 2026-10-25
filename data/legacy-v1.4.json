@@ -1,0 +1,3492 @@
+{
+  "books": [
+    {
+      "Engelse titel": "Carrie",
+      "Nederlandse titel (indicatief)": "Carrie",
+      "Jaar": 1974,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "'Salem's Lot",
+      "Nederlandse titel (indicatief)": "Bezeten stad",
+      "Jaar": 1975,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "The Shining",
+      "Nederlandse titel (indicatief)": "De Shining",
+      "Jaar": 1977,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "Rage",
+      "Nederlandse titel (indicatief)": "Razernij",
+      "Jaar": 1977,
+      "Type": "Roman / novelle",
+      "Auteur": "Richard Bachman",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "The Stand",
+      "Nederlandse titel (indicatief)": "De beproeving",
+      "Jaar": 1978,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "The Long Walk",
+      "Nederlandse titel (indicatief)": "De marathon",
+      "Jaar": 1979,
+      "Type": "Roman / novelle",
+      "Auteur": "Richard Bachman",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "The Dead Zone",
+      "Nederlandse titel (indicatief)": "Dodelijk dilemma",
+      "Jaar": 1979,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "Firestarter",
+      "Nederlandse titel (indicatief)": "Ogen van vuur",
+      "Jaar": 1980,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "Roadwork",
+      "Nederlandse titel (indicatief)": "Werk in uitvoering",
+      "Jaar": 1981,
+      "Type": "Roman / novelle",
+      "Auteur": "Richard Bachman",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "Cujo",
+      "Nederlandse titel (indicatief)": "Cujo",
+      "Jaar": 1981,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "The Running Man",
+      "Nederlandse titel (indicatief)": "Vlucht naar de top",
+      "Jaar": 1982,
+      "Type": "Roman / novelle",
+      "Auteur": "Richard Bachman",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "The Dark Tower I: The Gunslinger",
+      "Nederlandse titel (indicatief)": "De Donkere Toren I: De scherpschutter",
+      "Jaar": 1982,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "Christine",
+      "Nederlandse titel (indicatief)": "Christine",
+      "Jaar": 1983,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "Pet Sematary",
+      "Nederlandse titel (indicatief)": "Dodenwake",
+      "Jaar": 1983,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "Cycle of the Werewolf",
+      "Nederlandse titel (indicatief)": "Het jaar van de weerwolf",
+      "Jaar": 1983,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "The Talisman",
+      "Nederlandse titel (indicatief)": "De talisman",
+      "Jaar": 1984,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "Thinner",
+      "Nederlandse titel (indicatief)": "De vervloeking",
+      "Jaar": 1984,
+      "Type": "Roman / novelle",
+      "Auteur": "Richard Bachman",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "IT",
+      "Nederlandse titel (indicatief)": "Het",
+      "Jaar": 1986,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "The Eyes of the Dragon",
+      "Nederlandse titel (indicatief)": "De ogen van de draak",
+      "Jaar": 1987,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "Misery",
+      "Nederlandse titel (indicatief)": "Misery",
+      "Jaar": 1987,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "The Dark Tower II: The Drawing of the Three",
+      "Nederlandse titel (indicatief)": "De Donkere Toren II: Het teken van drie",
+      "Jaar": 1987,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "The Tommyknockers",
+      "Nederlandse titel (indicatief)": "De Tommyknockers",
+      "Jaar": 1987,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "The Dark Half",
+      "Nederlandse titel (indicatief)": "De duistere kant",
+      "Jaar": 1989,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "The Dark Tower III: The Waste Lands",
+      "Nederlandse titel (indicatief)": "De Donkere Toren III: Het verloren rijk",
+      "Jaar": 1991,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "Needful Things",
+      "Nederlandse titel (indicatief)": "De noodzaak",
+      "Jaar": 1991,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "Gerald's Game",
+      "Nederlandse titel (indicatief)": "De spelbreker",
+      "Jaar": 1992,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "Dolores Claiborne",
+      "Nederlandse titel (indicatief)": "Dolores Claiborne",
+      "Jaar": 1992,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "Insomnia",
+      "Nederlandse titel (indicatief)": "Slapeloosheid",
+      "Jaar": 1994,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "Rose Madder",
+      "Nederlandse titel (indicatief)": "Rose Madder",
+      "Jaar": 1995,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "The Green Mile",
+      "Nederlandse titel (indicatief)": "De groene mijl",
+      "Jaar": 1996,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "Desperation",
+      "Nederlandse titel (indicatief)": "Wanhoop",
+      "Jaar": 1996,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "The Regulators",
+      "Nederlandse titel (indicatief)": "De regelaars",
+      "Jaar": 1996,
+      "Type": "Roman / novelle",
+      "Auteur": "Richard Bachman",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "The Dark Tower IV: Wizard and Glass",
+      "Nederlandse titel (indicatief)": "De Donkere Toren IV: Tovenaarsglas",
+      "Jaar": 1997,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "Bag of Bones",
+      "Nederlandse titel (indicatief)": "Een zak met botten",
+      "Jaar": 1998,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "The Girl Who Loved Tom Gordon",
+      "Nederlandse titel (indicatief)": "Het meisje dat van Tom Gordon hield",
+      "Jaar": 1999,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "Dreamcatcher",
+      "Nederlandse titel (indicatief)": "Dromenvanger",
+      "Jaar": 2001,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "Black House",
+      "Nederlandse titel (indicatief)": "Zwart huis",
+      "Jaar": 2001,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "From a Buick 8",
+      "Nederlandse titel (indicatief)": "De Buick",
+      "Jaar": 2002,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "The Dark Tower V: Wolves of the Calla",
+      "Nederlandse titel (indicatief)": "De Donkere Toren V: Wolven van de Calla",
+      "Jaar": 2003,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "The Dark Tower VI: Song of Susannah",
+      "Nederlandse titel (indicatief)": "De Donkere Toren VI: Een lied van Susannah",
+      "Jaar": 2004,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "The Dark Tower VII: The Dark Tower",
+      "Nederlandse titel (indicatief)": "De Donkere Toren VII: De Donkere Toren",
+      "Jaar": 2004,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "The Colorado Kid",
+      "Nederlandse titel (indicatief)": null,
+      "Jaar": 2005,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": "Controleer NL titel",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "Cell",
+      "Nederlandse titel (indicatief)": "Mobiel",
+      "Jaar": 2006,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "Lisey's Story",
+      "Nederlandse titel (indicatief)": "Lisey's verhaal",
+      "Jaar": 2006,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "Blaze",
+      "Nederlandse titel (indicatief)": "Blaze",
+      "Jaar": 2007,
+      "Type": "Roman / novelle",
+      "Auteur": "Richard Bachman",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "Duma Key",
+      "Nederlandse titel (indicatief)": "Duma Key",
+      "Jaar": 2008,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "Under the Dome",
+      "Nederlandse titel (indicatief)": "Gevangen",
+      "Jaar": 2009,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "11/22/63",
+      "Nederlandse titel (indicatief)": "22-11-1963",
+      "Jaar": 2011,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "The Dark Tower: The Wind Through the Keyhole",
+      "Nederlandse titel (indicatief)": "De Donkere Toren: De wind door het sleutelgat",
+      "Jaar": 2012,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "Joyland",
+      "Nederlandse titel (indicatief)": "Joyland",
+      "Jaar": 2013,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "Doctor Sleep",
+      "Nederlandse titel (indicatief)": "Dr. Sleep",
+      "Jaar": 2013,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "Mr. Mercedes",
+      "Nederlandse titel (indicatief)": "Mr. Mercedes",
+      "Jaar": 2014,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "Revival",
+      "Nederlandse titel (indicatief)": "Revival",
+      "Jaar": 2014,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "Finders Keepers",
+      "Nederlandse titel (indicatief)": "De eerlijke vinder",
+      "Jaar": 2015,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "End of Watch",
+      "Nederlandse titel (indicatief)": "Wisseling van de wacht",
+      "Jaar": 2016,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "Sleeping Beauties",
+      "Nederlandse titel (indicatief)": "Schone slaapsters",
+      "Jaar": 2017,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "Gwendy's Button Box",
+      "Nederlandse titel (indicatief)": null,
+      "Jaar": 2017,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": "Controleer NL titel",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "The Outsider",
+      "Nederlandse titel (indicatief)": "De buitenstaander",
+      "Jaar": 2018,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "Elevation",
+      "Nederlandse titel (indicatief)": null,
+      "Jaar": 2018,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": "Controleer NL titel",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "The Institute",
+      "Nederlandse titel (indicatief)": "Het instituut",
+      "Jaar": 2019,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "Later",
+      "Nederlandse titel (indicatief)": "Later",
+      "Jaar": 2021,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "Billy Summers",
+      "Nederlandse titel (indicatief)": "Billy Summers",
+      "Jaar": 2021,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "Gwendy's Final Task",
+      "Nederlandse titel (indicatief)": null,
+      "Jaar": 2022,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": "Controleer NL titel",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "Fairy Tale",
+      "Nederlandse titel (indicatief)": "Fairy Tale",
+      "Jaar": 2022,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "Holly",
+      "Nederlandse titel (indicatief)": "Holly",
+      "Jaar": 2023,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "You Like It Darker",
+      "Nederlandse titel (indicatief)": "Duistere zaken",
+      "Jaar": 2024,
+      "Type": "Bundel / verzameling",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": "Nederlandse bundelinhoud kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "Never Flinch",
+      "Nederlandse titel (indicatief)": "Vrees niet",
+      "Jaar": 2025,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": null,
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "Other Worlds Than These",
+      "Nederlandse titel (indicatief)": null,
+      "Jaar": 2026,
+      "Type": "Roman / novelle",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": "Controleer NL titel",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "Night Shift",
+      "Nederlandse titel (indicatief)": "Satanskinderen",
+      "Jaar": 1978,
+      "Type": "Bundel / verzameling",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": "Nederlandse bundelinhoud kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "Different Seasons",
+      "Nederlandse titel (indicatief)": "Vier seizoenen",
+      "Jaar": 1982,
+      "Type": "Bundel / verzameling",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": "Nederlandse bundelinhoud kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "Skeleton Crew",
+      "Nederlandse titel (indicatief)": "Duistere krachten",
+      "Jaar": 1985,
+      "Type": "Bundel / verzameling",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": "Nederlandse bundelinhoud kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "Four Past Midnight",
+      "Nederlandse titel (indicatief)": "Na middernacht",
+      "Jaar": 1990,
+      "Type": "Bundel / verzameling",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": "Nederlandse bundelinhoud kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "Nightmares & Dreamscapes",
+      "Nederlandse titel (indicatief)": "Nachtmerries en droomlandschappen",
+      "Jaar": 1993,
+      "Type": "Bundel / verzameling",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": "Nederlandse bundelinhoud kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "Hearts in Atlantis",
+      "Nederlandse titel (indicatief)": "Harten in Atlantis",
+      "Jaar": 1999,
+      "Type": "Bundel / verzameling",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": "Nederlandse bundelinhoud kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "Everything's Eventual",
+      "Nederlandse titel (indicatief)": "Alles is eventueel",
+      "Jaar": 2002,
+      "Type": "Bundel / verzameling",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": "Nederlandse bundelinhoud kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "Just After Sunset",
+      "Nederlandse titel (indicatief)": "Na zonsondergang",
+      "Jaar": 2008,
+      "Type": "Bundel / verzameling",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": "Nederlandse bundelinhoud kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "Stephen King Goes to the Movies",
+      "Nederlandse titel (indicatief)": null,
+      "Jaar": 2009,
+      "Type": "Bundel / verzameling",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": "Controleer NL titel / Nederlandse inhoud kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "Full Dark, No Stars",
+      "Nederlandse titel (indicatief)": "Aardedonker, zonder sterren",
+      "Jaar": 2010,
+      "Type": "Bundel / verzameling",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": "Nederlandse bundelinhoud kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "The Bazaar of Bad Dreams",
+      "Nederlandse titel (indicatief)": "De bazaar van boze dromen",
+      "Jaar": 2015,
+      "Type": "Bundel / verzameling",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": "Nederlandse bundelinhoud kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "If It Bleeds",
+      "Nederlandse titel (indicatief)": "Als het bloedt",
+      "Jaar": 2020,
+      "Type": "Bundel / verzameling",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": "Nederlandse bundelinhoud kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse titel": "The Bachman Books",
+      "Nederlandse titel (indicatief)": null,
+      "Jaar": 1985,
+      "Type": "Bundel / verzameling",
+      "Auteur": "Stephen King",
+      "Status": "Gelezen",
+      "Controlepunt": "Controleer NL titel / Nederlandse inhoud kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    }
+  ],
+  "stories": [
+    {
+      "Engelse bundel": "Night Shift",
+      "Engelse verhaalnaam": "Jerusalem's Lot",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Night Shift",
+      "Engelse verhaalnaam": "Graveyard Shift",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Night Shift",
+      "Engelse verhaalnaam": "Night Surf",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Night Shift",
+      "Engelse verhaalnaam": "I Am the Doorway",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Night Shift",
+      "Engelse verhaalnaam": "The Mangler",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Night Shift",
+      "Engelse verhaalnaam": "The Boogeyman",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Night Shift",
+      "Engelse verhaalnaam": "Grey Matter",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Night Shift",
+      "Engelse verhaalnaam": "Battleground",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Night Shift",
+      "Engelse verhaalnaam": "Trucks",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Night Shift",
+      "Engelse verhaalnaam": "Sometimes They Come Back",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Night Shift",
+      "Engelse verhaalnaam": "Strawberry Spring",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Night Shift",
+      "Engelse verhaalnaam": "The Ledge",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Night Shift",
+      "Engelse verhaalnaam": "The Lawnmower Man",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Night Shift",
+      "Engelse verhaalnaam": "Quitters, Inc.",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Night Shift",
+      "Engelse verhaalnaam": "I Know What You Need",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Night Shift",
+      "Engelse verhaalnaam": "Children of the Corn",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Night Shift",
+      "Engelse verhaalnaam": "The Last Rung on the Ladder",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Night Shift",
+      "Engelse verhaalnaam": "The Man Who Loved Flowers",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Night Shift",
+      "Engelse verhaalnaam": "One for the Road",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Night Shift",
+      "Engelse verhaalnaam": "The Woman in the Room",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Different Seasons",
+      "Engelse verhaalnaam": "Rita Hayworth and Shawshank Redemption",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": "Rita Hayworth en de ontsnapping uit Shawshank",
+      "Status vertaling": "Indicatief – controleren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Different Seasons",
+      "Engelse verhaalnaam": "Apt Pupil",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Different Seasons",
+      "Engelse verhaalnaam": "The Body",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": "Het lijk",
+      "Status vertaling": "Indicatief – controleren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Different Seasons",
+      "Engelse verhaalnaam": "The Breathing Method",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Skeleton Crew",
+      "Engelse verhaalnaam": "The Mist",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": "De mist",
+      "Status vertaling": "Indicatief – controleren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Skeleton Crew",
+      "Engelse verhaalnaam": "Here There Be Tygers",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Skeleton Crew",
+      "Engelse verhaalnaam": "The Monkey",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Skeleton Crew",
+      "Engelse verhaalnaam": "Cain Rose Up",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Skeleton Crew",
+      "Engelse verhaalnaam": "Mrs. Todd's Shortcut",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Skeleton Crew",
+      "Engelse verhaalnaam": "The Jaunt",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Skeleton Crew",
+      "Engelse verhaalnaam": "The Wedding Gig",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Skeleton Crew",
+      "Engelse verhaalnaam": "Paranoid: A Chant",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Skeleton Crew",
+      "Engelse verhaalnaam": "The Raft",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Skeleton Crew",
+      "Engelse verhaalnaam": "Word Processor of the Gods",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Skeleton Crew",
+      "Engelse verhaalnaam": "The Man Who Would Not Shake Hands",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Skeleton Crew",
+      "Engelse verhaalnaam": "Beachworld",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Skeleton Crew",
+      "Engelse verhaalnaam": "The Reaper's Image",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Skeleton Crew",
+      "Engelse verhaalnaam": "Nona",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Skeleton Crew",
+      "Engelse verhaalnaam": "For Owen",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Skeleton Crew",
+      "Engelse verhaalnaam": "Survivor Type",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Skeleton Crew",
+      "Engelse verhaalnaam": "Uncle Otto's Truck",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Skeleton Crew",
+      "Engelse verhaalnaam": "Morning Deliveries (Milkman #1)",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Skeleton Crew",
+      "Engelse verhaalnaam": "Big Wheels: A Tale of the Laundry Game (Milkman #2)",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Skeleton Crew",
+      "Engelse verhaalnaam": "Gramma",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Skeleton Crew",
+      "Engelse verhaalnaam": "The Ballad of the Flexible Bullet",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Skeleton Crew",
+      "Engelse verhaalnaam": "The Reach",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Four Past Midnight",
+      "Engelse verhaalnaam": "The Langoliers",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": "De Langoliers",
+      "Status vertaling": "Indicatief – controleren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Four Past Midnight",
+      "Engelse verhaalnaam": "Secret Window, Secret Garden",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": "Geheim raam, geheime tuin",
+      "Status vertaling": "Indicatief – controleren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Four Past Midnight",
+      "Engelse verhaalnaam": "The Library Policeman",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Four Past Midnight",
+      "Engelse verhaalnaam": "The Sun Dog",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": "De zonnehond",
+      "Status vertaling": "Indicatief – controleren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Nightmares & Dreamscapes",
+      "Engelse verhaalnaam": "Dolan's Cadillac",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Nightmares & Dreamscapes",
+      "Engelse verhaalnaam": "The End of the Whole Mess",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Nightmares & Dreamscapes",
+      "Engelse verhaalnaam": "Suffer the Little Children",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Nightmares & Dreamscapes",
+      "Engelse verhaalnaam": "The Night Flier",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Nightmares & Dreamscapes",
+      "Engelse verhaalnaam": "Popsy",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Nightmares & Dreamscapes",
+      "Engelse verhaalnaam": "It Grows on You",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Nightmares & Dreamscapes",
+      "Engelse verhaalnaam": "Chattery Teeth",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Nightmares & Dreamscapes",
+      "Engelse verhaalnaam": "Dedication",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Nightmares & Dreamscapes",
+      "Engelse verhaalnaam": "The Moving Finger",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Nightmares & Dreamscapes",
+      "Engelse verhaalnaam": "Sneakers",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Nightmares & Dreamscapes",
+      "Engelse verhaalnaam": "You Know They Got a Hell of a Band",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Nightmares & Dreamscapes",
+      "Engelse verhaalnaam": "Home Delivery",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Nightmares & Dreamscapes",
+      "Engelse verhaalnaam": "Rainy Season",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Nightmares & Dreamscapes",
+      "Engelse verhaalnaam": "My Pretty Pony",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Nightmares & Dreamscapes",
+      "Engelse verhaalnaam": "Sorry, Right Number",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Nightmares & Dreamscapes",
+      "Engelse verhaalnaam": "The Ten O'Clock People",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Nightmares & Dreamscapes",
+      "Engelse verhaalnaam": "Crouch End",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Nightmares & Dreamscapes",
+      "Engelse verhaalnaam": "The House on Maple Street",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Nightmares & Dreamscapes",
+      "Engelse verhaalnaam": "The Fifth Quarter",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Nightmares & Dreamscapes",
+      "Engelse verhaalnaam": "The Doctor's Case",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Nightmares & Dreamscapes",
+      "Engelse verhaalnaam": "Umney's Last Case",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Nightmares & Dreamscapes",
+      "Engelse verhaalnaam": "Head Down",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Nightmares & Dreamscapes",
+      "Engelse verhaalnaam": "Brooklyn August",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Hearts in Atlantis",
+      "Engelse verhaalnaam": "Low Men in Yellow Coats",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Hearts in Atlantis",
+      "Engelse verhaalnaam": "Hearts in Atlantis",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Hearts in Atlantis",
+      "Engelse verhaalnaam": "Blind Willie",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Hearts in Atlantis",
+      "Engelse verhaalnaam": "Why We're in Vietnam",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Hearts in Atlantis",
+      "Engelse verhaalnaam": "Heavenly Shades of Night Are Falling",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Everything's Eventual",
+      "Engelse verhaalnaam": "Autopsy Room Four",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Everything's Eventual",
+      "Engelse verhaalnaam": "The Man in the Black Suit",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Everything's Eventual",
+      "Engelse verhaalnaam": "All That You Love Will Be Carried Away",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Everything's Eventual",
+      "Engelse verhaalnaam": "The Death of Jack Hamilton",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Everything's Eventual",
+      "Engelse verhaalnaam": "In the Deathroom",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Everything's Eventual",
+      "Engelse verhaalnaam": "The Little Sisters of Eluria",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": "De kleine zusters van Eluria",
+      "Status vertaling": "Indicatief – controleren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Everything's Eventual",
+      "Engelse verhaalnaam": "Everything's Eventual",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Everything's Eventual",
+      "Engelse verhaalnaam": "L.T.'s Theory of Pets",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Everything's Eventual",
+      "Engelse verhaalnaam": "The Road Virus Heads North",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Everything's Eventual",
+      "Engelse verhaalnaam": "Lunch at the Gotham Cafe",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Everything's Eventual",
+      "Engelse verhaalnaam": "That Feeling, You Can Only Say What It Is in French",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Everything's Eventual",
+      "Engelse verhaalnaam": "1408",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Everything's Eventual",
+      "Engelse verhaalnaam": "Riding the Bullet",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Everything's Eventual",
+      "Engelse verhaalnaam": "Luckey Quarter",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Just After Sunset",
+      "Engelse verhaalnaam": "Willa",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Just After Sunset",
+      "Engelse verhaalnaam": "The Gingerbread Girl",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Just After Sunset",
+      "Engelse verhaalnaam": "Harvey's Dream",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Just After Sunset",
+      "Engelse verhaalnaam": "Rest Stop",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Just After Sunset",
+      "Engelse verhaalnaam": "Stationary Bike",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Just After Sunset",
+      "Engelse verhaalnaam": "The Things They Left Behind",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Just After Sunset",
+      "Engelse verhaalnaam": "Graduation Afternoon",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Just After Sunset",
+      "Engelse verhaalnaam": "N.",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Just After Sunset",
+      "Engelse verhaalnaam": "The Cat from Hell",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Just After Sunset",
+      "Engelse verhaalnaam": "The New York Times at Special Bargain Rates",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Just After Sunset",
+      "Engelse verhaalnaam": "Mute",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Just After Sunset",
+      "Engelse verhaalnaam": "Ayana",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Just After Sunset",
+      "Engelse verhaalnaam": "A Very Tight Place",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Full Dark, No Stars",
+      "Engelse verhaalnaam": "1922",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Full Dark, No Stars",
+      "Engelse verhaalnaam": "Big Driver",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Full Dark, No Stars",
+      "Engelse verhaalnaam": "Fair Extension",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Full Dark, No Stars",
+      "Engelse verhaalnaam": "A Good Marriage",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Full Dark, No Stars",
+      "Engelse verhaalnaam": "Under the Weather",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "If It Bleeds",
+      "Engelse verhaalnaam": "Mr. Harrigan's Phone",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "If It Bleeds",
+      "Engelse verhaalnaam": "The Life of Chuck",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "If It Bleeds",
+      "Engelse verhaalnaam": "If It Bleeds",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "If It Bleeds",
+      "Engelse verhaalnaam": "Rat",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "You Like It Darker",
+      "Engelse verhaalnaam": "Two Talented Bastids",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "You Like It Darker",
+      "Engelse verhaalnaam": "The Fifth Step",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "You Like It Darker",
+      "Engelse verhaalnaam": "Willie the Weirdo",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "You Like It Darker",
+      "Engelse verhaalnaam": "Danny Coughlin's Bad Dream",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "You Like It Darker",
+      "Engelse verhaalnaam": "Finn",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "You Like It Darker",
+      "Engelse verhaalnaam": "On Slide Inn Road",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "You Like It Darker",
+      "Engelse verhaalnaam": "Red Screen",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "You Like It Darker",
+      "Engelse verhaalnaam": "The Turbulence Expert",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "You Like It Darker",
+      "Engelse verhaalnaam": "Laurie",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "You Like It Darker",
+      "Engelse verhaalnaam": "Rattlesnakes",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "You Like It Darker",
+      "Engelse verhaalnaam": "The Dreamers",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "You Like It Darker",
+      "Engelse verhaalnaam": "The Answer Man",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "The Bazaar of Bad Dreams",
+      "Engelse verhaalnaam": "Mile 81",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "The Bazaar of Bad Dreams",
+      "Engelse verhaalnaam": "Premium Harmony",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "The Bazaar of Bad Dreams",
+      "Engelse verhaalnaam": "Batman and Robin Have an Altercation",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "The Bazaar of Bad Dreams",
+      "Engelse verhaalnaam": "The Dune",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "The Bazaar of Bad Dreams",
+      "Engelse verhaalnaam": "Bad Little Kid",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "The Bazaar of Bad Dreams",
+      "Engelse verhaalnaam": "A Death",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "The Bazaar of Bad Dreams",
+      "Engelse verhaalnaam": "The Bone Church",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "The Bazaar of Bad Dreams",
+      "Engelse verhaalnaam": "Morality",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "The Bazaar of Bad Dreams",
+      "Engelse verhaalnaam": "Afterlife",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "The Bazaar of Bad Dreams",
+      "Engelse verhaalnaam": "Ur",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "The Bazaar of Bad Dreams",
+      "Engelse verhaalnaam": "Herman Wouk Is Still Alive",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "The Bazaar of Bad Dreams",
+      "Engelse verhaalnaam": "Under the Weather",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "The Bazaar of Bad Dreams",
+      "Engelse verhaalnaam": "Blockade Billy",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "The Bazaar of Bad Dreams",
+      "Engelse verhaalnaam": "Mister Yummy",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "The Bazaar of Bad Dreams",
+      "Engelse verhaalnaam": "Tommy",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "The Bazaar of Bad Dreams",
+      "Engelse verhaalnaam": "The Little Green God of Agony",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "The Bazaar of Bad Dreams",
+      "Engelse verhaalnaam": "That Bus Is Another World",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "The Bazaar of Bad Dreams",
+      "Engelse verhaalnaam": "Obits",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "The Bazaar of Bad Dreams",
+      "Engelse verhaalnaam": "Drunken Fireworks",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "The Bazaar of Bad Dreams",
+      "Engelse verhaalnaam": "Summer Thunder",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Stephen King Goes to the Movies",
+      "Engelse verhaalnaam": "1408",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Stephen King Goes to the Movies",
+      "Engelse verhaalnaam": "The Mangler",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Stephen King Goes to the Movies",
+      "Engelse verhaalnaam": "Low Men in Yellow Coats",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Stephen King Goes to the Movies",
+      "Engelse verhaalnaam": "Rita Hayworth and Shawshank Redemption",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": "Rita Hayworth en de ontsnapping uit Shawshank",
+      "Status vertaling": "Indicatief – controleren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "Stephen King Goes to the Movies",
+      "Engelse verhaalnaam": "Children of the Corn",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "The Bachman Books",
+      "Engelse verhaalnaam": "Rage",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "The Bachman Books",
+      "Engelse verhaalnaam": "The Long Walk",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "The Bachman Books",
+      "Engelse verhaalnaam": "Roadwork",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Engelse bundel": "The Bachman Books",
+      "Engelse verhaalnaam": "The Running Man",
+      "Nederlandse verhaalnaam (geverifieerd waar bekend)": null,
+      "Status vertaling": "Nog te verifiëren",
+      "Opmerking": "Inhoud gebaseerd op oorspronkelijke Engelstalige bundel; Nederlandse editie kan afwijken",
+      "Bron": "https://stephenking.com/works/"
+    }
+  ],
+  "films": [
+    {
+      "Verfilming (EN)": "A Good Marriage",
+      "Nederlandse releasetitel": null,
+      "Jaar": 2014,
+      "Medium": "Film",
+      "Bronwerk (EN)": "A Good Marriage",
+      "Oorspronkelijke bundel": "Full Dark, No Stars",
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/movie/"
+    },
+    {
+      "Verfilming (EN)": "Apt Pupil",
+      "Nederlandse releasetitel": null,
+      "Jaar": 1998,
+      "Medium": "Film",
+      "Bronwerk (EN)": "Apt Pupil",
+      "Oorspronkelijke bundel": "Different Seasons",
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/movie/"
+    },
+    {
+      "Verfilming (EN)": "The Boogeyman",
+      "Nederlandse releasetitel": null,
+      "Jaar": 2023,
+      "Medium": "Film",
+      "Bronwerk (EN)": "The Boogeyman",
+      "Oorspronkelijke bundel": "Night Shift",
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/movie/"
+    },
+    {
+      "Verfilming (EN)": "Carrie",
+      "Nederlandse releasetitel": null,
+      "Jaar": 1976,
+      "Medium": "Film",
+      "Bronwerk (EN)": "Carrie",
+      "Oorspronkelijke bundel": null,
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/movie/carrie.html",
+      "director": "Brian De Palma",
+      "status": "released",
+      "release": "1976-11-03",
+      "verified": true
+    },
+    {
+      "Verfilming (EN)": "Cat's Eye",
+      "Nederlandse releasetitel": null,
+      "Jaar": 1985,
+      "Medium": "Film",
+      "Bronwerk (EN)": "Quitters, Inc.",
+      "Oorspronkelijke bundel": "Night Shift",
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/movie/"
+    },
+    {
+      "Verfilming (EN)": "Cell",
+      "Nederlandse releasetitel": null,
+      "Jaar": 2016,
+      "Medium": "Film",
+      "Bronwerk (EN)": "Cell",
+      "Oorspronkelijke bundel": null,
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/movie/"
+    },
+    {
+      "Verfilming (EN)": "Children of the Corn",
+      "Nederlandse releasetitel": null,
+      "Jaar": 1984,
+      "Medium": "Film",
+      "Bronwerk (EN)": "Children of the Corn",
+      "Oorspronkelijke bundel": "Night Shift",
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/movie/"
+    },
+    {
+      "Verfilming (EN)": "Christine",
+      "Nederlandse releasetitel": null,
+      "Jaar": 1983,
+      "Medium": "Film",
+      "Bronwerk (EN)": "Christine",
+      "Oorspronkelijke bundel": null,
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/movie/"
+    },
+    {
+      "Verfilming (EN)": "Creepshow",
+      "Nederlandse releasetitel": null,
+      "Jaar": 1982,
+      "Medium": "Film",
+      "Bronwerk (EN)": "Original screenplay",
+      "Oorspronkelijke bundel": null,
+      "Relatie": "Origineel scenario",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/movie/"
+    },
+    {
+      "Verfilming (EN)": "Creepshow 2",
+      "Nederlandse releasetitel": null,
+      "Jaar": 1987,
+      "Medium": "Film",
+      "Bronwerk (EN)": "Original stories",
+      "Oorspronkelijke bundel": null,
+      "Relatie": "Origineel scenario",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/movie/"
+    },
+    {
+      "Verfilming (EN)": "Cujo",
+      "Nederlandse releasetitel": null,
+      "Jaar": 1983,
+      "Medium": "Film",
+      "Bronwerk (EN)": "Cujo",
+      "Oorspronkelijke bundel": null,
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/movie/"
+    },
+    {
+      "Verfilming (EN)": "The Dark Half",
+      "Nederlandse releasetitel": null,
+      "Jaar": 1993,
+      "Medium": "Film",
+      "Bronwerk (EN)": "The Dark Half",
+      "Oorspronkelijke bundel": null,
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/movie/"
+    },
+    {
+      "Verfilming (EN)": "The Dark Tower",
+      "Nederlandse releasetitel": null,
+      "Jaar": 2017,
+      "Medium": "Film",
+      "Bronwerk (EN)": "The Dark Tower I: The Gunslinger",
+      "Oorspronkelijke bundel": null,
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/movie/dark-tower.html",
+      "director": "Nikolaj Arcel",
+      "status": "released"
+    },
+    {
+      "Verfilming (EN)": "The Dead Zone",
+      "Nederlandse releasetitel": null,
+      "Jaar": 1983,
+      "Medium": "Film",
+      "Bronwerk (EN)": "The Dead Zone",
+      "Oorspronkelijke bundel": null,
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/movie/"
+    },
+    {
+      "Verfilming (EN)": "Doctor Sleep",
+      "Nederlandse releasetitel": null,
+      "Jaar": 2019,
+      "Medium": "Film",
+      "Bronwerk (EN)": "Doctor Sleep",
+      "Oorspronkelijke bundel": null,
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/movie/"
+    },
+    {
+      "Verfilming (EN)": "Dolan's Cadillac",
+      "Nederlandse releasetitel": null,
+      "Jaar": 2009,
+      "Medium": "Film",
+      "Bronwerk (EN)": "Dolan's Cadillac",
+      "Oorspronkelijke bundel": "Nightmares & Dreamscapes",
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/movie/"
+    },
+    {
+      "Verfilming (EN)": "Dolores Claiborne",
+      "Nederlandse releasetitel": null,
+      "Jaar": 1995,
+      "Medium": "Film",
+      "Bronwerk (EN)": "Dolores Claiborne",
+      "Oorspronkelijke bundel": null,
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/movie/"
+    },
+    {
+      "Verfilming (EN)": "Dreamcatcher",
+      "Nederlandse releasetitel": null,
+      "Jaar": 2003,
+      "Medium": "Film",
+      "Bronwerk (EN)": "Dreamcatcher",
+      "Oorspronkelijke bundel": null,
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/movie/"
+    },
+    {
+      "Verfilming (EN)": "Firestarter",
+      "Nederlandse releasetitel": null,
+      "Jaar": 1984,
+      "Medium": "Film",
+      "Bronwerk (EN)": "Firestarter",
+      "Oorspronkelijke bundel": null,
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/movie/"
+    },
+    {
+      "Verfilming (EN)": "Firestarter",
+      "Nederlandse releasetitel": null,
+      "Jaar": 2022,
+      "Medium": "Film",
+      "Bronwerk (EN)": "Firestarter",
+      "Oorspronkelijke bundel": null,
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/movie/"
+    },
+    {
+      "Verfilming (EN)": "Gerald's Game",
+      "Nederlandse releasetitel": null,
+      "Jaar": 2017,
+      "Medium": "Film",
+      "Bronwerk (EN)": "Gerald's Game",
+      "Oorspronkelijke bundel": null,
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/movie/"
+    },
+    {
+      "Verfilming (EN)": "Graveyard Shift",
+      "Nederlandse releasetitel": null,
+      "Jaar": 1990,
+      "Medium": "Film",
+      "Bronwerk (EN)": "Graveyard Shift",
+      "Oorspronkelijke bundel": "Night Shift",
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/movie/"
+    },
+    {
+      "Verfilming (EN)": "The Green Mile",
+      "Nederlandse releasetitel": null,
+      "Jaar": 1999,
+      "Medium": "Film",
+      "Bronwerk (EN)": "The Green Mile",
+      "Oorspronkelijke bundel": null,
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/movie/green-mile.html",
+      "director": "Frank Darabont",
+      "status": "released"
+    },
+    {
+      "Verfilming (EN)": "Hearts in Atlantis",
+      "Nederlandse releasetitel": null,
+      "Jaar": 2001,
+      "Medium": "Film",
+      "Bronwerk (EN)": "Low Men in Yellow Coats",
+      "Oorspronkelijke bundel": "Hearts in Atlantis",
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/movie/"
+    },
+    {
+      "Verfilming (EN)": "In the Tall Grass",
+      "Nederlandse releasetitel": null,
+      "Jaar": 2019,
+      "Medium": "Film",
+      "Bronwerk (EN)": "In the Tall Grass",
+      "Oorspronkelijke bundel": null,
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/movie/"
+    },
+    {
+      "Verfilming (EN)": "IT",
+      "Nederlandse releasetitel": null,
+      "Jaar": 2017,
+      "Medium": "Film",
+      "Bronwerk (EN)": "IT",
+      "Oorspronkelijke bundel": null,
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/movie/"
+    },
+    {
+      "Verfilming (EN)": "IT Chapter Two",
+      "Nederlandse releasetitel": null,
+      "Jaar": 2019,
+      "Medium": "Film",
+      "Bronwerk (EN)": "IT",
+      "Oorspronkelijke bundel": null,
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/movie/"
+    },
+    {
+      "Verfilming (EN)": "The Life of Chuck",
+      "Nederlandse releasetitel": null,
+      "Jaar": 2024,
+      "Medium": "Film",
+      "Bronwerk (EN)": "The Life of Chuck",
+      "Oorspronkelijke bundel": "If It Bleeds",
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/movie/"
+    },
+    {
+      "Verfilming (EN)": "The Long Walk",
+      "Nederlandse releasetitel": null,
+      "Jaar": 2025,
+      "Medium": "Film",
+      "Bronwerk (EN)": "The Long Walk",
+      "Oorspronkelijke bundel": "The Bachman Books",
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/movie/"
+    },
+    {
+      "Verfilming (EN)": "The Mangler",
+      "Nederlandse releasetitel": null,
+      "Jaar": 1995,
+      "Medium": "Film",
+      "Bronwerk (EN)": "The Mangler",
+      "Oorspronkelijke bundel": "Night Shift",
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/movie/"
+    },
+    {
+      "Verfilming (EN)": "Maximum Overdrive",
+      "Nederlandse releasetitel": null,
+      "Jaar": 1986,
+      "Medium": "Film",
+      "Bronwerk (EN)": "Trucks",
+      "Oorspronkelijke bundel": "Night Shift",
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/movie/"
+    },
+    {
+      "Verfilming (EN)": "Misery",
+      "Nederlandse releasetitel": null,
+      "Jaar": 1990,
+      "Medium": "Film",
+      "Bronwerk (EN)": "Misery",
+      "Oorspronkelijke bundel": null,
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/movie/misery.html",
+      "director": "Rob Reiner",
+      "status": "released"
+    },
+    {
+      "Verfilming (EN)": "The Mist",
+      "Nederlandse releasetitel": null,
+      "Jaar": 2007,
+      "Medium": "Film",
+      "Bronwerk (EN)": "The Mist",
+      "Oorspronkelijke bundel": "Skeleton Crew",
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/movie/"
+    },
+    {
+      "Verfilming (EN)": "The Monkey",
+      "Nederlandse releasetitel": null,
+      "Jaar": 2025,
+      "Medium": "Film",
+      "Bronwerk (EN)": "The Monkey",
+      "Oorspronkelijke bundel": "Skeleton Crew",
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/movie/"
+    },
+    {
+      "Verfilming (EN)": "Mr. Harrigan's Phone",
+      "Nederlandse releasetitel": null,
+      "Jaar": 2022,
+      "Medium": "Film",
+      "Bronwerk (EN)": "Mr. Harrigan's Phone",
+      "Oorspronkelijke bundel": "If It Bleeds",
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/movie/"
+    },
+    {
+      "Verfilming (EN)": "Needful Things",
+      "Nederlandse releasetitel": null,
+      "Jaar": 1993,
+      "Medium": "Film",
+      "Bronwerk (EN)": "Needful Things",
+      "Oorspronkelijke bundel": null,
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/movie/"
+    },
+    {
+      "Verfilming (EN)": "The Night Flier",
+      "Nederlandse releasetitel": null,
+      "Jaar": 1997,
+      "Medium": "Film",
+      "Bronwerk (EN)": "The Night Flier",
+      "Oorspronkelijke bundel": "Nightmares & Dreamscapes",
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/movie/"
+    },
+    {
+      "Verfilming (EN)": "Pet Sematary",
+      "Nederlandse releasetitel": null,
+      "Jaar": 1989,
+      "Medium": "Film",
+      "Bronwerk (EN)": "Pet Sematary",
+      "Oorspronkelijke bundel": null,
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/movie/"
+    },
+    {
+      "Verfilming (EN)": "Pet Sematary",
+      "Nederlandse releasetitel": null,
+      "Jaar": 2019,
+      "Medium": "Film",
+      "Bronwerk (EN)": "Pet Sematary",
+      "Oorspronkelijke bundel": null,
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/movie/"
+    },
+    {
+      "Verfilming (EN)": "Riding the Bullet",
+      "Nederlandse releasetitel": null,
+      "Jaar": 2004,
+      "Medium": "Film",
+      "Bronwerk (EN)": "Riding the Bullet",
+      "Oorspronkelijke bundel": "Everything's Eventual",
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/movie/"
+    },
+    {
+      "Verfilming (EN)": "The Running Man",
+      "Nederlandse releasetitel": null,
+      "Jaar": 1987,
+      "Medium": "Film",
+      "Bronwerk (EN)": "The Running Man",
+      "Oorspronkelijke bundel": "The Bachman Books",
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/movie/"
+    },
+    {
+      "Verfilming (EN)": "The Running Man",
+      "Nederlandse releasetitel": null,
+      "Jaar": 2025,
+      "Medium": "Film",
+      "Bronwerk (EN)": "The Running Man",
+      "Oorspronkelijke bundel": "The Bachman Books",
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/movie/"
+    },
+    {
+      "Verfilming (EN)": "'Salem's Lot",
+      "Nederlandse releasetitel": null,
+      "Jaar": 2024,
+      "Medium": "Film",
+      "Bronwerk (EN)": "'Salem's Lot",
+      "Oorspronkelijke bundel": null,
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/movie/"
+    },
+    {
+      "Verfilming (EN)": "Secret Window",
+      "Nederlandse releasetitel": null,
+      "Jaar": 2004,
+      "Medium": "Film",
+      "Bronwerk (EN)": "Secret Window, Secret Garden",
+      "Oorspronkelijke bundel": "Four Past Midnight",
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/movie/"
+    },
+    {
+      "Verfilming (EN)": "The Shawshank Redemption",
+      "Nederlandse releasetitel": null,
+      "Jaar": 1994,
+      "Medium": "Film",
+      "Bronwerk (EN)": "Rita Hayworth and Shawshank Redemption",
+      "Oorspronkelijke bundel": "Different Seasons",
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/movie/shawshank-redemption.html",
+      "director": "Frank Darabont",
+      "status": "released"
+    },
+    {
+      "Verfilming (EN)": "The Shining",
+      "Nederlandse releasetitel": null,
+      "Jaar": 1980,
+      "Medium": "Film",
+      "Bronwerk (EN)": "The Shining",
+      "Oorspronkelijke bundel": null,
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/movie/shining.html",
+      "director": "Stanley Kubrick",
+      "status": "released"
+    },
+    {
+      "Verfilming (EN)": "Silver Bullet",
+      "Nederlandse releasetitel": null,
+      "Jaar": 1985,
+      "Medium": "Film",
+      "Bronwerk (EN)": "Cycle of the Werewolf",
+      "Oorspronkelijke bundel": null,
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/movie/"
+    },
+    {
+      "Verfilming (EN)": "Stand by Me",
+      "Nederlandse releasetitel": null,
+      "Jaar": 1986,
+      "Medium": "Film",
+      "Bronwerk (EN)": "The Body",
+      "Oorspronkelijke bundel": "Different Seasons",
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/movie/stand-by-me.html",
+      "director": "Rob Reiner",
+      "status": "released"
+    },
+    {
+      "Verfilming (EN)": "Thinner",
+      "Nederlandse releasetitel": null,
+      "Jaar": 1996,
+      "Medium": "Film",
+      "Bronwerk (EN)": "Thinner",
+      "Oorspronkelijke bundel": null,
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/movie/"
+    },
+    {
+      "Verfilming (EN)": "1408",
+      "Nederlandse releasetitel": null,
+      "Jaar": 2007,
+      "Medium": "Film",
+      "Bronwerk (EN)": "1408",
+      "Oorspronkelijke bundel": "Everything's Eventual",
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/movie/"
+    },
+    {
+      "Verfilming (EN)": "1922",
+      "Nederlandse releasetitel": null,
+      "Jaar": 2017,
+      "Medium": "Film",
+      "Bronwerk (EN)": "1922",
+      "Oorspronkelijke bundel": "Full Dark, No Stars",
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/movie/"
+    },
+    {
+      "Verfilming (EN)": "The Girl Who Loved Tom Gordon",
+      "Nederlandse releasetitel": null,
+      "Jaar": null,
+      "Medium": "Film",
+      "Bronwerk (EN)": "The Girl Who Loved Tom Gordon",
+      "Oorspronkelijke bundel": null,
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Aangekondigd / niet uitgebracht",
+      "Bron": "https://stephenking.com/works/movie/"
+    },
+    {
+      "Verfilming (EN)": "Suffer the Little Children",
+      "Nederlandse releasetitel": null,
+      "Jaar": null,
+      "Medium": "Film",
+      "Bronwerk (EN)": "Suffer the Little Children",
+      "Oorspronkelijke bundel": "Nightmares & Dreamscapes",
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Aangekondigd / niet uitgebracht",
+      "Bron": "https://stephenking.com/works/movie/"
+    },
+    {
+      "Verfilming (EN)": "11.22.63",
+      "Nederlandse releasetitel": null,
+      "Jaar": 2016,
+      "Medium": "Televisie",
+      "Bronwerk (EN)": "11/22/63",
+      "Oorspronkelijke bundel": null,
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/television/"
+    },
+    {
+      "Verfilming (EN)": "Bag of Bones",
+      "Nederlandse releasetitel": null,
+      "Jaar": 2011,
+      "Medium": "Televisie",
+      "Bronwerk (EN)": "Bag of Bones",
+      "Oorspronkelijke bundel": null,
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/television/"
+    },
+    {
+      "Verfilming (EN)": "Big Driver",
+      "Nederlandse releasetitel": null,
+      "Jaar": 2014,
+      "Medium": "Televisie",
+      "Bronwerk (EN)": "Big Driver",
+      "Oorspronkelijke bundel": "Full Dark, No Stars",
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/television/"
+    },
+    {
+      "Verfilming (EN)": "Carrie",
+      "Nederlandse releasetitel": null,
+      "Jaar": 2002,
+      "Medium": "Televisiefilm",
+      "Bronwerk (EN)": "Carrie",
+      "Oorspronkelijke bundel": null,
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://www.swank.com/public-libraries/details/21296-carrie",
+      "director": "David Carson",
+      "status": "released",
+      "cast": [
+        "Angela Bettis — Carrie White",
+        "Patricia Clarkson — Margaret White"
+      ],
+      "verified": true
+    },
+    {
+      "Verfilming (EN)": "Chapelwaite",
+      "Nederlandse releasetitel": null,
+      "Jaar": 2021,
+      "Medium": "Televisie",
+      "Bronwerk (EN)": "Jerusalem's Lot",
+      "Oorspronkelijke bundel": "Night Shift",
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/television/"
+    },
+    {
+      "Verfilming (EN)": "Desperation",
+      "Nederlandse releasetitel": null,
+      "Jaar": 2006,
+      "Medium": "Televisie",
+      "Bronwerk (EN)": "Desperation",
+      "Oorspronkelijke bundel": null,
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/television/"
+    },
+    {
+      "Verfilming (EN)": "The Institute",
+      "Nederlandse releasetitel": null,
+      "Jaar": 2025,
+      "Medium": "Televisie",
+      "Bronwerk (EN)": "The Institute",
+      "Oorspronkelijke bundel": null,
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/television/"
+    },
+    {
+      "Verfilming (EN)": "IT",
+      "Nederlandse releasetitel": null,
+      "Jaar": 1990,
+      "Medium": "Televisie",
+      "Bronwerk (EN)": "IT",
+      "Oorspronkelijke bundel": null,
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/television/"
+    },
+    {
+      "Verfilming (EN)": "IT: Welcome to Derry",
+      "Nederlandse releasetitel": null,
+      "Jaar": 2025,
+      "Medium": "Televisie",
+      "Bronwerk (EN)": "IT",
+      "Oorspronkelijke bundel": null,
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/television/"
+    },
+    {
+      "Verfilming (EN)": "The Langoliers",
+      "Nederlandse releasetitel": null,
+      "Jaar": 1995,
+      "Medium": "Televisie",
+      "Bronwerk (EN)": "The Langoliers",
+      "Oorspronkelijke bundel": "Four Past Midnight",
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/television/"
+    },
+    {
+      "Verfilming (EN)": "Lisey's Story",
+      "Nederlandse releasetitel": null,
+      "Jaar": 2021,
+      "Medium": "Televisie",
+      "Bronwerk (EN)": "Lisey's Story",
+      "Oorspronkelijke bundel": null,
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/television/"
+    },
+    {
+      "Verfilming (EN)": "The Mist",
+      "Nederlandse releasetitel": null,
+      "Jaar": 2017,
+      "Medium": "Televisie",
+      "Bronwerk (EN)": "The Mist",
+      "Oorspronkelijke bundel": "Skeleton Crew",
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/television/"
+    },
+    {
+      "Verfilming (EN)": "Mr. Mercedes",
+      "Nederlandse releasetitel": null,
+      "Jaar": 2017,
+      "Medium": "Televisie",
+      "Bronwerk (EN)": "Mr. Mercedes",
+      "Oorspronkelijke bundel": null,
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/television/"
+    },
+    {
+      "Verfilming (EN)": "Nightmares & Dreamscapes",
+      "Nederlandse releasetitel": null,
+      "Jaar": 2006,
+      "Medium": "Televisie",
+      "Bronwerk (EN)": "Nightmares & Dreamscapes",
+      "Oorspronkelijke bundel": null,
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/television/"
+    },
+    {
+      "Verfilming (EN)": "'Salem's Lot",
+      "Nederlandse releasetitel": null,
+      "Jaar": 1979,
+      "Medium": "Televisie",
+      "Bronwerk (EN)": "'Salem's Lot",
+      "Oorspronkelijke bundel": null,
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/television/"
+    },
+    {
+      "Verfilming (EN)": "'Salem's Lot",
+      "Nederlandse releasetitel": null,
+      "Jaar": 2004,
+      "Medium": "Televisie",
+      "Bronwerk (EN)": "'Salem's Lot",
+      "Oorspronkelijke bundel": null,
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/television/"
+    },
+    {
+      "Verfilming (EN)": "The Shining",
+      "Nederlandse releasetitel": null,
+      "Jaar": 1997,
+      "Medium": "Televisie",
+      "Bronwerk (EN)": "The Shining",
+      "Oorspronkelijke bundel": null,
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/television/"
+    },
+    {
+      "Verfilming (EN)": "Sometimes They Come Back",
+      "Nederlandse releasetitel": null,
+      "Jaar": 1991,
+      "Medium": "Televisie",
+      "Bronwerk (EN)": "Sometimes They Come Back",
+      "Oorspronkelijke bundel": "Night Shift",
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/television/"
+    },
+    {
+      "Verfilming (EN)": "The Stand",
+      "Nederlandse releasetitel": null,
+      "Jaar": 1994,
+      "Medium": "Televisie",
+      "Bronwerk (EN)": "The Stand",
+      "Oorspronkelijke bundel": null,
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/television/"
+    },
+    {
+      "Verfilming (EN)": "The Stand",
+      "Nederlandse releasetitel": null,
+      "Jaar": 2020,
+      "Medium": "Televisie",
+      "Bronwerk (EN)": "The Stand",
+      "Oorspronkelijke bundel": null,
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/television/"
+    },
+    {
+      "Verfilming (EN)": "The Tommyknockers",
+      "Nederlandse releasetitel": null,
+      "Jaar": 1993,
+      "Medium": "Televisie",
+      "Bronwerk (EN)": "The Tommyknockers",
+      "Oorspronkelijke bundel": null,
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/television/"
+    },
+    {
+      "Verfilming (EN)": "Trucks",
+      "Nederlandse releasetitel": null,
+      "Jaar": 1997,
+      "Medium": "Televisie",
+      "Bronwerk (EN)": "Trucks",
+      "Oorspronkelijke bundel": "Night Shift",
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/television/"
+    },
+    {
+      "Verfilming (EN)": "Under the Dome",
+      "Nederlandse releasetitel": null,
+      "Jaar": 2013,
+      "Medium": "Televisie",
+      "Bronwerk (EN)": "Under the Dome",
+      "Oorspronkelijke bundel": null,
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/television/"
+    },
+    {
+      "Verfilming (EN)": "The Outsider",
+      "Nederlandse releasetitel": null,
+      "Jaar": 2020,
+      "Medium": "Televisie",
+      "Bronwerk (EN)": "The Outsider",
+      "Oorspronkelijke bundel": null,
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/television/"
+    },
+    {
+      "Verfilming (EN)": "The Dead Zone",
+      "Nederlandse releasetitel": null,
+      "Jaar": 2002,
+      "Medium": "Televisie",
+      "Bronwerk (EN)": "The Dead Zone",
+      "Oorspronkelijke bundel": null,
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/television/"
+    },
+    {
+      "Verfilming (EN)": "Haven",
+      "Nederlandse releasetitel": null,
+      "Jaar": 2010,
+      "Medium": "Televisie",
+      "Bronwerk (EN)": "The Colorado Kid",
+      "Oorspronkelijke bundel": null,
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/television/"
+    },
+    {
+      "Verfilming (EN)": "Castle Rock",
+      "Nederlandse releasetitel": null,
+      "Jaar": 2018,
+      "Medium": "Televisie",
+      "Bronwerk (EN)": "King universe (original)",
+      "Oorspronkelijke bundel": null,
+      "Relatie": "Origineel scenario",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/television/"
+    },
+    {
+      "Verfilming (EN)": "Rose Red",
+      "Nederlandse releasetitel": null,
+      "Jaar": 2002,
+      "Medium": "Televisie",
+      "Bronwerk (EN)": "Original screenplay",
+      "Oorspronkelijke bundel": null,
+      "Relatie": "Origineel scenario",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/television/"
+    },
+    {
+      "Verfilming (EN)": "Storm of the Century",
+      "Nederlandse releasetitel": null,
+      "Jaar": 1999,
+      "Medium": "Televisie",
+      "Bronwerk (EN)": "Original screenplay",
+      "Oorspronkelijke bundel": null,
+      "Relatie": "Origineel scenario",
+      "Status": "Uitgebracht / datum te controleren",
+      "Bron": "https://stephenking.com/works/television/"
+    },
+    {
+      "Verfilming (EN)": "Carrie",
+      "Jaar": 2013,
+      "Medium": "Film",
+      "Bronwerk (EN)": "Carrie",
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Bron": "https://www.demilofilm.com/works/carrie",
+      "director": "Kimberly Peirce",
+      "release": "2013-10-18",
+      "cast": [
+        "Chloë Grace Moretz — Carrie White",
+        "Julianne Moore — Margaret White"
+      ],
+      "status": "released",
+      "verified": true
+    },
+    {
+      "Verfilming (EN)": "Carrie",
+      "Jaar": 2026,
+      "Medium": "Televisieserie",
+      "Bronwerk (EN)": "Carrie",
+      "Relatie": "Gebaseerd op / geïnspireerd door",
+      "Bron": "https://stephenking.com/works/television/carrie.html",
+      "sources": [
+        "https://www.aboutamazon.com/news/entertainment/carrie-stephen-king-mike-flanagan-prime-video"
+      ],
+      "showrunner": "Mike Flanagan",
+      "release": "2026-10-07",
+      "episodes": 8,
+      "platform": "Prime Video",
+      "studio": "Amazon MGM Studios",
+      "directors": "Mike Flanagan (1, 2, 7, 8); Kate Siegel (3); Axelle Carolyn (4); Kyra Sedgwick (5); Hiromi Kamata (6)",
+      "cast": [
+        "Summer H. Howell — Carrie White",
+        "Samantha Sloyan — Margaret White",
+        "Siena Agudong — Sue Snell",
+        "Alison Thornton — Chris Hargensen",
+        "Joel Oulette — Tommy Ross",
+        "Josie Totah — Tina",
+        "Arthur Conti — Billy",
+        "Thalia Dudek — Emaline",
+        "Amber Midthunder — Miss Desjardin",
+        "Matthew Lillard — Principal Grayle"
+      ],
+      "renewal": "2026-10-22",
+      "status": "released",
+      "verified": true
+    }
+  ],
+  "tower": [
+    {
+      "Werk / verwijzing": "The Dark Tower I–VII",
+      "Soort connectie": "Hoofdreeks",
+      "Toelichting": "Roland en de Ka-tet; zeven kerndelen",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Werk / verwijzing": "The Wind Through the Keyhole",
+      "Soort connectie": "Tussenboek",
+      "Toelichting": "Gesitueerd tussen deel IV en V",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Werk / verwijzing": "The Little Sisters of Eluria",
+      "Soort connectie": "Roland-verhaal",
+      "Toelichting": "Opgenomen in Everything’s Eventual",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Werk / verwijzing": "The Stand",
+      "Soort connectie": "Personage",
+      "Toelichting": "Randall Flagg",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Werk / verwijzing": "The Eyes of the Dragon",
+      "Soort connectie": "Personage",
+      "Toelichting": "Randall Flagg",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Werk / verwijzing": "'Salem's Lot",
+      "Soort connectie": "Personage",
+      "Toelichting": "Father Callahan",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Werk / verwijzing": "Hearts in Atlantis",
+      "Soort connectie": "Kosmologie",
+      "Toelichting": "Low Men / Crimson King",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Werk / verwijzing": "Insomnia",
+      "Soort connectie": "Kosmologie",
+      "Toelichting": "Crimson King en Patrick Danville",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Werk / verwijzing": "Black House",
+      "Soort connectie": "Kosmologie",
+      "Toelichting": "Breakers en de Toren",
+      "Bron": "https://stephenking.com/works/"
+    },
+    {
+      "Werk / verwijzing": "IT",
+      "Soort connectie": "Thematisch",
+      "Toelichting": "Overlappende kosmologie; geen direct vervolg",
+      "Bron": "https://stephenking.com/works/"
+    }
+  ],
+  "media": {
+    "checked": "2026-10-25",
+    "books": {
+      "The Long Walk": {
+        "en": {
+          "title": "The Long Walk",
+          "language": "en",
+          "image": "https://stephenking.com/images/books/long_walk/paperback_prop_embed.jpg",
+          "source": "https://stephenking.com/works/novel/long-walk.html",
+          "edition": "Official English cover; edition ISBN not confirmed",
+          "credit": "StephenKing.com / respective publisher",
+          "checked": "2026-10-25"
+        },
+        "nl": {
+          "title": "De marathon",
+          "language": "nl",
+          "image": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021025131_frontcover.jpg",
+          "isbn": "9789021025131",
+          "source": "https://www.lsuitgeverij.nl/boek/de-marathon/",
+          "publisher": "Luitingh-Sijthoff",
+          "credit": "Luitingh-Sijthoff",
+          "checked": "2026-10-25"
+        }
+      },
+      "Carrie": {
+        "en": {
+          "title": "Carrie",
+          "language": "en",
+          "image": "https://stephenking.com/images/books/carrie/hardcover_prop_embed.jpg",
+          "source": "https://stephenking.com/works/novel/carrie.html",
+          "edition": "Official English cover; edition ISBN not confirmed",
+          "credit": "StephenKing.com / respective publisher",
+          "checked": "2026-10-25"
+        },
+        "nl": {
+          "title": "Carrie",
+          "language": "nl",
+          "image": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789024591350_frontcover_original.jpg",
+          "isbn": "9789024591350",
+          "source": "https://www.lsuitgeverij.nl/boek/carrie-2/",
+          "publisher": "Luitingh-Sijthoff",
+          "credit": "Luitingh-Sijthoff",
+          "checked": "2026-10-25"
+        }
+      },
+      "The Shining": {
+        "en": {
+          "title": "The Shining",
+          "language": "en",
+          "image": "https://stephenking.com/images/books/shining/hardcover_prop_embed.jpg",
+          "source": "https://stephenking.com/works/novel/shining.html",
+          "edition": "Official English cover; edition ISBN not confirmed",
+          "credit": "StephenKing.com / respective publisher",
+          "checked": "2026-10-25"
+        },
+        "nl": {
+          "title": "De Shining (luxe editie)",
+          "language": "nl",
+          "image": "https://www.lsuitgeverij.nl/wp-content/uploads/2026/06/9789021066561_frontcover_original.jpg",
+          "isbn": "9789021066561",
+          "source": "https://www.lsuitgeverij.nl/boek/de-shining/",
+          "publisher": "Luitingh-Sijthoff",
+          "credit": "Luitingh-Sijthoff",
+          "checked": "2026-10-25"
+        }
+      },
+      "Christine": {
+        "en": {
+          "title": "Christine",
+          "language": "en",
+          "image": "https://stephenking.com/images/books/christine/hardcover_prop_embed.jpg",
+          "source": "https://stephenking.com/works/novel/christine.html",
+          "edition": "Official English cover; edition ISBN not confirmed",
+          "credit": "StephenKing.com / respective publisher",
+          "checked": "2026-10-25"
+        },
+        "nl": {
+          "title": "Christine",
+          "language": "nl",
+          "image": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789024561575_frontcover.jpg",
+          "isbn": "9789024561575",
+          "source": "https://www.lsuitgeverij.nl/boek/christine-ebook/",
+          "publisher": "Luitingh-Sijthoff",
+          "credit": "Luitingh-Sijthoff",
+          "checked": "2026-10-25"
+        }
+      },
+      "Pet Sematary": {
+        "en": {
+          "title": "Pet Sematary",
+          "language": "en",
+          "image": "https://stephenking.com/images/books/pet_sematary/hardcover_prop_embed.jpg",
+          "source": "https://stephenking.com/works/novel/pet-sematary.html",
+          "edition": "Official English cover; edition ISBN not confirmed",
+          "credit": "StephenKing.com / respective publisher",
+          "checked": "2026-10-25"
+        },
+        "nl": {
+          "title": "Dodenwake",
+          "language": "nl",
+          "image": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021015873_frontcover.jpg",
+          "isbn": "9789021015873",
+          "source": "https://www.lsuitgeverij.nl/boek/dodenwake/",
+          "publisher": "Luitingh-Sijthoff",
+          "credit": "Luitingh-Sijthoff",
+          "checked": "2026-10-25"
+        }
+      },
+      "Holly": {
+        "en": {
+          "title": "Holly",
+          "language": "en",
+          "image": "https://stephenking.com/images/novel/holly.jpg",
+          "source": "https://stephenking.com/works/novel/holly.html",
+          "edition": "Official English cover; edition ISBN not confirmed",
+          "credit": "StephenKing.com / respective publisher",
+          "checked": "2026-10-25"
+        }
+      },
+      "Firestarter": {
+        "en": {
+          "title": "Firestarter",
+          "language": "en",
+          "image": "https://stephenking.com/images/books/firestarter/hardcover_prop_embed.jpg",
+          "source": "https://stephenking.com/works/novel/firestarter.html",
+          "edition": "Official English cover; edition ISBN not confirmed",
+          "credit": "StephenKing.com / respective publisher",
+          "checked": "2026-10-25"
+        },
+        "nl": {
+          "title": "Ogen van vuur",
+          "language": "nl",
+          "image": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789024578146_frontcover.jpg",
+          "isbn": "9789024578146",
+          "source": "https://www.lsuitgeverij.nl/boek/ogen-van-vuur/",
+          "publisher": "Luitingh-Sijthoff",
+          "credit": "Luitingh-Sijthoff",
+          "checked": "2026-10-25"
+        }
+      },
+      "Later": {
+        "en": {
+          "title": "Later",
+          "language": "en",
+          "image": "https://stephenking.com/images/novel/74/later.jpg",
+          "source": "https://stephenking.com/works/novel/later.html",
+          "edition": "Official English cover; edition ISBN not confirmed",
+          "credit": "StephenKing.com / respective publisher",
+          "checked": "2026-10-25"
+        }
+      },
+      "Cujo": {
+        "en": {
+          "title": "Cujo",
+          "language": "en",
+          "image": "https://stephenking.com/images/books/cujo/hardcover_prop_embed.jpg",
+          "source": "https://stephenking.com/works/novel/cujo.html",
+          "edition": "Official English cover; edition ISBN not confirmed",
+          "credit": "StephenKing.com / respective publisher",
+          "checked": "2026-10-25"
+        },
+        "nl": {
+          "title": "Cujo",
+          "language": "nl",
+          "image": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021031354_frontcover_original.jpg",
+          "isbn": "9789021031354",
+          "source": "https://www.lsuitgeverij.nl/boek/cujo/",
+          "publisher": "Luitingh-Sijthoff",
+          "credit": "Luitingh-Sijthoff",
+          "checked": "2026-10-25"
+        }
+      },
+      "The Dead Zone": {
+        "en": {
+          "title": "The Dead Zone",
+          "language": "en",
+          "image": "https://stephenking.com/images/books/dead_zone/hardcover_prop_embed.jpg",
+          "source": "https://stephenking.com/works/novel/dead-zone.html",
+          "edition": "Official English cover; edition ISBN not confirmed",
+          "credit": "StephenKing.com / respective publisher",
+          "checked": "2026-10-25"
+        },
+        "nl": {
+          "title": "Dodelijk dilemma",
+          "language": "nl",
+          "image": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021043425_frontcover.jpg",
+          "isbn": "9789021043425",
+          "source": "https://www.lsuitgeverij.nl/boek/dodelijk-dilemma/",
+          "publisher": "Luitingh-Sijthoff",
+          "credit": "Luitingh-Sijthoff",
+          "checked": "2026-10-25"
+        }
+      },
+      "'Salem's Lot": {
+        "en": {
+          "title": "'Salem's Lot",
+          "language": "en",
+          "image": "https://stephenking.com/images/books/salems_lot/hardcover_prop_embed.jpg",
+          "source": "https://stephenking.com/works/novel/salems-lot.html",
+          "edition": "Official English cover; edition ISBN not confirmed",
+          "credit": "StephenKing.com / respective publisher",
+          "checked": "2026-10-25"
+        },
+        "nl": {
+          "title": "Bezeten stad",
+          "language": "nl",
+          "image": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789024578108_frontcover.jpg",
+          "isbn": "9789024578108",
+          "source": "https://www.lsuitgeverij.nl/boek/bezeten-stad/",
+          "publisher": "Luitingh-Sijthoff",
+          "credit": "Luitingh-Sijthoff",
+          "checked": "2026-10-25"
+        }
+      },
+      "IT": {
+        "en": {
+          "title": "IT",
+          "language": "en",
+          "image": "https://stephenking.com/images/books/it/hardcover_prop_embed.jpg",
+          "source": "https://stephenking.com/works/novel/it.html",
+          "edition": "Official English cover; edition ISBN not confirmed",
+          "credit": "StephenKing.com / respective publisher",
+          "checked": "2026-10-25"
+        },
+        "nl": {
+          "title": "IT",
+          "language": "nl",
+          "image": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021027432_frontcover_original.jpg",
+          "isbn": "9789021027432",
+          "source": "https://www.lsuitgeverij.nl/boek/it/",
+          "publisher": "Luitingh-Sijthoff",
+          "credit": "Luitingh-Sijthoff",
+          "checked": "2026-10-25"
+        }
+      },
+      "Misery": {
+        "en": {
+          "title": "Misery",
+          "language": "en",
+          "image": "https://stephenking.com/images/books/misery/hardcover_prop_embed.jpg",
+          "source": "https://stephenking.com/works/novel/misery.html",
+          "edition": "Official English cover; edition ISBN not confirmed",
+          "credit": "StephenKing.com / respective publisher",
+          "checked": "2026-10-25"
+        },
+        "nl": {
+          "title": "Misery",
+          "language": "nl",
+          "image": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789024578160_frontcover.jpg",
+          "isbn": "9789024578160",
+          "source": "https://www.lsuitgeverij.nl/boek/misery/",
+          "publisher": "Luitingh-Sijthoff",
+          "credit": "Luitingh-Sijthoff",
+          "checked": "2026-10-25"
+        }
+      },
+      "The Stand": {
+        "en": {
+          "title": "The Stand",
+          "language": "en",
+          "image": "https://stephenking.com/images/books/78_stand/prop_embed.jpg",
+          "source": "https://stephenking.com/works/novel/stand.html",
+          "edition": "Official English cover; edition ISBN not confirmed",
+          "credit": "StephenKing.com / respective publisher",
+          "checked": "2026-10-25"
+        },
+        "nl": {
+          "title": "De Beproeving",
+          "language": "nl",
+          "image": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021027791_frontcover.jpg",
+          "isbn": "9789021027791",
+          "source": "https://www.lsuitgeverij.nl/boek/de-beproeving/",
+          "publisher": "Luitingh-Sijthoff",
+          "credit": "Luitingh-Sijthoff",
+          "checked": "2026-10-25"
+        }
+      },
+      "Fairy Tale": {
+        "en": {
+          "title": "Fairy Tale",
+          "language": "en",
+          "image": "https://stephenking.com/images/novel/fairy-tale.jpg",
+          "source": "https://stephenking.com/works/novel/fairy-tale.html",
+          "edition": "Official English cover; edition ISBN not confirmed",
+          "credit": "StephenKing.com / respective publisher",
+          "checked": "2026-10-25"
+        }
+      },
+      "Billy Summers": {
+        "en": {
+          "title": "Billy Summers",
+          "language": "en",
+          "image": "https://stephenking.com/images/novel/billy-summers.jpg",
+          "source": "https://stephenking.com/works/novel/billy-summers.html",
+          "edition": "Official English cover; edition ISBN not confirmed",
+          "credit": "StephenKing.com / respective publisher",
+          "checked": "2026-10-25"
+        }
+      },
+      "The Green Mile": {
+        "nl": {
+          "title": "De groene mijl",
+          "language": "nl",
+          "image": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021025360_frontcover_original.jpg",
+          "isbn": "9789021025360",
+          "source": "https://www.lsuitgeverij.nl/boek/de-groene-mijl/",
+          "publisher": "Luitingh-Sijthoff",
+          "credit": "Luitingh-Sijthoff",
+          "checked": "2026-10-25"
+        }
+      },
+      "The Dark Tower I: The Gunslinger": {
+        "nl": {
+          "title": "De scherpschutter",
+          "language": "nl",
+          "image": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021049151_frontcover.jpg",
+          "isbn": "9789021049151",
+          "source": "https://www.lsuitgeverij.nl/boek/de-scherpschutter/",
+          "publisher": "Luitingh-Sijthoff",
+          "credit": "Luitingh-Sijthoff",
+          "checked": "2026-10-25"
+        }
+      }
+    },
+    "films": {
+      "Misery|1990": {
+        "title": "Misery",
+        "language": "en",
+        "image": "https://stephenking.com/images/movies/theatrical_movie/misery/us_prop_embed.jpg",
+        "source": "https://stephenking.com/works/movie/misery.html",
+        "credit": "StephenKing.com / respective studio",
+        "director": "Rob Reiner",
+        "checked": "2026-10-25"
+      },
+      "Stand by Me|1986": {
+        "title": "Stand by Me",
+        "language": "en",
+        "image": "https://stephenking.com/images/movies/theatrical_movie/stand_by_me/us_prop_embed.jpg",
+        "source": "https://stephenking.com/works/movie/stand-by-me.html",
+        "credit": "StephenKing.com / respective studio",
+        "director": "Rob Reiner",
+        "checked": "2026-10-25"
+      },
+      "The Dark Tower|2017": {
+        "title": "The Dark Tower",
+        "language": "en",
+        "image": "https://stephenking.com/images/movie/40/darktower.library.jpg",
+        "source": "https://stephenking.com/works/movie/dark-tower.html",
+        "credit": "StephenKing.com / respective studio",
+        "director": "Nikolaj Arcel",
+        "checked": "2026-10-25"
+      },
+      "The Shawshank Redemption|1994": {
+        "title": "The Shawshank Redemption",
+        "language": "en",
+        "image": "https://stephenking.com/images/movies/theatrical_movie/the_shawshank_redemption/us_prop_embed.jpg",
+        "source": "https://stephenking.com/works/movie/shawshank-redemption.html",
+        "credit": "StephenKing.com / respective studio",
+        "director": "Frank Darabont",
+        "checked": "2026-10-25"
+      },
+      "The Shining|1980": {
+        "title": "The Shining",
+        "language": "en",
+        "image": "https://stephenking.com/images/movies/theatrical_movie/the_shining/us_prop_embed.jpg",
+        "source": "https://stephenking.com/works/movie/shining.html",
+        "credit": "StephenKing.com / respective studio",
+        "director": "Stanley Kubrick",
+        "checked": "2026-10-25"
+      },
+      "The Green Mile|1999": {
+        "title": "The Green Mile",
+        "language": "en",
+        "image": "https://stephenking.com/images/movie/26/us2.jpg",
+        "source": "https://stephenking.com/works/movie/green-mile.html",
+        "credit": "StephenKing.com / respective studio",
+        "director": "Frank Darabont",
+        "checked": "2026-10-25"
+      },
+      "Carrie|2026": {
+        "title": "Carrie",
+        "language": "en",
+        "image": "https://stephenking.com/images/television/carrie2026.jpg",
+        "source": "https://stephenking.com/works/television/carrie.html",
+        "credit": "StephenKing.com / respective studio",
+        "director": null,
+        "checked": "2026-10-25"
+      },
+      "Carrie|1976": {
+        "title": "Carrie",
+        "language": "en",
+        "image": "https://stephenking.com/images/movies/theatrical_movie/carrie/us_prop_embed.jpg",
+        "source": "https://stephenking.com/works/movie/carrie.html",
+        "credit": "StephenKing.com / respective studio",
+        "director": "Brian De Palma",
+        "checked": "2026-10-25"
+      }
+    }
+  }
+}

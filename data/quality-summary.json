@@ -1,0 +1,70 @@
+{
+  "catalog": {
+    "books": 86,
+    "stories": 173,
+    "films": 96,
+    "tower": 17,
+    "works": 256,
+    "editions": 154
+  },
+  "images": {
+    "nl": 61,
+    "en": 86,
+    "posters": 82
+  },
+  "missingImages": {
+    "nl": 25,
+    "en": 0,
+    "posters": 14
+  },
+  "storyCovers": {
+    "collectedStories": 145,
+    "withoutRecordedCollection": 28,
+    "standaloneWorks": 8,
+    "extraDutchStandaloneCovers": 5,
+    "extraEnglishStandaloneCovers": 0,
+    "verifiedOwnCovers": {
+      "nl": 5,
+      "en": 3
+    },
+    "collectionCoverUse": {
+      "nl": 145,
+      "en": 145
+    }
+  },
+  "referenceCoverage": {
+    "books": {
+      "expected": 86,
+      "present": 86,
+      "referenceMatched": 86,
+      "missing": [],
+      "uncertainRecords": 85,
+      "expectedUniqueWorks": 86
+    },
+    "stories": {
+      "expected": 168,
+      "present": 173,
+      "referenceMatched": 168,
+      "missing": [],
+      "uncertainRecords": 173,
+      "expectedUniqueWorks": 166
+    },
+    "films": {
+      "expected": 90,
+      "present": 96,
+      "referenceMatched": 90,
+      "missing": [],
+      "uncertainRecords": 95,
+      "expectedUniqueWorks": 90
+    }
+  },
+  "sourceRowCount": 703,
+  "sourceDetailsChecked": 346,
+  "collaborations": {
+    "source": "https://stephenking.com/works/collaboration/index.html",
+    "referenceEntries": 11,
+    "uniqueRecordedProjects": 13,
+    "scopeNote": "Includes literary co-authorship and separately labelled comic/photographic/contributed projects; not all contributors to an anthology are co-authors of one text.",
+    "missingReferenceEntries": []
+  }
+}

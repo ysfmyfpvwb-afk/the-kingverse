@@ -1,0 +1,2489 @@
+{
+  "checked": "2026-10-25",
+  "categories": [
+    {
+      "category": "novel",
+      "source": "https://stephenking.com/works/novel/index.html",
+      "records": [
+        {
+          "title": "'Salem's Lot Illustrated Edition",
+          "type": "Novel",
+          "displayDate": "November 11th, 2005",
+          "url": "https://stephenking.com/works/novel/salems-lot-illustrated-edition.html"
+        },
+        {
+          "title": "'Salem's Lot",
+          "type": "Novel",
+          "displayDate": "October 17th, 1975",
+          "url": "https://stephenking.com/works/novel/salems-lot.html"
+        },
+        {
+          "title": "11/22/63",
+          "type": "Novel",
+          "displayDate": "November 8th, 2011",
+          "url": "https://stephenking.com/works/novel/11-22-63.html"
+        },
+        {
+          "title": "A Very Tight Place",
+          "type": "Novella",
+          "displayDate": "May 1st, 2008",
+          "url": "https://stephenking.com/works/novella/a-very-tight-place.html"
+        },
+        {
+          "title": "Apt Pupil",
+          "type": "Novella",
+          "displayDate": "August 27th, 1982",
+          "url": "https://stephenking.com/works/novella/apt-pupil.html"
+        },
+        {
+          "title": "The Bachman Books",
+          "type": "Bachman Novel",
+          "displayDate": "October 1985",
+          "url": "https://stephenking.com/works/novel/bachman-books.html"
+        },
+        {
+          "title": "Bag of Bones",
+          "type": "Novel",
+          "displayDate": "September 22nd, 1998",
+          "url": "https://stephenking.com/works/novel/bag-of-bones.html"
+        },
+        {
+          "title": "Billy Summers",
+          "type": "Novel",
+          "displayDate": "August 3rd, 2021",
+          "url": "https://stephenking.com/works/novel/billy-summers.html"
+        },
+        {
+          "title": "Black House",
+          "type": "Novel",
+          "displayDate": "September 15th, 2001",
+          "url": "https://stephenking.com/works/novel/black-house.html"
+        },
+        {
+          "title": "Blaze",
+          "type": "Bachman Novel",
+          "displayDate": "December 2006",
+          "url": "https://stephenking.com/works/novel/blaze.html"
+        },
+        {
+          "title": "Blind Willie",
+          "type": "Novella",
+          "displayDate": "October 1994",
+          "url": "https://stephenking.com/works/novella/blind-willie.html"
+        },
+        {
+          "title": "Blockade Billy",
+          "type": "Novella",
+          "displayDate": "April 20th, 2010",
+          "url": "https://stephenking.com/works/novella/blockade-billy.html"
+        },
+        {
+          "title": "The Body",
+          "type": "Novella",
+          "displayDate": "August 27th, 1982",
+          "url": "https://stephenking.com/works/novella/body.html"
+        },
+        {
+          "title": "The Breathing Method",
+          "type": "Novella",
+          "displayDate": "August 27th, 1982",
+          "url": "https://stephenking.com/works/novella/breathing-method.html"
+        },
+        {
+          "title": "Carrie",
+          "type": "Novel",
+          "displayDate": "April 5th, 1974",
+          "url": "https://stephenking.com/works/novel/carrie.html"
+        },
+        {
+          "title": "Cell",
+          "type": "Novel",
+          "displayDate": "January 24th, 2006",
+          "url": "https://stephenking.com/works/novel/cell.html"
+        },
+        {
+          "title": "Christine",
+          "type": "Novel",
+          "displayDate": "April 29th, 1983",
+          "url": "https://stephenking.com/works/novel/christine.html"
+        },
+        {
+          "title": "The Colorado Kid",
+          "type": "Novel",
+          "displayDate": "October 2005",
+          "url": "https://stephenking.com/works/novel/colorado-kid.html"
+        },
+        {
+          "title": "Cujo",
+          "type": "Novel",
+          "displayDate": "September 8th, 1981",
+          "url": "https://stephenking.com/works/novel/cujo.html"
+        },
+        {
+          "title": "Cycle of the Werewolf",
+          "type": "Novel",
+          "displayDate": "April 1985",
+          "url": "https://stephenking.com/works/novel/cycle-of-the-werewolf.html"
+        },
+        {
+          "title": "The Dark Half",
+          "type": "Novel",
+          "displayDate": "November 1989",
+          "url": "https://stephenking.com/works/novel/dark-half.html"
+        },
+        {
+          "title": "The Dark Tower",
+          "type": "Novel",
+          "displayDate": "September 2004",
+          "url": "https://stephenking.com/works/novel/dark-tower.html"
+        },
+        {
+          "title": "The Dark Tower: Song of Susannah",
+          "type": "Novel",
+          "displayDate": "June 2004",
+          "url": "https://stephenking.com/works/novel/dark-tower-song-of-susannah.html"
+        },
+        {
+          "title": "The Dark Tower: The Drawing of the Three",
+          "type": "Novel",
+          "displayDate": "May 1987",
+          "url": "https://stephenking.com/works/novel/dark-tower-the-drawing-of-the-three.html"
+        },
+        {
+          "title": "The Dark Tower: The Gunslinger (Revised)",
+          "type": "Novel",
+          "displayDate": "June 2003",
+          "url": "https://stephenking.com/works/novel/dark-tower-the-gunslinger-(revised).html"
+        },
+        {
+          "title": "The Dark Tower: The Gunslinger",
+          "type": "Novel",
+          "displayDate": "June 1982",
+          "url": "https://stephenking.com/works/novel/dark-tower-the-gunslinger.html"
+        },
+        {
+          "title": "The Dark Tower: The Waste Lands",
+          "type": "Novel",
+          "displayDate": "August 1991",
+          "url": "https://stephenking.com/works/novel/dark-tower-the-waste-lands.html"
+        },
+        {
+          "title": "The Dark Tower: The Wind Through the Keyhole",
+          "type": "Novel",
+          "displayDate": "April 2012",
+          "url": "https://stephenking.com/works/novel/dark-tower-the-wind-through-the-keyhole.html"
+        },
+        {
+          "title": "The Dark Tower: Wizard and Glass",
+          "type": "Novel",
+          "displayDate": "November 1997",
+          "url": "https://stephenking.com/works/novel/dark-tower-wizard-and-glass.html"
+        },
+        {
+          "title": "The Dark Tower: Wolves of the Calla",
+          "type": "Novel",
+          "displayDate": "November 2003",
+          "url": "https://stephenking.com/works/novel/dark-tower-wolves-of-the-calla.html"
+        },
+        {
+          "title": "The Dead Zone",
+          "type": "Novel",
+          "displayDate": "August 1979",
+          "url": "https://stephenking.com/works/novel/dead-zone.html"
+        },
+        {
+          "title": "Desperation",
+          "type": "Novel",
+          "displayDate": "September 24th, 1996",
+          "url": "https://stephenking.com/works/novel/desperation.html"
+        },
+        {
+          "title": "Doctor Sleep",
+          "type": "Novel",
+          "displayDate": "September 24th, 2013",
+          "url": "https://stephenking.com/works/novel/doctor-sleep.html"
+        },
+        {
+          "title": "Dolores Claiborne",
+          "type": "Novel",
+          "displayDate": "November 1993",
+          "url": "https://stephenking.com/works/novel/dolores-claiborne.html"
+        },
+        {
+          "title": "Dreamcatcher",
+          "type": "Novel",
+          "displayDate": "February 20th, 2001",
+          "url": "https://stephenking.com/works/novel/dreamcatcher.html"
+        },
+        {
+          "title": "Duma Key",
+          "type": "Novel",
+          "displayDate": "January 22nd, 2008",
+          "url": "https://stephenking.com/works/novel/duma-key.html"
+        },
+        {
+          "title": "Elevation",
+          "type": "Novella",
+          "displayDate": "October 30th, 2018",
+          "url": "https://stephenking.com/works/novella/elevation.html"
+        },
+        {
+          "title": "End of Watch",
+          "type": "Novel",
+          "displayDate": "June 7th, 2016",
+          "url": "https://stephenking.com/works/novel/end-of-watch.html"
+        },
+        {
+          "title": "The Eyes of the Dragon",
+          "type": "Novel",
+          "displayDate": "February 1987",
+          "url": "https://stephenking.com/works/novel/eyes-of-the-dragon.html"
+        },
+        {
+          "title": "Fairy Tale",
+          "type": "Novel",
+          "displayDate": "September 6th, 2022",
+          "url": "https://stephenking.com/works/novel/fairy-tale.html"
+        },
+        {
+          "title": "Finders Keepers",
+          "type": "Novel",
+          "displayDate": "June 2nd, 2015",
+          "url": "https://stephenking.com/works/novel/finders-keepers.html"
+        },
+        {
+          "title": "Firestarter",
+          "type": "Novel",
+          "displayDate": "September 29th, 1980",
+          "url": "https://stephenking.com/works/novel/firestarter.html"
+        },
+        {
+          "title": "From A Buick 8",
+          "type": "Novel",
+          "displayDate": "September 24th, 2002",
+          "url": "https://stephenking.com/works/novel/from-a-buick-8.html"
+        },
+        {
+          "title": "Gerald's Game",
+          "type": "Novel",
+          "displayDate": "May 1992",
+          "url": "https://stephenking.com/works/novel/geralds-game.html"
+        },
+        {
+          "title": "The Girl Who Loved Tom Gordon",
+          "type": "Novel",
+          "displayDate": "April 1999",
+          "url": "https://stephenking.com/works/novel/girl-who-loved-tom-gordon.html"
+        },
+        {
+          "title": "The Green Mile: Coffey on the Mile",
+          "type": "Novel",
+          "displayDate": "August 1996",
+          "url": "https://stephenking.com/works/novel/green-mile-coffey-on-the-mile.html"
+        },
+        {
+          "title": "The Green Mile: Coffey's Hands",
+          "type": "Novel",
+          "displayDate": "May 1996",
+          "url": "https://stephenking.com/works/novel/green-mile-coffeys-hands.html"
+        },
+        {
+          "title": "The Green Mile: Night Journey",
+          "type": "Novel",
+          "displayDate": "July 1996",
+          "url": "https://stephenking.com/works/novel/green-mile-night-journey.html"
+        },
+        {
+          "title": "The Green Mile: The Bad Death of Eduard Delacroix",
+          "type": "Novel",
+          "displayDate": "June 1996",
+          "url": "https://stephenking.com/works/novel/green-mile-the-bad-death-of-eduard-delacroix.html"
+        },
+        {
+          "title": "The Green Mile: The Complete Serial Novel",
+          "type": "Novel",
+          "displayDate": "October 2000",
+          "url": "https://stephenking.com/works/novel/green-mile-the-complete-serial-novel.html"
+        },
+        {
+          "title": "The Green Mile: The Mouse on the Mile",
+          "type": "Novel",
+          "displayDate": "April 1996",
+          "url": "https://stephenking.com/works/novel/green-mile-the-mouse-on-the-mile.html"
+        },
+        {
+          "title": "The Green Mile: The Two Dead Girls",
+          "type": "Novel",
+          "displayDate": "March 1996",
+          "url": "https://stephenking.com/works/novel/green-mile-the-two-dead-girls.html"
+        },
+        {
+          "title": "Gwendy's Button Box",
+          "type": "Novella",
+          "displayDate": "May 16th, 2017",
+          "url": "https://stephenking.com/works/novella/gwendys-button-box.html"
+        },
+        {
+          "title": "Gwendy's Final Task",
+          "type": "Novel",
+          "displayDate": "February 15th, 2022",
+          "url": "https://stephenking.com/works/novel/gwendys-final-task.html"
+        },
+        {
+          "title": "Hearts in Atlantis",
+          "type": "Novella",
+          "displayDate": "September 14th, 1999",
+          "url": "https://stephenking.com/works/novella/hearts-in-atlantis.html"
+        },
+        {
+          "title": "Heavenly Shades of Night Are Falling",
+          "type": "Novella",
+          "displayDate": "September 14th, 1999",
+          "url": "https://stephenking.com/works/novella/heavenly-shades-of-night-are-falling.html"
+        },
+        {
+          "title": "Holly",
+          "type": "Novel",
+          "displayDate": "September 5th, 2023",
+          "url": "https://stephenking.com/works/novel/holly.html"
+        },
+        {
+          "title": "IT",
+          "type": "Novel",
+          "displayDate": "September 1986",
+          "url": "https://stephenking.com/works/novel/it.html"
+        },
+        {
+          "title": "If It Bleeds",
+          "type": "Novella",
+          "displayDate": "April 21st, 2020",
+          "url": "https://stephenking.com/works/novella/if-it-bleeds.html"
+        },
+        {
+          "title": "Insomnia",
+          "type": "Novel",
+          "displayDate": "September 1994",
+          "url": "https://stephenking.com/works/novel/insomnia.html"
+        },
+        {
+          "title": "The Institute",
+          "type": "Novel",
+          "displayDate": "September 2019",
+          "url": "https://stephenking.com/works/novel/institute.html"
+        },
+        {
+          "title": "Joyland Illustrated Edition",
+          "type": "Novel",
+          "displayDate": "September 2015",
+          "url": "https://stephenking.com/works/novel/joyland-illustrated-edition.html"
+        },
+        {
+          "title": "Joyland",
+          "type": "Novel",
+          "displayDate": "June 2013",
+          "url": "https://stephenking.com/works/novel/joyland.html"
+        },
+        {
+          "title": "The Langoliers",
+          "type": "Novella",
+          "displayDate": "September 24th, 1990",
+          "url": "https://stephenking.com/works/novella/langoliers.html"
+        },
+        {
+          "title": "Later",
+          "type": "Novel",
+          "displayDate": "March 2nd, 2021",
+          "url": "https://stephenking.com/works/novel/later.html"
+        },
+        {
+          "title": "The Library Policeman",
+          "type": "Novella",
+          "displayDate": "September 24th, 1990",
+          "url": "https://stephenking.com/works/novella/library-policeman.html"
+        },
+        {
+          "title": "The Life of Chuck",
+          "type": "Novella",
+          "displayDate": "April 21st, 2020",
+          "url": "https://stephenking.com/works/novella/life-of-chuck.html"
+        },
+        {
+          "title": "Lisey's Story",
+          "type": "Novel",
+          "displayDate": "October 2006",
+          "url": "https://stephenking.com/works/novel/liseys-story.html"
+        },
+        {
+          "title": "The Long Walk",
+          "type": "Bachman Novel",
+          "displayDate": "December 1978",
+          "url": "https://stephenking.com/works/novel/long-walk.html"
+        },
+        {
+          "title": "Low Men in Yellow Coats",
+          "type": "Novella",
+          "displayDate": "September 14th, 1999",
+          "url": "https://stephenking.com/works/novella/low-men-in-yellow-coats.html"
+        },
+        {
+          "title": "Misery",
+          "type": "Novel",
+          "displayDate": "June 1987",
+          "url": "https://stephenking.com/works/novel/misery.html"
+        },
+        {
+          "title": "The Mist",
+          "type": "Novella",
+          "displayDate": "August 29th, 1980",
+          "url": "https://stephenking.com/works/novella/mist.html"
+        },
+        {
+          "title": "Mr. Harrigan's Phone",
+          "type": "Novella",
+          "displayDate": "April 21st, 2020",
+          "url": "https://stephenking.com/works/novella/mr-harrigans-phone.html"
+        },
+        {
+          "title": "Mr. Mercedes",
+          "type": "Novel",
+          "displayDate": "June 2014",
+          "url": "https://stephenking.com/works/novel/mr-mercedes.html"
+        },
+        {
+          "title": "Needful Things",
+          "type": "Novel",
+          "displayDate": "October 1991",
+          "url": "https://stephenking.com/works/novel/needful-things.html"
+        },
+        {
+          "title": "Never Flinch",
+          "type": "Novel",
+          "displayDate": "May 27th, 2025",
+          "url": "https://stephenking.com/works/novel/never-flinch.html"
+        },
+        {
+          "title": "N",
+          "type": "Novella",
+          "displayDate": "November 11th, 2008",
+          "url": "https://stephenking.com/works/novella/n.html"
+        },
+        {
+          "title": "Other Worlds Than These",
+          "type": "Novel",
+          "displayDate": "October 6th, 2026",
+          "url": "https://stephenking.com/works/novel/other-worlds-than-these.html"
+        },
+        {
+          "title": "The Outsider",
+          "type": "Novel",
+          "displayDate": "May 2018",
+          "url": "https://stephenking.com/works/novel/outsider.html"
+        },
+        {
+          "title": "Pet Sematary",
+          "type": "Novel",
+          "displayDate": "November 1983",
+          "url": "https://stephenking.com/works/novel/pet-sematary.html"
+        },
+        {
+          "title": "Rage",
+          "type": "Bachman Novel",
+          "displayDate": "December 1976",
+          "url": "https://stephenking.com/works/novel/rage.html"
+        },
+        {
+          "title": "Rat",
+          "type": "Novella",
+          "displayDate": "April 21st, 2020",
+          "url": "https://stephenking.com/works/novella/rat.html"
+        },
+        {
+          "title": "The Regulators",
+          "type": "Bachman Novel",
+          "displayDate": "December 1995",
+          "url": "https://stephenking.com/works/novel/regulators.html"
+        },
+        {
+          "title": "Revival",
+          "type": "Novel",
+          "displayDate": "November 2014",
+          "url": "https://stephenking.com/works/novel/revival.html"
+        },
+        {
+          "title": "Rita Hayworth and Shawshank Redemption",
+          "type": "Novella",
+          "displayDate": "August 27th, 1982",
+          "url": "https://stephenking.com/works/novella/rita-hayworth-and-shawshank-redemption.html"
+        },
+        {
+          "title": "Roadwork",
+          "type": "Bachman Novel",
+          "displayDate": "December 1980",
+          "url": "https://stephenking.com/works/novel/roadwork.html"
+        },
+        {
+          "title": "Rose Madder",
+          "type": "Novel",
+          "displayDate": "June 1995",
+          "url": "https://stephenking.com/works/novel/rose-madder.html"
+        },
+        {
+          "title": "The Running Man",
+          "type": "Bachman Novel",
+          "displayDate": "December 1981",
+          "url": "https://stephenking.com/works/novel/running-man.html"
+        },
+        {
+          "title": "Secret Window, Secret Garden",
+          "type": "Novella",
+          "displayDate": "September 24th, 1990",
+          "url": "https://stephenking.com/works/novella/secret-window-secret-garden.html"
+        },
+        {
+          "title": "The Shining",
+          "type": "Novel",
+          "displayDate": "January 1977",
+          "url": "https://stephenking.com/works/novel/shining.html"
+        },
+        {
+          "title": "Sleeping Beauties",
+          "type": "Novel",
+          "displayDate": "September 26th, 2017",
+          "url": "https://stephenking.com/works/novel/sleeping-beauties.html"
+        },
+        {
+          "title": "The Stand",
+          "type": "Novel",
+          "displayDate": "October 1978",
+          "url": "https://stephenking.com/works/novel/stand.html"
+        },
+        {
+          "title": "The Stand: The Complete & Uncut Edition",
+          "type": "Novel",
+          "displayDate": "May 1990",
+          "url": "https://stephenking.com/works/novel/stand-the-complete-uncut-edition.html"
+        },
+        {
+          "title": "The Sun Dog",
+          "type": "Novella",
+          "displayDate": "September 24th, 1990",
+          "url": "https://stephenking.com/works/novella/sun-dog.html"
+        },
+        {
+          "title": "The Talisman",
+          "type": "Novel",
+          "displayDate": "November 1984",
+          "url": "https://stephenking.com/works/novel/talisman.html"
+        },
+        {
+          "title": "Thinner",
+          "type": "Bachman Novel",
+          "displayDate": "November 1984",
+          "url": "https://stephenking.com/works/novel/thinner.html"
+        },
+        {
+          "title": "The Tommyknockers",
+          "type": "Novel",
+          "displayDate": "November 1987",
+          "url": "https://stephenking.com/works/novel/tommyknockers.html"
+        },
+        {
+          "title": "UR",
+          "type": "Novella",
+          "displayDate": "February 12th, 2009",
+          "url": "https://stephenking.com/works/novella/ur.html"
+        },
+        {
+          "title": "Under the Dome",
+          "type": "Novel",
+          "displayDate": "November 2009",
+          "url": "https://stephenking.com/works/novel/under-the-dome.html"
+        },
+        {
+          "title": "Why We're in Vietnam",
+          "type": "Novella",
+          "displayDate": "September 14th, 1999",
+          "url": "https://stephenking.com/works/novella/why-we-re-in-vietnam.html"
+        }
+      ]
+    },
+    {
+      "category": "collection",
+      "source": "https://stephenking.com/works/collection/index.html",
+      "records": [
+        {
+          "title": "The Bazaar of Bad Dreams",
+          "type": "Collection",
+          "displayDate": "November 2015",
+          "url": "https://stephenking.com/works/collection/bazaar-of-bad-dreams.html"
+        },
+        {
+          "title": "Different Seasons",
+          "type": "Collection",
+          "displayDate": "August 1982",
+          "url": "https://stephenking.com/works/collection/different-seasons.html"
+        },
+        {
+          "title": "Everything's Eventual",
+          "type": "Collection",
+          "displayDate": "March 2002",
+          "url": "https://stephenking.com/works/collection/everythings-eventual.html"
+        },
+        {
+          "title": "Four Past Midnight",
+          "type": "Collection",
+          "displayDate": "September 1990",
+          "url": "https://stephenking.com/works/collection/four-past-midnight.html"
+        },
+        {
+          "title": "Full Dark, No Stars",
+          "type": "Collection",
+          "displayDate": "November 2010",
+          "url": "https://stephenking.com/works/collection/full-dark-no-stars.html"
+        },
+        {
+          "title": "Hearts in Atlantis",
+          "type": "Collection",
+          "displayDate": "September 1999",
+          "url": "https://stephenking.com/works/collection/hearts-in-atlantis.html"
+        },
+        {
+          "title": "If It Bleeds",
+          "type": "Collection",
+          "displayDate": "April 2020",
+          "url": "https://stephenking.com/works/collection/if-it-bleeds.html"
+        },
+        {
+          "title": "Just After Sunset",
+          "type": "Collection",
+          "displayDate": "November 2008",
+          "url": "https://stephenking.com/works/collection/just-after-sunset.html"
+        },
+        {
+          "title": "Night Shift",
+          "type": "Collection",
+          "displayDate": "February 1978",
+          "url": "https://stephenking.com/works/collection/night-shift.html"
+        },
+        {
+          "title": "Nightmares & Dreamscapes",
+          "type": "Collection",
+          "displayDate": "October 1993",
+          "url": "https://stephenking.com/works/collection/nightmares-dreamscapes.html"
+        },
+        {
+          "title": "Skeleton Crew",
+          "type": "Collection",
+          "displayDate": "June 1985",
+          "url": "https://stephenking.com/works/collection/skeleton-crew.html"
+        },
+        {
+          "title": "Stephen King Goes to the Movies",
+          "type": "Collection",
+          "displayDate": "January 2009",
+          "url": "https://stephenking.com/works/collection/stephen-king-goes-to-the-movies.html"
+        },
+        {
+          "title": "You Like It Darker",
+          "type": "Collection",
+          "displayDate": "May 2024",
+          "url": "https://stephenking.com/works/collection/you-like-it-darker.html"
+        }
+      ]
+    },
+    {
+      "category": "short",
+      "source": "https://stephenking.com/works/short/index.html",
+      "records": [
+        {
+          "title": "1408",
+          "type": "Short Story",
+          "displayDate": "March 2002",
+          "url": "https://stephenking.com/works/short/1408.html"
+        },
+        {
+          "title": "1922",
+          "type": "Short Story",
+          "displayDate": "November 2010",
+          "url": "https://stephenking.com/works/short/1922.html"
+        },
+        {
+          "title": "35 Scary Years with Stephen King",
+          "type": "Interview",
+          "displayDate": "March 2009",
+          "url": "https://stephenking.com/works/interview/35-scary-years-with-stephen-king.html"
+        },
+        {
+          "title": "A Conversation with Stephen King",
+          "type": "Interview",
+          "displayDate": "December 2003",
+          "url": "https://stephenking.com/works/interview/a-conversation-with-stephen-king.html"
+        },
+        {
+          "title": "A Death",
+          "type": "Short Story",
+          "displayDate": "Uncollected",
+          "url": "https://stephenking.com/works/short/a-death.html"
+        },
+        {
+          "title": "A Face in the Crowd",
+          "type": "Short Story",
+          "displayDate": "Uncollected",
+          "url": "https://stephenking.com/works/short/a-face-in-the-crowd.html"
+        },
+        {
+          "title": "A Good Marriage",
+          "type": "Short Story",
+          "displayDate": "November 2010",
+          "url": "https://stephenking.com/works/short/a-good-marriage.html"
+        },
+        {
+          "title": "A New Introduction to John Fowles's The Collector",
+          "type": "Essay",
+          "displayDate": "December 1999",
+          "url": "https://stephenking.com/works/essay/a-new-introduction-to-john-fowless-the-collector.html"
+        },
+        {
+          "title": "A Night at the Royal Festival Hall: Muriel Gray Interviews Stephen King",
+          "type": "Interview",
+          "displayDate": "December 1999",
+          "url": "https://stephenking.com/works/interview/a-night-at-the-royal-festival-hall-muriel-gray-interviews-stephen-king.html"
+        },
+        {
+          "title": "Afterlife",
+          "type": "Short Story",
+          "displayDate": "Uncollected",
+          "url": "https://stephenking.com/works/short/afterlife.html"
+        },
+        {
+          "title": "All That You Love Will Be Carried Away",
+          "type": "Short Story",
+          "displayDate": "March 2002",
+          "url": "https://stephenking.com/works/short/all-that-you-love-will-be-carried-away.html"
+        },
+        {
+          "title": "An Evening at the Billerica (Massachusetts) Library",
+          "type": "Speech",
+          "displayDate": "April 22nd, 1983",
+          "url": "https://stephenking.com/works/speech/an-evening-at-the-billerica-(massachusetts)-library.html"
+        },
+        {
+          "title": "An Evening with Stephen King",
+          "type": "Speech",
+          "displayDate": "March 30th, 1999",
+          "url": "https://stephenking.com/works/speech/an-evening-with-stephen-king.html"
+        },
+        {
+          "title": "The Answer Man",
+          "type": "Short Story",
+          "displayDate": "May 2024",
+          "url": "https://stephenking.com/works/short/answer-man.html"
+        },
+        {
+          "title": "The Art of Fiction No. 189",
+          "type": "Interview",
+          "displayDate": "December 2005",
+          "url": "https://stephenking.com/works/interview/art-of-fiction-no-189.html"
+        },
+        {
+          "title": "Authors@aol series",
+          "type": "Interview",
+          "displayDate": "September 1998",
+          "url": "https://stephenking.com/works/interview/authorsaol-series.html"
+        },
+        {
+          "title": "Autopsy Room Four",
+          "type": "Short Story",
+          "displayDate": "March 2002",
+          "url": "https://stephenking.com/works/short/autopsy-room-four.html"
+        },
+        {
+          "title": "Ayana",
+          "type": "Short Story",
+          "displayDate": "November 2008",
+          "url": "https://stephenking.com/works/short/ayana.html"
+        },
+        {
+          "title": "Bad Little Kid",
+          "type": "Short Story",
+          "displayDate": "November 2015",
+          "url": "https://stephenking.com/works/short/bad-little-kid.html"
+        },
+        {
+          "title": "The Ballad of the Flexible Bullet",
+          "type": "Short Story",
+          "displayDate": "June 1985",
+          "url": "https://stephenking.com/works/short/ballad-of-the-flexible-bullet.html"
+        },
+        {
+          "title": "Banned Books and Other Concerns: The Virginia Beach Lecture",
+          "type": "Speech",
+          "displayDate": "September 22nd, 1986",
+          "url": "https://stephenking.com/works/speech/banned-books-and-other-concerns-the-virginia-beach-lecture.html"
+        },
+        {
+          "title": "Batman and Robin Have An Altercation",
+          "type": "Short Story",
+          "displayDate": "November 2015",
+          "url": "https://stephenking.com/works/short/batman-and-robin-have-an-altercation.html"
+        },
+        {
+          "title": "Battleground",
+          "type": "Short Story",
+          "displayDate": "February 1978",
+          "url": "https://stephenking.com/works/short/battleground.html"
+        },
+        {
+          "title": "Beachworld",
+          "type": "Short Story",
+          "displayDate": "June 1985",
+          "url": "https://stephenking.com/works/short/beachworld.html"
+        },
+        {
+          "title": "Before the Play",
+          "type": "Short Story",
+          "displayDate": "Uncollected",
+          "url": "https://stephenking.com/works/short/before-the-play.html"
+        },
+        {
+          "title": "The Best Book You Can't Read",
+          "type": "Essay",
+          "displayDate": "Uncollected",
+          "url": "https://stephenking.com/works/essay/best-book-you-can-t-read.html"
+        },
+        {
+          "title": "Big Driver",
+          "type": "Short Story",
+          "displayDate": "November 2010",
+          "url": "https://stephenking.com/works/short/big-driver.html"
+        },
+        {
+          "title": "Big Wheels: A Tale of the Laundry Game (Milkman #2)",
+          "type": "Short Story",
+          "displayDate": "June 1985",
+          "url": "https://stephenking.com/works/short/big-wheels-a-tale-of-the-laundry-game-(milkman-2).html"
+        },
+        {
+          "title": "The Blue Air Compressor",
+          "type": "Short Story",
+          "displayDate": "March 2018",
+          "url": "https://stephenking.com/works/short/blue-air-compressor.html"
+        },
+        {
+          "title": "The Bone Church",
+          "type": "Poem",
+          "displayDate": "November 2015",
+          "url": "https://stephenking.com/works/poem/bone-church.html"
+        },
+        {
+          "title": "The Boogeyman",
+          "type": "Short Story",
+          "displayDate": "February 1978",
+          "url": "https://stephenking.com/works/short/boogeyman.html"
+        },
+        {
+          "title": "The Book-Banners: Adventure in Censorship is Stranger Than Fiction",
+          "type": "Essay",
+          "displayDate": "Uncollected",
+          "url": "https://stephenking.com/works/essay/book-banners-adventure-in-censorship-is-stranger-than-fiction.html"
+        },
+        {
+          "title": "Brooklyn August",
+          "type": "Poem",
+          "displayDate": "October 1993",
+          "url": "https://stephenking.com/works/poem/brooklyn-august.html"
+        },
+        {
+          "title": "Cain Rose Up",
+          "type": "Short Story",
+          "displayDate": "June 1985",
+          "url": "https://stephenking.com/works/short/cain-rose-up.html"
+        },
+        {
+          "title": "The Cat from Hell",
+          "type": "Short Story",
+          "displayDate": "November 2008",
+          "url": "https://stephenking.com/works/short/cat-from-hell.html"
+        },
+        {
+          "title": "Chattery Teeth",
+          "type": "Short Story",
+          "displayDate": "October 1993",
+          "url": "https://stephenking.com/works/short/chattery-teeth.html"
+        },
+        {
+          "title": "Children of the Corn",
+          "type": "Short Story",
+          "displayDate": "February 1978",
+          "url": "https://stephenking.com/works/short/children-of-the-corn.html"
+        },
+        {
+          "title": "Cookie Jar",
+          "type": "Short Story",
+          "displayDate": "Uncollected",
+          "url": "https://stephenking.com/works/short/cookie-jar.html"
+        },
+        {
+          "title": "The Crate",
+          "type": "Short Story",
+          "displayDate": "December 1980",
+          "url": "https://stephenking.com/works/short/crate.html"
+        },
+        {
+          "title": "Crouch End",
+          "type": "Short Story",
+          "displayDate": "October 1993",
+          "url": "https://stephenking.com/works/short/crouch-end.html"
+        },
+        {
+          "title": "Danny Coughlin's Bad Dream",
+          "type": "Short Story",
+          "displayDate": "May 2024",
+          "url": "https://stephenking.com/works/short/danny-coughlins-bad-dream.html"
+        },
+        {
+          "title": "The Dark Man",
+          "type": "Poem",
+          "displayDate": "April 2004",
+          "url": "https://stephenking.com/works/poem/dark-man.html"
+        },
+        {
+          "title": "The Death of Jack Hamilton",
+          "type": "Short Story",
+          "displayDate": "March 2002",
+          "url": "https://stephenking.com/works/short/death-of-jack-hamilton.html"
+        },
+        {
+          "title": "Dedication",
+          "type": "Short Story",
+          "displayDate": "October 1993",
+          "url": "https://stephenking.com/works/short/dedication.html"
+        },
+        {
+          "title": "Dinah's Hat",
+          "type": "Short Story",
+          "displayDate": "Uncollected",
+          "url": "https://stephenking.com/works/short/dinahs-hat.html"
+        },
+        {
+          "title": "The Doctor's Case",
+          "type": "Short Story",
+          "displayDate": "October 1993",
+          "url": "https://stephenking.com/works/short/doctors-case.html"
+        },
+        {
+          "title": "Dolan's Cadillac",
+          "type": "Short Story",
+          "displayDate": "October 1993",
+          "url": "https://stephenking.com/works/short/dolans-cadillac.html"
+        },
+        {
+          "title": "Donovan's Brain",
+          "type": "Poem",
+          "displayDate": "April 2004",
+          "url": "https://stephenking.com/works/poem/donovans-brain.html"
+        },
+        {
+          "title": "The Dreamers",
+          "type": "Short Story",
+          "displayDate": "May 2024",
+          "url": "https://stephenking.com/works/short/dreamers.html"
+        },
+        {
+          "title": "Drunken Fireworks",
+          "type": "Short Story",
+          "displayDate": "November 2015",
+          "url": "https://stephenking.com/works/short/drunken-fireworks.html"
+        },
+        {
+          "title": "The Dune",
+          "type": "Short Story",
+          "displayDate": "November 2015",
+          "url": "https://stephenking.com/works/short/dune.html"
+        },
+        {
+          "title": "The End of the Whole Mess",
+          "type": "Short Story",
+          "displayDate": "October 1993",
+          "url": "https://stephenking.com/works/short/end-of-the-whole-mess.html"
+        },
+        {
+          "title": "Ever Et Raw Meat? and Other Weird Questions",
+          "type": "Essay",
+          "displayDate": "December 1999",
+          "url": "https://stephenking.com/works/essay/ever-et-raw-meat-and-other-weird-questions.html"
+        },
+        {
+          "title": "Everything's Eventual",
+          "type": "Short Story",
+          "displayDate": "March 2002",
+          "url": "https://stephenking.com/works/short/everythings-eventual.html"
+        },
+        {
+          "title": "The Extra Hour",
+          "type": "Short Story",
+          "displayDate": "Uncollected",
+          "url": "https://stephenking.com/works/short/extra-hour.html"
+        },
+        {
+          "title": "Faces of Fear",
+          "type": "Interview",
+          "displayDate": "December 1989",
+          "url": "https://stephenking.com/works/interview/faces-of-fear.html"
+        },
+        {
+          "title": "Fair Extension",
+          "type": "Short Story",
+          "displayDate": "November 2010",
+          "url": "https://stephenking.com/works/short/fair-extension.html"
+        },
+        {
+          "title": "Father's Day",
+          "type": "Short Story",
+          "displayDate": "Uncollected",
+          "url": "https://stephenking.com/works/short/fathers-day.html"
+        },
+        {
+          "title": "Fenway and the Great White Whale",
+          "type": "Essay",
+          "displayDate": "Uncollected",
+          "url": "https://stephenking.com/works/essay/fenway-and-the-great-white-whale.html"
+        },
+        {
+          "title": "The Fifth Quarter",
+          "type": "Short Story",
+          "displayDate": "October 1993",
+          "url": "https://stephenking.com/works/short/fifth-quarter.html"
+        },
+        {
+          "title": "The Fifth Step",
+          "type": "Short Story",
+          "displayDate": "Uncollected",
+          "url": "https://stephenking.com/works/short/fifth-step.html"
+        },
+        {
+          "title": "Finn",
+          "type": "Short Story",
+          "displayDate": "Uncollected",
+          "url": "https://stephenking.com/works/short/finn.html"
+        },
+        {
+          "title": "Five to One, One in Five",
+          "type": "Essay",
+          "displayDate": "November 2016",
+          "url": "https://stephenking.com/works/essay/five-to-one-one-in-five.html"
+        },
+        {
+          "title": "For Owen",
+          "type": "Poem",
+          "displayDate": "June 1985",
+          "url": "https://stephenking.com/works/poem/for-owen.html"
+        },
+        {
+          "title": "Foreword to Night Shift",
+          "type": "Essay",
+          "displayDate": "December 1999",
+          "url": "https://stephenking.com/works/essay/foreword-to-night-shift.html"
+        },
+        {
+          "title": "The Genius of \"The Tell-Tale Heart\"",
+          "type": "Essay",
+          "displayDate": "December 2008",
+          "url": "https://stephenking.com/works/essay/genius-of-the-tell-tale-heart.html"
+        },
+        {
+          "title": "The Gingerbread Girl",
+          "type": "Short Story",
+          "displayDate": "November 2008",
+          "url": "https://stephenking.com/works/short/gingerbread-girl.html"
+        },
+        {
+          "title": "The Glass Floor",
+          "type": "Short Story",
+          "displayDate": "Uncollected",
+          "url": "https://stephenking.com/works/short/glass-floor.html"
+        },
+        {
+          "title": "Graduation Afternoon",
+          "type": "Short Story",
+          "displayDate": "November 2008",
+          "url": "https://stephenking.com/works/short/graduation-afternoon.html"
+        },
+        {
+          "title": "Gramma",
+          "type": "Short Story",
+          "displayDate": "June 1985",
+          "url": "https://stephenking.com/works/short/gramma.html"
+        },
+        {
+          "title": "Graveyard Shift",
+          "type": "Short Story",
+          "displayDate": "February 1978",
+          "url": "https://stephenking.com/works/short/graveyard-shift.html"
+        },
+        {
+          "title": "Great Hookers I Have Known",
+          "type": "Essay",
+          "displayDate": "December 1999",
+          "url": "https://stephenking.com/works/essay/great-hookers-i-have-known.html"
+        },
+        {
+          "title": "Grey Matter",
+          "type": "Short Story",
+          "displayDate": "February 1978",
+          "url": "https://stephenking.com/works/short/grey-matter.html"
+        },
+        {
+          "title": "The Hardcase Speaks",
+          "type": "Poem",
+          "displayDate": "April 2004",
+          "url": "https://stephenking.com/works/poem/hardcase-speaks.html"
+        },
+        {
+          "title": "Harrison State Park '68",
+          "type": "Poem",
+          "displayDate": "April 2004",
+          "url": "https://stephenking.com/works/poem/harrison-state-park-68.html"
+        },
+        {
+          "title": "Harvey's Dream",
+          "type": "Short Story",
+          "displayDate": "November 2008",
+          "url": "https://stephenking.com/works/short/harveys-dream.html"
+        },
+        {
+          "title": "Head Down",
+          "type": "Essay",
+          "displayDate": "October 1993",
+          "url": "https://stephenking.com/works/essay/head-down.html"
+        },
+        {
+          "title": "Here There Be Tygers",
+          "type": "Short Story",
+          "displayDate": "June 1985",
+          "url": "https://stephenking.com/works/short/here-there-be-tygers.html"
+        },
+        {
+          "title": "Herman Wouk is Still Alive",
+          "type": "Short Story",
+          "displayDate": "November 2015",
+          "url": "https://stephenking.com/works/short/herman-wouk-is-still-alive.html"
+        },
+        {
+          "title": "Home Delivery",
+          "type": "Short Story",
+          "displayDate": "October 1993",
+          "url": "https://stephenking.com/works/short/home-delivery.html"
+        },
+        {
+          "title": "Horror Fiction: from Danse Macabre",
+          "type": "Essay",
+          "displayDate": "December 1999",
+          "url": "https://stephenking.com/works/essay/horror-fiction-from-danse-macabre.html"
+        },
+        {
+          "title": "The Horror Market Writer and the Ten Bears: A True Story",
+          "type": "Essay",
+          "displayDate": "December 1999",
+          "url": "https://stephenking.com/works/essay/horror-market-writer-and-the-ten-bears-a-true-story.html"
+        },
+        {
+          "title": "The House on Maple Street",
+          "type": "Short Story",
+          "displayDate": "October 1993",
+          "url": "https://stephenking.com/works/short/house-on-maple-street.html"
+        },
+        {
+          "title": "How IT Happened",
+          "type": "Essay",
+          "displayDate": "December 1999",
+          "url": "https://stephenking.com/works/essay/how-it-happened.html"
+        },
+        {
+          "title": "I Am the Doorway",
+          "type": "Short Story",
+          "displayDate": "February 1978",
+          "url": "https://stephenking.com/works/short/i-am-the-doorway.html"
+        },
+        {
+          "title": "I Know What You Need",
+          "type": "Short Story",
+          "displayDate": "February 1978",
+          "url": "https://stephenking.com/works/short/i-know-what-you-need.html"
+        },
+        {
+          "title": "In the Deathroom",
+          "type": "Short Story",
+          "displayDate": "March 2002",
+          "url": "https://stephenking.com/works/short/in-the-deathroom.html"
+        },
+        {
+          "title": "In the Key-Chords of Dawn",
+          "type": "Poem",
+          "displayDate": "April 2004",
+          "url": "https://stephenking.com/works/poem/in-the-key-chords-of-dawn.html"
+        },
+        {
+          "title": "In the Tall Grass",
+          "type": "Short Story",
+          "displayDate": "Uncollected",
+          "url": "https://stephenking.com/works/short/in-the-tall-grass.html"
+        },
+        {
+          "title": "Introduction to Jack Ketchum's The Girl Next Door",
+          "type": "Essay",
+          "displayDate": "December 1999",
+          "url": "https://stephenking.com/works/essay/introduction-to-jack-ketchums-the-girl-next-door.html"
+        },
+        {
+          "title": "It Grows on You",
+          "type": "Short Story",
+          "displayDate": "October 1993",
+          "url": "https://stephenking.com/works/short/it-grows-on-you.html"
+        },
+        {
+          "title": "The Jaunt",
+          "type": "Short Story",
+          "displayDate": "June 1985",
+          "url": "https://stephenking.com/works/short/jaunt.html"
+        },
+        {
+          "title": "Jerusalem's Lot",
+          "type": "Short Story",
+          "displayDate": "February 1978",
+          "url": "https://stephenking.com/works/short/jerusalems-lot.html"
+        },
+        {
+          "title": "Jumper",
+          "type": "Short Story",
+          "displayDate": "Uncollected",
+          "url": "https://stephenking.com/works/short/jumper.html"
+        },
+        {
+          "title": "Just A Little Talent",
+          "type": "Essay",
+          "displayDate": "June 2013",
+          "url": "https://stephenking.com/works/essay/just-a-little-talent.html"
+        },
+        {
+          "title": "King Pen",
+          "type": "Interview",
+          "displayDate": "October 2005",
+          "url": "https://stephenking.com/works/interview/king-pen.html"
+        },
+        {
+          "title": "L.T.'s Theory of Pets",
+          "type": "Short Story",
+          "displayDate": "March 2002",
+          "url": "https://stephenking.com/works/short/lts-theory-of-pets.html"
+        },
+        {
+          "title": "The Last Rung on the Ladder",
+          "type": "Short Story",
+          "displayDate": "February 1978",
+          "url": "https://stephenking.com/works/short/last-rung-on-the-ladder.html"
+        },
+        {
+          "title": "Laurie",
+          "type": "Short Story",
+          "displayDate": "May 2024",
+          "url": "https://stephenking.com/works/short/laurie.html"
+        },
+        {
+          "title": "The Lawnmower Man",
+          "type": "Short Story",
+          "displayDate": "February 1978",
+          "url": "https://stephenking.com/works/short/lawnmower-man.html"
+        },
+        {
+          "title": "The Ledge",
+          "type": "Short Story",
+          "displayDate": "February 1978",
+          "url": "https://stephenking.com/works/short/ledge.html"
+        },
+        {
+          "title": "Little Green God of Agony",
+          "type": "Short Story",
+          "displayDate": "November 2015",
+          "url": "https://stephenking.com/works/short/little-green-god-of-agony.html"
+        },
+        {
+          "title": "The Little Sisters of Eluria",
+          "type": "Short Story",
+          "displayDate": "March 2002",
+          "url": "https://stephenking.com/works/short/little-sisters-of-eluria.html"
+        },
+        {
+          "title": "The Lonesome Death of Jordy Verrill",
+          "type": "Short Story",
+          "displayDate": "Uncollected",
+          "url": "https://stephenking.com/works/short/lonesome-death-of-jordy-verrill.html"
+        },
+        {
+          "title": "Luckey Quarter",
+          "type": "Short Story",
+          "displayDate": "March 2002",
+          "url": "https://stephenking.com/works/short/luckey-quarter.html"
+        },
+        {
+          "title": "Lunch at the Gotham Cafe",
+          "type": "Short Story",
+          "displayDate": "March 2002",
+          "url": "https://stephenking.com/works/short/lunch-at-the-gotham-cafe.html"
+        },
+        {
+          "title": "The Man Who Loved Flowers",
+          "type": "Short Story",
+          "displayDate": "February 1978",
+          "url": "https://stephenking.com/works/short/man-who-loved-flowers.html"
+        },
+        {
+          "title": "The Man Who Would Not Shake Hands",
+          "type": "Short Story",
+          "displayDate": "June 1985",
+          "url": "https://stephenking.com/works/short/man-who-would-not-shake-hands.html"
+        },
+        {
+          "title": "Man With a Belly",
+          "type": "Short Story",
+          "displayDate": "Uncollected",
+          "url": "https://stephenking.com/works/short/man-with-a-belly.html"
+        },
+        {
+          "title": "The Man in the Black Suit",
+          "type": "Short Story",
+          "displayDate": "March 2002",
+          "url": "https://stephenking.com/works/short/man-in-the-black-suit.html"
+        },
+        {
+          "title": "The Mangler",
+          "type": "Short Story",
+          "displayDate": "February 1978",
+          "url": "https://stephenking.com/works/short/mangler.html"
+        },
+        {
+          "title": "Memory",
+          "type": "Short Story",
+          "displayDate": "Uncollected",
+          "url": "https://stephenking.com/works/short/memory.html"
+        },
+        {
+          "title": "Mile 81",
+          "type": "Short Story",
+          "displayDate": "November 2015",
+          "url": "https://stephenking.com/works/short/mile-81.html"
+        },
+        {
+          "title": "Mister Yummy",
+          "type": "Short Story",
+          "displayDate": "November 2015",
+          "url": "https://stephenking.com/works/short/mister-yummy.html"
+        },
+        {
+          "title": "The Monkey",
+          "type": "Short Story",
+          "displayDate": "June 1985",
+          "url": "https://stephenking.com/works/short/monkey.html"
+        },
+        {
+          "title": "Morality",
+          "type": "Short Story",
+          "displayDate": "November 2015",
+          "url": "https://stephenking.com/works/short/morality.html"
+        },
+        {
+          "title": "Morning Deliveries (Milkman #1)",
+          "type": "Short Story",
+          "displayDate": "June 1985",
+          "url": "https://stephenking.com/works/short/morning-deliveries-(milkman-1).html"
+        },
+        {
+          "title": "Most Overrated Rock Band",
+          "type": "Essay",
+          "displayDate": "Uncollected",
+          "url": "https://stephenking.com/works/essay/most-overrated-rock-band.html"
+        },
+        {
+          "title": "Mostly Old Men",
+          "type": "Poem",
+          "displayDate": "Uncollected",
+          "url": "https://stephenking.com/works/poem/mostly-old-men.html"
+        },
+        {
+          "title": "The Moving Finger",
+          "type": "Short Story",
+          "displayDate": "October 1993",
+          "url": "https://stephenking.com/works/short/moving-finger.html"
+        },
+        {
+          "title": "Mrs. Todd's Shortcut",
+          "type": "Short Story",
+          "displayDate": "June 1985",
+          "url": "https://stephenking.com/works/short/mrs-todds-shortcut.html"
+        },
+        {
+          "title": "The Music Room",
+          "type": "Short Story",
+          "displayDate": "December 2016",
+          "url": "https://stephenking.com/works/short/music-room.html"
+        },
+        {
+          "title": "Mute",
+          "type": "Short Story",
+          "displayDate": "November 2008",
+          "url": "https://stephenking.com/works/short/mute.html"
+        },
+        {
+          "title": "My Pretty Pony",
+          "type": "Short Story",
+          "displayDate": "October 1993",
+          "url": "https://stephenking.com/works/short/my-pretty-pony.html"
+        },
+        {
+          "title": "N.",
+          "type": "Short Story",
+          "displayDate": "November 2008",
+          "url": "https://stephenking.com/works/short/n.html"
+        },
+        {
+          "title": "The New York Times at Special Bargain Rates",
+          "type": "Short Story",
+          "displayDate": "November 2008",
+          "url": "https://stephenking.com/works/short/new-york-times-at-special-bargain-rates.html"
+        },
+        {
+          "title": "The Night Flier",
+          "type": "Short Story",
+          "displayDate": "October 1993",
+          "url": "https://stephenking.com/works/short/night-flier.html"
+        },
+        {
+          "title": "Night Surf",
+          "type": "Short Story",
+          "displayDate": "February 1978",
+          "url": "https://stephenking.com/works/short/night-surf.html"
+        },
+        {
+          "title": "The Night of the Tiger",
+          "type": "Short Story",
+          "displayDate": "December 1978",
+          "url": "https://stephenking.com/works/short/night-of-the-tiger.html"
+        },
+        {
+          "title": "Nona",
+          "type": "Short Story",
+          "displayDate": "June 1985",
+          "url": "https://stephenking.com/works/short/nona.html"
+        },
+        {
+          "title": "Obits",
+          "type": "Short Story",
+          "displayDate": "November 2015",
+          "url": "https://stephenking.com/works/short/obits.html"
+        },
+        {
+          "title": "The Old Dude's Ticker",
+          "type": "Short Story",
+          "displayDate": "Uncollected",
+          "url": "https://stephenking.com/works/short/old-dudes-ticker.html"
+        },
+        {
+          "title": "On Becoming a Brand Name",
+          "type": "Essay",
+          "displayDate": "June 1984",
+          "url": "https://stephenking.com/works/essay/on-becoming-a-brand-name.html"
+        },
+        {
+          "title": "On Slide Inn Road",
+          "type": "Short Story",
+          "displayDate": "Uncollected",
+          "url": "https://stephenking.com/works/short/on-slide-inn-road.html"
+        },
+        {
+          "title": "On The Shining and Other Perpetrations",
+          "type": "Essay",
+          "displayDate": "Uncollected",
+          "url": "https://stephenking.com/works/essay/on-the-shining-and-other-perpetrations.html"
+        },
+        {
+          "title": "One for the Road",
+          "type": "Short Story",
+          "displayDate": "February 1978",
+          "url": "https://stephenking.com/works/short/one-for-the-road.html"
+        },
+        {
+          "title": "Paranoid: A Chant",
+          "type": "Poem",
+          "displayDate": "June 1985",
+          "url": "https://stephenking.com/works/poem/paranoid-a-chant.html"
+        },
+        {
+          "title": "Peter Straub: An Informal Appreciation",
+          "type": "Essay",
+          "displayDate": "Uncollected",
+          "url": "https://stephenking.com/works/essay/peter-straub-an-informal-appreciation.html"
+        },
+        {
+          "title": "Popsy",
+          "type": "Short Story",
+          "displayDate": "October 1993",
+          "url": "https://stephenking.com/works/short/popsy.html"
+        },
+        {
+          "title": "Premium Harmony",
+          "type": "Short Story",
+          "displayDate": "November 2015",
+          "url": "https://stephenking.com/works/short/premium-harmony.html"
+        },
+        {
+          "title": "Prime Mover: Stephen and Tabitha King",
+          "type": "Interview",
+          "displayDate": "October 2015",
+          "url": "https://stephenking.com/works/interview/prime-mover-stephen-and-tabitha-king.html"
+        },
+        {
+          "title": "Quitters Inc.",
+          "type": "Short Story",
+          "displayDate": "February 1978",
+          "url": "https://stephenking.com/works/short/quitters-inc.html"
+        },
+        {
+          "title": "The Raft",
+          "type": "Short Story",
+          "displayDate": "June 1985",
+          "url": "https://stephenking.com/works/short/raft.html"
+        },
+        {
+          "title": "Rainy Season",
+          "type": "Short Story",
+          "displayDate": "October 1993",
+          "url": "https://stephenking.com/works/short/rainy-season.html"
+        },
+        {
+          "title": "Rattlesnakes",
+          "type": "Short Story",
+          "displayDate": "May 2024",
+          "url": "https://stephenking.com/works/short/rattlesnakes.html"
+        },
+        {
+          "title": "The Reach",
+          "type": "Short Story",
+          "displayDate": "June 1985",
+          "url": "https://stephenking.com/works/short/reach.html"
+        },
+        {
+          "title": "The Reaper's Image",
+          "type": "Short Story",
+          "displayDate": "June 1985",
+          "url": "https://stephenking.com/works/short/reapers-image.html"
+        },
+        {
+          "title": "Red Screen",
+          "type": "Short Story",
+          "displayDate": "Uncollected",
+          "url": "https://stephenking.com/works/short/red-screen.html"
+        },
+        {
+          "title": "The Reploids",
+          "type": "Short Story",
+          "displayDate": "December 1987",
+          "url": "https://stephenking.com/works/short/reploids.html"
+        },
+        {
+          "title": "Rest Stop",
+          "type": "Short Story",
+          "displayDate": "November 2008",
+          "url": "https://stephenking.com/works/short/rest-stop.html"
+        },
+        {
+          "title": "The Revelations of 'Becka Paulson",
+          "type": "Short Story",
+          "displayDate": "December 1990",
+          "url": "https://stephenking.com/works/short/revelations-of-becka-paulson.html"
+        },
+        {
+          "title": "Riding the Bullet",
+          "type": "Short Story",
+          "displayDate": "March 2002",
+          "url": "https://stephenking.com/works/short/riding-the-bullet.html"
+        },
+        {
+          "title": "The Ring",
+          "type": "Essay",
+          "displayDate": "Uncollected",
+          "url": "https://stephenking.com/works/essay/ring.html"
+        },
+        {
+          "title": "The Road Virus Heads North",
+          "type": "Short Story",
+          "displayDate": "March 2002",
+          "url": "https://stephenking.com/works/short/road-virus-heads-north.html"
+        },
+        {
+          "title": "Rush Call",
+          "type": "Short Story",
+          "displayDate": "December 1999",
+          "url": "https://stephenking.com/works/short/rush-call.html"
+        },
+        {
+          "title": "SCREEM #22",
+          "type": "Interview",
+          "displayDate": "April 2011",
+          "url": "https://stephenking.com/works/interview/screem-22.html"
+        },
+        {
+          "title": "Silence",
+          "type": "Poem",
+          "displayDate": "April 2004",
+          "url": "https://stephenking.com/works/poem/silence.html"
+        },
+        {
+          "title": "Sneakers",
+          "type": "Short Story",
+          "displayDate": "October 1993",
+          "url": "https://stephenking.com/works/short/sneakers.html"
+        },
+        {
+          "title": "Something to Tide You Over",
+          "type": "Short Story",
+          "displayDate": "Uncollected",
+          "url": "https://stephenking.com/works/short/something-to-tide-you-over.html"
+        },
+        {
+          "title": "Sometimes They Come Back",
+          "type": "Short Story",
+          "displayDate": "February 1978",
+          "url": "https://stephenking.com/works/short/sometimes-they-come-back.html"
+        },
+        {
+          "title": "Special Makeup Effects and the Writer",
+          "type": "Essay",
+          "displayDate": "Uncollected",
+          "url": "https://stephenking.com/works/essay/special-makeup-effects-and-the-writer.html"
+        },
+        {
+          "title": "Stationary Bike",
+          "type": "Short Story",
+          "displayDate": "November 2008",
+          "url": "https://stephenking.com/works/short/stationary-bike.html"
+        },
+        {
+          "title": "Stephen King Q&A",
+          "type": "Interview",
+          "displayDate": "December 2001",
+          "url": "https://stephenking.com/works/interview/stephen-king-qa.html"
+        },
+        {
+          "title": "Strawberry Spring",
+          "type": "Short Story",
+          "displayDate": "February 1978",
+          "url": "https://stephenking.com/works/short/strawberry-spring.html"
+        },
+        {
+          "title": "Suffer the Little Children",
+          "type": "Short Story",
+          "displayDate": "October 1993",
+          "url": "https://stephenking.com/works/short/suffer-the-little-children.html"
+        },
+        {
+          "title": "Summer Thunder",
+          "type": "Short Story",
+          "displayDate": "November 2015",
+          "url": "https://stephenking.com/works/short/summer-thunder.html"
+        },
+        {
+          "title": "Survivor Type",
+          "type": "Short Story",
+          "displayDate": "June 1985",
+          "url": "https://stephenking.com/works/short/survivor-type.html"
+        },
+        {
+          "title": "The Tale of Gray Dick",
+          "type": "Short Story",
+          "displayDate": "March 2003",
+          "url": "https://stephenking.com/works/short/tale-of-gray-dick.html"
+        },
+        {
+          "title": "The Ten O'Clock People",
+          "type": "Short Story",
+          "displayDate": "October 1993",
+          "url": "https://stephenking.com/works/short/ten-o-clock-people.html"
+        },
+        {
+          "title": "That Bus Is Another World",
+          "type": "Short Story",
+          "displayDate": "Uncollected",
+          "url": "https://stephenking.com/works/short/that-bus-is-another-world.html"
+        },
+        {
+          "title": "That Feeling, You Can Only Say What It Is in French",
+          "type": "Short Story",
+          "displayDate": "March 2002",
+          "url": "https://stephenking.com/works/short/that-feeling-you-can-only-say-what-it-is-in-french.html"
+        },
+        {
+          "title": "They're Creeping Up on You",
+          "type": "Short Story",
+          "displayDate": "Uncollected",
+          "url": "https://stephenking.com/works/short/they-re-creeping-up-on-you.html"
+        },
+        {
+          "title": "Thin Scenery",
+          "type": "Short Story",
+          "displayDate": "Uncollected",
+          "url": "https://stephenking.com/works/short/thin-scenery.html"
+        },
+        {
+          "title": "The Things They Left Behind",
+          "type": "Short Story",
+          "displayDate": "November 2008",
+          "url": "https://stephenking.com/works/short/things-they-left-behind.html"
+        },
+        {
+          "title": "Throttle",
+          "type": "Short Story",
+          "displayDate": "March 2009",
+          "url": "https://stephenking.com/works/short/throttle.html"
+        },
+        {
+          "title": "Tommy",
+          "type": "Poem",
+          "displayDate": "November 2015",
+          "url": "https://stephenking.com/works/poem/tommy.html"
+        },
+        {
+          "title": "Trucks",
+          "type": "Short Story",
+          "displayDate": "February 1978",
+          "url": "https://stephenking.com/works/short/trucks.html"
+        },
+        {
+          "title": "The Turbulence Expert",
+          "type": "Short Story",
+          "displayDate": "May 2024",
+          "url": "https://stephenking.com/works/short/turbulence-expert.html"
+        },
+        {
+          "title": "Turning the Thumbscrews on the Reader",
+          "type": "Essay",
+          "displayDate": "December 1999",
+          "url": "https://stephenking.com/works/essay/turning-the-thumbscrews-on-the-reader.html"
+        },
+        {
+          "title": "Two Past Midnight: A Note on Secret Window, Secret Garden",
+          "type": "Essay",
+          "displayDate": "December 1999",
+          "url": "https://stephenking.com/works/essay/two-past-midnight-a-note-on-secret-window-secret-garden.html"
+        },
+        {
+          "title": "Two Talented Bastids",
+          "type": "Short Story",
+          "displayDate": "May 2024",
+          "url": "https://stephenking.com/works/short/two-talented-bastids.html"
+        },
+        {
+          "title": "Umney's Last Case",
+          "type": "Short Story",
+          "displayDate": "October 1993",
+          "url": "https://stephenking.com/works/short/umneys-last-case.html"
+        },
+        {
+          "title": "Uncle Otto's Truck",
+          "type": "Short Story",
+          "displayDate": "June 1985",
+          "url": "https://stephenking.com/works/short/uncle-ottos-truck.html"
+        },
+        {
+          "title": "Under the Weather",
+          "type": "Short Story",
+          "displayDate": "November 2015",
+          "url": "https://stephenking.com/works/short/under-the-weather.html"
+        },
+        {
+          "title": "Vermont Library Conference/VEMA Annual Meeting: The Bogeyboys",
+          "type": "Speech",
+          "displayDate": "May 26th, 1999",
+          "url": "https://stephenking.com/works/speech/vermont-library-conference-vema-annual-meeting-the-bogeyboys.html"
+        },
+        {
+          "title": "The Weapon",
+          "type": "Essay",
+          "displayDate": "Uncollected",
+          "url": "https://stephenking.com/works/essay/weapon.html"
+        },
+        {
+          "title": "The Wedding Gig",
+          "type": "Short Story",
+          "displayDate": "June 1985",
+          "url": "https://stephenking.com/works/short/wedding-gig.html"
+        },
+        {
+          "title": "Weeds",
+          "type": "Short Story",
+          "displayDate": "December 2014",
+          "url": "https://stephenking.com/works/short/weeds.html"
+        },
+        {
+          "title": "What Stephen King Does for Love",
+          "type": "Essay",
+          "displayDate": "December 1999",
+          "url": "https://stephenking.com/works/essay/what-stephen-king-does-for-love.html"
+        },
+        {
+          "title": "What's Scary",
+          "type": "Essay",
+          "displayDate": "Uncollected",
+          "url": "https://stephenking.com/works/essay/whats-scary.html"
+        },
+        {
+          "title": "Willa",
+          "type": "Short Story",
+          "displayDate": "November 2008",
+          "url": "https://stephenking.com/works/short/willa.html"
+        },
+        {
+          "title": "Willie the Weirdo",
+          "type": "Short Story",
+          "displayDate": "Uncollected",
+          "url": "https://stephenking.com/works/short/willie-the-weirdo.html"
+        },
+        {
+          "title": "The Woman in the Room",
+          "type": "Short Story",
+          "displayDate": "February 1978",
+          "url": "https://stephenking.com/works/short/woman-in-the-room.html"
+        },
+        {
+          "title": "Word Processor of the Gods",
+          "type": "Short Story",
+          "displayDate": "June 1985",
+          "url": "https://stephenking.com/works/short/word-processor-of-the-gods.html"
+        },
+        {
+          "title": "You Know They Got a Hell of a Band",
+          "type": "Short Story",
+          "displayDate": "October 1993",
+          "url": "https://stephenking.com/works/short/you-know-they-got-a-hell-of-a-band.html"
+        }
+      ]
+    },
+    {
+      "category": "movie",
+      "source": "https://stephenking.com/works/movie/index.html",
+      "records": [
+        {
+          "title": "A Good Marriage",
+          "type": "Movie",
+          "displayDate": "October 03rd, 2014",
+          "url": "https://stephenking.com/works/movie/a-good-marriage.html"
+        },
+        {
+          "title": "Apt Pupil",
+          "type": "Movie",
+          "displayDate": "October 23rd, 1998",
+          "url": "https://stephenking.com/works/movie/apt-pupil.html"
+        },
+        {
+          "title": "The Boogeyman",
+          "type": "Movie",
+          "displayDate": "June 02nd, 2023",
+          "url": "https://stephenking.com/works/movie/boogeyman.html"
+        },
+        {
+          "title": "Carrie",
+          "type": "Movie",
+          "displayDate": "November 03rd, 1976",
+          "url": "https://stephenking.com/works/movie/carrie.html"
+        },
+        {
+          "title": "Cat's Eye",
+          "type": "Movie",
+          "displayDate": "April 12th, 1985",
+          "url": "https://stephenking.com/works/movie/cats-eye.html"
+        },
+        {
+          "title": "Cell",
+          "type": "Movie",
+          "displayDate": "July 08th, 2016",
+          "url": "https://stephenking.com/works/movie/cell.html"
+        },
+        {
+          "title": "Children of the Corn",
+          "type": "Movie",
+          "displayDate": "March 09th, 1984",
+          "url": "https://stephenking.com/works/movie/children-of-the-corn.html"
+        },
+        {
+          "title": "Christine",
+          "type": "Movie",
+          "displayDate": "December 09th, 1983",
+          "url": "https://stephenking.com/works/movie/christine.html"
+        },
+        {
+          "title": "Creepshow",
+          "type": "Movie",
+          "displayDate": "November 10th, 1982",
+          "url": "https://stephenking.com/works/movie/creepshow.html"
+        },
+        {
+          "title": "Creepshow 2",
+          "type": "Movie",
+          "displayDate": "May 01st, 1987",
+          "url": "https://stephenking.com/works/movie/creepshow-2.html"
+        },
+        {
+          "title": "Cujo",
+          "type": "Movie",
+          "displayDate": "August 12th, 1983",
+          "url": "https://stephenking.com/works/movie/cujo.html"
+        },
+        {
+          "title": "The Dark Half",
+          "type": "Movie",
+          "displayDate": "April 23rd, 1993",
+          "url": "https://stephenking.com/works/movie/dark-half.html"
+        },
+        {
+          "title": "The Dark Tower",
+          "type": "Movie",
+          "displayDate": "August 04th, 2017",
+          "url": "https://stephenking.com/works/movie/dark-tower.html"
+        },
+        {
+          "title": "The Dead Zone",
+          "type": "Movie",
+          "displayDate": "October 21st, 1983",
+          "url": "https://stephenking.com/works/movie/dead-zone.html"
+        },
+        {
+          "title": "Doctor Sleep",
+          "type": "Movie",
+          "displayDate": "November 08th, 2019",
+          "url": "https://stephenking.com/works/movie/doctor-sleep.html"
+        },
+        {
+          "title": "Dolan's Cadillac",
+          "type": "Movie",
+          "displayDate": "July 01st, 2009",
+          "url": "https://stephenking.com/works/movie/dolans-cadillac.html"
+        },
+        {
+          "title": "Dolores Claiborne",
+          "type": "Movie",
+          "displayDate": "March 24th, 1995",
+          "url": "https://stephenking.com/works/movie/dolores-claiborne.html"
+        },
+        {
+          "title": "Dreamcatcher",
+          "type": "Movie",
+          "displayDate": "March 06th, 2003",
+          "url": "https://stephenking.com/works/movie/dreamcatcher.html"
+        },
+        {
+          "title": "Firestarter",
+          "type": "Movie",
+          "displayDate": "May 13th, 2022",
+          "url": "https://stephenking.com/works/movie/firestarter.html"
+        },
+        {
+          "title": "Gerald's Game",
+          "type": "Movie",
+          "displayDate": "September 29th, 2017",
+          "url": "https://stephenking.com/works/movie/geralds-game.html"
+        },
+        {
+          "title": "The Girl Who Loved Tom Gordon",
+          "type": "Movie",
+          "displayDate": "TBD",
+          "url": "https://stephenking.com/works/movie/girl-who-loved-tom-gordon.html"
+        },
+        {
+          "title": "Graveyard Shift",
+          "type": "Movie",
+          "displayDate": "October 26th, 1990",
+          "url": "https://stephenking.com/works/movie/graveyard-shift.html"
+        },
+        {
+          "title": "The Green Mile",
+          "type": "Movie",
+          "displayDate": "December 06th, 1999",
+          "url": "https://stephenking.com/works/movie/green-mile.html"
+        },
+        {
+          "title": "Hearts",
+          "type": "Movie",
+          "displayDate": "TBD",
+          "url": "https://stephenking.com/works/movie/hearts.html"
+        },
+        {
+          "title": "Hearts in Atlantis",
+          "type": "Movie",
+          "displayDate": "September 28th, 2001",
+          "url": "https://stephenking.com/works/movie/hearts-in-atlantis.html"
+        },
+        {
+          "title": "In the Tall Grass",
+          "type": "Movie",
+          "displayDate": "October 04th, 2019",
+          "url": "https://stephenking.com/works/movie/in-the-tall-grass.html"
+        },
+        {
+          "title": "IT: Chapter Two",
+          "type": "Movie",
+          "displayDate": "September 06th, 2019",
+          "url": "https://stephenking.com/works/movie/it-chapter-two.html"
+        },
+        {
+          "title": "IT - Part 1: The Losers' Club",
+          "type": "Movie",
+          "displayDate": "September 08th, 2017",
+          "url": "https://stephenking.com/works/movie/it-part-1-the-losers-club.html"
+        },
+        {
+          "title": "The Life of Chuck",
+          "type": "Movie",
+          "displayDate": "September 06th, 2024",
+          "url": "https://stephenking.com/works/movie/life-of-chuck.html"
+        },
+        {
+          "title": "The Long Walk",
+          "type": "Movie",
+          "displayDate": "September 12th, 2025",
+          "url": "https://stephenking.com/works/movie/long-walk.html"
+        },
+        {
+          "title": "The Mangler",
+          "type": "Movie",
+          "displayDate": "March 03rd, 1995",
+          "url": "https://stephenking.com/works/movie/mangler.html"
+        },
+        {
+          "title": "Maximum Overdrive",
+          "type": "Movie",
+          "displayDate": "July 25th, 1986",
+          "url": "https://stephenking.com/works/movie/maximum-overdrive.html"
+        },
+        {
+          "title": "Mercy",
+          "type": "Movie",
+          "displayDate": "December 14th, 2012",
+          "url": "https://stephenking.com/works/movie/mercy.html"
+        },
+        {
+          "title": "Misery",
+          "type": "Movie",
+          "displayDate": "November 30th, 1990",
+          "url": "https://stephenking.com/works/movie/misery.html"
+        },
+        {
+          "title": "The Mist",
+          "type": "Movie",
+          "displayDate": "November 21st, 2007",
+          "url": "https://stephenking.com/works/movie/mist.html"
+        },
+        {
+          "title": "The Monkey",
+          "type": "Movie",
+          "displayDate": "February 21st, 2025",
+          "url": "https://stephenking.com/works/movie/monkey.html"
+        },
+        {
+          "title": "Mr. Harrigan's Phone",
+          "type": "Movie",
+          "displayDate": "October 05th, 2022",
+          "url": "https://stephenking.com/works/movie/mr-harrigans-phone.html"
+        },
+        {
+          "title": "My Pretty Pony",
+          "type": "Movie",
+          "displayDate": "April 06th, 2017",
+          "url": "https://stephenking.com/works/movie/my-pretty-pony.html"
+        },
+        {
+          "title": "Needful Things",
+          "type": "Movie",
+          "displayDate": "August 27th, 1993",
+          "url": "https://stephenking.com/works/movie/needful-things.html"
+        },
+        {
+          "title": "The Night Flier",
+          "type": "Movie",
+          "displayDate": "November 15th, 1997",
+          "url": "https://stephenking.com/works/movie/night-flier.html"
+        },
+        {
+          "title": "Pet Sematary (1989)",
+          "type": "Movie",
+          "displayDate": "April 21st, 1989",
+          "url": "https://stephenking.com/works/movie/pet-sematary-(1989).html"
+        },
+        {
+          "title": "Pet Sematary (2019)",
+          "type": "Movie",
+          "displayDate": "April 05th, 2019",
+          "url": "https://stephenking.com/works/movie/pet-sematary-(2019).html"
+        },
+        {
+          "title": "Riding the Bullet",
+          "type": "Movie",
+          "displayDate": "October 15th, 2004",
+          "url": "https://stephenking.com/works/movie/riding-the-bullet.html"
+        },
+        {
+          "title": "The Running Man",
+          "type": "Movie",
+          "displayDate": "November 13th, 1987",
+          "url": "https://stephenking.com/works/movie/running-man.html"
+        },
+        {
+          "title": "The Running Man (2025)",
+          "type": "Movie",
+          "displayDate": "November 14th, 2025",
+          "url": "https://stephenking.com/works/movie/running-man-(2025).html"
+        },
+        {
+          "title": "Salem's Lot",
+          "type": "Movie",
+          "displayDate": "October 03rd, 2024",
+          "url": "https://stephenking.com/works/movie/salems-lot.html"
+        },
+        {
+          "title": "Secret Window",
+          "type": "Movie",
+          "displayDate": "March 12th, 2004",
+          "url": "https://stephenking.com/works/movie/secret-window.html"
+        },
+        {
+          "title": "The Shawshank Redemption",
+          "type": "Movie",
+          "displayDate": "September 23rd, 1994",
+          "url": "https://stephenking.com/works/movie/shawshank-redemption.html"
+        },
+        {
+          "title": "The Shining",
+          "type": "Movie",
+          "displayDate": "May 23rd, 1980",
+          "url": "https://stephenking.com/works/movie/shining.html"
+        },
+        {
+          "title": "Silver Bullet",
+          "type": "Movie",
+          "displayDate": "October 11th, 1985",
+          "url": "https://stephenking.com/works/movie/silver-bullet.html"
+        },
+        {
+          "title": "Sleepwalkers",
+          "type": "Movie",
+          "displayDate": "April 10th, 1992",
+          "url": "https://stephenking.com/works/movie/sleepwalkers.html"
+        },
+        {
+          "title": "Stand By Me",
+          "type": "Movie",
+          "displayDate": "August 08th, 1986",
+          "url": "https://stephenking.com/works/movie/stand-by-me.html"
+        },
+        {
+          "title": "Suffer the Little Children",
+          "type": "Movie",
+          "displayDate": "TBD",
+          "url": "https://stephenking.com/works/movie/suffer-the-little-children.html"
+        },
+        {
+          "title": "Tales from the Darkside: The Movie",
+          "type": "Movie",
+          "displayDate": "May 04th, 1990",
+          "url": "https://stephenking.com/works/movie/tales-from-the-darkside-the-movie.html"
+        },
+        {
+          "title": "Thinner",
+          "type": "Movie",
+          "displayDate": "October 25th, 1996",
+          "url": "https://stephenking.com/works/movie/thinner.html"
+        },
+        {
+          "title": "1408",
+          "type": "Movie",
+          "displayDate": "June 12th, 2007",
+          "url": "https://stephenking.com/works/movie/1408.html"
+        },
+        {
+          "title": "1922",
+          "type": "Movie",
+          "displayDate": "October 20th, 2017",
+          "url": "https://stephenking.com/works/movie/1922.html"
+        }
+      ]
+    },
+    {
+      "category": "television",
+      "source": "https://stephenking.com/works/television/index.html",
+      "records": [
+        {
+          "title": "11/22/63",
+          "type": "Television",
+          "displayDate": "November 19th, 2015",
+          "url": "https://stephenking.com/works/television/11-22-63.html"
+        },
+        {
+          "title": "Bag of Bones",
+          "type": "Television",
+          "displayDate": "December 11th, 2011",
+          "url": "https://stephenking.com/works/television/bag-of-bones.html"
+        },
+        {
+          "title": "Big Driver",
+          "type": "Television",
+          "displayDate": "October 18th, 2014",
+          "url": "https://stephenking.com/works/television/big-driver.html"
+        },
+        {
+          "title": "Carrie",
+          "type": "Television",
+          "displayDate": "October 07th, 2026",
+          "url": "https://stephenking.com/works/television/carrie.html"
+        },
+        {
+          "title": "Castle Rock",
+          "type": "Television",
+          "displayDate": "September 25th, 2018",
+          "url": "https://stephenking.com/works/television/castle-rock.html"
+        },
+        {
+          "title": "Chapelwaite",
+          "type": "Television",
+          "displayDate": "August 22nd, 2021",
+          "url": "https://stephenking.com/works/television/chapelwaite.html"
+        },
+        {
+          "title": "Desperation",
+          "type": "Television",
+          "displayDate": "May 23rd, 2006",
+          "url": "https://stephenking.com/works/television/desperation.html"
+        },
+        {
+          "title": "The Diary of Ellen Rimbauer",
+          "type": "Television",
+          "displayDate": "May 12th, 2003",
+          "url": "https://stephenking.com/works/television/diary-of-ellen-rimbauer.html"
+        },
+        {
+          "title": "Golden Years",
+          "type": "Television",
+          "displayDate": "July 16th, 1991",
+          "url": "https://stephenking.com/works/television/golden-years.html"
+        },
+        {
+          "title": "The Institute",
+          "type": "Television",
+          "displayDate": "July 13th, 2025",
+          "url": "https://stephenking.com/works/television/institute.html"
+        },
+        {
+          "title": "IT",
+          "type": "Television",
+          "displayDate": "November 18th, 1990",
+          "url": "https://stephenking.com/works/television/it.html"
+        },
+        {
+          "title": "IT: Welcome to Derry",
+          "type": "Television",
+          "displayDate": "October 26th, 2025",
+          "url": "https://stephenking.com/works/television/it-welcome-to-derry.html"
+        },
+        {
+          "title": "Kingdom Hospital",
+          "type": "Television",
+          "displayDate": "March 03rd, 2004",
+          "url": "https://stephenking.com/works/television/kingdom-hospital.html"
+        },
+        {
+          "title": "The Langoliers",
+          "type": "Television",
+          "displayDate": "May 14th, 1995",
+          "url": "https://stephenking.com/works/television/langoliers.html"
+        },
+        {
+          "title": "Lisey's Story",
+          "type": "Television",
+          "displayDate": "June 04th, 2021",
+          "url": "https://stephenking.com/works/television/liseys-story.html"
+        },
+        {
+          "title": "The Mist",
+          "type": "Television",
+          "displayDate": "June 22nd, 2017",
+          "url": "https://stephenking.com/works/television/mist.html"
+        },
+        {
+          "title": "Mr. Mercedes",
+          "type": "Television",
+          "displayDate": "August 09th, 2017",
+          "url": "https://stephenking.com/works/television/mr-mercedes.html"
+        },
+        {
+          "title": "Nightmares & Dreamscapes",
+          "type": "Television",
+          "displayDate": "July 12th, 2006",
+          "url": "https://stephenking.com/works/television/nightmares-dreamscapes.html"
+        },
+        {
+          "title": "The Outsider",
+          "type": "Television",
+          "displayDate": "January 12th, 2020",
+          "url": "https://stephenking.com/works/television/outsider.html"
+        },
+        {
+          "title": "Quicksilver Highway",
+          "type": "Television",
+          "displayDate": "May 13th, 1997",
+          "url": "https://stephenking.com/works/television/quicksilver-highway.html"
+        },
+        {
+          "title": "Rose Red",
+          "type": "Television",
+          "displayDate": "January 27th, 2002",
+          "url": "https://stephenking.com/works/television/rose-red.html"
+        },
+        {
+          "title": "'Salem's Lot",
+          "type": "Television",
+          "displayDate": "November 17th, 1979",
+          "url": "https://stephenking.com/works/television/salems-lot.html"
+        },
+        {
+          "title": "'Salem's Lot (remake)",
+          "type": "Television",
+          "displayDate": "June 02nd, 2004",
+          "url": "https://stephenking.com/works/television/salems-lot-(remake).html"
+        },
+        {
+          "title": "The Shining",
+          "type": "Television",
+          "displayDate": "April 27th, 1997",
+          "url": "https://stephenking.com/works/television/shining.html"
+        },
+        {
+          "title": "Sleeping Beauties",
+          "type": "Television",
+          "displayDate": "TBD",
+          "url": "https://stephenking.com/works/television/sleeping-beauties.html"
+        },
+        {
+          "title": "Sometimes They Come Back",
+          "type": "Television",
+          "displayDate": "May 07th, 1991",
+          "url": "https://stephenking.com/works/television/sometimes-they-come-back.html"
+        },
+        {
+          "title": "The Stand",
+          "type": "Television",
+          "displayDate": "May 08th, 1994",
+          "url": "https://stephenking.com/works/television/stand.html"
+        },
+        {
+          "title": "The Stand (2020)",
+          "type": "Television",
+          "displayDate": "December 17th, 2020",
+          "url": "https://stephenking.com/works/television/stand-(2020).html"
+        },
+        {
+          "title": "Storm of the Century",
+          "type": "Television",
+          "displayDate": "February 14th, 1999",
+          "url": "https://stephenking.com/works/television/storm-of-the-century.html"
+        },
+        {
+          "title": "The Tommyknockers",
+          "type": "Television",
+          "displayDate": "May 09th, 1993",
+          "url": "https://stephenking.com/works/television/tommyknockers.html"
+        },
+        {
+          "title": "Trucks",
+          "type": "Television",
+          "displayDate": "December 26th, 2000",
+          "url": "https://stephenking.com/works/television/trucks.html"
+        },
+        {
+          "title": "Under the Dome",
+          "type": "Television",
+          "displayDate": "June 24th, 2013",
+          "url": "https://stephenking.com/works/television/under-the-dome.html"
+        }
+      ]
+    },
+    {
+      "category": "collaboration",
+      "source": "https://stephenking.com/works/collaboration/index.html",
+      "records": [
+        {
+          "title": "A Face in the Crowd",
+          "type": "Collaboration with Stewart O'Nan",
+          "displayDate": "TBD",
+          "url": "https://stephenking.com/works/short_story/a-face-in-the-crowd.html"
+        },
+        {
+          "title": "American Vampire",
+          "type": "Collaboration with Scott Snyder",
+          "displayDate": "March 2010",
+          "url": "https://stephenking.com/works/comic/american-vampire.html"
+        },
+        {
+          "title": "Black House",
+          "type": "Collaboration with Peter Straub",
+          "displayDate": "September 15th, 2001",
+          "url": "https://stephenking.com/works/novel/black-house.html"
+        },
+        {
+          "title": "Faithful",
+          "type": "Collaboration with Stewart O'Nan",
+          "displayDate": "September 2005",
+          "url": "https://stephenking.com/works/nonfiction/faithful.html"
+        },
+        {
+          "title": "Gwendy's Final Task",
+          "type": "Collaboration with Richard Chizmar",
+          "displayDate": "February 15th, 2022",
+          "url": "https://stephenking.com/works/novel/gwendys-final-task.html"
+        },
+        {
+          "title": "In the Tall Grass",
+          "type": "Collaboration with Joe Hill",
+          "displayDate": "TBD",
+          "url": "https://stephenking.com/works/short_story/in-the-tall-grass.html"
+        },
+        {
+          "title": "Mid-Life Confidential",
+          "type": "Collaboration with Dave Barry, Amy Tan et al",
+          "displayDate": "1994",
+          "url": "https://stephenking.com/works/nonfiction/mid-life-confidential-the-rock-bottom-remainders-tour-america-with-three-chords-and-an-attitude.html"
+        },
+        {
+          "title": "Nightmares in the Sky",
+          "type": "Collaboration with f-stop Fitzgerald",
+          "displayDate": "1988",
+          "url": "https://stephenking.com/works/nonfiction/nightmares-in-the-sky.html"
+        },
+        {
+          "title": "Sleeping Beauties",
+          "type": "Collaboration with Owen King",
+          "displayDate": "September 26th, 2017",
+          "url": "https://stephenking.com/works/novel/sleeping-beauties.html"
+        },
+        {
+          "title": "The Talisman",
+          "type": "Collaboration with Peter Straub",
+          "displayDate": "November 1984",
+          "url": "https://stephenking.com/works/novel/talisman.html"
+        },
+        {
+          "title": "Throttle",
+          "type": "Collaboration with Joe Hill",
+          "displayDate": "TBD",
+          "url": "https://stephenking.com/works/short_story/throttle.html"
+        }
+      ]
+    }
+  ]
+}

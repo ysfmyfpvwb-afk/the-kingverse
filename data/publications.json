@@ -1,0 +1,72 @@
+[
+  {
+    "work": "'Salem's Lot",
+    "title": "'Salem's Lot Illustrated Edition",
+    "kind": "edition-variant",
+    "reportedDate": "2005-11-11",
+    "source": "https://stephenking.com/works/novel/salems-lot-illustrated-edition.html"
+  },
+  {
+    "work": "The Dark Tower: The Gunslinger",
+    "title": "The Dark Tower: The Gunslinger (Revised)",
+    "kind": "edition-variant",
+    "reportedDate": "2003-06",
+    "source": "https://stephenking.com/works/novel/dark-tower-the-gunslinger-(revised).html"
+  },
+  {
+    "work": "The Green Mile",
+    "title": "The Green Mile: Coffey on the Mile",
+    "kind": "serial-part",
+    "reportedDate": "1996-08",
+    "source": "https://stephenking.com/works/novel/green-mile-coffey-on-the-mile.html"
+  },
+  {
+    "work": "The Green Mile",
+    "title": "The Green Mile: Coffey's Hands",
+    "kind": "serial-part",
+    "reportedDate": "1996-05",
+    "source": "https://stephenking.com/works/novel/green-mile-coffeys-hands.html"
+  },
+  {
+    "work": "The Green Mile",
+    "title": "The Green Mile: Night Journey",
+    "kind": "serial-part",
+    "reportedDate": "1996-07",
+    "source": "https://stephenking.com/works/novel/green-mile-night-journey.html"
+  },
+  {
+    "work": "The Green Mile",
+    "title": "The Green Mile: The Bad Death of Eduard Delacroix",
+    "kind": "serial-part",
+    "reportedDate": "1996-06",
+    "source": "https://stephenking.com/works/novel/green-mile-the-bad-death-of-eduard-delacroix.html"
+  },
+  {
+    "work": "The Green Mile",
+    "title": "The Green Mile: The Mouse on the Mile",
+    "kind": "serial-part",
+    "reportedDate": "1996-04",
+    "source": "https://stephenking.com/works/novel/green-mile-the-mouse-on-the-mile.html"
+  },
+  {
+    "work": "The Green Mile",
+    "title": "The Green Mile: The Two Dead Girls",
+    "kind": "serial-part",
+    "reportedDate": "1996-03",
+    "source": "https://stephenking.com/works/novel/green-mile-the-two-dead-girls.html"
+  },
+  {
+    "work": "Joyland",
+    "title": "Joyland Illustrated Edition",
+    "kind": "edition-variant",
+    "reportedDate": "2015-09",
+    "source": "https://stephenking.com/works/novel/joyland-illustrated-edition.html"
+  },
+  {
+    "work": "The Stand",
+    "title": "The Stand: The Complete & Uncut Edition",
+    "kind": "edition-variant",
+    "reportedDate": "1990-05",
+    "source": "https://stephenking.com/works/novel/stand-the-complete-uncut-edition.html"
+  }
+]
