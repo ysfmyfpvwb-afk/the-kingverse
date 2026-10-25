@@ -70,6 +70,6 @@ No paid IMDb API or other paid service is planned or activated. Actual legacy IM
 
 ## Connected Explorer preview
 
-The English preview is available separately at `explorer/`. The existing archive remains the default. Generate the preview offline with `npm run build:explorer`; the script validates the v2 bundle first. Then run `npm run validate:foundation` and `npm test`.
+The English preview (1.6.1) is available separately at `explorer/`. Mobile book pages use compact covers and a single sourced, clickable card per relationship. The existing archive remains the default. Generate the preview offline with `npm run build:explorer`; the script validates the v2 bundle first. Then run `npm run validate:foundation` and `npm test`.
 
 Only The Talisman and Black House are migrated. Their canonical routes are `explorer/work/000001/` and `explorer/work/000002/`. Authors, characters and the Territories have static pages linked from the works. Core navigation works without JavaScript. Plot connections load only after an explicit choice. Existing edition examples retain their uncertainty; no adaptation or rating data is imported. See `EXPLORER-DELIVERY.md` for validation and scope.

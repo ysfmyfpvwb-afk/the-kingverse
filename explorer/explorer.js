@@ -1,9 +1,25 @@
 'use strict';
 // Progressive enhancement: all premise content and navigation is static HTML.
 for(const image of document.querySelectorAll('.cover img')){
- const fallback=()=>{image.hidden=true;image.parentElement.querySelector('.cover-fallback').hidden=false;};
- image.addEventListener('error',fallback);
- if(image.complete&&!image.naturalWidth)fallback();
+ const figure=image.closest('.cover');
+ const fallback=figure.querySelector('.cover-fallback');
+ const retry=figure.querySelector('.cover-retry');
+ const show=()=>{
+  image.hidden=false;fallback.hidden=true;
+  if(retry){retry.hidden=true;retry.disabled=false;retry.textContent='Retry cover';}
+ };
+ const fail=()=>{
+  image.hidden=true;fallback.hidden=false;
+  if(retry){retry.hidden=false;retry.disabled=false;retry.textContent='Retry cover';}
+ };
+ image.addEventListener('load',show);
+ image.addEventListener('error',fail);
+ if(retry)retry.addEventListener('click',()=>{
+  retry.disabled=true;retry.textContent='Loading cover…';
+  // Reuse the approved URL and normal browser cache; no proxy or alternate artwork.
+  image.src=image.getAttribute('src');
+ });
+ if(image.complete){if(image.naturalWidth)show();else fail();}
 }
 const kind=document.getElementById('kind');const certainty=document.getElementById('certainty');
 const status=document.getElementById('connection-status');const spoilers=document.getElementById('spoilers');
@@ -18,6 +34,8 @@ function drawMap(){
  const bounds=map.getBoundingClientRect();
  svg.setAttribute('viewBox',`0 0 ${bounds.width} ${bounds.height}`);
  svg.replaceChildren();
+ map.dataset.dense=String(map.querySelectorAll('.map-node:not([hidden])').length>8);
+ if(map.dataset.dense==='true')return;
  for(const node of map.querySelectorAll('.map-node:not([hidden])')){
   const box=node.getBoundingClientRect();
   const line=document.createElementNS('http://www.w3.org/2000/svg','path');
@@ -49,8 +67,8 @@ if(spoilers)spoilers.addEventListener('click',async()=>{
   const response=await fetch('plot.json');if(!response.ok)throw Error('Unavailable');
   const data=await response.json();
   if(request!==generation)return;
-  if(typeof data.nodes!=='string'||typeof data.cards!=='string')throw Error('Invalid data');
-  for(const [id,html] of [['map-nodes',data.nodes],['relation-list',data.cards]]){
+  if(typeof data.nodes!=='string')throw Error('Invalid data');
+  for(const [id,html] of [['map-nodes',data.nodes]]){
    const template=document.createElement('template');template.innerHTML=html;
    for(const child of template.content.children)child.dataset.plot='true';
    document.getElementById(id).append(template.content);
@@ -61,6 +79,8 @@ if(spoilers)spoilers.addEventListener('click',async()=>{
 });
 
 window.addEventListener('resize',drawMap);
+document.querySelector('.connection-map').addEventListener('toggle',drawMap,true);
+if(typeof ResizeObserver!=='undefined')new ResizeObserver(drawMap).observe(document.querySelector('.connection-map'));
 drawMap();
 
 // Back/forward cache must not silently restore a previous spoiler consent.
