@@ -1,0 +1,1613 @@
+{
+  "baseCommit": "e26c74638a72a58d1cce581a0ebd1337781dafdf",
+  "nativeConnections": [
+    {
+      "id": "rel:000001",
+      "from": {
+        "type": "work",
+        "id": "wrk:000002"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000001"
+      },
+      "predicate": "sequel_to",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "claimIds": [
+        "clm:000071",
+        "clm:000072",
+        "clm:000073",
+        "clm:000074",
+        "clm:000075"
+      ],
+      "status": [
+        "verified"
+      ],
+      "sourceIds": [
+        "src:000002"
+      ]
+    },
+    {
+      "id": "rel:000002",
+      "from": {
+        "type": "character",
+        "id": "chr:000001"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000001"
+      },
+      "predicate": "appears_in",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000001"
+        ]
+      },
+      "claimIds": [
+        "clm:000076",
+        "clm:000077",
+        "clm:000078",
+        "clm:000079",
+        "clm:000080"
+      ],
+      "status": [
+        "verified"
+      ],
+      "sourceIds": [
+        "src:000001"
+      ]
+    },
+    {
+      "id": "rel:000003",
+      "from": {
+        "type": "character",
+        "id": "chr:000002"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000001"
+      },
+      "predicate": "appears_in",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000001"
+        ]
+      },
+      "claimIds": [
+        "clm:000081",
+        "clm:000082",
+        "clm:000083",
+        "clm:000084",
+        "clm:000085"
+      ],
+      "status": [
+        "verified"
+      ],
+      "sourceIds": [
+        "src:000001"
+      ]
+    },
+    {
+      "id": "rel:000004",
+      "from": {
+        "type": "character",
+        "id": "chr:000001"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000002"
+      },
+      "predicate": "appears_in",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000001",
+          "wrk:000002"
+        ]
+      },
+      "claimIds": [
+        "clm:000086",
+        "clm:000087",
+        "clm:000088",
+        "clm:000089",
+        "clm:000090"
+      ],
+      "status": [
+        "verified"
+      ],
+      "sourceIds": [
+        "src:000002"
+      ]
+    },
+    {
+      "id": "rel:000005",
+      "from": {
+        "type": "work",
+        "id": "wrk:000001"
+      },
+      "to": {
+        "type": "location",
+        "id": "loc:000001"
+      },
+      "predicate": "set_in",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000001"
+        ]
+      },
+      "claimIds": [
+        "clm:000091",
+        "clm:000092",
+        "clm:000093",
+        "clm:000094",
+        "clm:000095"
+      ],
+      "status": [
+        "verified"
+      ],
+      "sourceIds": [
+        "src:000001"
+      ]
+    },
+    {
+      "id": "rel:000006",
+      "from": {
+        "type": "work",
+        "id": "wrk:000001"
+      },
+      "to": {
+        "type": "externalReference",
+        "id": "xref:000001"
+      },
+      "predicate": "shared_reference",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "plot",
+        "workIds": [
+          "wrk:000001"
+        ]
+      },
+      "claimIds": [
+        "clm:000096",
+        "clm:000097",
+        "clm:000098",
+        "clm:000099",
+        "clm:000100"
+      ],
+      "status": [
+        "verified"
+      ],
+      "sourceIds": [
+        "src:000003"
+      ]
+    },
+    {
+      "id": "rel:000007",
+      "from": {
+        "type": "work",
+        "id": "wrk:000002"
+      },
+      "to": {
+        "type": "externalReference",
+        "id": "xref:000002"
+      },
+      "predicate": "shared_cosmology",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "plot",
+        "workIds": [
+          "wrk:000002"
+        ]
+      },
+      "claimIds": [
+        "clm:000101",
+        "clm:000102",
+        "clm:000103",
+        "clm:000104",
+        "clm:000105"
+      ],
+      "status": [
+        "verified"
+      ],
+      "sourceIds": [
+        "src:000003"
+      ]
+    },
+    {
+      "id": "rel:000008",
+      "from": {
+        "type": "work",
+        "id": "wrk:000001"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000002"
+      },
+      "predicate": "shared_cosmology",
+      "certainty": "strongly-implied",
+      "spoiler": {
+        "level": "plot",
+        "workIds": [
+          "wrk:000001",
+          "wrk:000002"
+        ]
+      },
+      "claimIds": [
+        "clm:000106",
+        "clm:000107",
+        "clm:000108",
+        "clm:000109",
+        "clm:000110"
+      ],
+      "status": [
+        "provisional"
+      ],
+      "sourceIds": [
+        "src:000003"
+      ]
+    },
+    {
+      "id": "rel:000009",
+      "from": {
+        "type": "work",
+        "id": "wrk:000067"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000002"
+      },
+      "predicate": "sequel_to",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "claimIds": [
+        "clm:002267",
+        "clm:002268",
+        "clm:002269",
+        "clm:002270",
+        "clm:002271"
+      ],
+      "status": [
+        "verified"
+      ],
+      "sourceIds": [
+        "src:000072",
+        "src:000073"
+      ]
+    },
+    {
+      "id": "rel:000010",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000019"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000010"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "claimIds": [
+        "clm:006780",
+        "clm:006781",
+        "clm:006782",
+        "clm:006783",
+        "clm:006784"
+      ],
+      "status": [
+        "verified"
+      ],
+      "sourceIds": [
+        "src:000358"
+      ]
+    },
+    {
+      "id": "rel:000011",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000020"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000010"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "claimIds": [
+        "clm:006785",
+        "clm:006786",
+        "clm:006787",
+        "clm:006788",
+        "clm:006789"
+      ],
+      "status": [
+        "verified"
+      ],
+      "sourceIds": [
+        "src:000357"
+      ]
+    },
+    {
+      "id": "rel:000012",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000089"
+      },
+      "to": {
+        "id": "wrk:000115",
+        "type": "work"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "claimIds": [
+        "clm:006790",
+        "clm:006791",
+        "clm:006792",
+        "clm:006793",
+        "clm:006794"
+      ],
+      "status": [
+        "verified"
+      ],
+      "sourceIds": [
+        "src:000439"
+      ]
+    },
+    {
+      "id": "rel:000013",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000001"
+      },
+      "to": {
+        "id": "wrk:000180",
+        "type": "work"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "claimIds": [
+        "clm:006795",
+        "clm:006796",
+        "clm:006797",
+        "clm:006798",
+        "clm:006799"
+      ],
+      "status": [
+        "verified"
+      ],
+      "sourceIds": [
+        "src:000339"
+      ]
+    },
+    {
+      "id": "rel:000014",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000024"
+      },
+      "to": {
+        "id": "wrk:000145",
+        "type": "work"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "claimIds": [
+        "clm:006800",
+        "clm:006801",
+        "clm:006802",
+        "clm:006803",
+        "clm:006804"
+      ],
+      "status": [
+        "verified"
+      ],
+      "sourceIds": [
+        "src:000364"
+      ]
+    },
+    {
+      "id": "rel:000015",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000005"
+      },
+      "to": {
+        "id": "wrk:000085",
+        "type": "work"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "claimIds": [
+        "clm:006805",
+        "clm:006806",
+        "clm:006807",
+        "clm:006808",
+        "clm:006809"
+      ],
+      "status": [
+        "verified"
+      ],
+      "sourceIds": [
+        "src:000451"
+      ]
+    },
+    {
+      "id": "rel:000016",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000005"
+      },
+      "to": {
+        "id": "wrk:000083",
+        "type": "work"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "claimIds": [
+        "clm:006810",
+        "clm:006811",
+        "clm:006812",
+        "clm:006813",
+        "clm:006814"
+      ],
+      "status": [
+        "verified"
+      ],
+      "sourceIds": [
+        "src:000451"
+      ]
+    },
+    {
+      "id": "rel:000017",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000038"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000016"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "claimIds": [
+        "clm:006815",
+        "clm:006816",
+        "clm:006817",
+        "clm:006818",
+        "clm:006819"
+      ],
+      "status": [
+        "verified"
+      ],
+      "sourceIds": [
+        "src:000453"
+      ]
+    },
+    {
+      "id": "rel:000018",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000039"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000016"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "strongly-implied",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "claimIds": [
+        "clm:006820",
+        "clm:006821",
+        "clm:006822",
+        "clm:006823",
+        "clm:006824"
+      ],
+      "status": [
+        "provisional"
+      ],
+      "sourceIds": [
+        "src:000381"
+      ]
+    },
+    {
+      "id": "rel:000019",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000095"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000016"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "claimIds": [
+        "clm:006825",
+        "clm:006826",
+        "clm:006827",
+        "clm:006828",
+        "clm:006829"
+      ],
+      "status": [
+        "verified"
+      ],
+      "sourceIds": [
+        "src:000452"
+      ]
+    },
+    {
+      "id": "rel:000020",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000004"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000003"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "claimIds": [
+        "clm:006830",
+        "clm:006831",
+        "clm:006832",
+        "clm:006833",
+        "clm:006834"
+      ],
+      "status": [
+        "verified"
+      ],
+      "sourceIds": [
+        "src:000434"
+      ]
+    },
+    {
+      "id": "rel:000021",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000083"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000003"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "claimIds": [
+        "clm:006835",
+        "clm:006836",
+        "clm:006837",
+        "clm:006838",
+        "clm:006839"
+      ],
+      "status": [
+        "verified"
+      ],
+      "sourceIds": [
+        "src:000432"
+      ]
+    },
+    {
+      "id": "rel:000022",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000084"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000003"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "claimIds": [
+        "clm:006840",
+        "clm:006841",
+        "clm:006842",
+        "clm:006843",
+        "clm:006844"
+      ],
+      "status": [
+        "verified"
+      ],
+      "sourceIds": [
+        "src:000434"
+      ]
+    },
+    {
+      "id": "rel:000023",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000090"
+      },
+      "to": {
+        "id": "wrk:000135",
+        "type": "work"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "claimIds": [
+        "clm:006845",
+        "clm:006846",
+        "clm:006847",
+        "clm:006848",
+        "clm:006849"
+      ],
+      "status": [
+        "verified"
+      ],
+      "sourceIds": [
+        "src:000442"
+      ]
+    },
+    {
+      "id": "rel:000024",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000079"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000042"
+      },
+      "predicate": "inspired_by",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "claimIds": [
+        "clm:006850",
+        "clm:006851",
+        "clm:006852",
+        "clm:006853",
+        "clm:006854"
+      ],
+      "status": [
+        "verified"
+      ],
+      "sourceIds": [
+        "src:000427"
+      ]
+    },
+    {
+      "id": "rel:000025",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000078"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000009"
+      },
+      "predicate": "inspired_by",
+      "certainty": "strongly-implied",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "claimIds": [
+        "clm:006855",
+        "clm:006856",
+        "clm:006857",
+        "clm:006858",
+        "clm:006859"
+      ],
+      "status": [
+        "provisional"
+      ],
+      "sourceIds": [
+        "src:000424"
+      ]
+    },
+    {
+      "id": "rel:000026",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000095"
+      },
+      "to": {
+        "type": "adaptation",
+        "id": "adp:000039"
+      },
+      "predicate": "prequel_to",
+      "certainty": "strongly-implied",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "claimIds": [
+        "clm:006860",
+        "clm:006861",
+        "clm:006862",
+        "clm:006863",
+        "clm:006864"
+      ],
+      "status": [
+        "provisional"
+      ],
+      "sourceIds": [
+        "src:000449"
+      ]
+    }
+  ],
+  "membershipCount": 155,
+  "creditCount": 291,
+  "legacyTower": [
+    {
+      "index": 0,
+      "source": "https://stephenking.com/darktower/books/",
+      "certainty": "explicit",
+      "subject": "The Dark Tower: The Gunslinger"
+    },
+    {
+      "index": 1,
+      "source": "https://stephenking.com/darktower/books/",
+      "certainty": "explicit",
+      "subject": "The Dark Tower: The Wind Through the Keyhole"
+    },
+    {
+      "index": 2,
+      "source": "https://stephenking.com/darktower/connections/",
+      "certainty": "explicit",
+      "subject": "The Little Sisters of Eluria"
+    },
+    {
+      "index": 3,
+      "source": "https://stephenking.com/darktower/connections/",
+      "certainty": "explicit",
+      "subject": "The Stand"
+    },
+    {
+      "index": 4,
+      "source": "https://stephenking.com/darktower/connections/",
+      "certainty": "explicit",
+      "subject": "The Eyes of the Dragon"
+    },
+    {
+      "index": 5,
+      "source": "https://stephenking.com/darktower/connections/",
+      "certainty": "explicit",
+      "subject": "'Salem's Lot"
+    },
+    {
+      "index": 6,
+      "source": "https://stephenking.com/darktower/connections/",
+      "certainty": "explicit",
+      "subject": "Hearts in Atlantis"
+    },
+    {
+      "index": 7,
+      "source": "https://stephenking.com/darktower/connections/",
+      "certainty": "explicit",
+      "subject": "Insomnia"
+    },
+    {
+      "index": 8,
+      "source": "https://stephenking.com/darktower/connections/",
+      "certainty": "explicit",
+      "subject": "Black House"
+    },
+    {
+      "index": 9,
+      "source": "https://stephenking.com/darktower/connections/",
+      "certainty": "interpretive",
+      "subject": "IT"
+    },
+    {
+      "index": 10,
+      "source": "https://stephenking.com/darktower/connections/",
+      "certainty": "explicit",
+      "subject": "Everything's Eventual"
+    },
+    {
+      "index": 11,
+      "source": "https://stephenking.com/darktower/connections/",
+      "certainty": "explicit",
+      "subject": "UR"
+    },
+    {
+      "index": 12,
+      "source": "https://stephenking.com/darktower/connections/",
+      "certainty": "strongly-implied",
+      "subject": "The Talisman"
+    },
+    {
+      "index": 13,
+      "source": "https://stephenking.com/darktower/connections/",
+      "certainty": "explicit",
+      "subject": "Rose Madder"
+    },
+    {
+      "index": 14,
+      "source": "https://stephenking.com/darktower/connections/",
+      "certainty": "strongly-implied",
+      "subject": "Desperation"
+    },
+    {
+      "index": 15,
+      "source": "https://stephenking.com/darktower/connections/",
+      "certainty": "strongly-implied",
+      "subject": "The Regulators"
+    },
+    {
+      "index": 16,
+      "source": "https://www.simonandschuster.com/books/Other-Worlds-Than-These/Stephen-King/The-Talisman-Trilogy/9781668233092",
+      "certainty": "explicit",
+      "subject": "Other Worlds Than These"
+    }
+  ],
+  "screenCandidateScope": [
+    {
+      "adaptationId": "adp:000002",
+      "target": {
+        "id": "wrk:000093",
+        "type": "work"
+      },
+      "source": "https://stephenking.com/works/movie/apt-pupil.html",
+      "legacyFilmId": "films:apt-pupil-1998"
+    },
+    {
+      "adaptationId": "adp:000003",
+      "target": {
+        "id": "wrk:000077",
+        "type": "work"
+      },
+      "source": "https://stephenking.com/works/movie/boogeyman.html",
+      "legacyFilmId": "films:the-boogeyman-2023"
+    },
+    {
+      "adaptationId": "adp:000006",
+      "target": {
+        "type": "work",
+        "id": "wrk:000043"
+      },
+      "source": "https://stephenking.com/works/movie/cell.html",
+      "legacyFilmId": "films:cell-2016"
+    },
+    {
+      "adaptationId": "adp:000007",
+      "target": {
+        "id": "wrk:000087",
+        "type": "work"
+      },
+      "source": "https://stephenking.com/works/movie/children-of-the-corn.html",
+      "legacyFilmId": "films:children-of-the-corn-1984"
+    },
+    {
+      "adaptationId": "adp:000008",
+      "target": {
+        "type": "work",
+        "id": "wrk:000015"
+      },
+      "source": "https://stephenking.com/works/movie/christine.html",
+      "legacyFilmId": "films:christine-1983"
+    },
+    {
+      "adaptationId": "adp:000009",
+      "target": {
+        "id": "wrk:000241",
+        "type": "work"
+      },
+      "source": "https://stephenking.com/works/movie/creepshow.html",
+      "legacyFilmId": "films:creepshow-1982"
+    },
+    {
+      "adaptationId": "adp:000010",
+      "target": {
+        "id": "wrk:000104",
+        "type": "work"
+      },
+      "source": "https://stephenking.com/works/movie/creepshow-2.html",
+      "legacyFilmId": "films:creepshow-2-1987"
+    },
+    {
+      "adaptationId": "adp:000011",
+      "target": {
+        "type": "work",
+        "id": "wrk:000012"
+      },
+      "source": "https://stephenking.com/works/movie/cujo.html",
+      "legacyFilmId": "films:cujo-1983"
+    },
+    {
+      "adaptationId": "adp:000012",
+      "target": {
+        "type": "work",
+        "id": "wrk:000024"
+      },
+      "source": "https://stephenking.com/works/movie/dark-half.html",
+      "legacyFilmId": "films:the-dark-half-1993"
+    },
+    {
+      "adaptationId": "adp:000013",
+      "target": {
+        "type": "work",
+        "id": "wrk:000040"
+      },
+      "source": "https://stephenking.com/works/movie/dark-tower.html",
+      "legacyFilmId": "films:the-dark-tower-2017"
+    },
+    {
+      "adaptationId": "adp:000013",
+      "target": {
+        "type": "work",
+        "id": "wrk:000022"
+      },
+      "source": "https://stephenking.com/works/movie/dark-tower.html",
+      "legacyFilmId": "films:the-dark-tower-2017"
+    },
+    {
+      "adaptationId": "adp:000013",
+      "target": {
+        "type": "work",
+        "id": "wrk:000025"
+      },
+      "source": "https://stephenking.com/works/movie/dark-tower.html",
+      "legacyFilmId": "films:the-dark-tower-2017"
+    },
+    {
+      "adaptationId": "adp:000013",
+      "target": {
+        "type": "work",
+        "id": "wrk:000034"
+      },
+      "source": "https://stephenking.com/works/movie/dark-tower.html",
+      "legacyFilmId": "films:the-dark-tower-2017"
+    },
+    {
+      "adaptationId": "adp:000013",
+      "target": {
+        "type": "work",
+        "id": "wrk:000039"
+      },
+      "source": "https://stephenking.com/works/movie/dark-tower.html",
+      "legacyFilmId": "films:the-dark-tower-2017"
+    },
+    {
+      "adaptationId": "adp:000013",
+      "target": {
+        "type": "work",
+        "id": "wrk:000041"
+      },
+      "source": "https://stephenking.com/works/movie/dark-tower.html",
+      "legacyFilmId": "films:the-dark-tower-2017"
+    },
+    {
+      "adaptationId": "adp:000014",
+      "target": {
+        "type": "work",
+        "id": "wrk:000009"
+      },
+      "source": "https://stephenking.com/works/movie/dead-zone.html",
+      "legacyFilmId": "films:the-dead-zone-1983"
+    },
+    {
+      "adaptationId": "adp:000015",
+      "target": {
+        "type": "work",
+        "id": "wrk:000051"
+      },
+      "source": "https://stephenking.com/works/movie/doctor-sleep.html",
+      "legacyFilmId": "films:doctor-sleep-2019"
+    },
+    {
+      "adaptationId": "adp:000016",
+      "target": {
+        "id": "wrk:000122",
+        "type": "work"
+      },
+      "source": "https://stephenking.com/works/movie/dolans-cadillac.html",
+      "legacyFilmId": "films:dolan-s-cadillac-2009"
+    },
+    {
+      "adaptationId": "adp:000017",
+      "target": {
+        "type": "work",
+        "id": "wrk:000028"
+      },
+      "source": "https://stephenking.com/works/movie/dolores-claiborne.html",
+      "legacyFilmId": "films:dolores-claiborne-1995"
+    },
+    {
+      "adaptationId": "adp:000018",
+      "target": {
+        "type": "work",
+        "id": "wrk:000037"
+      },
+      "source": "https://stephenking.com/works/movie/dreamcatcher.html",
+      "legacyFilmId": "films:dreamcatcher-2003"
+    },
+    {
+      "adaptationId": "adp:000021",
+      "target": {
+        "type": "work",
+        "id": "wrk:000027"
+      },
+      "source": "https://stephenking.com/works/movie/geralds-game.html",
+      "legacyFilmId": "films:gerald-s-game-2017"
+    },
+    {
+      "adaptationId": "adp:000022",
+      "target": {
+        "id": "wrk:000073",
+        "type": "work"
+      },
+      "source": "https://stephenking.com/works/movie/graveyard-shift.html",
+      "legacyFilmId": "films:graveyard-shift-1990"
+    },
+    {
+      "adaptationId": "adp:000023",
+      "target": {
+        "type": "work",
+        "id": "wrk:000031"
+      },
+      "source": "https://stephenking.com/works/movie/green-mile.html",
+      "legacyFilmId": "films:the-green-mile-1999"
+    },
+    {
+      "adaptationId": "adp:000024",
+      "target": {
+        "id": "wrk:000149",
+        "type": "work"
+      },
+      "source": "https://stephenking.com/works/movie/hearts-in-atlantis.html",
+      "legacyFilmId": "films:hearts-in-atlantis-2001"
+    },
+    {
+      "adaptationId": "adp:000025",
+      "target": {
+        "id": "wrk:000225",
+        "type": "work"
+      },
+      "source": "https://stephenking.com/works/movie/in-the-tall-grass.html",
+      "legacyFilmId": "films:in-the-tall-grass-2019"
+    },
+    {
+      "adaptationId": "adp:000026",
+      "target": {
+        "type": "work",
+        "id": "wrk:000019"
+      },
+      "source": "https://stephenking.com/works/movie/it-part-1-the-losers-club.html",
+      "legacyFilmId": "films:it-2017"
+    },
+    {
+      "adaptationId": "adp:000027",
+      "target": {
+        "type": "work",
+        "id": "wrk:000019"
+      },
+      "source": "https://stephenking.com/works/movie/it-chapter-two.html",
+      "legacyFilmId": "films:it-chapter-two-2019"
+    },
+    {
+      "adaptationId": "adp:000028",
+      "target": {
+        "id": "wrk:000183",
+        "type": "work"
+      },
+      "source": "https://stephenking.com/works/movie/life-of-chuck.html",
+      "legacyFilmId": "films:the-life-of-chuck-2024"
+    },
+    {
+      "adaptationId": "adp:000029",
+      "target": {
+        "type": "work",
+        "id": "wrk:000008"
+      },
+      "source": "https://stephenking.com/works/movie/long-walk.html",
+      "legacyFilmId": "films:the-long-walk-2025"
+    },
+    {
+      "adaptationId": "adp:000030",
+      "target": {
+        "id": "wrk:000076",
+        "type": "work"
+      },
+      "source": "https://stephenking.com/works/movie/mangler.html",
+      "legacyFilmId": "films:the-mangler-1995"
+    },
+    {
+      "adaptationId": "adp:000031",
+      "target": {
+        "id": "wrk:000080",
+        "type": "work"
+      },
+      "source": "https://stephenking.com/works/movie/maximum-overdrive.html",
+      "legacyFilmId": "films:maximum-overdrive-1986"
+    },
+    {
+      "adaptationId": "adp:000032",
+      "target": {
+        "type": "work",
+        "id": "wrk:000021"
+      },
+      "source": "https://stephenking.com/works/movie/misery.html",
+      "legacyFilmId": "films:misery-1990"
+    },
+    {
+      "adaptationId": "adp:000033",
+      "target": {
+        "id": "wrk:000096",
+        "type": "work"
+      },
+      "source": "https://stephenking.com/works/movie/mist.html",
+      "legacyFilmId": "films:the-mist-2007"
+    },
+    {
+      "adaptationId": "adp:000034",
+      "target": {
+        "id": "wrk:000098",
+        "type": "work"
+      },
+      "source": "https://stephenking.com/works/movie/monkey.html",
+      "legacyFilmId": "films:the-monkey-2025"
+    },
+    {
+      "adaptationId": "adp:000035",
+      "target": {
+        "id": "wrk:000182",
+        "type": "work"
+      },
+      "source": "https://stephenking.com/works/movie/mr-harrigans-phone.html",
+      "legacyFilmId": "films:mr-harrigan-s-phone-2022"
+    },
+    {
+      "adaptationId": "adp:000036",
+      "target": {
+        "type": "work",
+        "id": "wrk:000026"
+      },
+      "source": "https://stephenking.com/works/movie/needful-things.html",
+      "legacyFilmId": "films:needful-things-1993"
+    },
+    {
+      "adaptationId": "adp:000037",
+      "target": {
+        "id": "wrk:000125",
+        "type": "work"
+      },
+      "source": "https://stephenking.com/works/movie/night-flier.html",
+      "legacyFilmId": "films:the-night-flier-1997"
+    },
+    {
+      "adaptationId": "adp:000040",
+      "target": {
+        "id": "wrk:000162",
+        "type": "work"
+      },
+      "source": "https://stephenking.com/works/movie/riding-the-bullet.html",
+      "legacyFilmId": "films:riding-the-bullet-2004"
+    },
+    {
+      "adaptationId": "adp:000041",
+      "target": {
+        "type": "work",
+        "id": "wrk:000013"
+      },
+      "source": "https://stephenking.com/works/movie/running-man.html",
+      "legacyFilmId": "films:the-running-man-1987"
+    },
+    {
+      "adaptationId": "adp:000042",
+      "target": {
+        "type": "work",
+        "id": "wrk:000013"
+      },
+      "source": "https://stephenking.com/works/movie/running-man-(2025).html",
+      "legacyFilmId": "films:the-running-man-2025"
+    },
+    {
+      "adaptationId": "adp:000043",
+      "target": {
+        "type": "work",
+        "id": "wrk:000004"
+      },
+      "source": "https://stephenking.com/works/movie/salems-lot.html",
+      "legacyFilmId": "films:salem-s-lot-2024"
+    },
+    {
+      "adaptationId": "adp:000044",
+      "target": {
+        "id": "wrk:000119",
+        "type": "work"
+      },
+      "source": "https://stephenking.com/works/movie/secret-window.html",
+      "legacyFilmId": "films:secret-window-2004"
+    },
+    {
+      "adaptationId": "adp:000045",
+      "target": {
+        "id": "wrk:000092",
+        "type": "work"
+      },
+      "source": "https://stephenking.com/works/movie/shawshank-redemption.html",
+      "legacyFilmId": "films:the-shawshank-redemption-1994"
+    },
+    {
+      "adaptationId": "adp:000046",
+      "target": {
+        "type": "work",
+        "id": "wrk:000005"
+      },
+      "source": "https://stephenking.com/works/movie/shining.html",
+      "legacyFilmId": "films:the-shining-1980"
+    },
+    {
+      "adaptationId": "adp:000047",
+      "target": {
+        "type": "work",
+        "id": "wrk:000017"
+      },
+      "source": "https://stephenking.com/works/movie/silver-bullet.html",
+      "legacyFilmId": "films:silver-bullet-1985"
+    },
+    {
+      "adaptationId": "adp:000048",
+      "target": {
+        "id": "wrk:000094",
+        "type": "work"
+      },
+      "source": "https://stephenking.com/works/movie/stand-by-me.html",
+      "legacyFilmId": "films:stand-by-me-1986"
+    },
+    {
+      "adaptationId": "adp:000049",
+      "target": {
+        "type": "work",
+        "id": "wrk:000018"
+      },
+      "source": "https://stephenking.com/works/movie/thinner.html",
+      "legacyFilmId": "films:thinner-1996"
+    },
+    {
+      "adaptationId": "adp:000050",
+      "target": {
+        "id": "wrk:000161",
+        "type": "work"
+      },
+      "source": "https://stephenking.com/works/movie/1408.html",
+      "legacyFilmId": "films:1408-2007"
+    },
+    {
+      "adaptationId": "adp:000051",
+      "target": {
+        "id": "wrk:000177",
+        "type": "work"
+      },
+      "source": "https://stephenking.com/works/movie/1922.html",
+      "legacyFilmId": "films:1922-2017"
+    },
+    {
+      "adaptationId": "adp:000052",
+      "target": {
+        "type": "work",
+        "id": "wrk:000036"
+      },
+      "source": "https://stephenking.com/works/movie/girl-who-loved-tom-gordon.html",
+      "legacyFilmId": "films:the-girl-who-loved-tom-gordon-tbd"
+    },
+    {
+      "adaptationId": "adp:000053",
+      "target": {
+        "id": "wrk:000124",
+        "type": "work"
+      },
+      "source": "https://stephenking.com/works/movie/suffer-the-little-children.html",
+      "legacyFilmId": "films:suffer-the-little-children-tbd"
+    },
+    {
+      "adaptationId": "adp:000054",
+      "target": {
+        "type": "work",
+        "id": "wrk:000048"
+      },
+      "source": "https://stephenking.com/works/television/11-22-63.html",
+      "legacyFilmId": "films:11-22-63-2016"
+    },
+    {
+      "adaptationId": "adp:000055",
+      "target": {
+        "type": "work",
+        "id": "wrk:000035"
+      },
+      "source": "https://stephenking.com/works/television/bag-of-bones.html",
+      "legacyFilmId": "films:bag-of-bones-2011"
+    },
+    {
+      "adaptationId": "adp:000056",
+      "target": {
+        "id": "wrk:000178",
+        "type": "work"
+      },
+      "source": "https://stephenking.com/works/television/big-driver.html",
+      "legacyFilmId": "films:big-driver-2014"
+    },
+    {
+      "adaptationId": "adp:000057",
+      "target": {
+        "type": "work",
+        "id": "wrk:000003"
+      },
+      "source": "https://www.swank.com/public-libraries/details/21296-carrie",
+      "legacyFilmId": "films:carrie-2002"
+    },
+    {
+      "adaptationId": "adp:000058",
+      "target": {
+        "id": "wrk:000072",
+        "type": "work"
+      },
+      "source": "https://stephenking.com/works/television/chapelwaite.html",
+      "legacyFilmId": "films:chapelwaite-2021"
+    },
+    {
+      "adaptationId": "adp:000059",
+      "target": {
+        "type": "work",
+        "id": "wrk:000032"
+      },
+      "source": "https://stephenking.com/works/television/desperation.html",
+      "legacyFilmId": "films:desperation-2006"
+    },
+    {
+      "adaptationId": "adp:000060",
+      "target": {
+        "type": "work",
+        "id": "wrk:000060"
+      },
+      "source": "https://stephenking.com/works/television/institute.html",
+      "legacyFilmId": "films:the-institute-2025"
+    },
+    {
+      "adaptationId": "adp:000061",
+      "target": {
+        "type": "work",
+        "id": "wrk:000019"
+      },
+      "source": "https://stephenking.com/works/television/it.html",
+      "legacyFilmId": "films:it-1990"
+    },
+    {
+      "adaptationId": "adp:000062",
+      "target": {
+        "type": "work",
+        "id": "wrk:000019"
+      },
+      "source": "https://stephenking.com/works/television/it-welcome-to-derry.html",
+      "legacyFilmId": "films:it-welcome-to-derry-2025"
+    },
+    {
+      "adaptationId": "adp:000063",
+      "target": {
+        "id": "wrk:000118",
+        "type": "work"
+      },
+      "source": "https://stephenking.com/works/television/langoliers.html",
+      "legacyFilmId": "films:the-langoliers-1995"
+    },
+    {
+      "adaptationId": "adp:000064",
+      "target": {
+        "type": "work",
+        "id": "wrk:000044"
+      },
+      "source": "https://stephenking.com/works/television/liseys-story.html",
+      "legacyFilmId": "films:lisey-s-story-2021"
+    },
+    {
+      "adaptationId": "adp:000065",
+      "target": {
+        "id": "wrk:000096",
+        "type": "work"
+      },
+      "source": "https://stephenking.com/works/television/mist.html",
+      "legacyFilmId": "films:the-mist-2017"
+    },
+    {
+      "adaptationId": "adp:000066",
+      "target": {
+        "type": "work",
+        "id": "wrk:000052"
+      },
+      "source": "https://stephenking.com/works/television/mr-mercedes.html",
+      "legacyFilmId": "films:mr-mercedes-2017"
+    },
+    {
+      "adaptationId": "adp:000067",
+      "target": {
+        "type": "collection",
+        "id": "col:000006"
+      },
+      "source": "https://stephenking.com/works/television/nightmares-dreamscapes.html",
+      "legacyFilmId": "films:nightmares-dreamscapes-2006"
+    },
+    {
+      "adaptationId": "adp:000068",
+      "target": {
+        "type": "work",
+        "id": "wrk:000004"
+      },
+      "source": "https://stephenking.com/works/television/salems-lot.html",
+      "legacyFilmId": "films:salem-s-lot-1979"
+    },
+    {
+      "adaptationId": "adp:000069",
+      "target": {
+        "type": "work",
+        "id": "wrk:000004"
+      },
+      "source": "https://stephenking.com/works/television/salems-lot-(remake).html",
+      "legacyFilmId": "films:salem-s-lot-2004"
+    },
+    {
+      "adaptationId": "adp:000070",
+      "target": {
+        "type": "work",
+        "id": "wrk:000005"
+      },
+      "source": "https://stephenking.com/works/television/shining.html",
+      "legacyFilmId": "films:the-shining-1997"
+    },
+    {
+      "adaptationId": "adp:000071",
+      "target": {
+        "id": "wrk:000081",
+        "type": "work"
+      },
+      "source": "https://stephenking.com/works/television/sometimes-they-come-back.html",
+      "legacyFilmId": "films:sometimes-they-come-back-1991"
+    },
+    {
+      "adaptationId": "adp:000072",
+      "target": {
+        "type": "work",
+        "id": "wrk:000007"
+      },
+      "source": "https://stephenking.com/works/television/stand.html",
+      "legacyFilmId": "films:the-stand-1994"
+    },
+    {
+      "adaptationId": "adp:000073",
+      "target": {
+        "type": "work",
+        "id": "wrk:000007"
+      },
+      "source": "https://stephenking.com/works/television/stand-(2020).html",
+      "legacyFilmId": "films:the-stand-2020"
+    },
+    {
+      "adaptationId": "adp:000074",
+      "target": {
+        "type": "work",
+        "id": "wrk:000023"
+      },
+      "source": "https://stephenking.com/works/television/tommyknockers.html",
+      "legacyFilmId": "films:the-tommyknockers-1993"
+    },
+    {
+      "adaptationId": "adp:000075",
+      "target": {
+        "id": "wrk:000080",
+        "type": "work"
+      },
+      "source": "https://stephenking.com/works/television/trucks.html",
+      "legacyFilmId": "films:trucks-1997"
+    },
+    {
+      "adaptationId": "adp:000076",
+      "target": {
+        "type": "work",
+        "id": "wrk:000047"
+      },
+      "source": "https://stephenking.com/works/television/under-the-dome.html",
+      "legacyFilmId": "films:under-the-dome-2013"
+    },
+    {
+      "adaptationId": "adp:000077",
+      "target": {
+        "type": "work",
+        "id": "wrk:000058"
+      },
+      "source": "https://stephenking.com/works/television/outsider.html",
+      "legacyFilmId": "films:the-outsider-2020"
+    },
+    {
+      "adaptationId": "adp:000087",
+      "target": {
+        "type": "collection",
+        "id": "col:000007"
+      },
+      "source": "https://stephenking.com/works/movie/hearts.html",
+      "legacyFilmId": "films:hearts-tbd"
+    },
+    {
+      "adaptationId": "adp:000094",
+      "target": {
+        "id": "wrk:000172",
+        "type": "work"
+      },
+      "source": "https://stephenking.com/works/movie/tales-from-the-darkside-the-movie.html",
+      "legacyFilmId": "films:tales-from-the-darkside-the-movie-1990"
+    },
+    {
+      "adaptationId": "adp:000096",
+      "target": {
+        "type": "work",
+        "id": "wrk:000003"
+      },
+      "source": "https://www.boxofficemojo.com/title/tt0144814/",
+      "legacyFilmId": "films:the-rage-carrie-2-1999"
+    }
+  ],
+  "note": "Inventory before Batch 05 changes; counts and provenance do not certify all relationships."
+}

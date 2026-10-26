@@ -14,5 +14,29 @@
     "locationKind": "world",
     "aliases": [],
     "continuity": "Talisman literary setting"
+  },
+  {
+    "id": "loc:000002",
+    "entityType": "location",
+    "name": "Lud",
+    "aliases": [],
+    "spoiler": {
+      "level": "plot",
+      "workIds": [
+        "wrk:000025",
+        "wrk:000030"
+      ]
+    },
+    "continuity": "Official Dark Tower connections, scoped appearances only",
+    "locationKind": "place",
+    "verification": {
+      "claimIds": [
+        "clm:006891",
+        "clm:006892",
+        "clm:006893",
+        "clm:006894"
+      ],
+      "open": []
+    }
   }
 ]

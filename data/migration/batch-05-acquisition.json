@@ -1,0 +1,684 @@
+{
+  "checked": "2026-10-26",
+  "scope": "Exact 78 inherited source candidates plus 17 Tower source records; URLs deduplicated. Acquisition is not verification.",
+  "sources": [
+    {
+      "url": "https://stephenking.com/works/movie/apt-pupil.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "57de3a6751492c42dae89288ecbe5855d446ab575bbf275771716f42f1bd4dcc",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/movie/boogeyman.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "d97e7c0b9478f36461d76188a894a9e4bbd1b23faccab4517dfe901da7d4f354",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/movie/cell.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "7080c108984c280d5f010bec78c4b1ec1989964e46cb487900430d69a4c46507",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/movie/children-of-the-corn.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "b99eb5fefdf1ea1e1406b4c51500fc0f678aed33dc8d6f7b5d7205a47ef354a0",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/movie/christine.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "e80d476970e7ebf0d69e4757491ea556e2c39d9f64be5ba58703a4d8f102d926",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/movie/creepshow.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "415824557d6863edf7c06f175658c90996ff8d627e86b660467455c5733ac789",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/movie/creepshow-2.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "da2e91454547bedab29aaf8b83603c668cbeb05190701f51f75b488c589337f3",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/movie/cujo.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "b6c1d0994e8bf481049107714fac40a22915d27b4b8ad13373a4ad51d7581171",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/movie/dark-half.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "de254adab981699420081f88c38d948a38f620572b6ec32def1e3e9f1ce6be53",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/movie/dark-tower.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "01ec9ba5d89d7d0d537d853ae690e70942836654114b5af5a46f4d3ae22d9e44",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/movie/dead-zone.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "92cef97d6df1c9c3ca00d15246f5c3e58ec5b8edc717ecd6b46c55755e800963",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/movie/doctor-sleep.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "34f483444e72e3f0208681ce342ab865f67a4d53fa492eb39abb4d16f123ac34",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/movie/dolans-cadillac.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "9b5bd60e87d1acbab2c66c10f2bfbfca7dc8a814ab37d4005000decff300d020",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/movie/dolores-claiborne.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "c96e0fabcf4c4f54eb74d21804426408c60c704bc9061fa307ed2893c4449324",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/movie/dreamcatcher.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "52f204f850ff807d0753031acb5ffbc671e2822024c3dd42db143a7e9035b0d1",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/movie/geralds-game.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "9809802ef1c2191aa9907c2b25f37e05e476b0a1f87e937a397991bcd71a82b6",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/movie/graveyard-shift.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "75a133a0e2bf274b6e01eadd4a29c1bf6a5873e5cedd89ea75bfc6f0dfc74bc9",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/movie/green-mile.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "82119441cc31466a5b9e24114610a3e76e955292345a5ea7e8a90ea26cc13a6e",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/movie/hearts-in-atlantis.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "2e27b6b8eca29d07b1028799640057e1e2a8548fda7f4cf0e3149f17076e533b",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/movie/in-the-tall-grass.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "5bfce08f1b1082702ded43ae522cb554b0600bd6a54406986f3c1ee46e96f034",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/movie/it-part-1-the-losers-club.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "637991bd91d089d102f0b8551b203f71d282f568c2c8da0a00f9c0ad9fb51a09",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/movie/it-chapter-two.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "034e7dc2f87c9ffdcb6ec40ea48f68c0da842b8f153f011174866d089a1cbbe3",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/movie/life-of-chuck.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "a1068ce26bad554bd0955dfc4cd271544784e9aafa0d09ee12ae908205e055a9",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/movie/long-walk.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "006f29580705b42c4a518726dac0c879928601a300a3afdba577213f8428400d",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/movie/mangler.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "3194690e2eb3c7145066cb11afb068ae2cd86a2eaed949144caade965bff265e",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/movie/maximum-overdrive.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "2e7dff2c3affeba1cd017f7824b1ff7e5e66e3b0f770c703d6f82754a63f7271",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/movie/misery.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "9accaa5607ffe4ae387b61e9e1993cf94933bae860525e426ee044285b2a36b9",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/movie/mist.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "99be6c0abc163e19888b1fc316b078848f5161f8efcf86ffee0b4504ef5aa8ca",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/movie/monkey.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "6abb292375a67d6f1bde745a4814db9b4310f6165cfc4ca2e176fd27a68db0bc",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/movie/mr-harrigans-phone.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "48d13a0c2c6f7c5cf6881e4119722d460bc5545a959f55faa118d3d3856e5fea",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/movie/needful-things.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "92c2adc47499ce47d292ceaab9161e6f765e85fe993e58d90689ab194baa7622",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/movie/night-flier.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "4d5ac1abb344ef84538c16b2413777956f65b56dee1aea4d25643d7444cd6192",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/movie/riding-the-bullet.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "3afc8aea4d5532544da36a2fe70197b40f6bac918b8b4c237bca6e5605b0e2b5",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/movie/running-man.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "3bbd539f4c3edd3cf126c9ab15628070cbb9b1a5769c7a5f8b496e6782e0a3d2",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/movie/running-man-(2025).html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "68bb4530129fc9758af2a244e56e2d79268f05b9b17afd18e79af78d3bc8d631",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/movie/salems-lot.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "e137c17e7845a6c0361e5dc57b359da55989977fbde7db1f3f783c8956c3d867",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/movie/secret-window.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "be91924f185613c4dd75eada551ae75277ebafea22a1b71a8b92242dafb56f89",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/movie/shawshank-redemption.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "644d1e9454365919da0f62b035fcb48cf778c81fd49d2f8b90fc50ca5166b843",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/movie/shining.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "e7b0cf98c67493cff405a98cfa47c3882872d2512ed6cdfb588e21c410d6c38a",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/movie/silver-bullet.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "ae700aabbf62f5a6427a845d618dcc9d053602570470462fdfe3c8fa5d2de3e0",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/movie/stand-by-me.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "f3c2bfd64dcca4ceb6429d8ca950d836527b42aae75393173b6b597404c159ef",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/movie/thinner.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "f4562ced2c7e2c1fc86fdf720cb1a22cf8cf2a9f521c4218de84936642604a84",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/movie/1408.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "9d2e1931d4e86dc92a03b09e975b44e5ec370862ec7c9581f5e4212b95aa0717",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/movie/1922.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "b321c1cb244355afea0f3530d62392db69afe6ea75504a550489c24c18413854",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/movie/girl-who-loved-tom-gordon.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "e993a308f536f8cba80377ec2aac121154745203b1be489038668965220c6ee0",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/movie/suffer-the-little-children.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "ecb545e4927ababb858f854da6010cc7c17a852d2fc45387fdf3fd7f1181eec4",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/television/11-22-63.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "d772d03536461b70abba63931163c80d18e3843ead129d860f9d3852837abda9",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/television/bag-of-bones.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "e5699d0ec1565927808e66dfd0256053f94c97640574d080b0cde769abb7ffb4",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/television/big-driver.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "3fd5ef985b85562abf95b0392bfc06a0bec9c3461766e5aceabd44a3b3729a7c",
+      "access": "public-html"
+    },
+    {
+      "url": "https://www.swank.com/public-libraries/details/21296-carrie",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "4d458f89ccffe3b5f55504e47f5e2c1c5b7174209c7519ee94c02b7a30cdc50a",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/television/chapelwaite.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "62c07c449c015f3adafe5c0ffb43c77c0d78032aebbf82f7e641ccbb4a0cb6d1",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/television/desperation.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "24fac3f20d852279d67c97ea03f2335bd6a718201dd4ff28d690362208829708",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/television/institute.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "8ce0010c2cdaf305b17393b78e95816628895dc26e5da25d1fc7dd28a03ded53",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/television/it.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "571bcb672c979f82e862d8130345821fb269e2d4479751945e958a6b77a87c71",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/television/it-welcome-to-derry.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "a0e6abac1cdf5dfe0953a22b623ab57eccb35e7e923d5f20434a8792baf91ecf",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/television/langoliers.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "468943455032b794d3320122b9a1b2abf2fe645c05a0cb72d937de1eeaa0f956",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/television/liseys-story.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "8103235438e3d35cc7c51b58aae3f9de0f001899514659c34f20191a84adedd5",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/television/mist.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "a8ccedd8b6dc88bb86c87a150e9c5530be2885be58728c4607937840aff9ad97",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/television/mr-mercedes.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "eeaf580ff65ae871dde453f75384f6c72c00fb792f5bca7caa4fa9b9b9343b78",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/television/nightmares-dreamscapes.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "a6095935b60c6fa888081088ae3bd4e0deeb1f69045fef44d79f931dca96533b",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/television/salems-lot.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "351a2e310032aa4b4c3de2cbac15219d3463ae720fed7a9af41f1fd79f1b568e",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/television/salems-lot-(remake).html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "a1c7b29a38df24b75aaf41379ce00bd637e223060215bdfbc532a070e46f2f22",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/television/shining.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "a40035afd3c6405ecb1934670ea1e334a7cb5054bf2e1b3e389bee271920dd57",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/television/sometimes-they-come-back.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "51e30e10840c96b0fb993a71e2ee6607b73e75fa4da2f8159aad23914f01ffbb",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/television/stand.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "c12dfc4b4e4c49d0b80c32cc9aed4964450a6986bbbd856111e92fd000749340",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/television/stand-(2020).html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "3249cfd5f5555c055618fd74c22ee35c539ad4961a57070482cb67eedcc576a7",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/television/tommyknockers.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "003d95746ccab43b05c14a71a906eb2e8e33ae62d454234c1a3b27acc25d7dd7",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/television/trucks.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "25099babdf98397b07faac3fa206818b47387568e645280ec25d86fe4ca59e03",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/television/under-the-dome.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "50938b977f9b891feb6c70c41bcbaf2dd1b617ae880c5fc9bfa962a23ef99835",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/television/outsider.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "78167223231bacf59cca454987ca19da717544309581483ebd5aee7116cd3326",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/movie/hearts.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "b0e2529cf083acfd17c130271461701ac3d8121272f1abbd29e9c3f5ed9b317a",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/works/movie/tales-from-the-darkside-the-movie.html",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "4256c5b4a955df2212cf142616ab295d6a20a43ee9b176942e1e01e60c3115b1",
+      "access": "public-html"
+    },
+    {
+      "url": "https://www.boxofficemojo.com/title/tt0144814/",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "aac8c361002ec5080ff27ed26459cf5677eccb6ae8a296ac282cfa0c5947d402",
+      "access": "public-html"
+    },
+    {
+      "url": "https://stephenking.com/darktower/books/",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "access": "unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://stephenking.com/darktower/connections/",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "cacheUsed": true,
+      "sha256": "00241298020bc74512833b2789caf3c02972f068f785a88ed2d792f05f4167e3",
+      "access": "public-html"
+    },
+    {
+      "url": "https://www.simonandschuster.com/books/Other-Worlds-Than-These/Stephen-King/The-Talisman-Trilogy/9781668233092",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "access": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://stephenking.com/darktower/book/",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "status": 200,
+      "finalUrl": "https://stephenking.com/darktower/book/",
+      "cacheUsed": false,
+      "sha256": "05ebfc497c32fbbf8c544f6e92776875ba04b643880407891a58776f93cca9d0",
+      "access": "public-html"
+    },
+    {
+      "url": "https://catalog.afi.com/Film/57053-STEPHEN-KINGS-CHILDREN-OF-THE-CORN",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "status": 200,
+      "finalUrl": "https://catalog.afi.com/Film/57053-STEPHEN-KINGS-CHILDREN-OF-THE-CORN",
+      "cacheUsed": false,
+      "sha256": "04e5af41791f13230d6cc691bf757c223b9dd302aa50d5c961da97997168d1d4",
+      "access": "public-html"
+    },
+    {
+      "url": "https://catalog.afi.com/Catalog/MovieDetails/57915",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "status": 200,
+      "finalUrl": "https://catalog.afi.com/Catalog/MovieDetails/57915",
+      "cacheUsed": false,
+      "sha256": "37cbf1ab626e62c398d7acc4844312867d097e02036227195120e53b96a47112",
+      "access": "public-html"
+    },
+    {
+      "url": "https://catalog.afi.com/Film/57919-THE-DEAD-ZONE",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "status": 200,
+      "finalUrl": "https://catalog.afi.com/Film/57919-THE-DEAD-ZONE",
+      "cacheUsed": false,
+      "sha256": "d1f4d917037dd7d524d19650a969852cb015972b97a814aa51b5550e5e66fe82",
+      "access": "public-html"
+    },
+    {
+      "url": "https://catalog.afi.com/Film/67797-misery",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "status": 200,
+      "finalUrl": "https://catalog.afi.com/Film/67797-misery",
+      "cacheUsed": false,
+      "sha256": "676c77469c0c2ed8f4ade6359938ea2c5bcbda01630b783da783d76178a9dd8b",
+      "access": "public-html"
+    },
+    {
+      "url": "https://www.sonypictures.com/movies/standbyme",
+      "checked": "2026-10-26",
+      "attempted": true,
+      "status": 200,
+      "finalUrl": "https://www.sonypictures.com/movies/standbyme",
+      "cacheUsed": false,
+      "sha256": "7cc1a76b9f229bba9edf83801e8e63882433f1eb3d8dc2e85c313cc73b8ef55c",
+      "access": "public-html"
+    }
+  ],
+  "readerObservations": [
+    {
+      "url": "https://www.simonandschuster.com/books/Other-Worlds-Than-These/Stephen-King/The-Talisman-Trilogy/9781668233092",
+      "checked": "2026-10-26",
+      "access": "full-public-page",
+      "channel": "web reader",
+      "contentType": "text/html",
+      "lines": 839,
+      "locator": "Book heading, series designation and About the Book, lines 231\u2013279",
+      "note": "Full public publisher page readable through web reader; direct collector request 403 remains recorded. No images, authentication or access-control bypass."
+    }
+  ]
+}

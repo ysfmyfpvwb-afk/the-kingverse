@@ -1,6 +1,6 @@
 {
   "checked": "2026-10-26",
-  "batch": "04-screen-adaptations",
+  "batch": "05-connected-universe",
   "fullMigration": false,
   "legacy": {
     "counts": {
@@ -37,15 +37,16 @@
     "people": 28,
     "credits": 291,
     "adaptations": 96,
-    "characters": 2,
-    "locations": 1,
-    "connections": 26,
+    "characters": 8,
+    "locations": 2,
+    "connections": 94,
     "collectionMemberships": 155,
-    "sources": 453,
-    "claims": 6864,
+    "sources": 482,
+    "claims": 7322,
     "publicationEvents": 239,
     "artworks": 234,
-    "externalReferences": 2
+    "externalReferences": 2,
+    "series": 2
   },
   "shadowEditionsByLanguage": {
     "nl": 68,
@@ -89,12 +90,16 @@
       "total": 96
     },
     "legacyTowerRows": {
-      "migrated": 0,
+      "reviewed": 17,
+      "migrated": 13,
+      "merged": 2,
+      "provisional": 2,
+      "rejected": 0,
       "total": 17
     },
     "fields": {
-      "mapped": 5657,
-      "retainedNotMigrated": 9693,
+      "mapped": 5674,
+      "retainedNotMigrated": 9676,
       "total": 15350
     },
     "note": "Identity/credit coverage is not full record migration; remaining fields are retained in source, with hashed pointers in differences.json."
@@ -6461,6 +6466,86 @@
       }
     }
   },
+  "universe": {
+    "batch": "05",
+    "checked": "2026-10-26",
+    "completeUniverse": false,
+    "definitions": {
+      "towerRecord": "One inherited DB.tower row; outcomes mutually exclusive. Multiple edges per row are not extra records.",
+      "screenCandidate": "One exact inherited adaptation/target pair; six volume candidates remain six candidates, not six proven adaptations.",
+      "verification": "Selected field claims for a bounded fact, not complete-record or worldwide verification.",
+      "derived": "Shared-entity path through separately sourced edges; not an independent direct statement.",
+      "counts": "Native connections exclude separately retained 155 collectionMemberships and 291 credits."
+    },
+    "baseCommit": "e26c74638a72a58d1cce581a0ebd1337781dafdf",
+    "newNativeConnections": 68,
+    "newSourceReviewedConnections": 66,
+    "totalNativeConnections": 94,
+    "byType": {
+      "sequel_to": 2,
+      "appears_in": 16,
+      "set_in": 3,
+      "shared_reference": 4,
+      "shared_cosmology": 2,
+      "adaptation_of": 39,
+      "inspired_by": 2,
+      "prequel_to": 2,
+      "part_of_series": 11,
+      "shares_character_with": 4,
+      "dark_tower_connection": 5,
+      "mentioned_in": 1,
+      "shares_location_with": 1,
+      "remake_of": 2
+    },
+    "byCertainty": {
+      "explicit": 87,
+      "strongly-implied": 5,
+      "interpretive": 2
+    },
+    "byVerification": {
+      "source-supported": 87,
+      "provisional": 7
+    },
+    "spoilerSensitive": 28,
+    "derived": 5,
+    "tower": {
+      "total": 17,
+      "byOutcome": {
+        "migrated": 13,
+        "merged": 2,
+        "provisional": 2
+      }
+    },
+    "screenCandidates": {
+      "total": 78,
+      "byOutcome": {
+        "insufficient-evidence": 43,
+        "confirmed": 24,
+        "provisional": 11
+      }
+    },
+    "sourceSupportedLiteraryConnections": 38,
+    "seriesAdaptationConnections": 1,
+    "separateRemakeConnections": 2,
+    "entities": {
+      "characters": 8,
+      "locations": 2,
+      "series": 2
+    },
+    "orphanReferences": 0,
+    "missingSources": 0,
+    "priorRecordAssessmentOverrides": [
+      {
+        "connectionId": "rel:000007",
+        "status": "provisional-target-scope"
+      },
+      {
+        "connectionId": "rel:000008",
+        "status": "provisional"
+      }
+    ],
+    "readiness": "Not ready for a full Explorer switch: unresolved source targets, publication/edition history, image rights and complete UI compatibility require further review."
+  },
   "trilogy": {
     "orderedWorkIds": [
       "wrk:000001",
@@ -6498,8 +6583,8 @@
     "sourceSupportedSeedRelations": 7,
     "seedTotal": 8,
     "newVerifiedSeriesRelations": 1,
-    "independentlyVerifiedNewRelations": 0,
-    "legacyTowerRowsPending": 17
+    "newSourceReviewedRelations": 66,
+    "legacyTowerRowsPending": 0
   },
   "sourceInformation": {
     "missingPrimaryUrl": {
@@ -6551,8 +6636,10 @@
     }
   },
   "blockers": [
-    "Batches 01–04 represent all inherited literary and 96 screen identities; source-supported links, candidate links and complete filmography are different scopes.",
-    "All 154 edition examples are projected; 154 edition dates, formats, publisher/printing histories and NL translator credits remain unresolved. Five secondary memberships, all contents orders, 83 screen records without source-supported literary relations and 17 legacy Tower rows remain open; some productions are original screenplays.",
+    "Not ready for a full Explorer switch: unresolved source targets, publication/edition history, image rights and complete UI compatibility require further review.",
+    "Two interpretive Tower records remain provisional; the existing Black House target requires volume-specific evidence. Unproven identity equivalences have not been certified.",
+    "Batches 01–05 represent all inherited literary and 96 screen identities; source-supported links, candidate links and complete filmography are different scopes.",
+    "All 154 edition examples are projected; dates, formats, publisher/printing histories and NL translator credits remain unresolved. Five secondary memberships and all contents orders remain open. Batch 05 leaves 11 provisional and 43 insufficient-evidence screen source candidates; some productions are original screenplays.",
     "Bibliographic URL matching is not identity resolution or proof of complete bibliography; unresolved source rows must be reviewed.",
     "Identity and credit carry-forwards remain provisional; membership and series evidence are separately scoped. First-publication history, translation/edition identity and full contributor scopes remain open.",
     "Both sampled English covers returned 403 with an Explorer Referer; no explicit hotlink/republication permission was established. Do not bypass source restrictions.",

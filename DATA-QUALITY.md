@@ -279,7 +279,7 @@ Alle 154 bestaande editievoorbeelden zijn opgenomen (150 nieuw): 86 EN en 68 NL,
 
 4,058 van 15,350 DB-bladvelden zijn gekoppeld; 11,292 blijven behouden maar niet canoniek gekoppeld. De aanvullende ledger verantwoordt afzonderlijk 1.160 gekoppelde en 5.440 behouden bewijsvelden. Deze scopes bevatten herhaalde bewijzen, geen unieke feiten. 703 indexregels en 692 gelinkte bibliografieregels blijven bronregels, geen aantallen unieke werken. Alle eerdere identiteiten/claims blijven behouden. Geen wereldwijde volledigheidsclaim; 96 adaptaties en 17 Tower-records blijven buiten deze batch. Batch 04 is niet gestart.
 
-## Actuele schaduwkwaliteit — Batch 04
+## Historische schaduwkwaliteit — Batch 04
 
 Alle 96 bestaande schermweergaven zijn als 96 afzonderlijke canonieke producties gemigreerd. Geen titelmerge of nieuwe literaire identiteit. Brongecontroleerde literaire relaties: 14; voorlopige canonieke relatie: 2; voorlopige schermprequel: 1. 78 overige bronkandidaten, 18 bundelcontexten en vijf oorspronkelijke scenariodelen blijven afzonderlijk herkenbaar. 83 producties hebben nog geen bronondersteunde literaire relatie; originele scenario’s vereisen niet automatisch een literair bronwerk.
 
@@ -287,4 +287,13 @@ Alle 96 bestaande schermweergaven zijn als 96 afzonderlijke canonieke producties
 
 82 bekende posterverwijzingen; 14 producties zonder geregistreerde poster. Nul posters met vastgestelde hergebruikrechten en toegestane betrouwbare levering. Geen beelden gedownload, overgenomen scores geïmporteerd of beperkingen omzeild. Drie numerieke IMDb-waarnemingen en twee IMDb-gebaseerde omschrijvingen blijven in de oude bron ter beoordeling. Nieuwe metadataomschrijvingen bevatten geen plot. Vier beschadigde makersnamen en 95 ontbrekende land-/taalbevestigingen blijven expliciet open.
 
-5657 van 15350 catalogusbladvelden zijn gekoppeld; 9693 behouden maar nog niet gekoppeld. De Batch-04-bewijsledger omvat 1.827 bladen: 574 gekoppeld, 1.253 behouden, naast de afzonderlijke Batch-03-ledger. Herhaalde bewijzen worden niet als unieke feiten opgeteld. Alle Batch-03-records zijn op digest behouden; website, Explorer en spoilerbediening blijven onveranderd. Zie [MIGRATION-BATCH-04.md](MIGRATION-BATCH-04.md). 17 Tower-records en de resterende semantische veldcontrole volgen alleen op nieuwe opdracht. Batch 05 is niet gestart.
+5657 van 15350 catalogusbladvelden zijn gekoppeld; 9693 behouden maar nog niet gekoppeld. De Batch-04-bewijsledger omvat 1.827 bladen: 574 gekoppeld, 1.253 behouden, naast de afzonderlijke Batch-03-ledger. Herhaalde bewijzen worden niet als unieke feiten opgeteld. Alle Batch-03-records zijn op digest behouden; website, Explorer en spoilerbediening blijven onveranderd. Zie [MIGRATION-BATCH-04.md](MIGRATION-BATCH-04.md). 17 Tower-records en de resterende semantische veldcontrole volgen alleen op nieuwe opdracht. Dit is de historische Batch-04-stand; de actuele Batch 05 volgt hieronder.
+
+## Actuele schaduwkwaliteit — Batch 05
+
+94 native relaties: 68 nieuw, naast 155 behouden bundellidmaatschappen en 291 makerscredits. 8 personages, 2 locaties en 2 afzonderlijke reeksen; geen volledige encyclopedie.
+17 Tower-bronrecords gecontroleerd: 13 gemigreerd, 2 samengevoegd met bestaande relaties, 2 voorlopig behouden, 0 geheel afgewezen. Afgewezen subclaims blijven als onzekerheid gedocumenteerd.
+Exact 78 overgenomen adaptatie/bron-paren gecontroleerd: 24 bevestigd, 11 voorlopig, 43 onvoldoende bewijs, 0 bewezen onjuist. 38 bronondersteunde literaire bronrelaties totaal (37 adaptaties en één inspired-by), naast één afzonderlijk bevestigde reeksadaptatie en 2 remake-relaties. De historische Batch-04-kandidaten blijven ongewijzigd; de nieuwe beoordeling is een aparte laag.
+5674 van 15350 catalogusbladvelden gekoppeld; 9676 behouden maar nog niet gekoppeld. 17 nieuwe koppelingen betreffen de redactioneel beoordeelde Tower-zekerheidsvelden. De volledige toelichtingen en andere legacy-velden blijven behouden, geen volledigheidsclaim.
+Zekerheid: {'explicit': 87, 'strongly-implied': 5, 'interpretive': 2}; verificatie: {'source-supported': 87, 'provisional': 7}. 28 plot/einde-relaties; 5 expliciet afgeleide paden. Validator: nul verweesde verwijzingen, nul ontbrekende bronnen. Een bestaande precieze boektarget blijft in de actuele beoordeling voorlopig.
+Standaardgrafiek filtert plot/einde vóór namen en toelichtingen. Het dashboard toont uitsluitend aantallen. Publieke JSON is niet geheim; technische bronbestanden bevatten spoilers. Website en Explorer blijven byte-identiek. Zie [MIGRATION-BATCH-05.md](MIGRATION-BATCH-05.md). Stop na Batch 05; geen volledige Explorer-aansluiting.

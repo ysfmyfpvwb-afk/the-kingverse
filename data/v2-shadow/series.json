@@ -1,0 +1,44 @@
+[
+  {
+    "id": "ser:000001",
+    "entityType": "series",
+    "name": "The Dark Tower",
+    "aliases": [],
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    },
+    "seriesKind": "literary-series",
+    "scope": "Seven numbered novels plus interlude",
+    "verification": {
+      "claimIds": [
+        "clm:006865",
+        "clm:006866",
+        "clm:006867",
+        "clm:006868"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "ser:000002",
+    "entityType": "series",
+    "name": "The Talisman Trilogy",
+    "aliases": [],
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    },
+    "seriesKind": "literary-series",
+    "scope": "Three-volume sequence",
+    "verification": {
+      "claimIds": [
+        "clm:006869",
+        "clm:006870",
+        "clm:006871",
+        "clm:006872"
+      ],
+      "open": []
+    }
+  }
+]

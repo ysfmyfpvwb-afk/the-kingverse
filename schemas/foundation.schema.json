@@ -99,6 +99,12 @@
       "items": {
         "$ref": "#/$defs/externalReference"
       }
+    },
+    "series": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/series"
+      }
     }
   },
   "required": [
@@ -139,7 +145,8 @@
             "membership",
             "publication",
             "artwork",
-            "externalReference"
+            "externalReference",
+            "series"
           ]
         },
         "id": {
@@ -647,6 +654,9 @@
         "continuity": {
           "type": "string",
           "minLength": 1
+        },
+        "spoiler": {
+          "$ref": "#/$defs/spoiler"
         }
       },
       "required": [
@@ -692,6 +702,9 @@
         "continuity": {
           "type": "string",
           "minLength": 1
+        },
+        "spoiler": {
+          "$ref": "#/$defs/spoiler"
         }
       },
       "required": [
@@ -733,7 +746,13 @@
             "shared_reference",
             "shared_cosmology",
             "thematic_parallel",
-            "same_as"
+            "same_as",
+            "part_of_series",
+            "shares_character_with",
+            "shares_location_with",
+            "references_work",
+            "dark_tower_connection",
+            "remake_of"
           ]
         },
         "to": {
@@ -751,6 +770,41 @@
         },
         "spoiler": {
           "$ref": "#/$defs/spoiler"
+        },
+        "via": {
+          "$ref": "#/$defs/ref"
+        },
+        "seriesPosition": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "derivation": {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "const": "shared-entity-path"
+            },
+            "premiseIds": {
+              "type": "array",
+              "minItems": 2,
+              "maxItems": 2,
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^rel:[0-9]{6}$"
+              }
+            },
+            "method": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "kind",
+            "premiseIds",
+            "method"
+          ],
+          "additionalProperties": false
         }
       },
       "required": [
@@ -1561,7 +1615,8 @@
                   "claim",
                   "publication",
                   "artwork",
-                  "externalReference"
+                  "externalReference",
+                  "series"
                 ]
               }
             },
@@ -1619,7 +1674,8 @@
             "shadow-library-batch-01",
             "shadow-stories-batch-02",
             "shadow-publications-batch-03",
-            "shadow-screen-batch-04"
+            "shadow-screen-batch-04",
+            "shadow-universe-batch-05"
           ]
         },
         "baselineCommit": {
@@ -1679,6 +1735,52 @@
           }
         }
       ]
+    },
+    "series": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z]{3,4}:[0-9]{6}$"
+        },
+        "entityType": {
+          "const": "series"
+        },
+        "verification": {
+          "$ref": "#/$defs/verification"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "aliases": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/alias"
+          }
+        },
+        "seriesKind": {
+          "const": "literary-series"
+        },
+        "scope": {
+          "type": "string",
+          "minLength": 1
+        },
+        "spoiler": {
+          "$ref": "#/$defs/spoiler"
+        }
+      },
+      "required": [
+        "id",
+        "entityType",
+        "verification",
+        "name",
+        "aliases",
+        "seriesKind",
+        "scope",
+        "spoiler"
+      ],
+      "additionalProperties": false
     }
   }
 }

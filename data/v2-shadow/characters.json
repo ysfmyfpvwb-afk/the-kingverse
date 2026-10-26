@@ -26,5 +26,137 @@
     "name": "Lily Cavanaugh Sawyer",
     "aliases": [],
     "continuity": "The Talisman literary continuity"
+  },
+  {
+    "id": "chr:000003",
+    "entityType": "character",
+    "name": "Roland Deschain",
+    "aliases": [],
+    "spoiler": {
+      "level": "premise",
+      "workIds": [
+        "wrk:000014",
+        "wrk:000155"
+      ]
+    },
+    "continuity": "Official Dark Tower connections, scoped appearances only",
+    "verification": {
+      "claimIds": [
+        "clm:006873",
+        "clm:006874",
+        "clm:006875"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "chr:000004",
+    "entityType": "character",
+    "name": "Randall Flagg",
+    "aliases": [],
+    "spoiler": {
+      "level": "plot",
+      "workIds": [
+        "wrk:000007",
+        "wrk:000020"
+      ]
+    },
+    "continuity": "Official Dark Tower connections, scoped appearances only",
+    "verification": {
+      "claimIds": [
+        "clm:006876",
+        "clm:006877",
+        "clm:006878"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "chr:000005",
+    "entityType": "character",
+    "name": "Father Callahan",
+    "aliases": [],
+    "spoiler": {
+      "level": "plot",
+      "workIds": [
+        "wrk:000004",
+        "wrk:000039"
+      ]
+    },
+    "continuity": "Official Dark Tower connections, scoped appearances only",
+    "verification": {
+      "claimIds": [
+        "clm:006879",
+        "clm:006880",
+        "clm:006881"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "chr:000006",
+    "entityType": "character",
+    "name": "Ted Brautigan",
+    "aliases": [],
+    "spoiler": {
+      "level": "plot",
+      "workIds": [
+        "wrk:000041",
+        "wrk:000145"
+      ]
+    },
+    "continuity": "Official Dark Tower connections, scoped appearances only",
+    "verification": {
+      "claimIds": [
+        "clm:006882",
+        "clm:006883",
+        "clm:006884"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "chr:000007",
+    "entityType": "character",
+    "name": "Patrick Danville",
+    "aliases": [],
+    "spoiler": {
+      "level": "plot",
+      "workIds": [
+        "wrk:000029",
+        "wrk:000041"
+      ]
+    },
+    "continuity": "Official Dark Tower connections, scoped appearances only",
+    "verification": {
+      "claimIds": [
+        "clm:006885",
+        "clm:006886",
+        "clm:006887"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "chr:000008",
+    "entityType": "character",
+    "name": "Dinky Earnshaw",
+    "aliases": [],
+    "spoiler": {
+      "level": "plot",
+      "workIds": [
+        "wrk:000041",
+        "wrk:000156"
+      ]
+    },
+    "continuity": "Official Dark Tower connections, scoped appearances only",
+    "verification": {
+      "claimIds": [
+        "clm:006888",
+        "clm:006889",
+        "clm:006890"
+      ],
+      "open": []
+    }
   }
 ]

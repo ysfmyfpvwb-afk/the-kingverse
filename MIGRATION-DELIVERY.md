@@ -1,6 +1,20 @@
-# The Kingverse 1.7 — huidige migratiestand na Batch 04
+# The Kingverse 1.7 — huidige migratiestand na Batch 05
 
-Batch 04 is uitgevoerd op basis van `aede96a374a263f91357df50eadb0a5ef9a9e9e2`. Zie **[MIGRATION-BATCH-04.md](MIGRATION-BATCH-04.md)** voor de actuele scope, exacte tellingen en blokkades; `migration-quality.html#screen-adaptations` is het gegenereerde dashboard.
+Batch 05 is uitgevoerd vanaf `e26c74638a72a58d1cce581a0ebd1337781dafdf`. Zie [MIGRATION-BATCH-05.md](MIGRATION-BATCH-05.md) voor definities, broncontrole, tests en blokkades. Het actuele dashboard staat op `migration-quality.html#connected-universe`.
+
+De schaduwlaag bevat 241 werken, 15 bundels, 154 edities, 239 publicatiewaarnemingen en 96 schermidentiteiten. De 155 bundellidmaatschappen en 291 makerscredits blijven afzonderlijk. Nieuw: 68 native relaties; totaal 94, met 8 personages, 2 locaties en 2 reeksen. Alle eerdere native records en aliases blijven behouden. Totaal 482 bronnen en 7.322 veldclaims.
+
+17 Tower-bronrecords: 13 gemigreerd, 2 met bestaande relaties samengevoegd, 2 voorlopig behouden, 0 geheel afgewezen. 78 exacte adaptatie/bron-paren: 24 bevestigd, 11 voorlopig, 43 onvoldoende bewijs, 0 bewezen onjuist. Nu 38 bronondersteunde literaire bronrelaties (37 `adaptation_of`, één `inspired_by`), naast één bevestigde reeksadaptatie en twee remake-relaties. De historische Batch-04-projectie blijft bewaard; de actuele beoordeling is een afzonderlijke laag.
+
+5.674 van 15.350 catalogusbladvelden gekoppeld; 9.676 expliciet behouden maar nog niet gekoppeld. De 17 extra koppelingen zijn Tower-zekerheidsbeoordelingen, geen claim dat alle legacy-tekst semantisch is gemigreerd. Nieuwe bronclaims zijn geen extra unieke werken.
+
+Standaardwebsite en tweeboeken-Explorer blijven byte-identiek. Geen nieuwe afbeeldingen of rechten vastgesteld. De standaardgrafiek filtert plot/einde vóór labels en toelichtingen; openbare technische JSON is geen geheimhouding. **Stop na Batch 05.** Volledige Explorer-integratie vereist een afzonderlijke opdracht en verdere kwaliteitscontrole.
+
+---
+
+## Historische stand na Batch 04
+
+Batch 04 is uitgevoerd op basis van `aede96a374a263f91357df50eadb0a5ef9a9e9e2`. Zie **[MIGRATION-BATCH-04.md](MIGRATION-BATCH-04.md)** voor de historische scope, exacte tellingen en blokkades; `migration-quality.html#screen-adaptations` is het gegenereerde dashboard.
 
 Alle 96 legacy-schermrecords hebben een afzonderlijke canonieke identiteit: 61 films, 15 miniseries, zeven televisiefilms en 13 series. 91 zijn als uitgebracht en vijf als onbekend geregistreerd, met bron- en seizoensscope. 14 literaire relaties zijn bronondersteund, twee voorlopig; één aanvullende schermprequelrelatie blijft voorlopig. 78 overige bronkandidaten, 18 bundelcontexten en vijf oorspronkelijke scenariodelen zijn geen bevestigde adaptaties. Geen titelmerge of fictieve bronwerken.
 
@@ -8,7 +22,7 @@ Alle 96 legacy-schermrecords hebben een afzonderlijke canonieke identiteit: 61 f
 
 De literaire aantallen blijven 241 werken, 15 collecties, 154 edities en 239 publicatiewaarnemingen. Alle Batch-03-records/IDs, de Talisman-trilogie en 155 memberships zijn behouden. Cumulatief: 28 personen, 291 credits, 26 verbindingen, 453 bronnen en 6.864 claims. 5.657 van 15.350 DB-bladvelden zijn gekoppeld; 9.693 expliciet behouden. De aparte bewijsledgers hebben eigen, niet optelbare bibliografische noemers.
 
-Geen volledige filmografische of bibliografische volledigheid claimen. Website, Explorer, bestaande routes en spoilerbediening blijven ongewijzigd. **Batch 05 is niet gestart.** Historische opleveringen: [Batch 03](MIGRATION-BATCH-03.md), [Batch 02](MIGRATION-BATCH-02.md).
+Geen volledige filmografische of bibliografische volledigheid claimen. Website, Explorer, bestaande routes en spoilerbediening blijven ongewijzigd. Deze cijfers zijn het bevroren vertrekpunt voor Batch 05. Historische opleveringen: [Batch 03](MIGRATION-BATCH-03.md), [Batch 02](MIGRATION-BATCH-02.md).
 
 ---
 

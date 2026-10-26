@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "scope": "shadow-screen-batch-04",
-  "baselineCommit": "aede96a374a263f91357df50eadb0a5ef9a9e9e2",
+  "scope": "shadow-universe-batch-05",
+  "baselineCommit": "e26c74638a72a58d1cce581a0ebd1337781dafdf",
   "migratedLegacyWorkIds": [
     "work:carrie",
     "work:salem-s-lot",
@@ -270,9 +270,9 @@
     "about.js": "25f02fe0094dfdf71590c562153e12fb966543fdba713ee77d71d69e9b4f1270"
   },
   "notes": [
-    "Cumulative Batches 01–04. All 96 inherited screen identities; no worldwide filmography completeness claim.",
-    "Confirmed adaptation relations are distinct from unconfirmed legacy candidates and collection context.",
-    "96 poster policy decisions; zero new images or numeric ratings approved.",
-    "Existing site, Explorer, earlier native records and literary/Tower relations unchanged; stop before Batch 05."
+    "Batches 01–05: bounded canonical relationship graph, not a complete universe or bibliography.",
+    "All 17 Tower source rows and exactly 78 inherited screen candidates assessed.",
+    "Unconfirmed candidates and precise-target questions retained; no runtime or Explorer switch.",
+    "Public plot JSON is not secret. The safe graph omits plot/ending facts before labels and metadata are projected."
   ]
 }

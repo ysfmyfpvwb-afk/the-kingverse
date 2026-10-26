@@ -1,0 +1,2262 @@
+{
+  "scope": "default-no-plot",
+  "publicDataIsNotSecret": true,
+  "nodes": [
+    {
+      "id": "wrk:000002",
+      "type": "work",
+      "label": "Black House"
+    },
+    {
+      "id": "wrk:000001",
+      "type": "work",
+      "label": "The Talisman"
+    },
+    {
+      "id": "chr:000001",
+      "type": "character",
+      "label": "Jack Sawyer"
+    },
+    {
+      "id": "chr:000002",
+      "type": "character",
+      "label": "Lily Cavanaugh Sawyer"
+    },
+    {
+      "id": "loc:000001",
+      "type": "location",
+      "label": "The Territories"
+    },
+    {
+      "id": "wrk:000067",
+      "type": "work",
+      "label": "Other Worlds Than These"
+    },
+    {
+      "id": "adp:000019",
+      "type": "adaptation",
+      "label": "Firestarter"
+    },
+    {
+      "id": "wrk:000010",
+      "type": "work",
+      "label": "Firestarter"
+    },
+    {
+      "id": "adp:000020",
+      "type": "adaptation",
+      "label": "Firestarter"
+    },
+    {
+      "id": "adp:000089",
+      "type": "adaptation",
+      "label": "Mercy"
+    },
+    {
+      "id": "wrk:000115",
+      "type": "work",
+      "label": "Gramma"
+    },
+    {
+      "id": "adp:000001",
+      "type": "adaptation",
+      "label": "A Good Marriage"
+    },
+    {
+      "id": "wrk:000180",
+      "type": "work",
+      "label": "A Good Marriage"
+    },
+    {
+      "id": "adp:000024",
+      "type": "adaptation",
+      "label": "Hearts in Atlantis"
+    },
+    {
+      "id": "wrk:000145",
+      "type": "work",
+      "label": "Low Men in Yellow Coats"
+    },
+    {
+      "id": "adp:000005",
+      "type": "adaptation",
+      "label": "Cat's Eye"
+    },
+    {
+      "id": "wrk:000085",
+      "type": "work",
+      "label": "Quitters, Inc."
+    },
+    {
+      "id": "wrk:000083",
+      "type": "work",
+      "label": "The Ledge"
+    },
+    {
+      "id": "adp:000038",
+      "type": "adaptation",
+      "label": "Pet Sematary"
+    },
+    {
+      "id": "wrk:000016",
+      "type": "work",
+      "label": "Pet Sematary"
+    },
+    {
+      "id": "adp:000039",
+      "type": "adaptation",
+      "label": "Pet Sematary"
+    },
+    {
+      "id": "adp:000095",
+      "type": "adaptation",
+      "label": "Pet Sematary: Bloodlines"
+    },
+    {
+      "id": "adp:000004",
+      "type": "adaptation",
+      "label": "Carrie"
+    },
+    {
+      "id": "wrk:000003",
+      "type": "work",
+      "label": "Carrie"
+    },
+    {
+      "id": "adp:000083",
+      "type": "adaptation",
+      "label": "Carrie"
+    },
+    {
+      "id": "adp:000084",
+      "type": "adaptation",
+      "label": "Carrie"
+    },
+    {
+      "id": "adp:000090",
+      "type": "adaptation",
+      "label": "My Pretty Pony"
+    },
+    {
+      "id": "wrk:000135",
+      "type": "work",
+      "label": "My Pretty Pony"
+    },
+    {
+      "id": "adp:000079",
+      "type": "adaptation",
+      "label": "Haven"
+    },
+    {
+      "id": "wrk:000042",
+      "type": "work",
+      "label": "The Colorado Kid"
+    },
+    {
+      "id": "adp:000078",
+      "type": "adaptation",
+      "label": "The Dead Zone"
+    },
+    {
+      "id": "wrk:000009",
+      "type": "work",
+      "label": "The Dead Zone"
+    },
+    {
+      "id": "wrk:000014",
+      "type": "work",
+      "label": "The Dark Tower: The Gunslinger"
+    },
+    {
+      "id": "ser:000001",
+      "type": "series",
+      "label": "The Dark Tower"
+    },
+    {
+      "id": "wrk:000022",
+      "type": "work",
+      "label": "The Dark Tower: The Drawing of the Three"
+    },
+    {
+      "id": "wrk:000025",
+      "type": "work",
+      "label": "The Dark Tower: The Waste Lands"
+    },
+    {
+      "id": "wrk:000034",
+      "type": "work",
+      "label": "The Dark Tower: Wizard and Glass"
+    },
+    {
+      "id": "wrk:000039",
+      "type": "work",
+      "label": "The Dark Tower: Wolves of the Calla"
+    },
+    {
+      "id": "wrk:000040",
+      "type": "work",
+      "label": "The Dark Tower: Song of Susannah"
+    },
+    {
+      "id": "wrk:000041",
+      "type": "work",
+      "label": "The Dark Tower"
+    },
+    {
+      "id": "wrk:000049",
+      "type": "work",
+      "label": "The Dark Tower: The Wind Through the Keyhole"
+    },
+    {
+      "id": "wrk:000155",
+      "type": "work",
+      "label": "The Little Sisters of Eluria"
+    },
+    {
+      "id": "ser:000002",
+      "type": "series",
+      "label": "The Talisman Trilogy"
+    },
+    {
+      "id": "chr:000003",
+      "type": "character",
+      "label": "Roland Deschain"
+    },
+    {
+      "id": "adp:000003",
+      "type": "adaptation",
+      "label": "The Boogeyman"
+    },
+    {
+      "id": "wrk:000077",
+      "type": "work",
+      "label": "The Boogeyman"
+    },
+    {
+      "id": "adp:000007",
+      "type": "adaptation",
+      "label": "Children of the Corn"
+    },
+    {
+      "id": "wrk:000087",
+      "type": "work",
+      "label": "Children of the Corn"
+    },
+    {
+      "id": "adp:000011",
+      "type": "adaptation",
+      "label": "Cujo"
+    },
+    {
+      "id": "wrk:000012",
+      "type": "work",
+      "label": "Cujo"
+    },
+    {
+      "id": "adp:000014",
+      "type": "adaptation",
+      "label": "The Dead Zone"
+    },
+    {
+      "id": "adp:000015",
+      "type": "adaptation",
+      "label": "Doctor Sleep"
+    },
+    {
+      "id": "wrk:000051",
+      "type": "work",
+      "label": "Doctor Sleep"
+    },
+    {
+      "id": "adp:000026",
+      "type": "adaptation",
+      "label": "IT"
+    },
+    {
+      "id": "wrk:000019",
+      "type": "work",
+      "label": "IT"
+    },
+    {
+      "id": "adp:000031",
+      "type": "adaptation",
+      "label": "Maximum Overdrive"
+    },
+    {
+      "id": "wrk:000080",
+      "type": "work",
+      "label": "Trucks"
+    },
+    {
+      "id": "adp:000032",
+      "type": "adaptation",
+      "label": "Misery"
+    },
+    {
+      "id": "wrk:000021",
+      "type": "work",
+      "label": "Misery"
+    },
+    {
+      "id": "adp:000033",
+      "type": "adaptation",
+      "label": "The Mist"
+    },
+    {
+      "id": "wrk:000096",
+      "type": "work",
+      "label": "The Mist"
+    },
+    {
+      "id": "adp:000043",
+      "type": "adaptation",
+      "label": "'Salem's Lot"
+    },
+    {
+      "id": "wrk:000004",
+      "type": "work",
+      "label": "'Salem's Lot"
+    },
+    {
+      "id": "adp:000047",
+      "type": "adaptation",
+      "label": "Silver Bullet"
+    },
+    {
+      "id": "wrk:000017",
+      "type": "work",
+      "label": "Cycle of the Werewolf"
+    },
+    {
+      "id": "adp:000048",
+      "type": "adaptation",
+      "label": "Stand by Me"
+    },
+    {
+      "id": "wrk:000094",
+      "type": "work",
+      "label": "The Body"
+    },
+    {
+      "id": "adp:000055",
+      "type": "adaptation",
+      "label": "Bag of Bones"
+    },
+    {
+      "id": "wrk:000035",
+      "type": "work",
+      "label": "Bag of Bones"
+    },
+    {
+      "id": "adp:000056",
+      "type": "adaptation",
+      "label": "Big Driver"
+    },
+    {
+      "id": "wrk:000178",
+      "type": "work",
+      "label": "Big Driver"
+    },
+    {
+      "id": "adp:000057",
+      "type": "adaptation",
+      "label": "Carrie"
+    },
+    {
+      "id": "adp:000058",
+      "type": "adaptation",
+      "label": "Chapelwaite"
+    },
+    {
+      "id": "wrk:000072",
+      "type": "work",
+      "label": "Jerusalem's Lot"
+    },
+    {
+      "id": "adp:000062",
+      "type": "adaptation",
+      "label": "IT: Welcome to Derry"
+    },
+    {
+      "id": "adp:000064",
+      "type": "adaptation",
+      "label": "Lisey's Story"
+    },
+    {
+      "id": "wrk:000044",
+      "type": "work",
+      "label": "Lisey's Story"
+    },
+    {
+      "id": "adp:000066",
+      "type": "adaptation",
+      "label": "Mr. Mercedes"
+    },
+    {
+      "id": "wrk:000052",
+      "type": "work",
+      "label": "Mr. Mercedes"
+    },
+    {
+      "id": "adp:000070",
+      "type": "adaptation",
+      "label": "The Shining"
+    },
+    {
+      "id": "wrk:000005",
+      "type": "work",
+      "label": "The Shining"
+    },
+    {
+      "id": "adp:000075",
+      "type": "adaptation",
+      "label": "Trucks"
+    },
+    {
+      "id": "adp:000076",
+      "type": "adaptation",
+      "label": "Under the Dome"
+    },
+    {
+      "id": "wrk:000047",
+      "type": "work",
+      "label": "Under the Dome"
+    },
+    {
+      "id": "adp:000077",
+      "type": "adaptation",
+      "label": "The Outsider"
+    },
+    {
+      "id": "wrk:000058",
+      "type": "work",
+      "label": "The Outsider"
+    },
+    {
+      "id": "adp:000094",
+      "type": "adaptation",
+      "label": "Tales from the Darkside: The Movie"
+    },
+    {
+      "id": "wrk:000172",
+      "type": "work",
+      "label": "The Cat from Hell"
+    },
+    {
+      "id": "adp:000013",
+      "type": "adaptation",
+      "label": "The Dark Tower"
+    },
+    {
+      "id": "adp:000069",
+      "type": "adaptation",
+      "label": "'Salem's Lot"
+    },
+    {
+      "id": "adp:000068",
+      "type": "adaptation",
+      "label": "'Salem's Lot"
+    }
+  ],
+  "edges": [
+    {
+      "id": "rel:000001",
+      "from": {
+        "type": "work",
+        "id": "wrk:000002"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000001"
+      },
+      "predicate": "sequel_to",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "Black House is a sequel to The Talisman.",
+      "claimIds": [
+        "clm:000071",
+        "clm:000072",
+        "clm:000073",
+        "clm:000074",
+        "clm:000075"
+      ],
+      "verification": "source-supported"
+    },
+    {
+      "id": "rel:000002",
+      "from": {
+        "type": "character",
+        "id": "chr:000001"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000001"
+      },
+      "predicate": "appears_in",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000001"
+        ]
+      },
+      "explanation": "Jack Sawyer is the protagonist.",
+      "claimIds": [
+        "clm:000076",
+        "clm:000077",
+        "clm:000078",
+        "clm:000079",
+        "clm:000080"
+      ],
+      "verification": "source-supported"
+    },
+    {
+      "id": "rel:000003",
+      "from": {
+        "type": "character",
+        "id": "chr:000002"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000001"
+      },
+      "predicate": "appears_in",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000001"
+        ]
+      },
+      "explanation": "Lily is Jack’s mother.",
+      "claimIds": [
+        "clm:000081",
+        "clm:000082",
+        "clm:000083",
+        "clm:000084",
+        "clm:000085"
+      ],
+      "verification": "source-supported"
+    },
+    {
+      "id": "rel:000004",
+      "from": {
+        "type": "character",
+        "id": "chr:000001"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000002"
+      },
+      "predicate": "appears_in",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000001",
+          "wrk:000002"
+        ]
+      },
+      "explanation": "Jack Sawyer returns in Black House.",
+      "claimIds": [
+        "clm:000086",
+        "clm:000087",
+        "clm:000088",
+        "clm:000089",
+        "clm:000090"
+      ],
+      "verification": "source-supported"
+    },
+    {
+      "id": "rel:000005",
+      "from": {
+        "type": "work",
+        "id": "wrk:000001"
+      },
+      "to": {
+        "type": "location",
+        "id": "loc:000001"
+      },
+      "predicate": "set_in",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000001"
+        ]
+      },
+      "explanation": "The journey includes the Territories.",
+      "claimIds": [
+        "clm:000091",
+        "clm:000092",
+        "clm:000093",
+        "clm:000094",
+        "clm:000095"
+      ],
+      "verification": "source-supported"
+    },
+    {
+      "id": "rel:000009",
+      "from": {
+        "type": "work",
+        "id": "wrk:000067"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000002"
+      },
+      "predicate": "sequel_to",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "Other Worlds Than These is the third book in the Talisman trilogy, following Black House.",
+      "claimIds": [
+        "clm:002267",
+        "clm:002268",
+        "clm:002269",
+        "clm:002270",
+        "clm:002271"
+      ],
+      "verification": "source-supported"
+    },
+    {
+      "id": "rel:000010",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000019"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000010"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "The cited source explicitly identifies the literary source relationship. This does not certify a scene-for-scene adaptation.",
+      "claimIds": [
+        "clm:006780",
+        "clm:006781",
+        "clm:006782",
+        "clm:006783",
+        "clm:006784"
+      ],
+      "verification": "source-supported"
+    },
+    {
+      "id": "rel:000011",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000020"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000010"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "The cited source explicitly identifies the literary source relationship. This does not certify a scene-for-scene adaptation.",
+      "claimIds": [
+        "clm:006785",
+        "clm:006786",
+        "clm:006787",
+        "clm:006788",
+        "clm:006789"
+      ],
+      "verification": "source-supported"
+    },
+    {
+      "id": "rel:000012",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000089"
+      },
+      "to": {
+        "id": "wrk:000115",
+        "type": "work"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "The cited source explicitly identifies the literary source relationship. This does not certify a scene-for-scene adaptation.",
+      "claimIds": [
+        "clm:006790",
+        "clm:006791",
+        "clm:006792",
+        "clm:006793",
+        "clm:006794"
+      ],
+      "verification": "source-supported"
+    },
+    {
+      "id": "rel:000013",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000001"
+      },
+      "to": {
+        "id": "wrk:000180",
+        "type": "work"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "The cited source explicitly identifies the literary source relationship. This does not certify a scene-for-scene adaptation.",
+      "claimIds": [
+        "clm:006795",
+        "clm:006796",
+        "clm:006797",
+        "clm:006798",
+        "clm:006799"
+      ],
+      "verification": "source-supported"
+    },
+    {
+      "id": "rel:000014",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000024"
+      },
+      "to": {
+        "id": "wrk:000145",
+        "type": "work"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "The cited source explicitly identifies the literary source relationship. This does not certify a scene-for-scene adaptation.",
+      "claimIds": [
+        "clm:006800",
+        "clm:006801",
+        "clm:006802",
+        "clm:006803",
+        "clm:006804"
+      ],
+      "verification": "source-supported"
+    },
+    {
+      "id": "rel:000015",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000005"
+      },
+      "to": {
+        "id": "wrk:000085",
+        "type": "work"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "The cited source explicitly identifies the literary source relationship. This does not certify a scene-for-scene adaptation.",
+      "claimIds": [
+        "clm:006805",
+        "clm:006806",
+        "clm:006807",
+        "clm:006808",
+        "clm:006809"
+      ],
+      "verification": "source-supported"
+    },
+    {
+      "id": "rel:000016",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000005"
+      },
+      "to": {
+        "id": "wrk:000083",
+        "type": "work"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "The cited source explicitly identifies the literary source relationship. This does not certify a scene-for-scene adaptation.",
+      "claimIds": [
+        "clm:006810",
+        "clm:006811",
+        "clm:006812",
+        "clm:006813",
+        "clm:006814"
+      ],
+      "verification": "source-supported"
+    },
+    {
+      "id": "rel:000017",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000038"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000016"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "The cited source explicitly identifies the literary source relationship. This does not certify a scene-for-scene adaptation.",
+      "claimIds": [
+        "clm:006815",
+        "clm:006816",
+        "clm:006817",
+        "clm:006818",
+        "clm:006819"
+      ],
+      "verification": "source-supported"
+    },
+    {
+      "id": "rel:000018",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000039"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000016"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "strongly-implied",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "The source relationship is provisional: primary wording, source access or production scope requires further review.",
+      "claimIds": [
+        "clm:006820",
+        "clm:006821",
+        "clm:006822",
+        "clm:006823",
+        "clm:006824"
+      ],
+      "verification": "provisional"
+    },
+    {
+      "id": "rel:000019",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000095"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000016"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "The cited source explicitly identifies the literary source relationship. This does not certify a scene-for-scene adaptation.",
+      "claimIds": [
+        "clm:006825",
+        "clm:006826",
+        "clm:006827",
+        "clm:006828",
+        "clm:006829"
+      ],
+      "verification": "source-supported"
+    },
+    {
+      "id": "rel:000020",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000004"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000003"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "The cited source explicitly identifies the literary source relationship. This does not certify a scene-for-scene adaptation.",
+      "claimIds": [
+        "clm:006830",
+        "clm:006831",
+        "clm:006832",
+        "clm:006833",
+        "clm:006834"
+      ],
+      "verification": "source-supported"
+    },
+    {
+      "id": "rel:000021",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000083"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000003"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "The cited source explicitly identifies the literary source relationship. This does not certify a scene-for-scene adaptation.",
+      "claimIds": [
+        "clm:006835",
+        "clm:006836",
+        "clm:006837",
+        "clm:006838",
+        "clm:006839"
+      ],
+      "verification": "source-supported"
+    },
+    {
+      "id": "rel:000022",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000084"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000003"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "The cited source explicitly identifies the literary source relationship. This does not certify a scene-for-scene adaptation.",
+      "claimIds": [
+        "clm:006840",
+        "clm:006841",
+        "clm:006842",
+        "clm:006843",
+        "clm:006844"
+      ],
+      "verification": "source-supported"
+    },
+    {
+      "id": "rel:000023",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000090"
+      },
+      "to": {
+        "id": "wrk:000135",
+        "type": "work"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "The cited source explicitly identifies the literary source relationship. This does not certify a scene-for-scene adaptation.",
+      "claimIds": [
+        "clm:006845",
+        "clm:006846",
+        "clm:006847",
+        "clm:006848",
+        "clm:006849"
+      ],
+      "verification": "source-supported"
+    },
+    {
+      "id": "rel:000024",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000079"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000042"
+      },
+      "predicate": "inspired_by",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "The cited source explicitly identifies the inspiration relationship. This does not certify a scene-for-scene adaptation.",
+      "claimIds": [
+        "clm:006850",
+        "clm:006851",
+        "clm:006852",
+        "clm:006853",
+        "clm:006854"
+      ],
+      "verification": "source-supported"
+    },
+    {
+      "id": "rel:000025",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000078"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000009"
+      },
+      "predicate": "inspired_by",
+      "certainty": "strongly-implied",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "The source relationship is provisional: primary wording, source access or production scope requires further review.",
+      "claimIds": [
+        "clm:006855",
+        "clm:006856",
+        "clm:006857",
+        "clm:006858",
+        "clm:006859"
+      ],
+      "verification": "provisional"
+    },
+    {
+      "id": "rel:000026",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000095"
+      },
+      "to": {
+        "type": "adaptation",
+        "id": "adp:000039"
+      },
+      "predicate": "prequel_to",
+      "certainty": "strongly-implied",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "Official trailer metadata names the 2019 film, but its page could not be fetched. Accessible distributor and filmmaker sources establish a prequel/novel relationship without certifying this exact screen continuity. Target remains provisional.",
+      "claimIds": [
+        "clm:006860",
+        "clm:006861",
+        "clm:006862",
+        "clm:006863",
+        "clm:006864"
+      ],
+      "verification": "provisional"
+    },
+    {
+      "id": "rel:000027",
+      "from": {
+        "type": "work",
+        "id": "wrk:000014"
+      },
+      "to": {
+        "type": "series",
+        "id": "ser:000001"
+      },
+      "predicate": "part_of_series",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "Numbered volume in the official Dark Tower reading sequence.",
+      "claimIds": [
+        "clm:006895",
+        "clm:006896",
+        "clm:006897",
+        "clm:006898",
+        "clm:006899",
+        "clm:006900",
+        "clm:006901"
+      ],
+      "verification": "source-supported",
+      "seriesPosition": 1
+    },
+    {
+      "id": "rel:000028",
+      "from": {
+        "type": "work",
+        "id": "wrk:000022"
+      },
+      "to": {
+        "type": "series",
+        "id": "ser:000001"
+      },
+      "predicate": "part_of_series",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "Numbered volume in the official Dark Tower reading sequence.",
+      "claimIds": [
+        "clm:006902",
+        "clm:006903",
+        "clm:006904",
+        "clm:006905",
+        "clm:006906",
+        "clm:006907",
+        "clm:006908"
+      ],
+      "verification": "source-supported",
+      "seriesPosition": 2
+    },
+    {
+      "id": "rel:000029",
+      "from": {
+        "type": "work",
+        "id": "wrk:000025"
+      },
+      "to": {
+        "type": "series",
+        "id": "ser:000001"
+      },
+      "predicate": "part_of_series",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "Numbered volume in the official Dark Tower reading sequence.",
+      "claimIds": [
+        "clm:006909",
+        "clm:006910",
+        "clm:006911",
+        "clm:006912",
+        "clm:006913",
+        "clm:006914",
+        "clm:006915"
+      ],
+      "verification": "source-supported",
+      "seriesPosition": 3
+    },
+    {
+      "id": "rel:000030",
+      "from": {
+        "type": "work",
+        "id": "wrk:000034"
+      },
+      "to": {
+        "type": "series",
+        "id": "ser:000001"
+      },
+      "predicate": "part_of_series",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "Numbered volume in the official Dark Tower reading sequence.",
+      "claimIds": [
+        "clm:006916",
+        "clm:006917",
+        "clm:006918",
+        "clm:006919",
+        "clm:006920",
+        "clm:006921",
+        "clm:006922"
+      ],
+      "verification": "source-supported",
+      "seriesPosition": 4
+    },
+    {
+      "id": "rel:000031",
+      "from": {
+        "type": "work",
+        "id": "wrk:000039"
+      },
+      "to": {
+        "type": "series",
+        "id": "ser:000001"
+      },
+      "predicate": "part_of_series",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "Numbered volume in the official Dark Tower reading sequence.",
+      "claimIds": [
+        "clm:006923",
+        "clm:006924",
+        "clm:006925",
+        "clm:006926",
+        "clm:006927",
+        "clm:006928",
+        "clm:006929"
+      ],
+      "verification": "source-supported",
+      "seriesPosition": 5
+    },
+    {
+      "id": "rel:000032",
+      "from": {
+        "type": "work",
+        "id": "wrk:000040"
+      },
+      "to": {
+        "type": "series",
+        "id": "ser:000001"
+      },
+      "predicate": "part_of_series",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "Numbered volume in the official Dark Tower reading sequence.",
+      "claimIds": [
+        "clm:006930",
+        "clm:006931",
+        "clm:006932",
+        "clm:006933",
+        "clm:006934",
+        "clm:006935",
+        "clm:006936"
+      ],
+      "verification": "source-supported",
+      "seriesPosition": 6
+    },
+    {
+      "id": "rel:000033",
+      "from": {
+        "type": "work",
+        "id": "wrk:000041"
+      },
+      "to": {
+        "type": "series",
+        "id": "ser:000001"
+      },
+      "predicate": "part_of_series",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "Numbered volume in the official Dark Tower reading sequence.",
+      "claimIds": [
+        "clm:006937",
+        "clm:006938",
+        "clm:006939",
+        "clm:006940",
+        "clm:006941",
+        "clm:006942",
+        "clm:006943"
+      ],
+      "verification": "source-supported",
+      "seriesPosition": 7
+    },
+    {
+      "id": "rel:000034",
+      "from": {
+        "type": "work",
+        "id": "wrk:000049"
+      },
+      "to": {
+        "type": "series",
+        "id": "ser:000001"
+      },
+      "predicate": "part_of_series",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "An interlude placed between volumes IV and V; no invented numbered position.",
+      "claimIds": [
+        "clm:006944",
+        "clm:006945",
+        "clm:006946",
+        "clm:006947",
+        "clm:006948",
+        "clm:006949"
+      ],
+      "verification": "source-supported"
+    },
+    {
+      "id": "rel:000035",
+      "from": {
+        "type": "work",
+        "id": "wrk:000155"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000014"
+      },
+      "predicate": "prequel_to",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000155",
+          "wrk:000014"
+        ]
+      },
+      "explanation": "The official index identifies this story as a prequel to the first volume.",
+      "claimIds": [
+        "clm:006950",
+        "clm:006951",
+        "clm:006952",
+        "clm:006953",
+        "clm:006954",
+        "clm:006955"
+      ],
+      "verification": "source-supported"
+    },
+    {
+      "id": "rel:000058",
+      "from": {
+        "type": "work",
+        "id": "wrk:000001"
+      },
+      "to": {
+        "type": "series",
+        "id": "ser:000002"
+      },
+      "predicate": "part_of_series",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "Registered volume of the Talisman trilogy.",
+      "claimIds": [
+        "clm:007098",
+        "clm:007099",
+        "clm:007100",
+        "clm:007101",
+        "clm:007102",
+        "clm:007103",
+        "clm:007104"
+      ],
+      "verification": "source-supported",
+      "seriesPosition": 1
+    },
+    {
+      "id": "rel:000059",
+      "from": {
+        "type": "work",
+        "id": "wrk:000002"
+      },
+      "to": {
+        "type": "series",
+        "id": "ser:000002"
+      },
+      "predicate": "part_of_series",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "Registered volume of the Talisman trilogy.",
+      "claimIds": [
+        "clm:007105",
+        "clm:007106",
+        "clm:007107",
+        "clm:007108",
+        "clm:007109",
+        "clm:007110",
+        "clm:007111"
+      ],
+      "verification": "source-supported",
+      "seriesPosition": 2
+    },
+    {
+      "id": "rel:000060",
+      "from": {
+        "type": "work",
+        "id": "wrk:000067"
+      },
+      "to": {
+        "type": "series",
+        "id": "ser:000002"
+      },
+      "predicate": "part_of_series",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "Registered volume of the Talisman trilogy.",
+      "claimIds": [
+        "clm:007112",
+        "clm:007113",
+        "clm:007114",
+        "clm:007115",
+        "clm:007116",
+        "clm:007117",
+        "clm:007118"
+      ],
+      "verification": "source-supported",
+      "seriesPosition": 3
+    },
+    {
+      "id": "rel:000061",
+      "from": {
+        "type": "character",
+        "id": "chr:000001"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000067"
+      },
+      "predicate": "appears_in",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000067"
+        ]
+      },
+      "explanation": "The publisher confirms the return of Jack Sawyer.",
+      "claimIds": [
+        "clm:007119",
+        "clm:007120",
+        "clm:007121",
+        "clm:007122",
+        "clm:007123",
+        "clm:007124"
+      ],
+      "verification": "source-supported"
+    },
+    {
+      "id": "rel:000062",
+      "from": {
+        "type": "work",
+        "id": "wrk:000067"
+      },
+      "to": {
+        "type": "series",
+        "id": "ser:000001"
+      },
+      "predicate": "dark_tower_connection",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000067"
+        ]
+      },
+      "explanation": "The publisher explicitly connects this trilogy volume with the broader Dark Tower sequence.",
+      "claimIds": [
+        "clm:007125",
+        "clm:007126",
+        "clm:007127",
+        "clm:007128",
+        "clm:007129",
+        "clm:007130"
+      ],
+      "verification": "source-supported"
+    },
+    {
+      "id": "rel:000063",
+      "from": {
+        "type": "character",
+        "id": "chr:000003"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000155"
+      },
+      "predicate": "appears_in",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000155"
+        ]
+      },
+      "explanation": "Roland is the protagonist of this explicitly scoped work.",
+      "claimIds": [
+        "clm:007131",
+        "clm:007132",
+        "clm:007133",
+        "clm:007134",
+        "clm:007135",
+        "clm:007136"
+      ],
+      "verification": "source-supported"
+    },
+    {
+      "id": "rel:000064",
+      "from": {
+        "type": "character",
+        "id": "chr:000003"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000014"
+      },
+      "predicate": "appears_in",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000014"
+        ]
+      },
+      "explanation": "Roland is the protagonist of this explicitly scoped work.",
+      "claimIds": [
+        "clm:007137",
+        "clm:007138",
+        "clm:007139",
+        "clm:007140",
+        "clm:007141",
+        "clm:007142"
+      ],
+      "verification": "source-supported"
+    },
+    {
+      "id": "rel:000068",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000003"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000077"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "Screenplay/source statement explicitly identifies the short story.",
+      "claimIds": [
+        "clm:007161",
+        "clm:007162",
+        "clm:007163",
+        "clm:007164",
+        "clm:007165",
+        "clm:007166"
+      ],
+      "verification": "source-supported"
+    },
+    {
+      "id": "rel:000069",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000007"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000087"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "AFI literary-source field explicitly identifies the short story in Night Shift.",
+      "claimIds": [
+        "clm:007167",
+        "clm:007168",
+        "clm:007169",
+        "clm:007170",
+        "clm:007171",
+        "clm:007172"
+      ],
+      "verification": "source-supported"
+    },
+    {
+      "id": "rel:000070",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000011"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000012"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "AFI literary-source field explicitly identifies the novel Cujo.",
+      "claimIds": [
+        "clm:007173",
+        "clm:007174",
+        "clm:007175",
+        "clm:007176",
+        "clm:007177",
+        "clm:007178"
+      ],
+      "verification": "source-supported"
+    },
+    {
+      "id": "rel:000071",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000014"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000009"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "AFI history describes acquiring and adapting the novel The Dead Zone.",
+      "claimIds": [
+        "clm:007179",
+        "clm:007180",
+        "clm:007181",
+        "clm:007182",
+        "clm:007183",
+        "clm:007184"
+      ],
+      "verification": "source-supported"
+    },
+    {
+      "id": "rel:000072",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000015"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000051"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "Screenplay statement explicitly identifies the novel.",
+      "claimIds": [
+        "clm:007185",
+        "clm:007186",
+        "clm:007187",
+        "clm:007188",
+        "clm:007189",
+        "clm:007190"
+      ],
+      "verification": "source-supported"
+    },
+    {
+      "id": "rel:000073",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000026"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000019"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "Novel writer credit plus the specifically identified source work.",
+      "claimIds": [
+        "clm:007191",
+        "clm:007192",
+        "clm:007193",
+        "clm:007194",
+        "clm:007195",
+        "clm:007196"
+      ],
+      "verification": "source-supported"
+    },
+    {
+      "id": "rel:000074",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000031"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000080"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "The page explicitly identifies Trucks as the source story.",
+      "claimIds": [
+        "clm:007197",
+        "clm:007198",
+        "clm:007199",
+        "clm:007200",
+        "clm:007201",
+        "clm:007202"
+      ],
+      "verification": "source-supported"
+    },
+    {
+      "id": "rel:000075",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000032"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000021"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "AFI literary-source field explicitly identifies the novel Misery.",
+      "claimIds": [
+        "clm:007203",
+        "clm:007204",
+        "clm:007205",
+        "clm:007206",
+        "clm:007207",
+        "clm:007208"
+      ],
+      "verification": "source-supported"
+    },
+    {
+      "id": "rel:000076",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000033"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000096"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "The page identifies the novella from Skeleton Crew.",
+      "claimIds": [
+        "clm:007209",
+        "clm:007210",
+        "clm:007211",
+        "clm:007212",
+        "clm:007213",
+        "clm:007214"
+      ],
+      "verification": "source-supported"
+    },
+    {
+      "id": "rel:000077",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000043"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000004"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "Novel source writer credit identifies this work.",
+      "claimIds": [
+        "clm:007215",
+        "clm:007216",
+        "clm:007217",
+        "clm:007218",
+        "clm:007219",
+        "clm:007220"
+      ],
+      "verification": "source-supported"
+    },
+    {
+      "id": "rel:000078",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000047"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000017"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "The page explicitly identifies Cycle of the Werewolf.",
+      "claimIds": [
+        "clm:007221",
+        "clm:007222",
+        "clm:007223",
+        "clm:007224",
+        "clm:007225",
+        "clm:007226"
+      ],
+      "verification": "source-supported"
+    },
+    {
+      "id": "rel:000079",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000048"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000094"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "The author page and Sony explicitly identify The Body novella.",
+      "claimIds": [
+        "clm:007227",
+        "clm:007228",
+        "clm:007229",
+        "clm:007230",
+        "clm:007231",
+        "clm:007232"
+      ],
+      "verification": "source-supported"
+    },
+    {
+      "id": "rel:000080",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000055"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000035"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "The reproduced A&E announcement explicitly identifies the novel.",
+      "claimIds": [
+        "clm:007233",
+        "clm:007234",
+        "clm:007235",
+        "clm:007236",
+        "clm:007237",
+        "clm:007238"
+      ],
+      "verification": "source-supported"
+    },
+    {
+      "id": "rel:000081",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000056"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000178"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "The reproduced Lifetime announcement explicitly identifies the story.",
+      "claimIds": [
+        "clm:007239",
+        "clm:007240",
+        "clm:007241",
+        "clm:007242",
+        "clm:007243",
+        "clm:007244"
+      ],
+      "verification": "source-supported"
+    },
+    {
+      "id": "rel:000082",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000057"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000003"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "The actual Swank production page identifies the novel and the 1976 remake.",
+      "claimIds": [
+        "clm:007245",
+        "clm:007246",
+        "clm:007247",
+        "clm:007248",
+        "clm:007249",
+        "clm:007250"
+      ],
+      "verification": "source-supported"
+    },
+    {
+      "id": "rel:000083",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000058"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000072"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "The page explicitly identifies Jerusalem's Lot as its source story.",
+      "claimIds": [
+        "clm:007251",
+        "clm:007252",
+        "clm:007253",
+        "clm:007254",
+        "clm:007255",
+        "clm:007256"
+      ],
+      "verification": "source-supported"
+    },
+    {
+      "id": "rel:000084",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000062"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000019"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "The production description explicitly identifies the novel IT as its basis; this does not certify every continuity detail.",
+      "claimIds": [
+        "clm:007257",
+        "clm:007258",
+        "clm:007259",
+        "clm:007260",
+        "clm:007261",
+        "clm:007262"
+      ],
+      "verification": "source-supported"
+    },
+    {
+      "id": "rel:000085",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000064"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000044"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "The production description explicitly identifies the novel.",
+      "claimIds": [
+        "clm:007263",
+        "clm:007264",
+        "clm:007265",
+        "clm:007266",
+        "clm:007267",
+        "clm:007268"
+      ],
+      "verification": "source-supported"
+    },
+    {
+      "id": "rel:000086",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000066"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000052"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "The production description explicitly identifies the novel.",
+      "claimIds": [
+        "clm:007269",
+        "clm:007270",
+        "clm:007271",
+        "clm:007272",
+        "clm:007273",
+        "clm:007274"
+      ],
+      "verification": "source-supported"
+    },
+    {
+      "id": "rel:000087",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000070"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000005"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "The page identifies the miniseries as an adaptation and links the exact novel.",
+      "claimIds": [
+        "clm:007275",
+        "clm:007276",
+        "clm:007277",
+        "clm:007278",
+        "clm:007279",
+        "clm:007280"
+      ],
+      "verification": "source-supported"
+    },
+    {
+      "id": "rel:000088",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000075"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000080"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "The page explicitly identifies the short story Trucks.",
+      "claimIds": [
+        "clm:007281",
+        "clm:007282",
+        "clm:007283",
+        "clm:007284",
+        "clm:007285",
+        "clm:007286"
+      ],
+      "verification": "source-supported"
+    },
+    {
+      "id": "rel:000089",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000076"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000047"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "The page explicitly calls the series an adaptation and identifies the source work.",
+      "claimIds": [
+        "clm:007287",
+        "clm:007288",
+        "clm:007289",
+        "clm:007290",
+        "clm:007291",
+        "clm:007292"
+      ],
+      "verification": "source-supported"
+    },
+    {
+      "id": "rel:000090",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000077"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000058"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "The page explicitly identifies the novel of the same name.",
+      "claimIds": [
+        "clm:007293",
+        "clm:007294",
+        "clm:007295",
+        "clm:007296",
+        "clm:007297",
+        "clm:007298"
+      ],
+      "verification": "source-supported"
+    },
+    {
+      "id": "rel:000091",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000094"
+      },
+      "to": {
+        "type": "work",
+        "id": "wrk:000172"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "The page explicitly identifies The Cat from Hell as one segment source.",
+      "claimIds": [
+        "clm:007299",
+        "clm:007300",
+        "clm:007301",
+        "clm:007302",
+        "clm:007303",
+        "clm:007304"
+      ],
+      "verification": "source-supported"
+    },
+    {
+      "id": "rel:000092",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000013"
+      },
+      "to": {
+        "type": "series",
+        "id": "ser:000001"
+      },
+      "predicate": "adaptation_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "The official page identifies a Dark Tower series adaptation; individual-volume candidates remain provisional.",
+      "claimIds": [
+        "clm:007305",
+        "clm:007306",
+        "clm:007307",
+        "clm:007308",
+        "clm:007309",
+        "clm:007310"
+      ],
+      "verification": "source-supported"
+    },
+    {
+      "id": "rel:000093",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000057"
+      },
+      "to": {
+        "type": "adaptation",
+        "id": "adp:000004"
+      },
+      "predicate": "remake_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "The production page explicitly identifies this as a remake of the 1976 film.",
+      "claimIds": [
+        "clm:007311",
+        "clm:007312",
+        "clm:007313",
+        "clm:007314",
+        "clm:007315",
+        "clm:007316"
+      ],
+      "verification": "source-supported"
+    },
+    {
+      "id": "rel:000094",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000069"
+      },
+      "to": {
+        "type": "adaptation",
+        "id": "adp:000068"
+      },
+      "predicate": "remake_of",
+      "certainty": "explicit",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "explanation": "The official page explicitly identifies a remake of the 1979 television production.",
+      "claimIds": [
+        "clm:007317",
+        "clm:007318",
+        "clm:007319",
+        "clm:007320",
+        "clm:007321",
+        "clm:007322"
+      ],
+      "verification": "source-supported"
+    }
+  ]
+}

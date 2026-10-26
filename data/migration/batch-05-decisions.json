@@ -1,0 +1,1657 @@
+{
+  "batch": "05",
+  "checked": "2026-10-26",
+  "completeUniverse": false,
+  "definitions": {
+    "towerRecord": "One inherited DB.tower row; outcomes mutually exclusive. Multiple edges per row are not extra records.",
+    "screenCandidate": "One exact inherited adaptation/target pair; six volume candidates remain six candidates, not six proven adaptations.",
+    "verification": "Selected field claims for a bounded fact, not complete-record or worldwide verification.",
+    "derived": "Shared-entity path through separately sourced edges; not an independent direct statement.",
+    "counts": "Native connections exclude separately retained 155 collectionMemberships and 291 credits."
+  },
+  "baseCommit": "e26c74638a72a58d1cce581a0ebd1337781dafdf",
+  "newNativeConnections": 68,
+  "newSourceReviewedConnections": 66,
+  "totalNativeConnections": 94,
+  "byType": {
+    "sequel_to": 2,
+    "appears_in": 16,
+    "set_in": 3,
+    "shared_reference": 4,
+    "shared_cosmology": 2,
+    "adaptation_of": 39,
+    "inspired_by": 2,
+    "prequel_to": 2,
+    "part_of_series": 11,
+    "shares_character_with": 4,
+    "dark_tower_connection": 5,
+    "mentioned_in": 1,
+    "shares_location_with": 1,
+    "remake_of": 2
+  },
+  "byCertainty": {
+    "explicit": 87,
+    "strongly-implied": 5,
+    "interpretive": 2
+  },
+  "byVerification": {
+    "source-supported": 87,
+    "provisional": 7
+  },
+  "spoilerSensitive": 28,
+  "derived": 5,
+  "tower": {
+    "total": 17,
+    "byOutcome": {
+      "migrated": 13,
+      "merged": 2,
+      "provisional": 2
+    },
+    "records": [
+      {
+        "index": 0,
+        "outcome": "migrated",
+        "connectionIds": [
+          "rel:000027",
+          "rel:000028",
+          "rel:000029",
+          "rel:000030",
+          "rel:000031",
+          "rel:000032",
+          "rel:000033"
+        ],
+        "source": "https://stephenking.com/darktower/books/",
+        "reviewSource": "https://stephenking.com/darktower/book/",
+        "note": "Source-supported scoped relation; no broader identity inference."
+      },
+      {
+        "index": 1,
+        "outcome": "migrated",
+        "connectionIds": [
+          "rel:000034"
+        ],
+        "source": "https://stephenking.com/darktower/books/",
+        "reviewSource": "https://stephenking.com/darktower/book/",
+        "note": "Source-supported scoped relation; no broader identity inference."
+      },
+      {
+        "index": 2,
+        "outcome": "migrated",
+        "connectionIds": [
+          "rel:000035"
+        ],
+        "source": "https://stephenking.com/darktower/connections/",
+        "reviewSource": "https://stephenking.com/darktower/connections/",
+        "note": "Source-supported scoped relation; no broader identity inference."
+      },
+      {
+        "index": 3,
+        "outcome": "migrated",
+        "connectionIds": [
+          "rel:000036"
+        ],
+        "source": "https://stephenking.com/darktower/connections/",
+        "reviewSource": "https://stephenking.com/darktower/connections/",
+        "note": "Source-supported scoped relation; no broader identity inference."
+      },
+      {
+        "index": 4,
+        "outcome": "migrated",
+        "connectionIds": [
+          "rel:000037"
+        ],
+        "source": "https://stephenking.com/darktower/connections/",
+        "reviewSource": "https://stephenking.com/darktower/connections/",
+        "note": "Source-supported scoped relation; no broader identity inference."
+      },
+      {
+        "index": 5,
+        "outcome": "migrated",
+        "connectionIds": [
+          "rel:000038",
+          "rel:000039",
+          "rel:000040"
+        ],
+        "source": "https://stephenking.com/darktower/connections/",
+        "reviewSource": "https://stephenking.com/darktower/connections/",
+        "note": "Source-supported scoped relation; no broader identity inference."
+      },
+      {
+        "index": 6,
+        "outcome": "migrated",
+        "connectionIds": [
+          "rel:000047",
+          "rel:000048",
+          "rel:000049",
+          "rel:000050"
+        ],
+        "source": "https://stephenking.com/darktower/connections/",
+        "reviewSource": "https://stephenking.com/darktower/connections/",
+        "note": "Source-supported scoped relation; no broader identity inference."
+      },
+      {
+        "index": 7,
+        "outcome": "migrated",
+        "connectionIds": [
+          "rel:000041",
+          "rel:000042",
+          "rel:000043"
+        ],
+        "source": "https://stephenking.com/darktower/connections/",
+        "reviewSource": "https://stephenking.com/darktower/connections/",
+        "note": "Source-supported scoped relation; no broader identity inference."
+      },
+      {
+        "index": 8,
+        "outcome": "merged",
+        "connectionIds": [
+          "rel:000007"
+        ],
+        "source": "https://stephenking.com/darktower/connections/",
+        "reviewSource": "https://stephenking.com/darktower/connections/",
+        "note": "Existing relationship retained unchanged. Evidence confirms Tower cosmology generally; precise volume-VII target remains a scope question, not newly certified."
+      },
+      {
+        "index": 9,
+        "outcome": "provisional",
+        "connectionIds": [
+          "rel:000051"
+        ],
+        "source": "https://stephenking.com/darktower/connections/",
+        "reviewSource": "https://stephenking.com/darktower/connections/",
+        "note": "No Turtle/Maturin identity merge."
+      },
+      {
+        "index": 10,
+        "outcome": "migrated",
+        "connectionIds": [
+          "rel:000044",
+          "rel:000045",
+          "rel:000046"
+        ],
+        "source": "https://stephenking.com/darktower/connections/",
+        "reviewSource": "https://stephenking.com/darktower/connections/",
+        "note": "Source-supported scoped relation; no broader identity inference."
+      },
+      {
+        "index": 11,
+        "outcome": "migrated",
+        "connectionIds": [
+          "rel:000052"
+        ],
+        "source": "https://stephenking.com/darktower/connections/",
+        "reviewSource": "https://stephenking.com/darktower/connections/",
+        "note": "Source-supported scoped relation; no broader identity inference."
+      },
+      {
+        "index": 12,
+        "outcome": "merged",
+        "connectionIds": [
+          "rel:000008"
+        ],
+        "source": "https://stephenking.com/darktower/connections/",
+        "reviewSource": "https://stephenking.com/darktower/connections/",
+        "note": "Existing strongly-implied, provisional cosmology relationship retained; no certainty upgrade."
+      },
+      {
+        "index": 13,
+        "outcome": "migrated",
+        "connectionIds": [
+          "rel:000053",
+          "rel:000054",
+          "rel:000055"
+        ],
+        "source": "https://stephenking.com/darktower/connections/",
+        "reviewSource": "https://stephenking.com/darktower/connections/",
+        "note": "Source-supported scoped relation; no broader identity inference."
+      },
+      {
+        "index": 14,
+        "outcome": "migrated",
+        "connectionIds": [
+          "rel:000056"
+        ],
+        "source": "https://stephenking.com/darktower/connections/",
+        "reviewSource": "https://stephenking.com/darktower/connections/",
+        "note": "Source-supported scoped relation; no broader identity inference."
+      },
+      {
+        "index": 15,
+        "outcome": "provisional",
+        "connectionIds": [
+          "rel:000057"
+        ],
+        "source": "https://stephenking.com/darktower/connections/",
+        "reviewSource": "https://stephenking.com/darktower/connections/",
+        "note": "Rejected subclaim: identical Low Men. No same_as relation created."
+      },
+      {
+        "index": 16,
+        "outcome": "migrated",
+        "connectionIds": [
+          "rel:000058",
+          "rel:000059",
+          "rel:000060",
+          "rel:000001",
+          "rel:000009",
+          "rel:000061",
+          "rel:000062"
+        ],
+        "source": "https://www.simonandschuster.com/books/Other-Worlds-Than-These/Stephen-King/The-Talisman-Trilogy/9781668233092",
+        "reviewSource": "https://www.simonandschuster.com/books/Other-Worlds-Than-These/Stephen-King/The-Talisman-Trilogy/9781668233092",
+        "note": "Reuses wrk:000067, existing sequel chain and maker credits; no Mid-World/Territories identity inference."
+      }
+    ]
+  },
+  "screenCandidates": {
+    "total": 78,
+    "byOutcome": {
+      "insufficient-evidence": 43,
+      "confirmed": 24,
+      "provisional": 11
+    },
+    "records": [
+      {
+        "adaptationId": "adp:000002",
+        "target": {
+          "id": "wrk:000093",
+          "type": "work"
+        },
+        "source": "https://stephenking.com/works/movie/apt-pupil.html",
+        "legacyFilmId": "films:apt-pupil-1998",
+        "outcome": "insufficient-evidence",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/apt-pupil.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The acquired page provides synopsis, title or related-work context, without an explicit source-work statement. Candidate retained; no contrary fact inferred.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000003",
+        "target": {
+          "id": "wrk:000077",
+          "type": "work"
+        },
+        "source": "https://stephenking.com/works/movie/boogeyman.html",
+        "legacyFilmId": "films:the-boogeyman-2023",
+        "outcome": "confirmed",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/boogeyman.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "Screenplay/source statement explicitly identifies the short story.",
+        "connectionIds": [
+          "rel:000068"
+        ]
+      },
+      {
+        "adaptationId": "adp:000006",
+        "target": {
+          "type": "work",
+          "id": "wrk:000043"
+        },
+        "source": "https://stephenking.com/works/movie/cell.html",
+        "legacyFilmId": "films:cell-2016",
+        "outcome": "insufficient-evidence",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/cell.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The acquired page provides synopsis, title or related-work context, without an explicit source-work statement. Candidate retained; no contrary fact inferred.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000007",
+        "target": {
+          "id": "wrk:000087",
+          "type": "work"
+        },
+        "source": "https://stephenking.com/works/movie/children-of-the-corn.html",
+        "legacyFilmId": "films:children-of-the-corn-1984",
+        "outcome": "confirmed",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/children-of-the-corn.html",
+          "https://catalog.afi.com/Film/57053-STEPHEN-KINGS-CHILDREN-OF-THE-CORN"
+        ],
+        "locator": "Literary source/history field",
+        "note": "AFI literary-source field explicitly identifies the short story in Night Shift.",
+        "connectionIds": [
+          "rel:000069"
+        ]
+      },
+      {
+        "adaptationId": "adp:000008",
+        "target": {
+          "type": "work",
+          "id": "wrk:000015"
+        },
+        "source": "https://stephenking.com/works/movie/christine.html",
+        "legacyFilmId": "films:christine-1983",
+        "outcome": "insufficient-evidence",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/christine.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The acquired page provides synopsis, title or related-work context, without an explicit source-work statement. Candidate retained; no contrary fact inferred.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000009",
+        "target": {
+          "id": "wrk:000241",
+          "type": "work"
+        },
+        "source": "https://stephenking.com/works/movie/creepshow.html",
+        "legacyFilmId": "films:creepshow-1982",
+        "outcome": "insufficient-evidence",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/creepshow.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The acquired page provides synopsis, title or related-work context, without an explicit source-work statement. Candidate retained; no contrary fact inferred.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000010",
+        "target": {
+          "id": "wrk:000104",
+          "type": "work"
+        },
+        "source": "https://stephenking.com/works/movie/creepshow-2.html",
+        "legacyFilmId": "films:creepshow-2-1987",
+        "outcome": "provisional",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/creepshow-2.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "A segment is identified, but precise prior-story provenance remains insufficiently scoped.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000011",
+        "target": {
+          "type": "work",
+          "id": "wrk:000012"
+        },
+        "source": "https://stephenking.com/works/movie/cujo.html",
+        "legacyFilmId": "films:cujo-1983",
+        "outcome": "confirmed",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/cujo.html",
+          "https://catalog.afi.com/Catalog/MovieDetails/57915"
+        ],
+        "locator": "Literary source/history field",
+        "note": "AFI literary-source field explicitly identifies the novel Cujo.",
+        "connectionIds": [
+          "rel:000070"
+        ]
+      },
+      {
+        "adaptationId": "adp:000012",
+        "target": {
+          "type": "work",
+          "id": "wrk:000024"
+        },
+        "source": "https://stephenking.com/works/movie/dark-half.html",
+        "legacyFilmId": "films:the-dark-half-1993",
+        "outcome": "insufficient-evidence",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/dark-half.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The acquired page provides synopsis, title or related-work context, without an explicit source-work statement. Candidate retained; no contrary fact inferred.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000013",
+        "target": {
+          "type": "work",
+          "id": "wrk:000040"
+        },
+        "source": "https://stephenking.com/works/movie/dark-tower.html",
+        "legacyFilmId": "films:the-dark-tower-2017",
+        "outcome": "provisional",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/dark-tower.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The page confirms a series adaptation, not a separate adaptation of each of these six volumes.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000013",
+        "target": {
+          "type": "work",
+          "id": "wrk:000022"
+        },
+        "source": "https://stephenking.com/works/movie/dark-tower.html",
+        "legacyFilmId": "films:the-dark-tower-2017",
+        "outcome": "provisional",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/dark-tower.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The page confirms a series adaptation, not a separate adaptation of each of these six volumes.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000013",
+        "target": {
+          "type": "work",
+          "id": "wrk:000025"
+        },
+        "source": "https://stephenking.com/works/movie/dark-tower.html",
+        "legacyFilmId": "films:the-dark-tower-2017",
+        "outcome": "provisional",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/dark-tower.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The page confirms a series adaptation, not a separate adaptation of each of these six volumes.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000013",
+        "target": {
+          "type": "work",
+          "id": "wrk:000034"
+        },
+        "source": "https://stephenking.com/works/movie/dark-tower.html",
+        "legacyFilmId": "films:the-dark-tower-2017",
+        "outcome": "provisional",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/dark-tower.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The page confirms a series adaptation, not a separate adaptation of each of these six volumes.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000013",
+        "target": {
+          "type": "work",
+          "id": "wrk:000039"
+        },
+        "source": "https://stephenking.com/works/movie/dark-tower.html",
+        "legacyFilmId": "films:the-dark-tower-2017",
+        "outcome": "provisional",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/dark-tower.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The page confirms a series adaptation, not a separate adaptation of each of these six volumes.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000013",
+        "target": {
+          "type": "work",
+          "id": "wrk:000041"
+        },
+        "source": "https://stephenking.com/works/movie/dark-tower.html",
+        "legacyFilmId": "films:the-dark-tower-2017",
+        "outcome": "provisional",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/dark-tower.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The page confirms a series adaptation, not a separate adaptation of each of these six volumes.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000014",
+        "target": {
+          "type": "work",
+          "id": "wrk:000009"
+        },
+        "source": "https://stephenking.com/works/movie/dead-zone.html",
+        "legacyFilmId": "films:the-dead-zone-1983",
+        "outcome": "confirmed",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/dead-zone.html",
+          "https://catalog.afi.com/Film/57919-THE-DEAD-ZONE"
+        ],
+        "locator": "Literary source/history field",
+        "note": "AFI history describes acquiring and adapting the novel The Dead Zone.",
+        "connectionIds": [
+          "rel:000071"
+        ]
+      },
+      {
+        "adaptationId": "adp:000015",
+        "target": {
+          "type": "work",
+          "id": "wrk:000051"
+        },
+        "source": "https://stephenking.com/works/movie/doctor-sleep.html",
+        "legacyFilmId": "films:doctor-sleep-2019",
+        "outcome": "confirmed",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/doctor-sleep.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "Screenplay statement explicitly identifies the novel.",
+        "connectionIds": [
+          "rel:000072"
+        ]
+      },
+      {
+        "adaptationId": "adp:000016",
+        "target": {
+          "id": "wrk:000122",
+          "type": "work"
+        },
+        "source": "https://stephenking.com/works/movie/dolans-cadillac.html",
+        "legacyFilmId": "films:dolan-s-cadillac-2009",
+        "outcome": "insufficient-evidence",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/dolans-cadillac.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The acquired page provides synopsis, title or related-work context, without an explicit source-work statement. Candidate retained; no contrary fact inferred.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000017",
+        "target": {
+          "type": "work",
+          "id": "wrk:000028"
+        },
+        "source": "https://stephenking.com/works/movie/dolores-claiborne.html",
+        "legacyFilmId": "films:dolores-claiborne-1995",
+        "outcome": "insufficient-evidence",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/dolores-claiborne.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The acquired page provides synopsis, title or related-work context, without an explicit source-work statement. Candidate retained; no contrary fact inferred.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000018",
+        "target": {
+          "type": "work",
+          "id": "wrk:000037"
+        },
+        "source": "https://stephenking.com/works/movie/dreamcatcher.html",
+        "legacyFilmId": "films:dreamcatcher-2003",
+        "outcome": "insufficient-evidence",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/dreamcatcher.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The acquired page provides synopsis, title or related-work context, without an explicit source-work statement. Candidate retained; no contrary fact inferred.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000021",
+        "target": {
+          "type": "work",
+          "id": "wrk:000027"
+        },
+        "source": "https://stephenking.com/works/movie/geralds-game.html",
+        "legacyFilmId": "films:gerald-s-game-2017",
+        "outcome": "insufficient-evidence",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/geralds-game.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The acquired page provides synopsis, title or related-work context, without an explicit source-work statement. Candidate retained; no contrary fact inferred.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000022",
+        "target": {
+          "id": "wrk:000073",
+          "type": "work"
+        },
+        "source": "https://stephenking.com/works/movie/graveyard-shift.html",
+        "legacyFilmId": "films:graveyard-shift-1990",
+        "outcome": "insufficient-evidence",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/graveyard-shift.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The acquired page provides synopsis, title or related-work context, without an explicit source-work statement. Candidate retained; no contrary fact inferred.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000023",
+        "target": {
+          "type": "work",
+          "id": "wrk:000031"
+        },
+        "source": "https://stephenking.com/works/movie/green-mile.html",
+        "legacyFilmId": "films:the-green-mile-1999",
+        "outcome": "insufficient-evidence",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/green-mile.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The acquired page provides synopsis, title or related-work context, without an explicit source-work statement. Candidate retained; no contrary fact inferred.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000024",
+        "target": {
+          "id": "wrk:000149",
+          "type": "work"
+        },
+        "source": "https://stephenking.com/works/movie/hearts-in-atlantis.html",
+        "legacyFilmId": "films:hearts-in-atlantis-2001",
+        "outcome": "insufficient-evidence",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/hearts-in-atlantis.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The acquired page provides synopsis, title or related-work context, without an explicit source-work statement. Candidate retained; no contrary fact inferred.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000025",
+        "target": {
+          "id": "wrk:000225",
+          "type": "work"
+        },
+        "source": "https://stephenking.com/works/movie/in-the-tall-grass.html",
+        "legacyFilmId": "films:in-the-tall-grass-2019",
+        "outcome": "insufficient-evidence",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/in-the-tall-grass.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The acquired page provides synopsis, title or related-work context, without an explicit source-work statement. Candidate retained; no contrary fact inferred.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000026",
+        "target": {
+          "type": "work",
+          "id": "wrk:000019"
+        },
+        "source": "https://stephenking.com/works/movie/it-part-1-the-losers-club.html",
+        "legacyFilmId": "films:it-2017",
+        "outcome": "confirmed",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/it-part-1-the-losers-club.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "Novel writer credit plus the specifically identified source work.",
+        "connectionIds": [
+          "rel:000073"
+        ]
+      },
+      {
+        "adaptationId": "adp:000027",
+        "target": {
+          "type": "work",
+          "id": "wrk:000019"
+        },
+        "source": "https://stephenking.com/works/movie/it-chapter-two.html",
+        "legacyFilmId": "films:it-chapter-two-2019",
+        "outcome": "insufficient-evidence",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/it-chapter-two.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The acquired page provides synopsis, title or related-work context, without an explicit source-work statement. Candidate retained; no contrary fact inferred.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000028",
+        "target": {
+          "id": "wrk:000183",
+          "type": "work"
+        },
+        "source": "https://stephenking.com/works/movie/life-of-chuck.html",
+        "legacyFilmId": "films:the-life-of-chuck-2024",
+        "outcome": "insufficient-evidence",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/life-of-chuck.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The acquired page provides synopsis, title or related-work context, without an explicit source-work statement. Candidate retained; no contrary fact inferred.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000029",
+        "target": {
+          "type": "work",
+          "id": "wrk:000008"
+        },
+        "source": "https://stephenking.com/works/movie/long-walk.html",
+        "legacyFilmId": "films:the-long-walk-2025",
+        "outcome": "insufficient-evidence",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/long-walk.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The acquired page provides synopsis, title or related-work context, without an explicit source-work statement. Candidate retained; no contrary fact inferred.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000030",
+        "target": {
+          "id": "wrk:000076",
+          "type": "work"
+        },
+        "source": "https://stephenking.com/works/movie/mangler.html",
+        "legacyFilmId": "films:the-mangler-1995",
+        "outcome": "insufficient-evidence",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/mangler.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The acquired page provides synopsis, title or related-work context, without an explicit source-work statement. Candidate retained; no contrary fact inferred.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000031",
+        "target": {
+          "id": "wrk:000080",
+          "type": "work"
+        },
+        "source": "https://stephenking.com/works/movie/maximum-overdrive.html",
+        "legacyFilmId": "films:maximum-overdrive-1986",
+        "outcome": "confirmed",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/maximum-overdrive.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The page explicitly identifies Trucks as the source story.",
+        "connectionIds": [
+          "rel:000074"
+        ]
+      },
+      {
+        "adaptationId": "adp:000032",
+        "target": {
+          "type": "work",
+          "id": "wrk:000021"
+        },
+        "source": "https://stephenking.com/works/movie/misery.html",
+        "legacyFilmId": "films:misery-1990",
+        "outcome": "confirmed",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/misery.html",
+          "https://catalog.afi.com/Film/67797-misery"
+        ],
+        "locator": "Literary source/history field",
+        "note": "AFI literary-source field explicitly identifies the novel Misery.",
+        "connectionIds": [
+          "rel:000075"
+        ]
+      },
+      {
+        "adaptationId": "adp:000033",
+        "target": {
+          "id": "wrk:000096",
+          "type": "work"
+        },
+        "source": "https://stephenking.com/works/movie/mist.html",
+        "legacyFilmId": "films:the-mist-2007",
+        "outcome": "confirmed",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/mist.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The page identifies the novella from Skeleton Crew.",
+        "connectionIds": [
+          "rel:000076"
+        ]
+      },
+      {
+        "adaptationId": "adp:000034",
+        "target": {
+          "id": "wrk:000098",
+          "type": "work"
+        },
+        "source": "https://stephenking.com/works/movie/monkey.html",
+        "legacyFilmId": "films:the-monkey-2025",
+        "outcome": "insufficient-evidence",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/monkey.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The acquired page provides synopsis, title or related-work context, without an explicit source-work statement. Candidate retained; no contrary fact inferred.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000035",
+        "target": {
+          "id": "wrk:000182",
+          "type": "work"
+        },
+        "source": "https://stephenking.com/works/movie/mr-harrigans-phone.html",
+        "legacyFilmId": "films:mr-harrigan-s-phone-2022",
+        "outcome": "insufficient-evidence",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/mr-harrigans-phone.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The acquired page provides synopsis, title or related-work context, without an explicit source-work statement. Candidate retained; no contrary fact inferred.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000036",
+        "target": {
+          "type": "work",
+          "id": "wrk:000026"
+        },
+        "source": "https://stephenking.com/works/movie/needful-things.html",
+        "legacyFilmId": "films:needful-things-1993",
+        "outcome": "insufficient-evidence",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/needful-things.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The acquired page provides synopsis, title or related-work context, without an explicit source-work statement. Candidate retained; no contrary fact inferred.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000037",
+        "target": {
+          "id": "wrk:000125",
+          "type": "work"
+        },
+        "source": "https://stephenking.com/works/movie/night-flier.html",
+        "legacyFilmId": "films:the-night-flier-1997",
+        "outcome": "insufficient-evidence",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/night-flier.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The acquired page provides synopsis, title or related-work context, without an explicit source-work statement. Candidate retained; no contrary fact inferred.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000040",
+        "target": {
+          "id": "wrk:000162",
+          "type": "work"
+        },
+        "source": "https://stephenking.com/works/movie/riding-the-bullet.html",
+        "legacyFilmId": "films:riding-the-bullet-2004",
+        "outcome": "insufficient-evidence",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/riding-the-bullet.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The acquired page provides synopsis, title or related-work context, without an explicit source-work statement. Candidate retained; no contrary fact inferred.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000041",
+        "target": {
+          "type": "work",
+          "id": "wrk:000013"
+        },
+        "source": "https://stephenking.com/works/movie/running-man.html",
+        "legacyFilmId": "films:the-running-man-1987",
+        "outcome": "insufficient-evidence",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/running-man.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The acquired page provides synopsis, title or related-work context, without an explicit source-work statement. Candidate retained; no contrary fact inferred.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000042",
+        "target": {
+          "type": "work",
+          "id": "wrk:000013"
+        },
+        "source": "https://stephenking.com/works/movie/running-man-(2025).html",
+        "legacyFilmId": "films:the-running-man-2025",
+        "outcome": "insufficient-evidence",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/running-man-(2025).html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The acquired page provides synopsis, title or related-work context, without an explicit source-work statement. Candidate retained; no contrary fact inferred.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000043",
+        "target": {
+          "type": "work",
+          "id": "wrk:000004"
+        },
+        "source": "https://stephenking.com/works/movie/salems-lot.html",
+        "legacyFilmId": "films:salem-s-lot-2024",
+        "outcome": "confirmed",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/salems-lot.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "Novel source writer credit identifies this work.",
+        "connectionIds": [
+          "rel:000077"
+        ]
+      },
+      {
+        "adaptationId": "adp:000044",
+        "target": {
+          "id": "wrk:000119",
+          "type": "work"
+        },
+        "source": "https://stephenking.com/works/movie/secret-window.html",
+        "legacyFilmId": "films:secret-window-2004",
+        "outcome": "insufficient-evidence",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/secret-window.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The acquired page provides synopsis, title or related-work context, without an explicit source-work statement. Candidate retained; no contrary fact inferred.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000045",
+        "target": {
+          "id": "wrk:000092",
+          "type": "work"
+        },
+        "source": "https://stephenking.com/works/movie/shawshank-redemption.html",
+        "legacyFilmId": "films:the-shawshank-redemption-1994",
+        "outcome": "insufficient-evidence",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/shawshank-redemption.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The acquired page provides synopsis, title or related-work context, without an explicit source-work statement. Candidate retained; no contrary fact inferred.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000046",
+        "target": {
+          "type": "work",
+          "id": "wrk:000005"
+        },
+        "source": "https://stephenking.com/works/movie/shining.html",
+        "legacyFilmId": "films:the-shining-1980",
+        "outcome": "insufficient-evidence",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/shining.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The acquired page provides synopsis, title or related-work context, without an explicit source-work statement. Candidate retained; no contrary fact inferred.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000047",
+        "target": {
+          "type": "work",
+          "id": "wrk:000017"
+        },
+        "source": "https://stephenking.com/works/movie/silver-bullet.html",
+        "legacyFilmId": "films:silver-bullet-1985",
+        "outcome": "confirmed",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/silver-bullet.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The page explicitly identifies Cycle of the Werewolf.",
+        "connectionIds": [
+          "rel:000078"
+        ]
+      },
+      {
+        "adaptationId": "adp:000048",
+        "target": {
+          "id": "wrk:000094",
+          "type": "work"
+        },
+        "source": "https://stephenking.com/works/movie/stand-by-me.html",
+        "legacyFilmId": "films:stand-by-me-1986",
+        "outcome": "confirmed",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/stand-by-me.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The author page and Sony explicitly identify The Body novella.",
+        "connectionIds": [
+          "rel:000079"
+        ]
+      },
+      {
+        "adaptationId": "adp:000049",
+        "target": {
+          "type": "work",
+          "id": "wrk:000018"
+        },
+        "source": "https://stephenking.com/works/movie/thinner.html",
+        "legacyFilmId": "films:thinner-1996",
+        "outcome": "insufficient-evidence",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/thinner.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The acquired page provides synopsis, title or related-work context, without an explicit source-work statement. Candidate retained; no contrary fact inferred.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000050",
+        "target": {
+          "id": "wrk:000161",
+          "type": "work"
+        },
+        "source": "https://stephenking.com/works/movie/1408.html",
+        "legacyFilmId": "films:1408-2007",
+        "outcome": "insufficient-evidence",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/1408.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The acquired page provides synopsis, title or related-work context, without an explicit source-work statement. Candidate retained; no contrary fact inferred.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000051",
+        "target": {
+          "id": "wrk:000177",
+          "type": "work"
+        },
+        "source": "https://stephenking.com/works/movie/1922.html",
+        "legacyFilmId": "films:1922-2017",
+        "outcome": "insufficient-evidence",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/1922.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The acquired page provides synopsis, title or related-work context, without an explicit source-work statement. Candidate retained; no contrary fact inferred.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000052",
+        "target": {
+          "type": "work",
+          "id": "wrk:000036"
+        },
+        "source": "https://stephenking.com/works/movie/girl-who-loved-tom-gordon.html",
+        "legacyFilmId": "films:the-girl-who-loved-tom-gordon-tbd",
+        "outcome": "insufficient-evidence",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/girl-who-loved-tom-gordon.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The acquired page provides synopsis, title or related-work context, without an explicit source-work statement. Candidate retained; no contrary fact inferred.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000053",
+        "target": {
+          "id": "wrk:000124",
+          "type": "work"
+        },
+        "source": "https://stephenking.com/works/movie/suffer-the-little-children.html",
+        "legacyFilmId": "films:suffer-the-little-children-tbd",
+        "outcome": "insufficient-evidence",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/suffer-the-little-children.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The acquired page provides synopsis, title or related-work context, without an explicit source-work statement. Candidate retained; no contrary fact inferred.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000054",
+        "target": {
+          "type": "work",
+          "id": "wrk:000048"
+        },
+        "source": "https://stephenking.com/works/television/11-22-63.html",
+        "legacyFilmId": "films:11-22-63-2016",
+        "outcome": "insufficient-evidence",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/television/11-22-63.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The acquired page provides synopsis, title or related-work context, without an explicit source-work statement. Candidate retained; no contrary fact inferred.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000055",
+        "target": {
+          "type": "work",
+          "id": "wrk:000035"
+        },
+        "source": "https://stephenking.com/works/television/bag-of-bones.html",
+        "legacyFilmId": "films:bag-of-bones-2011",
+        "outcome": "confirmed",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/television/bag-of-bones.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The reproduced A&E announcement explicitly identifies the novel.",
+        "connectionIds": [
+          "rel:000080"
+        ]
+      },
+      {
+        "adaptationId": "adp:000056",
+        "target": {
+          "id": "wrk:000178",
+          "type": "work"
+        },
+        "source": "https://stephenking.com/works/television/big-driver.html",
+        "legacyFilmId": "films:big-driver-2014",
+        "outcome": "confirmed",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/television/big-driver.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The reproduced Lifetime announcement explicitly identifies the story.",
+        "connectionIds": [
+          "rel:000081"
+        ]
+      },
+      {
+        "adaptationId": "adp:000057",
+        "target": {
+          "type": "work",
+          "id": "wrk:000003"
+        },
+        "source": "https://www.swank.com/public-libraries/details/21296-carrie",
+        "legacyFilmId": "films:carrie-2002",
+        "outcome": "confirmed",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://www.swank.com/public-libraries/details/21296-carrie"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The actual Swank production page identifies the novel and the 1976 remake.",
+        "connectionIds": [
+          "rel:000082"
+        ]
+      },
+      {
+        "adaptationId": "adp:000058",
+        "target": {
+          "id": "wrk:000072",
+          "type": "work"
+        },
+        "source": "https://stephenking.com/works/television/chapelwaite.html",
+        "legacyFilmId": "films:chapelwaite-2021",
+        "outcome": "confirmed",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/television/chapelwaite.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The page explicitly identifies Jerusalem's Lot as its source story.",
+        "connectionIds": [
+          "rel:000083"
+        ]
+      },
+      {
+        "adaptationId": "adp:000059",
+        "target": {
+          "type": "work",
+          "id": "wrk:000032"
+        },
+        "source": "https://stephenking.com/works/television/desperation.html",
+        "legacyFilmId": "films:desperation-2006",
+        "outcome": "insufficient-evidence",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/television/desperation.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The acquired page provides synopsis, title or related-work context, without an explicit source-work statement. Candidate retained; no contrary fact inferred.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000060",
+        "target": {
+          "type": "work",
+          "id": "wrk:000060"
+        },
+        "source": "https://stephenking.com/works/television/institute.html",
+        "legacyFilmId": "films:the-institute-2025",
+        "outcome": "insufficient-evidence",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/television/institute.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The acquired page provides synopsis, title or related-work context, without an explicit source-work statement. Candidate retained; no contrary fact inferred.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000061",
+        "target": {
+          "type": "work",
+          "id": "wrk:000019"
+        },
+        "source": "https://stephenking.com/works/television/it.html",
+        "legacyFilmId": "films:it-1990",
+        "outcome": "insufficient-evidence",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/television/it.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The acquired page provides synopsis, title or related-work context, without an explicit source-work statement. Candidate retained; no contrary fact inferred.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000062",
+        "target": {
+          "type": "work",
+          "id": "wrk:000019"
+        },
+        "source": "https://stephenking.com/works/television/it-welcome-to-derry.html",
+        "legacyFilmId": "films:it-welcome-to-derry-2025",
+        "outcome": "confirmed",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/television/it-welcome-to-derry.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The production description explicitly identifies the novel IT as its basis; this does not certify every continuity detail.",
+        "connectionIds": [
+          "rel:000084"
+        ]
+      },
+      {
+        "adaptationId": "adp:000063",
+        "target": {
+          "id": "wrk:000118",
+          "type": "work"
+        },
+        "source": "https://stephenking.com/works/television/langoliers.html",
+        "legacyFilmId": "films:the-langoliers-1995",
+        "outcome": "insufficient-evidence",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/television/langoliers.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The acquired page provides synopsis, title or related-work context, without an explicit source-work statement. Candidate retained; no contrary fact inferred.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000064",
+        "target": {
+          "type": "work",
+          "id": "wrk:000044"
+        },
+        "source": "https://stephenking.com/works/television/liseys-story.html",
+        "legacyFilmId": "films:lisey-s-story-2021",
+        "outcome": "confirmed",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/television/liseys-story.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The production description explicitly identifies the novel.",
+        "connectionIds": [
+          "rel:000085"
+        ]
+      },
+      {
+        "adaptationId": "adp:000065",
+        "target": {
+          "id": "wrk:000096",
+          "type": "work"
+        },
+        "source": "https://stephenking.com/works/television/mist.html",
+        "legacyFilmId": "films:the-mist-2017",
+        "outcome": "insufficient-evidence",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/television/mist.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The acquired page provides synopsis, title or related-work context, without an explicit source-work statement. Candidate retained; no contrary fact inferred.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000066",
+        "target": {
+          "type": "work",
+          "id": "wrk:000052"
+        },
+        "source": "https://stephenking.com/works/television/mr-mercedes.html",
+        "legacyFilmId": "films:mr-mercedes-2017",
+        "outcome": "confirmed",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/television/mr-mercedes.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The production description explicitly identifies the novel.",
+        "connectionIds": [
+          "rel:000086"
+        ]
+      },
+      {
+        "adaptationId": "adp:000067",
+        "target": {
+          "type": "collection",
+          "id": "col:000006"
+        },
+        "source": "https://stephenking.com/works/television/nightmares-dreamscapes.html",
+        "legacyFilmId": "films:nightmares-dreamscapes-2006",
+        "outcome": "provisional",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/television/nightmares-dreamscapes.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "Individual episode stories span collections; a whole-collection adaptation is not established.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000068",
+        "target": {
+          "type": "work",
+          "id": "wrk:000004"
+        },
+        "source": "https://stephenking.com/works/television/salems-lot.html",
+        "legacyFilmId": "films:salem-s-lot-1979",
+        "outcome": "insufficient-evidence",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/television/salems-lot.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The acquired page provides synopsis, title or related-work context, without an explicit source-work statement. Candidate retained; no contrary fact inferred.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000069",
+        "target": {
+          "type": "work",
+          "id": "wrk:000004"
+        },
+        "source": "https://stephenking.com/works/television/salems-lot-(remake).html",
+        "legacyFilmId": "films:salem-s-lot-2004",
+        "outcome": "insufficient-evidence",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/television/salems-lot-(remake).html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The acquired page provides synopsis, title or related-work context, without an explicit source-work statement. Candidate retained; no contrary fact inferred.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000070",
+        "target": {
+          "type": "work",
+          "id": "wrk:000005"
+        },
+        "source": "https://stephenking.com/works/television/shining.html",
+        "legacyFilmId": "films:the-shining-1997",
+        "outcome": "confirmed",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/television/shining.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The page identifies the miniseries as an adaptation and links the exact novel.",
+        "connectionIds": [
+          "rel:000087"
+        ]
+      },
+      {
+        "adaptationId": "adp:000071",
+        "target": {
+          "id": "wrk:000081",
+          "type": "work"
+        },
+        "source": "https://stephenking.com/works/television/sometimes-they-come-back.html",
+        "legacyFilmId": "films:sometimes-they-come-back-1991",
+        "outcome": "insufficient-evidence",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/television/sometimes-they-come-back.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The acquired page provides synopsis, title or related-work context, without an explicit source-work statement. Candidate retained; no contrary fact inferred.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000072",
+        "target": {
+          "type": "work",
+          "id": "wrk:000007"
+        },
+        "source": "https://stephenking.com/works/television/stand.html",
+        "legacyFilmId": "films:the-stand-1994",
+        "outcome": "insufficient-evidence",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/television/stand.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The acquired page provides synopsis, title or related-work context, without an explicit source-work statement. Candidate retained; no contrary fact inferred.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000073",
+        "target": {
+          "type": "work",
+          "id": "wrk:000007"
+        },
+        "source": "https://stephenking.com/works/television/stand-(2020).html",
+        "legacyFilmId": "films:the-stand-2020",
+        "outcome": "provisional",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/television/stand-(2020).html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The production description indicates King's vision but does not explicitly certify this precise novel-source relation.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000074",
+        "target": {
+          "type": "work",
+          "id": "wrk:000023"
+        },
+        "source": "https://stephenking.com/works/television/tommyknockers.html",
+        "legacyFilmId": "films:the-tommyknockers-1993",
+        "outcome": "insufficient-evidence",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/television/tommyknockers.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The acquired page provides synopsis, title or related-work context, without an explicit source-work statement. Candidate retained; no contrary fact inferred.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000075",
+        "target": {
+          "id": "wrk:000080",
+          "type": "work"
+        },
+        "source": "https://stephenking.com/works/television/trucks.html",
+        "legacyFilmId": "films:trucks-1997",
+        "outcome": "confirmed",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/television/trucks.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The page explicitly identifies the short story Trucks.",
+        "connectionIds": [
+          "rel:000088"
+        ]
+      },
+      {
+        "adaptationId": "adp:000076",
+        "target": {
+          "type": "work",
+          "id": "wrk:000047"
+        },
+        "source": "https://stephenking.com/works/television/under-the-dome.html",
+        "legacyFilmId": "films:under-the-dome-2013",
+        "outcome": "confirmed",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/television/under-the-dome.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The page explicitly calls the series an adaptation and identifies the source work.",
+        "connectionIds": [
+          "rel:000089"
+        ]
+      },
+      {
+        "adaptationId": "adp:000077",
+        "target": {
+          "type": "work",
+          "id": "wrk:000058"
+        },
+        "source": "https://stephenking.com/works/television/outsider.html",
+        "legacyFilmId": "films:the-outsider-2020",
+        "outcome": "confirmed",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/television/outsider.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The page explicitly identifies the novel of the same name.",
+        "connectionIds": [
+          "rel:000090"
+        ]
+      },
+      {
+        "adaptationId": "adp:000087",
+        "target": {
+          "type": "collection",
+          "id": "col:000007"
+        },
+        "source": "https://stephenking.com/works/movie/hearts.html",
+        "legacyFilmId": "films:hearts-tbd",
+        "outcome": "provisional",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/hearts.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "Novella versus containing collection remains unresolved; TBD does not establish current production status.",
+        "connectionIds": []
+      },
+      {
+        "adaptationId": "adp:000094",
+        "target": {
+          "id": "wrk:000172",
+          "type": "work"
+        },
+        "source": "https://stephenking.com/works/movie/tales-from-the-darkside-the-movie.html",
+        "legacyFilmId": "films:tales-from-the-darkside-the-movie-1990",
+        "outcome": "confirmed",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://stephenking.com/works/movie/tales-from-the-darkside-the-movie.html"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "The page explicitly identifies The Cat from Hell as one segment source.",
+        "connectionIds": [
+          "rel:000091"
+        ]
+      },
+      {
+        "adaptationId": "adp:000096",
+        "target": {
+          "type": "work",
+          "id": "wrk:000003"
+        },
+        "source": "https://www.boxofficemojo.com/title/tt0144814/",
+        "legacyFilmId": "films:the-rage-carrie-2-1999",
+        "outcome": "provisional",
+        "checked": "2026-10-26",
+        "reviewSources": [
+          "https://www.boxofficemojo.com/title/tt0144814/"
+        ],
+        "locator": "Production description / notes / writer source credit, limited to the specific source relationship",
+        "note": "Franchise/sequel context does not establish a direct adaptation of the novel.",
+        "connectionIds": []
+      }
+    ]
+  },
+  "sourceSupportedLiteraryConnections": 38,
+  "seriesAdaptationConnections": 1,
+  "separateRemakeConnections": 2,
+  "entities": {
+    "characters": 8,
+    "locations": 2,
+    "series": 2
+  },
+  "orphanReferences": 0,
+  "missingSources": 0,
+  "priorRecordAssessmentOverrides": [
+    {
+      "connectionId": "rel:000007",
+      "status": "provisional-target-scope",
+      "note": "General Tower cosmology supported; exact book-VII target not newly certified."
+    },
+    {
+      "connectionId": "rel:000008",
+      "status": "provisional",
+      "note": "Preserved without certainty upgrade."
+    }
+  ],
+  "readiness": "Not ready for a full Explorer switch: unresolved source targets, publication/edition history, image rights and complete UI compatibility require further review."
+}

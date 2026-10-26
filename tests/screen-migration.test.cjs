@@ -54,13 +54,13 @@ test('Reviewed maker credits retain explicit episode scopes and reuse Stephen Ki
  assert.ok(b.adaptations.find(a=>a.id===id(b,'films:cell-2016')).makerObservations.some(m=>m.creditText.includes('\ufffd')));
 });
 test('Every Batch 03 record is frozen; no edition, literary, membership, character or Tower migration',()=>{
- const b=fresh(),register=read('data/migration/batch-04-register.json'),all=new Map(Object.values(b).filter(Array.isArray).flat().filter(x=>x.id).map(x=>[x.id,x]));for(const[id,snapshot]of Object.entries(register.preservedEntities))assert.equal(hash(JSON.stringify(all.get(id))),snapshot.sha256,id);
+ const b=generateShadow(ROOT,{batch:'04'}).bundle,register=read('data/migration/batch-04-register.json'),all=new Map(Object.values(b).filter(Array.isArray).flat().filter(x=>x.id).map(x=>[x.id,x]));for(const[id,snapshot]of Object.entries(register.preservedEntities))assert.equal(hash(JSON.stringify(all.get(id))),snapshot.sha256,id);
  const old=generateShadow(ROOT,{batch:'03'}).bundle;for(const table of ['works','collections','editions','publicationEvents','collectionMemberships','characters','locations','externalReferences'])assert.deepEqual(b[table],old[table]);for(const c of b.connections.filter(c=>!c.from.type.startsWith('adaptation')))assert.ok(old.connections.some(r=>r.id===c.id));
  assert.equal(b.works.length,241);assert.equal(b.editions.length,154);assert.equal(b.publicationEvents.length,239);
 });
 test('Full offline projection and supplementary evidence are reproducible, including deferred restricted fields',()=>{
  const fields=read('data/migration/batch-04-source-fields.json').fields;assert.equal(new Set(fields.map(f=>f.source+'#'+f.pointer)).size,fields.length);assert.deepEqual(generateShadow().screens.supplementary.fields,fields);for(const[name,value]of outputFiles())assert.equal(fs.readFileSync(ROOT+'/'+name,'utf8'),value,name);
- assert.ok(fields.some(f=>f.pointer.includes('/imdb/rating')&&f.disposition==='retained-in-source-not-migrated'));const ledger=read('data/migration/differences.json');assert.equal(ledger.fields.filter(f=>f.disposition==='mapped').length,5657);assert.equal(ledger.completeMigration,false);assert.equal(ledger.screenRecords.length,96);
+ assert.ok(fields.some(f=>f.pointer.includes('/imdb/rating')&&f.disposition==='retained-in-source-not-migrated'));const ledger=read('data/migration/differences.json');assert.equal(generateShadow(ROOT,{batch:'04'}).differences.fields.filter(f=>f.disposition==='mapped').length,5657);assert.equal(ledger.completeMigration,false);assert.equal(ledger.screenRecords.length,96);
  assert.equal(validate(badStatusBundle(),{checkCompatibility:false}).valid,false);
  function badStatusBundle(){const b=fresh();b.adaptations[0].statusHistory[0].claimIds=[b.works[0].verification.claimIds[0]];return b;}
 });

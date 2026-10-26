@@ -820,5 +820,2344 @@
       "level": "none",
       "workIds": []
     }
+  },
+  {
+    "id": "rel:000027",
+    "entityType": "connection",
+    "from": {
+      "type": "work",
+      "id": "wrk:000014"
+    },
+    "predicate": "part_of_series",
+    "to": {
+      "type": "series",
+      "id": "ser:000001"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "Numbered volume in the official Dark Tower reading sequence."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    },
+    "seriesPosition": 1,
+    "verification": {
+      "claimIds": [
+        "clm:006895",
+        "clm:006896",
+        "clm:006897",
+        "clm:006898",
+        "clm:006899",
+        "clm:006900",
+        "clm:006901"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000028",
+    "entityType": "connection",
+    "from": {
+      "type": "work",
+      "id": "wrk:000022"
+    },
+    "predicate": "part_of_series",
+    "to": {
+      "type": "series",
+      "id": "ser:000001"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "Numbered volume in the official Dark Tower reading sequence."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    },
+    "seriesPosition": 2,
+    "verification": {
+      "claimIds": [
+        "clm:006902",
+        "clm:006903",
+        "clm:006904",
+        "clm:006905",
+        "clm:006906",
+        "clm:006907",
+        "clm:006908"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000029",
+    "entityType": "connection",
+    "from": {
+      "type": "work",
+      "id": "wrk:000025"
+    },
+    "predicate": "part_of_series",
+    "to": {
+      "type": "series",
+      "id": "ser:000001"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "Numbered volume in the official Dark Tower reading sequence."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    },
+    "seriesPosition": 3,
+    "verification": {
+      "claimIds": [
+        "clm:006909",
+        "clm:006910",
+        "clm:006911",
+        "clm:006912",
+        "clm:006913",
+        "clm:006914",
+        "clm:006915"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000030",
+    "entityType": "connection",
+    "from": {
+      "type": "work",
+      "id": "wrk:000034"
+    },
+    "predicate": "part_of_series",
+    "to": {
+      "type": "series",
+      "id": "ser:000001"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "Numbered volume in the official Dark Tower reading sequence."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    },
+    "seriesPosition": 4,
+    "verification": {
+      "claimIds": [
+        "clm:006916",
+        "clm:006917",
+        "clm:006918",
+        "clm:006919",
+        "clm:006920",
+        "clm:006921",
+        "clm:006922"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000031",
+    "entityType": "connection",
+    "from": {
+      "type": "work",
+      "id": "wrk:000039"
+    },
+    "predicate": "part_of_series",
+    "to": {
+      "type": "series",
+      "id": "ser:000001"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "Numbered volume in the official Dark Tower reading sequence."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    },
+    "seriesPosition": 5,
+    "verification": {
+      "claimIds": [
+        "clm:006923",
+        "clm:006924",
+        "clm:006925",
+        "clm:006926",
+        "clm:006927",
+        "clm:006928",
+        "clm:006929"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000032",
+    "entityType": "connection",
+    "from": {
+      "type": "work",
+      "id": "wrk:000040"
+    },
+    "predicate": "part_of_series",
+    "to": {
+      "type": "series",
+      "id": "ser:000001"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "Numbered volume in the official Dark Tower reading sequence."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    },
+    "seriesPosition": 6,
+    "verification": {
+      "claimIds": [
+        "clm:006930",
+        "clm:006931",
+        "clm:006932",
+        "clm:006933",
+        "clm:006934",
+        "clm:006935",
+        "clm:006936"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000033",
+    "entityType": "connection",
+    "from": {
+      "type": "work",
+      "id": "wrk:000041"
+    },
+    "predicate": "part_of_series",
+    "to": {
+      "type": "series",
+      "id": "ser:000001"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "Numbered volume in the official Dark Tower reading sequence."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    },
+    "seriesPosition": 7,
+    "verification": {
+      "claimIds": [
+        "clm:006937",
+        "clm:006938",
+        "clm:006939",
+        "clm:006940",
+        "clm:006941",
+        "clm:006942",
+        "clm:006943"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000034",
+    "entityType": "connection",
+    "from": {
+      "type": "work",
+      "id": "wrk:000049"
+    },
+    "predicate": "part_of_series",
+    "to": {
+      "type": "series",
+      "id": "ser:000001"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "An interlude placed between volumes IV and V; no invented numbered position."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    },
+    "verification": {
+      "claimIds": [
+        "clm:006944",
+        "clm:006945",
+        "clm:006946",
+        "clm:006947",
+        "clm:006948",
+        "clm:006949"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000035",
+    "entityType": "connection",
+    "from": {
+      "type": "work",
+      "id": "wrk:000155"
+    },
+    "predicate": "prequel_to",
+    "to": {
+      "type": "work",
+      "id": "wrk:000014"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The official index identifies this story as a prequel to the first volume."
+    },
+    "spoiler": {
+      "level": "premise",
+      "workIds": [
+        "wrk:000155",
+        "wrk:000014"
+      ]
+    },
+    "verification": {
+      "claimIds": [
+        "clm:006950",
+        "clm:006951",
+        "clm:006952",
+        "clm:006953",
+        "clm:006954",
+        "clm:006955"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000036",
+    "entityType": "connection",
+    "from": {
+      "type": "work",
+      "id": "wrk:000007"
+    },
+    "predicate": "shared_reference",
+    "to": {
+      "type": "work",
+      "id": "wrk:000034"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The official index documents the Captain Trips newspaper reference in Wizard and Glass."
+    },
+    "spoiler": {
+      "level": "plot",
+      "workIds": [
+        "wrk:000007",
+        "wrk:000034"
+      ]
+    },
+    "verification": {
+      "claimIds": [
+        "clm:006956",
+        "clm:006957",
+        "clm:006958",
+        "clm:006959",
+        "clm:006960",
+        "clm:006961"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000037",
+    "entityType": "connection",
+    "from": {
+      "type": "work",
+      "id": "wrk:000020"
+    },
+    "predicate": "shared_reference",
+    "to": {
+      "type": "work",
+      "id": "wrk:000022"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The official index documents references to Dennis and Thomas in The Drawing of the Three."
+    },
+    "spoiler": {
+      "level": "plot",
+      "workIds": [
+        "wrk:000020",
+        "wrk:000022"
+      ]
+    },
+    "verification": {
+      "claimIds": [
+        "clm:006962",
+        "clm:006963",
+        "clm:006964",
+        "clm:006965",
+        "clm:006966",
+        "clm:006967"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000038",
+    "entityType": "connection",
+    "from": {
+      "type": "character",
+      "id": "chr:000005"
+    },
+    "predicate": "appears_in",
+    "to": {
+      "type": "work",
+      "id": "wrk:000004"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The named character is present in this work according to the official connection index."
+    },
+    "spoiler": {
+      "level": "plot",
+      "workIds": [
+        "wrk:000004"
+      ]
+    },
+    "verification": {
+      "claimIds": [
+        "clm:006968",
+        "clm:006969",
+        "clm:006970",
+        "clm:006971",
+        "clm:006972",
+        "clm:006973"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000039",
+    "entityType": "connection",
+    "from": {
+      "type": "character",
+      "id": "chr:000005"
+    },
+    "predicate": "appears_in",
+    "to": {
+      "type": "work",
+      "id": "wrk:000039"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The named character is present in this work according to the official connection index."
+    },
+    "spoiler": {
+      "level": "plot",
+      "workIds": [
+        "wrk:000039"
+      ]
+    },
+    "verification": {
+      "claimIds": [
+        "clm:006974",
+        "clm:006975",
+        "clm:006976",
+        "clm:006977",
+        "clm:006978",
+        "clm:006979"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000040",
+    "entityType": "connection",
+    "from": {
+      "type": "work",
+      "id": "wrk:000004"
+    },
+    "predicate": "shares_character_with",
+    "to": {
+      "type": "work",
+      "id": "wrk:000039"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "Derived shared-character path; each appearance is separately sourced."
+    },
+    "spoiler": {
+      "level": "plot",
+      "workIds": [
+        "wrk:000004",
+        "wrk:000039"
+      ]
+    },
+    "via": {
+      "type": "character",
+      "id": "chr:000005"
+    },
+    "derivation": {
+      "kind": "shared-entity-path",
+      "premiseIds": [
+        "rel:000038",
+        "rel:000039"
+      ],
+      "method": "Two independently scoped presence/mention edges; shared reference does not imply shared setting."
+    },
+    "verification": {
+      "claimIds": [
+        "clm:006980",
+        "clm:006981",
+        "clm:006982",
+        "clm:006983",
+        "clm:006984",
+        "clm:006985",
+        "clm:006986",
+        "clm:006987"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000041",
+    "entityType": "connection",
+    "from": {
+      "type": "character",
+      "id": "chr:000007"
+    },
+    "predicate": "appears_in",
+    "to": {
+      "type": "work",
+      "id": "wrk:000029"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The named character is present in this work according to the official connection index."
+    },
+    "spoiler": {
+      "level": "plot",
+      "workIds": [
+        "wrk:000029"
+      ]
+    },
+    "verification": {
+      "claimIds": [
+        "clm:006988",
+        "clm:006989",
+        "clm:006990",
+        "clm:006991",
+        "clm:006992",
+        "clm:006993"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000042",
+    "entityType": "connection",
+    "from": {
+      "type": "character",
+      "id": "chr:000007"
+    },
+    "predicate": "appears_in",
+    "to": {
+      "type": "work",
+      "id": "wrk:000041"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The named character is present in this work according to the official connection index."
+    },
+    "spoiler": {
+      "level": "plot",
+      "workIds": [
+        "wrk:000041"
+      ]
+    },
+    "verification": {
+      "claimIds": [
+        "clm:006994",
+        "clm:006995",
+        "clm:006996",
+        "clm:006997",
+        "clm:006998",
+        "clm:006999"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000043",
+    "entityType": "connection",
+    "from": {
+      "type": "work",
+      "id": "wrk:000029"
+    },
+    "predicate": "shares_character_with",
+    "to": {
+      "type": "work",
+      "id": "wrk:000041"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "Derived shared-character path; each appearance is separately sourced."
+    },
+    "spoiler": {
+      "level": "plot",
+      "workIds": [
+        "wrk:000029",
+        "wrk:000041"
+      ]
+    },
+    "via": {
+      "type": "character",
+      "id": "chr:000007"
+    },
+    "derivation": {
+      "kind": "shared-entity-path",
+      "premiseIds": [
+        "rel:000041",
+        "rel:000042"
+      ],
+      "method": "Two independently scoped presence/mention edges; shared reference does not imply shared setting."
+    },
+    "verification": {
+      "claimIds": [
+        "clm:007000",
+        "clm:007001",
+        "clm:007002",
+        "clm:007003",
+        "clm:007004",
+        "clm:007005",
+        "clm:007006",
+        "clm:007007"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000044",
+    "entityType": "connection",
+    "from": {
+      "type": "character",
+      "id": "chr:000008"
+    },
+    "predicate": "appears_in",
+    "to": {
+      "type": "work",
+      "id": "wrk:000156"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The named character is present in this work according to the official connection index."
+    },
+    "spoiler": {
+      "level": "plot",
+      "workIds": [
+        "wrk:000156"
+      ]
+    },
+    "verification": {
+      "claimIds": [
+        "clm:007008",
+        "clm:007009",
+        "clm:007010",
+        "clm:007011",
+        "clm:007012",
+        "clm:007013"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000045",
+    "entityType": "connection",
+    "from": {
+      "type": "character",
+      "id": "chr:000008"
+    },
+    "predicate": "appears_in",
+    "to": {
+      "type": "work",
+      "id": "wrk:000041"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The named character is present in this work according to the official connection index."
+    },
+    "spoiler": {
+      "level": "plot",
+      "workIds": [
+        "wrk:000041"
+      ]
+    },
+    "verification": {
+      "claimIds": [
+        "clm:007014",
+        "clm:007015",
+        "clm:007016",
+        "clm:007017",
+        "clm:007018",
+        "clm:007019"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000046",
+    "entityType": "connection",
+    "from": {
+      "type": "work",
+      "id": "wrk:000156"
+    },
+    "predicate": "shares_character_with",
+    "to": {
+      "type": "work",
+      "id": "wrk:000041"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "Derived shared-character path; each appearance is separately sourced."
+    },
+    "spoiler": {
+      "level": "plot",
+      "workIds": [
+        "wrk:000156",
+        "wrk:000041"
+      ]
+    },
+    "via": {
+      "type": "character",
+      "id": "chr:000008"
+    },
+    "derivation": {
+      "kind": "shared-entity-path",
+      "premiseIds": [
+        "rel:000044",
+        "rel:000045"
+      ],
+      "method": "Two independently scoped presence/mention edges; shared reference does not imply shared setting."
+    },
+    "verification": {
+      "claimIds": [
+        "clm:007020",
+        "clm:007021",
+        "clm:007022",
+        "clm:007023",
+        "clm:007024",
+        "clm:007025",
+        "clm:007026",
+        "clm:007027"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000047",
+    "entityType": "connection",
+    "from": {
+      "type": "character",
+      "id": "chr:000006"
+    },
+    "predicate": "appears_in",
+    "to": {
+      "type": "work",
+      "id": "wrk:000145"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The official index explicitly scopes this character to the named story or novel."
+    },
+    "spoiler": {
+      "level": "plot",
+      "workIds": [
+        "wrk:000145"
+      ]
+    },
+    "verification": {
+      "claimIds": [
+        "clm:007028",
+        "clm:007029",
+        "clm:007030",
+        "clm:007031",
+        "clm:007032",
+        "clm:007033"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000048",
+    "entityType": "connection",
+    "from": {
+      "type": "character",
+      "id": "chr:000006"
+    },
+    "predicate": "appears_in",
+    "to": {
+      "type": "work",
+      "id": "wrk:000041"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The official index explicitly scopes this character to the named story or novel."
+    },
+    "spoiler": {
+      "level": "plot",
+      "workIds": [
+        "wrk:000041"
+      ]
+    },
+    "verification": {
+      "claimIds": [
+        "clm:007034",
+        "clm:007035",
+        "clm:007036",
+        "clm:007037",
+        "clm:007038",
+        "clm:007039"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000049",
+    "entityType": "connection",
+    "from": {
+      "type": "work",
+      "id": "wrk:000145"
+    },
+    "predicate": "shares_character_with",
+    "to": {
+      "type": "work",
+      "id": "wrk:000041"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "Derived character path from the specific story, not every story in its containing collection."
+    },
+    "spoiler": {
+      "level": "plot",
+      "workIds": [
+        "wrk:000145",
+        "wrk:000041"
+      ]
+    },
+    "via": {
+      "type": "character",
+      "id": "chr:000006"
+    },
+    "derivation": {
+      "kind": "shared-entity-path",
+      "premiseIds": [
+        "rel:000047",
+        "rel:000048"
+      ],
+      "method": "Two independently scoped presence/mention edges; shared reference does not imply shared setting."
+    },
+    "verification": {
+      "claimIds": [
+        "clm:007040",
+        "clm:007041",
+        "clm:007042",
+        "clm:007043",
+        "clm:007044",
+        "clm:007045",
+        "clm:007046",
+        "clm:007047"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000050",
+    "entityType": "connection",
+    "from": {
+      "type": "collection",
+      "id": "col:000007"
+    },
+    "predicate": "dark_tower_connection",
+    "to": {
+      "type": "series",
+      "id": "ser:000001"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The connection applies to named constituent stories; it does not assert that every story shares this character."
+    },
+    "spoiler": {
+      "level": "plot",
+      "workIds": [
+        "wrk:000014"
+      ]
+    },
+    "verification": {
+      "claimIds": [
+        "clm:007048",
+        "clm:007049",
+        "clm:007050",
+        "clm:007051",
+        "clm:007052",
+        "clm:007053"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000051",
+    "entityType": "connection",
+    "from": {
+      "type": "work",
+      "id": "wrk:000019"
+    },
+    "predicate": "dark_tower_connection",
+    "to": {
+      "type": "series",
+      "id": "ser:000001"
+    },
+    "certainty": "interpretive",
+    "explanation": {
+      "en": "A turtle motif is documented; identity with another named being is not established."
+    },
+    "spoiler": {
+      "level": "plot",
+      "workIds": [
+        "wrk:000019"
+      ]
+    },
+    "verification": {
+      "claimIds": [
+        "clm:007054",
+        "clm:007055",
+        "clm:007056",
+        "clm:007057",
+        "clm:007058",
+        "clm:007059"
+      ],
+      "open": [
+        "relationshipEvidenceProvisional"
+      ]
+    }
+  },
+  {
+    "id": "rel:000052",
+    "entityType": "connection",
+    "from": {
+      "type": "work",
+      "id": "wrk:000207"
+    },
+    "predicate": "dark_tower_connection",
+    "to": {
+      "type": "series",
+      "id": "ser:000001"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The official index records an explicit Tower reference; no inferred character identity."
+    },
+    "spoiler": {
+      "level": "plot",
+      "workIds": [
+        "wrk:000207"
+      ]
+    },
+    "verification": {
+      "claimIds": [
+        "clm:007060",
+        "clm:007061",
+        "clm:007062",
+        "clm:007063",
+        "clm:007064",
+        "clm:007065"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000053",
+    "entityType": "connection",
+    "from": {
+      "type": "work",
+      "id": "wrk:000025"
+    },
+    "predicate": "set_in",
+    "to": {
+      "type": "location",
+      "id": "loc:000002"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The official index identifies Lud as a setting of this novel."
+    },
+    "spoiler": {
+      "level": "plot",
+      "workIds": [
+        "wrk:000025"
+      ]
+    },
+    "verification": {
+      "claimIds": [
+        "clm:007066",
+        "clm:007067",
+        "clm:007068",
+        "clm:007069",
+        "clm:007070",
+        "clm:007071"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000054",
+    "entityType": "connection",
+    "from": {
+      "type": "location",
+      "id": "loc:000002"
+    },
+    "predicate": "mentioned_in",
+    "to": {
+      "type": "work",
+      "id": "wrk:000030"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "Lud is mentioned in this novel; this is not proof that the novel is set there."
+    },
+    "spoiler": {
+      "level": "plot",
+      "workIds": [
+        "wrk:000030"
+      ]
+    },
+    "verification": {
+      "claimIds": [
+        "clm:007072",
+        "clm:007073",
+        "clm:007074",
+        "clm:007075",
+        "clm:007076",
+        "clm:007077"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000055",
+    "entityType": "connection",
+    "from": {
+      "type": "work",
+      "id": "wrk:000025"
+    },
+    "predicate": "shares_location_with",
+    "to": {
+      "type": "work",
+      "id": "wrk:000030"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "Derived location reference: a setting in one work and a mention in the other, not two settings."
+    },
+    "spoiler": {
+      "level": "plot",
+      "workIds": [
+        "wrk:000025",
+        "wrk:000030"
+      ]
+    },
+    "via": {
+      "type": "location",
+      "id": "loc:000002"
+    },
+    "derivation": {
+      "kind": "shared-entity-path",
+      "premiseIds": [
+        "rel:000053",
+        "rel:000054"
+      ],
+      "method": "Two independently scoped presence/mention edges; shared reference does not imply shared setting."
+    },
+    "verification": {
+      "claimIds": [
+        "clm:007078",
+        "clm:007079",
+        "clm:007080",
+        "clm:007081",
+        "clm:007082",
+        "clm:007083",
+        "clm:007084",
+        "clm:007085"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000056",
+    "entityType": "connection",
+    "from": {
+      "type": "work",
+      "id": "wrk:000032"
+    },
+    "predicate": "shared_reference",
+    "to": {
+      "type": "work",
+      "id": "wrk:000039"
+    },
+    "certainty": "strongly-implied",
+    "explanation": {
+      "en": "The can-toi/can-tah terminology is shared; the index distinguishes the creatures and their roles."
+    },
+    "spoiler": {
+      "level": "plot",
+      "workIds": [
+        "wrk:000032",
+        "wrk:000039"
+      ]
+    },
+    "verification": {
+      "claimIds": [
+        "clm:007086",
+        "clm:007087",
+        "clm:007088",
+        "clm:007089",
+        "clm:007090",
+        "clm:007091"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000057",
+    "entityType": "connection",
+    "from": {
+      "type": "work",
+      "id": "wrk:000033"
+    },
+    "predicate": "dark_tower_connection",
+    "to": {
+      "type": "series",
+      "id": "ser:000001"
+    },
+    "certainty": "interpretive",
+    "explanation": {
+      "en": "Only terminology and analogy are retained; the official index explicitly excludes Low Men from this novel."
+    },
+    "spoiler": {
+      "level": "plot",
+      "workIds": [
+        "wrk:000033"
+      ]
+    },
+    "verification": {
+      "claimIds": [
+        "clm:007092",
+        "clm:007093",
+        "clm:007094",
+        "clm:007095",
+        "clm:007096",
+        "clm:007097"
+      ],
+      "open": [
+        "relationshipEvidenceProvisional"
+      ]
+    }
+  },
+  {
+    "id": "rel:000058",
+    "entityType": "connection",
+    "from": {
+      "type": "work",
+      "id": "wrk:000001"
+    },
+    "predicate": "part_of_series",
+    "to": {
+      "type": "series",
+      "id": "ser:000002"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "Registered volume of the Talisman trilogy."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    },
+    "seriesPosition": 1,
+    "verification": {
+      "claimIds": [
+        "clm:007098",
+        "clm:007099",
+        "clm:007100",
+        "clm:007101",
+        "clm:007102",
+        "clm:007103",
+        "clm:007104"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000059",
+    "entityType": "connection",
+    "from": {
+      "type": "work",
+      "id": "wrk:000002"
+    },
+    "predicate": "part_of_series",
+    "to": {
+      "type": "series",
+      "id": "ser:000002"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "Registered volume of the Talisman trilogy."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    },
+    "seriesPosition": 2,
+    "verification": {
+      "claimIds": [
+        "clm:007105",
+        "clm:007106",
+        "clm:007107",
+        "clm:007108",
+        "clm:007109",
+        "clm:007110",
+        "clm:007111"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000060",
+    "entityType": "connection",
+    "from": {
+      "type": "work",
+      "id": "wrk:000067"
+    },
+    "predicate": "part_of_series",
+    "to": {
+      "type": "series",
+      "id": "ser:000002"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "Registered volume of the Talisman trilogy."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    },
+    "seriesPosition": 3,
+    "verification": {
+      "claimIds": [
+        "clm:007112",
+        "clm:007113",
+        "clm:007114",
+        "clm:007115",
+        "clm:007116",
+        "clm:007117",
+        "clm:007118"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000061",
+    "entityType": "connection",
+    "from": {
+      "type": "character",
+      "id": "chr:000001"
+    },
+    "predicate": "appears_in",
+    "to": {
+      "type": "work",
+      "id": "wrk:000067"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The publisher confirms the return of Jack Sawyer."
+    },
+    "spoiler": {
+      "level": "premise",
+      "workIds": [
+        "wrk:000067"
+      ]
+    },
+    "verification": {
+      "claimIds": [
+        "clm:007119",
+        "clm:007120",
+        "clm:007121",
+        "clm:007122",
+        "clm:007123",
+        "clm:007124"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000062",
+    "entityType": "connection",
+    "from": {
+      "type": "work",
+      "id": "wrk:000067"
+    },
+    "predicate": "dark_tower_connection",
+    "to": {
+      "type": "series",
+      "id": "ser:000001"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The publisher explicitly connects this trilogy volume with the broader Dark Tower sequence."
+    },
+    "spoiler": {
+      "level": "premise",
+      "workIds": [
+        "wrk:000067"
+      ]
+    },
+    "verification": {
+      "claimIds": [
+        "clm:007125",
+        "clm:007126",
+        "clm:007127",
+        "clm:007128",
+        "clm:007129",
+        "clm:007130"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000063",
+    "entityType": "connection",
+    "from": {
+      "type": "character",
+      "id": "chr:000003"
+    },
+    "predicate": "appears_in",
+    "to": {
+      "type": "work",
+      "id": "wrk:000155"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "Roland is the protagonist of this explicitly scoped work."
+    },
+    "spoiler": {
+      "level": "premise",
+      "workIds": [
+        "wrk:000155"
+      ]
+    },
+    "verification": {
+      "claimIds": [
+        "clm:007131",
+        "clm:007132",
+        "clm:007133",
+        "clm:007134",
+        "clm:007135",
+        "clm:007136"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000064",
+    "entityType": "connection",
+    "from": {
+      "type": "character",
+      "id": "chr:000003"
+    },
+    "predicate": "appears_in",
+    "to": {
+      "type": "work",
+      "id": "wrk:000014"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "Roland is the protagonist of this explicitly scoped work."
+    },
+    "spoiler": {
+      "level": "premise",
+      "workIds": [
+        "wrk:000014"
+      ]
+    },
+    "verification": {
+      "claimIds": [
+        "clm:007137",
+        "clm:007138",
+        "clm:007139",
+        "clm:007140",
+        "clm:007141",
+        "clm:007142"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000065",
+    "entityType": "connection",
+    "from": {
+      "type": "character",
+      "id": "chr:000004"
+    },
+    "predicate": "appears_in",
+    "to": {
+      "type": "work",
+      "id": "wrk:000007"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The official index identifies Randall Flagg in this work; no alias-based automatic merges."
+    },
+    "spoiler": {
+      "level": "plot",
+      "workIds": [
+        "wrk:000007"
+      ]
+    },
+    "verification": {
+      "claimIds": [
+        "clm:007143",
+        "clm:007144",
+        "clm:007145",
+        "clm:007146",
+        "clm:007147",
+        "clm:007148"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000066",
+    "entityType": "connection",
+    "from": {
+      "type": "character",
+      "id": "chr:000004"
+    },
+    "predicate": "appears_in",
+    "to": {
+      "type": "work",
+      "id": "wrk:000020"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The official index identifies Randall Flagg in this work; no alias-based automatic merges."
+    },
+    "spoiler": {
+      "level": "plot",
+      "workIds": [
+        "wrk:000020"
+      ]
+    },
+    "verification": {
+      "claimIds": [
+        "clm:007149",
+        "clm:007150",
+        "clm:007151",
+        "clm:007152",
+        "clm:007153",
+        "clm:007154"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000067",
+    "entityType": "connection",
+    "from": {
+      "type": "work",
+      "id": "wrk:000002"
+    },
+    "predicate": "set_in",
+    "to": {
+      "type": "location",
+      "id": "loc:000001"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The official index locates some action in the Territories; no broader world-identity merge."
+    },
+    "spoiler": {
+      "level": "plot",
+      "workIds": [
+        "wrk:000002"
+      ]
+    },
+    "verification": {
+      "claimIds": [
+        "clm:007155",
+        "clm:007156",
+        "clm:007157",
+        "clm:007158",
+        "clm:007159",
+        "clm:007160"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000068",
+    "entityType": "connection",
+    "from": {
+      "type": "adaptation",
+      "id": "adp:000003"
+    },
+    "predicate": "adaptation_of",
+    "to": {
+      "type": "work",
+      "id": "wrk:000077"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "Screenplay/source statement explicitly identifies the short story."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    },
+    "verification": {
+      "claimIds": [
+        "clm:007161",
+        "clm:007162",
+        "clm:007163",
+        "clm:007164",
+        "clm:007165",
+        "clm:007166"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000069",
+    "entityType": "connection",
+    "from": {
+      "type": "adaptation",
+      "id": "adp:000007"
+    },
+    "predicate": "adaptation_of",
+    "to": {
+      "type": "work",
+      "id": "wrk:000087"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "AFI literary-source field explicitly identifies the short story in Night Shift."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    },
+    "verification": {
+      "claimIds": [
+        "clm:007167",
+        "clm:007168",
+        "clm:007169",
+        "clm:007170",
+        "clm:007171",
+        "clm:007172"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000070",
+    "entityType": "connection",
+    "from": {
+      "type": "adaptation",
+      "id": "adp:000011"
+    },
+    "predicate": "adaptation_of",
+    "to": {
+      "type": "work",
+      "id": "wrk:000012"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "AFI literary-source field explicitly identifies the novel Cujo."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    },
+    "verification": {
+      "claimIds": [
+        "clm:007173",
+        "clm:007174",
+        "clm:007175",
+        "clm:007176",
+        "clm:007177",
+        "clm:007178"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000071",
+    "entityType": "connection",
+    "from": {
+      "type": "adaptation",
+      "id": "adp:000014"
+    },
+    "predicate": "adaptation_of",
+    "to": {
+      "type": "work",
+      "id": "wrk:000009"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "AFI history describes acquiring and adapting the novel The Dead Zone."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    },
+    "verification": {
+      "claimIds": [
+        "clm:007179",
+        "clm:007180",
+        "clm:007181",
+        "clm:007182",
+        "clm:007183",
+        "clm:007184"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000072",
+    "entityType": "connection",
+    "from": {
+      "type": "adaptation",
+      "id": "adp:000015"
+    },
+    "predicate": "adaptation_of",
+    "to": {
+      "type": "work",
+      "id": "wrk:000051"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "Screenplay statement explicitly identifies the novel."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    },
+    "verification": {
+      "claimIds": [
+        "clm:007185",
+        "clm:007186",
+        "clm:007187",
+        "clm:007188",
+        "clm:007189",
+        "clm:007190"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000073",
+    "entityType": "connection",
+    "from": {
+      "type": "adaptation",
+      "id": "adp:000026"
+    },
+    "predicate": "adaptation_of",
+    "to": {
+      "type": "work",
+      "id": "wrk:000019"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "Novel writer credit plus the specifically identified source work."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    },
+    "verification": {
+      "claimIds": [
+        "clm:007191",
+        "clm:007192",
+        "clm:007193",
+        "clm:007194",
+        "clm:007195",
+        "clm:007196"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000074",
+    "entityType": "connection",
+    "from": {
+      "type": "adaptation",
+      "id": "adp:000031"
+    },
+    "predicate": "adaptation_of",
+    "to": {
+      "type": "work",
+      "id": "wrk:000080"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The page explicitly identifies Trucks as the source story."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    },
+    "verification": {
+      "claimIds": [
+        "clm:007197",
+        "clm:007198",
+        "clm:007199",
+        "clm:007200",
+        "clm:007201",
+        "clm:007202"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000075",
+    "entityType": "connection",
+    "from": {
+      "type": "adaptation",
+      "id": "adp:000032"
+    },
+    "predicate": "adaptation_of",
+    "to": {
+      "type": "work",
+      "id": "wrk:000021"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "AFI literary-source field explicitly identifies the novel Misery."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    },
+    "verification": {
+      "claimIds": [
+        "clm:007203",
+        "clm:007204",
+        "clm:007205",
+        "clm:007206",
+        "clm:007207",
+        "clm:007208"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000076",
+    "entityType": "connection",
+    "from": {
+      "type": "adaptation",
+      "id": "adp:000033"
+    },
+    "predicate": "adaptation_of",
+    "to": {
+      "type": "work",
+      "id": "wrk:000096"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The page identifies the novella from Skeleton Crew."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    },
+    "verification": {
+      "claimIds": [
+        "clm:007209",
+        "clm:007210",
+        "clm:007211",
+        "clm:007212",
+        "clm:007213",
+        "clm:007214"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000077",
+    "entityType": "connection",
+    "from": {
+      "type": "adaptation",
+      "id": "adp:000043"
+    },
+    "predicate": "adaptation_of",
+    "to": {
+      "type": "work",
+      "id": "wrk:000004"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "Novel source writer credit identifies this work."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    },
+    "verification": {
+      "claimIds": [
+        "clm:007215",
+        "clm:007216",
+        "clm:007217",
+        "clm:007218",
+        "clm:007219",
+        "clm:007220"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000078",
+    "entityType": "connection",
+    "from": {
+      "type": "adaptation",
+      "id": "adp:000047"
+    },
+    "predicate": "adaptation_of",
+    "to": {
+      "type": "work",
+      "id": "wrk:000017"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The page explicitly identifies Cycle of the Werewolf."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    },
+    "verification": {
+      "claimIds": [
+        "clm:007221",
+        "clm:007222",
+        "clm:007223",
+        "clm:007224",
+        "clm:007225",
+        "clm:007226"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000079",
+    "entityType": "connection",
+    "from": {
+      "type": "adaptation",
+      "id": "adp:000048"
+    },
+    "predicate": "adaptation_of",
+    "to": {
+      "type": "work",
+      "id": "wrk:000094"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The author page and Sony explicitly identify The Body novella."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    },
+    "verification": {
+      "claimIds": [
+        "clm:007227",
+        "clm:007228",
+        "clm:007229",
+        "clm:007230",
+        "clm:007231",
+        "clm:007232"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000080",
+    "entityType": "connection",
+    "from": {
+      "type": "adaptation",
+      "id": "adp:000055"
+    },
+    "predicate": "adaptation_of",
+    "to": {
+      "type": "work",
+      "id": "wrk:000035"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The reproduced A&E announcement explicitly identifies the novel."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    },
+    "verification": {
+      "claimIds": [
+        "clm:007233",
+        "clm:007234",
+        "clm:007235",
+        "clm:007236",
+        "clm:007237",
+        "clm:007238"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000081",
+    "entityType": "connection",
+    "from": {
+      "type": "adaptation",
+      "id": "adp:000056"
+    },
+    "predicate": "adaptation_of",
+    "to": {
+      "type": "work",
+      "id": "wrk:000178"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The reproduced Lifetime announcement explicitly identifies the story."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    },
+    "verification": {
+      "claimIds": [
+        "clm:007239",
+        "clm:007240",
+        "clm:007241",
+        "clm:007242",
+        "clm:007243",
+        "clm:007244"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000082",
+    "entityType": "connection",
+    "from": {
+      "type": "adaptation",
+      "id": "adp:000057"
+    },
+    "predicate": "adaptation_of",
+    "to": {
+      "type": "work",
+      "id": "wrk:000003"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The actual Swank production page identifies the novel and the 1976 remake."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    },
+    "verification": {
+      "claimIds": [
+        "clm:007245",
+        "clm:007246",
+        "clm:007247",
+        "clm:007248",
+        "clm:007249",
+        "clm:007250"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000083",
+    "entityType": "connection",
+    "from": {
+      "type": "adaptation",
+      "id": "adp:000058"
+    },
+    "predicate": "adaptation_of",
+    "to": {
+      "type": "work",
+      "id": "wrk:000072"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The page explicitly identifies Jerusalem's Lot as its source story."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    },
+    "verification": {
+      "claimIds": [
+        "clm:007251",
+        "clm:007252",
+        "clm:007253",
+        "clm:007254",
+        "clm:007255",
+        "clm:007256"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000084",
+    "entityType": "connection",
+    "from": {
+      "type": "adaptation",
+      "id": "adp:000062"
+    },
+    "predicate": "adaptation_of",
+    "to": {
+      "type": "work",
+      "id": "wrk:000019"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The production description explicitly identifies the novel IT as its basis; this does not certify every continuity detail."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    },
+    "verification": {
+      "claimIds": [
+        "clm:007257",
+        "clm:007258",
+        "clm:007259",
+        "clm:007260",
+        "clm:007261",
+        "clm:007262"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000085",
+    "entityType": "connection",
+    "from": {
+      "type": "adaptation",
+      "id": "adp:000064"
+    },
+    "predicate": "adaptation_of",
+    "to": {
+      "type": "work",
+      "id": "wrk:000044"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The production description explicitly identifies the novel."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    },
+    "verification": {
+      "claimIds": [
+        "clm:007263",
+        "clm:007264",
+        "clm:007265",
+        "clm:007266",
+        "clm:007267",
+        "clm:007268"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000086",
+    "entityType": "connection",
+    "from": {
+      "type": "adaptation",
+      "id": "adp:000066"
+    },
+    "predicate": "adaptation_of",
+    "to": {
+      "type": "work",
+      "id": "wrk:000052"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The production description explicitly identifies the novel."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    },
+    "verification": {
+      "claimIds": [
+        "clm:007269",
+        "clm:007270",
+        "clm:007271",
+        "clm:007272",
+        "clm:007273",
+        "clm:007274"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000087",
+    "entityType": "connection",
+    "from": {
+      "type": "adaptation",
+      "id": "adp:000070"
+    },
+    "predicate": "adaptation_of",
+    "to": {
+      "type": "work",
+      "id": "wrk:000005"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The page identifies the miniseries as an adaptation and links the exact novel."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    },
+    "verification": {
+      "claimIds": [
+        "clm:007275",
+        "clm:007276",
+        "clm:007277",
+        "clm:007278",
+        "clm:007279",
+        "clm:007280"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000088",
+    "entityType": "connection",
+    "from": {
+      "type": "adaptation",
+      "id": "adp:000075"
+    },
+    "predicate": "adaptation_of",
+    "to": {
+      "type": "work",
+      "id": "wrk:000080"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The page explicitly identifies the short story Trucks."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    },
+    "verification": {
+      "claimIds": [
+        "clm:007281",
+        "clm:007282",
+        "clm:007283",
+        "clm:007284",
+        "clm:007285",
+        "clm:007286"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000089",
+    "entityType": "connection",
+    "from": {
+      "type": "adaptation",
+      "id": "adp:000076"
+    },
+    "predicate": "adaptation_of",
+    "to": {
+      "type": "work",
+      "id": "wrk:000047"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The page explicitly calls the series an adaptation and identifies the source work."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    },
+    "verification": {
+      "claimIds": [
+        "clm:007287",
+        "clm:007288",
+        "clm:007289",
+        "clm:007290",
+        "clm:007291",
+        "clm:007292"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000090",
+    "entityType": "connection",
+    "from": {
+      "type": "adaptation",
+      "id": "adp:000077"
+    },
+    "predicate": "adaptation_of",
+    "to": {
+      "type": "work",
+      "id": "wrk:000058"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The page explicitly identifies the novel of the same name."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    },
+    "verification": {
+      "claimIds": [
+        "clm:007293",
+        "clm:007294",
+        "clm:007295",
+        "clm:007296",
+        "clm:007297",
+        "clm:007298"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000091",
+    "entityType": "connection",
+    "from": {
+      "type": "adaptation",
+      "id": "adp:000094"
+    },
+    "predicate": "adaptation_of",
+    "to": {
+      "type": "work",
+      "id": "wrk:000172"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The page explicitly identifies The Cat from Hell as one segment source."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    },
+    "verification": {
+      "claimIds": [
+        "clm:007299",
+        "clm:007300",
+        "clm:007301",
+        "clm:007302",
+        "clm:007303",
+        "clm:007304"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000092",
+    "entityType": "connection",
+    "from": {
+      "type": "adaptation",
+      "id": "adp:000013"
+    },
+    "predicate": "adaptation_of",
+    "to": {
+      "type": "series",
+      "id": "ser:000001"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The official page identifies a Dark Tower series adaptation; individual-volume candidates remain provisional."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    },
+    "verification": {
+      "claimIds": [
+        "clm:007305",
+        "clm:007306",
+        "clm:007307",
+        "clm:007308",
+        "clm:007309",
+        "clm:007310"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000093",
+    "entityType": "connection",
+    "from": {
+      "type": "adaptation",
+      "id": "adp:000057"
+    },
+    "predicate": "remake_of",
+    "to": {
+      "type": "adaptation",
+      "id": "adp:000004"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The production page explicitly identifies this as a remake of the 1976 film."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    },
+    "verification": {
+      "claimIds": [
+        "clm:007311",
+        "clm:007312",
+        "clm:007313",
+        "clm:007314",
+        "clm:007315",
+        "clm:007316"
+      ],
+      "open": []
+    }
+  },
+  {
+    "id": "rel:000094",
+    "entityType": "connection",
+    "from": {
+      "type": "adaptation",
+      "id": "adp:000069"
+    },
+    "predicate": "remake_of",
+    "to": {
+      "type": "adaptation",
+      "id": "adp:000068"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The official page explicitly identifies a remake of the 1979 television production."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    },
+    "verification": {
+      "claimIds": [
+        "clm:007317",
+        "clm:007318",
+        "clm:007319",
+        "clm:007320",
+        "clm:007321",
+        "clm:007322"
+      ],
+      "open": []
+    }
   }
 ]

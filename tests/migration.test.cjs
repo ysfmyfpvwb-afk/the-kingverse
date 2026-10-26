@@ -6,7 +6,7 @@ const {generateShadow,outputFiles,hash}=require('../scripts/migrate_shadow.cjs')
 const {validateShadow}=require('../scripts/validate_shadow.cjs');const {report}=require('../scripts/report_migration.cjs');
 const read=name=>JSON.parse(fs.readFileSync(path.join(ROOT,name),'utf8'));
 const fresh=()=>({bundle:loadBundle(path.join(ROOT,'data/v2-shadow')),ledger:read('data/migration/differences.json')});
-test('Batches 01–04 reproduce and validate without claiming a full migration',()=>{
+test('Batches 01–05 reproduce and validate without claiming a full migration',()=>{
  const {bundle,ledger}=fresh();assert.equal(validateShadow(bundle,ledger).valid,true);
  for(const[name,content]of outputFiles())assert.equal(fs.readFileSync(path.join(ROOT,name),'utf8'),content,name);
  assert.deepEqual(outputFiles(),outputFiles());assert.equal(bundle.works.length,241);assert.equal(bundle.collections.length,15);assert.equal(bundle.credits.length,291);
@@ -17,7 +17,7 @@ test('Batches 01–04 reproduce and validate without claiming a full migration',
 test('Every input leaf has exactly one checked mapping or explicit deferred disposition',()=>{
  const {bundle,ledger}=fresh();assert.equal(new Set(ledger.fields.map(f=>f.pointer)).size,ledger.fields.length);
  assert.ok(ledger.fields.some(f=>f.pointer.includes('/imdb/summary/en')&&f.disposition==='retained-in-source-not-migrated'));
- assert.ok(!JSON.stringify(ledger).includes('Gelezen'));assert.equal(ledger.fields.filter(f=>f.disposition==='mapped').length,5657);
+ assert.ok(!JSON.stringify(ledger).includes('Gelezen'));assert.equal(ledger.fields.filter(f=>f.disposition==='mapped').length,5674);
  ledger.fields.pop();assert.ok(validateShadow(bundle,ledger,{checkGenerated:false}).errors.some(e=>e.code==='field-ledger-difference'));
 });
 test('Role, alias, field-value and hash corruption are rejected',()=>{

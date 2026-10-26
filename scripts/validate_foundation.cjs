@@ -10,9 +10,9 @@ const schema = JSON.parse(fs.readFileSync(path.join(ROOT, 'schemas/foundation.sc
 const schemaValidator = new Ajv2020({allErrors: true, strict: true}).compile(schema);
 const TABLES = Object.entries(schema.properties).filter(([,v]) => v.type === 'array').map(([key]) => key);
 const TYPES = Object.fromEntries(TABLES.map(k => [k, schema.properties[k].items.$ref.split('/').at(-1)]));
-const PREFIXES = {work:'wrk', collection:'col', edition:'edn', person:'per', adaptation:'adp', character:'chr', location:'loc', connection:'rel', source:'src', claim:'clm', credit:'crd', membership:'mem', publication:'pub', artwork:'art', externalReference:'xref'};
+const PREFIXES = {work:'wrk', collection:'col', edition:'edn', person:'per', adaptation:'adp', character:'chr', location:'loc', connection:'rel', source:'src', claim:'clm', credit:'crd', membership:'mem', publication:'pub', artwork:'art', externalReference:'xref', series:'ser'};
 function loadBundle(directory = path.join(ROOT, 'data/v2')) {
-  return Object.fromEntries(['manifest','registry',...TABLES].map(k => [k, JSON.parse(fs.readFileSync(path.join(directory, `${k}.json`), 'utf8'))]));
+  return Object.fromEntries(['manifest','registry',...TABLES].map(k => [k, k==='series'&&!fs.existsSync(path.join(directory,'series.json'))?[]:JSON.parse(fs.readFileSync(path.join(directory, `${k}.json`), 'utf8'))]));
 }
 function pointer(record, pointer) {
   if (/~(?![01])/u.test(pointer)) return {exists:false};
@@ -31,9 +31,9 @@ function validate(bundle, {root = ROOT, checkRuntime = true, checkCompatibility 
     return {valid:false, errors, counts:{}};
   }
   if(checkCompatibility && bundle.manifest.scope!=='two-work-foundation-poc')return {valid:false,errors:[{code:'shadow-validator-required',path:'manifest',message:'Use scripts/validate_shadow.cjs for reviewed shadow batch compatibility.'}],counts:{}};
-  const records = TABLES.flatMap(k => bundle[k]);
+  const records = TABLES.flatMap(k => bundle[k]||[]);
   const map = new Map();
-  for (const table of TABLES) for (const r of bundle[table]) {
+  for (const table of TABLES) for (const r of bundle[table]||[]) {
     if (r.entityType !== TYPES[table]) add('entity-type', r.id, `Expected ${TYPES[table]}`);
     if (!r.id.startsWith(PREFIXES[r.entityType]+':')) add('id-prefix', r.id, 'ID prefix must match type, not title');
     if (map.has(r.id)) add('duplicate-id', r.id, 'Duplicate/conflicting canonical ID');
@@ -65,7 +65,7 @@ function validate(bundle, {root = ROOT, checkRuntime = true, checkCompatibility 
       const [view, query=''] = url.hash.slice(1).split('?');
       const item = new URLSearchParams(query).get('item');
       const binding = bundle.registry.aliases.find(x => x.alias === item && x.kind === 'legacy-id');
-      if (!(['shadow-stories-batch-02','shadow-publications-batch-03','shadow-screen-batch-04'].includes(bundle.manifest.scope)?['books','stories',...(bundle.manifest.scope==='shadow-screen-batch-04'?['films']:[])]:['books']).includes(view) || !item?.startsWith(view+':') || !binding || !equal(binding.target,a.target) || (view==='stories'&&a.target.type!=='work') || (view==='films'&&a.target.type!=='adaptation')) add('legacy-route',a.alias,'Route and legacy ID must resolve to the same work');
+      if (!(['shadow-stories-batch-02','shadow-publications-batch-03','shadow-screen-batch-04','shadow-universe-batch-05'].includes(bundle.manifest.scope)?['books','stories',...(['shadow-screen-batch-04','shadow-universe-batch-05'].includes(bundle.manifest.scope)?['films']:[])]:['books']).includes(view) || !item?.startsWith(view+':') || !binding || !equal(binding.target,a.target) || (view==='stories'&&a.target.type!=='work') || (view==='films'&&a.target.type!=='adaptation')) add('legacy-route',a.alias,'Route and legacy ID must resolve to the same work');
     }
   }
   const dates = (node, where) => {
@@ -95,7 +95,7 @@ function validate(bundle, {root = ROOT, checkRuntime = true, checkCompatibility 
     if (c.status === 'verified' && c.sourceIds.every(id => ['blocked','unavailable','indexed-only'].includes(map.get(id)?.access))) add('claim-evidence',c.id,'Inaccessible/indexed-only evidence cannot certify a new verified claim');
   }
   // An URL elsewhere in the record is not evidence for an unclaimed content field.
-  const substantive = {work:['kind','originalTitle','originalLanguage','aliases','summary'], collection:['originalTitle','collectionKind'], edition:['publicationOf','language','title','isbn13','publisher','publicationDate','format'], person:['name','aliases','pseudonyms'], credit:['personId','subject','role','scope'], character:['name','aliases','continuity'], location:['name','locationKind','aliases','continuity'], connection:['from','predicate','to','certainty','explanation'], membership:['collectionId','workId'], publication:['subject','eventType','date','publisher','reportedTitle'], artwork:['kind','editionId','adaptationId','url','language'], adaptation:['title','aliases','format','summary','externalIds','releaseEvents','releaseYear','statusHistory','makerObservations','distribution','productionUnits','countries','originalLanguages','originalScreenplay'], externalReference:['legacyId']};
+  const substantive = {series:['name','seriesKind','scope'],work:['kind','originalTitle','originalLanguage','aliases','summary'], collection:['originalTitle','collectionKind'], edition:['publicationOf','language','title','isbn13','publisher','publicationDate','format'], person:['name','aliases','pseudonyms'], credit:['personId','subject','role','scope'], character:['name','aliases','continuity'], location:['name','locationKind','aliases','continuity'], connection:['from','predicate','to','certainty','explanation','via','derivation','seriesPosition'], membership:['collectionId','workId'], publication:['subject','eventType','date','publisher','reportedTitle'], artwork:['kind','editionId','adaptationId','url','language'], adaptation:['title','aliases','format','summary','externalIds','releaseEvents','releaseYear','statusHistory','makerObservations','distribution','productionUnits','countries','originalLanguages','originalScreenplay'], externalReference:['legacyId']};
   for (const r of records) for (const field of substantive[r.entityType] || []) {
     if (r[field] === null || r[field] === undefined || (Array.isArray(r[field]) && !r[field].length) || (typeof r[field]==='object' && !Object.keys(r[field]).length)) continue;
     if (!bundle.claims.some(c => c.subject.id === r.id && c.fieldPath === '/'+field && c.selected && c.sourceIds.length)) add('unclaimed-field',`${r.id}/${field}`,'Content field requires a selected source claim');
@@ -129,7 +129,7 @@ function validate(bundle, {root = ROOT, checkRuntime = true, checkCompatibility 
     for(const id of m.editionIds){const e=need(id,['edition'],m.id);if(e&&e.publicationOf.id!==m.collectionId)add('membership-edition',m.id,'Content edition must belong to its collection');}
     const key=JSON.stringify([m.collectionId,m.workId,[...m.editionIds].sort()]);if(memberships.has(key))add('duplicate-membership',m.id,'Duplicate membership');memberships.add(key);
   }
-  const pairs={sequel_to:[['work','work'],['adaptation','adaptation']], prequel_to:[['work','work'],['adaptation','adaptation']], adaptation_of:[['adaptation','work'],['adaptation','collection']], inspired_by:[['adaptation','work'],['adaptation','collection']], appears_in:[['character','work'],['character','adaptation']], mentioned_in:[['character','work'],['location','work']], set_in:[['work','location'],['adaptation','location']], shared_reference:[['work','work'],['work','externalReference']], shared_cosmology:[['work','work'],['work','externalReference']], thematic_parallel:[['work','work'],['work','externalReference']], same_as:[['character','character'],['location','location']]};
+  const pairs={part_of_series:[['work','series'],['collection','series']], shares_character_with:[['work','work']], shares_location_with:[['work','work']], references_work:[['work','work']], dark_tower_connection:[['work','series'],['collection','series'],['work','work']], remake_of:[['adaptation','adaptation']],sequel_to:[['work','work'],['adaptation','adaptation']], prequel_to:[['work','work'],['adaptation','adaptation']], adaptation_of:[['adaptation','work'],['adaptation','collection'],['adaptation','series']], inspired_by:[['adaptation','work'],['adaptation','collection']], appears_in:[['character','work'],['character','adaptation'],['character','series']], mentioned_in:[['character','work'],['location','work']], set_in:[['work','location'],['adaptation','location']], shared_reference:[['work','work'],['work','externalReference']], shared_cosmology:[['work','work'],['work','externalReference']], thematic_parallel:[['work','work'],['work','externalReference']], same_as:[['character','character'],['location','location']]};
   const connections=new Set();
   for(const c of bundle.connections){
     checkRef(c.from,c.id);checkRef(c.to,c.id);
@@ -172,7 +172,7 @@ function validate(bundle, {root = ROOT, checkRuntime = true, checkCompatibility 
     if(!['index.html','app.js','catalog.js','media.js','styles.css','about.html','about.js'].includes(file)){add('runtime-path',file,'Unexpected runtime path');continue;}
     if(crypto.createHash('sha256').update(fs.readFileSync(path.join(root,file))).digest('hex')!==hash)add('runtime-changed',file,'Foundation must not change the active site');
   }
-  return {valid:errors.length===0,errors,counts:Object.fromEntries(TABLES.map(t=>[t,bundle[t].length]))};
+  return {valid:errors.length===0,errors,counts:Object.fromEntries(TABLES.map(t=>[t,(bundle[t]||[]).length]))};
 }
 if(require.main===module){
   try {const result=validate(loadBundle(process.argv[2]||undefined)); console.log(JSON.stringify(result,null,2));process.exitCode=result.valid?0:1;}
