@@ -1431,7 +1431,10 @@
           "const": 2
         },
         "scope": {
-          "const": "two-work-foundation-poc"
+          "enum": [
+            "two-work-foundation-poc",
+            "shadow-library-batch-01"
+          ]
         },
         "baselineCommit": {
           "type": "string",
@@ -1444,7 +1447,6 @@
             "minLength": 1
           },
           "minItems": 2,
-          "maxItems": 2,
           "uniqueItems": true
         },
         "runtimeHashes": {
@@ -1471,7 +1473,26 @@
         "runtimeHashes",
         "notes"
       ],
-      "additionalProperties": false
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "scope": {
+                "const": "two-work-foundation-poc"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "migratedLegacyWorkIds": {
+                "maxItems": 2,
+                "type": "array"
+              }
+            }
+          }
+        }
+      ]
     }
   }
 }

@@ -1,0 +1,6375 @@
+{
+  "schemaVersion": 2,
+  "entries": [
+    {
+      "id": "wrk:000001",
+      "type": "work"
+    },
+    {
+      "id": "wrk:000002",
+      "type": "work"
+    },
+    {
+      "id": "edn:000001",
+      "type": "edition"
+    },
+    {
+      "id": "edn:000002",
+      "type": "edition"
+    },
+    {
+      "id": "edn:000003",
+      "type": "edition"
+    },
+    {
+      "id": "edn:000004",
+      "type": "edition"
+    },
+    {
+      "id": "per:000001",
+      "type": "person"
+    },
+    {
+      "id": "per:000002",
+      "type": "person"
+    },
+    {
+      "id": "crd:000001",
+      "type": "credit"
+    },
+    {
+      "id": "crd:000002",
+      "type": "credit"
+    },
+    {
+      "id": "crd:000003",
+      "type": "credit"
+    },
+    {
+      "id": "crd:000004",
+      "type": "credit"
+    },
+    {
+      "id": "chr:000001",
+      "type": "character"
+    },
+    {
+      "id": "chr:000002",
+      "type": "character"
+    },
+    {
+      "id": "loc:000001",
+      "type": "location"
+    },
+    {
+      "id": "rel:000001",
+      "type": "connection"
+    },
+    {
+      "id": "rel:000002",
+      "type": "connection"
+    },
+    {
+      "id": "rel:000003",
+      "type": "connection"
+    },
+    {
+      "id": "rel:000004",
+      "type": "connection"
+    },
+    {
+      "id": "rel:000005",
+      "type": "connection"
+    },
+    {
+      "id": "rel:000006",
+      "type": "connection"
+    },
+    {
+      "id": "rel:000007",
+      "type": "connection"
+    },
+    {
+      "id": "rel:000008",
+      "type": "connection"
+    },
+    {
+      "id": "src:000001",
+      "type": "source"
+    },
+    {
+      "id": "src:000002",
+      "type": "source"
+    },
+    {
+      "id": "src:000003",
+      "type": "source"
+    },
+    {
+      "id": "src:000004",
+      "type": "source"
+    },
+    {
+      "id": "src:000005",
+      "type": "source"
+    },
+    {
+      "id": "clm:000001",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000002",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000003",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000004",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000005",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000006",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000007",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000008",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000009",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000010",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000011",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000012",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000013",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000014",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000015",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000016",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000017",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000018",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000019",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000020",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000021",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000022",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000023",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000024",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000025",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000026",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000027",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000028",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000029",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000030",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000031",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000032",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000033",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000034",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000035",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000036",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000037",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000038",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000039",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000040",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000041",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000042",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000043",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000044",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000045",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000046",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000047",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000048",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000049",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000050",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000051",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000052",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000053",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000054",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000055",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000056",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000057",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000058",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000059",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000060",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000061",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000062",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000063",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000064",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000065",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000066",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000067",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000068",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000069",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000070",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000071",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000072",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000073",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000074",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000075",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000076",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000077",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000078",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000079",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000080",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000081",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000082",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000083",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000084",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000085",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000086",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000087",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000088",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000089",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000090",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000091",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000092",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000093",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000094",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000095",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000096",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000097",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000098",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000099",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000100",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000101",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000102",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000103",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000104",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000105",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000106",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000107",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000108",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000109",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000110",
+      "type": "claim"
+    },
+    {
+      "id": "pub:000001",
+      "type": "publication"
+    },
+    {
+      "id": "pub:000002",
+      "type": "publication"
+    },
+    {
+      "id": "art:000001",
+      "type": "artwork"
+    },
+    {
+      "id": "art:000002",
+      "type": "artwork"
+    },
+    {
+      "id": "art:000003",
+      "type": "artwork"
+    },
+    {
+      "id": "art:000004",
+      "type": "artwork"
+    },
+    {
+      "id": "xref:000001",
+      "type": "externalReference"
+    },
+    {
+      "id": "xref:000002",
+      "type": "externalReference"
+    },
+    {
+      "id": "clm:000111",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000112",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000113",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000114",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000115",
+      "type": "claim"
+    },
+    {
+      "id": "per:000003",
+      "type": "person"
+    },
+    {
+      "id": "src:000059",
+      "type": "source"
+    },
+    {
+      "id": "clm:000116",
+      "type": "claim"
+    },
+    {
+      "id": "per:000004",
+      "type": "person"
+    },
+    {
+      "id": "src:000060",
+      "type": "source"
+    },
+    {
+      "id": "clm:000117",
+      "type": "claim"
+    },
+    {
+      "id": "per:000005",
+      "type": "person"
+    },
+    {
+      "id": "src:000072",
+      "type": "source"
+    },
+    {
+      "id": "clm:000118",
+      "type": "claim"
+    },
+    {
+      "id": "per:000006",
+      "type": "person"
+    },
+    {
+      "id": "src:000088",
+      "type": "source"
+    },
+    {
+      "id": "clm:000119",
+      "type": "claim"
+    },
+    {
+      "id": "per:000007",
+      "type": "person"
+    },
+    {
+      "id": "clm:000120",
+      "type": "claim"
+    },
+    {
+      "id": "per:000008",
+      "type": "person"
+    },
+    {
+      "id": "src:000089",
+      "type": "source"
+    },
+    {
+      "id": "clm:000121",
+      "type": "claim"
+    },
+    {
+      "id": "per:000009",
+      "type": "person"
+    },
+    {
+      "id": "src:000090",
+      "type": "source"
+    },
+    {
+      "id": "clm:000122",
+      "type": "claim"
+    },
+    {
+      "id": "per:000010",
+      "type": "person"
+    },
+    {
+      "id": "clm:000123",
+      "type": "claim"
+    },
+    {
+      "id": "per:000011",
+      "type": "person"
+    },
+    {
+      "id": "src:000091",
+      "type": "source"
+    },
+    {
+      "id": "clm:000124",
+      "type": "claim"
+    },
+    {
+      "id": "src:000009",
+      "type": "source"
+    },
+    {
+      "id": "clm:000125",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000003",
+      "type": "work"
+    },
+    {
+      "id": "src:000006",
+      "type": "source"
+    },
+    {
+      "id": "clm:000126",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000127",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000128",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000005",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000129",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000130",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000131",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000132",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000004",
+      "type": "work"
+    },
+    {
+      "id": "src:000007",
+      "type": "source"
+    },
+    {
+      "id": "clm:000133",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000134",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000135",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000006",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000136",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000137",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000138",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000139",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000005",
+      "type": "work"
+    },
+    {
+      "id": "src:000008",
+      "type": "source"
+    },
+    {
+      "id": "clm:000140",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000141",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000142",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000007",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000143",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000144",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000145",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000146",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000006",
+      "type": "work"
+    },
+    {
+      "id": "clm:000147",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000148",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000149",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000008",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000150",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000151",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000152",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000153",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000154",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000007",
+      "type": "work"
+    },
+    {
+      "id": "src:000010",
+      "type": "source"
+    },
+    {
+      "id": "clm:000155",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000156",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000157",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000009",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000158",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000159",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000160",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000161",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000008",
+      "type": "work"
+    },
+    {
+      "id": "src:000011",
+      "type": "source"
+    },
+    {
+      "id": "clm:000162",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000163",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000164",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000010",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000165",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000166",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000167",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000168",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000169",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000009",
+      "type": "work"
+    },
+    {
+      "id": "src:000012",
+      "type": "source"
+    },
+    {
+      "id": "clm:000170",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000171",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000172",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000011",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000173",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000174",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000175",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000176",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000010",
+      "type": "work"
+    },
+    {
+      "id": "src:000013",
+      "type": "source"
+    },
+    {
+      "id": "clm:000177",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000178",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000179",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000012",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000180",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000181",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000182",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000183",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000011",
+      "type": "work"
+    },
+    {
+      "id": "src:000014",
+      "type": "source"
+    },
+    {
+      "id": "clm:000184",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000185",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000186",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000013",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000187",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000188",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000189",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000190",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000191",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000012",
+      "type": "work"
+    },
+    {
+      "id": "src:000015",
+      "type": "source"
+    },
+    {
+      "id": "clm:000192",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000193",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000194",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000014",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000195",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000196",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000197",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000198",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000013",
+      "type": "work"
+    },
+    {
+      "id": "src:000016",
+      "type": "source"
+    },
+    {
+      "id": "clm:000199",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000200",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000201",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000015",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000202",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000203",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000204",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000205",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000206",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000014",
+      "type": "work"
+    },
+    {
+      "id": "src:000017",
+      "type": "source"
+    },
+    {
+      "id": "clm:000207",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000208",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000209",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000016",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000210",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000211",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000212",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000213",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000015",
+      "type": "work"
+    },
+    {
+      "id": "src:000018",
+      "type": "source"
+    },
+    {
+      "id": "clm:000214",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000215",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000216",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000017",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000217",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000218",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000219",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000220",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000016",
+      "type": "work"
+    },
+    {
+      "id": "src:000019",
+      "type": "source"
+    },
+    {
+      "id": "clm:000221",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000222",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000223",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000018",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000224",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000225",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000226",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000227",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000017",
+      "type": "work"
+    },
+    {
+      "id": "src:000020",
+      "type": "source"
+    },
+    {
+      "id": "clm:000228",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000229",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000230",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000019",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000231",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000232",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000233",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000234",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000018",
+      "type": "work"
+    },
+    {
+      "id": "src:000021",
+      "type": "source"
+    },
+    {
+      "id": "clm:000235",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000236",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000237",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000020",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000238",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000239",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000240",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000241",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000242",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000019",
+      "type": "work"
+    },
+    {
+      "id": "src:000022",
+      "type": "source"
+    },
+    {
+      "id": "clm:000243",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000244",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000245",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000021",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000246",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000247",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000248",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000249",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000020",
+      "type": "work"
+    },
+    {
+      "id": "src:000023",
+      "type": "source"
+    },
+    {
+      "id": "clm:000250",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000251",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000252",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000022",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000253",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000254",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000255",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000256",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000021",
+      "type": "work"
+    },
+    {
+      "id": "src:000024",
+      "type": "source"
+    },
+    {
+      "id": "clm:000257",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000258",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000259",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000023",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000260",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000261",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000262",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000263",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000022",
+      "type": "work"
+    },
+    {
+      "id": "src:000025",
+      "type": "source"
+    },
+    {
+      "id": "clm:000264",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000265",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000266",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000024",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000267",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000268",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000269",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000270",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000023",
+      "type": "work"
+    },
+    {
+      "id": "src:000026",
+      "type": "source"
+    },
+    {
+      "id": "clm:000271",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000272",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000273",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000025",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000274",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000275",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000276",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000277",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000024",
+      "type": "work"
+    },
+    {
+      "id": "src:000027",
+      "type": "source"
+    },
+    {
+      "id": "clm:000278",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000279",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000280",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000026",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000281",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000282",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000283",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000284",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000025",
+      "type": "work"
+    },
+    {
+      "id": "src:000028",
+      "type": "source"
+    },
+    {
+      "id": "clm:000285",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000286",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000287",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000027",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000288",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000289",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000290",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000291",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000026",
+      "type": "work"
+    },
+    {
+      "id": "src:000029",
+      "type": "source"
+    },
+    {
+      "id": "clm:000292",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000293",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000294",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000028",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000295",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000296",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000297",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000298",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000027",
+      "type": "work"
+    },
+    {
+      "id": "src:000030",
+      "type": "source"
+    },
+    {
+      "id": "clm:000299",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000300",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000301",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000029",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000302",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000303",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000304",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000305",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000028",
+      "type": "work"
+    },
+    {
+      "id": "src:000031",
+      "type": "source"
+    },
+    {
+      "id": "clm:000306",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000307",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000308",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000030",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000309",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000310",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000311",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000312",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000029",
+      "type": "work"
+    },
+    {
+      "id": "src:000032",
+      "type": "source"
+    },
+    {
+      "id": "clm:000313",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000314",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000315",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000031",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000316",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000317",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000318",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000319",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000030",
+      "type": "work"
+    },
+    {
+      "id": "src:000033",
+      "type": "source"
+    },
+    {
+      "id": "clm:000320",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000321",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000322",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000032",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000323",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000324",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000325",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000326",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000031",
+      "type": "work"
+    },
+    {
+      "id": "src:000034",
+      "type": "source"
+    },
+    {
+      "id": "clm:000327",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000328",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000329",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000033",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000330",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000331",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000332",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000333",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000032",
+      "type": "work"
+    },
+    {
+      "id": "src:000035",
+      "type": "source"
+    },
+    {
+      "id": "clm:000334",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000335",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000336",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000034",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000337",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000338",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000339",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000340",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000033",
+      "type": "work"
+    },
+    {
+      "id": "src:000036",
+      "type": "source"
+    },
+    {
+      "id": "clm:000341",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000342",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000343",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000035",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000344",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000345",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000346",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000347",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000348",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000034",
+      "type": "work"
+    },
+    {
+      "id": "src:000037",
+      "type": "source"
+    },
+    {
+      "id": "clm:000349",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000350",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000351",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000036",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000352",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000353",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000354",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000355",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000035",
+      "type": "work"
+    },
+    {
+      "id": "src:000038",
+      "type": "source"
+    },
+    {
+      "id": "clm:000356",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000357",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000358",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000037",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000359",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000360",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000361",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000362",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000036",
+      "type": "work"
+    },
+    {
+      "id": "src:000039",
+      "type": "source"
+    },
+    {
+      "id": "clm:000363",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000364",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000365",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000038",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000366",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000367",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000368",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000369",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000037",
+      "type": "work"
+    },
+    {
+      "id": "src:000040",
+      "type": "source"
+    },
+    {
+      "id": "clm:000370",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000371",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000372",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000039",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000373",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000374",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000375",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000376",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000038",
+      "type": "work"
+    },
+    {
+      "id": "src:000041",
+      "type": "source"
+    },
+    {
+      "id": "clm:000377",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000378",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000379",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000040",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000380",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000381",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000382",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000383",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000039",
+      "type": "work"
+    },
+    {
+      "id": "src:000042",
+      "type": "source"
+    },
+    {
+      "id": "clm:000384",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000385",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000386",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000041",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000387",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000388",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000389",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000390",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000040",
+      "type": "work"
+    },
+    {
+      "id": "src:000043",
+      "type": "source"
+    },
+    {
+      "id": "clm:000391",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000392",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000393",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000042",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000394",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000395",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000396",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000397",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000041",
+      "type": "work"
+    },
+    {
+      "id": "src:000044",
+      "type": "source"
+    },
+    {
+      "id": "clm:000398",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000399",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000400",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000043",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000401",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000402",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000403",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000404",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000042",
+      "type": "work"
+    },
+    {
+      "id": "src:000045",
+      "type": "source"
+    },
+    {
+      "id": "clm:000405",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000406",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000407",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000044",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000408",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000409",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000410",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000411",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000043",
+      "type": "work"
+    },
+    {
+      "id": "src:000046",
+      "type": "source"
+    },
+    {
+      "id": "clm:000412",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000413",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000414",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000045",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000415",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000416",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000417",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000418",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000044",
+      "type": "work"
+    },
+    {
+      "id": "src:000047",
+      "type": "source"
+    },
+    {
+      "id": "clm:000419",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000420",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000421",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000046",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000422",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000423",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000424",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000425",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000045",
+      "type": "work"
+    },
+    {
+      "id": "src:000048",
+      "type": "source"
+    },
+    {
+      "id": "clm:000426",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000427",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000428",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000047",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000429",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000430",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000431",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000432",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000433",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000046",
+      "type": "work"
+    },
+    {
+      "id": "src:000049",
+      "type": "source"
+    },
+    {
+      "id": "clm:000434",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000435",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000436",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000048",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000437",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000438",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000439",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000440",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000047",
+      "type": "work"
+    },
+    {
+      "id": "src:000050",
+      "type": "source"
+    },
+    {
+      "id": "clm:000441",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000442",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000443",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000049",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000444",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000445",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000446",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000447",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000048",
+      "type": "work"
+    },
+    {
+      "id": "src:000051",
+      "type": "source"
+    },
+    {
+      "id": "clm:000448",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000449",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000450",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000050",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000451",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000452",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000453",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000454",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000049",
+      "type": "work"
+    },
+    {
+      "id": "src:000052",
+      "type": "source"
+    },
+    {
+      "id": "clm:000455",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000456",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000457",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000051",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000458",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000459",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000460",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000461",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000050",
+      "type": "work"
+    },
+    {
+      "id": "src:000053",
+      "type": "source"
+    },
+    {
+      "id": "clm:000462",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000463",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000464",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000052",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000465",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000466",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000467",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000468",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000051",
+      "type": "work"
+    },
+    {
+      "id": "src:000054",
+      "type": "source"
+    },
+    {
+      "id": "clm:000469",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000470",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000471",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000053",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000472",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000473",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000474",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000475",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000052",
+      "type": "work"
+    },
+    {
+      "id": "src:000055",
+      "type": "source"
+    },
+    {
+      "id": "clm:000476",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000477",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000478",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000054",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000479",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000480",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000481",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000482",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000053",
+      "type": "work"
+    },
+    {
+      "id": "src:000056",
+      "type": "source"
+    },
+    {
+      "id": "clm:000483",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000484",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000485",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000055",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000486",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000487",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000488",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000489",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000054",
+      "type": "work"
+    },
+    {
+      "id": "src:000057",
+      "type": "source"
+    },
+    {
+      "id": "clm:000490",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000491",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000492",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000056",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000493",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000494",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000495",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000496",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000055",
+      "type": "work"
+    },
+    {
+      "id": "src:000058",
+      "type": "source"
+    },
+    {
+      "id": "clm:000497",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000498",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000499",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000057",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000500",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000501",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000502",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000503",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000056",
+      "type": "work"
+    },
+    {
+      "id": "clm:000504",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000505",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000506",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000058",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000507",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000508",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000509",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000510",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000059",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000511",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000512",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000513",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000514",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000057",
+      "type": "work"
+    },
+    {
+      "id": "clm:000515",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000516",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000517",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000060",
+      "type": "credit"
+    },
+    {
+      "id": "src:000061",
+      "type": "source"
+    },
+    {
+      "id": "clm:000518",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000519",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000520",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000521",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000061",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000522",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000523",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000524",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000525",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000058",
+      "type": "work"
+    },
+    {
+      "id": "src:000062",
+      "type": "source"
+    },
+    {
+      "id": "clm:000526",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000527",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000528",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000062",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000529",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000530",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000531",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000532",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000059",
+      "type": "work"
+    },
+    {
+      "id": "src:000063",
+      "type": "source"
+    },
+    {
+      "id": "clm:000533",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000534",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000535",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000063",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000536",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000537",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000538",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000539",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000060",
+      "type": "work"
+    },
+    {
+      "id": "src:000064",
+      "type": "source"
+    },
+    {
+      "id": "clm:000540",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000541",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000542",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000064",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000543",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000544",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000545",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000546",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000061",
+      "type": "work"
+    },
+    {
+      "id": "src:000065",
+      "type": "source"
+    },
+    {
+      "id": "clm:000547",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000548",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000549",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000065",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000550",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000551",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000552",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000553",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000062",
+      "type": "work"
+    },
+    {
+      "id": "src:000066",
+      "type": "source"
+    },
+    {
+      "id": "clm:000554",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000555",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000556",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000066",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000557",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000558",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000559",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000560",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000063",
+      "type": "work"
+    },
+    {
+      "id": "src:000067",
+      "type": "source"
+    },
+    {
+      "id": "clm:000561",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000562",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000563",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000067",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000564",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000565",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000566",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000567",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000068",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000568",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000569",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000570",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000571",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000064",
+      "type": "work"
+    },
+    {
+      "id": "src:000068",
+      "type": "source"
+    },
+    {
+      "id": "clm:000572",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000573",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000574",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000069",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000575",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000576",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000577",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000578",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000065",
+      "type": "work"
+    },
+    {
+      "id": "src:000069",
+      "type": "source"
+    },
+    {
+      "id": "clm:000579",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000580",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000581",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000070",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000582",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000583",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000584",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000585",
+      "type": "claim"
+    },
+    {
+      "id": "col:000001",
+      "type": "collection"
+    },
+    {
+      "id": "src:000070",
+      "type": "source"
+    },
+    {
+      "id": "clm:000586",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000587",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000071",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000588",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000589",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000590",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000591",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000066",
+      "type": "work"
+    },
+    {
+      "id": "src:000071",
+      "type": "source"
+    },
+    {
+      "id": "clm:000592",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000593",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000594",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000072",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000595",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000596",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000597",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000598",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000067",
+      "type": "work"
+    },
+    {
+      "id": "clm:000599",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000600",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000601",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000073",
+      "type": "credit"
+    },
+    {
+      "id": "src:000073",
+      "type": "source"
+    },
+    {
+      "id": "clm:000602",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000603",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000604",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000605",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000074",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000606",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000607",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000608",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000609",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000075",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000610",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000611",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000612",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000613",
+      "type": "claim"
+    },
+    {
+      "id": "col:000002",
+      "type": "collection"
+    },
+    {
+      "id": "src:000074",
+      "type": "source"
+    },
+    {
+      "id": "clm:000614",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000615",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000076",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000616",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000617",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000618",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000619",
+      "type": "claim"
+    },
+    {
+      "id": "col:000003",
+      "type": "collection"
+    },
+    {
+      "id": "src:000075",
+      "type": "source"
+    },
+    {
+      "id": "clm:000620",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000621",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000077",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000622",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000623",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000624",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000625",
+      "type": "claim"
+    },
+    {
+      "id": "col:000004",
+      "type": "collection"
+    },
+    {
+      "id": "src:000076",
+      "type": "source"
+    },
+    {
+      "id": "clm:000626",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000627",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000078",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000628",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000629",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000630",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000631",
+      "type": "claim"
+    },
+    {
+      "id": "col:000005",
+      "type": "collection"
+    },
+    {
+      "id": "src:000077",
+      "type": "source"
+    },
+    {
+      "id": "clm:000632",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000633",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000079",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000634",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000635",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000636",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000637",
+      "type": "claim"
+    },
+    {
+      "id": "col:000006",
+      "type": "collection"
+    },
+    {
+      "id": "src:000078",
+      "type": "source"
+    },
+    {
+      "id": "clm:000638",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000639",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000080",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000640",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000641",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000642",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000643",
+      "type": "claim"
+    },
+    {
+      "id": "col:000007",
+      "type": "collection"
+    },
+    {
+      "id": "src:000079",
+      "type": "source"
+    },
+    {
+      "id": "clm:000644",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000645",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000081",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000646",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000647",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000648",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000649",
+      "type": "claim"
+    },
+    {
+      "id": "col:000008",
+      "type": "collection"
+    },
+    {
+      "id": "src:000080",
+      "type": "source"
+    },
+    {
+      "id": "clm:000650",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000651",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000082",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000652",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000653",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000654",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000655",
+      "type": "claim"
+    },
+    {
+      "id": "col:000009",
+      "type": "collection"
+    },
+    {
+      "id": "src:000081",
+      "type": "source"
+    },
+    {
+      "id": "clm:000656",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000657",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000083",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000658",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000659",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000660",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000661",
+      "type": "claim"
+    },
+    {
+      "id": "col:000010",
+      "type": "collection"
+    },
+    {
+      "id": "src:000082",
+      "type": "source"
+    },
+    {
+      "id": "clm:000662",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000663",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000084",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000664",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000665",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000666",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000667",
+      "type": "claim"
+    },
+    {
+      "id": "col:000011",
+      "type": "collection"
+    },
+    {
+      "id": "src:000083",
+      "type": "source"
+    },
+    {
+      "id": "clm:000668",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000669",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000085",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000670",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000671",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000672",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000673",
+      "type": "claim"
+    },
+    {
+      "id": "col:000012",
+      "type": "collection"
+    },
+    {
+      "id": "src:000084",
+      "type": "source"
+    },
+    {
+      "id": "clm:000674",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000675",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000086",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000676",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000677",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000678",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000679",
+      "type": "claim"
+    },
+    {
+      "id": "col:000013",
+      "type": "collection"
+    },
+    {
+      "id": "src:000085",
+      "type": "source"
+    },
+    {
+      "id": "clm:000680",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000681",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000087",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000682",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000683",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000684",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000685",
+      "type": "claim"
+    },
+    {
+      "id": "col:000014",
+      "type": "collection"
+    },
+    {
+      "id": "src:000086",
+      "type": "source"
+    },
+    {
+      "id": "clm:000686",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000687",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000088",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000688",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000689",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000690",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000691",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000692",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000068",
+      "type": "work"
+    },
+    {
+      "id": "src:000087",
+      "type": "source"
+    },
+    {
+      "id": "clm:000693",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000694",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000695",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000089",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000696",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000697",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000698",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000699",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000069",
+      "type": "work"
+    },
+    {
+      "id": "clm:000700",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000701",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000702",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000090",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000703",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000704",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000705",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000706",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000091",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000707",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000708",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000709",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000710",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000092",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000711",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000712",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000713",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000714",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000070",
+      "type": "work"
+    },
+    {
+      "id": "clm:000715",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000716",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000717",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000093",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000718",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000719",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000720",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000721",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000094",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000722",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000723",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000724",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000725",
+      "type": "claim"
+    },
+    {
+      "id": "col:000015",
+      "type": "collection"
+    },
+    {
+      "id": "clm:000726",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000727",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000095",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000728",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000729",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000730",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000731",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000096",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000732",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000733",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000734",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000735",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000097",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000736",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000737",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000738",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000739",
+      "type": "claim"
+    },
+    {
+      "id": "wrk:000071",
+      "type": "work"
+    },
+    {
+      "id": "clm:000740",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000741",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000742",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000098",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000743",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000744",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000745",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000746",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000099",
+      "type": "credit"
+    },
+    {
+      "id": "clm:000747",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000748",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000749",
+      "type": "claim"
+    },
+    {
+      "id": "clm:000750",
+      "type": "claim"
+    }
+  ],
+  "aliases": [
+    {
+      "alias": "books:the-talisman",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000001"
+      }
+    },
+    {
+      "alias": "work:the-talisman",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000001"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Athe-talisman",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000001"
+      }
+    },
+    {
+      "alias": "edition:9789021037400",
+      "kind": "legacy-id",
+      "target": {
+        "type": "edition",
+        "id": "edn:000001"
+      }
+    },
+    {
+      "alias": "cover:5fd7b8dd2fc01991",
+      "kind": "legacy-id",
+      "target": {
+        "type": "artwork",
+        "id": "art:000001"
+      }
+    },
+    {
+      "alias": "edition:1de916e95d67fdd3",
+      "kind": "legacy-id",
+      "target": {
+        "type": "edition",
+        "id": "edn:000002"
+      }
+    },
+    {
+      "alias": "cover:2b1fdc9a6b9992b4",
+      "kind": "legacy-id",
+      "target": {
+        "type": "artwork",
+        "id": "art:000002"
+      }
+    },
+    {
+      "alias": "books:black-house",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000002"
+      }
+    },
+    {
+      "alias": "work:black-house",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000002"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Ablack-house",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000002"
+      }
+    },
+    {
+      "alias": "edition:9789021048383",
+      "kind": "legacy-id",
+      "target": {
+        "type": "edition",
+        "id": "edn:000003"
+      }
+    },
+    {
+      "alias": "cover:aa68fb368a583dc0",
+      "kind": "legacy-id",
+      "target": {
+        "type": "artwork",
+        "id": "art:000003"
+      }
+    },
+    {
+      "alias": "edition:b054170050e854d6",
+      "kind": "legacy-id",
+      "target": {
+        "type": "edition",
+        "id": "edn:000004"
+      }
+    },
+    {
+      "alias": "cover:902ae607cc29f903",
+      "kind": "legacy-id",
+      "target": {
+        "type": "artwork",
+        "id": "art:000004"
+      }
+    },
+    {
+      "alias": "work:carrie",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000003"
+      }
+    },
+    {
+      "alias": "books:carrie",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000003"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Acarrie",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000003"
+      }
+    },
+    {
+      "alias": "work:salem-s-lot",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000004"
+      }
+    },
+    {
+      "alias": "books:salem-s-lot",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000004"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Asalem-s-lot",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000004"
+      }
+    },
+    {
+      "alias": "work:the-shining",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000005"
+      }
+    },
+    {
+      "alias": "books:the-shining",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000005"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Athe-shining",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000005"
+      }
+    },
+    {
+      "alias": "work:rage",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000006"
+      }
+    },
+    {
+      "alias": "books:rage",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000006"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Arage",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000006"
+      }
+    },
+    {
+      "alias": "work:the-stand",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000007"
+      }
+    },
+    {
+      "alias": "books:the-stand",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000007"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Athe-stand",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000007"
+      }
+    },
+    {
+      "alias": "work:the-long-walk",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000008"
+      }
+    },
+    {
+      "alias": "books:the-long-walk",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000008"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Athe-long-walk",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000008"
+      }
+    },
+    {
+      "alias": "work:the-dead-zone",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000009"
+      }
+    },
+    {
+      "alias": "books:the-dead-zone",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000009"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Athe-dead-zone",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000009"
+      }
+    },
+    {
+      "alias": "work:firestarter",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000010"
+      }
+    },
+    {
+      "alias": "books:firestarter",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000010"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Afirestarter",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000010"
+      }
+    },
+    {
+      "alias": "work:roadwork",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000011"
+      }
+    },
+    {
+      "alias": "books:roadwork",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000011"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Aroadwork",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000011"
+      }
+    },
+    {
+      "alias": "work:cujo",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000012"
+      }
+    },
+    {
+      "alias": "books:cujo",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000012"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Acujo",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000012"
+      }
+    },
+    {
+      "alias": "work:the-running-man",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000013"
+      }
+    },
+    {
+      "alias": "books:the-running-man",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000013"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Athe-running-man",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000013"
+      }
+    },
+    {
+      "alias": "work:the-dark-tower-the-gunslinger",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000014"
+      }
+    },
+    {
+      "alias": "books:the-dark-tower-the-gunslinger",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000014"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Athe-dark-tower-the-gunslinger",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000014"
+      }
+    },
+    {
+      "alias": "work:christine",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000015"
+      }
+    },
+    {
+      "alias": "books:christine",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000015"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Achristine",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000015"
+      }
+    },
+    {
+      "alias": "work:pet-sematary",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000016"
+      }
+    },
+    {
+      "alias": "books:pet-sematary",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000016"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Apet-sematary",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000016"
+      }
+    },
+    {
+      "alias": "work:cycle-of-the-werewolf",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000017"
+      }
+    },
+    {
+      "alias": "books:cycle-of-the-werewolf",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000017"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Acycle-of-the-werewolf",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000017"
+      }
+    },
+    {
+      "alias": "work:thinner",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000018"
+      }
+    },
+    {
+      "alias": "books:thinner",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000018"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Athinner",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000018"
+      }
+    },
+    {
+      "alias": "work:it",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000019"
+      }
+    },
+    {
+      "alias": "books:it",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000019"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Ait",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000019"
+      }
+    },
+    {
+      "alias": "work:the-eyes-of-the-dragon",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000020"
+      }
+    },
+    {
+      "alias": "books:the-eyes-of-the-dragon",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000020"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Athe-eyes-of-the-dragon",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000020"
+      }
+    },
+    {
+      "alias": "work:misery",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000021"
+      }
+    },
+    {
+      "alias": "books:misery",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000021"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Amisery",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000021"
+      }
+    },
+    {
+      "alias": "work:the-dark-tower-the-drawing-of-the-three",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000022"
+      }
+    },
+    {
+      "alias": "books:the-dark-tower-the-drawing-of-the-three",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000022"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Athe-dark-tower-the-drawing-of-the-three",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000022"
+      }
+    },
+    {
+      "alias": "work:the-tommyknockers",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000023"
+      }
+    },
+    {
+      "alias": "books:the-tommyknockers",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000023"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Athe-tommyknockers",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000023"
+      }
+    },
+    {
+      "alias": "work:the-dark-half",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000024"
+      }
+    },
+    {
+      "alias": "books:the-dark-half",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000024"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Athe-dark-half",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000024"
+      }
+    },
+    {
+      "alias": "work:the-dark-tower-the-waste-lands",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000025"
+      }
+    },
+    {
+      "alias": "books:the-dark-tower-the-waste-lands",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000025"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Athe-dark-tower-the-waste-lands",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000025"
+      }
+    },
+    {
+      "alias": "work:needful-things",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000026"
+      }
+    },
+    {
+      "alias": "books:needful-things",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000026"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Aneedful-things",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000026"
+      }
+    },
+    {
+      "alias": "work:gerald-s-game",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000027"
+      }
+    },
+    {
+      "alias": "books:gerald-s-game",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000027"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Agerald-s-game",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000027"
+      }
+    },
+    {
+      "alias": "work:dolores-claiborne",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000028"
+      }
+    },
+    {
+      "alias": "books:dolores-claiborne",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000028"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Adolores-claiborne",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000028"
+      }
+    },
+    {
+      "alias": "work:insomnia",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000029"
+      }
+    },
+    {
+      "alias": "books:insomnia",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000029"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Ainsomnia",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000029"
+      }
+    },
+    {
+      "alias": "work:rose-madder",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000030"
+      }
+    },
+    {
+      "alias": "books:rose-madder",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000030"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Arose-madder",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000030"
+      }
+    },
+    {
+      "alias": "work:the-green-mile",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000031"
+      }
+    },
+    {
+      "alias": "books:the-green-mile",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000031"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Athe-green-mile",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000031"
+      }
+    },
+    {
+      "alias": "work:desperation",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000032"
+      }
+    },
+    {
+      "alias": "books:desperation",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000032"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Adesperation",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000032"
+      }
+    },
+    {
+      "alias": "work:the-regulators",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000033"
+      }
+    },
+    {
+      "alias": "books:the-regulators",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000033"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Athe-regulators",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000033"
+      }
+    },
+    {
+      "alias": "work:the-dark-tower-wizard-and-glass",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000034"
+      }
+    },
+    {
+      "alias": "books:the-dark-tower-wizard-and-glass",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000034"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Athe-dark-tower-wizard-and-glass",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000034"
+      }
+    },
+    {
+      "alias": "work:bag-of-bones",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000035"
+      }
+    },
+    {
+      "alias": "books:bag-of-bones",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000035"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Abag-of-bones",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000035"
+      }
+    },
+    {
+      "alias": "work:the-girl-who-loved-tom-gordon",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000036"
+      }
+    },
+    {
+      "alias": "books:the-girl-who-loved-tom-gordon",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000036"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Athe-girl-who-loved-tom-gordon",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000036"
+      }
+    },
+    {
+      "alias": "work:dreamcatcher",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000037"
+      }
+    },
+    {
+      "alias": "books:dreamcatcher",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000037"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Adreamcatcher",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000037"
+      }
+    },
+    {
+      "alias": "work:from-a-buick-8",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000038"
+      }
+    },
+    {
+      "alias": "books:from-a-buick-8",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000038"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Afrom-a-buick-8",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000038"
+      }
+    },
+    {
+      "alias": "work:the-dark-tower-wolves-of-the-calla",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000039"
+      }
+    },
+    {
+      "alias": "books:the-dark-tower-wolves-of-the-calla",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000039"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Athe-dark-tower-wolves-of-the-calla",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000039"
+      }
+    },
+    {
+      "alias": "work:the-dark-tower-song-of-susannah",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000040"
+      }
+    },
+    {
+      "alias": "books:the-dark-tower-song-of-susannah",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000040"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Athe-dark-tower-song-of-susannah",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000040"
+      }
+    },
+    {
+      "alias": "work:the-dark-tower",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000041"
+      }
+    },
+    {
+      "alias": "books:the-dark-tower",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000041"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Athe-dark-tower",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000041"
+      }
+    },
+    {
+      "alias": "work:the-colorado-kid",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000042"
+      }
+    },
+    {
+      "alias": "books:the-colorado-kid",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000042"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Athe-colorado-kid",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000042"
+      }
+    },
+    {
+      "alias": "work:cell",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000043"
+      }
+    },
+    {
+      "alias": "books:cell",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000043"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Acell",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000043"
+      }
+    },
+    {
+      "alias": "work:lisey-s-story",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000044"
+      }
+    },
+    {
+      "alias": "books:lisey-s-story",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000044"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Alisey-s-story",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000044"
+      }
+    },
+    {
+      "alias": "work:blaze",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000045"
+      }
+    },
+    {
+      "alias": "books:blaze",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000045"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Ablaze",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000045"
+      }
+    },
+    {
+      "alias": "work:duma-key",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000046"
+      }
+    },
+    {
+      "alias": "books:duma-key",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000046"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Aduma-key",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000046"
+      }
+    },
+    {
+      "alias": "work:under-the-dome",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000047"
+      }
+    },
+    {
+      "alias": "books:under-the-dome",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000047"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Aunder-the-dome",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000047"
+      }
+    },
+    {
+      "alias": "work:11-22-63",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000048"
+      }
+    },
+    {
+      "alias": "books:11-22-63",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000048"
+      }
+    },
+    {
+      "alias": "#books?item=books%3A11-22-63",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000048"
+      }
+    },
+    {
+      "alias": "work:the-dark-tower-the-wind-through-the-keyhole",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000049"
+      }
+    },
+    {
+      "alias": "books:the-dark-tower-the-wind-through-the-keyhole",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000049"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Athe-dark-tower-the-wind-through-the-keyhole",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000049"
+      }
+    },
+    {
+      "alias": "work:joyland",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000050"
+      }
+    },
+    {
+      "alias": "books:joyland",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000050"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Ajoyland",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000050"
+      }
+    },
+    {
+      "alias": "work:doctor-sleep",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000051"
+      }
+    },
+    {
+      "alias": "books:doctor-sleep",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000051"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Adoctor-sleep",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000051"
+      }
+    },
+    {
+      "alias": "work:mr-mercedes",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000052"
+      }
+    },
+    {
+      "alias": "books:mr-mercedes",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000052"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Amr-mercedes",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000052"
+      }
+    },
+    {
+      "alias": "work:revival",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000053"
+      }
+    },
+    {
+      "alias": "books:revival",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000053"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Arevival",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000053"
+      }
+    },
+    {
+      "alias": "work:finders-keepers",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000054"
+      }
+    },
+    {
+      "alias": "books:finders-keepers",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000054"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Afinders-keepers",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000054"
+      }
+    },
+    {
+      "alias": "work:end-of-watch",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000055"
+      }
+    },
+    {
+      "alias": "books:end-of-watch",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000055"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Aend-of-watch",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000055"
+      }
+    },
+    {
+      "alias": "work:sleeping-beauties",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000056"
+      }
+    },
+    {
+      "alias": "books:sleeping-beauties",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000056"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Asleeping-beauties",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000056"
+      }
+    },
+    {
+      "alias": "work:gwendy-s-button-box",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000057"
+      }
+    },
+    {
+      "alias": "books:gwendy-s-button-box",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000057"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Agwendy-s-button-box",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000057"
+      }
+    },
+    {
+      "alias": "work:the-outsider",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000058"
+      }
+    },
+    {
+      "alias": "books:the-outsider",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000058"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Athe-outsider",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000058"
+      }
+    },
+    {
+      "alias": "work:elevation",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000059"
+      }
+    },
+    {
+      "alias": "books:elevation",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000059"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Aelevation",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000059"
+      }
+    },
+    {
+      "alias": "work:the-institute",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000060"
+      }
+    },
+    {
+      "alias": "books:the-institute",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000060"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Athe-institute",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000060"
+      }
+    },
+    {
+      "alias": "work:later",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000061"
+      }
+    },
+    {
+      "alias": "books:later",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000061"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Alater",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000061"
+      }
+    },
+    {
+      "alias": "work:billy-summers",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000062"
+      }
+    },
+    {
+      "alias": "books:billy-summers",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000062"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Abilly-summers",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000062"
+      }
+    },
+    {
+      "alias": "work:gwendy-s-final-task",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000063"
+      }
+    },
+    {
+      "alias": "books:gwendy-s-final-task",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000063"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Agwendy-s-final-task",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000063"
+      }
+    },
+    {
+      "alias": "work:fairy-tale",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000064"
+      }
+    },
+    {
+      "alias": "books:fairy-tale",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000064"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Afairy-tale",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000064"
+      }
+    },
+    {
+      "alias": "work:holly",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000065"
+      }
+    },
+    {
+      "alias": "books:holly",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000065"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Aholly",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000065"
+      }
+    },
+    {
+      "alias": "work:collection:you-like-it-darker",
+      "kind": "legacy-id",
+      "target": {
+        "type": "collection",
+        "id": "col:000001"
+      }
+    },
+    {
+      "alias": "books:you-like-it-darker",
+      "kind": "legacy-id",
+      "target": {
+        "type": "collection",
+        "id": "col:000001"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Ayou-like-it-darker",
+      "kind": "legacy-route",
+      "target": {
+        "type": "collection",
+        "id": "col:000001"
+      }
+    },
+    {
+      "alias": "work:never-flinch",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000066"
+      }
+    },
+    {
+      "alias": "books:never-flinch",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000066"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Anever-flinch",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000066"
+      }
+    },
+    {
+      "alias": "work:other-worlds-than-these",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000067"
+      }
+    },
+    {
+      "alias": "books:other-worlds-than-these",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000067"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Aother-worlds-than-these",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000067"
+      }
+    },
+    {
+      "alias": "work:collection:night-shift",
+      "kind": "legacy-id",
+      "target": {
+        "type": "collection",
+        "id": "col:000002"
+      }
+    },
+    {
+      "alias": "books:night-shift",
+      "kind": "legacy-id",
+      "target": {
+        "type": "collection",
+        "id": "col:000002"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Anight-shift",
+      "kind": "legacy-route",
+      "target": {
+        "type": "collection",
+        "id": "col:000002"
+      }
+    },
+    {
+      "alias": "work:collection:different-seasons",
+      "kind": "legacy-id",
+      "target": {
+        "type": "collection",
+        "id": "col:000003"
+      }
+    },
+    {
+      "alias": "books:different-seasons",
+      "kind": "legacy-id",
+      "target": {
+        "type": "collection",
+        "id": "col:000003"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Adifferent-seasons",
+      "kind": "legacy-route",
+      "target": {
+        "type": "collection",
+        "id": "col:000003"
+      }
+    },
+    {
+      "alias": "work:collection:skeleton-crew",
+      "kind": "legacy-id",
+      "target": {
+        "type": "collection",
+        "id": "col:000004"
+      }
+    },
+    {
+      "alias": "books:skeleton-crew",
+      "kind": "legacy-id",
+      "target": {
+        "type": "collection",
+        "id": "col:000004"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Askeleton-crew",
+      "kind": "legacy-route",
+      "target": {
+        "type": "collection",
+        "id": "col:000004"
+      }
+    },
+    {
+      "alias": "work:collection:four-past-midnight",
+      "kind": "legacy-id",
+      "target": {
+        "type": "collection",
+        "id": "col:000005"
+      }
+    },
+    {
+      "alias": "books:four-past-midnight",
+      "kind": "legacy-id",
+      "target": {
+        "type": "collection",
+        "id": "col:000005"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Afour-past-midnight",
+      "kind": "legacy-route",
+      "target": {
+        "type": "collection",
+        "id": "col:000005"
+      }
+    },
+    {
+      "alias": "work:collection:nightmares-dreamscapes",
+      "kind": "legacy-id",
+      "target": {
+        "type": "collection",
+        "id": "col:000006"
+      }
+    },
+    {
+      "alias": "books:nightmares-dreamscapes",
+      "kind": "legacy-id",
+      "target": {
+        "type": "collection",
+        "id": "col:000006"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Anightmares-dreamscapes",
+      "kind": "legacy-route",
+      "target": {
+        "type": "collection",
+        "id": "col:000006"
+      }
+    },
+    {
+      "alias": "work:collection:hearts-in-atlantis",
+      "kind": "legacy-id",
+      "target": {
+        "type": "collection",
+        "id": "col:000007"
+      }
+    },
+    {
+      "alias": "books:hearts-in-atlantis",
+      "kind": "legacy-id",
+      "target": {
+        "type": "collection",
+        "id": "col:000007"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Ahearts-in-atlantis",
+      "kind": "legacy-route",
+      "target": {
+        "type": "collection",
+        "id": "col:000007"
+      }
+    },
+    {
+      "alias": "work:collection:everything-s-eventual",
+      "kind": "legacy-id",
+      "target": {
+        "type": "collection",
+        "id": "col:000008"
+      }
+    },
+    {
+      "alias": "books:everything-s-eventual",
+      "kind": "legacy-id",
+      "target": {
+        "type": "collection",
+        "id": "col:000008"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Aeverything-s-eventual",
+      "kind": "legacy-route",
+      "target": {
+        "type": "collection",
+        "id": "col:000008"
+      }
+    },
+    {
+      "alias": "work:collection:just-after-sunset",
+      "kind": "legacy-id",
+      "target": {
+        "type": "collection",
+        "id": "col:000009"
+      }
+    },
+    {
+      "alias": "books:just-after-sunset",
+      "kind": "legacy-id",
+      "target": {
+        "type": "collection",
+        "id": "col:000009"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Ajust-after-sunset",
+      "kind": "legacy-route",
+      "target": {
+        "type": "collection",
+        "id": "col:000009"
+      }
+    },
+    {
+      "alias": "work:collection:stephen-king-goes-to-the-movies",
+      "kind": "legacy-id",
+      "target": {
+        "type": "collection",
+        "id": "col:000010"
+      }
+    },
+    {
+      "alias": "books:stephen-king-goes-to-the-movies",
+      "kind": "legacy-id",
+      "target": {
+        "type": "collection",
+        "id": "col:000010"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Astephen-king-goes-to-the-movies",
+      "kind": "legacy-route",
+      "target": {
+        "type": "collection",
+        "id": "col:000010"
+      }
+    },
+    {
+      "alias": "work:collection:full-dark-no-stars",
+      "kind": "legacy-id",
+      "target": {
+        "type": "collection",
+        "id": "col:000011"
+      }
+    },
+    {
+      "alias": "books:full-dark-no-stars",
+      "kind": "legacy-id",
+      "target": {
+        "type": "collection",
+        "id": "col:000011"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Afull-dark-no-stars",
+      "kind": "legacy-route",
+      "target": {
+        "type": "collection",
+        "id": "col:000011"
+      }
+    },
+    {
+      "alias": "work:collection:the-bazaar-of-bad-dreams",
+      "kind": "legacy-id",
+      "target": {
+        "type": "collection",
+        "id": "col:000012"
+      }
+    },
+    {
+      "alias": "books:the-bazaar-of-bad-dreams",
+      "kind": "legacy-id",
+      "target": {
+        "type": "collection",
+        "id": "col:000012"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Athe-bazaar-of-bad-dreams",
+      "kind": "legacy-route",
+      "target": {
+        "type": "collection",
+        "id": "col:000012"
+      }
+    },
+    {
+      "alias": "work:collection:if-it-bleeds",
+      "kind": "legacy-id",
+      "target": {
+        "type": "collection",
+        "id": "col:000013"
+      }
+    },
+    {
+      "alias": "books:if-it-bleeds",
+      "kind": "legacy-id",
+      "target": {
+        "type": "collection",
+        "id": "col:000013"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Aif-it-bleeds",
+      "kind": "legacy-route",
+      "target": {
+        "type": "collection",
+        "id": "col:000013"
+      }
+    },
+    {
+      "alias": "work:collection:the-bachman-books",
+      "kind": "legacy-id",
+      "target": {
+        "type": "collection",
+        "id": "col:000014"
+      }
+    },
+    {
+      "alias": "books:the-bachman-books",
+      "kind": "legacy-id",
+      "target": {
+        "type": "collection",
+        "id": "col:000014"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Athe-bachman-books",
+      "kind": "legacy-route",
+      "target": {
+        "type": "collection",
+        "id": "col:000014"
+      }
+    },
+    {
+      "alias": "work:blockade-billy",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000068"
+      }
+    },
+    {
+      "alias": "books:blockade-billy",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000068"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Ablockade-billy",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000068"
+      }
+    },
+    {
+      "alias": "work:american-vampire",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000069"
+      }
+    },
+    {
+      "alias": "books:american-vampire",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000069"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Aamerican-vampire",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000069"
+      }
+    },
+    {
+      "alias": "work:faithful",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000070"
+      }
+    },
+    {
+      "alias": "books:faithful",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000070"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Afaithful",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000070"
+      }
+    },
+    {
+      "alias": "work:collection:mid-life-confidential-the-rock-bottom-remainders-tour-america-with-three-chords-and-an-attitude",
+      "kind": "legacy-id",
+      "target": {
+        "type": "collection",
+        "id": "col:000015"
+      }
+    },
+    {
+      "alias": "books:mid-life-confidential-the-rock-bottom-remainders-tour-america-with-three-chords-and-an-attitude",
+      "kind": "legacy-id",
+      "target": {
+        "type": "collection",
+        "id": "col:000015"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Amid-life-confidential-the-rock-bottom-remainders-tour-america-with-three-chords-and-an-attitude",
+      "kind": "legacy-route",
+      "target": {
+        "type": "collection",
+        "id": "col:000015"
+      }
+    },
+    {
+      "alias": "work:nightmares-in-the-sky",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000071"
+      }
+    },
+    {
+      "alias": "books:nightmares-in-the-sky",
+      "kind": "legacy-id",
+      "target": {
+        "type": "work",
+        "id": "wrk:000071"
+      }
+    },
+    {
+      "alias": "#books?item=books%3Anightmares-in-the-sky",
+      "kind": "legacy-route",
+      "target": {
+        "type": "work",
+        "id": "wrk:000071"
+      }
+    }
+  ]
+}

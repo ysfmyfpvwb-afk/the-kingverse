@@ -1,0 +1,266 @@
+[
+  {
+    "id": "rel:000001",
+    "entityType": "connection",
+    "verification": {
+      "claimIds": [
+        "clm:000071",
+        "clm:000072",
+        "clm:000073",
+        "clm:000074",
+        "clm:000075"
+      ],
+      "open": []
+    },
+    "from": {
+      "type": "work",
+      "id": "wrk:000002"
+    },
+    "predicate": "sequel_to",
+    "to": {
+      "type": "work",
+      "id": "wrk:000001"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "Black House is a sequel to The Talisman."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    }
+  },
+  {
+    "id": "rel:000002",
+    "entityType": "connection",
+    "verification": {
+      "claimIds": [
+        "clm:000076",
+        "clm:000077",
+        "clm:000078",
+        "clm:000079",
+        "clm:000080"
+      ],
+      "open": []
+    },
+    "from": {
+      "type": "character",
+      "id": "chr:000001"
+    },
+    "predicate": "appears_in",
+    "to": {
+      "type": "work",
+      "id": "wrk:000001"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "Jack Sawyer is the protagonist."
+    },
+    "spoiler": {
+      "level": "premise",
+      "workIds": [
+        "wrk:000001"
+      ]
+    }
+  },
+  {
+    "id": "rel:000003",
+    "entityType": "connection",
+    "verification": {
+      "claimIds": [
+        "clm:000081",
+        "clm:000082",
+        "clm:000083",
+        "clm:000084",
+        "clm:000085"
+      ],
+      "open": []
+    },
+    "from": {
+      "type": "character",
+      "id": "chr:000002"
+    },
+    "predicate": "appears_in",
+    "to": {
+      "type": "work",
+      "id": "wrk:000001"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "Lily is Jack’s mother."
+    },
+    "spoiler": {
+      "level": "premise",
+      "workIds": [
+        "wrk:000001"
+      ]
+    }
+  },
+  {
+    "id": "rel:000004",
+    "entityType": "connection",
+    "verification": {
+      "claimIds": [
+        "clm:000086",
+        "clm:000087",
+        "clm:000088",
+        "clm:000089",
+        "clm:000090"
+      ],
+      "open": []
+    },
+    "from": {
+      "type": "character",
+      "id": "chr:000001"
+    },
+    "predicate": "appears_in",
+    "to": {
+      "type": "work",
+      "id": "wrk:000002"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "Jack Sawyer returns in Black House."
+    },
+    "spoiler": {
+      "level": "premise",
+      "workIds": [
+        "wrk:000001",
+        "wrk:000002"
+      ]
+    }
+  },
+  {
+    "id": "rel:000005",
+    "entityType": "connection",
+    "verification": {
+      "claimIds": [
+        "clm:000091",
+        "clm:000092",
+        "clm:000093",
+        "clm:000094",
+        "clm:000095"
+      ],
+      "open": []
+    },
+    "from": {
+      "type": "work",
+      "id": "wrk:000001"
+    },
+    "predicate": "set_in",
+    "to": {
+      "type": "location",
+      "id": "loc:000001"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The journey includes the Territories."
+    },
+    "spoiler": {
+      "level": "premise",
+      "workIds": [
+        "wrk:000001"
+      ]
+    }
+  },
+  {
+    "id": "rel:000006",
+    "entityType": "connection",
+    "verification": {
+      "claimIds": [
+        "clm:000096",
+        "clm:000097",
+        "clm:000098",
+        "clm:000099",
+        "clm:000100"
+      ],
+      "open": []
+    },
+    "from": {
+      "type": "work",
+      "id": "wrk:000001"
+    },
+    "predicate": "shared_reference",
+    "to": {
+      "type": "externalReference",
+      "id": "xref:000001"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The official connections index notes the Territories in The Waste Lands."
+    },
+    "spoiler": {
+      "level": "plot",
+      "workIds": [
+        "wrk:000001"
+      ]
+    }
+  },
+  {
+    "id": "rel:000007",
+    "entityType": "connection",
+    "verification": {
+      "claimIds": [
+        "clm:000101",
+        "clm:000102",
+        "clm:000103",
+        "clm:000104",
+        "clm:000105"
+      ],
+      "open": []
+    },
+    "from": {
+      "type": "work",
+      "id": "wrk:000002"
+    },
+    "predicate": "shared_cosmology",
+    "to": {
+      "type": "externalReference",
+      "id": "xref:000002"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The official index links Black House through the Breakers and the Tower."
+    },
+    "spoiler": {
+      "level": "plot",
+      "workIds": [
+        "wrk:000002"
+      ]
+    }
+  },
+  {
+    "id": "rel:000008",
+    "entityType": "connection",
+    "verification": {
+      "claimIds": [
+        "clm:000106",
+        "clm:000107",
+        "clm:000108",
+        "clm:000109",
+        "clm:000110"
+      ],
+      "open": []
+    },
+    "from": {
+      "type": "work",
+      "id": "wrk:000001"
+    },
+    "predicate": "shared_cosmology",
+    "to": {
+      "type": "work",
+      "id": "wrk:000002"
+    },
+    "certainty": "strongly-implied",
+    "explanation": {
+      "en": "The Territories and the White suggest a wider shared cosmology; this does not prove every world is identical."
+    },
+    "spoiler": {
+      "level": "plot",
+      "workIds": [
+        "wrk:000001",
+        "wrk:000002"
+      ]
+    }
+  }
+]

@@ -1,0 +1,177 @@
+[
+  {
+    "id": "per:000001",
+    "entityType": "person",
+    "verification": {
+      "claimIds": [
+        "clm:000001",
+        "clm:000125"
+      ],
+      "open": []
+    },
+    "name": "Stephen King",
+    "aliases": [],
+    "pseudonyms": [
+      "Richard Bachman"
+    ],
+    "externalIds": {}
+  },
+  {
+    "id": "per:000002",
+    "entityType": "person",
+    "verification": {
+      "claimIds": [
+        "clm:000002"
+      ],
+      "open": []
+    },
+    "name": "Peter Straub",
+    "aliases": [],
+    "pseudonyms": [],
+    "externalIds": {}
+  },
+  {
+    "id": "per:000003",
+    "entityType": "person",
+    "verification": {
+      "claimIds": [
+        "clm:000116"
+      ],
+      "open": [
+        "identityCarriedForward"
+      ]
+    },
+    "name": "Owen King",
+    "aliases": [],
+    "pseudonyms": [],
+    "externalIds": {}
+  },
+  {
+    "id": "per:000004",
+    "entityType": "person",
+    "verification": {
+      "claimIds": [
+        "clm:000117"
+      ],
+      "open": [
+        "identityCarriedForward"
+      ]
+    },
+    "name": "Richard Chizmar",
+    "aliases": [],
+    "pseudonyms": [],
+    "externalIds": {}
+  },
+  {
+    "id": "per:000005",
+    "entityType": "person",
+    "verification": {
+      "claimIds": [
+        "clm:000118"
+      ],
+      "open": [
+        "identityCarriedForward"
+      ]
+    },
+    "name": "Gabriel Rodriguez",
+    "aliases": [],
+    "pseudonyms": [],
+    "externalIds": {}
+  },
+  {
+    "id": "per:000006",
+    "entityType": "person",
+    "verification": {
+      "claimIds": [
+        "clm:000119"
+      ],
+      "open": [
+        "identityCarriedForward"
+      ]
+    },
+    "name": "Scott Snyder",
+    "aliases": [],
+    "pseudonyms": [],
+    "externalIds": {}
+  },
+  {
+    "id": "per:000007",
+    "entityType": "person",
+    "verification": {
+      "claimIds": [
+        "clm:000120"
+      ],
+      "open": [
+        "identityCarriedForward"
+      ]
+    },
+    "name": "Rafael Albuquerque",
+    "aliases": [],
+    "pseudonyms": [],
+    "externalIds": {}
+  },
+  {
+    "id": "per:000008",
+    "entityType": "person",
+    "verification": {
+      "claimIds": [
+        "clm:000121"
+      ],
+      "open": [
+        "identityCarriedForward"
+      ]
+    },
+    "name": "Stewart O'Nan",
+    "aliases": [],
+    "pseudonyms": [],
+    "externalIds": {}
+  },
+  {
+    "id": "per:000009",
+    "entityType": "person",
+    "verification": {
+      "claimIds": [
+        "clm:000122"
+      ],
+      "open": [
+        "identityCarriedForward"
+      ]
+    },
+    "name": "Dave Barry",
+    "aliases": [],
+    "pseudonyms": [],
+    "externalIds": {}
+  },
+  {
+    "id": "per:000010",
+    "entityType": "person",
+    "verification": {
+      "claimIds": [
+        "clm:000123"
+      ],
+      "open": [
+        "identityCarriedForward"
+      ]
+    },
+    "name": "Amy Tan",
+    "aliases": [],
+    "pseudonyms": [],
+    "externalIds": {}
+  },
+  {
+    "id": "per:000011",
+    "entityType": "person",
+    "verification": {
+      "claimIds": [
+        "clm:000124"
+      ],
+      "open": [
+        "identityCarriedForward"
+      ]
+    },
+    "name": "f-stop Fitzgerald",
+    "aliases": [],
+    "pseudonyms": [],
+    "externalIds": {}
+  }
+]

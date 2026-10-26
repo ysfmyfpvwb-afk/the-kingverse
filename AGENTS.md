@@ -84,3 +84,12 @@ The Kingverse is een tweetalige encyclopedie van Stephen Kings literaire werken,
 ## Git en publicatie
 
 Werk vanuit de bestaande repository en behoud onverwachte gebruikerswijzigingen. Geen force-push. Controleer branch, remote, diff en tests; commit uitsluitend gecontroleerde wijzigingen. Push naar `origin/main` wanneer de opdracht publicatie autoriseert. Stop bij conflicten of branchregels die toestemming vereisen. Controleer de deployment voor de juiste commit en controleer de daadwerkelijk gepubliceerde bestanden/site. Meld push-, publicatie- en live-verificatiestatus afzonderlijk; claim geen succes zonder bewijs.
+
+
+## 1.7 — gecontroleerde schaduwmigratie
+
+De eigenaar heeft de volledige schaduwmigratie in controleerbare batches geautoriseerd. `data/v2/` blijft de ongewijzigde twee-werkenfixture voor de bestaande Explorer. De bredere dataset staat afzonderlijk in `data/v2-shadow/`. Batch 01 bevat alleen de identiteiten en makersrollen van de 86 bibliotheekrecords; dit is geen volledige record- of catalogusmigratie.
+
+Gebruik het vastgelegde `data/migration/id-register.json` als eenmalige opaque toewijzing. Geen automatische hernummering, naamsmerge of titel-ID-afleiding. De migrator weigert gewijzigde bronhashes totdat de verschillen zijn beoordeeld. De veldledger bevat een doel of expliciet uitstel per DB-bronveld; behouden bronvelden gelden niet als gemigreerd. De actieve runtime en Explorer worden op hashes bewaakt. Gebruik `npm run migrate:shadow`, `npm run validate:shadow` en `npm run report:migration`; gewone builds/tests blijven offline. Online broncontrole is een afzonderlijke expliciete actie.
+
+Coverbeschikbaarheid, visuele goedkeuring en hergebruiktoestemming blijven aparte assen. De controle van 26 oktober vond HTTP 403 bij de twee bestaande EN-bronnen met een externe Explorer-Referer, tegenover HTTP 200 zonder die header. Geen verwijzer onderdrukken, proxy gebruiken of beelden spiegelen om een weigering te omzeilen. Geen nieuwe beeldpublicatie zonder vastgestelde grondslag. De bestaande live ervaring blijft tijdens deze batch ongewijzigd.

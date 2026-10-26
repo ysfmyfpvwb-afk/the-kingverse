@@ -1,0 +1,56 @@
+[
+  {
+    "id": "pub:000001",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:000015",
+        "clm:000016",
+        "clm:000017",
+        "clm:000018"
+      ],
+      "open": []
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000001"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1984-11",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "G.P. Putnam's & Sons"
+  },
+  {
+    "id": "pub:000002",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:000046",
+        "clm:000047",
+        "clm:000048",
+        "clm:000049"
+      ],
+      "open": []
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000002"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2001-09-15",
+      "precision": "day",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Random House"
+  }
+]

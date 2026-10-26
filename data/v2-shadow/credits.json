@@ -1,0 +1,2378 @@
+[
+  {
+    "id": "crd:000001",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000007",
+        "clm:000008",
+        "clm:000009",
+        "clm:000010"
+      ],
+      "open": []
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000001"
+    },
+    "role": "coauthor",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000002",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000011",
+        "clm:000012",
+        "clm:000013",
+        "clm:000014"
+      ],
+      "open": []
+    },
+    "personId": "per:000002",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000001"
+    },
+    "role": "coauthor",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000003",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000038",
+        "clm:000039",
+        "clm:000040",
+        "clm:000041"
+      ],
+      "open": []
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000002"
+    },
+    "role": "coauthor",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000004",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000042",
+        "clm:000043",
+        "clm:000044",
+        "clm:000045"
+      ],
+      "open": []
+    },
+    "personId": "per:000002",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000002"
+    },
+    "role": "coauthor",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000005",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000129",
+        "clm:000130",
+        "clm:000131",
+        "clm:000132"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000003"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000006",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000136",
+        "clm:000137",
+        "clm:000138",
+        "clm:000139"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000004"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000007",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000143",
+        "clm:000144",
+        "clm:000145",
+        "clm:000146"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000005"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000008",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000150",
+        "clm:000151",
+        "clm:000152",
+        "clm:000153",
+        "clm:000154"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000006"
+    },
+    "role": "author",
+    "creditedAs": "Richard Bachman",
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000009",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000158",
+        "clm:000159",
+        "clm:000160",
+        "clm:000161"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000007"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000010",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000165",
+        "clm:000166",
+        "clm:000167",
+        "clm:000168",
+        "clm:000169"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000008"
+    },
+    "role": "author",
+    "creditedAs": "Richard Bachman",
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000011",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000173",
+        "clm:000174",
+        "clm:000175",
+        "clm:000176"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000009"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000012",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000180",
+        "clm:000181",
+        "clm:000182",
+        "clm:000183"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000010"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000013",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000187",
+        "clm:000188",
+        "clm:000189",
+        "clm:000190",
+        "clm:000191"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000011"
+    },
+    "role": "author",
+    "creditedAs": "Richard Bachman",
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000014",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000195",
+        "clm:000196",
+        "clm:000197",
+        "clm:000198"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000012"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000015",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000202",
+        "clm:000203",
+        "clm:000204",
+        "clm:000205",
+        "clm:000206"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000013"
+    },
+    "role": "author",
+    "creditedAs": "Richard Bachman",
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000016",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000210",
+        "clm:000211",
+        "clm:000212",
+        "clm:000213"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000014"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000017",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000217",
+        "clm:000218",
+        "clm:000219",
+        "clm:000220"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000015"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000018",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000224",
+        "clm:000225",
+        "clm:000226",
+        "clm:000227"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000016"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000019",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000231",
+        "clm:000232",
+        "clm:000233",
+        "clm:000234"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000017"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000020",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000238",
+        "clm:000239",
+        "clm:000240",
+        "clm:000241",
+        "clm:000242"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000018"
+    },
+    "role": "author",
+    "creditedAs": "Richard Bachman",
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000021",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000246",
+        "clm:000247",
+        "clm:000248",
+        "clm:000249"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000019"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000022",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000253",
+        "clm:000254",
+        "clm:000255",
+        "clm:000256"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000020"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000023",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000260",
+        "clm:000261",
+        "clm:000262",
+        "clm:000263"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000021"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000024",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000267",
+        "clm:000268",
+        "clm:000269",
+        "clm:000270"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000022"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000025",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000274",
+        "clm:000275",
+        "clm:000276",
+        "clm:000277"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000023"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000026",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000281",
+        "clm:000282",
+        "clm:000283",
+        "clm:000284"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000024"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000027",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000288",
+        "clm:000289",
+        "clm:000290",
+        "clm:000291"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000025"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000028",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000295",
+        "clm:000296",
+        "clm:000297",
+        "clm:000298"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000026"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000029",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000302",
+        "clm:000303",
+        "clm:000304",
+        "clm:000305"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000027"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000030",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000309",
+        "clm:000310",
+        "clm:000311",
+        "clm:000312"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000028"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000031",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000316",
+        "clm:000317",
+        "clm:000318",
+        "clm:000319"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000029"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000032",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000323",
+        "clm:000324",
+        "clm:000325",
+        "clm:000326"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000030"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000033",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000330",
+        "clm:000331",
+        "clm:000332",
+        "clm:000333"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000031"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000034",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000337",
+        "clm:000338",
+        "clm:000339",
+        "clm:000340"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000032"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000035",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000344",
+        "clm:000345",
+        "clm:000346",
+        "clm:000347",
+        "clm:000348"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000033"
+    },
+    "role": "author",
+    "creditedAs": "Richard Bachman",
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000036",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000352",
+        "clm:000353",
+        "clm:000354",
+        "clm:000355"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000034"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000037",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000359",
+        "clm:000360",
+        "clm:000361",
+        "clm:000362"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000035"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000038",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000366",
+        "clm:000367",
+        "clm:000368",
+        "clm:000369"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000036"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000039",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000373",
+        "clm:000374",
+        "clm:000375",
+        "clm:000376"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000037"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000040",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000380",
+        "clm:000381",
+        "clm:000382",
+        "clm:000383"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000038"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000041",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000387",
+        "clm:000388",
+        "clm:000389",
+        "clm:000390"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000039"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000042",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000394",
+        "clm:000395",
+        "clm:000396",
+        "clm:000397"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000040"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000043",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000401",
+        "clm:000402",
+        "clm:000403",
+        "clm:000404"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000041"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000044",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000408",
+        "clm:000409",
+        "clm:000410",
+        "clm:000411"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000042"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000045",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000415",
+        "clm:000416",
+        "clm:000417",
+        "clm:000418"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000043"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000046",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000422",
+        "clm:000423",
+        "clm:000424",
+        "clm:000425"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000044"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000047",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000429",
+        "clm:000430",
+        "clm:000431",
+        "clm:000432",
+        "clm:000433"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000045"
+    },
+    "role": "author",
+    "creditedAs": "Richard Bachman",
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000048",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000437",
+        "clm:000438",
+        "clm:000439",
+        "clm:000440"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000046"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000049",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000444",
+        "clm:000445",
+        "clm:000446",
+        "clm:000447"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000047"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000050",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000451",
+        "clm:000452",
+        "clm:000453",
+        "clm:000454"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000048"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000051",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000458",
+        "clm:000459",
+        "clm:000460",
+        "clm:000461"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000049"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000052",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000465",
+        "clm:000466",
+        "clm:000467",
+        "clm:000468"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000050"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000053",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000472",
+        "clm:000473",
+        "clm:000474",
+        "clm:000475"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000051"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000054",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000479",
+        "clm:000480",
+        "clm:000481",
+        "clm:000482"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000052"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000055",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000486",
+        "clm:000487",
+        "clm:000488",
+        "clm:000489"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000053"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000056",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000493",
+        "clm:000494",
+        "clm:000495",
+        "clm:000496"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000054"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000057",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000500",
+        "clm:000501",
+        "clm:000502",
+        "clm:000503"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000055"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000058",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000507",
+        "clm:000508",
+        "clm:000509",
+        "clm:000510"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000056"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000059",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000511",
+        "clm:000512",
+        "clm:000513",
+        "clm:000514"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000003",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000056"
+    },
+    "role": "coauthor",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000060",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000518",
+        "clm:000519",
+        "clm:000520",
+        "clm:000521"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000057"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000061",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000522",
+        "clm:000523",
+        "clm:000524",
+        "clm:000525"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000004",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000057"
+    },
+    "role": "coauthor",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000062",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000529",
+        "clm:000530",
+        "clm:000531",
+        "clm:000532"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000058"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000063",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000536",
+        "clm:000537",
+        "clm:000538",
+        "clm:000539"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000059"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000064",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000543",
+        "clm:000544",
+        "clm:000545",
+        "clm:000546"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000060"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000065",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000550",
+        "clm:000551",
+        "clm:000552",
+        "clm:000553"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000061"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000066",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000557",
+        "clm:000558",
+        "clm:000559",
+        "clm:000560"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000062"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000067",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000564",
+        "clm:000565",
+        "clm:000566",
+        "clm:000567"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000063"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000068",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000568",
+        "clm:000569",
+        "clm:000570",
+        "clm:000571"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000004",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000063"
+    },
+    "role": "coauthor",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000069",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000575",
+        "clm:000576",
+        "clm:000577",
+        "clm:000578"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000064"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000070",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000582",
+        "clm:000583",
+        "clm:000584",
+        "clm:000585"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000065"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000071",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000588",
+        "clm:000589",
+        "clm:000590",
+        "clm:000591"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "collection",
+      "id": "col:000001"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000072",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000595",
+        "clm:000596",
+        "clm:000597",
+        "clm:000598"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000066"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000073",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000602",
+        "clm:000603",
+        "clm:000604",
+        "clm:000605"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000067"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000074",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000606",
+        "clm:000607",
+        "clm:000608",
+        "clm:000609"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000002",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000067"
+    },
+    "role": "coauthor",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000075",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000610",
+        "clm:000611",
+        "clm:000612",
+        "clm:000613"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000005",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000067"
+    },
+    "role": "illustrator",
+    "creditedAs": null,
+    "scope": "illustrations; full extent not independently verified",
+    "characterId": null
+  },
+  {
+    "id": "crd:000076",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000616",
+        "clm:000617",
+        "clm:000618",
+        "clm:000619"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "collection",
+      "id": "col:000002"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000077",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000622",
+        "clm:000623",
+        "clm:000624",
+        "clm:000625"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "collection",
+      "id": "col:000003"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000078",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000628",
+        "clm:000629",
+        "clm:000630",
+        "clm:000631"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "collection",
+      "id": "col:000004"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000079",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000634",
+        "clm:000635",
+        "clm:000636",
+        "clm:000637"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "collection",
+      "id": "col:000005"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000080",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000640",
+        "clm:000641",
+        "clm:000642",
+        "clm:000643"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "collection",
+      "id": "col:000006"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000081",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000646",
+        "clm:000647",
+        "clm:000648",
+        "clm:000649"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "collection",
+      "id": "col:000007"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000082",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000652",
+        "clm:000653",
+        "clm:000654",
+        "clm:000655"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "collection",
+      "id": "col:000008"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000083",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000658",
+        "clm:000659",
+        "clm:000660",
+        "clm:000661"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "collection",
+      "id": "col:000009"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000084",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000664",
+        "clm:000665",
+        "clm:000666",
+        "clm:000667"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "collection",
+      "id": "col:000010"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000085",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000670",
+        "clm:000671",
+        "clm:000672",
+        "clm:000673"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "collection",
+      "id": "col:000011"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000086",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000676",
+        "clm:000677",
+        "clm:000678",
+        "clm:000679"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "collection",
+      "id": "col:000012"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000087",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000682",
+        "clm:000683",
+        "clm:000684",
+        "clm:000685"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "collection",
+      "id": "col:000013"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000088",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000688",
+        "clm:000689",
+        "clm:000690",
+        "clm:000691",
+        "clm:000692"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "collection",
+      "id": "col:000014"
+    },
+    "role": "author",
+    "creditedAs": "Richard Bachman",
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000089",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000696",
+        "clm:000697",
+        "clm:000698",
+        "clm:000699"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000068"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000090",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000703",
+        "clm:000704",
+        "clm:000705",
+        "clm:000706"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000069"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "separate storyline in first five issues; later series not attributed",
+    "characterId": null
+  },
+  {
+    "id": "crd:000091",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000707",
+        "clm:000708",
+        "clm:000709",
+        "clm:000710"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000006",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000069"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "separate storyline in first five issues; later series not attributed",
+    "characterId": null
+  },
+  {
+    "id": "crd:000092",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000711",
+        "clm:000712",
+        "clm:000713",
+        "clm:000714"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000007",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000069"
+    },
+    "role": "illustrator",
+    "creditedAs": null,
+    "scope": "art for first five issues; later series not attributed",
+    "characterId": null
+  },
+  {
+    "id": "crd:000093",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000718",
+        "clm:000719",
+        "clm:000720",
+        "clm:000721"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000070"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000094",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000722",
+        "clm:000723",
+        "clm:000724",
+        "clm:000725"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000008",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000070"
+    },
+    "role": "coauthor",
+    "creditedAs": null,
+    "scope": "whole-text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000095",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000728",
+        "clm:000729",
+        "clm:000730",
+        "clm:000731"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "collection",
+      "id": "col:000015"
+    },
+    "role": "contributor",
+    "creditedAs": null,
+    "scope": "individual contribution; full contributor list incomplete",
+    "characterId": null
+  },
+  {
+    "id": "crd:000096",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000732",
+        "clm:000733",
+        "clm:000734",
+        "clm:000735"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000009",
+    "subject": {
+      "type": "collection",
+      "id": "col:000015"
+    },
+    "role": "contributor",
+    "creditedAs": null,
+    "scope": "individual contribution; full contributor list incomplete",
+    "characterId": null
+  },
+  {
+    "id": "crd:000097",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000736",
+        "clm:000737",
+        "clm:000738",
+        "clm:000739"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000010",
+    "subject": {
+      "type": "collection",
+      "id": "col:000015"
+    },
+    "role": "contributor",
+    "creditedAs": null,
+    "scope": "individual contribution; full contributor list incomplete",
+    "characterId": null
+  },
+  {
+    "id": "crd:000098",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000743",
+        "clm:000744",
+        "clm:000745",
+        "clm:000746"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000071"
+    },
+    "role": "author",
+    "creditedAs": null,
+    "scope": "text",
+    "characterId": null
+  },
+  {
+    "id": "crd:000099",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:000747",
+        "clm:000748",
+        "clm:000749",
+        "clm:000750"
+      ],
+      "open": [
+        "roleCarriedForward"
+      ]
+    },
+    "personId": "per:000011",
+    "subject": {
+      "type": "work",
+      "id": "wrk:000071"
+    },
+    "role": "photographer",
+    "creditedAs": null,
+    "scope": "photographs",
+    "characterId": null
+  }
+]

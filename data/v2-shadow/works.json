@@ -1,0 +1,1397 @@
+[
+  {
+    "id": "wrk:000001",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000003",
+        "clm:000004",
+        "clm:000005",
+        "clm:000006",
+        "clm:000114"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "The Talisman",
+    "originalLanguage": "en",
+    "aliases": [
+      {
+        "language": "nl",
+        "value": "De talisman",
+        "spoiler": {
+          "level": "none",
+          "workIds": []
+        }
+      }
+    ],
+    "summary": {
+      "en": "A boy’s search for a way to save his mother takes him across America and into the parallel world of the Territories."
+    }
+  },
+  {
+    "id": "wrk:000002",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000034",
+        "clm:000035",
+        "clm:000036",
+        "clm:000037",
+        "clm:000115"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "Black House",
+    "originalLanguage": "en",
+    "aliases": [
+      {
+        "language": "nl",
+        "value": "Zwart huis",
+        "spoiler": {
+          "level": "none",
+          "workIds": []
+        }
+      }
+    ],
+    "summary": {
+      "en": "Years after The Talisman, Jack Sawyer has left police work behind. A murder investigation in Wisconsin draws him back into danger."
+    }
+  },
+  {
+    "id": "wrk:000003",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000126",
+        "clm:000127",
+        "clm:000128"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "Carrie",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000004",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000133",
+        "clm:000134",
+        "clm:000135"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "'Salem's Lot",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000005",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000140",
+        "clm:000141",
+        "clm:000142"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "The Shining",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000006",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000147",
+        "clm:000148",
+        "clm:000149"
+      ],
+      "open": [
+        "dutchEdition",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "Rage",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000007",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000155",
+        "clm:000156",
+        "clm:000157"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "The Stand",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000008",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000162",
+        "clm:000163",
+        "clm:000164"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "The Long Walk",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000009",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000170",
+        "clm:000171",
+        "clm:000172"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "The Dead Zone",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000010",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000177",
+        "clm:000178",
+        "clm:000179"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "Firestarter",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000011",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000184",
+        "clm:000185",
+        "clm:000186"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "Roadwork",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000012",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000192",
+        "clm:000193",
+        "clm:000194"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "Cujo",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000013",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000199",
+        "clm:000200",
+        "clm:000201"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "The Running Man",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000014",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000207",
+        "clm:000208",
+        "clm:000209"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "The Dark Tower: The Gunslinger",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000015",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000214",
+        "clm:000215",
+        "clm:000216"
+      ],
+      "open": [
+        "dutchEdition",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "Christine",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000016",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000221",
+        "clm:000222",
+        "clm:000223"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "Pet Sematary",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000017",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000228",
+        "clm:000229",
+        "clm:000230"
+      ],
+      "open": [
+        "publicationYear",
+        "dutchEdition",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "Cycle of the Werewolf",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000018",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000235",
+        "clm:000236",
+        "clm:000237"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "Thinner",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000019",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000243",
+        "clm:000244",
+        "clm:000245"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "IT",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000020",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000250",
+        "clm:000251",
+        "clm:000252"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "The Eyes of the Dragon",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000021",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000257",
+        "clm:000258",
+        "clm:000259"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "Misery",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000022",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000264",
+        "clm:000265",
+        "clm:000266"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "The Dark Tower: The Drawing of the Three",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000023",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000271",
+        "clm:000272",
+        "clm:000273"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "The Tommyknockers",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000024",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000278",
+        "clm:000279",
+        "clm:000280"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "The Dark Half",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000025",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000285",
+        "clm:000286",
+        "clm:000287"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "The Dark Tower: The Waste Lands",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000026",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000292",
+        "clm:000293",
+        "clm:000294"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "Needful Things",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000027",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000299",
+        "clm:000300",
+        "clm:000301"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "Gerald's Game",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000028",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000306",
+        "clm:000307",
+        "clm:000308"
+      ],
+      "open": [
+        "publicationYear",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "Dolores Claiborne",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000029",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000313",
+        "clm:000314",
+        "clm:000315"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "Insomnia",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000030",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000320",
+        "clm:000321",
+        "clm:000322"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "Rose Madder",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000031",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000327",
+        "clm:000328",
+        "clm:000329"
+      ],
+      "open": [
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "The Green Mile",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000032",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000334",
+        "clm:000335",
+        "clm:000336"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "Desperation",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000033",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000341",
+        "clm:000342",
+        "clm:000343"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "The Regulators",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000034",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000349",
+        "clm:000350",
+        "clm:000351"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "The Dark Tower: Wizard and Glass",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000035",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000356",
+        "clm:000357",
+        "clm:000358"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "Bag of Bones",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000036",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000363",
+        "clm:000364",
+        "clm:000365"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "The Girl Who Loved Tom Gordon",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000037",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000370",
+        "clm:000371",
+        "clm:000372"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "Dreamcatcher",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000038",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000377",
+        "clm:000378",
+        "clm:000379"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "From a Buick 8",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000039",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000384",
+        "clm:000385",
+        "clm:000386"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "The Dark Tower: Wolves of the Calla",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000040",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000391",
+        "clm:000392",
+        "clm:000393"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "The Dark Tower: Song of Susannah",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000041",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000398",
+        "clm:000399",
+        "clm:000400"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "The Dark Tower",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000042",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000405",
+        "clm:000406",
+        "clm:000407"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "The Colorado Kid",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000043",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000412",
+        "clm:000413",
+        "clm:000414"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "Cell",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000044",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000419",
+        "clm:000420",
+        "clm:000421"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "Lisey's Story",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000045",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000426",
+        "clm:000427",
+        "clm:000428"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "Blaze",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000046",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000434",
+        "clm:000435",
+        "clm:000436"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "Duma Key",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000047",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000441",
+        "clm:000442",
+        "clm:000443"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "Under the Dome",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000048",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000448",
+        "clm:000449",
+        "clm:000450"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "11/22/63",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000049",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000455",
+        "clm:000456",
+        "clm:000457"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "The Dark Tower: The Wind Through the Keyhole",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000050",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000462",
+        "clm:000463",
+        "clm:000464"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "Joyland",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000051",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000469",
+        "clm:000470",
+        "clm:000471"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "Doctor Sleep",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000052",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000476",
+        "clm:000477",
+        "clm:000478"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "Mr. Mercedes",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000053",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000483",
+        "clm:000484",
+        "clm:000485"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "Revival",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000054",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000490",
+        "clm:000491",
+        "clm:000492"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "Finders Keepers",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000055",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000497",
+        "clm:000498",
+        "clm:000499"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "End of Watch",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000056",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000504",
+        "clm:000505",
+        "clm:000506"
+      ],
+      "open": [
+        "dutchEdition",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "Sleeping Beauties",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000057",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000515",
+        "clm:000516",
+        "clm:000517"
+      ],
+      "open": [
+        "dutchEdition",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novella",
+    "originalTitle": "Gwendy's Button Box",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000058",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000526",
+        "clm:000527",
+        "clm:000528"
+      ],
+      "open": [
+        "dutchEdition",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "The Outsider",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000059",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000533",
+        "clm:000534",
+        "clm:000535"
+      ],
+      "open": [
+        "dutchEdition",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novella",
+    "originalTitle": "Elevation",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000060",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000540",
+        "clm:000541",
+        "clm:000542"
+      ],
+      "open": [
+        "dutchEdition",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "The Institute",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000061",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000547",
+        "clm:000548",
+        "clm:000549"
+      ],
+      "open": [
+        "dutchEdition",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "Later",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000062",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000554",
+        "clm:000555",
+        "clm:000556"
+      ],
+      "open": [
+        "dutchEdition",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "Billy Summers",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000063",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000561",
+        "clm:000562",
+        "clm:000563"
+      ],
+      "open": [
+        "dutchEdition",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "Gwendy's Final Task",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000064",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000572",
+        "clm:000573",
+        "clm:000574"
+      ],
+      "open": [
+        "dutchEdition",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "Fairy Tale",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000065",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000579",
+        "clm:000580",
+        "clm:000581"
+      ],
+      "open": [
+        "dutchEdition",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "Holly",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000066",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000592",
+        "clm:000593",
+        "clm:000594"
+      ],
+      "open": [
+        "dutchEdition",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "Never Flinch",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000067",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000599",
+        "clm:000600",
+        "clm:000601"
+      ],
+      "open": [
+        "dutchEdition",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novel",
+    "originalTitle": "Other Worlds Than These",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000068",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000693",
+        "clm:000694",
+        "clm:000695"
+      ],
+      "open": [
+        "dutchEdition",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novella",
+    "originalTitle": "Blockade Billy",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000069",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000700",
+        "clm:000701",
+        "clm:000702"
+      ],
+      "open": [
+        "dutchEdition",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "comic",
+    "originalTitle": "American Vampire",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000070",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000715",
+        "clm:000716",
+        "clm:000717"
+      ],
+      "open": [
+        "dutchEdition",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "nonfiction",
+    "originalTitle": "Faithful",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000071",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000740",
+        "clm:000741",
+        "clm:000742"
+      ],
+      "open": [
+        "dutchEdition",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "nonfiction",
+    "originalTitle": "Nightmares in the Sky",
+    "originalLanguage": "en",
+    "aliases": []
+  }
+]

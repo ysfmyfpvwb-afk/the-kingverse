@@ -1,0 +1,279 @@
+[
+  {
+    "id": "col:000001",
+    "entityType": "collection",
+    "verification": {
+      "claimIds": [
+        "clm:000586",
+        "clm:000587"
+      ],
+      "open": [
+        "dutchEdition",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated",
+        "contentsNotMigrated"
+      ]
+    },
+    "originalTitle": "You Like It Darker",
+    "collectionKind": "story-collection",
+    "aliases": []
+  },
+  {
+    "id": "col:000002",
+    "entityType": "collection",
+    "verification": {
+      "claimIds": [
+        "clm:000614",
+        "clm:000615"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated",
+        "contentsNotMigrated"
+      ]
+    },
+    "originalTitle": "Night Shift",
+    "collectionKind": "story-collection",
+    "aliases": []
+  },
+  {
+    "id": "col:000003",
+    "entityType": "collection",
+    "verification": {
+      "claimIds": [
+        "clm:000620",
+        "clm:000621"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated",
+        "contentsNotMigrated"
+      ]
+    },
+    "originalTitle": "Different Seasons",
+    "collectionKind": "story-collection",
+    "aliases": []
+  },
+  {
+    "id": "col:000004",
+    "entityType": "collection",
+    "verification": {
+      "claimIds": [
+        "clm:000626",
+        "clm:000627"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated",
+        "contentsNotMigrated"
+      ]
+    },
+    "originalTitle": "Skeleton Crew",
+    "collectionKind": "story-collection",
+    "aliases": []
+  },
+  {
+    "id": "col:000005",
+    "entityType": "collection",
+    "verification": {
+      "claimIds": [
+        "clm:000632",
+        "clm:000633"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated",
+        "contentsNotMigrated"
+      ]
+    },
+    "originalTitle": "Four Past Midnight",
+    "collectionKind": "story-collection",
+    "aliases": []
+  },
+  {
+    "id": "col:000006",
+    "entityType": "collection",
+    "verification": {
+      "claimIds": [
+        "clm:000638",
+        "clm:000639"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated",
+        "contentsNotMigrated"
+      ]
+    },
+    "originalTitle": "Nightmares & Dreamscapes",
+    "collectionKind": "story-collection",
+    "aliases": []
+  },
+  {
+    "id": "col:000007",
+    "entityType": "collection",
+    "verification": {
+      "claimIds": [
+        "clm:000644",
+        "clm:000645"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated",
+        "contentsNotMigrated"
+      ]
+    },
+    "originalTitle": "Hearts in Atlantis",
+    "collectionKind": "story-collection",
+    "aliases": []
+  },
+  {
+    "id": "col:000008",
+    "entityType": "collection",
+    "verification": {
+      "claimIds": [
+        "clm:000650",
+        "clm:000651"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated",
+        "contentsNotMigrated"
+      ]
+    },
+    "originalTitle": "Everything's Eventual",
+    "collectionKind": "story-collection",
+    "aliases": []
+  },
+  {
+    "id": "col:000009",
+    "entityType": "collection",
+    "verification": {
+      "claimIds": [
+        "clm:000656",
+        "clm:000657"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated",
+        "contentsNotMigrated"
+      ]
+    },
+    "originalTitle": "Just After Sunset",
+    "collectionKind": "story-collection",
+    "aliases": []
+  },
+  {
+    "id": "col:000010",
+    "entityType": "collection",
+    "verification": {
+      "claimIds": [
+        "clm:000662",
+        "clm:000663"
+      ],
+      "open": [
+        "dutchEdition",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated",
+        "contentsNotMigrated"
+      ]
+    },
+    "originalTitle": "Stephen King Goes to the Movies",
+    "collectionKind": "story-collection",
+    "aliases": []
+  },
+  {
+    "id": "col:000011",
+    "entityType": "collection",
+    "verification": {
+      "claimIds": [
+        "clm:000668",
+        "clm:000669"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated",
+        "contentsNotMigrated"
+      ]
+    },
+    "originalTitle": "Full Dark, No Stars",
+    "collectionKind": "story-collection",
+    "aliases": []
+  },
+  {
+    "id": "col:000012",
+    "entityType": "collection",
+    "verification": {
+      "claimIds": [
+        "clm:000674",
+        "clm:000675"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated",
+        "contentsNotMigrated"
+      ]
+    },
+    "originalTitle": "The Bazaar of Bad Dreams",
+    "collectionKind": "story-collection",
+    "aliases": []
+  },
+  {
+    "id": "col:000013",
+    "entityType": "collection",
+    "verification": {
+      "claimIds": [
+        "clm:000680",
+        "clm:000681"
+      ],
+      "open": [
+        "dutchEdition",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated",
+        "contentsNotMigrated"
+      ]
+    },
+    "originalTitle": "If It Bleeds",
+    "collectionKind": "story-collection",
+    "aliases": []
+  },
+  {
+    "id": "col:000014",
+    "entityType": "collection",
+    "verification": {
+      "claimIds": [
+        "clm:000686",
+        "clm:000687"
+      ],
+      "open": [
+        "dutchEdition",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated",
+        "contentsNotMigrated"
+      ]
+    },
+    "originalTitle": "The Bachman Books",
+    "collectionKind": "collected-novels",
+    "aliases": []
+  },
+  {
+    "id": "col:000015",
+    "entityType": "collection",
+    "verification": {
+      "claimIds": [
+        "clm:000726",
+        "clm:000727"
+      ],
+      "open": [
+        "completeContributorList",
+        "dutchEdition",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated",
+        "contentsNotMigrated",
+        "makerListIncomplete"
+      ]
+    },
+    "originalTitle": "Mid-Life Confidential: The Rock Bottom Remainders Tour America With Three Chords and an Attitude",
+    "collectionKind": "contributed-collection",
+    "aliases": []
+  }
+]

@@ -1,6 +1,6 @@
 # The Kingverse 1.6 — uitvoerbare ontwikkelroadmap
 
-Status: foundation en beperkte Engelse Explorer-preview uitgevoerd; de volledige schaduwmigratie volgt daarna. Peildatum: 25 oktober 2026. Basis: applicatie 1.5.1, commit `ca5f336f72ad6c41a28e30d3ac79a4667b5c9032`. Het gekozen domeinmodel, de bronhiërarchie en het concrete Talisman-voorbeeld staan in [ARCHITECTURE.md](ARCHITECTURE.md).
+Status: foundation en Explorer 1.6.1 uitgevoerd. Schaduwmigratie 1.7 batch 01 (bibliotheekidentiteiten en makersrollen) uitgevoerd; volledige veldmigratie is nog niet afgerond. Peildatum: 25 oktober 2026. Basis: applicatie 1.5.1, commit `ca5f336f72ad6c41a28e30d3ac79a4667b5c9032`. Het gekozen domeinmodel, de bronhiërarchie en het concrete Talisman-voorbeeld staan in [ARCHITECTURE.md](ARCHITECTURE.md).
 
 ## Uitvoeringskeuzes en volgorde
 
@@ -48,6 +48,18 @@ De gedeelde renderer gebruikt IDs/register en bronclaims; geen tweede handmatige
 Acceptatie: volledige validator/testsuite, reproduceerbare generatie, werkende statische links zonder JavaScript, toetsenbordbediening, 390/768/1440 px, afbeeldingsfallback, spoilerfilters en controle van de daadwerkelijke Pages-publicatie. Zie `EXPLORER-DELIVERY.md` voor de oplevering. De uitgebreide fase 3 blijft afhankelijk van fase 2.
 
 ## Fase 2 — migratie zonder gegevensverlies en compatibiliteitslaag
+
+### Uitvoering 1.7 in batches
+
+- **01 — afgerond:** 86 bibliotheekidentiteiten (71 werken, 15 bundels), 11 personen en 99 credits in de afzonderlijke `data/v2-shadow/`-dataset. Behoud de twee-werkenfixture en alle live bestanden byte-identiek. 550 van 15.350 DB-bladvelden hebben een expliciete canonieke mapping; 14.800 zijn met hash en reden behouden maar nog niet gemigreerd. Geen volledig gemigreerde weergaverecords claimen.
+- **02 — volgende stap:** de 170 overige literaire identiteiten, 173 verhaalweergaven (inclusief drie gedeelde identiteiten) en gecontroleerde bundelrelaties. Geen fictieve eigen verhaalcover.
+- **03 — gepland:** 150 resterende editievoorbeelden, publicatie-events, taal-/vertaalgegevens, seriële delen en editiegebonden beeldmetadata. Eerst afzonderlijke rechtenbeslissing; geen beeldkopieën of omzeiling van hotlinkweigeringen.
+- **04 — gepland:** 96 adaptaties, afzonderlijke remake-identiteiten, makersrollen, bronwerken en statusonzekerheden. Geen IMDb-scores of onbevoegde omschrijvingen overnemen.
+- **05 — gepland:** 17 bestaande Tower-bronrecords naar canonieke, gescopeerde relaties met bronnen, zekerheid en spoilers. De acht foundationrelaties zijn een andere noemer.
+- **06 — acceptatiepoort:** alle resterende velden verklaren, oude/nieuwe projecties verliesloos vergelijken, verschillen oplossen en volledige UI-regressie uitvoeren. Pas daarna een afzonderlijke opdracht om de volledige Explorer aan te sluiten; geen runtimeomschakeling in deze migratiefase.
+
+Het kwaliteitsdashboard op `migration-quality.html` onderscheidt technische mapping, bron-URL-aanwezigheid en bibliografische verificatie. De nieuwe vergelijking omvat 703 officiële indexregels en 692 gekoppelde bibliografieregels; onopgeloste regels worden niet als nieuw werk toegevoegd. Zie `MIGRATION-DELIVERY.md` en `data/migration/` voor scope en blokkades.
+
 
 **Doel en op te leveren werk.** Migreer de volledige huidige dataset in de schaduw naar `data/v2/`. Maak per bronbestand/JSON-pointer een mapping naar nieuw veld/ID of een expliciet bewaard legacyveld met reden. Gebruik de 1.5.1-snapshots en correcties als invoer; haal niet gelijktijdig de hele bibliografie opnieuw op. Behoud originele import, bronhashes, conflicten, onzekerheden, afgewezen beelden en statusgeschiedenis. Maak een machineleesbaar verschillenrapport en een menselijk migratieverslag.
 

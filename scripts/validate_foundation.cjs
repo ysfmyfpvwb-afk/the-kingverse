@@ -30,6 +30,7 @@ function validate(bundle, {root = ROOT, checkRuntime = true, checkCompatibility 
     for (const e of schemaValidator.errors) add('schema', e.instancePath, e.message);
     return {valid:false, errors, counts:{}};
   }
+  if(checkCompatibility && bundle.manifest.scope!=='two-work-foundation-poc')return {valid:false,errors:[{code:'shadow-validator-required',path:'manifest',message:'Use scripts/validate_shadow.cjs for reviewed shadow batch compatibility.'}],counts:{}};
   const records = TABLES.flatMap(k => bundle[k]);
   const map = new Map();
   for (const table of TABLES) for (const r of bundle[table]) {

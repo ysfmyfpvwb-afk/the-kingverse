@@ -6,7 +6,10 @@
   "scripts": {
     "test": "node --test tests/*.test.cjs",
     "validate:foundation": "node scripts/validate_foundation.cjs",
-    "build:explorer": "node scripts/build_explorer.cjs"
+    "build:explorer": "node scripts/build_explorer.cjs",
+    "migrate:shadow": "node scripts/migrate_shadow.cjs",
+    "validate:shadow": "node scripts/validate_shadow.cjs",
+    "report:migration": "node scripts/report_migration.cjs"
   },
   "devDependencies": {
     "ajv": "8.20.0"

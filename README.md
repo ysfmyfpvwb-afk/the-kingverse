@@ -73,3 +73,10 @@ No paid IMDb API or other paid service is planned or activated. Actual legacy IM
 The English preview (1.6.1) is available separately at `explorer/`. Mobile book pages use compact covers and a single sourced, clickable card per relationship. The existing archive remains the default. Generate the preview offline with `npm run build:explorer`; the script validates the v2 bundle first. Then run `npm run validate:foundation` and `npm test`.
 
 Only The Talisman and Black House are migrated. Their canonical routes are `explorer/work/000001/` and `explorer/work/000002/`. Authors, characters and the Territories have static pages linked from the works. Core navigation works without JavaScript. Plot connections load only after an explicit choice. Existing edition examples retain their uncertainty; no adaptation or rating data is imported. See `EXPLORER-DELIVERY.md` for validation and scope.
+
+
+## Shadow migration 1.7 — partial batch 01
+
+`data/v2-shadow/` is separate from the unchanged two-work Explorer fixture. This batch models library identities and scoped credits only; it is not a complete catalog migration. Run `npm run migrate:shadow`, `npm run validate:shadow`, `npm run report:migration` and `npm test` offline. The frozen allocation register and input hashes prevent silent reassignment. Online source evidence is refreshed only by explicitly running `python3 scripts/audit_migration_sources.py`.
+
+See `migration-quality.html`, `MIGRATION-DELIVERY.md` and `data/migration/differences.json` for the field ledger, source-row comparison, exact remainder and blockers. The default app and Explorer URLs are unchanged.
