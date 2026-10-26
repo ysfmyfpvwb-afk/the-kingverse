@@ -1,6 +1,6 @@
 {
   "checked": "2026-10-26",
-  "batch": "01-library-identities-and-credits",
+  "batch": "02-stories-and-memberships",
   "fullMigration": false,
   "legacy": {
     "counts": {
@@ -31,18 +31,18 @@
     }
   },
   "shadow": {
-    "works": 71,
+    "works": 241,
     "collections": 15,
     "editions": 4,
-    "people": 11,
-    "credits": 99,
+    "people": 12,
+    "credits": 272,
     "adaptations": 0,
     "characters": 2,
     "locations": 1,
-    "connections": 8,
-    "collectionMemberships": 0,
-    "sources": 91,
-    "claims": 750,
+    "connections": 9,
+    "collectionMemberships": 155,
+    "sources": 262,
+    "claims": 2271,
     "publicationEvents": 2,
     "artworks": 4,
     "externalReferences": 2
@@ -53,9 +53,13 @@
   },
   "shadowWorkKinds": {
     "novel": 65,
-    "novella": 3,
+    "novella": 24,
     "comic": 1,
-    "nonfiction": 2
+    "nonfiction": 2,
+    "short-story": 142,
+    "poem": 5,
+    "screenplay": 1,
+    "essay": 1
   },
   "legacyAdaptationStatuses": {
     "released": 92,
@@ -67,13 +71,14 @@
       "total": 86
     },
     "literaryIdentities": {
-      "migrated": 86,
+      "migrated": 256,
       "total": 256
     },
     "fullyMigratedViewRecords": 0,
     "storyViews": {
-      "migrated": 0,
-      "total": 173
+      "migrated": 173,
+      "total": 173,
+      "scope": "identity, scoped credits and registered membership projection; not full publication/edition metadata"
     },
     "editions": {
       "migrated": 4,
@@ -88,15 +93,49 @@
       "total": 17
     },
     "fields": {
-      "mapped": 550,
-      "retainedNotMigrated": 14800,
+      "mapped": 2082,
+      "retainedNotMigrated": 13268,
       "total": 15350
     },
     "note": "Identity/credit coverage is not full record migration; remaining fields are retained in source, with hashed pointers in differences.json."
   },
+  "trilogy": {
+    "orderedWorkIds": [
+      "wrk:000001",
+      "wrk:000002",
+      "wrk:000067"
+    ],
+    "relationIds": [
+      "rel:000001",
+      "rel:000009"
+    ],
+    "newWorkIdentities": 0,
+    "certainty": "explicit",
+    "spoiler": "none",
+    "sourceUrls": [
+      "https://stephenking.com/works/novel/other-worlds-than-these.html",
+      "https://www.simonandschuster.com/books/Other-Worlds-Than-These/Stephen-King/The-Talisman-Trilogy/9781668233092"
+    ]
+  },
+  "stories": {
+    "newIdentities": 170,
+    "reusedIdentities": 3,
+    "storyViews": 173,
+    "titleVariants": 3,
+    "noRegisteredCollection": 28,
+    "multipleCollections": 6,
+    "collectionMemberships": 155,
+    "storyMemberships": 151,
+    "collectedNovelMemberships": 4,
+    "sourceSupportedMemberships": 150,
+    "provisionalMemberships": 5,
+    "verifiedContentsOrders": 0,
+    "uncertainStoryRecords": 173
+  },
   "relations": {
     "sourceSupportedSeedRelations": 7,
     "seedTotal": 8,
+    "newVerifiedSeriesRelations": 1,
     "independentlyVerifiedNewRelations": 0,
     "legacyTowerRowsPending": 17
   },
@@ -135,7 +174,7 @@
     "index": {
       "parsedRows": 703,
       "catalogUrlPresent": 346,
-      "shadowIdentityMatch": 86,
+      "shadowIdentityMatch": 256,
       "unresolvedSourceRows": 357,
       "completeBibliography": false,
       "unit": "all parsed index rows; editions/duplicates/other genres included"
@@ -143,17 +182,17 @@
     "bibliography": {
       "parsedRows": 692,
       "catalogUrlPresent": 183,
-      "shadowIdentityMatch": 65,
+      "shadowIdentityMatch": 93,
       "unresolvedSourceRows": 509,
       "completeBibliography": false,
       "unit": "linked bibliography entries only; unlinked text entries excluded"
     }
   },
   "blockers": [
-    "Batch 01 covers library identities and credits only; publication history and other library fields remain deferred.",
-    "173 story views, their memberships, 150 remaining edition examples, 96 adaptations and 17 legacy Tower rows still require dedicated migration batches.",
+    "Batches 01–02 cover existing library/story identities, credits and membership projections; remaining publication/translation metadata is deferred.",
+    "Five inherited secondary collection memberships remain provisional, all contents orders and exact edition identities remain unresolved; 150 edition examples, 96 adaptations and 17 legacy Tower rows remain for later batches.",
     "Bibliographic URL matching is not identity resolution or proof of complete bibliography; unresolved source rows must be reviewed.",
-    "New claims are provisional carry-forwards; first-publication history, translation/edition identity and complete contributor scopes remain open.",
+    "Identity and credit carry-forwards remain provisional; membership and series evidence are separately scoped. First-publication history, translation/edition identity and full contributor scopes remain open.",
     "Both sampled English covers returned 403 with an Explorer Referer; no explicit hotlink/republication permission was established. Do not bypass source restrictions.",
     "Existing IMDb reuse questions remain needs-review; no numeric scores or third-party descriptions were imported.",
     "No runtime switch: require full field mapping, edition/artwork rights decisions, lossless compatibility projection, spoiler review and full UI regression before connection to the full Explorer."

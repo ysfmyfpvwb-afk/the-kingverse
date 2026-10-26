@@ -6,22 +6,22 @@ const {generateShadow,outputFiles,hash}=require('../scripts/migrate_shadow.cjs')
 const {validateShadow}=require('../scripts/validate_shadow.cjs');const {report}=require('../scripts/report_migration.cjs');
 const read=name=>JSON.parse(fs.readFileSync(path.join(ROOT,name),'utf8'));
 const fresh=()=>({bundle:loadBundle(path.join(ROOT,'data/v2-shadow')),ledger:read('data/migration/differences.json')});
-test('Batch 01 is reproducible, validates and does not claim a full migration',()=>{
+test('Batches 01–02 reproduce and validate without claiming a full migration',()=>{
  const {bundle,ledger}=fresh();assert.equal(validateShadow(bundle,ledger).valid,true);
  for(const[name,content]of outputFiles())assert.equal(fs.readFileSync(path.join(ROOT,name),'utf8'),content,name);
- assert.deepEqual(outputFiles(),outputFiles());assert.equal(bundle.works.length,71);assert.equal(bundle.collections.length,15);assert.equal(bundle.credits.length,99);
- assert.equal(ledger.records.length,86);assert.equal(ledger.completeMigration,false);
+ assert.deepEqual(outputFiles(),outputFiles());assert.equal(bundle.works.length,241);assert.equal(bundle.collections.length,15);assert.equal(bundle.credits.length,272);
+ assert.equal(ledger.records.length,259);assert.equal(ledger.completeMigration,false);
  assert.equal(validate(bundle).errors[0].code,'shadow-validator-required');
  assert.equal(validate(loadBundle()).valid,true);
 });
 test('Every input leaf has exactly one checked mapping or explicit deferred disposition',()=>{
  const {bundle,ledger}=fresh();assert.equal(new Set(ledger.fields.map(f=>f.pointer)).size,ledger.fields.length);
  assert.ok(ledger.fields.some(f=>f.pointer.includes('/imdb/summary/en')&&f.disposition==='retained-in-source-not-migrated'));
- assert.ok(!JSON.stringify(ledger).includes('Gelezen'));assert.equal(ledger.fields.filter(f=>f.disposition==='mapped').length,550);
+ assert.ok(!JSON.stringify(ledger).includes('Gelezen'));assert.equal(ledger.fields.filter(f=>f.disposition==='mapped').length,2082);
  ledger.fields.pop();assert.ok(validateShadow(bundle,ledger,{checkGenerated:false}).errors.some(e=>e.code==='field-ledger-difference'));
 });
 test('Role, alias, field-value and hash corruption are rejected',()=>{
- for(const mutate of [x=>x.bundle.credits.at(-1).role='coauthor',x=>x.bundle.registry.aliases.at(-1).target.id='wrk:000001',x=>x.bundle.works.at(-1).originalTitle='Changed title',x=>x.ledger.fields[0].sourceValueSha256='0'.repeat(64)]){
+ for(const mutate of [x=>x.bundle.credits.at(-1).role='photographer',x=>x.bundle.registry.aliases.at(-1).target.id='wrk:000001',x=>x.bundle.works.at(-1).originalTitle='Changed title',x=>x.ledger.fields[0].sourceValueSha256='0'.repeat(64)]){
   const value=fresh();mutate(value);assert.equal(validateShadow(value.bundle,value.ledger,{checkGenerated:false}).valid,false);
  }
 });
@@ -32,7 +32,7 @@ test('Collections and Bachman remain separate from editions and additional autho
  assert.equal(bundle.collections.find(c=>c.id===bachman.id).collectionKind,'collected-novels');
  assert.ok(bundle.credits.some(c=>c.subject.id===bachman.id&&c.personId===king.id&&c.creditedAs==='Richard Bachman'));
  const midlife=bundle.collections.find(c=>c.collectionKind==='contributed-collection');assert.ok(midlife.verification.open.includes('makerListIncomplete'));
- assert.equal(bundle.collectionMemberships.length,0);assert.equal(bundle.editions.length,4);assert.equal(bundle.adaptations.length,0);
+ assert.equal(bundle.collectionMemberships.length,155);assert.equal(bundle.editions.length,4);assert.equal(bundle.adaptations.length,0);
 });
 test('Parallel storylines and photographs are not promoted to whole-work coauthorship',()=>{
  const {bundle}=fresh();const a=read('data/migration/id-register.json');
@@ -51,7 +51,7 @@ test('An unreviewed baseline edit stops regeneration before identities can be re
 test('Dashboard separates identity coverage, deferred fields and source-row coverage',()=>{
  for(const[name,content]of report())assert.equal(fs.readFileSync(path.join(ROOT,name),'utf8'),content,name);
  const q=read('data/migration/quality.json');assert.equal(q.fullMigration,false);assert.equal(q.migration.fullyMigratedViewRecords,0);
- assert.equal(q.migration.storyViews.migrated,0);assert.equal(q.migration.editions.migrated,4);
+ assert.equal(q.migration.storyViews.migrated,173);assert.equal(q.migration.editions.migrated,4);
  assert.equal(q.bibliography.index.parsedRows,703);assert.equal(q.bibliography.bibliography.parsedRows,692);
  assert.equal(q.bibliography.index.completeBibliography,false);assert.equal(q.covers.probeReferrerFailures,2);
  const sources=read('data/migration/source-audit.json');assert.equal(sources.errors.length,0);

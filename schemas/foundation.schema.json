@@ -794,14 +794,16 @@
             {
               "type": "null"
             }
-          ]
+          ],
+          "description": "Position in a verified contents sequence, or null when unknown. Import/display array order is not evidence."
         },
         "editionIds": {
           "type": "array",
           "items": {
             "type": "string",
             "pattern": "^[a-z]{3,4}:[0-9]{6}$"
-          }
+          },
+          "description": "Verified edition identities only. An empty list does not certify every edition or translation; exact edition identity may be unresolved."
         }
       },
       "required": [
@@ -1433,7 +1435,8 @@
         "scope": {
           "enum": [
             "two-work-foundation-poc",
-            "shadow-library-batch-01"
+            "shadow-library-batch-01",
+            "shadow-stories-batch-02"
           ]
         },
         "baselineCommit": {

@@ -1,0 +1,2781 @@
+{
+  "batch": "02-stories-and-memberships",
+  "views": [
+    {
+      "sourcePointer": "/stories/0",
+      "legacyStoryId": "stories:jerusalem-s-lot",
+      "legacyWorkId": "work:jerusalem-s-lot",
+      "workId": "wrk:000072",
+      "membershipIds": [
+        "mem:000001"
+      ],
+      "defaultMembershipId": "mem:000001",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/1",
+      "legacyStoryId": "stories:graveyard-shift",
+      "legacyWorkId": "work:graveyard-shift",
+      "workId": "wrk:000073",
+      "membershipIds": [
+        "mem:000002"
+      ],
+      "defaultMembershipId": "mem:000002",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/2",
+      "legacyStoryId": "stories:night-surf",
+      "legacyWorkId": "work:night-surf",
+      "workId": "wrk:000074",
+      "membershipIds": [
+        "mem:000003"
+      ],
+      "defaultMembershipId": "mem:000003",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/3",
+      "legacyStoryId": "stories:i-am-the-doorway",
+      "legacyWorkId": "work:i-am-the-doorway",
+      "workId": "wrk:000075",
+      "membershipIds": [
+        "mem:000004"
+      ],
+      "defaultMembershipId": "mem:000004",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/4",
+      "legacyStoryId": "stories:the-mangler",
+      "legacyWorkId": "work:the-mangler",
+      "workId": "wrk:000076",
+      "membershipIds": [
+        "mem:000005",
+        "mem:000006"
+      ],
+      "defaultMembershipId": "mem:000005",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/5",
+      "legacyStoryId": "stories:the-boogeyman",
+      "legacyWorkId": "work:the-boogeyman",
+      "workId": "wrk:000077",
+      "membershipIds": [
+        "mem:000007"
+      ],
+      "defaultMembershipId": "mem:000007",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/6",
+      "legacyStoryId": "stories:grey-matter",
+      "legacyWorkId": "work:grey-matter",
+      "workId": "wrk:000078",
+      "membershipIds": [
+        "mem:000008"
+      ],
+      "defaultMembershipId": "mem:000008",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/7",
+      "legacyStoryId": "stories:battleground",
+      "legacyWorkId": "work:battleground",
+      "workId": "wrk:000079",
+      "membershipIds": [
+        "mem:000009"
+      ],
+      "defaultMembershipId": "mem:000009",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/8",
+      "legacyStoryId": "stories:trucks",
+      "legacyWorkId": "work:trucks",
+      "workId": "wrk:000080",
+      "membershipIds": [
+        "mem:000010"
+      ],
+      "defaultMembershipId": "mem:000010",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/9",
+      "legacyStoryId": "stories:sometimes-they-come-back",
+      "legacyWorkId": "work:sometimes-they-come-back",
+      "workId": "wrk:000081",
+      "membershipIds": [
+        "mem:000011"
+      ],
+      "defaultMembershipId": "mem:000011",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/10",
+      "legacyStoryId": "stories:strawberry-spring",
+      "legacyWorkId": "work:strawberry-spring",
+      "workId": "wrk:000082",
+      "membershipIds": [
+        "mem:000012"
+      ],
+      "defaultMembershipId": "mem:000012",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/11",
+      "legacyStoryId": "stories:the-ledge",
+      "legacyWorkId": "work:the-ledge",
+      "workId": "wrk:000083",
+      "membershipIds": [
+        "mem:000013"
+      ],
+      "defaultMembershipId": "mem:000013",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/12",
+      "legacyStoryId": "stories:the-lawnmower-man",
+      "legacyWorkId": "work:the-lawnmower-man",
+      "workId": "wrk:000084",
+      "membershipIds": [
+        "mem:000014"
+      ],
+      "defaultMembershipId": "mem:000014",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/13",
+      "legacyStoryId": "stories:quitters-inc",
+      "legacyWorkId": "work:quitters-inc",
+      "workId": "wrk:000085",
+      "membershipIds": [
+        "mem:000015"
+      ],
+      "defaultMembershipId": "mem:000015",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/14",
+      "legacyStoryId": "stories:i-know-what-you-need",
+      "legacyWorkId": "work:i-know-what-you-need",
+      "workId": "wrk:000086",
+      "membershipIds": [
+        "mem:000016"
+      ],
+      "defaultMembershipId": "mem:000016",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/15",
+      "legacyStoryId": "stories:children-of-the-corn",
+      "legacyWorkId": "work:children-of-the-corn",
+      "workId": "wrk:000087",
+      "membershipIds": [
+        "mem:000017",
+        "mem:000018"
+      ],
+      "defaultMembershipId": "mem:000017",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/16",
+      "legacyStoryId": "stories:the-last-rung-on-the-ladder",
+      "legacyWorkId": "work:the-last-rung-on-the-ladder",
+      "workId": "wrk:000088",
+      "membershipIds": [
+        "mem:000019"
+      ],
+      "defaultMembershipId": "mem:000019",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/17",
+      "legacyStoryId": "stories:the-man-who-loved-flowers",
+      "legacyWorkId": "work:the-man-who-loved-flowers",
+      "workId": "wrk:000089",
+      "membershipIds": [
+        "mem:000020"
+      ],
+      "defaultMembershipId": "mem:000020",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/18",
+      "legacyStoryId": "stories:one-for-the-road",
+      "legacyWorkId": "work:one-for-the-road",
+      "workId": "wrk:000090",
+      "membershipIds": [
+        "mem:000021"
+      ],
+      "defaultMembershipId": "mem:000021",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/19",
+      "legacyStoryId": "stories:the-woman-in-the-room",
+      "legacyWorkId": "work:the-woman-in-the-room",
+      "workId": "wrk:000091",
+      "membershipIds": [
+        "mem:000022"
+      ],
+      "defaultMembershipId": "mem:000022",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/20",
+      "legacyStoryId": "stories:rita-hayworth-and-shawshank-redemption",
+      "legacyWorkId": "work:rita-hayworth-and-shawshank-redemption",
+      "workId": "wrk:000092",
+      "membershipIds": [
+        "mem:000023",
+        "mem:000024"
+      ],
+      "defaultMembershipId": "mem:000023",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/21",
+      "legacyStoryId": "stories:apt-pupil",
+      "legacyWorkId": "work:apt-pupil",
+      "workId": "wrk:000093",
+      "membershipIds": [
+        "mem:000025"
+      ],
+      "defaultMembershipId": "mem:000025",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/22",
+      "legacyStoryId": "stories:the-body",
+      "legacyWorkId": "work:the-body",
+      "workId": "wrk:000094",
+      "membershipIds": [
+        "mem:000026"
+      ],
+      "defaultMembershipId": "mem:000026",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/23",
+      "legacyStoryId": "stories:the-breathing-method",
+      "legacyWorkId": "work:the-breathing-method",
+      "workId": "wrk:000095",
+      "membershipIds": [
+        "mem:000027"
+      ],
+      "defaultMembershipId": "mem:000027",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/24",
+      "legacyStoryId": "stories:the-mist",
+      "legacyWorkId": "work:the-mist",
+      "workId": "wrk:000096",
+      "membershipIds": [
+        "mem:000028"
+      ],
+      "defaultMembershipId": "mem:000028",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": "catalog.js#/stories/24",
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/25",
+      "legacyStoryId": "stories:here-there-be-tygers",
+      "legacyWorkId": "work:here-there-be-tygers",
+      "workId": "wrk:000097",
+      "membershipIds": [
+        "mem:000029"
+      ],
+      "defaultMembershipId": "mem:000029",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/26",
+      "legacyStoryId": "stories:the-monkey",
+      "legacyWorkId": "work:the-monkey",
+      "workId": "wrk:000098",
+      "membershipIds": [
+        "mem:000030"
+      ],
+      "defaultMembershipId": "mem:000030",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/27",
+      "legacyStoryId": "stories:cain-rose-up",
+      "legacyWorkId": "work:cain-rose-up",
+      "workId": "wrk:000099",
+      "membershipIds": [
+        "mem:000031"
+      ],
+      "defaultMembershipId": "mem:000031",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/28",
+      "legacyStoryId": "stories:mrs-todd-s-shortcut",
+      "legacyWorkId": "work:mrs-todd-s-shortcut",
+      "workId": "wrk:000100",
+      "membershipIds": [
+        "mem:000032"
+      ],
+      "defaultMembershipId": "mem:000032",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/29",
+      "legacyStoryId": "stories:the-jaunt",
+      "legacyWorkId": "work:the-jaunt",
+      "workId": "wrk:000101",
+      "membershipIds": [
+        "mem:000033"
+      ],
+      "defaultMembershipId": "mem:000033",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/30",
+      "legacyStoryId": "stories:the-wedding-gig",
+      "legacyWorkId": "work:the-wedding-gig",
+      "workId": "wrk:000102",
+      "membershipIds": [
+        "mem:000034"
+      ],
+      "defaultMembershipId": "mem:000034",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/31",
+      "legacyStoryId": "stories:paranoid-a-chant",
+      "legacyWorkId": "work:paranoid-a-chant",
+      "workId": "wrk:000103",
+      "membershipIds": [
+        "mem:000035"
+      ],
+      "defaultMembershipId": "mem:000035",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "collectionMembership",
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/32",
+      "legacyStoryId": "stories:the-raft",
+      "legacyWorkId": "work:the-raft",
+      "workId": "wrk:000104",
+      "membershipIds": [
+        "mem:000036"
+      ],
+      "defaultMembershipId": "mem:000036",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/33",
+      "legacyStoryId": "stories:word-processor-of-the-gods",
+      "legacyWorkId": "work:word-processor-of-the-gods",
+      "workId": "wrk:000105",
+      "membershipIds": [
+        "mem:000037"
+      ],
+      "defaultMembershipId": "mem:000037",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/34",
+      "legacyStoryId": "stories:the-man-who-would-not-shake-hands",
+      "legacyWorkId": "work:the-man-who-would-not-shake-hands",
+      "workId": "wrk:000106",
+      "membershipIds": [
+        "mem:000038"
+      ],
+      "defaultMembershipId": "mem:000038",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/35",
+      "legacyStoryId": "stories:beachworld",
+      "legacyWorkId": "work:beachworld",
+      "workId": "wrk:000107",
+      "membershipIds": [
+        "mem:000039"
+      ],
+      "defaultMembershipId": "mem:000039",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/36",
+      "legacyStoryId": "stories:the-reaper-s-image",
+      "legacyWorkId": "work:the-reaper-s-image",
+      "workId": "wrk:000108",
+      "membershipIds": [
+        "mem:000040"
+      ],
+      "defaultMembershipId": "mem:000040",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/37",
+      "legacyStoryId": "stories:nona",
+      "legacyWorkId": "work:nona",
+      "workId": "wrk:000109",
+      "membershipIds": [
+        "mem:000041"
+      ],
+      "defaultMembershipId": "mem:000041",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/38",
+      "legacyStoryId": "stories:for-owen",
+      "legacyWorkId": "work:for-owen",
+      "workId": "wrk:000110",
+      "membershipIds": [
+        "mem:000042"
+      ],
+      "defaultMembershipId": "mem:000042",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "collectionMembership",
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/39",
+      "legacyStoryId": "stories:survivor-type",
+      "legacyWorkId": "work:survivor-type",
+      "workId": "wrk:000111",
+      "membershipIds": [
+        "mem:000043"
+      ],
+      "defaultMembershipId": "mem:000043",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/40",
+      "legacyStoryId": "stories:uncle-otto-s-truck",
+      "legacyWorkId": "work:uncle-otto-s-truck",
+      "workId": "wrk:000112",
+      "membershipIds": [
+        "mem:000044"
+      ],
+      "defaultMembershipId": "mem:000044",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/41",
+      "legacyStoryId": "stories:morning-deliveries-milkman-1",
+      "legacyWorkId": "work:morning-deliveries-milkman-1",
+      "workId": "wrk:000113",
+      "membershipIds": [
+        "mem:000045"
+      ],
+      "defaultMembershipId": "mem:000045",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/42",
+      "legacyStoryId": "stories:big-wheels-a-tale-of-the-laundry-game-milkman-2",
+      "legacyWorkId": "work:big-wheels-a-tale-of-the-laundry-game-milkman-2",
+      "workId": "wrk:000114",
+      "membershipIds": [
+        "mem:000046"
+      ],
+      "defaultMembershipId": "mem:000046",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/43",
+      "legacyStoryId": "stories:gramma",
+      "legacyWorkId": "work:gramma",
+      "workId": "wrk:000115",
+      "membershipIds": [
+        "mem:000047"
+      ],
+      "defaultMembershipId": "mem:000047",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/44",
+      "legacyStoryId": "stories:the-ballad-of-the-flexible-bullet",
+      "legacyWorkId": "work:the-ballad-of-the-flexible-bullet",
+      "workId": "wrk:000116",
+      "membershipIds": [
+        "mem:000048"
+      ],
+      "defaultMembershipId": "mem:000048",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/45",
+      "legacyStoryId": "stories:the-reach",
+      "legacyWorkId": "work:the-reach",
+      "workId": "wrk:000117",
+      "membershipIds": [
+        "mem:000049"
+      ],
+      "defaultMembershipId": "mem:000049",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/46",
+      "legacyStoryId": "stories:the-langoliers",
+      "legacyWorkId": "work:the-langoliers",
+      "workId": "wrk:000118",
+      "membershipIds": [
+        "mem:000050"
+      ],
+      "defaultMembershipId": "mem:000050",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/47",
+      "legacyStoryId": "stories:secret-window-secret-garden",
+      "legacyWorkId": "work:secret-window-secret-garden",
+      "workId": "wrk:000119",
+      "membershipIds": [
+        "mem:000051"
+      ],
+      "defaultMembershipId": "mem:000051",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/48",
+      "legacyStoryId": "stories:the-library-policeman",
+      "legacyWorkId": "work:the-library-policeman",
+      "workId": "wrk:000120",
+      "membershipIds": [
+        "mem:000052"
+      ],
+      "defaultMembershipId": "mem:000052",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/49",
+      "legacyStoryId": "stories:the-sun-dog",
+      "legacyWorkId": "work:the-sun-dog",
+      "workId": "wrk:000121",
+      "membershipIds": [
+        "mem:000053"
+      ],
+      "defaultMembershipId": "mem:000053",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/50",
+      "legacyStoryId": "stories:dolan-s-cadillac",
+      "legacyWorkId": "work:dolan-s-cadillac",
+      "workId": "wrk:000122",
+      "membershipIds": [
+        "mem:000054"
+      ],
+      "defaultMembershipId": "mem:000054",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/51",
+      "legacyStoryId": "stories:the-end-of-the-whole-mess",
+      "legacyWorkId": "work:the-end-of-the-whole-mess",
+      "workId": "wrk:000123",
+      "membershipIds": [
+        "mem:000055"
+      ],
+      "defaultMembershipId": "mem:000055",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/52",
+      "legacyStoryId": "stories:suffer-the-little-children",
+      "legacyWorkId": "work:suffer-the-little-children",
+      "workId": "wrk:000124",
+      "membershipIds": [
+        "mem:000056"
+      ],
+      "defaultMembershipId": "mem:000056",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/53",
+      "legacyStoryId": "stories:the-night-flier",
+      "legacyWorkId": "work:the-night-flier",
+      "workId": "wrk:000125",
+      "membershipIds": [
+        "mem:000057"
+      ],
+      "defaultMembershipId": "mem:000057",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/54",
+      "legacyStoryId": "stories:popsy",
+      "legacyWorkId": "work:popsy",
+      "workId": "wrk:000126",
+      "membershipIds": [
+        "mem:000058"
+      ],
+      "defaultMembershipId": "mem:000058",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/55",
+      "legacyStoryId": "stories:it-grows-on-you",
+      "legacyWorkId": "work:it-grows-on-you",
+      "workId": "wrk:000127",
+      "membershipIds": [
+        "mem:000059"
+      ],
+      "defaultMembershipId": "mem:000059",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/56",
+      "legacyStoryId": "stories:chattery-teeth",
+      "legacyWorkId": "work:chattery-teeth",
+      "workId": "wrk:000128",
+      "membershipIds": [
+        "mem:000060"
+      ],
+      "defaultMembershipId": "mem:000060",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/57",
+      "legacyStoryId": "stories:dedication",
+      "legacyWorkId": "work:dedication",
+      "workId": "wrk:000129",
+      "membershipIds": [
+        "mem:000061"
+      ],
+      "defaultMembershipId": "mem:000061",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/58",
+      "legacyStoryId": "stories:the-moving-finger",
+      "legacyWorkId": "work:the-moving-finger",
+      "workId": "wrk:000130",
+      "membershipIds": [
+        "mem:000062"
+      ],
+      "defaultMembershipId": "mem:000062",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/59",
+      "legacyStoryId": "stories:sneakers",
+      "legacyWorkId": "work:sneakers",
+      "workId": "wrk:000131",
+      "membershipIds": [
+        "mem:000063"
+      ],
+      "defaultMembershipId": "mem:000063",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/60",
+      "legacyStoryId": "stories:you-know-they-got-a-hell-of-a-band",
+      "legacyWorkId": "work:you-know-they-got-a-hell-of-a-band",
+      "workId": "wrk:000132",
+      "membershipIds": [
+        "mem:000064"
+      ],
+      "defaultMembershipId": "mem:000064",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/61",
+      "legacyStoryId": "stories:home-delivery",
+      "legacyWorkId": "work:home-delivery",
+      "workId": "wrk:000133",
+      "membershipIds": [
+        "mem:000065"
+      ],
+      "defaultMembershipId": "mem:000065",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/62",
+      "legacyStoryId": "stories:rainy-season",
+      "legacyWorkId": "work:rainy-season",
+      "workId": "wrk:000134",
+      "membershipIds": [
+        "mem:000066"
+      ],
+      "defaultMembershipId": "mem:000066",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/63",
+      "legacyStoryId": "stories:my-pretty-pony",
+      "legacyWorkId": "work:my-pretty-pony",
+      "workId": "wrk:000135",
+      "membershipIds": [
+        "mem:000067"
+      ],
+      "defaultMembershipId": "mem:000067",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/64",
+      "legacyStoryId": "stories:sorry-right-number",
+      "legacyWorkId": "work:sorry-right-number",
+      "workId": "wrk:000136",
+      "membershipIds": [
+        "mem:000068"
+      ],
+      "defaultMembershipId": "mem:000068",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "collectionMembership",
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/65",
+      "legacyStoryId": "stories:the-ten-o-clock-people",
+      "legacyWorkId": "work:the-ten-o-clock-people",
+      "workId": "wrk:000137",
+      "membershipIds": [
+        "mem:000069"
+      ],
+      "defaultMembershipId": "mem:000069",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/66",
+      "legacyStoryId": "stories:crouch-end",
+      "legacyWorkId": "work:crouch-end",
+      "workId": "wrk:000138",
+      "membershipIds": [
+        "mem:000070"
+      ],
+      "defaultMembershipId": "mem:000070",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/67",
+      "legacyStoryId": "stories:the-house-on-maple-street",
+      "legacyWorkId": "work:the-house-on-maple-street",
+      "workId": "wrk:000139",
+      "membershipIds": [
+        "mem:000071"
+      ],
+      "defaultMembershipId": "mem:000071",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/68",
+      "legacyStoryId": "stories:the-fifth-quarter",
+      "legacyWorkId": "work:the-fifth-quarter",
+      "workId": "wrk:000140",
+      "membershipIds": [
+        "mem:000072"
+      ],
+      "defaultMembershipId": "mem:000072",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/69",
+      "legacyStoryId": "stories:the-doctor-s-case",
+      "legacyWorkId": "work:the-doctor-s-case",
+      "workId": "wrk:000141",
+      "membershipIds": [
+        "mem:000073"
+      ],
+      "defaultMembershipId": "mem:000073",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/70",
+      "legacyStoryId": "stories:umney-s-last-case",
+      "legacyWorkId": "work:umney-s-last-case",
+      "workId": "wrk:000142",
+      "membershipIds": [
+        "mem:000074"
+      ],
+      "defaultMembershipId": "mem:000074",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/71",
+      "legacyStoryId": "stories:head-down",
+      "legacyWorkId": "work:head-down",
+      "workId": "wrk:000143",
+      "membershipIds": [
+        "mem:000075"
+      ],
+      "defaultMembershipId": "mem:000075",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "collectionMembership",
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/72",
+      "legacyStoryId": "stories:brooklyn-august",
+      "legacyWorkId": "work:brooklyn-august",
+      "workId": "wrk:000144",
+      "membershipIds": [
+        "mem:000076"
+      ],
+      "defaultMembershipId": "mem:000076",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "collectionMembership",
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/73",
+      "legacyStoryId": "stories:low-men-in-yellow-coats",
+      "legacyWorkId": "work:low-men-in-yellow-coats",
+      "workId": "wrk:000145",
+      "membershipIds": [
+        "mem:000077",
+        "mem:000078"
+      ],
+      "defaultMembershipId": "mem:000077",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/74",
+      "legacyStoryId": "stories:hearts-in-atlantis",
+      "legacyWorkId": "work:hearts-in-atlantis",
+      "workId": "wrk:000146",
+      "membershipIds": [
+        "mem:000079"
+      ],
+      "defaultMembershipId": "mem:000079",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/75",
+      "legacyStoryId": "stories:blind-willie",
+      "legacyWorkId": "work:blind-willie",
+      "workId": "wrk:000147",
+      "membershipIds": [
+        "mem:000080"
+      ],
+      "defaultMembershipId": "mem:000080",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/76",
+      "legacyStoryId": "stories:why-we-re-in-vietnam",
+      "legacyWorkId": "work:why-we-re-in-vietnam",
+      "workId": "wrk:000148",
+      "membershipIds": [
+        "mem:000081"
+      ],
+      "defaultMembershipId": "mem:000081",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/77",
+      "legacyStoryId": "stories:heavenly-shades-of-night-are-falling",
+      "legacyWorkId": "work:heavenly-shades-of-night-are-falling",
+      "workId": "wrk:000149",
+      "membershipIds": [
+        "mem:000082"
+      ],
+      "defaultMembershipId": "mem:000082",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/78",
+      "legacyStoryId": "stories:autopsy-room-four",
+      "legacyWorkId": "work:autopsy-room-four",
+      "workId": "wrk:000150",
+      "membershipIds": [
+        "mem:000083"
+      ],
+      "defaultMembershipId": "mem:000083",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/79",
+      "legacyStoryId": "stories:the-man-in-the-black-suit",
+      "legacyWorkId": "work:the-man-in-the-black-suit",
+      "workId": "wrk:000151",
+      "membershipIds": [
+        "mem:000084"
+      ],
+      "defaultMembershipId": "mem:000084",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/80",
+      "legacyStoryId": "stories:all-that-you-love-will-be-carried-away",
+      "legacyWorkId": "work:all-that-you-love-will-be-carried-away",
+      "workId": "wrk:000152",
+      "membershipIds": [
+        "mem:000085"
+      ],
+      "defaultMembershipId": "mem:000085",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/81",
+      "legacyStoryId": "stories:the-death-of-jack-hamilton",
+      "legacyWorkId": "work:the-death-of-jack-hamilton",
+      "workId": "wrk:000153",
+      "membershipIds": [
+        "mem:000086"
+      ],
+      "defaultMembershipId": "mem:000086",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/82",
+      "legacyStoryId": "stories:in-the-deathroom",
+      "legacyWorkId": "work:in-the-deathroom",
+      "workId": "wrk:000154",
+      "membershipIds": [
+        "mem:000087"
+      ],
+      "defaultMembershipId": "mem:000087",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/83",
+      "legacyStoryId": "stories:the-little-sisters-of-eluria",
+      "legacyWorkId": "work:the-little-sisters-of-eluria",
+      "workId": "wrk:000155",
+      "membershipIds": [
+        "mem:000088"
+      ],
+      "defaultMembershipId": "mem:000088",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/84",
+      "legacyStoryId": "stories:everything-s-eventual",
+      "legacyWorkId": "work:everything-s-eventual",
+      "workId": "wrk:000156",
+      "membershipIds": [
+        "mem:000089"
+      ],
+      "defaultMembershipId": "mem:000089",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/85",
+      "legacyStoryId": "stories:l-t-s-theory-of-pets",
+      "legacyWorkId": "work:l-t-s-theory-of-pets",
+      "workId": "wrk:000157",
+      "membershipIds": [
+        "mem:000090"
+      ],
+      "defaultMembershipId": "mem:000090",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/86",
+      "legacyStoryId": "stories:the-road-virus-heads-north",
+      "legacyWorkId": "work:the-road-virus-heads-north",
+      "workId": "wrk:000158",
+      "membershipIds": [
+        "mem:000091"
+      ],
+      "defaultMembershipId": "mem:000091",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/87",
+      "legacyStoryId": "stories:lunch-at-the-gotham-cafe",
+      "legacyWorkId": "work:lunch-at-the-gotham-cafe",
+      "workId": "wrk:000159",
+      "membershipIds": [
+        "mem:000092"
+      ],
+      "defaultMembershipId": "mem:000092",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/88",
+      "legacyStoryId": "stories:that-feeling-you-can-only-say-what-it-is-in-french",
+      "legacyWorkId": "work:that-feeling-you-can-only-say-what-it-is-in-french",
+      "workId": "wrk:000160",
+      "membershipIds": [
+        "mem:000093"
+      ],
+      "defaultMembershipId": "mem:000093",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/89",
+      "legacyStoryId": "stories:1408",
+      "legacyWorkId": "work:1408",
+      "workId": "wrk:000161",
+      "membershipIds": [
+        "mem:000094",
+        "mem:000095"
+      ],
+      "defaultMembershipId": "mem:000094",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/90",
+      "legacyStoryId": "stories:riding-the-bullet",
+      "legacyWorkId": "work:riding-the-bullet",
+      "workId": "wrk:000162",
+      "membershipIds": [
+        "mem:000096"
+      ],
+      "defaultMembershipId": "mem:000096",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/91",
+      "legacyStoryId": "stories:luckey-quarter",
+      "legacyWorkId": "work:luckey-quarter",
+      "workId": "wrk:000163",
+      "membershipIds": [
+        "mem:000097"
+      ],
+      "defaultMembershipId": "mem:000097",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/92",
+      "legacyStoryId": "stories:willa",
+      "legacyWorkId": "work:willa",
+      "workId": "wrk:000164",
+      "membershipIds": [
+        "mem:000098"
+      ],
+      "defaultMembershipId": "mem:000098",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/93",
+      "legacyStoryId": "stories:the-gingerbread-girl",
+      "legacyWorkId": "work:the-gingerbread-girl",
+      "workId": "wrk:000165",
+      "membershipIds": [
+        "mem:000099"
+      ],
+      "defaultMembershipId": "mem:000099",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/94",
+      "legacyStoryId": "stories:harvey-s-dream",
+      "legacyWorkId": "work:harvey-s-dream",
+      "workId": "wrk:000166",
+      "membershipIds": [
+        "mem:000100"
+      ],
+      "defaultMembershipId": "mem:000100",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/95",
+      "legacyStoryId": "stories:rest-stop",
+      "legacyWorkId": "work:rest-stop",
+      "workId": "wrk:000167",
+      "membershipIds": [
+        "mem:000101"
+      ],
+      "defaultMembershipId": "mem:000101",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/96",
+      "legacyStoryId": "stories:stationary-bike",
+      "legacyWorkId": "work:stationary-bike",
+      "workId": "wrk:000168",
+      "membershipIds": [
+        "mem:000102"
+      ],
+      "defaultMembershipId": "mem:000102",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/97",
+      "legacyStoryId": "stories:the-things-they-left-behind",
+      "legacyWorkId": "work:the-things-they-left-behind",
+      "workId": "wrk:000169",
+      "membershipIds": [
+        "mem:000103"
+      ],
+      "defaultMembershipId": "mem:000103",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/98",
+      "legacyStoryId": "stories:graduation-afternoon",
+      "legacyWorkId": "work:graduation-afternoon",
+      "workId": "wrk:000170",
+      "membershipIds": [
+        "mem:000104"
+      ],
+      "defaultMembershipId": "mem:000104",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/99",
+      "legacyStoryId": "stories:n",
+      "legacyWorkId": "work:n",
+      "workId": "wrk:000171",
+      "membershipIds": [
+        "mem:000105"
+      ],
+      "defaultMembershipId": "mem:000105",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/100",
+      "legacyStoryId": "stories:the-cat-from-hell",
+      "legacyWorkId": "work:the-cat-from-hell",
+      "workId": "wrk:000172",
+      "membershipIds": [
+        "mem:000106"
+      ],
+      "defaultMembershipId": "mem:000106",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/101",
+      "legacyStoryId": "stories:the-new-york-times-at-special-bargain-rates",
+      "legacyWorkId": "work:the-new-york-times-at-special-bargain-rates",
+      "workId": "wrk:000173",
+      "membershipIds": [
+        "mem:000107"
+      ],
+      "defaultMembershipId": "mem:000107",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/102",
+      "legacyStoryId": "stories:mute",
+      "legacyWorkId": "work:mute",
+      "workId": "wrk:000174",
+      "membershipIds": [
+        "mem:000108"
+      ],
+      "defaultMembershipId": "mem:000108",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/103",
+      "legacyStoryId": "stories:ayana",
+      "legacyWorkId": "work:ayana",
+      "workId": "wrk:000175",
+      "membershipIds": [
+        "mem:000109"
+      ],
+      "defaultMembershipId": "mem:000109",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/104",
+      "legacyStoryId": "stories:a-very-tight-place",
+      "legacyWorkId": "work:a-very-tight-place",
+      "workId": "wrk:000176",
+      "membershipIds": [
+        "mem:000110"
+      ],
+      "defaultMembershipId": "mem:000110",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/105",
+      "legacyStoryId": "stories:1922",
+      "legacyWorkId": "work:1922",
+      "workId": "wrk:000177",
+      "membershipIds": [
+        "mem:000111"
+      ],
+      "defaultMembershipId": "mem:000111",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/106",
+      "legacyStoryId": "stories:big-driver",
+      "legacyWorkId": "work:big-driver",
+      "workId": "wrk:000178",
+      "membershipIds": [
+        "mem:000112"
+      ],
+      "defaultMembershipId": "mem:000112",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/107",
+      "legacyStoryId": "stories:fair-extension",
+      "legacyWorkId": "work:fair-extension",
+      "workId": "wrk:000179",
+      "membershipIds": [
+        "mem:000113"
+      ],
+      "defaultMembershipId": "mem:000113",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/108",
+      "legacyStoryId": "stories:a-good-marriage",
+      "legacyWorkId": "work:a-good-marriage",
+      "workId": "wrk:000180",
+      "membershipIds": [
+        "mem:000114"
+      ],
+      "defaultMembershipId": "mem:000114",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": "catalog.js#/stories/108",
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/109",
+      "legacyStoryId": "stories:under-the-weather",
+      "legacyWorkId": "work:under-the-weather",
+      "workId": "wrk:000181",
+      "membershipIds": [
+        "mem:000115",
+        "mem:000116"
+      ],
+      "defaultMembershipId": "mem:000115",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/110",
+      "legacyStoryId": "stories:mr-harrigan-s-phone",
+      "legacyWorkId": "work:mr-harrigan-s-phone",
+      "workId": "wrk:000182",
+      "membershipIds": [
+        "mem:000117"
+      ],
+      "defaultMembershipId": "mem:000117",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/111",
+      "legacyStoryId": "stories:the-life-of-chuck",
+      "legacyWorkId": "work:the-life-of-chuck",
+      "workId": "wrk:000183",
+      "membershipIds": [
+        "mem:000118"
+      ],
+      "defaultMembershipId": "mem:000118",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/112",
+      "legacyStoryId": "stories:if-it-bleeds",
+      "legacyWorkId": "work:if-it-bleeds",
+      "workId": "wrk:000184",
+      "membershipIds": [
+        "mem:000119"
+      ],
+      "defaultMembershipId": "mem:000119",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/113",
+      "legacyStoryId": "stories:rat",
+      "legacyWorkId": "work:rat",
+      "workId": "wrk:000185",
+      "membershipIds": [
+        "mem:000120"
+      ],
+      "defaultMembershipId": "mem:000120",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/114",
+      "legacyStoryId": "stories:two-talented-bastids",
+      "legacyWorkId": "work:two-talented-bastids",
+      "workId": "wrk:000186",
+      "membershipIds": [
+        "mem:000121"
+      ],
+      "defaultMembershipId": "mem:000121",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/115",
+      "legacyStoryId": "stories:the-fifth-step",
+      "legacyWorkId": "work:the-fifth-step",
+      "workId": "wrk:000187",
+      "membershipIds": [
+        "mem:000122"
+      ],
+      "defaultMembershipId": "mem:000122",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "publicationDate",
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/116",
+      "legacyStoryId": "stories:willie-the-weirdo",
+      "legacyWorkId": "work:willie-the-weirdo",
+      "workId": "wrk:000188",
+      "membershipIds": [
+        "mem:000123"
+      ],
+      "defaultMembershipId": "mem:000123",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "publicationDate",
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/117",
+      "legacyStoryId": "stories:danny-coughlin-s-bad-dream",
+      "legacyWorkId": "work:danny-coughlin-s-bad-dream",
+      "workId": "wrk:000189",
+      "membershipIds": [
+        "mem:000124"
+      ],
+      "defaultMembershipId": "mem:000124",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/118",
+      "legacyStoryId": "stories:finn",
+      "legacyWorkId": "work:finn",
+      "workId": "wrk:000190",
+      "membershipIds": [
+        "mem:000125"
+      ],
+      "defaultMembershipId": "mem:000125",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "publicationDate",
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/119",
+      "legacyStoryId": "stories:on-slide-inn-road",
+      "legacyWorkId": "work:on-slide-inn-road",
+      "workId": "wrk:000191",
+      "membershipIds": [
+        "mem:000126"
+      ],
+      "defaultMembershipId": "mem:000126",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "publicationDate",
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/120",
+      "legacyStoryId": "stories:red-screen",
+      "legacyWorkId": "work:red-screen",
+      "workId": "wrk:000192",
+      "membershipIds": [
+        "mem:000127"
+      ],
+      "defaultMembershipId": "mem:000127",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "publicationDate",
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/121",
+      "legacyStoryId": "stories:the-turbulence-expert",
+      "legacyWorkId": "work:the-turbulence-expert",
+      "workId": "wrk:000193",
+      "membershipIds": [
+        "mem:000128"
+      ],
+      "defaultMembershipId": "mem:000128",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/122",
+      "legacyStoryId": "stories:laurie",
+      "legacyWorkId": "work:laurie",
+      "workId": "wrk:000194",
+      "membershipIds": [
+        "mem:000129"
+      ],
+      "defaultMembershipId": "mem:000129",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/123",
+      "legacyStoryId": "stories:rattlesnakes",
+      "legacyWorkId": "work:rattlesnakes",
+      "workId": "wrk:000195",
+      "membershipIds": [
+        "mem:000130"
+      ],
+      "defaultMembershipId": "mem:000130",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/124",
+      "legacyStoryId": "stories:the-dreamers",
+      "legacyWorkId": "work:the-dreamers",
+      "workId": "wrk:000196",
+      "membershipIds": [
+        "mem:000131"
+      ],
+      "defaultMembershipId": "mem:000131",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/125",
+      "legacyStoryId": "stories:the-answer-man",
+      "legacyWorkId": "work:the-answer-man",
+      "workId": "wrk:000197",
+      "membershipIds": [
+        "mem:000132"
+      ],
+      "defaultMembershipId": "mem:000132",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/126",
+      "legacyStoryId": "stories:mile-81",
+      "legacyWorkId": "work:mile-81",
+      "workId": "wrk:000198",
+      "membershipIds": [
+        "mem:000133"
+      ],
+      "defaultMembershipId": "mem:000133",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": "catalog.js#/stories/126",
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/127",
+      "legacyStoryId": "stories:premium-harmony",
+      "legacyWorkId": "work:premium-harmony",
+      "workId": "wrk:000199",
+      "membershipIds": [
+        "mem:000134"
+      ],
+      "defaultMembershipId": "mem:000134",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/128",
+      "legacyStoryId": "stories:batman-and-robin-have-an-altercation",
+      "legacyWorkId": "work:batman-and-robin-have-an-altercation",
+      "workId": "wrk:000200",
+      "membershipIds": [
+        "mem:000135"
+      ],
+      "defaultMembershipId": "mem:000135",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/129",
+      "legacyStoryId": "stories:the-dune",
+      "legacyWorkId": "work:the-dune",
+      "workId": "wrk:000201",
+      "membershipIds": [
+        "mem:000136"
+      ],
+      "defaultMembershipId": "mem:000136",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/130",
+      "legacyStoryId": "stories:bad-little-kid",
+      "legacyWorkId": "work:bad-little-kid",
+      "workId": "wrk:000202",
+      "membershipIds": [
+        "mem:000137"
+      ],
+      "defaultMembershipId": "mem:000137",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/131",
+      "legacyStoryId": "stories:a-death",
+      "legacyWorkId": "work:a-death",
+      "workId": "wrk:000203",
+      "membershipIds": [
+        "mem:000138"
+      ],
+      "defaultMembershipId": "mem:000138",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "publicationDate",
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/132",
+      "legacyStoryId": "stories:the-bone-church",
+      "legacyWorkId": "work:the-bone-church",
+      "workId": "wrk:000204",
+      "membershipIds": [
+        "mem:000139"
+      ],
+      "defaultMembershipId": "mem:000139",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "collectionMembership",
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/133",
+      "legacyStoryId": "stories:morality",
+      "legacyWorkId": "work:morality",
+      "workId": "wrk:000205",
+      "membershipIds": [
+        "mem:000140"
+      ],
+      "defaultMembershipId": "mem:000140",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/134",
+      "legacyStoryId": "stories:afterlife",
+      "legacyWorkId": "work:afterlife",
+      "workId": "wrk:000206",
+      "membershipIds": [
+        "mem:000141"
+      ],
+      "defaultMembershipId": "mem:000141",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "publicationDate",
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/135",
+      "legacyStoryId": "stories:ur",
+      "legacyWorkId": "work:ur",
+      "workId": "wrk:000207",
+      "membershipIds": [
+        "mem:000142"
+      ],
+      "defaultMembershipId": "mem:000142",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/136",
+      "legacyStoryId": "stories:herman-wouk-is-still-alive",
+      "legacyWorkId": "work:herman-wouk-is-still-alive",
+      "workId": "wrk:000208",
+      "membershipIds": [
+        "mem:000143"
+      ],
+      "defaultMembershipId": "mem:000143",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/137",
+      "legacyStoryId": "stories:blockade-billy",
+      "legacyWorkId": "work:blockade-billy",
+      "workId": "wrk:000068",
+      "membershipIds": [
+        "mem:000144"
+      ],
+      "defaultMembershipId": "mem:000144",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": "catalog.js#/stories/137",
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/138",
+      "legacyStoryId": "stories:mister-yummy",
+      "legacyWorkId": "work:mister-yummy",
+      "workId": "wrk:000209",
+      "membershipIds": [
+        "mem:000145"
+      ],
+      "defaultMembershipId": "mem:000145",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/139",
+      "legacyStoryId": "stories:tommy",
+      "legacyWorkId": "work:tommy",
+      "workId": "wrk:000210",
+      "membershipIds": [
+        "mem:000146"
+      ],
+      "defaultMembershipId": "mem:000146",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "collectionMembership",
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/140",
+      "legacyStoryId": "stories:little-green-god-of-agony",
+      "legacyWorkId": "work:little-green-god-of-agony",
+      "workId": "wrk:000211",
+      "membershipIds": [
+        "mem:000147"
+      ],
+      "defaultMembershipId": "mem:000147",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/141",
+      "legacyStoryId": "stories:that-bus-is-another-world",
+      "legacyWorkId": "work:that-bus-is-another-world",
+      "workId": "wrk:000212",
+      "membershipIds": [
+        "mem:000148"
+      ],
+      "defaultMembershipId": "mem:000148",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "publicationDate",
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/142",
+      "legacyStoryId": "stories:obits",
+      "legacyWorkId": "work:obits",
+      "workId": "wrk:000213",
+      "membershipIds": [
+        "mem:000149"
+      ],
+      "defaultMembershipId": "mem:000149",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/143",
+      "legacyStoryId": "stories:drunken-fireworks",
+      "legacyWorkId": "work:drunken-fireworks",
+      "workId": "wrk:000214",
+      "membershipIds": [
+        "mem:000150"
+      ],
+      "defaultMembershipId": "mem:000150",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/144",
+      "legacyStoryId": "stories:summer-thunder",
+      "legacyWorkId": "work:summer-thunder",
+      "workId": "wrk:000215",
+      "membershipIds": [
+        "mem:000151"
+      ],
+      "defaultMembershipId": "mem:000151",
+      "registeredCollectionState": "has-registered-memberships",
+      "sourceUncertainties": [
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/145",
+      "legacyStoryId": "stories:a-face-in-the-crowd",
+      "legacyWorkId": "work:a-face-in-the-crowd",
+      "workId": "wrk:000216",
+      "membershipIds": [],
+      "defaultMembershipId": null,
+      "registeredCollectionState": "no-registered-collection-not-proof-of-uncollected",
+      "sourceUncertainties": [
+        "publicationDate",
+        "collectionMembership",
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/146",
+      "legacyStoryId": "stories:before-the-play",
+      "legacyWorkId": "work:before-the-play",
+      "workId": "wrk:000217",
+      "membershipIds": [],
+      "defaultMembershipId": null,
+      "registeredCollectionState": "no-registered-collection-not-proof-of-uncollected",
+      "sourceUncertainties": [
+        "publicationDate",
+        "collectionMembership",
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/147",
+      "legacyStoryId": "stories:the-blue-air-compressor",
+      "legacyWorkId": "work:the-blue-air-compressor",
+      "workId": "wrk:000218",
+      "membershipIds": [],
+      "defaultMembershipId": null,
+      "registeredCollectionState": "no-registered-collection-not-proof-of-uncollected",
+      "sourceUncertainties": [
+        "collectionMembership",
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/148",
+      "legacyStoryId": "stories:cookie-jar",
+      "legacyWorkId": "work:cookie-jar",
+      "workId": "wrk:000219",
+      "membershipIds": [],
+      "defaultMembershipId": null,
+      "registeredCollectionState": "no-registered-collection-not-proof-of-uncollected",
+      "sourceUncertainties": [
+        "publicationDate",
+        "collectionMembership",
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/149",
+      "legacyStoryId": "stories:the-crate",
+      "legacyWorkId": "work:the-crate",
+      "workId": "wrk:000220",
+      "membershipIds": [],
+      "defaultMembershipId": null,
+      "registeredCollectionState": "no-registered-collection-not-proof-of-uncollected",
+      "sourceUncertainties": [
+        "collectionMembership",
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/150",
+      "legacyStoryId": "stories:dinah-s-hat",
+      "legacyWorkId": "work:dinah-s-hat",
+      "workId": "wrk:000221",
+      "membershipIds": [],
+      "defaultMembershipId": null,
+      "registeredCollectionState": "no-registered-collection-not-proof-of-uncollected",
+      "sourceUncertainties": [
+        "publicationDate",
+        "collectionMembership",
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/151",
+      "legacyStoryId": "stories:elevation",
+      "legacyWorkId": "work:elevation",
+      "workId": "wrk:000059",
+      "membershipIds": [],
+      "defaultMembershipId": null,
+      "registeredCollectionState": "no-registered-collection-not-proof-of-uncollected",
+      "sourceUncertainties": [
+        "collectionMembership",
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": "catalog.js#/stories/151",
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/152",
+      "legacyStoryId": "stories:the-extra-hour",
+      "legacyWorkId": "work:the-extra-hour",
+      "workId": "wrk:000222",
+      "membershipIds": [],
+      "defaultMembershipId": null,
+      "registeredCollectionState": "no-registered-collection-not-proof-of-uncollected",
+      "sourceUncertainties": [
+        "publicationDate",
+        "collectionMembership",
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/153",
+      "legacyStoryId": "stories:father-s-day",
+      "legacyWorkId": "work:father-s-day",
+      "workId": "wrk:000223",
+      "membershipIds": [],
+      "defaultMembershipId": null,
+      "registeredCollectionState": "no-registered-collection-not-proof-of-uncollected",
+      "sourceUncertainties": [
+        "publicationDate",
+        "collectionMembership",
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/154",
+      "legacyStoryId": "stories:the-glass-floor",
+      "legacyWorkId": "work:the-glass-floor",
+      "workId": "wrk:000224",
+      "membershipIds": [],
+      "defaultMembershipId": null,
+      "registeredCollectionState": "no-registered-collection-not-proof-of-uncollected",
+      "sourceUncertainties": [
+        "publicationDate",
+        "collectionMembership",
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/155",
+      "legacyStoryId": "stories:gwendy-s-button-box",
+      "legacyWorkId": "work:gwendy-s-button-box",
+      "workId": "wrk:000057",
+      "membershipIds": [],
+      "defaultMembershipId": null,
+      "registeredCollectionState": "no-registered-collection-not-proof-of-uncollected",
+      "sourceUncertainties": [
+        "collectionMembership",
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": "catalog.js#/stories/155",
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/156",
+      "legacyStoryId": "stories:in-the-tall-grass",
+      "legacyWorkId": "work:in-the-tall-grass",
+      "workId": "wrk:000225",
+      "membershipIds": [],
+      "defaultMembershipId": null,
+      "registeredCollectionState": "no-registered-collection-not-proof-of-uncollected",
+      "sourceUncertainties": [
+        "collectionMembership",
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": "catalog.js#/stories/156",
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/157",
+      "legacyStoryId": "stories:jumper",
+      "legacyWorkId": "work:jumper",
+      "workId": "wrk:000226",
+      "membershipIds": [],
+      "defaultMembershipId": null,
+      "registeredCollectionState": "no-registered-collection-not-proof-of-uncollected",
+      "sourceUncertainties": [
+        "publicationDate",
+        "collectionMembership",
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/158",
+      "legacyStoryId": "stories:the-lonesome-death-of-jordy-verrill",
+      "legacyWorkId": "work:the-lonesome-death-of-jordy-verrill",
+      "workId": "wrk:000227",
+      "membershipIds": [],
+      "defaultMembershipId": null,
+      "registeredCollectionState": "no-registered-collection-not-proof-of-uncollected",
+      "sourceUncertainties": [
+        "publicationDate",
+        "collectionMembership",
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/159",
+      "legacyStoryId": "stories:man-with-a-belly",
+      "legacyWorkId": "work:man-with-a-belly",
+      "workId": "wrk:000228",
+      "membershipIds": [],
+      "defaultMembershipId": null,
+      "registeredCollectionState": "no-registered-collection-not-proof-of-uncollected",
+      "sourceUncertainties": [
+        "publicationDate",
+        "collectionMembership",
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/160",
+      "legacyStoryId": "stories:memory",
+      "legacyWorkId": "work:memory",
+      "workId": "wrk:000229",
+      "membershipIds": [],
+      "defaultMembershipId": null,
+      "registeredCollectionState": "no-registered-collection-not-proof-of-uncollected",
+      "sourceUncertainties": [
+        "publicationDate",
+        "collectionMembership",
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/161",
+      "legacyStoryId": "stories:the-music-room",
+      "legacyWorkId": "work:the-music-room",
+      "workId": "wrk:000230",
+      "membershipIds": [],
+      "defaultMembershipId": null,
+      "registeredCollectionState": "no-registered-collection-not-proof-of-uncollected",
+      "sourceUncertainties": [
+        "collectionMembership",
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/162",
+      "legacyStoryId": "stories:the-night-of-the-tiger",
+      "legacyWorkId": "work:the-night-of-the-tiger",
+      "workId": "wrk:000231",
+      "membershipIds": [],
+      "defaultMembershipId": null,
+      "registeredCollectionState": "no-registered-collection-not-proof-of-uncollected",
+      "sourceUncertainties": [
+        "collectionMembership",
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/163",
+      "legacyStoryId": "stories:the-old-dude-s-ticker",
+      "legacyWorkId": "work:the-old-dude-s-ticker",
+      "workId": "wrk:000232",
+      "membershipIds": [],
+      "defaultMembershipId": null,
+      "registeredCollectionState": "no-registered-collection-not-proof-of-uncollected",
+      "sourceUncertainties": [
+        "publicationDate",
+        "collectionMembership",
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/164",
+      "legacyStoryId": "stories:the-reploids",
+      "legacyWorkId": "work:the-reploids",
+      "workId": "wrk:000233",
+      "membershipIds": [],
+      "defaultMembershipId": null,
+      "registeredCollectionState": "no-registered-collection-not-proof-of-uncollected",
+      "sourceUncertainties": [
+        "collectionMembership",
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/165",
+      "legacyStoryId": "stories:the-revelations-of-becka-paulson",
+      "legacyWorkId": "work:the-revelations-of-becka-paulson",
+      "workId": "wrk:000234",
+      "membershipIds": [],
+      "defaultMembershipId": null,
+      "registeredCollectionState": "no-registered-collection-not-proof-of-uncollected",
+      "sourceUncertainties": [
+        "collectionMembership",
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/166",
+      "legacyStoryId": "stories:rush-call",
+      "legacyWorkId": "work:rush-call",
+      "workId": "wrk:000235",
+      "membershipIds": [],
+      "defaultMembershipId": null,
+      "registeredCollectionState": "no-registered-collection-not-proof-of-uncollected",
+      "sourceUncertainties": [
+        "collectionMembership",
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/167",
+      "legacyStoryId": "stories:something-to-tide-you-over",
+      "legacyWorkId": "work:something-to-tide-you-over",
+      "workId": "wrk:000236",
+      "membershipIds": [],
+      "defaultMembershipId": null,
+      "registeredCollectionState": "no-registered-collection-not-proof-of-uncollected",
+      "sourceUncertainties": [
+        "publicationDate",
+        "collectionMembership",
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/168",
+      "legacyStoryId": "stories:the-tale-of-gray-dick",
+      "legacyWorkId": "work:the-tale-of-gray-dick",
+      "workId": "wrk:000237",
+      "membershipIds": [],
+      "defaultMembershipId": null,
+      "registeredCollectionState": "no-registered-collection-not-proof-of-uncollected",
+      "sourceUncertainties": [
+        "collectionMembership",
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/169",
+      "legacyStoryId": "stories:they-re-creeping-up-on-you",
+      "legacyWorkId": "work:they-re-creeping-up-on-you",
+      "workId": "wrk:000238",
+      "membershipIds": [],
+      "defaultMembershipId": null,
+      "registeredCollectionState": "no-registered-collection-not-proof-of-uncollected",
+      "sourceUncertainties": [
+        "publicationDate",
+        "collectionMembership",
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/170",
+      "legacyStoryId": "stories:thin-scenery",
+      "legacyWorkId": "work:thin-scenery",
+      "workId": "wrk:000239",
+      "membershipIds": [],
+      "defaultMembershipId": null,
+      "registeredCollectionState": "no-registered-collection-not-proof-of-uncollected",
+      "sourceUncertainties": [
+        "publicationDate",
+        "collectionMembership",
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/171",
+      "legacyStoryId": "stories:throttle",
+      "legacyWorkId": "work:throttle",
+      "workId": "wrk:000240",
+      "membershipIds": [],
+      "defaultMembershipId": null,
+      "registeredCollectionState": "no-registered-collection-not-proof-of-uncollected",
+      "sourceUncertainties": [
+        "collectionMembership",
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": "catalog.js#/stories/171",
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    },
+    {
+      "sourcePointer": "/stories/172",
+      "legacyStoryId": "stories:weeds",
+      "legacyWorkId": "work:weeds",
+      "workId": "wrk:000241",
+      "membershipIds": [],
+      "defaultMembershipId": null,
+      "registeredCollectionState": "no-registered-collection-not-proof-of-uncollected",
+      "sourceUncertainties": [
+        "collectionMembership",
+        "firstPublicationHistory"
+      ],
+      "standaloneEvidencePointer": null,
+      "scope": "identity, scoped credits and membership/view projection only; edition/publication fields retained in source"
+    }
+  ]
+}

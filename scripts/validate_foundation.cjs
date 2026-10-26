@@ -65,7 +65,7 @@ function validate(bundle, {root = ROOT, checkRuntime = true, checkCompatibility 
       const [view, query=''] = url.hash.slice(1).split('?');
       const item = new URLSearchParams(query).get('item');
       const binding = bundle.registry.aliases.find(x => x.alias === item && x.kind === 'legacy-id');
-      if (view !== 'books' || !binding || !equal(binding.target,a.target)) add('legacy-route',a.alias,'Route and legacy ID must resolve to the same work');
+      if (!(bundle.manifest.scope==='shadow-stories-batch-02'?['books','stories']:['books']).includes(view) || !item?.startsWith(view+':') || !binding || !equal(binding.target,a.target) || (view==='stories'&&a.target.type!=='work')) add('legacy-route',a.alias,'Route and legacy ID must resolve to the same work');
     }
   }
   const dates = (node, where) => {

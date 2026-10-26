@@ -75,8 +75,8 @@ The English preview (1.6.1) is available separately at `explorer/`. Mobile book 
 Only The Talisman and Black House are migrated. Their canonical routes are `explorer/work/000001/` and `explorer/work/000002/`. Authors, characters and the Territories have static pages linked from the works. Core navigation works without JavaScript. Plot connections load only after an explicit choice. Existing edition examples retain their uncertainty; no adaptation or rating data is imported. See `EXPLORER-DELIVERY.md` for validation and scope.
 
 
-## Shadow migration 1.7 — partial batch 01
+## Shadow migration 1.7 — batches 01–02
 
-`data/v2-shadow/` is separate from the unchanged two-work Explorer fixture. This batch models library identities and scoped credits only; it is not a complete catalog migration. Run `npm run migrate:shadow`, `npm run validate:shadow`, `npm run report:migration` and `npm test` offline. The frozen allocation register and input hashes prevent silent reassignment. Online source evidence is refreshed only by explicitly running `python3 scripts/audit_migration_sources.py`.
+`data/v2-shadow/` is separate from the unchanged two-work Explorer fixture. Batch 02 adds the existing individual stories, scoped credits and registered collection memberships. The current 241 works and 15 collections cover existing literary identities, not complete publication/edition data or the entire bibliography. Run `npm run migrate:shadow`, `npm run validate:shadow`, `npm run report:migration` and `npm test` offline. The frozen allocation register and input hashes prevent silent reassignment. Online source evidence is refreshed only by explicitly running `python3 scripts/audit_migration_sources.py`.
 
-See `migration-quality.html`, `MIGRATION-DELIVERY.md` and `data/migration/differences.json` for the field ledger, source-row comparison, exact remainder and blockers. The default app and Explorer URLs are unchanged.
+See `migration-quality.html`, `MIGRATION-BATCH-02.md`, `MIGRATION-DELIVERY.md` and `data/migration/differences.json` for the field ledger, source-row comparison, exact remainder and blockers. The default app and Explorer URLs are unchanged.

@@ -1393,5 +1393,3321 @@
     "originalTitle": "Nightmares in the Sky",
     "originalLanguage": "en",
     "aliases": []
+  },
+  {
+    "id": "wrk:000072",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000751",
+        "clm:000752",
+        "clm:000753"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Jerusalem's Lot",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000073",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000758",
+        "clm:000759",
+        "clm:000760"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Graveyard Shift",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000074",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000765",
+        "clm:000766",
+        "clm:000767"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Night Surf",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000075",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000772",
+        "clm:000773",
+        "clm:000774"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "I Am the Doorway",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000076",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000779",
+        "clm:000780",
+        "clm:000781"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "The Mangler",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000077",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000786",
+        "clm:000787",
+        "clm:000788"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "The Boogeyman",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000078",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000793",
+        "clm:000794",
+        "clm:000795"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Grey Matter",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000079",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000800",
+        "clm:000801",
+        "clm:000802"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Battleground",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000080",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000807",
+        "clm:000808",
+        "clm:000809"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Trucks",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000081",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000814",
+        "clm:000815",
+        "clm:000816"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Sometimes They Come Back",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000082",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000821",
+        "clm:000822",
+        "clm:000823"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Strawberry Spring",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000083",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000828",
+        "clm:000829",
+        "clm:000830"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "The Ledge",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000084",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000835",
+        "clm:000836",
+        "clm:000837"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "The Lawnmower Man",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000085",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000842",
+        "clm:000843",
+        "clm:000844",
+        "clm:000845"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Quitters, Inc.",
+    "originalLanguage": "en",
+    "aliases": [
+      {
+        "language": "en",
+        "value": "Quitters Inc.",
+        "spoiler": {
+          "level": "none",
+          "workIds": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "wrk:000086",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000850",
+        "clm:000851",
+        "clm:000852"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "I Know What You Need",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000087",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000857",
+        "clm:000858",
+        "clm:000859"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Children of the Corn",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000088",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000864",
+        "clm:000865",
+        "clm:000866"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "The Last Rung on the Ladder",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000089",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000871",
+        "clm:000872",
+        "clm:000873"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "The Man Who Loved Flowers",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000090",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000878",
+        "clm:000879",
+        "clm:000880"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "One for the Road",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000091",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000885",
+        "clm:000886",
+        "clm:000887"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "The Woman in the Room",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000092",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000892",
+        "clm:000893",
+        "clm:000894"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novella",
+    "originalTitle": "Rita Hayworth and Shawshank Redemption",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000093",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000899",
+        "clm:000900",
+        "clm:000901"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novella",
+    "originalTitle": "Apt Pupil",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000094",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000906",
+        "clm:000907",
+        "clm:000908"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novella",
+    "originalTitle": "The Body",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000095",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000913",
+        "clm:000914",
+        "clm:000915"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novella",
+    "originalTitle": "The Breathing Method",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000096",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000920",
+        "clm:000921",
+        "clm:000922"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novella",
+    "originalTitle": "The Mist",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000097",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000927",
+        "clm:000928",
+        "clm:000929"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Here There Be Tygers",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000098",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000934",
+        "clm:000935",
+        "clm:000936"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "The Monkey",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000099",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000941",
+        "clm:000942",
+        "clm:000943"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Cain Rose Up",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000100",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000948",
+        "clm:000949",
+        "clm:000950"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Mrs. Todd's Shortcut",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000101",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000955",
+        "clm:000956",
+        "clm:000957"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "The Jaunt",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000102",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000962",
+        "clm:000963",
+        "clm:000964"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "The Wedding Gig",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000103",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000969",
+        "clm:000970",
+        "clm:000971"
+      ],
+      "open": [
+        "collectionMembership",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "poem",
+    "originalTitle": "Paranoid: A Chant",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000104",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000976",
+        "clm:000977",
+        "clm:000978"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "The Raft",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000105",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000983",
+        "clm:000984",
+        "clm:000985"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Word Processor of the Gods",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000106",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000990",
+        "clm:000991",
+        "clm:000992"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "The Man Who Would Not Shake Hands",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000107",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:000997",
+        "clm:000998",
+        "clm:000999"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Beachworld",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000108",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001004",
+        "clm:001005",
+        "clm:001006"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "The Reaper's Image",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000109",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001011",
+        "clm:001012",
+        "clm:001013"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Nona",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000110",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001018",
+        "clm:001019",
+        "clm:001020"
+      ],
+      "open": [
+        "collectionMembership",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "poem",
+    "originalTitle": "For Owen",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000111",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001025",
+        "clm:001026",
+        "clm:001027"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Survivor Type",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000112",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001032",
+        "clm:001033",
+        "clm:001034"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Uncle Otto's Truck",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000113",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001039",
+        "clm:001040",
+        "clm:001041"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Morning Deliveries (Milkman #1)",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000114",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001046",
+        "clm:001047",
+        "clm:001048"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Big Wheels: A Tale of the Laundry Game (Milkman #2)",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000115",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001053",
+        "clm:001054",
+        "clm:001055"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Gramma",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000116",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001060",
+        "clm:001061",
+        "clm:001062"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "The Ballad of the Flexible Bullet",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000117",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001067",
+        "clm:001068",
+        "clm:001069"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "The Reach",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000118",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001074",
+        "clm:001075",
+        "clm:001076"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novella",
+    "originalTitle": "The Langoliers",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000119",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001081",
+        "clm:001082",
+        "clm:001083"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novella",
+    "originalTitle": "Secret Window, Secret Garden",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000120",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001088",
+        "clm:001089",
+        "clm:001090"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novella",
+    "originalTitle": "The Library Policeman",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000121",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001095",
+        "clm:001096",
+        "clm:001097"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novella",
+    "originalTitle": "The Sun Dog",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000122",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001102",
+        "clm:001103",
+        "clm:001104"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Dolan's Cadillac",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000123",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001109",
+        "clm:001110",
+        "clm:001111"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "The End of the Whole Mess",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000124",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001116",
+        "clm:001117",
+        "clm:001118"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Suffer the Little Children",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000125",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001123",
+        "clm:001124",
+        "clm:001125"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "The Night Flier",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000126",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001130",
+        "clm:001131",
+        "clm:001132"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Popsy",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000127",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001137",
+        "clm:001138",
+        "clm:001139"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "It Grows on You",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000128",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001144",
+        "clm:001145",
+        "clm:001146"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Chattery Teeth",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000129",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001151",
+        "clm:001152",
+        "clm:001153"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Dedication",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000130",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001158",
+        "clm:001159",
+        "clm:001160"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "The Moving Finger",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000131",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001165",
+        "clm:001166",
+        "clm:001167"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Sneakers",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000132",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001172",
+        "clm:001173",
+        "clm:001174"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "You Know They Got a Hell of a Band",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000133",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001179",
+        "clm:001180",
+        "clm:001181"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Home Delivery",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000134",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001186",
+        "clm:001187",
+        "clm:001188"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Rainy Season",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000135",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001193",
+        "clm:001194",
+        "clm:001195"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "My Pretty Pony",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000136",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001200",
+        "clm:001201",
+        "clm:001202"
+      ],
+      "open": [
+        "collectionMembership",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "screenplay",
+    "originalTitle": "Sorry, Right Number",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000137",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001207",
+        "clm:001208",
+        "clm:001209"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "The Ten O'Clock People",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000138",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001214",
+        "clm:001215",
+        "clm:001216"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Crouch End",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000139",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001221",
+        "clm:001222",
+        "clm:001223"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "The House on Maple Street",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000140",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001228",
+        "clm:001229",
+        "clm:001230"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "The Fifth Quarter",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000141",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001235",
+        "clm:001236",
+        "clm:001237"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "The Doctor's Case",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000142",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001242",
+        "clm:001243",
+        "clm:001244"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Umney's Last Case",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000143",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001249",
+        "clm:001250",
+        "clm:001251"
+      ],
+      "open": [
+        "collectionMembership",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "essay",
+    "originalTitle": "Head Down",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000144",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001256",
+        "clm:001257",
+        "clm:001258"
+      ],
+      "open": [
+        "collectionMembership",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "poem",
+    "originalTitle": "Brooklyn August",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000145",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001263",
+        "clm:001264",
+        "clm:001265"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novella",
+    "originalTitle": "Low Men in Yellow Coats",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000146",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001270",
+        "clm:001271",
+        "clm:001272"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novella",
+    "originalTitle": "Hearts in Atlantis",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000147",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001277",
+        "clm:001278",
+        "clm:001279"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novella",
+    "originalTitle": "Blind Willie",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000148",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001284",
+        "clm:001285",
+        "clm:001286"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novella",
+    "originalTitle": "Why We're in Vietnam",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000149",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001291",
+        "clm:001292",
+        "clm:001293"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novella",
+    "originalTitle": "Heavenly Shades of Night Are Falling",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000150",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001298",
+        "clm:001299",
+        "clm:001300"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Autopsy Room Four",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000151",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001305",
+        "clm:001306",
+        "clm:001307"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "The Man in the Black Suit",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000152",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001312",
+        "clm:001313",
+        "clm:001314"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "All That You Love Will Be Carried Away",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000153",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001319",
+        "clm:001320",
+        "clm:001321"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "The Death of Jack Hamilton",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000154",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001326",
+        "clm:001327",
+        "clm:001328"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "In the Deathroom",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000155",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001333",
+        "clm:001334",
+        "clm:001335"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "The Little Sisters of Eluria",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000156",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001340",
+        "clm:001341",
+        "clm:001342"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Everything's Eventual",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000157",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001347",
+        "clm:001348",
+        "clm:001349"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "L.T.'s Theory of Pets",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000158",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001354",
+        "clm:001355",
+        "clm:001356"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "The Road Virus Heads North",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000159",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001361",
+        "clm:001362",
+        "clm:001363"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Lunch at the Gotham Cafe",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000160",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001368",
+        "clm:001369",
+        "clm:001370"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "That Feeling, You Can Only Say What It Is in French",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000161",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001375",
+        "clm:001376",
+        "clm:001377"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "1408",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000162",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001382",
+        "clm:001383",
+        "clm:001384"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Riding the Bullet",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000163",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001389",
+        "clm:001390",
+        "clm:001391"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Luckey Quarter",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000164",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001396",
+        "clm:001397",
+        "clm:001398"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Willa",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000165",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001403",
+        "clm:001404",
+        "clm:001405"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "The Gingerbread Girl",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000166",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001410",
+        "clm:001411",
+        "clm:001412"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Harvey's Dream",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000167",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001417",
+        "clm:001418",
+        "clm:001419"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Rest Stop",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000168",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001424",
+        "clm:001425",
+        "clm:001426"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Stationary Bike",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000169",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001431",
+        "clm:001432",
+        "clm:001433"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "The Things They Left Behind",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000170",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001438",
+        "clm:001439",
+        "clm:001440"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Graduation Afternoon",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000171",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001445",
+        "clm:001446",
+        "clm:001447"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novella",
+    "originalTitle": "N",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000172",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001452",
+        "clm:001453",
+        "clm:001454"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "The Cat from Hell",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000173",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001459",
+        "clm:001460",
+        "clm:001461"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "The New York Times at Special Bargain Rates",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000174",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001466",
+        "clm:001467",
+        "clm:001468"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Mute",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000175",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001473",
+        "clm:001474",
+        "clm:001475"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Ayana",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000176",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001480",
+        "clm:001481",
+        "clm:001482"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novella",
+    "originalTitle": "A Very Tight Place",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000177",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001487",
+        "clm:001488",
+        "clm:001489"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "1922",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000178",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001494",
+        "clm:001495",
+        "clm:001496"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Big Driver",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000179",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001501",
+        "clm:001502",
+        "clm:001503"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Fair Extension",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000180",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001508",
+        "clm:001509",
+        "clm:001510"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "A Good Marriage",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000181",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001515",
+        "clm:001516",
+        "clm:001517"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Under the Weather",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000182",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001522",
+        "clm:001523",
+        "clm:001524"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novella",
+    "originalTitle": "Mr. Harrigan's Phone",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000183",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001529",
+        "clm:001530",
+        "clm:001531"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novella",
+    "originalTitle": "The Life of Chuck",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000184",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001536",
+        "clm:001537",
+        "clm:001538"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novella",
+    "originalTitle": "If It Bleeds",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000185",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001543",
+        "clm:001544",
+        "clm:001545"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novella",
+    "originalTitle": "Rat",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000186",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001550",
+        "clm:001551",
+        "clm:001552"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Two Talented Bastids",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000187",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001557",
+        "clm:001558",
+        "clm:001559"
+      ],
+      "open": [
+        "publicationDate",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "The Fifth Step",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000188",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001564",
+        "clm:001565",
+        "clm:001566"
+      ],
+      "open": [
+        "publicationDate",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Willie the Weirdo",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000189",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001571",
+        "clm:001572",
+        "clm:001573"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Danny Coughlin's Bad Dream",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000190",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001578",
+        "clm:001579",
+        "clm:001580"
+      ],
+      "open": [
+        "publicationDate",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Finn",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000191",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001585",
+        "clm:001586",
+        "clm:001587"
+      ],
+      "open": [
+        "publicationDate",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "On Slide Inn Road",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000192",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001592",
+        "clm:001593",
+        "clm:001594"
+      ],
+      "open": [
+        "publicationDate",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Red Screen",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000193",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001599",
+        "clm:001600",
+        "clm:001601"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "The Turbulence Expert",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000194",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001606",
+        "clm:001607",
+        "clm:001608"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Laurie",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000195",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001613",
+        "clm:001614",
+        "clm:001615"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Rattlesnakes",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000196",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001620",
+        "clm:001621",
+        "clm:001622"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "The Dreamers",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000197",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001627",
+        "clm:001628",
+        "clm:001629"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "The Answer Man",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000198",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001634",
+        "clm:001635",
+        "clm:001636"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Mile 81",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000199",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001641",
+        "clm:001642",
+        "clm:001643"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Premium Harmony",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000200",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001648",
+        "clm:001649",
+        "clm:001650",
+        "clm:001651"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Batman and Robin Have an Altercation",
+    "originalLanguage": "en",
+    "aliases": [
+      {
+        "language": "en",
+        "value": "Batman and Robin Have An Altercation",
+        "spoiler": {
+          "level": "none",
+          "workIds": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "wrk:000201",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001656",
+        "clm:001657",
+        "clm:001658"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "The Dune",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000202",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001663",
+        "clm:001664",
+        "clm:001665"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Bad Little Kid",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000203",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001670",
+        "clm:001671",
+        "clm:001672"
+      ],
+      "open": [
+        "publicationDate",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "A Death",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000204",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001677",
+        "clm:001678",
+        "clm:001679"
+      ],
+      "open": [
+        "collectionMembership",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "poem",
+    "originalTitle": "The Bone Church",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000205",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001684",
+        "clm:001685",
+        "clm:001686"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Morality",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000206",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001691",
+        "clm:001692",
+        "clm:001693"
+      ],
+      "open": [
+        "publicationDate",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Afterlife",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000207",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001698",
+        "clm:001699",
+        "clm:001700"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "novella",
+    "originalTitle": "UR",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000208",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001705",
+        "clm:001706",
+        "clm:001707",
+        "clm:001708"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Herman Wouk Is Still Alive",
+    "originalLanguage": "en",
+    "aliases": [
+      {
+        "language": "en",
+        "value": "Herman Wouk is Still Alive",
+        "spoiler": {
+          "level": "none",
+          "workIds": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "wrk:000209",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001713",
+        "clm:001714",
+        "clm:001715"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Mister Yummy",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000210",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001720",
+        "clm:001721",
+        "clm:001722"
+      ],
+      "open": [
+        "collectionMembership",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "poem",
+    "originalTitle": "Tommy",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000211",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001727",
+        "clm:001728",
+        "clm:001729"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Little Green God of Agony",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000212",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001734",
+        "clm:001735",
+        "clm:001736"
+      ],
+      "open": [
+        "publicationDate",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "That Bus Is Another World",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000213",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001741",
+        "clm:001742",
+        "clm:001743"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Obits",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000214",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001748",
+        "clm:001749",
+        "clm:001750"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Drunken Fireworks",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000215",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001755",
+        "clm:001756",
+        "clm:001757"
+      ],
+      "open": [
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Summer Thunder",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000216",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001762",
+        "clm:001763",
+        "clm:001764"
+      ],
+      "open": [
+        "publicationDate",
+        "collectionMembership",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "A Face in the Crowd",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000217",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001773",
+        "clm:001774",
+        "clm:001775"
+      ],
+      "open": [
+        "publicationDate",
+        "collectionMembership",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Before the Play",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000218",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001780",
+        "clm:001781",
+        "clm:001782"
+      ],
+      "open": [
+        "collectionMembership",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "The Blue Air Compressor",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000219",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001787",
+        "clm:001788",
+        "clm:001789"
+      ],
+      "open": [
+        "publicationDate",
+        "collectionMembership",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Cookie Jar",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000220",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001794",
+        "clm:001795",
+        "clm:001796"
+      ],
+      "open": [
+        "collectionMembership",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "The Crate",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000221",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001801",
+        "clm:001802",
+        "clm:001803"
+      ],
+      "open": [
+        "publicationDate",
+        "collectionMembership",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Dinah's Hat",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000222",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001808",
+        "clm:001809",
+        "clm:001810"
+      ],
+      "open": [
+        "publicationDate",
+        "collectionMembership",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "The Extra Hour",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000223",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001815",
+        "clm:001816",
+        "clm:001817"
+      ],
+      "open": [
+        "publicationDate",
+        "collectionMembership",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Father's Day",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000224",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001822",
+        "clm:001823",
+        "clm:001824"
+      ],
+      "open": [
+        "publicationDate",
+        "collectionMembership",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "The Glass Floor",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000225",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001829",
+        "clm:001830",
+        "clm:001831"
+      ],
+      "open": [
+        "collectionMembership",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "In the Tall Grass",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000226",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001841",
+        "clm:001842",
+        "clm:001843"
+      ],
+      "open": [
+        "publicationDate",
+        "collectionMembership",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Jumper",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000227",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001848",
+        "clm:001849",
+        "clm:001850"
+      ],
+      "open": [
+        "publicationDate",
+        "collectionMembership",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "The Lonesome Death of Jordy Verrill",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000228",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001855",
+        "clm:001856",
+        "clm:001857"
+      ],
+      "open": [
+        "publicationDate",
+        "collectionMembership",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Man With a Belly",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000229",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001862",
+        "clm:001863",
+        "clm:001864"
+      ],
+      "open": [
+        "publicationDate",
+        "collectionMembership",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Memory",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000230",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001869",
+        "clm:001870",
+        "clm:001871"
+      ],
+      "open": [
+        "collectionMembership",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "The Music Room",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000231",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001876",
+        "clm:001877",
+        "clm:001878"
+      ],
+      "open": [
+        "collectionMembership",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "The Night of the Tiger",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000232",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001883",
+        "clm:001884",
+        "clm:001885"
+      ],
+      "open": [
+        "publicationDate",
+        "collectionMembership",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "The Old Dude's Ticker",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000233",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001890",
+        "clm:001891",
+        "clm:001892"
+      ],
+      "open": [
+        "collectionMembership",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "The Reploids",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000234",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001897",
+        "clm:001898",
+        "clm:001899"
+      ],
+      "open": [
+        "collectionMembership",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "The Revelations of 'Becka Paulson",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000235",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001904",
+        "clm:001905",
+        "clm:001906"
+      ],
+      "open": [
+        "collectionMembership",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Rush Call",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000236",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001911",
+        "clm:001912",
+        "clm:001913"
+      ],
+      "open": [
+        "publicationDate",
+        "collectionMembership",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Something to Tide You Over",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000237",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001918",
+        "clm:001919",
+        "clm:001920"
+      ],
+      "open": [
+        "collectionMembership",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "The Tale of Gray Dick",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000238",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001925",
+        "clm:001926",
+        "clm:001927"
+      ],
+      "open": [
+        "publicationDate",
+        "collectionMembership",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "They're Creeping Up on You",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000239",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001932",
+        "clm:001933",
+        "clm:001934"
+      ],
+      "open": [
+        "publicationDate",
+        "collectionMembership",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Thin Scenery",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000240",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001939",
+        "clm:001940",
+        "clm:001941"
+      ],
+      "open": [
+        "collectionMembership",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Throttle",
+    "originalLanguage": "en",
+    "aliases": []
+  },
+  {
+    "id": "wrk:000241",
+    "entityType": "work",
+    "verification": {
+      "claimIds": [
+        "clm:001950",
+        "clm:001951",
+        "clm:001952"
+      ],
+      "open": [
+        "collectionMembership",
+        "firstPublicationHistory",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "kind": "short-story",
+    "originalTitle": "Weeds",
+    "originalLanguage": "en",
+    "aliases": []
   }
 ]

@@ -1,3 +1,15 @@
+# The Kingverse 1.7 — huidige migratiestand na Batch 02
+
+Batch 02 is uitgevoerd op basis van `61e3a840c75e0d1e774656b4fcf5ccd864c97167`. Zie **[MIGRATION-BATCH-02.md](MIGRATION-BATCH-02.md)** voor de actuele tellingen, definities, broncontroles en blokkades, en `migration-quality.html` voor het gegenereerde dashboard.
+
+Actueel: 241 werken + 15 collecties, 173 verhaalweergaven, 155 bundelrelaties, 272 credits en 12 personen. Alle Batch-01-entiteiten/IDs zijn behouden. De mapping omvat 2.082 van 15.350 DB-bladvelden; 13.268 blijven expliciet behouden maar nog niet canoniek gekoppeld. Geen volledige record-, editie-, adaptatie- of bibliografische migratie claimen.
+
+De expliciet gevraagde, spoilerarme Talisman-trilogieaanvulling hergebruikt Other Worlds Than These (`wrk:000067`) en voegt alleen een geverifieerde vervolgrelatie toe. Bestaande website en Explorer zijn ongewijzigd. Batch 03 is niet gestart.
+
+---
+
+## Historische oplevering Batch 01 (onderstaande cijfers zijn de toenmalige stand)
+
 # The Kingverse 1.7 — batch 01 delivery
 
 Peildatum: 26 oktober 2026. Basis: `c230d4d4eab3bb8c8f3edfd5a3cd029ad5064d68`.

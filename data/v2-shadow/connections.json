@@ -262,5 +262,36 @@
         "wrk:000002"
       ]
     }
+  },
+  {
+    "id": "rel:000009",
+    "entityType": "connection",
+    "verification": {
+      "claimIds": [
+        "clm:002267",
+        "clm:002268",
+        "clm:002269",
+        "clm:002270",
+        "clm:002271"
+      ],
+      "open": []
+    },
+    "from": {
+      "type": "work",
+      "id": "wrk:000067"
+    },
+    "predicate": "sequel_to",
+    "to": {
+      "type": "work",
+      "id": "wrk:000002"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "Other Worlds Than These is the third book in the Talisman trilogy, following Black House."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    }
   }
 ]

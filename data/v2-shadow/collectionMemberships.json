@@ -1,1 +1,2798 @@
-[]
+[
+  {
+    "id": "mem:000001",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:001957",
+        "clm:001958"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000002",
+    "workId": "wrk:000072",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000002",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:001959",
+        "clm:001960"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000002",
+    "workId": "wrk:000073",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000003",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:001961",
+        "clm:001962"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000002",
+    "workId": "wrk:000074",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000004",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:001963",
+        "clm:001964"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000002",
+    "workId": "wrk:000075",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000005",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:001965",
+        "clm:001966"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000002",
+    "workId": "wrk:000076",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000006",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:001967",
+        "clm:001968"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated",
+        "membershipNeedsVerification"
+      ]
+    },
+    "collectionId": "col:000010",
+    "workId": "wrk:000076",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000007",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:001969",
+        "clm:001970"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000002",
+    "workId": "wrk:000077",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000008",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:001971",
+        "clm:001972"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000002",
+    "workId": "wrk:000078",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000009",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:001973",
+        "clm:001974"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000002",
+    "workId": "wrk:000079",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000010",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:001975",
+        "clm:001976"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000002",
+    "workId": "wrk:000080",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000011",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:001977",
+        "clm:001978"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000002",
+    "workId": "wrk:000081",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000012",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:001979",
+        "clm:001980"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000002",
+    "workId": "wrk:000082",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000013",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:001981",
+        "clm:001982"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000002",
+    "workId": "wrk:000083",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000014",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:001983",
+        "clm:001984"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000002",
+    "workId": "wrk:000084",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000015",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:001985",
+        "clm:001986"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000002",
+    "workId": "wrk:000085",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000016",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:001987",
+        "clm:001988"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000002",
+    "workId": "wrk:000086",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000017",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:001989",
+        "clm:001990"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000002",
+    "workId": "wrk:000087",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000018",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:001991",
+        "clm:001992"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated",
+        "membershipNeedsVerification"
+      ]
+    },
+    "collectionId": "col:000010",
+    "workId": "wrk:000087",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000019",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:001993",
+        "clm:001994"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000002",
+    "workId": "wrk:000088",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000020",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:001995",
+        "clm:001996"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000002",
+    "workId": "wrk:000089",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000021",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:001997",
+        "clm:001998"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000002",
+    "workId": "wrk:000090",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000022",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:001999",
+        "clm:002000"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000002",
+    "workId": "wrk:000091",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000023",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002001",
+        "clm:002002"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000003",
+    "workId": "wrk:000092",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000024",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002003",
+        "clm:002004"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated",
+        "membershipNeedsVerification"
+      ]
+    },
+    "collectionId": "col:000010",
+    "workId": "wrk:000092",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000025",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002005",
+        "clm:002006"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000003",
+    "workId": "wrk:000093",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000026",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002007",
+        "clm:002008"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000003",
+    "workId": "wrk:000094",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000027",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002009",
+        "clm:002010"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000003",
+    "workId": "wrk:000095",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000028",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002011",
+        "clm:002012"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000004",
+    "workId": "wrk:000096",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000029",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002013",
+        "clm:002014"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000004",
+    "workId": "wrk:000097",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000030",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002015",
+        "clm:002016"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000004",
+    "workId": "wrk:000098",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000031",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002017",
+        "clm:002018"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000004",
+    "workId": "wrk:000099",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000032",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002019",
+        "clm:002020"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000004",
+    "workId": "wrk:000100",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000033",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002021",
+        "clm:002022"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000004",
+    "workId": "wrk:000101",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000034",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002023",
+        "clm:002024"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000004",
+    "workId": "wrk:000102",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000035",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002025",
+        "clm:002026"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000004",
+    "workId": "wrk:000103",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000036",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002027",
+        "clm:002028"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000004",
+    "workId": "wrk:000104",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000037",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002029",
+        "clm:002030"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000004",
+    "workId": "wrk:000105",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000038",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002031",
+        "clm:002032"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000004",
+    "workId": "wrk:000106",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000039",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002033",
+        "clm:002034"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000004",
+    "workId": "wrk:000107",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000040",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002035",
+        "clm:002036"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000004",
+    "workId": "wrk:000108",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000041",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002037",
+        "clm:002038"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000004",
+    "workId": "wrk:000109",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000042",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002039",
+        "clm:002040"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000004",
+    "workId": "wrk:000110",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000043",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002041",
+        "clm:002042"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000004",
+    "workId": "wrk:000111",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000044",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002043",
+        "clm:002044"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000004",
+    "workId": "wrk:000112",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000045",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002045",
+        "clm:002046"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000004",
+    "workId": "wrk:000113",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000046",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002047",
+        "clm:002048"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000004",
+    "workId": "wrk:000114",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000047",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002049",
+        "clm:002050"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000004",
+    "workId": "wrk:000115",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000048",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002051",
+        "clm:002052"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000004",
+    "workId": "wrk:000116",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000049",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002053",
+        "clm:002054"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000004",
+    "workId": "wrk:000117",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000050",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002055",
+        "clm:002056"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000005",
+    "workId": "wrk:000118",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000051",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002057",
+        "clm:002058"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000005",
+    "workId": "wrk:000119",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000052",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002059",
+        "clm:002060"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000005",
+    "workId": "wrk:000120",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000053",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002061",
+        "clm:002062"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000005",
+    "workId": "wrk:000121",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000054",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002063",
+        "clm:002064"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000006",
+    "workId": "wrk:000122",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000055",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002065",
+        "clm:002066"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000006",
+    "workId": "wrk:000123",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000056",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002067",
+        "clm:002068"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000006",
+    "workId": "wrk:000124",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000057",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002069",
+        "clm:002070"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000006",
+    "workId": "wrk:000125",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000058",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002071",
+        "clm:002072"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000006",
+    "workId": "wrk:000126",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000059",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002073",
+        "clm:002074"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000006",
+    "workId": "wrk:000127",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000060",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002075",
+        "clm:002076"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000006",
+    "workId": "wrk:000128",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000061",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002077",
+        "clm:002078"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000006",
+    "workId": "wrk:000129",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000062",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002079",
+        "clm:002080"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000006",
+    "workId": "wrk:000130",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000063",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002081",
+        "clm:002082"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000006",
+    "workId": "wrk:000131",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000064",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002083",
+        "clm:002084"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000006",
+    "workId": "wrk:000132",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000065",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002085",
+        "clm:002086"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000006",
+    "workId": "wrk:000133",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000066",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002087",
+        "clm:002088"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000006",
+    "workId": "wrk:000134",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000067",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002089",
+        "clm:002090"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000006",
+    "workId": "wrk:000135",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000068",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002091",
+        "clm:002092"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000006",
+    "workId": "wrk:000136",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000069",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002093",
+        "clm:002094"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000006",
+    "workId": "wrk:000137",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000070",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002095",
+        "clm:002096"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000006",
+    "workId": "wrk:000138",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000071",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002097",
+        "clm:002098"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000006",
+    "workId": "wrk:000139",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000072",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002099",
+        "clm:002100"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000006",
+    "workId": "wrk:000140",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000073",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002101",
+        "clm:002102"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000006",
+    "workId": "wrk:000141",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000074",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002103",
+        "clm:002104"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000006",
+    "workId": "wrk:000142",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000075",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002105",
+        "clm:002106"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000006",
+    "workId": "wrk:000143",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000076",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002107",
+        "clm:002108"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000006",
+    "workId": "wrk:000144",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000077",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002109",
+        "clm:002110"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000007",
+    "workId": "wrk:000145",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000078",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002111",
+        "clm:002112"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated",
+        "membershipNeedsVerification"
+      ]
+    },
+    "collectionId": "col:000010",
+    "workId": "wrk:000145",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000079",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002113",
+        "clm:002114"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000007",
+    "workId": "wrk:000146",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000080",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002115",
+        "clm:002116"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000007",
+    "workId": "wrk:000147",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000081",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002117",
+        "clm:002118"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000007",
+    "workId": "wrk:000148",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000082",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002119",
+        "clm:002120"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000007",
+    "workId": "wrk:000149",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000083",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002121",
+        "clm:002122"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000008",
+    "workId": "wrk:000150",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000084",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002123",
+        "clm:002124"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000008",
+    "workId": "wrk:000151",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000085",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002125",
+        "clm:002126"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000008",
+    "workId": "wrk:000152",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000086",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002127",
+        "clm:002128"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000008",
+    "workId": "wrk:000153",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000087",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002129",
+        "clm:002130"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000008",
+    "workId": "wrk:000154",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000088",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002131",
+        "clm:002132"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000008",
+    "workId": "wrk:000155",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000089",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002133",
+        "clm:002134"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000008",
+    "workId": "wrk:000156",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000090",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002135",
+        "clm:002136"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000008",
+    "workId": "wrk:000157",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000091",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002137",
+        "clm:002138"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000008",
+    "workId": "wrk:000158",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000092",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002139",
+        "clm:002140"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000008",
+    "workId": "wrk:000159",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000093",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002141",
+        "clm:002142"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000008",
+    "workId": "wrk:000160",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000094",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002143",
+        "clm:002144"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000008",
+    "workId": "wrk:000161",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000095",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002145",
+        "clm:002146"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated",
+        "membershipNeedsVerification"
+      ]
+    },
+    "collectionId": "col:000010",
+    "workId": "wrk:000161",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000096",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002147",
+        "clm:002148"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000008",
+    "workId": "wrk:000162",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000097",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002149",
+        "clm:002150"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000008",
+    "workId": "wrk:000163",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000098",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002151",
+        "clm:002152"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000009",
+    "workId": "wrk:000164",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000099",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002153",
+        "clm:002154"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000009",
+    "workId": "wrk:000165",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000100",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002155",
+        "clm:002156"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000009",
+    "workId": "wrk:000166",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000101",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002157",
+        "clm:002158"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000009",
+    "workId": "wrk:000167",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000102",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002159",
+        "clm:002160"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000009",
+    "workId": "wrk:000168",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000103",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002161",
+        "clm:002162"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000009",
+    "workId": "wrk:000169",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000104",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002163",
+        "clm:002164"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000009",
+    "workId": "wrk:000170",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000105",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002165",
+        "clm:002166"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000009",
+    "workId": "wrk:000171",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000106",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002167",
+        "clm:002168"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000009",
+    "workId": "wrk:000172",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000107",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002169",
+        "clm:002170"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000009",
+    "workId": "wrk:000173",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000108",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002171",
+        "clm:002172"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000009",
+    "workId": "wrk:000174",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000109",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002173",
+        "clm:002174"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000009",
+    "workId": "wrk:000175",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000110",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002175",
+        "clm:002176"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000009",
+    "workId": "wrk:000176",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000111",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002177",
+        "clm:002178"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000011",
+    "workId": "wrk:000177",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000112",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002179",
+        "clm:002180"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000011",
+    "workId": "wrk:000178",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000113",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002181",
+        "clm:002182"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000011",
+    "workId": "wrk:000179",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000114",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002183",
+        "clm:002184"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000011",
+    "workId": "wrk:000180",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000115",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002185",
+        "clm:002186"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated",
+        "editionSpecificMembership"
+      ]
+    },
+    "collectionId": "col:000011",
+    "workId": "wrk:000181",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000116",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002187",
+        "clm:002188"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000012",
+    "workId": "wrk:000181",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000117",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002189",
+        "clm:002190"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000013",
+    "workId": "wrk:000182",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000118",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002191",
+        "clm:002192"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000013",
+    "workId": "wrk:000183",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000119",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002193",
+        "clm:002194"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000013",
+    "workId": "wrk:000184",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000120",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002195",
+        "clm:002196"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000013",
+    "workId": "wrk:000185",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000121",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002197",
+        "clm:002198"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000001",
+    "workId": "wrk:000186",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000122",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002199",
+        "clm:002200"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000001",
+    "workId": "wrk:000187",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000123",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002201",
+        "clm:002202"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000001",
+    "workId": "wrk:000188",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000124",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002203",
+        "clm:002204"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000001",
+    "workId": "wrk:000189",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000125",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002205",
+        "clm:002206"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000001",
+    "workId": "wrk:000190",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000126",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002207",
+        "clm:002208"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000001",
+    "workId": "wrk:000191",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000127",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002209",
+        "clm:002210"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000001",
+    "workId": "wrk:000192",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000128",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002211",
+        "clm:002212"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000001",
+    "workId": "wrk:000193",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000129",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002213",
+        "clm:002214"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000001",
+    "workId": "wrk:000194",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000130",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002215",
+        "clm:002216"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000001",
+    "workId": "wrk:000195",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000131",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002217",
+        "clm:002218"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000001",
+    "workId": "wrk:000196",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000132",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002219",
+        "clm:002220"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000001",
+    "workId": "wrk:000197",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000133",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002221",
+        "clm:002222"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000012",
+    "workId": "wrk:000198",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000134",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002223",
+        "clm:002224"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000012",
+    "workId": "wrk:000199",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000135",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002225",
+        "clm:002226"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000012",
+    "workId": "wrk:000200",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000136",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002227",
+        "clm:002228"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000012",
+    "workId": "wrk:000201",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000137",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002229",
+        "clm:002230"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000012",
+    "workId": "wrk:000202",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000138",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002231",
+        "clm:002232"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000012",
+    "workId": "wrk:000203",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000139",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002233",
+        "clm:002234"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000012",
+    "workId": "wrk:000204",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000140",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002235",
+        "clm:002236"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000012",
+    "workId": "wrk:000205",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000141",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002237",
+        "clm:002238"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000012",
+    "workId": "wrk:000206",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000142",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002239",
+        "clm:002240"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000012",
+    "workId": "wrk:000207",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000143",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002241",
+        "clm:002242"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000012",
+    "workId": "wrk:000208",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000144",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002243",
+        "clm:002244"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000012",
+    "workId": "wrk:000068",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000145",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002245",
+        "clm:002246"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000012",
+    "workId": "wrk:000209",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000146",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002247",
+        "clm:002248"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000012",
+    "workId": "wrk:000210",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000147",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002249",
+        "clm:002250"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000012",
+    "workId": "wrk:000211",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000148",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002251",
+        "clm:002252"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000012",
+    "workId": "wrk:000212",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000149",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002253",
+        "clm:002254"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000012",
+    "workId": "wrk:000213",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000150",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002255",
+        "clm:002256"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000012",
+    "workId": "wrk:000214",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000151",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002257",
+        "clm:002258"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000012",
+    "workId": "wrk:000215",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000152",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002259",
+        "clm:002260"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000014",
+    "workId": "wrk:000006",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000153",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002261",
+        "clm:002262"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000014",
+    "workId": "wrk:000008",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000154",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002263",
+        "clm:002264"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000014",
+    "workId": "wrk:000011",
+    "order": null,
+    "editionIds": []
+  },
+  {
+    "id": "mem:000155",
+    "entityType": "membership",
+    "verification": {
+      "claimIds": [
+        "clm:002265",
+        "clm:002266"
+      ],
+      "open": [
+        "collectionOrderNotVerified",
+        "editionScopeNotMigrated"
+      ]
+    },
+    "collectionId": "col:000014",
+    "workId": "wrk:000013",
+    "order": null,
+    "editionIds": []
+  }
+]

@@ -1,0 +1,60 @@
+{
+  "checked": "2026-10-26",
+  "scope": "Targeted review only; not a fresh audit of 173 detail pages",
+  "sources": [
+    {
+      "url": "https://stephenking.com/works/collection/stephen-king-goes-to-the-movies.html",
+      "finding": "Page supplies collection metadata but no contents links; five inherited secondary memberships remain provisional."
+    },
+    {
+      "url": "https://stephenking.com/works/short/under-the-weather.html",
+      "finding": "Available In names The Bazaar of Bad Dreams. The inherited Full Dark, No Stars association is not established here; edition-specific scope remains unresolved."
+    },
+    {
+      "url": "https://stephenking.com/works/novel/bachman-books.html",
+      "finding": "Collection description explicitly identifies Rage, The Long Walk, Roadwork and The Running Man. Their positions and edition scope are not certified."
+    },
+    {
+      "url": "https://stephenking.com/works/collection/skeleton-crew.html",
+      "finding": "In This Collection explicitly lists For Owen and Paranoid: A Chant as poems. No numeric order certified.",
+      "confirmedMembershipPairs": [
+        "work:collection:skeleton-crew|work:for-owen",
+        "work:collection:skeleton-crew|work:paranoid-a-chant"
+      ]
+    },
+    {
+      "url": "https://stephenking.com/works/collection/nightmares-dreamscapes.html",
+      "finding": "In This Collection explicitly lists Head Down, Sorry, Right Number and Brooklyn August. No numeric order certified.",
+      "confirmedMembershipPairs": [
+        "work:collection:nightmares-dreamscapes|work:head-down",
+        "work:collection:nightmares-dreamscapes|work:sorry-right-number",
+        "work:collection:nightmares-dreamscapes|work:brooklyn-august"
+      ]
+    },
+    {
+      "url": "https://stephenking.com/works/collection/bazaar-of-bad-dreams.html",
+      "finding": "Official contents name The Bone Church and Tommy. The Under the Weather annotation points to mass-market FDNS, supporting only an edition-specific association; exact edition/ISBN not migrated.",
+      "confirmedMembershipPairs": [
+        "work:collection:the-bazaar-of-bad-dreams|work:the-bone-church",
+        "work:collection:the-bazaar-of-bad-dreams|work:tommy",
+        "work:collection:full-dark-no-stars|work:under-the-weather"
+      ],
+      "editionSpecificPairs": [
+        "work:collection:full-dark-no-stars|work:under-the-weather"
+      ]
+    },
+    {
+      "url": "https://stephenking.com/works/novel/other-worlds-than-these.html",
+      "finding": "Confirms the final volume of the trilogy containing The Talisman and Black House. Only series identity/order used; no plot text retained."
+    },
+    {
+      "url": "https://www.simonandschuster.com/books/Other-Worlds-Than-These/Stephen-King/The-Talisman-Trilogy/9781668233092",
+      "finding": "Official product page labels the title Book 3 of The Talisman Trilogy. No edition, release, image or plot data imported."
+    }
+  ],
+  "failedLocations": [
+    "https://stephenking.com/works/collection/the-bachman-books.html",
+    "https://stephenking.com/works/collection/the-bazaar-of-bad-dreams.html"
+  ],
+  "notes": "No synopsis copied, new work added, image fetched or source restriction bypassed. The canonical Bachman URL is the existing /novel/ URL. Other evidence uses the preserved official metadata snapshot."
+}

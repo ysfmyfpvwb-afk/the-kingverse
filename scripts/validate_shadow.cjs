@@ -3,10 +3,10 @@ const fs=require('node:fs'),path=require('node:path');
 const {validate,loadBundle,ROOT}=require('./validate_foundation.cjs');
 const {generateShadow,outputFiles,hash}=require('./migrate_shadow.cjs');
 const {isDeepStrictEqual:equal}=require('node:util');
-function validateShadow(bundle,ledger,{root=ROOT,checkGenerated=true}={}){
+function validateShadow(bundle,ledger,{root=ROOT,checkGenerated=true,views,decisions}={}){
  const result=validate(bundle,{root,checkCompatibility:false});const errors=[...result.errors];
  const add=(code,message)=>errors.push({code,message});
- if(bundle.manifest.scope!=='shadow-library-batch-01')add('batch-scope','Wrong shadow batch');
+ if(bundle.manifest.scope!=='shadow-stories-batch-02')add('batch-scope','Wrong shadow batch');
  try{
   const expected=generateShadow(root);
   if(!equal(bundle,expected.bundle))add('projection-difference','Canonical records/claims/aliases differ from the reviewed migration projection');
@@ -18,7 +18,22 @@ function validateShadow(bundle,ledger,{root=ROOT,checkGenerated=true}={}){
   if(new Set(slots).size!==slots.length)add('allocation-collision','ID allocation is not injective');
   const mapped=ledger.fields.filter(f=>f.disposition==='mapped');const entities=new Map(Object.values(bundle).filter(Array.isArray).flat().filter(v=>v.id).map(v=>[v.id,v]));
   for(const f of mapped)if(!entities.has(f.target.id))add('missing-ledger-target',f.pointer);
-  if(ledger.completeMigration!==false||ledger.records.length!==86||bundle.works.length!==71||bundle.collections.length!==15)add('coverage-claim','This batch is exactly 86 library identities, not the full catalog');
+  if(ledger.completeMigration!==false||ledger.records.length!==259||bundle.works.length!==241||bundle.collections.length!==15)add('coverage-claim','Batches 01–02 cover existing identities/credits/memberships, not full publication/edition/adaptation migration');
+  const overlay=JSON.parse(fs.readFileSync(path.join(root,'data/migration/batch-02-register.json'),'utf8'));
+  const newSlots=[...Object.values(overlay.entities).map(t=>t.id),...Object.values(overlay.people),...Object.values(overlay.sources),...Object.values(overlay.credits),...Object.values(overlay.memberships),...Object.values(overlay.connections),...Object.values(overlay.claims)];
+  if(new Set([...slots,...newSlots]).size!==slots.length+newSlots.length)add('allocation-collision','Batch 02 reuses a prior allocation for a different key');
+  for(const[id,snapshot]of Object.entries(overlay.preservedEntities))if(!entities.has(id)||hash(JSON.stringify(entities.get(id)))!==snapshot.sha256)add('batch-01-entity-changed',id);
+  const projected=views||JSON.parse(fs.readFileSync(path.join(root,'data/migration/story-views.json'),'utf8'));
+  const review=decisions||JSON.parse(fs.readFileSync(path.join(root,'data/migration/batch-02-decisions.json'),'utf8'));
+  if(!equal(projected,expected.stories.views))add('story-view-projection','Missing or changed story/default membership projection');
+  if(!equal(review,expected.stories.review))add('membership-evidence','Membership evidence, status or identity decision changed');
+  const members=new Map(bundle.collectionMemberships.map(m=>[m.id,m]));
+  for(const view of projected.views){
+   for(const id of view.membershipIds)if(members.get(id)?.workId!==view.workId)add('view-membership-owner',view.legacyStoryId);
+   if(view.defaultMembershipId&&!view.membershipIds.includes(view.defaultMembershipId))add('default-membership',view.legacyStoryId);
+  }
+  if(bundle.collectionMemberships.some(m=>m.order!==null))add('uncertified-order','No contents order was verified for this batch');
+  if(bundle.collectionMemberships.length!==155||bundle.editions.length!==4||bundle.artworks.length!==4||bundle.adaptations.length!==0||bundle.publicationEvents.length!==2||bundle.connections.length!==9)add('batch-boundary','Stop after Batch 02; no edition, artwork, publication-event, adaptation or Tower migration');
  }catch(e){add('batch-input',e.message);}
  return {valid:errors.length===0,errors,counts:result.counts};
 }

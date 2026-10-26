@@ -173,5 +173,21 @@
     "aliases": [],
     "pseudonyms": [],
     "externalIds": {}
+  },
+  {
+    "id": "per:000012",
+    "entityType": "person",
+    "verification": {
+      "claimIds": [
+        "clm:001832"
+      ],
+      "open": [
+        "identityCarriedForward"
+      ]
+    },
+    "name": "Joe Hill",
+    "aliases": [],
+    "pseudonyms": [],
+    "externalIds": {}
   }
 ]

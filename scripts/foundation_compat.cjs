@@ -22,7 +22,9 @@ function resolveAlias(bundle, input) {
   const alias = bundle.registry.aliases.find(a => a.kind === 'legacy-id' && a.alias === params.get('item'));
   if (!alias) return null;
   // A book identity must never accidentally resolve from the films view.
-  if (alias.target.type === 'work' && view !== 'books') return null;
+  if (!alias.alias.startsWith(view+':')) return null;
+  if (view==='books'&&!['work','collection'].includes(alias.target.type))return null;
+  if (view==='stories'&&alias.target.type!=='work')return null;
   return {target: alias.target, state: {view, q: params.get('q') || '', filter: params.get('filter') || '', sort: params.get('sort') || '', language: ['en','nl'].includes(url.searchParams.get('lang')) ? url.searchParams.get('lang') : null}};
 }
 function projectLegacyRecord(bundle, legacyWorkId) {

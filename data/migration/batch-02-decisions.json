@@ -1,0 +1,3522 @@
+{
+  "batch": "02-stories-and-memberships",
+  "newWorkCount": 170,
+  "storyViewCount": 173,
+  "reusedIdentities": [
+    {
+      "legacyStoryId": "stories:blockade-billy",
+      "legacyWorkId": "work:blockade-billy",
+      "target": {
+        "id": "wrk:000068",
+        "type": "work"
+      },
+      "reason": "Exact shared legacy workId already maps the book and story views to one work. No title merge."
+    },
+    {
+      "legacyStoryId": "stories:elevation",
+      "legacyWorkId": "work:elevation",
+      "target": {
+        "id": "wrk:000059",
+        "type": "work"
+      },
+      "reason": "Exact shared legacy workId already maps the book and story views to one work. No title merge."
+    },
+    {
+      "legacyStoryId": "stories:gwendy-s-button-box",
+      "legacyWorkId": "work:gwendy-s-button-box",
+      "target": {
+        "id": "wrk:000057",
+        "type": "work"
+      },
+      "reason": "Exact shared legacy workId already maps the book and story views to one work. No title merge."
+    }
+  ],
+  "titleVariants": [
+    {
+      "legacyStoryId": "stories:quitters-inc",
+      "canonicalTitle": "Quitters, Inc.",
+      "sourceTitle": "Quitters Inc.",
+      "decision": "Keep original canonical title; retain source spelling as alias; no additional identity."
+    },
+    {
+      "legacyStoryId": "stories:batman-and-robin-have-an-altercation",
+      "canonicalTitle": "Batman and Robin Have an Altercation",
+      "sourceTitle": "Batman and Robin Have An Altercation",
+      "decision": "Keep original canonical title; retain source spelling as alias; no additional identity."
+    },
+    {
+      "legacyStoryId": "stories:herman-wouk-is-still-alive",
+      "canonicalTitle": "Herman Wouk Is Still Alive",
+      "sourceTitle": "Herman Wouk is Still Alive",
+      "decision": "Keep original canonical title; retain source spelling as alias; no additional identity."
+    }
+  ],
+  "trilogy": {
+    "orderedWorkIds": [
+      "wrk:000001",
+      "wrk:000002",
+      "wrk:000067"
+    ],
+    "relationIds": [
+      "rel:000001",
+      "rel:000009"
+    ],
+    "newWorkIdentities": 0,
+    "certainty": "explicit",
+    "spoiler": "none",
+    "sourceUrls": [
+      "https://stephenking.com/works/novel/other-worlds-than-these.html",
+      "https://www.simonandschuster.com/books/Other-Worlds-Than-These/Stephen-King/The-Talisman-Trilogy/9781668233092"
+    ]
+  },
+  "memberships": [
+    {
+      "key": "work:collection:night-shift|work:jerusalem-s-lot",
+      "id": "mem:000001",
+      "workId": "wrk:000072",
+      "collectionId": "col:000002",
+      "sourcePointer": "/stories/0/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/jerusalems-lot.html",
+      "locator": "data/reference/official.json#/details/174/workLinks; catalog.js#/stories/0/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:night-shift|work:graveyard-shift",
+      "id": "mem:000002",
+      "workId": "wrk:000073",
+      "collectionId": "col:000002",
+      "sourcePointer": "/stories/1/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/graveyard-shift.html",
+      "locator": "data/reference/official.json#/details/133/workLinks; catalog.js#/stories/1/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:night-shift|work:night-surf",
+      "id": "mem:000003",
+      "workId": "wrk:000074",
+      "collectionId": "col:000002",
+      "sourcePointer": "/stories/2/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/night-surf.html",
+      "locator": "data/reference/official.json#/details/239/workLinks; catalog.js#/stories/2/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:night-shift|work:i-am-the-doorway",
+      "id": "mem:000004",
+      "workId": "wrk:000075",
+      "collectionId": "col:000002",
+      "sourcePointer": "/stories/3/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/i-am-the-doorway.html",
+      "locator": "data/reference/official.json#/details/157/workLinks; catalog.js#/stories/3/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:night-shift|work:the-mangler",
+      "id": "mem:000005",
+      "workId": "wrk:000076",
+      "collectionId": "col:000002",
+      "sourcePointer": "/stories/4/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/mangler.html",
+      "locator": "data/reference/official.json#/details/205/workLinks; catalog.js#/stories/4/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:stephen-king-goes-to-the-movies|work:the-mangler",
+      "id": "mem:000006",
+      "workId": "wrk:000076",
+      "collectionId": "col:000010",
+      "sourcePointer": "/stories/4/collectionIds/1",
+      "category": "story-view",
+      "verification": "provisional",
+      "source": "https://stephenking.com/works/short/mangler.html",
+      "locator": "catalog.js#/stories/4/collectionIds/1; inherited relation not established by stored official detail links",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "Requires collection/edition evidence; absence from a detail page does not prove absence from a collection."
+    },
+    {
+      "key": "work:collection:night-shift|work:the-boogeyman",
+      "id": "mem:000007",
+      "workId": "wrk:000077",
+      "collectionId": "col:000002",
+      "sourcePointer": "/stories/5/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/boogeyman.html",
+      "locator": "data/reference/official.json#/details/43/workLinks; catalog.js#/stories/5/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:night-shift|work:grey-matter",
+      "id": "mem:000008",
+      "workId": "wrk:000078",
+      "collectionId": "col:000002",
+      "sourcePointer": "/stories/6/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/grey-matter.html",
+      "locator": "data/reference/official.json#/details/143/workLinks; catalog.js#/stories/6/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:night-shift|work:battleground",
+      "id": "mem:000009",
+      "workId": "wrk:000079",
+      "collectionId": "col:000002",
+      "sourcePointer": "/stories/7/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/battleground.html",
+      "locator": "data/reference/official.json#/details/28/workLinks; catalog.js#/stories/7/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:night-shift|work:trucks",
+      "id": "mem:000010",
+      "workId": "wrk:000080",
+      "collectionId": "col:000002",
+      "sourcePointer": "/stories/8/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/trucks.html",
+      "locator": "data/reference/official.json#/details/327/workLinks; catalog.js#/stories/8/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:night-shift|work:sometimes-they-come-back",
+      "id": "mem:000011",
+      "workId": "wrk:000081",
+      "collectionId": "col:000002",
+      "sourcePointer": "/stories/9/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/sometimes-they-come-back.html",
+      "locator": "data/reference/official.json#/details/297/workLinks; catalog.js#/stories/9/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:night-shift|work:strawberry-spring",
+      "id": "mem:000012",
+      "workId": "wrk:000082",
+      "collectionId": "col:000002",
+      "sourcePointer": "/stories/10/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/strawberry-spring.html",
+      "locator": "data/reference/official.json#/details/307/workLinks; catalog.js#/stories/10/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:night-shift|work:the-ledge",
+      "id": "mem:000013",
+      "workId": "wrk:000083",
+      "collectionId": "col:000002",
+      "sourcePointer": "/stories/11/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/ledge.html",
+      "locator": "data/reference/official.json#/details/187/workLinks; catalog.js#/stories/11/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:night-shift|work:the-lawnmower-man",
+      "id": "mem:000014",
+      "workId": "wrk:000084",
+      "collectionId": "col:000002",
+      "sourcePointer": "/stories/12/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/lawnmower-man.html",
+      "locator": "data/reference/official.json#/details/186/workLinks; catalog.js#/stories/12/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:night-shift|work:quitters-inc",
+      "id": "mem:000015",
+      "workId": "wrk:000085",
+      "collectionId": "col:000002",
+      "sourcePointer": "/stories/13/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/quitters-inc.html",
+      "locator": "data/reference/official.json#/details/258/workLinks; catalog.js#/stories/13/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:night-shift|work:i-know-what-you-need",
+      "id": "mem:000016",
+      "workId": "wrk:000086",
+      "collectionId": "col:000002",
+      "sourcePointer": "/stories/14/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/i-know-what-you-need.html",
+      "locator": "data/reference/official.json#/details/158/workLinks; catalog.js#/stories/14/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:night-shift|work:children-of-the-corn",
+      "id": "mem:000017",
+      "workId": "wrk:000087",
+      "collectionId": "col:000002",
+      "sourcePointer": "/stories/15/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/children-of-the-corn.html",
+      "locator": "data/reference/official.json#/details/56/workLinks; catalog.js#/stories/15/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:stephen-king-goes-to-the-movies|work:children-of-the-corn",
+      "id": "mem:000018",
+      "workId": "wrk:000087",
+      "collectionId": "col:000010",
+      "sourcePointer": "/stories/15/collectionIds/1",
+      "category": "story-view",
+      "verification": "provisional",
+      "source": "https://stephenking.com/works/short/children-of-the-corn.html",
+      "locator": "catalog.js#/stories/15/collectionIds/1; inherited relation not established by stored official detail links",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "Requires collection/edition evidence; absence from a detail page does not prove absence from a collection."
+    },
+    {
+      "key": "work:collection:night-shift|work:the-last-rung-on-the-ladder",
+      "id": "mem:000019",
+      "workId": "wrk:000088",
+      "collectionId": "col:000002",
+      "sourcePointer": "/stories/16/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/last-rung-on-the-ladder.html",
+      "locator": "data/reference/official.json#/details/183/workLinks; catalog.js#/stories/16/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:night-shift|work:the-man-who-loved-flowers",
+      "id": "mem:000020",
+      "workId": "wrk:000089",
+      "collectionId": "col:000002",
+      "sourcePointer": "/stories/17/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/man-who-loved-flowers.html",
+      "locator": "data/reference/official.json#/details/201/workLinks; catalog.js#/stories/17/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:night-shift|work:one-for-the-road",
+      "id": "mem:000021",
+      "workId": "wrk:000090",
+      "collectionId": "col:000002",
+      "sourcePointer": "/stories/18/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/one-for-the-road.html",
+      "locator": "data/reference/official.json#/details/248/workLinks; catalog.js#/stories/18/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:night-shift|work:the-woman-in-the-room",
+      "id": "mem:000022",
+      "workId": "wrk:000091",
+      "collectionId": "col:000002",
+      "sourcePointer": "/stories/19/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/woman-in-the-room.html",
+      "locator": "data/reference/official.json#/details/342/workLinks; catalog.js#/stories/19/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:different-seasons|work:rita-hayworth-and-shawshank-redemption",
+      "id": "mem:000023",
+      "workId": "wrk:000092",
+      "collectionId": "col:000003",
+      "sourcePointer": "/stories/20/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/novella/rita-hayworth-and-shawshank-redemption.html",
+      "locator": "data/reference/official.json#/details/274/workLinks; catalog.js#/stories/20/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:stephen-king-goes-to-the-movies|work:rita-hayworth-and-shawshank-redemption",
+      "id": "mem:000024",
+      "workId": "wrk:000092",
+      "collectionId": "col:000010",
+      "sourcePointer": "/stories/20/collectionIds/1",
+      "category": "story-view",
+      "verification": "provisional",
+      "source": "https://stephenking.com/works/novella/rita-hayworth-and-shawshank-redemption.html",
+      "locator": "catalog.js#/stories/20/collectionIds/1; inherited relation not established by stored official detail links",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "Requires collection/edition evidence; absence from a detail page does not prove absence from a collection."
+    },
+    {
+      "key": "work:collection:different-seasons|work:apt-pupil",
+      "id": "mem:000025",
+      "workId": "wrk:000093",
+      "collectionId": "col:000003",
+      "sourcePointer": "/stories/21/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/novella/apt-pupil.html",
+      "locator": "data/reference/official.json#/details/18/workLinks; catalog.js#/stories/21/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:different-seasons|work:the-body",
+      "id": "mem:000026",
+      "workId": "wrk:000094",
+      "collectionId": "col:000003",
+      "sourcePointer": "/stories/22/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/novella/body.html",
+      "locator": "data/reference/official.json#/details/41/workLinks; catalog.js#/stories/22/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:different-seasons|work:the-breathing-method",
+      "id": "mem:000027",
+      "workId": "wrk:000095",
+      "collectionId": "col:000003",
+      "sourcePointer": "/stories/23/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/novella/breathing-method.html",
+      "locator": "data/reference/official.json#/details/44/workLinks; catalog.js#/stories/23/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:skeleton-crew|work:the-mist",
+      "id": "mem:000028",
+      "workId": "wrk:000096",
+      "collectionId": "col:000004",
+      "sourcePointer": "/stories/24/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/novella/mist.html",
+      "locator": "data/reference/official.json#/details/215/workLinks; catalog.js#/stories/24/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:skeleton-crew|work:here-there-be-tygers",
+      "id": "mem:000029",
+      "workId": "wrk:000097",
+      "collectionId": "col:000004",
+      "sourcePointer": "/stories/25/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/here-there-be-tygers.html",
+      "locator": "data/reference/official.json#/details/152/workLinks; catalog.js#/stories/25/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:skeleton-crew|work:the-monkey",
+      "id": "mem:000030",
+      "workId": "wrk:000098",
+      "collectionId": "col:000004",
+      "sourcePointer": "/stories/26/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/monkey.html",
+      "locator": "data/reference/official.json#/details/218/workLinks; catalog.js#/stories/26/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:skeleton-crew|work:cain-rose-up",
+      "id": "mem:000031",
+      "workId": "wrk:000099",
+      "collectionId": "col:000004",
+      "sourcePointer": "/stories/27/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/cain-rose-up.html",
+      "locator": "data/reference/official.json#/details/45/workLinks; catalog.js#/stories/27/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:skeleton-crew|work:mrs-todd-s-shortcut",
+      "id": "mem:000032",
+      "workId": "wrk:000100",
+      "collectionId": "col:000004",
+      "sourcePointer": "/stories/28/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/mrs-todds-shortcut.html",
+      "locator": "data/reference/official.json#/details/226/workLinks; catalog.js#/stories/28/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:skeleton-crew|work:the-jaunt",
+      "id": "mem:000033",
+      "workId": "wrk:000101",
+      "collectionId": "col:000004",
+      "sourcePointer": "/stories/29/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/jaunt.html",
+      "locator": "data/reference/official.json#/details/173/workLinks; catalog.js#/stories/29/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:skeleton-crew|work:the-wedding-gig",
+      "id": "mem:000034",
+      "workId": "wrk:000102",
+      "collectionId": "col:000004",
+      "sourcePointer": "/stories/30/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/wedding-gig.html",
+      "locator": "data/reference/official.json#/details/337/workLinks; catalog.js#/stories/30/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:skeleton-crew|work:paranoid-a-chant",
+      "id": "mem:000035",
+      "workId": "wrk:000103",
+      "collectionId": "col:000004",
+      "sourcePointer": "/stories/31/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/collection/skeleton-crew.html",
+      "locator": "data/migration/batch-02-review.json#/sources/3/confirmedMembershipPairs",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:skeleton-crew|work:the-raft",
+      "id": "mem:000036",
+      "workId": "wrk:000104",
+      "collectionId": "col:000004",
+      "sourcePointer": "/stories/32/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/raft.html",
+      "locator": "data/reference/official.json#/details/259/workLinks; catalog.js#/stories/32/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:skeleton-crew|work:word-processor-of-the-gods",
+      "id": "mem:000037",
+      "workId": "wrk:000105",
+      "collectionId": "col:000004",
+      "sourcePointer": "/stories/33/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/word-processor-of-the-gods.html",
+      "locator": "data/reference/official.json#/details/343/workLinks; catalog.js#/stories/33/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:skeleton-crew|work:the-man-who-would-not-shake-hands",
+      "id": "mem:000038",
+      "workId": "wrk:000106",
+      "collectionId": "col:000004",
+      "sourcePointer": "/stories/34/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/man-who-would-not-shake-hands.html",
+      "locator": "data/reference/official.json#/details/202/workLinks; catalog.js#/stories/34/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:skeleton-crew|work:beachworld",
+      "id": "mem:000039",
+      "workId": "wrk:000107",
+      "collectionId": "col:000004",
+      "sourcePointer": "/stories/35/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/beachworld.html",
+      "locator": "data/reference/official.json#/details/30/workLinks; catalog.js#/stories/35/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:skeleton-crew|work:the-reaper-s-image",
+      "id": "mem:000040",
+      "workId": "wrk:000108",
+      "collectionId": "col:000004",
+      "sourcePointer": "/stories/36/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/reapers-image.html",
+      "locator": "data/reference/official.json#/details/265/workLinks; catalog.js#/stories/36/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:skeleton-crew|work:nona",
+      "id": "mem:000041",
+      "workId": "wrk:000109",
+      "collectionId": "col:000004",
+      "sourcePointer": "/stories/37/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/nona.html",
+      "locator": "data/reference/official.json#/details/243/workLinks; catalog.js#/stories/37/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:skeleton-crew|work:for-owen",
+      "id": "mem:000042",
+      "workId": "wrk:000110",
+      "collectionId": "col:000004",
+      "sourcePointer": "/stories/38/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/collection/skeleton-crew.html",
+      "locator": "data/migration/batch-02-review.json#/sources/3/confirmedMembershipPairs",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:skeleton-crew|work:survivor-type",
+      "id": "mem:000043",
+      "workId": "wrk:000111",
+      "collectionId": "col:000004",
+      "sourcePointer": "/stories/39/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/survivor-type.html",
+      "locator": "data/reference/official.json#/details/312/workLinks; catalog.js#/stories/39/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:skeleton-crew|work:uncle-otto-s-truck",
+      "id": "mem:000044",
+      "workId": "wrk:000112",
+      "collectionId": "col:000004",
+      "sourcePointer": "/stories/40/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/uncle-ottos-truck.html",
+      "locator": "data/reference/official.json#/details/333/workLinks; catalog.js#/stories/40/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:skeleton-crew|work:morning-deliveries-milkman-1",
+      "id": "mem:000045",
+      "workId": "wrk:000113",
+      "collectionId": "col:000004",
+      "sourcePointer": "/stories/41/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/morning-deliveries-(milkman-1).html",
+      "locator": "data/reference/official.json#/details/220/workLinks; catalog.js#/stories/41/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:skeleton-crew|work:big-wheels-a-tale-of-the-laundry-game-milkman-2",
+      "id": "mem:000046",
+      "workId": "wrk:000114",
+      "collectionId": "col:000004",
+      "sourcePointer": "/stories/42/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/big-wheels-a-tale-of-the-laundry-game-(milkman-2).html",
+      "locator": "data/reference/official.json#/details/34/workLinks; catalog.js#/stories/42/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:skeleton-crew|work:gramma",
+      "id": "mem:000047",
+      "workId": "wrk:000115",
+      "collectionId": "col:000004",
+      "sourcePointer": "/stories/43/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/gramma.html",
+      "locator": "data/reference/official.json#/details/132/workLinks; catalog.js#/stories/43/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:skeleton-crew|work:the-ballad-of-the-flexible-bullet",
+      "id": "mem:000048",
+      "workId": "wrk:000116",
+      "collectionId": "col:000004",
+      "sourcePointer": "/stories/44/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/ballad-of-the-flexible-bullet.html",
+      "locator": "data/reference/official.json#/details/26/workLinks; catalog.js#/stories/44/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:skeleton-crew|work:the-reach",
+      "id": "mem:000049",
+      "workId": "wrk:000117",
+      "collectionId": "col:000004",
+      "sourcePointer": "/stories/45/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/reach.html",
+      "locator": "data/reference/official.json#/details/264/workLinks; catalog.js#/stories/45/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:four-past-midnight|work:the-langoliers",
+      "id": "mem:000050",
+      "workId": "wrk:000118",
+      "collectionId": "col:000005",
+      "sourcePointer": "/stories/46/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/novella/langoliers.html",
+      "locator": "data/reference/official.json#/details/181/workLinks; catalog.js#/stories/46/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:four-past-midnight|work:secret-window-secret-garden",
+      "id": "mem:000051",
+      "workId": "wrk:000119",
+      "collectionId": "col:000005",
+      "sourcePointer": "/stories/47/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/novella/secret-window-secret-garden.html",
+      "locator": "data/reference/official.json#/details/284/workLinks; catalog.js#/stories/47/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:four-past-midnight|work:the-library-policeman",
+      "id": "mem:000052",
+      "workId": "wrk:000120",
+      "collectionId": "col:000005",
+      "sourcePointer": "/stories/48/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/novella/library-policeman.html",
+      "locator": "data/reference/official.json#/details/188/workLinks; catalog.js#/stories/48/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:four-past-midnight|work:the-sun-dog",
+      "id": "mem:000053",
+      "workId": "wrk:000121",
+      "collectionId": "col:000005",
+      "sourcePointer": "/stories/49/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/novella/sun-dog.html",
+      "locator": "data/reference/official.json#/details/311/workLinks; catalog.js#/stories/49/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:nightmares-dreamscapes|work:dolan-s-cadillac",
+      "id": "mem:000054",
+      "workId": "wrk:000122",
+      "collectionId": "col:000006",
+      "sourcePointer": "/stories/50/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/dolans-cadillac.html",
+      "locator": "data/reference/official.json#/details/95/workLinks; catalog.js#/stories/50/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:nightmares-dreamscapes|work:the-end-of-the-whole-mess",
+      "id": "mem:000055",
+      "workId": "wrk:000123",
+      "collectionId": "col:000006",
+      "sourcePointer": "/stories/51/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/end-of-the-whole-mess.html",
+      "locator": "data/reference/official.json#/details/106/workLinks; catalog.js#/stories/51/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:nightmares-dreamscapes|work:suffer-the-little-children",
+      "id": "mem:000056",
+      "workId": "wrk:000124",
+      "collectionId": "col:000006",
+      "sourcePointer": "/stories/52/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/suffer-the-little-children.html",
+      "locator": "data/reference/official.json#/details/309/workLinks; catalog.js#/stories/52/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:nightmares-dreamscapes|work:the-night-flier",
+      "id": "mem:000057",
+      "workId": "wrk:000125",
+      "collectionId": "col:000006",
+      "sourcePointer": "/stories/53/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/night-flier.html",
+      "locator": "data/reference/official.json#/details/236/workLinks; catalog.js#/stories/53/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:nightmares-dreamscapes|work:popsy",
+      "id": "mem:000058",
+      "workId": "wrk:000126",
+      "collectionId": "col:000006",
+      "sourcePointer": "/stories/54/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/popsy.html",
+      "locator": "data/reference/official.json#/details/255/workLinks; catalog.js#/stories/54/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:nightmares-dreamscapes|work:it-grows-on-you",
+      "id": "mem:000059",
+      "workId": "wrk:000127",
+      "collectionId": "col:000006",
+      "sourcePointer": "/stories/55/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/it-grows-on-you.html",
+      "locator": "data/reference/official.json#/details/172/workLinks; catalog.js#/stories/55/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:nightmares-dreamscapes|work:chattery-teeth",
+      "id": "mem:000060",
+      "workId": "wrk:000128",
+      "collectionId": "col:000006",
+      "sourcePointer": "/stories/56/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/chattery-teeth.html",
+      "locator": "data/reference/official.json#/details/55/workLinks; catalog.js#/stories/56/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:nightmares-dreamscapes|work:dedication",
+      "id": "mem:000061",
+      "workId": "wrk:000129",
+      "collectionId": "col:000006",
+      "sourcePointer": "/stories/57/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/dedication.html",
+      "locator": "data/reference/official.json#/details/85/workLinks; catalog.js#/stories/57/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:nightmares-dreamscapes|work:the-moving-finger",
+      "id": "mem:000062",
+      "workId": "wrk:000130",
+      "collectionId": "col:000006",
+      "sourcePointer": "/stories/58/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/moving-finger.html",
+      "locator": "data/reference/official.json#/details/221/workLinks; catalog.js#/stories/58/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:nightmares-dreamscapes|work:sneakers",
+      "id": "mem:000063",
+      "workId": "wrk:000131",
+      "collectionId": "col:000006",
+      "sourcePointer": "/stories/59/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/sneakers.html",
+      "locator": "data/reference/official.json#/details/295/workLinks; catalog.js#/stories/59/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:nightmares-dreamscapes|work:you-know-they-got-a-hell-of-a-band",
+      "id": "mem:000064",
+      "workId": "wrk:000132",
+      "collectionId": "col:000006",
+      "sourcePointer": "/stories/60/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/you-know-they-got-a-hell-of-a-band.html",
+      "locator": "data/reference/official.json#/details/344/workLinks; catalog.js#/stories/60/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:nightmares-dreamscapes|work:home-delivery",
+      "id": "mem:000065",
+      "workId": "wrk:000133",
+      "collectionId": "col:000006",
+      "sourcePointer": "/stories/61/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/home-delivery.html",
+      "locator": "data/reference/official.json#/details/155/workLinks; catalog.js#/stories/61/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:nightmares-dreamscapes|work:rainy-season",
+      "id": "mem:000066",
+      "workId": "wrk:000134",
+      "collectionId": "col:000006",
+      "sourcePointer": "/stories/62/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/rainy-season.html",
+      "locator": "data/reference/official.json#/details/261/workLinks; catalog.js#/stories/62/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:nightmares-dreamscapes|work:my-pretty-pony",
+      "id": "mem:000067",
+      "workId": "wrk:000135",
+      "collectionId": "col:000006",
+      "sourcePointer": "/stories/63/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/my-pretty-pony.html",
+      "locator": "data/reference/official.json#/details/230/workLinks; catalog.js#/stories/63/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:nightmares-dreamscapes|work:sorry-right-number",
+      "id": "mem:000068",
+      "workId": "wrk:000136",
+      "collectionId": "col:000006",
+      "sourcePointer": "/stories/64/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/collection/nightmares-dreamscapes.html",
+      "locator": "data/migration/batch-02-review.json#/sources/4/confirmedMembershipPairs",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:nightmares-dreamscapes|work:the-ten-o-clock-people",
+      "id": "mem:000069",
+      "workId": "wrk:000137",
+      "collectionId": "col:000006",
+      "sourcePointer": "/stories/65/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/ten-o-clock-people.html",
+      "locator": "data/reference/official.json#/details/316/workLinks; catalog.js#/stories/65/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:nightmares-dreamscapes|work:crouch-end",
+      "id": "mem:000070",
+      "workId": "wrk:000138",
+      "collectionId": "col:000006",
+      "sourcePointer": "/stories/66/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/crouch-end.html",
+      "locator": "data/reference/official.json#/details/65/workLinks; catalog.js#/stories/66/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:nightmares-dreamscapes|work:the-house-on-maple-street",
+      "id": "mem:000071",
+      "workId": "wrk:000139",
+      "collectionId": "col:000006",
+      "sourcePointer": "/stories/67/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/house-on-maple-street.html",
+      "locator": "data/reference/official.json#/details/156/workLinks; catalog.js#/stories/67/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:nightmares-dreamscapes|work:the-fifth-quarter",
+      "id": "mem:000072",
+      "workId": "wrk:000140",
+      "collectionId": "col:000006",
+      "sourcePointer": "/stories/68/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/fifth-quarter.html",
+      "locator": "data/reference/official.json#/details/114/workLinks; catalog.js#/stories/68/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:nightmares-dreamscapes|work:the-doctor-s-case",
+      "id": "mem:000073",
+      "workId": "wrk:000141",
+      "collectionId": "col:000006",
+      "sourcePointer": "/stories/69/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/doctors-case.html",
+      "locator": "data/reference/official.json#/details/93/workLinks; catalog.js#/stories/69/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:nightmares-dreamscapes|work:umney-s-last-case",
+      "id": "mem:000074",
+      "workId": "wrk:000142",
+      "collectionId": "col:000006",
+      "sourcePointer": "/stories/70/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/umneys-last-case.html",
+      "locator": "data/reference/official.json#/details/332/workLinks; catalog.js#/stories/70/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:nightmares-dreamscapes|work:head-down",
+      "id": "mem:000075",
+      "workId": "wrk:000143",
+      "collectionId": "col:000006",
+      "sourcePointer": "/stories/71/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/collection/nightmares-dreamscapes.html",
+      "locator": "data/migration/batch-02-review.json#/sources/4/confirmedMembershipPairs",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:nightmares-dreamscapes|work:brooklyn-august",
+      "id": "mem:000076",
+      "workId": "wrk:000144",
+      "collectionId": "col:000006",
+      "sourcePointer": "/stories/72/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/collection/nightmares-dreamscapes.html",
+      "locator": "data/migration/batch-02-review.json#/sources/4/confirmedMembershipPairs",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:hearts-in-atlantis|work:low-men-in-yellow-coats",
+      "id": "mem:000077",
+      "workId": "wrk:000145",
+      "collectionId": "col:000007",
+      "sourcePointer": "/stories/73/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/novella/low-men-in-yellow-coats.html",
+      "locator": "data/reference/official.json#/details/198/workLinks; catalog.js#/stories/73/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:stephen-king-goes-to-the-movies|work:low-men-in-yellow-coats",
+      "id": "mem:000078",
+      "workId": "wrk:000145",
+      "collectionId": "col:000010",
+      "sourcePointer": "/stories/73/collectionIds/1",
+      "category": "story-view",
+      "verification": "provisional",
+      "source": "https://stephenking.com/works/novella/low-men-in-yellow-coats.html",
+      "locator": "catalog.js#/stories/73/collectionIds/1; inherited relation not established by stored official detail links",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "Requires collection/edition evidence; absence from a detail page does not prove absence from a collection."
+    },
+    {
+      "key": "work:collection:hearts-in-atlantis|work:hearts-in-atlantis",
+      "id": "mem:000079",
+      "workId": "wrk:000146",
+      "collectionId": "col:000007",
+      "sourcePointer": "/stories/74/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/novella/hearts-in-atlantis.html",
+      "locator": "data/reference/official.json#/details/149/workLinks; catalog.js#/stories/74/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:hearts-in-atlantis|work:blind-willie",
+      "id": "mem:000080",
+      "workId": "wrk:000147",
+      "collectionId": "col:000007",
+      "sourcePointer": "/stories/75/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/novella/blind-willie.html",
+      "locator": "data/reference/official.json#/details/38/workLinks; catalog.js#/stories/75/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:hearts-in-atlantis|work:why-we-re-in-vietnam",
+      "id": "mem:000081",
+      "workId": "wrk:000148",
+      "collectionId": "col:000007",
+      "sourcePointer": "/stories/76/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/novella/why-we-re-in-vietnam.html",
+      "locator": "data/reference/official.json#/details/339/workLinks; catalog.js#/stories/76/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:hearts-in-atlantis|work:heavenly-shades-of-night-are-falling",
+      "id": "mem:000082",
+      "workId": "wrk:000149",
+      "collectionId": "col:000007",
+      "sourcePointer": "/stories/77/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/novella/heavenly-shades-of-night-are-falling.html",
+      "locator": "data/reference/official.json#/details/151/workLinks; catalog.js#/stories/77/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:everything-s-eventual|work:autopsy-room-four",
+      "id": "mem:000083",
+      "workId": "wrk:000150",
+      "collectionId": "col:000008",
+      "sourcePointer": "/stories/78/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/autopsy-room-four.html",
+      "locator": "data/reference/official.json#/details/20/workLinks; catalog.js#/stories/78/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:everything-s-eventual|work:the-man-in-the-black-suit",
+      "id": "mem:000084",
+      "workId": "wrk:000151",
+      "collectionId": "col:000008",
+      "sourcePointer": "/stories/79/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/man-in-the-black-suit.html",
+      "locator": "data/reference/official.json#/details/204/workLinks; catalog.js#/stories/79/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:everything-s-eventual|work:all-that-you-love-will-be-carried-away",
+      "id": "mem:000085",
+      "workId": "wrk:000152",
+      "collectionId": "col:000008",
+      "sourcePointer": "/stories/80/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/all-that-you-love-will-be-carried-away.html",
+      "locator": "data/reference/official.json#/details/16/workLinks; catalog.js#/stories/80/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:everything-s-eventual|work:the-death-of-jack-hamilton",
+      "id": "mem:000086",
+      "workId": "wrk:000153",
+      "collectionId": "col:000008",
+      "sourcePointer": "/stories/81/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/death-of-jack-hamilton.html",
+      "locator": "data/reference/official.json#/details/84/workLinks; catalog.js#/stories/81/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:everything-s-eventual|work:in-the-deathroom",
+      "id": "mem:000087",
+      "workId": "wrk:000154",
+      "collectionId": "col:000008",
+      "sourcePointer": "/stories/82/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/in-the-deathroom.html",
+      "locator": "data/reference/official.json#/details/166/workLinks; catalog.js#/stories/82/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:everything-s-eventual|work:the-little-sisters-of-eluria",
+      "id": "mem:000088",
+      "workId": "wrk:000155",
+      "collectionId": "col:000008",
+      "sourcePointer": "/stories/83/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/little-sisters-of-eluria.html",
+      "locator": "data/reference/official.json#/details/194/workLinks; catalog.js#/stories/83/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:everything-s-eventual|work:everything-s-eventual",
+      "id": "mem:000089",
+      "workId": "wrk:000156",
+      "collectionId": "col:000008",
+      "sourcePointer": "/stories/84/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/everythings-eventual.html",
+      "locator": "data/reference/official.json#/details/107/workLinks; catalog.js#/stories/84/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:everything-s-eventual|work:l-t-s-theory-of-pets",
+      "id": "mem:000090",
+      "workId": "wrk:000157",
+      "collectionId": "col:000008",
+      "sourcePointer": "/stories/85/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/lts-theory-of-pets.html",
+      "locator": "data/reference/official.json#/details/180/workLinks; catalog.js#/stories/85/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:everything-s-eventual|work:the-road-virus-heads-north",
+      "id": "mem:000091",
+      "workId": "wrk:000158",
+      "collectionId": "col:000008",
+      "sourcePointer": "/stories/86/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/road-virus-heads-north.html",
+      "locator": "data/reference/official.json#/details/275/workLinks; catalog.js#/stories/86/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:everything-s-eventual|work:lunch-at-the-gotham-cafe",
+      "id": "mem:000092",
+      "workId": "wrk:000159",
+      "collectionId": "col:000008",
+      "sourcePointer": "/stories/87/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/lunch-at-the-gotham-cafe.html",
+      "locator": "data/reference/official.json#/details/200/workLinks; catalog.js#/stories/87/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:everything-s-eventual|work:that-feeling-you-can-only-say-what-it-is-in-french",
+      "id": "mem:000093",
+      "workId": "wrk:000160",
+      "collectionId": "col:000008",
+      "sourcePointer": "/stories/88/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/that-feeling-you-can-only-say-what-it-is-in-french.html",
+      "locator": "data/reference/official.json#/details/318/workLinks; catalog.js#/stories/88/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:everything-s-eventual|work:1408",
+      "id": "mem:000094",
+      "workId": "wrk:000161",
+      "collectionId": "col:000008",
+      "sourcePointer": "/stories/89/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/1408.html",
+      "locator": "data/reference/official.json#/details/6/workLinks; catalog.js#/stories/89/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:stephen-king-goes-to-the-movies|work:1408",
+      "id": "mem:000095",
+      "workId": "wrk:000161",
+      "collectionId": "col:000010",
+      "sourcePointer": "/stories/89/collectionIds/1",
+      "category": "story-view",
+      "verification": "provisional",
+      "source": "https://stephenking.com/works/short/1408.html",
+      "locator": "catalog.js#/stories/89/collectionIds/1; inherited relation not established by stored official detail links",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "Requires collection/edition evidence; absence from a detail page does not prove absence from a collection."
+    },
+    {
+      "key": "work:collection:everything-s-eventual|work:riding-the-bullet",
+      "id": "mem:000096",
+      "workId": "wrk:000162",
+      "collectionId": "col:000008",
+      "sourcePointer": "/stories/90/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/riding-the-bullet.html",
+      "locator": "data/reference/official.json#/details/272/workLinks; catalog.js#/stories/90/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:everything-s-eventual|work:luckey-quarter",
+      "id": "mem:000097",
+      "workId": "wrk:000163",
+      "collectionId": "col:000008",
+      "sourcePointer": "/stories/91/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/luckey-quarter.html",
+      "locator": "data/reference/official.json#/details/199/workLinks; catalog.js#/stories/91/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:just-after-sunset|work:willa",
+      "id": "mem:000098",
+      "workId": "wrk:000164",
+      "collectionId": "col:000009",
+      "sourcePointer": "/stories/92/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/willa.html",
+      "locator": "data/reference/official.json#/details/340/workLinks; catalog.js#/stories/92/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:just-after-sunset|work:the-gingerbread-girl",
+      "id": "mem:000099",
+      "workId": "wrk:000165",
+      "collectionId": "col:000009",
+      "sourcePointer": "/stories/93/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/gingerbread-girl.html",
+      "locator": "data/reference/official.json#/details/125/workLinks; catalog.js#/stories/93/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:just-after-sunset|work:harvey-s-dream",
+      "id": "mem:000100",
+      "workId": "wrk:000166",
+      "collectionId": "col:000009",
+      "sourcePointer": "/stories/94/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/harveys-dream.html",
+      "locator": "data/reference/official.json#/details/146/workLinks; catalog.js#/stories/94/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:just-after-sunset|work:rest-stop",
+      "id": "mem:000101",
+      "workId": "wrk:000167",
+      "collectionId": "col:000009",
+      "sourcePointer": "/stories/95/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/rest-stop.html",
+      "locator": "data/reference/official.json#/details/269/workLinks; catalog.js#/stories/95/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:just-after-sunset|work:stationary-bike",
+      "id": "mem:000102",
+      "workId": "wrk:000168",
+      "collectionId": "col:000009",
+      "sourcePointer": "/stories/96/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/stationary-bike.html",
+      "locator": "data/reference/official.json#/details/304/workLinks; catalog.js#/stories/96/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:just-after-sunset|work:the-things-they-left-behind",
+      "id": "mem:000103",
+      "workId": "wrk:000169",
+      "collectionId": "col:000009",
+      "sourcePointer": "/stories/97/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/things-they-left-behind.html",
+      "locator": "data/reference/official.json#/details/321/workLinks; catalog.js#/stories/97/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:just-after-sunset|work:graduation-afternoon",
+      "id": "mem:000104",
+      "workId": "wrk:000170",
+      "collectionId": "col:000009",
+      "sourcePointer": "/stories/98/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/graduation-afternoon.html",
+      "locator": "data/reference/official.json#/details/131/workLinks; catalog.js#/stories/98/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:just-after-sunset|work:n",
+      "id": "mem:000105",
+      "workId": "wrk:000171",
+      "collectionId": "col:000009",
+      "sourcePointer": "/stories/99/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/novella/n.html",
+      "locator": "data/reference/official.json#/details/244/workLinks; catalog.js#/stories/99/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:just-after-sunset|work:the-cat-from-hell",
+      "id": "mem:000106",
+      "workId": "wrk:000172",
+      "collectionId": "col:000009",
+      "sourcePointer": "/stories/100/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/cat-from-hell.html",
+      "locator": "data/reference/official.json#/details/50/workLinks; catalog.js#/stories/100/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:just-after-sunset|work:the-new-york-times-at-special-bargain-rates",
+      "id": "mem:000107",
+      "workId": "wrk:000173",
+      "collectionId": "col:000009",
+      "sourcePointer": "/stories/101/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/new-york-times-at-special-bargain-rates.html",
+      "locator": "data/reference/official.json#/details/235/workLinks; catalog.js#/stories/101/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:just-after-sunset|work:mute",
+      "id": "mem:000108",
+      "workId": "wrk:000174",
+      "collectionId": "col:000009",
+      "sourcePointer": "/stories/102/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/mute.html",
+      "locator": "data/reference/official.json#/details/228/workLinks; catalog.js#/stories/102/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:just-after-sunset|work:ayana",
+      "id": "mem:000109",
+      "workId": "wrk:000175",
+      "collectionId": "col:000009",
+      "sourcePointer": "/stories/103/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/ayana.html",
+      "locator": "data/reference/official.json#/details/21/workLinks; catalog.js#/stories/103/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:just-after-sunset|work:a-very-tight-place",
+      "id": "mem:000110",
+      "workId": "wrk:000176",
+      "collectionId": "col:000009",
+      "sourcePointer": "/stories/104/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/novella/a-very-tight-place.html",
+      "locator": "data/reference/official.json#/details/14/workLinks; catalog.js#/stories/104/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:full-dark-no-stars|work:1922",
+      "id": "mem:000111",
+      "workId": "wrk:000177",
+      "collectionId": "col:000011",
+      "sourcePointer": "/stories/105/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/1922.html",
+      "locator": "data/reference/official.json#/details/8/workLinks; catalog.js#/stories/105/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:full-dark-no-stars|work:big-driver",
+      "id": "mem:000112",
+      "workId": "wrk:000178",
+      "collectionId": "col:000011",
+      "sourcePointer": "/stories/106/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/big-driver.html",
+      "locator": "data/reference/official.json#/details/32/workLinks; catalog.js#/stories/106/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:full-dark-no-stars|work:fair-extension",
+      "id": "mem:000113",
+      "workId": "wrk:000179",
+      "collectionId": "col:000011",
+      "sourcePointer": "/stories/107/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/fair-extension.html",
+      "locator": "data/reference/official.json#/details/111/workLinks; catalog.js#/stories/107/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:full-dark-no-stars|work:a-good-marriage",
+      "id": "mem:000114",
+      "workId": "wrk:000180",
+      "collectionId": "col:000011",
+      "sourcePointer": "/stories/108/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/a-good-marriage.html",
+      "locator": "data/reference/official.json#/details/12/workLinks; catalog.js#/stories/108/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:full-dark-no-stars|work:under-the-weather",
+      "id": "mem:000115",
+      "workId": "wrk:000181",
+      "collectionId": "col:000011",
+      "sourcePointer": "/stories/109/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/collection/bazaar-of-bad-dreams.html",
+      "locator": "data/migration/batch-02-review.json#/sources/5/confirmedMembershipPairs",
+      "orderVerified": false,
+      "editionScope": "mass-market edition; exact edition identity not migrated",
+      "notes": "Evidence supports at least one mass-market edition only; not all editions or translations."
+    },
+    {
+      "key": "work:collection:the-bazaar-of-bad-dreams|work:under-the-weather",
+      "id": "mem:000116",
+      "workId": "wrk:000181",
+      "collectionId": "col:000012",
+      "sourcePointer": "/stories/109/collectionIds/1",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/under-the-weather.html",
+      "locator": "data/reference/official.json#/details/336/workLinks; catalog.js#/stories/109/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:if-it-bleeds|work:mr-harrigan-s-phone",
+      "id": "mem:000117",
+      "workId": "wrk:000182",
+      "collectionId": "col:000013",
+      "sourcePointer": "/stories/110/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/novella/mr-harrigans-phone.html",
+      "locator": "data/reference/official.json#/details/222/workLinks; catalog.js#/stories/110/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:if-it-bleeds|work:the-life-of-chuck",
+      "id": "mem:000118",
+      "workId": "wrk:000183",
+      "collectionId": "col:000013",
+      "sourcePointer": "/stories/111/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/novella/life-of-chuck.html",
+      "locator": "data/reference/official.json#/details/189/workLinks; catalog.js#/stories/111/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:if-it-bleeds|work:if-it-bleeds",
+      "id": "mem:000119",
+      "workId": "wrk:000184",
+      "collectionId": "col:000013",
+      "sourcePointer": "/stories/112/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/novella/if-it-bleeds.html",
+      "locator": "data/reference/official.json#/details/165/workLinks; catalog.js#/stories/112/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:if-it-bleeds|work:rat",
+      "id": "mem:000120",
+      "workId": "wrk:000185",
+      "collectionId": "col:000013",
+      "sourcePointer": "/stories/113/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/novella/rat.html",
+      "locator": "data/reference/official.json#/details/263/workLinks; catalog.js#/stories/113/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:you-like-it-darker|work:two-talented-bastids",
+      "id": "mem:000121",
+      "workId": "wrk:000186",
+      "collectionId": "col:000001",
+      "sourcePointer": "/stories/114/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/two-talented-bastids.html",
+      "locator": "data/reference/official.json#/details/330/workLinks; catalog.js#/stories/114/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:you-like-it-darker|work:the-fifth-step",
+      "id": "mem:000122",
+      "workId": "wrk:000187",
+      "collectionId": "col:000001",
+      "sourcePointer": "/stories/115/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/fifth-step.html",
+      "locator": "data/reference/official.json#/details/115/workLinks; catalog.js#/stories/115/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:you-like-it-darker|work:willie-the-weirdo",
+      "id": "mem:000123",
+      "workId": "wrk:000188",
+      "collectionId": "col:000001",
+      "sourcePointer": "/stories/116/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/willie-the-weirdo.html",
+      "locator": "data/reference/official.json#/details/341/workLinks; catalog.js#/stories/116/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:you-like-it-darker|work:danny-coughlin-s-bad-dream",
+      "id": "mem:000124",
+      "workId": "wrk:000189",
+      "collectionId": "col:000001",
+      "sourcePointer": "/stories/117/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/danny-coughlins-bad-dream.html",
+      "locator": "data/reference/official.json#/details/69/workLinks; catalog.js#/stories/117/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:you-like-it-darker|work:finn",
+      "id": "mem:000125",
+      "workId": "wrk:000190",
+      "collectionId": "col:000001",
+      "sourcePointer": "/stories/118/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/finn.html",
+      "locator": "data/reference/official.json#/details/117/workLinks; catalog.js#/stories/118/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:you-like-it-darker|work:on-slide-inn-road",
+      "id": "mem:000126",
+      "workId": "wrk:000191",
+      "collectionId": "col:000001",
+      "sourcePointer": "/stories/119/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/on-slide-inn-road.html",
+      "locator": "data/reference/official.json#/details/247/workLinks; catalog.js#/stories/119/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:you-like-it-darker|work:red-screen",
+      "id": "mem:000127",
+      "workId": "wrk:000192",
+      "collectionId": "col:000001",
+      "sourcePointer": "/stories/120/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/red-screen.html",
+      "locator": "data/reference/official.json#/details/266/workLinks; catalog.js#/stories/120/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:you-like-it-darker|work:the-turbulence-expert",
+      "id": "mem:000128",
+      "workId": "wrk:000193",
+      "collectionId": "col:000001",
+      "sourcePointer": "/stories/121/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/turbulence-expert.html",
+      "locator": "data/reference/official.json#/details/329/workLinks; catalog.js#/stories/121/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:you-like-it-darker|work:laurie",
+      "id": "mem:000129",
+      "workId": "wrk:000194",
+      "collectionId": "col:000001",
+      "sourcePointer": "/stories/122/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/laurie.html",
+      "locator": "data/reference/official.json#/details/185/workLinks; catalog.js#/stories/122/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:you-like-it-darker|work:rattlesnakes",
+      "id": "mem:000130",
+      "workId": "wrk:000195",
+      "collectionId": "col:000001",
+      "sourcePointer": "/stories/123/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/rattlesnakes.html",
+      "locator": "data/reference/official.json#/details/262/workLinks; catalog.js#/stories/123/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:you-like-it-darker|work:the-dreamers",
+      "id": "mem:000131",
+      "workId": "wrk:000196",
+      "collectionId": "col:000001",
+      "sourcePointer": "/stories/124/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/dreamers.html",
+      "locator": "data/reference/official.json#/details/100/workLinks; catalog.js#/stories/124/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:you-like-it-darker|work:the-answer-man",
+      "id": "mem:000132",
+      "workId": "wrk:000197",
+      "collectionId": "col:000001",
+      "sourcePointer": "/stories/125/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/answer-man.html",
+      "locator": "data/reference/official.json#/details/17/workLinks; catalog.js#/stories/125/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:the-bazaar-of-bad-dreams|work:mile-81",
+      "id": "mem:000133",
+      "workId": "wrk:000198",
+      "collectionId": "col:000012",
+      "sourcePointer": "/stories/126/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/mile-81.html",
+      "locator": "data/reference/official.json#/details/210/workLinks; catalog.js#/stories/126/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:the-bazaar-of-bad-dreams|work:premium-harmony",
+      "id": "mem:000134",
+      "workId": "wrk:000199",
+      "collectionId": "col:000012",
+      "sourcePointer": "/stories/127/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/premium-harmony.html",
+      "locator": "data/reference/official.json#/details/256/workLinks; catalog.js#/stories/127/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:the-bazaar-of-bad-dreams|work:batman-and-robin-have-an-altercation",
+      "id": "mem:000135",
+      "workId": "wrk:000200",
+      "collectionId": "col:000012",
+      "sourcePointer": "/stories/128/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/batman-and-robin-have-an-altercation.html",
+      "locator": "data/reference/official.json#/details/27/workLinks; catalog.js#/stories/128/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:the-bazaar-of-bad-dreams|work:the-dune",
+      "id": "mem:000136",
+      "workId": "wrk:000201",
+      "collectionId": "col:000012",
+      "sourcePointer": "/stories/129/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/dune.html",
+      "locator": "data/reference/official.json#/details/103/workLinks; catalog.js#/stories/129/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:the-bazaar-of-bad-dreams|work:bad-little-kid",
+      "id": "mem:000137",
+      "workId": "wrk:000202",
+      "collectionId": "col:000012",
+      "sourcePointer": "/stories/130/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/bad-little-kid.html",
+      "locator": "data/reference/official.json#/details/23/workLinks; catalog.js#/stories/130/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:the-bazaar-of-bad-dreams|work:a-death",
+      "id": "mem:000138",
+      "workId": "wrk:000203",
+      "collectionId": "col:000012",
+      "sourcePointer": "/stories/131/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/a-death.html",
+      "locator": "data/reference/official.json#/details/10/workLinks; catalog.js#/stories/131/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:the-bazaar-of-bad-dreams|work:the-bone-church",
+      "id": "mem:000139",
+      "workId": "wrk:000204",
+      "collectionId": "col:000012",
+      "sourcePointer": "/stories/132/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/collection/bazaar-of-bad-dreams.html",
+      "locator": "data/migration/batch-02-review.json#/sources/5/confirmedMembershipPairs",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:the-bazaar-of-bad-dreams|work:morality",
+      "id": "mem:000140",
+      "workId": "wrk:000205",
+      "collectionId": "col:000012",
+      "sourcePointer": "/stories/133/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/morality.html",
+      "locator": "data/reference/official.json#/details/219/workLinks; catalog.js#/stories/133/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:the-bazaar-of-bad-dreams|work:afterlife",
+      "id": "mem:000141",
+      "workId": "wrk:000206",
+      "collectionId": "col:000012",
+      "sourcePointer": "/stories/134/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/afterlife.html",
+      "locator": "data/reference/official.json#/details/15/workLinks; catalog.js#/stories/134/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:the-bazaar-of-bad-dreams|work:ur",
+      "id": "mem:000142",
+      "workId": "wrk:000207",
+      "collectionId": "col:000012",
+      "sourcePointer": "/stories/135/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/novella/ur.html",
+      "locator": "data/reference/official.json#/details/331/workLinks; catalog.js#/stories/135/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:the-bazaar-of-bad-dreams|work:herman-wouk-is-still-alive",
+      "id": "mem:000143",
+      "workId": "wrk:000208",
+      "collectionId": "col:000012",
+      "sourcePointer": "/stories/136/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/herman-wouk-is-still-alive.html",
+      "locator": "data/reference/official.json#/details/153/workLinks; catalog.js#/stories/136/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:the-bazaar-of-bad-dreams|work:blockade-billy",
+      "id": "mem:000144",
+      "workId": "wrk:000068",
+      "collectionId": "col:000012",
+      "sourcePointer": "/stories/137/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/novella/blockade-billy.html",
+      "locator": "data/reference/official.json#/details/39/workLinks; catalog.js#/stories/137/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:the-bazaar-of-bad-dreams|work:mister-yummy",
+      "id": "mem:000145",
+      "workId": "wrk:000209",
+      "collectionId": "col:000012",
+      "sourcePointer": "/stories/138/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/mister-yummy.html",
+      "locator": "data/reference/official.json#/details/216/workLinks; catalog.js#/stories/138/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:the-bazaar-of-bad-dreams|work:tommy",
+      "id": "mem:000146",
+      "workId": "wrk:000210",
+      "collectionId": "col:000012",
+      "sourcePointer": "/stories/139/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/collection/bazaar-of-bad-dreams.html",
+      "locator": "data/migration/batch-02-review.json#/sources/5/confirmedMembershipPairs",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:the-bazaar-of-bad-dreams|work:little-green-god-of-agony",
+      "id": "mem:000147",
+      "workId": "wrk:000211",
+      "collectionId": "col:000012",
+      "sourcePointer": "/stories/140/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/little-green-god-of-agony.html",
+      "locator": "data/reference/official.json#/details/193/workLinks; catalog.js#/stories/140/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:the-bazaar-of-bad-dreams|work:that-bus-is-another-world",
+      "id": "mem:000148",
+      "workId": "wrk:000212",
+      "collectionId": "col:000012",
+      "sourcePointer": "/stories/141/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/that-bus-is-another-world.html",
+      "locator": "data/reference/official.json#/details/317/workLinks; catalog.js#/stories/141/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:the-bazaar-of-bad-dreams|work:obits",
+      "id": "mem:000149",
+      "workId": "wrk:000213",
+      "collectionId": "col:000012",
+      "sourcePointer": "/stories/142/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/obits.html",
+      "locator": "data/reference/official.json#/details/245/workLinks; catalog.js#/stories/142/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:the-bazaar-of-bad-dreams|work:drunken-fireworks",
+      "id": "mem:000150",
+      "workId": "wrk:000214",
+      "collectionId": "col:000012",
+      "sourcePointer": "/stories/143/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/drunken-fireworks.html",
+      "locator": "data/reference/official.json#/details/101/workLinks; catalog.js#/stories/143/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:the-bazaar-of-bad-dreams|work:summer-thunder",
+      "id": "mem:000151",
+      "workId": "wrk:000215",
+      "collectionId": "col:000012",
+      "sourcePointer": "/stories/144/collectionIds/0",
+      "category": "story-view",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/short/summer-thunder.html",
+      "locator": "data/reference/official.json#/details/310/workLinks; catalog.js#/stories/144/verifiedCollections",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:the-bachman-books|work:rage",
+      "id": "mem:000152",
+      "workId": "wrk:000006",
+      "collectionId": "col:000014",
+      "sourcePointer": "/books/80/containsWorks/0",
+      "category": "collected-novel",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/novel/bachman-books.html",
+      "locator": "data/migration/batch-02-review.json#/sources/2",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:the-bachman-books|work:the-long-walk",
+      "id": "mem:000153",
+      "workId": "wrk:000008",
+      "collectionId": "col:000014",
+      "sourcePointer": "/books/80/containsWorks/1",
+      "category": "collected-novel",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/novel/bachman-books.html",
+      "locator": "data/migration/batch-02-review.json#/sources/2",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:the-bachman-books|work:roadwork",
+      "id": "mem:000154",
+      "workId": "wrk:000011",
+      "collectionId": "col:000014",
+      "sourcePointer": "/books/80/containsWorks/2",
+      "category": "collected-novel",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/novel/bachman-books.html",
+      "locator": "data/migration/batch-02-review.json#/sources/2",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    },
+    {
+      "key": "work:collection:the-bachman-books|work:the-running-man",
+      "id": "mem:000155",
+      "workId": "wrk:000013",
+      "collectionId": "col:000014",
+      "sourcePointer": "/books/80/containsWorks/3",
+      "category": "collected-novel",
+      "verification": "source-supported",
+      "source": "https://stephenking.com/works/novel/bachman-books.html",
+      "locator": "data/migration/batch-02-review.json#/sources/2",
+      "orderVerified": false,
+      "editionScope": "unspecified",
+      "notes": "No claim about every translation or edition."
+    }
+  ],
+  "uncertainStoryRecords": [
+    {
+      "legacyStoryId": "stories:jerusalem-s-lot",
+      "workId": "wrk:000072",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:graveyard-shift",
+      "workId": "wrk:000073",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:night-surf",
+      "workId": "wrk:000074",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:i-am-the-doorway",
+      "workId": "wrk:000075",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-mangler",
+      "workId": "wrk:000076",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-boogeyman",
+      "workId": "wrk:000077",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:grey-matter",
+      "workId": "wrk:000078",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:battleground",
+      "workId": "wrk:000079",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:trucks",
+      "workId": "wrk:000080",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:sometimes-they-come-back",
+      "workId": "wrk:000081",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:strawberry-spring",
+      "workId": "wrk:000082",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-ledge",
+      "workId": "wrk:000083",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-lawnmower-man",
+      "workId": "wrk:000084",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:quitters-inc",
+      "workId": "wrk:000085",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:i-know-what-you-need",
+      "workId": "wrk:000086",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:children-of-the-corn",
+      "workId": "wrk:000087",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-last-rung-on-the-ladder",
+      "workId": "wrk:000088",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-man-who-loved-flowers",
+      "workId": "wrk:000089",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:one-for-the-road",
+      "workId": "wrk:000090",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-woman-in-the-room",
+      "workId": "wrk:000091",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:rita-hayworth-and-shawshank-redemption",
+      "workId": "wrk:000092",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:apt-pupil",
+      "workId": "wrk:000093",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-body",
+      "workId": "wrk:000094",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-breathing-method",
+      "workId": "wrk:000095",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-mist",
+      "workId": "wrk:000096",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:here-there-be-tygers",
+      "workId": "wrk:000097",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-monkey",
+      "workId": "wrk:000098",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:cain-rose-up",
+      "workId": "wrk:000099",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:mrs-todd-s-shortcut",
+      "workId": "wrk:000100",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-jaunt",
+      "workId": "wrk:000101",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-wedding-gig",
+      "workId": "wrk:000102",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:paranoid-a-chant",
+      "workId": "wrk:000103",
+      "open": [
+        "collectionMembership",
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-raft",
+      "workId": "wrk:000104",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:word-processor-of-the-gods",
+      "workId": "wrk:000105",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-man-who-would-not-shake-hands",
+      "workId": "wrk:000106",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:beachworld",
+      "workId": "wrk:000107",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-reaper-s-image",
+      "workId": "wrk:000108",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:nona",
+      "workId": "wrk:000109",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:for-owen",
+      "workId": "wrk:000110",
+      "open": [
+        "collectionMembership",
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:survivor-type",
+      "workId": "wrk:000111",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:uncle-otto-s-truck",
+      "workId": "wrk:000112",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:morning-deliveries-milkman-1",
+      "workId": "wrk:000113",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:big-wheels-a-tale-of-the-laundry-game-milkman-2",
+      "workId": "wrk:000114",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:gramma",
+      "workId": "wrk:000115",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-ballad-of-the-flexible-bullet",
+      "workId": "wrk:000116",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-reach",
+      "workId": "wrk:000117",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-langoliers",
+      "workId": "wrk:000118",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:secret-window-secret-garden",
+      "workId": "wrk:000119",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-library-policeman",
+      "workId": "wrk:000120",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-sun-dog",
+      "workId": "wrk:000121",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:dolan-s-cadillac",
+      "workId": "wrk:000122",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-end-of-the-whole-mess",
+      "workId": "wrk:000123",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:suffer-the-little-children",
+      "workId": "wrk:000124",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-night-flier",
+      "workId": "wrk:000125",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:popsy",
+      "workId": "wrk:000126",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:it-grows-on-you",
+      "workId": "wrk:000127",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:chattery-teeth",
+      "workId": "wrk:000128",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:dedication",
+      "workId": "wrk:000129",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-moving-finger",
+      "workId": "wrk:000130",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:sneakers",
+      "workId": "wrk:000131",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:you-know-they-got-a-hell-of-a-band",
+      "workId": "wrk:000132",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:home-delivery",
+      "workId": "wrk:000133",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:rainy-season",
+      "workId": "wrk:000134",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:my-pretty-pony",
+      "workId": "wrk:000135",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:sorry-right-number",
+      "workId": "wrk:000136",
+      "open": [
+        "collectionMembership",
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-ten-o-clock-people",
+      "workId": "wrk:000137",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:crouch-end",
+      "workId": "wrk:000138",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-house-on-maple-street",
+      "workId": "wrk:000139",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-fifth-quarter",
+      "workId": "wrk:000140",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-doctor-s-case",
+      "workId": "wrk:000141",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:umney-s-last-case",
+      "workId": "wrk:000142",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:head-down",
+      "workId": "wrk:000143",
+      "open": [
+        "collectionMembership",
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:brooklyn-august",
+      "workId": "wrk:000144",
+      "open": [
+        "collectionMembership",
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:low-men-in-yellow-coats",
+      "workId": "wrk:000145",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:hearts-in-atlantis",
+      "workId": "wrk:000146",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:blind-willie",
+      "workId": "wrk:000147",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:why-we-re-in-vietnam",
+      "workId": "wrk:000148",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:heavenly-shades-of-night-are-falling",
+      "workId": "wrk:000149",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:autopsy-room-four",
+      "workId": "wrk:000150",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-man-in-the-black-suit",
+      "workId": "wrk:000151",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:all-that-you-love-will-be-carried-away",
+      "workId": "wrk:000152",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-death-of-jack-hamilton",
+      "workId": "wrk:000153",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:in-the-deathroom",
+      "workId": "wrk:000154",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-little-sisters-of-eluria",
+      "workId": "wrk:000155",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:everything-s-eventual",
+      "workId": "wrk:000156",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:l-t-s-theory-of-pets",
+      "workId": "wrk:000157",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-road-virus-heads-north",
+      "workId": "wrk:000158",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:lunch-at-the-gotham-cafe",
+      "workId": "wrk:000159",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:that-feeling-you-can-only-say-what-it-is-in-french",
+      "workId": "wrk:000160",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:1408",
+      "workId": "wrk:000161",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:riding-the-bullet",
+      "workId": "wrk:000162",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:luckey-quarter",
+      "workId": "wrk:000163",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:willa",
+      "workId": "wrk:000164",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-gingerbread-girl",
+      "workId": "wrk:000165",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:harvey-s-dream",
+      "workId": "wrk:000166",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:rest-stop",
+      "workId": "wrk:000167",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:stationary-bike",
+      "workId": "wrk:000168",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-things-they-left-behind",
+      "workId": "wrk:000169",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:graduation-afternoon",
+      "workId": "wrk:000170",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:n",
+      "workId": "wrk:000171",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-cat-from-hell",
+      "workId": "wrk:000172",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-new-york-times-at-special-bargain-rates",
+      "workId": "wrk:000173",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:mute",
+      "workId": "wrk:000174",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:ayana",
+      "workId": "wrk:000175",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:a-very-tight-place",
+      "workId": "wrk:000176",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:1922",
+      "workId": "wrk:000177",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:big-driver",
+      "workId": "wrk:000178",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:fair-extension",
+      "workId": "wrk:000179",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:a-good-marriage",
+      "workId": "wrk:000180",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:under-the-weather",
+      "workId": "wrk:000181",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:mr-harrigan-s-phone",
+      "workId": "wrk:000182",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-life-of-chuck",
+      "workId": "wrk:000183",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:if-it-bleeds",
+      "workId": "wrk:000184",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:rat",
+      "workId": "wrk:000185",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:two-talented-bastids",
+      "workId": "wrk:000186",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-fifth-step",
+      "workId": "wrk:000187",
+      "open": [
+        "publicationDate",
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:willie-the-weirdo",
+      "workId": "wrk:000188",
+      "open": [
+        "publicationDate",
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:danny-coughlin-s-bad-dream",
+      "workId": "wrk:000189",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:finn",
+      "workId": "wrk:000190",
+      "open": [
+        "publicationDate",
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:on-slide-inn-road",
+      "workId": "wrk:000191",
+      "open": [
+        "publicationDate",
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:red-screen",
+      "workId": "wrk:000192",
+      "open": [
+        "publicationDate",
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-turbulence-expert",
+      "workId": "wrk:000193",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:laurie",
+      "workId": "wrk:000194",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:rattlesnakes",
+      "workId": "wrk:000195",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-dreamers",
+      "workId": "wrk:000196",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-answer-man",
+      "workId": "wrk:000197",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:mile-81",
+      "workId": "wrk:000198",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:premium-harmony",
+      "workId": "wrk:000199",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:batman-and-robin-have-an-altercation",
+      "workId": "wrk:000200",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-dune",
+      "workId": "wrk:000201",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:bad-little-kid",
+      "workId": "wrk:000202",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:a-death",
+      "workId": "wrk:000203",
+      "open": [
+        "publicationDate",
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-bone-church",
+      "workId": "wrk:000204",
+      "open": [
+        "collectionMembership",
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:morality",
+      "workId": "wrk:000205",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:afterlife",
+      "workId": "wrk:000206",
+      "open": [
+        "publicationDate",
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:ur",
+      "workId": "wrk:000207",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:herman-wouk-is-still-alive",
+      "workId": "wrk:000208",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:blockade-billy",
+      "workId": "wrk:000068",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:mister-yummy",
+      "workId": "wrk:000209",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:tommy",
+      "workId": "wrk:000210",
+      "open": [
+        "collectionMembership",
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:little-green-god-of-agony",
+      "workId": "wrk:000211",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:that-bus-is-another-world",
+      "workId": "wrk:000212",
+      "open": [
+        "publicationDate",
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:obits",
+      "workId": "wrk:000213",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:drunken-fireworks",
+      "workId": "wrk:000214",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:summer-thunder",
+      "workId": "wrk:000215",
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:a-face-in-the-crowd",
+      "workId": "wrk:000216",
+      "open": [
+        "publicationDate",
+        "collectionMembership",
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:before-the-play",
+      "workId": "wrk:000217",
+      "open": [
+        "publicationDate",
+        "collectionMembership",
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-blue-air-compressor",
+      "workId": "wrk:000218",
+      "open": [
+        "collectionMembership",
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:cookie-jar",
+      "workId": "wrk:000219",
+      "open": [
+        "publicationDate",
+        "collectionMembership",
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-crate",
+      "workId": "wrk:000220",
+      "open": [
+        "collectionMembership",
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:dinah-s-hat",
+      "workId": "wrk:000221",
+      "open": [
+        "publicationDate",
+        "collectionMembership",
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:elevation",
+      "workId": "wrk:000059",
+      "open": [
+        "collectionMembership",
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-extra-hour",
+      "workId": "wrk:000222",
+      "open": [
+        "publicationDate",
+        "collectionMembership",
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:father-s-day",
+      "workId": "wrk:000223",
+      "open": [
+        "publicationDate",
+        "collectionMembership",
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-glass-floor",
+      "workId": "wrk:000224",
+      "open": [
+        "publicationDate",
+        "collectionMembership",
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:gwendy-s-button-box",
+      "workId": "wrk:000057",
+      "open": [
+        "collectionMembership",
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:in-the-tall-grass",
+      "workId": "wrk:000225",
+      "open": [
+        "collectionMembership",
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:jumper",
+      "workId": "wrk:000226",
+      "open": [
+        "publicationDate",
+        "collectionMembership",
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-lonesome-death-of-jordy-verrill",
+      "workId": "wrk:000227",
+      "open": [
+        "publicationDate",
+        "collectionMembership",
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:man-with-a-belly",
+      "workId": "wrk:000228",
+      "open": [
+        "publicationDate",
+        "collectionMembership",
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:memory",
+      "workId": "wrk:000229",
+      "open": [
+        "publicationDate",
+        "collectionMembership",
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-music-room",
+      "workId": "wrk:000230",
+      "open": [
+        "collectionMembership",
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-night-of-the-tiger",
+      "workId": "wrk:000231",
+      "open": [
+        "collectionMembership",
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-old-dude-s-ticker",
+      "workId": "wrk:000232",
+      "open": [
+        "publicationDate",
+        "collectionMembership",
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-reploids",
+      "workId": "wrk:000233",
+      "open": [
+        "collectionMembership",
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-revelations-of-becka-paulson",
+      "workId": "wrk:000234",
+      "open": [
+        "collectionMembership",
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:rush-call",
+      "workId": "wrk:000235",
+      "open": [
+        "collectionMembership",
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:something-to-tide-you-over",
+      "workId": "wrk:000236",
+      "open": [
+        "publicationDate",
+        "collectionMembership",
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:the-tale-of-gray-dick",
+      "workId": "wrk:000237",
+      "open": [
+        "collectionMembership",
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:they-re-creeping-up-on-you",
+      "workId": "wrk:000238",
+      "open": [
+        "publicationDate",
+        "collectionMembership",
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:thin-scenery",
+      "workId": "wrk:000239",
+      "open": [
+        "publicationDate",
+        "collectionMembership",
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:throttle",
+      "workId": "wrk:000240",
+      "open": [
+        "collectionMembership",
+        "firstPublicationHistory"
+      ]
+    },
+    {
+      "legacyStoryId": "stories:weeds",
+      "workId": "wrk:000241",
+      "open": [
+        "collectionMembership",
+        "firstPublicationHistory"
+      ]
+    }
+  ],
+  "definitions": {
+    "identity": "One frozen legacy workId maps to one canonical work regardless of collection count.",
+    "membership": "One distinct collectionId/workId pair, not one edition or one publication.",
+    "order": "All null: array/display order is not certified contents order.",
+    "sourceSupported": "Direct preserved official detail link plus existing checked collection field, or targeted official collection review, including edition-specific restrictions. Not independent confirmation.",
+    "noCollection": "28 views have no registered collection; no assertion that they were never collected."
+  }
+}
