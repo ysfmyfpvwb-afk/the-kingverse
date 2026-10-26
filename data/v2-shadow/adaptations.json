@@ -1,1 +1,7214 @@
-[]
+[
+  {
+    "id": "adp:000001",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:004866",
+        "clm:004867",
+        "clm:004868",
+        "clm:004869",
+        "clm:004870",
+        "clm:004871",
+        "clm:004872",
+        "clm:004873",
+        "clm:004874",
+        "clm:004875",
+        "clm:004876",
+        "clm:004877",
+        "clm:004878"
+      ],
+      "open": [
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "A Good Marriage",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "2014-10-03",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-26",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:004870"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 2014,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "Peter Askin",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/a-good-marriage.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "distributor",
+        "name": "Screen Media Films",
+        "sourceUrl": "https://stephenking.com/works/movie/a-good-marriage.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000002",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:004895",
+        "clm:004896",
+        "clm:004897",
+        "clm:004898",
+        "clm:004899",
+        "clm:004900",
+        "clm:004901",
+        "clm:004902",
+        "clm:004903",
+        "clm:004904",
+        "clm:004905",
+        "clm:004906",
+        "clm:004907"
+      ],
+      "open": [
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "Apt Pupil",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "1998-10-23",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:004899"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 1998,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "Bryan Singer",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/apt-pupil.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "distributor",
+        "name": "Sony Pictures/Tristar",
+        "sourceUrl": "https://stephenking.com/works/movie/apt-pupil.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000003",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:004915",
+        "clm:004916",
+        "clm:004917",
+        "clm:004918",
+        "clm:004919",
+        "clm:004920",
+        "clm:004921",
+        "clm:004922",
+        "clm:004923",
+        "clm:004924",
+        "clm:004925",
+        "clm:004926",
+        "clm:004927"
+      ],
+      "open": [
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "The Boogeyman",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "2023-06-02",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:004919"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 2023,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "Rob Savage",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/boogeyman.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "distributor",
+        "name": "20th Century Studios",
+        "sourceUrl": "https://stephenking.com/works/movie/boogeyman.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000004",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:004935",
+        "clm:004936",
+        "clm:004937",
+        "clm:004938",
+        "clm:004939",
+        "clm:004940",
+        "clm:004941",
+        "clm:004942",
+        "clm:004943",
+        "clm:004944",
+        "clm:004945",
+        "clm:004946",
+        "clm:004947"
+      ],
+      "open": [
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "Carrie",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "1976-11-03",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:004939"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 1976,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "Brian De Palma",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/carrie.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "distributor",
+        "name": "United Artists",
+        "sourceUrl": "https://stephenking.com/works/movie/carrie.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000005",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:004955",
+        "clm:004956",
+        "clm:004957",
+        "clm:004958",
+        "clm:004959",
+        "clm:004960",
+        "clm:004961",
+        "clm:004962",
+        "clm:004963",
+        "clm:004964",
+        "clm:004965",
+        "clm:004966",
+        "clm:004967"
+      ],
+      "open": [
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "Cat's Eye",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "1985-04-12",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:004959"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 1985,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "Lewis Teague",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/cats-eye.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "distributor",
+        "name": "MGM/UA Entertainment Company",
+        "sourceUrl": "https://stephenking.com/works/movie/cats-eye.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000006",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:004975",
+        "clm:004976",
+        "clm:004977",
+        "clm:004978",
+        "clm:004979",
+        "clm:004980",
+        "clm:004981",
+        "clm:004982",
+        "clm:004983",
+        "clm:004984",
+        "clm:004985",
+        "clm:004986",
+        "clm:004987"
+      ],
+      "open": [
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage",
+        "makerNameEncodingConflict"
+      ]
+    },
+    "title": "Cell",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "2016-07-08",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:004979"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 2016,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "Tod �Kip� Williams",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/cell.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000007",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:004995",
+        "clm:004996",
+        "clm:004997",
+        "clm:004998",
+        "clm:004999",
+        "clm:005000",
+        "clm:005001",
+        "clm:005002",
+        "clm:005003",
+        "clm:005004",
+        "clm:005005",
+        "clm:005006",
+        "clm:005007"
+      ],
+      "open": [
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "Children of the Corn",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "1984-03-09",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:004999"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 1984,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "Fritz Kiersch",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/children-of-the-corn.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "distributor",
+        "name": "New World Pictures",
+        "sourceUrl": "https://stephenking.com/works/movie/children-of-the-corn.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000008",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:005015",
+        "clm:005016",
+        "clm:005017",
+        "clm:005018",
+        "clm:005019",
+        "clm:005020",
+        "clm:005021",
+        "clm:005022",
+        "clm:005023",
+        "clm:005024",
+        "clm:005025",
+        "clm:005026",
+        "clm:005027"
+      ],
+      "open": [
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "Christine",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "1983-12-09",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:005019"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 1983,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "John Carpenter",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/christine.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "distributor",
+        "name": "Columbia Pictures Corporation",
+        "sourceUrl": "https://stephenking.com/works/movie/christine.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000009",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:005035",
+        "clm:005036",
+        "clm:005037",
+        "clm:005038",
+        "clm:005039",
+        "clm:005040",
+        "clm:005041",
+        "clm:005042",
+        "clm:005043",
+        "clm:005044",
+        "clm:005045",
+        "clm:005046",
+        "clm:005047"
+      ],
+      "open": [
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "Creepshow",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "1982-11-10",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-26",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:005039"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 1982,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "George Romero",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/creepshow.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "distributor",
+        "name": "Warner Bros. Pictures",
+        "sourceUrl": "https://stephenking.com/works/movie/creepshow.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": true,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000010",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:005055",
+        "clm:005056",
+        "clm:005057",
+        "clm:005058",
+        "clm:005059",
+        "clm:005060",
+        "clm:005061",
+        "clm:005062",
+        "clm:005063",
+        "clm:005064",
+        "clm:005065",
+        "clm:005066",
+        "clm:005067"
+      ],
+      "open": [
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "Creepshow 2",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "1987-05-01",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:005059"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 1987,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "Michael Gornick",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/creepshow-2.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "distributor",
+        "name": "New World Pictures",
+        "sourceUrl": "https://stephenking.com/works/movie/creepshow-2.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000011",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:005075",
+        "clm:005076",
+        "clm:005077",
+        "clm:005078",
+        "clm:005079",
+        "clm:005080",
+        "clm:005081",
+        "clm:005082",
+        "clm:005083",
+        "clm:005084",
+        "clm:005085",
+        "clm:005086",
+        "clm:005087"
+      ],
+      "open": [
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "Cujo",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "1983-08-12",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:005079"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 1983,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "Lewis Teague",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/cujo.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "distributor",
+        "name": "Warner Bros. Pictures",
+        "sourceUrl": "https://stephenking.com/works/movie/cujo.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000012",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:005095",
+        "clm:005096",
+        "clm:005097",
+        "clm:005098",
+        "clm:005099",
+        "clm:005100",
+        "clm:005101",
+        "clm:005102",
+        "clm:005103",
+        "clm:005104",
+        "clm:005105",
+        "clm:005106",
+        "clm:005107"
+      ],
+      "open": [
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "The Dark Half",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "1993-04-23",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:005099"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 1993,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "George A. Romero",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/dark-half.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "distributor",
+        "name": "Orion Pictures Corporation",
+        "sourceUrl": "https://stephenking.com/works/movie/dark-half.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000013",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:005115",
+        "clm:005116",
+        "clm:005117",
+        "clm:005118",
+        "clm:005119",
+        "clm:005120",
+        "clm:005121",
+        "clm:005122",
+        "clm:005123",
+        "clm:005124",
+        "clm:005125",
+        "clm:005126",
+        "clm:005127"
+      ],
+      "open": [
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "The Dark Tower",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "2017-08-04",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:005119"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 2017,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "Nikolaj Arcel",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/dark-tower.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "distributor",
+        "name": "Sony",
+        "sourceUrl": "https://stephenking.com/works/movie/dark-tower.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000014",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:005135",
+        "clm:005136",
+        "clm:005137",
+        "clm:005138",
+        "clm:005139",
+        "clm:005140",
+        "clm:005141",
+        "clm:005142",
+        "clm:005143",
+        "clm:005144",
+        "clm:005145",
+        "clm:005146",
+        "clm:005147"
+      ],
+      "open": [
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "The Dead Zone",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "1983-10-21",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:005139"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 1983,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "David Cronenberg",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/dead-zone.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "distributor",
+        "name": "Paramount Pictures",
+        "sourceUrl": "https://stephenking.com/works/movie/dead-zone.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000015",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:005155",
+        "clm:005156",
+        "clm:005157",
+        "clm:005158",
+        "clm:005159",
+        "clm:005160",
+        "clm:005161",
+        "clm:005162",
+        "clm:005163",
+        "clm:005164",
+        "clm:005165",
+        "clm:005166",
+        "clm:005167"
+      ],
+      "open": [
+        "sourceRelationship",
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "Doctor Sleep",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "2019-11-08",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:005159"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 2019,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "Mike Flanagan",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/doctor-sleep.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000016",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:005175",
+        "clm:005176",
+        "clm:005177",
+        "clm:005178",
+        "clm:005179",
+        "clm:005180",
+        "clm:005181",
+        "clm:005182",
+        "clm:005183",
+        "clm:005184",
+        "clm:005185",
+        "clm:005186",
+        "clm:005187"
+      ],
+      "open": [
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "Dolan's Cadillac",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "2009-07-01",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:005179"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 2009,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "Jeff Beesley",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/dolans-cadillac.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "distributor",
+        "name": "G2 Pictures, Film Bridge International",
+        "sourceUrl": "https://stephenking.com/works/movie/dolans-cadillac.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000017",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:005195",
+        "clm:005196",
+        "clm:005197",
+        "clm:005198",
+        "clm:005199",
+        "clm:005200",
+        "clm:005201",
+        "clm:005202",
+        "clm:005203",
+        "clm:005204",
+        "clm:005205",
+        "clm:005206",
+        "clm:005207"
+      ],
+      "open": [
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "Dolores Claiborne",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "1995-03-24",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:005199"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 1995,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "Taylor Hackford",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/dolores-claiborne.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "distributor",
+        "name": "Columbia Pictures Corporation",
+        "sourceUrl": "https://stephenking.com/works/movie/dolores-claiborne.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000018",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:005215",
+        "clm:005216",
+        "clm:005217",
+        "clm:005218",
+        "clm:005219",
+        "clm:005220",
+        "clm:005221",
+        "clm:005222",
+        "clm:005223",
+        "clm:005224",
+        "clm:005225",
+        "clm:005226",
+        "clm:005227"
+      ],
+      "open": [
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "Dreamcatcher",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "2003-03-06",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:005219"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 2003,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "Lawrence Kasdan",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/dreamcatcher.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "distributor",
+        "name": "Warner Bros. Pictures",
+        "sourceUrl": "https://stephenking.com/works/movie/dreamcatcher.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000019",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:005235",
+        "clm:005236",
+        "clm:005237",
+        "clm:005238",
+        "clm:005239",
+        "clm:005240",
+        "clm:005241",
+        "clm:005242",
+        "clm:005243",
+        "clm:005244",
+        "clm:005245",
+        "clm:005246",
+        "clm:005247"
+      ],
+      "open": [
+        "sharedSourceUrlCollision",
+        "sourceRelationship",
+        "cast",
+        "directorOrShowrunner",
+        "remainingLegacyFieldsNotMigrated"
+      ]
+    },
+    "title": "Firestarter",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "1984-05-11",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-26",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:005239"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 1984,
+    "countries": [
+      "US"
+    ],
+    "originalLanguages": [
+      "en"
+    ],
+    "makerObservations": [],
+    "distribution": [],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000020",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:005253",
+        "clm:005254",
+        "clm:005255",
+        "clm:005256",
+        "clm:005257",
+        "clm:005258",
+        "clm:005259",
+        "clm:005260",
+        "clm:005261",
+        "clm:005262",
+        "clm:005263",
+        "clm:005264",
+        "clm:005265"
+      ],
+      "open": [
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "Firestarter",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "2022-05-13",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-26",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:005257"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 2022,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "Keith Thomas",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/firestarter.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "distributor",
+        "name": "Universal, Peacock",
+        "sourceUrl": "https://stephenking.com/works/movie/firestarter.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000021",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:005278",
+        "clm:005279",
+        "clm:005280",
+        "clm:005281",
+        "clm:005282",
+        "clm:005283",
+        "clm:005284",
+        "clm:005285",
+        "clm:005286",
+        "clm:005287",
+        "clm:005288",
+        "clm:005289",
+        "clm:005290"
+      ],
+      "open": [
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "Gerald's Game",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "2017-09-29",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:005282"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 2017,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "Mike Flanagan",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/geralds-game.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "distributor",
+        "name": "Netflix",
+        "sourceUrl": "https://stephenking.com/works/movie/geralds-game.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000022",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:005298",
+        "clm:005299",
+        "clm:005300",
+        "clm:005301",
+        "clm:005302",
+        "clm:005303",
+        "clm:005304",
+        "clm:005305",
+        "clm:005306",
+        "clm:005307",
+        "clm:005308",
+        "clm:005309",
+        "clm:005310"
+      ],
+      "open": [
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "Graveyard Shift",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "1990-10-26",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:005302"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 1990,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "Ralph S. Singleton",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/graveyard-shift.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "distributor",
+        "name": "Paramount Pictures",
+        "sourceUrl": "https://stephenking.com/works/movie/graveyard-shift.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000023",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:005318",
+        "clm:005319",
+        "clm:005320",
+        "clm:005321",
+        "clm:005322",
+        "clm:005323",
+        "clm:005324",
+        "clm:005325",
+        "clm:005326",
+        "clm:005327",
+        "clm:005328",
+        "clm:005329",
+        "clm:005330"
+      ],
+      "open": [
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "The Green Mile",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "1999-12-06",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:005322"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 1999,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "Frank Darabont",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/green-mile.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "distributor",
+        "name": "Warner Bros. Pictures",
+        "sourceUrl": "https://stephenking.com/works/movie/green-mile.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000024",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:005338",
+        "clm:005339",
+        "clm:005340",
+        "clm:005341",
+        "clm:005342",
+        "clm:005343",
+        "clm:005344",
+        "clm:005345",
+        "clm:005346",
+        "clm:005347",
+        "clm:005348",
+        "clm:005349",
+        "clm:005350"
+      ],
+      "open": [
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "Hearts in Atlantis",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "2001-09-28",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-26",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:005342"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 2001,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "Scott Hicks",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/hearts-in-atlantis.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "distributor",
+        "name": "Warner Bros. Pictures",
+        "sourceUrl": "https://stephenking.com/works/movie/hearts-in-atlantis.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000025",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:005358",
+        "clm:005359",
+        "clm:005360",
+        "clm:005361",
+        "clm:005362",
+        "clm:005363",
+        "clm:005364",
+        "clm:005365",
+        "clm:005366",
+        "clm:005367",
+        "clm:005368",
+        "clm:005369",
+        "clm:005370"
+      ],
+      "open": [
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "In the Tall Grass",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "2019-10-04",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:005362"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 2019,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "Vincenzo Natali",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/in-the-tall-grass.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "distributor",
+        "name": "Netflix",
+        "sourceUrl": "https://stephenking.com/works/movie/in-the-tall-grass.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000026",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:005378",
+        "clm:005379",
+        "clm:005380",
+        "clm:005381",
+        "clm:005382",
+        "clm:005383",
+        "clm:005384",
+        "clm:005385",
+        "clm:005386",
+        "clm:005387",
+        "clm:005388",
+        "clm:005389",
+        "clm:005390"
+      ],
+      "open": [
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage",
+        "makerNameEncodingConflict"
+      ]
+    },
+    "title": "IT",
+    "aliases": [
+      {
+        "language": "en",
+        "value": "IT - Part 1: The Losers' Club",
+        "spoiler": {
+          "level": "none",
+          "workIds": []
+        }
+      }
+    ],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "2017-09-08",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:005382"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 2017,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "Andr�s Muschietti",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/it-part-1-the-losers-club.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000027",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:005398",
+        "clm:005399",
+        "clm:005400",
+        "clm:005401",
+        "clm:005402",
+        "clm:005403",
+        "clm:005404",
+        "clm:005405",
+        "clm:005406",
+        "clm:005407",
+        "clm:005408",
+        "clm:005409",
+        "clm:005410"
+      ],
+      "open": [
+        "sourceRelationship",
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage",
+        "makerNameEncodingConflict"
+      ]
+    },
+    "title": "IT Chapter Two",
+    "aliases": [
+      {
+        "language": "en",
+        "value": "IT: Chapter Two",
+        "spoiler": {
+          "level": "none",
+          "workIds": []
+        }
+      }
+    ],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "2019-09-06",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:005402"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 2019,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "Andr�s Muschietti",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/it-chapter-two.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000028",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:005418",
+        "clm:005419",
+        "clm:005420",
+        "clm:005421",
+        "clm:005422",
+        "clm:005423",
+        "clm:005424",
+        "clm:005425",
+        "clm:005426",
+        "clm:005427",
+        "clm:005428",
+        "clm:005429",
+        "clm:005430"
+      ],
+      "open": [
+        "sourceRelationship",
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "The Life of Chuck",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "2024-09-06",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:005422"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 2024,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "Mike Flanagan",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/life-of-chuck.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "distributor",
+        "name": "Neon",
+        "sourceUrl": "https://stephenking.com/works/movie/life-of-chuck.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000029",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:005438",
+        "clm:005439",
+        "clm:005440",
+        "clm:005441",
+        "clm:005442",
+        "clm:005443",
+        "clm:005444",
+        "clm:005445",
+        "clm:005446",
+        "clm:005447",
+        "clm:005448",
+        "clm:005449",
+        "clm:005450"
+      ],
+      "open": [
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "The Long Walk",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "2025-09-12",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:005442"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 2025,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "Francis Lawrence",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/long-walk.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "distributor",
+        "name": "Lionsgate",
+        "sourceUrl": "https://stephenking.com/works/movie/long-walk.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000030",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:005458",
+        "clm:005459",
+        "clm:005460",
+        "clm:005461",
+        "clm:005462",
+        "clm:005463",
+        "clm:005464",
+        "clm:005465",
+        "clm:005466",
+        "clm:005467",
+        "clm:005468",
+        "clm:005469",
+        "clm:005470"
+      ],
+      "open": [
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "The Mangler",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "1995-03-03",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:005462"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 1995,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "Tobe Hooper",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/mangler.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "distributor",
+        "name": "New Line Cinema",
+        "sourceUrl": "https://stephenking.com/works/movie/mangler.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000031",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:005478",
+        "clm:005479",
+        "clm:005480",
+        "clm:005481",
+        "clm:005482",
+        "clm:005483",
+        "clm:005484",
+        "clm:005485",
+        "clm:005486",
+        "clm:005487",
+        "clm:005488",
+        "clm:005489",
+        "clm:005490"
+      ],
+      "open": [
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "Maximum Overdrive",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "1986-07-25",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:005482"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 1986,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "Stephen King",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/maximum-overdrive.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "distributor",
+        "name": "De Laurentiis Entertainment Group",
+        "sourceUrl": "https://stephenking.com/works/movie/maximum-overdrive.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000032",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:005498",
+        "clm:005499",
+        "clm:005500",
+        "clm:005501",
+        "clm:005502",
+        "clm:005503",
+        "clm:005504",
+        "clm:005505",
+        "clm:005506",
+        "clm:005507",
+        "clm:005508",
+        "clm:005509",
+        "clm:005510"
+      ],
+      "open": [
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "Misery",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "1990-11-30",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:005502"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 1990,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "Rob Reiner",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/misery.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "distributor",
+        "name": "Columbia Pictures",
+        "sourceUrl": "https://stephenking.com/works/movie/misery.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000033",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:005518",
+        "clm:005519",
+        "clm:005520",
+        "clm:005521",
+        "clm:005522",
+        "clm:005523",
+        "clm:005524",
+        "clm:005525",
+        "clm:005526",
+        "clm:005527",
+        "clm:005528",
+        "clm:005529",
+        "clm:005530"
+      ],
+      "open": [
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "The Mist",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "2007-11-21",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:005522"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 2007,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "Frank Darabont",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/mist.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "distributor",
+        "name": "The Weinstein Company",
+        "sourceUrl": "https://stephenking.com/works/movie/mist.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000034",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:005538",
+        "clm:005539",
+        "clm:005540",
+        "clm:005541",
+        "clm:005542",
+        "clm:005543",
+        "clm:005544",
+        "clm:005545",
+        "clm:005546",
+        "clm:005547",
+        "clm:005548",
+        "clm:005549",
+        "clm:005550"
+      ],
+      "open": [
+        "sourceRelationship",
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "The Monkey",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "2025-02-21",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:005542"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 2025,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "Osgood Perkins",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/monkey.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "distributor",
+        "name": "Neon",
+        "sourceUrl": "https://stephenking.com/works/movie/monkey.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000035",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:005558",
+        "clm:005559",
+        "clm:005560",
+        "clm:005561",
+        "clm:005562",
+        "clm:005563",
+        "clm:005564",
+        "clm:005565",
+        "clm:005566",
+        "clm:005567",
+        "clm:005568",
+        "clm:005569",
+        "clm:005570"
+      ],
+      "open": [
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "Mr. Harrigan's Phone",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "2022-10-05",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:005562"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 2022,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "John Lee Hancock",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/mr-harrigans-phone.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "distributor",
+        "name": "Netflix",
+        "sourceUrl": "https://stephenking.com/works/movie/mr-harrigans-phone.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000036",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:005578",
+        "clm:005579",
+        "clm:005580",
+        "clm:005581",
+        "clm:005582",
+        "clm:005583",
+        "clm:005584",
+        "clm:005585",
+        "clm:005586",
+        "clm:005587",
+        "clm:005588",
+        "clm:005589",
+        "clm:005590"
+      ],
+      "open": [
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "Needful Things",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "1993-08-27",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:005582"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 1993,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "Fraser Clarke Heston",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/needful-things.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000037",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:005598",
+        "clm:005599",
+        "clm:005600",
+        "clm:005601",
+        "clm:005602",
+        "clm:005603",
+        "clm:005604",
+        "clm:005605",
+        "clm:005606",
+        "clm:005607",
+        "clm:005608",
+        "clm:005609",
+        "clm:005610"
+      ],
+      "open": [
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "The Night Flier",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "1997-11-15",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:005602"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 1997,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "Mark Pavia",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/night-flier.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "distributor",
+        "name": "United Paramount Network",
+        "sourceUrl": "https://stephenking.com/works/movie/night-flier.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000038",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:005618",
+        "clm:005619",
+        "clm:005620",
+        "clm:005621",
+        "clm:005622",
+        "clm:005623",
+        "clm:005624",
+        "clm:005625",
+        "clm:005626",
+        "clm:005627",
+        "clm:005628",
+        "clm:005629",
+        "clm:005630"
+      ],
+      "open": [
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "Pet Sematary",
+    "aliases": [
+      {
+        "language": "en",
+        "value": "Pet Sematary (1989)",
+        "spoiler": {
+          "level": "none",
+          "workIds": []
+        }
+      }
+    ],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "1989-04-21",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-26",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:005622"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 1989,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "Mary Lambert",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/pet-sematary-(1989).html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "distributor",
+        "name": "Paramount Pictures",
+        "sourceUrl": "https://stephenking.com/works/movie/pet-sematary-(1989).html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000039",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:005643",
+        "clm:005644",
+        "clm:005645",
+        "clm:005646",
+        "clm:005647",
+        "clm:005648",
+        "clm:005649",
+        "clm:005650",
+        "clm:005651",
+        "clm:005652",
+        "clm:005653",
+        "clm:005654",
+        "clm:005655"
+      ],
+      "open": [
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage",
+        "makerNameEncodingConflict"
+      ]
+    },
+    "title": "Pet Sematary",
+    "aliases": [
+      {
+        "language": "en",
+        "value": "Pet Sematary (2019)",
+        "spoiler": {
+          "level": "none",
+          "workIds": []
+        }
+      }
+    ],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "2019-04-05",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-26",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:005647"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 2019,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "Kevin K�lsch, Dennis Widmyer",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/pet-sematary-(2019).html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "distributor",
+        "name": "Paramount Pictures",
+        "sourceUrl": "https://stephenking.com/works/movie/pet-sematary-(2019).html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000040",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:005673",
+        "clm:005674",
+        "clm:005675",
+        "clm:005676",
+        "clm:005677",
+        "clm:005678",
+        "clm:005679",
+        "clm:005680",
+        "clm:005681",
+        "clm:005682",
+        "clm:005683",
+        "clm:005684",
+        "clm:005685"
+      ],
+      "open": [
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "Riding the Bullet",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "2004-10-15",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:005677"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 2004,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "Mick Garris",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/riding-the-bullet.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "distributor",
+        "name": "Lions Gate Films",
+        "sourceUrl": "https://stephenking.com/works/movie/riding-the-bullet.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000041",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:005693",
+        "clm:005694",
+        "clm:005695",
+        "clm:005696",
+        "clm:005697",
+        "clm:005698",
+        "clm:005699",
+        "clm:005700",
+        "clm:005701",
+        "clm:005702",
+        "clm:005703",
+        "clm:005704",
+        "clm:005705"
+      ],
+      "open": [
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "The Running Man",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "1987-11-13",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:005697"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 1987,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "Paul Michael Glaser",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/running-man.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "distributor",
+        "name": "TriStar Pictures",
+        "sourceUrl": "https://stephenking.com/works/movie/running-man.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000042",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:005713",
+        "clm:005714",
+        "clm:005715",
+        "clm:005716",
+        "clm:005717",
+        "clm:005718",
+        "clm:005719",
+        "clm:005720",
+        "clm:005721",
+        "clm:005722",
+        "clm:005723",
+        "clm:005724",
+        "clm:005725"
+      ],
+      "open": [
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "The Running Man",
+    "aliases": [
+      {
+        "language": "en",
+        "value": "The Running Man (2025)",
+        "spoiler": {
+          "level": "none",
+          "workIds": []
+        }
+      }
+    ],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "2025-11-14",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:005717"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 2025,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "Edgar Wright",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/running-man-(2025).html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "distributor",
+        "name": "Paramount Pictures",
+        "sourceUrl": "https://stephenking.com/works/movie/running-man-(2025).html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000043",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:005733",
+        "clm:005734",
+        "clm:005735",
+        "clm:005736",
+        "clm:005737",
+        "clm:005738",
+        "clm:005739",
+        "clm:005740",
+        "clm:005741",
+        "clm:005742",
+        "clm:005743",
+        "clm:005744",
+        "clm:005745"
+      ],
+      "open": [
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "'Salem's Lot",
+    "aliases": [
+      {
+        "language": "en",
+        "value": "Salem's Lot",
+        "spoiler": {
+          "level": "none",
+          "workIds": []
+        }
+      }
+    ],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "2024-10-03",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:005737"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 2024,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "Gary Dauberman",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/salems-lot.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "distributor",
+        "name": "Warner Bros., New Line Cinema",
+        "sourceUrl": "https://stephenking.com/works/movie/salems-lot.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000044",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:005753",
+        "clm:005754",
+        "clm:005755",
+        "clm:005756",
+        "clm:005757",
+        "clm:005758",
+        "clm:005759",
+        "clm:005760",
+        "clm:005761",
+        "clm:005762",
+        "clm:005763",
+        "clm:005764",
+        "clm:005765"
+      ],
+      "open": [
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "Secret Window",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "2004-03-12",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:005757"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 2004,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "David Koepp",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/secret-window.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "distributor",
+        "name": "Sony Pictures Entertainment",
+        "sourceUrl": "https://stephenking.com/works/movie/secret-window.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000045",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:005773",
+        "clm:005774",
+        "clm:005775",
+        "clm:005776",
+        "clm:005777",
+        "clm:005778",
+        "clm:005779",
+        "clm:005780",
+        "clm:005781",
+        "clm:005782",
+        "clm:005783",
+        "clm:005784",
+        "clm:005785"
+      ],
+      "open": [
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "The Shawshank Redemption",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "1994-09-23",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:005777"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 1994,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "Frank Darabont",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/shawshank-redemption.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "distributor",
+        "name": "Columbia Pictures",
+        "sourceUrl": "https://stephenking.com/works/movie/shawshank-redemption.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000046",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:005793",
+        "clm:005794",
+        "clm:005795",
+        "clm:005796",
+        "clm:005797",
+        "clm:005798",
+        "clm:005799",
+        "clm:005800",
+        "clm:005801",
+        "clm:005802",
+        "clm:005803",
+        "clm:005804",
+        "clm:005805"
+      ],
+      "open": [
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "The Shining",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "1980-05-23",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:005797"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 1980,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "Stanley Kubrick",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/shining.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "distributor",
+        "name": "Warner Bros. Pictures",
+        "sourceUrl": "https://stephenking.com/works/movie/shining.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000047",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:005813",
+        "clm:005814",
+        "clm:005815",
+        "clm:005816",
+        "clm:005817",
+        "clm:005818",
+        "clm:005819",
+        "clm:005820",
+        "clm:005821",
+        "clm:005822",
+        "clm:005823",
+        "clm:005824",
+        "clm:005825"
+      ],
+      "open": [
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "Silver Bullet",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "1985-10-11",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:005817"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 1985,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "Daniel Attias",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/silver-bullet.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "distributor",
+        "name": "Paramount Pictures",
+        "sourceUrl": "https://stephenking.com/works/movie/silver-bullet.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000048",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:005833",
+        "clm:005834",
+        "clm:005835",
+        "clm:005836",
+        "clm:005837",
+        "clm:005838",
+        "clm:005839",
+        "clm:005840",
+        "clm:005841",
+        "clm:005842",
+        "clm:005843",
+        "clm:005844",
+        "clm:005845"
+      ],
+      "open": [
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "Stand by Me",
+    "aliases": [
+      {
+        "language": "en",
+        "value": "Stand By Me",
+        "spoiler": {
+          "level": "none",
+          "workIds": []
+        }
+      }
+    ],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "1986-08-08",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:005837"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 1986,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "Rob Reiner",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/stand-by-me.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "distributor",
+        "name": "Columbia Pictures",
+        "sourceUrl": "https://stephenking.com/works/movie/stand-by-me.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000049",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:005853",
+        "clm:005854",
+        "clm:005855",
+        "clm:005856",
+        "clm:005857",
+        "clm:005858",
+        "clm:005859",
+        "clm:005860",
+        "clm:005861",
+        "clm:005862",
+        "clm:005863",
+        "clm:005864",
+        "clm:005865"
+      ],
+      "open": [
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "Thinner",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "1996-10-25",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:005857"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 1996,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "Tom Holland",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/thinner.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "distributor",
+        "name": "Paramount Pictures",
+        "sourceUrl": "https://stephenking.com/works/movie/thinner.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000050",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:005873",
+        "clm:005874",
+        "clm:005875",
+        "clm:005876",
+        "clm:005877",
+        "clm:005878",
+        "clm:005879",
+        "clm:005880",
+        "clm:005881",
+        "clm:005882",
+        "clm:005883",
+        "clm:005884",
+        "clm:005885"
+      ],
+      "open": [
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "1408",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "2007-06-12",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:005877"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 2007,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "Mikael Hafstrom",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/1408.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "distributor",
+        "name": "The Weinstein Company/Metro-Goldwyn-Mayer",
+        "sourceUrl": "https://stephenking.com/works/movie/1408.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000051",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:005893",
+        "clm:005894",
+        "clm:005895",
+        "clm:005896",
+        "clm:005897",
+        "clm:005898",
+        "clm:005899",
+        "clm:005900",
+        "clm:005901",
+        "clm:005902",
+        "clm:005903",
+        "clm:005904",
+        "clm:005905"
+      ],
+      "open": [
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "1922",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "2017-10-20",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:005897"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 2017,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "Zak Hilditch",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/1922.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "distributor",
+        "name": "Netflix",
+        "sourceUrl": "https://stephenking.com/works/movie/1922.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000052",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:005913",
+        "clm:005914",
+        "clm:005915",
+        "clm:005916",
+        "clm:005917",
+        "clm:005918",
+        "clm:005919",
+        "clm:005920",
+        "clm:005921",
+        "clm:005922",
+        "clm:005923",
+        "clm:005924",
+        "clm:005925"
+      ],
+      "open": [
+        "releaseDate",
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage",
+        "productionStatusNotConfirmed"
+      ]
+    },
+    "title": "The Girl Who Loved Tom Gordon",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [],
+    "statusHistory": [
+      {
+        "status": "unknown",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:005917"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": null,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "Lynne Ramsay",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/girl-who-loved-tom-gordon.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "distributor",
+        "name": "Village Roadshow Pictures",
+        "sourceUrl": "https://stephenking.com/works/movie/girl-who-loved-tom-gordon.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000053",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:005926",
+        "clm:005927",
+        "clm:005928",
+        "clm:005929",
+        "clm:005930",
+        "clm:005931",
+        "clm:005932",
+        "clm:005933",
+        "clm:005934",
+        "clm:005935",
+        "clm:005936",
+        "clm:005937",
+        "clm:005938"
+      ],
+      "open": [
+        "releaseDate",
+        "cast",
+        "directorOrShowrunner",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage",
+        "productionStatusNotConfirmed"
+      ]
+    },
+    "title": "Suffer the Little Children",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [],
+    "statusHistory": [
+      {
+        "status": "unknown",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:005930"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": null,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [],
+    "distribution": [],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000054",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:005939",
+        "clm:005940",
+        "clm:005941",
+        "clm:005942",
+        "clm:005943",
+        "clm:005944",
+        "clm:005945",
+        "clm:005946",
+        "clm:005947",
+        "clm:005948",
+        "clm:005949",
+        "clm:005950",
+        "clm:005951"
+      ],
+      "open": [
+        "cast",
+        "directorOrShowrunner",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "11.22.63",
+    "aliases": [
+      {
+        "language": "en",
+        "value": "11/22/63",
+        "spoiler": {
+          "level": "none",
+          "workIds": []
+        }
+      }
+    ],
+    "format": "miniseries",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "2016-02-15",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:005943"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 2016,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [],
+    "distribution": [
+      {
+        "role": "platform",
+        "name": "Hulu",
+        "sourceUrl": "https://stephenking.com/works/television/11-22-63.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A miniseries in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000055",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:005959",
+        "clm:005960",
+        "clm:005961",
+        "clm:005962",
+        "clm:005963",
+        "clm:005964",
+        "clm:005965",
+        "clm:005966",
+        "clm:005967",
+        "clm:005968",
+        "clm:005969",
+        "clm:005970",
+        "clm:005971"
+      ],
+      "open": [
+        "sourceRelationship",
+        "cast",
+        "directorOrShowrunner",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "Bag of Bones",
+    "aliases": [],
+    "format": "miniseries",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "2011-12-11",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:005963"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 2011,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [],
+    "distribution": [
+      {
+        "role": "platform",
+        "name": "A&E",
+        "sourceUrl": "https://stephenking.com/works/television/bag-of-bones.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A miniseries in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000056",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:005979",
+        "clm:005980",
+        "clm:005981",
+        "clm:005982",
+        "clm:005983",
+        "clm:005984",
+        "clm:005985",
+        "clm:005986",
+        "clm:005987",
+        "clm:005988",
+        "clm:005989",
+        "clm:005990",
+        "clm:005991"
+      ],
+      "open": [
+        "cast",
+        "directorOrShowrunner",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "Big Driver",
+    "aliases": [],
+    "format": "tv-movie",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "2014-10-18",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:005983"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 2014,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [],
+    "distribution": [
+      {
+        "role": "platform",
+        "name": "Lifetime",
+        "sourceUrl": "https://stephenking.com/works/television/big-driver.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A television film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000057",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:005999",
+        "clm:006000",
+        "clm:006001",
+        "clm:006002",
+        "clm:006003",
+        "clm:006004",
+        "clm:006005",
+        "clm:006006",
+        "clm:006007",
+        "clm:006008",
+        "clm:006009",
+        "clm:006010",
+        "clm:006011"
+      ],
+      "open": [
+        "premiereDate",
+        "imdbRating",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "Carrie",
+    "aliases": [],
+    "format": "tv-movie",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "2002",
+        "precision": "year",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:006003"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 2002,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "David Carson",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://tv.apple.com/us/movie/carrie/umc.cmc.4iz6xmn32vca6hcyv5ulbtfx",
+        "verification": "carried-forward"
+      },
+      {
+        "role": "actor",
+        "creditText": "Angela Bettis — Carrie White",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://tv.apple.com/us/movie/carrie/umc.cmc.4iz6xmn32vca6hcyv5ulbtfx",
+        "verification": "carried-forward"
+      },
+      {
+        "role": "actor",
+        "creditText": "Patricia Clarkson — Margaret White",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://tv.apple.com/us/movie/carrie/umc.cmc.4iz6xmn32vca6hcyv5ulbtfx",
+        "verification": "carried-forward"
+      },
+      {
+        "role": "actor",
+        "creditText": "David Keith — Detective John Mulcahey",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://tv.apple.com/us/movie/carrie/umc.cmc.4iz6xmn32vca6hcyv5ulbtfx",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "studio",
+        "name": "MGM",
+        "sourceUrl": "https://tv.apple.com/us/movie/carrie/umc.cmc.4iz6xmn32vca6hcyv5ulbtfx"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A television film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000058",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:006012",
+        "clm:006013",
+        "clm:006014",
+        "clm:006015",
+        "clm:006016",
+        "clm:006017",
+        "clm:006018",
+        "clm:006019",
+        "clm:006020",
+        "clm:006021",
+        "clm:006022",
+        "clm:006023",
+        "clm:006024"
+      ],
+      "open": [
+        "cast",
+        "directorOrShowrunner",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "Chapelwaite",
+    "aliases": [],
+    "format": "miniseries",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "2021-08-22",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:006016"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 2021,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [],
+    "distribution": [
+      {
+        "role": "platform",
+        "name": "Epix",
+        "sourceUrl": "https://stephenking.com/works/television/chapelwaite.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A miniseries in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000059",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:006032",
+        "clm:006033",
+        "clm:006034",
+        "clm:006035",
+        "clm:006036",
+        "clm:006037",
+        "clm:006038",
+        "clm:006039",
+        "clm:006040",
+        "clm:006041",
+        "clm:006042",
+        "clm:006043",
+        "clm:006044"
+      ],
+      "open": [
+        "cast",
+        "directorOrShowrunner",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "Desperation",
+    "aliases": [],
+    "format": "tv-movie",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "2006-05-23",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:006036"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 2006,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [],
+    "distribution": [
+      {
+        "role": "platform",
+        "name": "ABC",
+        "sourceUrl": "https://stephenking.com/works/television/desperation.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A television film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000060",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:006052",
+        "clm:006053",
+        "clm:006054",
+        "clm:006055",
+        "clm:006056",
+        "clm:006057",
+        "clm:006058",
+        "clm:006059",
+        "clm:006060",
+        "clm:006061",
+        "clm:006062",
+        "clm:006063",
+        "clm:006064"
+      ],
+      "open": [
+        "sourceRelationship",
+        "cast",
+        "directorOrShowrunner",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "The Institute",
+    "aliases": [],
+    "format": "tv-series",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "2025-07-13",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:006056"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 2025,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [],
+    "distribution": [
+      {
+        "role": "platform",
+        "name": "MGM",
+        "sourceUrl": "https://stephenking.com/works/television/institute.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A television series in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000061",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:006072",
+        "clm:006073",
+        "clm:006074",
+        "clm:006075",
+        "clm:006076",
+        "clm:006077",
+        "clm:006078",
+        "clm:006079",
+        "clm:006080",
+        "clm:006081",
+        "clm:006082",
+        "clm:006083",
+        "clm:006084"
+      ],
+      "open": [
+        "cast",
+        "directorOrShowrunner",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "IT",
+    "aliases": [],
+    "format": "miniseries",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "1990-11-18",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:006076"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 1990,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [],
+    "distribution": [
+      {
+        "role": "platform",
+        "name": "ABC",
+        "sourceUrl": "https://stephenking.com/works/television/it.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A miniseries in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000062",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:006092",
+        "clm:006093",
+        "clm:006094",
+        "clm:006095",
+        "clm:006096",
+        "clm:006097",
+        "clm:006098",
+        "clm:006099",
+        "clm:006100",
+        "clm:006101",
+        "clm:006102",
+        "clm:006103",
+        "clm:006104"
+      ],
+      "open": [
+        "sourceRelationship",
+        "cast",
+        "directorOrShowrunner",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "IT: Welcome to Derry",
+    "aliases": [],
+    "format": "tv-series",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "2025-10-26",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:006096"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 2025,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [],
+    "distribution": [
+      {
+        "role": "platform",
+        "name": "HBO",
+        "sourceUrl": "https://stephenking.com/works/television/it-welcome-to-derry.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A television series in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000063",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:006112",
+        "clm:006113",
+        "clm:006114",
+        "clm:006115",
+        "clm:006116",
+        "clm:006117",
+        "clm:006118",
+        "clm:006119",
+        "clm:006120",
+        "clm:006121",
+        "clm:006122",
+        "clm:006123",
+        "clm:006124"
+      ],
+      "open": [
+        "sourceRelationship",
+        "cast",
+        "directorOrShowrunner",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "The Langoliers",
+    "aliases": [],
+    "format": "miniseries",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "1995-05-14",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:006116"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 1995,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [],
+    "distribution": [
+      {
+        "role": "platform",
+        "name": "ABC",
+        "sourceUrl": "https://stephenking.com/works/television/langoliers.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A miniseries in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000064",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:006132",
+        "clm:006133",
+        "clm:006134",
+        "clm:006135",
+        "clm:006136",
+        "clm:006137",
+        "clm:006138",
+        "clm:006139",
+        "clm:006140",
+        "clm:006141",
+        "clm:006142",
+        "clm:006143",
+        "clm:006144"
+      ],
+      "open": [
+        "cast",
+        "directorOrShowrunner",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "Lisey's Story",
+    "aliases": [],
+    "format": "miniseries",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "2021-06-04",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:006136"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 2021,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [],
+    "distribution": [
+      {
+        "role": "platform",
+        "name": "Apple TV",
+        "sourceUrl": "https://stephenking.com/works/television/liseys-story.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A miniseries in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000065",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:006152",
+        "clm:006153",
+        "clm:006154",
+        "clm:006155",
+        "clm:006156",
+        "clm:006157",
+        "clm:006158",
+        "clm:006159",
+        "clm:006160",
+        "clm:006161",
+        "clm:006162",
+        "clm:006163",
+        "clm:006164"
+      ],
+      "open": [
+        "cast",
+        "directorOrShowrunner",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "The Mist",
+    "aliases": [],
+    "format": "tv-series",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "2017-06-22",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:006156"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 2017,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [],
+    "distribution": [
+      {
+        "role": "platform",
+        "name": "Spike",
+        "sourceUrl": "https://stephenking.com/works/television/mist.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A television series in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000066",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:006172",
+        "clm:006173",
+        "clm:006174",
+        "clm:006175",
+        "clm:006176",
+        "clm:006177",
+        "clm:006178",
+        "clm:006179",
+        "clm:006180",
+        "clm:006181",
+        "clm:006182",
+        "clm:006183",
+        "clm:006184"
+      ],
+      "open": [
+        "sourceRelationship",
+        "cast",
+        "directorOrShowrunner",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "Mr. Mercedes",
+    "aliases": [],
+    "format": "tv-series",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "2017-08-09",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:006176"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 2017,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [],
+    "distribution": [
+      {
+        "role": "platform",
+        "name": "Audience, Peacock",
+        "sourceUrl": "https://stephenking.com/works/television/mr-mercedes.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A television series in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000067",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:006192",
+        "clm:006193",
+        "clm:006194",
+        "clm:006195",
+        "clm:006196",
+        "clm:006197",
+        "clm:006198",
+        "clm:006199",
+        "clm:006200",
+        "clm:006201",
+        "clm:006202",
+        "clm:006203",
+        "clm:006204"
+      ],
+      "open": [
+        "cast",
+        "directorOrShowrunner",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "Nightmares & Dreamscapes",
+    "aliases": [],
+    "format": "tv-series",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "2006-07-12",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:006196"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 2006,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [],
+    "distribution": [
+      {
+        "role": "platform",
+        "name": "TNT",
+        "sourceUrl": "https://stephenking.com/works/television/nightmares-dreamscapes.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A television series in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000068",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:006212",
+        "clm:006213",
+        "clm:006214",
+        "clm:006215",
+        "clm:006216",
+        "clm:006217",
+        "clm:006218",
+        "clm:006219",
+        "clm:006220",
+        "clm:006221",
+        "clm:006222",
+        "clm:006223",
+        "clm:006224"
+      ],
+      "open": [
+        "cast",
+        "directorOrShowrunner",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "'Salem's Lot",
+    "aliases": [],
+    "format": "miniseries",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "1979-11-17",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:006216"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 1979,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [],
+    "distribution": [
+      {
+        "role": "platform",
+        "name": "CBS",
+        "sourceUrl": "https://stephenking.com/works/television/salems-lot.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A miniseries in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000069",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:006232",
+        "clm:006233",
+        "clm:006234",
+        "clm:006235",
+        "clm:006236",
+        "clm:006237",
+        "clm:006238",
+        "clm:006239",
+        "clm:006240",
+        "clm:006241",
+        "clm:006242",
+        "clm:006243",
+        "clm:006244"
+      ],
+      "open": [
+        "cast",
+        "directorOrShowrunner",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "'Salem's Lot",
+    "aliases": [
+      {
+        "language": "en",
+        "value": "'Salem's Lot (remake)",
+        "spoiler": {
+          "level": "none",
+          "workIds": []
+        }
+      }
+    ],
+    "format": "miniseries",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "2004-06-02",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:006236"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 2004,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [],
+    "distribution": [
+      {
+        "role": "platform",
+        "name": "TNT",
+        "sourceUrl": "https://stephenking.com/works/television/salems-lot-(remake).html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A miniseries in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000070",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:006252",
+        "clm:006253",
+        "clm:006254",
+        "clm:006255",
+        "clm:006256",
+        "clm:006257",
+        "clm:006258",
+        "clm:006259",
+        "clm:006260",
+        "clm:006261",
+        "clm:006262",
+        "clm:006263",
+        "clm:006264"
+      ],
+      "open": [
+        "sourceRelationship",
+        "cast",
+        "directorOrShowrunner",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "The Shining",
+    "aliases": [],
+    "format": "miniseries",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "1997-04-27",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:006256"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 1997,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [],
+    "distribution": [
+      {
+        "role": "platform",
+        "name": "ABC",
+        "sourceUrl": "https://stephenking.com/works/television/shining.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A miniseries in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000071",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:006272",
+        "clm:006273",
+        "clm:006274",
+        "clm:006275",
+        "clm:006276",
+        "clm:006277",
+        "clm:006278",
+        "clm:006279",
+        "clm:006280",
+        "clm:006281",
+        "clm:006282",
+        "clm:006283",
+        "clm:006284"
+      ],
+      "open": [
+        "sourceRelationship",
+        "cast",
+        "directorOrShowrunner",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "Sometimes They Come Back",
+    "aliases": [],
+    "format": "tv-movie",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "1991-05-07",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:006276"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 1991,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [],
+    "distribution": [
+      {
+        "role": "platform",
+        "name": "CBS",
+        "sourceUrl": "https://stephenking.com/works/television/sometimes-they-come-back.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A television film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000072",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:006292",
+        "clm:006293",
+        "clm:006294",
+        "clm:006295",
+        "clm:006296",
+        "clm:006297",
+        "clm:006298",
+        "clm:006299",
+        "clm:006300",
+        "clm:006301",
+        "clm:006302",
+        "clm:006303",
+        "clm:006304"
+      ],
+      "open": [
+        "sourceRelationship",
+        "cast",
+        "directorOrShowrunner",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "The Stand",
+    "aliases": [],
+    "format": "miniseries",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "1994-05-08",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:006296"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 1994,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [],
+    "distribution": [
+      {
+        "role": "platform",
+        "name": "ABC",
+        "sourceUrl": "https://stephenking.com/works/television/stand.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A miniseries in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000073",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:006312",
+        "clm:006313",
+        "clm:006314",
+        "clm:006315",
+        "clm:006316",
+        "clm:006317",
+        "clm:006318",
+        "clm:006319",
+        "clm:006320",
+        "clm:006321",
+        "clm:006322",
+        "clm:006323",
+        "clm:006324"
+      ],
+      "open": [
+        "cast",
+        "directorOrShowrunner",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "The Stand",
+    "aliases": [
+      {
+        "language": "en",
+        "value": "The Stand (2020)",
+        "spoiler": {
+          "level": "none",
+          "workIds": []
+        }
+      }
+    ],
+    "format": "miniseries",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "2020-12-17",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:006316"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 2020,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [],
+    "distribution": [
+      {
+        "role": "platform",
+        "name": "CBS All Access",
+        "sourceUrl": "https://stephenking.com/works/television/stand-(2020).html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A miniseries in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000074",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:006332",
+        "clm:006333",
+        "clm:006334",
+        "clm:006335",
+        "clm:006336",
+        "clm:006337",
+        "clm:006338",
+        "clm:006339",
+        "clm:006340",
+        "clm:006341",
+        "clm:006342",
+        "clm:006343",
+        "clm:006344"
+      ],
+      "open": [
+        "sourceRelationship",
+        "cast",
+        "directorOrShowrunner",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "The Tommyknockers",
+    "aliases": [],
+    "format": "miniseries",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "1993-05-09",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:006336"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 1993,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [],
+    "distribution": [
+      {
+        "role": "platform",
+        "name": "ABC",
+        "sourceUrl": "https://stephenking.com/works/television/tommyknockers.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A miniseries in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000075",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:006352",
+        "clm:006353",
+        "clm:006354",
+        "clm:006355",
+        "clm:006356",
+        "clm:006357",
+        "clm:006358",
+        "clm:006359",
+        "clm:006360",
+        "clm:006361",
+        "clm:006362",
+        "clm:006363",
+        "clm:006364"
+      ],
+      "open": [
+        "releaseDate",
+        "cast",
+        "directorOrShowrunner",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "Trucks",
+    "aliases": [],
+    "format": "tv-movie",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "2000-12-26",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:006356"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": null,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [],
+    "distribution": [
+      {
+        "role": "platform",
+        "name": "USA",
+        "sourceUrl": "https://stephenking.com/works/television/trucks.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A television film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000076",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:006372",
+        "clm:006373",
+        "clm:006374",
+        "clm:006375",
+        "clm:006376",
+        "clm:006377",
+        "clm:006378",
+        "clm:006379",
+        "clm:006380",
+        "clm:006381",
+        "clm:006382",
+        "clm:006383",
+        "clm:006384"
+      ],
+      "open": [
+        "sourceRelationship",
+        "cast",
+        "directorOrShowrunner",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "Under the Dome",
+    "aliases": [],
+    "format": "tv-series",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "2013-06-24",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:006376"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 2013,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [],
+    "distribution": [
+      {
+        "role": "platform",
+        "name": "CBS",
+        "sourceUrl": "https://stephenking.com/works/television/under-the-dome.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A television series in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000077",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:006392",
+        "clm:006393",
+        "clm:006394",
+        "clm:006395",
+        "clm:006396",
+        "clm:006397",
+        "clm:006398",
+        "clm:006399",
+        "clm:006400",
+        "clm:006401",
+        "clm:006402",
+        "clm:006403",
+        "clm:006404"
+      ],
+      "open": [
+        "sourceRelationship",
+        "cast",
+        "directorOrShowrunner",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "The Outsider",
+    "aliases": [],
+    "format": "miniseries",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "2020-01-12",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:006396"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 2020,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [],
+    "distribution": [
+      {
+        "role": "platform",
+        "name": "HBO",
+        "sourceUrl": "https://stephenking.com/works/television/outsider.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A miniseries in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000078",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:006405",
+        "clm:006406",
+        "clm:006407",
+        "clm:006408",
+        "clm:006409",
+        "clm:006410",
+        "clm:006411",
+        "clm:006412",
+        "clm:006413",
+        "clm:006414",
+        "clm:006415",
+        "clm:006416",
+        "clm:006417"
+      ],
+      "open": [
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "The Dead Zone",
+    "aliases": [],
+    "format": "tv-series",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "2002-06-16",
+        "precision": "day",
+        "meaning": "US-series-premiere",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:006409"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 2002,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "showrunner",
+        "creditText": "Michael Piller",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://www.tvtechnology.com/miscellaneous/content-is-kingbrthe-dead-zones-lloyd-segan",
+        "verification": "carried-forward"
+      },
+      {
+        "role": "creator",
+        "creditText": "Michael Piller",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://www.imdb.com/title/tt0281432/",
+        "verification": "carried-forward"
+      },
+      {
+        "role": "creator",
+        "creditText": "Shawn Piller",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://www.imdb.com/title/tt0281432/",
+        "verification": "carried-forward"
+      },
+      {
+        "role": "actor",
+        "creditText": "Anthony Michael Hall — Johnny Smith",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://tv.apple.com/us/show/the-dead-zone/umc.cmc.5syjc2wjt8qygwav1wvrb8hh3",
+        "verification": "carried-forward"
+      },
+      {
+        "role": "actor",
+        "creditText": "Nicole de Boer — Sarah Bracknell Bannerman",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://tv.apple.com/us/show/the-dead-zone/umc.cmc.5syjc2wjt8qygwav1wvrb8hh3",
+        "verification": "carried-forward"
+      },
+      {
+        "role": "actor",
+        "creditText": "Chris Bruno — Sheriff Walt Bannerman",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://tv.apple.com/us/show/the-dead-zone/umc.cmc.5syjc2wjt8qygwav1wvrb8hh3",
+        "verification": "carried-forward"
+      },
+      {
+        "role": "actor",
+        "creditText": "John L. Adams — Bruce Lewis",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://tv.apple.com/us/show/the-dead-zone/umc.cmc.5syjc2wjt8qygwav1wvrb8hh3",
+        "verification": "carried-forward"
+      },
+      {
+        "role": "actor",
+        "creditText": "David Ogden Stiers — Rev. Gene Purdy",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://tv.apple.com/us/show/the-dead-zone/umc.cmc.5syjc2wjt8qygwav1wvrb8hh3",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "studio",
+        "name": "Lionsgate",
+        "sourceUrl": "https://tv.apple.com/us/show/the-dead-zone/umc.cmc.5syjc2wjt8qygwav1wvrb8hh3"
+      },
+      {
+        "role": "network",
+        "name": "USA Network",
+        "sourceUrl": "https://www.tvtechnology.com/miscellaneous/content-is-kingbrthe-dead-zones-lloyd-segan"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A television series in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000079",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:006418",
+        "clm:006419",
+        "clm:006420",
+        "clm:006421",
+        "clm:006422",
+        "clm:006423",
+        "clm:006424",
+        "clm:006425",
+        "clm:006426",
+        "clm:006427",
+        "clm:006428",
+        "clm:006429",
+        "clm:006430"
+      ],
+      "open": [
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "Haven",
+    "aliases": [],
+    "format": "tv-series",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "2010-07-09",
+        "precision": "day",
+        "meaning": "US-series-premiere",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:006422"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 2010,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "showrunner",
+        "creditText": "Scott Shepherd (season 1)",
+        "scope": "season-1",
+        "sourceUrl": "https://www.awn.com/news/syfys-haven-renewed-season-two",
+        "verification": "carried-forward"
+      },
+      {
+        "role": "creator",
+        "creditText": "Jim Dunn",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://www.imdb.com/title/tt1519931/",
+        "verification": "carried-forward"
+      },
+      {
+        "role": "creator",
+        "creditText": "Sam Ernst",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://www.imdb.com/title/tt1519931/",
+        "verification": "carried-forward"
+      },
+      {
+        "role": "actor",
+        "creditText": "Emily Rose — Audrey Parker",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://www.awn.com/news/syfys-haven-renewed-season-two",
+        "verification": "carried-forward"
+      },
+      {
+        "role": "actor",
+        "creditText": "Lucas Bryant — Nathan Wuornos",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://www.awn.com/news/syfys-haven-renewed-season-two",
+        "verification": "carried-forward"
+      },
+      {
+        "role": "actor",
+        "creditText": "Eric Balfour — Duke Crocker",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://www.awn.com/news/syfys-haven-renewed-season-two",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "studio",
+        "name": "Entertainment One / Piller, Segan and Shepherd",
+        "sourceUrl": "https://www.awn.com/news/syfys-haven-renewed-season-two"
+      },
+      {
+        "role": "network",
+        "name": "Syfy",
+        "sourceUrl": "https://www.awn.com/news/syfys-haven-renewed-season-two"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A television series in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000080",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:006431",
+        "clm:006432",
+        "clm:006433",
+        "clm:006434",
+        "clm:006435",
+        "clm:006436",
+        "clm:006437",
+        "clm:006438",
+        "clm:006439",
+        "clm:006440",
+        "clm:006441",
+        "clm:006442",
+        "clm:006443"
+      ],
+      "open": [
+        "sourceRelationship",
+        "cast",
+        "directorOrShowrunner",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "Castle Rock",
+    "aliases": [],
+    "format": "tv-series",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "2018-09-25",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:006435"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 2018,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [],
+    "distribution": [
+      {
+        "role": "platform",
+        "name": "Hulu",
+        "sourceUrl": "https://stephenking.com/works/television/castle-rock.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": true,
+    "summary": {
+      "en": "A television series in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000081",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:006451",
+        "clm:006452",
+        "clm:006453",
+        "clm:006454",
+        "clm:006455",
+        "clm:006456",
+        "clm:006457",
+        "clm:006458",
+        "clm:006459",
+        "clm:006460",
+        "clm:006461",
+        "clm:006462",
+        "clm:006463"
+      ],
+      "open": [
+        "sourceRelationship",
+        "cast",
+        "directorOrShowrunner",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "Rose Red",
+    "aliases": [],
+    "format": "miniseries",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "2002-01-27",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:006455"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 2002,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [],
+    "distribution": [
+      {
+        "role": "platform",
+        "name": "ABC",
+        "sourceUrl": "https://stephenking.com/works/television/rose-red.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": true,
+    "summary": {
+      "en": "A miniseries in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000082",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:006471",
+        "clm:006472",
+        "clm:006473",
+        "clm:006474",
+        "clm:006475",
+        "clm:006476",
+        "clm:006477",
+        "clm:006478",
+        "clm:006479",
+        "clm:006480",
+        "clm:006481",
+        "clm:006482",
+        "clm:006483"
+      ],
+      "open": [
+        "sourceRelationship",
+        "cast",
+        "directorOrShowrunner",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "Storm of the Century",
+    "aliases": [],
+    "format": "miniseries",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "1999-02-14",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:006475"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 1999,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [],
+    "distribution": [
+      {
+        "role": "platform",
+        "name": "ABC",
+        "sourceUrl": "https://stephenking.com/works/television/storm-of-the-century.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": true,
+    "summary": {
+      "en": "A miniseries in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000083",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:006491",
+        "clm:006492",
+        "clm:006493",
+        "clm:006494",
+        "clm:006495",
+        "clm:006496",
+        "clm:006497",
+        "clm:006498",
+        "clm:006499",
+        "clm:006500",
+        "clm:006501",
+        "clm:006502",
+        "clm:006503"
+      ],
+      "open": [
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "Carrie",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "2013-10-18",
+        "precision": "day",
+        "meaning": "theatrical-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-26",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:006495"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 2013,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "Kimberly Peirce",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://www.demilofilm.com/works/carrie",
+        "verification": "carried-forward"
+      },
+      {
+        "role": "screenwriter",
+        "creditText": "Lawrence D. Cohen",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://www.demilofilm.com/works/carrie",
+        "verification": "carried-forward"
+      },
+      {
+        "role": "screenwriter",
+        "creditText": "Roberto Aguirre-Sacasa",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://www.demilofilm.com/works/carrie",
+        "verification": "carried-forward"
+      },
+      {
+        "role": "actor",
+        "creditText": "Chloë Grace Moretz — Carrie White",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://www.demilofilm.com/works/carrie",
+        "verification": "carried-forward"
+      },
+      {
+        "role": "actor",
+        "creditText": "Julianne Moore — Margaret White",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://www.demilofilm.com/works/carrie",
+        "verification": "carried-forward"
+      },
+      {
+        "role": "actor",
+        "creditText": "Judy Greer",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://www.demilofilm.com/works/carrie",
+        "verification": "carried-forward"
+      },
+      {
+        "role": "actor",
+        "creditText": "Portia Doubleday",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://www.demilofilm.com/works/carrie",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "distributor",
+        "name": "Sony Pictures Releasing",
+        "sourceUrl": "https://www.demilofilm.com/works/carrie"
+      },
+      {
+        "role": "studio",
+        "name": "Metro-Goldwyn-Mayer Pictures / Screen Gems / Misher Films",
+        "sourceUrl": "https://www.demilofilm.com/works/carrie"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000084",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:006519",
+        "clm:006520",
+        "clm:006521",
+        "clm:006522",
+        "clm:006523",
+        "clm:006524",
+        "clm:006525",
+        "clm:006526",
+        "clm:006527",
+        "clm:006528",
+        "clm:006529",
+        "clm:006530",
+        "clm:006531"
+      ],
+      "open": [
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "Carrie",
+    "aliases": [],
+    "format": "tv-series",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "2026-10-07",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-26",
+        "projectScope": "series; individual seasons scoped in productionUnits",
+        "claimIds": [
+          "clm:006523"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 2026,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "Mike Flanagan (1, 2, 7, 8); Kate Siegel (3); Axelle Carolyn (4); Kyra Sedgwick (5); Hiromi Kamata (6)",
+        "scope": "Literal episode-scope observation; not a whole-series credit.",
+        "sourceUrl": "https://stephenking.com/works/television/carrie.html",
+        "verification": "carried-forward"
+      },
+      {
+        "role": "showrunner",
+        "creditText": "Mike Flanagan",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/television/carrie.html",
+        "verification": "carried-forward"
+      },
+      {
+        "role": "actor",
+        "creditText": "Summer H. Howell — Carrie White",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/television/carrie.html",
+        "verification": "carried-forward"
+      },
+      {
+        "role": "actor",
+        "creditText": "Samantha Sloyan — Margaret White",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/television/carrie.html",
+        "verification": "carried-forward"
+      },
+      {
+        "role": "actor",
+        "creditText": "Siena Agudong — Sue Snell",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/television/carrie.html",
+        "verification": "carried-forward"
+      },
+      {
+        "role": "actor",
+        "creditText": "Alison Thornton — Chris Hargensen",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/television/carrie.html",
+        "verification": "carried-forward"
+      },
+      {
+        "role": "actor",
+        "creditText": "Joel Oulette — Tommy Ross",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/television/carrie.html",
+        "verification": "carried-forward"
+      },
+      {
+        "role": "actor",
+        "creditText": "Josie Totah — Tina",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/television/carrie.html",
+        "verification": "carried-forward"
+      },
+      {
+        "role": "actor",
+        "creditText": "Arthur Conti — Billy",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/television/carrie.html",
+        "verification": "carried-forward"
+      },
+      {
+        "role": "actor",
+        "creditText": "Thalia Dudek — Emaline",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/television/carrie.html",
+        "verification": "carried-forward"
+      },
+      {
+        "role": "actor",
+        "creditText": "Amber Midthunder — Miss Desjardin",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/television/carrie.html",
+        "verification": "carried-forward"
+      },
+      {
+        "role": "actor",
+        "creditText": "Matthew Lillard — Principal Grayle",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/television/carrie.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "studio",
+        "name": "Amazon MGM Studios",
+        "sourceUrl": "https://stephenking.com/works/television/carrie.html"
+      },
+      {
+        "role": "platform",
+        "name": "Prime Video",
+        "sourceUrl": "https://stephenking.com/works/television/carrie.html"
+      }
+    ],
+    "productionUnits": [
+      {
+        "kind": "season",
+        "number": 1,
+        "episodeCount": 8,
+        "status": "released",
+        "asOf": "2026-10-26",
+        "releaseDate": "2026-10-07",
+        "source": "https://www.aboutamazon.com/news/entertainment/carrie-stephen-king-mike-flanagan-prime-video"
+      },
+      {
+        "kind": "season",
+        "number": 2,
+        "episodeCount": null,
+        "status": "announced",
+        "asOf": "2026-10-26",
+        "releaseDate": null,
+        "source": "https://www.aboutamazon.com/news/entertainment/carrie-stephen-king-mike-flanagan-prime-video"
+      }
+    ],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A television series in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000085",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:006572",
+        "clm:006573",
+        "clm:006574",
+        "clm:006575",
+        "clm:006576",
+        "clm:006577",
+        "clm:006578",
+        "clm:006579",
+        "clm:006580",
+        "clm:006581",
+        "clm:006582",
+        "clm:006583",
+        "clm:006584"
+      ],
+      "open": [
+        "sourceRelationship",
+        "cast",
+        "directorOrShowrunner",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "The Diary of Ellen Rimbauer",
+    "aliases": [],
+    "format": "tv-movie",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "2003-05-12",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:006576"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 2003,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [],
+    "distribution": [
+      {
+        "role": "platform",
+        "name": "ABC",
+        "sourceUrl": "https://stephenking.com/works/television/diary-of-ellen-rimbauer.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A television film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000086",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:006592",
+        "clm:006593",
+        "clm:006594",
+        "clm:006595",
+        "clm:006596",
+        "clm:006597",
+        "clm:006598",
+        "clm:006599",
+        "clm:006600",
+        "clm:006601",
+        "clm:006602",
+        "clm:006603",
+        "clm:006604"
+      ],
+      "open": [
+        "sourceRelationship",
+        "cast",
+        "directorOrShowrunner",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "Golden Years",
+    "aliases": [],
+    "format": "tv-series",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "1991-07-16",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:006596"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 1991,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [],
+    "distribution": [
+      {
+        "role": "platform",
+        "name": "CBS",
+        "sourceUrl": "https://stephenking.com/works/television/golden-years.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A television series in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000087",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:006612",
+        "clm:006613",
+        "clm:006614",
+        "clm:006615",
+        "clm:006616",
+        "clm:006617",
+        "clm:006618",
+        "clm:006619",
+        "clm:006620",
+        "clm:006621",
+        "clm:006622",
+        "clm:006623",
+        "clm:006624"
+      ],
+      "open": [
+        "releaseDate",
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage",
+        "productionStatusNotConfirmed"
+      ]
+    },
+    "title": "Hearts",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [],
+    "statusHistory": [
+      {
+        "status": "unknown",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:006616"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": null,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "Johannes Roberts",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/hearts.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000088",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:006625",
+        "clm:006626",
+        "clm:006627",
+        "clm:006628",
+        "clm:006629",
+        "clm:006630",
+        "clm:006631",
+        "clm:006632",
+        "clm:006633",
+        "clm:006634",
+        "clm:006635",
+        "clm:006636",
+        "clm:006637"
+      ],
+      "open": [
+        "sourceRelationship",
+        "cast",
+        "directorOrShowrunner",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "Kingdom Hospital",
+    "aliases": [],
+    "format": "tv-series",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "2004-03-03",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:006629"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 2004,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [],
+    "distribution": [
+      {
+        "role": "platform",
+        "name": "ABC",
+        "sourceUrl": "https://stephenking.com/works/television/kingdom-hospital.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A television series in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000089",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:006645",
+        "clm:006646",
+        "clm:006647",
+        "clm:006648",
+        "clm:006649",
+        "clm:006650",
+        "clm:006651",
+        "clm:006652",
+        "clm:006653",
+        "clm:006654",
+        "clm:006655",
+        "clm:006656",
+        "clm:006657"
+      ],
+      "open": [
+        "sourceRelationship",
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "Mercy",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "2014",
+        "precision": "year",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-26",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:006649"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 2014,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "Peter Cornwell",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/mercy.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "distributor",
+        "name": "Universal",
+        "sourceUrl": "https://stephenking.com/works/movie/mercy.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000090",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:006663",
+        "clm:006664",
+        "clm:006665",
+        "clm:006666",
+        "clm:006667",
+        "clm:006668",
+        "clm:006669",
+        "clm:006670",
+        "clm:006671",
+        "clm:006672",
+        "clm:006673",
+        "clm:006674",
+        "clm:006675"
+      ],
+      "open": [
+        "sourceRelationship",
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage",
+        "productionStatusNotConfirmed"
+      ]
+    },
+    "title": "My Pretty Pony",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [],
+    "statusHistory": [
+      {
+        "status": "unknown",
+        "asOf": "2026-10-26",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:006667"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": null,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "Luke Jaden",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/my-pretty-pony.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "distributor",
+        "name": "TBA",
+        "sourceUrl": "https://stephenking.com/works/movie/my-pretty-pony.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000091",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:006676",
+        "clm:006677",
+        "clm:006678",
+        "clm:006679",
+        "clm:006680",
+        "clm:006681",
+        "clm:006682",
+        "clm:006683",
+        "clm:006684",
+        "clm:006685",
+        "clm:006686",
+        "clm:006687",
+        "clm:006688"
+      ],
+      "open": [
+        "sourceRelationship",
+        "cast",
+        "directorOrShowrunner",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "Quicksilver Highway",
+    "aliases": [],
+    "format": "tv-movie",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "1997-05-13",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:006680"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 1997,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [],
+    "distribution": [
+      {
+        "role": "platform",
+        "name": "FOX",
+        "sourceUrl": "https://stephenking.com/works/television/quicksilver-highway.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A television film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000092",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:006696",
+        "clm:006697",
+        "clm:006698",
+        "clm:006699",
+        "clm:006700",
+        "clm:006701",
+        "clm:006702",
+        "clm:006703",
+        "clm:006704",
+        "clm:006705",
+        "clm:006706",
+        "clm:006707",
+        "clm:006708"
+      ],
+      "open": [
+        "releaseDate",
+        "sourceRelationship",
+        "cast",
+        "directorOrShowrunner",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage",
+        "productionStatusNotConfirmed"
+      ]
+    },
+    "title": "Sleeping Beauties",
+    "aliases": [],
+    "format": "tv-series",
+    "externalIds": {},
+    "releaseEvents": [],
+    "statusHistory": [
+      {
+        "status": "unknown",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:006700"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": null,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [],
+    "distribution": [
+      {
+        "role": "platform",
+        "name": "TBD",
+        "sourceUrl": "https://stephenking.com/works/television/sleeping-beauties.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A television series in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000093",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:006709",
+        "clm:006710",
+        "clm:006711",
+        "clm:006712",
+        "clm:006713",
+        "clm:006714",
+        "clm:006715",
+        "clm:006716",
+        "clm:006717",
+        "clm:006718",
+        "clm:006719",
+        "clm:006720",
+        "clm:006721"
+      ],
+      "open": [
+        "sourceRelationship",
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "Sleepwalkers",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "1992-04-10",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:006713"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 1992,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "Mick Garris",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/sleepwalkers.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "distributor",
+        "name": "Columbia Pictures",
+        "sourceUrl": "https://stephenking.com/works/movie/sleepwalkers.html"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000094",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:006729",
+        "clm:006730",
+        "clm:006731",
+        "clm:006732",
+        "clm:006733",
+        "clm:006734",
+        "clm:006735",
+        "clm:006736",
+        "clm:006737",
+        "clm:006738",
+        "clm:006739",
+        "clm:006740",
+        "clm:006741"
+      ],
+      "open": [
+        "cast",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "Tales from the Darkside: The Movie",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "1990-05-04",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:006733"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 1990,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "director",
+        "creditText": "John Harrison",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://stephenking.com/works/movie/tales-from-the-darkside-the-movie.html",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000095",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:006749",
+        "clm:006750",
+        "clm:006751",
+        "clm:006752",
+        "clm:006753",
+        "clm:006754",
+        "clm:006755",
+        "clm:006756",
+        "clm:006757",
+        "clm:006758",
+        "clm:006759",
+        "clm:006760",
+        "clm:006761"
+      ],
+      "open": [
+        "director",
+        "formatDetails",
+        "sourceRelationship",
+        "directorOrShowrunner",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "Pet Sematary: Bloodlines",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "2023-10-06",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": "US"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-26",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:006753"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 2023,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [
+      {
+        "role": "actor",
+        "creditText": "Jackson White — Jud Crandall",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://paramountglobalcontent.com/title/pet-sematary-bloodlines-1969",
+        "verification": "carried-forward"
+      },
+      {
+        "role": "actor",
+        "creditText": "Natalie Alyn Lind — Norma",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://paramountglobalcontent.com/title/pet-sematary-bloodlines-1969",
+        "verification": "carried-forward"
+      },
+      {
+        "role": "actor",
+        "creditText": "Forrest Goodluck — Manny",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://paramountglobalcontent.com/title/pet-sematary-bloodlines-1969",
+        "verification": "carried-forward"
+      },
+      {
+        "role": "actor",
+        "creditText": "Isabella Star LaBlanc — Donna",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://paramountglobalcontent.com/title/pet-sematary-bloodlines-1969",
+        "verification": "carried-forward"
+      },
+      {
+        "role": "actor",
+        "creditText": "Henry Thomas — Dan Crandall",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://paramountglobalcontent.com/title/pet-sematary-bloodlines-1969",
+        "verification": "carried-forward"
+      },
+      {
+        "role": "actor",
+        "creditText": "David Duchovny — Bill Baterman",
+        "scope": "As reported; exact identity and extent remain open.",
+        "sourceUrl": "https://paramountglobalcontent.com/title/pet-sematary-bloodlines-1969",
+        "verification": "carried-forward"
+      }
+    ],
+    "distribution": [
+      {
+        "role": "platform",
+        "name": "Paramount+",
+        "sourceUrl": "https://paramountglobalcontent.com/title/pet-sematary-bloodlines-1969"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  },
+  {
+    "id": "adp:000096",
+    "entityType": "adaptation",
+    "verification": {
+      "claimIds": [
+        "clm:006767",
+        "clm:006768",
+        "clm:006769",
+        "clm:006770",
+        "clm:006771",
+        "clm:006772",
+        "clm:006773",
+        "clm:006774",
+        "clm:006775",
+        "clm:006776",
+        "clm:006777",
+        "clm:006778",
+        "clm:006779"
+      ],
+      "open": [
+        "director",
+        "formatDetails",
+        "sourceRelationship",
+        "cast",
+        "directorOrShowrunner",
+        "remainingLegacyFieldsNotMigrated",
+        "country",
+        "originalLanguage"
+      ]
+    },
+    "title": "The Rage: Carrie 2",
+    "aliases": [],
+    "format": "film",
+    "externalIds": {},
+    "releaseEvents": [
+      {
+        "value": "1999-03-12",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "released",
+        "asOf": "2026-10-25",
+        "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+        "claimIds": [
+          "clm:006771"
+        ]
+      }
+    ],
+    "ratingObservations": [],
+    "releaseYear": 1999,
+    "countries": [],
+    "originalLanguages": [],
+    "makerObservations": [],
+    "distribution": [
+      {
+        "role": "platform",
+        "name": "MGM",
+        "sourceUrl": "https://www.boxofficemojo.com/title/tt0144814/"
+      }
+    ],
+    "productionUnits": [],
+    "originalScreenplay": null,
+    "summary": {
+      "en": "A film in The Kingverse’s screen catalog. Source relationships and production uncertainties are recorded separately."
+    }
+  }
+]

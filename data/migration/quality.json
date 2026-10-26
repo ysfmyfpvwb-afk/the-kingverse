@@ -1,6 +1,6 @@
 {
   "checked": "2026-10-26",
-  "batch": "03-publications-editions-cover-provenance",
+  "batch": "04-screen-adaptations",
   "fullMigration": false,
   "legacy": {
     "counts": {
@@ -34,17 +34,17 @@
     "works": 241,
     "collections": 15,
     "editions": 154,
-    "people": 12,
-    "credits": 272,
-    "adaptations": 0,
+    "people": 28,
+    "credits": 291,
+    "adaptations": 96,
     "characters": 2,
     "locations": 1,
-    "connections": 9,
+    "connections": 26,
     "collectionMemberships": 155,
-    "sources": 338,
-    "claims": 4865,
+    "sources": 453,
+    "claims": 6864,
     "publicationEvents": 239,
-    "artworks": 152,
+    "artworks": 234,
     "externalReferences": 2
   },
   "shadowEditionsByLanguage": {
@@ -85,7 +85,7 @@
       "total": 154
     },
     "adaptations": {
-      "migrated": 0,
+      "migrated": 96,
       "total": 96
     },
     "legacyTowerRows": {
@@ -93,8 +93,8 @@
       "total": 17
     },
     "fields": {
-      "mapped": 4058,
-      "retainedNotMigrated": 11292,
+      "mapped": 5657,
+      "retainedNotMigrated": 9693,
       "total": 15350
     },
     "note": "Identity/credit coverage is not full record migration; remaining fields are retained in source, with hashed pointers in differences.json."
@@ -6009,6 +6009,458 @@
       }
     }
   },
+  "screens": {
+    "batch": "04-screen-adaptations",
+    "baseCommit": "aede96a374a263f91357df50eadb0a5ef9a9e9e2",
+    "definitions": {
+      "record": "One exact inherited screen identity; no title-only merge.",
+      "sourceSupportedRelation": "Explicit scoped primary evidence, including one archived press release; not inferred from related links.",
+      "candidate": "Registered legacy work reference with source, uncertainty and context; not a confirmed adaptation.",
+      "release": "Source-reported observation with precision and territory; no universal first-premiere claim.",
+      "posterReady": "Ownership + documented reuse rights + permitted reliable delivery; zero currently meet this gate."
+    },
+    "legacyViews": 96,
+    "canonicalAdaptations": 96,
+    "newLiteraryWorks": 0,
+    "byFormat": {
+      "film": 61,
+      "miniseries": 15,
+      "tv-movie": 7,
+      "tv-series": 13
+    },
+    "byStatus": {
+      "released": 91,
+      "unknown": 5
+    },
+    "nativeLiteraryRelations": 16,
+    "sourceSupportedLiteraryRelations": 14,
+    "provisionalNativeLiteraryRelations": 2,
+    "screenRelations": 1,
+    "sourceSupportedScreenRelations": 0,
+    "provisionalScreenRelations": 1,
+    "candidatesByCategory": {
+      "source-supported-adaptation": 14,
+      "collection-context": 18,
+      "unconfirmed-literary-source": 78,
+      "screenplay-segment-context": 5,
+      "provisional-adaptation": 2
+    },
+    "withoutSourceSupportedLiteraryRelation": [
+      "films:apt-pupil-1998",
+      "films:the-boogeyman-2023",
+      "films:cell-2016",
+      "films:children-of-the-corn-1984",
+      "films:christine-1983",
+      "films:creepshow-1982",
+      "films:creepshow-2-1987",
+      "films:cujo-1983",
+      "films:the-dark-half-1993",
+      "films:the-dark-tower-2017",
+      "films:the-dead-zone-1983",
+      "films:doctor-sleep-2019",
+      "films:dolan-s-cadillac-2009",
+      "films:dolores-claiborne-1995",
+      "films:dreamcatcher-2003",
+      "films:gerald-s-game-2017",
+      "films:graveyard-shift-1990",
+      "films:the-green-mile-1999",
+      "films:in-the-tall-grass-2019",
+      "films:it-2017",
+      "films:it-chapter-two-2019",
+      "films:the-life-of-chuck-2024",
+      "films:the-long-walk-2025",
+      "films:the-mangler-1995",
+      "films:maximum-overdrive-1986",
+      "films:misery-1990",
+      "films:the-mist-2007",
+      "films:the-monkey-2025",
+      "films:mr-harrigan-s-phone-2022",
+      "films:needful-things-1993",
+      "films:the-night-flier-1997",
+      "films:pet-sematary-2019",
+      "films:riding-the-bullet-2004",
+      "films:the-running-man-1987",
+      "films:the-running-man-2025",
+      "films:salem-s-lot-2024",
+      "films:secret-window-2004",
+      "films:the-shawshank-redemption-1994",
+      "films:the-shining-1980",
+      "films:silver-bullet-1985",
+      "films:stand-by-me-1986",
+      "films:thinner-1996",
+      "films:1408-2007",
+      "films:1922-2017",
+      "films:the-girl-who-loved-tom-gordon-tbd",
+      "films:suffer-the-little-children-tbd",
+      "films:11-22-63-2016",
+      "films:bag-of-bones-2011",
+      "films:big-driver-2014",
+      "films:carrie-2002",
+      "films:chapelwaite-2021",
+      "films:desperation-2006",
+      "films:the-institute-2025",
+      "films:it-1990",
+      "films:it-welcome-to-derry-2025",
+      "films:the-langoliers-1995",
+      "films:lisey-s-story-2021",
+      "films:the-mist-2017",
+      "films:mr-mercedes-2017",
+      "films:nightmares-dreamscapes-2006",
+      "films:salem-s-lot-1979",
+      "films:salem-s-lot-2004",
+      "films:the-shining-1997",
+      "films:sometimes-they-come-back-1991",
+      "films:the-stand-1994",
+      "films:the-stand-2020",
+      "films:the-tommyknockers-1993",
+      "films:trucks-1997",
+      "films:under-the-dome-2013",
+      "films:the-outsider-2020",
+      "films:the-dead-zone-2002",
+      "films:castle-rock-2018",
+      "films:rose-red-2002",
+      "films:storm-of-the-century-1999",
+      "films:the-diary-of-ellen-rimbauer-2003",
+      "films:golden-years-1991",
+      "films:hearts-tbd",
+      "films:kingdom-hospital-2004",
+      "films:quicksilver-highway-1997",
+      "films:sleeping-beauties-tbd",
+      "films:sleepwalkers-1992",
+      "films:tales-from-the-darkside-the-movie-1990",
+      "films:the-rage-carrie-2-1999"
+    ],
+    "withoutAnyRegisteredLiteraryCandidate": [
+      "films:castle-rock-2018",
+      "films:rose-red-2002",
+      "films:storm-of-the-century-1999",
+      "films:the-diary-of-ellen-rimbauer-2003",
+      "films:golden-years-1991",
+      "films:kingdom-hospital-2004",
+      "films:quicksilver-highway-1997",
+      "films:sleeping-beauties-tbd",
+      "films:sleepwalkers-1992"
+    ],
+    "yearConflicts": [
+      {
+        "legacyId": "films:trucks-1997",
+        "legacyYear": 1997,
+        "legacyReportedDate": "2000-12-26",
+        "selectedYear": null,
+        "note": "Conflicting source year retained; first-release year unresolved."
+      },
+      {
+        "legacyId": "films:mercy-2012",
+        "legacyYear": 2012,
+        "legacyReportedDate": "2012-12-14",
+        "selectedYear": 2014,
+        "note": "2012-12-14 is an announcement, not a confirmed release; use distributor year 2014 without inventing a day."
+      }
+    ],
+    "productionStatusOpen": [
+      "films:the-girl-who-loved-tom-gordon-tbd",
+      "films:suffer-the-little-children-tbd",
+      "films:hearts-tbd",
+      "films:my-pretty-pony-2017",
+      "films:sleeping-beauties-tbd"
+    ],
+    "missingCountry": 95,
+    "missingOriginalLanguage": 95,
+    "makerEncodingConflicts": [
+      "films:cell-2016",
+      "films:it-2017",
+      "films:it-chapter-two-2019",
+      "films:pet-sematary-2019"
+    ],
+    "newPeople": 16,
+    "newScopedCredits": 19,
+    "posters": {
+      "known": 82,
+      "withoutRegistered": 14,
+      "rightsEstablished": 0,
+      "readyForDisplay": 0,
+      "newImageFiles": 0
+    },
+    "excludedRatings": 3,
+    "rightsPendingDescriptions": 2,
+    "duplicatesMerged": [],
+    "sharedSourceUrlCollisions": [
+      {
+        "url": "https://stephenking.com/works/movie/firestarter.html",
+        "legacyIds": [
+          "films:firestarter-1984",
+          "films:firestarter-2022"
+        ],
+        "resolution": "Distinct identities; 2022 metadata does not identify the 1984 film."
+      }
+    ],
+    "comparisonGroups": [
+      {
+        "workId": "wrk:000003",
+        "versions": [
+          {
+            "adaptationId": "adp:000004",
+            "legacyId": "films:carrie-1976",
+            "verification": "source-supported",
+            "category": "source-supported-adaptation"
+          },
+          {
+            "adaptationId": "adp:000057",
+            "legacyId": "films:carrie-2002",
+            "verification": "unconfirmed",
+            "category": "unconfirmed-literary-source"
+          },
+          {
+            "adaptationId": "adp:000083",
+            "legacyId": "films:carrie-2013",
+            "verification": "source-supported",
+            "category": "source-supported-adaptation"
+          },
+          {
+            "adaptationId": "adp:000084",
+            "legacyId": "films:carrie-2026",
+            "verification": "source-supported",
+            "category": "source-supported-adaptation"
+          },
+          {
+            "adaptationId": "adp:000096",
+            "legacyId": "films:the-rage-carrie-2-1999",
+            "verification": "unconfirmed",
+            "category": "unconfirmed-literary-source"
+          }
+        ],
+        "meaning": "Shared registered literary-source candidates; distinct productions, not an inferred sequel/remake or continuity claim."
+      },
+      {
+        "workId": "wrk:000009",
+        "versions": [
+          {
+            "adaptationId": "adp:000014",
+            "legacyId": "films:the-dead-zone-1983",
+            "verification": "unconfirmed",
+            "category": "unconfirmed-literary-source"
+          },
+          {
+            "adaptationId": "adp:000078",
+            "legacyId": "films:the-dead-zone-2002",
+            "verification": "provisional",
+            "category": "provisional-adaptation"
+          }
+        ],
+        "meaning": "Shared registered literary-source candidates; distinct productions, not an inferred sequel/remake or continuity claim."
+      },
+      {
+        "workId": "wrk:000010",
+        "versions": [
+          {
+            "adaptationId": "adp:000019",
+            "legacyId": "films:firestarter-1984",
+            "verification": "source-supported",
+            "category": "source-supported-adaptation"
+          },
+          {
+            "adaptationId": "adp:000020",
+            "legacyId": "films:firestarter-2022",
+            "verification": "source-supported",
+            "category": "source-supported-adaptation"
+          }
+        ],
+        "meaning": "Shared registered literary-source candidates; distinct productions, not an inferred sequel/remake or continuity claim."
+      },
+      {
+        "workId": "wrk:000019",
+        "versions": [
+          {
+            "adaptationId": "adp:000026",
+            "legacyId": "films:it-2017",
+            "verification": "unconfirmed",
+            "category": "unconfirmed-literary-source"
+          },
+          {
+            "adaptationId": "adp:000027",
+            "legacyId": "films:it-chapter-two-2019",
+            "verification": "unconfirmed",
+            "category": "unconfirmed-literary-source"
+          },
+          {
+            "adaptationId": "adp:000061",
+            "legacyId": "films:it-1990",
+            "verification": "unconfirmed",
+            "category": "unconfirmed-literary-source"
+          },
+          {
+            "adaptationId": "adp:000062",
+            "legacyId": "films:it-welcome-to-derry-2025",
+            "verification": "unconfirmed",
+            "category": "unconfirmed-literary-source"
+          }
+        ],
+        "meaning": "Shared registered literary-source candidates; distinct productions, not an inferred sequel/remake or continuity claim."
+      },
+      {
+        "workId": "wrk:000080",
+        "versions": [
+          {
+            "adaptationId": "adp:000031",
+            "legacyId": "films:maximum-overdrive-1986",
+            "verification": "unconfirmed",
+            "category": "unconfirmed-literary-source"
+          },
+          {
+            "adaptationId": "adp:000075",
+            "legacyId": "films:trucks-1997",
+            "verification": "unconfirmed",
+            "category": "unconfirmed-literary-source"
+          }
+        ],
+        "meaning": "Shared registered literary-source candidates; distinct productions, not an inferred sequel/remake or continuity claim."
+      },
+      {
+        "workId": "wrk:000096",
+        "versions": [
+          {
+            "adaptationId": "adp:000033",
+            "legacyId": "films:the-mist-2007",
+            "verification": "unconfirmed",
+            "category": "unconfirmed-literary-source"
+          },
+          {
+            "adaptationId": "adp:000065",
+            "legacyId": "films:the-mist-2017",
+            "verification": "unconfirmed",
+            "category": "unconfirmed-literary-source"
+          }
+        ],
+        "meaning": "Shared registered literary-source candidates; distinct productions, not an inferred sequel/remake or continuity claim."
+      },
+      {
+        "workId": "wrk:000016",
+        "versions": [
+          {
+            "adaptationId": "adp:000038",
+            "legacyId": "films:pet-sematary-1989",
+            "verification": "source-supported",
+            "category": "source-supported-adaptation"
+          },
+          {
+            "adaptationId": "adp:000039",
+            "legacyId": "films:pet-sematary-2019",
+            "verification": "provisional",
+            "category": "provisional-adaptation"
+          },
+          {
+            "adaptationId": "adp:000095",
+            "legacyId": "films:pet-sematary-bloodlines-2023",
+            "verification": "source-supported",
+            "category": "source-supported-adaptation"
+          }
+        ],
+        "meaning": "Shared registered literary-source candidates; distinct productions, not an inferred sequel/remake or continuity claim."
+      },
+      {
+        "workId": "wrk:000013",
+        "versions": [
+          {
+            "adaptationId": "adp:000041",
+            "legacyId": "films:the-running-man-1987",
+            "verification": "unconfirmed",
+            "category": "unconfirmed-literary-source"
+          },
+          {
+            "adaptationId": "adp:000042",
+            "legacyId": "films:the-running-man-2025",
+            "verification": "unconfirmed",
+            "category": "unconfirmed-literary-source"
+          }
+        ],
+        "meaning": "Shared registered literary-source candidates; distinct productions, not an inferred sequel/remake or continuity claim."
+      },
+      {
+        "workId": "wrk:000004",
+        "versions": [
+          {
+            "adaptationId": "adp:000043",
+            "legacyId": "films:salem-s-lot-2024",
+            "verification": "unconfirmed",
+            "category": "unconfirmed-literary-source"
+          },
+          {
+            "adaptationId": "adp:000068",
+            "legacyId": "films:salem-s-lot-1979",
+            "verification": "unconfirmed",
+            "category": "unconfirmed-literary-source"
+          },
+          {
+            "adaptationId": "adp:000069",
+            "legacyId": "films:salem-s-lot-2004",
+            "verification": "unconfirmed",
+            "category": "unconfirmed-literary-source"
+          }
+        ],
+        "meaning": "Shared registered literary-source candidates; distinct productions, not an inferred sequel/remake or continuity claim."
+      },
+      {
+        "workId": "wrk:000005",
+        "versions": [
+          {
+            "adaptationId": "adp:000046",
+            "legacyId": "films:the-shining-1980",
+            "verification": "unconfirmed",
+            "category": "unconfirmed-literary-source"
+          },
+          {
+            "adaptationId": "adp:000070",
+            "legacyId": "films:the-shining-1997",
+            "verification": "unconfirmed",
+            "category": "unconfirmed-literary-source"
+          }
+        ],
+        "meaning": "Shared registered literary-source candidates; distinct productions, not an inferred sequel/remake or continuity claim."
+      },
+      {
+        "workId": "wrk:000007",
+        "versions": [
+          {
+            "adaptationId": "adp:000072",
+            "legacyId": "films:the-stand-1994",
+            "verification": "unconfirmed",
+            "category": "unconfirmed-literary-source"
+          },
+          {
+            "adaptationId": "adp:000073",
+            "legacyId": "films:the-stand-2020",
+            "verification": "unconfirmed",
+            "category": "unconfirmed-literary-source"
+          }
+        ],
+        "meaning": "Shared registered literary-source candidates; distinct productions, not an inferred sequel/remake or continuity claim."
+      }
+    ],
+    "remaining": [
+      "Worldwide filmography, individual episode/season inventories and missing source links are not complete.",
+      "Provisional source candidates, format/date/credit conflicts and old TBD projects need scoped review.",
+      "Literal maker observations are not automatically resolved personal identities; damaged names remain explicitly open.",
+      "Poster permissions and delivery remain unestablished. No rating or legacy synopsis imported.",
+      "17 legacy Tower rows and remaining source fields await later authorized batches; no runtime integration."
+    ],
+    "supplementaryFields": {
+      "media.js": {
+        "mapped": 574,
+        "retainedNotMigrated": 984,
+        "total": 1558
+      },
+      "data/reference/screen-1.5.1.json": {
+        "mapped": 0,
+        "retainedNotMigrated": 209,
+        "total": 209
+      },
+      "data/reviews/screen-data-rights.json": {
+        "mapped": 0,
+        "retainedNotMigrated": 60,
+        "total": 60
+      }
+    }
+  },
   "trilogy": {
     "orderedWorkIds": [
       "wrk:000001",
@@ -6084,7 +6536,7 @@
     "index": {
       "parsedRows": 703,
       "catalogUrlPresent": 346,
-      "shadowIdentityMatch": 256,
+      "shadowIdentityMatch": 346,
       "unresolvedSourceRows": 357,
       "completeBibliography": false,
       "unit": "all parsed index rows; editions/duplicates/other genres included"
@@ -6092,15 +6544,15 @@
     "bibliography": {
       "parsedRows": 692,
       "catalogUrlPresent": 183,
-      "shadowIdentityMatch": 93,
+      "shadowIdentityMatch": 183,
       "unresolvedSourceRows": 509,
       "completeBibliography": false,
       "unit": "linked bibliography entries only; unlinked text entries excluded"
     }
   },
   "blockers": [
-    "Batches 01–03 cover inherited identities, memberships, publication observations and edition examples; this is not complete bibliographic history.",
-    "All 154 edition examples are projected; 154 edition dates, formats, publisher/printing histories and NL translator credits remain unresolved. Five secondary memberships, all contents orders, 96 adaptations and 17 legacy Tower rows remain open.",
+    "Batches 01–04 represent all inherited literary and 96 screen identities; source-supported links, candidate links and complete filmography are different scopes.",
+    "All 154 edition examples are projected; 154 edition dates, formats, publisher/printing histories and NL translator credits remain unresolved. Five secondary memberships, all contents orders, 83 screen records without source-supported literary relations and 17 legacy Tower rows remain open; some productions are original screenplays.",
     "Bibliographic URL matching is not identity resolution or proof of complete bibliography; unresolved source rows must be reviewed.",
     "Identity and credit carry-forwards remain provisional; membership and series evidence are separately scoped. First-publication history, translation/edition identity and full contributor scopes remain open.",
     "Both sampled English covers returned 403 with an Explorer Referer; no explicit hotlink/republication permission was established. Do not bypass source restrictions.",

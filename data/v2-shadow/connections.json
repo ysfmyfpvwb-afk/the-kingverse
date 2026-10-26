@@ -293,5 +293,532 @@
       "level": "none",
       "workIds": []
     }
+  },
+  {
+    "id": "rel:000010",
+    "entityType": "connection",
+    "verification": {
+      "claimIds": [
+        "clm:006780",
+        "clm:006781",
+        "clm:006782",
+        "clm:006783",
+        "clm:006784"
+      ],
+      "open": []
+    },
+    "from": {
+      "type": "adaptation",
+      "id": "adp:000019"
+    },
+    "predicate": "adaptation_of",
+    "to": {
+      "type": "work",
+      "id": "wrk:000010"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The cited source explicitly identifies the literary source relationship. This does not certify a scene-for-scene adaptation."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    }
+  },
+  {
+    "id": "rel:000011",
+    "entityType": "connection",
+    "verification": {
+      "claimIds": [
+        "clm:006785",
+        "clm:006786",
+        "clm:006787",
+        "clm:006788",
+        "clm:006789"
+      ],
+      "open": []
+    },
+    "from": {
+      "type": "adaptation",
+      "id": "adp:000020"
+    },
+    "predicate": "adaptation_of",
+    "to": {
+      "type": "work",
+      "id": "wrk:000010"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The cited source explicitly identifies the literary source relationship. This does not certify a scene-for-scene adaptation."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    }
+  },
+  {
+    "id": "rel:000012",
+    "entityType": "connection",
+    "verification": {
+      "claimIds": [
+        "clm:006790",
+        "clm:006791",
+        "clm:006792",
+        "clm:006793",
+        "clm:006794"
+      ],
+      "open": []
+    },
+    "from": {
+      "type": "adaptation",
+      "id": "adp:000089"
+    },
+    "predicate": "adaptation_of",
+    "to": {
+      "id": "wrk:000115",
+      "type": "work"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The cited source explicitly identifies the literary source relationship. This does not certify a scene-for-scene adaptation."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    }
+  },
+  {
+    "id": "rel:000013",
+    "entityType": "connection",
+    "verification": {
+      "claimIds": [
+        "clm:006795",
+        "clm:006796",
+        "clm:006797",
+        "clm:006798",
+        "clm:006799"
+      ],
+      "open": []
+    },
+    "from": {
+      "type": "adaptation",
+      "id": "adp:000001"
+    },
+    "predicate": "adaptation_of",
+    "to": {
+      "id": "wrk:000180",
+      "type": "work"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The cited source explicitly identifies the literary source relationship. This does not certify a scene-for-scene adaptation."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    }
+  },
+  {
+    "id": "rel:000014",
+    "entityType": "connection",
+    "verification": {
+      "claimIds": [
+        "clm:006800",
+        "clm:006801",
+        "clm:006802",
+        "clm:006803",
+        "clm:006804"
+      ],
+      "open": []
+    },
+    "from": {
+      "type": "adaptation",
+      "id": "adp:000024"
+    },
+    "predicate": "adaptation_of",
+    "to": {
+      "id": "wrk:000145",
+      "type": "work"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The cited source explicitly identifies the literary source relationship. This does not certify a scene-for-scene adaptation."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    }
+  },
+  {
+    "id": "rel:000015",
+    "entityType": "connection",
+    "verification": {
+      "claimIds": [
+        "clm:006805",
+        "clm:006806",
+        "clm:006807",
+        "clm:006808",
+        "clm:006809"
+      ],
+      "open": []
+    },
+    "from": {
+      "type": "adaptation",
+      "id": "adp:000005"
+    },
+    "predicate": "adaptation_of",
+    "to": {
+      "id": "wrk:000085",
+      "type": "work"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The cited source explicitly identifies the literary source relationship. This does not certify a scene-for-scene adaptation."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    }
+  },
+  {
+    "id": "rel:000016",
+    "entityType": "connection",
+    "verification": {
+      "claimIds": [
+        "clm:006810",
+        "clm:006811",
+        "clm:006812",
+        "clm:006813",
+        "clm:006814"
+      ],
+      "open": []
+    },
+    "from": {
+      "type": "adaptation",
+      "id": "adp:000005"
+    },
+    "predicate": "adaptation_of",
+    "to": {
+      "id": "wrk:000083",
+      "type": "work"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The cited source explicitly identifies the literary source relationship. This does not certify a scene-for-scene adaptation."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    }
+  },
+  {
+    "id": "rel:000017",
+    "entityType": "connection",
+    "verification": {
+      "claimIds": [
+        "clm:006815",
+        "clm:006816",
+        "clm:006817",
+        "clm:006818",
+        "clm:006819"
+      ],
+      "open": []
+    },
+    "from": {
+      "type": "adaptation",
+      "id": "adp:000038"
+    },
+    "predicate": "adaptation_of",
+    "to": {
+      "type": "work",
+      "id": "wrk:000016"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The cited source explicitly identifies the literary source relationship. This does not certify a scene-for-scene adaptation."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    }
+  },
+  {
+    "id": "rel:000018",
+    "entityType": "connection",
+    "verification": {
+      "claimIds": [
+        "clm:006820",
+        "clm:006821",
+        "clm:006822",
+        "clm:006823",
+        "clm:006824"
+      ],
+      "open": []
+    },
+    "from": {
+      "type": "adaptation",
+      "id": "adp:000039"
+    },
+    "predicate": "adaptation_of",
+    "to": {
+      "type": "work",
+      "id": "wrk:000016"
+    },
+    "certainty": "strongly-implied",
+    "explanation": {
+      "en": "The source relationship is provisional: primary wording, source access or production scope requires further review."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    }
+  },
+  {
+    "id": "rel:000019",
+    "entityType": "connection",
+    "verification": {
+      "claimIds": [
+        "clm:006825",
+        "clm:006826",
+        "clm:006827",
+        "clm:006828",
+        "clm:006829"
+      ],
+      "open": []
+    },
+    "from": {
+      "type": "adaptation",
+      "id": "adp:000095"
+    },
+    "predicate": "adaptation_of",
+    "to": {
+      "type": "work",
+      "id": "wrk:000016"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The cited source explicitly identifies the literary source relationship. This does not certify a scene-for-scene adaptation."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    }
+  },
+  {
+    "id": "rel:000020",
+    "entityType": "connection",
+    "verification": {
+      "claimIds": [
+        "clm:006830",
+        "clm:006831",
+        "clm:006832",
+        "clm:006833",
+        "clm:006834"
+      ],
+      "open": []
+    },
+    "from": {
+      "type": "adaptation",
+      "id": "adp:000004"
+    },
+    "predicate": "adaptation_of",
+    "to": {
+      "type": "work",
+      "id": "wrk:000003"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The cited source explicitly identifies the literary source relationship. This does not certify a scene-for-scene adaptation."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    }
+  },
+  {
+    "id": "rel:000021",
+    "entityType": "connection",
+    "verification": {
+      "claimIds": [
+        "clm:006835",
+        "clm:006836",
+        "clm:006837",
+        "clm:006838",
+        "clm:006839"
+      ],
+      "open": []
+    },
+    "from": {
+      "type": "adaptation",
+      "id": "adp:000083"
+    },
+    "predicate": "adaptation_of",
+    "to": {
+      "type": "work",
+      "id": "wrk:000003"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The cited source explicitly identifies the literary source relationship. This does not certify a scene-for-scene adaptation."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    }
+  },
+  {
+    "id": "rel:000022",
+    "entityType": "connection",
+    "verification": {
+      "claimIds": [
+        "clm:006840",
+        "clm:006841",
+        "clm:006842",
+        "clm:006843",
+        "clm:006844"
+      ],
+      "open": []
+    },
+    "from": {
+      "type": "adaptation",
+      "id": "adp:000084"
+    },
+    "predicate": "adaptation_of",
+    "to": {
+      "type": "work",
+      "id": "wrk:000003"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The cited source explicitly identifies the literary source relationship. This does not certify a scene-for-scene adaptation."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    }
+  },
+  {
+    "id": "rel:000023",
+    "entityType": "connection",
+    "verification": {
+      "claimIds": [
+        "clm:006845",
+        "clm:006846",
+        "clm:006847",
+        "clm:006848",
+        "clm:006849"
+      ],
+      "open": []
+    },
+    "from": {
+      "type": "adaptation",
+      "id": "adp:000090"
+    },
+    "predicate": "adaptation_of",
+    "to": {
+      "id": "wrk:000135",
+      "type": "work"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The cited source explicitly identifies the literary source relationship. This does not certify a scene-for-scene adaptation."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    }
+  },
+  {
+    "id": "rel:000024",
+    "entityType": "connection",
+    "verification": {
+      "claimIds": [
+        "clm:006850",
+        "clm:006851",
+        "clm:006852",
+        "clm:006853",
+        "clm:006854"
+      ],
+      "open": []
+    },
+    "from": {
+      "type": "adaptation",
+      "id": "adp:000079"
+    },
+    "predicate": "inspired_by",
+    "to": {
+      "type": "work",
+      "id": "wrk:000042"
+    },
+    "certainty": "explicit",
+    "explanation": {
+      "en": "The cited source explicitly identifies the inspiration relationship. This does not certify a scene-for-scene adaptation."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    }
+  },
+  {
+    "id": "rel:000025",
+    "entityType": "connection",
+    "verification": {
+      "claimIds": [
+        "clm:006855",
+        "clm:006856",
+        "clm:006857",
+        "clm:006858",
+        "clm:006859"
+      ],
+      "open": []
+    },
+    "from": {
+      "type": "adaptation",
+      "id": "adp:000078"
+    },
+    "predicate": "inspired_by",
+    "to": {
+      "type": "work",
+      "id": "wrk:000009"
+    },
+    "certainty": "strongly-implied",
+    "explanation": {
+      "en": "The source relationship is provisional: primary wording, source access or production scope requires further review."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    }
+  },
+  {
+    "id": "rel:000026",
+    "entityType": "connection",
+    "verification": {
+      "claimIds": [
+        "clm:006860",
+        "clm:006861",
+        "clm:006862",
+        "clm:006863",
+        "clm:006864"
+      ],
+      "open": []
+    },
+    "from": {
+      "type": "adaptation",
+      "id": "adp:000095"
+    },
+    "predicate": "prequel_to",
+    "to": {
+      "type": "adaptation",
+      "id": "adp:000039"
+    },
+    "certainty": "strongly-implied",
+    "explanation": {
+      "en": "Official trailer metadata names the 2019 film, but its page could not be fetched. Accessible distributor and filmmaker sources establish a prequel/novel relationship without certifying this exact screen continuity. Target remains provisional."
+    },
+    "spoiler": {
+      "level": "none",
+      "workIds": []
+    }
   }
 ]

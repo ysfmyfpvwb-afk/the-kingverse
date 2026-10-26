@@ -269,7 +269,7 @@ Er is geen OMDb- of IMDb-API-integratie. Vier IMDb-objecten komen uit handmatig 
 
 Validator: `npm ci --ignore-scripts`, daarna `npm run validate:foundation`. Volledige tests: `npm test`. De validator controleert JSON Schema, register/referenties, bronclaims, rollen, datums, ISBN, relaties, bundelinhoud, coverkoppelingen en oude routes; runtimehashes bewaken dat de bestaande site intact blijft. Werkelijke test-/browserresultaten en beperkingen staan in `FOUNDATION-DELIVERY.md`. De bibliografische/beeldtellingen hierboven blijven die van de actieve catalogus.
 
-## Actuele schaduwkwaliteit — Batch 03
+## Historische schaduwkwaliteit — Batch 03
 
 Zie [MIGRATION-BATCH-03.md](MIGRATION-BATCH-03.md) en het afzonderlijke migratiedashboard. Eerdere tabellen betreffen de actieve catalogus of historische opleveringen; de actieve site en Explorer blijven ongewijzigd.
 
@@ -278,3 +278,13 @@ Alle 154 bestaande editievoorbeelden zijn opgenomen (150 nieuw): 86 EN en 68 NL,
 152 covers zijn bibliografisch geregistreerd; 2 edities hebben geen geregistreerde cover. Nul hebben vastgestelde hergebruiktoestemming en toegestane betrouwbare levering. Twee eerdere Referer-weigeringen blijven aan bewijs en datum gekoppeld; geen nieuwe beeldproeven, downloads of omzeiling. Historische visuele/fetchmetadata is geen licentie. Vijf bestaande NL-ISBNverhaaluitgaven blijven behouden; bundel-only verhalen krijgen geen fictieve eigen cover.
 
 4,058 van 15,350 DB-bladvelden zijn gekoppeld; 11,292 blijven behouden maar niet canoniek gekoppeld. De aanvullende ledger verantwoordt afzonderlijk 1.160 gekoppelde en 5.440 behouden bewijsvelden. Deze scopes bevatten herhaalde bewijzen, geen unieke feiten. 703 indexregels en 692 gelinkte bibliografieregels blijven bronregels, geen aantallen unieke werken. Alle eerdere identiteiten/claims blijven behouden. Geen wereldwijde volledigheidsclaim; 96 adaptaties en 17 Tower-records blijven buiten deze batch. Batch 04 is niet gestart.
+
+## Actuele schaduwkwaliteit — Batch 04
+
+Alle 96 bestaande schermweergaven zijn als 96 afzonderlijke canonieke producties gemigreerd. Geen titelmerge of nieuwe literaire identiteit. Brongecontroleerde literaire relaties: 14; voorlopige canonieke relatie: 2; voorlopige schermprequel: 1. 78 overige bronkandidaten, 18 bundelcontexten en vijf oorspronkelijke scenariodelen blijven afzonderlijk herkenbaar. 83 producties hebben nog geen bronondersteunde literaire relatie; originele scenario’s vereisen niet automatisch een literair bronwerk.
+
+61 films, 15 miniseries, zeven televisiefilms en 13 televisieseries zijn binnen de overgenomen scope geclassificeerd. 91 producties staan als uitgebracht en vijf als onbekend geregistreerd. Dit certificeert geen volledige filmografie of actuele status van ieder project. Carrie seizoen 1 is uitgebracht; seizoen 2 is afzonderlijk aangekondigd zonder releasedatum. Mercy gebruikt het onderbouwde jaar 2014, terwijl de oorspronkelijke aankondigingsdatum uit 2012 behouden blijft. Trucks behoudt een jaarconflict. My Pretty Pony blijft bij tegenstrijdige productie-/releasebewoording onbekend.
+
+82 bekende posterverwijzingen; 14 producties zonder geregistreerde poster. Nul posters met vastgestelde hergebruikrechten en toegestane betrouwbare levering. Geen beelden gedownload, overgenomen scores geïmporteerd of beperkingen omzeild. Drie numerieke IMDb-waarnemingen en twee IMDb-gebaseerde omschrijvingen blijven in de oude bron ter beoordeling. Nieuwe metadataomschrijvingen bevatten geen plot. Vier beschadigde makersnamen en 95 ontbrekende land-/taalbevestigingen blijven expliciet open.
+
+5657 van 15350 catalogusbladvelden zijn gekoppeld; 9693 behouden maar nog niet gekoppeld. De Batch-04-bewijsledger omvat 1.827 bladen: 574 gekoppeld, 1.253 behouden, naast de afzonderlijke Batch-03-ledger. Herhaalde bewijzen worden niet als unieke feiten opgeteld. Alle Batch-03-records zijn op digest behouden; website, Explorer en spoilerbediening blijven onveranderd. Zie [MIGRATION-BATCH-04.md](MIGRATION-BATCH-04.md). 17 Tower-records en de resterende semantische veldcontrole volgen alleen op nieuwe opdracht. Batch 05 is niet gestart.

@@ -4078,5 +4078,2219 @@
     "review": "legacy-visually-reviewed",
     "sourceId": "src:000338",
     "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000153",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004879",
+        "clm:004880",
+        "clm:004881",
+        "clm:004882",
+        "clm:004883",
+        "clm:004884",
+        "clm:004885"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000001",
+    "url": "https://stephenking.com/images/movies/a-good-marriage/a_good_marriage_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000339",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000154",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004908",
+        "clm:004909",
+        "clm:004910",
+        "clm:004911",
+        "clm:004912",
+        "clm:004913",
+        "clm:004914"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000002",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/apt_pupil/us_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000340",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000155",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004928",
+        "clm:004929",
+        "clm:004930",
+        "clm:004931",
+        "clm:004932",
+        "clm:004933",
+        "clm:004934"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000003",
+    "url": "https://stephenking.com/images/movie/boogeyman2.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000341",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000156",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004948",
+        "clm:004949",
+        "clm:004950",
+        "clm:004951",
+        "clm:004952",
+        "clm:004953",
+        "clm:004954"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000004",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/carrie/us_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000342",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000157",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004968",
+        "clm:004969",
+        "clm:004970",
+        "clm:004971",
+        "clm:004972",
+        "clm:004973",
+        "clm:004974"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000005",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/cats_eye/us_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000343",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000158",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004988",
+        "clm:004989",
+        "clm:004990",
+        "clm:004991",
+        "clm:004992",
+        "clm:004993",
+        "clm:004994"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000006",
+    "url": "https://stephenking.com/images/movie/39/cellposterfinal.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000344",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000159",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:005008",
+        "clm:005009",
+        "clm:005010",
+        "clm:005011",
+        "clm:005012",
+        "clm:005013",
+        "clm:005014"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000007",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/children_of_the_corn/us_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000345",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000160",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:005028",
+        "clm:005029",
+        "clm:005030",
+        "clm:005031",
+        "clm:005032",
+        "clm:005033",
+        "clm:005034"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000008",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/christine/us_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000346",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000161",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:005048",
+        "clm:005049",
+        "clm:005050",
+        "clm:005051",
+        "clm:005052",
+        "clm:005053",
+        "clm:005054"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000009",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/creepshow/us_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000347",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000162",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:005068",
+        "clm:005069",
+        "clm:005070",
+        "clm:005071",
+        "clm:005072",
+        "clm:005073",
+        "clm:005074"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000010",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/creepshow2/us_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000348",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000163",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:005088",
+        "clm:005089",
+        "clm:005090",
+        "clm:005091",
+        "clm:005092",
+        "clm:005093",
+        "clm:005094"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000011",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/cujo/us_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000349",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000164",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:005108",
+        "clm:005109",
+        "clm:005110",
+        "clm:005111",
+        "clm:005112",
+        "clm:005113",
+        "clm:005114"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000012",
+    "url": "https://stephenking.com/images/movie/24/thedarkhalf_movie_poster.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000350",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000165",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:005128",
+        "clm:005129",
+        "clm:005130",
+        "clm:005131",
+        "clm:005132",
+        "clm:005133",
+        "clm:005134"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000013",
+    "url": "https://stephenking.com/images/movie/40/darktower.library.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000351",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000166",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:005148",
+        "clm:005149",
+        "clm:005150",
+        "clm:005151",
+        "clm:005152",
+        "clm:005153",
+        "clm:005154"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000014",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/the_dead_zone/us2_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000352",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000167",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:005168",
+        "clm:005169",
+        "clm:005170",
+        "clm:005171",
+        "clm:005172",
+        "clm:005173",
+        "clm:005174"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000015",
+    "url": "https://stephenking.com/images/movie/48/sleepposter1.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000353",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000168",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:005188",
+        "clm:005189",
+        "clm:005190",
+        "clm:005191",
+        "clm:005192",
+        "clm:005193",
+        "clm:005194"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000016",
+    "url": "https://stephenking.com/images/movie/51/dolan.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000354",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000169",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:005208",
+        "clm:005209",
+        "clm:005210",
+        "clm:005211",
+        "clm:005212",
+        "clm:005213",
+        "clm:005214"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000017",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/dolores_claiborne/us_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000355",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000170",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:005228",
+        "clm:005229",
+        "clm:005230",
+        "clm:005231",
+        "clm:005232",
+        "clm:005233",
+        "clm:005234"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000018",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/dreamcatcher/us_promo_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000356",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000171",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:005266",
+        "clm:005267",
+        "clm:005268",
+        "clm:005269",
+        "clm:005270",
+        "clm:005271",
+        "clm:005272"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000020",
+    "url": "https://stephenking.com/images/movie/firestarter2022.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000357",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000172",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:005291",
+        "clm:005292",
+        "clm:005293",
+        "clm:005294",
+        "clm:005295",
+        "clm:005296",
+        "clm:005297"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000021",
+    "url": "https://stephenking.com/images/movie/45/geraldsgame.medium.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000361",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000173",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:005311",
+        "clm:005312",
+        "clm:005313",
+        "clm:005314",
+        "clm:005315",
+        "clm:005316",
+        "clm:005317"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000022",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/graveyard_shift/us_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000362",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000174",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:005331",
+        "clm:005332",
+        "clm:005333",
+        "clm:005334",
+        "clm:005335",
+        "clm:005336",
+        "clm:005337"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000023",
+    "url": "https://stephenking.com/images/movie/26/us2.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000363",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000175",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:005351",
+        "clm:005352",
+        "clm:005353",
+        "clm:005354",
+        "clm:005355",
+        "clm:005356",
+        "clm:005357"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000024",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/hearts_in_atlantis/us_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000364",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000176",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:005371",
+        "clm:005372",
+        "clm:005373",
+        "clm:005374",
+        "clm:005375",
+        "clm:005376",
+        "clm:005377"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000025",
+    "url": "https://stephenking.com/images/movie/49/tallgrass.medium.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000365",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000177",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:005391",
+        "clm:005392",
+        "clm:005393",
+        "clm:005394",
+        "clm:005395",
+        "clm:005396",
+        "clm:005397"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000026",
+    "url": "https://stephenking.com/images/movie/41/itposter01.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000366",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000178",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:005411",
+        "clm:005412",
+        "clm:005413",
+        "clm:005414",
+        "clm:005415",
+        "clm:005416",
+        "clm:005417"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000027",
+    "url": "https://stephenking.com/images/movie/47/it_chapter_2.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000367",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000179",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:005431",
+        "clm:005432",
+        "clm:005433",
+        "clm:005434",
+        "clm:005435",
+        "clm:005436",
+        "clm:005437"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000028",
+    "url": "https://stephenking.com/images/movie/tloc.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000368",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000180",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:005451",
+        "clm:005452",
+        "clm:005453",
+        "clm:005454",
+        "clm:005455",
+        "clm:005456",
+        "clm:005457"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000029",
+    "url": "https://stephenking.com/images/movie/long-walk.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000369",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000181",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:005471",
+        "clm:005472",
+        "clm:005473",
+        "clm:005474",
+        "clm:005475",
+        "clm:005476",
+        "clm:005477"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000030",
+    "url": "https://stephenking.com/images/movie/32/the_mangler_poster.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000370",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000182",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:005491",
+        "clm:005492",
+        "clm:005493",
+        "clm:005494",
+        "clm:005495",
+        "clm:005496",
+        "clm:005497"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000031",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/maximum_overdrive/us_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000371",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000183",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:005511",
+        "clm:005512",
+        "clm:005513",
+        "clm:005514",
+        "clm:005515",
+        "clm:005516",
+        "clm:005517"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000032",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/misery/us_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000372",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000184",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:005531",
+        "clm:005532",
+        "clm:005533",
+        "clm:005534",
+        "clm:005535",
+        "clm:005536",
+        "clm:005537"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000033",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/the_mist/us_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000373",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000185",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:005551",
+        "clm:005552",
+        "clm:005553",
+        "clm:005554",
+        "clm:005555",
+        "clm:005556",
+        "clm:005557"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000034",
+    "url": "https://stephenking.com/images/movie/57/the_monkey_film_poster.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000374",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000186",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:005571",
+        "clm:005572",
+        "clm:005573",
+        "clm:005574",
+        "clm:005575",
+        "clm:005576",
+        "clm:005577"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000035",
+    "url": "https://stephenking.com/images/movie/harrigan.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000375",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000187",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:005591",
+        "clm:005592",
+        "clm:005593",
+        "clm:005594",
+        "clm:005595",
+        "clm:005596",
+        "clm:005597"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000036",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/needful_things/us_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000376",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000188",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:005611",
+        "clm:005612",
+        "clm:005613",
+        "clm:005614",
+        "clm:005615",
+        "clm:005616",
+        "clm:005617"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000037",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/night_flier/us_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000377",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000189",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:005631",
+        "clm:005632",
+        "clm:005633",
+        "clm:005634",
+        "clm:005635",
+        "clm:005636",
+        "clm:005637"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000038",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/pet_sematary/us_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000378",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000190",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:005656",
+        "clm:005657",
+        "clm:005658",
+        "clm:005659",
+        "clm:005660",
+        "clm:005661",
+        "clm:005662"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000039",
+    "url": "https://stephenking.com/images/movie/50/psupload.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000380",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000191",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:005686",
+        "clm:005687",
+        "clm:005688",
+        "clm:005689",
+        "clm:005690",
+        "clm:005691",
+        "clm:005692"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000040",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/riding_the_bullet/us_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000382",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000192",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:005706",
+        "clm:005707",
+        "clm:005708",
+        "clm:005709",
+        "clm:005710",
+        "clm:005711",
+        "clm:005712"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000041",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/the_running_man/us_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000383",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000193",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:005726",
+        "clm:005727",
+        "clm:005728",
+        "clm:005729",
+        "clm:005730",
+        "clm:005731",
+        "clm:005732"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000042",
+    "url": "https://stephenking.com/images/movie/running-man-2025.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000384",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000194",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:005746",
+        "clm:005747",
+        "clm:005748",
+        "clm:005749",
+        "clm:005750",
+        "clm:005751",
+        "clm:005752"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000043",
+    "url": "https://stephenking.com/images/movie/salem2024.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000385",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000195",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:005766",
+        "clm:005767",
+        "clm:005768",
+        "clm:005769",
+        "clm:005770",
+        "clm:005771",
+        "clm:005772"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000044",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/secret_window/us_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000386",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000196",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:005786",
+        "clm:005787",
+        "clm:005788",
+        "clm:005789",
+        "clm:005790",
+        "clm:005791",
+        "clm:005792"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000045",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/the_shawshank_redemption/us_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000387",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000197",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:005806",
+        "clm:005807",
+        "clm:005808",
+        "clm:005809",
+        "clm:005810",
+        "clm:005811",
+        "clm:005812"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000046",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/the_shining/us_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000388",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000198",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:005826",
+        "clm:005827",
+        "clm:005828",
+        "clm:005829",
+        "clm:005830",
+        "clm:005831",
+        "clm:005832"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000047",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/silver_bullet/us_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000389",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000199",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:005846",
+        "clm:005847",
+        "clm:005848",
+        "clm:005849",
+        "clm:005850",
+        "clm:005851",
+        "clm:005852"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000048",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/stand_by_me/us_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000390",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000200",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:005866",
+        "clm:005867",
+        "clm:005868",
+        "clm:005869",
+        "clm:005870",
+        "clm:005871",
+        "clm:005872"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000049",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/thinner/us_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000391",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000201",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:005886",
+        "clm:005887",
+        "clm:005888",
+        "clm:005889",
+        "clm:005890",
+        "clm:005891",
+        "clm:005892"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000050",
+    "url": "https://stephenking.com/images/movies/theatrical_movie/1408/us_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000392",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000202",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:005906",
+        "clm:005907",
+        "clm:005908",
+        "clm:005909",
+        "clm:005910",
+        "clm:005911",
+        "clm:005912"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000051",
+    "url": "https://stephenking.com/images/movie/44/1922.full.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000393",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000203",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:005952",
+        "clm:005953",
+        "clm:005954",
+        "clm:005955",
+        "clm:005956",
+        "clm:005957",
+        "clm:005958"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000054",
+    "url": "https://stephenking.com/images/television/11-22-63/11_22_63_hulu_prop_embed.png",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000396",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000204",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:005972",
+        "clm:005973",
+        "clm:005974",
+        "clm:005975",
+        "clm:005976",
+        "clm:005977",
+        "clm:005978"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000055",
+    "url": "https://stephenking.com/images/television/bag_of_bones_tv/bag_of_bones_property_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000399",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000205",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:005992",
+        "clm:005993",
+        "clm:005994",
+        "clm:005995",
+        "clm:005996",
+        "clm:005997",
+        "clm:005998"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000056",
+    "url": "https://stephenking.com/images/television/20/lifetimebigdriverposter.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000400",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000206",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:006025",
+        "clm:006026",
+        "clm:006027",
+        "clm:006028",
+        "clm:006029",
+        "clm:006030",
+        "clm:006031"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000058",
+    "url": "https://stephenking.com/images/television/chap.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000404",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000207",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:006045",
+        "clm:006046",
+        "clm:006047",
+        "clm:006048",
+        "clm:006049",
+        "clm:006050",
+        "clm:006051"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000059",
+    "url": "https://stephenking.com/images/movies/tv_movie/desperation/us_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000405",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000208",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:006065",
+        "clm:006066",
+        "clm:006067",
+        "clm:006068",
+        "clm:006069",
+        "clm:006070",
+        "clm:006071"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000060",
+    "url": "https://stephenking.com/images/television/institute.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000406",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000209",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:006085",
+        "clm:006086",
+        "clm:006087",
+        "clm:006088",
+        "clm:006089",
+        "clm:006090",
+        "clm:006091"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000061",
+    "url": "https://stephenking.com/images/movies/tv_mini-series/it/us_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000407",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000210",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:006105",
+        "clm:006106",
+        "clm:006107",
+        "clm:006108",
+        "clm:006109",
+        "clm:006110",
+        "clm:006111"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000062",
+    "url": "https://stephenking.com/images/television/welcome-to-derry.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000408",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000211",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:006125",
+        "clm:006126",
+        "clm:006127",
+        "clm:006128",
+        "clm:006129",
+        "clm:006130",
+        "clm:006131"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000063",
+    "url": "https://stephenking.com/images/movies/tv_mini-series/langoliers/us_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000409",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000212",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:006145",
+        "clm:006146",
+        "clm:006147",
+        "clm:006148",
+        "clm:006149",
+        "clm:006150",
+        "clm:006151"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000064",
+    "url": "https://stephenking.com/images/future-works/lisey-s1.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000410",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000213",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:006165",
+        "clm:006166",
+        "clm:006167",
+        "clm:006168",
+        "clm:006169",
+        "clm:006170",
+        "clm:006171"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000065",
+    "url": "https://stephenking.com/images/television/23/mistposter.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000411",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000214",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:006185",
+        "clm:006186",
+        "clm:006187",
+        "clm:006188",
+        "clm:006189",
+        "clm:006190",
+        "clm:006191"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000066",
+    "url": "https://stephenking.com/images/television/25/mercedesposter01.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000412",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000215",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:006205",
+        "clm:006206",
+        "clm:006207",
+        "clm:006208",
+        "clm:006209",
+        "clm:006210",
+        "clm:006211"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000067",
+    "url": "https://stephenking.com/images/movies/tv_mini-series/nightmares_and_dreamscapes/us_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000413",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000216",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:006225",
+        "clm:006226",
+        "clm:006227",
+        "clm:006228",
+        "clm:006229",
+        "clm:006230",
+        "clm:006231"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000068",
+    "url": "https://stephenking.com/images/movies/tv_mini-series/salems_lot/us_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000414",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000217",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:006245",
+        "clm:006246",
+        "clm:006247",
+        "clm:006248",
+        "clm:006249",
+        "clm:006250",
+        "clm:006251"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000069",
+    "url": "https://stephenking.com/images/television/7/salems_lot_2004.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000415",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000218",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:006265",
+        "clm:006266",
+        "clm:006267",
+        "clm:006268",
+        "clm:006269",
+        "clm:006270",
+        "clm:006271"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000070",
+    "url": "https://stephenking.com/images/movies/tv_mini-series/the_shining97/us_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000416",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000219",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:006285",
+        "clm:006286",
+        "clm:006287",
+        "clm:006288",
+        "clm:006289",
+        "clm:006290",
+        "clm:006291"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000071",
+    "url": "https://stephenking.com/images/television/3/sometimes_they_come_back.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000417",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000220",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:006305",
+        "clm:006306",
+        "clm:006307",
+        "clm:006308",
+        "clm:006309",
+        "clm:006310",
+        "clm:006311"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000072",
+    "url": "https://stephenking.com/images/television/15/the_stand_miniseries.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000418",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000221",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:006325",
+        "clm:006326",
+        "clm:006327",
+        "clm:006328",
+        "clm:006329",
+        "clm:006330",
+        "clm:006331"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000073",
+    "url": "https://stephenking.com/images/television/stand-cbsaa-poster.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000419",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000222",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:006345",
+        "clm:006346",
+        "clm:006347",
+        "clm:006348",
+        "clm:006349",
+        "clm:006350",
+        "clm:006351"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000074",
+    "url": "https://stephenking.com/images/movies/tv_mini-series/tommyknockers/us_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000420",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000223",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:006365",
+        "clm:006366",
+        "clm:006367",
+        "clm:006368",
+        "clm:006369",
+        "clm:006370",
+        "clm:006371"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000075",
+    "url": "https://stephenking.com/images/movies/tv_movie/trucks/us_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000421",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000224",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:006385",
+        "clm:006386",
+        "clm:006387",
+        "clm:006388",
+        "clm:006389",
+        "clm:006390",
+        "clm:006391"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000076",
+    "url": "https://stephenking.com/images/television/utd/utd_property_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000422",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000225",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:006444",
+        "clm:006445",
+        "clm:006446",
+        "clm:006447",
+        "clm:006448",
+        "clm:006449",
+        "clm:006450"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000080",
+    "url": "https://stephenking.com/images/television/castle-rock.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000429",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000226",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:006464",
+        "clm:006465",
+        "clm:006466",
+        "clm:006467",
+        "clm:006468",
+        "clm:006469",
+        "clm:006470"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000081",
+    "url": "https://stephenking.com/images/movies/tv_mini-series/rose_red/us_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000430",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000227",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:006484",
+        "clm:006485",
+        "clm:006486",
+        "clm:006487",
+        "clm:006488",
+        "clm:006489",
+        "clm:006490"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000082",
+    "url": "https://stephenking.com/images/movies/tv_mini-series/storm_of_the_century/us_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000431",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000228",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:006532",
+        "clm:006533",
+        "clm:006534",
+        "clm:006535",
+        "clm:006536",
+        "clm:006537",
+        "clm:006538"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000084",
+    "url": "https://stephenking.com/images/television/carrie2026.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000433",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000229",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:006585",
+        "clm:006586",
+        "clm:006587",
+        "clm:006588",
+        "clm:006589",
+        "clm:006590",
+        "clm:006591"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000085",
+    "url": "https://stephenking.com/images/movies/tv_movie/the_diary_of_ellen_rimbauer/us_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000435",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000230",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:006605",
+        "clm:006606",
+        "clm:006607",
+        "clm:006608",
+        "clm:006609",
+        "clm:006610",
+        "clm:006611"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000086",
+    "url": "https://stephenking.com/images/movies/tv_series/the_golden_years/us_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000436",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000231",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:006638",
+        "clm:006639",
+        "clm:006640",
+        "clm:006641",
+        "clm:006642",
+        "clm:006643",
+        "clm:006644"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000088",
+    "url": "https://stephenking.com/images/movies/tv_series/kingdom_hospital/us_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000438",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000232",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:006689",
+        "clm:006690",
+        "clm:006691",
+        "clm:006692",
+        "clm:006693",
+        "clm:006694",
+        "clm:006695"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000091",
+    "url": "https://stephenking.com/images/movies/tv_mini-series/quicksilver_highway/us_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000443",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000233",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:006722",
+        "clm:006723",
+        "clm:006724",
+        "clm:006725",
+        "clm:006726",
+        "clm:006727",
+        "clm:006728"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000093",
+    "url": "https://stephenking.com/images/movie/23/us3.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000445",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
+  },
+  {
+    "id": "art:000234",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:006742",
+        "clm:006743",
+        "clm:006744",
+        "clm:006745",
+        "clm:006746",
+        "clm:006747",
+        "clm:006748"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "poster",
+    "editionId": null,
+    "adaptationId": "adp:000094",
+    "url": "https://stephenking.com/images/movie/36/talesfromthedarkside.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000446",
+    "rightsNote": "Existing bibliographic poster reference only. No reuse permission or current reliable delivery established."
   }
 ]

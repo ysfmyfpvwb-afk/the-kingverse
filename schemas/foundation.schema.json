@@ -1234,7 +1234,8 @@
             "tv-movie",
             "short",
             "episode",
-            "other-screen"
+            "other-screen",
+            "season"
           ]
         },
         "externalIds": {
@@ -1306,6 +1307,175 @@
           "type": "array",
           "items": {
             "$ref": "#/$defs/rating"
+          }
+        },
+        "aliases": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/alias"
+          }
+        },
+        "releaseYear": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1800,
+          "maximum": 2200
+        },
+        "countries": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 2
+          }
+        },
+        "originalLanguages": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 2
+          }
+        },
+        "originalScreenplay": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "makerObservations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "role": {
+                "enum": [
+                  "director",
+                  "showrunner",
+                  "creator",
+                  "screenwriter",
+                  "actor"
+                ]
+              },
+              "creditText": {
+                "type": "string",
+                "minLength": 1
+              },
+              "scope": {
+                "type": "string",
+                "minLength": 1
+              },
+              "sourceUrl": {
+                "type": "string",
+                "minLength": 1
+              },
+              "verification": {
+                "enum": [
+                  "carried-forward",
+                  "source-supported",
+                  "needs-review"
+                ]
+              }
+            },
+            "required": [
+              "role",
+              "creditText",
+              "scope",
+              "sourceUrl",
+              "verification"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "distribution": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "role": {
+                "enum": [
+                  "distributor",
+                  "studio",
+                  "platform",
+                  "network"
+                ]
+              },
+              "name": {
+                "type": "string",
+                "minLength": 1
+              },
+              "sourceUrl": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "role",
+              "name",
+              "sourceUrl"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "productionUnits": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "kind": {
+                "enum": [
+                  "season",
+                  "episode"
+                ]
+              },
+              "number": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "episodeCount": {
+                "type": [
+                  "integer",
+                  "null"
+                ],
+                "minimum": 1
+              },
+              "status": {
+                "enum": [
+                  "announced",
+                  "development",
+                  "production",
+                  "released",
+                  "cancelled",
+                  "unknown"
+                ]
+              },
+              "asOf": {
+                "type": "string",
+                "minLength": 1
+              },
+              "releaseDate": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "source": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "kind",
+              "number",
+              "episodeCount",
+              "status",
+              "asOf",
+              "releaseDate",
+              "source"
+            ],
+            "additionalProperties": false
           }
         }
       },
@@ -1448,7 +1618,8 @@
             "two-work-foundation-poc",
             "shadow-library-batch-01",
             "shadow-stories-batch-02",
-            "shadow-publications-batch-03"
+            "shadow-publications-batch-03",
+            "shadow-screen-batch-04"
           ]
         },
         "baselineCommit": {

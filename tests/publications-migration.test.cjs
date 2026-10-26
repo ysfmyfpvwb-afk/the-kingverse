@@ -41,7 +41,7 @@ test('Invalid ISBN, duplicate edition ISBN, missing work and missing language fa
  for(const [mutate,code]of [[b=>b.editions.at(-1).isbn13='9789021037401','isbn-checksum'],[b=>b.editions.at(-1).isbn13=b.editions[0].isbn13,'isbn-conflict'],[b=>b.editions.at(-1).publicationOf.id='wrk:999999','missing-reference'],[b=>delete b.editions.at(-1).language,'schema']]){const b=fresh();mutate(b);assert.ok(validate(b,{checkCompatibility:false}).errors.some(e=>e.code===code),code);}
 });
 test('152 historical cover references retain exact edition ownership and URL; two explicit missing-cover decisions',()=>{
- const b=fresh(),m=readGenerated('media.js','MEDIA'),aliases=new Map(b.registry.aliases.map(a=>[a.alias,a.target.id]));assert.equal(b.artworks.length,152);
+ const b=fresh(),m=readGenerated('media.js','MEDIA'),aliases=new Map(b.registry.aliases.map(a=>[a.alias,a.target.id]));assert.equal(b.artworks.filter(a=>a.kind==='cover').length,152);
  for(const old of Object.values(m.covers)){const a=b.artworks.find(a=>a.id===aliases.get(old.id));assert.ok(a);assert.equal(a.editionId,aliases.get(old.editionId));assert.equal(a.url,old.image);assert.equal(a.language,old.language);}
  const p=policy();assert.equal(p.covers.length,154);assert.equal(p.covers.filter(c=>!c.artworkId).length,2);assert.ok(p.covers.every(c=>c.fallback==='placeholder'&&!c.displayAllowed&&!c.approvedLocalAsset));assert.deepEqual(validateCoverProvenance(p,b),[]);
  const library=new Set(db.books.map(x=>aliases.get(x.workId)));const standaloneExamples=b.editions.filter(e=>!library.has(e.publicationOf.id));assert.equal(standaloneExamples.length,5);for(const e of standaloneExamples){assert.ok(e.isbn13);assert.ok(read('data/migration/edition-views.json').views.find(v=>v.editionId===e.id).evidence);}
@@ -59,7 +59,7 @@ test('Supplementary source fields remain exhaustively hashed and reproducible wi
  assert.deepEqual(generateShadow().publications.supplementary.fields,fields);
 });
 test('All Batch 02 entities and registrations remain exact, including coauthors, Bachman, memberships and trilogy',()=>{
- const b=fresh(),r=read('data/migration/batch-03-register.json'),old=generateShadow(ROOT,{batch:'02'}).bundle;const map=new Map(Object.values(b).filter(Array.isArray).flat().filter(x=>x.id).map(x=>[x.id,x]));
+ const b=generateShadow(ROOT,{batch:'03'}).bundle,r=read('data/migration/batch-03-register.json'),old=generateShadow(ROOT,{batch:'02'}).bundle;const map=new Map(Object.values(b).filter(Array.isArray).flat().filter(x=>x.id).map(x=>[x.id,x]));
  for(const[id,snapshot]of Object.entries(r.preservedEntities))assert.equal(hash(JSON.stringify(map.get(id))),snapshot.sha256,id);
  for(const table of ['works','collections','credits','people','connections','collectionMemberships','adaptations'])assert.deepEqual(b[table],old[table],table);
  assert.ok(b.works.some(w=>w.id==='wrk:000067'&&w.originalTitle==='Other Worlds Than These'));

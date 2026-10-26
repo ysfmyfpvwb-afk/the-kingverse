@@ -29,7 +29,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -111,7 +111,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -163,7 +163,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -205,7 +205,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -247,7 +247,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -401,7 +401,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -638,7 +638,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -793,7 +793,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -1062,7 +1062,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -1357,7 +1357,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -1558,7 +1558,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -1579,7 +1579,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -1600,7 +1600,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -1652,7 +1652,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -1704,7 +1704,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -1735,7 +1735,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -1818,7 +1818,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -1900,7 +1900,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -2064,7 +2064,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -2095,7 +2095,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -2178,7 +2178,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -2342,7 +2342,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -2484,7 +2484,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -3053,7 +3053,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -3146,7 +3146,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -3218,7 +3218,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -3332,7 +3332,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -3384,7 +3384,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -3467,7 +3467,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -3508,7 +3508,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -4179,7 +4179,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -4241,7 +4241,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -4461,7 +4461,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -4554,7 +4554,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -4667,7 +4667,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -4751,7 +4751,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -4802,7 +4802,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -5084,7 +5084,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -5167,7 +5167,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -5416,7 +5416,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -5467,7 +5467,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -5488,7 +5488,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -5540,7 +5540,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -5664,7 +5664,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -5768,7 +5768,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -6015,7 +6015,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -6088,7 +6088,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -6316,7 +6316,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -6378,7 +6378,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -6492,7 +6492,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -6732,7 +6732,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -6763,7 +6763,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -6815,7 +6815,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -6929,7 +6929,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -6970,7 +6970,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -6991,7 +6991,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -7064,7 +7064,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -7220,7 +7220,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -7272,7 +7272,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -7366,7 +7366,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -7459,7 +7459,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -7583,7 +7583,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -7677,7 +7677,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -7968,7 +7968,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -8005,7 +8005,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -8026,7 +8026,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -8220,7 +8220,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -8596,7 +8596,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -8771,7 +8771,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -8792,7 +8792,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -8844,7 +8844,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -8896,7 +8896,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -8958,7 +8958,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -9019,7 +9019,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -9101,7 +9101,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -9122,7 +9122,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -9183,7 +9183,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -9255,7 +9255,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -9307,7 +9307,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -9391,7 +9391,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -9448,7 +9448,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -9469,7 +9469,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -9531,7 +9531,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -9734,7 +9734,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -9796,7 +9796,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -9932,7 +9932,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -10191,7 +10191,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -10274,7 +10274,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -10342,7 +10342,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -10539,7 +10539,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -10909,7 +10909,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -11000,7 +11000,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -11173,7 +11173,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -11316,7 +11316,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -11467,7 +11467,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -11749,7 +11749,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -11887,7 +11887,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -11929,7 +11929,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -11960,7 +11960,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -11991,7 +11991,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -12012,7 +12012,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -12074,7 +12074,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -12125,7 +12125,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -12176,7 +12176,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -12349,7 +12349,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -12380,7 +12380,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -12421,7 +12421,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -12574,7 +12574,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -12686,7 +12686,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -13285,7 +13285,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -13408,7 +13408,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -13459,7 +13459,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -13520,7 +13520,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -13592,7 +13592,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -13633,7 +13633,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -13705,7 +13705,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -14234,7 +14234,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -14265,7 +14265,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -14484,7 +14484,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -14586,7 +14586,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -14678,7 +14678,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -14719,7 +14719,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -14770,7 +14770,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -15050,7 +15050,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -15071,7 +15071,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -15376,7 +15376,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -15479,7 +15479,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -15551,7 +15551,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -15612,7 +15612,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -15653,7 +15653,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -15674,7 +15674,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -15816,7 +15816,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -15858,7 +15858,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -16021,7 +16021,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -16094,7 +16094,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -16185,7 +16185,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -16347,7 +16347,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -16388,7 +16388,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -16429,7 +16429,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -16511,7 +16511,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -16563,7 +16563,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -16605,7 +16605,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -16656,7 +16656,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -16747,7 +16747,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -16810,7 +16810,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -16881,7 +16881,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -16953,7 +16953,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -17076,7 +17076,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -17167,7 +17167,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -17361,7 +17361,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -17429,7 +17429,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -17450,7 +17450,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -17581,7 +17581,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -17804,7 +17804,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -17967,7 +17967,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -17998,7 +17998,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -18029,7 +18029,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -18080,7 +18080,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -18122,7 +18122,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -18153,7 +18153,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -18184,7 +18184,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -18286,7 +18286,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -18327,7 +18327,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -18369,7 +18369,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -18450,7 +18450,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -18532,7 +18532,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -18563,7 +18563,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -18604,7 +18604,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -18692,7 +18692,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -18723,7 +18723,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -18764,7 +18764,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -18925,7 +18925,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -18976,7 +18976,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -19068,7 +19068,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -19240,7 +19240,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -19328,7 +19328,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -19369,7 +19369,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -19491,7 +19491,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -19774,7 +19774,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {
@@ -19805,7 +19805,7 @@
             }
           ],
           "status": "catalog-url-present",
-          "shadowIdentityMatch": false,
+          "shadowIdentityMatch": true,
           "note": "URL presence is not independent verification of the record."
         },
         {

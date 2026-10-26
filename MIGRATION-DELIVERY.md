@@ -1,12 +1,14 @@
-# The Kingverse 1.7 — huidige migratiestand na Batch 03
+# The Kingverse 1.7 — huidige migratiestand na Batch 04
 
-Batch 03 is uitgevoerd op basis van `82edfb3f865256e591c530e25ed2d774b752f45c`. Zie **[MIGRATION-BATCH-03.md](MIGRATION-BATCH-03.md)** voor definities, exacte tellingen, rechtenbeleid en blokkades, en `migration-quality.html#publications-editions` voor het dashboard.
+Batch 04 is uitgevoerd op basis van `aede96a374a263f91357df50eadb0a5ef9a9e9e2`. Zie **[MIGRATION-BATCH-04.md](MIGRATION-BATCH-04.md)** voor de actuele scope, exacte tellingen en blokkades; `migration-quality.html#screen-adaptations` is het gegenereerde dashboard.
 
-Actueel: 241 werken + 15 collecties, 173 verhaalweergaven, 155 bundelrelaties, 272 credits en 12 personen. Alle eerdere entiteiten/IDs zijn behouden, inclusief Other Worlds Than These (`wrk:000067`). Alle 150 resterende editievoorbeelden zijn gemigreerd: 154 totaal (86 EN, 68 NL), 239 publicatiewaarnemingen en 152 editiegebonden coververwijzingen. 66 uitgeversmatches ondersteunen titel, taal en ISBN; nul volledig vastgestelde drukgeschiedenissen. Nul covers hebben vastgestelde hergebruiktoestemming en toegestane betrouwbare levering.
+Alle 96 legacy-schermrecords hebben een afzonderlijke canonieke identiteit: 61 films, 15 miniseries, zeven televisiefilms en 13 series. 91 zijn als uitgebracht en vijf als onbekend geregistreerd, met bron- en seizoensscope. 14 literaire relaties zijn bronondersteund, twee voorlopig; één aanvullende schermprequelrelatie blijft voorlopig. 78 overige bronkandidaten, 18 bundelcontexten en vijf oorspronkelijke scenariodelen zijn geen bevestigde adaptaties. Geen titelmerge of fictieve bronwerken.
 
-4.058 van 15.350 DB-bladvelden zijn gekoppeld; 11.292 blijven expliciet behouden. De aanvullende bronledger verantwoordt afzonderlijk 6.600 bewijsvelden. Geen volledige bibliografische dekking claimen. De website, Explorer, publieke routes en spoilerbediening blijven ongewijzigd. **Batch 04 is niet gestart.**
+82 bestaande posterverwijzingen zijn productiegebonden behouden; nul hebben vastgestelde hergebruikrechten en toegestane betrouwbare levering. Geen beeldbestanden, ratings of legacyomschrijvingen geïmporteerd. Drie opgeslagen scores en twee IMDb-gebaseerde omschrijvingen blijven in de oude bron ter beoordeling.
 
-Historische Batch-02-oplevering: [MIGRATION-BATCH-02.md](MIGRATION-BATCH-02.md).
+De literaire aantallen blijven 241 werken, 15 collecties, 154 edities en 239 publicatiewaarnemingen. Alle Batch-03-records/IDs, de Talisman-trilogie en 155 memberships zijn behouden. Cumulatief: 28 personen, 291 credits, 26 verbindingen, 453 bronnen en 6.864 claims. 5.657 van 15.350 DB-bladvelden zijn gekoppeld; 9.693 expliciet behouden. De aparte bewijsledgers hebben eigen, niet optelbare bibliografische noemers.
+
+Geen volledige filmografische of bibliografische volledigheid claimen. Website, Explorer, bestaande routes en spoilerbediening blijven ongewijzigd. **Batch 05 is niet gestart.** Historische opleveringen: [Batch 03](MIGRATION-BATCH-03.md), [Batch 02](MIGRATION-BATCH-02.md).
 
 ---
 

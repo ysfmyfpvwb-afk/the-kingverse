@@ -1,0 +1,2734 @@
+{
+  "batch": "04",
+  "policy": "Default deny: bibliography, rights and delivery are separate.",
+  "posters": [
+    {
+      "adaptationId": "adp:000001",
+      "legacyId": "films:a-good-marriage-2014",
+      "artworkId": "art:000153",
+      "originalUrl": "https://stephenking.com/images/movies/a-good-marriage/a_good_marriage_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/movie/a-good-marriage.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "0ca76ec583607e84",
+        "checked": "2026-10-25",
+        "sha256": "697960e4620c68cc0621e804a34e14c3e30077728cf919fb5f95aae0f6c867bf"
+      }
+    },
+    {
+      "adaptationId": "adp:000002",
+      "legacyId": "films:apt-pupil-1998",
+      "artworkId": "art:000154",
+      "originalUrl": "https://stephenking.com/images/movies/theatrical_movie/apt_pupil/us_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/movie/apt-pupil.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "2b017051754b7896",
+        "checked": "2026-10-25",
+        "sha256": "70dd4cf64ed114f48e82bd2142f000a393f7bbe08e5a144ebb95067e6711bea4"
+      }
+    },
+    {
+      "adaptationId": "adp:000003",
+      "legacyId": "films:the-boogeyman-2023",
+      "artworkId": "art:000155",
+      "originalUrl": "https://stephenking.com/images/movie/boogeyman2.jpg",
+      "sourceUrl": "https://stephenking.com/works/movie/boogeyman.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "a369dc31cf945935",
+        "checked": "2026-10-25",
+        "sha256": "b99287d645035a1e8ae03ddc27dcb66cd89022b9da2a4c9ed08f3a8095ac46b6"
+      }
+    },
+    {
+      "adaptationId": "adp:000004",
+      "legacyId": "films:carrie-1976",
+      "artworkId": "art:000156",
+      "originalUrl": "https://stephenking.com/images/movies/theatrical_movie/carrie/us_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/movie/carrie.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "e98670df4543b626",
+        "checked": "2026-10-25",
+        "sha256": "7b9fbc1d7dcb980eb05f6b88249691d185cec852a260b765a340e17738cdeeab"
+      }
+    },
+    {
+      "adaptationId": "adp:000005",
+      "legacyId": "films:cat-s-eye-1985",
+      "artworkId": "art:000157",
+      "originalUrl": "https://stephenking.com/images/movies/theatrical_movie/cats_eye/us_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/movie/cats-eye.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "63242c20a0765f37",
+        "checked": "2026-10-25",
+        "sha256": "7b3a69fc9b59b484e0c4780f9df6d2b4d8176c54a0062f6ed342a1f9a510fdd6"
+      }
+    },
+    {
+      "adaptationId": "adp:000006",
+      "legacyId": "films:cell-2016",
+      "artworkId": "art:000158",
+      "originalUrl": "https://stephenking.com/images/movie/39/cellposterfinal.jpg",
+      "sourceUrl": "https://stephenking.com/works/movie/cell.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "165ce381c6d238d2",
+        "checked": "2026-10-25",
+        "sha256": "b2299b1eb248719879dbee789c7f1ba26b12814b7fb652b623d8a0347adfae71"
+      }
+    },
+    {
+      "adaptationId": "adp:000007",
+      "legacyId": "films:children-of-the-corn-1984",
+      "artworkId": "art:000159",
+      "originalUrl": "https://stephenking.com/images/movies/theatrical_movie/children_of_the_corn/us_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/movie/children-of-the-corn.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "f8de111397a13742",
+        "checked": "2026-10-25",
+        "sha256": "b0dd474a3b9a1ebb75dc9887c292423f9400173fa06237880ba6b38867875848"
+      }
+    },
+    {
+      "adaptationId": "adp:000008",
+      "legacyId": "films:christine-1983",
+      "artworkId": "art:000160",
+      "originalUrl": "https://stephenking.com/images/movies/theatrical_movie/christine/us_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/movie/christine.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "f10d1b4b2d914472",
+        "checked": "2026-10-25",
+        "sha256": "52d6f08fb76f99ffdfcc5f02e56d4e5e0ee4df1310ad51467b8065bcddb9a3b2"
+      }
+    },
+    {
+      "adaptationId": "adp:000009",
+      "legacyId": "films:creepshow-1982",
+      "artworkId": "art:000161",
+      "originalUrl": "https://stephenking.com/images/movies/theatrical_movie/creepshow/us_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/movie/creepshow.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "74bbdc1c22db4606",
+        "checked": "2026-10-25",
+        "sha256": "28eade532700fc80bc9d1bdf5193be0f0aaa3fd4554a0b6fac62f064dec184e8"
+      }
+    },
+    {
+      "adaptationId": "adp:000010",
+      "legacyId": "films:creepshow-2-1987",
+      "artworkId": "art:000162",
+      "originalUrl": "https://stephenking.com/images/movies/theatrical_movie/creepshow2/us_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/movie/creepshow-2.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "d6348b76744c0d1c",
+        "checked": "2026-10-25",
+        "sha256": "cea87c4712401aa81a5559253c688429c582e9562ccd3cf3ce83f6be7f8fe9c0"
+      }
+    },
+    {
+      "adaptationId": "adp:000011",
+      "legacyId": "films:cujo-1983",
+      "artworkId": "art:000163",
+      "originalUrl": "https://stephenking.com/images/movies/theatrical_movie/cujo/us_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/movie/cujo.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "e4729a5214795bee",
+        "checked": "2026-10-25",
+        "sha256": "4e65156886389dd10bcfcaa6cedb6218344200b738b9de46b2a6eab784f36b03"
+      }
+    },
+    {
+      "adaptationId": "adp:000012",
+      "legacyId": "films:the-dark-half-1993",
+      "artworkId": "art:000164",
+      "originalUrl": "https://stephenking.com/images/movie/24/thedarkhalf_movie_poster.jpg",
+      "sourceUrl": "https://stephenking.com/works/movie/dark-half.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "e28b04af6dbd5ac7",
+        "checked": "2026-10-25",
+        "sha256": "07253dcd4ffbe43997bfe61cc3afa43c3cb8a006d7c4fcdd9eb6fa7182576f6e"
+      }
+    },
+    {
+      "adaptationId": "adp:000013",
+      "legacyId": "films:the-dark-tower-2017",
+      "artworkId": "art:000165",
+      "originalUrl": "https://stephenking.com/images/movie/40/darktower.library.jpg",
+      "sourceUrl": "https://stephenking.com/works/movie/dark-tower.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "36e21e1df7f98719",
+        "checked": "2026-10-25",
+        "sha256": "994a6628ae11c69e06de6dbd4df4518c2ff8662c3630cf2caa13fa2d53969af0"
+      }
+    },
+    {
+      "adaptationId": "adp:000014",
+      "legacyId": "films:the-dead-zone-1983",
+      "artworkId": "art:000166",
+      "originalUrl": "https://stephenking.com/images/movies/theatrical_movie/the_dead_zone/us2_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/movie/dead-zone.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "ec483b1599edbdd4",
+        "checked": "2026-10-25",
+        "sha256": "e8b738d43f834df66ef7dd60ae6f517f774b0c59385774b0a61d2f80cdf831b6"
+      }
+    },
+    {
+      "adaptationId": "adp:000015",
+      "legacyId": "films:doctor-sleep-2019",
+      "artworkId": "art:000167",
+      "originalUrl": "https://stephenking.com/images/movie/48/sleepposter1.jpg",
+      "sourceUrl": "https://stephenking.com/works/movie/doctor-sleep.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "6bccc4e5d92d9983",
+        "checked": "2026-10-25",
+        "sha256": "8b2a6f59d0681aa5193afdb865b134214682d0bbbbf40e0382546a34e3391f86"
+      }
+    },
+    {
+      "adaptationId": "adp:000016",
+      "legacyId": "films:dolan-s-cadillac-2009",
+      "artworkId": "art:000168",
+      "originalUrl": "https://stephenking.com/images/movie/51/dolan.jpg",
+      "sourceUrl": "https://stephenking.com/works/movie/dolans-cadillac.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "229620f97521adf6",
+        "checked": "2026-10-25",
+        "sha256": "a8d1570923e8e6f759d150c998b2bfabc7557e3f3966461d30dc32fb6a6d452e"
+      }
+    },
+    {
+      "adaptationId": "adp:000017",
+      "legacyId": "films:dolores-claiborne-1995",
+      "artworkId": "art:000169",
+      "originalUrl": "https://stephenking.com/images/movies/theatrical_movie/dolores_claiborne/us_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/movie/dolores-claiborne.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "c175b2403ec134b1",
+        "checked": "2026-10-25",
+        "sha256": "5ca301bec4ac04779b3416c6d7aab20f210a85dc3a1b48bb40bb78a8d93bb6d1"
+      }
+    },
+    {
+      "adaptationId": "adp:000018",
+      "legacyId": "films:dreamcatcher-2003",
+      "artworkId": "art:000170",
+      "originalUrl": "https://stephenking.com/images/movies/theatrical_movie/dreamcatcher/us_promo_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/movie/dreamcatcher.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "2982e38a351b43ec",
+        "checked": "2026-10-25",
+        "sha256": "f3ef033e57daca06bb80a60ebc3553590712add3f68a68394d3438fb094d2705"
+      }
+    },
+    {
+      "adaptationId": "adp:000019",
+      "legacyId": "films:firestarter-1984",
+      "artworkId": null,
+      "originalUrl": null,
+      "sourceUrl": "https://stephenking.com/works/movie/firestarter.html",
+      "bibliographicStatus": "no-registered-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "no-registered-poster",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": null
+    },
+    {
+      "adaptationId": "adp:000020",
+      "legacyId": "films:firestarter-2022",
+      "artworkId": "art:000171",
+      "originalUrl": "https://stephenking.com/images/movie/firestarter2022.jpg",
+      "sourceUrl": "https://stephenking.com/works/movie/firestarter.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "daa3a0f58c2de3c1",
+        "checked": "2026-10-25",
+        "sha256": "c83c36acf03ae9bb10e4697326b1d670b189b6cac3d277fa4e07f7dd5fc7bde1"
+      }
+    },
+    {
+      "adaptationId": "adp:000021",
+      "legacyId": "films:gerald-s-game-2017",
+      "artworkId": "art:000172",
+      "originalUrl": "https://stephenking.com/images/movie/45/geraldsgame.medium.jpg",
+      "sourceUrl": "https://stephenking.com/works/movie/geralds-game.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "e74bfd22294eac44",
+        "checked": "2026-10-25",
+        "sha256": "6f71df84c7aa06b44d83493dc896ffaac5296cb2fc4987200264ad6a6fae4bbd"
+      }
+    },
+    {
+      "adaptationId": "adp:000022",
+      "legacyId": "films:graveyard-shift-1990",
+      "artworkId": "art:000173",
+      "originalUrl": "https://stephenking.com/images/movies/theatrical_movie/graveyard_shift/us_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/movie/graveyard-shift.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "0780f2978880cd8a",
+        "checked": "2026-10-25",
+        "sha256": "976ef6537181718deb6937d7a2334af8f3a964d17768db4849d552c02659d03a"
+      }
+    },
+    {
+      "adaptationId": "adp:000023",
+      "legacyId": "films:the-green-mile-1999",
+      "artworkId": "art:000174",
+      "originalUrl": "https://stephenking.com/images/movie/26/us2.jpg",
+      "sourceUrl": "https://stephenking.com/works/movie/green-mile.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "eb5446e0e3161d59",
+        "checked": "2026-10-25",
+        "sha256": "98f9a582bb205914d79ec0737f6eba61163b8e680b50fe6303b4f751ba74e974"
+      }
+    },
+    {
+      "adaptationId": "adp:000024",
+      "legacyId": "films:hearts-in-atlantis-2001",
+      "artworkId": "art:000175",
+      "originalUrl": "https://stephenking.com/images/movies/theatrical_movie/hearts_in_atlantis/us_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/movie/hearts-in-atlantis.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "da3ab1ad16fd6f8f",
+        "checked": "2026-10-25",
+        "sha256": "ee820e5d828d9c45770e3b0834ddda3df427891c786a7f5f0d601b2e7d4e493a"
+      }
+    },
+    {
+      "adaptationId": "adp:000025",
+      "legacyId": "films:in-the-tall-grass-2019",
+      "artworkId": "art:000176",
+      "originalUrl": "https://stephenking.com/images/movie/49/tallgrass.medium.jpg",
+      "sourceUrl": "https://stephenking.com/works/movie/in-the-tall-grass.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "6b39d1df5873f86a",
+        "checked": "2026-10-25",
+        "sha256": "011d5dd3736785a3d8ad0d13027ff780dac2cc2b5aa34ee34e679fd10729bd94"
+      }
+    },
+    {
+      "adaptationId": "adp:000026",
+      "legacyId": "films:it-2017",
+      "artworkId": "art:000177",
+      "originalUrl": "https://stephenking.com/images/movie/41/itposter01.jpg",
+      "sourceUrl": "https://stephenking.com/works/movie/it-part-1-the-losers-club.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "af9757e9513e3459",
+        "checked": "2026-10-25",
+        "sha256": "97aadb2496f8ef3171d2b5d60576801379e56f127b5c3e9854d0930172324926"
+      }
+    },
+    {
+      "adaptationId": "adp:000027",
+      "legacyId": "films:it-chapter-two-2019",
+      "artworkId": "art:000178",
+      "originalUrl": "https://stephenking.com/images/movie/47/it_chapter_2.jpg",
+      "sourceUrl": "https://stephenking.com/works/movie/it-chapter-two.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "8e052c0f5b674d88",
+        "checked": "2026-10-25",
+        "sha256": "06e901cbfe5cf51a83f1f84606aa1dc00b9a6e7e16ab7e6889f6b00f4ecc7372"
+      }
+    },
+    {
+      "adaptationId": "adp:000028",
+      "legacyId": "films:the-life-of-chuck-2024",
+      "artworkId": "art:000179",
+      "originalUrl": "https://stephenking.com/images/movie/tloc.jpg",
+      "sourceUrl": "https://stephenking.com/works/movie/life-of-chuck.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "ba0b72b7d608e538",
+        "checked": "2026-10-25",
+        "sha256": "d9a77cc204e29fc31c75b0a8775e1cfcc39667d62e57b2ddf91cd6b9f70910c4"
+      }
+    },
+    {
+      "adaptationId": "adp:000029",
+      "legacyId": "films:the-long-walk-2025",
+      "artworkId": "art:000180",
+      "originalUrl": "https://stephenking.com/images/movie/long-walk.jpg",
+      "sourceUrl": "https://stephenking.com/works/movie/long-walk.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "fa7a9dc9891548b0",
+        "checked": "2026-10-25",
+        "sha256": "bc6abfdd538be22552f90908534f808ce75b4edfd4c0d39271ba986b4d1f2dae"
+      }
+    },
+    {
+      "adaptationId": "adp:000030",
+      "legacyId": "films:the-mangler-1995",
+      "artworkId": "art:000181",
+      "originalUrl": "https://stephenking.com/images/movie/32/the_mangler_poster.jpg",
+      "sourceUrl": "https://stephenking.com/works/movie/mangler.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "35e3c90ca10c29e1",
+        "checked": "2026-10-25",
+        "sha256": "4e7f382491a64e7ff5aa850e71b8d8f30aa7acfa5c387f4bda0e0b6d10c2f8f5"
+      }
+    },
+    {
+      "adaptationId": "adp:000031",
+      "legacyId": "films:maximum-overdrive-1986",
+      "artworkId": "art:000182",
+      "originalUrl": "https://stephenking.com/images/movies/theatrical_movie/maximum_overdrive/us_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/movie/maximum-overdrive.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "60cbdcc1f897aeec",
+        "checked": "2026-10-25",
+        "sha256": "07d467b933b4e15153ce574ce011f92726e80762a165bd1eda38b3a27d91006c"
+      }
+    },
+    {
+      "adaptationId": "adp:000032",
+      "legacyId": "films:misery-1990",
+      "artworkId": "art:000183",
+      "originalUrl": "https://stephenking.com/images/movies/theatrical_movie/misery/us_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/movie/misery.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "9bc3320d0557d5bf",
+        "checked": "2026-10-25",
+        "sha256": "cac69a8e6a95734a4e546da51ea96ba612a86b86a538d83d710c37735c71d74c"
+      }
+    },
+    {
+      "adaptationId": "adp:000033",
+      "legacyId": "films:the-mist-2007",
+      "artworkId": "art:000184",
+      "originalUrl": "https://stephenking.com/images/movies/theatrical_movie/the_mist/us_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/movie/mist.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "563eb288ec3f0138",
+        "checked": "2026-10-25",
+        "sha256": "35304456da6c708cd0de181d946cf0436ce04c990e73da00f2b560d095e38505"
+      }
+    },
+    {
+      "adaptationId": "adp:000034",
+      "legacyId": "films:the-monkey-2025",
+      "artworkId": "art:000185",
+      "originalUrl": "https://stephenking.com/images/movie/57/the_monkey_film_poster.jpg",
+      "sourceUrl": "https://stephenking.com/works/movie/monkey.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "3b57daaec960a1fc",
+        "checked": "2026-10-25",
+        "sha256": "d395bf2710173fca49e4ba8e78435cc8f7ac0b8af2cbd65ac88acfafd3fb3726"
+      }
+    },
+    {
+      "adaptationId": "adp:000035",
+      "legacyId": "films:mr-harrigan-s-phone-2022",
+      "artworkId": "art:000186",
+      "originalUrl": "https://stephenking.com/images/movie/harrigan.jpg",
+      "sourceUrl": "https://stephenking.com/works/movie/mr-harrigans-phone.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "b66fbe291b27a518",
+        "checked": "2026-10-25",
+        "sha256": "0b58a62bb376b3accfd5f9e8e6d0d156953f48a210c39e73bd07de244dd25982"
+      }
+    },
+    {
+      "adaptationId": "adp:000036",
+      "legacyId": "films:needful-things-1993",
+      "artworkId": "art:000187",
+      "originalUrl": "https://stephenking.com/images/movies/theatrical_movie/needful_things/us_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/movie/needful-things.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "7b49d3a31a180ea3",
+        "checked": "2026-10-25",
+        "sha256": "1bb3d3dffa9d781bb410ccfa032545d1dae30fc5c3fa95d9ec5bab7f18f9f058"
+      }
+    },
+    {
+      "adaptationId": "adp:000037",
+      "legacyId": "films:the-night-flier-1997",
+      "artworkId": "art:000188",
+      "originalUrl": "https://stephenking.com/images/movies/theatrical_movie/night_flier/us_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/movie/night-flier.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "5019fb98cb047f12",
+        "checked": "2026-10-25",
+        "sha256": "8af8349f6339723d825e2aa38f1e4cb97e1e7ca46441c60fb38eb2de50501c48"
+      }
+    },
+    {
+      "adaptationId": "adp:000038",
+      "legacyId": "films:pet-sematary-1989",
+      "artworkId": "art:000189",
+      "originalUrl": "https://stephenking.com/images/movies/theatrical_movie/pet_sematary/us_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/movie/pet-sematary-(1989).html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "758ab868c53eff59",
+        "checked": "2026-10-25",
+        "sha256": "0d71043360b4bf06fe5d79fafd40aaebbdfb0465ed28c10b94962b76ec137c4b"
+      }
+    },
+    {
+      "adaptationId": "adp:000039",
+      "legacyId": "films:pet-sematary-2019",
+      "artworkId": "art:000190",
+      "originalUrl": "https://stephenking.com/images/movie/50/psupload.jpg",
+      "sourceUrl": "https://stephenking.com/works/movie/pet-sematary-(2019).html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "37ac930603fb8a98",
+        "checked": "2026-10-25",
+        "sha256": "9a04e588cd7a8a065de962d77cbc02e83cbf05eb5b4bda3a5d5936ef96428cfe"
+      }
+    },
+    {
+      "adaptationId": "adp:000040",
+      "legacyId": "films:riding-the-bullet-2004",
+      "artworkId": "art:000191",
+      "originalUrl": "https://stephenking.com/images/movies/theatrical_movie/riding_the_bullet/us_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/movie/riding-the-bullet.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "98868e0bbc087989",
+        "checked": "2026-10-25",
+        "sha256": "0d07092eb7ee1f791788b90735cab863d9a5f31757f06f474ad1aad6eb1d4891"
+      }
+    },
+    {
+      "adaptationId": "adp:000041",
+      "legacyId": "films:the-running-man-1987",
+      "artworkId": "art:000192",
+      "originalUrl": "https://stephenking.com/images/movies/theatrical_movie/the_running_man/us_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/movie/running-man.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "76014ce44f7d525b",
+        "checked": "2026-10-25",
+        "sha256": "f90989dbffd8cd21acefe9a03a6447b0d178099c0c161b3674c929999e837c57"
+      }
+    },
+    {
+      "adaptationId": "adp:000042",
+      "legacyId": "films:the-running-man-2025",
+      "artworkId": "art:000193",
+      "originalUrl": "https://stephenking.com/images/movie/running-man-2025.jpg",
+      "sourceUrl": "https://stephenking.com/works/movie/running-man-(2025).html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "643cf0457a3f8d6a",
+        "checked": "2026-10-25",
+        "sha256": "f6fa06b7c979715767fea1a2b803d47ba0119d416f684b235e88fcb4793e33f5"
+      }
+    },
+    {
+      "adaptationId": "adp:000043",
+      "legacyId": "films:salem-s-lot-2024",
+      "artworkId": "art:000194",
+      "originalUrl": "https://stephenking.com/images/movie/salem2024.jpg",
+      "sourceUrl": "https://stephenking.com/works/movie/salems-lot.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "193c603827b9f37b",
+        "checked": "2026-10-25",
+        "sha256": "0548db4f57b071432340a006d1b23a81b64047fdd782b4143b0dc6197abf8f1c"
+      }
+    },
+    {
+      "adaptationId": "adp:000044",
+      "legacyId": "films:secret-window-2004",
+      "artworkId": "art:000195",
+      "originalUrl": "https://stephenking.com/images/movies/theatrical_movie/secret_window/us_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/movie/secret-window.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "d8a5444167871f05",
+        "checked": "2026-10-25",
+        "sha256": "7bdf2c2e3f7535391b45c40e0120893d1b61a5e308f3f7b31ca5ad3d777f80c4"
+      }
+    },
+    {
+      "adaptationId": "adp:000045",
+      "legacyId": "films:the-shawshank-redemption-1994",
+      "artworkId": "art:000196",
+      "originalUrl": "https://stephenking.com/images/movies/theatrical_movie/the_shawshank_redemption/us_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/movie/shawshank-redemption.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "17916d89bebeff2d",
+        "checked": "2026-10-25",
+        "sha256": "7837c9438e73a5f8e99281fcbeacee00ee389377a83d35226c6be28c146912b1"
+      }
+    },
+    {
+      "adaptationId": "adp:000046",
+      "legacyId": "films:the-shining-1980",
+      "artworkId": "art:000197",
+      "originalUrl": "https://stephenking.com/images/movies/theatrical_movie/the_shining/us_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/movie/shining.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "c388ce89eeac19fe",
+        "checked": "2026-10-25",
+        "sha256": "51576111d24896342d5fe4f038928106a06bd79e8a74687936bf5fb34b13d60d"
+      }
+    },
+    {
+      "adaptationId": "adp:000047",
+      "legacyId": "films:silver-bullet-1985",
+      "artworkId": "art:000198",
+      "originalUrl": "https://stephenking.com/images/movies/theatrical_movie/silver_bullet/us_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/movie/silver-bullet.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "b422d87b81bd6a21",
+        "checked": "2026-10-25",
+        "sha256": "7ae67e803426036f1426c1ce7fc6c34b46f25a48ec10f9855c745113fce0d960"
+      }
+    },
+    {
+      "adaptationId": "adp:000048",
+      "legacyId": "films:stand-by-me-1986",
+      "artworkId": "art:000199",
+      "originalUrl": "https://stephenking.com/images/movies/theatrical_movie/stand_by_me/us_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/movie/stand-by-me.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "eb8092c74f0f7709",
+        "checked": "2026-10-25",
+        "sha256": "08acc3903bc00f97a21cc74917af4d80b2f6da073e3e334cc8ebce001cec1011"
+      }
+    },
+    {
+      "adaptationId": "adp:000049",
+      "legacyId": "films:thinner-1996",
+      "artworkId": "art:000200",
+      "originalUrl": "https://stephenking.com/images/movies/theatrical_movie/thinner/us_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/movie/thinner.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "33ea4fc061252562",
+        "checked": "2026-10-25",
+        "sha256": "59ea3611ee6ff2663b183af246691907bc92a24d27303171e517724f16943595"
+      }
+    },
+    {
+      "adaptationId": "adp:000050",
+      "legacyId": "films:1408-2007",
+      "artworkId": "art:000201",
+      "originalUrl": "https://stephenking.com/images/movies/theatrical_movie/1408/us_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/movie/1408.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "e568dcd471eb6ba4",
+        "checked": "2026-10-25",
+        "sha256": "fcd865a214143cddaf5bc88422c463afb30dc702956d08b94355daa3cbcf51ba"
+      }
+    },
+    {
+      "adaptationId": "adp:000051",
+      "legacyId": "films:1922-2017",
+      "artworkId": "art:000202",
+      "originalUrl": "https://stephenking.com/images/movie/44/1922.full.jpg",
+      "sourceUrl": "https://stephenking.com/works/movie/1922.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "82ab079a2960581f",
+        "checked": "2026-10-25",
+        "sha256": "cac78be59a6b09f41af15337aa8a88ec942834ce19dc65dc7e5400fc9e24aebd"
+      }
+    },
+    {
+      "adaptationId": "adp:000052",
+      "legacyId": "films:the-girl-who-loved-tom-gordon-tbd",
+      "artworkId": null,
+      "originalUrl": null,
+      "sourceUrl": "https://stephenking.com/works/movie/girl-who-loved-tom-gordon.html",
+      "bibliographicStatus": "no-registered-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "no-registered-poster",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": null
+    },
+    {
+      "adaptationId": "adp:000053",
+      "legacyId": "films:suffer-the-little-children-tbd",
+      "artworkId": null,
+      "originalUrl": null,
+      "sourceUrl": "https://stephenking.com/works/movie/suffer-the-little-children.html",
+      "bibliographicStatus": "no-registered-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "no-registered-poster",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": null
+    },
+    {
+      "adaptationId": "adp:000054",
+      "legacyId": "films:11-22-63-2016",
+      "artworkId": "art:000203",
+      "originalUrl": "https://stephenking.com/images/television/11-22-63/11_22_63_hulu_prop_embed.png",
+      "sourceUrl": "https://stephenking.com/works/television/11-22-63.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "3efa1296d1c83edf",
+        "checked": "2026-10-25",
+        "sha256": "e981c47fdf07f75ae148e458fe52701fb149c11df9d36e9af6b89e4c1968b549"
+      }
+    },
+    {
+      "adaptationId": "adp:000055",
+      "legacyId": "films:bag-of-bones-2011",
+      "artworkId": "art:000204",
+      "originalUrl": "https://stephenking.com/images/television/bag_of_bones_tv/bag_of_bones_property_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/television/bag-of-bones.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "17b6e3f99fb355ec",
+        "checked": "2026-10-25",
+        "sha256": "a2d9294c2d7b94116bb1789ed4380931dbf5701c8f0f06493523be67f9cfdca9"
+      }
+    },
+    {
+      "adaptationId": "adp:000056",
+      "legacyId": "films:big-driver-2014",
+      "artworkId": "art:000205",
+      "originalUrl": "https://stephenking.com/images/television/20/lifetimebigdriverposter.jpg",
+      "sourceUrl": "https://stephenking.com/works/television/big-driver.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "92d11c1648c5b85d",
+        "checked": "2026-10-25",
+        "sha256": "2a906f2af531cc8f2c16590082802e6e2e17c8b945e0921e31958ab3d875aeab"
+      }
+    },
+    {
+      "adaptationId": "adp:000057",
+      "legacyId": "films:carrie-2002",
+      "artworkId": null,
+      "originalUrl": null,
+      "sourceUrl": "https://tv.apple.com/us/movie/carrie/umc.cmc.4iz6xmn32vca6hcyv5ulbtfx",
+      "bibliographicStatus": "no-registered-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "no-registered-poster",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": null
+    },
+    {
+      "adaptationId": "adp:000058",
+      "legacyId": "films:chapelwaite-2021",
+      "artworkId": "art:000206",
+      "originalUrl": "https://stephenking.com/images/television/chap.jpg",
+      "sourceUrl": "https://stephenking.com/works/television/chapelwaite.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "6d31b69329e0b1da",
+        "checked": "2026-10-25",
+        "sha256": "350471b1c29ab7cdf5bd9073dd5d4e6e3bf5bb7e803e2f706da723aff45eec0a"
+      }
+    },
+    {
+      "adaptationId": "adp:000059",
+      "legacyId": "films:desperation-2006",
+      "artworkId": "art:000207",
+      "originalUrl": "https://stephenking.com/images/movies/tv_movie/desperation/us_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/television/desperation.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "22f81d1e36c443eb",
+        "checked": "2026-10-25",
+        "sha256": "45e5dc1ab330db12d7c1b2f48938c957648ad0f62db8ad96f2f3bce1fa69ee1d"
+      }
+    },
+    {
+      "adaptationId": "adp:000060",
+      "legacyId": "films:the-institute-2025",
+      "artworkId": "art:000208",
+      "originalUrl": "https://stephenking.com/images/television/institute.jpg",
+      "sourceUrl": "https://stephenking.com/works/television/institute.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "fe24d420c8ea425e",
+        "checked": "2026-10-25",
+        "sha256": "af88800f3177e77c54fbd1dfae1ade627545dc1b93b4fdbde0f619d07e3c0101"
+      }
+    },
+    {
+      "adaptationId": "adp:000061",
+      "legacyId": "films:it-1990",
+      "artworkId": "art:000209",
+      "originalUrl": "https://stephenking.com/images/movies/tv_mini-series/it/us_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/television/it.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "5bba26a456638530",
+        "checked": "2026-10-25",
+        "sha256": "98440d8fb48d5954472262d4940a4cb13055403d961f844fd1d53d6e1334a729"
+      }
+    },
+    {
+      "adaptationId": "adp:000062",
+      "legacyId": "films:it-welcome-to-derry-2025",
+      "artworkId": "art:000210",
+      "originalUrl": "https://stephenking.com/images/television/welcome-to-derry.jpg",
+      "sourceUrl": "https://stephenking.com/works/television/it-welcome-to-derry.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "1c2c4ebf5d56ec6e",
+        "checked": "2026-10-25",
+        "sha256": "80bbcf1565a86475a764284ce9f65be521963f1e162800452f4e431ed65f02cd"
+      }
+    },
+    {
+      "adaptationId": "adp:000063",
+      "legacyId": "films:the-langoliers-1995",
+      "artworkId": "art:000211",
+      "originalUrl": "https://stephenking.com/images/movies/tv_mini-series/langoliers/us_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/television/langoliers.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "f316e7f4bddf2996",
+        "checked": "2026-10-25",
+        "sha256": "89cbb42576f61982826ed8ed6eaa4a277aa1a36daa24711ed888909d97f70c78"
+      }
+    },
+    {
+      "adaptationId": "adp:000064",
+      "legacyId": "films:lisey-s-story-2021",
+      "artworkId": "art:000212",
+      "originalUrl": "https://stephenking.com/images/future-works/lisey-s1.jpg",
+      "sourceUrl": "https://stephenking.com/works/television/liseys-story.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "028991f5f72a77db",
+        "checked": "2026-10-25",
+        "sha256": "93453c2ead6005480f1d11c673bf2136dc65ae1ec6c44c1781531920c59235f2"
+      }
+    },
+    {
+      "adaptationId": "adp:000065",
+      "legacyId": "films:the-mist-2017",
+      "artworkId": "art:000213",
+      "originalUrl": "https://stephenking.com/images/television/23/mistposter.jpg",
+      "sourceUrl": "https://stephenking.com/works/television/mist.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "b66bfe9a49a55e9d",
+        "checked": "2026-10-25",
+        "sha256": "85362a74a50a1b7b867d1ef808893b3193ff8583a52bda9fe43a57190131fe65"
+      }
+    },
+    {
+      "adaptationId": "adp:000066",
+      "legacyId": "films:mr-mercedes-2017",
+      "artworkId": "art:000214",
+      "originalUrl": "https://stephenking.com/images/television/25/mercedesposter01.jpg",
+      "sourceUrl": "https://stephenking.com/works/television/mr-mercedes.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "beee8855b0170ac2",
+        "checked": "2026-10-25",
+        "sha256": "2050c4309904ded9a153147229b74f84b2aac5ad9c61be8bbed643e6b111efc9"
+      }
+    },
+    {
+      "adaptationId": "adp:000067",
+      "legacyId": "films:nightmares-dreamscapes-2006",
+      "artworkId": "art:000215",
+      "originalUrl": "https://stephenking.com/images/movies/tv_mini-series/nightmares_and_dreamscapes/us_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/television/nightmares-dreamscapes.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "1b14e07a4c7fa74d",
+        "checked": "2026-10-25",
+        "sha256": "f7d2807899f4651f27febb75155b8a1a2fc0773468e339334cdbb87e837d9525"
+      }
+    },
+    {
+      "adaptationId": "adp:000068",
+      "legacyId": "films:salem-s-lot-1979",
+      "artworkId": "art:000216",
+      "originalUrl": "https://stephenking.com/images/movies/tv_mini-series/salems_lot/us_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/television/salems-lot.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "e318763b2e4c4467",
+        "checked": "2026-10-25",
+        "sha256": "7ae24cec422ad106ee0c6adb11160e984147e27c9a530dc1788cfb2053545832"
+      }
+    },
+    {
+      "adaptationId": "adp:000069",
+      "legacyId": "films:salem-s-lot-2004",
+      "artworkId": "art:000217",
+      "originalUrl": "https://stephenking.com/images/television/7/salems_lot_2004.jpg",
+      "sourceUrl": "https://stephenking.com/works/television/salems-lot-(remake).html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "a513d1924b24c1b3",
+        "checked": "2026-10-25",
+        "sha256": "a62e0d6bb657fd4ee7ecf29f5282fe16fb5be79d88d3be14431e4a55ed0479e7"
+      }
+    },
+    {
+      "adaptationId": "adp:000070",
+      "legacyId": "films:the-shining-1997",
+      "artworkId": "art:000218",
+      "originalUrl": "https://stephenking.com/images/movies/tv_mini-series/the_shining97/us_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/television/shining.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "2084d41eb6906d71",
+        "checked": "2026-10-25",
+        "sha256": "7104507171546d2d56bda8eecbaf74f95d2c39b85f9394ce47cf09fa3c6a2949"
+      }
+    },
+    {
+      "adaptationId": "adp:000071",
+      "legacyId": "films:sometimes-they-come-back-1991",
+      "artworkId": "art:000219",
+      "originalUrl": "https://stephenking.com/images/television/3/sometimes_they_come_back.jpg",
+      "sourceUrl": "https://stephenking.com/works/television/sometimes-they-come-back.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "fd53d89a778a123e",
+        "checked": "2026-10-25",
+        "sha256": "121085921434e51852ad220d1e630dbbad97c8b81a4ce4931c33b7085bc6bae7"
+      }
+    },
+    {
+      "adaptationId": "adp:000072",
+      "legacyId": "films:the-stand-1994",
+      "artworkId": "art:000220",
+      "originalUrl": "https://stephenking.com/images/television/15/the_stand_miniseries.jpg",
+      "sourceUrl": "https://stephenking.com/works/television/stand.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "b596c7b8399badea",
+        "checked": "2026-10-25",
+        "sha256": "cd56bf4f56aaf5b68fcf4d6c9f2d8c450b73a18cdaa53db194ab3f46810d9d63"
+      }
+    },
+    {
+      "adaptationId": "adp:000073",
+      "legacyId": "films:the-stand-2020",
+      "artworkId": "art:000221",
+      "originalUrl": "https://stephenking.com/images/television/stand-cbsaa-poster.jpg",
+      "sourceUrl": "https://stephenking.com/works/television/stand-(2020).html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "94f6fb10f56fe88a",
+        "checked": "2026-10-25",
+        "sha256": "d8b2370b93b48137790273112564f8696dd8c616650b36afe766c961a3fdf665"
+      }
+    },
+    {
+      "adaptationId": "adp:000074",
+      "legacyId": "films:the-tommyknockers-1993",
+      "artworkId": "art:000222",
+      "originalUrl": "https://stephenking.com/images/movies/tv_mini-series/tommyknockers/us_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/television/tommyknockers.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "b5b9521f770f2096",
+        "checked": "2026-10-25",
+        "sha256": "98f69d82535c4706b1fba0ed7ef4b59cd9adc83d5767811b9a79fe99e8afd3e2"
+      }
+    },
+    {
+      "adaptationId": "adp:000075",
+      "legacyId": "films:trucks-1997",
+      "artworkId": "art:000223",
+      "originalUrl": "https://stephenking.com/images/movies/tv_movie/trucks/us_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/television/trucks.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "88f33349fc001692",
+        "checked": "2026-10-25",
+        "sha256": "ef674a0470ef021975378cf5a8b2ec95a04cd6411e53eb95a42b00ee1558f19d"
+      }
+    },
+    {
+      "adaptationId": "adp:000076",
+      "legacyId": "films:under-the-dome-2013",
+      "artworkId": "art:000224",
+      "originalUrl": "https://stephenking.com/images/television/utd/utd_property_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/television/under-the-dome.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "4850ba57ef2745de",
+        "checked": "2026-10-25",
+        "sha256": "3facf7d2d6d48814cd7c2148cd743d53882d6fd32c331a0e4d9e0470e2411ced"
+      }
+    },
+    {
+      "adaptationId": "adp:000077",
+      "legacyId": "films:the-outsider-2020",
+      "artworkId": null,
+      "originalUrl": null,
+      "sourceUrl": "https://stephenking.com/works/television/outsider.html",
+      "bibliographicStatus": "no-registered-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "no-registered-poster",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": null
+    },
+    {
+      "adaptationId": "adp:000078",
+      "legacyId": "films:the-dead-zone-2002",
+      "artworkId": null,
+      "originalUrl": null,
+      "sourceUrl": "https://tv.apple.com/us/show/the-dead-zone/umc.cmc.5syjc2wjt8qygwav1wvrb8hh3",
+      "bibliographicStatus": "no-registered-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "no-registered-poster",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": null
+    },
+    {
+      "adaptationId": "adp:000079",
+      "legacyId": "films:haven-2010",
+      "artworkId": null,
+      "originalUrl": null,
+      "sourceUrl": "https://www.awn.com/news/syfys-haven-renewed-season-two",
+      "bibliographicStatus": "no-registered-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "no-registered-poster",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": null
+    },
+    {
+      "adaptationId": "adp:000080",
+      "legacyId": "films:castle-rock-2018",
+      "artworkId": "art:000225",
+      "originalUrl": "https://stephenking.com/images/television/castle-rock.jpg",
+      "sourceUrl": "https://stephenking.com/works/television/castle-rock.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "6f5c235ac5e901a2",
+        "checked": "2026-10-25",
+        "sha256": "df27958a626c7dc8d50916a2aa711050c460beb46afe91bd0bd2f5062bbd95bd"
+      }
+    },
+    {
+      "adaptationId": "adp:000081",
+      "legacyId": "films:rose-red-2002",
+      "artworkId": "art:000226",
+      "originalUrl": "https://stephenking.com/images/movies/tv_mini-series/rose_red/us_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/television/rose-red.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "fa43e6a3006bd70d",
+        "checked": "2026-10-25",
+        "sha256": "d59a78ad7b17aa32a1a9123dee61dbd374b86f895d505f27115c17dddc25d4c0"
+      }
+    },
+    {
+      "adaptationId": "adp:000082",
+      "legacyId": "films:storm-of-the-century-1999",
+      "artworkId": "art:000227",
+      "originalUrl": "https://stephenking.com/images/movies/tv_mini-series/storm_of_the_century/us_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/television/storm-of-the-century.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "57c32c791c9b21e0",
+        "checked": "2026-10-25",
+        "sha256": "03288adf0189984bd07e3ab26e268848319af787735038bc404fe43792819d91"
+      }
+    },
+    {
+      "adaptationId": "adp:000083",
+      "legacyId": "films:carrie-2013",
+      "artworkId": null,
+      "originalUrl": null,
+      "sourceUrl": "https://www.demilofilm.com/works/carrie",
+      "bibliographicStatus": "no-registered-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "no-registered-poster",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": null
+    },
+    {
+      "adaptationId": "adp:000084",
+      "legacyId": "films:carrie-2026",
+      "artworkId": "art:000228",
+      "originalUrl": "https://stephenking.com/images/television/carrie2026.jpg",
+      "sourceUrl": "https://stephenking.com/works/television/carrie.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "ffd8e90f7e6cbca2",
+        "checked": "2026-10-25",
+        "sha256": "79e2ebab871323f2663def839156726c4238c13bdc67976fd3ee3a03309edfe9"
+      }
+    },
+    {
+      "adaptationId": "adp:000085",
+      "legacyId": "films:the-diary-of-ellen-rimbauer-2003",
+      "artworkId": "art:000229",
+      "originalUrl": "https://stephenking.com/images/movies/tv_movie/the_diary_of_ellen_rimbauer/us_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/television/diary-of-ellen-rimbauer.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "d42bee109e83b1cb",
+        "checked": "2026-10-25",
+        "sha256": "10e80c10ce96c4edacc4830b873e59df24e24cc22c4339554cbda7722c2b6753"
+      }
+    },
+    {
+      "adaptationId": "adp:000086",
+      "legacyId": "films:golden-years-1991",
+      "artworkId": "art:000230",
+      "originalUrl": "https://stephenking.com/images/movies/tv_series/the_golden_years/us_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/television/golden-years.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "2b7ca1581cbf0551",
+        "checked": "2026-10-25",
+        "sha256": "7c898d1a7afd1e191d05ef37808772e8cd14ef9a666f30af604ef9150678b9ca"
+      }
+    },
+    {
+      "adaptationId": "adp:000087",
+      "legacyId": "films:hearts-tbd",
+      "artworkId": null,
+      "originalUrl": null,
+      "sourceUrl": "https://stephenking.com/works/movie/hearts.html",
+      "bibliographicStatus": "no-registered-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "no-registered-poster",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": null
+    },
+    {
+      "adaptationId": "adp:000088",
+      "legacyId": "films:kingdom-hospital-2004",
+      "artworkId": "art:000231",
+      "originalUrl": "https://stephenking.com/images/movies/tv_series/kingdom_hospital/us_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/television/kingdom-hospital.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "91a3bac8abf2709e",
+        "checked": "2026-10-25",
+        "sha256": "1c0ba7ec41e575b20dede66b0e4b9bf99e7e3a9e0a4d556dc1308c1e73734379"
+      }
+    },
+    {
+      "adaptationId": "adp:000089",
+      "legacyId": "films:mercy-2012",
+      "artworkId": null,
+      "originalUrl": null,
+      "sourceUrl": "https://stephenking.com/works/movie/mercy.html",
+      "bibliographicStatus": "no-registered-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "no-registered-poster",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": null
+    },
+    {
+      "adaptationId": "adp:000090",
+      "legacyId": "films:my-pretty-pony-2017",
+      "artworkId": null,
+      "originalUrl": null,
+      "sourceUrl": "https://stephenking.com/works/movie/my-pretty-pony.html",
+      "bibliographicStatus": "no-registered-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "no-registered-poster",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": null
+    },
+    {
+      "adaptationId": "adp:000091",
+      "legacyId": "films:quicksilver-highway-1997",
+      "artworkId": "art:000232",
+      "originalUrl": "https://stephenking.com/images/movies/tv_mini-series/quicksilver_highway/us_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/television/quicksilver-highway.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "78971bc32bf80731",
+        "checked": "2026-10-25",
+        "sha256": "9064ce261e63f66d93ea741ff248fc6b07b77a6482441f9299f75d65a41883de"
+      }
+    },
+    {
+      "adaptationId": "adp:000092",
+      "legacyId": "films:sleeping-beauties-tbd",
+      "artworkId": null,
+      "originalUrl": null,
+      "sourceUrl": "https://stephenking.com/works/television/sleeping-beauties.html",
+      "bibliographicStatus": "no-registered-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "no-registered-poster",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": null
+    },
+    {
+      "adaptationId": "adp:000093",
+      "legacyId": "films:sleepwalkers-1992",
+      "artworkId": "art:000233",
+      "originalUrl": "https://stephenking.com/images/movie/23/us3.jpg",
+      "sourceUrl": "https://stephenking.com/works/movie/sleepwalkers.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "3149a6f860521f93",
+        "checked": "2026-10-25",
+        "sha256": "5a6264c501e88a217afe5a9a14b6fd473aeb630cfacbebd1b6a3799d31cb1c19"
+      }
+    },
+    {
+      "adaptationId": "adp:000094",
+      "legacyId": "films:tales-from-the-darkside-the-movie-1990",
+      "artworkId": "art:000234",
+      "originalUrl": "https://stephenking.com/images/movie/36/talesfromthedarkside.jpg",
+      "sourceUrl": "https://stephenking.com/works/movie/tales-from-the-darkside-the-movie.html",
+      "bibliographicStatus": "known-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": {
+        "candidateId": "aa3f0e279ee7aba4",
+        "checked": "2026-10-25",
+        "sha256": "8efc95269f780e27ec1127b49b4cf99828f3f42c09138dc06aef398311ab19b0"
+      }
+    },
+    {
+      "adaptationId": "adp:000095",
+      "legacyId": "films:pet-sematary-bloodlines-2023",
+      "artworkId": null,
+      "originalUrl": null,
+      "sourceUrl": "https://paramountglobalcontent.com/title/pet-sematary-bloodlines-1969",
+      "bibliographicStatus": "no-registered-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "no-registered-poster",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": null
+    },
+    {
+      "adaptationId": "adp:000096",
+      "legacyId": "films:the-rage-carrie-2-1999",
+      "artworkId": null,
+      "originalUrl": null,
+      "sourceUrl": "https://www.boxofficemojo.com/title/tt0144814/",
+      "bibliographicStatus": "no-registered-poster",
+      "rights": {
+        "status": "not-established",
+        "evidence": []
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "observedAt": null,
+        "evidence": null
+      },
+      "delivery": {
+        "status": "no-registered-poster",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "displayAllowed": false,
+      "fallback": "placeholder",
+      "historicalReview": null
+    }
+  ]
+}

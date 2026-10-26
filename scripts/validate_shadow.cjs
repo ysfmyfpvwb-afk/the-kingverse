@@ -6,7 +6,7 @@ const {isDeepStrictEqual:equal}=require('node:util');
 function validateShadow(bundle,ledger,{root=ROOT,checkGenerated=true,views,decisions}={}){
  const result=validate(bundle,{root,checkCompatibility:false});const errors=[...result.errors];
  const add=(code,message)=>errors.push({code,message});
- if(bundle.manifest.scope!=='shadow-publications-batch-03')add('batch-scope','Wrong shadow batch');
+ if(bundle.manifest.scope!=='shadow-screen-batch-04')add('batch-scope','Wrong shadow batch');
  try{
   const expected=generateShadow(root);
   if(!equal(bundle,expected.bundle))add('projection-difference','Canonical records/claims/aliases differ from the reviewed migration projection');
@@ -27,6 +27,14 @@ function validateShadow(bundle,ledger,{root=ROOT,checkGenerated=true,views,decis
   const thirdSlots=['editions','artworks','publications','sources','claims'].flatMap(k=>Object.values(third[k]));
   if(new Set([...slots,...newSlots,...thirdSlots]).size!==slots.length+newSlots.length+thirdSlots.length)add('allocation-collision','Batch 03 ID collision');
   for(const[id,snapshot]of Object.entries(third.preservedEntities))if(!entities.has(id)||hash(JSON.stringify(entities.get(id)))!==snapshot.sha256)add('batch-02-entity-changed',id);
+  const fourth=JSON.parse(fs.readFileSync(path.join(root,'data/migration/batch-04-register.json'),'utf8'));
+  const fourthSlots=['adaptations','artworks','people','credits','connections','sources','claims'].flatMap(k=>Object.values(fourth[k]));
+  if(new Set([...slots,...newSlots,...thirdSlots,...fourthSlots]).size!==slots.length+newSlots.length+thirdSlots.length+fourthSlots.length)add('allocation-collision','Batch 04 ID collision');
+  for(const[id,snapshot]of Object.entries(fourth.preservedEntities))if(!entities.has(id)||hash(JSON.stringify(entities.get(id)))!==snapshot.sha256)add('batch-03-entity-changed',id);
+  const screens=JSON.parse(fs.readFileSync(path.join(root,'data/migration/screen-views.json'),'utf8'));
+  const posters=JSON.parse(fs.readFileSync(path.join(root,'data/migration/poster-provenance.json'),'utf8'));
+  errors.push(...require('./validate_screens.cjs').validateScreens(bundle,screens,posters));
+  if(!equal(screens,expected.screens.views)||!equal(posters,expected.screens.provenance))add('screen-projection','Screen views/poster policies differ from reviewed evidence');
   const policy=JSON.parse(fs.readFileSync(path.join(root,'data/migration/cover-provenance.json'),'utf8'));
   errors.push(...require('./validate_cover_provenance.cjs').validateCoverProvenance(policy,bundle));
   if(!equal(policy,expected.publications.provenance))add('cover-policy-projection','Cover evidence/policy differs from preserved observations');
@@ -40,7 +48,7 @@ function validateShadow(bundle,ledger,{root=ROOT,checkGenerated=true,views,decis
    if(view.defaultMembershipId&&!view.membershipIds.includes(view.defaultMembershipId))add('default-membership',view.legacyStoryId);
   }
   if(bundle.collectionMemberships.some(m=>m.order!==null))add('uncertified-order','No contents order was verified for this batch');
-  if(bundle.collectionMemberships.length!==155||bundle.editions.length!==154||bundle.artworks.length!==152||bundle.adaptations.length!==0||bundle.publicationEvents.length!==239||bundle.connections.length!==9)add('batch-boundary','Stop after Batch 03; 154 edition examples, 152 known covers, 239 publication observations, no adaptation or Tower migration');
+  if(bundle.collectionMemberships.length!==155||bundle.editions.length!==154||bundle.artworks.length!==234||bundle.adaptations.length!==96||bundle.publicationEvents.length!==239||bundle.connections.length!==26)add('batch-boundary','Stop after Batch 04; 96 screen identities and 82 poster references, no literary/Tower migration');
  }catch(e){add('batch-input',e.message);}
  return {valid:errors.length===0,errors,counts:result.counts};
 }

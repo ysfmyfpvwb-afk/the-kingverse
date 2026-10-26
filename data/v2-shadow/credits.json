@@ -6526,5 +6526,423 @@
     "creditedAs": null,
     "scope": "whole-text",
     "characterId": null
+  },
+  {
+    "id": "crd:000273",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:004887",
+        "clm:004888",
+        "clm:004889",
+        "clm:004890"
+      ],
+      "open": []
+    },
+    "personId": "per:000013",
+    "subject": {
+      "type": "adaptation",
+      "id": "adp:000001"
+    },
+    "role": "director",
+    "creditedAs": null,
+    "scope": "whole-film",
+    "characterId": null
+  },
+  {
+    "id": "crd:000274",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:004891",
+        "clm:004892",
+        "clm:004893",
+        "clm:004894"
+      ],
+      "open": []
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "adaptation",
+      "id": "adp:000001"
+    },
+    "role": "screenwriter",
+    "creditedAs": null,
+    "scope": "whole-film",
+    "characterId": null
+  },
+  {
+    "id": "crd:000275",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:005249",
+        "clm:005250",
+        "clm:005251",
+        "clm:005252"
+      ],
+      "open": []
+    },
+    "personId": "per:000014",
+    "subject": {
+      "type": "adaptation",
+      "id": "adp:000019"
+    },
+    "role": "director",
+    "creditedAs": null,
+    "scope": "whole-film",
+    "characterId": null
+  },
+  {
+    "id": "crd:000276",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:005274",
+        "clm:005275",
+        "clm:005276",
+        "clm:005277"
+      ],
+      "open": []
+    },
+    "personId": "per:000015",
+    "subject": {
+      "type": "adaptation",
+      "id": "adp:000020"
+    },
+    "role": "director",
+    "creditedAs": null,
+    "scope": "whole-film",
+    "characterId": null
+  },
+  {
+    "id": "crd:000277",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:005639",
+        "clm:005640",
+        "clm:005641",
+        "clm:005642"
+      ],
+      "open": []
+    },
+    "personId": "per:000016",
+    "subject": {
+      "type": "adaptation",
+      "id": "adp:000038"
+    },
+    "role": "director",
+    "creditedAs": null,
+    "scope": "whole-film",
+    "characterId": null
+  },
+  {
+    "id": "crd:000278",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:005664",
+        "clm:005665",
+        "clm:005666",
+        "clm:005667"
+      ],
+      "open": []
+    },
+    "personId": "per:000017",
+    "subject": {
+      "type": "adaptation",
+      "id": "adp:000039"
+    },
+    "role": "director",
+    "creditedAs": null,
+    "scope": "whole-film",
+    "characterId": null
+  },
+  {
+    "id": "crd:000279",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:005669",
+        "clm:005670",
+        "clm:005671",
+        "clm:005672"
+      ],
+      "open": []
+    },
+    "personId": "per:000018",
+    "subject": {
+      "type": "adaptation",
+      "id": "adp:000039"
+    },
+    "role": "director",
+    "creditedAs": null,
+    "scope": "whole-film",
+    "characterId": null
+  },
+  {
+    "id": "crd:000280",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:006505",
+        "clm:006506",
+        "clm:006507",
+        "clm:006508"
+      ],
+      "open": []
+    },
+    "personId": "per:000019",
+    "subject": {
+      "type": "adaptation",
+      "id": "adp:000083"
+    },
+    "role": "director",
+    "creditedAs": null,
+    "scope": "whole-film",
+    "characterId": null
+  },
+  {
+    "id": "crd:000281",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:006510",
+        "clm:006511",
+        "clm:006512",
+        "clm:006513"
+      ],
+      "open": []
+    },
+    "personId": "per:000020",
+    "subject": {
+      "type": "adaptation",
+      "id": "adp:000083"
+    },
+    "role": "screenwriter",
+    "creditedAs": null,
+    "scope": "whole-film",
+    "characterId": null
+  },
+  {
+    "id": "crd:000282",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:006515",
+        "clm:006516",
+        "clm:006517",
+        "clm:006518"
+      ],
+      "open": []
+    },
+    "personId": "per:000021",
+    "subject": {
+      "type": "adaptation",
+      "id": "adp:000083"
+    },
+    "role": "screenwriter",
+    "creditedAs": null,
+    "scope": "whole-film",
+    "characterId": null
+  },
+  {
+    "id": "crd:000283",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:006540",
+        "clm:006541",
+        "clm:006542",
+        "clm:006543"
+      ],
+      "open": []
+    },
+    "personId": "per:000022",
+    "subject": {
+      "type": "adaptation",
+      "id": "adp:000084"
+    },
+    "role": "showrunner",
+    "creditedAs": null,
+    "scope": "season-1",
+    "characterId": null
+  },
+  {
+    "id": "crd:000284",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:006544",
+        "clm:006545",
+        "clm:006546",
+        "clm:006547"
+      ],
+      "open": []
+    },
+    "personId": "per:000022",
+    "subject": {
+      "type": "adaptation",
+      "id": "adp:000084"
+    },
+    "role": "director",
+    "creditedAs": null,
+    "scope": "season-1 episodes 101, 102, 107, 108",
+    "characterId": null
+  },
+  {
+    "id": "crd:000285",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:006549",
+        "clm:006550",
+        "clm:006551",
+        "clm:006552"
+      ],
+      "open": []
+    },
+    "personId": "per:000023",
+    "subject": {
+      "type": "adaptation",
+      "id": "adp:000084"
+    },
+    "role": "director",
+    "creditedAs": null,
+    "scope": "season-1 episode 103",
+    "characterId": null
+  },
+  {
+    "id": "crd:000286",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:006554",
+        "clm:006555",
+        "clm:006556",
+        "clm:006557"
+      ],
+      "open": []
+    },
+    "personId": "per:000024",
+    "subject": {
+      "type": "adaptation",
+      "id": "adp:000084"
+    },
+    "role": "director",
+    "creditedAs": null,
+    "scope": "season-1 episode 104",
+    "characterId": null
+  },
+  {
+    "id": "crd:000287",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:006559",
+        "clm:006560",
+        "clm:006561",
+        "clm:006562"
+      ],
+      "open": []
+    },
+    "personId": "per:000025",
+    "subject": {
+      "type": "adaptation",
+      "id": "adp:000084"
+    },
+    "role": "director",
+    "creditedAs": null,
+    "scope": "season-1 episode 105",
+    "characterId": null
+  },
+  {
+    "id": "crd:000288",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:006564",
+        "clm:006565",
+        "clm:006566",
+        "clm:006567"
+      ],
+      "open": []
+    },
+    "personId": "per:000026",
+    "subject": {
+      "type": "adaptation",
+      "id": "adp:000084"
+    },
+    "role": "director",
+    "creditedAs": null,
+    "scope": "season-1 episode 106",
+    "characterId": null
+  },
+  {
+    "id": "crd:000289",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:006568",
+        "clm:006569",
+        "clm:006570",
+        "clm:006571"
+      ],
+      "open": []
+    },
+    "personId": "per:000001",
+    "subject": {
+      "type": "adaptation",
+      "id": "adp:000084"
+    },
+    "role": "producer",
+    "creditedAs": null,
+    "scope": "executive producer; season-1",
+    "characterId": null
+  },
+  {
+    "id": "crd:000290",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:006659",
+        "clm:006660",
+        "clm:006661",
+        "clm:006662"
+      ],
+      "open": []
+    },
+    "personId": "per:000027",
+    "subject": {
+      "type": "adaptation",
+      "id": "adp:000089"
+    },
+    "role": "director",
+    "creditedAs": null,
+    "scope": "whole-film",
+    "characterId": null
+  },
+  {
+    "id": "crd:000291",
+    "entityType": "credit",
+    "verification": {
+      "claimIds": [
+        "clm:006763",
+        "clm:006764",
+        "clm:006765",
+        "clm:006766"
+      ],
+      "open": []
+    },
+    "personId": "per:000028",
+    "subject": {
+      "type": "adaptation",
+      "id": "adp:000095"
+    },
+    "role": "director",
+    "creditedAs": null,
+    "scope": "whole-film",
+    "characterId": null
   }
 ]

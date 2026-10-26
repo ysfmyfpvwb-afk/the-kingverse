@@ -189,5 +189,261 @@
     "aliases": [],
     "pseudonyms": [],
     "externalIds": {}
+  },
+  {
+    "id": "per:000013",
+    "entityType": "person",
+    "verification": {
+      "claimIds": [
+        "clm:004886"
+      ],
+      "open": [
+        "identityScopedToReviewedCredit"
+      ]
+    },
+    "name": "Peter Askin",
+    "aliases": [],
+    "pseudonyms": [],
+    "externalIds": {}
+  },
+  {
+    "id": "per:000014",
+    "entityType": "person",
+    "verification": {
+      "claimIds": [
+        "clm:005248"
+      ],
+      "open": [
+        "identityScopedToReviewedCredit"
+      ]
+    },
+    "name": "Mark L. Lester",
+    "aliases": [],
+    "pseudonyms": [],
+    "externalIds": {}
+  },
+  {
+    "id": "per:000015",
+    "entityType": "person",
+    "verification": {
+      "claimIds": [
+        "clm:005273"
+      ],
+      "open": [
+        "identityScopedToReviewedCredit"
+      ]
+    },
+    "name": "Keith Thomas",
+    "aliases": [],
+    "pseudonyms": [],
+    "externalIds": {}
+  },
+  {
+    "id": "per:000016",
+    "entityType": "person",
+    "verification": {
+      "claimIds": [
+        "clm:005638"
+      ],
+      "open": [
+        "identityScopedToReviewedCredit"
+      ]
+    },
+    "name": "Mary Lambert",
+    "aliases": [],
+    "pseudonyms": [],
+    "externalIds": {}
+  },
+  {
+    "id": "per:000017",
+    "entityType": "person",
+    "verification": {
+      "claimIds": [
+        "clm:005663"
+      ],
+      "open": [
+        "identityScopedToReviewedCredit"
+      ]
+    },
+    "name": "Kevin Kolsch",
+    "aliases": [],
+    "pseudonyms": [],
+    "externalIds": {}
+  },
+  {
+    "id": "per:000018",
+    "entityType": "person",
+    "verification": {
+      "claimIds": [
+        "clm:005668"
+      ],
+      "open": [
+        "identityScopedToReviewedCredit"
+      ]
+    },
+    "name": "Dennis Widmyer",
+    "aliases": [],
+    "pseudonyms": [],
+    "externalIds": {}
+  },
+  {
+    "id": "per:000019",
+    "entityType": "person",
+    "verification": {
+      "claimIds": [
+        "clm:006504"
+      ],
+      "open": [
+        "identityScopedToReviewedCredit"
+      ]
+    },
+    "name": "Kimberly Peirce",
+    "aliases": [],
+    "pseudonyms": [],
+    "externalIds": {}
+  },
+  {
+    "id": "per:000020",
+    "entityType": "person",
+    "verification": {
+      "claimIds": [
+        "clm:006509"
+      ],
+      "open": [
+        "identityScopedToReviewedCredit"
+      ]
+    },
+    "name": "Lawrence D. Cohen",
+    "aliases": [],
+    "pseudonyms": [],
+    "externalIds": {}
+  },
+  {
+    "id": "per:000021",
+    "entityType": "person",
+    "verification": {
+      "claimIds": [
+        "clm:006514"
+      ],
+      "open": [
+        "identityScopedToReviewedCredit"
+      ]
+    },
+    "name": "Roberto Aguirre-Sacasa",
+    "aliases": [],
+    "pseudonyms": [],
+    "externalIds": {}
+  },
+  {
+    "id": "per:000022",
+    "entityType": "person",
+    "verification": {
+      "claimIds": [
+        "clm:006539"
+      ],
+      "open": [
+        "identityScopedToReviewedCredit"
+      ]
+    },
+    "name": "Mike Flanagan",
+    "aliases": [],
+    "pseudonyms": [],
+    "externalIds": {}
+  },
+  {
+    "id": "per:000023",
+    "entityType": "person",
+    "verification": {
+      "claimIds": [
+        "clm:006548"
+      ],
+      "open": [
+        "identityScopedToReviewedCredit"
+      ]
+    },
+    "name": "Kate Siegel",
+    "aliases": [],
+    "pseudonyms": [],
+    "externalIds": {}
+  },
+  {
+    "id": "per:000024",
+    "entityType": "person",
+    "verification": {
+      "claimIds": [
+        "clm:006553"
+      ],
+      "open": [
+        "identityScopedToReviewedCredit"
+      ]
+    },
+    "name": "Axelle Carolyn",
+    "aliases": [],
+    "pseudonyms": [],
+    "externalIds": {}
+  },
+  {
+    "id": "per:000025",
+    "entityType": "person",
+    "verification": {
+      "claimIds": [
+        "clm:006558"
+      ],
+      "open": [
+        "identityScopedToReviewedCredit"
+      ]
+    },
+    "name": "Kyra Sedgwick",
+    "aliases": [],
+    "pseudonyms": [],
+    "externalIds": {}
+  },
+  {
+    "id": "per:000026",
+    "entityType": "person",
+    "verification": {
+      "claimIds": [
+        "clm:006563"
+      ],
+      "open": [
+        "identityScopedToReviewedCredit"
+      ]
+    },
+    "name": "Hiromi Kamata",
+    "aliases": [],
+    "pseudonyms": [],
+    "externalIds": {}
+  },
+  {
+    "id": "per:000027",
+    "entityType": "person",
+    "verification": {
+      "claimIds": [
+        "clm:006658"
+      ],
+      "open": [
+        "identityScopedToReviewedCredit"
+      ]
+    },
+    "name": "Peter Cornwell",
+    "aliases": [],
+    "pseudonyms": [],
+    "externalIds": {}
+  },
+  {
+    "id": "per:000028",
+    "entityType": "person",
+    "verification": {
+      "claimIds": [
+        "clm:006762"
+      ],
+      "open": [
+        "identityScopedToReviewedCredit"
+      ]
+    },
+    "name": "Lindsey Anderson Beer",
+    "aliases": [],
+    "pseudonyms": [],
+    "externalIds": {}
   }
 ]

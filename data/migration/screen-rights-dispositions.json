@@ -1,0 +1,41 @@
+{
+  "batch": "04",
+  "records": [
+    {
+      "legacyId": "films:carrie-2002",
+      "adaptationId": "adp:000057",
+      "externalReferenceUrl": "https://www.imdb.com/title/tt0319970/",
+      "ratingDisposition": "not-present",
+      "descriptionDisposition": "legacy-editorial-text-not-imported; new neutral metadata summary",
+      "canonicalRatingObservations": 0,
+      "permissionEvidence": null
+    },
+    {
+      "legacyId": "films:the-dead-zone-2002",
+      "adaptationId": "adp:000078",
+      "externalReferenceUrl": "https://www.imdb.com/title/tt0281432/",
+      "ratingDisposition": "retained-in-legacy-needs-review",
+      "descriptionDisposition": "retained-in-legacy-needs-review",
+      "canonicalRatingObservations": 0,
+      "permissionEvidence": null
+    },
+    {
+      "legacyId": "films:haven-2010",
+      "adaptationId": "adp:000079",
+      "externalReferenceUrl": "https://www.imdb.com/title/tt1519931/",
+      "ratingDisposition": "retained-in-legacy-needs-review",
+      "descriptionDisposition": "retained-in-legacy-needs-review",
+      "canonicalRatingObservations": 0,
+      "permissionEvidence": null
+    },
+    {
+      "legacyId": "films:carrie-2013",
+      "adaptationId": "adp:000083",
+      "externalReferenceUrl": "https://www.imdb.com/title/tt1939659/",
+      "ratingDisposition": "retained-in-legacy-needs-review",
+      "descriptionDisposition": "legacy-editorial-text-not-imported; new neutral metadata summary",
+      "canonicalRatingObservations": 0,
+      "permissionEvidence": null
+    }
+  ]
+}

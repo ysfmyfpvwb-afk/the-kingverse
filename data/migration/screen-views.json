@@ -1,0 +1,5190 @@
+{
+  "batch": "04",
+  "views": [
+    {
+      "legacyId": "films:a-good-marriage-2014",
+      "adaptationId": "adp:000001",
+      "legacyYear": 2014,
+      "selectedReleaseYear": 2014,
+      "legacyReportedDate": "2014-10-03",
+      "legacyRelease": "2014-10-03",
+      "selectedReleaseEvents": [
+        {
+          "value": "2014-10-03",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "A Good Marriage",
+      "legacyCollectionLabel": "Full Dark, No Stars",
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "stories:a-good-marriage",
+          "legacyTitle": "A Good Marriage",
+          "legacyKind": "stories",
+          "sourceIndex": 0,
+          "target": {
+            "id": "wrk:000180",
+            "type": "work"
+          },
+          "category": "source-supported-adaptation",
+          "sourceUrl": "https://stephenking.com/works/movie/a-good-marriage.html",
+          "certainty": "explicit",
+          "verification": "source-supported",
+          "explanation": "Predicate and evidence are recorded in the canonical connection.",
+          "connectionId": "rel:000013"
+        },
+        {
+          "legacySourceId": "books:full-dark-no-stars",
+          "legacyTitle": "Full Dark, No Stars",
+          "legacyKind": "books",
+          "sourceIndex": 1,
+          "target": {
+            "type": "collection",
+            "id": "col:000011"
+          },
+          "category": "collection-context",
+          "sourceUrl": "https://stephenking.com/works/movie/a-good-marriage.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Containing collection retained as context; not an additional direct adaptation.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [
+        "rel:000013"
+      ],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:apt-pupil-1998",
+      "adaptationId": "adp:000002",
+      "legacyYear": 1998,
+      "selectedReleaseYear": 1998,
+      "legacyReportedDate": "1998-10-23",
+      "legacyRelease": "1998-10-23",
+      "selectedReleaseEvents": [
+        {
+          "value": "1998-10-23",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "Apt Pupil",
+      "legacyCollectionLabel": "Different Seasons",
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "stories:apt-pupil",
+          "legacyTitle": "Apt Pupil",
+          "legacyKind": "stories",
+          "sourceIndex": 0,
+          "target": {
+            "id": "wrk:000093",
+            "type": "work"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/apt-pupil.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        },
+        {
+          "legacySourceId": "books:different-seasons",
+          "legacyTitle": "Different Seasons",
+          "legacyKind": "books",
+          "sourceIndex": 1,
+          "target": {
+            "type": "collection",
+            "id": "col:000003"
+          },
+          "category": "collection-context",
+          "sourceUrl": "https://stephenking.com/works/movie/apt-pupil.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Containing collection retained as context; not an additional direct adaptation.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:the-boogeyman-2023",
+      "adaptationId": "adp:000003",
+      "legacyYear": 2023,
+      "selectedReleaseYear": 2023,
+      "legacyReportedDate": "2023-06-02",
+      "legacyRelease": "2023-06-02",
+      "selectedReleaseEvents": [
+        {
+          "value": "2023-06-02",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "The Boogeyman",
+      "legacyCollectionLabel": "Night Shift",
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "stories:the-boogeyman",
+          "legacyTitle": "The Boogeyman",
+          "legacyKind": "stories",
+          "sourceIndex": 0,
+          "target": {
+            "id": "wrk:000077",
+            "type": "work"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/boogeyman.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:carrie-1976",
+      "adaptationId": "adp:000004",
+      "legacyYear": 1976,
+      "selectedReleaseYear": 1976,
+      "legacyReportedDate": "1976-11-03",
+      "legacyRelease": "1976-11-03",
+      "selectedReleaseEvents": [
+        {
+          "value": "1976-11-03",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "Carrie",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:carrie",
+          "legacyTitle": "Carrie",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "work",
+            "id": "wrk:000003"
+          },
+          "category": "source-supported-adaptation",
+          "sourceUrl": "https://stephenking.com/works/movie/carrie.html",
+          "certainty": "explicit",
+          "verification": "source-supported",
+          "explanation": "Predicate and evidence are recorded in the canonical connection.",
+          "connectionId": "rel:000020"
+        }
+      ],
+      "verifiedRelationIds": [
+        "rel:000020"
+      ],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:cat-s-eye-1985",
+      "adaptationId": "adp:000005",
+      "legacyYear": 1985,
+      "selectedReleaseYear": 1985,
+      "legacyReportedDate": "1985-04-12",
+      "legacyRelease": "1985-04-12",
+      "selectedReleaseEvents": [
+        {
+          "value": "1985-04-12",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "Quitters, Inc.",
+      "legacyCollectionLabel": "Night Shift",
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "stories:quitters-inc",
+          "legacyTitle": "Quitters, Inc.",
+          "legacyKind": "stories",
+          "sourceIndex": 0,
+          "target": {
+            "id": "wrk:000085",
+            "type": "work"
+          },
+          "category": "source-supported-adaptation",
+          "sourceUrl": "https://stephenking.com/works/movie/cats-eye.html",
+          "certainty": "explicit",
+          "verification": "source-supported",
+          "explanation": "Predicate and evidence are recorded in the canonical connection.",
+          "connectionId": "rel:000015"
+        },
+        {
+          "legacySourceId": "stories:the-ledge",
+          "legacyTitle": "The Ledge",
+          "legacyKind": "stories",
+          "sourceIndex": 1,
+          "target": {
+            "id": "wrk:000083",
+            "type": "work"
+          },
+          "category": "source-supported-adaptation",
+          "sourceUrl": "https://stephenking.com/works/movie/cats-eye.html",
+          "certainty": "explicit",
+          "verification": "source-supported",
+          "explanation": "Predicate and evidence are recorded in the canonical connection.",
+          "connectionId": "rel:000016"
+        },
+        {
+          "legacySourceId": "books:night-shift",
+          "legacyTitle": "Night Shift",
+          "legacyKind": "books",
+          "sourceIndex": 2,
+          "target": {
+            "type": "collection",
+            "id": "col:000002"
+          },
+          "category": "collection-context",
+          "sourceUrl": "https://stephenking.com/works/movie/cats-eye.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Containing collection retained as context; not an additional direct adaptation.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [
+        "rel:000015",
+        "rel:000016"
+      ],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:cell-2016",
+      "adaptationId": "adp:000006",
+      "legacyYear": 2016,
+      "selectedReleaseYear": 2016,
+      "legacyReportedDate": "2016-07-08",
+      "legacyRelease": "2016-07-08",
+      "selectedReleaseEvents": [
+        {
+          "value": "2016-07-08",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "Cell",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:cell",
+          "legacyTitle": "Cell",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "work",
+            "id": "wrk:000043"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/cell.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:children-of-the-corn-1984",
+      "adaptationId": "adp:000007",
+      "legacyYear": 1984,
+      "selectedReleaseYear": 1984,
+      "legacyReportedDate": "1984-03-09",
+      "legacyRelease": "1984-03-09",
+      "selectedReleaseEvents": [
+        {
+          "value": "1984-03-09",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "Children of the Corn",
+      "legacyCollectionLabel": "Night Shift",
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "stories:children-of-the-corn",
+          "legacyTitle": "Children of the Corn",
+          "legacyKind": "stories",
+          "sourceIndex": 0,
+          "target": {
+            "id": "wrk:000087",
+            "type": "work"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/children-of-the-corn.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        },
+        {
+          "legacySourceId": "books:night-shift",
+          "legacyTitle": "Night Shift",
+          "legacyKind": "books",
+          "sourceIndex": 1,
+          "target": {
+            "type": "collection",
+            "id": "col:000002"
+          },
+          "category": "collection-context",
+          "sourceUrl": "https://stephenking.com/works/movie/children-of-the-corn.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Containing collection retained as context; not an additional direct adaptation.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:christine-1983",
+      "adaptationId": "adp:000008",
+      "legacyYear": 1983,
+      "selectedReleaseYear": 1983,
+      "legacyReportedDate": "1983-12-09",
+      "legacyRelease": "1983-12-09",
+      "selectedReleaseEvents": [
+        {
+          "value": "1983-12-09",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "Christine",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:christine",
+          "legacyTitle": "Christine",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "work",
+            "id": "wrk:000015"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/christine.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:creepshow-1982",
+      "adaptationId": "adp:000009",
+      "legacyYear": 1982,
+      "selectedReleaseYear": 1982,
+      "legacyReportedDate": "1982-11-10",
+      "legacyRelease": "1982-11-10",
+      "selectedReleaseEvents": [
+        {
+          "value": "1982-11-10",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "Father's Day",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "stories:father-s-day",
+          "legacyTitle": "Father's Day",
+          "legacyKind": "stories",
+          "sourceIndex": 0,
+          "target": {
+            "id": "wrk:000223",
+            "type": "work"
+          },
+          "category": "screenplay-segment-context",
+          "sourceUrl": "https://stephenking.com/works/movie/creepshow.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Related original screenplay segment; not proof of an earlier literary source.",
+          "connectionId": null
+        },
+        {
+          "legacySourceId": "stories:the-lonesome-death-of-jordy-verrill",
+          "legacyTitle": "The Lonesome Death of Jordy Verrill",
+          "legacyKind": "stories",
+          "sourceIndex": 1,
+          "target": {
+            "id": "wrk:000227",
+            "type": "work"
+          },
+          "category": "screenplay-segment-context",
+          "sourceUrl": "https://stephenking.com/works/movie/creepshow.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Related original screenplay segment; not proof of an earlier literary source.",
+          "connectionId": null
+        },
+        {
+          "legacySourceId": "stories:the-crate",
+          "legacyTitle": "The Crate",
+          "legacyKind": "stories",
+          "sourceIndex": 2,
+          "target": {
+            "id": "wrk:000220",
+            "type": "work"
+          },
+          "category": "screenplay-segment-context",
+          "sourceUrl": "https://stephenking.com/works/movie/creepshow.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Related original screenplay segment; not proof of an earlier literary source.",
+          "connectionId": null
+        },
+        {
+          "legacySourceId": "stories:something-to-tide-you-over",
+          "legacyTitle": "Something to Tide You Over",
+          "legacyKind": "stories",
+          "sourceIndex": 3,
+          "target": {
+            "id": "wrk:000236",
+            "type": "work"
+          },
+          "category": "screenplay-segment-context",
+          "sourceUrl": "https://stephenking.com/works/movie/creepshow.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Related original screenplay segment; not proof of an earlier literary source.",
+          "connectionId": null
+        },
+        {
+          "legacySourceId": "stories:they-re-creeping-up-on-you",
+          "legacyTitle": "They're Creeping Up on You",
+          "legacyKind": "stories",
+          "sourceIndex": 4,
+          "target": {
+            "id": "wrk:000238",
+            "type": "work"
+          },
+          "category": "screenplay-segment-context",
+          "sourceUrl": "https://stephenking.com/works/movie/creepshow.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Related original screenplay segment; not proof of an earlier literary source.",
+          "connectionId": null
+        },
+        {
+          "legacySourceId": "stories:weeds",
+          "legacyTitle": "Weeds",
+          "legacyKind": "stories",
+          "sourceIndex": 5,
+          "target": {
+            "id": "wrk:000241",
+            "type": "work"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/creepshow.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [
+        "Do not turn five original screenplay segments into six proven adaptations; Weeds remains a separately flagged candidate."
+      ],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:creepshow-2-1987",
+      "adaptationId": "adp:000010",
+      "legacyYear": 1987,
+      "selectedReleaseYear": 1987,
+      "legacyReportedDate": "1987-05-01",
+      "legacyRelease": "1987-05-01",
+      "selectedReleaseEvents": [
+        {
+          "value": "1987-05-01",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "The Raft",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "stories:the-raft",
+          "legacyTitle": "The Raft",
+          "legacyKind": "stories",
+          "sourceIndex": 0,
+          "target": {
+            "id": "wrk:000104",
+            "type": "work"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/creepshow-2.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        },
+        {
+          "legacySourceId": "books:skeleton-crew",
+          "legacyTitle": "Skeleton Crew",
+          "legacyKind": "books",
+          "sourceIndex": 1,
+          "target": {
+            "type": "collection",
+            "id": "col:000004"
+          },
+          "category": "collection-context",
+          "sourceUrl": "https://stephenking.com/works/movie/creepshow-2.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Containing collection retained as context; not an additional direct adaptation.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:cujo-1983",
+      "adaptationId": "adp:000011",
+      "legacyYear": 1983,
+      "selectedReleaseYear": 1983,
+      "legacyReportedDate": "1983-08-12",
+      "legacyRelease": "1983-08-12",
+      "selectedReleaseEvents": [
+        {
+          "value": "1983-08-12",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "Cujo",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:cujo",
+          "legacyTitle": "Cujo",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "work",
+            "id": "wrk:000012"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/cujo.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:the-dark-half-1993",
+      "adaptationId": "adp:000012",
+      "legacyYear": 1993,
+      "selectedReleaseYear": 1993,
+      "legacyReportedDate": "1993-04-23",
+      "legacyRelease": "1993-04-23",
+      "selectedReleaseEvents": [
+        {
+          "value": "1993-04-23",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "The Dark Half",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:the-dark-half",
+          "legacyTitle": "The Dark Half",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "work",
+            "id": "wrk:000024"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/dark-half.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:the-dark-tower-2017",
+      "adaptationId": "adp:000013",
+      "legacyYear": 2017,
+      "selectedReleaseYear": 2017,
+      "legacyReportedDate": "2017-08-04",
+      "legacyRelease": "2017-08-04",
+      "selectedReleaseEvents": [
+        {
+          "value": "2017-08-04",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "The Dark Tower: Song of Susannah",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:the-dark-tower-song-of-susannah",
+          "legacyTitle": "The Dark Tower: Song of Susannah",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "work",
+            "id": "wrk:000040"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/dark-tower.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        },
+        {
+          "legacySourceId": "books:the-dark-tower-the-drawing-of-the-three",
+          "legacyTitle": "The Dark Tower: The Drawing of the Three",
+          "legacyKind": "books",
+          "sourceIndex": 1,
+          "target": {
+            "type": "work",
+            "id": "wrk:000022"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/dark-tower.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        },
+        {
+          "legacySourceId": "books:the-dark-tower-the-waste-lands",
+          "legacyTitle": "The Dark Tower: The Waste Lands",
+          "legacyKind": "books",
+          "sourceIndex": 2,
+          "target": {
+            "type": "work",
+            "id": "wrk:000025"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/dark-tower.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        },
+        {
+          "legacySourceId": "books:the-dark-tower-wizard-and-glass",
+          "legacyTitle": "The Dark Tower: Wizard and Glass",
+          "legacyKind": "books",
+          "sourceIndex": 3,
+          "target": {
+            "type": "work",
+            "id": "wrk:000034"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/dark-tower.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        },
+        {
+          "legacySourceId": "books:the-dark-tower-wolves-of-the-calla",
+          "legacyTitle": "The Dark Tower: Wolves of the Calla",
+          "legacyKind": "books",
+          "sourceIndex": 4,
+          "target": {
+            "type": "work",
+            "id": "wrk:000039"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/dark-tower.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        },
+        {
+          "legacySourceId": "books:the-dark-tower",
+          "legacyTitle": "The Dark Tower",
+          "legacyKind": "books",
+          "sourceIndex": 5,
+          "target": {
+            "type": "work",
+            "id": "wrk:000041"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/dark-tower.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:the-dead-zone-1983",
+      "adaptationId": "adp:000014",
+      "legacyYear": 1983,
+      "selectedReleaseYear": 1983,
+      "legacyReportedDate": "1983-10-21",
+      "legacyRelease": "1983-10-21",
+      "selectedReleaseEvents": [
+        {
+          "value": "1983-10-21",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "The Dead Zone",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:the-dead-zone",
+          "legacyTitle": "The Dead Zone",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "work",
+            "id": "wrk:000009"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/dead-zone.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:doctor-sleep-2019",
+      "adaptationId": "adp:000015",
+      "legacyYear": 2019,
+      "selectedReleaseYear": 2019,
+      "legacyReportedDate": "2019-11-08",
+      "legacyRelease": "2019-11-08",
+      "selectedReleaseEvents": [
+        {
+          "value": "2019-11-08",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "Doctor Sleep",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:doctor-sleep",
+          "legacyTitle": "Doctor Sleep",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "work",
+            "id": "wrk:000051"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/doctor-sleep.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:dolan-s-cadillac-2009",
+      "adaptationId": "adp:000016",
+      "legacyYear": 2009,
+      "selectedReleaseYear": 2009,
+      "legacyReportedDate": "2009-07-01",
+      "legacyRelease": "2009-07-01",
+      "selectedReleaseEvents": [
+        {
+          "value": "2009-07-01",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "Dolan's Cadillac",
+      "legacyCollectionLabel": "Nightmares & Dreamscapes",
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "stories:dolan-s-cadillac",
+          "legacyTitle": "Dolan's Cadillac",
+          "legacyKind": "stories",
+          "sourceIndex": 0,
+          "target": {
+            "id": "wrk:000122",
+            "type": "work"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/dolans-cadillac.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:dolores-claiborne-1995",
+      "adaptationId": "adp:000017",
+      "legacyYear": 1995,
+      "selectedReleaseYear": 1995,
+      "legacyReportedDate": "1995-03-24",
+      "legacyRelease": "1995-03-24",
+      "selectedReleaseEvents": [
+        {
+          "value": "1995-03-24",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "Dolores Claiborne",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:dolores-claiborne",
+          "legacyTitle": "Dolores Claiborne",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "work",
+            "id": "wrk:000028"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/dolores-claiborne.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:dreamcatcher-2003",
+      "adaptationId": "adp:000018",
+      "legacyYear": 2003,
+      "selectedReleaseYear": 2003,
+      "legacyReportedDate": "2003-03-06",
+      "legacyRelease": "2003-03-06",
+      "selectedReleaseEvents": [
+        {
+          "value": "2003-03-06",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "Dreamcatcher",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:dreamcatcher",
+          "legacyTitle": "Dreamcatcher",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "work",
+            "id": "wrk:000037"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/dreamcatcher.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:firestarter-1984",
+      "adaptationId": "adp:000019",
+      "legacyYear": 1984,
+      "selectedReleaseYear": 1984,
+      "legacyReportedDate": "1984-05-11",
+      "legacyRelease": "1984-05-11",
+      "selectedReleaseEvents": [
+        {
+          "value": "1984-05-11",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "Firestarter",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:firestarter",
+          "legacyTitle": "Firestarter",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "work",
+            "id": "wrk:000010"
+          },
+          "category": "source-supported-adaptation",
+          "sourceUrl": "https://stephenking.com/works/movie/firestarter.html",
+          "certainty": "explicit",
+          "verification": "source-supported",
+          "explanation": "Predicate and evidence are recorded in the canonical connection.",
+          "connectionId": "rel:000010"
+        }
+      ],
+      "verifiedRelationIds": [
+        "rel:000010"
+      ],
+      "provisionalRelationIds": [],
+      "open": [
+        "Shared legacy URL resolves to 2022; obtain 1984 evidence separately. No 2022 poster transferred."
+      ],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:firestarter-2022",
+      "adaptationId": "adp:000020",
+      "legacyYear": 2022,
+      "selectedReleaseYear": 2022,
+      "legacyReportedDate": "2022-05-13",
+      "legacyRelease": "2022-05-13",
+      "selectedReleaseEvents": [
+        {
+          "value": "2022-05-13",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "Firestarter",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:firestarter",
+          "legacyTitle": "Firestarter",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "work",
+            "id": "wrk:000010"
+          },
+          "category": "source-supported-adaptation",
+          "sourceUrl": "https://stephenking.com/works/movie/firestarter.html",
+          "certainty": "explicit",
+          "verification": "source-supported",
+          "explanation": "Predicate and evidence are recorded in the canonical connection.",
+          "connectionId": "rel:000011"
+        }
+      ],
+      "verifiedRelationIds": [
+        "rel:000011"
+      ],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:gerald-s-game-2017",
+      "adaptationId": "adp:000021",
+      "legacyYear": 2017,
+      "selectedReleaseYear": 2017,
+      "legacyReportedDate": "2017-09-29",
+      "legacyRelease": "2017-09-29",
+      "selectedReleaseEvents": [
+        {
+          "value": "2017-09-29",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "Gerald's Game",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:gerald-s-game",
+          "legacyTitle": "Gerald's Game",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "work",
+            "id": "wrk:000027"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/geralds-game.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:graveyard-shift-1990",
+      "adaptationId": "adp:000022",
+      "legacyYear": 1990,
+      "selectedReleaseYear": 1990,
+      "legacyReportedDate": "1990-10-26",
+      "legacyRelease": "1990-10-26",
+      "selectedReleaseEvents": [
+        {
+          "value": "1990-10-26",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "Graveyard Shift",
+      "legacyCollectionLabel": "Night Shift",
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "stories:graveyard-shift",
+          "legacyTitle": "Graveyard Shift",
+          "legacyKind": "stories",
+          "sourceIndex": 0,
+          "target": {
+            "id": "wrk:000073",
+            "type": "work"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/graveyard-shift.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        },
+        {
+          "legacySourceId": "books:night-shift",
+          "legacyTitle": "Night Shift",
+          "legacyKind": "books",
+          "sourceIndex": 1,
+          "target": {
+            "type": "collection",
+            "id": "col:000002"
+          },
+          "category": "collection-context",
+          "sourceUrl": "https://stephenking.com/works/movie/graveyard-shift.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Containing collection retained as context; not an additional direct adaptation.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:the-green-mile-1999",
+      "adaptationId": "adp:000023",
+      "legacyYear": 1999,
+      "selectedReleaseYear": 1999,
+      "legacyReportedDate": "1999-12-06",
+      "legacyRelease": "1999-12-06",
+      "selectedReleaseEvents": [
+        {
+          "value": "1999-12-06",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "The Green Mile",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:the-green-mile",
+          "legacyTitle": "The Green Mile",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "work",
+            "id": "wrk:000031"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/green-mile.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:hearts-in-atlantis-2001",
+      "adaptationId": "adp:000024",
+      "legacyYear": 2001,
+      "selectedReleaseYear": 2001,
+      "legacyReportedDate": "2001-09-28",
+      "legacyRelease": "2001-09-28",
+      "selectedReleaseEvents": [
+        {
+          "value": "2001-09-28",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "Low Men in Yellow Coats",
+      "legacyCollectionLabel": "Hearts in Atlantis",
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "stories:low-men-in-yellow-coats",
+          "legacyTitle": "Low Men in Yellow Coats",
+          "legacyKind": "stories",
+          "sourceIndex": 0,
+          "target": {
+            "id": "wrk:000145",
+            "type": "work"
+          },
+          "category": "source-supported-adaptation",
+          "sourceUrl": "https://stephenking.com/works/movie/hearts-in-atlantis.html",
+          "certainty": "explicit",
+          "verification": "source-supported",
+          "explanation": "Predicate and evidence are recorded in the canonical connection.",
+          "connectionId": "rel:000014"
+        },
+        {
+          "legacySourceId": "stories:heavenly-shades-of-night-are-falling",
+          "legacyTitle": "Heavenly Shades of Night Are Falling",
+          "legacyKind": "stories",
+          "sourceIndex": 1,
+          "target": {
+            "id": "wrk:000149",
+            "type": "work"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/hearts-in-atlantis.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        },
+        {
+          "legacySourceId": "books:hearts-in-atlantis",
+          "legacyTitle": "Hearts in Atlantis",
+          "legacyKind": "books",
+          "sourceIndex": 2,
+          "target": {
+            "type": "collection",
+            "id": "col:000007"
+          },
+          "category": "collection-context",
+          "sourceUrl": "https://stephenking.com/works/movie/hearts-in-atlantis.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Containing collection retained as context; not an additional direct adaptation.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [
+        "rel:000014"
+      ],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:in-the-tall-grass-2019",
+      "adaptationId": "adp:000025",
+      "legacyYear": 2019,
+      "selectedReleaseYear": 2019,
+      "legacyReportedDate": "2019-10-04",
+      "legacyRelease": "2019-10-04",
+      "selectedReleaseEvents": [
+        {
+          "value": "2019-10-04",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "In the Tall Grass",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "stories:in-the-tall-grass",
+          "legacyTitle": "In the Tall Grass",
+          "legacyKind": "stories",
+          "sourceIndex": 0,
+          "target": {
+            "id": "wrk:000225",
+            "type": "work"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/in-the-tall-grass.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:it-2017",
+      "adaptationId": "adp:000026",
+      "legacyYear": 2017,
+      "selectedReleaseYear": 2017,
+      "legacyReportedDate": "2017-09-08",
+      "legacyRelease": "2017-09-08",
+      "selectedReleaseEvents": [
+        {
+          "value": "2017-09-08",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "IT",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:it",
+          "legacyTitle": "IT",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "work",
+            "id": "wrk:000019"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/it-part-1-the-losers-club.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:it-chapter-two-2019",
+      "adaptationId": "adp:000027",
+      "legacyYear": 2019,
+      "selectedReleaseYear": 2019,
+      "legacyReportedDate": "2019-09-06",
+      "legacyRelease": "2019-09-06",
+      "selectedReleaseEvents": [
+        {
+          "value": "2019-09-06",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "IT",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:it",
+          "legacyTitle": "IT",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "work",
+            "id": "wrk:000019"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/it-chapter-two.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:the-life-of-chuck-2024",
+      "adaptationId": "adp:000028",
+      "legacyYear": 2024,
+      "selectedReleaseYear": 2024,
+      "legacyReportedDate": "2024-09-06",
+      "legacyRelease": "2024-09-06",
+      "selectedReleaseEvents": [
+        {
+          "value": "2024-09-06",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "The Life of Chuck",
+      "legacyCollectionLabel": "If It Bleeds",
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "stories:the-life-of-chuck",
+          "legacyTitle": "The Life of Chuck",
+          "legacyKind": "stories",
+          "sourceIndex": 0,
+          "target": {
+            "id": "wrk:000183",
+            "type": "work"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/life-of-chuck.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:the-long-walk-2025",
+      "adaptationId": "adp:000029",
+      "legacyYear": 2025,
+      "selectedReleaseYear": 2025,
+      "legacyReportedDate": "2025-09-12",
+      "legacyRelease": "2025-09-12",
+      "selectedReleaseEvents": [
+        {
+          "value": "2025-09-12",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "The Long Walk",
+      "legacyCollectionLabel": "The Bachman Books",
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:the-long-walk",
+          "legacyTitle": "The Long Walk",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "work",
+            "id": "wrk:000008"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/long-walk.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:the-mangler-1995",
+      "adaptationId": "adp:000030",
+      "legacyYear": 1995,
+      "selectedReleaseYear": 1995,
+      "legacyReportedDate": "1995-03-03",
+      "legacyRelease": "1995-03-03",
+      "selectedReleaseEvents": [
+        {
+          "value": "1995-03-03",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "The Mangler",
+      "legacyCollectionLabel": "Night Shift",
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "stories:the-mangler",
+          "legacyTitle": "The Mangler",
+          "legacyKind": "stories",
+          "sourceIndex": 0,
+          "target": {
+            "id": "wrk:000076",
+            "type": "work"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/mangler.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        },
+        {
+          "legacySourceId": "books:night-shift",
+          "legacyTitle": "Night Shift",
+          "legacyKind": "books",
+          "sourceIndex": 1,
+          "target": {
+            "type": "collection",
+            "id": "col:000002"
+          },
+          "category": "collection-context",
+          "sourceUrl": "https://stephenking.com/works/movie/mangler.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Containing collection retained as context; not an additional direct adaptation.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:maximum-overdrive-1986",
+      "adaptationId": "adp:000031",
+      "legacyYear": 1986,
+      "selectedReleaseYear": 1986,
+      "legacyReportedDate": "1986-07-25",
+      "legacyRelease": "1986-07-25",
+      "selectedReleaseEvents": [
+        {
+          "value": "1986-07-25",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "Trucks",
+      "legacyCollectionLabel": "Night Shift",
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "stories:trucks",
+          "legacyTitle": "Trucks",
+          "legacyKind": "stories",
+          "sourceIndex": 0,
+          "target": {
+            "id": "wrk:000080",
+            "type": "work"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/maximum-overdrive.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        },
+        {
+          "legacySourceId": "books:night-shift",
+          "legacyTitle": "Night Shift",
+          "legacyKind": "books",
+          "sourceIndex": 1,
+          "target": {
+            "type": "collection",
+            "id": "col:000002"
+          },
+          "category": "collection-context",
+          "sourceUrl": "https://stephenking.com/works/movie/maximum-overdrive.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Containing collection retained as context; not an additional direct adaptation.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:misery-1990",
+      "adaptationId": "adp:000032",
+      "legacyYear": 1990,
+      "selectedReleaseYear": 1990,
+      "legacyReportedDate": "1990-11-30",
+      "legacyRelease": "1990-11-30",
+      "selectedReleaseEvents": [
+        {
+          "value": "1990-11-30",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "Misery",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:misery",
+          "legacyTitle": "Misery",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "work",
+            "id": "wrk:000021"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/misery.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:the-mist-2007",
+      "adaptationId": "adp:000033",
+      "legacyYear": 2007,
+      "selectedReleaseYear": 2007,
+      "legacyReportedDate": "2007-11-21",
+      "legacyRelease": "2007-11-21",
+      "selectedReleaseEvents": [
+        {
+          "value": "2007-11-21",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "The Mist",
+      "legacyCollectionLabel": "Skeleton Crew",
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "stories:the-mist",
+          "legacyTitle": "The Mist",
+          "legacyKind": "stories",
+          "sourceIndex": 0,
+          "target": {
+            "id": "wrk:000096",
+            "type": "work"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/mist.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        },
+        {
+          "legacySourceId": "books:skeleton-crew",
+          "legacyTitle": "Skeleton Crew",
+          "legacyKind": "books",
+          "sourceIndex": 1,
+          "target": {
+            "type": "collection",
+            "id": "col:000004"
+          },
+          "category": "collection-context",
+          "sourceUrl": "https://stephenking.com/works/movie/mist.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Containing collection retained as context; not an additional direct adaptation.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:the-monkey-2025",
+      "adaptationId": "adp:000034",
+      "legacyYear": 2025,
+      "selectedReleaseYear": 2025,
+      "legacyReportedDate": "2025-02-21",
+      "legacyRelease": "2025-02-21",
+      "selectedReleaseEvents": [
+        {
+          "value": "2025-02-21",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "The Monkey",
+      "legacyCollectionLabel": "Skeleton Crew",
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "stories:the-monkey",
+          "legacyTitle": "The Monkey",
+          "legacyKind": "stories",
+          "sourceIndex": 0,
+          "target": {
+            "id": "wrk:000098",
+            "type": "work"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/monkey.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:mr-harrigan-s-phone-2022",
+      "adaptationId": "adp:000035",
+      "legacyYear": 2022,
+      "selectedReleaseYear": 2022,
+      "legacyReportedDate": "2022-10-05",
+      "legacyRelease": "2022-10-05",
+      "selectedReleaseEvents": [
+        {
+          "value": "2022-10-05",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "Mr. Harrigan's Phone",
+      "legacyCollectionLabel": "If It Bleeds",
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "stories:mr-harrigan-s-phone",
+          "legacyTitle": "Mr. Harrigan's Phone",
+          "legacyKind": "stories",
+          "sourceIndex": 0,
+          "target": {
+            "id": "wrk:000182",
+            "type": "work"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/mr-harrigans-phone.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:needful-things-1993",
+      "adaptationId": "adp:000036",
+      "legacyYear": 1993,
+      "selectedReleaseYear": 1993,
+      "legacyReportedDate": "1993-08-27",
+      "legacyRelease": "1993-08-27",
+      "selectedReleaseEvents": [
+        {
+          "value": "1993-08-27",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "Needful Things",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:needful-things",
+          "legacyTitle": "Needful Things",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "work",
+            "id": "wrk:000026"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/needful-things.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:the-night-flier-1997",
+      "adaptationId": "adp:000037",
+      "legacyYear": 1997,
+      "selectedReleaseYear": 1997,
+      "legacyReportedDate": "1997-11-15",
+      "legacyRelease": "1997-11-15",
+      "selectedReleaseEvents": [
+        {
+          "value": "1997-11-15",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "The Night Flier",
+      "legacyCollectionLabel": "Nightmares & Dreamscapes",
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "stories:the-night-flier",
+          "legacyTitle": "The Night Flier",
+          "legacyKind": "stories",
+          "sourceIndex": 0,
+          "target": {
+            "id": "wrk:000125",
+            "type": "work"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/night-flier.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        },
+        {
+          "legacySourceId": "books:nightmares-dreamscapes",
+          "legacyTitle": "Nightmares & Dreamscapes",
+          "legacyKind": "books",
+          "sourceIndex": 1,
+          "target": {
+            "type": "collection",
+            "id": "col:000006"
+          },
+          "category": "collection-context",
+          "sourceUrl": "https://stephenking.com/works/movie/night-flier.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Containing collection retained as context; not an additional direct adaptation.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:pet-sematary-1989",
+      "adaptationId": "adp:000038",
+      "legacyYear": 1989,
+      "selectedReleaseYear": 1989,
+      "legacyReportedDate": "1989-04-21",
+      "legacyRelease": "1989-04-21",
+      "selectedReleaseEvents": [
+        {
+          "value": "1989-04-21",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "Pet Sematary",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:pet-sematary",
+          "legacyTitle": "Pet Sematary",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "work",
+            "id": "wrk:000016"
+          },
+          "category": "source-supported-adaptation",
+          "sourceUrl": "https://stephenking.com/works/movie/pet-sematary-(1989).html",
+          "certainty": "explicit",
+          "verification": "source-supported",
+          "explanation": "Predicate and evidence are recorded in the canonical connection.",
+          "connectionId": "rel:000017"
+        }
+      ],
+      "verifiedRelationIds": [
+        "rel:000017"
+      ],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:pet-sematary-2019",
+      "adaptationId": "adp:000039",
+      "legacyYear": 2019,
+      "selectedReleaseYear": 2019,
+      "legacyReportedDate": "2019-04-05",
+      "legacyRelease": "2019-04-05",
+      "selectedReleaseEvents": [
+        {
+          "value": "2019-04-05",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "Pet Sematary",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:pet-sematary",
+          "legacyTitle": "Pet Sematary",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "work",
+            "id": "wrk:000016"
+          },
+          "category": "provisional-adaptation",
+          "sourceUrl": "https://stephenking.com/works/movie/pet-sematary-(2019).html",
+          "certainty": "strongly-implied",
+          "verification": "provisional",
+          "explanation": "Predicate and evidence are recorded in the canonical connection.",
+          "connectionId": "rel:000018"
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [
+        "rel:000018"
+      ],
+      "open": [
+        "Literal legacy director string has replacement characters; new names transcribed from studio metadata, not auto-corrected."
+      ],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:riding-the-bullet-2004",
+      "adaptationId": "adp:000040",
+      "legacyYear": 2004,
+      "selectedReleaseYear": 2004,
+      "legacyReportedDate": "2004-10-15",
+      "legacyRelease": "2004-10-15",
+      "selectedReleaseEvents": [
+        {
+          "value": "2004-10-15",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "Riding the Bullet",
+      "legacyCollectionLabel": "Everything's Eventual",
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "stories:riding-the-bullet",
+          "legacyTitle": "Riding the Bullet",
+          "legacyKind": "stories",
+          "sourceIndex": 0,
+          "target": {
+            "id": "wrk:000162",
+            "type": "work"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/riding-the-bullet.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        },
+        {
+          "legacySourceId": "books:everything-s-eventual",
+          "legacyTitle": "Everything's Eventual",
+          "legacyKind": "books",
+          "sourceIndex": 1,
+          "target": {
+            "type": "collection",
+            "id": "col:000008"
+          },
+          "category": "collection-context",
+          "sourceUrl": "https://stephenking.com/works/movie/riding-the-bullet.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Containing collection retained as context; not an additional direct adaptation.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:the-running-man-1987",
+      "adaptationId": "adp:000041",
+      "legacyYear": 1987,
+      "selectedReleaseYear": 1987,
+      "legacyReportedDate": "1987-11-13",
+      "legacyRelease": "1987-11-13",
+      "selectedReleaseEvents": [
+        {
+          "value": "1987-11-13",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "The Running Man",
+      "legacyCollectionLabel": "The Bachman Books",
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:the-running-man",
+          "legacyTitle": "The Running Man",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "work",
+            "id": "wrk:000013"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/running-man.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:the-running-man-2025",
+      "adaptationId": "adp:000042",
+      "legacyYear": 2025,
+      "selectedReleaseYear": 2025,
+      "legacyReportedDate": "2025-11-14",
+      "legacyRelease": "2025-11-14",
+      "selectedReleaseEvents": [
+        {
+          "value": "2025-11-14",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "The Running Man",
+      "legacyCollectionLabel": "The Bachman Books",
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:the-running-man",
+          "legacyTitle": "The Running Man",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "work",
+            "id": "wrk:000013"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/running-man-(2025).html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:salem-s-lot-2024",
+      "adaptationId": "adp:000043",
+      "legacyYear": 2024,
+      "selectedReleaseYear": 2024,
+      "legacyReportedDate": "2024-10-03",
+      "legacyRelease": "2024-10-03",
+      "selectedReleaseEvents": [
+        {
+          "value": "2024-10-03",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "'Salem's Lot",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:salem-s-lot",
+          "legacyTitle": "'Salem's Lot",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "work",
+            "id": "wrk:000004"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/salems-lot.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:secret-window-2004",
+      "adaptationId": "adp:000044",
+      "legacyYear": 2004,
+      "selectedReleaseYear": 2004,
+      "legacyReportedDate": "2004-03-12",
+      "legacyRelease": "2004-03-12",
+      "selectedReleaseEvents": [
+        {
+          "value": "2004-03-12",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "Secret Window, Secret Garden",
+      "legacyCollectionLabel": "Four Past Midnight",
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "stories:secret-window-secret-garden",
+          "legacyTitle": "Secret Window, Secret Garden",
+          "legacyKind": "stories",
+          "sourceIndex": 0,
+          "target": {
+            "id": "wrk:000119",
+            "type": "work"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/secret-window.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        },
+        {
+          "legacySourceId": "books:four-past-midnight",
+          "legacyTitle": "Four Past Midnight",
+          "legacyKind": "books",
+          "sourceIndex": 1,
+          "target": {
+            "type": "collection",
+            "id": "col:000005"
+          },
+          "category": "collection-context",
+          "sourceUrl": "https://stephenking.com/works/movie/secret-window.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Containing collection retained as context; not an additional direct adaptation.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:the-shawshank-redemption-1994",
+      "adaptationId": "adp:000045",
+      "legacyYear": 1994,
+      "selectedReleaseYear": 1994,
+      "legacyReportedDate": "1994-09-23",
+      "legacyRelease": "1994-09-23",
+      "selectedReleaseEvents": [
+        {
+          "value": "1994-09-23",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "Rita Hayworth and Shawshank Redemption",
+      "legacyCollectionLabel": "Different Seasons",
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "stories:rita-hayworth-and-shawshank-redemption",
+          "legacyTitle": "Rita Hayworth and Shawshank Redemption",
+          "legacyKind": "stories",
+          "sourceIndex": 0,
+          "target": {
+            "id": "wrk:000092",
+            "type": "work"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/shawshank-redemption.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        },
+        {
+          "legacySourceId": "books:different-seasons",
+          "legacyTitle": "Different Seasons",
+          "legacyKind": "books",
+          "sourceIndex": 1,
+          "target": {
+            "type": "collection",
+            "id": "col:000003"
+          },
+          "category": "collection-context",
+          "sourceUrl": "https://stephenking.com/works/movie/shawshank-redemption.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Containing collection retained as context; not an additional direct adaptation.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:the-shining-1980",
+      "adaptationId": "adp:000046",
+      "legacyYear": 1980,
+      "selectedReleaseYear": 1980,
+      "legacyReportedDate": "1980-05-23",
+      "legacyRelease": "1980-05-23",
+      "selectedReleaseEvents": [
+        {
+          "value": "1980-05-23",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "The Shining",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:the-shining",
+          "legacyTitle": "The Shining",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "work",
+            "id": "wrk:000005"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/shining.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:silver-bullet-1985",
+      "adaptationId": "adp:000047",
+      "legacyYear": 1985,
+      "selectedReleaseYear": 1985,
+      "legacyReportedDate": "1985-10-11",
+      "legacyRelease": "1985-10-11",
+      "selectedReleaseEvents": [
+        {
+          "value": "1985-10-11",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "Cycle of the Werewolf",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:cycle-of-the-werewolf",
+          "legacyTitle": "Cycle of the Werewolf",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "work",
+            "id": "wrk:000017"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/silver-bullet.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:stand-by-me-1986",
+      "adaptationId": "adp:000048",
+      "legacyYear": 1986,
+      "selectedReleaseYear": 1986,
+      "legacyReportedDate": "1986-08-08",
+      "legacyRelease": "1986-08-08",
+      "selectedReleaseEvents": [
+        {
+          "value": "1986-08-08",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "The Body",
+      "legacyCollectionLabel": "Different Seasons",
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "stories:the-body",
+          "legacyTitle": "The Body",
+          "legacyKind": "stories",
+          "sourceIndex": 0,
+          "target": {
+            "id": "wrk:000094",
+            "type": "work"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/stand-by-me.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        },
+        {
+          "legacySourceId": "books:different-seasons",
+          "legacyTitle": "Different Seasons",
+          "legacyKind": "books",
+          "sourceIndex": 1,
+          "target": {
+            "type": "collection",
+            "id": "col:000003"
+          },
+          "category": "collection-context",
+          "sourceUrl": "https://stephenking.com/works/movie/stand-by-me.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Containing collection retained as context; not an additional direct adaptation.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:thinner-1996",
+      "adaptationId": "adp:000049",
+      "legacyYear": 1996,
+      "selectedReleaseYear": 1996,
+      "legacyReportedDate": "1996-10-25",
+      "legacyRelease": "1996-10-25",
+      "selectedReleaseEvents": [
+        {
+          "value": "1996-10-25",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "Thinner",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:thinner",
+          "legacyTitle": "Thinner",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "work",
+            "id": "wrk:000018"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/thinner.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:1408-2007",
+      "adaptationId": "adp:000050",
+      "legacyYear": 2007,
+      "selectedReleaseYear": 2007,
+      "legacyReportedDate": "2007-06-12",
+      "legacyRelease": "2007-06-12",
+      "selectedReleaseEvents": [
+        {
+          "value": "2007-06-12",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "1408",
+      "legacyCollectionLabel": "Everything's Eventual",
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "stories:1408",
+          "legacyTitle": "1408",
+          "legacyKind": "stories",
+          "sourceIndex": 0,
+          "target": {
+            "id": "wrk:000161",
+            "type": "work"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/1408.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        },
+        {
+          "legacySourceId": "books:everything-s-eventual",
+          "legacyTitle": "Everything's Eventual",
+          "legacyKind": "books",
+          "sourceIndex": 1,
+          "target": {
+            "type": "collection",
+            "id": "col:000008"
+          },
+          "category": "collection-context",
+          "sourceUrl": "https://stephenking.com/works/movie/1408.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Containing collection retained as context; not an additional direct adaptation.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:1922-2017",
+      "adaptationId": "adp:000051",
+      "legacyYear": 2017,
+      "selectedReleaseYear": 2017,
+      "legacyReportedDate": "2017-10-20",
+      "legacyRelease": "2017-10-20",
+      "selectedReleaseEvents": [
+        {
+          "value": "2017-10-20",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "1922",
+      "legacyCollectionLabel": "Full Dark, No Stars",
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "stories:1922",
+          "legacyTitle": "1922",
+          "legacyKind": "stories",
+          "sourceIndex": 0,
+          "target": {
+            "id": "wrk:000177",
+            "type": "work"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/1922.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:the-girl-who-loved-tom-gordon-tbd",
+      "adaptationId": "adp:000052",
+      "legacyYear": null,
+      "selectedReleaseYear": null,
+      "legacyReportedDate": null,
+      "legacyRelease": null,
+      "selectedReleaseEvents": [],
+      "legacyStatus": "unconfirmed",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "The Girl Who Loved Tom Gordon",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "unknown",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:the-girl-who-loved-tom-gordon",
+          "legacyTitle": "The Girl Who Loved Tom Gordon",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "work",
+            "id": "wrk:000036"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/girl-who-loved-tom-gordon.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:suffer-the-little-children-tbd",
+      "adaptationId": "adp:000053",
+      "legacyYear": null,
+      "selectedReleaseYear": null,
+      "legacyReportedDate": null,
+      "legacyRelease": null,
+      "selectedReleaseEvents": [],
+      "legacyStatus": "unconfirmed",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "Suffer the Little Children",
+      "legacyCollectionLabel": "Nightmares & Dreamscapes",
+      "legacyRenewalDate": null,
+      "selectedStatus": "unknown",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "stories:suffer-the-little-children",
+          "legacyTitle": "Suffer the Little Children",
+          "legacyKind": "stories",
+          "sourceIndex": 0,
+          "target": {
+            "id": "wrk:000124",
+            "type": "work"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/suffer-the-little-children.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:11-22-63-2016",
+      "adaptationId": "adp:000054",
+      "legacyYear": 2016,
+      "selectedReleaseYear": 2016,
+      "legacyReportedDate": "2016-02-15",
+      "legacyRelease": "2016-02-15",
+      "selectedReleaseEvents": [
+        {
+          "value": "2016-02-15",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "11/22/63",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:11-22-63",
+          "legacyTitle": "11/22/63",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "work",
+            "id": "wrk:000048"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/television/11-22-63.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:bag-of-bones-2011",
+      "adaptationId": "adp:000055",
+      "legacyYear": 2011,
+      "selectedReleaseYear": 2011,
+      "legacyReportedDate": "2011-12-11",
+      "legacyRelease": "2011-12-11",
+      "selectedReleaseEvents": [
+        {
+          "value": "2011-12-11",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "Bag of Bones",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:bag-of-bones",
+          "legacyTitle": "Bag of Bones",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "work",
+            "id": "wrk:000035"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/television/bag-of-bones.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:big-driver-2014",
+      "adaptationId": "adp:000056",
+      "legacyYear": 2014,
+      "selectedReleaseYear": 2014,
+      "legacyReportedDate": "2014-10-18",
+      "legacyRelease": "2014-10-18",
+      "selectedReleaseEvents": [
+        {
+          "value": "2014-10-18",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "Big Driver",
+      "legacyCollectionLabel": "Full Dark, No Stars",
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "stories:big-driver",
+          "legacyTitle": "Big Driver",
+          "legacyKind": "stories",
+          "sourceIndex": 0,
+          "target": {
+            "id": "wrk:000178",
+            "type": "work"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/television/big-driver.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        },
+        {
+          "legacySourceId": "books:full-dark-no-stars",
+          "legacyTitle": "Full Dark, No Stars",
+          "legacyKind": "books",
+          "sourceIndex": 1,
+          "target": {
+            "type": "collection",
+            "id": "col:000011"
+          },
+          "category": "collection-context",
+          "sourceUrl": "https://stephenking.com/works/television/big-driver.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Containing collection retained as context; not an additional direct adaptation.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:carrie-2002",
+      "adaptationId": "adp:000057",
+      "legacyYear": 2002,
+      "selectedReleaseYear": 2002,
+      "legacyReportedDate": "2002",
+      "legacyRelease": "2002",
+      "selectedReleaseEvents": [
+        {
+          "value": "2002",
+          "precision": "year",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Romanadaptatie",
+      "legacySourceLabel": "Carrie",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:carrie",
+          "legacyTitle": "Carrie",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "work",
+            "id": "wrk:000003"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://www.swank.com/public-libraries/details/21296-carrie",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:chapelwaite-2021",
+      "adaptationId": "adp:000058",
+      "legacyYear": 2021,
+      "selectedReleaseYear": 2021,
+      "legacyReportedDate": "2021-08-22",
+      "legacyRelease": "2021-08-22",
+      "selectedReleaseEvents": [
+        {
+          "value": "2021-08-22",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "Jerusalem's Lot",
+      "legacyCollectionLabel": "Night Shift",
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "stories:jerusalem-s-lot",
+          "legacyTitle": "Jerusalem's Lot",
+          "legacyKind": "stories",
+          "sourceIndex": 0,
+          "target": {
+            "id": "wrk:000072",
+            "type": "work"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/television/chapelwaite.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:desperation-2006",
+      "adaptationId": "adp:000059",
+      "legacyYear": 2006,
+      "selectedReleaseYear": 2006,
+      "legacyReportedDate": "2006-05-23",
+      "legacyRelease": "2006-05-23",
+      "selectedReleaseEvents": [
+        {
+          "value": "2006-05-23",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "Desperation",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:desperation",
+          "legacyTitle": "Desperation",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "work",
+            "id": "wrk:000032"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/television/desperation.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:the-institute-2025",
+      "adaptationId": "adp:000060",
+      "legacyYear": 2025,
+      "selectedReleaseYear": 2025,
+      "legacyReportedDate": "2025-07-13",
+      "legacyRelease": "2025-07-13",
+      "selectedReleaseEvents": [
+        {
+          "value": "2025-07-13",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "The Institute",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:the-institute",
+          "legacyTitle": "The Institute",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "work",
+            "id": "wrk:000060"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/television/institute.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:it-1990",
+      "adaptationId": "adp:000061",
+      "legacyYear": 1990,
+      "selectedReleaseYear": 1990,
+      "legacyReportedDate": "1990-11-18",
+      "legacyRelease": "1990-11-18",
+      "selectedReleaseEvents": [
+        {
+          "value": "1990-11-18",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "IT",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:it",
+          "legacyTitle": "IT",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "work",
+            "id": "wrk:000019"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/television/it.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:it-welcome-to-derry-2025",
+      "adaptationId": "adp:000062",
+      "legacyYear": 2025,
+      "selectedReleaseYear": 2025,
+      "legacyReportedDate": "2025-10-26",
+      "legacyRelease": "2025-10-26",
+      "selectedReleaseEvents": [
+        {
+          "value": "2025-10-26",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "IT",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:it",
+          "legacyTitle": "IT",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "work",
+            "id": "wrk:000019"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/television/it-welcome-to-derry.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:the-langoliers-1995",
+      "adaptationId": "adp:000063",
+      "legacyYear": 1995,
+      "selectedReleaseYear": 1995,
+      "legacyReportedDate": "1995-05-14",
+      "legacyRelease": "1995-05-14",
+      "selectedReleaseEvents": [
+        {
+          "value": "1995-05-14",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "The Langoliers",
+      "legacyCollectionLabel": "Four Past Midnight",
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "stories:the-langoliers",
+          "legacyTitle": "The Langoliers",
+          "legacyKind": "stories",
+          "sourceIndex": 0,
+          "target": {
+            "id": "wrk:000118",
+            "type": "work"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/television/langoliers.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:lisey-s-story-2021",
+      "adaptationId": "adp:000064",
+      "legacyYear": 2021,
+      "selectedReleaseYear": 2021,
+      "legacyReportedDate": "2021-06-04",
+      "legacyRelease": "2021-06-04",
+      "selectedReleaseEvents": [
+        {
+          "value": "2021-06-04",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "Lisey's Story",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:lisey-s-story",
+          "legacyTitle": "Lisey's Story",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "work",
+            "id": "wrk:000044"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/television/liseys-story.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:the-mist-2017",
+      "adaptationId": "adp:000065",
+      "legacyYear": 2017,
+      "selectedReleaseYear": 2017,
+      "legacyReportedDate": "2017-06-22",
+      "legacyRelease": "2017-06-22",
+      "selectedReleaseEvents": [
+        {
+          "value": "2017-06-22",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "The Mist",
+      "legacyCollectionLabel": "Skeleton Crew",
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "stories:the-mist",
+          "legacyTitle": "The Mist",
+          "legacyKind": "stories",
+          "sourceIndex": 0,
+          "target": {
+            "id": "wrk:000096",
+            "type": "work"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/television/mist.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:mr-mercedes-2017",
+      "adaptationId": "adp:000066",
+      "legacyYear": 2017,
+      "selectedReleaseYear": 2017,
+      "legacyReportedDate": "2017-08-09",
+      "legacyRelease": "2017-08-09",
+      "selectedReleaseEvents": [
+        {
+          "value": "2017-08-09",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "Mr. Mercedes",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:mr-mercedes",
+          "legacyTitle": "Mr. Mercedes",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "work",
+            "id": "wrk:000052"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/television/mr-mercedes.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:nightmares-dreamscapes-2006",
+      "adaptationId": "adp:000067",
+      "legacyYear": 2006,
+      "selectedReleaseYear": 2006,
+      "legacyReportedDate": "2006-07-12",
+      "legacyRelease": "2006-07-12",
+      "selectedReleaseEvents": [
+        {
+          "value": "2006-07-12",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "Nightmares & Dreamscapes",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:nightmares-dreamscapes",
+          "legacyTitle": "Nightmares & Dreamscapes",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "collection",
+            "id": "col:000006"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/television/nightmares-dreamscapes.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:salem-s-lot-1979",
+      "adaptationId": "adp:000068",
+      "legacyYear": 1979,
+      "selectedReleaseYear": 1979,
+      "legacyReportedDate": "1979-11-17",
+      "legacyRelease": "1979-11-17",
+      "selectedReleaseEvents": [
+        {
+          "value": "1979-11-17",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "'Salem's Lot",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:salem-s-lot",
+          "legacyTitle": "'Salem's Lot",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "work",
+            "id": "wrk:000004"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/television/salems-lot.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:salem-s-lot-2004",
+      "adaptationId": "adp:000069",
+      "legacyYear": 2004,
+      "selectedReleaseYear": 2004,
+      "legacyReportedDate": "2004-06-02",
+      "legacyRelease": "2004-06-02",
+      "selectedReleaseEvents": [
+        {
+          "value": "2004-06-02",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "'Salem's Lot",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:salem-s-lot",
+          "legacyTitle": "'Salem's Lot",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "work",
+            "id": "wrk:000004"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/television/salems-lot-(remake).html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:the-shining-1997",
+      "adaptationId": "adp:000070",
+      "legacyYear": 1997,
+      "selectedReleaseYear": 1997,
+      "legacyReportedDate": "1997-04-27",
+      "legacyRelease": "1997-04-27",
+      "selectedReleaseEvents": [
+        {
+          "value": "1997-04-27",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "The Shining",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:the-shining",
+          "legacyTitle": "The Shining",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "work",
+            "id": "wrk:000005"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/television/shining.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:sometimes-they-come-back-1991",
+      "adaptationId": "adp:000071",
+      "legacyYear": 1991,
+      "selectedReleaseYear": 1991,
+      "legacyReportedDate": "1991-05-07",
+      "legacyRelease": "1991-05-07",
+      "selectedReleaseEvents": [
+        {
+          "value": "1991-05-07",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "Sometimes They Come Back",
+      "legacyCollectionLabel": "Night Shift",
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "stories:sometimes-they-come-back",
+          "legacyTitle": "Sometimes They Come Back",
+          "legacyKind": "stories",
+          "sourceIndex": 0,
+          "target": {
+            "id": "wrk:000081",
+            "type": "work"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/television/sometimes-they-come-back.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:the-stand-1994",
+      "adaptationId": "adp:000072",
+      "legacyYear": 1994,
+      "selectedReleaseYear": 1994,
+      "legacyReportedDate": "1994-05-08",
+      "legacyRelease": "1994-05-08",
+      "selectedReleaseEvents": [
+        {
+          "value": "1994-05-08",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "The Stand",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:the-stand",
+          "legacyTitle": "The Stand",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "work",
+            "id": "wrk:000007"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/television/stand.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:the-stand-2020",
+      "adaptationId": "adp:000073",
+      "legacyYear": 2020,
+      "selectedReleaseYear": 2020,
+      "legacyReportedDate": "2020-12-17",
+      "legacyRelease": "2020-12-17",
+      "selectedReleaseEvents": [
+        {
+          "value": "2020-12-17",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "The Stand",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:the-stand",
+          "legacyTitle": "The Stand",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "work",
+            "id": "wrk:000007"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/television/stand-(2020).html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:the-tommyknockers-1993",
+      "adaptationId": "adp:000074",
+      "legacyYear": 1993,
+      "selectedReleaseYear": 1993,
+      "legacyReportedDate": "1993-05-09",
+      "legacyRelease": "1993-05-09",
+      "selectedReleaseEvents": [
+        {
+          "value": "1993-05-09",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "The Tommyknockers",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:the-tommyknockers",
+          "legacyTitle": "The Tommyknockers",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "work",
+            "id": "wrk:000023"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/television/tommyknockers.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:trucks-1997",
+      "adaptationId": "adp:000075",
+      "legacyYear": 1997,
+      "selectedReleaseYear": null,
+      "legacyReportedDate": "2000-12-26",
+      "legacyRelease": null,
+      "selectedReleaseEvents": [
+        {
+          "value": "2000-12-26",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "Trucks",
+      "legacyCollectionLabel": "Night Shift",
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "stories:trucks",
+          "legacyTitle": "Trucks",
+          "legacyKind": "stories",
+          "sourceIndex": 0,
+          "target": {
+            "id": "wrk:000080",
+            "type": "work"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/television/trucks.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:under-the-dome-2013",
+      "adaptationId": "adp:000076",
+      "legacyYear": 2013,
+      "selectedReleaseYear": 2013,
+      "legacyReportedDate": "2013-06-24",
+      "legacyRelease": "2013-06-24",
+      "selectedReleaseEvents": [
+        {
+          "value": "2013-06-24",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "Under the Dome",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:under-the-dome",
+          "legacyTitle": "Under the Dome",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "work",
+            "id": "wrk:000047"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/television/under-the-dome.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:the-outsider-2020",
+      "adaptationId": "adp:000077",
+      "legacyYear": 2020,
+      "selectedReleaseYear": 2020,
+      "legacyReportedDate": "2020-01-12",
+      "legacyRelease": "2020-01-12",
+      "selectedReleaseEvents": [
+        {
+          "value": "2020-01-12",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "The Outsider",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:the-outsider",
+          "legacyTitle": "The Outsider",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "work",
+            "id": "wrk:000058"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/television/outsider.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:the-dead-zone-2002",
+      "adaptationId": "adp:000078",
+      "legacyYear": 2002,
+      "selectedReleaseYear": 2002,
+      "legacyReportedDate": "2002-06-16",
+      "legacyRelease": "2002-06-16",
+      "selectedReleaseEvents": [
+        {
+          "value": "2002-06-16",
+          "precision": "day",
+          "meaning": "US-series-premiere",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op personages uit de roman",
+      "legacySourceLabel": "The Dead Zone",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:the-dead-zone",
+          "legacyTitle": "The Dead Zone",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "work",
+            "id": "wrk:000009"
+          },
+          "category": "provisional-adaptation",
+          "sourceUrl": "https://tv.apple.com/us/show/the-dead-zone/umc.cmc.5syjc2wjt8qygwav1wvrb8hh3",
+          "certainty": "strongly-implied",
+          "verification": "provisional",
+          "explanation": "Predicate and evidence are recorded in the canonical connection.",
+          "connectionId": "rel:000025"
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [
+        "rel:000025"
+      ],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:haven-2010",
+      "adaptationId": "adp:000079",
+      "legacyYear": 2010,
+      "selectedReleaseYear": 2010,
+      "legacyReportedDate": "2010-07-09",
+      "legacyRelease": "2010-07-09",
+      "selectedReleaseEvents": [
+        {
+          "value": "2010-07-09",
+          "precision": "day",
+          "meaning": "US-series-premiere",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Los geïnspireerd door",
+      "legacySourceLabel": "The Colorado Kid",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:the-colorado-kid",
+          "legacyTitle": "The Colorado Kid",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "work",
+            "id": "wrk:000042"
+          },
+          "category": "source-supported-adaptation",
+          "sourceUrl": "https://www.awn.com/news/syfys-haven-renewed-season-two",
+          "certainty": "explicit",
+          "verification": "source-supported",
+          "explanation": "Predicate and evidence are recorded in the canonical connection.",
+          "connectionId": "rel:000024"
+        }
+      ],
+      "verifiedRelationIds": [
+        "rel:000024"
+      ],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:castle-rock-2018",
+      "adaptationId": "adp:000080",
+      "legacyYear": 2018,
+      "selectedReleaseYear": 2018,
+      "legacyReportedDate": "2018-09-25",
+      "legacyRelease": "2018-09-25",
+      "selectedReleaseEvents": [
+        {
+          "value": "2018-09-25",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Origineel scenario",
+      "legacySourceLabel": "King universe (original)",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:rose-red-2002",
+      "adaptationId": "adp:000081",
+      "legacyYear": 2002,
+      "selectedReleaseYear": 2002,
+      "legacyReportedDate": "2002-01-27",
+      "legacyRelease": "2002-01-27",
+      "selectedReleaseEvents": [
+        {
+          "value": "2002-01-27",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Origineel scenario",
+      "legacySourceLabel": "Original screenplay",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:storm-of-the-century-1999",
+      "adaptationId": "adp:000082",
+      "legacyYear": 1999,
+      "selectedReleaseYear": 1999,
+      "legacyReportedDate": "1999-02-14",
+      "legacyRelease": "1999-02-14",
+      "selectedReleaseEvents": [
+        {
+          "value": "1999-02-14",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Origineel scenario",
+      "legacySourceLabel": "Original screenplay",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:carrie-2013",
+      "adaptationId": "adp:000083",
+      "legacyYear": 2013,
+      "selectedReleaseYear": 2013,
+      "legacyReportedDate": "2013-10-18",
+      "legacyRelease": "2013-10-18",
+      "selectedReleaseEvents": [
+        {
+          "value": "2013-10-18",
+          "precision": "day",
+          "meaning": "theatrical-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Romanadaptatie",
+      "legacySourceLabel": "Carrie",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:carrie",
+          "legacyTitle": "Carrie",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "work",
+            "id": "wrk:000003"
+          },
+          "category": "source-supported-adaptation",
+          "sourceUrl": "https://www.demilofilm.com/works/carrie",
+          "certainty": "explicit",
+          "verification": "source-supported",
+          "explanation": "Predicate and evidence are recorded in the canonical connection.",
+          "connectionId": "rel:000021"
+        }
+      ],
+      "verifiedRelationIds": [
+        "rel:000021"
+      ],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:carrie-2026",
+      "adaptationId": "adp:000084",
+      "legacyYear": 2026,
+      "selectedReleaseYear": 2026,
+      "legacyReportedDate": "2026-10-07",
+      "legacyRelease": "2026-10-07",
+      "selectedReleaseEvents": [
+        {
+          "value": "2026-10-07",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "Carrie",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": "2026-10-22",
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:carrie",
+          "legacyTitle": "Carrie",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "work",
+            "id": "wrk:000003"
+          },
+          "category": "source-supported-adaptation",
+          "sourceUrl": "https://stephenking.com/works/television/carrie.html",
+          "certainty": "explicit",
+          "verification": "source-supported",
+          "explanation": "Predicate and evidence are recorded in the canonical connection.",
+          "connectionId": "rel:000022"
+        }
+      ],
+      "verifiedRelationIds": [
+        "rel:000022"
+      ],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:the-diary-of-ellen-rimbauer-2003",
+      "adaptationId": "adp:000085",
+      "legacyYear": 2003,
+      "selectedReleaseYear": 2003,
+      "legacyReportedDate": "2003-05-12",
+      "legacyRelease": "2003-05-12",
+      "selectedReleaseEvents": [
+        {
+          "value": "2003-05-12",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Nog te verifiëren",
+      "legacySourceLabel": null,
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:golden-years-1991",
+      "adaptationId": "adp:000086",
+      "legacyYear": 1991,
+      "selectedReleaseYear": 1991,
+      "legacyReportedDate": "1991-07-16",
+      "legacyRelease": "1991-07-16",
+      "selectedReleaseEvents": [
+        {
+          "value": "1991-07-16",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Nog te verifiëren",
+      "legacySourceLabel": null,
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:hearts-tbd",
+      "adaptationId": "adp:000087",
+      "legacyYear": null,
+      "selectedReleaseYear": null,
+      "legacyReportedDate": null,
+      "legacyRelease": null,
+      "selectedReleaseEvents": [],
+      "legacyStatus": "unconfirmed",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "Hearts in Atlantis",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "unknown",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:hearts-in-atlantis",
+          "legacyTitle": "Hearts in Atlantis",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "collection",
+            "id": "col:000007"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/hearts.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:kingdom-hospital-2004",
+      "adaptationId": "adp:000088",
+      "legacyYear": 2004,
+      "selectedReleaseYear": 2004,
+      "legacyReportedDate": "2004-03-03",
+      "legacyRelease": "2004-03-03",
+      "selectedReleaseEvents": [
+        {
+          "value": "2004-03-03",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Nog te verifiëren",
+      "legacySourceLabel": null,
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:mercy-2012",
+      "adaptationId": "adp:000089",
+      "legacyYear": 2012,
+      "selectedReleaseYear": 2014,
+      "legacyReportedDate": "2012-12-14",
+      "legacyRelease": "2012-12-14",
+      "selectedReleaseEvents": [
+        {
+          "value": "2014",
+          "precision": "year",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Nog te verifiëren",
+      "legacySourceLabel": null,
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": null,
+          "legacyTitle": null,
+          "legacyKind": null,
+          "sourceIndex": null,
+          "target": {
+            "id": "wrk:000115",
+            "type": "work"
+          },
+          "category": "source-supported-adaptation",
+          "sourceUrl": "https://stephenking.com/works/movie/mercy.html",
+          "certainty": "explicit",
+          "verification": "source-supported",
+          "explanation": "Explicit targeted review; reuses an existing literary identity.",
+          "connectionId": "rel:000012"
+        }
+      ],
+      "verifiedRelationIds": [
+        "rel:000012"
+      ],
+      "provisionalRelationIds": [],
+      "open": [
+        "2012-12-14 is an announcement, not a confirmed release; use distributor year 2014 without inventing a day."
+      ],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:my-pretty-pony-2017",
+      "adaptationId": "adp:000090",
+      "legacyYear": 2017,
+      "selectedReleaseYear": null,
+      "legacyReportedDate": "2017-04-06",
+      "legacyRelease": "2017-04-06",
+      "selectedReleaseEvents": [],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Nog te verifiëren",
+      "legacySourceLabel": null,
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "unknown",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": null,
+          "legacyTitle": null,
+          "legacyKind": null,
+          "sourceIndex": null,
+          "target": {
+            "id": "wrk:000135",
+            "type": "work"
+          },
+          "category": "source-supported-adaptation",
+          "sourceUrl": "https://stephenking.com/works/movie/my-pretty-pony.html",
+          "certainty": "explicit",
+          "verification": "source-supported",
+          "explanation": "Explicit targeted review; reuses an existing literary identity.",
+          "connectionId": "rel:000023"
+        }
+      ],
+      "verifiedRelationIds": [
+        "rel:000023"
+      ],
+      "provisionalRelationIds": [],
+      "open": [
+        "Conflicting header/body: preserve dated source observation, but do not treat an announcement as completed release or invent short-film identity."
+      ],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:quicksilver-highway-1997",
+      "adaptationId": "adp:000091",
+      "legacyYear": 1997,
+      "selectedReleaseYear": 1997,
+      "legacyReportedDate": "1997-05-13",
+      "legacyRelease": "1997-05-13",
+      "selectedReleaseEvents": [
+        {
+          "value": "1997-05-13",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Nog te verifiëren",
+      "legacySourceLabel": null,
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:sleeping-beauties-tbd",
+      "adaptationId": "adp:000092",
+      "legacyYear": null,
+      "selectedReleaseYear": null,
+      "legacyReportedDate": null,
+      "legacyRelease": null,
+      "selectedReleaseEvents": [],
+      "legacyStatus": "unconfirmed",
+      "legacyRelationLabel": "Nog te verifiëren",
+      "legacySourceLabel": null,
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "unknown",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:sleepwalkers-1992",
+      "adaptationId": "adp:000093",
+      "legacyYear": 1992,
+      "selectedReleaseYear": 1992,
+      "legacyReportedDate": "1992-04-10",
+      "legacyRelease": "1992-04-10",
+      "selectedReleaseEvents": [
+        {
+          "value": "1992-04-10",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Nog te verifiëren",
+      "legacySourceLabel": null,
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:tales-from-the-darkside-the-movie-1990",
+      "adaptationId": "adp:000094",
+      "legacyYear": 1990,
+      "selectedReleaseYear": 1990,
+      "legacyReportedDate": "1990-05-04",
+      "legacyRelease": "1990-05-04",
+      "selectedReleaseEvents": [
+        {
+          "value": "1990-05-04",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Gebaseerd op / geïnspireerd door",
+      "legacySourceLabel": "The Cat from Hell",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "stories:the-cat-from-hell",
+          "legacyTitle": "The Cat from Hell",
+          "legacyKind": "stories",
+          "sourceIndex": 0,
+          "target": {
+            "id": "wrk:000172",
+            "type": "work"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://stephenking.com/works/movie/tales-from-the-darkside-the-movie.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        },
+        {
+          "legacySourceId": "books:just-after-sunset",
+          "legacyTitle": "Just After Sunset",
+          "legacyKind": "books",
+          "sourceIndex": 1,
+          "target": {
+            "type": "collection",
+            "id": "col:000009"
+          },
+          "category": "collection-context",
+          "sourceUrl": "https://stephenking.com/works/movie/tales-from-the-darkside-the-movie.html",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Containing collection retained as context; not an additional direct adaptation.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:pet-sematary-bloodlines-2023",
+      "adaptationId": "adp:000095",
+      "legacyYear": 2023,
+      "selectedReleaseYear": 2023,
+      "legacyReportedDate": null,
+      "legacyRelease": "2023-10-06",
+      "selectedReleaseEvents": [
+        {
+          "value": "2023-10-06",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": "US"
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Prequel",
+      "legacySourceLabel": "Pet Sematary",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:pet-sematary",
+          "legacyTitle": "Pet Sematary",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "work",
+            "id": "wrk:000016"
+          },
+          "category": "source-supported-adaptation",
+          "sourceUrl": "https://paramountglobalcontent.com/title/pet-sematary-bloodlines-1969",
+          "certainty": "explicit",
+          "verification": "source-supported",
+          "explanation": "Predicate and evidence are recorded in the canonical connection.",
+          "connectionId": "rel:000019"
+        }
+      ],
+      "verifiedRelationIds": [
+        "rel:000019"
+      ],
+      "provisionalRelationIds": [
+        "rel:000026"
+      ],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    },
+    {
+      "legacyId": "films:the-rage-carrie-2-1999",
+      "adaptationId": "adp:000096",
+      "legacyYear": 1999,
+      "selectedReleaseYear": 1999,
+      "legacyReportedDate": null,
+      "legacyRelease": "1999-03-12",
+      "selectedReleaseEvents": [
+        {
+          "value": "1999-03-12",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "legacyStatus": "released",
+      "legacyRelationLabel": "Vervolgfilm",
+      "legacySourceLabel": "Carrie",
+      "legacyCollectionLabel": null,
+      "legacyRenewalDate": null,
+      "selectedStatus": "released",
+      "releaseObservationsAreNotUniversalPremieres": true,
+      "sourceCandidates": [
+        {
+          "legacySourceId": "books:carrie",
+          "legacyTitle": "Carrie",
+          "legacyKind": "books",
+          "sourceIndex": 0,
+          "target": {
+            "type": "work",
+            "id": "wrk:000003"
+          },
+          "category": "unconfirmed-literary-source",
+          "sourceUrl": "https://www.boxofficemojo.com/title/tt0144814/",
+          "certainty": null,
+          "verification": "unconfirmed",
+          "explanation": "Inherited title/link candidate only; no confirmed adaptation direction or degree inferred.",
+          "connectionId": null
+        }
+      ],
+      "verifiedRelationIds": [],
+      "provisionalRelationIds": [],
+      "open": [],
+      "summarySpoiler": {
+        "level": "none",
+        "workIds": []
+      }
+    }
+  ],
+  "comparisonGroups": [
+    {
+      "workId": "wrk:000003",
+      "versions": [
+        {
+          "adaptationId": "adp:000004",
+          "legacyId": "films:carrie-1976",
+          "verification": "source-supported",
+          "category": "source-supported-adaptation"
+        },
+        {
+          "adaptationId": "adp:000057",
+          "legacyId": "films:carrie-2002",
+          "verification": "unconfirmed",
+          "category": "unconfirmed-literary-source"
+        },
+        {
+          "adaptationId": "adp:000083",
+          "legacyId": "films:carrie-2013",
+          "verification": "source-supported",
+          "category": "source-supported-adaptation"
+        },
+        {
+          "adaptationId": "adp:000084",
+          "legacyId": "films:carrie-2026",
+          "verification": "source-supported",
+          "category": "source-supported-adaptation"
+        },
+        {
+          "adaptationId": "adp:000096",
+          "legacyId": "films:the-rage-carrie-2-1999",
+          "verification": "unconfirmed",
+          "category": "unconfirmed-literary-source"
+        }
+      ],
+      "meaning": "Shared registered literary-source candidates; distinct productions, not an inferred sequel/remake or continuity claim."
+    },
+    {
+      "workId": "wrk:000009",
+      "versions": [
+        {
+          "adaptationId": "adp:000014",
+          "legacyId": "films:the-dead-zone-1983",
+          "verification": "unconfirmed",
+          "category": "unconfirmed-literary-source"
+        },
+        {
+          "adaptationId": "adp:000078",
+          "legacyId": "films:the-dead-zone-2002",
+          "verification": "provisional",
+          "category": "provisional-adaptation"
+        }
+      ],
+      "meaning": "Shared registered literary-source candidates; distinct productions, not an inferred sequel/remake or continuity claim."
+    },
+    {
+      "workId": "wrk:000010",
+      "versions": [
+        {
+          "adaptationId": "adp:000019",
+          "legacyId": "films:firestarter-1984",
+          "verification": "source-supported",
+          "category": "source-supported-adaptation"
+        },
+        {
+          "adaptationId": "adp:000020",
+          "legacyId": "films:firestarter-2022",
+          "verification": "source-supported",
+          "category": "source-supported-adaptation"
+        }
+      ],
+      "meaning": "Shared registered literary-source candidates; distinct productions, not an inferred sequel/remake or continuity claim."
+    },
+    {
+      "workId": "wrk:000019",
+      "versions": [
+        {
+          "adaptationId": "adp:000026",
+          "legacyId": "films:it-2017",
+          "verification": "unconfirmed",
+          "category": "unconfirmed-literary-source"
+        },
+        {
+          "adaptationId": "adp:000027",
+          "legacyId": "films:it-chapter-two-2019",
+          "verification": "unconfirmed",
+          "category": "unconfirmed-literary-source"
+        },
+        {
+          "adaptationId": "adp:000061",
+          "legacyId": "films:it-1990",
+          "verification": "unconfirmed",
+          "category": "unconfirmed-literary-source"
+        },
+        {
+          "adaptationId": "adp:000062",
+          "legacyId": "films:it-welcome-to-derry-2025",
+          "verification": "unconfirmed",
+          "category": "unconfirmed-literary-source"
+        }
+      ],
+      "meaning": "Shared registered literary-source candidates; distinct productions, not an inferred sequel/remake or continuity claim."
+    },
+    {
+      "workId": "wrk:000080",
+      "versions": [
+        {
+          "adaptationId": "adp:000031",
+          "legacyId": "films:maximum-overdrive-1986",
+          "verification": "unconfirmed",
+          "category": "unconfirmed-literary-source"
+        },
+        {
+          "adaptationId": "adp:000075",
+          "legacyId": "films:trucks-1997",
+          "verification": "unconfirmed",
+          "category": "unconfirmed-literary-source"
+        }
+      ],
+      "meaning": "Shared registered literary-source candidates; distinct productions, not an inferred sequel/remake or continuity claim."
+    },
+    {
+      "workId": "wrk:000096",
+      "versions": [
+        {
+          "adaptationId": "adp:000033",
+          "legacyId": "films:the-mist-2007",
+          "verification": "unconfirmed",
+          "category": "unconfirmed-literary-source"
+        },
+        {
+          "adaptationId": "adp:000065",
+          "legacyId": "films:the-mist-2017",
+          "verification": "unconfirmed",
+          "category": "unconfirmed-literary-source"
+        }
+      ],
+      "meaning": "Shared registered literary-source candidates; distinct productions, not an inferred sequel/remake or continuity claim."
+    },
+    {
+      "workId": "wrk:000016",
+      "versions": [
+        {
+          "adaptationId": "adp:000038",
+          "legacyId": "films:pet-sematary-1989",
+          "verification": "source-supported",
+          "category": "source-supported-adaptation"
+        },
+        {
+          "adaptationId": "adp:000039",
+          "legacyId": "films:pet-sematary-2019",
+          "verification": "provisional",
+          "category": "provisional-adaptation"
+        },
+        {
+          "adaptationId": "adp:000095",
+          "legacyId": "films:pet-sematary-bloodlines-2023",
+          "verification": "source-supported",
+          "category": "source-supported-adaptation"
+        }
+      ],
+      "meaning": "Shared registered literary-source candidates; distinct productions, not an inferred sequel/remake or continuity claim."
+    },
+    {
+      "workId": "wrk:000013",
+      "versions": [
+        {
+          "adaptationId": "adp:000041",
+          "legacyId": "films:the-running-man-1987",
+          "verification": "unconfirmed",
+          "category": "unconfirmed-literary-source"
+        },
+        {
+          "adaptationId": "adp:000042",
+          "legacyId": "films:the-running-man-2025",
+          "verification": "unconfirmed",
+          "category": "unconfirmed-literary-source"
+        }
+      ],
+      "meaning": "Shared registered literary-source candidates; distinct productions, not an inferred sequel/remake or continuity claim."
+    },
+    {
+      "workId": "wrk:000004",
+      "versions": [
+        {
+          "adaptationId": "adp:000043",
+          "legacyId": "films:salem-s-lot-2024",
+          "verification": "unconfirmed",
+          "category": "unconfirmed-literary-source"
+        },
+        {
+          "adaptationId": "adp:000068",
+          "legacyId": "films:salem-s-lot-1979",
+          "verification": "unconfirmed",
+          "category": "unconfirmed-literary-source"
+        },
+        {
+          "adaptationId": "adp:000069",
+          "legacyId": "films:salem-s-lot-2004",
+          "verification": "unconfirmed",
+          "category": "unconfirmed-literary-source"
+        }
+      ],
+      "meaning": "Shared registered literary-source candidates; distinct productions, not an inferred sequel/remake or continuity claim."
+    },
+    {
+      "workId": "wrk:000005",
+      "versions": [
+        {
+          "adaptationId": "adp:000046",
+          "legacyId": "films:the-shining-1980",
+          "verification": "unconfirmed",
+          "category": "unconfirmed-literary-source"
+        },
+        {
+          "adaptationId": "adp:000070",
+          "legacyId": "films:the-shining-1997",
+          "verification": "unconfirmed",
+          "category": "unconfirmed-literary-source"
+        }
+      ],
+      "meaning": "Shared registered literary-source candidates; distinct productions, not an inferred sequel/remake or continuity claim."
+    },
+    {
+      "workId": "wrk:000007",
+      "versions": [
+        {
+          "adaptationId": "adp:000072",
+          "legacyId": "films:the-stand-1994",
+          "verification": "unconfirmed",
+          "category": "unconfirmed-literary-source"
+        },
+        {
+          "adaptationId": "adp:000073",
+          "legacyId": "films:the-stand-2020",
+          "verification": "unconfirmed",
+          "category": "unconfirmed-literary-source"
+        }
+      ],
+      "meaning": "Shared registered literary-source candidates; distinct productions, not an inferred sequel/remake or continuity claim."
+    }
+  ]
+}

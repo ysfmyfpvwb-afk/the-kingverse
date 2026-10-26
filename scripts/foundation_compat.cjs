@@ -25,6 +25,7 @@ function resolveAlias(bundle, input) {
   if (!alias.alias.startsWith(view+':')) return null;
   if (view==='books'&&!['work','collection'].includes(alias.target.type))return null;
   if (view==='stories'&&alias.target.type!=='work')return null;
+  if (view==='films'&&alias.target.type!=='adaptation')return null;
   return {target: alias.target, state: {view, q: params.get('q') || '', filter: params.get('filter') || '', sort: params.get('sort') || '', language: ['en','nl'].includes(url.searchParams.get('lang')) ? url.searchParams.get('lang') : null}};
 }
 function projectLegacyRecord(bundle, legacyWorkId) {

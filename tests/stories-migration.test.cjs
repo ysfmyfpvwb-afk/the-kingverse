@@ -50,7 +50,7 @@ test('All named authors and scoped roles survive without duplicate shared credit
   for(const a of s.authors){const person=bundle.people.find(p=>p.name===a.name);assert.ok(person);const credit=credits.find(c=>c.personId===person.id);assert.ok(credit);assert.equal(credit.role,a.role);assert.equal(credit.creditedAs,a.creditedAs||null);}
  }
  assert.equal(bundle.people.filter(p=>p.name==='Joe Hill').length,1);assert.ok(!bundle.people.some(p=>p.name==='Richard Bachman'));
- assert.equal(bundle.credits.length,272);
+ assert.equal(bundle.credits.filter(c=>c.subject.type!=='adaptation').length,272);
 });
 test('150 supported pairs and five uncertain pairs retain field evidence and independent-confirmation limits',()=>{
  const {bundle}=fresh(),decisions=read('data/migration/batch-02-decisions.json');

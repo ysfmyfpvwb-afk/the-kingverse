@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "scope": "shadow-publications-batch-03",
-  "baselineCommit": "82edfb3f865256e591c530e25ed2d774b752f45c",
+  "scope": "shadow-screen-batch-04",
+  "baselineCommit": "aede96a374a263f91357df50eadb0a5ef9a9e9e2",
   "migratedLegacyWorkIds": [
     "work:carrie",
     "work:salem-s-lot",
@@ -270,9 +270,9 @@
     "about.js": "25f02fe0094dfdf71590c562153e12fb966543fdba713ee77d71d69e9b4f1270"
   },
   "notes": [
-    "Cumulative identity, credit and membership projection, plus inherited publication observations, 154 edition examples and edition-bound cover metadata.",
-    "Source dates do not certify first publication; edition examples do not certify first printings.",
-    "Cover rights and delivery are governed separately by data/migration/cover-provenance.json; zero images approved for new display.",
-    "No adaptation or Tower migration, no Explorer/runtime switch, no worldwide completeness claim."
+    "Cumulative Batches 01–04. All 96 inherited screen identities; no worldwide filmography completeness claim.",
+    "Confirmed adaptation relations are distinct from unconfirmed legacy candidates and collection context.",
+    "96 poster policy decisions; zero new images or numeric ratings approved.",
+    "Existing site, Explorer, earlier native records and literary/Tower relations unchanged; stop before Batch 05."
   ]
 }

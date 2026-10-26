@@ -1,0 +1,645 @@
+{
+  "batch": "04",
+  "checked": "2026-10-26",
+  "method": "Targeted public primary-source reading through web tools; selected factual fields only. No synopses, ratings or image files collected. Archived legacy evidence remains separately scoped.",
+  "sources": {
+    "universal84": {
+      "url": "https://www.universalpicturesathome.com/movies/firestarter-1984?page=1",
+      "observedAt": "2026-10-26",
+      "access": "public-page-or-indexed-primary-extract",
+      "fields": [
+        "1984 film; Mark L. Lester; based on Stephen King novel."
+      ],
+      "textPolicy": "Own factual notes only; no source synopsis copied."
+    },
+    "afi84": {
+      "url": "https://catalog.afi.com/Catalog/MovieDetails/57081",
+      "observedAt": "2026-10-26",
+      "access": "public-page-or-indexed-primary-extract",
+      "fields": [
+        "Firestarter 1984; novel source; US; English; May 11 US release distinct from May 9 premiere."
+      ],
+      "textPolicy": "Own factual notes only; no source synopsis copied."
+    },
+    "universal22": {
+      "url": "https://www.universalpicturesathome.com/movies/firestarter-2022",
+      "observedAt": "2026-10-26",
+      "access": "public-page-or-indexed-primary-extract",
+      "fields": [
+        "2022 film; Keith Thomas; distinct production from 1984."
+      ],
+      "textPolicy": "Own factual notes only; no source synopsis copied."
+    },
+    "king22": {
+      "url": "https://stephenking.com/works/movie/firestarter.html",
+      "observedAt": "2026-10-26",
+      "access": "public-page-or-indexed-primary-extract",
+      "fields": [
+        "2022 record, Keith Thomas and Scott Teems; novel credit. Not evidence for 1984 credits/poster."
+      ],
+      "textPolicy": "Own factual notes only; no source synopsis copied."
+    },
+    "mercy": {
+      "url": "https://www.universalpicturesathome.com/movies/mercy",
+      "observedAt": "2026-10-26",
+      "access": "public-page-or-indexed-primary-extract",
+      "fields": [
+        "Release Year 2014; Peter Cornwell."
+      ],
+      "textPolicy": "Own factual notes only; no source synopsis copied."
+    },
+    "king-mercy": {
+      "url": "https://stephenking.com/works/movie/mercy.html",
+      "observedAt": "2026-10-26",
+      "access": "public-page-or-indexed-primary-extract",
+      "fields": [
+        "Names Gramma as source; 2012 header and pre-production wording are inconsistent with distributor release."
+      ],
+      "textPolicy": "Own factual notes only; no source synopsis copied."
+    },
+    "mercy-news": {
+      "url": "https://stephenking.com/news/gramma-headed-to-theaters-337.html",
+      "observedAt": "2026-10-26",
+      "access": "public-page-or-indexed-primary-extract",
+      "fields": [
+        "December 14, 2012 is the production announcement for Mercy / Gramma."
+      ],
+      "textPolicy": "Own factual notes only; no source synopsis copied."
+    },
+    "creepshow": {
+      "url": "https://stephenking.com/works/movie/creepshow.html",
+      "observedAt": "2026-10-26",
+      "access": "public-page-or-indexed-primary-extract",
+      "fields": [
+        "Original screenplay anthology of five parts; related short-story entries do not automatically prove adaptation direction."
+      ],
+      "textPolicy": "Own factual notes only; no source synopsis copied."
+    },
+    "marriage": {
+      "url": "https://stephenking.com/works/movie/a-good-marriage.html",
+      "observedAt": "2026-10-26",
+      "access": "public-page-or-indexed-primary-extract",
+      "fields": [
+        "Film adapts the short story collected in Full Dark, No Stars; Stephen King screenplay; Peter Askin director."
+      ],
+      "textPolicy": "Own factual notes only; no source synopsis copied."
+    },
+    "hearts": {
+      "url": "https://stephenking.com/works/movie/hearts-in-atlantis.html",
+      "observedAt": "2026-10-26",
+      "access": "public-page-or-indexed-primary-extract",
+      "fields": [
+        "Film primarily adapts Low Men in Yellow Coats; other listed links do not certify equal source scope."
+      ],
+      "textPolicy": "Own factual notes only; no source synopsis copied."
+    },
+    "cats-eye": {
+      "url": "https://stephenking.com/works/movie/cats-eye.html",
+      "observedAt": "2026-10-26",
+      "access": "public-page-or-indexed-primary-extract",
+      "fields": [
+        "Anthology includes Quitters, Inc. and The Ledge plus an original segment."
+      ],
+      "textPolicy": "Own factual notes only; no source synopsis copied."
+    },
+    "afi-cats-eye": {
+      "url": "https://catalog.afi.com/Film/57356-STEPHEN-KINGS-CATS-EYE?cxt=filmography",
+      "observedAt": "2026-10-26",
+      "access": "public-page-or-indexed-primary-extract",
+      "fields": [
+        "Literary source lists Quitters Inc. and The Ledge; production notes describe their incorporation."
+      ],
+      "textPolicy": "Own factual notes only; no source synopsis copied."
+    },
+    "paramount19": {
+      "url": "https://www.paramountpictures.com/movies/pet-sematary-2019",
+      "observedAt": "2026-10-26",
+      "access": "indexed-only",
+      "fields": [
+        "Based on novel by Stephen King; Kevin Kolsch / Dennis Widmyer; page date June 25, 2019 is not assumed theatrical premiere."
+      ],
+      "textPolicy": "Own factual notes only; no source synopsis copied.",
+      "accessNote": "Direct old studio URL redirects to generic Paramount homepage; indexed factual metadata retained as provisional only."
+    },
+    "paramount89": {
+      "url": "https://www.paramountpictures.com/movies/pet-sematary",
+      "observedAt": "2026-10-26",
+      "access": "indexed-only",
+      "fields": [
+        "1989 version, Mary Lambert; Based on Novel By Stephen King."
+      ],
+      "textPolicy": "Own factual notes only; no source synopsis copied.",
+      "accessNote": "Direct old studio URL redirects to generic Paramount homepage; indexed factual metadata retained as provisional only."
+    },
+    "bloodlines": {
+      "url": "https://paramountglobalcontent.com/title/pet-sematary-bloodlines-1969",
+      "observedAt": "2026-10-26",
+      "access": "public-page-or-indexed-primary-extract",
+      "fields": [
+        "Premiere October 6, 2023."
+      ],
+      "textPolicy": "Own factual notes only; no source synopsis copied."
+    },
+    "bloodlines-press": {
+      "url": "https://www.paramountpressexpress.com/paramount-plus/shows/pet-sematary-bloodlines/releases/",
+      "observedAt": "2026-10-26",
+      "access": "blocked",
+      "fields": [
+        "Film based on a chapter of Pet Sematary; director Lindsey Anderson Beer; 2023 release."
+      ],
+      "textPolicy": "Own factual notes only; no source synopsis copied.",
+      "accessNote": "Direct open redirected to geographic location-not-allowed. Indexed headline retained as discovery only; not used to certify claims. No bypass."
+    },
+    "bloodlines-prequel": {
+      "url": "https://www.youtube.com/watch?v=FNMdQxqnKJY",
+      "observedAt": "2026-10-26",
+      "access": "indexed-only",
+      "fields": [
+        "Official Paramount+ Global UK trailer description explicitly identifies prequel to the 2019 film; UK date October 7 differs by territory."
+      ],
+      "textPolicy": "Own factual notes only; no source synopsis copied.",
+      "accessNote": "Official video metadata appeared in search, but direct page fetch failed. No bypass; continuity claim remains provisional."
+    },
+    "demilo": {
+      "url": "https://www.demilofilm.com/works/carrie",
+      "observedAt": "2026-10-26",
+      "access": "public-page-or-indexed-primary-extract",
+      "fields": [
+        "2013 film; based on Carrie by Stephen King; Kimberly Peirce; screenplay Lawrence D. Cohen and Roberto Aguirre-Sacasa; October 18, 2013."
+      ],
+      "textPolicy": "Own factual notes only; no source synopsis copied."
+    },
+    "amazon": {
+      "url": "https://www.aboutamazon.com/news/entertainment/carrie-stephen-king-mike-flanagan-prime-video",
+      "observedAt": "2026-10-26",
+      "access": "public-page-or-indexed-primary-extract",
+      "fields": [
+        "Series based on novel; Season 1 eight episodes available; Season 2 renewed in October 22 update; no Season 2 release date.",
+        "Mike Flanagan showrunner/writer/director; Stephen King executive producer; 1976 film identified as adaptation."
+      ],
+      "textPolicy": "Own factual notes only; no source synopsis copied."
+    },
+    "king-carrie": {
+      "url": "https://stephenking.com/works/television/carrie.html",
+      "observedAt": "2026-10-26",
+      "access": "public-page-or-indexed-primary-extract",
+      "fields": [
+        "October 7, 2026 release; episode director scopes: Flanagan 101/102/107/108, Siegel 103, Carolyn 104, Sedgwick 105, Kamata 106."
+      ],
+      "textPolicy": "Own factual notes only; no source synopsis copied."
+    },
+    "pony": {
+      "url": "https://stephenking.com/works/movie/my-pretty-pony.html",
+      "observedAt": "2026-10-26",
+      "access": "public-page-or-indexed-primary-extract",
+      "fields": [
+        "Header date April 6, 2017; body says shooting planned. Novel/story adaptation identified, but release completion/type needs verification."
+      ],
+      "textPolicy": "Own factual notes only; no source synopsis copied."
+    },
+    "bloodlines-interview": {
+      "url": "https://rue-morgue.com/exclusive-interview-director-co-writer-lindsey-anderson-beer-digs-into-pet-sematary-bloodlines/",
+      "observedAt": "2026-10-26",
+      "access": "public-page",
+      "fields": [
+        "Accessible primary interview with director/co-writer Lindsey Anderson Beer.",
+        "Director explains the screenplay expands a chapter of the novel; direct literary relationship supported.",
+        "The interview distinguishes the novel and earlier versions; exact 2019-screen continuity is not certified here."
+      ],
+      "textPolicy": "Own factual notes only; no plot or interview quotations copied."
+    },
+    "afi89": {
+      "url": "https://catalog.afi.com/Catalog/moviedetails/58225",
+      "observedAt": "2026-10-26",
+      "access": "public-page",
+      "fields": [
+        "Accessible AFI primary record identifies the 1989 film as based on the novel and credits Mary Lambert."
+      ],
+      "textPolicy": "Own factual notes only; no synopsis copied."
+    }
+  },
+  "records": {
+    "films:firestarter-1984": {
+      "sources": [
+        "universal84",
+        "afi84"
+      ],
+      "country": [
+        "US"
+      ],
+      "languages": [
+        "en"
+      ],
+      "credits": [
+        [
+          "Mark L. Lester",
+          "director",
+          "whole-film",
+          "universal84"
+        ]
+      ],
+      "note": "Shared legacy URL resolves to 2022; obtain 1984 evidence separately. No 2022 poster transferred."
+    },
+    "films:firestarter-2022": {
+      "sources": [
+        "universal22",
+        "king22"
+      ],
+      "credits": [
+        [
+          "Keith Thomas",
+          "director",
+          "whole-film",
+          "universal22"
+        ]
+      ]
+    },
+    "films:mercy-2012": {
+      "sources": [
+        "mercy",
+        "king-mercy",
+        "mercy-news"
+      ],
+      "releaseYear": 2014,
+      "releaseEvents": [
+        {
+          "value": "2014",
+          "precision": "year",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "credits": [
+        [
+          "Peter Cornwell",
+          "director",
+          "whole-film",
+          "mercy"
+        ]
+      ],
+      "note": "2012-12-14 is an announcement, not a confirmed release; use distributor year 2014 without inventing a day."
+    },
+    "films:creepshow-1982": {
+      "sources": [
+        "creepshow"
+      ],
+      "originalScreenplay": true,
+      "note": "Do not turn five original screenplay segments into six proven adaptations; Weeds remains a separately flagged candidate."
+    },
+    "films:a-good-marriage-2014": {
+      "sources": [
+        "marriage"
+      ],
+      "credits": [
+        [
+          "Peter Askin",
+          "director",
+          "whole-film",
+          "marriage"
+        ],
+        [
+          "Stephen King",
+          "screenwriter",
+          "whole-film",
+          "marriage"
+        ]
+      ]
+    },
+    "films:hearts-in-atlantis-2001": {
+      "sources": [
+        "hearts"
+      ]
+    },
+    "films:pet-sematary-2019": {
+      "sources": [
+        "paramount19"
+      ],
+      "credits": [
+        [
+          "Kevin Kolsch",
+          "director",
+          "whole-film",
+          "paramount19"
+        ],
+        [
+          "Dennis Widmyer",
+          "director",
+          "whole-film",
+          "paramount19"
+        ]
+      ],
+      "note": "Literal legacy director string has replacement characters; new names transcribed from studio metadata, not auto-corrected."
+    },
+    "films:pet-sematary-1989": {
+      "sources": [
+        "paramount89",
+        "afi89"
+      ],
+      "credits": [
+        [
+          "Mary Lambert",
+          "director",
+          "whole-film",
+          "afi89"
+        ]
+      ]
+    },
+    "films:pet-sematary-bloodlines-2023": {
+      "sources": [
+        "bloodlines",
+        "bloodlines-press",
+        "bloodlines-prequel",
+        "bloodlines-interview"
+      ],
+      "releaseYear": 2023,
+      "releaseEvents": [
+        {
+          "value": "2023-10-06",
+          "precision": "day",
+          "meaning": "source-reported-release",
+          "territory": "US"
+        }
+      ],
+      "credits": [
+        [
+          "Lindsey Anderson Beer",
+          "director",
+          "whole-film",
+          "bloodlines-interview"
+        ]
+      ]
+    },
+    "films:carrie-2013": {
+      "sources": [
+        "demilo"
+      ],
+      "credits": [
+        [
+          "Kimberly Peirce",
+          "director",
+          "whole-film",
+          "demilo"
+        ],
+        [
+          "Lawrence D. Cohen",
+          "screenwriter",
+          "whole-film",
+          "demilo"
+        ],
+        [
+          "Roberto Aguirre-Sacasa",
+          "screenwriter",
+          "whole-film",
+          "demilo"
+        ]
+      ]
+    },
+    "films:carrie-2026": {
+      "sources": [
+        "amazon",
+        "king-carrie"
+      ],
+      "productionUnits": [
+        {
+          "kind": "season",
+          "number": 1,
+          "episodeCount": 8,
+          "status": "released",
+          "asOf": "2026-10-26",
+          "releaseDate": "2026-10-07",
+          "source": "amazon"
+        },
+        {
+          "kind": "season",
+          "number": 2,
+          "episodeCount": null,
+          "status": "announced",
+          "asOf": "2026-10-26",
+          "releaseDate": null,
+          "source": "amazon"
+        }
+      ],
+      "credits": [
+        [
+          "Mike Flanagan",
+          "showrunner",
+          "season-1",
+          "amazon"
+        ],
+        [
+          "Mike Flanagan",
+          "director",
+          "season-1 episodes 101, 102, 107, 108",
+          "king-carrie"
+        ],
+        [
+          "Kate Siegel",
+          "director",
+          "season-1 episode 103",
+          "king-carrie"
+        ],
+        [
+          "Axelle Carolyn",
+          "director",
+          "season-1 episode 104",
+          "king-carrie"
+        ],
+        [
+          "Kyra Sedgwick",
+          "director",
+          "season-1 episode 105",
+          "king-carrie"
+        ],
+        [
+          "Hiromi Kamata",
+          "director",
+          "season-1 episode 106",
+          "king-carrie"
+        ],
+        [
+          "Stephen King",
+          "producer",
+          "executive producer; season-1",
+          "amazon"
+        ]
+      ]
+    },
+    "films:my-pretty-pony-2017": {
+      "sources": [
+        "pony"
+      ],
+      "status": "unknown",
+      "releaseYear": null,
+      "releaseEvents": [],
+      "note": "Conflicting header/body: preserve dated source observation, but do not treat an announcement as completed release or invent short-film identity."
+    }
+  },
+  "relationships": [
+    {
+      "legacyFilmId": "films:firestarter-1984",
+      "legacyWorkId": "work:firestarter",
+      "predicate": "adaptation_of",
+      "source": "universal84",
+      "verification": "source-supported",
+      "certainty": "explicit",
+      "note": "Explicit primary evidence for this work relationship; no plot details."
+    },
+    {
+      "legacyFilmId": "films:firestarter-2022",
+      "legacyWorkId": "work:firestarter",
+      "predicate": "adaptation_of",
+      "source": "king22",
+      "verification": "source-supported",
+      "certainty": "explicit",
+      "note": "Explicit primary evidence for this work relationship; no plot details."
+    },
+    {
+      "legacyFilmId": "films:mercy-2012",
+      "legacyWorkId": "work:gramma",
+      "predicate": "adaptation_of",
+      "source": "king-mercy",
+      "verification": "source-supported",
+      "certainty": "explicit",
+      "note": "Explicit primary evidence for this work relationship; no plot details."
+    },
+    {
+      "legacyFilmId": "films:a-good-marriage-2014",
+      "legacyWorkId": "work:a-good-marriage",
+      "predicate": "adaptation_of",
+      "source": "marriage",
+      "verification": "source-supported",
+      "certainty": "explicit",
+      "note": "Explicit primary evidence for this work relationship; no plot details."
+    },
+    {
+      "legacyFilmId": "films:hearts-in-atlantis-2001",
+      "legacyWorkId": "work:low-men-in-yellow-coats",
+      "predicate": "adaptation_of",
+      "source": "hearts",
+      "verification": "source-supported",
+      "certainty": "explicit",
+      "note": "Explicit primary evidence for this work relationship; no plot details."
+    },
+    {
+      "legacyFilmId": "films:cat-s-eye-1985",
+      "legacyWorkId": "work:quitters-inc",
+      "predicate": "adaptation_of",
+      "source": "afi-cats-eye",
+      "verification": "source-supported",
+      "certainty": "explicit",
+      "note": "Explicit primary evidence for this work relationship; no plot details."
+    },
+    {
+      "legacyFilmId": "films:cat-s-eye-1985",
+      "legacyWorkId": "work:the-ledge",
+      "predicate": "adaptation_of",
+      "source": "afi-cats-eye",
+      "verification": "source-supported",
+      "certainty": "explicit",
+      "note": "Explicit primary evidence for this work relationship; no plot details."
+    },
+    {
+      "legacyFilmId": "films:pet-sematary-1989",
+      "legacyWorkId": "work:pet-sematary",
+      "predicate": "adaptation_of",
+      "source": "afi89",
+      "verification": "source-supported",
+      "certainty": "explicit",
+      "note": "Explicit primary evidence for this work relationship; no plot details."
+    },
+    {
+      "legacyFilmId": "films:pet-sematary-2019",
+      "legacyWorkId": "work:pet-sematary",
+      "predicate": "adaptation_of",
+      "source": "paramount19",
+      "verification": "provisional",
+      "certainty": "strongly-implied",
+      "note": "Explicit studio source metadata is indexed, but its old page redirects to a generic homepage; relation remains provisional pending accessible scoped evidence."
+    },
+    {
+      "legacyFilmId": "films:pet-sematary-bloodlines-2023",
+      "legacyWorkId": "work:pet-sematary",
+      "predicate": "adaptation_of",
+      "source": "bloodlines-interview",
+      "verification": "source-supported",
+      "certainty": "explicit",
+      "note": "Explicit primary evidence for this work relationship; no plot details."
+    },
+    {
+      "legacyFilmId": "films:carrie-1976",
+      "legacyWorkId": "work:carrie",
+      "predicate": "adaptation_of",
+      "source": "amazon",
+      "verification": "source-supported",
+      "certainty": "explicit",
+      "note": "Explicit primary evidence for this work relationship; no plot details."
+    },
+    {
+      "legacyFilmId": "films:carrie-2013",
+      "legacyWorkId": "work:carrie",
+      "predicate": "adaptation_of",
+      "source": "demilo",
+      "verification": "source-supported",
+      "certainty": "explicit",
+      "note": "Explicit primary evidence for this work relationship; no plot details."
+    },
+    {
+      "legacyFilmId": "films:carrie-2026",
+      "legacyWorkId": "work:carrie",
+      "predicate": "adaptation_of",
+      "source": "amazon",
+      "verification": "source-supported",
+      "certainty": "explicit",
+      "note": "Explicit primary evidence for this work relationship; no plot details."
+    },
+    {
+      "legacyFilmId": "films:my-pretty-pony-2017",
+      "legacyWorkId": "work:my-pretty-pony",
+      "predicate": "adaptation_of",
+      "source": "pony",
+      "verification": "source-supported",
+      "certainty": "explicit",
+      "note": "Explicit primary evidence for this work relationship; no plot details."
+    }
+  ],
+  "screenRelationships": [
+    {
+      "from": "films:pet-sematary-bloodlines-2023",
+      "to": "films:pet-sematary-2019",
+      "predicate": "prequel_to",
+      "source": "bloodlines-prequel",
+      "note": "Official trailer metadata names the 2019 film, but its page could not be fetched. Accessible distributor and filmmaker sources establish a prequel/novel relationship without certifying this exact screen continuity. Target remains provisional.",
+      "verification": "provisional",
+      "certainty": "strongly-implied"
+    }
+  ],
+  "limits": [
+    "No complete worldwide filmography audit.",
+    "A related-work hyperlink is not proof of adaptation. Collection context is not an additional adapted work.",
+    "Four old TBD projects remain unknown; no current cancellation or release is inferred.",
+    "Maker observations retain literal credits; unresolved personal identities are not automatically merged.",
+    "No poster rights established and no poster network probes performed.",
+    "Paramount Press Express is geographically blocked and official trailer page fetch failed; indexed metadata does not independently certify continuity.",
+    "Old Paramount 1989/2019 URLs redirect to homepage. AFI separately supports 1989; indexed-only 2019 relation/credits remain provisional."
+  ],
+  "archivedRelationships": [
+    {
+      "legacyFilmId": "films:haven-2010",
+      "legacyWorkId": "work:the-colorado-kid",
+      "predicate": "inspired_by",
+      "url": "https://www.awn.com/news/syfys-haven-renewed-season-two",
+      "verification": "source-supported",
+      "certainty": "explicit",
+      "locator": "data/reference/screen-1.5.1.json Haven|2010 sourceWorks; reproduced Syfy press release; loose inspiration only."
+    },
+    {
+      "legacyFilmId": "films:the-dead-zone-2002",
+      "legacyWorkId": "work:the-dead-zone",
+      "predicate": "inspired_by",
+      "url": "https://tv.apple.com/us/show/the-dead-zone/umc.cmc.5syjc2wjt8qygwav1wvrb8hh3",
+      "verification": "provisional",
+      "certainty": "strongly-implied",
+      "locator": "Existing character-based novel relationship; degree/source requires further primary wording review."
+    }
+  ]
+}

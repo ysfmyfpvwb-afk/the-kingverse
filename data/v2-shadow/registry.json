@@ -25828,6 +25828,9382 @@
     {
       "id": "clm:004865",
       "type": "claim"
+    },
+    {
+      "id": "src:000339",
+      "type": "source"
+    },
+    {
+      "id": "src:000340",
+      "type": "source"
+    },
+    {
+      "id": "src:000341",
+      "type": "source"
+    },
+    {
+      "id": "src:000342",
+      "type": "source"
+    },
+    {
+      "id": "src:000343",
+      "type": "source"
+    },
+    {
+      "id": "src:000344",
+      "type": "source"
+    },
+    {
+      "id": "src:000345",
+      "type": "source"
+    },
+    {
+      "id": "src:000346",
+      "type": "source"
+    },
+    {
+      "id": "src:000347",
+      "type": "source"
+    },
+    {
+      "id": "src:000348",
+      "type": "source"
+    },
+    {
+      "id": "src:000349",
+      "type": "source"
+    },
+    {
+      "id": "src:000350",
+      "type": "source"
+    },
+    {
+      "id": "src:000351",
+      "type": "source"
+    },
+    {
+      "id": "src:000352",
+      "type": "source"
+    },
+    {
+      "id": "src:000353",
+      "type": "source"
+    },
+    {
+      "id": "src:000354",
+      "type": "source"
+    },
+    {
+      "id": "src:000355",
+      "type": "source"
+    },
+    {
+      "id": "src:000356",
+      "type": "source"
+    },
+    {
+      "id": "src:000357",
+      "type": "source"
+    },
+    {
+      "id": "src:000358",
+      "type": "source"
+    },
+    {
+      "id": "src:000359",
+      "type": "source"
+    },
+    {
+      "id": "src:000360",
+      "type": "source"
+    },
+    {
+      "id": "src:000361",
+      "type": "source"
+    },
+    {
+      "id": "src:000362",
+      "type": "source"
+    },
+    {
+      "id": "src:000363",
+      "type": "source"
+    },
+    {
+      "id": "src:000364",
+      "type": "source"
+    },
+    {
+      "id": "src:000365",
+      "type": "source"
+    },
+    {
+      "id": "src:000366",
+      "type": "source"
+    },
+    {
+      "id": "src:000367",
+      "type": "source"
+    },
+    {
+      "id": "src:000368",
+      "type": "source"
+    },
+    {
+      "id": "src:000369",
+      "type": "source"
+    },
+    {
+      "id": "src:000370",
+      "type": "source"
+    },
+    {
+      "id": "src:000371",
+      "type": "source"
+    },
+    {
+      "id": "src:000372",
+      "type": "source"
+    },
+    {
+      "id": "src:000373",
+      "type": "source"
+    },
+    {
+      "id": "src:000374",
+      "type": "source"
+    },
+    {
+      "id": "src:000375",
+      "type": "source"
+    },
+    {
+      "id": "src:000376",
+      "type": "source"
+    },
+    {
+      "id": "src:000377",
+      "type": "source"
+    },
+    {
+      "id": "src:000378",
+      "type": "source"
+    },
+    {
+      "id": "src:000379",
+      "type": "source"
+    },
+    {
+      "id": "src:000380",
+      "type": "source"
+    },
+    {
+      "id": "src:000381",
+      "type": "source"
+    },
+    {
+      "id": "src:000382",
+      "type": "source"
+    },
+    {
+      "id": "src:000383",
+      "type": "source"
+    },
+    {
+      "id": "src:000384",
+      "type": "source"
+    },
+    {
+      "id": "src:000385",
+      "type": "source"
+    },
+    {
+      "id": "src:000386",
+      "type": "source"
+    },
+    {
+      "id": "src:000387",
+      "type": "source"
+    },
+    {
+      "id": "src:000388",
+      "type": "source"
+    },
+    {
+      "id": "src:000389",
+      "type": "source"
+    },
+    {
+      "id": "src:000390",
+      "type": "source"
+    },
+    {
+      "id": "src:000391",
+      "type": "source"
+    },
+    {
+      "id": "src:000392",
+      "type": "source"
+    },
+    {
+      "id": "src:000393",
+      "type": "source"
+    },
+    {
+      "id": "src:000394",
+      "type": "source"
+    },
+    {
+      "id": "src:000395",
+      "type": "source"
+    },
+    {
+      "id": "src:000396",
+      "type": "source"
+    },
+    {
+      "id": "src:000397",
+      "type": "source"
+    },
+    {
+      "id": "src:000398",
+      "type": "source"
+    },
+    {
+      "id": "src:000399",
+      "type": "source"
+    },
+    {
+      "id": "src:000400",
+      "type": "source"
+    },
+    {
+      "id": "src:000401",
+      "type": "source"
+    },
+    {
+      "id": "src:000402",
+      "type": "source"
+    },
+    {
+      "id": "src:000403",
+      "type": "source"
+    },
+    {
+      "id": "src:000404",
+      "type": "source"
+    },
+    {
+      "id": "src:000405",
+      "type": "source"
+    },
+    {
+      "id": "src:000406",
+      "type": "source"
+    },
+    {
+      "id": "src:000407",
+      "type": "source"
+    },
+    {
+      "id": "src:000408",
+      "type": "source"
+    },
+    {
+      "id": "src:000409",
+      "type": "source"
+    },
+    {
+      "id": "src:000410",
+      "type": "source"
+    },
+    {
+      "id": "src:000411",
+      "type": "source"
+    },
+    {
+      "id": "src:000412",
+      "type": "source"
+    },
+    {
+      "id": "src:000413",
+      "type": "source"
+    },
+    {
+      "id": "src:000414",
+      "type": "source"
+    },
+    {
+      "id": "src:000415",
+      "type": "source"
+    },
+    {
+      "id": "src:000416",
+      "type": "source"
+    },
+    {
+      "id": "src:000417",
+      "type": "source"
+    },
+    {
+      "id": "src:000418",
+      "type": "source"
+    },
+    {
+      "id": "src:000419",
+      "type": "source"
+    },
+    {
+      "id": "src:000420",
+      "type": "source"
+    },
+    {
+      "id": "src:000421",
+      "type": "source"
+    },
+    {
+      "id": "src:000422",
+      "type": "source"
+    },
+    {
+      "id": "src:000423",
+      "type": "source"
+    },
+    {
+      "id": "src:000424",
+      "type": "source"
+    },
+    {
+      "id": "src:000425",
+      "type": "source"
+    },
+    {
+      "id": "src:000426",
+      "type": "source"
+    },
+    {
+      "id": "src:000427",
+      "type": "source"
+    },
+    {
+      "id": "src:000428",
+      "type": "source"
+    },
+    {
+      "id": "src:000429",
+      "type": "source"
+    },
+    {
+      "id": "src:000430",
+      "type": "source"
+    },
+    {
+      "id": "src:000431",
+      "type": "source"
+    },
+    {
+      "id": "src:000432",
+      "type": "source"
+    },
+    {
+      "id": "src:000433",
+      "type": "source"
+    },
+    {
+      "id": "src:000434",
+      "type": "source"
+    },
+    {
+      "id": "src:000435",
+      "type": "source"
+    },
+    {
+      "id": "src:000436",
+      "type": "source"
+    },
+    {
+      "id": "src:000437",
+      "type": "source"
+    },
+    {
+      "id": "src:000438",
+      "type": "source"
+    },
+    {
+      "id": "src:000439",
+      "type": "source"
+    },
+    {
+      "id": "src:000440",
+      "type": "source"
+    },
+    {
+      "id": "src:000441",
+      "type": "source"
+    },
+    {
+      "id": "src:000442",
+      "type": "source"
+    },
+    {
+      "id": "src:000443",
+      "type": "source"
+    },
+    {
+      "id": "src:000444",
+      "type": "source"
+    },
+    {
+      "id": "src:000445",
+      "type": "source"
+    },
+    {
+      "id": "src:000446",
+      "type": "source"
+    },
+    {
+      "id": "src:000447",
+      "type": "source"
+    },
+    {
+      "id": "src:000448",
+      "type": "source"
+    },
+    {
+      "id": "src:000449",
+      "type": "source"
+    },
+    {
+      "id": "src:000450",
+      "type": "source"
+    },
+    {
+      "id": "src:000451",
+      "type": "source"
+    },
+    {
+      "id": "src:000452",
+      "type": "source"
+    },
+    {
+      "id": "src:000453",
+      "type": "source"
+    },
+    {
+      "id": "adp:000001",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:004866",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004867",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004868",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004869",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004870",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004871",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004872",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004873",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004874",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004875",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004876",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004877",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004878",
+      "type": "claim"
+    },
+    {
+      "id": "art:000153",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:004879",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004880",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004881",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004882",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004883",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004884",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004885",
+      "type": "claim"
+    },
+    {
+      "id": "per:000013",
+      "type": "person"
+    },
+    {
+      "id": "clm:004886",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000273",
+      "type": "credit"
+    },
+    {
+      "id": "clm:004887",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004888",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004889",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004890",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000274",
+      "type": "credit"
+    },
+    {
+      "id": "clm:004891",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004892",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004893",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004894",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000002",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:004895",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004896",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004897",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004898",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004899",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004900",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004901",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004902",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004903",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004904",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004905",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004906",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004907",
+      "type": "claim"
+    },
+    {
+      "id": "art:000154",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:004908",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004909",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004910",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004911",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004912",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004913",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004914",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000003",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:004915",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004916",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004917",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004918",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004919",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004920",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004921",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004922",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004923",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004924",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004925",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004926",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004927",
+      "type": "claim"
+    },
+    {
+      "id": "art:000155",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:004928",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004929",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004930",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004931",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004932",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004933",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004934",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000004",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:004935",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004936",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004937",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004938",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004939",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004940",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004941",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004942",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004943",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004944",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004945",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004946",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004947",
+      "type": "claim"
+    },
+    {
+      "id": "art:000156",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:004948",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004949",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004950",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004951",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004952",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004953",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004954",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000005",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:004955",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004956",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004957",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004958",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004959",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004960",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004961",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004962",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004963",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004964",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004965",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004966",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004967",
+      "type": "claim"
+    },
+    {
+      "id": "art:000157",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:004968",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004969",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004970",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004971",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004972",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004973",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004974",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000006",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:004975",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004976",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004977",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004978",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004979",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004980",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004981",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004982",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004983",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004984",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004985",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004986",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004987",
+      "type": "claim"
+    },
+    {
+      "id": "art:000158",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:004988",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004989",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004990",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004991",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004992",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004993",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004994",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000007",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:004995",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004996",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004997",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004998",
+      "type": "claim"
+    },
+    {
+      "id": "clm:004999",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005000",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005001",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005002",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005003",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005004",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005005",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005006",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005007",
+      "type": "claim"
+    },
+    {
+      "id": "art:000159",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:005008",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005009",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005010",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005011",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005012",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005013",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005014",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000008",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:005015",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005016",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005017",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005018",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005019",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005020",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005021",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005022",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005023",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005024",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005025",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005026",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005027",
+      "type": "claim"
+    },
+    {
+      "id": "art:000160",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:005028",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005029",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005030",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005031",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005032",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005033",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005034",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000009",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:005035",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005036",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005037",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005038",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005039",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005040",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005041",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005042",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005043",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005044",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005045",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005046",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005047",
+      "type": "claim"
+    },
+    {
+      "id": "art:000161",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:005048",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005049",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005050",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005051",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005052",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005053",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005054",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000010",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:005055",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005056",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005057",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005058",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005059",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005060",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005061",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005062",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005063",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005064",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005065",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005066",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005067",
+      "type": "claim"
+    },
+    {
+      "id": "art:000162",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:005068",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005069",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005070",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005071",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005072",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005073",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005074",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000011",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:005075",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005076",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005077",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005078",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005079",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005080",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005081",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005082",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005083",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005084",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005085",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005086",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005087",
+      "type": "claim"
+    },
+    {
+      "id": "art:000163",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:005088",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005089",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005090",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005091",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005092",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005093",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005094",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000012",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:005095",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005096",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005097",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005098",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005099",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005100",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005101",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005102",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005103",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005104",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005105",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005106",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005107",
+      "type": "claim"
+    },
+    {
+      "id": "art:000164",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:005108",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005109",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005110",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005111",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005112",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005113",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005114",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000013",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:005115",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005116",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005117",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005118",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005119",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005120",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005121",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005122",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005123",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005124",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005125",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005126",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005127",
+      "type": "claim"
+    },
+    {
+      "id": "art:000165",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:005128",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005129",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005130",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005131",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005132",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005133",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005134",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000014",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:005135",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005136",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005137",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005138",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005139",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005140",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005141",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005142",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005143",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005144",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005145",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005146",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005147",
+      "type": "claim"
+    },
+    {
+      "id": "art:000166",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:005148",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005149",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005150",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005151",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005152",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005153",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005154",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000015",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:005155",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005156",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005157",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005158",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005159",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005160",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005161",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005162",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005163",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005164",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005165",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005166",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005167",
+      "type": "claim"
+    },
+    {
+      "id": "art:000167",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:005168",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005169",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005170",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005171",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005172",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005173",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005174",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000016",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:005175",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005176",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005177",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005178",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005179",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005180",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005181",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005182",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005183",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005184",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005185",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005186",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005187",
+      "type": "claim"
+    },
+    {
+      "id": "art:000168",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:005188",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005189",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005190",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005191",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005192",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005193",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005194",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000017",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:005195",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005196",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005197",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005198",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005199",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005200",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005201",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005202",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005203",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005204",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005205",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005206",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005207",
+      "type": "claim"
+    },
+    {
+      "id": "art:000169",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:005208",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005209",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005210",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005211",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005212",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005213",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005214",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000018",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:005215",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005216",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005217",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005218",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005219",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005220",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005221",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005222",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005223",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005224",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005225",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005226",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005227",
+      "type": "claim"
+    },
+    {
+      "id": "art:000170",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:005228",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005229",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005230",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005231",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005232",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005233",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005234",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000019",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:005235",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005236",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005237",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005238",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005239",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005240",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005241",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005242",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005243",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005244",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005245",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005246",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005247",
+      "type": "claim"
+    },
+    {
+      "id": "per:000014",
+      "type": "person"
+    },
+    {
+      "id": "clm:005248",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000275",
+      "type": "credit"
+    },
+    {
+      "id": "clm:005249",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005250",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005251",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005252",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000020",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:005253",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005254",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005255",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005256",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005257",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005258",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005259",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005260",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005261",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005262",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005263",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005264",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005265",
+      "type": "claim"
+    },
+    {
+      "id": "art:000171",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:005266",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005267",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005268",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005269",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005270",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005271",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005272",
+      "type": "claim"
+    },
+    {
+      "id": "per:000015",
+      "type": "person"
+    },
+    {
+      "id": "clm:005273",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000276",
+      "type": "credit"
+    },
+    {
+      "id": "clm:005274",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005275",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005276",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005277",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000021",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:005278",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005279",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005280",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005281",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005282",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005283",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005284",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005285",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005286",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005287",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005288",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005289",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005290",
+      "type": "claim"
+    },
+    {
+      "id": "art:000172",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:005291",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005292",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005293",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005294",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005295",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005296",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005297",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000022",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:005298",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005299",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005300",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005301",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005302",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005303",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005304",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005305",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005306",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005307",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005308",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005309",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005310",
+      "type": "claim"
+    },
+    {
+      "id": "art:000173",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:005311",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005312",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005313",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005314",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005315",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005316",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005317",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000023",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:005318",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005319",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005320",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005321",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005322",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005323",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005324",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005325",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005326",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005327",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005328",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005329",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005330",
+      "type": "claim"
+    },
+    {
+      "id": "art:000174",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:005331",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005332",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005333",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005334",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005335",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005336",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005337",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000024",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:005338",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005339",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005340",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005341",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005342",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005343",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005344",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005345",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005346",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005347",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005348",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005349",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005350",
+      "type": "claim"
+    },
+    {
+      "id": "art:000175",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:005351",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005352",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005353",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005354",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005355",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005356",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005357",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000025",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:005358",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005359",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005360",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005361",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005362",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005363",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005364",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005365",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005366",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005367",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005368",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005369",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005370",
+      "type": "claim"
+    },
+    {
+      "id": "art:000176",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:005371",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005372",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005373",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005374",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005375",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005376",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005377",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000026",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:005378",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005379",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005380",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005381",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005382",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005383",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005384",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005385",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005386",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005387",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005388",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005389",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005390",
+      "type": "claim"
+    },
+    {
+      "id": "art:000177",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:005391",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005392",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005393",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005394",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005395",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005396",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005397",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000027",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:005398",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005399",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005400",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005401",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005402",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005403",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005404",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005405",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005406",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005407",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005408",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005409",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005410",
+      "type": "claim"
+    },
+    {
+      "id": "art:000178",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:005411",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005412",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005413",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005414",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005415",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005416",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005417",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000028",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:005418",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005419",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005420",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005421",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005422",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005423",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005424",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005425",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005426",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005427",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005428",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005429",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005430",
+      "type": "claim"
+    },
+    {
+      "id": "art:000179",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:005431",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005432",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005433",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005434",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005435",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005436",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005437",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000029",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:005438",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005439",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005440",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005441",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005442",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005443",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005444",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005445",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005446",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005447",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005448",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005449",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005450",
+      "type": "claim"
+    },
+    {
+      "id": "art:000180",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:005451",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005452",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005453",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005454",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005455",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005456",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005457",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000030",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:005458",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005459",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005460",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005461",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005462",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005463",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005464",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005465",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005466",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005467",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005468",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005469",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005470",
+      "type": "claim"
+    },
+    {
+      "id": "art:000181",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:005471",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005472",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005473",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005474",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005475",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005476",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005477",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000031",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:005478",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005479",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005480",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005481",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005482",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005483",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005484",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005485",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005486",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005487",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005488",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005489",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005490",
+      "type": "claim"
+    },
+    {
+      "id": "art:000182",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:005491",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005492",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005493",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005494",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005495",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005496",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005497",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000032",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:005498",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005499",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005500",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005501",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005502",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005503",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005504",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005505",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005506",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005507",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005508",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005509",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005510",
+      "type": "claim"
+    },
+    {
+      "id": "art:000183",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:005511",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005512",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005513",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005514",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005515",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005516",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005517",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000033",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:005518",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005519",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005520",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005521",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005522",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005523",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005524",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005525",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005526",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005527",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005528",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005529",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005530",
+      "type": "claim"
+    },
+    {
+      "id": "art:000184",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:005531",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005532",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005533",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005534",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005535",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005536",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005537",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000034",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:005538",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005539",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005540",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005541",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005542",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005543",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005544",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005545",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005546",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005547",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005548",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005549",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005550",
+      "type": "claim"
+    },
+    {
+      "id": "art:000185",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:005551",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005552",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005553",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005554",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005555",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005556",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005557",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000035",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:005558",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005559",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005560",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005561",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005562",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005563",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005564",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005565",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005566",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005567",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005568",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005569",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005570",
+      "type": "claim"
+    },
+    {
+      "id": "art:000186",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:005571",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005572",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005573",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005574",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005575",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005576",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005577",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000036",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:005578",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005579",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005580",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005581",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005582",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005583",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005584",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005585",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005586",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005587",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005588",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005589",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005590",
+      "type": "claim"
+    },
+    {
+      "id": "art:000187",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:005591",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005592",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005593",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005594",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005595",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005596",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005597",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000037",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:005598",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005599",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005600",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005601",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005602",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005603",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005604",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005605",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005606",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005607",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005608",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005609",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005610",
+      "type": "claim"
+    },
+    {
+      "id": "art:000188",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:005611",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005612",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005613",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005614",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005615",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005616",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005617",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000038",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:005618",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005619",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005620",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005621",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005622",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005623",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005624",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005625",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005626",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005627",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005628",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005629",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005630",
+      "type": "claim"
+    },
+    {
+      "id": "art:000189",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:005631",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005632",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005633",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005634",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005635",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005636",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005637",
+      "type": "claim"
+    },
+    {
+      "id": "per:000016",
+      "type": "person"
+    },
+    {
+      "id": "clm:005638",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000277",
+      "type": "credit"
+    },
+    {
+      "id": "clm:005639",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005640",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005641",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005642",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000039",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:005643",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005644",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005645",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005646",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005647",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005648",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005649",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005650",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005651",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005652",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005653",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005654",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005655",
+      "type": "claim"
+    },
+    {
+      "id": "art:000190",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:005656",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005657",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005658",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005659",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005660",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005661",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005662",
+      "type": "claim"
+    },
+    {
+      "id": "per:000017",
+      "type": "person"
+    },
+    {
+      "id": "clm:005663",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000278",
+      "type": "credit"
+    },
+    {
+      "id": "clm:005664",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005665",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005666",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005667",
+      "type": "claim"
+    },
+    {
+      "id": "per:000018",
+      "type": "person"
+    },
+    {
+      "id": "clm:005668",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000279",
+      "type": "credit"
+    },
+    {
+      "id": "clm:005669",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005670",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005671",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005672",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000040",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:005673",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005674",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005675",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005676",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005677",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005678",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005679",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005680",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005681",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005682",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005683",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005684",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005685",
+      "type": "claim"
+    },
+    {
+      "id": "art:000191",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:005686",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005687",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005688",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005689",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005690",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005691",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005692",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000041",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:005693",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005694",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005695",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005696",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005697",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005698",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005699",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005700",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005701",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005702",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005703",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005704",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005705",
+      "type": "claim"
+    },
+    {
+      "id": "art:000192",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:005706",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005707",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005708",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005709",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005710",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005711",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005712",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000042",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:005713",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005714",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005715",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005716",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005717",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005718",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005719",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005720",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005721",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005722",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005723",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005724",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005725",
+      "type": "claim"
+    },
+    {
+      "id": "art:000193",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:005726",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005727",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005728",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005729",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005730",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005731",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005732",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000043",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:005733",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005734",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005735",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005736",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005737",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005738",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005739",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005740",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005741",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005742",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005743",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005744",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005745",
+      "type": "claim"
+    },
+    {
+      "id": "art:000194",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:005746",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005747",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005748",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005749",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005750",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005751",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005752",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000044",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:005753",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005754",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005755",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005756",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005757",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005758",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005759",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005760",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005761",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005762",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005763",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005764",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005765",
+      "type": "claim"
+    },
+    {
+      "id": "art:000195",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:005766",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005767",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005768",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005769",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005770",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005771",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005772",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000045",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:005773",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005774",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005775",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005776",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005777",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005778",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005779",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005780",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005781",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005782",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005783",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005784",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005785",
+      "type": "claim"
+    },
+    {
+      "id": "art:000196",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:005786",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005787",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005788",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005789",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005790",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005791",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005792",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000046",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:005793",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005794",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005795",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005796",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005797",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005798",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005799",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005800",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005801",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005802",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005803",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005804",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005805",
+      "type": "claim"
+    },
+    {
+      "id": "art:000197",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:005806",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005807",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005808",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005809",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005810",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005811",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005812",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000047",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:005813",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005814",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005815",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005816",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005817",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005818",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005819",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005820",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005821",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005822",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005823",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005824",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005825",
+      "type": "claim"
+    },
+    {
+      "id": "art:000198",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:005826",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005827",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005828",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005829",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005830",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005831",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005832",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000048",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:005833",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005834",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005835",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005836",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005837",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005838",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005839",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005840",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005841",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005842",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005843",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005844",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005845",
+      "type": "claim"
+    },
+    {
+      "id": "art:000199",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:005846",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005847",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005848",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005849",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005850",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005851",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005852",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000049",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:005853",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005854",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005855",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005856",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005857",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005858",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005859",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005860",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005861",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005862",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005863",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005864",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005865",
+      "type": "claim"
+    },
+    {
+      "id": "art:000200",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:005866",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005867",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005868",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005869",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005870",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005871",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005872",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000050",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:005873",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005874",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005875",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005876",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005877",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005878",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005879",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005880",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005881",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005882",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005883",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005884",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005885",
+      "type": "claim"
+    },
+    {
+      "id": "art:000201",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:005886",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005887",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005888",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005889",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005890",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005891",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005892",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000051",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:005893",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005894",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005895",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005896",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005897",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005898",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005899",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005900",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005901",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005902",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005903",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005904",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005905",
+      "type": "claim"
+    },
+    {
+      "id": "art:000202",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:005906",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005907",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005908",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005909",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005910",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005911",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005912",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000052",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:005913",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005914",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005915",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005916",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005917",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005918",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005919",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005920",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005921",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005922",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005923",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005924",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005925",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000053",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:005926",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005927",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005928",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005929",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005930",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005931",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005932",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005933",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005934",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005935",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005936",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005937",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005938",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000054",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:005939",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005940",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005941",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005942",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005943",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005944",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005945",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005946",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005947",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005948",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005949",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005950",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005951",
+      "type": "claim"
+    },
+    {
+      "id": "art:000203",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:005952",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005953",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005954",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005955",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005956",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005957",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005958",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000055",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:005959",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005960",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005961",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005962",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005963",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005964",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005965",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005966",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005967",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005968",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005969",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005970",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005971",
+      "type": "claim"
+    },
+    {
+      "id": "art:000204",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:005972",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005973",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005974",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005975",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005976",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005977",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005978",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000056",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:005979",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005980",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005981",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005982",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005983",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005984",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005985",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005986",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005987",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005988",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005989",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005990",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005991",
+      "type": "claim"
+    },
+    {
+      "id": "art:000205",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:005992",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005993",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005994",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005995",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005996",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005997",
+      "type": "claim"
+    },
+    {
+      "id": "clm:005998",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000057",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:005999",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006000",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006001",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006002",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006003",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006004",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006005",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006006",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006007",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006008",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006009",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006010",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006011",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000058",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:006012",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006013",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006014",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006015",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006016",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006017",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006018",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006019",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006020",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006021",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006022",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006023",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006024",
+      "type": "claim"
+    },
+    {
+      "id": "art:000206",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:006025",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006026",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006027",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006028",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006029",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006030",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006031",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000059",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:006032",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006033",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006034",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006035",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006036",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006037",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006038",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006039",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006040",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006041",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006042",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006043",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006044",
+      "type": "claim"
+    },
+    {
+      "id": "art:000207",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:006045",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006046",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006047",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006048",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006049",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006050",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006051",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000060",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:006052",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006053",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006054",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006055",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006056",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006057",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006058",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006059",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006060",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006061",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006062",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006063",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006064",
+      "type": "claim"
+    },
+    {
+      "id": "art:000208",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:006065",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006066",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006067",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006068",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006069",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006070",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006071",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000061",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:006072",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006073",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006074",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006075",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006076",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006077",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006078",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006079",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006080",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006081",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006082",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006083",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006084",
+      "type": "claim"
+    },
+    {
+      "id": "art:000209",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:006085",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006086",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006087",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006088",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006089",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006090",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006091",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000062",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:006092",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006093",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006094",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006095",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006096",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006097",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006098",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006099",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006100",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006101",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006102",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006103",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006104",
+      "type": "claim"
+    },
+    {
+      "id": "art:000210",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:006105",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006106",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006107",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006108",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006109",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006110",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006111",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000063",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:006112",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006113",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006114",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006115",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006116",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006117",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006118",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006119",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006120",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006121",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006122",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006123",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006124",
+      "type": "claim"
+    },
+    {
+      "id": "art:000211",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:006125",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006126",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006127",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006128",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006129",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006130",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006131",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000064",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:006132",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006133",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006134",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006135",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006136",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006137",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006138",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006139",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006140",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006141",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006142",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006143",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006144",
+      "type": "claim"
+    },
+    {
+      "id": "art:000212",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:006145",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006146",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006147",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006148",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006149",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006150",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006151",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000065",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:006152",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006153",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006154",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006155",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006156",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006157",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006158",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006159",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006160",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006161",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006162",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006163",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006164",
+      "type": "claim"
+    },
+    {
+      "id": "art:000213",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:006165",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006166",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006167",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006168",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006169",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006170",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006171",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000066",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:006172",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006173",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006174",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006175",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006176",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006177",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006178",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006179",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006180",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006181",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006182",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006183",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006184",
+      "type": "claim"
+    },
+    {
+      "id": "art:000214",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:006185",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006186",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006187",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006188",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006189",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006190",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006191",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000067",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:006192",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006193",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006194",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006195",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006196",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006197",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006198",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006199",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006200",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006201",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006202",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006203",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006204",
+      "type": "claim"
+    },
+    {
+      "id": "art:000215",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:006205",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006206",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006207",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006208",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006209",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006210",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006211",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000068",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:006212",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006213",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006214",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006215",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006216",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006217",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006218",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006219",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006220",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006221",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006222",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006223",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006224",
+      "type": "claim"
+    },
+    {
+      "id": "art:000216",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:006225",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006226",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006227",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006228",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006229",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006230",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006231",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000069",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:006232",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006233",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006234",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006235",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006236",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006237",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006238",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006239",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006240",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006241",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006242",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006243",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006244",
+      "type": "claim"
+    },
+    {
+      "id": "art:000217",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:006245",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006246",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006247",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006248",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006249",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006250",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006251",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000070",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:006252",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006253",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006254",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006255",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006256",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006257",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006258",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006259",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006260",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006261",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006262",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006263",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006264",
+      "type": "claim"
+    },
+    {
+      "id": "art:000218",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:006265",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006266",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006267",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006268",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006269",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006270",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006271",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000071",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:006272",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006273",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006274",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006275",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006276",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006277",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006278",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006279",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006280",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006281",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006282",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006283",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006284",
+      "type": "claim"
+    },
+    {
+      "id": "art:000219",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:006285",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006286",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006287",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006288",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006289",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006290",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006291",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000072",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:006292",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006293",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006294",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006295",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006296",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006297",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006298",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006299",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006300",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006301",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006302",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006303",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006304",
+      "type": "claim"
+    },
+    {
+      "id": "art:000220",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:006305",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006306",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006307",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006308",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006309",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006310",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006311",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000073",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:006312",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006313",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006314",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006315",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006316",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006317",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006318",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006319",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006320",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006321",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006322",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006323",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006324",
+      "type": "claim"
+    },
+    {
+      "id": "art:000221",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:006325",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006326",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006327",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006328",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006329",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006330",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006331",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000074",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:006332",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006333",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006334",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006335",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006336",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006337",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006338",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006339",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006340",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006341",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006342",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006343",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006344",
+      "type": "claim"
+    },
+    {
+      "id": "art:000222",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:006345",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006346",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006347",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006348",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006349",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006350",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006351",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000075",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:006352",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006353",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006354",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006355",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006356",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006357",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006358",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006359",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006360",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006361",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006362",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006363",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006364",
+      "type": "claim"
+    },
+    {
+      "id": "art:000223",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:006365",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006366",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006367",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006368",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006369",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006370",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006371",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000076",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:006372",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006373",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006374",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006375",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006376",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006377",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006378",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006379",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006380",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006381",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006382",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006383",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006384",
+      "type": "claim"
+    },
+    {
+      "id": "art:000224",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:006385",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006386",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006387",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006388",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006389",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006390",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006391",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000077",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:006392",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006393",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006394",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006395",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006396",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006397",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006398",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006399",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006400",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006401",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006402",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006403",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006404",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000078",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:006405",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006406",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006407",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006408",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006409",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006410",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006411",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006412",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006413",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006414",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006415",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006416",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006417",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000079",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:006418",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006419",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006420",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006421",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006422",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006423",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006424",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006425",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006426",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006427",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006428",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006429",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006430",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000080",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:006431",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006432",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006433",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006434",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006435",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006436",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006437",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006438",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006439",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006440",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006441",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006442",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006443",
+      "type": "claim"
+    },
+    {
+      "id": "art:000225",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:006444",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006445",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006446",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006447",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006448",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006449",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006450",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000081",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:006451",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006452",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006453",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006454",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006455",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006456",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006457",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006458",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006459",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006460",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006461",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006462",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006463",
+      "type": "claim"
+    },
+    {
+      "id": "art:000226",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:006464",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006465",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006466",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006467",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006468",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006469",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006470",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000082",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:006471",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006472",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006473",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006474",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006475",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006476",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006477",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006478",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006479",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006480",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006481",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006482",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006483",
+      "type": "claim"
+    },
+    {
+      "id": "art:000227",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:006484",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006485",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006486",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006487",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006488",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006489",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006490",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000083",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:006491",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006492",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006493",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006494",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006495",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006496",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006497",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006498",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006499",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006500",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006501",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006502",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006503",
+      "type": "claim"
+    },
+    {
+      "id": "per:000019",
+      "type": "person"
+    },
+    {
+      "id": "clm:006504",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000280",
+      "type": "credit"
+    },
+    {
+      "id": "clm:006505",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006506",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006507",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006508",
+      "type": "claim"
+    },
+    {
+      "id": "per:000020",
+      "type": "person"
+    },
+    {
+      "id": "clm:006509",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000281",
+      "type": "credit"
+    },
+    {
+      "id": "clm:006510",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006511",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006512",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006513",
+      "type": "claim"
+    },
+    {
+      "id": "per:000021",
+      "type": "person"
+    },
+    {
+      "id": "clm:006514",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000282",
+      "type": "credit"
+    },
+    {
+      "id": "clm:006515",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006516",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006517",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006518",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000084",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:006519",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006520",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006521",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006522",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006523",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006524",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006525",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006526",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006527",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006528",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006529",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006530",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006531",
+      "type": "claim"
+    },
+    {
+      "id": "art:000228",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:006532",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006533",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006534",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006535",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006536",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006537",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006538",
+      "type": "claim"
+    },
+    {
+      "id": "per:000022",
+      "type": "person"
+    },
+    {
+      "id": "clm:006539",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000283",
+      "type": "credit"
+    },
+    {
+      "id": "clm:006540",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006541",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006542",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006543",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000284",
+      "type": "credit"
+    },
+    {
+      "id": "clm:006544",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006545",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006546",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006547",
+      "type": "claim"
+    },
+    {
+      "id": "per:000023",
+      "type": "person"
+    },
+    {
+      "id": "clm:006548",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000285",
+      "type": "credit"
+    },
+    {
+      "id": "clm:006549",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006550",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006551",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006552",
+      "type": "claim"
+    },
+    {
+      "id": "per:000024",
+      "type": "person"
+    },
+    {
+      "id": "clm:006553",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000286",
+      "type": "credit"
+    },
+    {
+      "id": "clm:006554",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006555",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006556",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006557",
+      "type": "claim"
+    },
+    {
+      "id": "per:000025",
+      "type": "person"
+    },
+    {
+      "id": "clm:006558",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000287",
+      "type": "credit"
+    },
+    {
+      "id": "clm:006559",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006560",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006561",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006562",
+      "type": "claim"
+    },
+    {
+      "id": "per:000026",
+      "type": "person"
+    },
+    {
+      "id": "clm:006563",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000288",
+      "type": "credit"
+    },
+    {
+      "id": "clm:006564",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006565",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006566",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006567",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000289",
+      "type": "credit"
+    },
+    {
+      "id": "clm:006568",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006569",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006570",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006571",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000085",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:006572",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006573",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006574",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006575",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006576",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006577",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006578",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006579",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006580",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006581",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006582",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006583",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006584",
+      "type": "claim"
+    },
+    {
+      "id": "art:000229",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:006585",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006586",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006587",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006588",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006589",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006590",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006591",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000086",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:006592",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006593",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006594",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006595",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006596",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006597",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006598",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006599",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006600",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006601",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006602",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006603",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006604",
+      "type": "claim"
+    },
+    {
+      "id": "art:000230",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:006605",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006606",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006607",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006608",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006609",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006610",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006611",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000087",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:006612",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006613",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006614",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006615",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006616",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006617",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006618",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006619",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006620",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006621",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006622",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006623",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006624",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000088",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:006625",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006626",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006627",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006628",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006629",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006630",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006631",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006632",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006633",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006634",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006635",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006636",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006637",
+      "type": "claim"
+    },
+    {
+      "id": "art:000231",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:006638",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006639",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006640",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006641",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006642",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006643",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006644",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000089",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:006645",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006646",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006647",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006648",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006649",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006650",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006651",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006652",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006653",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006654",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006655",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006656",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006657",
+      "type": "claim"
+    },
+    {
+      "id": "per:000027",
+      "type": "person"
+    },
+    {
+      "id": "clm:006658",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000290",
+      "type": "credit"
+    },
+    {
+      "id": "clm:006659",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006660",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006661",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006662",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000090",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:006663",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006664",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006665",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006666",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006667",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006668",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006669",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006670",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006671",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006672",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006673",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006674",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006675",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000091",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:006676",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006677",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006678",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006679",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006680",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006681",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006682",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006683",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006684",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006685",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006686",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006687",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006688",
+      "type": "claim"
+    },
+    {
+      "id": "art:000232",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:006689",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006690",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006691",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006692",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006693",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006694",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006695",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000092",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:006696",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006697",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006698",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006699",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006700",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006701",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006702",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006703",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006704",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006705",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006706",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006707",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006708",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000093",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:006709",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006710",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006711",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006712",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006713",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006714",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006715",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006716",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006717",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006718",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006719",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006720",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006721",
+      "type": "claim"
+    },
+    {
+      "id": "art:000233",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:006722",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006723",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006724",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006725",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006726",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006727",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006728",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000094",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:006729",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006730",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006731",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006732",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006733",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006734",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006735",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006736",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006737",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006738",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006739",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006740",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006741",
+      "type": "claim"
+    },
+    {
+      "id": "art:000234",
+      "type": "artwork"
+    },
+    {
+      "id": "clm:006742",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006743",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006744",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006745",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006746",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006747",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006748",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000095",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:006749",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006750",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006751",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006752",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006753",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006754",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006755",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006756",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006757",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006758",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006759",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006760",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006761",
+      "type": "claim"
+    },
+    {
+      "id": "per:000028",
+      "type": "person"
+    },
+    {
+      "id": "clm:006762",
+      "type": "claim"
+    },
+    {
+      "id": "crd:000291",
+      "type": "credit"
+    },
+    {
+      "id": "clm:006763",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006764",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006765",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006766",
+      "type": "claim"
+    },
+    {
+      "id": "adp:000096",
+      "type": "adaptation"
+    },
+    {
+      "id": "clm:006767",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006768",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006769",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006770",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006771",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006772",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006773",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006774",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006775",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006776",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006777",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006778",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006779",
+      "type": "claim"
+    },
+    {
+      "id": "rel:000010",
+      "type": "connection"
+    },
+    {
+      "id": "clm:006780",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006781",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006782",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006783",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006784",
+      "type": "claim"
+    },
+    {
+      "id": "rel:000011",
+      "type": "connection"
+    },
+    {
+      "id": "clm:006785",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006786",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006787",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006788",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006789",
+      "type": "claim"
+    },
+    {
+      "id": "rel:000012",
+      "type": "connection"
+    },
+    {
+      "id": "clm:006790",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006791",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006792",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006793",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006794",
+      "type": "claim"
+    },
+    {
+      "id": "rel:000013",
+      "type": "connection"
+    },
+    {
+      "id": "clm:006795",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006796",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006797",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006798",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006799",
+      "type": "claim"
+    },
+    {
+      "id": "rel:000014",
+      "type": "connection"
+    },
+    {
+      "id": "clm:006800",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006801",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006802",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006803",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006804",
+      "type": "claim"
+    },
+    {
+      "id": "rel:000015",
+      "type": "connection"
+    },
+    {
+      "id": "clm:006805",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006806",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006807",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006808",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006809",
+      "type": "claim"
+    },
+    {
+      "id": "rel:000016",
+      "type": "connection"
+    },
+    {
+      "id": "clm:006810",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006811",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006812",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006813",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006814",
+      "type": "claim"
+    },
+    {
+      "id": "rel:000017",
+      "type": "connection"
+    },
+    {
+      "id": "clm:006815",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006816",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006817",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006818",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006819",
+      "type": "claim"
+    },
+    {
+      "id": "rel:000018",
+      "type": "connection"
+    },
+    {
+      "id": "clm:006820",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006821",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006822",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006823",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006824",
+      "type": "claim"
+    },
+    {
+      "id": "rel:000019",
+      "type": "connection"
+    },
+    {
+      "id": "clm:006825",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006826",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006827",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006828",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006829",
+      "type": "claim"
+    },
+    {
+      "id": "rel:000020",
+      "type": "connection"
+    },
+    {
+      "id": "clm:006830",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006831",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006832",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006833",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006834",
+      "type": "claim"
+    },
+    {
+      "id": "rel:000021",
+      "type": "connection"
+    },
+    {
+      "id": "clm:006835",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006836",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006837",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006838",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006839",
+      "type": "claim"
+    },
+    {
+      "id": "rel:000022",
+      "type": "connection"
+    },
+    {
+      "id": "clm:006840",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006841",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006842",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006843",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006844",
+      "type": "claim"
+    },
+    {
+      "id": "rel:000023",
+      "type": "connection"
+    },
+    {
+      "id": "clm:006845",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006846",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006847",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006848",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006849",
+      "type": "claim"
+    },
+    {
+      "id": "rel:000024",
+      "type": "connection"
+    },
+    {
+      "id": "clm:006850",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006851",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006852",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006853",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006854",
+      "type": "claim"
+    },
+    {
+      "id": "rel:000025",
+      "type": "connection"
+    },
+    {
+      "id": "clm:006855",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006856",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006857",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006858",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006859",
+      "type": "claim"
+    },
+    {
+      "id": "rel:000026",
+      "type": "connection"
+    },
+    {
+      "id": "clm:006860",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006861",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006862",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006863",
+      "type": "claim"
+    },
+    {
+      "id": "clm:006864",
+      "type": "claim"
     }
   ],
   "aliases": [
@@ -34469,6 +43845,1542 @@
       "target": {
         "type": "artwork",
         "id": "art:000152"
+      }
+    },
+    {
+      "alias": "films:a-good-marriage-2014",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000001"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Aa-good-marriage-2014",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000001"
+      }
+    },
+    {
+      "alias": "films:apt-pupil-1998",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000002"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Aapt-pupil-1998",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000002"
+      }
+    },
+    {
+      "alias": "films:the-boogeyman-2023",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000003"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Athe-boogeyman-2023",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000003"
+      }
+    },
+    {
+      "alias": "films:carrie-1976",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000004"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Acarrie-1976",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000004"
+      }
+    },
+    {
+      "alias": "films:cat-s-eye-1985",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000005"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Acat-s-eye-1985",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000005"
+      }
+    },
+    {
+      "alias": "films:cell-2016",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000006"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Acell-2016",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000006"
+      }
+    },
+    {
+      "alias": "films:children-of-the-corn-1984",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000007"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Achildren-of-the-corn-1984",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000007"
+      }
+    },
+    {
+      "alias": "films:christine-1983",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000008"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Achristine-1983",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000008"
+      }
+    },
+    {
+      "alias": "films:creepshow-1982",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000009"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Acreepshow-1982",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000009"
+      }
+    },
+    {
+      "alias": "films:creepshow-2-1987",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000010"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Acreepshow-2-1987",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000010"
+      }
+    },
+    {
+      "alias": "films:cujo-1983",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000011"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Acujo-1983",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000011"
+      }
+    },
+    {
+      "alias": "films:the-dark-half-1993",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000012"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Athe-dark-half-1993",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000012"
+      }
+    },
+    {
+      "alias": "films:the-dark-tower-2017",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000013"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Athe-dark-tower-2017",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000013"
+      }
+    },
+    {
+      "alias": "films:the-dead-zone-1983",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000014"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Athe-dead-zone-1983",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000014"
+      }
+    },
+    {
+      "alias": "films:doctor-sleep-2019",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000015"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Adoctor-sleep-2019",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000015"
+      }
+    },
+    {
+      "alias": "films:dolan-s-cadillac-2009",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000016"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Adolan-s-cadillac-2009",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000016"
+      }
+    },
+    {
+      "alias": "films:dolores-claiborne-1995",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000017"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Adolores-claiborne-1995",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000017"
+      }
+    },
+    {
+      "alias": "films:dreamcatcher-2003",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000018"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Adreamcatcher-2003",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000018"
+      }
+    },
+    {
+      "alias": "films:firestarter-1984",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000019"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Afirestarter-1984",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000019"
+      }
+    },
+    {
+      "alias": "films:firestarter-2022",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000020"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Afirestarter-2022",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000020"
+      }
+    },
+    {
+      "alias": "films:gerald-s-game-2017",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000021"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Agerald-s-game-2017",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000021"
+      }
+    },
+    {
+      "alias": "films:graveyard-shift-1990",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000022"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Agraveyard-shift-1990",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000022"
+      }
+    },
+    {
+      "alias": "films:the-green-mile-1999",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000023"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Athe-green-mile-1999",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000023"
+      }
+    },
+    {
+      "alias": "films:hearts-in-atlantis-2001",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000024"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Ahearts-in-atlantis-2001",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000024"
+      }
+    },
+    {
+      "alias": "films:in-the-tall-grass-2019",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000025"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Ain-the-tall-grass-2019",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000025"
+      }
+    },
+    {
+      "alias": "films:it-2017",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000026"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Ait-2017",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000026"
+      }
+    },
+    {
+      "alias": "films:it-chapter-two-2019",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000027"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Ait-chapter-two-2019",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000027"
+      }
+    },
+    {
+      "alias": "films:the-life-of-chuck-2024",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000028"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Athe-life-of-chuck-2024",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000028"
+      }
+    },
+    {
+      "alias": "films:the-long-walk-2025",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000029"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Athe-long-walk-2025",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000029"
+      }
+    },
+    {
+      "alias": "films:the-mangler-1995",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000030"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Athe-mangler-1995",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000030"
+      }
+    },
+    {
+      "alias": "films:maximum-overdrive-1986",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000031"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Amaximum-overdrive-1986",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000031"
+      }
+    },
+    {
+      "alias": "films:misery-1990",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000032"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Amisery-1990",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000032"
+      }
+    },
+    {
+      "alias": "films:the-mist-2007",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000033"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Athe-mist-2007",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000033"
+      }
+    },
+    {
+      "alias": "films:the-monkey-2025",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000034"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Athe-monkey-2025",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000034"
+      }
+    },
+    {
+      "alias": "films:mr-harrigan-s-phone-2022",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000035"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Amr-harrigan-s-phone-2022",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000035"
+      }
+    },
+    {
+      "alias": "films:needful-things-1993",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000036"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Aneedful-things-1993",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000036"
+      }
+    },
+    {
+      "alias": "films:the-night-flier-1997",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000037"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Athe-night-flier-1997",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000037"
+      }
+    },
+    {
+      "alias": "films:pet-sematary-1989",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000038"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Apet-sematary-1989",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000038"
+      }
+    },
+    {
+      "alias": "films:pet-sematary-2019",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000039"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Apet-sematary-2019",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000039"
+      }
+    },
+    {
+      "alias": "films:riding-the-bullet-2004",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000040"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Ariding-the-bullet-2004",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000040"
+      }
+    },
+    {
+      "alias": "films:the-running-man-1987",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000041"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Athe-running-man-1987",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000041"
+      }
+    },
+    {
+      "alias": "films:the-running-man-2025",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000042"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Athe-running-man-2025",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000042"
+      }
+    },
+    {
+      "alias": "films:salem-s-lot-2024",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000043"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Asalem-s-lot-2024",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000043"
+      }
+    },
+    {
+      "alias": "films:secret-window-2004",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000044"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Asecret-window-2004",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000044"
+      }
+    },
+    {
+      "alias": "films:the-shawshank-redemption-1994",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000045"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Athe-shawshank-redemption-1994",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000045"
+      }
+    },
+    {
+      "alias": "films:the-shining-1980",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000046"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Athe-shining-1980",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000046"
+      }
+    },
+    {
+      "alias": "films:silver-bullet-1985",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000047"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Asilver-bullet-1985",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000047"
+      }
+    },
+    {
+      "alias": "films:stand-by-me-1986",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000048"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Astand-by-me-1986",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000048"
+      }
+    },
+    {
+      "alias": "films:thinner-1996",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000049"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Athinner-1996",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000049"
+      }
+    },
+    {
+      "alias": "films:1408-2007",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000050"
+      }
+    },
+    {
+      "alias": "#films?item=films%3A1408-2007",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000050"
+      }
+    },
+    {
+      "alias": "films:1922-2017",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000051"
+      }
+    },
+    {
+      "alias": "#films?item=films%3A1922-2017",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000051"
+      }
+    },
+    {
+      "alias": "films:the-girl-who-loved-tom-gordon-tbd",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000052"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Athe-girl-who-loved-tom-gordon-tbd",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000052"
+      }
+    },
+    {
+      "alias": "films:suffer-the-little-children-tbd",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000053"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Asuffer-the-little-children-tbd",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000053"
+      }
+    },
+    {
+      "alias": "films:11-22-63-2016",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000054"
+      }
+    },
+    {
+      "alias": "#films?item=films%3A11-22-63-2016",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000054"
+      }
+    },
+    {
+      "alias": "films:bag-of-bones-2011",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000055"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Abag-of-bones-2011",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000055"
+      }
+    },
+    {
+      "alias": "films:big-driver-2014",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000056"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Abig-driver-2014",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000056"
+      }
+    },
+    {
+      "alias": "films:carrie-2002",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000057"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Acarrie-2002",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000057"
+      }
+    },
+    {
+      "alias": "films:chapelwaite-2021",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000058"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Achapelwaite-2021",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000058"
+      }
+    },
+    {
+      "alias": "films:desperation-2006",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000059"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Adesperation-2006",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000059"
+      }
+    },
+    {
+      "alias": "films:the-institute-2025",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000060"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Athe-institute-2025",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000060"
+      }
+    },
+    {
+      "alias": "films:it-1990",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000061"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Ait-1990",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000061"
+      }
+    },
+    {
+      "alias": "films:it-welcome-to-derry-2025",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000062"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Ait-welcome-to-derry-2025",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000062"
+      }
+    },
+    {
+      "alias": "films:the-langoliers-1995",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000063"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Athe-langoliers-1995",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000063"
+      }
+    },
+    {
+      "alias": "films:lisey-s-story-2021",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000064"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Alisey-s-story-2021",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000064"
+      }
+    },
+    {
+      "alias": "films:the-mist-2017",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000065"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Athe-mist-2017",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000065"
+      }
+    },
+    {
+      "alias": "films:mr-mercedes-2017",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000066"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Amr-mercedes-2017",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000066"
+      }
+    },
+    {
+      "alias": "films:nightmares-dreamscapes-2006",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000067"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Anightmares-dreamscapes-2006",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000067"
+      }
+    },
+    {
+      "alias": "films:salem-s-lot-1979",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000068"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Asalem-s-lot-1979",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000068"
+      }
+    },
+    {
+      "alias": "films:salem-s-lot-2004",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000069"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Asalem-s-lot-2004",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000069"
+      }
+    },
+    {
+      "alias": "films:the-shining-1997",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000070"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Athe-shining-1997",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000070"
+      }
+    },
+    {
+      "alias": "films:sometimes-they-come-back-1991",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000071"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Asometimes-they-come-back-1991",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000071"
+      }
+    },
+    {
+      "alias": "films:the-stand-1994",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000072"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Athe-stand-1994",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000072"
+      }
+    },
+    {
+      "alias": "films:the-stand-2020",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000073"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Athe-stand-2020",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000073"
+      }
+    },
+    {
+      "alias": "films:the-tommyknockers-1993",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000074"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Athe-tommyknockers-1993",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000074"
+      }
+    },
+    {
+      "alias": "films:trucks-1997",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000075"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Atrucks-1997",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000075"
+      }
+    },
+    {
+      "alias": "films:under-the-dome-2013",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000076"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Aunder-the-dome-2013",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000076"
+      }
+    },
+    {
+      "alias": "films:the-outsider-2020",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000077"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Athe-outsider-2020",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000077"
+      }
+    },
+    {
+      "alias": "films:the-dead-zone-2002",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000078"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Athe-dead-zone-2002",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000078"
+      }
+    },
+    {
+      "alias": "films:haven-2010",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000079"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Ahaven-2010",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000079"
+      }
+    },
+    {
+      "alias": "films:castle-rock-2018",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000080"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Acastle-rock-2018",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000080"
+      }
+    },
+    {
+      "alias": "films:rose-red-2002",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000081"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Arose-red-2002",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000081"
+      }
+    },
+    {
+      "alias": "films:storm-of-the-century-1999",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000082"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Astorm-of-the-century-1999",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000082"
+      }
+    },
+    {
+      "alias": "films:carrie-2013",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000083"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Acarrie-2013",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000083"
+      }
+    },
+    {
+      "alias": "films:carrie-2026",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000084"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Acarrie-2026",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000084"
+      }
+    },
+    {
+      "alias": "films:the-diary-of-ellen-rimbauer-2003",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000085"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Athe-diary-of-ellen-rimbauer-2003",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000085"
+      }
+    },
+    {
+      "alias": "films:golden-years-1991",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000086"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Agolden-years-1991",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000086"
+      }
+    },
+    {
+      "alias": "films:hearts-tbd",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000087"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Ahearts-tbd",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000087"
+      }
+    },
+    {
+      "alias": "films:kingdom-hospital-2004",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000088"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Akingdom-hospital-2004",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000088"
+      }
+    },
+    {
+      "alias": "films:mercy-2012",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000089"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Amercy-2012",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000089"
+      }
+    },
+    {
+      "alias": "films:my-pretty-pony-2017",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000090"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Amy-pretty-pony-2017",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000090"
+      }
+    },
+    {
+      "alias": "films:quicksilver-highway-1997",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000091"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Aquicksilver-highway-1997",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000091"
+      }
+    },
+    {
+      "alias": "films:sleeping-beauties-tbd",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000092"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Asleeping-beauties-tbd",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000092"
+      }
+    },
+    {
+      "alias": "films:sleepwalkers-1992",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000093"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Asleepwalkers-1992",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000093"
+      }
+    },
+    {
+      "alias": "films:tales-from-the-darkside-the-movie-1990",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000094"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Atales-from-the-darkside-the-movie-1990",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000094"
+      }
+    },
+    {
+      "alias": "films:pet-sematary-bloodlines-2023",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000095"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Apet-sematary-bloodlines-2023",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000095"
+      }
+    },
+    {
+      "alias": "films:the-rage-carrie-2-1999",
+      "kind": "legacy-id",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000096"
+      }
+    },
+    {
+      "alias": "#films?item=films%3Athe-rage-carrie-2-1999",
+      "kind": "legacy-route",
+      "target": {
+        "type": "adaptation",
+        "id": "adp:000096"
       }
     }
   ]
