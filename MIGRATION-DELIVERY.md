@@ -1,10 +1,12 @@
-# The Kingverse 1.7 — huidige migratiestand na Batch 02
+# The Kingverse 1.7 — huidige migratiestand na Batch 03
 
-Batch 02 is uitgevoerd op basis van `61e3a840c75e0d1e774656b4fcf5ccd864c97167`. Zie **[MIGRATION-BATCH-02.md](MIGRATION-BATCH-02.md)** voor de actuele tellingen, definities, broncontroles en blokkades, en `migration-quality.html` voor het gegenereerde dashboard.
+Batch 03 is uitgevoerd op basis van `82edfb3f865256e591c530e25ed2d774b752f45c`. Zie **[MIGRATION-BATCH-03.md](MIGRATION-BATCH-03.md)** voor definities, exacte tellingen, rechtenbeleid en blokkades, en `migration-quality.html#publications-editions` voor het dashboard.
 
-Actueel: 241 werken + 15 collecties, 173 verhaalweergaven, 155 bundelrelaties, 272 credits en 12 personen. Alle Batch-01-entiteiten/IDs zijn behouden. De mapping omvat 2.082 van 15.350 DB-bladvelden; 13.268 blijven expliciet behouden maar nog niet canoniek gekoppeld. Geen volledige record-, editie-, adaptatie- of bibliografische migratie claimen.
+Actueel: 241 werken + 15 collecties, 173 verhaalweergaven, 155 bundelrelaties, 272 credits en 12 personen. Alle eerdere entiteiten/IDs zijn behouden, inclusief Other Worlds Than These (`wrk:000067`). Alle 150 resterende editievoorbeelden zijn gemigreerd: 154 totaal (86 EN, 68 NL), 239 publicatiewaarnemingen en 152 editiegebonden coververwijzingen. 66 uitgeversmatches ondersteunen titel, taal en ISBN; nul volledig vastgestelde drukgeschiedenissen. Nul covers hebben vastgestelde hergebruiktoestemming en toegestane betrouwbare levering.
 
-De expliciet gevraagde, spoilerarme Talisman-trilogieaanvulling hergebruikt Other Worlds Than These (`wrk:000067`) en voegt alleen een geverifieerde vervolgrelatie toe. Bestaande website en Explorer zijn ongewijzigd. Batch 03 is niet gestart.
+4.058 van 15.350 DB-bladvelden zijn gekoppeld; 11.292 blijven expliciet behouden. De aanvullende bronledger verantwoordt afzonderlijk 6.600 bewijsvelden. Geen volledige bibliografische dekking claimen. De website, Explorer, publieke routes en spoilerbediening blijven ongewijzigd. **Batch 04 is niet gestart.**
+
+Historische Batch-02-oplevering: [MIGRATION-BATCH-02.md](MIGRATION-BATCH-02.md).
 
 ---
 

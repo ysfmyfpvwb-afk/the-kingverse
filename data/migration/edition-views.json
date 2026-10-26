@@ -1,0 +1,3769 @@
+{
+  "batch": "03",
+  "views": [
+    {
+      "legacyEditionId": "edition:9789024591350",
+      "editionId": "edn:000005",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000003"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789024578108",
+      "editionId": "edn:000006",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000004"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/bezeten-stad/",
+        "sha256": "d26a4c27105bc09dbe7c2acd5ec56eb882284b920533482d8a212e192149f2b9",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789021066561",
+      "editionId": "edn:000007",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000005"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/de-shining/",
+        "sha256": "364df95040b0c34dee91922b84da300197adabfec2d9d1bc4117fcd8609764d8",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789021027791",
+      "editionId": "edn:000008",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000007"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/de-beproeving/",
+        "sha256": "4e9f7335cfac7ee2471c2c47d4f04268a302dfd93ddfa61fd2110215a85fb147",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789021025131",
+      "editionId": "edn:000009",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000008"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/de-marathon/",
+        "sha256": "d12b1f1368921346fa2df91eb890a6a13c0afbb9a2edfe034f4463ed7e81ad0a",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789021043425",
+      "editionId": "edn:000010",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000009"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/dodelijk-dilemma/",
+        "sha256": "fe0553e6b5bbdcb169a8dd6f81dca1045ac46fc99a2773a8ab5327c30816a7ac",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789024578146",
+      "editionId": "edn:000011",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000010"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/ogen-van-vuur/",
+        "sha256": "591dfc98e13b5be8ea23e6c60728c4c25d0b317b49a764409e1b3fc7ace0aa5a",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789024578214",
+      "editionId": "edn:000012",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000011"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/werk-in-uitvoering/",
+        "sha256": "2ff3562f680e1027197112708253b0b8e2969badf5abb8ab08de3f1d19f8f2e2",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789021031354",
+      "editionId": "edn:000013",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000012"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/cujo/",
+        "sha256": "accd9aa29e3ff93ffa968afe86bf8abaf84ff00e0eac87cdfc710f48aed72897",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789021043449",
+      "editionId": "edn:000014",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000013"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/vlucht-naar-de-top/",
+        "sha256": "d5542dc0781c10836bd8a6b0e19a5af2d453a178a30d80b12a1f767e3b754770",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789021049151",
+      "editionId": "edn:000015",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000014"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/de-scherpschutter/",
+        "sha256": "5e1441f33d9efbbbcc6a62183b283ce50af61fcdcaee77aaee856891bf2491b6",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789021015873",
+      "editionId": "edn:000016",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000016"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/dodenwake/",
+        "sha256": "6296f51c783435821af0317056fb26428107aa3a7111ae29425dbc0e48bd7166",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789021037400",
+      "editionId": "edn:000001",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000001"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/de-talisman-pod/",
+        "sha256": "38a0e6757c35f0335cb0cad5f94ea7dd98cda18c534c98a12ce733e8e53ff54e",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789021062419",
+      "editionId": "edn:000017",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000018"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/de-vervloeking/",
+        "sha256": "3064589f2eba478c343246ef13b78383699f861b55ef99b4f3166f58a8e11ce0",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789021027432",
+      "editionId": "edn:000018",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000019"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/it/",
+        "sha256": "fe6e9dc45330181ac41c1a8c47a0d5652d7fd131bfefc1988efdc4ee3f4dcf5c",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789021025261",
+      "editionId": "edn:000019",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000020"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/ogen-van-de-draak/",
+        "sha256": "c622c630d348133192a50f76a1b7f196edfb3c0150eac73ef47a2a6044ff13c3",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789024578160",
+      "editionId": "edn:000020",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000021"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/misery/",
+        "sha256": "b669284ad5797e27ef0f4335393d76274f37f3cc4f037840480019f48afd2eb0",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789021051420",
+      "editionId": "edn:000021",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000022"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/het-teken-van-drie/",
+        "sha256": "f3c7f3389813e2db95855ca5801d4f8ceac79cbb63c9d98794b0b34a398a5f3c",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789021048390",
+      "editionId": "edn:000022",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000023"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/de-gloed-3/",
+        "sha256": "60712cf90deb7df34848c167ca9eda928d9a8a27c3dca01f06cca7bf53f2bcac",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789021066547",
+      "editionId": "edn:000023",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000024"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/de-duistere-kant/",
+        "sha256": "67c6d73e46db5d3e0f914d2a88c1cf121bfb04aeb27ff5e057d07e4733837473",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789021053653",
+      "editionId": "edn:000024",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000025"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/het-verloren-rijk/",
+        "sha256": "19241266f8518b1edb1fdb4a497830c77733da9ce193fbf43aace703693bac0e",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789021037264",
+      "editionId": "edn:000025",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000026"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/de-noodzaak/",
+        "sha256": "2607e386bdb873e59b739674ff890e1201a4fb62745fbe5621e96d28aeb20c27",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789021048413",
+      "editionId": "edn:000026",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000027"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/de-spelbreker/",
+        "sha256": "17da7dfcd506205742fe0a5b94744a2826ae60059034c7a5c64525286e9c054f",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789021064383",
+      "editionId": "edn:000027",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000028"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/dolores-claiborne/",
+        "sha256": "2ee5e636f586a2d02726ccd19066cc28e46e43953e82db8423c9646d00a9213c",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789021049144",
+      "editionId": "edn:000028",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000029"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/insomnia/",
+        "sha256": "0f48fe735ce927af95a5d3d13b31882accbf90b1dd74120b99f1b82b3dddd478",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789021037431",
+      "editionId": "edn:000029",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000030"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/rosie/",
+        "sha256": "b6cff62fbcba1fe703600a822377db3f8ef652199aba39d8986493c3b2761f70",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789021025360",
+      "editionId": "edn:000030",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000031"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/de-groene-mijl/",
+        "sha256": "5d4160032be306be7a3b9168117d614c04e42aae06853ebd3b0c1bd41996245f",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789021036830",
+      "editionId": "edn:000031",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000032"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/desperation/",
+        "sha256": "6ddd20c9b51ced78fb7cb84d1944701645b1c1ff26f38df0c3fa1b53181d534d",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789021037301",
+      "editionId": "edn:000032",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000033"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/de-regelaars/",
+        "sha256": "8d6c8e27bc28a8a81b579b8c828277a8afcaef420703903284f963af17910e19",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789021055725",
+      "editionId": "edn:000033",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000034"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/tovenaarsglas/",
+        "sha256": "056d8d8082f399a29fc1085d5488b9d329275b606d1e1d690147d6bfc56bd163",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789021037325",
+      "editionId": "edn:000034",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000035"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/vel-over-been/",
+        "sha256": "483176f9d6c7c55da5cb95a6617ef99c2e655c0b0301777a603ba23e1410547e",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789021037332",
+      "editionId": "edn:000035",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000036"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/het-meisje-dat-hield-van-tom-gordon/",
+        "sha256": "acc6e471fdb055ec16f3a42856fad83692b573b2cdfd1b777cd142af9679bde0",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789021037356",
+      "editionId": "edn:000036",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000037"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/de-dromenvanger/",
+        "sha256": "18f09a5c56d4cb39d928290f020d440bec03fbd2c045bba7200afb8d67ae7af4",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789021048383",
+      "editionId": "edn:000003",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000002"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/zwart-huis/",
+        "sha256": "09edd2438779debe10b73f7c376c5c7958a52da9afb4255fd3a8375151006006",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789021037363",
+      "editionId": "edn:000037",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000038"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/het-geheim-van-de-buick/",
+        "sha256": "195bfc5f42131ec398fd98d4122f63e12358a98408ecc1b098910e2d221419bc",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789021062433",
+      "editionId": "edn:000038",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000039"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/wolven-van-de-calla/",
+        "sha256": "d3819618bcd1f9fd6351ff0eda80fa4d5fb2e048c5580d8d82d1eccc3f28f4a1",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789021064390",
+      "editionId": "edn:000039",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000040"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/een-lied-van-susannah/",
+        "sha256": "4e310a044374ac488ffbf1c571452569718613cdf68346bda76679535493d693",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789021066554",
+      "editionId": "edn:000040",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000041"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/de-donkere-toren/",
+        "sha256": "6549e8f25a56121acaba03c20302bff88d0512b720143d3b43f81a6bb7e9bc00",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789024578207",
+      "editionId": "edn:000041",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000042"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/de-colorado-kid/",
+        "sha256": "39c5026f7386af7e04fc4fb8ef625d65dc4990f7d3431c39ad95ff1ff6a4734e",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789021037448",
+      "editionId": "edn:000042",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000043"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/mobiel/",
+        "sha256": "51644db08274036c9a685b721333634eaf736794983bc94f10b90f2a7ebd2fca",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789021030098",
+      "editionId": "edn:000043",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000044"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/liseys-verhaal/",
+        "sha256": "c29a64d75ee2e978db52b64f38892b5d4229198e40582833cf8fa531254cc142",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789021059662",
+      "editionId": "edn:000044",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000045"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/de-ontvoering/",
+        "sha256": "92ab71d44d74c7c98de2a985f7232a30681f45edcba1f13e1a8a603124bac78c",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789021055718",
+      "editionId": "edn:000045",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000046"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/duma/",
+        "sha256": "b28935bbf7c54a078e3100d18b89e190eb2741b38fdc6783092f2530bfd24074",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789021026152",
+      "editionId": "edn:000046",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000047"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/gevangen/",
+        "sha256": "32b65c11fabdb0a135c86ebc4d7481f11218b6a2867b3c1afbc0300c9160d7c4",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789021019321",
+      "editionId": "edn:000047",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000048"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/11-22-63-22-11-1963/",
+        "sha256": "fdf3d8fbfb332b5eb191a74729f9ed6ca530b0c31401b0675d60e3eca5b9a677",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789021037653",
+      "editionId": "edn:000048",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000049"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/de-wind-door-het-sleutelgat/",
+        "sha256": "b42f0d564b5ad5a9628d6a4ff78c794e514a9c39ae17f3f3642d6c2d5d9833a9",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789021027784",
+      "editionId": "edn:000049",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000050"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/joyland/",
+        "sha256": "5656467c65c0124674b56718b70d6e2c78a611e845bbf55b85f5807de01c5a58",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789024576135",
+      "editionId": "edn:000050",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000051"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/dr-sleep-2/",
+        "sha256": "6a66258d4321826752baaa8bf69db3fa6c144420a98e1c810f6cf0fb90bde300",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789021023281",
+      "editionId": "edn:000051",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000052"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/mr-mercedes/",
+        "sha256": "37e53a479bcf5d3cb8832e80be6d406d1979c96ee095e3883a63af09d152bc40",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789021025285",
+      "editionId": "edn:000052",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000053"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/revival/",
+        "sha256": "3456a1b80ad882c8b90f42a9bf6e9201d13c722c6740dc7b4ffba0268738f8d7",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789021024417",
+      "editionId": "edn:000053",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000054"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/de-eerlijke-vinder/",
+        "sha256": "5801dc81cd74f8edaf52bc29135c03e1ac2850849485dfd03f7b545791d5b102",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789021025742",
+      "editionId": "edn:000054",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000055"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/wisseling-van-de-wacht/",
+        "sha256": "07728499dddc3cb23c2497105519afafa5abee644bbbcd0c0a39a99529f3ef26",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789024559688",
+      "editionId": "edn:000055",
+      "subject": {
+        "type": "collection",
+        "id": "col:000002"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/satanskinderen/",
+        "sha256": "3ac58ae650eee3747630afcb402e5b3c14d418bb17fef4e1b6a2a138c0c4c4fe",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789024578245",
+      "editionId": "edn:000056",
+      "subject": {
+        "type": "collection",
+        "id": "col:000003"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/4-seizoenen/",
+        "sha256": "68ddffac8577e5d58435f493afe30c1d6a4a6fc3808a419297cd169f491142ee",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789021037196",
+      "editionId": "edn:000057",
+      "subject": {
+        "type": "collection",
+        "id": "col:000004"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/duistere-krachten/",
+        "sha256": "63edb298c7e109646f5a638c7cb9995ab7b723535033bb2113af7201ef7e28a5",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789024578047",
+      "editionId": "edn:000058",
+      "subject": {
+        "type": "collection",
+        "id": "col:000005"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/tweeduister/",
+        "sha256": "de987bf251da60705c662a30f2dcdecc85fe89b630f664180dd78b24a365b94a",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789021039800",
+      "editionId": "edn:000059",
+      "subject": {
+        "type": "collection",
+        "id": "col:000006"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/nachtmerries-en-droomlandschappen/",
+        "sha256": "7474d7fc9f2bfccafc018ee6e7e6f26edbc104fa3b18a355fd63bdc1094ddacd",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789021064468",
+      "editionId": "edn:000060",
+      "subject": {
+        "type": "collection",
+        "id": "col:000007"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/harten-in-atlantis/",
+        "sha256": "6cc0f40ff7de8919bd2d3c6416f68c22167ce12ebf69cd8797f763f22b203c85",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789021055732",
+      "editionId": "edn:000061",
+      "subject": {
+        "type": "collection",
+        "id": "col:000008"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/alles-is-eventueel-1408/",
+        "sha256": "9c713c4a97c94352b4431336cd2b16160b59ddaba6b1d0b0b9785992b1de9e47",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789021062440",
+      "editionId": "edn:000062",
+      "subject": {
+        "type": "collection",
+        "id": "col:000009"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/na-zonsondergang/",
+        "sha256": "69664ebafd43de07781a06bcbc87a13855c661c8b1a727d482e2e56d1937a0fe",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789024578115",
+      "editionId": "edn:000063",
+      "subject": {
+        "type": "collection",
+        "id": "col:000011"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/aardedonker-zonder-sterren/",
+        "sha256": "77da40d8387dd62324d89610115b9e179bb5796167f5891c1d475812ccda86a7",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789021022925",
+      "editionId": "edn:000064",
+      "subject": {
+        "type": "collection",
+        "id": "col:000012"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/de-bazaar-van-boze-dromen/",
+        "sha256": "6c3dec1dc34cbfe492515773044ab47ac614988f8b3bffed41a61bb87fc5f250",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789021037226",
+      "editionId": "edn:000065",
+      "subject": {
+        "id": "wrk:000096",
+        "type": "work"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/dichte-mist-pod/",
+        "sha256": "d75b978b741e14b48be6b3940efe6b856d35ccf14659e27c90bdb54579a4e52c",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789024567515",
+      "editionId": "edn:000066",
+      "subject": {
+        "id": "wrk:000180",
+        "type": "work"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/een-goed-huwelijk/",
+        "sha256": "ffceb73b60ad5a067a9e7d5b2f945d6d1682976debbed315b1957827f9abb448",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789024552290",
+      "editionId": "edn:000067",
+      "subject": {
+        "id": "wrk:000198",
+        "type": "work"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/mijl-81/",
+        "sha256": "b863f385fa760a4ef80985cfd8a861119e3b6fc54d48e74e2b33bdf0932c33b2",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789024561179",
+      "editionId": "edn:000068",
+      "subject": {
+        "id": "wrk:000225",
+        "type": "work"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/het-hoge-gras/",
+        "sha256": "c9d027d393070d492bf8b2988b9edafc570a89ed5e77ce2fba6702025111b7c4",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789024561186",
+      "editionId": "edn:000069",
+      "subject": {
+        "id": "wrk:000240",
+        "type": "work"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "evidence": {
+        "snapshot": "data/reference/dutch.json",
+        "checked": "2026-10-25",
+        "url": "https://www.lsuitgeverij.nl/boek/hoogste-versnelling/",
+        "sha256": "c5cb764b1f193735341fc169acad6144485df5ebadb575e89837bf2460fe3e37",
+        "fields": [
+          "title",
+          "language",
+          "isbn13"
+        ]
+      },
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:3a91ec7780d884d7",
+      "editionId": "edn:000070",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000003"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9baf505738c35f86",
+      "editionId": "edn:000071",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000004"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:c103eb1c79803f54",
+      "editionId": "edn:000072",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000005"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:5054f713cd219eac",
+      "editionId": "edn:000073",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000006"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:a988f0ef5917b6ef",
+      "editionId": "edn:000074",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000007"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:491aafa816c944b0",
+      "editionId": "edn:000075",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000008"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:17dbbd439ec7204f",
+      "editionId": "edn:000076",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000009"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:17f54d25e135cb5f",
+      "editionId": "edn:000077",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000010"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:1889744aead9c8e1",
+      "editionId": "edn:000078",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000011"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:e0a364d2fda543ab",
+      "editionId": "edn:000079",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000012"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:e0b5c43c118878eb",
+      "editionId": "edn:000080",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000013"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:5cd3f834c0c189c4",
+      "editionId": "edn:000081",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000014"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:4fe32a67e03d3e00",
+      "editionId": "edn:000082",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000015"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:0a5789e54f072c3c",
+      "editionId": "edn:000083",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000016"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:270903dc27fbe4ea",
+      "editionId": "edn:000084",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000017"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:1de916e95d67fdd3",
+      "editionId": "edn:000002",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000001"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:4a5c74a992779acb",
+      "editionId": "edn:000085",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000018"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:b4c70945145ed683",
+      "editionId": "edn:000086",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000019"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:46589285c4845255",
+      "editionId": "edn:000087",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000020"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:d7895c1b0d9a9726",
+      "editionId": "edn:000088",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000021"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:da6991335d315a5e",
+      "editionId": "edn:000089",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000022"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:701618209c2639f4",
+      "editionId": "edn:000090",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000023"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:8980a8c0dd032b38",
+      "editionId": "edn:000091",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000024"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:ad5a79749eca1dd1",
+      "editionId": "edn:000092",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000025"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:cb5075225a057585",
+      "editionId": "edn:000093",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000026"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:69e2f04b33411afd",
+      "editionId": "edn:000094",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000027"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:5a66993387c494d1",
+      "editionId": "edn:000095",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000028"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:c6d065397a511436",
+      "editionId": "edn:000096",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000029"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:491c481bdeb64c2b",
+      "editionId": "edn:000097",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000030"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:921709e72faba758",
+      "editionId": "edn:000098",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000031"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:b68fe80c2f2ae2b5",
+      "editionId": "edn:000099",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000032"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:dcb9a70c446ef1a9",
+      "editionId": "edn:000100",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000033"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:8b7e5faa084f3543",
+      "editionId": "edn:000101",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000034"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:73256216f26d8ea4",
+      "editionId": "edn:000102",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000035"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:96e07e1c9f875d52",
+      "editionId": "edn:000103",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000036"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:2a96261ee06e37ed",
+      "editionId": "edn:000104",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000037"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:b054170050e854d6",
+      "editionId": "edn:000004",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000002"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:a05822caac4b0ddb",
+      "editionId": "edn:000105",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000038"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:55292165bf1d8b62",
+      "editionId": "edn:000106",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000039"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:99fd6e35beb0bc08",
+      "editionId": "edn:000107",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000040"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:80f1f4ffc07fec81",
+      "editionId": "edn:000108",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000041"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:5a17fe1cf373163d",
+      "editionId": "edn:000109",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000042"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:116ee2d039ce14b6",
+      "editionId": "edn:000110",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000043"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9742c6de280773ad",
+      "editionId": "edn:000111",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000044"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:509b7598ef5ca65c",
+      "editionId": "edn:000112",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000045"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:69f7ba2ba89724f6",
+      "editionId": "edn:000113",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000046"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:cdfbe73ec2868d3b",
+      "editionId": "edn:000114",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000047"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:eab5142231d95d56",
+      "editionId": "edn:000115",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000048"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:5aca2bab1078f211",
+      "editionId": "edn:000116",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000049"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:138c97be9e00ef68",
+      "editionId": "edn:000117",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000050"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:7d8b4747a3d3f07f",
+      "editionId": "edn:000118",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000051"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:76830cc6522eb18c",
+      "editionId": "edn:000119",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000052"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:abfd3f4d550878c5",
+      "editionId": "edn:000120",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000053"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:b5c96623c9d2a338",
+      "editionId": "edn:000121",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000054"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:c47a112a444ba072",
+      "editionId": "edn:000122",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000055"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:f42c53aab560fa0d",
+      "editionId": "edn:000123",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000056"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:4e26b805c252be9c",
+      "editionId": "edn:000124",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000057"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:67f65aadeca6846a",
+      "editionId": "edn:000125",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000058"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:99c063e7645e8224",
+      "editionId": "edn:000126",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000059"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:0f7679f68b11501d",
+      "editionId": "edn:000127",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000060"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:d96f35968ec9d50a",
+      "editionId": "edn:000128",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000061"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:604f62d9047b77d3",
+      "editionId": "edn:000129",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000062"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:1899a646d50f0cce",
+      "editionId": "edn:000130",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000063"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:d463270e1b917c26",
+      "editionId": "edn:000131",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000064"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:009c052f8e6451f3",
+      "editionId": "edn:000132",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000065"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:b0f07563f3027c2e",
+      "editionId": "edn:000133",
+      "subject": {
+        "type": "collection",
+        "id": "col:000001"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:a2110ce9da9d0efd",
+      "editionId": "edn:000134",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000066"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:c1d85070168c932c",
+      "editionId": "edn:000135",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000067"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:f5a2919d3c02a62a",
+      "editionId": "edn:000136",
+      "subject": {
+        "type": "collection",
+        "id": "col:000002"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:e39cb38e171b143f",
+      "editionId": "edn:000137",
+      "subject": {
+        "type": "collection",
+        "id": "col:000003"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:7857706c19511950",
+      "editionId": "edn:000138",
+      "subject": {
+        "type": "collection",
+        "id": "col:000004"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:34cf5357fa2faf52",
+      "editionId": "edn:000139",
+      "subject": {
+        "type": "collection",
+        "id": "col:000005"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:c5e5e297b799df50",
+      "editionId": "edn:000140",
+      "subject": {
+        "type": "collection",
+        "id": "col:000006"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:4432e9994ddd3cad",
+      "editionId": "edn:000141",
+      "subject": {
+        "type": "collection",
+        "id": "col:000007"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:8705160e674a7e4b",
+      "editionId": "edn:000142",
+      "subject": {
+        "type": "collection",
+        "id": "col:000008"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:bf413bb81ff8931d",
+      "editionId": "edn:000143",
+      "subject": {
+        "type": "collection",
+        "id": "col:000009"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:7da06b141f5c20d9",
+      "editionId": "edn:000144",
+      "subject": {
+        "type": "collection",
+        "id": "col:000010"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:57ff790d7762c613",
+      "editionId": "edn:000145",
+      "subject": {
+        "type": "collection",
+        "id": "col:000011"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:c9feeffbbf625c46",
+      "editionId": "edn:000146",
+      "subject": {
+        "type": "collection",
+        "id": "col:000012"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:f4b60c986f654609",
+      "editionId": "edn:000147",
+      "subject": {
+        "type": "collection",
+        "id": "col:000013"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:11916b02282c5d7e",
+      "editionId": "edn:000148",
+      "subject": {
+        "type": "collection",
+        "id": "col:000014"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:1263c4e0ba850ba4",
+      "editionId": "edn:000149",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000068"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:a787293e8fa79824",
+      "editionId": "edn:000150",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000069"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:d22af0461f2bd1e1",
+      "editionId": "edn:000151",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000070"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:8f8d616acd1c2f5d",
+      "editionId": "edn:000152",
+      "subject": {
+        "type": "collection",
+        "id": "col:000015"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:bccb72473f6467bb",
+      "editionId": "edn:000153",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000071"
+      },
+      "language": "en",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format"
+      ]
+    },
+    {
+      "legacyEditionId": "edition:9789024561575",
+      "editionId": "edn:000154",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000015"
+      },
+      "language": "nl",
+      "identityStatus": "incomplete-example",
+      "sourceSupportedIdentityFields": [],
+      "evidence": null,
+      "open": [
+        "editionPublicationDate",
+        "printing",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    }
+  ]
+}

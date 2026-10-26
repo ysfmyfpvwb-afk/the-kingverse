@@ -82,5 +82,4001 @@
     "review": "legacy-visually-reviewed",
     "sourceId": "src:000002",
     "rightsNote": "Existing visual title/language approval retained. Copyright stays with rights holders; no redistribution licence is asserted."
+  },
+  {
+    "id": "art:000005",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003234",
+        "clm:003235",
+        "clm:003236",
+        "clm:003237",
+        "clm:003238",
+        "clm:003239",
+        "clm:003240"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000005",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789024591350_frontcover_original.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000273",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000006",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003245",
+        "clm:003246",
+        "clm:003247",
+        "clm:003248",
+        "clm:003249",
+        "clm:003250",
+        "clm:003251"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000006",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789024578108_frontcover.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000274",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000007",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003256",
+        "clm:003257",
+        "clm:003258",
+        "clm:003259",
+        "clm:003260",
+        "clm:003261",
+        "clm:003262"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000007",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2026/06/9789021066561_frontcover_original.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000275",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000008",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003267",
+        "clm:003268",
+        "clm:003269",
+        "clm:003270",
+        "clm:003271",
+        "clm:003272",
+        "clm:003273"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000008",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021027791_frontcover.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000276",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000009",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003278",
+        "clm:003279",
+        "clm:003280",
+        "clm:003281",
+        "clm:003282",
+        "clm:003283",
+        "clm:003284"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000009",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021025131_frontcover.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000277",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000010",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003289",
+        "clm:003290",
+        "clm:003291",
+        "clm:003292",
+        "clm:003293",
+        "clm:003294",
+        "clm:003295"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000010",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021043425_frontcover.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000278",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000011",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003300",
+        "clm:003301",
+        "clm:003302",
+        "clm:003303",
+        "clm:003304",
+        "clm:003305",
+        "clm:003306"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000011",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789024578146_frontcover.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000279",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000012",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003311",
+        "clm:003312",
+        "clm:003313",
+        "clm:003314",
+        "clm:003315",
+        "clm:003316",
+        "clm:003317"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000012",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789024578214_frontcover.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000280",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000013",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003322",
+        "clm:003323",
+        "clm:003324",
+        "clm:003325",
+        "clm:003326",
+        "clm:003327",
+        "clm:003328"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000013",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021031354_frontcover_original.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000281",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000014",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003333",
+        "clm:003334",
+        "clm:003335",
+        "clm:003336",
+        "clm:003337",
+        "clm:003338",
+        "clm:003339"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000014",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021043449_frontcover.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000282",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000015",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003344",
+        "clm:003345",
+        "clm:003346",
+        "clm:003347",
+        "clm:003348",
+        "clm:003349",
+        "clm:003350"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000015",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021049151_frontcover.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000283",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000016",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003355",
+        "clm:003356",
+        "clm:003357",
+        "clm:003358",
+        "clm:003359",
+        "clm:003360",
+        "clm:003361"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000016",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021015873_frontcover.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000284",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000017",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003366",
+        "clm:003367",
+        "clm:003368",
+        "clm:003369",
+        "clm:003370",
+        "clm:003371",
+        "clm:003372"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000017",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2025/11/9789021062419_frontcover_original.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000285",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000018",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003377",
+        "clm:003378",
+        "clm:003379",
+        "clm:003380",
+        "clm:003381",
+        "clm:003382",
+        "clm:003383"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000018",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021027432_frontcover_original.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000286",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000019",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003388",
+        "clm:003389",
+        "clm:003390",
+        "clm:003391",
+        "clm:003392",
+        "clm:003393",
+        "clm:003394"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000019",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021025261_frontcover_original.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000287",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000020",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003399",
+        "clm:003400",
+        "clm:003401",
+        "clm:003402",
+        "clm:003403",
+        "clm:003404",
+        "clm:003405"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000020",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789024578160_frontcover.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000288",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000021",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003410",
+        "clm:003411",
+        "clm:003412",
+        "clm:003413",
+        "clm:003414",
+        "clm:003415",
+        "clm:003416"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000021",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/06/9789021051420_frontcover_original.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000289",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000022",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003421",
+        "clm:003422",
+        "clm:003423",
+        "clm:003424",
+        "clm:003425",
+        "clm:003426",
+        "clm:003427"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000022",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021048390_frontcover_original.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000290",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000023",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003432",
+        "clm:003433",
+        "clm:003434",
+        "clm:003435",
+        "clm:003436",
+        "clm:003437",
+        "clm:003438"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000023",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2026/06/9789021066547_frontcover.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000291",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000024",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003447",
+        "clm:003448",
+        "clm:003449",
+        "clm:003450",
+        "clm:003451",
+        "clm:003452",
+        "clm:003453"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000025",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021037264_frontcover_original.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000293",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000025",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003458",
+        "clm:003459",
+        "clm:003460",
+        "clm:003461",
+        "clm:003462",
+        "clm:003463",
+        "clm:003464"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000026",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021048413_frontcover_original.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000294",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000026",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003469",
+        "clm:003470",
+        "clm:003471",
+        "clm:003472",
+        "clm:003473",
+        "clm:003474",
+        "clm:003475"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000027",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2026/03/9789021064383_frontcover.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000295",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000027",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003480",
+        "clm:003481",
+        "clm:003482",
+        "clm:003483",
+        "clm:003484",
+        "clm:003485",
+        "clm:003486"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000028",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021049144_frontcover.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000296",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000028",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003491",
+        "clm:003492",
+        "clm:003493",
+        "clm:003494",
+        "clm:003495",
+        "clm:003496",
+        "clm:003497"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000029",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021037431_frontcover_original.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000297",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000029",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003502",
+        "clm:003503",
+        "clm:003504",
+        "clm:003505",
+        "clm:003506",
+        "clm:003507",
+        "clm:003508"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000030",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021025360_frontcover_original.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000298",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000030",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003513",
+        "clm:003514",
+        "clm:003515",
+        "clm:003516",
+        "clm:003517",
+        "clm:003518",
+        "clm:003519"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000031",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021036830_frontcover.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000299",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000031",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003524",
+        "clm:003525",
+        "clm:003526",
+        "clm:003527",
+        "clm:003528",
+        "clm:003529",
+        "clm:003530"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000032",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021037301_frontcover.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000300",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000032",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003535",
+        "clm:003536",
+        "clm:003537",
+        "clm:003538",
+        "clm:003539",
+        "clm:003540",
+        "clm:003541"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000033",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2025/03/9789021055725_frontcover.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000301",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000033",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003546",
+        "clm:003547",
+        "clm:003548",
+        "clm:003549",
+        "clm:003550",
+        "clm:003551",
+        "clm:003552"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000034",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021037325_frontcover_original.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000302",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000034",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003557",
+        "clm:003558",
+        "clm:003559",
+        "clm:003560",
+        "clm:003561",
+        "clm:003562",
+        "clm:003563"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000035",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021037332_frontcover_original.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000303",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000035",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003568",
+        "clm:003569",
+        "clm:003570",
+        "clm:003571",
+        "clm:003572",
+        "clm:003573",
+        "clm:003574"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000036",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021037356_frontcover_original.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000304",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000036",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003579",
+        "clm:003580",
+        "clm:003581",
+        "clm:003582",
+        "clm:003583",
+        "clm:003584",
+        "clm:003585"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000037",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021037363_frontcover_original.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000305",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000037",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003590",
+        "clm:003591",
+        "clm:003592",
+        "clm:003593",
+        "clm:003594",
+        "clm:003595",
+        "clm:003596"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000038",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2025/11/9789021062433_frontcover.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000306",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000038",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003601",
+        "clm:003602",
+        "clm:003603",
+        "clm:003604",
+        "clm:003605",
+        "clm:003606",
+        "clm:003607"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000039",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2026/03/9789021064390_frontcover.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000307",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000039",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003612",
+        "clm:003613",
+        "clm:003614",
+        "clm:003615",
+        "clm:003616",
+        "clm:003617",
+        "clm:003618"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000040",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2026/07/9789021066554_frontcover_original.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000308",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000040",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003623",
+        "clm:003624",
+        "clm:003625",
+        "clm:003626",
+        "clm:003627",
+        "clm:003628",
+        "clm:003629"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000041",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2026/10/9789024578207_frontcover.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000309",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000041",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003634",
+        "clm:003635",
+        "clm:003636",
+        "clm:003637",
+        "clm:003638",
+        "clm:003639",
+        "clm:003640"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000042",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021037448_frontcover_original.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000310",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000042",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003649",
+        "clm:003650",
+        "clm:003651",
+        "clm:003652",
+        "clm:003653",
+        "clm:003654",
+        "clm:003655"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000044",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2025/06/9789021059662_frontcover.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000312",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000043",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003660",
+        "clm:003661",
+        "clm:003662",
+        "clm:003663",
+        "clm:003664",
+        "clm:003665",
+        "clm:003666"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000045",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2025/03/9789021055718_frontcover.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000313",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000044",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003671",
+        "clm:003672",
+        "clm:003673",
+        "clm:003674",
+        "clm:003675",
+        "clm:003676",
+        "clm:003677"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000046",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021026152_frontcover.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000314",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000045",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003682",
+        "clm:003683",
+        "clm:003684",
+        "clm:003685",
+        "clm:003686",
+        "clm:003687",
+        "clm:003688"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000047",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021019321_frontcover.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000315",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000046",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003693",
+        "clm:003694",
+        "clm:003695",
+        "clm:003696",
+        "clm:003697",
+        "clm:003698",
+        "clm:003699"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000048",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021037653_frontcover_original.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000316",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000047",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003704",
+        "clm:003705",
+        "clm:003706",
+        "clm:003707",
+        "clm:003708",
+        "clm:003709",
+        "clm:003710"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000049",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021027784_frontcover.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000317",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000048",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003715",
+        "clm:003716",
+        "clm:003717",
+        "clm:003718",
+        "clm:003719",
+        "clm:003720",
+        "clm:003721"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000050",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789024576135_frontcover.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000318",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000049",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003726",
+        "clm:003727",
+        "clm:003728",
+        "clm:003729",
+        "clm:003730",
+        "clm:003731",
+        "clm:003732"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000051",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021023281_frontcover.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000319",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000050",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003737",
+        "clm:003738",
+        "clm:003739",
+        "clm:003740",
+        "clm:003741",
+        "clm:003742",
+        "clm:003743"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000052",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021025285_frontcover.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000320",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000051",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003748",
+        "clm:003749",
+        "clm:003750",
+        "clm:003751",
+        "clm:003752",
+        "clm:003753",
+        "clm:003754"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000053",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021024417_frontcover.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000321",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000052",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003759",
+        "clm:003760",
+        "clm:003761",
+        "clm:003762",
+        "clm:003763",
+        "clm:003764",
+        "clm:003765"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000054",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021025742_frontcover_original.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000322",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000053",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003770",
+        "clm:003771",
+        "clm:003772",
+        "clm:003773",
+        "clm:003774",
+        "clm:003775",
+        "clm:003776"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000055",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2026/10/9789024559688_frontcover.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000323",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000054",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003781",
+        "clm:003782",
+        "clm:003783",
+        "clm:003784",
+        "clm:003785",
+        "clm:003786",
+        "clm:003787"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000056",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789024578245_frontcover.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000324",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000055",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003792",
+        "clm:003793",
+        "clm:003794",
+        "clm:003795",
+        "clm:003796",
+        "clm:003797",
+        "clm:003798"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000057",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2026/10/9789021037196_frontcover_original.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000325",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000056",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003803",
+        "clm:003804",
+        "clm:003805",
+        "clm:003806",
+        "clm:003807",
+        "clm:003808",
+        "clm:003809"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000058",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789024578047_frontcover.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000326",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000057",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003814",
+        "clm:003815",
+        "clm:003816",
+        "clm:003817",
+        "clm:003818",
+        "clm:003819",
+        "clm:003820"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000059",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021039800_frontcover.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000327",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000058",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003825",
+        "clm:003826",
+        "clm:003827",
+        "clm:003828",
+        "clm:003829",
+        "clm:003830",
+        "clm:003831"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000060",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2026/06/9789021064468_frontcover.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000328",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000059",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003836",
+        "clm:003837",
+        "clm:003838",
+        "clm:003839",
+        "clm:003840",
+        "clm:003841",
+        "clm:003842"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000061",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2025/03/9789021055732_frontcover_original.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000329",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000060",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003847",
+        "clm:003848",
+        "clm:003849",
+        "clm:003850",
+        "clm:003851",
+        "clm:003852",
+        "clm:003853"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000062",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2025/11/9789021062440_frontcover.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000330",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000061",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003858",
+        "clm:003859",
+        "clm:003860",
+        "clm:003861",
+        "clm:003862",
+        "clm:003863",
+        "clm:003864"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000063",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789024578115_frontcover.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000331",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000062",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003869",
+        "clm:003870",
+        "clm:003871",
+        "clm:003872",
+        "clm:003873",
+        "clm:003874",
+        "clm:003875"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000064",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021022925_frontcover_original.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000332",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000063",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003880",
+        "clm:003881",
+        "clm:003882",
+        "clm:003883",
+        "clm:003884",
+        "clm:003885",
+        "clm:003886"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000065",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2025/02/9789021037226_frontcover_original.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000333",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000064",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003891",
+        "clm:003892",
+        "clm:003893",
+        "clm:003894",
+        "clm:003895",
+        "clm:003896",
+        "clm:003897"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000066",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789024567515_frontcover.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000334",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000065",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003902",
+        "clm:003903",
+        "clm:003904",
+        "clm:003905",
+        "clm:003906",
+        "clm:003907",
+        "clm:003908"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000067",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789024552290_frontcover.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000335",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000066",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003913",
+        "clm:003914",
+        "clm:003915",
+        "clm:003916",
+        "clm:003917",
+        "clm:003918",
+        "clm:003919"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000068",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789024561179_frontcover.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000336",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000067",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003924",
+        "clm:003925",
+        "clm:003926",
+        "clm:003927",
+        "clm:003928",
+        "clm:003929",
+        "clm:003930"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000069",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789024561186_frontcover.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000337",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000068",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003935",
+        "clm:003936",
+        "clm:003937",
+        "clm:003938",
+        "clm:003939",
+        "clm:003940",
+        "clm:003941"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000070",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/carrie/hardcover_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000006",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000069",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003946",
+        "clm:003947",
+        "clm:003948",
+        "clm:003949",
+        "clm:003950",
+        "clm:003951",
+        "clm:003952"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000071",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/salems_lot/hardcover_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000007",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000070",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003957",
+        "clm:003958",
+        "clm:003959",
+        "clm:003960",
+        "clm:003961",
+        "clm:003962",
+        "clm:003963"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000072",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/shining/hardcover_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000008",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000071",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003968",
+        "clm:003969",
+        "clm:003970",
+        "clm:003971",
+        "clm:003972",
+        "clm:003973",
+        "clm:003974"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000073",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/rage/paperback_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000009",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000072",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003979",
+        "clm:003980",
+        "clm:003981",
+        "clm:003982",
+        "clm:003983",
+        "clm:003984",
+        "clm:003985"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000074",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/78_stand/prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000010",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000073",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:003990",
+        "clm:003991",
+        "clm:003992",
+        "clm:003993",
+        "clm:003994",
+        "clm:003995",
+        "clm:003996"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000075",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/long_walk/paperback_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000011",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000074",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004001",
+        "clm:004002",
+        "clm:004003",
+        "clm:004004",
+        "clm:004005",
+        "clm:004006",
+        "clm:004007"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000076",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/dead_zone/hardcover_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000012",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000075",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004012",
+        "clm:004013",
+        "clm:004014",
+        "clm:004015",
+        "clm:004016",
+        "clm:004017",
+        "clm:004018"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000077",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/firestarter/hardcover_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000013",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000076",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004023",
+        "clm:004024",
+        "clm:004025",
+        "clm:004026",
+        "clm:004027",
+        "clm:004028",
+        "clm:004029"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000078",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/roadwork/paperback_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000014",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000077",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004034",
+        "clm:004035",
+        "clm:004036",
+        "clm:004037",
+        "clm:004038",
+        "clm:004039",
+        "clm:004040"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000079",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/cujo/hardcover_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000015",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000078",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004045",
+        "clm:004046",
+        "clm:004047",
+        "clm:004048",
+        "clm:004049",
+        "clm:004050",
+        "clm:004051"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000080",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/running_man/hardcover_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000016",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000079",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004056",
+        "clm:004057",
+        "clm:004058",
+        "clm:004059",
+        "clm:004060",
+        "clm:004061",
+        "clm:004062"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000081",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/novel/70/the_gunslinger.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000017",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000080",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004067",
+        "clm:004068",
+        "clm:004069",
+        "clm:004070",
+        "clm:004071",
+        "clm:004072",
+        "clm:004073"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000082",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/christine/hardcover_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000018",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000081",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004078",
+        "clm:004079",
+        "clm:004080",
+        "clm:004081",
+        "clm:004082",
+        "clm:004083",
+        "clm:004084"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000083",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/pet_sematary/hardcover_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000019",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000082",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004089",
+        "clm:004090",
+        "clm:004091",
+        "clm:004092",
+        "clm:004093",
+        "clm:004094",
+        "clm:004095"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000084",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/cycle_of_the_werewolf/hardcover_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000020",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000083",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004100",
+        "clm:004101",
+        "clm:004102",
+        "clm:004103",
+        "clm:004104",
+        "clm:004105",
+        "clm:004106"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000085",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/thinner/hardcover_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000021",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000084",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004111",
+        "clm:004112",
+        "clm:004113",
+        "clm:004114",
+        "clm:004115",
+        "clm:004116",
+        "clm:004117"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000086",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/it/hardcover_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000022",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000085",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004122",
+        "clm:004123",
+        "clm:004124",
+        "clm:004125",
+        "clm:004126",
+        "clm:004127",
+        "clm:004128"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000087",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/eyes_of_the_dragon/hardcover_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000023",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000086",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004133",
+        "clm:004134",
+        "clm:004135",
+        "clm:004136",
+        "clm:004137",
+        "clm:004138",
+        "clm:004139"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000088",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/misery/hardcover_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000024",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000087",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004144",
+        "clm:004145",
+        "clm:004146",
+        "clm:004147",
+        "clm:004148",
+        "clm:004149",
+        "clm:004150"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000089",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/novel/12/the_drawing_of_the_three.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000025",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000088",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004155",
+        "clm:004156",
+        "clm:004157",
+        "clm:004158",
+        "clm:004159",
+        "clm:004160",
+        "clm:004161"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000090",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/tommyknockers/hardcover_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000026",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000089",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004166",
+        "clm:004167",
+        "clm:004168",
+        "clm:004169",
+        "clm:004170",
+        "clm:004171",
+        "clm:004172"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000091",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/novel/1/hardcover_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000027",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000090",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004177",
+        "clm:004178",
+        "clm:004179",
+        "clm:004180",
+        "clm:004181",
+        "clm:004182",
+        "clm:004183"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000092",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/novel/13/the_waste_lands.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000028",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000091",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004188",
+        "clm:004189",
+        "clm:004190",
+        "clm:004191",
+        "clm:004192",
+        "clm:004193",
+        "clm:004194"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000093",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/needfull_things/hardcover_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000029",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000092",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004199",
+        "clm:004200",
+        "clm:004201",
+        "clm:004202",
+        "clm:004203",
+        "clm:004204",
+        "clm:004205"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000094",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/geralds_game/hardcover_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000030",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000093",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004210",
+        "clm:004211",
+        "clm:004212",
+        "clm:004213",
+        "clm:004214",
+        "clm:004215",
+        "clm:004216"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000095",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/dolores_claiborne/hardcover_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000031",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000094",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004221",
+        "clm:004222",
+        "clm:004223",
+        "clm:004224",
+        "clm:004225",
+        "clm:004226",
+        "clm:004227"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000096",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/insomnia/hardcover_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000032",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000095",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004232",
+        "clm:004233",
+        "clm:004234",
+        "clm:004235",
+        "clm:004236",
+        "clm:004237",
+        "clm:004238"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000097",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/rose_madder/hardcover_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000033",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000096",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004243",
+        "clm:004244",
+        "clm:004245",
+        "clm:004246",
+        "clm:004247",
+        "clm:004248",
+        "clm:004249"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000098",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/novel/45/hardcover.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000034",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000097",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004254",
+        "clm:004255",
+        "clm:004256",
+        "clm:004257",
+        "clm:004258",
+        "clm:004259",
+        "clm:004260"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000099",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/desperation/hardcover_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000035",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000098",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004265",
+        "clm:004266",
+        "clm:004267",
+        "clm:004268",
+        "clm:004269",
+        "clm:004270",
+        "clm:004271"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000100",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/regulators/hardcover_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000036",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000099",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004276",
+        "clm:004277",
+        "clm:004278",
+        "clm:004279",
+        "clm:004280",
+        "clm:004281",
+        "clm:004282"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000101",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/novel/14/wizard_and_glass.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000037",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000100",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004287",
+        "clm:004288",
+        "clm:004289",
+        "clm:004290",
+        "clm:004291",
+        "clm:004292",
+        "clm:004293"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000102",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/bag_of_bones/hardcover_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000038",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000101",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004298",
+        "clm:004299",
+        "clm:004300",
+        "clm:004301",
+        "clm:004302",
+        "clm:004303",
+        "clm:004304"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000103",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/girl_who_loved_tom_gordon/hardcover_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000039",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000102",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004309",
+        "clm:004310",
+        "clm:004311",
+        "clm:004312",
+        "clm:004313",
+        "clm:004314",
+        "clm:004315"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000104",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/dreamcatcher/hardcover_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000040",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000103",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004320",
+        "clm:004321",
+        "clm:004322",
+        "clm:004323",
+        "clm:004324",
+        "clm:004325",
+        "clm:004326"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000105",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/from_a_buick_8/hardcover_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000041",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000104",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004331",
+        "clm:004332",
+        "clm:004333",
+        "clm:004334",
+        "clm:004335",
+        "clm:004336",
+        "clm:004337"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000106",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/novel/16/hardcover_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000042",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000105",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004342",
+        "clm:004343",
+        "clm:004344",
+        "clm:004345",
+        "clm:004346",
+        "clm:004347",
+        "clm:004348"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000107",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/song_of_sussanah/hardcover_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000043",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000106",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004353",
+        "clm:004354",
+        "clm:004355",
+        "clm:004356",
+        "clm:004357",
+        "clm:004358",
+        "clm:004359"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000108",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/dark_tower/hardcover_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000044",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000107",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004364",
+        "clm:004365",
+        "clm:004366",
+        "clm:004367",
+        "clm:004368",
+        "clm:004369",
+        "clm:004370"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000109",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/colorado_kid/paperback_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000045",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000108",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004375",
+        "clm:004376",
+        "clm:004377",
+        "clm:004378",
+        "clm:004379",
+        "clm:004380",
+        "clm:004381"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000110",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/cell/hardcover_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000046",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000109",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004386",
+        "clm:004387",
+        "clm:004388",
+        "clm:004389",
+        "clm:004390",
+        "clm:004391",
+        "clm:004392"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000111",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/liseys_story/hardcover_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000047",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000110",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004397",
+        "clm:004398",
+        "clm:004399",
+        "clm:004400",
+        "clm:004401",
+        "clm:004402",
+        "clm:004403"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000112",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/blaze/hardcover_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000048",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000111",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004408",
+        "clm:004409",
+        "clm:004410",
+        "clm:004411",
+        "clm:004412",
+        "clm:004413",
+        "clm:004414"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000113",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/duma_key/hardcover_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000049",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000112",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004419",
+        "clm:004420",
+        "clm:004421",
+        "clm:004422",
+        "clm:004423",
+        "clm:004424",
+        "clm:004425"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000114",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/novel/56/utd.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000050",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000113",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004430",
+        "clm:004431",
+        "clm:004432",
+        "clm:004433",
+        "clm:004434",
+        "clm:004435",
+        "clm:004436"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000115",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/11-22-63/11-22-63_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000051",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000114",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004441",
+        "clm:004442",
+        "clm:004443",
+        "clm:004444",
+        "clm:004445",
+        "clm:004446",
+        "clm:004447"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000116",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/wind_through_the_keyhole/wind_through_the_keyhole_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000052",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000115",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004452",
+        "clm:004453",
+        "clm:004454",
+        "clm:004455",
+        "clm:004456",
+        "clm:004457",
+        "clm:004458"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000117",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/joyland/joyland_property_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000053",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000116",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004463",
+        "clm:004464",
+        "clm:004465",
+        "clm:004466",
+        "clm:004467",
+        "clm:004468",
+        "clm:004469"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000118",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/doctor_sleep/doctor_sleep_property_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000054",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000117",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004474",
+        "clm:004475",
+        "clm:004476",
+        "clm:004477",
+        "clm:004478",
+        "clm:004479",
+        "clm:004480"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000119",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/mr_mercedes/mr_mecedes_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000055",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000118",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004485",
+        "clm:004486",
+        "clm:004487",
+        "clm:004488",
+        "clm:004489",
+        "clm:004490",
+        "clm:004491"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000120",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/revival/revival_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000056",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000119",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004496",
+        "clm:004497",
+        "clm:004498",
+        "clm:004499",
+        "clm:004500",
+        "clm:004501",
+        "clm:004502"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000121",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/finders-keepers/finders_keepers_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000057",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000120",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004507",
+        "clm:004508",
+        "clm:004509",
+        "clm:004510",
+        "clm:004511",
+        "clm:004512",
+        "clm:004513"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000122",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/novel/68/end_of_watch_rev_lr.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000058",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000121",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004518",
+        "clm:004519",
+        "clm:004520",
+        "clm:004521",
+        "clm:004522",
+        "clm:004523",
+        "clm:004524"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000123",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/sleeping_beauties/sleeping_beauties_prop_embed.png",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000059",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000122",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004529",
+        "clm:004530",
+        "clm:004531",
+        "clm:004532",
+        "clm:004533",
+        "clm:004534",
+        "clm:004535"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000124",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/novella/19/gwendy.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000060",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000123",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004540",
+        "clm:004541",
+        "clm:004542",
+        "clm:004543",
+        "clm:004544",
+        "clm:004545",
+        "clm:004546"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000125",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/novel/71/outsider.png",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000062",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000124",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004551",
+        "clm:004552",
+        "clm:004553",
+        "clm:004554",
+        "clm:004555",
+        "clm:004556",
+        "clm:004557"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000126",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/novella/20/elevation.large.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000063",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000125",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004562",
+        "clm:004563",
+        "clm:004564",
+        "clm:004565",
+        "clm:004566",
+        "clm:004567",
+        "clm:004568"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000127",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/novel/72/institutem.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000064",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000126",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004573",
+        "clm:004574",
+        "clm:004575",
+        "clm:004576",
+        "clm:004577",
+        "clm:004578",
+        "clm:004579"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000128",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/novel/74/later.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000065",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000127",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004584",
+        "clm:004585",
+        "clm:004586",
+        "clm:004587",
+        "clm:004588",
+        "clm:004589",
+        "clm:004590"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000129",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/novel/billy-summers.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000066",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000128",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004595",
+        "clm:004596",
+        "clm:004597",
+        "clm:004598",
+        "clm:004599",
+        "clm:004600",
+        "clm:004601"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000130",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/novel/gwendy-ft.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000067",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000129",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004606",
+        "clm:004607",
+        "clm:004608",
+        "clm:004609",
+        "clm:004610",
+        "clm:004611",
+        "clm:004612"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000131",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/novel/fairy-tale.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000068",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000130",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004617",
+        "clm:004618",
+        "clm:004619",
+        "clm:004620",
+        "clm:004621",
+        "clm:004622",
+        "clm:004623"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000132",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/novel/holly.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000069",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000131",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004628",
+        "clm:004629",
+        "clm:004630",
+        "clm:004631",
+        "clm:004632",
+        "clm:004633",
+        "clm:004634"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000133",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/novel/like-it-darker.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000070",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000132",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004639",
+        "clm:004640",
+        "clm:004641",
+        "clm:004642",
+        "clm:004643",
+        "clm:004644",
+        "clm:004645"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000134",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/novel/never-flinch.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000071",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000133",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004650",
+        "clm:004651",
+        "clm:004652",
+        "clm:004653",
+        "clm:004654",
+        "clm:004655",
+        "clm:004656"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000135",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/novel/other-worlds-cover.png",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000072",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000134",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004661",
+        "clm:004662",
+        "clm:004663",
+        "clm:004664",
+        "clm:004665",
+        "clm:004666",
+        "clm:004667"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000136",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/nightshift/hardcover_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000074",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000135",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004672",
+        "clm:004673",
+        "clm:004674",
+        "clm:004675",
+        "clm:004676",
+        "clm:004677",
+        "clm:004678"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000137",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/different_seasons/hardcover_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000075",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000136",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004683",
+        "clm:004684",
+        "clm:004685",
+        "clm:004686",
+        "clm:004687",
+        "clm:004688",
+        "clm:004689"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000138",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/skeleton_crew/hardcover_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000076",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000137",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004694",
+        "clm:004695",
+        "clm:004696",
+        "clm:004697",
+        "clm:004698",
+        "clm:004699",
+        "clm:004700"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000139",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/four_past_midnight/hardcover_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000077",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000138",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004705",
+        "clm:004706",
+        "clm:004707",
+        "clm:004708",
+        "clm:004709",
+        "clm:004710",
+        "clm:004711"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000140",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/nightmares_and_dreamscapes/hardcover_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000078",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000139",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004716",
+        "clm:004717",
+        "clm:004718",
+        "clm:004719",
+        "clm:004720",
+        "clm:004721",
+        "clm:004722"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000141",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/hearts_in_atlantis/hardcover_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000079",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000140",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004727",
+        "clm:004728",
+        "clm:004729",
+        "clm:004730",
+        "clm:004731",
+        "clm:004732",
+        "clm:004733"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000142",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/everythings_eventual/hardcover_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000080",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000141",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004738",
+        "clm:004739",
+        "clm:004740",
+        "clm:004741",
+        "clm:004742",
+        "clm:004743",
+        "clm:004744"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000143",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/story_collection/8/just_after_sunset.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000081",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000142",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004749",
+        "clm:004750",
+        "clm:004751",
+        "clm:004752",
+        "clm:004753",
+        "clm:004754",
+        "clm:004755"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000144",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/new_in_stores/skgttm/skgttm_full.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000082",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000143",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004760",
+        "clm:004761",
+        "clm:004762",
+        "clm:004763",
+        "clm:004764",
+        "clm:004765",
+        "clm:004766"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000145",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/full_dark_no_stars/full_dark_no_stars_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000083",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000144",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004771",
+        "clm:004772",
+        "clm:004773",
+        "clm:004774",
+        "clm:004775",
+        "clm:004776",
+        "clm:004777"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000146",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/bazaar-of-bad-dreams/bobd_cover_1_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000084",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000145",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004782",
+        "clm:004783",
+        "clm:004784",
+        "clm:004785",
+        "clm:004786",
+        "clm:004787",
+        "clm:004788"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000147",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/story_collection/12/bleeds.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000085",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000146",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004793",
+        "clm:004794",
+        "clm:004795",
+        "clm:004796",
+        "clm:004797",
+        "clm:004798",
+        "clm:004799"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000148",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/bachman_novel/7/hardcover_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000086",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000147",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004804",
+        "clm:004805",
+        "clm:004806",
+        "clm:004807",
+        "clm:004808",
+        "clm:004809",
+        "clm:004810"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000149",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/blockade_billy/blockade_billy_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000087",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000148",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004815",
+        "clm:004816",
+        "clm:004817",
+        "clm:004818",
+        "clm:004819",
+        "clm:004820",
+        "clm:004821"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000150",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/other_project/american_vampire/amercian_vampire_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000088",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000149",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004826",
+        "clm:004827",
+        "clm:004828",
+        "clm:004829",
+        "clm:004830",
+        "clm:004831",
+        "clm:004832"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000151",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/books/faithful/hardcover_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000089",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000150",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004837",
+        "clm:004838",
+        "clm:004839",
+        "clm:004840",
+        "clm:004841",
+        "clm:004842",
+        "clm:004843"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000152",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/nonfiction/5/hardcover_prop_embed.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000090",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000151",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004848",
+        "clm:004849",
+        "clm:004850",
+        "clm:004851",
+        "clm:004852",
+        "clm:004853",
+        "clm:004854"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000153",
+    "adaptationId": null,
+    "url": "https://stephenking.com/images/nonfiction/6/nightmaresinthesky.jpg",
+    "language": "en",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000091",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
+  },
+  {
+    "id": "art:000152",
+    "entityType": "artwork",
+    "verification": {
+      "claimIds": [
+        "clm:004859",
+        "clm:004860",
+        "clm:004861",
+        "clm:004862",
+        "clm:004863",
+        "clm:004864",
+        "clm:004865"
+      ],
+      "open": [
+        "reusePermission",
+        "currentDelivery"
+      ]
+    },
+    "kind": "cover",
+    "editionId": "edn:000154",
+    "adaptationId": null,
+    "url": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789024561575_frontcover.jpg",
+    "language": "nl",
+    "review": "legacy-visually-reviewed",
+    "sourceId": "src:000338",
+    "rightsNote": "Existing visual evidence only. Copyright remains with rights holders; no permission or reliable delivery is established."
   }
 ]

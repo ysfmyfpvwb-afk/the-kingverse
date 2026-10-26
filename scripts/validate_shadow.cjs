@@ -6,7 +6,7 @@ const {isDeepStrictEqual:equal}=require('node:util');
 function validateShadow(bundle,ledger,{root=ROOT,checkGenerated=true,views,decisions}={}){
  const result=validate(bundle,{root,checkCompatibility:false});const errors=[...result.errors];
  const add=(code,message)=>errors.push({code,message});
- if(bundle.manifest.scope!=='shadow-stories-batch-02')add('batch-scope','Wrong shadow batch');
+ if(bundle.manifest.scope!=='shadow-publications-batch-03')add('batch-scope','Wrong shadow batch');
  try{
   const expected=generateShadow(root);
   if(!equal(bundle,expected.bundle))add('projection-difference','Canonical records/claims/aliases differ from the reviewed migration projection');
@@ -23,6 +23,13 @@ function validateShadow(bundle,ledger,{root=ROOT,checkGenerated=true,views,decis
   const newSlots=[...Object.values(overlay.entities).map(t=>t.id),...Object.values(overlay.people),...Object.values(overlay.sources),...Object.values(overlay.credits),...Object.values(overlay.memberships),...Object.values(overlay.connections),...Object.values(overlay.claims)];
   if(new Set([...slots,...newSlots]).size!==slots.length+newSlots.length)add('allocation-collision','Batch 02 reuses a prior allocation for a different key');
   for(const[id,snapshot]of Object.entries(overlay.preservedEntities))if(!entities.has(id)||hash(JSON.stringify(entities.get(id)))!==snapshot.sha256)add('batch-01-entity-changed',id);
+  const third=JSON.parse(fs.readFileSync(path.join(root,'data/migration/batch-03-register.json'),'utf8'));
+  const thirdSlots=['editions','artworks','publications','sources','claims'].flatMap(k=>Object.values(third[k]));
+  if(new Set([...slots,...newSlots,...thirdSlots]).size!==slots.length+newSlots.length+thirdSlots.length)add('allocation-collision','Batch 03 ID collision');
+  for(const[id,snapshot]of Object.entries(third.preservedEntities))if(!entities.has(id)||hash(JSON.stringify(entities.get(id)))!==snapshot.sha256)add('batch-02-entity-changed',id);
+  const policy=JSON.parse(fs.readFileSync(path.join(root,'data/migration/cover-provenance.json'),'utf8'));
+  errors.push(...require('./validate_cover_provenance.cjs').validateCoverProvenance(policy,bundle));
+  if(!equal(policy,expected.publications.provenance))add('cover-policy-projection','Cover evidence/policy differs from preserved observations');
   const projected=views||JSON.parse(fs.readFileSync(path.join(root,'data/migration/story-views.json'),'utf8'));
   const review=decisions||JSON.parse(fs.readFileSync(path.join(root,'data/migration/batch-02-decisions.json'),'utf8'));
   if(!equal(projected,expected.stories.views))add('story-view-projection','Missing or changed story/default membership projection');
@@ -33,7 +40,7 @@ function validateShadow(bundle,ledger,{root=ROOT,checkGenerated=true,views,decis
    if(view.defaultMembershipId&&!view.membershipIds.includes(view.defaultMembershipId))add('default-membership',view.legacyStoryId);
   }
   if(bundle.collectionMemberships.some(m=>m.order!==null))add('uncertified-order','No contents order was verified for this batch');
-  if(bundle.collectionMemberships.length!==155||bundle.editions.length!==4||bundle.artworks.length!==4||bundle.adaptations.length!==0||bundle.publicationEvents.length!==2||bundle.connections.length!==9)add('batch-boundary','Stop after Batch 02; no edition, artwork, publication-event, adaptation or Tower migration');
+  if(bundle.collectionMemberships.length!==155||bundle.editions.length!==154||bundle.artworks.length!==152||bundle.adaptations.length!==0||bundle.publicationEvents.length!==239||bundle.connections.length!==9)add('batch-boundary','Stop after Batch 03; 154 edition examples, 152 known covers, 239 publication observations, no adaptation or Tower migration');
  }catch(e){add('batch-input',e.message);}
  return {valid:errors.length===0,errors,counts:result.counts};
 }

@@ -1,5 +1,5 @@
 'use strict';
-// Cumulative Batches 01–02: identities, scoped credits and memberships. No publication/edition inference.
+// Cumulative shadow batches; historical projections remain separately reproducible.
 const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
 const {ROOT,loadBundle}=require('./validate_foundation.cjs');
 const {readGenerated}=require('./foundation_compat.cjs');
@@ -7,14 +7,16 @@ const hash=v=>crypto.createHash('sha256').update(typeof v==='string'?v:JSON.stri
 const read=(name,root=ROOT)=>JSON.parse(fs.readFileSync(path.join(root,name),'utf8'));
 const KINDS={'Roman':'novel','Novelle':'novella','Strip':'comic','Non-fictie':'nonfiction','Fotoboek':'nonfiction'};
 function inputs(root=ROOT){return {db:readGenerated('catalog.js','DB',root),seed:loadBundle(path.join(root,'data/v2')),contributors:read('data/contributors.json',root)};}
-function generateShadow(root=ROOT,{batch='02'}={}){
+function generateShadow(root=ROOT,{batch='03'}={}){
  const {db,seed,contributors}=inputs(root);const allocation=read('data/migration/id-register.json',root);
  for(const[file,digest]of Object.entries(allocation.baselineInputs)){if(hash(fs.readFileSync(path.join(root,file),'utf8'))!==digest)throw Error('Baseline changed; review before migration: '+file);}
- const overlay=batch==='02'?read('data/migration/batch-02-register.json',root):null;
+ const overlay=batch!=='01'?read('data/migration/batch-02-register.json',root):null;
  if(overlay)for(const[file,digest]of Object.entries(overlay.baselineInputs))if(hash(fs.readFileSync(path.join(root,file),'utf8'))!==digest)throw Error('Batch 02 baseline changed: '+file);
+ const batch03=batch==='03'?read('data/migration/batch-03-register.json',root):null;
+ if(batch03)for(const[file,digest]of Object.entries(batch03.baselineInputs))if(hash(fs.readFileSync(path.join(root,file),'utf8'))!==digest)throw Error('Batch 03 baseline changed: '+file);
  const bundle=structuredClone(seed);const mappings=[];const records=[];
  const existing=new Map(Object.values(bundle).filter(Array.isArray).flat().filter(x=>x.id).map(x=>[x.id,x]));
- function assigned(table,key){const id=allocation[table]?.[key]||overlay?.[table]?.[key];if(!id)throw Error(`Unregistered ${table}: ${key}; review and allocate once`);return id;}
+ function assigned(table,key){const id=allocation[table]?.[key]||overlay?.[table]?.[key]||batch03?.[table]?.[key];if(!id)throw Error(`Unregistered ${table}: ${key}; review and allocate once`);return id;}
  function register(table,r){if(existing.has(r.id))throw Error('Duplicate allocation '+r.id);bundle[table].push(r);bundle.registry.entries.push({id:r.id,type:r.entityType});existing.set(r.id,r);return r;}
  function source(url){
   const id=assigned('sources',url);if(existing.has(id))return id;
@@ -68,9 +70,10 @@ function generateShadow(root=ROOT,{batch='02'}={}){
  }
  let stories=null;const viewTargets=new Map();
  if(overlay){stories=require('./migrate_stories.cjs').migrateStories({root,db,bundle,existing,register,claim,alias,point,assigned,people,overlay});records.push(...stories.rows);for(const f of stories.fields)viewTargets.set(f.pointer,f.target);}
+ const publications=batch03?require('./migrate_publications.cjs').migratePublications({root,db,bundle,existing,register,claim,alias,point,assigned,source}):null;
  function walk(value,pointer){
   if(value!==null&&typeof value==='object'&&Object.keys(value).length){for(const[k,v]of Object.entries(value))walk(v,pointer+'/'+k.replaceAll('~','~0').replaceAll('/','~1'));return;}
-  const target=fieldTargets.get(pointer)||viewTargets.get(pointer);mappings.push({source:'catalog.js',pointer,sourceValueSha256:hash(value),disposition:target?'mapped':'retained-in-source-not-migrated',...(target?{target}:{}),reason:target?(pointer.startsWith('/stories/')||pointer.includes('/containsWorks/')?'Reviewed batch-02 story/membership projection':'Reviewed batch-01 identity/credit mapping'):'Explicitly outside this batch; original field retained byte-for-byte in source snapshot.'});
+  const target=fieldTargets.get(pointer)||viewTargets.get(pointer);mappings.push({source:'catalog.js',pointer,sourceValueSha256:hash(value),disposition:target?'mapped':'retained-in-source-not-migrated',...(target?{target}:{}),reason:target?(batch03&&(/\/(editions|editionIds|publications|reportedDate|Jaar|publisher)(\/|$)/.test(pointer))?'Reviewed batch-03 edition/publication projection':pointer.startsWith('/stories/')||pointer.includes('/containsWorks/')?'Reviewed batch-02 story/membership projection':'Reviewed batch-01 identity/credit mapping'):'Explicitly outside this batch; original field retained byte-for-byte in source snapshot.'});
  }
  for(const group of ['books','stories','films','tower','works','editions'])walk(db[group],'/'+group);
  bundle.manifest={...bundle.manifest,scope:'shadow-library-batch-01',baselineCommit:'c230d4d4eab3bb8c8f3edfd5a3cd029ad5064d68',migratedLegacyWorkIds:db.books.map(b=>b.workId),notes:['Library identities and scoped credits only. Not a complete migration.','The two-work Explorer fixture remains unchanged at data/v2/.','No new edition, cover, adaptation or legacy Tower relation is imported in this batch.','Unmapped fields remain in the immutable source; absence here does not mean absence in the bibliography.']};
@@ -79,8 +82,9 @@ function generateShadow(root=ROOT,{batch='02'}={}){
   bundle.manifest={...bundle.manifest,scope:'shadow-stories-batch-02',baselineCommit:overlay.baseCommit,migratedLegacyWorkIds:db.works.map(w=>w.id),notes:['Batch 01 library identities/credits plus Batch 02 story identities, scoped credits and collection memberships only.','No new publication event, edition, artwork, adaptation or Tower relation; no runtime switch.','All source rows are accounted for; unmapped fields and uncertainty remain in unchanged source.','Membership order is unknown; Five inherited secondary collection pairs remain provisional; edition-specific evidence is explicitly scoped.']};
   differences.batch='02-stories-and-memberships';differences.additionalAllocationSha256=hash(fs.readFileSync(path.join(root,'data/migration/batch-02-register.json'),'utf8'));differences.batch01RecordCount=86;differences.batch02RecordCount=stories.rows.length;differences.definitions=stories.review.definitions;
  }
- return {bundle,differences,...(stories?{stories}:{} )};
+ if(publications){bundle.manifest={...bundle.manifest,scope:'shadow-publications-batch-03',baselineCommit:batch03.baseCommit,notes:['Cumulative identity, credit and membership projection, plus inherited publication observations, 154 edition examples and edition-bound cover metadata.','Source dates do not certify first publication; edition examples do not certify first printings.','Cover rights and delivery are governed separately by data/migration/cover-provenance.json; zero images approved for new display.','No adaptation or Tower migration, no Explorer/runtime switch, no worldwide completeness claim.']};differences.batch='03-publications-editions-cover-provenance';differences.batch03AllocationSha256=hash(fs.readFileSync(path.join(root,'data/migration/batch-03-register.json'),'utf8'));differences.editionRecordCount=154;differences.editionRecords=publications.views.views.map((v,i)=>({sourcePointer:'/editions/'+i,legacyId:v.legacyEditionId,target:{type:'edition',id:v.editionId},status:'incomplete-example',sourceSupportedFields:v.sourceSupportedIdentityFields,open:v.open}));for(const r of records){r.status='identity-credits-memberships-and-available-publication-observations';r.publicationIds=bundle.publicationEvents.filter(p=>p.subject.id===r.target.id).map(p=>p.id);r.editionIds=bundle.editions.filter(e=>e.publicationOf.id===r.target.id).map(e=>e.id);r.remaining='Full publication/printing/translation history, unlinked audit fields and other deferred facts remain in unchanged source; see leaf ledger.';}}
+ return {bundle,differences,...(stories?{stories}:{} ),...(publications?{publications}:{})};
 }
-function outputFiles(root=ROOT){const{bundle,differences,stories}=generateShadow(root);const files=new Map([...Object.entries(bundle).map(([k,v])=>['data/v2-shadow/'+k+'.json',JSON.stringify(v,null,2)+'\n']),['data/migration/differences.json',JSON.stringify(differences,null,2)+'\n']]);if(stories){files.set('data/migration/story-views.json',JSON.stringify(stories.views,null,2)+'\n');files.set('data/migration/batch-02-decisions.json',JSON.stringify(stories.review,null,2)+'\n');}return files;}
-if(require.main===module){for(const[name,content]of outputFiles()){fs.mkdirSync(path.dirname(path.join(ROOT,name)),{recursive:true});fs.writeFileSync(path.join(ROOT,name),content);}console.log('Batches 01–02 generated: library/story identities, credits and collection memberships only.');}
+function outputFiles(root=ROOT){const{bundle,differences,stories,publications}=generateShadow(root);const files=new Map([...Object.entries(bundle).map(([k,v])=>['data/v2-shadow/'+k+'.json',JSON.stringify(v,null,2)+'\n']),['data/migration/differences.json',JSON.stringify(differences,null,2)+'\n']]);if(stories){files.set('data/migration/story-views.json',JSON.stringify(stories.views,null,2)+'\n');files.set('data/migration/batch-02-decisions.json',JSON.stringify(stories.review,null,2)+'\n');}if(publications)for(const[name,value]of Object.entries({'edition-views':publications.views,'cover-provenance':publications.provenance,'batch-03-decisions':publications.review,'batch-03-source-fields':publications.supplementary}))files.set('data/migration/'+name+'.json',JSON.stringify(value,null,2)+'\n');return files;}
+if(require.main===module){for(const[name,content]of outputFiles()){fs.mkdirSync(path.dirname(path.join(ROOT,name)),{recursive:true});fs.writeFileSync(path.join(ROOT,name),content);}console.log('Batches 01–03 generated: identities, memberships, source publication observations, edition examples and cover provenance.');}
 module.exports={inputs,generateShadow,outputFiles,hash,ROOT};

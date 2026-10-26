@@ -1,0 +1,3856 @@
+{
+  "batch": "03",
+  "policy": "Default deny: bibliographic metadata is not display permission.",
+  "covers": [
+    {
+      "editionId": "edn:000005",
+      "artworkId": "art:000005",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789024591350_frontcover_original.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/carrie-2/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000006",
+      "artworkId": "art:000006",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789024578108_frontcover.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/bezeten-stad/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000007",
+      "artworkId": "art:000007",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2026/06/9789021066561_frontcover_original.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/de-shining/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000008",
+      "artworkId": "art:000008",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021027791_frontcover.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/de-beproeving/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000009",
+      "artworkId": "art:000009",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021025131_frontcover.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/de-marathon/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000010",
+      "artworkId": "art:000010",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021043425_frontcover.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/dodelijk-dilemma/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000011",
+      "artworkId": "art:000011",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789024578146_frontcover.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/ogen-van-vuur/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000012",
+      "artworkId": "art:000012",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789024578214_frontcover.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/werk-in-uitvoering/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000013",
+      "artworkId": "art:000013",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021031354_frontcover_original.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/cujo/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000014",
+      "artworkId": "art:000014",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021043449_frontcover.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/vlucht-naar-de-top/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000015",
+      "artworkId": "art:000015",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021049151_frontcover.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/de-scherpschutter/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000016",
+      "artworkId": "art:000016",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021015873_frontcover.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/dodenwake/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000001",
+      "artworkId": "art:000001",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2026/10/9789021037400_frontcover_original.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/de-talisman-pod/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000017",
+      "artworkId": "art:000017",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2025/11/9789021062419_frontcover_original.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/de-vervloeking/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000018",
+      "artworkId": "art:000018",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021027432_frontcover_original.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/it/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000019",
+      "artworkId": "art:000019",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021025261_frontcover_original.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/ogen-van-de-draak/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000020",
+      "artworkId": "art:000020",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789024578160_frontcover.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/misery/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000021",
+      "artworkId": "art:000021",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/06/9789021051420_frontcover_original.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/het-teken-van-drie/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000022",
+      "artworkId": "art:000022",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021048390_frontcover_original.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/de-gloed-3/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000023",
+      "artworkId": "art:000023",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2026/06/9789021066547_frontcover.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/de-duistere-kant/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000024",
+      "artworkId": null,
+      "originalUrl": null,
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/het-verloren-rijk/",
+      "bibliographicStatus": "no-registered-cover",
+      "legacyStatus": "unverified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "no-registered-cover",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000025",
+      "artworkId": "art:000024",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021037264_frontcover_original.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/de-noodzaak/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000026",
+      "artworkId": "art:000025",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021048413_frontcover_original.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/de-spelbreker/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000027",
+      "artworkId": "art:000026",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2026/03/9789021064383_frontcover.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/dolores-claiborne/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000028",
+      "artworkId": "art:000027",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021049144_frontcover.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/insomnia/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000029",
+      "artworkId": "art:000028",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021037431_frontcover_original.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/rosie/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000030",
+      "artworkId": "art:000029",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021025360_frontcover_original.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/de-groene-mijl/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000031",
+      "artworkId": "art:000030",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021036830_frontcover.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/desperation/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000032",
+      "artworkId": "art:000031",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021037301_frontcover.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/de-regelaars/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000033",
+      "artworkId": "art:000032",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2025/03/9789021055725_frontcover.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/tovenaarsglas/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000034",
+      "artworkId": "art:000033",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021037325_frontcover_original.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/vel-over-been/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000035",
+      "artworkId": "art:000034",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021037332_frontcover_original.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/het-meisje-dat-hield-van-tom-gordon/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000036",
+      "artworkId": "art:000035",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021037356_frontcover_original.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/de-dromenvanger/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000003",
+      "artworkId": "art:000003",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2025/02/9789021048383_frontcover_original.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/zwart-huis/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000037",
+      "artworkId": "art:000036",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021037363_frontcover_original.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/het-geheim-van-de-buick/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000038",
+      "artworkId": "art:000037",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2025/11/9789021062433_frontcover.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/wolven-van-de-calla/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000039",
+      "artworkId": "art:000038",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2026/03/9789021064390_frontcover.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/een-lied-van-susannah/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000040",
+      "artworkId": "art:000039",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2026/07/9789021066554_frontcover_original.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/de-donkere-toren/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000041",
+      "artworkId": "art:000040",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2026/10/9789024578207_frontcover.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/de-colorado-kid/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000042",
+      "artworkId": "art:000041",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021037448_frontcover_original.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/mobiel/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000043",
+      "artworkId": null,
+      "originalUrl": null,
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/liseys-verhaal/",
+      "bibliographicStatus": "no-registered-cover",
+      "legacyStatus": "unverified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "no-registered-cover",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000044",
+      "artworkId": "art:000042",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2025/06/9789021059662_frontcover.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/de-ontvoering/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000045",
+      "artworkId": "art:000043",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2025/03/9789021055718_frontcover.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/duma/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000046",
+      "artworkId": "art:000044",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021026152_frontcover.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/gevangen/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000047",
+      "artworkId": "art:000045",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021019321_frontcover.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/11-22-63-22-11-1963/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000048",
+      "artworkId": "art:000046",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021037653_frontcover_original.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/de-wind-door-het-sleutelgat/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000049",
+      "artworkId": "art:000047",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021027784_frontcover.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/joyland/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000050",
+      "artworkId": "art:000048",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789024576135_frontcover.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/dr-sleep-2/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000051",
+      "artworkId": "art:000049",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021023281_frontcover.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/mr-mercedes/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000052",
+      "artworkId": "art:000050",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021025285_frontcover.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/revival/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000053",
+      "artworkId": "art:000051",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021024417_frontcover.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/de-eerlijke-vinder/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000054",
+      "artworkId": "art:000052",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021025742_frontcover_original.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/wisseling-van-de-wacht/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000055",
+      "artworkId": "art:000053",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2026/10/9789024559688_frontcover.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/satanskinderen/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000056",
+      "artworkId": "art:000054",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789024578245_frontcover.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/4-seizoenen/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000057",
+      "artworkId": "art:000055",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2026/10/9789021037196_frontcover_original.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/duistere-krachten/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000058",
+      "artworkId": "art:000056",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789024578047_frontcover.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/tweeduister/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000059",
+      "artworkId": "art:000057",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021039800_frontcover.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/nachtmerries-en-droomlandschappen/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000060",
+      "artworkId": "art:000058",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2026/06/9789021064468_frontcover.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/harten-in-atlantis/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000061",
+      "artworkId": "art:000059",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2025/03/9789021055732_frontcover_original.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/alles-is-eventueel-1408/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000062",
+      "artworkId": "art:000060",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2025/11/9789021062440_frontcover.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/na-zonsondergang/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000063",
+      "artworkId": "art:000061",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789024578115_frontcover.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/aardedonker-zonder-sterren/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000064",
+      "artworkId": "art:000062",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789021022925_frontcover_original.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/de-bazaar-van-boze-dromen/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000065",
+      "artworkId": "art:000063",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2025/02/9789021037226_frontcover_original.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/dichte-mist-pod/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000066",
+      "artworkId": "art:000064",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789024567515_frontcover.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/een-goed-huwelijk/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000067",
+      "artworkId": "art:000065",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789024552290_frontcover.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/mijl-81/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000068",
+      "artworkId": "art:000066",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789024561179_frontcover.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/het-hoge-gras/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000069",
+      "artworkId": "art:000067",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789024561186_frontcover.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/hoogste-versnelling/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000070",
+      "artworkId": "art:000068",
+      "originalUrl": "https://stephenking.com/images/books/carrie/hardcover_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/carrie.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000071",
+      "artworkId": "art:000069",
+      "originalUrl": "https://stephenking.com/images/books/salems_lot/hardcover_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/salems-lot.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000072",
+      "artworkId": "art:000070",
+      "originalUrl": "https://stephenking.com/images/books/shining/hardcover_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/shining.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000073",
+      "artworkId": "art:000071",
+      "originalUrl": "https://stephenking.com/images/books/rage/paperback_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/rage.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000074",
+      "artworkId": "art:000072",
+      "originalUrl": "https://stephenking.com/images/books/78_stand/prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/stand.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000075",
+      "artworkId": "art:000073",
+      "originalUrl": "https://stephenking.com/images/books/long_walk/paperback_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/long-walk.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000076",
+      "artworkId": "art:000074",
+      "originalUrl": "https://stephenking.com/images/books/dead_zone/hardcover_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/dead-zone.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000077",
+      "artworkId": "art:000075",
+      "originalUrl": "https://stephenking.com/images/books/firestarter/hardcover_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/firestarter.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000078",
+      "artworkId": "art:000076",
+      "originalUrl": "https://stephenking.com/images/books/roadwork/paperback_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/roadwork.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000079",
+      "artworkId": "art:000077",
+      "originalUrl": "https://stephenking.com/images/books/cujo/hardcover_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/cujo.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000080",
+      "artworkId": "art:000078",
+      "originalUrl": "https://stephenking.com/images/books/running_man/hardcover_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/running-man.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000081",
+      "artworkId": "art:000079",
+      "originalUrl": "https://stephenking.com/images/novel/70/the_gunslinger.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/dark-tower-the-gunslinger.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000082",
+      "artworkId": "art:000080",
+      "originalUrl": "https://stephenking.com/images/books/christine/hardcover_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/christine.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000083",
+      "artworkId": "art:000081",
+      "originalUrl": "https://stephenking.com/images/books/pet_sematary/hardcover_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/pet-sematary.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000084",
+      "artworkId": "art:000082",
+      "originalUrl": "https://stephenking.com/images/books/cycle_of_the_werewolf/hardcover_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/cycle-of-the-werewolf.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000002",
+      "artworkId": "art:000002",
+      "originalUrl": "https://stephenking.com/images/books/talisman/hardcover_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/talisman.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "referrer-dependent-refusal",
+        "evidence": "data/migration/source-audit.json#art:000002",
+        "observedAt": "2026-10-26"
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000085",
+      "artworkId": "art:000083",
+      "originalUrl": "https://stephenking.com/images/books/thinner/hardcover_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/thinner.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000086",
+      "artworkId": "art:000084",
+      "originalUrl": "https://stephenking.com/images/books/it/hardcover_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/it.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000087",
+      "artworkId": "art:000085",
+      "originalUrl": "https://stephenking.com/images/books/eyes_of_the_dragon/hardcover_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/eyes-of-the-dragon.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000088",
+      "artworkId": "art:000086",
+      "originalUrl": "https://stephenking.com/images/books/misery/hardcover_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/misery.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000089",
+      "artworkId": "art:000087",
+      "originalUrl": "https://stephenking.com/images/novel/12/the_drawing_of_the_three.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/dark-tower-the-drawing-of-the-three.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000090",
+      "artworkId": "art:000088",
+      "originalUrl": "https://stephenking.com/images/books/tommyknockers/hardcover_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/tommyknockers.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000091",
+      "artworkId": "art:000089",
+      "originalUrl": "https://stephenking.com/images/novel/1/hardcover_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/dark-half.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000092",
+      "artworkId": "art:000090",
+      "originalUrl": "https://stephenking.com/images/novel/13/the_waste_lands.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/dark-tower-the-waste-lands.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000093",
+      "artworkId": "art:000091",
+      "originalUrl": "https://stephenking.com/images/books/needfull_things/hardcover_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/needful-things.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000094",
+      "artworkId": "art:000092",
+      "originalUrl": "https://stephenking.com/images/books/geralds_game/hardcover_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/geralds-game.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000095",
+      "artworkId": "art:000093",
+      "originalUrl": "https://stephenking.com/images/books/dolores_claiborne/hardcover_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/dolores-claiborne.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000096",
+      "artworkId": "art:000094",
+      "originalUrl": "https://stephenking.com/images/books/insomnia/hardcover_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/insomnia.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000097",
+      "artworkId": "art:000095",
+      "originalUrl": "https://stephenking.com/images/books/rose_madder/hardcover_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/rose-madder.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000098",
+      "artworkId": "art:000096",
+      "originalUrl": "https://stephenking.com/images/novel/45/hardcover.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/green-mile-the-complete-serial-novel.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000099",
+      "artworkId": "art:000097",
+      "originalUrl": "https://stephenking.com/images/books/desperation/hardcover_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/desperation.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000100",
+      "artworkId": "art:000098",
+      "originalUrl": "https://stephenking.com/images/books/regulators/hardcover_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/regulators.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000101",
+      "artworkId": "art:000099",
+      "originalUrl": "https://stephenking.com/images/novel/14/wizard_and_glass.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/dark-tower-wizard-and-glass.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000102",
+      "artworkId": "art:000100",
+      "originalUrl": "https://stephenking.com/images/books/bag_of_bones/hardcover_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/bag-of-bones.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000103",
+      "artworkId": "art:000101",
+      "originalUrl": "https://stephenking.com/images/books/girl_who_loved_tom_gordon/hardcover_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/girl-who-loved-tom-gordon.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000104",
+      "artworkId": "art:000102",
+      "originalUrl": "https://stephenking.com/images/books/dreamcatcher/hardcover_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/dreamcatcher.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000004",
+      "artworkId": "art:000004",
+      "originalUrl": "https://stephenking.com/images/books/black_house/hardcover_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/black-house.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "referrer-dependent-refusal",
+        "evidence": "data/migration/source-audit.json#art:000004",
+        "observedAt": "2026-10-26"
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000105",
+      "artworkId": "art:000103",
+      "originalUrl": "https://stephenking.com/images/books/from_a_buick_8/hardcover_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/from-a-buick-8.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000106",
+      "artworkId": "art:000104",
+      "originalUrl": "https://stephenking.com/images/novel/16/hardcover_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/dark-tower-wolves-of-the-calla.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000107",
+      "artworkId": "art:000105",
+      "originalUrl": "https://stephenking.com/images/books/song_of_sussanah/hardcover_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/dark-tower-song-of-susannah.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000108",
+      "artworkId": "art:000106",
+      "originalUrl": "https://stephenking.com/images/books/dark_tower/hardcover_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/dark-tower.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000109",
+      "artworkId": "art:000107",
+      "originalUrl": "https://stephenking.com/images/books/colorado_kid/paperback_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/colorado-kid.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000110",
+      "artworkId": "art:000108",
+      "originalUrl": "https://stephenking.com/images/books/cell/hardcover_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/cell.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000111",
+      "artworkId": "art:000109",
+      "originalUrl": "https://stephenking.com/images/books/liseys_story/hardcover_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/liseys-story.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000112",
+      "artworkId": "art:000110",
+      "originalUrl": "https://stephenking.com/images/books/blaze/hardcover_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/blaze.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000113",
+      "artworkId": "art:000111",
+      "originalUrl": "https://stephenking.com/images/books/duma_key/hardcover_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/duma-key.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000114",
+      "artworkId": "art:000112",
+      "originalUrl": "https://stephenking.com/images/novel/56/utd.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/under-the-dome.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000115",
+      "artworkId": "art:000113",
+      "originalUrl": "https://stephenking.com/images/books/11-22-63/11-22-63_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/11-22-63.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000116",
+      "artworkId": "art:000114",
+      "originalUrl": "https://stephenking.com/images/books/wind_through_the_keyhole/wind_through_the_keyhole_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/dark-tower-the-wind-through-the-keyhole.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000117",
+      "artworkId": "art:000115",
+      "originalUrl": "https://stephenking.com/images/books/joyland/joyland_property_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/joyland.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000118",
+      "artworkId": "art:000116",
+      "originalUrl": "https://stephenking.com/images/books/doctor_sleep/doctor_sleep_property_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/doctor-sleep.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000119",
+      "artworkId": "art:000117",
+      "originalUrl": "https://stephenking.com/images/books/mr_mercedes/mr_mecedes_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/mr-mercedes.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000120",
+      "artworkId": "art:000118",
+      "originalUrl": "https://stephenking.com/images/books/revival/revival_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/revival.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000121",
+      "artworkId": "art:000119",
+      "originalUrl": "https://stephenking.com/images/books/finders-keepers/finders_keepers_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/finders-keepers.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000122",
+      "artworkId": "art:000120",
+      "originalUrl": "https://stephenking.com/images/novel/68/end_of_watch_rev_lr.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/end-of-watch.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000123",
+      "artworkId": "art:000121",
+      "originalUrl": "https://stephenking.com/images/books/sleeping_beauties/sleeping_beauties_prop_embed.png",
+      "sourceUrl": "https://stephenking.com/works/novel/sleeping-beauties.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000124",
+      "artworkId": "art:000122",
+      "originalUrl": "https://stephenking.com/images/novella/19/gwendy.jpg",
+      "sourceUrl": "https://stephenking.com/works/novella/gwendys-button-box.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000125",
+      "artworkId": "art:000123",
+      "originalUrl": "https://stephenking.com/images/novel/71/outsider.png",
+      "sourceUrl": "https://stephenking.com/works/novel/outsider.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000126",
+      "artworkId": "art:000124",
+      "originalUrl": "https://stephenking.com/images/novella/20/elevation.large.jpg",
+      "sourceUrl": "https://stephenking.com/works/novella/elevation.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000127",
+      "artworkId": "art:000125",
+      "originalUrl": "https://stephenking.com/images/novel/72/institutem.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/institute.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000128",
+      "artworkId": "art:000126",
+      "originalUrl": "https://stephenking.com/images/novel/74/later.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/later.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000129",
+      "artworkId": "art:000127",
+      "originalUrl": "https://stephenking.com/images/novel/billy-summers.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/billy-summers.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000130",
+      "artworkId": "art:000128",
+      "originalUrl": "https://stephenking.com/images/novel/gwendy-ft.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/gwendys-final-task.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000131",
+      "artworkId": "art:000129",
+      "originalUrl": "https://stephenking.com/images/novel/fairy-tale.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/fairy-tale.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000132",
+      "artworkId": "art:000130",
+      "originalUrl": "https://stephenking.com/images/novel/holly.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/holly.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000133",
+      "artworkId": "art:000131",
+      "originalUrl": "https://stephenking.com/images/novel/like-it-darker.jpg",
+      "sourceUrl": "https://stephenking.com/works/collection/you-like-it-darker.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000134",
+      "artworkId": "art:000132",
+      "originalUrl": "https://stephenking.com/images/novel/never-flinch.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/never-flinch.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000135",
+      "artworkId": "art:000133",
+      "originalUrl": "https://stephenking.com/images/novel/other-worlds-cover.png",
+      "sourceUrl": "https://stephenking.com/works/novel/other-worlds-than-these.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000136",
+      "artworkId": "art:000134",
+      "originalUrl": "https://stephenking.com/images/books/nightshift/hardcover_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/collection/night-shift.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000137",
+      "artworkId": "art:000135",
+      "originalUrl": "https://stephenking.com/images/books/different_seasons/hardcover_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/collection/different-seasons.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000138",
+      "artworkId": "art:000136",
+      "originalUrl": "https://stephenking.com/images/books/skeleton_crew/hardcover_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/collection/skeleton-crew.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000139",
+      "artworkId": "art:000137",
+      "originalUrl": "https://stephenking.com/images/books/four_past_midnight/hardcover_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/collection/four-past-midnight.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000140",
+      "artworkId": "art:000138",
+      "originalUrl": "https://stephenking.com/images/books/nightmares_and_dreamscapes/hardcover_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/collection/nightmares-dreamscapes.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000141",
+      "artworkId": "art:000139",
+      "originalUrl": "https://stephenking.com/images/books/hearts_in_atlantis/hardcover_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/collection/hearts-in-atlantis.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000142",
+      "artworkId": "art:000140",
+      "originalUrl": "https://stephenking.com/images/books/everythings_eventual/hardcover_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/collection/everythings-eventual.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000143",
+      "artworkId": "art:000141",
+      "originalUrl": "https://stephenking.com/images/story_collection/8/just_after_sunset.jpg",
+      "sourceUrl": "https://stephenking.com/works/collection/just-after-sunset.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000144",
+      "artworkId": "art:000142",
+      "originalUrl": "https://stephenking.com/images/new_in_stores/skgttm/skgttm_full.jpg",
+      "sourceUrl": "https://stephenking.com/works/collection/stephen-king-goes-to-the-movies.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000145",
+      "artworkId": "art:000143",
+      "originalUrl": "https://stephenking.com/images/books/full_dark_no_stars/full_dark_no_stars_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/collection/full-dark-no-stars.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000146",
+      "artworkId": "art:000144",
+      "originalUrl": "https://stephenking.com/images/books/bazaar-of-bad-dreams/bobd_cover_1_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/collection/bazaar-of-bad-dreams.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000147",
+      "artworkId": "art:000145",
+      "originalUrl": "https://stephenking.com/images/story_collection/12/bleeds.jpg",
+      "sourceUrl": "https://stephenking.com/works/collection/if-it-bleeds.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000148",
+      "artworkId": "art:000146",
+      "originalUrl": "https://stephenking.com/images/bachman_novel/7/hardcover_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/novel/bachman-books.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000149",
+      "artworkId": "art:000147",
+      "originalUrl": "https://stephenking.com/images/books/blockade_billy/blockade_billy_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/novella/blockade-billy.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000150",
+      "artworkId": "art:000148",
+      "originalUrl": "https://stephenking.com/images/other_project/american_vampire/amercian_vampire_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/comic/american-vampire.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000151",
+      "artworkId": "art:000149",
+      "originalUrl": "https://stephenking.com/images/books/faithful/hardcover_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/nonfiction/faithful.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000152",
+      "artworkId": "art:000150",
+      "originalUrl": "https://stephenking.com/images/nonfiction/5/hardcover_prop_embed.jpg",
+      "sourceUrl": "https://stephenking.com/works/nonfiction/mid-life-confidential-the-rock-bottom-remainders-tour-america-with-three-chords-and-an-attitude.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000153",
+      "artworkId": "art:000151",
+      "originalUrl": "https://stephenking.com/images/nonfiction/6/nightmaresinthesky.jpg",
+      "sourceUrl": "https://stephenking.com/works/nonfiction/nightmares-in-the-sky.html",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    },
+    {
+      "editionId": "edn:000154",
+      "artworkId": "art:000152",
+      "originalUrl": "https://www.lsuitgeverij.nl/wp-content/uploads/2024/03/9789024561575_frontcover.jpg",
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/christine-ebook/",
+      "bibliographicStatus": "known-cover",
+      "legacyStatus": "verified",
+      "rights": {
+        "status": "not-established",
+        "evidence": [],
+        "note": "No explicit reuse permission established in preserved evidence."
+      },
+      "availability": {
+        "status": "not-currently-assessed",
+        "evidence": null,
+        "observedAt": null
+      },
+      "delivery": {
+        "status": "blocked-pending-rights",
+        "reliable": false
+      },
+      "approvedLocalAsset": null,
+      "fallback": "placeholder",
+      "displayAllowed": false
+    }
+  ]
+}

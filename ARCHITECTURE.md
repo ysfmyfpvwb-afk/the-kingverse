@@ -362,7 +362,7 @@ Statische HTML bevat kernfeiten, premisse-informatie, editie-onzekerheden, bronn
 Twee korte, eigen Engelse premisseomschrijvingen zijn in `works.summary` toegevoegd met claims `clm:000114` en `clm:000115`, gecontroleerd op de officiële werkpagina’s op 25 oktober 2026. De bibliografische schema’s en canonieke IDs blijven gelijk. De volledige migratie, nieuwe adaptatiegegevens, vertaalonderzoek en nieuwe beelden vallen buiten deze preview. IMDb-hergebruik blijft ter beoordeling; geen betaalde API of nieuwe score-import.
 
 
-## Schaduwmigratie 1.7 — batches 01–02
+## Schaduwmigratie 1.7 — historische batches 01–02
 
 De actieve twee-werkenfixture in `data/v2/` en alle bestaande UI-bestanden blijven ongewijzigd. `data/v2-shadow/` bevat nu alle 256 bestaande literaire identiteiten als 241 werken en 15 collecties; dit betekent geen volledige veldmigratie of bibliografische volledigheid. Publicatie-/editie-/adaptatiemigratie is niet uitgevoerd.
 
@@ -371,3 +371,10 @@ De actieve twee-werkenfixture in `data/v2/` en alle bestaande UI-bestanden blijv
 De 173 verhaalweergaven verwijzen naar 173 verschillende werken: 170 nieuw en drie reeds via boeken bereikbaar. `collectionMemberships` bevat 155 unieke werk/bundelparen; meerdere bundels delen hetzelfde werk. Alleen bekende paren zijn gemigreerd, geen gecertificeerde volledige bundelinhouden. Alle `order`-waarden blijven null. Een bron kan één specifieke uitgave ondersteunen: de mass-marketkoppeling van Under the Weather aan Full Dark, No Stars is apart gescopeerd, zonder een editie-ID te verzinnen. `story-views.json` bewaart de bestaande standaardbundelkeuze als viewprojectie; die keuze wordt geen bewijs van eerste publicatie.
 
 De afzonderlijke menselijke aanvulling voor de Talisman-trilogie hergebruikt `wrk:000067` voor Other Worlds Than These. Eén nieuwe `sequel_to`-relatie met Black House, met twee officiële bronnen en `spoiler.level: none`, sluit de bestaande keten aan. Er is geen derde workrecord aan de Explorer-fixture toegevoegd en geen plottekst, ISBN, cover of nieuwe datum geïmporteerd. Verdere editie- en adaptatiemigratie stopt aan de batchgrens.
+
+
+## Schaduwmigratie 1.7 — Batch 03
+
+De standaardmigrator voegt nu `migrate_publications.cjs` toe; de historische projecties blijven beschikbaar met `{batch:'01'}` en `{batch:'02'}`. Het derde opaque register bewaakt bronhashes én digests van alle Batch-02-records. Alle 154 editievoorbeelden zijn taalgebonden aan één bestaande werk-/collectie-identiteit; zij zijn geen claim op volledig geïdentificeerde drukken. Het optionele publicatieveld `reportedTitle` bewaart seriële/varianttitels. Onbekende publicatie-uitgevers zijn null. `legacy-bibliographic-year` en `edition-variant-reported-release` voorkomen dat conflicterende jaren of verschijningsvormen als eerste publicatie worden voorgesteld.
+
+152 native artworkrecords bewaren alleen de bestaande editiegebonden metadata. `data/migration/cover-provenance.json` is een afzonderlijk geschematiseerd beleidsoverlay voor alle 154 edities, inclusief twee ontbrekende covers. Rechtenbewijs, historische beschikbaarheid, betrouwbare toegestane levering, lokale asset en fallback zijn afzonderlijk toetsbaar; de default is geen nieuwe beeldweergave. Dit verandert geen oude native records of live renderer. `edition-views.json` bewaart taal-/bronveldscope; `batch-03-source-fields.json` verantwoordt aanvullende bewijsbladen naast de DB-ledger. Zie `MIGRATION-BATCH-03.md`. Geen adaptatie-/Towergegevens of live integratie toegevoegd.

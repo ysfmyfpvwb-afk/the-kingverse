@@ -1,0 +1,165 @@
+{
+  "type": "object",
+  "properties": {
+    "batch": {
+      "const": "03"
+    },
+    "policy": {
+      "type": "string",
+      "minLength": 1
+    },
+    "covers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "editionId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "artworkId": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "originalUrl": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "sourceUrl": {
+            "type": "string",
+            "minLength": 1
+          },
+          "bibliographicStatus": {
+            "enum": [
+              "known-cover",
+              "no-registered-cover"
+            ]
+          },
+          "legacyStatus": {
+            "type": "string",
+            "minLength": 1
+          },
+          "rights": {
+            "type": "object",
+            "properties": {
+              "status": {
+                "enum": [
+                  "not-established",
+                  "allowed",
+                  "denied"
+                ]
+              },
+              "evidence": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "note": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "status",
+              "evidence",
+              "note"
+            ],
+            "additionalProperties": false
+          },
+          "availability": {
+            "type": "object",
+            "properties": {
+              "status": {
+                "enum": [
+                  "not-currently-assessed",
+                  "referrer-dependent-refusal",
+                  "available",
+                  "unavailable"
+                ]
+              },
+              "evidence": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "observedAt": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "required": [
+              "status",
+              "evidence",
+              "observedAt"
+            ],
+            "additionalProperties": false
+          },
+          "delivery": {
+            "type": "object",
+            "properties": {
+              "status": {
+                "enum": [
+                  "blocked-pending-rights",
+                  "no-registered-cover",
+                  "approved",
+                  "unavailable"
+                ]
+              },
+              "reliable": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "status",
+              "reliable"
+            ],
+            "additionalProperties": false
+          },
+          "approvedLocalAsset": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "fallback": {
+            "const": "placeholder"
+          },
+          "displayAllowed": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "editionId",
+          "artworkId",
+          "originalUrl",
+          "sourceUrl",
+          "bibliographicStatus",
+          "legacyStatus",
+          "rights",
+          "availability",
+          "delivery",
+          "approvedLocalAsset",
+          "fallback",
+          "displayAllowed"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "batch",
+    "policy",
+    "covers"
+  ],
+  "additionalProperties": false,
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

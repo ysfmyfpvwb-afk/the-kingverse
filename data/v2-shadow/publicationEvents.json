@@ -52,5 +52,6898 @@
     "editionId": null,
     "part": null,
     "publisher": "Random House"
+  },
+  {
+    "id": "pub:000003",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002272",
+        "clm:002273",
+        "clm:002274",
+        "clm:002275"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000003"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1974-04-05",
+      "precision": "day",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Doubleday"
+  },
+  {
+    "id": "pub:000004",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002276",
+        "clm:002277",
+        "clm:002278",
+        "clm:002279"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000004"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1975-10-17",
+      "precision": "day",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Doubleday"
+  },
+  {
+    "id": "pub:000005",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002280",
+        "clm:002281",
+        "clm:002282",
+        "clm:002283",
+        "clm:002284"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000004"
+    },
+    "eventType": "edition-variant-reported-release",
+    "date": {
+      "value": "2005-11-11",
+      "precision": "day",
+      "meaning": "edition-variant-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Doubleday",
+    "reportedTitle": "'Salem's Lot Illustrated Edition"
+  },
+  {
+    "id": "pub:000006",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002285",
+        "clm:002286",
+        "clm:002287",
+        "clm:002288"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000005"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1977-01",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Doubleday"
+  },
+  {
+    "id": "pub:000007",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002289",
+        "clm:002290",
+        "clm:002291",
+        "clm:002292"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000006"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1977",
+      "precision": "year",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "New American Library (NAL)"
+  },
+  {
+    "id": "pub:000008",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002293",
+        "clm:002294",
+        "clm:002295",
+        "clm:002296"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000007"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1978-10",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Doubleday"
+  },
+  {
+    "id": "pub:000009",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002297",
+        "clm:002298",
+        "clm:002299",
+        "clm:002300",
+        "clm:002301"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000007"
+    },
+    "eventType": "edition-variant-reported-release",
+    "date": {
+      "value": "1990-05",
+      "precision": "month",
+      "meaning": "edition-variant-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Doubleday",
+    "reportedTitle": "The Stand: The Complete & Uncut Edition"
+  },
+  {
+    "id": "pub:000010",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002302",
+        "clm:002303",
+        "clm:002304",
+        "clm:002305"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000008"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1979",
+      "precision": "year",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "New American Library (NAL)"
+  },
+  {
+    "id": "pub:000011",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002306",
+        "clm:002307",
+        "clm:002308",
+        "clm:002309"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000009"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1979-08",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Viking Press"
+  },
+  {
+    "id": "pub:000012",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002310",
+        "clm:002311",
+        "clm:002312",
+        "clm:002313"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000010"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1980-09-29",
+      "precision": "day",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Viking Press"
+  },
+  {
+    "id": "pub:000013",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002314",
+        "clm:002315",
+        "clm:002316",
+        "clm:002317"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000011"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1981",
+      "precision": "year",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "New American Library (NAL)"
+  },
+  {
+    "id": "pub:000014",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002318",
+        "clm:002319",
+        "clm:002320",
+        "clm:002321"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000012"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1981-09-08",
+      "precision": "day",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Viking Press"
+  },
+  {
+    "id": "pub:000015",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002322",
+        "clm:002323",
+        "clm:002324",
+        "clm:002325"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000013"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1982",
+      "precision": "year",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "New American Library (NAL)"
+  },
+  {
+    "id": "pub:000016",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002326",
+        "clm:002327",
+        "clm:002328",
+        "clm:002329"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000014"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1982-06",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Donald M. Grant, Publisher"
+  },
+  {
+    "id": "pub:000017",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002330",
+        "clm:002331",
+        "clm:002332",
+        "clm:002333",
+        "clm:002334"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000014"
+    },
+    "eventType": "edition-variant-reported-release",
+    "date": {
+      "value": "2003-06",
+      "precision": "month",
+      "meaning": "edition-variant-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Viking Press",
+    "reportedTitle": "The Dark Tower: The Gunslinger (Revised)"
+  },
+  {
+    "id": "pub:000018",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002335",
+        "clm:002336",
+        "clm:002337",
+        "clm:002338"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000015"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1983-04-29",
+      "precision": "day",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Viking Press"
+  },
+  {
+    "id": "pub:000019",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002339",
+        "clm:002340",
+        "clm:002341",
+        "clm:002342"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000016"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1983-11",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Doubleday"
+  },
+  {
+    "id": "pub:000020",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002343",
+        "clm:002344",
+        "clm:002345",
+        "clm:002346"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000017"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1985-04",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Signet"
+  },
+  {
+    "id": "pub:000021",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002347",
+        "clm:002348",
+        "clm:002349",
+        "clm:002350"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000017"
+    },
+    "eventType": "legacy-bibliographic-year",
+    "date": {
+      "value": "1983",
+      "precision": "year",
+      "meaning": "legacy-bibliographic-year",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000022",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002351",
+        "clm:002352",
+        "clm:002353",
+        "clm:002354"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000018"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1984-11",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "New American Library (NAL)"
+  },
+  {
+    "id": "pub:000023",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002355",
+        "clm:002356",
+        "clm:002357",
+        "clm:002358"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000019"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1986-09",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Viking Press"
+  },
+  {
+    "id": "pub:000024",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002359",
+        "clm:002360",
+        "clm:002361",
+        "clm:002362"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000020"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1987-02",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Viking Press"
+  },
+  {
+    "id": "pub:000025",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002363",
+        "clm:002364",
+        "clm:002365",
+        "clm:002366"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000021"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1987-06",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Viking Press"
+  },
+  {
+    "id": "pub:000026",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002367",
+        "clm:002368",
+        "clm:002369",
+        "clm:002370"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000022"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1987-05",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Donald M. Grant, Publisher"
+  },
+  {
+    "id": "pub:000027",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002371",
+        "clm:002372",
+        "clm:002373",
+        "clm:002374"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000023"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1987-11",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "G.P. Putnam's & Sons"
+  },
+  {
+    "id": "pub:000028",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002375",
+        "clm:002376",
+        "clm:002377",
+        "clm:002378"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000024"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1989-11",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Viking Press"
+  },
+  {
+    "id": "pub:000029",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002379",
+        "clm:002380",
+        "clm:002381",
+        "clm:002382"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000025"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1991-08",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Donald M. Grant, Publisher"
+  },
+  {
+    "id": "pub:000030",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002383",
+        "clm:002384",
+        "clm:002385",
+        "clm:002386"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000026"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1991-10",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Viking Press"
+  },
+  {
+    "id": "pub:000031",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002387",
+        "clm:002388",
+        "clm:002389",
+        "clm:002390"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000027"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1992-05",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Viking Press"
+  },
+  {
+    "id": "pub:000032",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002391",
+        "clm:002392",
+        "clm:002393",
+        "clm:002394"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000028"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1993-11",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Viking Press"
+  },
+  {
+    "id": "pub:000033",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002395",
+        "clm:002396",
+        "clm:002397",
+        "clm:002398"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000028"
+    },
+    "eventType": "legacy-bibliographic-year",
+    "date": {
+      "value": "1992",
+      "precision": "year",
+      "meaning": "legacy-bibliographic-year",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000034",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002399",
+        "clm:002400",
+        "clm:002401",
+        "clm:002402"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000029"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1994-09",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Viking Press"
+  },
+  {
+    "id": "pub:000035",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002403",
+        "clm:002404",
+        "clm:002405",
+        "clm:002406"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000030"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1995-06",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Viking Press"
+  },
+  {
+    "id": "pub:000036",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002407",
+        "clm:002408",
+        "clm:002409",
+        "clm:002410"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000031"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2000-10",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Scribner"
+  },
+  {
+    "id": "pub:000037",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002411",
+        "clm:002412",
+        "clm:002413",
+        "clm:002414"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000031"
+    },
+    "eventType": "legacy-bibliographic-year",
+    "date": {
+      "value": "1996",
+      "precision": "year",
+      "meaning": "legacy-bibliographic-year",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000038",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002415",
+        "clm:002416",
+        "clm:002417",
+        "clm:002418",
+        "clm:002419"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000031"
+    },
+    "eventType": "serial-part",
+    "date": {
+      "value": "1996-08",
+      "precision": "month",
+      "meaning": "serial-part",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Signet",
+    "reportedTitle": "The Green Mile: Coffey on the Mile"
+  },
+  {
+    "id": "pub:000039",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002420",
+        "clm:002421",
+        "clm:002422",
+        "clm:002423",
+        "clm:002424"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000031"
+    },
+    "eventType": "serial-part",
+    "date": {
+      "value": "1996-05",
+      "precision": "month",
+      "meaning": "serial-part",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Signet",
+    "reportedTitle": "The Green Mile: Coffey's Hands"
+  },
+  {
+    "id": "pub:000040",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002425",
+        "clm:002426",
+        "clm:002427",
+        "clm:002428",
+        "clm:002429"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000031"
+    },
+    "eventType": "serial-part",
+    "date": {
+      "value": "1996-07",
+      "precision": "month",
+      "meaning": "serial-part",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Signet",
+    "reportedTitle": "The Green Mile: Night Journey"
+  },
+  {
+    "id": "pub:000041",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002430",
+        "clm:002431",
+        "clm:002432",
+        "clm:002433",
+        "clm:002434"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000031"
+    },
+    "eventType": "serial-part",
+    "date": {
+      "value": "1996-06",
+      "precision": "month",
+      "meaning": "serial-part",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Signet",
+    "reportedTitle": "The Green Mile: The Bad Death of Eduard Delacroix"
+  },
+  {
+    "id": "pub:000042",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002435",
+        "clm:002436",
+        "clm:002437",
+        "clm:002438",
+        "clm:002439"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000031"
+    },
+    "eventType": "serial-part",
+    "date": {
+      "value": "1996-04",
+      "precision": "month",
+      "meaning": "serial-part",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Signet",
+    "reportedTitle": "The Green Mile: The Mouse on the Mile"
+  },
+  {
+    "id": "pub:000043",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002440",
+        "clm:002441",
+        "clm:002442",
+        "clm:002443",
+        "clm:002444"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000031"
+    },
+    "eventType": "serial-part",
+    "date": {
+      "value": "1996-03",
+      "precision": "month",
+      "meaning": "serial-part",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Signet",
+    "reportedTitle": "The Green Mile: The Two Dead Girls"
+  },
+  {
+    "id": "pub:000044",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002445",
+        "clm:002446",
+        "clm:002447",
+        "clm:002448"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000032"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1996-09-24",
+      "precision": "day",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Viking Press"
+  },
+  {
+    "id": "pub:000045",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002449",
+        "clm:002450",
+        "clm:002451",
+        "clm:002452"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000033"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1996",
+      "precision": "year",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Dutton"
+  },
+  {
+    "id": "pub:000046",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002453",
+        "clm:002454",
+        "clm:002455",
+        "clm:002456"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000034"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1997-11",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Donald M. Grant, Publisher"
+  },
+  {
+    "id": "pub:000047",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002457",
+        "clm:002458",
+        "clm:002459",
+        "clm:002460"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000035"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1998-09-22",
+      "precision": "day",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Scribner"
+  },
+  {
+    "id": "pub:000048",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002461",
+        "clm:002462",
+        "clm:002463",
+        "clm:002464"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000036"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1999-04",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Scribner"
+  },
+  {
+    "id": "pub:000049",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002465",
+        "clm:002466",
+        "clm:002467",
+        "clm:002468"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000037"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2001-02-20",
+      "precision": "day",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Scribner"
+  },
+  {
+    "id": "pub:000050",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002469",
+        "clm:002470",
+        "clm:002471",
+        "clm:002472"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000038"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2002-09-24",
+      "precision": "day",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Scribner"
+  },
+  {
+    "id": "pub:000051",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002473",
+        "clm:002474",
+        "clm:002475",
+        "clm:002476"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000039"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2003-11",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Scribner"
+  },
+  {
+    "id": "pub:000052",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002477",
+        "clm:002478",
+        "clm:002479",
+        "clm:002480"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000040"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2004-06",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Scribner"
+  },
+  {
+    "id": "pub:000053",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002481",
+        "clm:002482",
+        "clm:002483",
+        "clm:002484"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000041"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2004-09",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Scribner"
+  },
+  {
+    "id": "pub:000054",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002485",
+        "clm:002486",
+        "clm:002487",
+        "clm:002488"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000042"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2005-10",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Dorchester Publishing Co., Inc."
+  },
+  {
+    "id": "pub:000055",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002489",
+        "clm:002490",
+        "clm:002491",
+        "clm:002492"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000043"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2006-01-24",
+      "precision": "day",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Scribner"
+  },
+  {
+    "id": "pub:000056",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002493",
+        "clm:002494",
+        "clm:002495",
+        "clm:002496"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000044"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2006-10",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Scribner"
+  },
+  {
+    "id": "pub:000057",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002497",
+        "clm:002498",
+        "clm:002499",
+        "clm:002500"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000045"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2007",
+      "precision": "year",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Scribner"
+  },
+  {
+    "id": "pub:000058",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002501",
+        "clm:002502",
+        "clm:002503",
+        "clm:002504"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000046"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2008-01-22",
+      "precision": "day",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Scribner"
+  },
+  {
+    "id": "pub:000059",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002505",
+        "clm:002506",
+        "clm:002507",
+        "clm:002508"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000047"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2009-11",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Scribner"
+  },
+  {
+    "id": "pub:000060",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002509",
+        "clm:002510",
+        "clm:002511",
+        "clm:002512"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000048"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2011-11-08",
+      "precision": "day",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Scribner"
+  },
+  {
+    "id": "pub:000061",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002513",
+        "clm:002514",
+        "clm:002515",
+        "clm:002516"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000049"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2012-04",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Scribner"
+  },
+  {
+    "id": "pub:000062",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002517",
+        "clm:002518",
+        "clm:002519",
+        "clm:002520"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000050"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2013-06",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Titan Books"
+  },
+  {
+    "id": "pub:000063",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002521",
+        "clm:002522",
+        "clm:002523",
+        "clm:002524",
+        "clm:002525"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000050"
+    },
+    "eventType": "edition-variant-reported-release",
+    "date": {
+      "value": "2015-09",
+      "precision": "month",
+      "meaning": "edition-variant-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Hard Case Crime",
+    "reportedTitle": "Joyland Illustrated Edition"
+  },
+  {
+    "id": "pub:000064",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002526",
+        "clm:002527",
+        "clm:002528",
+        "clm:002529"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000051"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2013-09-24",
+      "precision": "day",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Scribner"
+  },
+  {
+    "id": "pub:000065",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002530",
+        "clm:002531",
+        "clm:002532",
+        "clm:002533"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000052"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2014-06",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Scribner"
+  },
+  {
+    "id": "pub:000066",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002534",
+        "clm:002535",
+        "clm:002536",
+        "clm:002537"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000053"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2014-11",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Scribner"
+  },
+  {
+    "id": "pub:000067",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002538",
+        "clm:002539",
+        "clm:002540",
+        "clm:002541"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000054"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2015-06-02",
+      "precision": "day",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Scribner"
+  },
+  {
+    "id": "pub:000068",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002542",
+        "clm:002543",
+        "clm:002544",
+        "clm:002545"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000055"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2016-06-07",
+      "precision": "day",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Scribner"
+  },
+  {
+    "id": "pub:000069",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002546",
+        "clm:002547",
+        "clm:002548",
+        "clm:002549"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000056"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2017-09-26",
+      "precision": "day",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Scribner"
+  },
+  {
+    "id": "pub:000070",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002550",
+        "clm:002551",
+        "clm:002552",
+        "clm:002553"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000057"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2017-05-16",
+      "precision": "day",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000071",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002554",
+        "clm:002555",
+        "clm:002556",
+        "clm:002557"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000058"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2018-05",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Scribner"
+  },
+  {
+    "id": "pub:000072",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002558",
+        "clm:002559",
+        "clm:002560",
+        "clm:002561"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000059"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2018-10-30",
+      "precision": "day",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000073",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002562",
+        "clm:002563",
+        "clm:002564",
+        "clm:002565"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000060"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2019-09",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Scribner"
+  },
+  {
+    "id": "pub:000074",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002566",
+        "clm:002567",
+        "clm:002568",
+        "clm:002569"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000061"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2021-03-02",
+      "precision": "day",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Hard Case Crime"
+  },
+  {
+    "id": "pub:000075",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002570",
+        "clm:002571",
+        "clm:002572",
+        "clm:002573"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000062"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2021-08-03",
+      "precision": "day",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Scribner"
+  },
+  {
+    "id": "pub:000076",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002574",
+        "clm:002575",
+        "clm:002576",
+        "clm:002577"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000063"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2022-02-15",
+      "precision": "day",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Cemetery Dance Publications"
+  },
+  {
+    "id": "pub:000077",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002578",
+        "clm:002579",
+        "clm:002580",
+        "clm:002581"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000064"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2022-09-06",
+      "precision": "day",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Scribner"
+  },
+  {
+    "id": "pub:000078",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002582",
+        "clm:002583",
+        "clm:002584",
+        "clm:002585"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000065"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2023-09-05",
+      "precision": "day",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Scribner"
+  },
+  {
+    "id": "pub:000079",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002586",
+        "clm:002587",
+        "clm:002588",
+        "clm:002589"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "collection",
+      "id": "col:000001"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2024-05",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Scribner"
+  },
+  {
+    "id": "pub:000080",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002590",
+        "clm:002591",
+        "clm:002592",
+        "clm:002593"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000066"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2025-05-27",
+      "precision": "day",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Simon & Schuster Audio"
+  },
+  {
+    "id": "pub:000081",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002594",
+        "clm:002595",
+        "clm:002596",
+        "clm:002597"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000067"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2026-10-06",
+      "precision": "day",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Scribner"
+  },
+  {
+    "id": "pub:000082",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002598",
+        "clm:002599",
+        "clm:002600",
+        "clm:002601"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "collection",
+      "id": "col:000002"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1978-02",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Doubleday"
+  },
+  {
+    "id": "pub:000083",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002602",
+        "clm:002603",
+        "clm:002604",
+        "clm:002605"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "collection",
+      "id": "col:000003"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1982-08",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Viking Press"
+  },
+  {
+    "id": "pub:000084",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002606",
+        "clm:002607",
+        "clm:002608",
+        "clm:002609"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "collection",
+      "id": "col:000004"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1985-06",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "G.P. Putnam's & Sons"
+  },
+  {
+    "id": "pub:000085",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002610",
+        "clm:002611",
+        "clm:002612",
+        "clm:002613"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "collection",
+      "id": "col:000005"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1990-09",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Viking Press"
+  },
+  {
+    "id": "pub:000086",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002614",
+        "clm:002615",
+        "clm:002616",
+        "clm:002617"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "collection",
+      "id": "col:000006"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1993-10",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Viking Press"
+  },
+  {
+    "id": "pub:000087",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002618",
+        "clm:002619",
+        "clm:002620",
+        "clm:002621"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "collection",
+      "id": "col:000007"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1999-09",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Scribner"
+  },
+  {
+    "id": "pub:000088",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002622",
+        "clm:002623",
+        "clm:002624",
+        "clm:002625"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "collection",
+      "id": "col:000008"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2002-03",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Scribner"
+  },
+  {
+    "id": "pub:000089",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002626",
+        "clm:002627",
+        "clm:002628",
+        "clm:002629"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "collection",
+      "id": "col:000009"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2008-11",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Scribner"
+  },
+  {
+    "id": "pub:000090",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002630",
+        "clm:002631",
+        "clm:002632",
+        "clm:002633"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "collection",
+      "id": "col:000010"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2009-01",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Plume"
+  },
+  {
+    "id": "pub:000091",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002634",
+        "clm:002635",
+        "clm:002636",
+        "clm:002637"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "collection",
+      "id": "col:000011"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2010-11",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Scribner"
+  },
+  {
+    "id": "pub:000092",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002638",
+        "clm:002639",
+        "clm:002640",
+        "clm:002641"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "collection",
+      "id": "col:000012"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2015-11",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Scribner"
+  },
+  {
+    "id": "pub:000093",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002642",
+        "clm:002643",
+        "clm:002644",
+        "clm:002645"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "collection",
+      "id": "col:000013"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2020-04",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Scribner"
+  },
+  {
+    "id": "pub:000094",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002646",
+        "clm:002647",
+        "clm:002648",
+        "clm:002649"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "collection",
+      "id": "col:000014"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1985-10",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "New American Library (NAL)"
+  },
+  {
+    "id": "pub:000095",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002650",
+        "clm:002651",
+        "clm:002652",
+        "clm:002653"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000068"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2010-04-20",
+      "precision": "day",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000096",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002654",
+        "clm:002655",
+        "clm:002656",
+        "clm:002657"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000069"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2010-03",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000097",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002658",
+        "clm:002659",
+        "clm:002660",
+        "clm:002661"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000070"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2005-09",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Scribner"
+  },
+  {
+    "id": "pub:000098",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002662",
+        "clm:002663",
+        "clm:002664",
+        "clm:002665"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "collection",
+      "id": "col:000015"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1994",
+      "precision": "year",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Viking Press"
+  },
+  {
+    "id": "pub:000099",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002666",
+        "clm:002667",
+        "clm:002668",
+        "clm:002669"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "type": "work",
+      "id": "wrk:000071"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1988",
+      "precision": "year",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": "Viking Press"
+  },
+  {
+    "id": "pub:000100",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002670",
+        "clm:002671",
+        "clm:002672",
+        "clm:002673"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000072",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1978-02",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000101",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002674",
+        "clm:002675",
+        "clm:002676",
+        "clm:002677"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000073",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1978-02",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000102",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002678",
+        "clm:002679",
+        "clm:002680",
+        "clm:002681"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000074",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1978-02",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000103",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002682",
+        "clm:002683",
+        "clm:002684",
+        "clm:002685"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000075",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1978-02",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000104",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002686",
+        "clm:002687",
+        "clm:002688",
+        "clm:002689"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000076",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1978-02",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000105",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002690",
+        "clm:002691",
+        "clm:002692",
+        "clm:002693"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000077",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1978-02",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000106",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002694",
+        "clm:002695",
+        "clm:002696",
+        "clm:002697"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000078",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1978-02",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000107",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002698",
+        "clm:002699",
+        "clm:002700",
+        "clm:002701"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000079",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1978-02",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000108",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002702",
+        "clm:002703",
+        "clm:002704",
+        "clm:002705"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000080",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1978-02",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000109",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002706",
+        "clm:002707",
+        "clm:002708",
+        "clm:002709"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000081",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1978-02",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000110",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002710",
+        "clm:002711",
+        "clm:002712",
+        "clm:002713"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000082",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1978-02",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000111",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002714",
+        "clm:002715",
+        "clm:002716",
+        "clm:002717"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000083",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1978-02",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000112",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002718",
+        "clm:002719",
+        "clm:002720",
+        "clm:002721"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000084",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1978-02",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000113",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002722",
+        "clm:002723",
+        "clm:002724",
+        "clm:002725"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000085",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1978-02",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000114",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002726",
+        "clm:002727",
+        "clm:002728",
+        "clm:002729"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000086",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1978-02",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000115",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002730",
+        "clm:002731",
+        "clm:002732",
+        "clm:002733"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000087",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1978-02",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000116",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002734",
+        "clm:002735",
+        "clm:002736",
+        "clm:002737"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000088",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1978-02",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000117",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002738",
+        "clm:002739",
+        "clm:002740",
+        "clm:002741"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000089",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1978-02",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000118",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002742",
+        "clm:002743",
+        "clm:002744",
+        "clm:002745"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000090",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1978-02",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000119",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002746",
+        "clm:002747",
+        "clm:002748",
+        "clm:002749"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000091",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1978-02",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000120",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002750",
+        "clm:002751",
+        "clm:002752",
+        "clm:002753"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000092",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1982-08-27",
+      "precision": "day",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000121",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002754",
+        "clm:002755",
+        "clm:002756",
+        "clm:002757"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000093",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1982-08-27",
+      "precision": "day",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000122",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002758",
+        "clm:002759",
+        "clm:002760",
+        "clm:002761"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000094",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1982-08-27",
+      "precision": "day",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000123",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002762",
+        "clm:002763",
+        "clm:002764",
+        "clm:002765"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000095",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1982-08-27",
+      "precision": "day",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000124",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002766",
+        "clm:002767",
+        "clm:002768",
+        "clm:002769"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000096",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1980-08-29",
+      "precision": "day",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000125",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002770",
+        "clm:002771",
+        "clm:002772",
+        "clm:002773"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000097",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1985-06",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000126",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002774",
+        "clm:002775",
+        "clm:002776",
+        "clm:002777"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000098",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1985-06",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000127",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002778",
+        "clm:002779",
+        "clm:002780",
+        "clm:002781"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000099",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1985-06",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000128",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002782",
+        "clm:002783",
+        "clm:002784",
+        "clm:002785"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000100",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1985-06",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000129",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002786",
+        "clm:002787",
+        "clm:002788",
+        "clm:002789"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000101",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1985-06",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000130",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002790",
+        "clm:002791",
+        "clm:002792",
+        "clm:002793"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000102",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1985-06",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000131",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002794",
+        "clm:002795",
+        "clm:002796",
+        "clm:002797"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000104",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1985-06",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000132",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002798",
+        "clm:002799",
+        "clm:002800",
+        "clm:002801"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000105",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1985-06",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000133",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002802",
+        "clm:002803",
+        "clm:002804",
+        "clm:002805"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000106",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1985-06",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000134",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002806",
+        "clm:002807",
+        "clm:002808",
+        "clm:002809"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000107",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1985-06",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000135",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002810",
+        "clm:002811",
+        "clm:002812",
+        "clm:002813"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000108",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1985-06",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000136",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002814",
+        "clm:002815",
+        "clm:002816",
+        "clm:002817"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000109",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1985-06",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000137",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002818",
+        "clm:002819",
+        "clm:002820",
+        "clm:002821"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000111",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1985-06",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000138",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002822",
+        "clm:002823",
+        "clm:002824",
+        "clm:002825"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000112",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1985-06",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000139",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002826",
+        "clm:002827",
+        "clm:002828",
+        "clm:002829"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000113",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1985-06",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000140",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002830",
+        "clm:002831",
+        "clm:002832",
+        "clm:002833"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000114",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1985-06",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000141",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002834",
+        "clm:002835",
+        "clm:002836",
+        "clm:002837"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000115",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1985-06",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000142",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002838",
+        "clm:002839",
+        "clm:002840",
+        "clm:002841"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000116",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1985-06",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000143",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002842",
+        "clm:002843",
+        "clm:002844",
+        "clm:002845"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000117",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1985-06",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000144",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002846",
+        "clm:002847",
+        "clm:002848",
+        "clm:002849"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000118",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1990-09-24",
+      "precision": "day",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000145",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002850",
+        "clm:002851",
+        "clm:002852",
+        "clm:002853"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000119",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1990-09-24",
+      "precision": "day",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000146",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002854",
+        "clm:002855",
+        "clm:002856",
+        "clm:002857"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000120",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1990-09-24",
+      "precision": "day",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000147",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002858",
+        "clm:002859",
+        "clm:002860",
+        "clm:002861"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000121",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1990-09-24",
+      "precision": "day",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000148",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002862",
+        "clm:002863",
+        "clm:002864",
+        "clm:002865"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000122",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1993-10",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000149",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002866",
+        "clm:002867",
+        "clm:002868",
+        "clm:002869"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000123",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1993-10",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000150",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002870",
+        "clm:002871",
+        "clm:002872",
+        "clm:002873"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000124",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1993-10",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000151",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002874",
+        "clm:002875",
+        "clm:002876",
+        "clm:002877"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000125",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1993-10",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000152",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002878",
+        "clm:002879",
+        "clm:002880",
+        "clm:002881"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000126",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1993-10",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000153",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002882",
+        "clm:002883",
+        "clm:002884",
+        "clm:002885"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000127",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1993-10",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000154",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002886",
+        "clm:002887",
+        "clm:002888",
+        "clm:002889"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000128",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1993-10",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000155",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002890",
+        "clm:002891",
+        "clm:002892",
+        "clm:002893"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000129",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1993-10",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000156",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002894",
+        "clm:002895",
+        "clm:002896",
+        "clm:002897"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000130",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1993-10",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000157",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002898",
+        "clm:002899",
+        "clm:002900",
+        "clm:002901"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000131",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1993-10",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000158",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002902",
+        "clm:002903",
+        "clm:002904",
+        "clm:002905"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000132",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1993-10",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000159",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002906",
+        "clm:002907",
+        "clm:002908",
+        "clm:002909"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000133",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1993-10",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000160",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002910",
+        "clm:002911",
+        "clm:002912",
+        "clm:002913"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000134",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1993-10",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000161",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002914",
+        "clm:002915",
+        "clm:002916",
+        "clm:002917"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000135",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1993-10",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000162",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002918",
+        "clm:002919",
+        "clm:002920",
+        "clm:002921"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000137",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1993-10",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000163",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002922",
+        "clm:002923",
+        "clm:002924",
+        "clm:002925"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000138",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1993-10",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000164",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002926",
+        "clm:002927",
+        "clm:002928",
+        "clm:002929"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000139",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1993-10",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000165",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002930",
+        "clm:002931",
+        "clm:002932",
+        "clm:002933"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000140",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1993-10",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000166",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002934",
+        "clm:002935",
+        "clm:002936",
+        "clm:002937"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000141",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1993-10",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000167",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002938",
+        "clm:002939",
+        "clm:002940",
+        "clm:002941"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000142",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1993-10",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000168",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002942",
+        "clm:002943",
+        "clm:002944",
+        "clm:002945"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000145",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1999-09-14",
+      "precision": "day",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000169",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002946",
+        "clm:002947",
+        "clm:002948",
+        "clm:002949"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000146",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1999-09-14",
+      "precision": "day",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000170",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002950",
+        "clm:002951",
+        "clm:002952",
+        "clm:002953"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000147",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1994-10",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000171",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002954",
+        "clm:002955",
+        "clm:002956",
+        "clm:002957"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000148",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1999-09-14",
+      "precision": "day",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000172",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002958",
+        "clm:002959",
+        "clm:002960",
+        "clm:002961"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000149",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1999-09-14",
+      "precision": "day",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000173",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002962",
+        "clm:002963",
+        "clm:002964",
+        "clm:002965"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000150",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2002-03",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000174",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002966",
+        "clm:002967",
+        "clm:002968",
+        "clm:002969"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000151",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2002-03",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000175",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002970",
+        "clm:002971",
+        "clm:002972",
+        "clm:002973"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000152",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2002-03",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000176",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002974",
+        "clm:002975",
+        "clm:002976",
+        "clm:002977"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000153",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2002-03",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000177",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002978",
+        "clm:002979",
+        "clm:002980",
+        "clm:002981"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000154",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2002-03",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000178",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002982",
+        "clm:002983",
+        "clm:002984",
+        "clm:002985"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000155",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2002-03",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000179",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002986",
+        "clm:002987",
+        "clm:002988",
+        "clm:002989"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000156",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2002-03",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000180",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002990",
+        "clm:002991",
+        "clm:002992",
+        "clm:002993"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000157",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2002-03",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000181",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002994",
+        "clm:002995",
+        "clm:002996",
+        "clm:002997"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000158",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2002-03",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000182",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:002998",
+        "clm:002999",
+        "clm:003000",
+        "clm:003001"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000159",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2002-03",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000183",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003002",
+        "clm:003003",
+        "clm:003004",
+        "clm:003005"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000160",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2002-03",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000184",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003006",
+        "clm:003007",
+        "clm:003008",
+        "clm:003009"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000161",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2002-03",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000185",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003010",
+        "clm:003011",
+        "clm:003012",
+        "clm:003013"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000162",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2002-03",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000186",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003014",
+        "clm:003015",
+        "clm:003016",
+        "clm:003017"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000163",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2002-03",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000187",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003018",
+        "clm:003019",
+        "clm:003020",
+        "clm:003021"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000164",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2008-11",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000188",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003022",
+        "clm:003023",
+        "clm:003024",
+        "clm:003025"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000165",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2008-11",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000189",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003026",
+        "clm:003027",
+        "clm:003028",
+        "clm:003029"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000166",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2008-11",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000190",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003030",
+        "clm:003031",
+        "clm:003032",
+        "clm:003033"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000167",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2008-11",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000191",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003034",
+        "clm:003035",
+        "clm:003036",
+        "clm:003037"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000168",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2008-11",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000192",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003038",
+        "clm:003039",
+        "clm:003040",
+        "clm:003041"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000169",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2008-11",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000193",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003042",
+        "clm:003043",
+        "clm:003044",
+        "clm:003045"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000170",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2008-11",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000194",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003046",
+        "clm:003047",
+        "clm:003048",
+        "clm:003049"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000171",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2008-11-11",
+      "precision": "day",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000195",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003050",
+        "clm:003051",
+        "clm:003052",
+        "clm:003053"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000172",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2008-11",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000196",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003054",
+        "clm:003055",
+        "clm:003056",
+        "clm:003057"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000173",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2008-11",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000197",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003058",
+        "clm:003059",
+        "clm:003060",
+        "clm:003061"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000174",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2008-11",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000198",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003062",
+        "clm:003063",
+        "clm:003064",
+        "clm:003065"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000175",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2008-11",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000199",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003066",
+        "clm:003067",
+        "clm:003068",
+        "clm:003069"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000176",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2008-05-01",
+      "precision": "day",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000200",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003070",
+        "clm:003071",
+        "clm:003072",
+        "clm:003073"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000177",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2010-11",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000201",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003074",
+        "clm:003075",
+        "clm:003076",
+        "clm:003077"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000178",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2010-11",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000202",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003078",
+        "clm:003079",
+        "clm:003080",
+        "clm:003081"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000179",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2010-11",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000203",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003082",
+        "clm:003083",
+        "clm:003084",
+        "clm:003085"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000180",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2010-11",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000204",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003086",
+        "clm:003087",
+        "clm:003088",
+        "clm:003089"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000181",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2015-11",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000205",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003090",
+        "clm:003091",
+        "clm:003092",
+        "clm:003093"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000182",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2020-04-21",
+      "precision": "day",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000206",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003094",
+        "clm:003095",
+        "clm:003096",
+        "clm:003097"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000183",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2020-04-21",
+      "precision": "day",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000207",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003098",
+        "clm:003099",
+        "clm:003100",
+        "clm:003101"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000184",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2020-04-21",
+      "precision": "day",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000208",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003102",
+        "clm:003103",
+        "clm:003104",
+        "clm:003105"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000185",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2020-04-21",
+      "precision": "day",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000209",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003106",
+        "clm:003107",
+        "clm:003108",
+        "clm:003109"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000186",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2024-05",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000210",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003110",
+        "clm:003111",
+        "clm:003112",
+        "clm:003113"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000189",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2024-05",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000211",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003114",
+        "clm:003115",
+        "clm:003116",
+        "clm:003117"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000193",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2024-05",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000212",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003118",
+        "clm:003119",
+        "clm:003120",
+        "clm:003121"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000194",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2024-05",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000213",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003122",
+        "clm:003123",
+        "clm:003124",
+        "clm:003125"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000195",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2024-05",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000214",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003126",
+        "clm:003127",
+        "clm:003128",
+        "clm:003129"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000196",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2024-05",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000215",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003130",
+        "clm:003131",
+        "clm:003132",
+        "clm:003133"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000197",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2024-05",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000216",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003134",
+        "clm:003135",
+        "clm:003136",
+        "clm:003137"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000198",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2015-11",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000217",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003138",
+        "clm:003139",
+        "clm:003140",
+        "clm:003141"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000199",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2015-11",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000218",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003142",
+        "clm:003143",
+        "clm:003144",
+        "clm:003145"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000200",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2015-11",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000219",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003146",
+        "clm:003147",
+        "clm:003148",
+        "clm:003149"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000201",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2015-11",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000220",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003150",
+        "clm:003151",
+        "clm:003152",
+        "clm:003153"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000202",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2015-11",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000221",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003154",
+        "clm:003155",
+        "clm:003156",
+        "clm:003157"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000205",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2015-11",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000222",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003158",
+        "clm:003159",
+        "clm:003160",
+        "clm:003161"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000207",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2009-02-12",
+      "precision": "day",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000223",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003162",
+        "clm:003163",
+        "clm:003164",
+        "clm:003165"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000208",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2015-11",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000224",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003166",
+        "clm:003167",
+        "clm:003168",
+        "clm:003169"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000209",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2015-11",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000225",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003170",
+        "clm:003171",
+        "clm:003172",
+        "clm:003173"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000211",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2015-11",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000226",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003174",
+        "clm:003175",
+        "clm:003176",
+        "clm:003177"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000213",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2015-11",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000227",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003178",
+        "clm:003179",
+        "clm:003180",
+        "clm:003181"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000214",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2015-11",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000228",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003182",
+        "clm:003183",
+        "clm:003184",
+        "clm:003185"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000215",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2015-11",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000229",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003186",
+        "clm:003187",
+        "clm:003188",
+        "clm:003189"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000218",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2018-03",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000230",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003190",
+        "clm:003191",
+        "clm:003192",
+        "clm:003193"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000220",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1981",
+      "precision": "year",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000231",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003194",
+        "clm:003195",
+        "clm:003196",
+        "clm:003197"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000225",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2012",
+      "precision": "year",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000232",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003198",
+        "clm:003199",
+        "clm:003200",
+        "clm:003201"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000230",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2016-12",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000233",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003202",
+        "clm:003203",
+        "clm:003204",
+        "clm:003205"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000231",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1979",
+      "precision": "year",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000234",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003206",
+        "clm:003207",
+        "clm:003208",
+        "clm:003209"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000233",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1988",
+      "precision": "year",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000235",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003210",
+        "clm:003211",
+        "clm:003212",
+        "clm:003213"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000234",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "1991",
+      "precision": "year",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000236",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003214",
+        "clm:003215",
+        "clm:003216",
+        "clm:003217"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000235",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2000",
+      "precision": "year",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000237",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003218",
+        "clm:003219",
+        "clm:003220",
+        "clm:003221"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000237",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2003-03",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000238",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003222",
+        "clm:003223",
+        "clm:003224",
+        "clm:003225"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000240",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2009-03",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
+  },
+  {
+    "id": "pub:000239",
+    "entityType": "publication",
+    "verification": {
+      "claimIds": [
+        "clm:003226",
+        "clm:003227",
+        "clm:003228",
+        "clm:003229"
+      ],
+      "open": [
+        "firstPublicationHistory"
+      ]
+    },
+    "subject": {
+      "id": "wrk:000241",
+      "type": "work"
+    },
+    "eventType": "source-reported-release",
+    "date": {
+      "value": "2014-12",
+      "precision": "month",
+      "meaning": "source-reported-release",
+      "territory": null
+    },
+    "editionId": null,
+    "part": null,
+    "publisher": null
   }
 ]

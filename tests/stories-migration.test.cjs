@@ -72,10 +72,10 @@ test('A wrong default membership or unjustified evidence upgrade fails independe
  assert.ok(validateShadow(bundle,ledger,{checkGenerated:false,decisions}).errors.some(e=>e.code==='membership-evidence'));
 });
 test('Batch 02 creates no edition, own story cover, adaptation, publication event or Tower relationship',()=>{
- const {bundle}=fresh();const old=generateShadow(ROOT,{batch:'01'}).bundle;
+ const {bundle}=generateShadow(ROOT,{batch:'02'});const old=generateShadow(ROOT,{batch:'01'}).bundle;
  for(const table of ['editions','artworks','publicationEvents','adaptations','characters','locations','externalReferences'])assert.deepEqual(bundle[table],old[table]);
  assert.equal(bundle.connections.length,9);for(const r of old.connections)assert.deepEqual(bundle.connections.find(c=>c.id===r.id),r);
- const {ledger}=fresh();assert.equal(ledger.completeMigration,false);assert.equal(ledger.batch02RecordCount,173);
+ const ledger=generateShadow(ROOT,{batch:'02'}).differences;assert.equal(ledger.completeMigration,false);assert.equal(ledger.batch02RecordCount,173);
  assert.ok(ledger.fields.some(f=>f.pointer.includes('/stories/')&&f.pointer.endsWith('/reportedDate')&&f.disposition==='retained-in-source-not-migrated'));
 });
 

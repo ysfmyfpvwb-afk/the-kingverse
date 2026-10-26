@@ -1,6 +1,6 @@
 {
   "checked": "2026-10-26",
-  "batch": "02-stories-and-memberships",
+  "batch": "03-publications-editions-cover-provenance",
   "fullMigration": false,
   "legacy": {
     "counts": {
@@ -33,7 +33,7 @@
   "shadow": {
     "works": 241,
     "collections": 15,
-    "editions": 4,
+    "editions": 154,
     "people": 12,
     "credits": 272,
     "adaptations": 0,
@@ -41,15 +41,15 @@
     "locations": 1,
     "connections": 9,
     "collectionMemberships": 155,
-    "sources": 262,
-    "claims": 2271,
-    "publicationEvents": 2,
-    "artworks": 4,
+    "sources": 338,
+    "claims": 4865,
+    "publicationEvents": 239,
+    "artworks": 152,
     "externalReferences": 2
   },
   "shadowEditionsByLanguage": {
-    "nl": 2,
-    "en": 2
+    "nl": 68,
+    "en": 86
   },
   "shadowWorkKinds": {
     "novel": 65,
@@ -81,7 +81,7 @@
       "scope": "identity, scoped credits and registered membership projection; not full publication/edition metadata"
     },
     "editions": {
-      "migrated": 4,
+      "migrated": 154,
       "total": 154
     },
     "adaptations": {
@@ -93,11 +93,5921 @@
       "total": 17
     },
     "fields": {
-      "mapped": 2082,
-      "retainedNotMigrated": 13268,
+      "mapped": 4058,
+      "retainedNotMigrated": 11292,
       "total": 15350
     },
     "note": "Identity/credit coverage is not full record migration; remaining fields are retained in source, with hashed pointers in differences.json."
+  },
+  "publicationsAndEditions": {
+    "batch": "03-publications-editions-cover-provenance",
+    "baseCommit": "82edfb3f865256e591c530e25ed2d774b752f45c",
+    "definitions": {
+      "editionExample": "An inherited edition identity, often a cover example; not necessarily a uniquely identified printing or first edition.",
+      "publicationRecord": "One subject + event kind + source date + optional manifestation title; source-reported dates are not first publication.",
+      "sourceSupportedEditionFields": "Exact publisher snapshot title, ISBN and nl-NL agreement; no whole-record certification.",
+      "coverReady": "Edition binding, documented reuse permission and reliable permitted delivery must all pass; no legacy visual status grants permission."
+    },
+    "editionExamples": {
+      "total": 154,
+      "newlyMigrated": 150,
+      "inherited": 4,
+      "byLanguage": {
+        "en": 86,
+        "nl": 68
+      },
+      "sourceSupportedIdentity": 66,
+      "completeEditionHistories": 0
+    },
+    "publications": {
+      "records": [
+        {
+          "id": "pub:000003",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000003"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1974-04-05",
+            "precision": "day",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Doubleday",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/carrie.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/0"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000004",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000004"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1975-10-17",
+            "precision": "day",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Doubleday",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/salems-lot.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/1"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000005",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000004"
+          },
+          "eventType": "edition-variant-reported-release",
+          "date": {
+            "value": "2005-11-11",
+            "precision": "day",
+            "meaning": "edition-variant-reported-release",
+            "territory": null
+          },
+          "publisher": "Doubleday",
+          "reportedTitle": "'Salem's Lot Illustrated Edition",
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/salems-lot-illustrated-edition.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/1/publications/0; data/publications.json"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000006",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000005"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1977-01",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Doubleday",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/shining.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/2"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000007",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000006"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1977",
+            "precision": "year",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "New American Library (NAL)",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/rage.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/3"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000008",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000007"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1978-10",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Doubleday",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/stand.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/4"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000009",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000007"
+          },
+          "eventType": "edition-variant-reported-release",
+          "date": {
+            "value": "1990-05",
+            "precision": "month",
+            "meaning": "edition-variant-reported-release",
+            "territory": null
+          },
+          "publisher": "Doubleday",
+          "reportedTitle": "The Stand: The Complete & Uncut Edition",
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/stand-the-complete-uncut-edition.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/4/publications/0; data/publications.json"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000010",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000008"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1979",
+            "precision": "year",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "New American Library (NAL)",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/long-walk.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/5"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000011",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000009"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1979-08",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Viking Press",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/dead-zone.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/6"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000012",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000010"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1980-09-29",
+            "precision": "day",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Viking Press",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/firestarter.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/7"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000013",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000011"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1981",
+            "precision": "year",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "New American Library (NAL)",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/roadwork.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/8"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000014",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000012"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1981-09-08",
+            "precision": "day",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Viking Press",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/cujo.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/9"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000015",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000013"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1982",
+            "precision": "year",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "New American Library (NAL)",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/running-man.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/10"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000016",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000014"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1982-06",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Donald M. Grant, Publisher",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/dark-tower-the-gunslinger.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/11"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000017",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000014"
+          },
+          "eventType": "edition-variant-reported-release",
+          "date": {
+            "value": "2003-06",
+            "precision": "month",
+            "meaning": "edition-variant-reported-release",
+            "territory": null
+          },
+          "publisher": "Viking Press",
+          "reportedTitle": "The Dark Tower: The Gunslinger (Revised)",
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/dark-tower-the-gunslinger-(revised).html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/11/publications/0; data/publications.json"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000018",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000015"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1983-04-29",
+            "precision": "day",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Viking Press",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/christine.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/12"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000019",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000016"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1983-11",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Doubleday",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/pet-sematary.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/13"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000020",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000017"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1985-04",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Signet",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/cycle-of-the-werewolf.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/14"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000021",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000017"
+          },
+          "eventType": "legacy-bibliographic-year",
+          "date": {
+            "value": "1983",
+            "precision": "year",
+            "meaning": "legacy-bibliographic-year",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/cycle-of-the-werewolf.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/14/Jaar"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000001",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000001"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1984-11",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "G.P. Putnam's & Sons",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/talisman.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/15"
+          ],
+          "inherited": true
+        },
+        {
+          "id": "pub:000022",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000018"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1984-11",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "New American Library (NAL)",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/thinner.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/16"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000023",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000019"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1986-09",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Viking Press",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/it.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/17"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000024",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000020"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1987-02",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Viking Press",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/eyes-of-the-dragon.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/18"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000025",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000021"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1987-06",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Viking Press",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/misery.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/19"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000026",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000022"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1987-05",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Donald M. Grant, Publisher",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/dark-tower-the-drawing-of-the-three.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/20"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000027",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000023"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1987-11",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "G.P. Putnam's & Sons",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/tommyknockers.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/21"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000028",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000024"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1989-11",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Viking Press",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/dark-half.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/22"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000029",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000025"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1991-08",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Donald M. Grant, Publisher",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/dark-tower-the-waste-lands.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/23"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000030",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000026"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1991-10",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Viking Press",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/needful-things.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/24"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000031",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000027"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1992-05",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Viking Press",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/geralds-game.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/25"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000032",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000028"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1993-11",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Viking Press",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/dolores-claiborne.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/26"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000033",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000028"
+          },
+          "eventType": "legacy-bibliographic-year",
+          "date": {
+            "value": "1992",
+            "precision": "year",
+            "meaning": "legacy-bibliographic-year",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/dolores-claiborne.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/26/Jaar"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000034",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000029"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1994-09",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Viking Press",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/insomnia.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/27"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000035",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000030"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1995-06",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Viking Press",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/rose-madder.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/28"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000036",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000031"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2000-10",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Scribner",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/green-mile-the-complete-serial-novel.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/29"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000037",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000031"
+          },
+          "eventType": "legacy-bibliographic-year",
+          "date": {
+            "value": "1996",
+            "precision": "year",
+            "meaning": "legacy-bibliographic-year",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/green-mile-the-complete-serial-novel.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/29/Jaar"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000038",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000031"
+          },
+          "eventType": "serial-part",
+          "date": {
+            "value": "1996-08",
+            "precision": "month",
+            "meaning": "serial-part",
+            "territory": null
+          },
+          "publisher": "Signet",
+          "reportedTitle": "The Green Mile: Coffey on the Mile",
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/green-mile-coffey-on-the-mile.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/29/publications/0; data/publications.json"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000039",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000031"
+          },
+          "eventType": "serial-part",
+          "date": {
+            "value": "1996-05",
+            "precision": "month",
+            "meaning": "serial-part",
+            "territory": null
+          },
+          "publisher": "Signet",
+          "reportedTitle": "The Green Mile: Coffey's Hands",
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/green-mile-coffeys-hands.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/29/publications/1; data/publications.json"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000040",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000031"
+          },
+          "eventType": "serial-part",
+          "date": {
+            "value": "1996-07",
+            "precision": "month",
+            "meaning": "serial-part",
+            "territory": null
+          },
+          "publisher": "Signet",
+          "reportedTitle": "The Green Mile: Night Journey",
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/green-mile-night-journey.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/29/publications/2; data/publications.json"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000041",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000031"
+          },
+          "eventType": "serial-part",
+          "date": {
+            "value": "1996-06",
+            "precision": "month",
+            "meaning": "serial-part",
+            "territory": null
+          },
+          "publisher": "Signet",
+          "reportedTitle": "The Green Mile: The Bad Death of Eduard Delacroix",
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/green-mile-the-bad-death-of-eduard-delacroix.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/29/publications/3; data/publications.json"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000042",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000031"
+          },
+          "eventType": "serial-part",
+          "date": {
+            "value": "1996-04",
+            "precision": "month",
+            "meaning": "serial-part",
+            "territory": null
+          },
+          "publisher": "Signet",
+          "reportedTitle": "The Green Mile: The Mouse on the Mile",
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/green-mile-the-mouse-on-the-mile.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/29/publications/4; data/publications.json"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000043",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000031"
+          },
+          "eventType": "serial-part",
+          "date": {
+            "value": "1996-03",
+            "precision": "month",
+            "meaning": "serial-part",
+            "territory": null
+          },
+          "publisher": "Signet",
+          "reportedTitle": "The Green Mile: The Two Dead Girls",
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/green-mile-the-two-dead-girls.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/29/publications/5; data/publications.json"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000044",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000032"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1996-09-24",
+            "precision": "day",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Viking Press",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/desperation.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/30"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000045",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000033"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1996",
+            "precision": "year",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Dutton",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/regulators.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/31"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000046",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000034"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1997-11",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Donald M. Grant, Publisher",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/dark-tower-wizard-and-glass.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/32"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000047",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000035"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1998-09-22",
+            "precision": "day",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Scribner",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/bag-of-bones.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/33"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000048",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000036"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1999-04",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Scribner",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/girl-who-loved-tom-gordon.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/34"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000049",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000037"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2001-02-20",
+            "precision": "day",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Scribner",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/dreamcatcher.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/35"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000002",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000002"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2001-09-15",
+            "precision": "day",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Random House",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/black-house.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/36"
+          ],
+          "inherited": true
+        },
+        {
+          "id": "pub:000050",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000038"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2002-09-24",
+            "precision": "day",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Scribner",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/from-a-buick-8.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/37"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000051",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000039"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2003-11",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Scribner",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/dark-tower-wolves-of-the-calla.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/38"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000052",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000040"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2004-06",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Scribner",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/dark-tower-song-of-susannah.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/39"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000053",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000041"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2004-09",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Scribner",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/dark-tower.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/40"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000054",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000042"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2005-10",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Dorchester Publishing Co., Inc.",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/colorado-kid.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/41"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000055",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000043"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2006-01-24",
+            "precision": "day",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Scribner",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/cell.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/42"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000056",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000044"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2006-10",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Scribner",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/liseys-story.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/43"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000057",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000045"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2007",
+            "precision": "year",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Scribner",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/blaze.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/44"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000058",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000046"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2008-01-22",
+            "precision": "day",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Scribner",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/duma-key.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/45"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000059",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000047"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2009-11",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Scribner",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/under-the-dome.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/46"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000060",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000048"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2011-11-08",
+            "precision": "day",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Scribner",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/11-22-63.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/47"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000061",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000049"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2012-04",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Scribner",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/dark-tower-the-wind-through-the-keyhole.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/48"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000062",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000050"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2013-06",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Titan Books",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/joyland.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/49"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000063",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000050"
+          },
+          "eventType": "edition-variant-reported-release",
+          "date": {
+            "value": "2015-09",
+            "precision": "month",
+            "meaning": "edition-variant-reported-release",
+            "territory": null
+          },
+          "publisher": "Hard Case Crime",
+          "reportedTitle": "Joyland Illustrated Edition",
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/joyland-illustrated-edition.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/49/publications/0; data/publications.json"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000064",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000051"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2013-09-24",
+            "precision": "day",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Scribner",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/doctor-sleep.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/50"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000065",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000052"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2014-06",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Scribner",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/mr-mercedes.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/51"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000066",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000053"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2014-11",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Scribner",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/revival.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/52"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000067",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000054"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2015-06-02",
+            "precision": "day",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Scribner",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/finders-keepers.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/53"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000068",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000055"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2016-06-07",
+            "precision": "day",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Scribner",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/end-of-watch.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/54"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000069",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000056"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2017-09-26",
+            "precision": "day",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Scribner",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/sleeping-beauties.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/55"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000070",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000057"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2017-05-16",
+            "precision": "day",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novella/gwendys-button-box.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/56",
+            "catalog.js#/stories/155"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000071",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000058"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2018-05",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Scribner",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/outsider.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/57"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000072",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000059"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2018-10-30",
+            "precision": "day",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novella/elevation.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/58",
+            "catalog.js#/stories/151"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000073",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000060"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2019-09",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Scribner",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/institute.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/59"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000074",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000061"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2021-03-02",
+            "precision": "day",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Hard Case Crime",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/later.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/60"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000075",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000062"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2021-08-03",
+            "precision": "day",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Scribner",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/billy-summers.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/61"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000076",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000063"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2022-02-15",
+            "precision": "day",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Cemetery Dance Publications",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/gwendys-final-task.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/62"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000077",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000064"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2022-09-06",
+            "precision": "day",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Scribner",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/fairy-tale.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/63"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000078",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000065"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2023-09-05",
+            "precision": "day",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Scribner",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/holly.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/64"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000079",
+          "subject": {
+            "type": "collection",
+            "id": "col:000001"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2024-05",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Scribner",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/collection/you-like-it-darker.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/65"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000080",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000066"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2025-05-27",
+            "precision": "day",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Simon & Schuster Audio",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/never-flinch.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/66"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000081",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000067"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2026-10-06",
+            "precision": "day",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Scribner",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/other-worlds-than-these.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/67"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000082",
+          "subject": {
+            "type": "collection",
+            "id": "col:000002"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1978-02",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Doubleday",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/collection/night-shift.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/68"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000083",
+          "subject": {
+            "type": "collection",
+            "id": "col:000003"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1982-08",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Viking Press",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/collection/different-seasons.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/69"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000084",
+          "subject": {
+            "type": "collection",
+            "id": "col:000004"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1985-06",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "G.P. Putnam's & Sons",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/collection/skeleton-crew.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/70"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000085",
+          "subject": {
+            "type": "collection",
+            "id": "col:000005"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1990-09",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Viking Press",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/collection/four-past-midnight.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/71"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000086",
+          "subject": {
+            "type": "collection",
+            "id": "col:000006"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1993-10",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Viking Press",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/collection/nightmares-dreamscapes.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/72"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000087",
+          "subject": {
+            "type": "collection",
+            "id": "col:000007"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1999-09",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Scribner",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/collection/hearts-in-atlantis.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/73"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000088",
+          "subject": {
+            "type": "collection",
+            "id": "col:000008"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2002-03",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Scribner",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/collection/everythings-eventual.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/74"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000089",
+          "subject": {
+            "type": "collection",
+            "id": "col:000009"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2008-11",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Scribner",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/collection/just-after-sunset.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/75"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000090",
+          "subject": {
+            "type": "collection",
+            "id": "col:000010"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2009-01",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Plume",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/collection/stephen-king-goes-to-the-movies.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/76"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000091",
+          "subject": {
+            "type": "collection",
+            "id": "col:000011"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2010-11",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Scribner",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/collection/full-dark-no-stars.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/77"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000092",
+          "subject": {
+            "type": "collection",
+            "id": "col:000012"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2015-11",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Scribner",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/collection/bazaar-of-bad-dreams.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/78"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000093",
+          "subject": {
+            "type": "collection",
+            "id": "col:000013"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2020-04",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Scribner",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/collection/if-it-bleeds.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/79"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000094",
+          "subject": {
+            "type": "collection",
+            "id": "col:000014"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1985-10",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "New American Library (NAL)",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novel/bachman-books.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/80"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000095",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000068"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2010-04-20",
+            "precision": "day",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novella/blockade-billy.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/81",
+            "catalog.js#/stories/137"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000096",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000069"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2010-03",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/comic/american-vampire.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/82"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000097",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000070"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2005-09",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Scribner",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/nonfiction/faithful.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/83"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000098",
+          "subject": {
+            "type": "collection",
+            "id": "col:000015"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1994",
+            "precision": "year",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Viking Press",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/nonfiction/mid-life-confidential-the-rock-bottom-remainders-tour-america-with-three-chords-and-an-attitude.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/84"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000099",
+          "subject": {
+            "type": "work",
+            "id": "wrk:000071"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1988",
+            "precision": "year",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": "Viking Press",
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/nonfiction/nightmares-in-the-sky.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/books/85"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000100",
+          "subject": {
+            "id": "wrk:000072",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1978-02",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/jerusalems-lot.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/0"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000101",
+          "subject": {
+            "id": "wrk:000073",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1978-02",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/graveyard-shift.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/1"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000102",
+          "subject": {
+            "id": "wrk:000074",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1978-02",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/night-surf.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/2"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000103",
+          "subject": {
+            "id": "wrk:000075",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1978-02",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/i-am-the-doorway.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/3"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000104",
+          "subject": {
+            "id": "wrk:000076",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1978-02",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/mangler.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/4"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000105",
+          "subject": {
+            "id": "wrk:000077",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1978-02",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/boogeyman.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/5"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000106",
+          "subject": {
+            "id": "wrk:000078",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1978-02",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/grey-matter.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/6"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000107",
+          "subject": {
+            "id": "wrk:000079",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1978-02",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/battleground.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/7"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000108",
+          "subject": {
+            "id": "wrk:000080",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1978-02",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/trucks.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/8"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000109",
+          "subject": {
+            "id": "wrk:000081",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1978-02",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/sometimes-they-come-back.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/9"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000110",
+          "subject": {
+            "id": "wrk:000082",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1978-02",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/strawberry-spring.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/10"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000111",
+          "subject": {
+            "id": "wrk:000083",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1978-02",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/ledge.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/11"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000112",
+          "subject": {
+            "id": "wrk:000084",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1978-02",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/lawnmower-man.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/12"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000113",
+          "subject": {
+            "id": "wrk:000085",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1978-02",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/quitters-inc.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/13"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000114",
+          "subject": {
+            "id": "wrk:000086",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1978-02",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/i-know-what-you-need.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/14"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000115",
+          "subject": {
+            "id": "wrk:000087",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1978-02",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/children-of-the-corn.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/15"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000116",
+          "subject": {
+            "id": "wrk:000088",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1978-02",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/last-rung-on-the-ladder.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/16"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000117",
+          "subject": {
+            "id": "wrk:000089",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1978-02",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/man-who-loved-flowers.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/17"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000118",
+          "subject": {
+            "id": "wrk:000090",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1978-02",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/one-for-the-road.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/18"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000119",
+          "subject": {
+            "id": "wrk:000091",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1978-02",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/woman-in-the-room.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/19"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000120",
+          "subject": {
+            "id": "wrk:000092",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1982-08-27",
+            "precision": "day",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novella/rita-hayworth-and-shawshank-redemption.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/20"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000121",
+          "subject": {
+            "id": "wrk:000093",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1982-08-27",
+            "precision": "day",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novella/apt-pupil.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/21"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000122",
+          "subject": {
+            "id": "wrk:000094",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1982-08-27",
+            "precision": "day",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novella/body.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/22"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000123",
+          "subject": {
+            "id": "wrk:000095",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1982-08-27",
+            "precision": "day",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novella/breathing-method.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/23"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000124",
+          "subject": {
+            "id": "wrk:000096",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1980-08-29",
+            "precision": "day",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novella/mist.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/24"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000125",
+          "subject": {
+            "id": "wrk:000097",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1985-06",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/here-there-be-tygers.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/25"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000126",
+          "subject": {
+            "id": "wrk:000098",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1985-06",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/monkey.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/26"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000127",
+          "subject": {
+            "id": "wrk:000099",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1985-06",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/cain-rose-up.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/27"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000128",
+          "subject": {
+            "id": "wrk:000100",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1985-06",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/mrs-todds-shortcut.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/28"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000129",
+          "subject": {
+            "id": "wrk:000101",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1985-06",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/jaunt.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/29"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000130",
+          "subject": {
+            "id": "wrk:000102",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1985-06",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/wedding-gig.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/30"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000131",
+          "subject": {
+            "id": "wrk:000104",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1985-06",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/raft.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/32"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000132",
+          "subject": {
+            "id": "wrk:000105",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1985-06",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/word-processor-of-the-gods.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/33"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000133",
+          "subject": {
+            "id": "wrk:000106",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1985-06",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/man-who-would-not-shake-hands.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/34"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000134",
+          "subject": {
+            "id": "wrk:000107",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1985-06",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/beachworld.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/35"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000135",
+          "subject": {
+            "id": "wrk:000108",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1985-06",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/reapers-image.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/36"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000136",
+          "subject": {
+            "id": "wrk:000109",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1985-06",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/nona.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/37"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000137",
+          "subject": {
+            "id": "wrk:000111",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1985-06",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/survivor-type.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/39"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000138",
+          "subject": {
+            "id": "wrk:000112",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1985-06",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/uncle-ottos-truck.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/40"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000139",
+          "subject": {
+            "id": "wrk:000113",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1985-06",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/morning-deliveries-(milkman-1).html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/41"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000140",
+          "subject": {
+            "id": "wrk:000114",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1985-06",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/big-wheels-a-tale-of-the-laundry-game-(milkman-2).html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/42"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000141",
+          "subject": {
+            "id": "wrk:000115",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1985-06",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/gramma.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/43"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000142",
+          "subject": {
+            "id": "wrk:000116",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1985-06",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/ballad-of-the-flexible-bullet.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/44"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000143",
+          "subject": {
+            "id": "wrk:000117",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1985-06",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/reach.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/45"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000144",
+          "subject": {
+            "id": "wrk:000118",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1990-09-24",
+            "precision": "day",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novella/langoliers.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/46"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000145",
+          "subject": {
+            "id": "wrk:000119",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1990-09-24",
+            "precision": "day",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novella/secret-window-secret-garden.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/47"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000146",
+          "subject": {
+            "id": "wrk:000120",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1990-09-24",
+            "precision": "day",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novella/library-policeman.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/48"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000147",
+          "subject": {
+            "id": "wrk:000121",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1990-09-24",
+            "precision": "day",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novella/sun-dog.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/49"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000148",
+          "subject": {
+            "id": "wrk:000122",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1993-10",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/dolans-cadillac.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/50"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000149",
+          "subject": {
+            "id": "wrk:000123",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1993-10",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/end-of-the-whole-mess.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/51"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000150",
+          "subject": {
+            "id": "wrk:000124",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1993-10",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/suffer-the-little-children.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/52"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000151",
+          "subject": {
+            "id": "wrk:000125",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1993-10",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/night-flier.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/53"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000152",
+          "subject": {
+            "id": "wrk:000126",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1993-10",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/popsy.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/54"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000153",
+          "subject": {
+            "id": "wrk:000127",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1993-10",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/it-grows-on-you.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/55"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000154",
+          "subject": {
+            "id": "wrk:000128",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1993-10",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/chattery-teeth.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/56"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000155",
+          "subject": {
+            "id": "wrk:000129",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1993-10",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/dedication.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/57"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000156",
+          "subject": {
+            "id": "wrk:000130",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1993-10",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/moving-finger.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/58"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000157",
+          "subject": {
+            "id": "wrk:000131",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1993-10",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/sneakers.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/59"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000158",
+          "subject": {
+            "id": "wrk:000132",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1993-10",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/you-know-they-got-a-hell-of-a-band.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/60"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000159",
+          "subject": {
+            "id": "wrk:000133",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1993-10",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/home-delivery.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/61"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000160",
+          "subject": {
+            "id": "wrk:000134",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1993-10",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/rainy-season.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/62"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000161",
+          "subject": {
+            "id": "wrk:000135",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1993-10",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/my-pretty-pony.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/63"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000162",
+          "subject": {
+            "id": "wrk:000137",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1993-10",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/ten-o-clock-people.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/65"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000163",
+          "subject": {
+            "id": "wrk:000138",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1993-10",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/crouch-end.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/66"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000164",
+          "subject": {
+            "id": "wrk:000139",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1993-10",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/house-on-maple-street.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/67"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000165",
+          "subject": {
+            "id": "wrk:000140",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1993-10",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/fifth-quarter.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/68"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000166",
+          "subject": {
+            "id": "wrk:000141",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1993-10",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/doctors-case.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/69"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000167",
+          "subject": {
+            "id": "wrk:000142",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1993-10",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/umneys-last-case.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/70"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000168",
+          "subject": {
+            "id": "wrk:000145",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1999-09-14",
+            "precision": "day",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novella/low-men-in-yellow-coats.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/73"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000169",
+          "subject": {
+            "id": "wrk:000146",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1999-09-14",
+            "precision": "day",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novella/hearts-in-atlantis.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/74"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000170",
+          "subject": {
+            "id": "wrk:000147",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1994-10",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novella/blind-willie.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/75"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000171",
+          "subject": {
+            "id": "wrk:000148",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1999-09-14",
+            "precision": "day",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novella/why-we-re-in-vietnam.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/76"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000172",
+          "subject": {
+            "id": "wrk:000149",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1999-09-14",
+            "precision": "day",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novella/heavenly-shades-of-night-are-falling.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/77"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000173",
+          "subject": {
+            "id": "wrk:000150",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2002-03",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/autopsy-room-four.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/78"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000174",
+          "subject": {
+            "id": "wrk:000151",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2002-03",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/man-in-the-black-suit.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/79"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000175",
+          "subject": {
+            "id": "wrk:000152",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2002-03",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/all-that-you-love-will-be-carried-away.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/80"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000176",
+          "subject": {
+            "id": "wrk:000153",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2002-03",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/death-of-jack-hamilton.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/81"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000177",
+          "subject": {
+            "id": "wrk:000154",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2002-03",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/in-the-deathroom.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/82"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000178",
+          "subject": {
+            "id": "wrk:000155",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2002-03",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/little-sisters-of-eluria.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/83"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000179",
+          "subject": {
+            "id": "wrk:000156",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2002-03",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/everythings-eventual.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/84"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000180",
+          "subject": {
+            "id": "wrk:000157",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2002-03",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/lts-theory-of-pets.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/85"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000181",
+          "subject": {
+            "id": "wrk:000158",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2002-03",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/road-virus-heads-north.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/86"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000182",
+          "subject": {
+            "id": "wrk:000159",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2002-03",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/lunch-at-the-gotham-cafe.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/87"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000183",
+          "subject": {
+            "id": "wrk:000160",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2002-03",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/that-feeling-you-can-only-say-what-it-is-in-french.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/88"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000184",
+          "subject": {
+            "id": "wrk:000161",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2002-03",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/1408.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/89"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000185",
+          "subject": {
+            "id": "wrk:000162",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2002-03",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/riding-the-bullet.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/90"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000186",
+          "subject": {
+            "id": "wrk:000163",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2002-03",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/luckey-quarter.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/91"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000187",
+          "subject": {
+            "id": "wrk:000164",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2008-11",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/willa.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/92"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000188",
+          "subject": {
+            "id": "wrk:000165",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2008-11",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/gingerbread-girl.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/93"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000189",
+          "subject": {
+            "id": "wrk:000166",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2008-11",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/harveys-dream.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/94"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000190",
+          "subject": {
+            "id": "wrk:000167",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2008-11",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/rest-stop.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/95"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000191",
+          "subject": {
+            "id": "wrk:000168",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2008-11",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/stationary-bike.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/96"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000192",
+          "subject": {
+            "id": "wrk:000169",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2008-11",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/things-they-left-behind.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/97"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000193",
+          "subject": {
+            "id": "wrk:000170",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2008-11",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/graduation-afternoon.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/98"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000194",
+          "subject": {
+            "id": "wrk:000171",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2008-11-11",
+            "precision": "day",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novella/n.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/99"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000195",
+          "subject": {
+            "id": "wrk:000172",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2008-11",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/cat-from-hell.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/100"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000196",
+          "subject": {
+            "id": "wrk:000173",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2008-11",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/new-york-times-at-special-bargain-rates.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/101"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000197",
+          "subject": {
+            "id": "wrk:000174",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2008-11",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/mute.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/102"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000198",
+          "subject": {
+            "id": "wrk:000175",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2008-11",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/ayana.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/103"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000199",
+          "subject": {
+            "id": "wrk:000176",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2008-05-01",
+            "precision": "day",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novella/a-very-tight-place.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/104"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000200",
+          "subject": {
+            "id": "wrk:000177",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2010-11",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/1922.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/105"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000201",
+          "subject": {
+            "id": "wrk:000178",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2010-11",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/big-driver.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/106"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000202",
+          "subject": {
+            "id": "wrk:000179",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2010-11",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/fair-extension.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/107"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000203",
+          "subject": {
+            "id": "wrk:000180",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2010-11",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/a-good-marriage.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/108"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000204",
+          "subject": {
+            "id": "wrk:000181",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2015-11",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/under-the-weather.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/109"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000205",
+          "subject": {
+            "id": "wrk:000182",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2020-04-21",
+            "precision": "day",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novella/mr-harrigans-phone.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/110"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000206",
+          "subject": {
+            "id": "wrk:000183",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2020-04-21",
+            "precision": "day",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novella/life-of-chuck.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/111"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000207",
+          "subject": {
+            "id": "wrk:000184",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2020-04-21",
+            "precision": "day",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novella/if-it-bleeds.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/112"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000208",
+          "subject": {
+            "id": "wrk:000185",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2020-04-21",
+            "precision": "day",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novella/rat.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/113"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000209",
+          "subject": {
+            "id": "wrk:000186",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2024-05",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/two-talented-bastids.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/114"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000210",
+          "subject": {
+            "id": "wrk:000189",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2024-05",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/danny-coughlins-bad-dream.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/117"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000211",
+          "subject": {
+            "id": "wrk:000193",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2024-05",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/turbulence-expert.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/121"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000212",
+          "subject": {
+            "id": "wrk:000194",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2024-05",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/laurie.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/122"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000213",
+          "subject": {
+            "id": "wrk:000195",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2024-05",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/rattlesnakes.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/123"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000214",
+          "subject": {
+            "id": "wrk:000196",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2024-05",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/dreamers.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/124"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000215",
+          "subject": {
+            "id": "wrk:000197",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2024-05",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/answer-man.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/125"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000216",
+          "subject": {
+            "id": "wrk:000198",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2015-11",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/mile-81.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/126"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000217",
+          "subject": {
+            "id": "wrk:000199",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2015-11",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/premium-harmony.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/127"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000218",
+          "subject": {
+            "id": "wrk:000200",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2015-11",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/batman-and-robin-have-an-altercation.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/128"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000219",
+          "subject": {
+            "id": "wrk:000201",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2015-11",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/dune.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/129"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000220",
+          "subject": {
+            "id": "wrk:000202",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2015-11",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/bad-little-kid.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/130"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000221",
+          "subject": {
+            "id": "wrk:000205",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2015-11",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/morality.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/133"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000222",
+          "subject": {
+            "id": "wrk:000207",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2009-02-12",
+            "precision": "day",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/novella/ur.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/135"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000223",
+          "subject": {
+            "id": "wrk:000208",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2015-11",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/herman-wouk-is-still-alive.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/136"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000224",
+          "subject": {
+            "id": "wrk:000209",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2015-11",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/mister-yummy.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/138"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000225",
+          "subject": {
+            "id": "wrk:000211",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2015-11",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/little-green-god-of-agony.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/140"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000226",
+          "subject": {
+            "id": "wrk:000213",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2015-11",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/obits.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/142"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000227",
+          "subject": {
+            "id": "wrk:000214",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2015-11",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/drunken-fireworks.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/143"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000228",
+          "subject": {
+            "id": "wrk:000215",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2015-11",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/summer-thunder.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/144"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000229",
+          "subject": {
+            "id": "wrk:000218",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2018-03",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/blue-air-compressor.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/147"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000230",
+          "subject": {
+            "id": "wrk:000220",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1981",
+            "precision": "year",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/crate.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/149"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000231",
+          "subject": {
+            "id": "wrk:000225",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2012",
+            "precision": "year",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/in-the-tall-grass.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/156"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000232",
+          "subject": {
+            "id": "wrk:000230",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2016-12",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/music-room.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/161"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000233",
+          "subject": {
+            "id": "wrk:000231",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1979",
+            "precision": "year",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/night-of-the-tiger.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/162"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000234",
+          "subject": {
+            "id": "wrk:000233",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1988",
+            "precision": "year",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/reploids.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/164"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000235",
+          "subject": {
+            "id": "wrk:000234",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "1991",
+            "precision": "year",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/revelations-of-becka-paulson.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/165"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000236",
+          "subject": {
+            "id": "wrk:000235",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2000",
+            "precision": "year",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/rush-call.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/166"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000237",
+          "subject": {
+            "id": "wrk:000237",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2003-03",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/tale-of-gray-dick.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/168"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000238",
+          "subject": {
+            "id": "wrk:000240",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2009-03",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/throttle.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/171"
+          ],
+          "inherited": false
+        },
+        {
+          "id": "pub:000239",
+          "subject": {
+            "id": "wrk:000241",
+            "type": "work"
+          },
+          "eventType": "source-reported-release",
+          "date": {
+            "value": "2014-12",
+            "precision": "month",
+            "meaning": "source-reported-release",
+            "territory": null
+          },
+          "publisher": null,
+          "reportedTitle": null,
+          "sourceUrls": [
+            "https://stephenking.com/works/short/weeds.html"
+          ],
+          "sourceLocators": [
+            "catalog.js#/stories/172"
+          ],
+          "inherited": false
+        }
+      ],
+      "total": 239,
+      "newlyMigrated": 237,
+      "byKind": {
+        "source-reported-release": 226,
+        "edition-variant-reported-release": 4,
+        "legacy-bibliographic-year": 3,
+        "serial-part": 6
+      },
+      "missingReportedDate": [
+        {
+          "legacyId": "stories:paranoid-a-chant",
+          "workId": "work:paranoid-a-chant"
+        },
+        {
+          "legacyId": "stories:for-owen",
+          "workId": "work:for-owen"
+        },
+        {
+          "legacyId": "stories:sorry-right-number",
+          "workId": "work:sorry-right-number"
+        },
+        {
+          "legacyId": "stories:head-down",
+          "workId": "work:head-down"
+        },
+        {
+          "legacyId": "stories:brooklyn-august",
+          "workId": "work:brooklyn-august"
+        },
+        {
+          "legacyId": "stories:the-fifth-step",
+          "workId": "work:the-fifth-step"
+        },
+        {
+          "legacyId": "stories:willie-the-weirdo",
+          "workId": "work:willie-the-weirdo"
+        },
+        {
+          "legacyId": "stories:finn",
+          "workId": "work:finn"
+        },
+        {
+          "legacyId": "stories:on-slide-inn-road",
+          "workId": "work:on-slide-inn-road"
+        },
+        {
+          "legacyId": "stories:red-screen",
+          "workId": "work:red-screen"
+        },
+        {
+          "legacyId": "stories:a-death",
+          "workId": "work:a-death"
+        },
+        {
+          "legacyId": "stories:the-bone-church",
+          "workId": "work:the-bone-church"
+        },
+        {
+          "legacyId": "stories:afterlife",
+          "workId": "work:afterlife"
+        },
+        {
+          "legacyId": "stories:tommy",
+          "workId": "work:tommy"
+        },
+        {
+          "legacyId": "stories:that-bus-is-another-world",
+          "workId": "work:that-bus-is-another-world"
+        },
+        {
+          "legacyId": "stories:a-face-in-the-crowd",
+          "workId": "work:a-face-in-the-crowd"
+        },
+        {
+          "legacyId": "stories:before-the-play",
+          "workId": "work:before-the-play"
+        },
+        {
+          "legacyId": "stories:cookie-jar",
+          "workId": "work:cookie-jar"
+        },
+        {
+          "legacyId": "stories:dinah-s-hat",
+          "workId": "work:dinah-s-hat"
+        },
+        {
+          "legacyId": "stories:the-extra-hour",
+          "workId": "work:the-extra-hour"
+        },
+        {
+          "legacyId": "stories:father-s-day",
+          "workId": "work:father-s-day"
+        },
+        {
+          "legacyId": "stories:the-glass-floor",
+          "workId": "work:the-glass-floor"
+        },
+        {
+          "legacyId": "stories:jumper",
+          "workId": "work:jumper"
+        },
+        {
+          "legacyId": "stories:the-lonesome-death-of-jordy-verrill",
+          "workId": "work:the-lonesome-death-of-jordy-verrill"
+        },
+        {
+          "legacyId": "stories:man-with-a-belly",
+          "workId": "work:man-with-a-belly"
+        },
+        {
+          "legacyId": "stories:memory",
+          "workId": "work:memory"
+        },
+        {
+          "legacyId": "stories:the-old-dude-s-ticker",
+          "workId": "work:the-old-dude-s-ticker"
+        },
+        {
+          "legacyId": "stories:something-to-tide-you-over",
+          "workId": "work:something-to-tide-you-over"
+        },
+        {
+          "legacyId": "stories:they-re-creeping-up-on-you",
+          "workId": "work:they-re-creeping-up-on-you"
+        },
+        {
+          "legacyId": "stories:thin-scenery",
+          "workId": "work:thin-scenery"
+        }
+      ],
+      "missingEventPublisher": [
+        "pub:000021",
+        "pub:000033",
+        "pub:000037",
+        "pub:000070",
+        "pub:000072",
+        "pub:000095",
+        "pub:000096",
+        "pub:000100",
+        "pub:000101",
+        "pub:000102",
+        "pub:000103",
+        "pub:000104",
+        "pub:000105",
+        "pub:000106",
+        "pub:000107",
+        "pub:000108",
+        "pub:000109",
+        "pub:000110",
+        "pub:000111",
+        "pub:000112",
+        "pub:000113",
+        "pub:000114",
+        "pub:000115",
+        "pub:000116",
+        "pub:000117",
+        "pub:000118",
+        "pub:000119",
+        "pub:000120",
+        "pub:000121",
+        "pub:000122",
+        "pub:000123",
+        "pub:000124",
+        "pub:000125",
+        "pub:000126",
+        "pub:000127",
+        "pub:000128",
+        "pub:000129",
+        "pub:000130",
+        "pub:000131",
+        "pub:000132",
+        "pub:000133",
+        "pub:000134",
+        "pub:000135",
+        "pub:000136",
+        "pub:000137",
+        "pub:000138",
+        "pub:000139",
+        "pub:000140",
+        "pub:000141",
+        "pub:000142",
+        "pub:000143",
+        "pub:000144",
+        "pub:000145",
+        "pub:000146",
+        "pub:000147",
+        "pub:000148",
+        "pub:000149",
+        "pub:000150",
+        "pub:000151",
+        "pub:000152",
+        "pub:000153",
+        "pub:000154",
+        "pub:000155",
+        "pub:000156",
+        "pub:000157",
+        "pub:000158",
+        "pub:000159",
+        "pub:000160",
+        "pub:000161",
+        "pub:000162",
+        "pub:000163",
+        "pub:000164",
+        "pub:000165",
+        "pub:000166",
+        "pub:000167",
+        "pub:000168",
+        "pub:000169",
+        "pub:000170",
+        "pub:000171",
+        "pub:000172",
+        "pub:000173",
+        "pub:000174",
+        "pub:000175",
+        "pub:000176",
+        "pub:000177",
+        "pub:000178",
+        "pub:000179",
+        "pub:000180",
+        "pub:000181",
+        "pub:000182",
+        "pub:000183",
+        "pub:000184",
+        "pub:000185",
+        "pub:000186",
+        "pub:000187",
+        "pub:000188",
+        "pub:000189",
+        "pub:000190",
+        "pub:000191",
+        "pub:000192",
+        "pub:000193",
+        "pub:000194",
+        "pub:000195",
+        "pub:000196",
+        "pub:000197",
+        "pub:000198",
+        "pub:000199",
+        "pub:000200",
+        "pub:000201",
+        "pub:000202",
+        "pub:000203",
+        "pub:000204",
+        "pub:000205",
+        "pub:000206",
+        "pub:000207",
+        "pub:000208",
+        "pub:000209",
+        "pub:000210",
+        "pub:000211",
+        "pub:000212",
+        "pub:000213",
+        "pub:000214",
+        "pub:000215",
+        "pub:000216",
+        "pub:000217",
+        "pub:000218",
+        "pub:000219",
+        "pub:000220",
+        "pub:000221",
+        "pub:000222",
+        "pub:000223",
+        "pub:000224",
+        "pub:000225",
+        "pub:000226",
+        "pub:000227",
+        "pub:000228",
+        "pub:000229",
+        "pub:000230",
+        "pub:000231",
+        "pub:000232",
+        "pub:000233",
+        "pub:000234",
+        "pub:000235",
+        "pub:000236",
+        "pub:000237",
+        "pub:000238",
+        "pub:000239"
+      ],
+      "coalescedObservations": [
+        {
+          "id": "pub:000070",
+          "locators": [
+            "catalog.js#/books/56",
+            "catalog.js#/stories/155"
+          ],
+          "reason": "Exact registered subject, event kind, date and manifestation title agree; no title-based merge."
+        },
+        {
+          "id": "pub:000072",
+          "locators": [
+            "catalog.js#/books/58",
+            "catalog.js#/stories/151"
+          ],
+          "reason": "Exact registered subject, event kind, date and manifestation title agree; no title-based merge."
+        },
+        {
+          "id": "pub:000095",
+          "locators": [
+            "catalog.js#/books/81",
+            "catalog.js#/stories/137"
+          ],
+          "reason": "Exact registered subject, event kind, date and manifestation title agree; no title-based merge."
+        }
+      ]
+    },
+    "dateConflicts": [
+      {
+        "legacyId": "books:cycle-of-the-werewolf",
+        "subject": {
+          "type": "work",
+          "id": "wrk:000017"
+        },
+        "legacyYear": 1983,
+        "reportedDate": "1985-04",
+        "source": "https://stephenking.com/works/novel/cycle-of-the-werewolf.html",
+        "resolution": "Unresolved; separate observations, neither asserted as first publication."
+      },
+      {
+        "legacyId": "books:dolores-claiborne",
+        "subject": {
+          "type": "work",
+          "id": "wrk:000028"
+        },
+        "legacyYear": 1992,
+        "reportedDate": "1993-11",
+        "source": "https://stephenking.com/works/novel/dolores-claiborne.html",
+        "resolution": "Unresolved; separate observations, neither asserted as first publication."
+      },
+      {
+        "legacyId": "books:the-green-mile",
+        "subject": {
+          "type": "work",
+          "id": "wrk:000031"
+        },
+        "legacyYear": 1996,
+        "reportedDate": "2000-10",
+        "source": "https://stephenking.com/works/novel/green-mile-the-complete-serial-novel.html",
+        "resolution": "Unresolved; separate observations, neither asserted as first publication."
+      }
+    ],
+    "covers": {
+      "known": 152,
+      "withoutRegistered": 2,
+      "rightsEstablished": 0,
+      "readyForDisplay": 0,
+      "approvedLocalAssets": 0,
+      "referrerRefusals": 2
+    },
+    "remaining": [
+      "Edition dates, formats, publishers and printing/translation histories remain unknown where not independently recorded.",
+      "Two NL examples lack the exact publisher snapshot comparison (Carrie, Christine); retained provisionally, not invented translations.",
+      "No order/edition scope for collection memberships inferred; no new own-story cover.",
+      "96 adaptations and 17 legacy Tower rows are outside Batch 03.",
+      "No worldwide bibliography completeness claim; no runtime or Explorer switch."
+    ],
+    "sourceFields": {
+      "catalog": "See differences.json: one row per DB leaf.",
+      "supplementary": {
+        "media.js": {
+          "mapped": 912,
+          "retainedNotMigrated": 0,
+          "total": 912
+        },
+        "data/publications.json": {
+          "mapped": 50,
+          "retainedNotMigrated": 0,
+          "total": 50
+        },
+        "data/reference/dutch.json": {
+          "mapped": 198,
+          "retainedNotMigrated": 1178,
+          "total": 1376
+        },
+        "data/image-review.json": {
+          "mapped": 0,
+          "retainedNotMigrated": 2605,
+          "total": 2605
+        },
+        "data/image-fetch-results.json": {
+          "mapped": 0,
+          "retainedNotMigrated": 1657,
+          "total": 1657
+        }
+      }
+    }
   },
   "trilogy": {
     "orderedWorkIds": [
@@ -164,7 +6074,7 @@
       "en": 3
     },
     "storyCoverNote": "Collection-only stories are never counted as missing their own cover. Own-story denominator overlaps library novellas; do not add the rows.",
-    "newArtworksImported": 0,
+    "newArtworksImported": 148,
     "englishCoversNetworkProbed": 2,
     "probeReferrerFailures": 2,
     "otherEnglishLibraryCoversNotNetworkRechecked": 84,
@@ -189,8 +6099,8 @@
     }
   },
   "blockers": [
-    "Batches 01–02 cover existing library/story identities, credits and membership projections; remaining publication/translation metadata is deferred.",
-    "Five inherited secondary collection memberships remain provisional, all contents orders and exact edition identities remain unresolved; 150 edition examples, 96 adaptations and 17 legacy Tower rows remain for later batches.",
+    "Batches 01–03 cover inherited identities, memberships, publication observations and edition examples; this is not complete bibliographic history.",
+    "All 154 edition examples are projected; 154 edition dates, formats, publisher/printing histories and NL translator credits remain unresolved. Five secondary memberships, all contents orders, 96 adaptations and 17 legacy Tower rows remain open.",
     "Bibliographic URL matching is not identity resolution or proof of complete bibliography; unresolved source rows must be reviewed.",
     "Identity and credit carry-forwards remain provisional; membership and series evidence are separately scoped. First-publication history, translation/edition identity and full contributor scopes remain open.",
     "Both sampled English covers returned 403 with an Explorer Referer; no explicit hotlink/republication permission was established. Do not bypass source restrictions.",

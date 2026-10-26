@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "scope": "shadow-stories-batch-02",
-  "baselineCommit": "61e3a840c75e0d1e774656b4fcf5ccd864c97167",
+  "scope": "shadow-publications-batch-03",
+  "baselineCommit": "82edfb3f865256e591c530e25ed2d774b752f45c",
   "migratedLegacyWorkIds": [
     "work:carrie",
     "work:salem-s-lot",
@@ -270,9 +270,9 @@
     "about.js": "25f02fe0094dfdf71590c562153e12fb966543fdba713ee77d71d69e9b4f1270"
   },
   "notes": [
-    "Batch 01 library identities/credits plus Batch 02 story identities, scoped credits and collection memberships only.",
-    "No new publication event, edition, artwork, adaptation or Tower relation; no runtime switch.",
-    "All source rows are accounted for; unmapped fields and uncertainty remain in unchanged source.",
-    "Membership order is unknown; Five inherited secondary collection pairs remain provisional; edition-specific evidence is explicitly scoped."
+    "Cumulative identity, credit and membership projection, plus inherited publication observations, 154 edition examples and edition-bound cover metadata.",
+    "Source dates do not certify first publication; edition examples do not certify first printings.",
+    "Cover rights and delivery are governed separately by data/migration/cover-provenance.json; zero images approved for new display.",
+    "No adaptation or Tower migration, no Explorer/runtime switch, no worldwide completeness claim."
   ]
 }

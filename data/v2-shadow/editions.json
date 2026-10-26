@@ -114,5 +114,4657 @@
     "format": null,
     "translationCredits": [],
     "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000005",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003230",
+        "clm:003231",
+        "clm:003232",
+        "clm:003233"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000003"
+    },
+    "language": "nl",
+    "title": "Carrie",
+    "isbn13": "9789024591350",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000006",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003241",
+        "clm:003242",
+        "clm:003243",
+        "clm:003244"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000004"
+    },
+    "language": "nl",
+    "title": "Bezeten stad",
+    "isbn13": "9789024578108",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000007",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003252",
+        "clm:003253",
+        "clm:003254",
+        "clm:003255"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000005"
+    },
+    "language": "nl",
+    "title": "De Shining (luxe editie)",
+    "isbn13": "9789021066561",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000008",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003263",
+        "clm:003264",
+        "clm:003265",
+        "clm:003266"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000007"
+    },
+    "language": "nl",
+    "title": "De Beproeving",
+    "isbn13": "9789021027791",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000009",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003274",
+        "clm:003275",
+        "clm:003276",
+        "clm:003277"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000008"
+    },
+    "language": "nl",
+    "title": "De marathon",
+    "isbn13": "9789021025131",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000010",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003285",
+        "clm:003286",
+        "clm:003287",
+        "clm:003288"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000009"
+    },
+    "language": "nl",
+    "title": "Dodelijk dilemma",
+    "isbn13": "9789021043425",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000011",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003296",
+        "clm:003297",
+        "clm:003298",
+        "clm:003299"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000010"
+    },
+    "language": "nl",
+    "title": "Ogen van vuur",
+    "isbn13": "9789024578146",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000012",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003307",
+        "clm:003308",
+        "clm:003309",
+        "clm:003310"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000011"
+    },
+    "language": "nl",
+    "title": "Werk in uitvoering",
+    "isbn13": "9789024578214",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000013",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003318",
+        "clm:003319",
+        "clm:003320",
+        "clm:003321"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000012"
+    },
+    "language": "nl",
+    "title": "Cujo",
+    "isbn13": "9789021031354",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000014",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003329",
+        "clm:003330",
+        "clm:003331",
+        "clm:003332"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000013"
+    },
+    "language": "nl",
+    "title": "Vlucht naar de top",
+    "isbn13": "9789021043449",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000015",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003340",
+        "clm:003341",
+        "clm:003342",
+        "clm:003343"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000014"
+    },
+    "language": "nl",
+    "title": "De scherpschutter",
+    "isbn13": "9789021049151",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000016",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003351",
+        "clm:003352",
+        "clm:003353",
+        "clm:003354"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000016"
+    },
+    "language": "nl",
+    "title": "Dodenwake",
+    "isbn13": "9789021015873",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000017",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003362",
+        "clm:003363",
+        "clm:003364",
+        "clm:003365"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000018"
+    },
+    "language": "nl",
+    "title": "De vervloeking",
+    "isbn13": "9789021062419",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000018",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003373",
+        "clm:003374",
+        "clm:003375",
+        "clm:003376"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000019"
+    },
+    "language": "nl",
+    "title": "IT",
+    "isbn13": "9789021027432",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000019",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003384",
+        "clm:003385",
+        "clm:003386",
+        "clm:003387"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000020"
+    },
+    "language": "nl",
+    "title": "Ogen van de Draak",
+    "isbn13": "9789021025261",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000020",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003395",
+        "clm:003396",
+        "clm:003397",
+        "clm:003398"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000021"
+    },
+    "language": "nl",
+    "title": "Misery",
+    "isbn13": "9789024578160",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000021",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003406",
+        "clm:003407",
+        "clm:003408",
+        "clm:003409"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000022"
+    },
+    "language": "nl",
+    "title": "Het teken van drie",
+    "isbn13": "9789021051420",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000022",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003417",
+        "clm:003418",
+        "clm:003419",
+        "clm:003420"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000023"
+    },
+    "language": "nl",
+    "title": "De gloed",
+    "isbn13": "9789021048390",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000023",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003428",
+        "clm:003429",
+        "clm:003430",
+        "clm:003431"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000024"
+    },
+    "language": "nl",
+    "title": "De duistere kant",
+    "isbn13": "9789021066547",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000024",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003439",
+        "clm:003440",
+        "clm:003441",
+        "clm:003442"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000025"
+    },
+    "language": "nl",
+    "title": "Het verloren rijk",
+    "isbn13": "9789021053653",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000025",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003443",
+        "clm:003444",
+        "clm:003445",
+        "clm:003446"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000026"
+    },
+    "language": "nl",
+    "title": "De noodzaak",
+    "isbn13": "9789021037264",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000026",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003454",
+        "clm:003455",
+        "clm:003456",
+        "clm:003457"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000027"
+    },
+    "language": "nl",
+    "title": "De spelbreker",
+    "isbn13": "9789021048413",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000027",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003465",
+        "clm:003466",
+        "clm:003467",
+        "clm:003468"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000028"
+    },
+    "language": "nl",
+    "title": "Dolores Claiborne",
+    "isbn13": "9789021064383",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000028",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003476",
+        "clm:003477",
+        "clm:003478",
+        "clm:003479"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000029"
+    },
+    "language": "nl",
+    "title": "Insomnia",
+    "isbn13": "9789021049144",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000029",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003487",
+        "clm:003488",
+        "clm:003489",
+        "clm:003490"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000030"
+    },
+    "language": "nl",
+    "title": "Rosie",
+    "isbn13": "9789021037431",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000030",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003498",
+        "clm:003499",
+        "clm:003500",
+        "clm:003501"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000031"
+    },
+    "language": "nl",
+    "title": "De groene mijl",
+    "isbn13": "9789021025360",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000031",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003509",
+        "clm:003510",
+        "clm:003511",
+        "clm:003512"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000032"
+    },
+    "language": "nl",
+    "title": "Desperation",
+    "isbn13": "9789021036830",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000032",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003520",
+        "clm:003521",
+        "clm:003522",
+        "clm:003523"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000033"
+    },
+    "language": "nl",
+    "title": "De regelaars",
+    "isbn13": "9789021037301",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000033",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003531",
+        "clm:003532",
+        "clm:003533",
+        "clm:003534"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000034"
+    },
+    "language": "nl",
+    "title": "Tovenaarsglas",
+    "isbn13": "9789021055725",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000034",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003542",
+        "clm:003543",
+        "clm:003544",
+        "clm:003545"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000035"
+    },
+    "language": "nl",
+    "title": "Vel over been",
+    "isbn13": "9789021037325",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000035",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003553",
+        "clm:003554",
+        "clm:003555",
+        "clm:003556"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000036"
+    },
+    "language": "nl",
+    "title": "Het meisje dat hield van Tom Gordon",
+    "isbn13": "9789021037332",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000036",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003564",
+        "clm:003565",
+        "clm:003566",
+        "clm:003567"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000037"
+    },
+    "language": "nl",
+    "title": "De dromenvanger",
+    "isbn13": "9789021037356",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000037",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003575",
+        "clm:003576",
+        "clm:003577",
+        "clm:003578"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000038"
+    },
+    "language": "nl",
+    "title": "Het geheim van de Buick",
+    "isbn13": "9789021037363",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000038",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003586",
+        "clm:003587",
+        "clm:003588",
+        "clm:003589"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000039"
+    },
+    "language": "nl",
+    "title": "Wolven van de Calla",
+    "isbn13": "9789021062433",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000039",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003597",
+        "clm:003598",
+        "clm:003599",
+        "clm:003600"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000040"
+    },
+    "language": "nl",
+    "title": "Een lied van Susannah",
+    "isbn13": "9789021064390",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000040",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003608",
+        "clm:003609",
+        "clm:003610",
+        "clm:003611"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000041"
+    },
+    "language": "nl",
+    "title": "De Donkere Toren",
+    "isbn13": "9789021066554",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000041",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003619",
+        "clm:003620",
+        "clm:003621",
+        "clm:003622"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000042"
+    },
+    "language": "nl",
+    "title": "De Colorado Kid",
+    "isbn13": "9789024578207",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000042",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003630",
+        "clm:003631",
+        "clm:003632",
+        "clm:003633"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000043"
+    },
+    "language": "nl",
+    "title": "Mobiel",
+    "isbn13": "9789021037448",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000043",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003641",
+        "clm:003642",
+        "clm:003643",
+        "clm:003644"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000044"
+    },
+    "language": "nl",
+    "title": "Lisey's verhaal",
+    "isbn13": "9789021030098",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000044",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003645",
+        "clm:003646",
+        "clm:003647",
+        "clm:003648"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000045"
+    },
+    "language": "nl",
+    "title": "De ontvoering",
+    "isbn13": "9789021059662",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000045",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003656",
+        "clm:003657",
+        "clm:003658",
+        "clm:003659"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000046"
+    },
+    "language": "nl",
+    "title": "Duma",
+    "isbn13": "9789021055718",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000046",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003667",
+        "clm:003668",
+        "clm:003669",
+        "clm:003670"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000047"
+    },
+    "language": "nl",
+    "title": "Under the Dome (Gevangen)",
+    "isbn13": "9789021026152",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000047",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003678",
+        "clm:003679",
+        "clm:003680",
+        "clm:003681"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000048"
+    },
+    "language": "nl",
+    "title": "11.22.63 (22-11-1963)",
+    "isbn13": "9789021019321",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000048",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003689",
+        "clm:003690",
+        "clm:003691",
+        "clm:003692"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000049"
+    },
+    "language": "nl",
+    "title": "De wind door het sleutelgat",
+    "isbn13": "9789021037653",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000049",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003700",
+        "clm:003701",
+        "clm:003702",
+        "clm:003703"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000050"
+    },
+    "language": "nl",
+    "title": "Joyland",
+    "isbn13": "9789021027784",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000050",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003711",
+        "clm:003712",
+        "clm:003713",
+        "clm:003714"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000051"
+    },
+    "language": "nl",
+    "title": "Dr. Sleep",
+    "isbn13": "9789024576135",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000051",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003722",
+        "clm:003723",
+        "clm:003724",
+        "clm:003725"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000052"
+    },
+    "language": "nl",
+    "title": "Mr. Mercedes",
+    "isbn13": "9789021023281",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000052",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003733",
+        "clm:003734",
+        "clm:003735",
+        "clm:003736"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000053"
+    },
+    "language": "nl",
+    "title": "Revival",
+    "isbn13": "9789021025285",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000053",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003744",
+        "clm:003745",
+        "clm:003746",
+        "clm:003747"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000054"
+    },
+    "language": "nl",
+    "title": "De eerlijke vinder",
+    "isbn13": "9789021024417",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000054",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003755",
+        "clm:003756",
+        "clm:003757",
+        "clm:003758"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000055"
+    },
+    "language": "nl",
+    "title": "Wisseling van de wacht",
+    "isbn13": "9789021025742",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000055",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003766",
+        "clm:003767",
+        "clm:003768",
+        "clm:003769"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "collection",
+      "id": "col:000002"
+    },
+    "language": "nl",
+    "title": "Satanskinderen",
+    "isbn13": "9789024559688",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000056",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003777",
+        "clm:003778",
+        "clm:003779",
+        "clm:003780"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "collection",
+      "id": "col:000003"
+    },
+    "language": "nl",
+    "title": "4 seizoenen",
+    "isbn13": "9789024578245",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000057",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003788",
+        "clm:003789",
+        "clm:003790",
+        "clm:003791"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "collection",
+      "id": "col:000004"
+    },
+    "language": "nl",
+    "title": "Duistere krachten",
+    "isbn13": "9789021037196",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000058",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003799",
+        "clm:003800",
+        "clm:003801",
+        "clm:003802"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "collection",
+      "id": "col:000005"
+    },
+    "language": "nl",
+    "title": "Tweeduister",
+    "isbn13": "9789024578047",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000059",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003810",
+        "clm:003811",
+        "clm:003812",
+        "clm:003813"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "collection",
+      "id": "col:000006"
+    },
+    "language": "nl",
+    "title": "Nachtmerries en droomlandschappen",
+    "isbn13": "9789021039800",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000060",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003821",
+        "clm:003822",
+        "clm:003823",
+        "clm:003824"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "collection",
+      "id": "col:000007"
+    },
+    "language": "nl",
+    "title": "Harten in Atlantis",
+    "isbn13": "9789021064468",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000061",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003832",
+        "clm:003833",
+        "clm:003834",
+        "clm:003835"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "collection",
+      "id": "col:000008"
+    },
+    "language": "nl",
+    "title": "Alles is eventueel - 1408",
+    "isbn13": "9789021055732",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000062",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003843",
+        "clm:003844",
+        "clm:003845",
+        "clm:003846"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "collection",
+      "id": "col:000009"
+    },
+    "language": "nl",
+    "title": "Na zonsondergang",
+    "isbn13": "9789021062440",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000063",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003854",
+        "clm:003855",
+        "clm:003856",
+        "clm:003857"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "collection",
+      "id": "col:000011"
+    },
+    "language": "nl",
+    "title": "Aardedonker, zonder sterren",
+    "isbn13": "9789024578115",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000064",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003865",
+        "clm:003866",
+        "clm:003867",
+        "clm:003868"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "type": "collection",
+      "id": "col:000012"
+    },
+    "language": "nl",
+    "title": "De bazaar van boze dromen",
+    "isbn13": "9789021022925",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000065",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003876",
+        "clm:003877",
+        "clm:003878",
+        "clm:003879"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "id": "wrk:000096",
+      "type": "work"
+    },
+    "language": "nl",
+    "title": "Dichte mist (POD)",
+    "isbn13": "9789021037226",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000066",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003887",
+        "clm:003888",
+        "clm:003889",
+        "clm:003890"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "id": "wrk:000180",
+      "type": "work"
+    },
+    "language": "nl",
+    "title": "Een goed huwelijk",
+    "isbn13": "9789024567515",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000067",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003898",
+        "clm:003899",
+        "clm:003900",
+        "clm:003901"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "id": "wrk:000198",
+      "type": "work"
+    },
+    "language": "nl",
+    "title": "Mijl 81",
+    "isbn13": "9789024552290",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000068",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003909",
+        "clm:003910",
+        "clm:003911",
+        "clm:003912"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "id": "wrk:000225",
+      "type": "work"
+    },
+    "language": "nl",
+    "title": "Het hoge gras",
+    "isbn13": "9789024561179",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000069",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003920",
+        "clm:003921",
+        "clm:003922",
+        "clm:003923"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator"
+      ]
+    },
+    "publicationOf": {
+      "id": "wrk:000240",
+      "type": "work"
+    },
+    "language": "nl",
+    "title": "Hoogste versnelling",
+    "isbn13": "9789024561186",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000070",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003931",
+        "clm:003932",
+        "clm:003933",
+        "clm:003934"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000003"
+    },
+    "language": "en",
+    "title": "Carrie",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000071",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003942",
+        "clm:003943",
+        "clm:003944",
+        "clm:003945"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000004"
+    },
+    "language": "en",
+    "title": "'Salem's Lot",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000072",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003953",
+        "clm:003954",
+        "clm:003955",
+        "clm:003956"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000005"
+    },
+    "language": "en",
+    "title": "The Shining",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000073",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003964",
+        "clm:003965",
+        "clm:003966",
+        "clm:003967"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000006"
+    },
+    "language": "en",
+    "title": "Rage",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000074",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003975",
+        "clm:003976",
+        "clm:003977",
+        "clm:003978"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000007"
+    },
+    "language": "en",
+    "title": "The Stand",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000075",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003986",
+        "clm:003987",
+        "clm:003988",
+        "clm:003989"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000008"
+    },
+    "language": "en",
+    "title": "The Long Walk",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000076",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:003997",
+        "clm:003998",
+        "clm:003999",
+        "clm:004000"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000009"
+    },
+    "language": "en",
+    "title": "The Dead Zone",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000077",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004008",
+        "clm:004009",
+        "clm:004010",
+        "clm:004011"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000010"
+    },
+    "language": "en",
+    "title": "Firestarter",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000078",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004019",
+        "clm:004020",
+        "clm:004021",
+        "clm:004022"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000011"
+    },
+    "language": "en",
+    "title": "Roadwork",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000079",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004030",
+        "clm:004031",
+        "clm:004032",
+        "clm:004033"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000012"
+    },
+    "language": "en",
+    "title": "Cujo",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000080",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004041",
+        "clm:004042",
+        "clm:004043",
+        "clm:004044"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000013"
+    },
+    "language": "en",
+    "title": "The Running Man",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000081",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004052",
+        "clm:004053",
+        "clm:004054",
+        "clm:004055"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000014"
+    },
+    "language": "en",
+    "title": "The Dark Tower: The Gunslinger",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000082",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004063",
+        "clm:004064",
+        "clm:004065",
+        "clm:004066"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000015"
+    },
+    "language": "en",
+    "title": "Christine",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000083",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004074",
+        "clm:004075",
+        "clm:004076",
+        "clm:004077"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000016"
+    },
+    "language": "en",
+    "title": "Pet Sematary",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000084",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004085",
+        "clm:004086",
+        "clm:004087",
+        "clm:004088"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000017"
+    },
+    "language": "en",
+    "title": "Cycle of the Werewolf",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000085",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004096",
+        "clm:004097",
+        "clm:004098",
+        "clm:004099"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000018"
+    },
+    "language": "en",
+    "title": "Thinner",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000086",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004107",
+        "clm:004108",
+        "clm:004109",
+        "clm:004110"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000019"
+    },
+    "language": "en",
+    "title": "IT",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000087",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004118",
+        "clm:004119",
+        "clm:004120",
+        "clm:004121"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000020"
+    },
+    "language": "en",
+    "title": "The Eyes of the Dragon",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000088",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004129",
+        "clm:004130",
+        "clm:004131",
+        "clm:004132"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000021"
+    },
+    "language": "en",
+    "title": "Misery",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000089",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004140",
+        "clm:004141",
+        "clm:004142",
+        "clm:004143"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000022"
+    },
+    "language": "en",
+    "title": "The Dark Tower: The Drawing of the Three",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000090",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004151",
+        "clm:004152",
+        "clm:004153",
+        "clm:004154"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000023"
+    },
+    "language": "en",
+    "title": "The Tommyknockers",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000091",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004162",
+        "clm:004163",
+        "clm:004164",
+        "clm:004165"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000024"
+    },
+    "language": "en",
+    "title": "The Dark Half",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000092",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004173",
+        "clm:004174",
+        "clm:004175",
+        "clm:004176"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000025"
+    },
+    "language": "en",
+    "title": "The Dark Tower: The Waste Lands",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000093",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004184",
+        "clm:004185",
+        "clm:004186",
+        "clm:004187"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000026"
+    },
+    "language": "en",
+    "title": "Needful Things",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000094",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004195",
+        "clm:004196",
+        "clm:004197",
+        "clm:004198"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000027"
+    },
+    "language": "en",
+    "title": "Gerald's Game",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000095",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004206",
+        "clm:004207",
+        "clm:004208",
+        "clm:004209"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000028"
+    },
+    "language": "en",
+    "title": "Dolores Claiborne",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000096",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004217",
+        "clm:004218",
+        "clm:004219",
+        "clm:004220"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000029"
+    },
+    "language": "en",
+    "title": "Insomnia",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000097",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004228",
+        "clm:004229",
+        "clm:004230",
+        "clm:004231"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000030"
+    },
+    "language": "en",
+    "title": "Rose Madder",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000098",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004239",
+        "clm:004240",
+        "clm:004241",
+        "clm:004242"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000031"
+    },
+    "language": "en",
+    "title": "The Green Mile",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000099",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004250",
+        "clm:004251",
+        "clm:004252",
+        "clm:004253"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000032"
+    },
+    "language": "en",
+    "title": "Desperation",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000100",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004261",
+        "clm:004262",
+        "clm:004263",
+        "clm:004264"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000033"
+    },
+    "language": "en",
+    "title": "The Regulators",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000101",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004272",
+        "clm:004273",
+        "clm:004274",
+        "clm:004275"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000034"
+    },
+    "language": "en",
+    "title": "The Dark Tower: Wizard and Glass",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000102",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004283",
+        "clm:004284",
+        "clm:004285",
+        "clm:004286"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000035"
+    },
+    "language": "en",
+    "title": "Bag of Bones",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000103",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004294",
+        "clm:004295",
+        "clm:004296",
+        "clm:004297"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000036"
+    },
+    "language": "en",
+    "title": "The Girl Who Loved Tom Gordon",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000104",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004305",
+        "clm:004306",
+        "clm:004307",
+        "clm:004308"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000037"
+    },
+    "language": "en",
+    "title": "Dreamcatcher",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000105",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004316",
+        "clm:004317",
+        "clm:004318",
+        "clm:004319"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000038"
+    },
+    "language": "en",
+    "title": "From a Buick 8",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000106",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004327",
+        "clm:004328",
+        "clm:004329",
+        "clm:004330"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000039"
+    },
+    "language": "en",
+    "title": "The Dark Tower: Wolves of the Calla",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000107",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004338",
+        "clm:004339",
+        "clm:004340",
+        "clm:004341"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000040"
+    },
+    "language": "en",
+    "title": "The Dark Tower: Song of Susannah",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000108",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004349",
+        "clm:004350",
+        "clm:004351",
+        "clm:004352"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000041"
+    },
+    "language": "en",
+    "title": "The Dark Tower",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000109",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004360",
+        "clm:004361",
+        "clm:004362",
+        "clm:004363"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000042"
+    },
+    "language": "en",
+    "title": "The Colorado Kid",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000110",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004371",
+        "clm:004372",
+        "clm:004373",
+        "clm:004374"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000043"
+    },
+    "language": "en",
+    "title": "Cell",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000111",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004382",
+        "clm:004383",
+        "clm:004384",
+        "clm:004385"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000044"
+    },
+    "language": "en",
+    "title": "Lisey's Story",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000112",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004393",
+        "clm:004394",
+        "clm:004395",
+        "clm:004396"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000045"
+    },
+    "language": "en",
+    "title": "Blaze",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000113",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004404",
+        "clm:004405",
+        "clm:004406",
+        "clm:004407"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000046"
+    },
+    "language": "en",
+    "title": "Duma Key",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000114",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004415",
+        "clm:004416",
+        "clm:004417",
+        "clm:004418"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000047"
+    },
+    "language": "en",
+    "title": "Under the Dome",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000115",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004426",
+        "clm:004427",
+        "clm:004428",
+        "clm:004429"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000048"
+    },
+    "language": "en",
+    "title": "11/22/63",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000116",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004437",
+        "clm:004438",
+        "clm:004439",
+        "clm:004440"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000049"
+    },
+    "language": "en",
+    "title": "The Dark Tower: The Wind Through the Keyhole",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000117",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004448",
+        "clm:004449",
+        "clm:004450",
+        "clm:004451"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000050"
+    },
+    "language": "en",
+    "title": "Joyland",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000118",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004459",
+        "clm:004460",
+        "clm:004461",
+        "clm:004462"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000051"
+    },
+    "language": "en",
+    "title": "Doctor Sleep",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000119",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004470",
+        "clm:004471",
+        "clm:004472",
+        "clm:004473"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000052"
+    },
+    "language": "en",
+    "title": "Mr. Mercedes",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000120",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004481",
+        "clm:004482",
+        "clm:004483",
+        "clm:004484"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000053"
+    },
+    "language": "en",
+    "title": "Revival",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000121",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004492",
+        "clm:004493",
+        "clm:004494",
+        "clm:004495"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000054"
+    },
+    "language": "en",
+    "title": "Finders Keepers",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000122",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004503",
+        "clm:004504",
+        "clm:004505",
+        "clm:004506"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000055"
+    },
+    "language": "en",
+    "title": "End of Watch",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000123",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004514",
+        "clm:004515",
+        "clm:004516",
+        "clm:004517"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000056"
+    },
+    "language": "en",
+    "title": "Sleeping Beauties",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000124",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004525",
+        "clm:004526",
+        "clm:004527",
+        "clm:004528"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000057"
+    },
+    "language": "en",
+    "title": "Gwendy's Button Box",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000125",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004536",
+        "clm:004537",
+        "clm:004538",
+        "clm:004539"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000058"
+    },
+    "language": "en",
+    "title": "The Outsider",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000126",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004547",
+        "clm:004548",
+        "clm:004549",
+        "clm:004550"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000059"
+    },
+    "language": "en",
+    "title": "Elevation",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000127",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004558",
+        "clm:004559",
+        "clm:004560",
+        "clm:004561"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000060"
+    },
+    "language": "en",
+    "title": "The Institute",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000128",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004569",
+        "clm:004570",
+        "clm:004571",
+        "clm:004572"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000061"
+    },
+    "language": "en",
+    "title": "Later",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000129",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004580",
+        "clm:004581",
+        "clm:004582",
+        "clm:004583"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000062"
+    },
+    "language": "en",
+    "title": "Billy Summers",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000130",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004591",
+        "clm:004592",
+        "clm:004593",
+        "clm:004594"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000063"
+    },
+    "language": "en",
+    "title": "Gwendy's Final Task",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000131",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004602",
+        "clm:004603",
+        "clm:004604",
+        "clm:004605"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000064"
+    },
+    "language": "en",
+    "title": "Fairy Tale",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000132",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004613",
+        "clm:004614",
+        "clm:004615",
+        "clm:004616"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000065"
+    },
+    "language": "en",
+    "title": "Holly",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000133",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004624",
+        "clm:004625",
+        "clm:004626",
+        "clm:004627"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "collection",
+      "id": "col:000001"
+    },
+    "language": "en",
+    "title": "You Like It Darker",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000134",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004635",
+        "clm:004636",
+        "clm:004637",
+        "clm:004638"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000066"
+    },
+    "language": "en",
+    "title": "Never Flinch",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000135",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004646",
+        "clm:004647",
+        "clm:004648",
+        "clm:004649"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000067"
+    },
+    "language": "en",
+    "title": "Other Worlds Than These",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000136",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004657",
+        "clm:004658",
+        "clm:004659",
+        "clm:004660"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "collection",
+      "id": "col:000002"
+    },
+    "language": "en",
+    "title": "Night Shift",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000137",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004668",
+        "clm:004669",
+        "clm:004670",
+        "clm:004671"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "collection",
+      "id": "col:000003"
+    },
+    "language": "en",
+    "title": "Different Seasons",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000138",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004679",
+        "clm:004680",
+        "clm:004681",
+        "clm:004682"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "collection",
+      "id": "col:000004"
+    },
+    "language": "en",
+    "title": "Skeleton Crew",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000139",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004690",
+        "clm:004691",
+        "clm:004692",
+        "clm:004693"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "collection",
+      "id": "col:000005"
+    },
+    "language": "en",
+    "title": "Four Past Midnight",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000140",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004701",
+        "clm:004702",
+        "clm:004703",
+        "clm:004704"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "collection",
+      "id": "col:000006"
+    },
+    "language": "en",
+    "title": "Nightmares & Dreamscapes",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000141",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004712",
+        "clm:004713",
+        "clm:004714",
+        "clm:004715"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "collection",
+      "id": "col:000007"
+    },
+    "language": "en",
+    "title": "Hearts in Atlantis",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000142",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004723",
+        "clm:004724",
+        "clm:004725",
+        "clm:004726"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "collection",
+      "id": "col:000008"
+    },
+    "language": "en",
+    "title": "Everything's Eventual",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000143",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004734",
+        "clm:004735",
+        "clm:004736",
+        "clm:004737"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "collection",
+      "id": "col:000009"
+    },
+    "language": "en",
+    "title": "Just After Sunset",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000144",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004745",
+        "clm:004746",
+        "clm:004747",
+        "clm:004748"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "collection",
+      "id": "col:000010"
+    },
+    "language": "en",
+    "title": "Stephen King Goes to the Movies",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000145",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004756",
+        "clm:004757",
+        "clm:004758",
+        "clm:004759"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "collection",
+      "id": "col:000011"
+    },
+    "language": "en",
+    "title": "Full Dark, No Stars",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000146",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004767",
+        "clm:004768",
+        "clm:004769",
+        "clm:004770"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "collection",
+      "id": "col:000012"
+    },
+    "language": "en",
+    "title": "The Bazaar of Bad Dreams",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000147",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004778",
+        "clm:004779",
+        "clm:004780",
+        "clm:004781"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "collection",
+      "id": "col:000013"
+    },
+    "language": "en",
+    "title": "If It Bleeds",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000148",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004789",
+        "clm:004790",
+        "clm:004791",
+        "clm:004792"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "collection",
+      "id": "col:000014"
+    },
+    "language": "en",
+    "title": "The Bachman Books",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000149",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004800",
+        "clm:004801",
+        "clm:004802",
+        "clm:004803"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000068"
+    },
+    "language": "en",
+    "title": "Blockade Billy",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000150",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004811",
+        "clm:004812",
+        "clm:004813",
+        "clm:004814"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000069"
+    },
+    "language": "en",
+    "title": "American Vampire",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000151",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004822",
+        "clm:004823",
+        "clm:004824",
+        "clm:004825"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000070"
+    },
+    "language": "en",
+    "title": "Faithful",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000152",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004833",
+        "clm:004834",
+        "clm:004835",
+        "clm:004836"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "collection",
+      "id": "col:000015"
+    },
+    "language": "en",
+    "title": "Mid-Life Confidential: The Rock Bottom Remainders Tour America With Three Chords and an Attitude",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000153",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004844",
+        "clm:004845",
+        "clm:004846",
+        "clm:004847"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000071"
+    },
+    "language": "en",
+    "title": "Nightmares in the Sky",
+    "isbn13": null,
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
+  },
+  {
+    "id": "edn:000154",
+    "entityType": "edition",
+    "verification": {
+      "claimIds": [
+        "clm:004855",
+        "clm:004856",
+        "clm:004857",
+        "clm:004858"
+      ],
+      "open": [
+        "printing",
+        "editionPublicationDate",
+        "publisher",
+        "format",
+        "translator",
+        "editionIdentityNotIndependentlyConfirmed"
+      ]
+    },
+    "publicationOf": {
+      "type": "work",
+      "id": "wrk:000015"
+    },
+    "language": "nl",
+    "title": "Christine",
+    "isbn13": "9789024561575",
+    "publisher": null,
+    "publicationDate": null,
+    "format": null,
+    "translationCredits": [],
+    "identityStatus": "incomplete-example"
   }
 ]

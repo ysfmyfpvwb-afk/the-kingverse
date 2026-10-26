@@ -267,7 +267,9 @@
             "theatrical-release",
             "serial-part",
             "revision",
-            "reprint"
+            "reprint",
+            "legacy-bibliographic-year",
+            "edition-variant-reported-release"
           ]
         },
         "territory": {
@@ -991,7 +993,9 @@
             "edition-publication",
             "serial-part",
             "revision",
-            "reprint"
+            "reprint",
+            "legacy-bibliographic-year",
+            "edition-variant-reported-release"
           ]
         },
         "date": {
@@ -1020,6 +1024,13 @@
           ]
         },
         "publisher": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "reportedTitle": {
           "type": "string",
           "minLength": 1
         }
@@ -1436,7 +1447,8 @@
           "enum": [
             "two-work-foundation-poc",
             "shadow-library-batch-01",
-            "shadow-stories-batch-02"
+            "shadow-stories-batch-02",
+            "shadow-publications-batch-03"
           ]
         },
         "baselineCommit": {
