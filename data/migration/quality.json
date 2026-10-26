@@ -1,7 +1,203 @@
 {
   "checked": "2026-10-26",
-  "batch": "05-connected-universe",
+  "batch": "06-explorer-readiness-media",
   "fullMigration": false,
+  "readiness": {
+    "batch": "06",
+    "version": "1.8",
+    "checked": "2026-10-26",
+    "baseCommit": "12f14beb0abb201afc40943e98658647323cb8db",
+    "activeVisitorRuntime": false,
+    "completeBibliography": false,
+    "projection": {
+      "canonicalNavigableEntities": 546,
+      "defaultEntities": 540,
+      "plotOnlyEntities": 6,
+      "canonicalConnections": 94,
+      "defaultConnections": 66,
+      "plotOnlyConnections": 28,
+      "memberships": 155,
+      "credits": 291,
+      "publications": 239,
+      "unconfirmedSourceCandidates": 54,
+      "byType": {
+        "works": 241,
+        "collections": 15,
+        "editions": 154,
+        "adaptations": 96,
+        "people": 28,
+        "characters": 8,
+        "locations": 2,
+        "series": 2
+      }
+    },
+    "media": {
+      "knownCovers": 152,
+      "knownPosters": 82,
+      "rightsEstablished": 0,
+      "locallyPublishableArtwork": 0,
+      "permissionRequired": 234,
+      "missingEditionCovers": 2,
+      "missingPosters": 14,
+      "projectAuthoredFallbacks": 2
+    },
+    "navigationProblems": 0,
+    "sourceAndCertaintyLosses": 0,
+    "integrationCases": [
+      {
+        "scope": "Complete Talisman trilogy",
+        "entityIds": [
+          "wrk:000001",
+          "wrk:000002",
+          "wrk:000067"
+        ]
+      },
+      {
+        "scope": "Multiple editions and translations",
+        "entityIds": [
+          "wrk:000001"
+        ]
+      },
+      {
+        "scope": "Story in multiple collections, one membership provisional",
+        "entityIds": [
+          "wrk:000161"
+        ]
+      },
+      {
+        "scope": "Multiple distinct adaptations of one work",
+        "entityIds": [
+          "wrk:000010"
+        ]
+      },
+      {
+        "scope": "Uncertain individual-volume source candidates alongside a confirmed series adaptation",
+        "entityIds": [
+          "adp:000013"
+        ]
+      },
+      {
+        "scope": "Opt-in Tower connections",
+        "entityIds": [
+          "wrk:000007"
+        ]
+      }
+    ],
+    "protectedFileCount": 69,
+    "sourceQuestions": {
+      "provisionalNativeConnections": 7,
+      "provisionalScreenSourceCandidates": 11,
+      "insufficientEvidenceScreenSourceCandidates": 43,
+      "provisionalMemberships": 5,
+      "preciseTargetAssessmentOverrides": [
+        {
+          "connectionId": "rel:000007",
+          "status": "provisional-target-scope"
+        },
+        {
+          "connectionId": "rel:000008",
+          "status": "provisional"
+        }
+      ]
+    },
+    "legacyFields": {
+      "mapped": 5674,
+      "retained": 9676,
+      "total": 15350,
+      "deferredByGroup": {
+        "books": 2163,
+        "stories": 3946,
+        "films": 2010,
+        "tower": 237,
+        "works": 1320
+      },
+      "requiredNodeFields": {
+        "work": [
+          "originalTitle",
+          "kind",
+          "originalLanguage"
+        ],
+        "collection": [
+          "originalTitle",
+          "collectionKind"
+        ],
+        "edition": [
+          "title",
+          "publicationOf",
+          "language",
+          "isbn13",
+          "publisher",
+          "publicationDate",
+          "format",
+          "identityStatus",
+          "translationCredits"
+        ],
+        "adaptation": [
+          "title",
+          "format",
+          "releaseYear",
+          "releaseEvents",
+          "statusHistory",
+          "countries",
+          "originalLanguages",
+          "originalScreenplay",
+          "productionUnits",
+          "distribution"
+        ],
+        "person": [
+          "name",
+          "pseudonyms"
+        ],
+        "character": [
+          "name"
+        ],
+        "location": [
+          "name",
+          "locationKind"
+        ],
+        "series": [
+          "name",
+          "seriesKind",
+          "scope"
+        ]
+      },
+      "criticalForIsolatedProjection": 0,
+      "note": "Readiness needs typed labels, endpoints, ownership, aliases and field-scoped evidence, which are projected. Deferred prose, audit fields and historical observations are not all required for a first bounded phase; first-publication and edition completeness are not claimed."
+    },
+    "goNoGo": {
+      "isolatedIntegration": "GO: complete typed test projection, explicit uncertainty, local project-authored fallbacks, no runtime switch.",
+      "firstPublicPhase": "CONDITIONAL GO for a separately authorized English bibliographic phase using neutral introductions, provisional labels and permitted fallbacks. Existing Explorer is not yet compatible with the expanded contract.",
+      "fullExplorerActivation": "NO-GO in Batch 06; no authorized runtime switch or complete visitor acceptance. Unconfirmed links cannot be presented as established facts.",
+      "critical": [
+        "Owner approval for a bounded public integration phase.",
+        "Adapt the future consumer to this contract, current assessment overrides, lazy spoiler loading and media permission gate; current two-work renderer remains unchanged.",
+        "Complete visitor UI acceptance and production rollback/route checks before activation. The aggregate diagnostic JSON is not a finished mobile runtime: use per-entity payload selection and measure the production consumer before activation."
+      ],
+      "nonBlockingForBoundedPhase": [
+        "234 known covers/posters need permission before local publication; use clearly labelled original placeholders.",
+        "11 provisional and 43 insufficient source candidates may remain labelled/excluded; do not require every candidate to become confirmed.",
+        "Missing edition dates, printing history, complete contents order, canonical legacy prose and general bibliography coverage remain explicit gaps."
+      ]
+    },
+    "artifacts": {
+      "default": "data/readiness/default.json",
+      "plot": "data/readiness/plot.json",
+      "media": "data/media/library.json",
+      "fixture": "Generated outside the repository only; not deployed."
+    },
+    "safety": {
+      "publicJsonIsNotSecret": true,
+      "rawCanonicalProseNotCopied": true,
+      "externalImagesRequested": false,
+      "thirdPartyDownloads": 0
+    },
+    "payload": {
+      "defaultBytes": 3489019,
+      "plotBytes": 104405,
+      "defaultSha256": "bc6c239e786a8044224641f99b544068c6670bae5e6900ab83fa7bcff90f4044",
+      "plotSha256": "30e40a0d003c47a3d0f123036a23e3b28f1f321088e44e1101b25c87a3b1fb5e"
+    }
+  },
   "legacy": {
     "counts": {
       "books": 86,

@@ -1,0 +1,501 @@
+{
+  "type": "object",
+  "properties": {
+    "version": {
+      "const": 1
+    },
+    "batch": {
+      "const": "06"
+    },
+    "checked": {
+      "type": "string",
+      "minLength": 1
+    },
+    "policy": {
+      "type": "string",
+      "minLength": 1
+    },
+    "records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "artworkId": {
+            "type": "string",
+            "pattern": "^art:[0-9]{6}$"
+          },
+          "kind": {
+            "enum": [
+              "cover",
+              "poster"
+            ]
+          },
+          "owner": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "enum": [
+                  "edition",
+                  "adaptation"
+                ]
+              },
+              "id": {
+                "type": "string",
+                "pattern": "^(edn|adp):[0-9]{6}$"
+              }
+            },
+            "required": [
+              "type",
+              "id"
+            ],
+            "additionalProperties": false
+          },
+          "language": {
+            "type": "string",
+            "minLength": 1
+          },
+          "originalUrl": {
+            "type": "string",
+            "pattern": "^https://"
+          },
+          "sourceUrl": {
+            "type": "string",
+            "pattern": "^https://"
+          },
+          "rightsHolder": {
+            "anyOf": [
+              {
+                "type": "string",
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "rights": {
+            "type": "object",
+            "properties": {
+              "status": {
+                "enum": [
+                  "not-established",
+                  "allowed",
+                  "denied",
+                  "expired"
+                ]
+              },
+              "evidence": {
+                "type": "array",
+                "items": {}
+              },
+              "licence": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "conditions": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "reviewedAt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "note": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "status",
+              "evidence",
+              "licence",
+              "conditions",
+              "reviewedAt",
+              "note"
+            ],
+            "additionalProperties": false
+          },
+          "technical": {
+            "type": "object",
+            "properties": {
+              "status": {
+                "enum": [
+                  "not-currently-assessed",
+                  "available",
+                  "unavailable",
+                  "referrer-dependent-refusal"
+                ]
+              },
+              "observedAt": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "evidence": {},
+              "remoteRecheckedInBatch06": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "status",
+              "observedAt",
+              "evidence",
+              "remoteRecheckedInBatch06"
+            ],
+            "additionalProperties": false
+          },
+          "localPath": {
+            "anyOf": [
+              {
+                "type": "string",
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "variants": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "path": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "sha256": {
+                  "type": "string",
+                  "pattern": "^[a-f0-9]{64}$"
+                },
+                "bytes": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "width": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "height": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "mime": {
+                  "enum": [
+                    "image/png",
+                    "image/jpeg",
+                    "image/webp",
+                    "image/avif"
+                  ]
+                }
+              },
+              "required": [
+                "path",
+                "sha256",
+                "bytes",
+                "width",
+                "height",
+                "mime"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "integrity": {
+            "anyOf": [
+              {
+                "type": "object",
+                "properties": {
+                  "sha256": {
+                    "type": "string",
+                    "pattern": "^[a-f0-9]{64}$"
+                  },
+                  "bytes": {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  "width": {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  "height": {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  "mime": {
+                    "enum": [
+                      "image/png",
+                      "image/jpeg",
+                      "image/webp",
+                      "image/avif"
+                    ]
+                  }
+                },
+                "required": [
+                  "sha256",
+                  "bytes",
+                  "width",
+                  "height",
+                  "mime"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "displayAllowed": {
+            "type": "boolean"
+          },
+          "decision": {
+            "enum": [
+              "permission-required",
+              "permission-incomplete",
+              "approved-local"
+            ]
+          },
+          "fallback": {
+            "enum": [
+              "book",
+              "screen"
+            ]
+          },
+          "policyRef": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "artworkId",
+          "kind",
+          "owner",
+          "language",
+          "originalUrl",
+          "sourceUrl",
+          "rightsHolder",
+          "rights",
+          "technical",
+          "localPath",
+          "variants",
+          "integrity",
+          "displayAllowed",
+          "decision",
+          "fallback",
+          "policyRef"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "fallbackAssets": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "enum": [
+              "fallback:book",
+              "fallback:screen"
+            ]
+          },
+          "kind": {
+            "enum": [
+              "book",
+              "screen"
+            ]
+          },
+          "localPath": {
+            "type": "string",
+            "minLength": 1
+          },
+          "mime": {
+            "const": "image/svg+xml"
+          },
+          "width": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "height": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "bytes": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "rights": {
+            "type": "object",
+            "properties": {
+              "status": {
+                "const": "project-authored"
+              },
+              "evidence": {
+                "type": "string",
+                "minLength": 1
+              },
+              "scope": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "status",
+              "evidence",
+              "scope"
+            ],
+            "additionalProperties": false
+          },
+          "lastVerifiedAt": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "id",
+          "kind",
+          "localPath",
+          "mime",
+          "width",
+          "height",
+          "bytes",
+          "sha256",
+          "rights",
+          "lastVerifiedAt"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "missingSlots": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "owner": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "enum": [
+                  "edition",
+                  "adaptation"
+                ]
+              },
+              "id": {
+                "type": "string",
+                "pattern": "^(edn|adp):[0-9]{6}$"
+              }
+            },
+            "required": [
+              "type",
+              "id"
+            ],
+            "additionalProperties": false
+          },
+          "kind": {
+            "enum": [
+              "cover",
+              "poster"
+            ]
+          },
+          "status": {
+            "enum": [
+              "no-registered-cover",
+              "no-registered-poster"
+            ]
+          }
+        },
+        "required": [
+          "owner",
+          "kind",
+          "status"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "counts": {
+      "type": "object",
+      "properties": {
+        "knownCovers": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "knownPosters": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "rightsEstablished": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "locallyPublishableArtwork": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "permissionRequired": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "missingEditionCovers": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "missingPosters": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "projectAuthoredFallbacks": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "knownCovers",
+        "knownPosters",
+        "rightsEstablished",
+        "locallyPublishableArtwork",
+        "permissionRequired",
+        "missingEditionCovers",
+        "missingPosters",
+        "projectAuthoredFallbacks"
+      ],
+      "additionalProperties": false
+    },
+    "localAssetInventoryRef": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "version",
+    "batch",
+    "checked",
+    "policy",
+    "records",
+    "fallbackAssets",
+    "missingSlots",
+    "counts",
+    "localAssetInventoryRef"
+  ],
+  "additionalProperties": false,
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

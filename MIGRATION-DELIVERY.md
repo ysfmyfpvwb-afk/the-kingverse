@@ -1,4 +1,16 @@
-# The Kingverse 1.7 — huidige migratiestand na Batch 05
+# The Kingverse 1.8 — huidige opleverstand na Batch 06
+
+Batch 06 is uitgevoerd vanaf `12f14beb0abb201afc40943e98658647323cb8db`. Zie [EXPLORER-READINESS.md](EXPLORER-READINESS.md) voor de actuele scope, bron-/mediarechten, integratiecases en GO/NO-GO. Het dashboard staat op `migration-quality.html#explorer-readiness`.
+
+De canonieke Batch-05-dataset, bestaande website en tweeboeken-Explorer blijven ongewijzigd. Een reproduceerbare testprojectie ondersteunt 546 navigeerbare entiteiten en alle 94 native relaties: standaard 540/66, afzonderlijk opt-in zes/28. 155 memberships, 291 credits, 239 publicatiewaarnemingen en 54 onzekere bronkandidaten behouden hun eigen betekenis. 355 legacyroutes zijn automatisch op hetzelfde doel gecontroleerd. 69 bestaande bestanden zijn door een digest-baseline beschermd.
+
+De lokale mediabibliotheek inventariseert 152 bekende covers en 82 posters. Nul echte omslagen/posters hebben voldoende vastgelegde toestemming voor lokale publicatie; nul zijn gedownload. Twee originele, neutrale SVG-fallbacks zijn lokaal geregistreerd. Onbekende rechtshouders, ontbrekende toestemming en technische onzekerheid blijven expliciet.
+
+GO voor de geïsoleerde fixture buiten de repository; voorwaardelijke GO voor een afzonderlijk geautoriseerde Engelse bibliografische fase. De bestaande renderer is nog geen consument van dit contract. Productiepayloads, bezoekersacceptatie en rollback zijn kritieke activeringspoorten. Ontbrekende beelden kunnen met expliciete placeholders worden opgevangen; onzekere bronparen mogen gelabeld of uitgesloten blijven. Dit is geen volledige veldmigratie, bibliografische volledigheidsclaim of publieke Explorer-uitbreiding. **Stop na Batch 06.**
+
+---
+
+## Historische oplevering Batch 05 (onderstaande cijfers en stopgrens horen bij die uitvoering)
 
 Batch 05 is uitgevoerd vanaf `e26c74638a72a58d1cce581a0ebd1337781dafdf`. Zie [MIGRATION-BATCH-05.md](MIGRATION-BATCH-05.md) voor definities, broncontrole, tests en blokkades. Het actuele dashboard staat op `migration-quality.html#connected-universe`.
 

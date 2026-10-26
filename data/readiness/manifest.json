@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "batch": "06",
+  "baseCommit": "12f14beb0abb201afc40943e98658647323cb8db",
+  "counts": {
+    "canonicalNavigableEntities": 546,
+    "defaultEntities": 540,
+    "plotOnlyEntities": 6,
+    "canonicalConnections": 94,
+    "defaultConnections": 66,
+    "plotOnlyConnections": 28,
+    "memberships": 155,
+    "credits": 291,
+    "publications": 239,
+    "unconfirmedSourceCandidates": 54,
+    "byType": {
+      "works": 241,
+      "collections": 15,
+      "editions": 154,
+      "adaptations": 96,
+      "people": 28,
+      "characters": 8,
+      "locations": 2,
+      "series": 2
+    }
+  },
+  "files": {
+    "default.json": {
+      "sha256": "bc6c239e786a8044224641f99b544068c6670bae5e6900ab83fa7bcff90f4044",
+      "bytes": 3489019
+    },
+    "plot.json": {
+      "sha256": "30e40a0d003c47a3d0f123036a23e3b28f1f321088e44e1101b25c87a3b1fb5e",
+      "bytes": 104405
+    }
+  },
+  "contract": "Typed nodes, native edges, memberships, credits, edition/publication links, field-scoped evidence, current review overlay and local-media decisions. No runtime activation.",
+  "withheldDefaultFields": [
+    "Canonical summary/continuity/aliases",
+    "Raw claim value/locator/decision note",
+    "Source notes",
+    "Plot/ending nodes and relationships"
+  ],
+  "claimAudit": "Original claim IDs reference immutable data/v2-shadow/claims.json; raw prose remains there and is not silently discarded.",
+  "publicJsonIsNotSecret": true
+}

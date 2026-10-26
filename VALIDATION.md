@@ -31,3 +31,12 @@ Push and GitHub Pages publication are verified after committing. Their actual re
 ## 1.5.1 focused verification
 
 The four supplementary adaptation records have exact title/year keys and per-field sources. Added tests check distinct Carrie directors, series showrunner roles, resolved source works, IMDb IDs, cached-score dates, unavailable ratings and description rendering. JavaScript/Python syntax and whitespace checks passed. Catalog/report rebuilding is deterministic and existing media mappings remain identical. Browser checks opened the English Haven details, its linked Colorado Kid record and reverse adaptation link; the four updated detail routes display their credits, score state and release precision. Earlier 1.5 responsive checks above describe the previous batch, not newly repeated checks.
+
+
+## Batch 06 / 1.8 — readiness en lokale media
+
+Na de bestaande catalogus- en schaduwgeneratie: `npm run build:media`, `npm run build:readiness`, `python3 scripts/report_quality.py`, `npm run report:migration`, alle drie validators (`validate:foundation`, `validate:shadow`, `validate:readiness`) en `npm test`. Gewone builds en tests zijn offline; geen nieuw npm-pakket. Controleer syntax en `git diff --check`.
+
+`data/readiness/batch-06-baseline.json` bewaakt 69 bestaande bestanden, inclusief de volledige schaduwdataset en publieke fixture. De readinessvalidator controleert bronmetadata, zekerheid, getypeerde referenties, duplicaten, standaard-/plotgrenzen, media-eigenaars, toestemmingspoort, lokale paden/integriteit en actuele gegenereerde bestanden. De suite bevat ook een vertraagd plotverzoek dat na navigatie niet alsnog mag onthullen. Nieuwe kunstmatige bronrelaties of beeldtoestemmingen zijn geen oplossing voor falende controles.
+
+De geïsoleerde browsertest wordt met `npm run build:readiness-fixture -- --out /tmp/kingverse-b06-integration` buiten de repository gebouwd. Serveer die map alleen op localhost; testpad `/the-kingverse/readiness/` controleert subpaden. Geen gegenereerde test-HTML in de publieke Explorer plaatsen. Test 390/768/1440 px, de zes vastgelegde integratiecases, keyboard/bronuitklappers, expliciete spoilerfetch en reset, echte afbeeldingsuitval, en gerichte regressie van de ongewijzigde app/preview. Zie `EXPLORER-READINESS.md` voor verificatiegrenzen en acceptatiepoorten.

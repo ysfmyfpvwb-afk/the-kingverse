@@ -9,7 +9,11 @@
     "build:explorer": "node scripts/build_explorer.cjs",
     "migrate:shadow": "node scripts/migrate_shadow.cjs",
     "validate:shadow": "node scripts/validate_shadow.cjs",
-    "report:migration": "node scripts/report_migration.cjs"
+    "report:migration": "node scripts/report_migration.cjs",
+    "build:media": "node scripts/build_media_library.cjs",
+    "build:readiness": "node scripts/build_explorer_ready.cjs",
+    "build:readiness-fixture": "node scripts/build_explorer_ready.cjs --fixture",
+    "validate:readiness": "node scripts/validate_readiness.cjs"
   },
   "devDependencies": {
     "ajv": "8.20.0"

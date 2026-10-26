@@ -1,0 +1,37 @@
+{
+  "checked": "2026-10-26",
+  "baseCommit": "12f14beb0abb201afc40943e98658647323cb8db",
+  "localImageFilesBeforeBatch": [],
+  "scope": "Repository tracked and untracked files including hidden files; excludes .git and node_modules. No image files existed before Batch 06.",
+  "existingPolicyFiles": [
+    "data/migration/cover-provenance.json",
+    "data/migration/poster-provenance.json"
+  ],
+  "knownCovers": 152,
+  "knownPosters": 82,
+  "imageHosts": {
+    "stephenking.com": 168,
+    "www.lsuitgeverij.nl": 66
+  },
+  "rightsEvidenceReview": "All 234 existing artwork decisions inspected through their explicit policy records. No established redistribution permission or approved local assets. Historical visual approval is not permission. No image download or remote image probe performed.",
+  "sourceChecks": [
+    {
+      "url": "https://stephenking.com/works/novel/talisman.html",
+      "checked": "2026-10-26",
+      "access": "public-html",
+      "finding": "Footer reserves rights; no affirmative image redistribution permission observed. Does not establish the rights holder for each specific image."
+    },
+    {
+      "url": "https://stephenking.com/terms-and-conditions.html",
+      "checked": "2026-10-26",
+      "access": "unavailable-in-web-reader",
+      "finding": "No permission established; no bypass."
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/",
+      "checked": "2026-10-26",
+      "access": "timeout-in-web-reader",
+      "finding": "No permission established. This is not a complete legal or publisher-policy review."
+    }
+  ]
+}
