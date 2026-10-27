@@ -19,6 +19,8 @@ function validatePilotOutput(out,root=ROOT){
   const sources=new Map((p.sources||[]).map(s=>[s.id,s]));for(const s of sources.values()){const original=out.full.sources.find(x=>x.id===s.id);if(!original||JSON.stringify(original)!==JSON.stringify(s))fail('pilot-source-metadata',name+' '+s.id);}
   function walk(v){if(!v||typeof v!=='object')return;if(Array.isArray(v)){for(const x of v)walk(x);return;}if(v.sourceIds)for(const sid of v.sourceIds)if(!sources.has(sid))fail('pilot-source',name+' '+sid);if(v.target){if(!map.has(v.target.id))fail('pilot-link',name);if(p.scope==='default'&&!safe.has(v.target.id))fail('pilot-target-spoiler',name);}for(const[k,x]of Object.entries(v))if(k!=='sources')walk(x);}
   walk(p);
+  if(p.hasDetails&&!out.payloads.has(name.replace('/index.json','/details.json')))fail('pilot-details',name);
+  if(p.scope==='default')for(const label of sensitiveLabels)if(JSON.stringify(p).includes(label))fail('pilot-payload-spoiler',name);
   if(p.parent&&!safe.has(p.parent.id))fail('pilot-parent',name);
   for(const e of p.connections||[]){const old=native.get(e.id);if(!old||JSON.stringify(old.from)!==JSON.stringify(e.from)||JSON.stringify(old.to)!==JSON.stringify(e.to)||e.target.id!==(e.from.id===id?e.to.id:e.from.id)||JSON.stringify(old.certainty)!==JSON.stringify(e.certainty)||JSON.stringify(old.evidence)!==JSON.stringify(e.evidence)||JSON.stringify(old.spoiler)!==JSON.stringify(e.spoiler)||old.verification!==e.verification)fail('pilot-relation-loss',name+' '+e.id);if(p.scope==='default'&&!out.base.connections.some(c=>c.id===e.id))fail('pilot-edge-spoiler',name);}
   for(const section of Object.values(p.sections||{}))if(section.next&&!out.payloads.has(section.next))fail('pilot-next',section.next);

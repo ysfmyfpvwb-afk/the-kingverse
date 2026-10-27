@@ -1,0 +1,30 @@
+{
+  "baseCommit": "2bfcf90c997c3181626049254404bbe001afcf81",
+  "reportSha256": "cfcc459b34e9f4abb3077d010b72233d8f44b97c12b352eebba32e7172dadf40",
+  "counts": {
+    "allEntities": 546,
+    "defaultEntities": 540,
+    "plotOnlyEntities": 6,
+    "nativeConnections": 94,
+    "defaultConnections": 66,
+    "plotConnections": 28,
+    "legacyAliases": 1120
+  },
+  "payload": {
+    "limitBytes": 49152,
+    "pageSize": 6,
+    "maxEntityBytes": 28700,
+    "medianEntityBytes": 4793,
+    "maxChunkBytes": 9118,
+    "searchBytes": 89103,
+    "searchGzipBytes": 10370,
+    "shellBytes": 3301,
+    "jsBytes": 25155,
+    "jsGzipBytes": 8848,
+    "cssBytes": 8543,
+    "cssGzipBytes": 2607,
+    "initialAggregateProjectBytesLoaded": 0
+  },
+  "talismanInitialRawBytes": 59401,
+  "talismanInitialGzipBytes": 15541
+}

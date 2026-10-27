@@ -124,3 +124,8 @@ De afzonderlijke publieke route is `/explorer/pilot/`, gebouwd op Batch 06 (`1bf
 Oplevering: een Engelse mobiele ontdekkingservaring voor acht entiteitstypen, directe trilogienavigatie, bron- en onzekerheidslabels, begrensde payloads, luie zoekindex, gepagineerde lijsten en expliciete spoilerbediening. Zie [PILOT-ACCEPTANCE.md](PILOT-ACCEPTANCE.md) en [het dashboard](migration-quality.html#explorer-pilot). `npm run build:pilot` genereert de publieke bestanden; `npm run validate:pilot` bewaakt reproduceerbaarheid, bronbehoud, verwijzingen, scope en eerdere bestanden.
 
 Publicatie wordt na commit apart gecontroleerd op de juiste SHA en live bestanden. De uitslag staat in het opleverbericht. De pilot vervangt de oorspronkelijke Explorer of standaardwebsite niet; verdere uitrol vereist een nieuwe afgebakende opdracht.
+
+
+## 1.9.1 — presentatieverfijning, geen migratie
+
+Dezelfde 546 identiteiten en 94 relaties blijven behouden. Uitsluitend de pilotpresentatie, payloadverdeling, tests en documentatie zijn verfijnd; canonieke records, registers, standaardapp en oorspronkelijke preview blijven ongewijzigd. Zie [EXPERIENCE-REFINEMENT.md](EXPERIENCE-REFINEMENT.md) voor scope en beperkingen. Publicatie en live acceptatie worden na de commit apart gecontroleerd en in het opleverbericht gerapporteerd.

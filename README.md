@@ -85,3 +85,6 @@ See `migration-quality.html`, `MIGRATION-BATCH-02.md`, `MIGRATION-DELIVERY.md` a
 ## 1.9 English Explorer pilot
 
 A separate [Connected Explorer pilot](https://ysfmyfpvwb-afk.github.io/the-kingverse/explorer/pilot/) consumes bounded canonical entity payloads. The standard website and original two-book preview remain unchanged. Build with `npm run build:pilot`, check with `npm run validate:pilot`, and read [PILOT-ACCEPTANCE.md](PILOT-ACCEPTANCE.md) for acceptance, payload measurements, evidence limits and rollout advice. This is a pilot, not a complete bibliography or a production switch.
+
+
+Version 1.9.1 refines the isolated pilot with compact mobile navigation, grouped destinations and on-demand book details. Read [the experience report](EXPERIENCE-REFINEMENT.md) for the legacy/cover investigation, preserved behavior, performance comparison and device-test limits.

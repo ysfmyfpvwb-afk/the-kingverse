@@ -1,4 +1,4 @@
-# The Kingverse 1.9 — uitvoerbare ontwikkelroadmap
+# The Kingverse 1.9.1 — uitvoerbare ontwikkelroadmap
 
 Status: foundation en Explorer 1.6.1 uitgevoerd. Schaduwmigratie 1.7 batches 01–05 (literaire en schermidentiteiten, makersrollen, bundelrelaties, publicatiewaarnemingen, editievoorbeelden en begrensde universumrelaties) uitgevoerd. Batch 06 / 1.8 levert een afzonderlijke Explorer-readinessprojectie en rechtenbewuste mediabibliotheek op; de afzonderlijke publieke integratiepilot 1.9 is gebouwd. Volledige veldmigratie en omschakeling blijven open. Peildatum: 27 oktober 2026. Basis: applicatie 1.5.1, commit `ca5f336f72ad6c41a28e30d3ac79a4667b5c9032`. Het gekozen domeinmodel, de bronhiërarchie en het concrete Talisman-voorbeeld staan in [ARCHITECTURE.md](ARCHITECTURE.md).
 
@@ -179,3 +179,8 @@ De twee documenten zijn vergeleken met `AGENTS.md`, `DATA-QUALITY.md`, `VALIDATI
 ## Foundationstatus
 
 Fase 1 is uitgevoerd als gecontroleerde schaduwproef. De schema’s ondersteunen alle voorziene entiteiten, ook de lege bundel-/adaptatietabellen. De compatibiliteitsadapter controleert oude identifiers, routes, editions/covers en bestaande viewfeiten. De bestaande runtime blijft autoriteit voor de live site. De in deze foundation toegevoegde API-/rechtenbeslissing vervangt alle eerdere betaalde IMDb-plannen. Verdere migratie, interactieve pagina’s en aanvullende databronnen zijn afzonderlijke fasen.
+
+
+## 1.9.1 — experience refinement
+
+De afzonderlijke pilot heeft een compacte mobiele header, één kaart per bestemming met afzonderlijke relatiebewijzen, een inline trilogievolgorde en aanvullende boekdetails op aanvraag. De 546 entiteiten, 66 standaard- en 28 plotrelaties blijven intact. Twee bestaande gecontroleerde eigen premiseteksten zijn hergebruikt met hun bronclaims; geen nieuwe migratie of beelden. Het oude archief en de oorspronkelijke Explorer blijven behouden. Zie [EXPERIENCE-REFINEMENT.md](EXPERIENCE-REFINEMENT.md) voor de twee runtimes, coveroorzaak, prestaties en testgrenzen. Volgende stap: nieuwe iPhone/Safari- en schermlezerreview; geen automatische omschakeling.

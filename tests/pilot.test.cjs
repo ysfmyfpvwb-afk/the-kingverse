@@ -3,12 +3,12 @@ const {test}=require('node:test'),assert=require('node:assert/strict'),fs=requir
 const {ROOT}=require('../scripts/validate_foundation.cjs');
 const {generatePilot,checkPilotBaseline,LIMIT}=require('../scripts/build_pilot.cjs');
 const {validatePilotOutput}=require('../scripts/validate_pilot.cjs');
-const C=require('../scripts/pilot/shared.js');
-const out=generatePilot(),index=id=>out.payloads.get('data/'+id.replace(':','-')+'/index.json'),plot=id=>out.payloads.get('data/'+id.replace(':','-')+'/plot.json');
+const C=require('../scripts/pilot/shared.js');const describe=require('../scripts/pilot/descriptions.cjs');
+const out=generatePilot(),index=id=>{const dir='data/'+id.replace(':','-'),p=out.payloads.get(dir+'/index.json'),details=out.payloads.get(dir+'/details.json');return details?{...p,sections:{...p.sections,...details.sections}}:p;},plot=id=>out.payloads.get('data/'+id.replace(':','-')+'/plot.json');
 test('Pilot is reproducible, all generated files match, and all earlier baseline files are preserved',()=>{
  assert.equal(checkPilotBaseline().baseCommit,'1bf82bb232d9f8e0f4ad8dd08724883ffa9b3c76');assert.deepEqual(validatePilotOutput(out),[]);
  for(const[p,v]of out.files)assert.equal(fs.readFileSync(path.join(ROOT,p),'utf8'),v,p);
- assert.deepEqual(generatePilot().files,out.files);
+ assert.deepEqual(generatePilot().files,out.files);assert.deepEqual(out.base,require('../scripts/build_explorer_ready.cjs').generateReadyFiles().defaultProjection);
 });
 test('Every canonical identity, type and endpoint has an independent bounded deep-link payload',()=>{
  assert.equal(out.full.nodes.length,546);for(const n of out.full.nodes){const p=index(n.id);assert.ok(p);if(out.base.nodes.some(s=>s.id===n.id)){assert.equal(p.node.id,n.id);assert.equal(p.node.type,n.type);assert.equal(p.node.label,n.label);}else assert.equal(p.scope,'gated');}
@@ -56,5 +56,20 @@ test('Only permitted local assets are referenced; all URLs stay beneath GitHub P
  const js=out.files.get('explorer/pilot/'+out.report.assets.js);assert.ok(!js.includes('data/readiness/'));assert.ok(!js.includes('innerHTML'));assert.ok(js.includes("if(e.persisted)navigate()"));
 });
 test('Lost evidence, broken next links, spoiler leaks and invalid series peers are rejected',()=>{
- for(const mutate of [o=>o.payloads.get('data/wrk-000001/index.json').connections[0].certainty='interpretive',o=>o.payloads.get('data/wrk-000001/index.json').connections[0].target.id='wrk:000067',o=>o.payloads.get('data/wrk-000001/index.json').sections.creators.next='missing.json',o=>o.payloads.get('data/wrk-000001/index.json').node.label='Father Callahan',o=>o.payloads.get('data/wrk-000001/index.json').series[0].members[0].connectionId='rel:999999']){const copy={...out,payloads:structuredClone(out.payloads)};mutate(copy);assert.ok(validatePilotOutput(copy).length);}
+ for(const mutate of [o=>o.payloads.get('data/wrk-000001/index.json').connections[0].certainty='interpretive',o=>o.payloads.get('data/wrk-000001/index.json').connections[0].target.id='wrk:000067',o=>o.payloads.get('data/wrk-000001/details.json').sections.creators.next='missing.json',o=>o.payloads.get('data/wrk-000001/index.json').node.label='Father Callahan',o=>o.payloads.get('data/wrk-000001/index.json').series[0].members[0].connectionId='rel:999999']){const copy={...out,payloads:structuredClone(out.payloads)};mutate(copy);assert.ok(validatePilotOutput(copy).length);}
+});
+test('Destination grouping preserves every edge, certainty and claim before and after filtering',()=>{
+ const edges=[...index('wrk:000001').connections,...plot('wrk:000001').connections],before=structuredClone(edges),groups=C.groupConnections(edges);assert.deepEqual(edges,before);assert.equal(new Set(groups.map(g=>g.target.id)).size,groups.length);assert.equal(groups.flatMap(g=>g.edges).length,edges.length);assert.deepEqual(new Set(groups.flatMap(g=>g.edges.map(e=>e.id))),new Set(edges.map(e=>e.id)));assert.ok(groups.length<edges.length);for(const g of C.groupConnections(C.filterConnections(edges,'all','interpretive')))assert.ok(g.edges.every(e=>e.certainty==='interpretive'));
+});
+test('Safe bibliographic descriptions work for every projected type and do not require or invent a synopsis',()=>{
+ for(const n of out.full.nodes){const p=index(n.id);assert.equal(typeof describe(p,n),'string');}const text=describe(index('wrk:000001'),index('wrk:000001').node);assert.match(text,/Stephen King and Peter Straub/);assert.match(text,/Book 1 of The Talisman Trilogy/);assert.ok(!text.includes('has not yet been verified'));
+});
+test('Bibliographic data and its renderer are on demand; main payload has one copy of every native edge',()=>{
+ const p=out.payloads.get('data/wrk-000001/index.json'),d=out.payloads.get('data/wrk-000001/details.json');assert.equal(p.hasDetails,true);assert.ok(!p.sections.editions);assert.equal(d.sections.editions.total,2);assert.ok(!p.sections.publications);const html=out.files.get('explorer/pilot/index.html');assert.ok(!html.includes('src="'+out.report.assets.details+'"'));assert.ok(out.files.has('explorer/pilot/'+out.report.assets.details));assert.ok(out.report.payload.maxEntityBytes<=28700);
+});
+test('Initial Talisman transfer stays below 1.9 in both raw and gzip estimates; only audited editorial premises are reused',()=>{
+ const z=require('node:zlib');let raw=0,gzip=0;for(const p of ['index.html',out.report.assets.js,out.report.assets.css,'data/wrk-000001/index.json']){const s=out.files.get('explorer/pilot/'+p);raw+=Buffer.byteLength(s);gzip+=z.gzipSync(s).length;}assert.ok(raw<=59401,String(raw));assert.ok(gzip<=15541,String(gzip));for(const[id,claim]of [['wrk:000001','clm:000114'],['wrk:000002','clm:000115']]){const n=index(id).node;assert.ok(n.evidence.some(c=>c.id===claim&&c.fieldPath==='/summary'&&c.status==='verified'));assert.ok(!n.description.includes('A novel record'));}
+});
+test('Primary dark-theme text and control boundaries retain measurable contrast',()=>{
+ const css=out.files.get('explorer/pilot/'+out.report.assets.css),rgb=h=>h.match(/\w\w/g).map(n=>parseInt(n,16)/255).map(v=>v<=.04045?v/12.92:((v+.055)/1.055)**2.4),lum=h=>rgb(h.replace('#','')).reduce((s,v,i)=>s+v*[.2126,.7152,.0722][i],0),ratio=(a,b)=>(Math.max(lum(a),lum(b))+.05)/(Math.min(lum(a),lum(b))+.05),color=n=>css.match(new RegExp('--'+n+':(#[0-9a-f]{6})'))[1];for(const fg of ['text','gold','muted'])for(const bg of ['bg','panel'])assert.ok(ratio(color(fg),color(bg))>=4.5);assert.ok(ratio('#6d7968',color('panel'))>=3);assert.match(css,/html:has\(dialog\[open\]\)/);
 });

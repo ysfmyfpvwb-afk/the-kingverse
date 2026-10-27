@@ -1,6 +1,6 @@
 {
   "checked": "2026-10-26",
-  "batch": "1.9-explorer-integration-pilot",
+  "batch": "1.9.1-experience-refinement",
   "fullMigration": false,
   "readiness": {
     "batch": "06",
@@ -199,9 +199,9 @@
     }
   },
   "pilot": {
-    "version": "1.9",
+    "version": "1.9.1",
     "baseCommit": "1bf82bb232d9f8e0f4ad8dd08724883ffa9b3c76",
-    "dataVersion": "98e5eabcf4ac7da3",
+    "dataVersion": "eef0b3d6119e5954",
     "publicRoute": "explorer/pilot/",
     "protectedFileCount": 176,
     "scope": "English pilot; existing website and two-work Explorer unchanged",
@@ -215,24 +215,29 @@
       "legacyAliases": 1120
     },
     "payload": {
+      "initialShellAndEntityBytes": 55862,
+      "initialShellAndEntityGzipBytes": 15513,
       "limitBytes": 49152,
       "pageSize": 6,
-      "maxEntityBytes": 28700,
-      "medianEntityBytes": 4793,
+      "maxEntityBytes": 22588,
+      "medianEntityBytes": 3119,
       "maxChunkBytes": 9118,
       "searchBytes": 89103,
       "searchGzipBytes": 10370,
-      "shellBytes": 3301,
-      "jsBytes": 25155,
-      "jsGzipBytes": 8848,
-      "cssBytes": 8543,
-      "cssGzipBytes": 2607,
+      "shellBytes": 3668,
+      "jsBytes": 27795,
+      "detailsJsBytes": 1281,
+      "detailsJsGzipBytes": 702,
+      "jsGzipBytes": 9444,
+      "cssBytes": 7410,
+      "cssGzipBytes": 2323,
       "initialAggregateProjectBytesLoaded": 0
     },
     "assets": {
-      "js": "pilot.131c5576b921.js",
-      "css": "pilot.cb31500301dd.css",
-      "search": "search.d3162edb8bd8.json"
+      "js": "pilot.82a84779993e.js",
+      "css": "pilot.ef2564796a88.css",
+      "search": "search.d3162edb8bd8.json",
+      "details": "details.f207290d7a50.js"
     },
     "limitations": [
       "English pilot, incomplete bibliographic and edition histories.",

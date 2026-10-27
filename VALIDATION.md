@@ -47,3 +47,8 @@ De geïsoleerde browsertest wordt met `npm run build:readiness-fixture -- --out 
 Voer na de bestaande generatie `npm run build:pilot`, `python3 scripts/report_quality.py` en `npm run report:migration` uit. Alle vier validators (`validate:foundation`, `validate:shadow`, `validate:readiness`, `validate:pilot`) en `npm test` vormen de releasepoort. Controleer JavaScript/Python-syntax en `git diff --check`; een tweede build moet dezelfde bytes opleveren.
 
 De pilotvalidator beschermt 176 eerdere bestanden, alle 546 detailingangen en hun paginaverwijzingen, de 94 oorspronkelijke verbindingen, exacte bronmetadata, de 48-KiB-limiet en de standaard-/plotgrens. De tests controleren zoekalternatieven, alle acht typen, trilogy/edities/bundels/remakes, paginering, negatieve datacorruptie en de echte client met vertraagde netwerkantwoorden, gate/reset en afbeeldingsuitval. De browseracceptatie is afgebakend in [PILOT-ACCEPTANCE.md](PILOT-ACCEPTANCE.md): 390/768/1440 px, keyboard, bronnen, filters, directe links, terug/refresh en regressies. Een browserviewport is geen fysieke iPhone- of VoiceOver-test.
+
+
+## 1.9.1 — mobiele ervaring en begroting
+
+De bestaande buildvolgorde en vier validators blijven gelden. De extra regressies bewaken groeperen zonder edgeverlies, alle getypeerde beschrijvingen, onveranderde readinessprojectie, gecontroleerd hergebruik van premisetekst, details die pas op intentie laden, overlay Back/Escape/focus/scroll, basiskleurcontrast en een initiële Talisman-bytebegroting die zowel raw als gzip niet boven 1.9 mag groeien. Fysieke iPhone/Safari en een echte schermlezer zijn niet geclaimd; zie [EXPERIENCE-REFINEMENT.md](EXPERIENCE-REFINEMENT.md).

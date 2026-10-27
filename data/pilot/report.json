@@ -1,7 +1,7 @@
 {
-  "version": "1.9",
+  "version": "1.9.1",
   "baseCommit": "1bf82bb232d9f8e0f4ad8dd08724883ffa9b3c76",
-  "dataVersion": "98e5eabcf4ac7da3",
+  "dataVersion": "eef0b3d6119e5954",
   "publicRoute": "explorer/pilot/",
   "protectedFileCount": 176,
   "scope": "English pilot; existing website and two-work Explorer unchanged",
@@ -15,24 +15,29 @@
     "legacyAliases": 1120
   },
   "payload": {
+    "initialShellAndEntityBytes": 55862,
+    "initialShellAndEntityGzipBytes": 15513,
     "limitBytes": 49152,
     "pageSize": 6,
-    "maxEntityBytes": 28700,
-    "medianEntityBytes": 4793,
+    "maxEntityBytes": 22588,
+    "medianEntityBytes": 3119,
     "maxChunkBytes": 9118,
     "searchBytes": 89103,
     "searchGzipBytes": 10370,
-    "shellBytes": 3301,
-    "jsBytes": 25155,
-    "jsGzipBytes": 8848,
-    "cssBytes": 8543,
-    "cssGzipBytes": 2607,
+    "shellBytes": 3668,
+    "jsBytes": 27795,
+    "detailsJsBytes": 1281,
+    "detailsJsGzipBytes": 702,
+    "jsGzipBytes": 9444,
+    "cssBytes": 7410,
+    "cssGzipBytes": 2323,
     "initialAggregateProjectBytesLoaded": 0
   },
   "assets": {
-    "js": "pilot.131c5576b921.js",
-    "css": "pilot.cb31500301dd.css",
-    "search": "search.d3162edb8bd8.json"
+    "js": "pilot.82a84779993e.js",
+    "css": "pilot.ef2564796a88.css",
+    "search": "search.d3162edb8bd8.json",
+    "details": "details.f207290d7a50.js"
   },
   "limitations": [
     "English pilot, incomplete bibliographic and edition histories.",
@@ -45,19 +50,29 @@
   ],
   "files": [
     {
+      "file": "data/wrk-000001/details.json",
+      "bytes": 6060,
+      "gzipBytes": 1014
+    },
+    {
       "file": "data/wrk-000001/index.json",
-      "bytes": 22402,
-      "gzipBytes": 2519
+      "bytes": 16989,
+      "gzipBytes": 2073
     },
     {
       "file": "data/wrk-000001/plot.json",
       "bytes": 3842,
-      "gzipBytes": 879
+      "gzipBytes": 880
+    },
+    {
+      "file": "data/wrk-000002/details.json",
+      "bytes": 6043,
+      "gzipBytes": 1011
     },
     {
       "file": "data/wrk-000002/index.json",
-      "bytes": 21137,
-      "gzipBytes": 2440
+      "bytes": 15757,
+      "gzipBytes": 2017
     },
     {
       "file": "data/wrk-000002/plot.json",
@@ -65,19 +80,29 @@
       "gzipBytes": 1122
     },
     {
+      "file": "data/wrk-000003/details.json",
+      "bytes": 5010,
+      "gzipBytes": 877
+    },
+    {
       "file": "data/wrk-000003/index.json",
-      "bytes": 14925,
-      "gzipBytes": 2207
+      "bytes": 10256,
+      "gzipBytes": 1787
     },
     {
       "file": "data/wrk-000003/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 140
+    },
+    {
+      "file": "data/wrk-000004/details.json",
+      "bytes": 6678,
+      "gzipBytes": 1044
     },
     {
       "file": "data/wrk-000004/index.json",
-      "bytes": 11479,
-      "gzipBytes": 1939
+      "bytes": 5249,
+      "gzipBytes": 1369
     },
     {
       "file": "data/wrk-000004/plot.json",
@@ -85,29 +110,44 @@
       "gzipBytes": 983
     },
     {
+      "file": "data/wrk-000005/details.json",
+      "bytes": 5026,
+      "gzipBytes": 910
+    },
+    {
       "file": "data/wrk-000005/index.json",
-      "bytes": 9367,
-      "gzipBytes": 1779
+      "bytes": 4682,
+      "gzipBytes": 1328
     },
     {
       "file": "data/wrk-000005/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 140
+    },
+    {
+      "file": "data/wrk-000006/details.json",
+      "bytes": 4051,
+      "gzipBytes": 804
     },
     {
       "file": "data/wrk-000006/index.json",
-      "bytes": 6816,
-      "gzipBytes": 1377
+      "bytes": 3099,
+      "gzipBytes": 1043
     },
     {
       "file": "data/wrk-000006/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 140
+    },
+    {
+      "file": "data/wrk-000007/details.json",
+      "bytes": 6679,
+      "gzipBytes": 1056
     },
     {
       "file": "data/wrk-000007/index.json",
-      "bytes": 9393,
-      "gzipBytes": 1657
+      "bytes": 3155,
+      "gzipBytes": 1084
     },
     {
       "file": "data/wrk-000007/plot.json",
@@ -115,29 +155,44 @@
       "gzipBytes": 854
     },
     {
+      "file": "data/wrk-000008/details.json",
+      "bytes": 5259,
+      "gzipBytes": 952
+    },
+    {
       "file": "data/wrk-000008/index.json",
-      "bytes": 8487,
-      "gzipBytes": 1651
+      "bytes": 3567,
+      "gzipBytes": 1191
     },
     {
       "file": "data/wrk-000008/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 140
+    },
+    {
+      "file": "data/wrk-000009/details.json",
+      "bytes": 5031,
+      "gzipBytes": 922
     },
     {
       "file": "data/wrk-000009/index.json",
-      "bytes": 10848,
-      "gzipBytes": 1941
+      "bytes": 6160,
+      "gzipBytes": 1477
     },
     {
       "file": "data/wrk-000009/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 140
+    },
+    {
+      "file": "data/wrk-000010/details.json",
+      "bytes": 5026,
+      "gzipBytes": 918
     },
     {
       "file": "data/wrk-000010/index.json",
-      "bytes": 10696,
-      "gzipBytes": 1799
+      "bytes": 6016,
+      "gzipBytes": 1340
     },
     {
       "file": "data/wrk-000010/plot.json",
@@ -145,9 +200,14 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/wrk-000011/details.json",
+      "bytes": 5267,
+      "gzipBytes": 953
+    },
+    {
       "file": "data/wrk-000011/index.json",
-      "bytes": 8025,
-      "gzipBytes": 1513
+      "bytes": 3096,
+      "gzipBytes": 1037
     },
     {
       "file": "data/wrk-000011/plot.json",
@@ -155,29 +215,44 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/wrk-000012/details.json",
+      "bytes": 4994,
+      "gzipBytes": 889
+    },
+    {
       "file": "data/wrk-000012/index.json",
-      "bytes": 8824,
-      "gzipBytes": 1636
+      "bytes": 4169,
+      "gzipBytes": 1198
     },
     {
       "file": "data/wrk-000012/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000013/details.json",
+      "bytes": 5277,
+      "gzipBytes": 964
     },
     {
       "file": "data/wrk-000013/index.json",
-      "bytes": 8985,
-      "gzipBytes": 1695
+      "bytes": 4049,
+      "gzipBytes": 1227
     },
     {
       "file": "data/wrk-000013/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000014/details.json",
+      "bytes": 6752,
+      "gzipBytes": 1082
     },
     {
       "file": "data/wrk-000014/index.json",
-      "bytes": 28700,
-      "gzipBytes": 2918
+      "bytes": 22435,
+      "gzipBytes": 2339
     },
     {
       "file": "data/wrk-000014/plot.json",
@@ -185,9 +260,14 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/wrk-000015/details.json",
+      "bytes": 5029,
+      "gzipBytes": 894
+    },
+    {
       "file": "data/wrk-000015/index.json",
-      "bytes": 7291,
-      "gzipBytes": 1470
+      "bytes": 2606,
+      "gzipBytes": 1035
     },
     {
       "file": "data/wrk-000015/plot.json",
@@ -195,49 +275,74 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/wrk-000016/details.json",
+      "bytes": 5016,
+      "gzipBytes": 908
+    },
+    {
       "file": "data/wrk-000016/index.json",
-      "bytes": 12673,
-      "gzipBytes": 2061
+      "bytes": 8003,
+      "gzipBytes": 1615
     },
     {
       "file": "data/wrk-000016/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000017/details.json",
+      "bytes": 4988,
+      "gzipBytes": 880
     },
     {
       "file": "data/wrk-000017/index.json",
-      "bytes": 8898,
-      "gzipBytes": 1638
+      "bytes": 4356,
+      "gzipBytes": 1259
     },
     {
       "file": "data/wrk-000017/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000018/details.json",
+      "bytes": 5261,
+      "gzipBytes": 946
     },
     {
       "file": "data/wrk-000018/index.json",
-      "bytes": 7513,
-      "gzipBytes": 1521
+      "bytes": 2593,
+      "gzipBytes": 1042
     },
     {
       "file": "data/wrk-000018/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000019/details.json",
+      "bytes": 4985,
+      "gzipBytes": 895
     },
     {
       "file": "data/wrk-000019/index.json",
-      "bytes": 11911,
-      "gzipBytes": 2040
+      "bytes": 7262,
+      "gzipBytes": 1594
     },
     {
       "file": "data/wrk-000019/plot.json",
       "bytes": 2249,
-      "gzipBytes": 658
+      "gzipBytes": 657
+    },
+    {
+      "file": "data/wrk-000020/details.json",
+      "bytes": 5051,
+      "gzipBytes": 941
     },
     {
       "file": "data/wrk-000020/index.json",
-      "bytes": 6867,
-      "gzipBytes": 1361
+      "bytes": 2168,
+      "gzipBytes": 892
     },
     {
       "file": "data/wrk-000020/plot.json",
@@ -245,39 +350,59 @@
       "gzipBytes": 853
     },
     {
+      "file": "data/wrk-000021/details.json",
+      "bytes": 5001,
+      "gzipBytes": 896
+    },
+    {
       "file": "data/wrk-000021/index.json",
-      "bytes": 8830,
-      "gzipBytes": 1649
+      "bytes": 4169,
+      "gzipBytes": 1203
     },
     {
       "file": "data/wrk-000021/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000022/details.json",
+      "bytes": 5102,
+      "gzipBytes": 970
     },
     {
       "file": "data/wrk-000022/index.json",
-      "bytes": 23554,
-      "gzipBytes": 2565
+      "bytes": 18847,
+      "gzipBytes": 2102
     },
     {
       "file": "data/wrk-000022/plot.json",
       "bytes": 2239,
-      "gzipBytes": 658
+      "gzipBytes": 659
+    },
+    {
+      "file": "data/wrk-000023/details.json",
+      "bytes": 5033,
+      "gzipBytes": 923
     },
     {
       "file": "data/wrk-000023/index.json",
-      "bytes": 7319,
-      "gzipBytes": 1496
+      "bytes": 2633,
+      "gzipBytes": 1040
     },
     {
       "file": "data/wrk-000023/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 140
+    },
+    {
+      "file": "data/wrk-000024/details.json",
+      "bytes": 5031,
+      "gzipBytes": 925
     },
     {
       "file": "data/wrk-000024/index.json",
-      "bytes": 7290,
-      "gzipBytes": 1501
+      "bytes": 2602,
+      "gzipBytes": 1041
     },
     {
       "file": "data/wrk-000024/plot.json",
@@ -285,29 +410,44 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/wrk-000025/details.json",
+      "bytes": 5082,
+      "gzipBytes": 961
+    },
+    {
       "file": "data/wrk-000025/index.json",
-      "bytes": 23516,
-      "gzipBytes": 2559
+      "bytes": 18820,
+      "gzipBytes": 2092
     },
     {
       "file": "data/wrk-000025/plot.json",
       "bytes": 6629,
-      "gzipBytes": 1140
+      "gzipBytes": 1141
+    },
+    {
+      "file": "data/wrk-000026/details.json",
+      "bytes": 5027,
+      "gzipBytes": 922
     },
     {
       "file": "data/wrk-000026/index.json",
-      "bytes": 7294,
-      "gzipBytes": 1492
+      "bytes": 2615,
+      "gzipBytes": 1035
     },
     {
       "file": "data/wrk-000026/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 140
+    },
+    {
+      "file": "data/wrk-000027/details.json",
+      "bytes": 5028,
+      "gzipBytes": 916
     },
     {
       "file": "data/wrk-000027/index.json",
-      "bytes": 7290,
-      "gzipBytes": 1492
+      "bytes": 2608,
+      "gzipBytes": 1040
     },
     {
       "file": "data/wrk-000027/plot.json",
@@ -315,9 +455,14 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/wrk-000028/details.json",
+      "bytes": 6192,
+      "gzipBytes": 993
+    },
+    {
       "file": "data/wrk-000028/index.json",
-      "bytes": 8489,
-      "gzipBytes": 1576
+      "bytes": 2739,
+      "gzipBytes": 1077
     },
     {
       "file": "data/wrk-000028/plot.json",
@@ -325,9 +470,14 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/wrk-000029/details.json",
+      "bytes": 5009,
+      "gzipBytes": 898
+    },
+    {
       "file": "data/wrk-000029/index.json",
-      "bytes": 6797,
-      "gzipBytes": 1315
+      "bytes": 2130,
+      "gzipBytes": 872
     },
     {
       "file": "data/wrk-000029/plot.json",
@@ -335,14 +485,19 @@
       "gzipBytes": 971
     },
     {
+      "file": "data/wrk-000030/details.json",
+      "bytes": 5009,
+      "gzipBytes": 910
+    },
+    {
       "file": "data/wrk-000030/index.json",
-      "bytes": 6803,
-      "gzipBytes": 1331
+      "bytes": 2139,
+      "gzipBytes": 878
     },
     {
       "file": "data/wrk-000030/plot.json",
       "bytes": 4803,
-      "gzipBytes": 962
+      "gzipBytes": 959
     },
     {
       "file": "data/wrk-000031/publications-1.json",
@@ -350,39 +505,59 @@
       "gzipBytes": 612
     },
     {
+      "file": "data/wrk-000031/details.json",
+      "bytes": 12690,
+      "gzipBytes": 1481
+    },
+    {
       "file": "data/wrk-000031/index.json",
-      "bytes": 14927,
-      "gzipBytes": 2053
+      "bytes": 3184,
+      "gzipBytes": 1108
     },
     {
       "file": "data/wrk-000031/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000032/details.json",
+      "bytes": 5022,
+      "gzipBytes": 896
     },
     {
       "file": "data/wrk-000032/index.json",
-      "bytes": 7285,
-      "gzipBytes": 1470
+      "bytes": 2609,
+      "gzipBytes": 1034
     },
     {
       "file": "data/wrk-000032/plot.json",
       "bytes": 2269,
-      "gzipBytes": 682
+      "gzipBytes": 683
+    },
+    {
+      "file": "data/wrk-000033/details.json",
+      "bytes": 5243,
+      "gzipBytes": 929
     },
     {
       "file": "data/wrk-000033/index.json",
-      "bytes": 7056,
-      "gzipBytes": 1359
+      "bytes": 2153,
+      "gzipBytes": 891
     },
     {
       "file": "data/wrk-000033/plot.json",
       "bytes": 2272,
-      "gzipBytes": 670
+      "gzipBytes": 671
+    },
+    {
+      "file": "data/wrk-000034/details.json",
+      "bytes": 5076,
+      "gzipBytes": 953
     },
     {
       "file": "data/wrk-000034/index.json",
-      "bytes": 23512,
-      "gzipBytes": 2557
+      "bytes": 18823,
+      "gzipBytes": 2102
     },
     {
       "file": "data/wrk-000034/plot.json",
@@ -390,19 +565,29 @@
       "gzipBytes": 654
     },
     {
+      "file": "data/wrk-000035/details.json",
+      "bytes": 5024,
+      "gzipBytes": 920
+    },
+    {
       "file": "data/wrk-000035/index.json",
-      "bytes": 8903,
-      "gzipBytes": 1678
+      "bytes": 4226,
+      "gzipBytes": 1217
     },
     {
       "file": "data/wrk-000035/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000036/details.json",
+      "bytes": 5097,
+      "gzipBytes": 965
     },
     {
       "file": "data/wrk-000036/index.json",
-      "bytes": 7431,
-      "gzipBytes": 1537
+      "bytes": 2693,
+      "gzipBytes": 1066
     },
     {
       "file": "data/wrk-000036/plot.json",
@@ -410,9 +595,14 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/wrk-000037/details.json",
+      "bytes": 5028,
+      "gzipBytes": 906
+    },
+    {
       "file": "data/wrk-000037/index.json",
-      "bytes": 7287,
-      "gzipBytes": 1483
+      "bytes": 2606,
+      "gzipBytes": 1035
     },
     {
       "file": "data/wrk-000037/plot.json",
@@ -420,9 +610,14 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/wrk-000038/details.json",
+      "bytes": 5048,
+      "gzipBytes": 938
+    },
+    {
       "file": "data/wrk-000038/index.json",
-      "bytes": 6849,
-      "gzipBytes": 1367
+      "bytes": 2150,
+      "gzipBytes": 889
     },
     {
       "file": "data/wrk-000038/plot.json",
@@ -430,29 +625,44 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/wrk-000039/details.json",
+      "bytes": 5076,
+      "gzipBytes": 954
+    },
+    {
       "file": "data/wrk-000039/index.json",
-      "bytes": 23518,
-      "gzipBytes": 2552
+      "bytes": 18832,
+      "gzipBytes": 2102
     },
     {
       "file": "data/wrk-000039/plot.json",
       "bytes": 6698,
-      "gzipBytes": 1145
+      "gzipBytes": 1146
+    },
+    {
+      "file": "data/wrk-000040/details.json",
+      "bytes": 5074,
+      "gzipBytes": 946
     },
     {
       "file": "data/wrk-000040/index.json",
-      "bytes": 23511,
-      "gzipBytes": 2552
+      "bytes": 18824,
+      "gzipBytes": 2101
     },
     {
       "file": "data/wrk-000040/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000041/details.json",
+      "bytes": 5029,
+      "gzipBytes": 925
     },
     {
       "file": "data/wrk-000041/index.json",
-      "bytes": 23429,
-      "gzipBytes": 2532
+      "bytes": 18770,
+      "gzipBytes": 2077
     },
     {
       "file": "data/wrk-000041/plot.json",
@@ -460,9 +670,14 @@
       "gzipBytes": 1772
     },
     {
+      "file": "data/wrk-000042/details.json",
+      "bytes": 5054,
+      "gzipBytes": 922
+    },
+    {
       "file": "data/wrk-000042/index.json",
-      "bytes": 8771,
-      "gzipBytes": 1698
+      "bytes": 4063,
+      "gzipBytes": 1229
     },
     {
       "file": "data/wrk-000042/plot.json",
@@ -470,19 +685,29 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/wrk-000043/details.json",
+      "bytes": 4994,
+      "gzipBytes": 901
+    },
+    {
       "file": "data/wrk-000043/index.json",
-      "bytes": 7221,
-      "gzipBytes": 1480
+      "bytes": 2566,
+      "gzipBytes": 1027
     },
     {
       "file": "data/wrk-000043/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 140
+    },
+    {
+      "file": "data/wrk-000044/details.json",
+      "bytes": 5027,
+      "gzipBytes": 910
     },
     {
       "file": "data/wrk-000044/index.json",
-      "bytes": 8904,
-      "gzipBytes": 1646
+      "bytes": 4223,
+      "gzipBytes": 1190
     },
     {
       "file": "data/wrk-000044/plot.json",
@@ -490,19 +715,29 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/wrk-000045/details.json",
+      "bytes": 5233,
+      "gzipBytes": 925
+    },
+    {
       "file": "data/wrk-000045/index.json",
-      "bytes": 7029,
-      "gzipBytes": 1352
+      "bytes": 2131,
+      "gzipBytes": 881
     },
     {
       "file": "data/wrk-000045/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000046/details.json",
+      "bytes": 4998,
+      "gzipBytes": 902
     },
     {
       "file": "data/wrk-000046/index.json",
-      "bytes": 6787,
-      "gzipBytes": 1327
+      "bytes": 2132,
+      "gzipBytes": 877
     },
     {
       "file": "data/wrk-000046/plot.json",
@@ -510,9 +745,14 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/wrk-000047/details.json",
+      "bytes": 5034,
+      "gzipBytes": 923
+    },
+    {
       "file": "data/wrk-000047/index.json",
-      "bytes": 8938,
-      "gzipBytes": 1667
+      "bytes": 4252,
+      "gzipBytes": 1215
     },
     {
       "file": "data/wrk-000047/plot.json",
@@ -520,9 +760,14 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/wrk-000048/details.json",
+      "bytes": 5030,
+      "gzipBytes": 926
+    },
+    {
       "file": "data/wrk-000048/index.json",
-      "bytes": 7284,
-      "gzipBytes": 1496
+      "bytes": 2597,
+      "gzipBytes": 1041
     },
     {
       "file": "data/wrk-000048/plot.json",
@@ -530,19 +775,29 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/wrk-000049/details.json",
+      "bytes": 5110,
+      "gzipBytes": 975
+    },
+    {
       "file": "data/wrk-000049/index.json",
-      "bytes": 22897,
-      "gzipBytes": 2430
+      "bytes": 18184,
+      "gzipBytes": 1953
     },
     {
       "file": "data/wrk-000049/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000050/details.json",
+      "bytes": 6658,
+      "gzipBytes": 1045
     },
     {
       "file": "data/wrk-000050/index.json",
-      "bytes": 8445,
-      "gzipBytes": 1460
+      "bytes": 2230,
+      "gzipBytes": 891
     },
     {
       "file": "data/wrk-000050/plot.json",
@@ -550,9 +805,14 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/wrk-000051/details.json",
+      "bytes": 5017,
+      "gzipBytes": 910
+    },
+    {
       "file": "data/wrk-000051/index.json",
-      "bytes": 8874,
-      "gzipBytes": 1658
+      "bytes": 4204,
+      "gzipBytes": 1200
     },
     {
       "file": "data/wrk-000051/plot.json",
@@ -560,39 +820,59 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/wrk-000052/details.json",
+      "bytes": 5019,
+      "gzipBytes": 902
+    },
+    {
       "file": "data/wrk-000052/index.json",
-      "bytes": 8891,
-      "gzipBytes": 1634
+      "bytes": 4217,
+      "gzipBytes": 1190
     },
     {
       "file": "data/wrk-000052/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000053/details.json",
+      "bytes": 5001,
+      "gzipBytes": 896
     },
     {
       "file": "data/wrk-000053/index.json",
-      "bytes": 6788,
-      "gzipBytes": 1315
+      "bytes": 2128,
+      "gzipBytes": 872
     },
     {
       "file": "data/wrk-000053/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000054/details.json",
+      "bytes": 5040,
+      "gzipBytes": 925
     },
     {
       "file": "data/wrk-000054/index.json",
-      "bytes": 6843,
-      "gzipBytes": 1349
+      "bytes": 2153,
+      "gzipBytes": 881
     },
     {
       "file": "data/wrk-000054/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 139
+    },
+    {
+      "file": "data/wrk-000055/details.json",
+      "bytes": 5042,
+      "gzipBytes": 935
     },
     {
       "file": "data/wrk-000055/index.json",
-      "bytes": 6839,
-      "gzipBytes": 1358
+      "bytes": 2144,
+      "gzipBytes": 883
     },
     {
       "file": "data/wrk-000055/plot.json",
@@ -600,39 +880,59 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/wrk-000056/details.json",
+      "bytes": 5062,
+      "gzipBytes": 854
+    },
+    {
       "file": "data/wrk-000056/index.json",
-      "bytes": 7079,
-      "gzipBytes": 1299
+      "bytes": 2383,
+      "gzipBytes": 923
     },
     {
       "file": "data/wrk-000056/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000057/details.json",
+      "bytes": 5294,
+      "gzipBytes": 936
     },
     {
       "file": "data/wrk-000057/index.json",
-      "bytes": 7325,
-      "gzipBytes": 1379
+      "bytes": 2406,
+      "gzipBytes": 946
     },
     {
       "file": "data/wrk-000057/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000058/details.json",
+      "bytes": 3821,
+      "gzipBytes": 780
     },
     {
       "file": "data/wrk-000058/index.json",
-      "bytes": 7705,
-      "gzipBytes": 1523
+      "bytes": 4226,
+      "gzipBytes": 1209
     },
     {
       "file": "data/wrk-000058/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000059/details.json",
+      "bytes": 3816,
+      "gzipBytes": 773
     },
     {
       "file": "data/wrk-000059/index.json",
-      "bytes": 5626,
-      "gzipBytes": 1195
+      "bytes": 2156,
+      "gzipBytes": 883
     },
     {
       "file": "data/wrk-000059/plot.json",
@@ -640,49 +940,74 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/wrk-000060/details.json",
+      "bytes": 3823,
+      "gzipBytes": 781
+    },
+    {
       "file": "data/wrk-000060/index.json",
-      "bytes": 6107,
-      "gzipBytes": 1355
+      "bytes": 2627,
+      "gzipBytes": 1039
     },
     {
       "file": "data/wrk-000060/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000061/details.json",
+      "bytes": 3819,
+      "gzipBytes": 782
     },
     {
       "file": "data/wrk-000061/index.json",
-      "bytes": 5617,
-      "gzipBytes": 1209
+      "bytes": 2138,
+      "gzipBytes": 879
     },
     {
       "file": "data/wrk-000061/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000062/details.json",
+      "bytes": 3828,
+      "gzipBytes": 781
     },
     {
       "file": "data/wrk-000062/index.json",
-      "bytes": 5642,
-      "gzipBytes": 1206
+      "bytes": 2162,
+      "gzipBytes": 889
     },
     {
       "file": "data/wrk-000062/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 140
+    },
+    {
+      "file": "data/wrk-000063/details.json",
+      "bytes": 5090,
+      "gzipBytes": 879
     },
     {
       "file": "data/wrk-000063/index.json",
-      "bytes": 7117,
-      "gzipBytes": 1318
+      "bytes": 2400,
+      "gzipBytes": 939
     },
     {
       "file": "data/wrk-000063/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 140
+    },
+    {
+      "file": "data/wrk-000064/details.json",
+      "bytes": 3822,
+      "gzipBytes": 780
     },
     {
       "file": "data/wrk-000064/index.json",
-      "bytes": 5630,
-      "gzipBytes": 1205
+      "bytes": 2153,
+      "gzipBytes": 886
     },
     {
       "file": "data/wrk-000064/plot.json",
@@ -690,29 +1015,44 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/wrk-000065/details.json",
+      "bytes": 3812,
+      "gzipBytes": 772
+    },
+    {
       "file": "data/wrk-000065/index.json",
-      "bytes": 5610,
-      "gzipBytes": 1196
+      "bytes": 2138,
+      "gzipBytes": 879
     },
     {
       "file": "data/wrk-000065/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000066/details.json",
+      "bytes": 3840,
+      "gzipBytes": 793
     },
     {
       "file": "data/wrk-000066/index.json",
-      "bytes": 5652,
-      "gzipBytes": 1222
+      "bytes": 2159,
+      "gzipBytes": 890
     },
     {
       "file": "data/wrk-000066/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000067/details.json",
+      "bytes": 6620,
+      "gzipBytes": 1068
     },
     {
       "file": "data/wrk-000067/index.json",
-      "bytes": 22076,
-      "gzipBytes": 2536
+      "bytes": 16121,
+      "gzipBytes": 2093
     },
     {
       "file": "data/wrk-000067/plot.json",
@@ -720,9 +1060,14 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/wrk-000068/details.json",
+      "bytes": 3826,
+      "gzipBytes": 780
+    },
+    {
       "file": "data/wrk-000068/index.json",
-      "bytes": 6416,
-      "gzipBytes": 1332
+      "bytes": 2941,
+      "gzipBytes": 1040
     },
     {
       "file": "data/wrk-000068/plot.json",
@@ -730,39 +1075,59 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/wrk-000069/details.json",
+      "bytes": 6452,
+      "gzipBytes": 973
+    },
+    {
       "file": "data/wrk-000069/index.json",
-      "bytes": 8835,
-      "gzipBytes": 1422
+      "bytes": 2750,
+      "gzipBytes": 1004
     },
     {
       "file": "data/wrk-000069/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000070/details.json",
+      "bytes": 5052,
+      "gzipBytes": 859
     },
     {
       "file": "data/wrk-000070/index.json",
-      "bytes": 7065,
-      "gzipBytes": 1293
+      "bytes": 2378,
+      "gzipBytes": 922
     },
     {
       "file": "data/wrk-000070/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000071/details.json",
+      "bytes": 5081,
+      "gzipBytes": 881
     },
     {
       "file": "data/wrk-000071/index.json",
-      "bytes": 7123,
-      "gzipBytes": 1318
+      "bytes": 2398,
+      "gzipBytes": 938
     },
     {
       "file": "data/wrk-000071/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000072/details.json",
+      "bytes": 2806,
+      "gzipBytes": 685
     },
     {
       "file": "data/wrk-000072/index.json",
-      "bytes": 7633,
-      "gzipBytes": 1589
+      "bytes": 5201,
+      "gzipBytes": 1378
     },
     {
       "file": "data/wrk-000072/plot.json",
@@ -770,19 +1135,29 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/wrk-000073/details.json",
+      "bytes": 2807,
+      "gzipBytes": 685
+    },
+    {
       "file": "data/wrk-000073/index.json",
-      "bytes": 6019,
-      "gzipBytes": 1409
+      "bytes": 3587,
+      "gzipBytes": 1205
     },
     {
       "file": "data/wrk-000073/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 140
+    },
+    {
+      "file": "data/wrk-000074/details.json",
+      "bytes": 2802,
+      "gzipBytes": 688
     },
     {
       "file": "data/wrk-000074/index.json",
-      "bytes": 5536,
-      "gzipBytes": 1261
+      "bytes": 3104,
+      "gzipBytes": 1058
     },
     {
       "file": "data/wrk-000074/plot.json",
@@ -790,19 +1165,29 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/wrk-000075/details.json",
+      "bytes": 2808,
+      "gzipBytes": 690
+    },
+    {
       "file": "data/wrk-000075/index.json",
-      "bytes": 5554,
-      "gzipBytes": 1274
+      "bytes": 3122,
+      "gzipBytes": 1070
     },
     {
       "file": "data/wrk-000075/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000076/details.json",
+      "bytes": 2799,
+      "gzipBytes": 681
     },
     {
       "file": "data/wrk-000076/index.json",
-      "bytes": 6770,
-      "gzipBytes": 1485
+      "bytes": 4338,
+      "gzipBytes": 1283
     },
     {
       "file": "data/wrk-000076/plot.json",
@@ -810,9 +1195,14 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/wrk-000077/details.json",
+      "bytes": 2801,
+      "gzipBytes": 686
+    },
+    {
       "file": "data/wrk-000077/index.json",
-      "bytes": 7612,
-      "gzipBytes": 1574
+      "bytes": 5180,
+      "gzipBytes": 1363
     },
     {
       "file": "data/wrk-000077/plot.json",
@@ -820,9 +1210,14 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/wrk-000078/details.json",
+      "bytes": 2803,
+      "gzipBytes": 689
+    },
+    {
       "file": "data/wrk-000078/index.json",
-      "bytes": 5539,
-      "gzipBytes": 1267
+      "bytes": 3107,
+      "gzipBytes": 1062
     },
     {
       "file": "data/wrk-000078/plot.json",
@@ -830,39 +1225,59 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/wrk-000079/details.json",
+      "bytes": 2804,
+      "gzipBytes": 687
+    },
+    {
       "file": "data/wrk-000079/index.json",
-      "bytes": 5542,
-      "gzipBytes": 1267
+      "bytes": 3110,
+      "gzipBytes": 1058
     },
     {
       "file": "data/wrk-000079/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000080/details.json",
+      "bytes": 2798,
+      "gzipBytes": 680
     },
     {
       "file": "data/wrk-000080/index.json",
-      "bytes": 9669,
-      "gzipBytes": 1733
+      "bytes": 7237,
+      "gzipBytes": 1523
     },
     {
       "file": "data/wrk-000080/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000081/details.json",
+      "bytes": 2816,
+      "gzipBytes": 696
     },
     {
       "file": "data/wrk-000081/index.json",
-      "bytes": 6073,
-      "gzipBytes": 1433
+      "bytes": 3641,
+      "gzipBytes": 1223
     },
     {
       "file": "data/wrk-000081/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000082/details.json",
+      "bytes": 2809,
+      "gzipBytes": 685
     },
     {
       "file": "data/wrk-000082/index.json",
-      "bytes": 5557,
-      "gzipBytes": 1270
+      "bytes": 3125,
+      "gzipBytes": 1067
     },
     {
       "file": "data/wrk-000082/plot.json",
@@ -870,19 +1285,29 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/wrk-000083/details.json",
+      "bytes": 2797,
+      "gzipBytes": 677
+    },
+    {
       "file": "data/wrk-000083/index.json",
-      "bytes": 7468,
-      "gzipBytes": 1623
+      "bytes": 5036,
+      "gzipBytes": 1416
     },
     {
       "file": "data/wrk-000083/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 140
+    },
+    {
+      "file": "data/wrk-000084/details.json",
+      "bytes": 2805,
+      "gzipBytes": 690
     },
     {
       "file": "data/wrk-000084/index.json",
-      "bytes": 5553,
-      "gzipBytes": 1273
+      "bytes": 3121,
+      "gzipBytes": 1066
     },
     {
       "file": "data/wrk-000084/plot.json",
@@ -890,19 +1315,29 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/wrk-000085/details.json",
+      "bytes": 2804,
+      "gzipBytes": 686
+    },
+    {
       "file": "data/wrk-000085/index.json",
-      "bytes": 7485,
-      "gzipBytes": 1635
+      "bytes": 5053,
+      "gzipBytes": 1423
     },
     {
       "file": "data/wrk-000085/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000086/details.json",
+      "bytes": 2812,
+      "gzipBytes": 689
     },
     {
       "file": "data/wrk-000086/index.json",
-      "bytes": 5566,
-      "gzipBytes": 1283
+      "bytes": 3134,
+      "gzipBytes": 1082
     },
     {
       "file": "data/wrk-000086/plot.json",
@@ -910,9 +1345,14 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/wrk-000087/details.json",
+      "bytes": 2812,
+      "gzipBytes": 693
+    },
+    {
       "file": "data/wrk-000087/index.json",
-      "bytes": 8445,
-      "gzipBytes": 1708
+      "bytes": 6013,
+      "gzipBytes": 1503
     },
     {
       "file": "data/wrk-000087/plot.json",
@@ -920,9 +1360,14 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/wrk-000088/details.json",
+      "bytes": 2815,
+      "gzipBytes": 695
+    },
+    {
       "file": "data/wrk-000088/index.json",
-      "bytes": 5583,
-      "gzipBytes": 1288
+      "bytes": 3151,
+      "gzipBytes": 1085
     },
     {
       "file": "data/wrk-000088/plot.json",
@@ -930,19 +1375,29 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/wrk-000089/details.json",
+      "bytes": 2813,
+      "gzipBytes": 692
+    },
+    {
       "file": "data/wrk-000089/index.json",
-      "bytes": 5577,
-      "gzipBytes": 1285
+      "bytes": 3145,
+      "gzipBytes": 1080
     },
     {
       "file": "data/wrk-000089/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000090/details.json",
+      "bytes": 2808,
+      "gzipBytes": 689
     },
     {
       "file": "data/wrk-000090/index.json",
-      "bytes": 5554,
-      "gzipBytes": 1278
+      "bytes": 3122,
+      "gzipBytes": 1076
     },
     {
       "file": "data/wrk-000090/plot.json",
@@ -950,9 +1405,14 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/wrk-000091/details.json",
+      "bytes": 2809,
+      "gzipBytes": 689
+    },
+    {
       "file": "data/wrk-000091/index.json",
-      "bytes": 5565,
-      "gzipBytes": 1276
+      "bytes": 3133,
+      "gzipBytes": 1074
     },
     {
       "file": "data/wrk-000091/plot.json",
@@ -960,29 +1420,44 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/wrk-000092/details.json",
+      "bytes": 2833,
+      "gzipBytes": 701
+    },
+    {
       "file": "data/wrk-000092/index.json",
-      "bytes": 6888,
-      "gzipBytes": 1532
+      "bytes": 4462,
+      "gzipBytes": 1327
     },
     {
       "file": "data/wrk-000092/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000093/details.json",
+      "bytes": 2804,
+      "gzipBytes": 685
     },
     {
       "file": "data/wrk-000093/index.json",
-      "bytes": 5996,
-      "gzipBytes": 1414
+      "bytes": 3570,
+      "gzipBytes": 1205
     },
     {
       "file": "data/wrk-000093/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000094/details.json",
+      "bytes": 2799,
+      "gzipBytes": 687
     },
     {
       "file": "data/wrk-000094/index.json",
-      "bytes": 7600,
-      "gzipBytes": 1588
+      "bytes": 5174,
+      "gzipBytes": 1371
     },
     {
       "file": "data/wrk-000094/plot.json",
@@ -990,9 +1465,14 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/wrk-000095/details.json",
+      "bytes": 2811,
+      "gzipBytes": 690
+    },
+    {
       "file": "data/wrk-000095/index.json",
-      "bytes": 5569,
-      "gzipBytes": 1279
+      "bytes": 3143,
+      "gzipBytes": 1070
     },
     {
       "file": "data/wrk-000095/plot.json",
@@ -1000,39 +1480,59 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/wrk-000096/details.json",
+      "bytes": 4002,
+      "gzipBytes": 839
+    },
+    {
       "file": "data/wrk-000096/index.json",
-      "bytes": 9234,
-      "gzipBytes": 1842
+      "bytes": 5601,
+      "gzipBytes": 1477
     },
     {
       "file": "data/wrk-000096/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000097/details.json",
+      "bytes": 2812,
+      "gzipBytes": 691
     },
     {
       "file": "data/wrk-000097/index.json",
-      "bytes": 5570,
-      "gzipBytes": 1281
+      "bytes": 3140,
+      "gzipBytes": 1072
     },
     {
       "file": "data/wrk-000097/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000098/details.json",
+      "bytes": 2798,
+      "gzipBytes": 684
     },
     {
       "file": "data/wrk-000098/index.json",
-      "bytes": 5990,
-      "gzipBytes": 1410
+      "bytes": 3560,
+      "gzipBytes": 1200
     },
     {
       "file": "data/wrk-000098/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000099/details.json",
+      "bytes": 2804,
+      "gzipBytes": 685
     },
     {
       "file": "data/wrk-000099/index.json",
-      "bytes": 5546,
-      "gzipBytes": 1270
+      "bytes": 3116,
+      "gzipBytes": 1068
     },
     {
       "file": "data/wrk-000099/plot.json",
@@ -1040,29 +1540,44 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/wrk-000100/details.json",
+      "bytes": 2810,
+      "gzipBytes": 688
+    },
+    {
       "file": "data/wrk-000100/index.json",
-      "bytes": 5568,
-      "gzipBytes": 1281
+      "bytes": 3138,
+      "gzipBytes": 1079
     },
     {
       "file": "data/wrk-000100/plot.json",
       "bytes": 141,
-      "gzipBytes": 141
+      "gzipBytes": 140
+    },
+    {
+      "file": "data/wrk-000101/details.json",
+      "bytes": 2797,
+      "gzipBytes": 683
     },
     {
       "file": "data/wrk-000101/index.json",
-      "bytes": 5533,
-      "gzipBytes": 1264
+      "bytes": 3103,
+      "gzipBytes": 1058
     },
     {
       "file": "data/wrk-000101/plot.json",
       "bytes": 141,
-      "gzipBytes": 141
+      "gzipBytes": 140
+    },
+    {
+      "file": "data/wrk-000102/details.json",
+      "bytes": 2803,
+      "gzipBytes": 683
     },
     {
       "file": "data/wrk-000102/index.json",
-      "bytes": 5551,
-      "gzipBytes": 1273
+      "bytes": 3121,
+      "gzipBytes": 1068
     },
     {
       "file": "data/wrk-000102/plot.json",
@@ -1070,49 +1585,74 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000103/details.json",
+      "bytes": 1661,
+      "gzipBytes": 562
+    },
+    {
       "file": "data/wrk-000103/index.json",
-      "bytes": 4793,
-      "gzipBytes": 1198
+      "bytes": 3222,
+      "gzipBytes": 1044
     },
     {
       "file": "data/wrk-000103/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000104/details.json",
+      "bytes": 2796,
+      "gzipBytes": 678
     },
     {
       "file": "data/wrk-000104/index.json",
-      "bytes": 5980,
-      "gzipBytes": 1412
+      "bytes": 3550,
+      "gzipBytes": 1204
     },
     {
       "file": "data/wrk-000104/plot.json",
       "bytes": 141,
-      "gzipBytes": 141
+      "gzipBytes": 140
+    },
+    {
+      "file": "data/wrk-000105/details.json",
+      "bytes": 2818,
+      "gzipBytes": 695
     },
     {
       "file": "data/wrk-000105/index.json",
-      "bytes": 5588,
-      "gzipBytes": 1285
+      "bytes": 3158,
+      "gzipBytes": 1084
     },
     {
       "file": "data/wrk-000105/plot.json",
       "bytes": 141,
-      "gzipBytes": 141
+      "gzipBytes": 140
+    },
+    {
+      "file": "data/wrk-000106/details.json",
+      "bytes": 2821,
+      "gzipBytes": 701
     },
     {
       "file": "data/wrk-000106/index.json",
-      "bytes": 5605,
-      "gzipBytes": 1305
+      "bytes": 3175,
+      "gzipBytes": 1097
     },
     {
       "file": "data/wrk-000106/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000107/details.json",
+      "bytes": 2802,
+      "gzipBytes": 681
     },
     {
       "file": "data/wrk-000107/index.json",
-      "bytes": 5540,
-      "gzipBytes": 1270
+      "bytes": 3110,
+      "gzipBytes": 1061
     },
     {
       "file": "data/wrk-000107/plot.json",
@@ -1120,9 +1660,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000108/details.json",
+      "bytes": 2805,
+      "gzipBytes": 683
+    },
+    {
       "file": "data/wrk-000108/index.json",
-      "bytes": 5559,
-      "gzipBytes": 1273
+      "bytes": 3129,
+      "gzipBytes": 1073
     },
     {
       "file": "data/wrk-000108/plot.json",
@@ -1130,39 +1675,59 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000109/details.json",
+      "bytes": 2796,
+      "gzipBytes": 681
+    },
+    {
       "file": "data/wrk-000109/index.json",
-      "bytes": 5522,
-      "gzipBytes": 1254
+      "bytes": 3092,
+      "gzipBytes": 1053
     },
     {
       "file": "data/wrk-000109/plot.json",
       "bytes": 141,
-      "gzipBytes": 141
+      "gzipBytes": 140
+    },
+    {
+      "file": "data/wrk-000110/details.json",
+      "bytes": 1653,
+      "gzipBytes": 555
     },
     {
       "file": "data/wrk-000110/index.json",
-      "bytes": 4767,
-      "gzipBytes": 1195
+      "bytes": 3204,
+      "gzipBytes": 1042
     },
     {
       "file": "data/wrk-000110/plot.json",
       "bytes": 141,
-      "gzipBytes": 141
+      "gzipBytes": 140
+    },
+    {
+      "file": "data/wrk-000111/details.json",
+      "bytes": 2805,
+      "gzipBytes": 690
     },
     {
       "file": "data/wrk-000111/index.json",
-      "bytes": 5549,
-      "gzipBytes": 1273
+      "bytes": 3119,
+      "gzipBytes": 1065
     },
     {
       "file": "data/wrk-000111/plot.json",
       "bytes": 141,
-      "gzipBytes": 141
+      "gzipBytes": 140
+    },
+    {
+      "file": "data/wrk-000112/details.json",
+      "bytes": 2809,
+      "gzipBytes": 691
     },
     {
       "file": "data/wrk-000112/index.json",
-      "bytes": 5563,
-      "gzipBytes": 1280
+      "bytes": 3133,
+      "gzipBytes": 1075
     },
     {
       "file": "data/wrk-000112/plot.json",
@@ -1170,49 +1735,74 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000113/details.json",
+      "bytes": 2822,
+      "gzipBytes": 699
+    },
+    {
       "file": "data/wrk-000113/index.json",
-      "bytes": 5602,
-      "gzipBytes": 1294
+      "bytes": 3172,
+      "gzipBytes": 1090
     },
     {
       "file": "data/wrk-000113/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000114/details.json",
+      "bytes": 2841,
+      "gzipBytes": 717
     },
     {
       "file": "data/wrk-000114/index.json",
-      "bytes": 5661,
-      "gzipBytes": 1331
+      "bytes": 3231,
+      "gzipBytes": 1124
     },
     {
       "file": "data/wrk-000114/plot.json",
       "bytes": 141,
-      "gzipBytes": 141
+      "gzipBytes": 140
+    },
+    {
+      "file": "data/wrk-000115/details.json",
+      "bytes": 2798,
+      "gzipBytes": 685
     },
     {
       "file": "data/wrk-000115/index.json",
-      "bytes": 7436,
-      "gzipBytes": 1577
+      "bytes": 5006,
+      "gzipBytes": 1373
     },
     {
       "file": "data/wrk-000115/plot.json",
       "bytes": 141,
-      "gzipBytes": 141
+      "gzipBytes": 140
+    },
+    {
+      "file": "data/wrk-000116/details.json",
+      "bytes": 2821,
+      "gzipBytes": 697
     },
     {
       "file": "data/wrk-000116/index.json",
-      "bytes": 5605,
-      "gzipBytes": 1299
+      "bytes": 3175,
+      "gzipBytes": 1092
     },
     {
       "file": "data/wrk-000116/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000117/details.json",
+      "bytes": 2797,
+      "gzipBytes": 683
     },
     {
       "file": "data/wrk-000117/index.json",
-      "bytes": 5533,
-      "gzipBytes": 1264
+      "bytes": 3103,
+      "gzipBytes": 1058
     },
     {
       "file": "data/wrk-000117/plot.json",
@@ -1220,9 +1810,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000118/details.json",
+      "bytes": 2805,
+      "gzipBytes": 692
+    },
+    {
       "file": "data/wrk-000118/index.json",
-      "bytes": 6026,
-      "gzipBytes": 1429
+      "bytes": 3601,
+      "gzipBytes": 1214
     },
     {
       "file": "data/wrk-000118/plot.json",
@@ -1230,19 +1825,29 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000119/details.json",
+      "bytes": 2822,
+      "gzipBytes": 692
+    },
+    {
       "file": "data/wrk-000119/index.json",
-      "bytes": 6062,
-      "gzipBytes": 1438
+      "bytes": 3637,
+      "gzipBytes": 1227
     },
     {
       "file": "data/wrk-000119/plot.json",
       "bytes": 141,
-      "gzipBytes": 141
+      "gzipBytes": 139
+    },
+    {
+      "file": "data/wrk-000120/details.json",
+      "bytes": 2812,
+      "gzipBytes": 687
     },
     {
       "file": "data/wrk-000120/index.json",
-      "bytes": 5574,
-      "gzipBytes": 1284
+      "bytes": 3149,
+      "gzipBytes": 1080
     },
     {
       "file": "data/wrk-000120/plot.json",
@@ -1250,9 +1855,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000121/details.json",
+      "bytes": 2802,
+      "gzipBytes": 689
+    },
+    {
       "file": "data/wrk-000121/index.json",
-      "bytes": 5544,
-      "gzipBytes": 1280
+      "bytes": 3119,
+      "gzipBytes": 1068
     },
     {
       "file": "data/wrk-000121/plot.json",
@@ -1260,9 +1870,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000122/details.json",
+      "bytes": 2807,
+      "gzipBytes": 689
+    },
+    {
       "file": "data/wrk-000122/index.json",
-      "bytes": 6048,
-      "gzipBytes": 1434
+      "bytes": 3629,
+      "gzipBytes": 1220
     },
     {
       "file": "data/wrk-000122/plot.json",
@@ -1270,29 +1885,44 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000123/details.json",
+      "bytes": 2813,
+      "gzipBytes": 690
+    },
+    {
       "file": "data/wrk-000123/index.json",
-      "bytes": 5603,
-      "gzipBytes": 1295
+      "bytes": 3184,
+      "gzipBytes": 1094
     },
     {
       "file": "data/wrk-000123/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000124/details.json",
+      "bytes": 2818,
+      "gzipBytes": 695
     },
     {
       "file": "data/wrk-000124/index.json",
-      "bytes": 6111,
-      "gzipBytes": 1446
+      "bytes": 3692,
+      "gzipBytes": 1241
     },
     {
       "file": "data/wrk-000124/plot.json",
       "bytes": 141,
-      "gzipBytes": 141
+      "gzipBytes": 140
+    },
+    {
+      "file": "data/wrk-000125/details.json",
+      "bytes": 2803,
+      "gzipBytes": 687
     },
     {
       "file": "data/wrk-000125/index.json",
-      "bytes": 6037,
-      "gzipBytes": 1428
+      "bytes": 3618,
+      "gzipBytes": 1218
     },
     {
       "file": "data/wrk-000125/plot.json",
@@ -1300,19 +1930,29 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000126/details.json",
+      "bytes": 2797,
+      "gzipBytes": 680
+    },
+    {
       "file": "data/wrk-000126/index.json",
-      "bytes": 5547,
-      "gzipBytes": 1274
+      "bytes": 3128,
+      "gzipBytes": 1065
     },
     {
       "file": "data/wrk-000126/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000127/details.json",
+      "bytes": 2807,
+      "gzipBytes": 689
     },
     {
       "file": "data/wrk-000127/index.json",
-      "bytes": 5577,
-      "gzipBytes": 1289
+      "bytes": 3158,
+      "gzipBytes": 1083
     },
     {
       "file": "data/wrk-000127/plot.json",
@@ -1320,9 +1960,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000128/details.json",
+      "bytes": 2806,
+      "gzipBytes": 694
+    },
+    {
       "file": "data/wrk-000128/index.json",
-      "bytes": 5574,
-      "gzipBytes": 1288
+      "bytes": 3155,
+      "gzipBytes": 1080
     },
     {
       "file": "data/wrk-000128/plot.json",
@@ -1330,9 +1975,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000129/details.json",
+      "bytes": 2802,
+      "gzipBytes": 680
+    },
+    {
       "file": "data/wrk-000129/index.json",
-      "bytes": 5562,
-      "gzipBytes": 1276
+      "bytes": 3143,
+      "gzipBytes": 1068
     },
     {
       "file": "data/wrk-000129/plot.json",
@@ -1340,9 +1990,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000130/details.json",
+      "bytes": 2805,
+      "gzipBytes": 682
+    },
+    {
       "file": "data/wrk-000130/index.json",
-      "bytes": 5579,
-      "gzipBytes": 1285
+      "bytes": 3160,
+      "gzipBytes": 1084
     },
     {
       "file": "data/wrk-000130/plot.json",
@@ -1350,9 +2005,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000131/details.json",
+      "bytes": 2800,
+      "gzipBytes": 687
+    },
+    {
       "file": "data/wrk-000131/index.json",
-      "bytes": 5556,
-      "gzipBytes": 1277
+      "bytes": 3137,
+      "gzipBytes": 1068
     },
     {
       "file": "data/wrk-000131/plot.json",
@@ -1360,9 +2020,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000132/details.json",
+      "bytes": 2826,
+      "gzipBytes": 703
+    },
+    {
       "file": "data/wrk-000132/index.json",
-      "bytes": 5634,
-      "gzipBytes": 1320
+      "bytes": 3215,
+      "gzipBytes": 1115
     },
     {
       "file": "data/wrk-000132/plot.json",
@@ -1370,29 +2035,44 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000133/details.json",
+      "bytes": 2805,
+      "gzipBytes": 685
+    },
+    {
       "file": "data/wrk-000133/index.json",
-      "bytes": 5571,
-      "gzipBytes": 1279
+      "bytes": 3152,
+      "gzipBytes": 1077
     },
     {
       "file": "data/wrk-000133/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000134/details.json",
+      "bytes": 2804,
+      "gzipBytes": 687
     },
     {
       "file": "data/wrk-000134/index.json",
-      "bytes": 5568,
-      "gzipBytes": 1285
+      "bytes": 3149,
+      "gzipBytes": 1075
     },
     {
       "file": "data/wrk-000134/plot.json",
       "bytes": 141,
-      "gzipBytes": 141
+      "gzipBytes": 140
+    },
+    {
+      "file": "data/wrk-000135/details.json",
+      "bytes": 2806,
+      "gzipBytes": 688
     },
     {
       "file": "data/wrk-000135/index.json",
-      "bytes": 7511,
-      "gzipBytes": 1587
+      "bytes": 5092,
+      "gzipBytes": 1380
     },
     {
       "file": "data/wrk-000135/plot.json",
@@ -1400,9 +2080,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000136/details.json",
+      "bytes": 1669,
+      "gzipBytes": 568
+    },
+    {
       "file": "data/wrk-000136/index.json",
-      "bytes": 4848,
-      "gzipBytes": 1224
+      "bytes": 3274,
+      "gzipBytes": 1063
     },
     {
       "file": "data/wrk-000136/plot.json",
@@ -1410,9 +2095,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000137/details.json",
+      "bytes": 2810,
+      "gzipBytes": 693
+    },
+    {
       "file": "data/wrk-000137/index.json",
-      "bytes": 5594,
-      "gzipBytes": 1299
+      "bytes": 3175,
+      "gzipBytes": 1089
     },
     {
       "file": "data/wrk-000137/plot.json",
@@ -1420,9 +2110,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000138/details.json",
+      "bytes": 2802,
+      "gzipBytes": 684
+    },
+    {
       "file": "data/wrk-000138/index.json",
-      "bytes": 5562,
-      "gzipBytes": 1280
+      "bytes": 3143,
+      "gzipBytes": 1074
     },
     {
       "file": "data/wrk-000138/plot.json",
@@ -1430,9 +2125,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000139/details.json",
+      "bytes": 2813,
+      "gzipBytes": 691
+    },
+    {
       "file": "data/wrk-000139/index.json",
-      "bytes": 5603,
-      "gzipBytes": 1295
+      "bytes": 3184,
+      "gzipBytes": 1091
     },
     {
       "file": "data/wrk-000139/plot.json",
@@ -1440,9 +2140,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000140/details.json",
+      "bytes": 2805,
+      "gzipBytes": 690
+    },
+    {
       "file": "data/wrk-000140/index.json",
-      "bytes": 5579,
-      "gzipBytes": 1289
+      "bytes": 3160,
+      "gzipBytes": 1083
     },
     {
       "file": "data/wrk-000140/plot.json",
@@ -1450,9 +2155,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000141/details.json",
+      "bytes": 2804,
+      "gzipBytes": 684
+    },
+    {
       "file": "data/wrk-000141/index.json",
-      "bytes": 5578,
-      "gzipBytes": 1290
+      "bytes": 3159,
+      "gzipBytes": 1077
     },
     {
       "file": "data/wrk-000141/plot.json",
@@ -1460,9 +2170,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000142/details.json",
+      "bytes": 2808,
+      "gzipBytes": 687
+    },
+    {
       "file": "data/wrk-000142/index.json",
-      "bytes": 5582,
-      "gzipBytes": 1285
+      "bytes": 3163,
+      "gzipBytes": 1083
     },
     {
       "file": "data/wrk-000142/plot.json",
@@ -1470,39 +2185,59 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000143/details.json",
+      "bytes": 1655,
+      "gzipBytes": 558
+    },
+    {
       "file": "data/wrk-000143/index.json",
-      "bytes": 4804,
-      "gzipBytes": 1204
+      "bytes": 3249,
+      "gzipBytes": 1050
     },
     {
       "file": "data/wrk-000143/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000144/details.json",
+      "bytes": 1660,
+      "gzipBytes": 562
     },
     {
       "file": "data/wrk-000144/index.json",
-      "bytes": 4819,
-      "gzipBytes": 1214
+      "bytes": 3260,
+      "gzipBytes": 1055
     },
     {
       "file": "data/wrk-000144/plot.json",
       "bytes": 141,
-      "gzipBytes": 141
+      "gzipBytes": 140
+    },
+    {
+      "file": "data/wrk-000145/details.json",
+      "bytes": 2818,
+      "gzipBytes": 692
     },
     {
       "file": "data/wrk-000145/index.json",
-      "bytes": 8296,
-      "gzipBytes": 1681
+      "bytes": 5871,
+      "gzipBytes": 1472
     },
     {
       "file": "data/wrk-000145/plot.json",
       "bytes": 4800,
-      "gzipBytes": 975
+      "gzipBytes": 976
+    },
+    {
+      "file": "data/wrk-000146/details.json",
+      "bytes": 2813,
+      "gzipBytes": 688
     },
     {
       "file": "data/wrk-000146/index.json",
-      "bytes": 5569,
-      "gzipBytes": 1262
+      "bytes": 3144,
+      "gzipBytes": 1058
     },
     {
       "file": "data/wrk-000146/plot.json",
@@ -1510,9 +2245,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000147/details.json",
+      "bytes": 2806,
+      "gzipBytes": 689
+    },
+    {
       "file": "data/wrk-000147/index.json",
-      "bytes": 5550,
-      "gzipBytes": 1277
+      "bytes": 3125,
+      "gzipBytes": 1066
     },
     {
       "file": "data/wrk-000147/plot.json",
@@ -1520,9 +2260,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000148/details.json",
+      "bytes": 2815,
+      "gzipBytes": 694
+    },
+    {
       "file": "data/wrk-000148/index.json",
-      "bytes": 5575,
-      "gzipBytes": 1292
+      "bytes": 3150,
+      "gzipBytes": 1081
     },
     {
       "file": "data/wrk-000148/plot.json",
@@ -1530,9 +2275,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000149/details.json",
+      "bytes": 2831,
+      "gzipBytes": 699
+    },
+    {
       "file": "data/wrk-000149/index.json",
-      "bytes": 6097,
-      "gzipBytes": 1464
+      "bytes": 3672,
+      "gzipBytes": 1252
     },
     {
       "file": "data/wrk-000149/plot.json",
@@ -1540,29 +2290,44 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000150/details.json",
+      "bytes": 2809,
+      "gzipBytes": 688
+    },
+    {
       "file": "data/wrk-000150/index.json",
-      "bytes": 5577,
-      "gzipBytes": 1287
+      "bytes": 3155,
+      "gzipBytes": 1080
     },
     {
       "file": "data/wrk-000150/plot.json",
       "bytes": 141,
-      "gzipBytes": 141
+      "gzipBytes": 140
+    },
+    {
+      "file": "data/wrk-000151/details.json",
+      "bytes": 2813,
+      "gzipBytes": 696
     },
     {
       "file": "data/wrk-000151/index.json",
-      "bytes": 5597,
-      "gzipBytes": 1293
+      "bytes": 3175,
+      "gzipBytes": 1087
     },
     {
       "file": "data/wrk-000151/plot.json",
       "bytes": 141,
-      "gzipBytes": 141
+      "gzipBytes": 140
+    },
+    {
+      "file": "data/wrk-000152/details.json",
+      "bytes": 2830,
+      "gzipBytes": 702
     },
     {
       "file": "data/wrk-000152/index.json",
-      "bytes": 5640,
-      "gzipBytes": 1320
+      "bytes": 3218,
+      "gzipBytes": 1113
     },
     {
       "file": "data/wrk-000152/plot.json",
@@ -1570,49 +2335,74 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000153/details.json",
+      "bytes": 2814,
+      "gzipBytes": 695
+    },
+    {
       "file": "data/wrk-000153/index.json",
-      "bytes": 5600,
-      "gzipBytes": 1296
+      "bytes": 3178,
+      "gzipBytes": 1090
     },
     {
       "file": "data/wrk-000153/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000154/details.json",
+      "bytes": 2808,
+      "gzipBytes": 694
     },
     {
       "file": "data/wrk-000154/index.json",
-      "bytes": 5574,
-      "gzipBytes": 1285
+      "bytes": 3152,
+      "gzipBytes": 1076
     },
     {
       "file": "data/wrk-000154/plot.json",
       "bytes": 141,
-      "gzipBytes": 141
+      "gzipBytes": 140
+    },
+    {
+      "file": "data/wrk-000155/details.json",
+      "bytes": 2816,
+      "gzipBytes": 692
     },
     {
       "file": "data/wrk-000155/index.json",
-      "bytes": 9569,
-      "gzipBytes": 1800
+      "bytes": 7147,
+      "gzipBytes": 1596
     },
     {
       "file": "data/wrk-000155/plot.json",
       "bytes": 141,
-      "gzipBytes": 141
+      "gzipBytes": 140
+    },
+    {
+      "file": "data/wrk-000156/details.json",
+      "bytes": 2812,
+      "gzipBytes": 687
     },
     {
       "file": "data/wrk-000156/index.json",
-      "bytes": 5587,
-      "gzipBytes": 1262
+      "bytes": 3165,
+      "gzipBytes": 1060
     },
     {
       "file": "data/wrk-000156/plot.json",
       "bytes": 4784,
-      "gzipBytes": 965
+      "gzipBytes": 964
+    },
+    {
+      "file": "data/wrk-000157/details.json",
+      "bytes": 2810,
+      "gzipBytes": 693
     },
     {
       "file": "data/wrk-000157/index.json",
-      "bytes": 5586,
-      "gzipBytes": 1292
+      "bytes": 3164,
+      "gzipBytes": 1083
     },
     {
       "file": "data/wrk-000157/plot.json",
@@ -1620,9 +2410,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000158/details.json",
+      "bytes": 2814,
+      "gzipBytes": 695
+    },
+    {
       "file": "data/wrk-000158/index.json",
-      "bytes": 5600,
-      "gzipBytes": 1300
+      "bytes": 3178,
+      "gzipBytes": 1091
     },
     {
       "file": "data/wrk-000158/plot.json",
@@ -1630,69 +2425,104 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000159/details.json",
+      "bytes": 2816,
+      "gzipBytes": 694
+    },
+    {
       "file": "data/wrk-000159/index.json",
-      "bytes": 5598,
-      "gzipBytes": 1298
+      "bytes": 3176,
+      "gzipBytes": 1090
     },
     {
       "file": "data/wrk-000159/plot.json",
       "bytes": 141,
-      "gzipBytes": 141
+      "gzipBytes": 140
+    },
+    {
+      "file": "data/wrk-000160/details.json",
+      "bytes": 2842,
+      "gzipBytes": 709
     },
     {
       "file": "data/wrk-000160/index.json",
-      "bytes": 5678,
-      "gzipBytes": 1331
+      "bytes": 3256,
+      "gzipBytes": 1125
     },
     {
       "file": "data/wrk-000160/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000161/details.json",
+      "bytes": 2796,
+      "gzipBytes": 685
     },
     {
       "file": "data/wrk-000161/index.json",
-      "bytes": 6763,
-      "gzipBytes": 1490
+      "bytes": 4341,
+      "gzipBytes": 1284
     },
     {
       "file": "data/wrk-000161/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000162/details.json",
+      "bytes": 2809,
+      "gzipBytes": 686
     },
     {
       "file": "data/wrk-000162/index.json",
-      "bytes": 6049,
-      "gzipBytes": 1430
+      "bytes": 3627,
+      "gzipBytes": 1218
     },
     {
       "file": "data/wrk-000162/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000163/details.json",
+      "bytes": 2806,
+      "gzipBytes": 688
     },
     {
       "file": "data/wrk-000163/index.json",
-      "bytes": 5568,
-      "gzipBytes": 1281
+      "bytes": 3146,
+      "gzipBytes": 1079
     },
     {
       "file": "data/wrk-000163/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000164/details.json",
+      "bytes": 2797,
+      "gzipBytes": 686
     },
     {
       "file": "data/wrk-000164/index.json",
-      "bytes": 5533,
-      "gzipBytes": 1270
+      "bytes": 3107,
+      "gzipBytes": 1060
     },
     {
       "file": "data/wrk-000164/plot.json",
       "bytes": 141,
-      "gzipBytes": 141
+      "gzipBytes": 140
+    },
+    {
+      "file": "data/wrk-000165/details.json",
+      "bytes": 2808,
+      "gzipBytes": 688
     },
     {
       "file": "data/wrk-000165/index.json",
-      "bytes": 5574,
-      "gzipBytes": 1282
+      "bytes": 3148,
+      "gzipBytes": 1077
     },
     {
       "file": "data/wrk-000165/plot.json",
@@ -1700,9 +2530,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000166/details.json",
+      "bytes": 2805,
+      "gzipBytes": 686
+    },
+    {
       "file": "data/wrk-000166/index.json",
-      "bytes": 5559,
-      "gzipBytes": 1274
+      "bytes": 3133,
+      "gzipBytes": 1074
     },
     {
       "file": "data/wrk-000166/plot.json",
@@ -1710,9 +2545,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000167/details.json",
+      "bytes": 2801,
+      "gzipBytes": 685
+    },
+    {
       "file": "data/wrk-000167/index.json",
-      "bytes": 5545,
-      "gzipBytes": 1274
+      "bytes": 3119,
+      "gzipBytes": 1066
     },
     {
       "file": "data/wrk-000167/plot.json",
@@ -1720,9 +2560,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000168/details.json",
+      "bytes": 2807,
+      "gzipBytes": 687
+    },
+    {
       "file": "data/wrk-000168/index.json",
-      "bytes": 5563,
-      "gzipBytes": 1277
+      "bytes": 3137,
+      "gzipBytes": 1071
     },
     {
       "file": "data/wrk-000168/plot.json",
@@ -1730,9 +2575,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000169/details.json",
+      "bytes": 2815,
+      "gzipBytes": 691
+    },
+    {
       "file": "data/wrk-000169/index.json",
-      "bytes": 5595,
-      "gzipBytes": 1294
+      "bytes": 3169,
+      "gzipBytes": 1089
     },
     {
       "file": "data/wrk-000169/plot.json",
@@ -1740,9 +2590,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000170/details.json",
+      "bytes": 2812,
+      "gzipBytes": 689
+    },
+    {
       "file": "data/wrk-000170/index.json",
-      "bytes": 5578,
-      "gzipBytes": 1280
+      "bytes": 3152,
+      "gzipBytes": 1074
     },
     {
       "file": "data/wrk-000170/plot.json",
@@ -1750,9 +2605,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000171/details.json",
+      "bytes": 2796,
+      "gzipBytes": 682
+    },
+    {
       "file": "data/wrk-000171/index.json",
-      "bytes": 5516,
-      "gzipBytes": 1263
+      "bytes": 3090,
+      "gzipBytes": 1055
     },
     {
       "file": "data/wrk-000171/plot.json",
@@ -1760,9 +2620,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000172/details.json",
+      "bytes": 2805,
+      "gzipBytes": 685
+    },
+    {
       "file": "data/wrk-000172/index.json",
-      "bytes": 7686,
-      "gzipBytes": 1627
+      "bytes": 5260,
+      "gzipBytes": 1417
     },
     {
       "file": "data/wrk-000172/plot.json",
@@ -1770,29 +2635,44 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000173/details.json",
+      "bytes": 2831,
+      "gzipBytes": 704
+    },
+    {
       "file": "data/wrk-000173/index.json",
-      "bytes": 5643,
-      "gzipBytes": 1319
+      "bytes": 3217,
+      "gzipBytes": 1116
     },
     {
       "file": "data/wrk-000173/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000174/details.json",
+      "bytes": 2796,
+      "gzipBytes": 686
     },
     {
       "file": "data/wrk-000174/index.json",
-      "bytes": 5530,
-      "gzipBytes": 1267
+      "bytes": 3104,
+      "gzipBytes": 1058
     },
     {
       "file": "data/wrk-000174/plot.json",
       "bytes": 141,
-      "gzipBytes": 141
+      "gzipBytes": 140
+    },
+    {
+      "file": "data/wrk-000175/details.json",
+      "bytes": 2797,
+      "gzipBytes": 680
     },
     {
       "file": "data/wrk-000175/index.json",
-      "bytes": 5533,
-      "gzipBytes": 1265
+      "bytes": 3107,
+      "gzipBytes": 1058
     },
     {
       "file": "data/wrk-000175/plot.json",
@@ -1800,9 +2680,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000176/details.json",
+      "bytes": 2813,
+      "gzipBytes": 687
+    },
+    {
       "file": "data/wrk-000176/index.json",
-      "bytes": 5567,
-      "gzipBytes": 1281
+      "bytes": 3141,
+      "gzipBytes": 1078
     },
     {
       "file": "data/wrk-000176/plot.json",
@@ -1810,9 +2695,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000177/details.json",
+      "bytes": 2796,
+      "gzipBytes": 683
+    },
+    {
       "file": "data/wrk-000177/index.json",
-      "bytes": 5980,
-      "gzipBytes": 1417
+      "bytes": 3556,
+      "gzipBytes": 1202
     },
     {
       "file": "data/wrk-000177/plot.json",
@@ -1820,9 +2710,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000178/details.json",
+      "bytes": 2802,
+      "gzipBytes": 688
+    },
+    {
       "file": "data/wrk-000178/index.json",
-      "bytes": 7633,
-      "gzipBytes": 1603
+      "bytes": 5209,
+      "gzipBytes": 1386
     },
     {
       "file": "data/wrk-000178/plot.json",
@@ -1830,9 +2725,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000179/details.json",
+      "bytes": 2806,
+      "gzipBytes": 684
+    },
+    {
       "file": "data/wrk-000179/index.json",
-      "bytes": 5564,
-      "gzipBytes": 1280
+      "bytes": 3140,
+      "gzipBytes": 1074
     },
     {
       "file": "data/wrk-000179/plot.json",
@@ -1840,9 +2740,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000180/details.json",
+      "bytes": 4012,
+      "gzipBytes": 844
+    },
+    {
       "file": "data/wrk-000180/index.json",
-      "bytes": 8700,
-      "gzipBytes": 1735
+      "bytes": 5071,
+      "gzipBytes": 1369
     },
     {
       "file": "data/wrk-000180/plot.json",
@@ -1850,9 +2755,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000181/details.json",
+      "bytes": 2809,
+      "gzipBytes": 691
+    },
+    {
       "file": "data/wrk-000181/index.json",
-      "bytes": 6549,
-      "gzipBytes": 1395
+      "bytes": 4125,
+      "gzipBytes": 1187
     },
     {
       "file": "data/wrk-000181/plot.json",
@@ -1860,9 +2770,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000182/details.json",
+      "bytes": 2813,
+      "gzipBytes": 690
+    },
+    {
       "file": "data/wrk-000182/index.json",
-      "bytes": 6037,
-      "gzipBytes": 1426
+      "bytes": 3606,
+      "gzipBytes": 1215
     },
     {
       "file": "data/wrk-000182/plot.json",
@@ -1870,29 +2785,44 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000183/details.json",
+      "bytes": 2808,
+      "gzipBytes": 687
+    },
+    {
       "file": "data/wrk-000183/index.json",
-      "bytes": 6018,
-      "gzipBytes": 1425
+      "bytes": 3587,
+      "gzipBytes": 1214
     },
     {
       "file": "data/wrk-000183/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000184/details.json",
+      "bytes": 2807,
+      "gzipBytes": 692
     },
     {
       "file": "data/wrk-000184/index.json",
-      "bytes": 5539,
-      "gzipBytes": 1270
+      "bytes": 3108,
+      "gzipBytes": 1054
     },
     {
       "file": "data/wrk-000184/plot.json",
       "bytes": 141,
-      "gzipBytes": 141
+      "gzipBytes": 140
+    },
+    {
+      "file": "data/wrk-000185/details.json",
+      "bytes": 2798,
+      "gzipBytes": 678
     },
     {
       "file": "data/wrk-000185/index.json",
-      "bytes": 5512,
-      "gzipBytes": 1263
+      "bytes": 3081,
+      "gzipBytes": 1050
     },
     {
       "file": "data/wrk-000185/plot.json",
@@ -1900,9 +2830,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000186/details.json",
+      "bytes": 2812,
+      "gzipBytes": 689
+    },
+    {
       "file": "data/wrk-000186/index.json",
-      "bytes": 5580,
-      "gzipBytes": 1279
+      "bytes": 3155,
+      "gzipBytes": 1078
     },
     {
       "file": "data/wrk-000186/plot.json",
@@ -1910,9 +2845,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000187/details.json",
+      "bytes": 1656,
+      "gzipBytes": 559
+    },
+    {
       "file": "data/wrk-000187/index.json",
-      "bytes": 4430,
-      "gzipBytes": 1161
+      "bytes": 3059,
+      "gzipBytes": 1025
     },
     {
       "file": "data/wrk-000187/plot.json",
@@ -1920,9 +2860,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000188/details.json",
+      "bytes": 1663,
+      "gzipBytes": 567
+    },
+    {
       "file": "data/wrk-000188/index.json",
-      "bytes": 4443,
-      "gzipBytes": 1164
+      "bytes": 3072,
+      "gzipBytes": 1034
     },
     {
       "file": "data/wrk-000188/plot.json",
@@ -1930,9 +2875,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000189/details.json",
+      "bytes": 2817,
+      "gzipBytes": 693
+    },
+    {
       "file": "data/wrk-000189/index.json",
-      "bytes": 5597,
-      "gzipBytes": 1298
+      "bytes": 3172,
+      "gzipBytes": 1089
     },
     {
       "file": "data/wrk-000189/plot.json",
@@ -1940,29 +2890,44 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000190/details.json",
+      "bytes": 1650,
+      "gzipBytes": 555
+    },
+    {
       "file": "data/wrk-000190/index.json",
-      "bytes": 4404,
-      "gzipBytes": 1147
+      "bytes": 3033,
+      "gzipBytes": 1018
     },
     {
       "file": "data/wrk-000190/plot.json",
       "bytes": 141,
-      "gzipBytes": 141
+      "gzipBytes": 140
+    },
+    {
+      "file": "data/wrk-000191/details.json",
+      "bytes": 1663,
+      "gzipBytes": 565
     },
     {
       "file": "data/wrk-000191/index.json",
-      "bytes": 4443,
-      "gzipBytes": 1170
+      "bytes": 3072,
+      "gzipBytes": 1036
     },
     {
       "file": "data/wrk-000191/plot.json",
       "bytes": 141,
-      "gzipBytes": 141
+      "gzipBytes": 140
+    },
+    {
+      "file": "data/wrk-000192/details.json",
+      "bytes": 1656,
+      "gzipBytes": 559
     },
     {
       "file": "data/wrk-000192/index.json",
-      "bytes": 4422,
-      "gzipBytes": 1153
+      "bytes": 3051,
+      "gzipBytes": 1024
     },
     {
       "file": "data/wrk-000192/plot.json",
@@ -1970,39 +2935,59 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000193/details.json",
+      "bytes": 2809,
+      "gzipBytes": 687
+    },
+    {
       "file": "data/wrk-000193/index.json",
-      "bytes": 5579,
-      "gzipBytes": 1277
+      "bytes": 3154,
+      "gzipBytes": 1075
     },
     {
       "file": "data/wrk-000193/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000194/details.json",
+      "bytes": 2798,
+      "gzipBytes": 686
     },
     {
       "file": "data/wrk-000194/index.json",
-      "bytes": 5538,
-      "gzipBytes": 1267
+      "bytes": 3113,
+      "gzipBytes": 1057
     },
     {
       "file": "data/wrk-000194/plot.json",
       "bytes": 141,
-      "gzipBytes": 141
+      "gzipBytes": 140
+    },
+    {
+      "file": "data/wrk-000195/details.json",
+      "bytes": 2804,
+      "gzipBytes": 682
     },
     {
       "file": "data/wrk-000195/index.json",
-      "bytes": 5556,
-      "gzipBytes": 1271
+      "bytes": 3131,
+      "gzipBytes": 1059
     },
     {
       "file": "data/wrk-000195/plot.json",
       "bytes": 141,
-      "gzipBytes": 141
+      "gzipBytes": 140
+    },
+    {
+      "file": "data/wrk-000196/details.json",
+      "bytes": 2800,
+      "gzipBytes": 681
     },
     {
       "file": "data/wrk-000196/index.json",
-      "bytes": 5552,
-      "gzipBytes": 1268
+      "bytes": 3127,
+      "gzipBytes": 1062
     },
     {
       "file": "data/wrk-000196/plot.json",
@@ -2010,9 +2995,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000197/details.json",
+      "bytes": 2802,
+      "gzipBytes": 686
+    },
+    {
       "file": "data/wrk-000197/index.json",
-      "bytes": 5558,
-      "gzipBytes": 1276
+      "bytes": 3133,
+      "gzipBytes": 1068
     },
     {
       "file": "data/wrk-000197/plot.json",
@@ -2020,9 +3010,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000198/details.json",
+      "bytes": 3984,
+      "gzipBytes": 831
+    },
+    {
       "file": "data/wrk-000198/index.json",
-      "bytes": 6738,
-      "gzipBytes": 1420
+      "bytes": 3134,
+      "gzipBytes": 1070
     },
     {
       "file": "data/wrk-000198/plot.json",
@@ -2030,19 +3025,29 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000199/details.json",
+      "bytes": 2807,
+      "gzipBytes": 688
+    },
+    {
       "file": "data/wrk-000199/index.json",
-      "bytes": 5577,
-      "gzipBytes": 1285
+      "bytes": 3158,
+      "gzipBytes": 1076
     },
     {
       "file": "data/wrk-000199/plot.json",
       "bytes": 141,
-      "gzipBytes": 141
+      "gzipBytes": 140
+    },
+    {
+      "file": "data/wrk-000200/details.json",
+      "bytes": 2828,
+      "gzipBytes": 702
     },
     {
       "file": "data/wrk-000200/index.json",
-      "bytes": 5640,
-      "gzipBytes": 1310
+      "bytes": 3221,
+      "gzipBytes": 1105
     },
     {
       "file": "data/wrk-000200/plot.json",
@@ -2050,9 +3055,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000201/details.json",
+      "bytes": 2796,
+      "gzipBytes": 681
+    },
+    {
       "file": "data/wrk-000201/index.json",
-      "bytes": 5552,
-      "gzipBytes": 1275
+      "bytes": 3133,
+      "gzipBytes": 1068
     },
     {
       "file": "data/wrk-000201/plot.json",
@@ -2060,9 +3070,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000202/details.json",
+      "bytes": 2806,
+      "gzipBytes": 686
+    },
+    {
       "file": "data/wrk-000202/index.json",
-      "bytes": 5574,
-      "gzipBytes": 1283
+      "bytes": 3155,
+      "gzipBytes": 1078
     },
     {
       "file": "data/wrk-000202/plot.json",
@@ -2070,9 +3085,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000203/details.json",
+      "bytes": 1653,
+      "gzipBytes": 558
+    },
+    {
       "file": "data/wrk-000203/index.json",
-      "bytes": 4425,
-      "gzipBytes": 1159
+      "bytes": 3060,
+      "gzipBytes": 1029
     },
     {
       "file": "data/wrk-000203/plot.json",
@@ -2080,9 +3100,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000204/details.json",
+      "bytes": 1656,
+      "gzipBytes": 559
+    },
+    {
       "file": "data/wrk-000204/index.json",
-      "bytes": 4813,
-      "gzipBytes": 1215
+      "bytes": 3258,
+      "gzipBytes": 1057
     },
     {
       "file": "data/wrk-000204/plot.json",
@@ -2090,9 +3115,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000205/details.json",
+      "bytes": 2800,
+      "gzipBytes": 685
+    },
+    {
       "file": "data/wrk-000205/index.json",
-      "bytes": 5556,
-      "gzipBytes": 1274
+      "bytes": 3137,
+      "gzipBytes": 1067
     },
     {
       "file": "data/wrk-000205/plot.json",
@@ -2100,19 +3130,29 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000206/details.json",
+      "bytes": 1655,
+      "gzipBytes": 559
+    },
+    {
       "file": "data/wrk-000206/index.json",
-      "bytes": 4431,
-      "gzipBytes": 1157
+      "bytes": 3066,
+      "gzipBytes": 1027
     },
     {
       "file": "data/wrk-000206/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000207/details.json",
+      "bytes": 2797,
+      "gzipBytes": 681
     },
     {
       "file": "data/wrk-000207/index.json",
-      "bytes": 5532,
-      "gzipBytes": 1275
+      "bytes": 3113,
+      "gzipBytes": 1062
     },
     {
       "file": "data/wrk-000207/plot.json",
@@ -2120,9 +3160,14 @@
       "gzipBytes": 645
     },
     {
+      "file": "data/wrk-000208/details.json",
+      "bytes": 2818,
+      "gzipBytes": 694
+    },
+    {
       "file": "data/wrk-000208/index.json",
-      "bytes": 5610,
-      "gzipBytes": 1301
+      "bytes": 3191,
+      "gzipBytes": 1097
     },
     {
       "file": "data/wrk-000208/plot.json",
@@ -2130,9 +3175,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000209/details.json",
+      "bytes": 2804,
+      "gzipBytes": 690
+    },
+    {
       "file": "data/wrk-000209/index.json",
-      "bytes": 5568,
-      "gzipBytes": 1286
+      "bytes": 3149,
+      "gzipBytes": 1076
     },
     {
       "file": "data/wrk-000209/plot.json",
@@ -2140,9 +3190,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000210/details.json",
+      "bytes": 1650,
+      "gzipBytes": 556
+    },
+    {
       "file": "data/wrk-000210/index.json",
-      "bytes": 4787,
-      "gzipBytes": 1201
+      "bytes": 3238,
+      "gzipBytes": 1047
     },
     {
       "file": "data/wrk-000210/plot.json",
@@ -2150,9 +3205,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000211/details.json",
+      "bytes": 2817,
+      "gzipBytes": 697
+    },
+    {
       "file": "data/wrk-000211/index.json",
-      "bytes": 5607,
-      "gzipBytes": 1303
+      "bytes": 3188,
+      "gzipBytes": 1093
     },
     {
       "file": "data/wrk-000211/plot.json",
@@ -2160,9 +3220,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000212/details.json",
+      "bytes": 1671,
+      "gzipBytes": 572
+    },
+    {
       "file": "data/wrk-000212/index.json",
-      "bytes": 4479,
-      "gzipBytes": 1188
+      "bytes": 3114,
+      "gzipBytes": 1054
     },
     {
       "file": "data/wrk-000212/plot.json",
@@ -2170,29 +3235,44 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000213/details.json",
+      "bytes": 2797,
+      "gzipBytes": 684
+    },
+    {
       "file": "data/wrk-000213/index.json",
-      "bytes": 5547,
-      "gzipBytes": 1274
+      "bytes": 3128,
+      "gzipBytes": 1064
     },
     {
       "file": "data/wrk-000213/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000214/details.json",
+      "bytes": 2809,
+      "gzipBytes": 689
     },
     {
       "file": "data/wrk-000214/index.json",
-      "bytes": 5583,
-      "gzipBytes": 1290
+      "bytes": 3164,
+      "gzipBytes": 1078
     },
     {
       "file": "data/wrk-000214/plot.json",
       "bytes": 141,
-      "gzipBytes": 141
+      "gzipBytes": 140
+    },
+    {
+      "file": "data/wrk-000215/details.json",
+      "bytes": 2806,
+      "gzipBytes": 688
     },
     {
       "file": "data/wrk-000215/index.json",
-      "bytes": 5574,
-      "gzipBytes": 1283
+      "bytes": 3155,
+      "gzipBytes": 1075
     },
     {
       "file": "data/wrk-000215/plot.json",
@@ -2200,19 +3280,29 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000216/details.json",
+      "bytes": 2895,
+      "gzipBytes": 638
+    },
+    {
       "file": "data/wrk-000216/index.json",
-      "bytes": 4779,
-      "gzipBytes": 1041
+      "bytes": 2163,
+      "gzipBytes": 833
     },
     {
       "file": "data/wrk-000216/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000217/details.json",
+      "bytes": 1661,
+      "gzipBytes": 564
     },
     {
       "file": "data/wrk-000217/index.json",
-      "bytes": 3338,
-      "gzipBytes": 945
+      "bytes": 1934,
+      "gzipBytes": 791
     },
     {
       "file": "data/wrk-000217/plot.json",
@@ -2220,9 +3310,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000218/details.json",
+      "bytes": 2811,
+      "gzipBytes": 691
+    },
+    {
       "file": "data/wrk-000218/index.json",
-      "bytes": 4486,
-      "gzipBytes": 1073
+      "bytes": 2028,
+      "gzipBytes": 844
     },
     {
       "file": "data/wrk-000218/plot.json",
@@ -2230,9 +3325,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000219/details.json",
+      "bytes": 1656,
+      "gzipBytes": 560
+    },
+    {
       "file": "data/wrk-000219/index.json",
-      "bytes": 3323,
-      "gzipBytes": 940
+      "bytes": 1919,
+      "gzipBytes": 784
     },
     {
       "file": "data/wrk-000219/plot.json",
@@ -2240,9 +3340,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000220/details.json",
+      "bytes": 2793,
+      "gzipBytes": 677
+    },
+    {
       "file": "data/wrk-000220/index.json",
-      "bytes": 4440,
-      "gzipBytes": 1052
+      "bytes": 1982,
+      "gzipBytes": 821
     },
     {
       "file": "data/wrk-000220/plot.json",
@@ -2250,9 +3355,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000221/details.json",
+      "bytes": 1656,
+      "gzipBytes": 560
+    },
+    {
       "file": "data/wrk-000221/index.json",
-      "bytes": 3325,
-      "gzipBytes": 940
+      "bytes": 1921,
+      "gzipBytes": 784
     },
     {
       "file": "data/wrk-000221/plot.json",
@@ -2260,9 +3370,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000222/details.json",
+      "bytes": 1656,
+      "gzipBytes": 559
+    },
+    {
       "file": "data/wrk-000222/index.json",
-      "bytes": 3331,
-      "gzipBytes": 944
+      "bytes": 1927,
+      "gzipBytes": 788
     },
     {
       "file": "data/wrk-000222/plot.json",
@@ -2270,19 +3385,29 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000223/details.json",
+      "bytes": 1657,
+      "gzipBytes": 562
+    },
+    {
       "file": "data/wrk-000223/index.json",
-      "bytes": 3328,
-      "gzipBytes": 943
+      "bytes": 1924,
+      "gzipBytes": 786
     },
     {
       "file": "data/wrk-000223/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000224/details.json",
+      "bytes": 1657,
+      "gzipBytes": 560
     },
     {
       "file": "data/wrk-000224/index.json",
-      "bytes": 3334,
-      "gzipBytes": 946
+      "bytes": 1930,
+      "gzipBytes": 789
     },
     {
       "file": "data/wrk-000224/plot.json",
@@ -2290,9 +3415,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000225/details.json",
+      "bytes": 5227,
+      "gzipBytes": 904
+    },
+    {
       "file": "data/wrk-000225/index.json",
-      "bytes": 7594,
-      "gzipBytes": 1469
+      "bytes": 2727,
+      "gzipBytes": 1041
     },
     {
       "file": "data/wrk-000225/plot.json",
@@ -2300,19 +3430,29 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000226/details.json",
+      "bytes": 1652,
+      "gzipBytes": 558
+    },
+    {
       "file": "data/wrk-000226/index.json",
-      "bytes": 3311,
-      "gzipBytes": 933
+      "bytes": 1907,
+      "gzipBytes": 778
     },
     {
       "file": "data/wrk-000226/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000227/details.json",
+      "bytes": 1677,
+      "gzipBytes": 574
     },
     {
       "file": "data/wrk-000227/index.json",
-      "bytes": 3394,
-      "gzipBytes": 973
+      "bytes": 1990,
+      "gzipBytes": 814
     },
     {
       "file": "data/wrk-000227/plot.json",
@@ -2320,9 +3460,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000228/details.json",
+      "bytes": 1662,
+      "gzipBytes": 565
+    },
+    {
       "file": "data/wrk-000228/index.json",
-      "bytes": 3341,
-      "gzipBytes": 952
+      "bytes": 1937,
+      "gzipBytes": 795
     },
     {
       "file": "data/wrk-000228/plot.json",
@@ -2330,9 +3475,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000229/details.json",
+      "bytes": 1652,
+      "gzipBytes": 556
+    },
+    {
       "file": "data/wrk-000229/index.json",
-      "bytes": 3311,
-      "gzipBytes": 929
+      "bytes": 1907,
+      "gzipBytes": 775
     },
     {
       "file": "data/wrk-000229/plot.json",
@@ -2340,9 +3490,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000230/details.json",
+      "bytes": 2802,
+      "gzipBytes": 682
+    },
+    {
       "file": "data/wrk-000230/index.json",
-      "bytes": 4459,
-      "gzipBytes": 1071
+      "bytes": 2001,
+      "gzipBytes": 835
     },
     {
       "file": "data/wrk-000230/plot.json",
@@ -2350,9 +3505,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000231/details.json",
+      "bytes": 2806,
+      "gzipBytes": 684
+    },
+    {
       "file": "data/wrk-000231/index.json",
-      "bytes": 4479,
-      "gzipBytes": 1068
+      "bytes": 2021,
+      "gzipBytes": 842
     },
     {
       "file": "data/wrk-000231/plot.json",
@@ -2360,9 +3520,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000232/details.json",
+      "bytes": 1662,
+      "gzipBytes": 563
+    },
+    {
       "file": "data/wrk-000232/index.json",
-      "bytes": 3351,
-      "gzipBytes": 953
+      "bytes": 1947,
+      "gzipBytes": 798
     },
     {
       "file": "data/wrk-000232/plot.json",
@@ -2370,19 +3535,29 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000233/details.json",
+      "bytes": 2796,
+      "gzipBytes": 677
+    },
+    {
       "file": "data/wrk-000233/index.json",
-      "bytes": 4449,
-      "gzipBytes": 1053
+      "bytes": 1991,
+      "gzipBytes": 826
     },
     {
       "file": "data/wrk-000233/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/wrk-000234/details.json",
+      "bytes": 2816,
+      "gzipBytes": 689
     },
     {
       "file": "data/wrk-000234/index.json",
-      "bytes": 4511,
-      "gzipBytes": 1090
+      "bytes": 2053,
+      "gzipBytes": 851
     },
     {
       "file": "data/wrk-000234/plot.json",
@@ -2390,9 +3565,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000235/details.json",
+      "bytes": 2797,
+      "gzipBytes": 679
+    },
+    {
       "file": "data/wrk-000235/index.json",
-      "bytes": 4444,
-      "gzipBytes": 1060
+      "bytes": 1986,
+      "gzipBytes": 823
     },
     {
       "file": "data/wrk-000235/plot.json",
@@ -2400,9 +3580,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000236/details.json",
+      "bytes": 1672,
+      "gzipBytes": 570
+    },
+    {
       "file": "data/wrk-000236/index.json",
-      "bytes": 3371,
-      "gzipBytes": 960
+      "bytes": 1967,
+      "gzipBytes": 804
     },
     {
       "file": "data/wrk-000236/plot.json",
@@ -2410,9 +3595,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000237/details.json",
+      "bytes": 2809,
+      "gzipBytes": 690
+    },
+    {
       "file": "data/wrk-000237/index.json",
-      "bytes": 4480,
-      "gzipBytes": 1077
+      "bytes": 2022,
+      "gzipBytes": 844
     },
     {
       "file": "data/wrk-000237/plot.json",
@@ -2420,9 +3610,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000238/details.json",
+      "bytes": 1672,
+      "gzipBytes": 571
+    },
+    {
       "file": "data/wrk-000238/index.json",
-      "bytes": 3371,
-      "gzipBytes": 967
+      "bytes": 1967,
+      "gzipBytes": 807
     },
     {
       "file": "data/wrk-000238/plot.json",
@@ -2430,9 +3625,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000239/details.json",
+      "bytes": 1658,
+      "gzipBytes": 558
+    },
+    {
       "file": "data/wrk-000239/index.json",
-      "bytes": 3329,
-      "gzipBytes": 937
+      "bytes": 1925,
+      "gzipBytes": 783
     },
     {
       "file": "data/wrk-000239/plot.json",
@@ -2440,9 +3640,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000240/details.json",
+      "bytes": 5234,
+      "gzipBytes": 909
+    },
+    {
       "file": "data/wrk-000240/index.json",
-      "bytes": 7111,
-      "gzipBytes": 1306
+      "bytes": 2232,
+      "gzipBytes": 872
     },
     {
       "file": "data/wrk-000240/plot.json",
@@ -2450,9 +3655,14 @@
       "gzipBytes": 141
     },
     {
+      "file": "data/wrk-000241/details.json",
+      "bytes": 2797,
+      "gzipBytes": 679
+    },
+    {
       "file": "data/wrk-000241/index.json",
-      "bytes": 4892,
-      "gzipBytes": 1205
+      "bytes": 2434,
+      "gzipBytes": 990
     },
     {
       "file": "data/wrk-000241/plot.json",
@@ -2465,9 +3675,14 @@
       "gzipBytes": 773
     },
     {
+      "file": "data/col-000001/details.json",
+      "bytes": 3854,
+      "gzipBytes": 791
+    },
+    {
       "file": "data/col-000001/index.json",
-      "bytes": 11314,
-      "gzipBytes": 1762
+      "bytes": 7817,
+      "gzipBytes": 1440
     },
     {
       "file": "data/col-000001/plot.json",
@@ -2490,9 +3705,14 @@
       "gzipBytes": 557
     },
     {
+      "file": "data/col-000002/details.json",
+      "bytes": 5041,
+      "gzipBytes": 919
+    },
+    {
       "file": "data/col-000002/index.json",
-      "bytes": 12432,
-      "gzipBytes": 1828
+      "bytes": 7741,
+      "gzipBytes": 1376
     },
     {
       "file": "data/col-000002/plot.json",
@@ -2500,14 +3720,19 @@
       "gzipBytes": 139
     },
     {
+      "file": "data/col-000003/details.json",
+      "bytes": 5050,
+      "gzipBytes": 926
+    },
+    {
       "file": "data/col-000003/index.json",
-      "bytes": 10543,
-      "gzipBytes": 1726
+      "bytes": 5849,
+      "gzipBytes": 1270
     },
     {
       "file": "data/col-000003/plot.json",
       "bytes": 141,
-      "gzipBytes": 138
+      "gzipBytes": 139
     },
     {
       "file": "data/col-000004/memberships-1.json",
@@ -2525,19 +3750,29 @@
       "gzipBytes": 732
     },
     {
+      "file": "data/col-000004/details.json",
+      "bytes": 5062,
+      "gzipBytes": 942
+    },
+    {
       "file": "data/col-000004/index.json",
-      "bytes": 12448,
-      "gzipBytes": 1878
+      "bytes": 7738,
+      "gzipBytes": 1412
     },
     {
       "file": "data/col-000004/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 138
+    },
+    {
+      "file": "data/col-000005/details.json",
+      "bytes": 5052,
+      "gzipBytes": 927
     },
     {
       "file": "data/col-000005/index.json",
-      "bytes": 10540,
-      "gzipBytes": 1707
+      "bytes": 5845,
+      "gzipBytes": 1265
     },
     {
       "file": "data/col-000005/plot.json",
@@ -2560,9 +3795,14 @@
       "gzipBytes": 745
     },
     {
+      "file": "data/col-000006/details.json",
+      "bytes": 5106,
+      "gzipBytes": 951
+    },
+    {
       "file": "data/col-000006/index.json",
-      "bytes": 13057,
-      "gzipBytes": 2054
+      "bytes": 8312,
+      "gzipBytes": 1582
     },
     {
       "file": "data/col-000006/plot.json",
@@ -2570,14 +3810,19 @@
       "gzipBytes": 139
     },
     {
+      "file": "data/col-000007/details.json",
+      "bytes": 5062,
+      "gzipBytes": 914
+    },
+    {
       "file": "data/col-000007/index.json",
-      "bytes": 12017,
-      "gzipBytes": 1941
+      "bytes": 7312,
+      "gzipBytes": 1509
     },
     {
       "file": "data/col-000007/plot.json",
       "bytes": 2266,
-      "gzipBytes": 670
+      "gzipBytes": 671
     },
     {
       "file": "data/col-000008/memberships-1.json",
@@ -2590,9 +3835,14 @@
       "gzipBytes": 554
     },
     {
+      "file": "data/col-000008/details.json",
+      "bytes": 5079,
+      "gzipBytes": 938
+    },
+    {
       "file": "data/col-000008/index.json",
-      "bytes": 12627,
-      "gzipBytes": 1942
+      "bytes": 7907,
+      "gzipBytes": 1487
     },
     {
       "file": "data/col-000008/plot.json",
@@ -2610,9 +3860,14 @@
       "gzipBytes": 475
     },
     {
+      "file": "data/col-000009/details.json",
+      "bytes": 5056,
+      "gzipBytes": 926
+    },
+    {
       "file": "data/col-000009/index.json",
-      "bytes": 12479,
-      "gzipBytes": 1888
+      "bytes": 7779,
+      "gzipBytes": 1426
     },
     {
       "file": "data/col-000009/plot.json",
@@ -2620,24 +3875,34 @@
       "gzipBytes": 139
     },
     {
+      "file": "data/col-000010/details.json",
+      "bytes": 3877,
+      "gzipBytes": 791
+    },
+    {
       "file": "data/col-000010/index.json",
-      "bytes": 10398,
-      "gzipBytes": 1710
+      "bytes": 6891,
+      "gzipBytes": 1408
     },
     {
       "file": "data/col-000010/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 138
+    },
+    {
+      "file": "data/col-000011/details.json",
+      "bytes": 5080,
+      "gzipBytes": 940
     },
     {
       "file": "data/col-000011/index.json",
-      "bytes": 11501,
-      "gzipBytes": 1808
+      "bytes": 6778,
+      "gzipBytes": 1343
     },
     {
       "file": "data/col-000011/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 138
     },
     {
       "file": "data/col-000012/memberships-1.json",
@@ -2655,9 +3920,14 @@
       "gzipBytes": 548
     },
     {
+      "file": "data/col-000012/details.json",
+      "bytes": 5084,
+      "gzipBytes": 953
+    },
+    {
       "file": "data/col-000012/index.json",
-      "bytes": 12540,
-      "gzipBytes": 1917
+      "bytes": 7815,
+      "gzipBytes": 1453
     },
     {
       "file": "data/col-000012/plot.json",
@@ -2665,9 +3935,14 @@
       "gzipBytes": 139
     },
     {
+      "file": "data/col-000013/details.json",
+      "bytes": 3842,
+      "gzipBytes": 788
+    },
+    {
       "file": "data/col-000013/index.json",
-      "bytes": 9296,
-      "gzipBytes": 1559
+      "bytes": 5805,
+      "gzipBytes": 1252
     },
     {
       "file": "data/col-000013/plot.json",
@@ -2675,9 +3950,14 @@
       "gzipBytes": 139
     },
     {
+      "file": "data/col-000014/details.json",
+      "bytes": 4089,
+      "gzipBytes": 826
+    },
+    {
       "file": "data/col-000014/index.json",
-      "bytes": 8772,
-      "gzipBytes": 1513
+      "bytes": 5030,
+      "gzipBytes": 1179
     },
     {
       "file": "data/col-000014/plot.json",
@@ -2685,29 +3965,34 @@
       "gzipBytes": 139
     },
     {
+      "file": "data/col-000015/details.json",
+      "bytes": 6624,
+      "gzipBytes": 1049
+    },
+    {
       "file": "data/col-000015/index.json",
-      "bytes": 9032,
-      "gzipBytes": 1509
+      "bytes": 2851,
+      "gzipBytes": 1093
     },
     {
       "file": "data/col-000015/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 138
     },
     {
       "file": "data/edn-000001/index.json",
-      "bytes": 2519,
-      "gzipBytes": 901
+      "bytes": 2532,
+      "gzipBytes": 888
     },
     {
       "file": "data/edn-000001/plot.json",
       "bytes": 141,
-      "gzipBytes": 138
+      "gzipBytes": 139
     },
     {
       "file": "data/edn-000002/index.json",
-      "bytes": 2286,
-      "gzipBytes": 859
+      "bytes": 2302,
+      "gzipBytes": 848
     },
     {
       "file": "data/edn-000002/plot.json",
@@ -2716,18 +4001,18 @@
     },
     {
       "file": "data/edn-000003/index.json",
-      "bytes": 2499,
-      "gzipBytes": 896
+      "bytes": 2511,
+      "gzipBytes": 884
     },
     {
       "file": "data/edn-000003/plot.json",
       "bytes": 141,
-      "gzipBytes": 138
+      "gzipBytes": 139
     },
     {
       "file": "data/edn-000004/index.json",
-      "bytes": 2286,
-      "gzipBytes": 866
+      "bytes": 2301,
+      "gzipBytes": 852
     },
     {
       "file": "data/edn-000004/plot.json",
@@ -2736,58 +4021,58 @@
     },
     {
       "file": "data/edn-000005/index.json",
-      "bytes": 2541,
-      "gzipBytes": 886
+      "bytes": 2548,
+      "gzipBytes": 872
     },
     {
       "file": "data/edn-000005/plot.json",
       "bytes": 141,
-      "gzipBytes": 138
+      "gzipBytes": 139
     },
     {
       "file": "data/edn-000006/index.json",
-      "bytes": 2511,
-      "gzipBytes": 905
+      "bytes": 2524,
+      "gzipBytes": 889
     },
     {
       "file": "data/edn-000006/plot.json",
       "bytes": 141,
-      "gzipBytes": 138
+      "gzipBytes": 139
     },
     {
       "file": "data/edn-000007/index.json",
-      "bytes": 2532,
-      "gzipBytes": 901
+      "bytes": 2544,
+      "gzipBytes": 888
     },
     {
       "file": "data/edn-000007/plot.json",
       "bytes": 141,
-      "gzipBytes": 138
+      "gzipBytes": 139
     },
     {
       "file": "data/edn-000008/index.json",
-      "bytes": 2511,
-      "gzipBytes": 897
+      "bytes": 2521,
+      "gzipBytes": 884
     },
     {
       "file": "data/edn-000008/plot.json",
       "bytes": 141,
-      "gzipBytes": 138
+      "gzipBytes": 139
     },
     {
       "file": "data/edn-000009/index.json",
-      "bytes": 2509,
-      "gzipBytes": 898
+      "bytes": 2523,
+      "gzipBytes": 883
     },
     {
       "file": "data/edn-000009/plot.json",
       "bytes": 141,
-      "gzipBytes": 138
+      "gzipBytes": 139
     },
     {
       "file": "data/edn-000010/index.json",
-      "bytes": 2524,
-      "gzipBytes": 906
+      "bytes": 2538,
+      "gzipBytes": 893
     },
     {
       "file": "data/edn-000010/plot.json",
@@ -2796,8 +4081,8 @@
     },
     {
       "file": "data/edn-000011/index.json",
-      "bytes": 2513,
-      "gzipBytes": 902
+      "bytes": 2525,
+      "gzipBytes": 888
     },
     {
       "file": "data/edn-000011/plot.json",
@@ -2806,8 +4091,8 @@
     },
     {
       "file": "data/edn-000012/index.json",
-      "bytes": 2525,
-      "gzipBytes": 903
+      "bytes": 2534,
+      "gzipBytes": 893
     },
     {
       "file": "data/edn-000012/plot.json",
@@ -2816,28 +4101,28 @@
     },
     {
       "file": "data/edn-000013/index.json",
-      "bytes": 2479,
-      "gzipBytes": 881
+      "bytes": 2484,
+      "gzipBytes": 869
     },
     {
       "file": "data/edn-000013/plot.json",
       "bytes": 141,
-      "gzipBytes": 138
+      "gzipBytes": 139
     },
     {
       "file": "data/edn-000014/index.json",
-      "bytes": 2532,
-      "gzipBytes": 914
+      "bytes": 2548,
+      "gzipBytes": 898
     },
     {
       "file": "data/edn-000014/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 138
     },
     {
       "file": "data/edn-000015/index.json",
-      "bytes": 2544,
-      "gzipBytes": 915
+      "bytes": 2575,
+      "gzipBytes": 905
     },
     {
       "file": "data/edn-000015/plot.json",
@@ -2846,18 +4131,18 @@
     },
     {
       "file": "data/edn-000016/index.json",
-      "bytes": 2502,
-      "gzipBytes": 890
+      "bytes": 2515,
+      "gzipBytes": 876
     },
     {
       "file": "data/edn-000016/plot.json",
       "bytes": 141,
-      "gzipBytes": 138
+      "gzipBytes": 139
     },
     {
       "file": "data/edn-000017/index.json",
-      "bytes": 2512,
-      "gzipBytes": 893
+      "bytes": 2520,
+      "gzipBytes": 881
     },
     {
       "file": "data/edn-000017/plot.json",
@@ -2866,8 +4151,8 @@
     },
     {
       "file": "data/edn-000018/index.json",
-      "bytes": 2471,
-      "gzipBytes": 879
+      "bytes": 2474,
+      "gzipBytes": 866
     },
     {
       "file": "data/edn-000018/plot.json",
@@ -2876,8 +4161,8 @@
     },
     {
       "file": "data/edn-000019/index.json",
-      "bytes": 2536,
-      "gzipBytes": 916
+      "bytes": 2559,
+      "gzipBytes": 904
     },
     {
       "file": "data/edn-000019/plot.json",
@@ -2886,8 +4171,8 @@
     },
     {
       "file": "data/edn-000020/index.json",
-      "bytes": 2487,
-      "gzipBytes": 884
+      "bytes": 2494,
+      "gzipBytes": 869
     },
     {
       "file": "data/edn-000020/plot.json",
@@ -2896,8 +4181,8 @@
     },
     {
       "file": "data/edn-000021/index.json",
-      "bytes": 2557,
-      "gzipBytes": 927
+      "bytes": 2598,
+      "gzipBytes": 913
     },
     {
       "file": "data/edn-000021/plot.json",
@@ -2906,28 +4191,28 @@
     },
     {
       "file": "data/edn-000022/index.json",
-      "bytes": 2506,
-      "gzipBytes": 903
+      "bytes": 2524,
+      "gzipBytes": 888
     },
     {
       "file": "data/edn-000022/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 140
     },
     {
       "file": "data/edn-000023/index.json",
-      "bytes": 2524,
-      "gzipBytes": 906
+      "bytes": 2538,
+      "gzipBytes": 892
     },
     {
       "file": "data/edn-000023/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 140
     },
     {
       "file": "data/edn-000024/index.json",
-      "bytes": 2539,
-      "gzipBytes": 921
+      "bytes": 2571,
+      "gzipBytes": 908
     },
     {
       "file": "data/edn-000024/plot.json",
@@ -2936,8 +4221,8 @@
     },
     {
       "file": "data/edn-000025/index.json",
-      "bytes": 2510,
-      "gzipBytes": 899
+      "bytes": 2525,
+      "gzipBytes": 884
     },
     {
       "file": "data/edn-000025/plot.json",
@@ -2946,38 +4231,38 @@
     },
     {
       "file": "data/edn-000026/index.json",
-      "bytes": 2515,
-      "gzipBytes": 904
+      "bytes": 2529,
+      "gzipBytes": 888
     },
     {
       "file": "data/edn-000026/plot.json",
       "bytes": 141,
-      "gzipBytes": 138
+      "gzipBytes": 140
     },
     {
       "file": "data/edn-000027/index.json",
-      "bytes": 2531,
-      "gzipBytes": 896
+      "bytes": 2549,
+      "gzipBytes": 883
     },
     {
       "file": "data/edn-000027/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 140
     },
     {
       "file": "data/edn-000028/index.json",
-      "bytes": 2495,
-      "gzipBytes": 883
+      "bytes": 2504,
+      "gzipBytes": 872
     },
     {
       "file": "data/edn-000028/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 140
     },
     {
       "file": "data/edn-000029/index.json",
-      "bytes": 2489,
-      "gzipBytes": 888
+      "bytes": 2501,
+      "gzipBytes": 881
     },
     {
       "file": "data/edn-000029/plot.json",
@@ -2986,8 +4271,8 @@
     },
     {
       "file": "data/edn-000030/index.json",
-      "bytes": 2519,
-      "gzipBytes": 910
+      "bytes": 2534,
+      "gzipBytes": 895
     },
     {
       "file": "data/edn-000030/plot.json",
@@ -2996,8 +4281,8 @@
     },
     {
       "file": "data/edn-000031/index.json",
-      "bytes": 2507,
-      "gzipBytes": 884
+      "bytes": 2519,
+      "gzipBytes": 871
     },
     {
       "file": "data/edn-000031/plot.json",
@@ -3006,28 +4291,28 @@
     },
     {
       "file": "data/edn-000032/index.json",
-      "bytes": 2513,
-      "gzipBytes": 899
+      "bytes": 2528,
+      "gzipBytes": 885
     },
     {
       "file": "data/edn-000032/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 140
     },
     {
       "file": "data/edn-000033/index.json",
-      "bytes": 2534,
-      "gzipBytes": 913
+      "bytes": 2567,
+      "gzipBytes": 906
     },
     {
       "file": "data/edn-000033/plot.json",
       "bytes": 141,
-      "gzipBytes": 138
+      "gzipBytes": 139
     },
     {
       "file": "data/edn-000034/index.json",
-      "bytes": 2514,
-      "gzipBytes": 905
+      "bytes": 2527,
+      "gzipBytes": 886
     },
     {
       "file": "data/edn-000034/plot.json",
@@ -3036,8 +4321,8 @@
     },
     {
       "file": "data/edn-000035/index.json",
-      "bytes": 2597,
-      "gzipBytes": 940
+      "bytes": 2627,
+      "gzipBytes": 929
     },
     {
       "file": "data/edn-000035/plot.json",
@@ -3046,8 +4331,8 @@
     },
     {
       "file": "data/edn-000036/index.json",
-      "bytes": 2520,
-      "gzipBytes": 897
+      "bytes": 2533,
+      "gzipBytes": 886
     },
     {
       "file": "data/edn-000036/plot.json",
@@ -3056,28 +4341,28 @@
     },
     {
       "file": "data/edn-000037/index.json",
-      "bytes": 2546,
-      "gzipBytes": 918
+      "bytes": 2561,
+      "gzipBytes": 907
     },
     {
       "file": "data/edn-000037/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 140
     },
     {
       "file": "data/edn-000038/index.json",
-      "bytes": 2555,
-      "gzipBytes": 926
+      "bytes": 2591,
+      "gzipBytes": 913
     },
     {
       "file": "data/edn-000038/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 140
     },
     {
       "file": "data/edn-000039/index.json",
-      "bytes": 2558,
-      "gzipBytes": 927
+      "bytes": 2591,
+      "gzipBytes": 918
     },
     {
       "file": "data/edn-000039/plot.json",
@@ -3086,8 +4371,8 @@
     },
     {
       "file": "data/edn-000040/index.json",
-      "bytes": 2525,
-      "gzipBytes": 911
+      "bytes": 2540,
+      "gzipBytes": 897
     },
     {
       "file": "data/edn-000040/plot.json",
@@ -3096,8 +4381,8 @@
     },
     {
       "file": "data/edn-000041/index.json",
-      "bytes": 2524,
-      "gzipBytes": 903
+      "bytes": 2541,
+      "gzipBytes": 889
     },
     {
       "file": "data/edn-000041/plot.json",
@@ -3106,38 +4391,38 @@
     },
     {
       "file": "data/edn-000042/index.json",
-      "bytes": 2485,
-      "gzipBytes": 888
+      "bytes": 2490,
+      "gzipBytes": 874
     },
     {
       "file": "data/edn-000042/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 140
     },
     {
       "file": "data/edn-000043/index.json",
-      "bytes": 2514,
-      "gzipBytes": 896
+      "bytes": 2528,
+      "gzipBytes": 885
     },
     {
       "file": "data/edn-000043/plot.json",
       "bytes": 141,
-      "gzipBytes": 138
+      "gzipBytes": 139
     },
     {
       "file": "data/edn-000044/index.json",
-      "bytes": 2507,
-      "gzipBytes": 896
+      "bytes": 2513,
+      "gzipBytes": 880
     },
     {
       "file": "data/edn-000044/plot.json",
       "bytes": 141,
-      "gzipBytes": 138
+      "gzipBytes": 139
     },
     {
       "file": "data/edn-000045/index.json",
-      "bytes": 2483,
-      "gzipBytes": 888
+      "bytes": 2492,
+      "gzipBytes": 876
     },
     {
       "file": "data/edn-000045/plot.json",
@@ -3146,8 +4431,8 @@
     },
     {
       "file": "data/edn-000046/index.json",
-      "bytes": 2535,
-      "gzipBytes": 904
+      "bytes": 2550,
+      "gzipBytes": 890
     },
     {
       "file": "data/edn-000046/plot.json",
@@ -3156,28 +4441,28 @@
     },
     {
       "file": "data/edn-000047/index.json",
-      "bytes": 2532,
-      "gzipBytes": 916
+      "bytes": 2541,
+      "gzipBytes": 905
     },
     {
       "file": "data/edn-000047/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 140
     },
     {
       "file": "data/edn-000048/index.json",
-      "bytes": 2588,
-      "gzipBytes": 943
+      "bytes": 2633,
+      "gzipBytes": 932
     },
     {
       "file": "data/edn-000048/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 140
     },
     {
       "file": "data/edn-000049/index.json",
-      "bytes": 2491,
-      "gzipBytes": 887
+      "bytes": 2499,
+      "gzipBytes": 874
     },
     {
       "file": "data/edn-000049/plot.json",
@@ -3186,8 +4471,8 @@
     },
     {
       "file": "data/edn-000050/index.json",
-      "bytes": 2503,
-      "gzipBytes": 895
+      "bytes": 2516,
+      "gzipBytes": 887
     },
     {
       "file": "data/edn-000050/plot.json",
@@ -3196,8 +4481,8 @@
     },
     {
       "file": "data/edn-000051/index.json",
-      "bytes": 2510,
-      "gzipBytes": 893
+      "bytes": 2523,
+      "gzipBytes": 882
     },
     {
       "file": "data/edn-000051/plot.json",
@@ -3206,8 +4491,8 @@
     },
     {
       "file": "data/edn-000052/index.json",
-      "bytes": 2491,
-      "gzipBytes": 884
+      "bytes": 2499,
+      "gzipBytes": 871
     },
     {
       "file": "data/edn-000052/plot.json",
@@ -3216,38 +4501,38 @@
     },
     {
       "file": "data/edn-000053/index.json",
-      "bytes": 2532,
-      "gzipBytes": 909
+      "bytes": 2548,
+      "gzipBytes": 896
     },
     {
       "file": "data/edn-000053/plot.json",
       "bytes": 141,
-      "gzipBytes": 138
+      "gzipBytes": 139
     },
     {
       "file": "data/edn-000054/index.json",
-      "bytes": 2541,
-      "gzipBytes": 916
+      "bytes": 2554,
+      "gzipBytes": 899
     },
     {
       "file": "data/edn-000054/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 138
     },
     {
       "file": "data/edn-000055/index.json",
-      "bytes": 2525,
-      "gzipBytes": 895
+      "bytes": 2537,
+      "gzipBytes": 883
     },
     {
       "file": "data/edn-000055/plot.json",
       "bytes": 141,
-      "gzipBytes": 138
+      "gzipBytes": 139
     },
     {
       "file": "data/edn-000056/index.json",
-      "bytes": 2522,
-      "gzipBytes": 902
+      "bytes": 2540,
+      "gzipBytes": 888
     },
     {
       "file": "data/edn-000056/plot.json",
@@ -3256,8 +4541,8 @@
     },
     {
       "file": "data/edn-000057/index.json",
-      "bytes": 2536,
-      "gzipBytes": 908
+      "bytes": 2550,
+      "gzipBytes": 893
     },
     {
       "file": "data/edn-000057/plot.json",
@@ -3266,8 +4551,8 @@
     },
     {
       "file": "data/edn-000058/index.json",
-      "bytes": 2523,
-      "gzipBytes": 902
+      "bytes": 2542,
+      "gzipBytes": 893
     },
     {
       "file": "data/edn-000058/plot.json",
@@ -3276,8 +4561,8 @@
     },
     {
       "file": "data/edn-000059/index.json",
-      "bytes": 2595,
-      "gzipBytes": 928
+      "bytes": 2620,
+      "gzipBytes": 920
     },
     {
       "file": "data/edn-000059/plot.json",
@@ -3286,48 +4571,48 @@
     },
     {
       "file": "data/edn-000060/index.json",
-      "bytes": 2544,
-      "gzipBytes": 907
+      "bytes": 2563,
+      "gzipBytes": 896
     },
     {
       "file": "data/edn-000060/plot.json",
       "bytes": 141,
-      "gzipBytes": 138
+      "gzipBytes": 139
     },
     {
       "file": "data/edn-000061/index.json",
-      "bytes": 2566,
-      "gzipBytes": 919
+      "bytes": 2588,
+      "gzipBytes": 909
     },
     {
       "file": "data/edn-000061/plot.json",
       "bytes": 141,
-      "gzipBytes": 138
+      "gzipBytes": 139
     },
     {
       "file": "data/edn-000062/index.json",
-      "bytes": 2537,
-      "gzipBytes": 903
+      "bytes": 2555,
+      "gzipBytes": 894
     },
     {
       "file": "data/edn-000062/plot.json",
       "bytes": 141,
-      "gzipBytes": 138
+      "gzipBytes": 140
     },
     {
       "file": "data/edn-000063/index.json",
-      "bytes": 2571,
-      "gzipBytes": 921
+      "bytes": 2591,
+      "gzipBytes": 911
     },
     {
       "file": "data/edn-000063/plot.json",
       "bytes": 141,
-      "gzipBytes": 138
+      "gzipBytes": 139
     },
     {
       "file": "data/edn-000064/index.json",
-      "bytes": 2571,
-      "gzipBytes": 927
+      "bytes": 2596,
+      "gzipBytes": 915
     },
     {
       "file": "data/edn-000064/plot.json",
@@ -3336,8 +4621,8 @@
     },
     {
       "file": "data/edn-000065/index.json",
-      "bytes": 2522,
-      "gzipBytes": 904
+      "bytes": 2531,
+      "gzipBytes": 888
     },
     {
       "file": "data/edn-000065/plot.json",
@@ -3346,8 +4631,8 @@
     },
     {
       "file": "data/edn-000066/index.json",
-      "bytes": 2535,
-      "gzipBytes": 908
+      "bytes": 2551,
+      "gzipBytes": 897
     },
     {
       "file": "data/edn-000066/plot.json",
@@ -3356,28 +4641,28 @@
     },
     {
       "file": "data/edn-000067/index.json",
-      "bytes": 2497,
-      "gzipBytes": 890
+      "bytes": 2505,
+      "gzipBytes": 880
     },
     {
       "file": "data/edn-000067/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 140
     },
     {
       "file": "data/edn-000068/index.json",
-      "bytes": 2525,
-      "gzipBytes": 904
+      "bytes": 2543,
+      "gzipBytes": 892
     },
     {
       "file": "data/edn-000068/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 140
     },
     {
       "file": "data/edn-000069/index.json",
-      "bytes": 2534,
-      "gzipBytes": 898
+      "bytes": 2543,
+      "gzipBytes": 886
     },
     {
       "file": "data/edn-000069/plot.json",
@@ -3386,8 +4671,8 @@
     },
     {
       "file": "data/edn-000070/index.json",
-      "bytes": 2518,
-      "gzipBytes": 877
+      "bytes": 2528,
+      "gzipBytes": 865
     },
     {
       "file": "data/edn-000070/plot.json",
@@ -3396,8 +4681,8 @@
     },
     {
       "file": "data/edn-000071/index.json",
-      "bytes": 2540,
-      "gzipBytes": 890
+      "bytes": 2556,
+      "gzipBytes": 878
     },
     {
       "file": "data/edn-000071/plot.json",
@@ -3406,28 +4691,28 @@
     },
     {
       "file": "data/edn-000072/index.json",
-      "bytes": 2534,
-      "gzipBytes": 878
+      "bytes": 2549,
+      "gzipBytes": 867
     },
     {
       "file": "data/edn-000072/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 140
     },
     {
       "file": "data/edn-000073/index.json",
-      "bytes": 2510,
-      "gzipBytes": 875
+      "bytes": 2518,
+      "gzipBytes": 861
     },
     {
       "file": "data/edn-000073/plot.json",
       "bytes": 141,
-      "gzipBytes": 138
+      "gzipBytes": 140
     },
     {
       "file": "data/edn-000074/index.json",
-      "bytes": 2526,
-      "gzipBytes": 875
+      "bytes": 2539,
+      "gzipBytes": 865
     },
     {
       "file": "data/edn-000074/plot.json",
@@ -3436,8 +4721,8 @@
     },
     {
       "file": "data/edn-000075/index.json",
-      "bytes": 2542,
-      "gzipBytes": 891
+      "bytes": 2559,
+      "gzipBytes": 877
     },
     {
       "file": "data/edn-000075/plot.json",
@@ -3446,38 +4731,38 @@
     },
     {
       "file": "data/edn-000076/index.json",
-      "bytes": 2542,
-      "gzipBytes": 889
+      "bytes": 2559,
+      "gzipBytes": 877
     },
     {
       "file": "data/edn-000076/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 140
     },
     {
       "file": "data/edn-000077/index.json",
-      "bytes": 2538,
-      "gzipBytes": 882
+      "bytes": 2553,
+      "gzipBytes": 869
     },
     {
       "file": "data/edn-000077/plot.json",
       "bytes": 141,
-      "gzipBytes": 138
+      "gzipBytes": 140
     },
     {
       "file": "data/edn-000078/index.json",
-      "bytes": 2526,
-      "gzipBytes": 878
+      "bytes": 2538,
+      "gzipBytes": 865
     },
     {
       "file": "data/edn-000078/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 140
     },
     {
       "file": "data/edn-000079/index.json",
-      "bytes": 2510,
-      "gzipBytes": 875
+      "bytes": 2518,
+      "gzipBytes": 863
     },
     {
       "file": "data/edn-000079/plot.json",
@@ -3486,8 +4771,8 @@
     },
     {
       "file": "data/edn-000080/index.json",
-      "bytes": 2550,
-      "gzipBytes": 890
+      "bytes": 2569,
+      "gzipBytes": 877
     },
     {
       "file": "data/edn-000080/plot.json",
@@ -3496,8 +4781,8 @@
     },
     {
       "file": "data/edn-000081/index.json",
-      "bytes": 2609,
-      "gzipBytes": 907
+      "bytes": 2643,
+      "gzipBytes": 898
     },
     {
       "file": "data/edn-000081/plot.json",
@@ -3506,28 +4791,28 @@
     },
     {
       "file": "data/edn-000082/index.json",
-      "bytes": 2530,
-      "gzipBytes": 875
+      "bytes": 2543,
+      "gzipBytes": 866
     },
     {
       "file": "data/edn-000082/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 140
     },
     {
       "file": "data/edn-000083/index.json",
-      "bytes": 2542,
-      "gzipBytes": 882
+      "bytes": 2558,
+      "gzipBytes": 872
     },
     {
       "file": "data/edn-000083/plot.json",
       "bytes": 141,
-      "gzipBytes": 138
+      "gzipBytes": 140
     },
     {
       "file": "data/edn-000084/index.json",
-      "bytes": 2578,
-      "gzipBytes": 899
+      "bytes": 2603,
+      "gzipBytes": 886
     },
     {
       "file": "data/edn-000084/plot.json",
@@ -3536,8 +4821,8 @@
     },
     {
       "file": "data/edn-000085/index.json",
-      "bytes": 2522,
-      "gzipBytes": 876
+      "bytes": 2533,
+      "gzipBytes": 865
     },
     {
       "file": "data/edn-000085/plot.json",
@@ -3546,38 +4831,38 @@
     },
     {
       "file": "data/edn-000086/index.json",
-      "bytes": 2502,
-      "gzipBytes": 874
+      "bytes": 2508,
+      "gzipBytes": 862
     },
     {
       "file": "data/edn-000086/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 140
     },
     {
       "file": "data/edn-000087/index.json",
-      "bytes": 2578,
-      "gzipBytes": 897
+      "bytes": 2604,
+      "gzipBytes": 886
     },
     {
       "file": "data/edn-000087/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 140
     },
     {
       "file": "data/edn-000088/index.json",
-      "bytes": 2518,
-      "gzipBytes": 879
+      "bytes": 2528,
+      "gzipBytes": 868
     },
     {
       "file": "data/edn-000088/plot.json",
       "bytes": 141,
-      "gzipBytes": 138
+      "gzipBytes": 140
     },
     {
       "file": "data/edn-000089/index.json",
-      "bytes": 2649,
-      "gzipBytes": 918
+      "bytes": 2693,
+      "gzipBytes": 909
     },
     {
       "file": "data/edn-000089/plot.json",
@@ -3586,8 +4871,8 @@
     },
     {
       "file": "data/edn-000090/index.json",
-      "bytes": 2558,
-      "gzipBytes": 886
+      "bytes": 2579,
+      "gzipBytes": 876
     },
     {
       "file": "data/edn-000090/plot.json",
@@ -3596,8 +4881,8 @@
     },
     {
       "file": "data/edn-000091/index.json",
-      "bytes": 2542,
-      "gzipBytes": 889
+      "bytes": 2559,
+      "gzipBytes": 876
     },
     {
       "file": "data/edn-000091/plot.json",
@@ -3606,8 +4891,8 @@
     },
     {
       "file": "data/edn-000092/index.json",
-      "bytes": 2613,
-      "gzipBytes": 910
+      "bytes": 2648,
+      "gzipBytes": 903
     },
     {
       "file": "data/edn-000092/plot.json",
@@ -3616,28 +4901,28 @@
     },
     {
       "file": "data/edn-000093/index.json",
-      "bytes": 2550,
-      "gzipBytes": 886
+      "bytes": 2568,
+      "gzipBytes": 875
     },
     {
       "file": "data/edn-000093/plot.json",
       "bytes": 141,
-      "gzipBytes": 138
+      "gzipBytes": 139
     },
     {
       "file": "data/edn-000094/index.json",
-      "bytes": 2545,
-      "gzipBytes": 891
+      "bytes": 2562,
+      "gzipBytes": 876
     },
     {
       "file": "data/edn-000094/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 138
     },
     {
       "file": "data/edn-000095/index.json",
-      "bytes": 2562,
-      "gzipBytes": 891
+      "bytes": 2583,
+      "gzipBytes": 878
     },
     {
       "file": "data/edn-000095/plot.json",
@@ -3646,8 +4931,8 @@
     },
     {
       "file": "data/edn-000096/index.json",
-      "bytes": 2526,
-      "gzipBytes": 881
+      "bytes": 2538,
+      "gzipBytes": 868
     },
     {
       "file": "data/edn-000096/plot.json",
@@ -3656,8 +4941,8 @@
     },
     {
       "file": "data/edn-000097/index.json",
-      "bytes": 2538,
-      "gzipBytes": 886
+      "bytes": 2553,
+      "gzipBytes": 876
     },
     {
       "file": "data/edn-000097/plot.json",
@@ -3666,8 +4951,8 @@
     },
     {
       "file": "data/edn-000098/index.json",
-      "bytes": 2572,
-      "gzipBytes": 902
+      "bytes": 2590,
+      "gzipBytes": 891
     },
     {
       "file": "data/edn-000098/plot.json",
@@ -3676,18 +4961,18 @@
     },
     {
       "file": "data/edn-000099/index.json",
-      "bytes": 2538,
-      "gzipBytes": 878
+      "bytes": 2553,
+      "gzipBytes": 864
     },
     {
       "file": "data/edn-000099/plot.json",
       "bytes": 141,
-      "gzipBytes": 138
+      "gzipBytes": 139
     },
     {
       "file": "data/edn-000100/index.json",
-      "bytes": 2546,
-      "gzipBytes": 887
+      "bytes": 2564,
+      "gzipBytes": 873
     },
     {
       "file": "data/edn-000100/plot.json",
@@ -3696,8 +4981,8 @@
     },
     {
       "file": "data/edn-000101/index.json",
-      "bytes": 2617,
-      "gzipBytes": 917
+      "bytes": 2653,
+      "gzipBytes": 908
     },
     {
       "file": "data/edn-000101/plot.json",
@@ -3706,18 +4991,18 @@
     },
     {
       "file": "data/edn-000102/index.json",
-      "bytes": 2542,
-      "gzipBytes": 889
+      "bytes": 2558,
+      "gzipBytes": 876
     },
     {
       "file": "data/edn-000102/plot.json",
       "bytes": 141,
-      "gzipBytes": 141
+      "gzipBytes": 140
     },
     {
       "file": "data/edn-000103/index.json",
-      "bytes": 2606,
-      "gzipBytes": 908
+      "bytes": 2639,
+      "gzipBytes": 898
     },
     {
       "file": "data/edn-000103/plot.json",
@@ -3726,28 +5011,28 @@
     },
     {
       "file": "data/edn-000104/index.json",
-      "bytes": 2542,
-      "gzipBytes": 883
+      "bytes": 2558,
+      "gzipBytes": 871
     },
     {
       "file": "data/edn-000104/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 139
     },
     {
       "file": "data/edn-000105/index.json",
-      "bytes": 2550,
-      "gzipBytes": 896
+      "bytes": 2568,
+      "gzipBytes": 884
     },
     {
       "file": "data/edn-000105/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 139
     },
     {
       "file": "data/edn-000106/index.json",
-      "bytes": 2629,
-      "gzipBytes": 921
+      "bytes": 2668,
+      "gzipBytes": 909
     },
     {
       "file": "data/edn-000106/plot.json",
@@ -3756,8 +5041,8 @@
     },
     {
       "file": "data/edn-000107/index.json",
-      "bytes": 2617,
-      "gzipBytes": 915
+      "bytes": 2653,
+      "gzipBytes": 902
     },
     {
       "file": "data/edn-000107/plot.json",
@@ -3766,8 +5051,8 @@
     },
     {
       "file": "data/edn-000108/index.json",
-      "bytes": 2546,
-      "gzipBytes": 891
+      "bytes": 2564,
+      "gzipBytes": 880
     },
     {
       "file": "data/edn-000108/plot.json",
@@ -3776,18 +5061,18 @@
     },
     {
       "file": "data/edn-000109/index.json",
-      "bytes": 2554,
-      "gzipBytes": 891
+      "bytes": 2574,
+      "gzipBytes": 879
     },
     {
       "file": "data/edn-000109/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 139
     },
     {
       "file": "data/edn-000110/index.json",
-      "bytes": 2510,
-      "gzipBytes": 876
+      "bytes": 2518,
+      "gzipBytes": 863
     },
     {
       "file": "data/edn-000110/plot.json",
@@ -3796,8 +5081,8 @@
     },
     {
       "file": "data/edn-000111/index.json",
-      "bytes": 2545,
-      "gzipBytes": 892
+      "bytes": 2562,
+      "gzipBytes": 879
     },
     {
       "file": "data/edn-000111/plot.json",
@@ -3806,18 +5091,18 @@
     },
     {
       "file": "data/edn-000112/index.json",
-      "bytes": 2514,
-      "gzipBytes": 878
+      "bytes": 2523,
+      "gzipBytes": 865
     },
     {
       "file": "data/edn-000112/plot.json",
       "bytes": 141,
-      "gzipBytes": 141
+      "gzipBytes": 140
     },
     {
       "file": "data/edn-000113/index.json",
-      "bytes": 2526,
-      "gzipBytes": 883
+      "bytes": 2538,
+      "gzipBytes": 870
     },
     {
       "file": "data/edn-000113/plot.json",
@@ -3826,28 +5111,28 @@
     },
     {
       "file": "data/edn-000114/index.json",
-      "bytes": 2550,
-      "gzipBytes": 892
+      "bytes": 2568,
+      "gzipBytes": 879
     },
     {
       "file": "data/edn-000114/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 139
     },
     {
       "file": "data/edn-000115/index.json",
-      "bytes": 2526,
-      "gzipBytes": 883
+      "bytes": 2538,
+      "gzipBytes": 873
     },
     {
       "file": "data/edn-000115/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 139
     },
     {
       "file": "data/edn-000116/index.json",
-      "bytes": 2665,
-      "gzipBytes": 929
+      "bytes": 2713,
+      "gzipBytes": 921
     },
     {
       "file": "data/edn-000116/plot.json",
@@ -3856,8 +5141,8 @@
     },
     {
       "file": "data/edn-000117/index.json",
-      "bytes": 2522,
-      "gzipBytes": 881
+      "bytes": 2533,
+      "gzipBytes": 868
     },
     {
       "file": "data/edn-000117/plot.json",
@@ -3866,8 +5151,8 @@
     },
     {
       "file": "data/edn-000118/index.json",
-      "bytes": 2542,
-      "gzipBytes": 888
+      "bytes": 2558,
+      "gzipBytes": 875
     },
     {
       "file": "data/edn-000118/plot.json",
@@ -3876,38 +5161,38 @@
     },
     {
       "file": "data/edn-000119/index.json",
-      "bytes": 2541,
-      "gzipBytes": 887
+      "bytes": 2557,
+      "gzipBytes": 875
     },
     {
       "file": "data/edn-000119/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 139
     },
     {
       "file": "data/edn-000120/index.json",
-      "bytes": 2522,
-      "gzipBytes": 881
+      "bytes": 2533,
+      "gzipBytes": 867
     },
     {
       "file": "data/edn-000120/plot.json",
       "bytes": 141,
-      "gzipBytes": 141
+      "gzipBytes": 140
     },
     {
       "file": "data/edn-000121/index.json",
-      "bytes": 2554,
-      "gzipBytes": 892
+      "bytes": 2573,
+      "gzipBytes": 877
     },
     {
       "file": "data/edn-000121/plot.json",
       "bytes": 141,
-      "gzipBytes": 141
+      "gzipBytes": 140
     },
     {
       "file": "data/edn-000122/index.json",
-      "bytes": 2542,
-      "gzipBytes": 890
+      "bytes": 2558,
+      "gzipBytes": 877
     },
     {
       "file": "data/edn-000122/plot.json",
@@ -3916,8 +5201,8 @@
     },
     {
       "file": "data/edn-000123/index.json",
-      "bytes": 2562,
-      "gzipBytes": 893
+      "bytes": 2583,
+      "gzipBytes": 880
     },
     {
       "file": "data/edn-000123/plot.json",
@@ -3926,8 +5211,8 @@
     },
     {
       "file": "data/edn-000124/index.json",
-      "bytes": 2573,
-      "gzipBytes": 902
+      "bytes": 2596,
+      "gzipBytes": 893
     },
     {
       "file": "data/edn-000124/plot.json",
@@ -3936,18 +5221,18 @@
     },
     {
       "file": "data/edn-000125/index.json",
-      "bytes": 2538,
-      "gzipBytes": 884
+      "bytes": 2554,
+      "gzipBytes": 874
     },
     {
       "file": "data/edn-000125/plot.json",
       "bytes": 141,
-      "gzipBytes": 141
+      "gzipBytes": 139
     },
     {
       "file": "data/edn-000126/index.json",
-      "bytes": 2534,
-      "gzipBytes": 881
+      "bytes": 2547,
+      "gzipBytes": 867
     },
     {
       "file": "data/edn-000126/plot.json",
@@ -3956,38 +5241,38 @@
     },
     {
       "file": "data/edn-000127/index.json",
-      "bytes": 2542,
-      "gzipBytes": 883
+      "bytes": 2559,
+      "gzipBytes": 873
     },
     {
       "file": "data/edn-000127/plot.json",
       "bytes": 141,
-      "gzipBytes": 141
+      "gzipBytes": 140
     },
     {
       "file": "data/edn-000128/index.json",
-      "bytes": 2514,
-      "gzipBytes": 878
+      "bytes": 2523,
+      "gzipBytes": 869
     },
     {
       "file": "data/edn-000128/plot.json",
       "bytes": 141,
-      "gzipBytes": 141
+      "gzipBytes": 140
     },
     {
       "file": "data/edn-000129/index.json",
-      "bytes": 2546,
-      "gzipBytes": 886
+      "bytes": 2563,
+      "gzipBytes": 876
     },
     {
       "file": "data/edn-000129/plot.json",
       "bytes": 141,
-      "gzipBytes": 141
+      "gzipBytes": 139
     },
     {
       "file": "data/edn-000130/index.json",
-      "bytes": 2569,
-      "gzipBytes": 902
+      "bytes": 2592,
+      "gzipBytes": 890
     },
     {
       "file": "data/edn-000130/plot.json",
@@ -3996,8 +5281,8 @@
     },
     {
       "file": "data/edn-000131/index.json",
-      "bytes": 2534,
-      "gzipBytes": 886
+      "bytes": 2548,
+      "gzipBytes": 874
     },
     {
       "file": "data/edn-000131/plot.json",
@@ -4006,8 +5291,8 @@
     },
     {
       "file": "data/edn-000132/index.json",
-      "bytes": 2514,
-      "gzipBytes": 878
+      "bytes": 2523,
+      "gzipBytes": 866
     },
     {
       "file": "data/edn-000132/plot.json",
@@ -4016,18 +5301,18 @@
     },
     {
       "file": "data/edn-000133/index.json",
-      "bytes": 2580,
-      "gzipBytes": 897
+      "bytes": 2602,
+      "gzipBytes": 885
     },
     {
       "file": "data/edn-000133/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 139
     },
     {
       "file": "data/edn-000134/index.json",
-      "bytes": 2542,
-      "gzipBytes": 888
+      "bytes": 2558,
+      "gzipBytes": 875
     },
     {
       "file": "data/edn-000134/plot.json",
@@ -4036,18 +5321,18 @@
     },
     {
       "file": "data/edn-000135/index.json",
-      "bytes": 2586,
-      "gzipBytes": 906
+      "bytes": 2613,
+      "gzipBytes": 895
     },
     {
       "file": "data/edn-000135/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 139
     },
     {
       "file": "data/edn-000136/index.json",
-      "bytes": 2552,
-      "gzipBytes": 887
+      "bytes": 2567,
+      "gzipBytes": 874
     },
     {
       "file": "data/edn-000136/plot.json",
@@ -4056,8 +5341,8 @@
     },
     {
       "file": "data/edn-000137/index.json",
-      "bytes": 2576,
-      "gzipBytes": 889
+      "bytes": 2597,
+      "gzipBytes": 878
     },
     {
       "file": "data/edn-000137/plot.json",
@@ -4066,8 +5351,8 @@
     },
     {
       "file": "data/edn-000138/index.json",
-      "bytes": 2560,
-      "gzipBytes": 889
+      "bytes": 2577,
+      "gzipBytes": 876
     },
     {
       "file": "data/edn-000138/plot.json",
@@ -4076,18 +5361,18 @@
     },
     {
       "file": "data/edn-000139/index.json",
-      "bytes": 2580,
-      "gzipBytes": 897
+      "bytes": 2602,
+      "gzipBytes": 883
     },
     {
       "file": "data/edn-000139/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 139
     },
     {
       "file": "data/edn-000140/index.json",
-      "bytes": 2602,
-      "gzipBytes": 898
+      "bytes": 2630,
+      "gzipBytes": 885
     },
     {
       "file": "data/edn-000140/plot.json",
@@ -4096,8 +5381,8 @@
     },
     {
       "file": "data/edn-000141/index.json",
-      "bytes": 2580,
-      "gzipBytes": 893
+      "bytes": 2602,
+      "gzipBytes": 882
     },
     {
       "file": "data/edn-000141/plot.json",
@@ -4106,8 +5391,8 @@
     },
     {
       "file": "data/edn-000142/index.json",
-      "bytes": 2591,
-      "gzipBytes": 890
+      "bytes": 2616,
+      "gzipBytes": 881
     },
     {
       "file": "data/edn-000142/plot.json",
@@ -4116,8 +5401,8 @@
     },
     {
       "file": "data/edn-000143/index.json",
-      "bytes": 2576,
-      "gzipBytes": 894
+      "bytes": 2597,
+      "gzipBytes": 882
     },
     {
       "file": "data/edn-000143/plot.json",
@@ -4126,8 +5411,8 @@
     },
     {
       "file": "data/edn-000144/index.json",
-      "bytes": 2632,
-      "gzipBytes": 910
+      "bytes": 2667,
+      "gzipBytes": 898
     },
     {
       "file": "data/edn-000144/plot.json",
@@ -4136,28 +5421,28 @@
     },
     {
       "file": "data/edn-000145/index.json",
-      "bytes": 2583,
-      "gzipBytes": 899
+      "bytes": 2606,
+      "gzipBytes": 887
     },
     {
       "file": "data/edn-000145/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 139
     },
     {
       "file": "data/edn-000146/index.json",
-      "bytes": 2600,
-      "gzipBytes": 903
+      "bytes": 2628,
+      "gzipBytes": 891
     },
     {
       "file": "data/edn-000146/plot.json",
       "bytes": 141,
-      "gzipBytes": 141
+      "gzipBytes": 140
     },
     {
       "file": "data/edn-000147/index.json",
-      "bytes": 2556,
-      "gzipBytes": 888
+      "bytes": 2572,
+      "gzipBytes": 876
     },
     {
       "file": "data/edn-000147/plot.json",
@@ -4166,8 +5451,8 @@
     },
     {
       "file": "data/edn-000148/index.json",
-      "bytes": 2567,
-      "gzipBytes": 893
+      "bytes": 2588,
+      "gzipBytes": 881
     },
     {
       "file": "data/edn-000148/plot.json",
@@ -4176,68 +5461,73 @@
     },
     {
       "file": "data/edn-000149/index.json",
-      "bytes": 2554,
-      "gzipBytes": 893
+      "bytes": 2572,
+      "gzipBytes": 879
     },
     {
       "file": "data/edn-000149/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 139
     },
     {
       "file": "data/edn-000150/index.json",
-      "bytes": 2558,
-      "gzipBytes": 894
+      "bytes": 2578,
+      "gzipBytes": 880
     },
     {
       "file": "data/edn-000150/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 139
     },
     {
       "file": "data/edn-000151/index.json",
-      "bytes": 2536,
-      "gzipBytes": 885
+      "bytes": 2548,
+      "gzipBytes": 871
     },
     {
       "file": "data/edn-000151/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 139
     },
     {
       "file": "data/edn-000152/index.json",
-      "bytes": 2891,
-      "gzipBytes": 989
+      "bytes": 2991,
+      "gzipBytes": 982
     },
     {
       "file": "data/edn-000152/plot.json",
       "bytes": 141,
-      "gzipBytes": 141
+      "gzipBytes": 139
     },
     {
       "file": "data/edn-000153/index.json",
-      "bytes": 2588,
-      "gzipBytes": 895
+      "bytes": 2613,
+      "gzipBytes": 890
     },
     {
       "file": "data/edn-000153/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 139
     },
     {
       "file": "data/edn-000154/index.json",
-      "bytes": 2557,
-      "gzipBytes": 894
+      "bytes": 2567,
+      "gzipBytes": 878
     },
     {
       "file": "data/edn-000154/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 138
+    },
+    {
+      "file": "data/adp-000001/details.json",
+      "bytes": 2898,
+      "gzipBytes": 659
     },
     {
       "file": "data/adp-000001/index.json",
-      "bytes": 8269,
-      "gzipBytes": 1619
+      "bytes": 5566,
+      "gzipBytes": 1300
     },
     {
       "file": "data/adp-000001/plot.json",
@@ -4245,39 +5535,59 @@
       "gzipBytes": 139
     },
     {
+      "file": "data/adp-000002/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
+    },
+    {
       "file": "data/adp-000002/index.json",
-      "bytes": 4509,
-      "gzipBytes": 1235
+      "bytes": 4270,
+      "gzipBytes": 1150
     },
     {
       "file": "data/adp-000002/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 140
+    },
+    {
+      "file": "data/adp-000003/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
     },
     {
       "file": "data/adp-000003/index.json",
-      "bytes": 6136,
-      "gzipBytes": 1400
+      "bytes": 5897,
+      "gzipBytes": 1324
     },
     {
       "file": "data/adp-000003/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 140
+    },
+    {
+      "file": "data/adp-000004/details.json",
+      "bytes": 241,
+      "gzipBytes": 153
     },
     {
       "file": "data/adp-000004/index.json",
-      "bytes": 8086,
-      "gzipBytes": 1671
+      "bytes": 7847,
+      "gzipBytes": 1595
     },
     {
       "file": "data/adp-000004/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 140
+    },
+    {
+      "file": "data/adp-000005/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
     },
     {
       "file": "data/adp-000005/index.json",
-      "bytes": 7724,
-      "gzipBytes": 1550
+      "bytes": 7485,
+      "gzipBytes": 1478
     },
     {
       "file": "data/adp-000005/plot.json",
@@ -4285,39 +5595,59 @@
       "gzipBytes": 139
     },
     {
+      "file": "data/adp-000006/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
+    },
+    {
       "file": "data/adp-000006/index.json",
-      "bytes": 4392,
-      "gzipBytes": 1215
+      "bytes": 4153,
+      "gzipBytes": 1130
     },
     {
       "file": "data/adp-000006/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 140
+    },
+    {
+      "file": "data/adp-000007/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
     },
     {
       "file": "data/adp-000007/index.json",
-      "bytes": 6199,
-      "gzipBytes": 1478
+      "bytes": 5960,
+      "gzipBytes": 1397
     },
     {
       "file": "data/adp-000007/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 140
+    },
+    {
+      "file": "data/adp-000008/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
     },
     {
       "file": "data/adp-000008/index.json",
-      "bytes": 4515,
-      "gzipBytes": 1239
+      "bytes": 4276,
+      "gzipBytes": 1157
     },
     {
       "file": "data/adp-000008/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 140
+    },
+    {
+      "file": "data/adp-000009/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
     },
     {
       "file": "data/adp-000009/index.json",
-      "bytes": 4500,
-      "gzipBytes": 1249
+      "bytes": 4261,
+      "gzipBytes": 1167
     },
     {
       "file": "data/adp-000009/plot.json",
@@ -4325,9 +5655,14 @@
       "gzipBytes": 139
     },
     {
+      "file": "data/adp-000010/details.json",
+      "bytes": 241,
+      "gzipBytes": 154
+    },
+    {
       "file": "data/adp-000010/index.json",
-      "bytes": 4509,
-      "gzipBytes": 1233
+      "bytes": 4270,
+      "gzipBytes": 1152
     },
     {
       "file": "data/adp-000010/plot.json",
@@ -4335,9 +5670,14 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/adp-000011/details.json",
+      "bytes": 241,
+      "gzipBytes": 154
+    },
+    {
       "file": "data/adp-000011/index.json",
-      "bytes": 6081,
-      "gzipBytes": 1419
+      "bytes": 5842,
+      "gzipBytes": 1336
     },
     {
       "file": "data/adp-000011/plot.json",
@@ -4345,9 +5685,14 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/adp-000012/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
+    },
+    {
       "file": "data/adp-000012/index.json",
-      "bytes": 4524,
-      "gzipBytes": 1246
+      "bytes": 4285,
+      "gzipBytes": 1162
     },
     {
       "file": "data/adp-000012/plot.json",
@@ -4355,29 +5700,44 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/adp-000013/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
+    },
+    {
       "file": "data/adp-000013/index.json",
-      "bytes": 8880,
-      "gzipBytes": 1680
+      "bytes": 8641,
+      "gzipBytes": 1601
     },
     {
       "file": "data/adp-000013/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 140
+    },
+    {
+      "file": "data/adp-000014/details.json",
+      "bytes": 241,
+      "gzipBytes": 154
     },
     {
       "file": "data/adp-000014/index.json",
-      "bytes": 6119,
-      "gzipBytes": 1431
+      "bytes": 5880,
+      "gzipBytes": 1353
     },
     {
       "file": "data/adp-000014/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 139
+    },
+    {
+      "file": "data/adp-000015/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
     },
     {
       "file": "data/adp-000015/index.json",
-      "bytes": 6024,
-      "gzipBytes": 1370
+      "bytes": 5785,
+      "gzipBytes": 1292
     },
     {
       "file": "data/adp-000015/plot.json",
@@ -4385,9 +5745,14 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/adp-000016/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
+    },
+    {
       "file": "data/adp-000016/index.json",
-      "bytes": 4569,
-      "gzipBytes": 1256
+      "bytes": 4330,
+      "gzipBytes": 1173
     },
     {
       "file": "data/adp-000016/plot.json",
@@ -4395,9 +5760,14 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/adp-000017/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
+    },
+    {
       "file": "data/adp-000017/index.json",
-      "bytes": 4563,
-      "gzipBytes": 1248
+      "bytes": 4324,
+      "gzipBytes": 1161
     },
     {
       "file": "data/adp-000017/plot.json",
@@ -4405,9 +5775,14 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/adp-000018/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
+    },
+    {
       "file": "data/adp-000018/index.json",
-      "bytes": 4525,
-      "gzipBytes": 1237
+      "bytes": 4286,
+      "gzipBytes": 1153
     },
     {
       "file": "data/adp-000018/plot.json",
@@ -4415,9 +5790,14 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/adp-000019/details.json",
+      "bytes": 1699,
+      "gzipBytes": 588
+    },
+    {
       "file": "data/adp-000019/index.json",
-      "bytes": 7609,
-      "gzipBytes": 1625
+      "bytes": 6135,
+      "gzipBytes": 1388
     },
     {
       "file": "data/adp-000019/plot.json",
@@ -4425,9 +5805,14 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/adp-000020/details.json",
+      "bytes": 1690,
+      "gzipBytes": 580
+    },
+    {
       "file": "data/adp-000020/index.json",
-      "bytes": 7347,
-      "gzipBytes": 1582
+      "bytes": 5875,
+      "gzipBytes": 1339
     },
     {
       "file": "data/adp-000020/plot.json",
@@ -4435,9 +5820,14 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/adp-000021/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
+    },
+    {
       "file": "data/adp-000021/index.json",
-      "bytes": 4514,
-      "gzipBytes": 1234
+      "bytes": 4275,
+      "gzipBytes": 1151
     },
     {
       "file": "data/adp-000021/plot.json",
@@ -4445,29 +5835,44 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/adp-000022/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
+    },
+    {
       "file": "data/adp-000022/index.json",
-      "bytes": 4546,
-      "gzipBytes": 1242
+      "bytes": 4307,
+      "gzipBytes": 1157
     },
     {
       "file": "data/adp-000022/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/adp-000023/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
     },
     {
       "file": "data/adp-000023/index.json",
-      "bytes": 4525,
-      "gzipBytes": 1245
+      "bytes": 4286,
+      "gzipBytes": 1161
     },
     {
       "file": "data/adp-000023/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/adp-000024/details.json",
+      "bytes": 241,
+      "gzipBytes": 154
     },
     {
       "file": "data/adp-000024/index.json",
-      "bytes": 6301,
-      "gzipBytes": 1520
+      "bytes": 6062,
+      "gzipBytes": 1446
     },
     {
       "file": "data/adp-000024/plot.json",
@@ -4475,9 +5880,14 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/adp-000025/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
+    },
+    {
       "file": "data/adp-000025/index.json",
-      "bytes": 4547,
-      "gzipBytes": 1238
+      "bytes": 4308,
+      "gzipBytes": 1154
     },
     {
       "file": "data/adp-000025/plot.json",
@@ -4485,39 +5895,59 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/adp-000026/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
+    },
+    {
       "file": "data/adp-000026/index.json",
-      "bytes": 6039,
-      "gzipBytes": 1397
+      "bytes": 5800,
+      "gzipBytes": 1316
     },
     {
       "file": "data/adp-000026/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/adp-000027/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
     },
     {
       "file": "data/adp-000027/index.json",
-      "bytes": 4451,
-      "gzipBytes": 1242
+      "bytes": 4212,
+      "gzipBytes": 1156
     },
     {
       "file": "data/adp-000027/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/adp-000028/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
     },
     {
       "file": "data/adp-000028/index.json",
-      "bytes": 4549,
-      "gzipBytes": 1242
+      "bytes": 4310,
+      "gzipBytes": 1158
     },
     {
       "file": "data/adp-000028/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/adp-000029/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
     },
     {
       "file": "data/adp-000029/index.json",
-      "bytes": 4507,
-      "gzipBytes": 1235
+      "bytes": 4268,
+      "gzipBytes": 1151
     },
     {
       "file": "data/adp-000029/plot.json",
@@ -4525,9 +5955,14 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/adp-000030/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
+    },
+    {
       "file": "data/adp-000030/index.json",
-      "bytes": 4507,
-      "gzipBytes": 1236
+      "bytes": 4268,
+      "gzipBytes": 1152
     },
     {
       "file": "data/adp-000030/plot.json",
@@ -4535,9 +5970,14 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/adp-000031/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
+    },
+    {
       "file": "data/adp-000031/index.json",
-      "bytes": 6166,
-      "gzipBytes": 1422
+      "bytes": 5927,
+      "gzipBytes": 1343
     },
     {
       "file": "data/adp-000031/plot.json",
@@ -4545,29 +5985,44 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/adp-000032/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
+    },
+    {
       "file": "data/adp-000032/index.json",
-      "bytes": 6080,
-      "gzipBytes": 1412
+      "bytes": 5841,
+      "gzipBytes": 1331
     },
     {
       "file": "data/adp-000032/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/adp-000033/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
     },
     {
       "file": "data/adp-000033/index.json",
-      "bytes": 6088,
-      "gzipBytes": 1395
+      "bytes": 5849,
+      "gzipBytes": 1315
     },
     {
       "file": "data/adp-000033/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 140
+    },
+    {
+      "file": "data/adp-000034/details.json",
+      "bytes": 241,
+      "gzipBytes": 154
     },
     {
       "file": "data/adp-000034/index.json",
-      "bytes": 4511,
-      "gzipBytes": 1233
+      "bytes": 4272,
+      "gzipBytes": 1148
     },
     {
       "file": "data/adp-000034/plot.json",
@@ -4575,9 +6030,14 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/adp-000035/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
+    },
+    {
       "file": "data/adp-000035/index.json",
-      "bytes": 4555,
-      "gzipBytes": 1238
+      "bytes": 4316,
+      "gzipBytes": 1153
     },
     {
       "file": "data/adp-000035/plot.json",
@@ -4585,9 +6045,14 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/adp-000036/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
+    },
+    {
       "file": "data/adp-000036/index.json",
-      "bytes": 4414,
-      "gzipBytes": 1208
+      "bytes": 4175,
+      "gzipBytes": 1124
     },
     {
       "file": "data/adp-000036/plot.json",
@@ -4595,29 +6060,44 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/adp-000037/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
+    },
+    {
       "file": "data/adp-000037/index.json",
-      "bytes": 4540,
-      "gzipBytes": 1248
+      "bytes": 4301,
+      "gzipBytes": 1164
     },
     {
       "file": "data/adp-000037/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/adp-000038/details.json",
+      "bytes": 1661,
+      "gzipBytes": 572
     },
     {
       "file": "data/adp-000038/index.json",
-      "bytes": 7651,
-      "gzipBytes": 1635
+      "bytes": 6179,
+      "gzipBytes": 1394
     },
     {
       "file": "data/adp-000038/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/adp-000039/details.json",
+      "bytes": 2913,
+      "gzipBytes": 644
     },
     {
       "file": "data/adp-000039/index.json",
-      "bytes": 10691,
-      "gzipBytes": 1980
+      "bytes": 7980,
+      "gzipBytes": 1669
     },
     {
       "file": "data/adp-000039/plot.json",
@@ -4625,9 +6105,14 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/adp-000040/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
+    },
+    {
       "file": "data/adp-000040/index.json",
-      "bytes": 4556,
-      "gzipBytes": 1241
+      "bytes": 4317,
+      "gzipBytes": 1158
     },
     {
       "file": "data/adp-000040/plot.json",
@@ -4635,9 +6120,14 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/adp-000041/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
+    },
+    {
       "file": "data/adp-000041/index.json",
-      "bytes": 4526,
-      "gzipBytes": 1240
+      "bytes": 4287,
+      "gzipBytes": 1158
     },
     {
       "file": "data/adp-000041/plot.json",
@@ -4645,39 +6135,59 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/adp-000042/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
+    },
+    {
       "file": "data/adp-000042/index.json",
-      "bytes": 4549,
-      "gzipBytes": 1243
+      "bytes": 4310,
+      "gzipBytes": 1159
     },
     {
       "file": "data/adp-000042/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/adp-000043/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
     },
     {
       "file": "data/adp-000043/index.json",
-      "bytes": 6121,
-      "gzipBytes": 1404
+      "bytes": 5882,
+      "gzipBytes": 1322
     },
     {
       "file": "data/adp-000043/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 140
+    },
+    {
+      "file": "data/adp-000044/details.json",
+      "bytes": 241,
+      "gzipBytes": 154
     },
     {
       "file": "data/adp-000044/index.json",
-      "bytes": 4554,
-      "gzipBytes": 1252
+      "bytes": 4315,
+      "gzipBytes": 1168
     },
     {
       "file": "data/adp-000044/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 140
+    },
+    {
+      "file": "data/adp-000045/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
     },
     {
       "file": "data/adp-000045/index.json",
-      "bytes": 4597,
-      "gzipBytes": 1261
+      "bytes": 4358,
+      "gzipBytes": 1179
     },
     {
       "file": "data/adp-000045/plot.json",
@@ -4685,9 +6195,14 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/adp-000046/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
+    },
+    {
       "file": "data/adp-000046/index.json",
-      "bytes": 4507,
-      "gzipBytes": 1237
+      "bytes": 4268,
+      "gzipBytes": 1155
     },
     {
       "file": "data/adp-000046/plot.json",
@@ -4695,29 +6210,44 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/adp-000047/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
+    },
+    {
       "file": "data/adp-000047/index.json",
-      "bytes": 6135,
-      "gzipBytes": 1404
+      "bytes": 5896,
+      "gzipBytes": 1324
     },
     {
       "file": "data/adp-000047/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/adp-000048/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
     },
     {
       "file": "data/adp-000048/index.json",
-      "bytes": 6122,
-      "gzipBytes": 1407
+      "bytes": 5883,
+      "gzipBytes": 1327
     },
     {
       "file": "data/adp-000048/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/adp-000049/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
     },
     {
       "file": "data/adp-000049/index.json",
-      "bytes": 4492,
-      "gzipBytes": 1224
+      "bytes": 4253,
+      "gzipBytes": 1142
     },
     {
       "file": "data/adp-000049/plot.json",
@@ -4725,9 +6255,14 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/adp-000050/details.json",
+      "bytes": 241,
+      "gzipBytes": 154
+    },
+    {
       "file": "data/adp-000050/index.json",
-      "bytes": 4503,
-      "gzipBytes": 1249
+      "bytes": 4264,
+      "gzipBytes": 1165
     },
     {
       "file": "data/adp-000050/plot.json",
@@ -4735,9 +6270,14 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/adp-000051/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
+    },
+    {
       "file": "data/adp-000051/index.json",
-      "bytes": 4469,
-      "gzipBytes": 1219
+      "bytes": 4230,
+      "gzipBytes": 1135
     },
     {
       "file": "data/adp-000051/plot.json",
@@ -4745,9 +6285,14 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/adp-000052/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
+    },
+    {
       "file": "data/adp-000052/index.json",
-      "bytes": 4575,
-      "gzipBytes": 1229
+      "bytes": 4336,
+      "gzipBytes": 1153
     },
     {
       "file": "data/adp-000052/plot.json",
@@ -4755,39 +6300,59 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/adp-000053/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
+    },
+    {
       "file": "data/adp-000053/index.json",
-      "bytes": 4459,
-      "gzipBytes": 1196
+      "bytes": 4220,
+      "gzipBytes": 1123
     },
     {
       "file": "data/adp-000053/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 140
+    },
+    {
+      "file": "data/adp-000054/details.json",
+      "bytes": 241,
+      "gzipBytes": 153
     },
     {
       "file": "data/adp-000054/index.json",
-      "bytes": 4962,
-      "gzipBytes": 1353
+      "bytes": 4729,
+      "gzipBytes": 1269
     },
     {
       "file": "data/adp-000054/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 139
+    },
+    {
+      "file": "data/adp-000055/details.json",
+      "bytes": 241,
+      "gzipBytes": 154
     },
     {
       "file": "data/adp-000055/index.json",
-      "bytes": 6361,
-      "gzipBytes": 1449
+      "bytes": 6128,
+      "gzipBytes": 1371
     },
     {
       "file": "data/adp-000055/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 140
+    },
+    {
+      "file": "data/adp-000056/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
     },
     {
       "file": "data/adp-000056/index.json",
-      "bytes": 6340,
-      "gzipBytes": 1443
+      "bytes": 6105,
+      "gzipBytes": 1367
     },
     {
       "file": "data/adp-000056/plot.json",
@@ -4795,9 +6360,14 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/adp-000057/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
+    },
+    {
       "file": "data/adp-000057/index.json",
-      "bytes": 8294,
-      "gzipBytes": 1695
+      "bytes": 8059,
+      "gzipBytes": 1616
     },
     {
       "file": "data/adp-000057/plot.json",
@@ -4805,9 +6375,14 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/adp-000058/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
+    },
+    {
       "file": "data/adp-000058/index.json",
-      "bytes": 6348,
-      "gzipBytes": 1442
+      "bytes": 6115,
+      "gzipBytes": 1364
     },
     {
       "file": "data/adp-000058/plot.json",
@@ -4815,9 +6390,14 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/adp-000059/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
+    },
+    {
       "file": "data/adp-000059/index.json",
-      "bytes": 4720,
-      "gzipBytes": 1269
+      "bytes": 4485,
+      "gzipBytes": 1188
     },
     {
       "file": "data/adp-000059/plot.json",
@@ -4825,9 +6405,14 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/adp-000060/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
+    },
+    {
       "file": "data/adp-000060/index.json",
-      "bytes": 4743,
-      "gzipBytes": 1276
+      "bytes": 4509,
+      "gzipBytes": 1196
     },
     {
       "file": "data/adp-000060/plot.json",
@@ -4835,9 +6420,14 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/adp-000061/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
+    },
+    {
       "file": "data/adp-000061/index.json",
-      "bytes": 4670,
-      "gzipBytes": 1264
+      "bytes": 4437,
+      "gzipBytes": 1181
     },
     {
       "file": "data/adp-000061/plot.json",
@@ -4845,29 +6435,44 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/adp-000062/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
+    },
+    {
       "file": "data/adp-000062/index.json",
-      "bytes": 6444,
-      "gzipBytes": 1477
+      "bytes": 6210,
+      "gzipBytes": 1404
     },
     {
       "file": "data/adp-000062/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/adp-000063/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
     },
     {
       "file": "data/adp-000063/index.json",
-      "bytes": 4753,
-      "gzipBytes": 1282
+      "bytes": 4520,
+      "gzipBytes": 1196
     },
     {
       "file": "data/adp-000063/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 140
+    },
+    {
+      "file": "data/adp-000064/details.json",
+      "bytes": 241,
+      "gzipBytes": 154
     },
     {
       "file": "data/adp-000064/index.json",
-      "bytes": 6343,
-      "gzipBytes": 1427
+      "bytes": 6110,
+      "gzipBytes": 1346
     },
     {
       "file": "data/adp-000064/plot.json",
@@ -4875,9 +6480,14 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/adp-000065/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
+    },
+    {
       "file": "data/adp-000065/index.json",
-      "bytes": 4696,
-      "gzipBytes": 1268
+      "bytes": 4462,
+      "gzipBytes": 1187
     },
     {
       "file": "data/adp-000065/plot.json",
@@ -4885,9 +6495,14 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/adp-000066/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
+    },
+    {
       "file": "data/adp-000066/index.json",
-      "bytes": 6365,
-      "gzipBytes": 1449
+      "bytes": 6131,
+      "gzipBytes": 1371
     },
     {
       "file": "data/adp-000066/plot.json",
@@ -4895,29 +6510,44 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/adp-000067/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
+    },
+    {
       "file": "data/adp-000067/index.json",
-      "bytes": 4793,
-      "gzipBytes": 1276
+      "bytes": 4559,
+      "gzipBytes": 1195
     },
     {
       "file": "data/adp-000067/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/adp-000068/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
     },
     {
       "file": "data/adp-000068/index.json",
-      "bytes": 6840,
-      "gzipBytes": 1576
+      "bytes": 6607,
+      "gzipBytes": 1488
     },
     {
       "file": "data/adp-000068/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/adp-000069/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
     },
     {
       "file": "data/adp-000069/index.json",
-      "bytes": 6868,
-      "gzipBytes": 1575
+      "bytes": 6635,
+      "gzipBytes": 1490
     },
     {
       "file": "data/adp-000069/plot.json",
@@ -4925,9 +6555,14 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/adp-000070/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
+    },
+    {
       "file": "data/adp-000070/index.json",
-      "bytes": 6357,
-      "gzipBytes": 1445
+      "bytes": 6124,
+      "gzipBytes": 1364
     },
     {
       "file": "data/adp-000070/plot.json",
@@ -4935,9 +6570,14 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/adp-000071/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
+    },
+    {
       "file": "data/adp-000071/index.json",
-      "bytes": 4825,
-      "gzipBytes": 1303
+      "bytes": 4590,
+      "gzipBytes": 1223
     },
     {
       "file": "data/adp-000071/plot.json",
@@ -4945,29 +6585,44 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/adp-000072/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
+    },
+    {
       "file": "data/adp-000072/index.json",
-      "bytes": 4721,
-      "gzipBytes": 1281
+      "bytes": 4488,
+      "gzipBytes": 1196
     },
     {
       "file": "data/adp-000072/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/adp-000073/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
     },
     {
       "file": "data/adp-000073/index.json",
-      "bytes": 4722,
-      "gzipBytes": 1268
+      "bytes": 4489,
+      "gzipBytes": 1186
     },
     {
       "file": "data/adp-000073/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/adp-000074/details.json",
+      "bytes": 241,
+      "gzipBytes": 154
     },
     {
       "file": "data/adp-000074/index.json",
-      "bytes": 4769,
-      "gzipBytes": 1286
+      "bytes": 4536,
+      "gzipBytes": 1200
     },
     {
       "file": "data/adp-000074/plot.json",
@@ -4975,9 +6630,14 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/adp-000075/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
+    },
+    {
       "file": "data/adp-000075/index.json",
-      "bytes": 6321,
-      "gzipBytes": 1434
+      "bytes": 6086,
+      "gzipBytes": 1363
     },
     {
       "file": "data/adp-000075/plot.json",
@@ -4985,39 +6645,59 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/adp-000076/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
+    },
+    {
       "file": "data/adp-000076/index.json",
-      "bytes": 6389,
-      "gzipBytes": 1451
+      "bytes": 6155,
+      "gzipBytes": 1374
     },
     {
       "file": "data/adp-000076/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/adp-000077/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
     },
     {
       "file": "data/adp-000077/index.json",
-      "bytes": 6337,
-      "gzipBytes": 1432
+      "bytes": 6104,
+      "gzipBytes": 1355
     },
     {
       "file": "data/adp-000077/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/adp-000078/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
     },
     {
       "file": "data/adp-000078/index.json",
-      "bytes": 6206,
-      "gzipBytes": 1468
+      "bytes": 5972,
+      "gzipBytes": 1394
     },
     {
       "file": "data/adp-000078/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/adp-000079/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
     },
     {
       "file": "data/adp-000079/index.json",
-      "bytes": 5893,
-      "gzipBytes": 1411
+      "bytes": 5659,
+      "gzipBytes": 1349
     },
     {
       "file": "data/adp-000079/plot.json",
@@ -5025,9 +6705,14 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/adp-000080/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
+    },
+    {
       "file": "data/adp-000080/index.json",
-      "bytes": 4297,
-      "gzipBytes": 1149
+      "bytes": 4063,
+      "gzipBytes": 1073
     },
     {
       "file": "data/adp-000080/plot.json",
@@ -5035,9 +6720,14 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/adp-000081/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
+    },
+    {
       "file": "data/adp-000081/index.json",
-      "bytes": 4286,
-      "gzipBytes": 1147
+      "bytes": 4053,
+      "gzipBytes": 1069
     },
     {
       "file": "data/adp-000081/plot.json",
@@ -5045,24 +6735,34 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/adp-000082/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
+    },
+    {
       "file": "data/adp-000082/index.json",
-      "bytes": 4334,
-      "gzipBytes": 1162
+      "bytes": 4101,
+      "gzipBytes": 1086
     },
     {
       "file": "data/adp-000082/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/adp-000083/details.json",
+      "bytes": 4145,
+      "gzipBytes": 719
     },
     {
       "file": "data/adp-000083/index.json",
-      "bytes": 9592,
-      "gzipBytes": 1719
+      "bytes": 5628,
+      "gzipBytes": 1320
     },
     {
       "file": "data/adp-000083/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 141
     },
     {
       "file": "data/adp-000084/creators-1.json",
@@ -5070,9 +6770,14 @@
       "gzipBytes": 560
     },
     {
+      "file": "data/adp-000084/details.json",
+      "bytes": 8163,
+      "gzipBytes": 1010
+    },
+    {
       "file": "data/adp-000084/index.json",
-      "bytes": 14146,
-      "gzipBytes": 2078
+      "bytes": 6414,
+      "gzipBytes": 1450
     },
     {
       "file": "data/adp-000084/plot.json",
@@ -5080,9 +6785,14 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/adp-000085/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
+    },
+    {
       "file": "data/adp-000085/index.json",
-      "bytes": 4350,
-      "gzipBytes": 1169
+      "bytes": 4115,
+      "gzipBytes": 1091
     },
     {
       "file": "data/adp-000085/plot.json",
@@ -5090,39 +6800,59 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/adp-000086/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
+    },
+    {
       "file": "data/adp-000086/index.json",
-      "bytes": 4300,
-      "gzipBytes": 1150
+      "bytes": 4066,
+      "gzipBytes": 1073
     },
     {
       "file": "data/adp-000086/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/adp-000087/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
     },
     {
       "file": "data/adp-000087/index.json",
-      "bytes": 4341,
-      "gzipBytes": 1156
+      "bytes": 4102,
+      "gzipBytes": 1080
     },
     {
       "file": "data/adp-000087/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/adp-000088/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
     },
     {
       "file": "data/adp-000088/index.json",
-      "bytes": 4316,
-      "gzipBytes": 1151
+      "bytes": 4082,
+      "gzipBytes": 1075
     },
     {
       "file": "data/adp-000088/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 141
+    },
+    {
+      "file": "data/adp-000089/details.json",
+      "bytes": 1681,
+      "gzipBytes": 573
     },
     {
       "file": "data/adp-000089/index.json",
-      "bytes": 7629,
-      "gzipBytes": 1610
+      "bytes": 6155,
+      "gzipBytes": 1367
     },
     {
       "file": "data/adp-000089/plot.json",
@@ -5130,9 +6860,14 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/adp-000090/details.json",
+      "bytes": 241,
+      "gzipBytes": 154
+    },
+    {
       "file": "data/adp-000090/index.json",
-      "bytes": 5743,
-      "gzipBytes": 1330
+      "bytes": 5504,
+      "gzipBytes": 1262
     },
     {
       "file": "data/adp-000090/plot.json",
@@ -5140,9 +6875,14 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/adp-000091/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
+    },
+    {
       "file": "data/adp-000091/index.json",
-      "bytes": 4326,
-      "gzipBytes": 1160
+      "bytes": 4091,
+      "gzipBytes": 1085
     },
     {
       "file": "data/adp-000091/plot.json",
@@ -5150,9 +6890,14 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/adp-000092/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
+    },
+    {
       "file": "data/adp-000092/index.json",
-      "bytes": 4276,
-      "gzipBytes": 1115
+      "bytes": 4042,
+      "gzipBytes": 1044
     },
     {
       "file": "data/adp-000092/plot.json",
@@ -5160,29 +6905,44 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/adp-000093/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
+    },
+    {
       "file": "data/adp-000093/index.json",
-      "bytes": 4098,
-      "gzipBytes": 1108
+      "bytes": 3859,
+      "gzipBytes": 1030
     },
     {
       "file": "data/adp-000093/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 140
+    },
+    {
+      "file": "data/adp-000094/details.json",
+      "bytes": 241,
+      "gzipBytes": 154
     },
     {
       "file": "data/adp-000094/index.json",
-      "bytes": 6118,
-      "gzipBytes": 1411
+      "bytes": 5879,
+      "gzipBytes": 1331
     },
     {
       "file": "data/adp-000094/plot.json",
       "bytes": 141,
-      "gzipBytes": 140
+      "gzipBytes": 139
+    },
+    {
+      "file": "data/adp-000095/details.json",
+      "bytes": 1737,
+      "gzipBytes": 612
     },
     {
       "file": "data/adp-000095/index.json",
-      "bytes": 10030,
-      "gzipBytes": 2027
+      "bytes": 8549,
+      "gzipBytes": 1790
     },
     {
       "file": "data/adp-000095/plot.json",
@@ -5190,9 +6950,14 @@
       "gzipBytes": 140
     },
     {
+      "file": "data/adp-000096/details.json",
+      "bytes": 241,
+      "gzipBytes": 155
+    },
+    {
       "file": "data/adp-000096/index.json",
-      "bytes": 4550,
-      "gzipBytes": 1254
+      "bytes": 4311,
+      "gzipBytes": 1171
     },
     {
       "file": "data/adp-000096/plot.json",
@@ -5411,18 +7176,18 @@
     },
     {
       "file": "data/per-000001/index.json",
-      "bytes": 9966,
-      "gzipBytes": 1312
+      "bytes": 9978,
+      "gzipBytes": 1307
     },
     {
       "file": "data/per-000001/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 138
     },
     {
       "file": "data/per-000002/index.json",
-      "bytes": 5335,
-      "gzipBytes": 1073
+      "bytes": 5347,
+      "gzipBytes": 1068
     },
     {
       "file": "data/per-000002/plot.json",
@@ -5431,48 +7196,48 @@
     },
     {
       "file": "data/per-000003/index.json",
-      "bytes": 2439,
-      "gzipBytes": 787
+      "bytes": 2448,
+      "gzipBytes": 778
     },
     {
       "file": "data/per-000003/plot.json",
       "bytes": 141,
-      "gzipBytes": 137
+      "gzipBytes": 139
     },
     {
       "file": "data/per-000004/index.json",
-      "bytes": 4120,
-      "gzipBytes": 969
+      "bytes": 4135,
+      "gzipBytes": 962
     },
     {
       "file": "data/per-000004/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 138
     },
     {
       "file": "data/per-000005/index.json",
-      "bytes": 2771,
-      "gzipBytes": 906
+      "bytes": 2788,
+      "gzipBytes": 899
     },
     {
       "file": "data/per-000005/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 138
     },
     {
       "file": "data/per-000006/index.json",
-      "bytes": 2499,
-      "gzipBytes": 826
+      "bytes": 2511,
+      "gzipBytes": 818
     },
     {
       "file": "data/per-000006/plot.json",
       "bytes": 141,
-      "gzipBytes": 138
+      "gzipBytes": 139
     },
     {
       "file": "data/per-000007/index.json",
-      "bytes": 2502,
-      "gzipBytes": 822
+      "bytes": 2520,
+      "gzipBytes": 814
     },
     {
       "file": "data/per-000007/plot.json",
@@ -5481,8 +7246,8 @@
     },
     {
       "file": "data/per-000008/index.json",
-      "bytes": 3881,
-      "gzipBytes": 928
+      "bytes": 3894,
+      "gzipBytes": 924
     },
     {
       "file": "data/per-000008/plot.json",
@@ -5491,18 +7256,18 @@
     },
     {
       "file": "data/per-000009/index.json",
-      "bytes": 2662,
-      "gzipBytes": 908
+      "bytes": 2672,
+      "gzipBytes": 901
     },
     {
       "file": "data/per-000009/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 138
     },
     {
       "file": "data/per-000010/index.json",
-      "bytes": 2656,
-      "gzipBytes": 905
+      "bytes": 2663,
+      "gzipBytes": 899
     },
     {
       "file": "data/per-000010/plot.json",
@@ -5511,8 +7276,8 @@
     },
     {
       "file": "data/per-000011/index.json",
-      "bytes": 2478,
-      "gzipBytes": 802
+      "bytes": 2495,
+      "gzipBytes": 795
     },
     {
       "file": "data/per-000011/plot.json",
@@ -5521,8 +7286,8 @@
     },
     {
       "file": "data/per-000012/index.json",
-      "bytes": 3863,
-      "gzipBytes": 898
+      "bytes": 3871,
+      "gzipBytes": 891
     },
     {
       "file": "data/per-000012/plot.json",
@@ -5531,8 +7296,8 @@
     },
     {
       "file": "data/per-000013/index.json",
-      "bytes": 2466,
-      "gzipBytes": 824
+      "bytes": 2477,
+      "gzipBytes": 818
     },
     {
       "file": "data/per-000013/plot.json",
@@ -5541,18 +7306,18 @@
     },
     {
       "file": "data/per-000014/index.json",
-      "bytes": 2498,
-      "gzipBytes": 835
+      "bytes": 2512,
+      "gzipBytes": 829
     },
     {
       "file": "data/per-000014/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 138
     },
     {
       "file": "data/per-000015/index.json",
-      "bytes": 2487,
-      "gzipBytes": 826
+      "bytes": 2499,
+      "gzipBytes": 820
     },
     {
       "file": "data/per-000015/plot.json",
@@ -5561,8 +7326,8 @@
     },
     {
       "file": "data/per-000016/index.json",
-      "bytes": 2459,
-      "gzipBytes": 820
+      "bytes": 2471,
+      "gzipBytes": 815
     },
     {
       "file": "data/per-000016/plot.json",
@@ -5571,8 +7336,8 @@
     },
     {
       "file": "data/per-000017/index.json",
-      "bytes": 2477,
-      "gzipBytes": 815
+      "bytes": 2489,
+      "gzipBytes": 810
     },
     {
       "file": "data/per-000017/plot.json",
@@ -5581,8 +7346,8 @@
     },
     {
       "file": "data/per-000018/index.json",
-      "bytes": 2481,
-      "gzipBytes": 817
+      "bytes": 2495,
+      "gzipBytes": 811
     },
     {
       "file": "data/per-000018/plot.json",
@@ -5591,8 +7356,8 @@
     },
     {
       "file": "data/per-000019/index.json",
-      "bytes": 2451,
-      "gzipBytes": 808
+      "bytes": 2466,
+      "gzipBytes": 804
     },
     {
       "file": "data/per-000019/plot.json",
@@ -5601,8 +7366,8 @@
     },
     {
       "file": "data/per-000020/index.json",
-      "bytes": 2459,
-      "gzipBytes": 812
+      "bytes": 2476,
+      "gzipBytes": 804
     },
     {
       "file": "data/per-000020/plot.json",
@@ -5611,8 +7376,8 @@
     },
     {
       "file": "data/per-000021/index.json",
-      "bytes": 2469,
-      "gzipBytes": 817
+      "bytes": 2491,
+      "gzipBytes": 812
     },
     {
       "file": "data/per-000021/plot.json",
@@ -5621,8 +7386,8 @@
     },
     {
       "file": "data/per-000022/index.json",
-      "bytes": 3969,
-      "gzipBytes": 971
+      "bytes": 3982,
+      "gzipBytes": 968
     },
     {
       "file": "data/per-000022/plot.json",
@@ -5631,8 +7396,8 @@
     },
     {
       "file": "data/per-000023/index.json",
-      "bytes": 2468,
-      "gzipBytes": 824
+      "bytes": 2479,
+      "gzipBytes": 819
     },
     {
       "file": "data/per-000023/plot.json",
@@ -5641,8 +7406,8 @@
     },
     {
       "file": "data/per-000024/index.json",
-      "bytes": 2474,
-      "gzipBytes": 820
+      "bytes": 2488,
+      "gzipBytes": 815
     },
     {
       "file": "data/per-000024/plot.json",
@@ -5651,8 +7416,8 @@
     },
     {
       "file": "data/per-000025/index.json",
-      "bytes": 2472,
-      "gzipBytes": 825
+      "bytes": 2485,
+      "gzipBytes": 820
     },
     {
       "file": "data/per-000025/plot.json",
@@ -5661,8 +7426,8 @@
     },
     {
       "file": "data/per-000026/index.json",
-      "bytes": 2472,
-      "gzipBytes": 822
+      "bytes": 2485,
+      "gzipBytes": 819
     },
     {
       "file": "data/per-000026/plot.json",
@@ -5671,8 +7436,8 @@
     },
     {
       "file": "data/per-000027/index.json",
-      "bytes": 2474,
-      "gzipBytes": 821
+      "bytes": 2488,
+      "gzipBytes": 815
     },
     {
       "file": "data/per-000027/plot.json",
@@ -5681,8 +7446,8 @@
     },
     {
       "file": "data/per-000028/index.json",
-      "bytes": 2556,
-      "gzipBytes": 868
+      "bytes": 2577,
+      "gzipBytes": 860
     },
     {
       "file": "data/per-000028/plot.json",
@@ -5691,8 +7456,8 @@
     },
     {
       "file": "data/chr-000001/index.json",
-      "bytes": 6768,
-      "gzipBytes": 1191
+      "bytes": 6769,
+      "gzipBytes": 1178
     },
     {
       "file": "data/chr-000001/plot.json",
@@ -5701,38 +7466,38 @@
     },
     {
       "file": "data/chr-000002/index.json",
-      "bytes": 2813,
-      "gzipBytes": 856
+      "bytes": 2824,
+      "gzipBytes": 842
     },
     {
       "file": "data/chr-000002/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 140
     },
     {
       "file": "data/chr-000003/index.json",
-      "bytes": 4974,
-      "gzipBytes": 994
+      "bytes": 4979,
+      "gzipBytes": 984
     },
     {
       "file": "data/chr-000003/plot.json",
       "bytes": 141,
-      "gzipBytes": 139
+      "gzipBytes": 140
     },
     {
       "file": "data/loc-000001/index.json",
       "bytes": 3257,
-      "gzipBytes": 879
+      "gzipBytes": 858
     },
     {
       "file": "data/loc-000001/plot.json",
       "bytes": 2215,
-      "gzipBytes": 656
+      "gzipBytes": 657
     },
     {
       "file": "data/ser-000001/index.json",
-      "bytes": 22583,
-      "gzipBytes": 2151
+      "bytes": 22588,
+      "gzipBytes": 2139
     },
     {
       "file": "data/ser-000001/plot.json",
@@ -5741,8 +7506,8 @@
     },
     {
       "file": "data/ser-000002/index.json",
-      "bytes": 7946,
-      "gzipBytes": 1171
+      "bytes": 7951,
+      "gzipBytes": 1156
     },
     {
       "file": "data/ser-000002/plot.json",
@@ -5757,7 +7522,7 @@
     {
       "file": "data/chr-000004/plot.json",
       "bytes": 4694,
-      "gzipBytes": 895
+      "gzipBytes": 896
     },
     {
       "file": "data/chr-000005/index.json",
@@ -5767,7 +7532,7 @@
     {
       "file": "data/chr-000005/plot.json",
       "bytes": 4708,
-      "gzipBytes": 896
+      "gzipBytes": 895
     },
     {
       "file": "data/chr-000006/index.json",
@@ -5777,7 +7542,7 @@
     {
       "file": "data/chr-000006/plot.json",
       "bytes": 4682,
-      "gzipBytes": 896
+      "gzipBytes": 895
     },
     {
       "file": "data/chr-000007/index.json",
@@ -5787,7 +7552,7 @@
     {
       "file": "data/chr-000007/plot.json",
       "bytes": 4685,
-      "gzipBytes": 878
+      "gzipBytes": 882
     },
     {
       "file": "data/chr-000008/index.json",
@@ -5797,7 +7562,7 @@
     {
       "file": "data/chr-000008/plot.json",
       "bytes": 4700,
-      "gzipBytes": 895
+      "gzipBytes": 899
     },
     {
       "file": "data/loc-000002/index.json",
@@ -5807,7 +7572,7 @@
     {
       "file": "data/loc-000002/plot.json",
       "bytes": 4872,
-      "gzipBytes": 962
+      "gzipBytes": 967
     }
   ]
 }

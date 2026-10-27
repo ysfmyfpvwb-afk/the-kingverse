@@ -1,4 +1,4 @@
-# The Kingverse 1.9 — architectuur en The Connected Kingverse
+# The Kingverse 1.9.1 — architectuur en The Connected Kingverse
 
 Status: foundation, schaduwbatches 01–06 en de afzonderlijke Explorer-integratiepilot zijn geïmplementeerd. Een volledige runtimeomschakeling blijft ontwerp. Peildatum: 27 oktober 2026. Onderzochte applicatiebasis: commit `ca5f336f72ad6c41a28e30d3ac79a4667b5c9032` (1.5.1). De actieve website en catalogus blijven op de bestaande 1.5.1-runtime. De foundation voegt offline data, schema, register, validator en compatibiliteitsadapter toe zonder die runtime om te schakelen.
 
@@ -430,3 +430,8 @@ Iedere entiteit heeft een `index.json` en een afzonderlijke `plot.json`. De hard
 Zes plotidentiteiten krijgen in hun standaardpayload uitsluitend een naamloze gate. De client haalt hun naam en de 28 plotverbindingen pas op na expliciete keuze. Routewisseling, Back, refresh en BFCache-herstel resetten zichtbaarheid. Een hergebruikte netwerkcache vervangt nooit een nieuwe leeskeuze. De publieke JSON is **geen beveiligde opslag**. Externe bronpagina’s kunnen spoilers bevatten.
 
 De pilot gebruikt alleen de twee bestaande lokale, eigen SVG-fallbacks uit de mediabibliotheek. Geen nieuwe uitgeverscover of poster, externe hotlink, beeldresearch of dependency. Elke entiteit maakt ontbrekende gegevens zichtbaar; Engelse interface en bestaande NL-editietitels blijven gescheiden. Zie [PILOT-ACCEPTANCE.md](PILOT-ACCEPTANCE.md) voor de acceptatiegrens, prestaties en uitroladvies.
+
+
+## 1.9.1 — presentatie zonder datamigratie
+
+De pilotcompiler splitst aanvullend bibliografische secties naar begrensde `details.json`-bestanden en een gehashte renderer die alleen op aanvraag laadt. De hoofdroute houdt auteurs, geregistreerd jaar, veilige beschrijving en ontdekkingsrelaties. Relatiegroepering gebeurt na filters op doel-ID; de originele edges/claims worden niet samengevoegd. Native dialogs gebruiken dezelfde gegevens, history, focusbeheer en scrollvergrendeling; zij openen niet de legacy-modal. `premise-review.json` begrenst hergebruik tot twee bestaande geverifieerde eigen premiseteksten met waarde-digests en behoud van claims. De 176 eerdere beschermde bestanden en de volledige readinessprojectie blijven intact. Zie [EXPERIENCE-REFINEMENT.md](EXPERIENCE-REFINEMENT.md).

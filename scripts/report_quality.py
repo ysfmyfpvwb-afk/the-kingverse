@@ -71,11 +71,11 @@ if (ROOT/'data/readiness/report.json').exists():
  'Advies: GO voor geïsoleerde integratietests; voorwaardelijke GO voor een afzonderlijk geautoriseerde Engelse bibliografische fase met expliciete onzekerheid en placeholders. Geen activering in Batch 06. De bestaande renderer moet eerst op het nieuwe contract worden aangesloten, de diagnostische totaalpayload moet per bezoekerspagina worden begrensd, en productie-UX/rollback moet worden geaccepteerd. Niet ieder uitgesteld legacy-bladveld of onzekere kandidaat hoeft daarvoor als bewezen feit te worden opgelost. Zie [EXPLORER-READINESS.md](EXPLORER-READINESS.md).']
 if (ROOT/'data/pilot/report.json').exists():
  pilot=load('data/pilot/report.json')
- lines+=['', '## 1.9 — publieke Explorer-integratiepilot', '',
+ lines+=['', '## 1.9.1 — verfijnde Explorer-pilot', '',
  f"De afzonderlijke route `/explorer/pilot/` gebruikt 546 canonieke entiteiten, waarvan 540 in de standaardzoekindex. Alle 94 native relaties zijn behouden: 66 standaard en 28 uitsluitend na expliciete plotkeuze. Geen nieuwe canonieke identiteiten of relaties; de oude website, preview en Batch-06-gegevens blijven ongewijzigd.",
  f"Grootste entiteitspayload {pilot['payload']['maxEntityBytes']} bytes, mediaan {pilot['payload']['medianEntityBytes']}; grootste lijstchunk {pilot['payload']['maxChunkBytes']} bytes, zes items per pagina. Zoekindex {pilot['payload']['searchBytes']} bytes ({pilot['payload']['searchGzipBytes']} gzipraming), alleen op aanvraag. Geen volledige readiness-JSON tijdens bezoek. {pilot['protectedFileCount']} eerdere bestanden zijn door een digest-baseline beschermd.",
  'De volledige Talisman-keten hergebruikt de bestaande IDs. Nederlandse editietitels en veilige alternatieve titels zijn doorzoekbaar, zonder nieuwe vertalingen te verzinnen. Voorlopige bronkandidaten, afgeleide verbanden en interpretaties blijven zichtbaar gekwalificeerd. Alleen de twee eerder vrijgegeven eigen SVG-fallbacks worden gebruikt; geen nieuwe externe beelden, dependencies of betaalde API.',
- 'Zie [PILOT-ACCEPTANCE.md](PILOT-ACCEPTANCE.md) voor productieacceptatie, gemeten prestaties, verificatiegrenzen en het advies vóór bredere uitrol. De pilot vervangt geen bestaande ervaring.']
+ 'Zie [EXPERIENCE-REFINEMENT.md](EXPERIENCE-REFINEMENT.md) voor de 1.9.1-UX, coveranalyse, prestatievergelijking en verificatiegrenzen. De oorspronkelijke 1.9-acceptatie blijft als historisch rapport bewaard. De pilot vervangt geen bestaande ervaring.']
 (ROOT/'DATA-QUALITY.md').write_text('\n'.join(lines)+'\n')
 # A real static, bilingual information page; no catalog runtime or backend is required.
 sections=[]

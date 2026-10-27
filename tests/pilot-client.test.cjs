@@ -10,21 +10,22 @@ async function harness(){
   get childNodes(){return this.children;}get lastElementChild(){return this.children.at(-1);}
   append(...nodes){for(const n of nodes){n.parent=this;this.children.push(n);}}replaceChildren(...nodes){this.children=[];this._text='';this.append(...nodes);}
   replaceWith(node){const p=this.parent;if(p)p.children[p.children.indexOf(this)]=node;}
-  setAttribute(k,v){this.attrs[k]=v;}getAttribute(k){return this.attrs[k]||null;}addEventListener(k,f){this.handlers[k]=f;}focus(){document.activeElement=this;}showModal(){this.open=true;}close(){this.open=false;}
+  removeAttribute(k){delete this.attrs[k];}setAttribute(k,v){this.attrs[k]=v;}getAttribute(k){return this.attrs[k]||null;}addEventListener(k,f){this.handlers[k]=f;}focus(){document.activeElement=this;}showModal(){this.open=true;}close(){this.open=false;}
   querySelector(tag){for(const c of this.children){if(c.tagName===tag)return c;const n=c.querySelector?.(tag);if(n)return n;}return null;}
  }
- const document={title:'',activeElement:null,createElement:t=>new Element(t),createTextNode:t=>{const n=new Element('#text');n.textContent=t;return n;},getElementById:id=>ids.get(id),addEventListener:(k,f)=>{events[k]=f;}};
- for(const id of ['main','back','discover','search-dialog','query','close-search','search-form','search-type','search-more','search-status','search-results']){const n=new Element('div');n.id=id;}ids.get('search-type').value='all';
- const history={state:null,back(){}},location={search:'',origin:'https://example.test',pathname:'/the-kingverse/explorer/pilot/',href:'https://example.test/the-kingverse/explorer/pilot/'};let clock=0;
+ const document={body:{style:{}},title:'',activeElement:null,createElement:t=>new Element(t),createTextNode:t=>{const n=new Element('#text');n.textContent=t;return n;},getElementById:id=>ids.get(id),addEventListener:(k,f)=>{events[k]=f;}};
+ for(const id of ['main','back','trail','discover','record-dialog','record-title','record-body','close-record','search-dialog','query','close-search','search-form','search-type','search-more','search-status','search-results']){const n=new Element('div');n.id=id;}ids.get('search-type').value='all';
+ const history={state:null,back(){},pushState(s){this.state=s;},replaceState(s){this.state=s;}},location={search:'',origin:'https://example.test',pathname:'/the-kingverse/explorer/pilot/',href:'https://example.test/the-kingverse/explorer/pilot/'};let clock=0;
  const context={document,history,location,window:{addEventListener:(k,f)=>{events[k]=f;},scrollTo(){}},PilotCore:C,performance:{now:()=>++clock},TextEncoder,structuredClone,URL,URLSearchParams,Map,Set,setTimeout,clearTimeout,
  fetch:url=>{calls.push(url);const file=url.split('?')[0],text=out.files.get('explorer/pilot/'+file);const response={ok:!!text,text:async()=>text};if(holdPlot&&file.endsWith('/plot.json')){holdPlot=false;return new Promise(resolve=>{resolvePlot=()=>resolve(response);});}return Promise.resolve(response);}};
- vm.runInNewContext(fs.readFileSync(ROOT+'/scripts/pilot/pilot.js','utf8').replaceAll('__VERSION__',out.report.dataVersion).replaceAll('__SEARCH__',out.report.assets.search),context);
+ document.head={append(script){calls.push(script.src);vm.runInNewContext(fs.readFileSync(ROOT+'/scripts/pilot/details.js','utf8'),context);script.handlers.load();}};
+ vm.runInNewContext(fs.readFileSync(ROOT+'/scripts/pilot/pilot.js','utf8').replaceAll('__VERSION__',out.report.dataVersion).replaceAll('__SEARCH__',out.report.assets.search).replaceAll('__DETAILS__',out.report.assets.details),context);
  const settle=async()=>{for(let i=0;i<15;i++)await Promise.resolve();};await settle();
  return {ids,events,calls,document,context,settle,hold:()=>{holdPlot=true;},resolve:()=>resolvePlot()};
 }
 test('Actual pilot client loads only the entity payload initially and shares one lazy search index',async()=>{
  const h=await harness();assert.match(h.ids.get('main').textContent,/The Talisman/);assert.equal(h.calls.length,1);assert.match(h.calls[0],/data\/wrk-000001\/index.json/);assert.ok(!h.calls.some(c=>c.includes('search.')));
- await h.ids.get('discover').handlers.click();assert.equal(h.calls.length,2);assert.equal(h.ids.get('search-dialog').open,true);
+ h.ids.get('discover').focus();await h.ids.get('discover').handlers.click();assert.equal(h.calls.length,2);assert.equal(h.ids.get('search-dialog').open,true);
  h.ids.get('query').value='Zwart huis';h.ids.get('search-form').handlers.submit({preventDefault(){}});await h.settle();assert.match(h.ids.get('search-results').textContent,/Black House/);
  h.ids.get('query').value='Father Callahan';h.ids.get('search-form').handlers.submit({preventDefault(){}});await h.settle();assert.equal(h.ids.get('search-results').textContent,'');assert.match(h.ids.get('search-status').textContent,/0 available results/);assert.equal(h.calls.length,2);h.ids.get('search-dialog').handlers.keydown({key:'Escape',preventDefault(){}});assert.equal(h.ids.get('search-dialog').open,false);assert.equal(h.document.activeElement.id,'discover');
 });
@@ -36,4 +37,9 @@ test('Delayed plot responses, back navigation and refresh cannot silently reveal
 });
 test('An unavailable placeholder produces readable text without an error loop',async()=>{
  const h=await harness(),img=h.ids.get('main').querySelector('img');img.attrs.src=img.src;img.handlers.error();assert.ok(!h.ids.get('main').querySelector('img'));assert.match(h.ids.get('main').textContent,/Image unavailable/);
+});
+
+test('Book details fetch code and bounded bibliography only on request; Escape and browser Back restore the work',async()=>{
+ const h=await harness();assert.equal(h.calls.length,1);assert.ok(!h.calls.some(c=>c.includes('details')));h.ids.get('record-open').focus();await h.ids.get('record-open').handlers.click();assert.equal(h.ids.get('record-dialog').open,true);assert.equal(h.document.body.style.overflow,'hidden');assert.match(h.ids.get('record-body').textContent,/Edition shelf/);assert.ok(h.calls.some(c=>c.includes('/details.json')));assert.equal(h.calls.filter(c=>c.startsWith('details.')).length,1);
+ h.ids.get('record-dialog').handlers.keydown({key:'Escape',preventDefault(){}});assert.equal(h.ids.get('record-dialog').open,false);assert.equal(h.document.body.style.overflow,'');assert.equal(h.document.activeElement.id,'record-open');h.context.history.state=null;await h.events.popstate();assert.match(h.ids.get('main').textContent,/The Talisman/);await h.ids.get('record-open').handlers.click();assert.equal(h.calls.filter(c=>c.startsWith('details.')).length,1);h.context.history.state=null;await h.events.popstate();assert.equal(h.ids.get('record-dialog').open,false);assert.equal(h.document.body.style.overflow,'');await h.ids.get('spoilers').handlers.click();h.ids.get('record-open').focus();await h.ids.get('record-open').handlers.click();h.context.history.state=null;await h.events.popstate();assert.equal(h.ids.get('spoilers').textContent,'Reveal plot connections');assert.equal(h.document.activeElement.id,'record-open');
 });

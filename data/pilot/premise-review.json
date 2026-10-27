@@ -1,0 +1,17 @@
+{
+  "version": "1.9.1",
+  "checked": "2026-10-27",
+  "scope": "Reuse only the two existing verified, original editorial premise descriptions from Foundation. No external synopsis or new plot text. Unreviewed summaries remain excluded.",
+  "claims": [
+    {
+      "claimId": "clm:000114",
+      "workId": "wrk:000001",
+      "sha256": "d561f3afa5d1fdf44b69e143dc9fa9dd86e41cb05da16243ce2d1819c98fa48d"
+    },
+    {
+      "claimId": "clm:000115",
+      "workId": "wrk:000002",
+      "sha256": "6888ed5ab2172ad645997899b7b037a775de69c736a6f3ae4b0f41e23f9e8cc2"
+    }
+  ]
+}

@@ -12,6 +12,9 @@
  function filterConnections(rows,kind='all',certainty='all'){return rows.filter(e=>(kind==='all'||(kind==='books'?['work','collection'].includes(e.target.type):e.target.type===kind))&&(certainty==='all'||e.certainty===certainty));}
  function search(rows,query,type='all'){const tokens=fold(query).trim().split(/\s+/).filter(Boolean);return rows.filter(r=>(type==='all'||r.type===type)&&tokens.every(t=>fold([r.label,...r.alternatives,r.type,types[r.type],kinds[r.kind]||''].join(' ')).includes(t)));}
  function dateLabel(d){if(!d?.value)return 'Unconfirmed';const [year,month,day]=d.value.split('-');if(d.precision==='year')return year;const m=['January','February','March','April','May','June','July','August','September','October','November','December'][Number(month)-1];return d.precision==='day'?Number(day)+' '+m+' '+year:m+' '+year;}
- const api={types,roles,validId,routeId,relationLabel,typeLabel,filterConnections,search,dateLabel};
+ function groupConnections(rows){const groups=new Map();for(const e of rows){if(!groups.has(e.target.id))groups.set(e.target.id,{target:e.target,edges:[]});groups.get(e.target.id).edges.push(e);}return [...groups.values()];}
+ function icon(n,predicate){return predicate==='dark_tower_connection'?'⊙':({work:'▤',collection:'▥',edition:'▧',adaptation:'▷',person:'○',character:'♙',location:'◇',series:'↗'}[n.type]||'·');}
+
+ const api={types,roles,validId,routeId,relationLabel,typeLabel,filterConnections,search,dateLabel,groupConnections,icon};
  if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.PilotCore=Object.freeze(api);
 })(typeof globalThis==='undefined'?this:globalThis);
