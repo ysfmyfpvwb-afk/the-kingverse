@@ -1,0 +1,651 @@
+{
+  "version": 1,
+  "checked": "2026-10-27",
+  "scope": "Bounded Package B: literary-universe additions plus two verified missing screen productions; no images, invented book-source links or plot biographies.",
+  "sources": [
+    {
+      "key": "characters",
+      "url": "https://stephenking.com/darktower/misc/dark_tower_characters.html",
+      "observedAt": "2026-10-27",
+      "access": "available",
+      "sourceType": "official-bibliography",
+      "locator": "JAKE CHAMBERS / EDDIE DEAN / SUSANNAH DEAN headings; names only, exclude biographies and outcomes.",
+      "checkedFields": [
+        "character names",
+        "literary-series context"
+      ]
+    },
+    {
+      "key": "waste",
+      "url": "https://stephenking.com/works/novel/dark-tower-the-waste-lands.html",
+      "observedAt": "2026-10-27",
+      "access": "available",
+      "sourceType": "official-bibliography",
+      "locator": "Synopsis and From the Flap: names of Roland’s companions and named works",
+      "checkedFields": [
+        "Eddie Dean / Susannah Dean / Jake appearance in this work"
+      ]
+    },
+    {
+      "key": "gunslinger",
+      "url": "https://stephenking.com/darktower/book/the_dark_tower_i_the_gunslinger.html",
+      "observedAt": "2026-10-27",
+      "access": "available",
+      "sourceType": "official-bibliography",
+      "locator": "Overview: Jake Chambers identified as Roland’s young companion",
+      "checkedFields": [
+        "Jake Chambers appearance in this work"
+      ]
+    },
+    {
+      "key": "glossary",
+      "url": "https://stephenking.com/darktower/glossary.html",
+      "observedAt": "2026-10-27",
+      "access": "available",
+      "sourceType": "official-bibliography",
+      "locator": "MID-WORLD glossary heading: distinguish world from region; named setting of The Waste Lands",
+      "checkedFields": [
+        "world name",
+        "world/region distinction",
+        "The Waste Lands setting"
+      ]
+    },
+    {
+      "key": "finders",
+      "url": "https://stephenking.com/works/novel/finders-keepers.html",
+      "observedAt": "2026-10-27",
+      "access": "available",
+      "sourceType": "official-bibliography",
+      "locator": "Synopsis: same recurring trio as Mr. Mercedes",
+      "checkedFields": [
+        "sequence continuation"
+      ]
+    },
+    {
+      "key": "endwatch",
+      "url": "https://stephenking.com/works/novel/end-of-watch.html",
+      "observedAt": "2026-10-27",
+      "access": "available",
+      "sourceType": "official-bibliography",
+      "locator": "Opening publication description: finale of trilogy begun by Mr. Mercedes and Finders Keepers",
+      "checkedFields": [
+        "three-volume sequence and order"
+      ]
+    },
+    {
+      "key": "fire-universal",
+      "url": "https://www.universalpicturesathome.com/tv/firestarter-2-rekindled",
+      "publisher": "Universal Pictures At Home",
+      "observedAt": "2026-10-27",
+      "access": "available",
+      "sourceType": "official-production",
+      "locator": "Product title, Release Year, Own on DVD Now, Directed By and stated continuation of the 1984 film in product description.",
+      "checkedFields": [
+        "title",
+        "releaseYear",
+        "released-on-home-video",
+        "director"
+      ]
+    },
+    {
+      "key": "fire-syfy",
+      "url": "https://www.syfy.com/syfy-wire/firestarter-rekindled-revisiting-an-unlikely-stephen-king-sequel",
+      "publisher": "SYFY",
+      "observedAt": "2026-10-27",
+      "access": "available",
+      "sourceType": "official-production",
+      "locator": "Body identifies release as a Sci-fi Channel miniseries in March 2002 and relates its story to the 1984 film; film and TV-movie wording elsewhere is retained as differing broadcast/home-video terminology.",
+      "checkedFields": [
+        "broadcast-format",
+        "broadcast-month",
+        "sequel identity",
+        "director",
+        "screenwriter"
+      ]
+    },
+    {
+      "key": "creep-production",
+      "url": "https://www.amcglobalmedia.com/2019/02/09/production-starts-on-greg-nicoteros-creepshow-anthology-series-for-shudder/",
+      "publisher": "AMC Global Media",
+      "observedAt": "2026-10-27",
+      "access": "available",
+      "sourceType": "official-production",
+      "locator": "Production announcement dated February 9, 2019: anthology series for Shudder, executive producer/showrunner and literary story contributors, not a single-book adaptation.",
+      "checkedFields": [
+        "title",
+        "format",
+        "platform",
+        "showrunner",
+        "series inspired by the 1982 film"
+      ]
+    },
+    {
+      "key": "creep-released",
+      "url": "https://www.amcglobalmedia.com/2019/10/24/creepshow-is-a-monster-hit-for-amcs-shudder/",
+      "publisher": "AMC Global Media",
+      "observedAt": "2026-10-27",
+      "access": "available",
+      "sourceType": "official-production",
+      "locator": "Retrospective release dated October 24 (body dated October 22), 2019: series premiered September 26 and episodes had actually been viewed; showrunner Greg Nicotero and production companies.",
+      "checkedFields": [
+        "actual premiere",
+        "released-status",
+        "showrunner",
+        "producer-observations"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "key": "character-01",
+      "entityType": "character",
+      "name": "Eddie Dean",
+      "aliases": [],
+      "continuity": "The Dark Tower literary continuity",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "characters"
+      ],
+      "note": "Name and literary context only; identity changes, relationships and outcomes are excluded."
+    },
+    {
+      "key": "character-02",
+      "entityType": "character",
+      "name": "Susannah Dean",
+      "aliases": [],
+      "continuity": "The Dark Tower literary continuity",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "characters"
+      ],
+      "note": "Name only. Do not add earlier identities or explain how this identity comes about."
+    },
+    {
+      "key": "character-03",
+      "entityType": "character",
+      "name": "Jake Chambers",
+      "aliases": [],
+      "continuity": "The Dark Tower literary continuity",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "characters"
+      ],
+      "note": "Name only; no fate, timeline or alternate-history details."
+    },
+    {
+      "key": "location-01",
+      "entityType": "location",
+      "name": "Mid-World",
+      "locationKind": "world",
+      "aliases": [],
+      "continuity": "The Dark Tower literary setting; world sense, not the narrower region",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "glossary"
+      ],
+      "note": "The official glossary uses the name for both a world and a region. This identity explicitly represents the world; no automatic merge with a future regional identity."
+    },
+    {
+      "key": "series-01",
+      "entityType": "series",
+      "name": "Bill Hodges Trilogy",
+      "aliases": [],
+      "seriesKind": "literary-series",
+      "scope": "Mr. Mercedes, Finders Keepers and End of Watch, in that order",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "finders",
+        "endwatch"
+      ],
+      "note": "The official End of Watch page identifies the trilogy and its order; this does not absorb later Holly Gibney works."
+    },
+    {
+      "key": "connection-01",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "key": "character-01"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000025"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Eddie Dean is one of Roland’s companions in The Waste Lands."
+      },
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000025"
+        ]
+      },
+      "sourceKeys": [
+        "waste"
+      ],
+      "note": "The official public book description names this character. No events, identity origins or outcomes are copied."
+    },
+    {
+      "key": "connection-02",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "key": "character-02"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000025"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Susannah Dean accompanies Roland in The Waste Lands."
+      },
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000025"
+        ]
+      },
+      "sourceKeys": [
+        "waste"
+      ],
+      "note": "The official public book description names this character. No events, identity origins or outcomes are copied."
+    },
+    {
+      "key": "connection-03",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "key": "character-03"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000025"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Jake Chambers appears in The Waste Lands."
+      },
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000025"
+        ]
+      },
+      "sourceKeys": [
+        "waste"
+      ],
+      "note": "The official public book description names this character. No events, identity origins or outcomes are copied."
+    },
+    {
+      "key": "connection-04",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "key": "character-03"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000014"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Jake Chambers is a young companion Roland meets in The Gunslinger."
+      },
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000014"
+        ]
+      },
+      "sourceKeys": [
+        "gunslinger"
+      ],
+      "note": "Official series overview names Jake as a companion; no outcome or timeline details."
+    },
+    {
+      "key": "connection-05",
+      "entityType": "connection",
+      "from": {
+        "type": "work",
+        "id": "wrk:000025"
+      },
+      "predicate": "set_in",
+      "to": {
+        "type": "location",
+        "key": "location-01"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The Waste Lands takes place in Mid-World, the world described in the official Dark Tower glossary."
+      },
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000025"
+        ]
+      },
+      "sourceKeys": [
+        "glossary"
+      ],
+      "note": "Setting scope only. Do not copy the glossary’s later plot information or geography of outcomes."
+    },
+    {
+      "key": "connection-06",
+      "entityType": "connection",
+      "from": {
+        "type": "work",
+        "id": "wrk:000052"
+      },
+      "predicate": "part_of_series",
+      "to": {
+        "type": "series",
+        "key": "series-01"
+      },
+      "seriesPosition": 1,
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Mr. Mercedes opens the Bill Hodges trilogy."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "endwatch"
+      ],
+      "note": "Sequence and position are explicit in the official trilogy description; no character outcomes or narrative details."
+    },
+    {
+      "key": "connection-07",
+      "entityType": "connection",
+      "from": {
+        "type": "work",
+        "id": "wrk:000054"
+      },
+      "predicate": "part_of_series",
+      "to": {
+        "type": "series",
+        "key": "series-01"
+      },
+      "seriesPosition": 2,
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Finders Keepers is the second novel in the Bill Hodges trilogy."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "endwatch",
+        "finders"
+      ],
+      "note": "Sequence and position are explicit in the official trilogy description; no character outcomes or narrative details."
+    },
+    {
+      "key": "connection-08",
+      "entityType": "connection",
+      "from": {
+        "type": "work",
+        "id": "wrk:000055"
+      },
+      "predicate": "part_of_series",
+      "to": {
+        "type": "series",
+        "key": "series-01"
+      },
+      "seriesPosition": 3,
+      "certainty": "explicit",
+      "explanation": {
+        "en": "End of Watch concludes the Bill Hodges trilogy."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "endwatch"
+      ],
+      "note": "Sequence and position are explicit in the official trilogy description; no character outcomes or narrative details."
+    },
+    {
+      "key": "screen-01",
+      "entityType": "adaptation",
+      "title": "Firestarter 2: Rekindled",
+      "aliases": [
+        {
+          "language": "en",
+          "value": "Firestarter: Rekindled",
+          "spoiler": {
+            "level": "none",
+            "workIds": []
+          }
+        }
+      ],
+      "format": "miniseries",
+      "externalIds": {},
+      "releaseYear": 2002,
+      "releaseEvents": [
+        {
+          "value": "2002-03",
+          "precision": "month",
+          "meaning": "source-reported-release",
+          "territory": "US"
+        }
+      ],
+      "statusHistory": [
+        {
+          "status": "released",
+          "asOf": "2026-10-27",
+          "projectScope": "Released 2002 television production, also sold as a complete DVD; no ongoing-series or current regional-streaming claim.",
+          "claimIds": [
+            "screen-01/statusHistory"
+          ]
+        }
+      ],
+      "ratingObservations": [],
+      "countries": [],
+      "originalLanguages": [],
+      "originalScreenplay": null,
+      "makerObservations": [
+        {
+          "role": "director",
+          "creditText": "Robert Iscove",
+          "scope": "2002 television production",
+          "sourceUrl": "https://www.universalpicturesathome.com/tv/firestarter-2-rekindled",
+          "verification": "source-supported"
+        },
+        {
+          "role": "screenwriter",
+          "creditText": "Philip Eisner",
+          "scope": "2002 television production",
+          "sourceUrl": "https://www.syfy.com/syfy-wire/firestarter-rekindled-revisiting-an-unlikely-stephen-king-sequel",
+          "verification": "source-supported"
+        }
+      ],
+      "distribution": [
+        {
+          "role": "distributor",
+          "name": "Universal Pictures At Home",
+          "sourceUrl": "https://www.universalpicturesathome.com/tv/firestarter-2-rekindled"
+        },
+        {
+          "role": "network",
+          "name": "Sci Fi Channel",
+          "sourceUrl": "https://www.syfy.com/syfy-wire/firestarter-rekindled-revisiting-an-unlikely-stephen-king-sequel"
+        }
+      ],
+      "productionUnits": [],
+      "summary": {
+        "en": "An adult Charlie McGee is drawn back into the struggle over her pyrokinetic powers in this television sequel to Firestarter."
+      },
+      "open": [
+        "preciseFirstBroadcastDay",
+        "completeCastCredits",
+        "broadcastVersusHomeVideoFormatTerminology"
+      ],
+      "sourceKeys": [
+        "fire-universal",
+        "fire-syfy"
+      ],
+      "note": "The original network identifies the March 2002 production as a miniseries; Universal sells a complete DVD. Caption/retail TV-movie terminology does not create a second identity. No direct adaptation_of link to the novel or the 2022 remake."
+    },
+    {
+      "key": "screen-02",
+      "entityType": "adaptation",
+      "title": "Creepshow",
+      "aliases": [],
+      "format": "tv-series",
+      "externalIds": {},
+      "releaseYear": 2019,
+      "releaseEvents": [
+        {
+          "value": "2019-09-26",
+          "precision": "day",
+          "meaning": "US-series-premiere",
+          "territory": "US"
+        }
+      ],
+      "statusHistory": [
+        {
+          "status": "released",
+          "asOf": "2019-10-22",
+          "projectScope": "Episodes had actually been released and viewed on Shudder; no present-day renewal, completion, or regional-streaming claim.",
+          "claimIds": [
+            "screen-02/statusHistory"
+          ]
+        }
+      ],
+      "ratingObservations": [],
+      "countries": [],
+      "originalLanguages": [],
+      "originalScreenplay": null,
+      "makerObservations": [
+        {
+          "role": "showrunner",
+          "creditText": "Greg Nicotero",
+          "scope": "Series launch and first season; not an attribution of every episode screenplay",
+          "sourceUrl": "https://www.amcglobalmedia.com/2019/10/24/creepshow-is-a-monster-hit-for-amcs-shudder/",
+          "verification": "source-supported"
+        }
+      ],
+      "distribution": [
+        {
+          "role": "platform",
+          "name": "Shudder",
+          "sourceUrl": "https://www.amcglobalmedia.com/2019/10/24/creepshow-is-a-monster-hit-for-amcs-shudder/"
+        }
+      ],
+      "productionUnits": [],
+      "summary": {
+        "en": "A horror anthology series overseen by Greg Nicotero, bringing self-contained stories to the screen in the spirit of the 1982 film."
+      },
+      "open": [
+        "completeEpisodeAndSeasonCredits",
+        "currentContinuationStatus",
+        "currentRegionalStreamingAvailability",
+        "individualStoryAdaptationLinks"
+      ],
+      "sourceKeys": [
+        "creep-production",
+        "creep-released"
+      ],
+      "note": "Distinct series incarnation from the 1982 and 1987 films. No claim that the whole series adapts one literary work; individual story adaptations remain separate future episode work."
+    },
+    {
+      "key": "connection-09",
+      "entityType": "connection",
+      "from": {
+        "type": "adaptation",
+        "key": "screen-01"
+      },
+      "predicate": "sequel_to",
+      "to": {
+        "type": "adaptation",
+        "id": "adp:000019"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "This 2002 television follow-up continues the screen story of the 1984 Firestarter film."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "fire-universal",
+        "fire-syfy"
+      ],
+      "note": "Universal and original network distinguish the continuation of the 1984 film from the 2022 remake. This is a screen-sequel relationship, not direct adaptation of the novel."
+    },
+    {
+      "key": "connection-10",
+      "entityType": "connection",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000098"
+      },
+      "predicate": "inspired_by",
+      "to": {
+        "type": "adaptation",
+        "id": "adp:000009"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The Creepshow television anthology is inspired by the 1982 film created by Stephen King and George A. Romero."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "creep-production"
+      ],
+      "note": "AMC explicitly identifies the 1982 film as the series basis. This is a screen-to-screen inspiration link, not a claim that the series adapts one literary work."
+    }
+  ],
+  "deferred": [
+    {
+      "subject": "Gilead",
+      "reason": "Official glossary confirms the identity and Roland’s home city, but this batch does not add a new character-to-home-city predicate or force a book relation without stronger scoped evidence."
+    },
+    {
+      "subject": "Remaining Package B screen and universe queues",
+      "reason": "Outside this bounded first implementation; no full episode, sequel/franchise or universe coverage claimed."
+    }
+  ],
+  "accessObservations": [
+    {
+      "url": "https://www.shudder.com/series/watch/creepshow/e1c7254a5ed4de4b",
+      "observedAt": "2026-10-27",
+      "access": "unavailable",
+      "result": "503 Service Unavailable; no retry or restriction workaround; no current availability assertion."
+    },
+    {
+      "url": "https://www.amcplus.com/shows/creepshow/episodes--1032696",
+      "observedAt": "2026-10-27",
+      "access": "blocked",
+      "result": "Redirected to geographic-restriction page; no workaround and no regional streaming availability assertion."
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Media — conceptaanvragen werkpakket A
 
-**Intern werkdocument, 27 oktober 2026. Niet verstuurd. Geen toestemming verkregen.** De bijlage bevat 66 bestaande NL-coververwijzingen; er zijn geen afbeeldingen opgehaald. Afzendernaam, contactgegevens en feitelijke commerciële status moeten de eigenaar vóór verzending invullen. Geen betaald aanbod accepteren.
+**Intern werkdocument, 27 oktober 2026. Niet verstuurd. Geen toestemming verkregen.** De bijlage bevat 66 bestaande NL-coververwijzingen; er zijn geen afbeeldingen opgehaald. Afzendernaam en contactgegevens moeten vóór verzending worden ingevuld. De eigenaar heeft bevestigd dat dit een persoonlijke, niet-commerciële hobbywebsite is. Geen betaald aanbod accepteren.
 
 ## Concept voor Luitingh-Sijthoff
 
@@ -10,7 +10,7 @@ Onderwerp: Toestemming voor editiegebonden boekcovers op The Kingverse
 
 Geachte afdeling Marketing & Publiciteit,
 
-Voor The Kingverse, een onafhankelijke tweetalige Stephen King-encyclopedie voor lezers, willen wij toestemming vragen voor gebruik van de 66 hieronder gespecificeerde coververwijzingen. De website staat op https://ysfmyfpvwb-afk.github.io/the-kingverse/. De commerciële status en identiteit van de beheerder voegen wij bij de definitieve aanvraag toe.
+Voor The Kingverse, een onafhankelijke tweetalige Stephen King-encyclopedie voor lezers, willen wij toestemming vragen voor gebruik van de 66 hieronder gespecificeerde coververwijzingen. De website staat op https://ysfmyfpvwb-afk.github.io/the-kingverse/. Het is een kleine, persoonlijke, niet-commerciële hobbywebsite voor de beheerder, familie en enkele vrienden.
 
 Kunt u aangeven voor welke specifieke afbeeldingen u zelf toestemming mag verlenen, welke derden afzonderlijk benaderd moeten worden, en of u kosteloos schriftelijk toestemming kunt geven voor wereldwijde weergave op deze website? Het gewenste gebruik is een kleine thumbnail en een grotere afbeelding bij bibliografische boekinformatie, lokaal gehost, met uitsluitend proportionele verkleining/compressie en zonder inhoudelijke wijziging of uitsnede.
 
@@ -103,7 +103,7 @@ Gebruik de NL-aanvraaginhoud in het Engels met deze opening:
 
 > We would like to request written permission to display the specific edition cover listed in the attached record on The Kingverse, an independent bilingual Stephen King encyclopedia. Please confirm whether you control the relevant artwork rights, identify any third-party permissions required, and specify an approved delivery source and the permitted uses, credit, territory and duration. We are seeking permission at no charge; no commercial licence will be accepted without a separate decision by the site owner.
 
-Voeg de feitelijke commerciële status, naam/contactgegevens en de concrete artwork-/editiebijlage toe voordat de eigenaar de aanvraag goedkeurt. [Simon & Schuster Rights & Permissions](https://www.simonandschuster.biz/p/rights-and-permissions) is een mogelijk loket voor relevante imprints, geen weblicentie of universele rechthebbende. De categorie prop/set dressing bewijst geen toestemming voor dit doel. [De King-webmaster](https://stephenking.com/contact/) behandelt geen rechtenvragen.
+Vermeld het persoonlijke, niet-commerciële gebruik en voeg naam/contactgegevens en de concrete artwork-/editiebijlage toe voordat de eigenaar de aanvraag goedkeurt. [Simon & Schuster Rights & Permissions](https://www.simonandschuster.biz/p/rights-and-permissions) is een mogelijk loket voor relevante imprints, geen weblicentie of universele rechthebbende. De categorie prop/set dressing bewijst geen toestemming voor dit doel. [De King-webmaster](https://stephenking.com/contact/) behandelt geen rechtenvragen.
 
 ## Filmposters — rechthebbendenmatrix en aanvraagconcept
 

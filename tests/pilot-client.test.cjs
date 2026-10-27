@@ -2,7 +2,7 @@
 const {test}=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm');
 const {ROOT}=require('../scripts/validate_foundation.cjs');const {generatePilot}=require('../scripts/build_pilot.cjs');const C=require('../scripts/pilot/shared.js');
 const out=generatePilot();
-async function harness(){
+async function harness(mediaOverride){
  const ids=new Map(),events={},calls=[];let holdPlot=false,resolvePlot;
  class Element{
   constructor(tag){this.tagName=tag;this.children=[];this.attrs={};this.handlers={};this.value='';this._text='';this.dataset={};this.classList={add(){}};}
@@ -17,7 +17,7 @@ async function harness(){
  for(const id of ['main','back','trail','discover','record-dialog','record-title','record-body','close-record','search-dialog','query','close-search','search-form','search-type','search-more','search-status','search-results']){const n=new Element('div');n.id=id;}ids.get('search-type').value='all';
  const history={state:null,back(){},pushState(s){this.state=s;},replaceState(s){this.state=s;}},location={search:'',origin:'https://example.test',pathname:'/the-kingverse/explorer/pilot/',href:'https://example.test/the-kingverse/explorer/pilot/'};let clock=0;
  const context={document,history,location,window:{addEventListener:(k,f)=>{events[k]=f;},scrollTo(){}},PilotCore:C,performance:{now:()=>++clock},TextEncoder,structuredClone,URL,URLSearchParams,Map,Set,setTimeout,clearTimeout,
- fetch:url=>{calls.push(url);const file=url.split('?')[0],text=out.files.get('explorer/pilot/'+file);const response={ok:!!text,text:async()=>text};if(holdPlot&&file.endsWith('/plot.json')){holdPlot=false;return new Promise(resolve=>{resolvePlot=()=>resolve(response);});}return Promise.resolve(response);}};
+ fetch:url=>{calls.push(url);const file=url.split('?')[0],original=out.files.get('explorer/pilot/'+file),text=mediaOverride&&file==='data/wrk-000001/index.json'?JSON.stringify({...JSON.parse(original),media:mediaOverride}):original;const response={ok:!!text,text:async()=>text};if(holdPlot&&file.endsWith('/plot.json')){holdPlot=false;return new Promise(resolve=>{resolvePlot=()=>resolve(response);});}return Promise.resolve(response);}};
  document.head={append(script){calls.push(script.src);vm.runInNewContext(fs.readFileSync(ROOT+'/scripts/pilot/details.js','utf8'),context);script.handlers.load();}};
  vm.runInNewContext(fs.readFileSync(ROOT+'/scripts/pilot/pilot.js','utf8').replaceAll('__VERSION__',out.report.dataVersion).replaceAll('__SEARCH__',out.report.assets.search).replaceAll('__DETAILS__',out.report.assets.details),context);
  const settle=async()=>{for(let i=0;i<15;i++)await Promise.resolve();};await settle();
@@ -48,4 +48,11 @@ test('New bibliography is reachable through search, and reader pages do not rend
  const h=await harness();await h.ids.get('discover').handlers.click();h.ids.get('query').value='On Writing';h.ids.get('search-form').handlers.submit({preventDefault(){}});await h.settle();assert.match(h.ids.get('search-results').textContent,/On Writing: A Memoir of the Craft/);
  h.context.location.search='?entity=wrk%3A000242';await h.events.popstate();assert.match(h.ids.get('main').textContent,/memoir about becoming a writer/);assert.doesNotMatch(h.ids.get('main').textContent,/canonical|migration|field-specific|clm:|wrk:|Record scope|independently verified/);
  await h.ids.get('record-open').handlers.click();assert.match(h.ids.get('record-body').textContent,/Sources & context/);assert.doesNotMatch(h.ids.get('record-body').textContent,/field-specific|permission for reuse|Detailed edition|clm:/);
+});
+
+test('Approved local artwork shows its credit and falls back cleanly if the file fails',async()=>{
+ const fallback='assets/media/fallbacks/book.svg',src='assets/explorer-media/covers/edn-000002/approved.jpg';
+ const h=await harness({src,fallbackPath:fallback,officialArtwork:true,reason:'approved-local',credit:{text:'Artwork credit supplied with permission',url:null},validUntil:'2099-01-01'});
+ const main=h.ids.get('main'),img=main.querySelector('img');assert.equal(img.src,'../../'+src);assert.match(main.textContent,/Artwork credit supplied with permission/);
+ img.handlers.error();assert.equal(img.src,'../../'+fallback);assert.doesNotMatch(main.textContent,/Artwork credit supplied with permission/);assert.match(main.textContent,/Cover not available/);
 });

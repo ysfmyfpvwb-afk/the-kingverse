@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "site": "https://ysfmyfpvwb-afk.github.io/the-kingverse/",
+  "policy": "Use the existing permission and local-file checks. Do not infer a licence from source attribution or download images during builds.",
+  "decisions": [],
+  "projectUse": "personal-non-commercial"
+}
