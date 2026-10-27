@@ -36,7 +36,7 @@ test('Delayed plot responses, back navigation and refresh cannot silently reveal
  await h.events.pageshow({persisted:true});await h.settle();assert.ok(!h.ids.get('main').textContent.includes('Father Callahan'));assert.ok(!h.document.title.includes('Father Callahan'));assert.equal(h.ids.get('spoilers').textContent,'Reveal plot connections');
 });
 test('An unavailable placeholder produces readable text without an error loop',async()=>{
- const h=await harness(),img=h.ids.get('main').querySelector('img');img.attrs.src=img.src;img.handlers.error();assert.ok(!h.ids.get('main').querySelector('img'));assert.match(h.ids.get('main').textContent,/Image unavailable/);
+ const h=await harness(),img=h.ids.get('main').querySelector('img');img.attrs.src=img.src;img.handlers.error();img.handlers.error();assert.ok(!h.ids.get('main').querySelector('img'));assert.match(h.ids.get('main').textContent,/Image unavailable/);
 });
 
 test('Book details fetch code and bounded bibliography only on request; Escape and browser Back restore the work',async()=>{

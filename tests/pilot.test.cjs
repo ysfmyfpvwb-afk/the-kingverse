@@ -50,8 +50,8 @@ test('Human relation direction, certainty filters and precise dates are preserve
  assert.ok(C.filterConnections(edges,'character').every(e=>e.target.type==='character'));assert.ok(C.filterConnections(edges,'all','explicit').every(e=>e.certainty==='explicit'));
  assert.equal(C.dateLabel({value:'1984-11',precision:'month'}),'November 1984');assert.equal(C.dateLabel({value:'1984',precision:'year'}),'1984');
 });
-test('Only permitted local assets are referenced; all URLs stay beneath GitHub Pages subpaths',()=>{
- for(const p of out.payloads.values())if(p.media?.src){assert.equal(p.media.officialArtwork,false);assert.match(p.media.src,/^assets\/media\/fallbacks\//);assert.ok(fs.existsSync(ROOT+'/'+p.media.src));}
+test('Archive sources are reused exactly; local assets and page links stay beneath GitHub Pages subpaths',()=>{
+ const archive=require('../scripts/foundation_compat.cjs').readGenerated('media.js','MEDIA');const urls=new Set([...Object.values(archive.books).flatMap(Object.values),...Object.values(archive.films)].filter(m=>m.imageStatus==='verified').map(m=>m.image));for(const p of out.payloads.values())if(p.media?.src){if(p.media.remoteArtwork)assert.ok(urls.has(p.media.src));else assert.ok(fs.existsSync(ROOT+'/'+p.media.src));}
  const html=out.files.get('explorer/pilot/index.html');for(const[,url]of html.matchAll(/(?:href|src)="([^"]+)"/g))assert.ok(new URL(url,'https://example.test/the-kingverse/explorer/pilot/').pathname.startsWith('/the-kingverse/'));
  const js=out.files.get('explorer/pilot/'+out.report.assets.js);assert.ok(!js.includes('data/readiness/'));assert.ok(!js.includes('innerHTML'));assert.ok(js.includes("if(e.persisted)navigate()"));
 });
