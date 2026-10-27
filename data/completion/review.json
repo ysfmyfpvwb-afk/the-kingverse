@@ -1,0 +1,209 @@
+{
+  "observedAt": "2026-10-27",
+  "scope": "Completion A editorial inputs; selected bibliographic fields approved for Explorer projection by the user course correction.",
+  "dossiers": [
+    {
+      "key": "dossier-01",
+      "title": "On Writing: A Memoir of the Craft",
+      "kind": "nonfiction",
+      "url": "https://stephenking.com/works/nonfiction/on-writing-a-memoir-of-the-craft.html",
+      "reportedDate": "2000",
+      "note": "Work date is not the 2020 twentieth-anniversary edition.",
+      "summaryEn": "A memoir about becoming a writer and a practical guide to the craft, bringing together King’s personal experience and advice on storytelling."
+    },
+    {
+      "key": "dossier-02",
+      "title": "Danse Macabre",
+      "kind": "nonfiction",
+      "url": "https://stephenking.com/works/nonfiction/danse-macabre.html",
+      "reportedDate": "1981",
+      "note": "2010 edition is not a new work.",
+      "summaryEn": "King explores the horror genre through books, film and television, reflecting on the stories and ideas that have shaped it."
+    },
+    {
+      "key": "dossier-03",
+      "title": "GUNS",
+      "kind": "essay",
+      "url": "https://stephenking.com/works/nonfiction/guns.html",
+      "reportedDate": "2013-01",
+      "note": "Essay published as a Kindle Single, not a novel.",
+      "summaryEn": "An essay in which King examines gun violence and the debate over gun control in the United States."
+    },
+    {
+      "key": "dossier-04",
+      "title": "Secret Windows: Essays and Fiction on the Craft of Writing",
+      "kind": "anthology",
+      "url": "https://stephenking.com/works/nonfiction/secret-windows-essays-and-fiction-on-the-craft-of-writing.html",
+      "reportedDate": "2000",
+      "note": "Mixed nonfiction/fiction anthology; contents incomplete; Peter Straub introduction, not coauthorship.",
+      "summaryEn": "Essays, interviews and fiction about writing, collected alongside early stories and an introduction by Peter Straub."
+    },
+    {
+      "key": "dossier-05",
+      "title": "Charlie the Choo-Choo",
+      "kind": "children-book",
+      "url": "https://stephenking.com/works/other-project/charlie-the-choo-choo.html",
+      "reportedDate": "2016-11",
+      "note": "Beryl Evans is a Stephen King pseudonym; no extra author identity.",
+      "summaryEn": "A picture book about engineer Bob and his unusual train, written by Stephen King as Beryl Evans and illustrated by Ned Dameron."
+    },
+    {
+      "key": "dossier-06",
+      "title": "Hansel and Gretel",
+      "kind": "children-book",
+      "url": "https://stephenking.com/works/other-project/hansel-and-gretel.html",
+      "reportedDate": "2025-09",
+      "note": "King retelling and introduction; Maurice Sendak illustrations, not textual coauthorship.",
+      "summaryEn": "King retells the classic fairy tale with illustrations by Maurice Sendak, bringing two distinctive imaginations to a familiar journey into the woods."
+    },
+    {
+      "key": "dossier-07",
+      "title": "The Plant: Zenith Rising",
+      "kind": "novel",
+      "url": "https://stephenking.com/works/other-project/plant-zenith-rising.html",
+      "reportedDate": "2000",
+      "note": "Unfinished novel; six 2000 installments and earlier limited parts are manifestations, not six works.",
+      "summaryEn": "An unfinished novel released in installments, centred on a small publishing house and an unexpected delivery."
+    },
+    {
+      "key": "dossier-08",
+      "title": "Storm of the Century",
+      "kind": "screenplay",
+      "url": "https://stephenking.com/works/screenplay/storm-of-the-century.html",
+      "reportedDate": "1999-02",
+      "note": "Published original screenplay; not a preceding novel; existing TV identity untouched.",
+      "summaryEn": "King’s published original screenplay follows an isolated island community as a fierce winter storm approaches."
+    },
+    {
+      "key": "dossier-09",
+      "title": "Ghost Brothers of Darkland County",
+      "kind": "dramatic-work",
+      "url": "https://stephenking.com/works/other-project/ghost-brothers-of-darkland-county.html",
+      "reportedDate": "2012-04",
+      "note": "Dramatic work: King book/libretto; John Mellencamp music/lyrics; stage premiere is not book publication.",
+      "summaryEn": "A stage musical with a book by Stephen King and music and lyrics by John Mellencamp, weaving a ghost story through a roots-inspired score."
+    }
+  ],
+  "evidence": [
+    {
+      "key": "beryl",
+      "url": "https://www.hachette.co.uk/contributor/beryl-evans/",
+      "locator": "Author biography",
+      "facts": {
+        "pseudonymOf": "Stephen King",
+        "creditedAs": "Beryl Evans"
+      }
+    },
+    {
+      "key": "hansel-roles",
+      "url": "https://www.hachette.co.uk/titles/stephen-king-5/hansel-and-gretel/9781444919349/",
+      "locator": "Product heading: by / illustrated by",
+      "facts": {
+        "author": "Stephen King",
+        "illustrator": "Maurice Sendak"
+      }
+    },
+    {
+      "key": "ghost-roles",
+      "url": "https://www.alliancetheatre.org/production/2011-12/ghost-brothers-of-darkland-county/",
+      "locator": "Production credits and performance range",
+      "facts": {
+        "book": "Stephen King",
+        "musicAndLyrics": "John Mellencamp",
+        "worldPremiere": "2012-04-04"
+      }
+    },
+    {
+      "key": "movies-memberships",
+      "url": "https://www.hachette.co.uk/titles/stephen-king-3/stephen-king-goes-to-the-movies/9780340980309/",
+      "locator": "Product description explicitly lists five contents and identifies Hearts in Atlantis as Low Men in Yellow Coats",
+      "facts": {
+        "workIds": [
+          "wrk:000076",
+          "wrk:000087",
+          "wrk:000092",
+          "wrk:000145",
+          "wrk:000161"
+        ],
+        "collectionId": "col:000010",
+        "isbn13": "9780340980309",
+        "orderVerified": false
+      }
+    },
+    {
+      "key": "glass-first",
+      "url": "https://stephenking.com/works/short/glass-floor.html",
+      "locator": "Notes: original magazine publication; not the Released/Unreleased header",
+      "facts": {
+        "workId": "wrk:000224",
+        "date": "1967",
+        "publication": "Startling Mystery Stories",
+        "meaning": "first-publication"
+      }
+    },
+    {
+      "key": "cycle-first",
+      "url": "https://stephenking.com/works/novel/cycle-of-the-werewolf.html",
+      "locator": "Explicit first-publication note, corroborated by /works/limited/cycle-of-the-werewolf.html",
+      "facts": {
+        "workId": "wrk:000017",
+        "date": "1983",
+        "publisher": "The Land of Enchantment",
+        "meaning": "first-publication"
+      }
+    },
+    {
+      "key": "dolores-library",
+      "url": "https://search.worldcat.org/title/Dolores-Claiborne/oclc/214323675",
+      "locator": "Print Book, English; Publisher Viking, New York, 1992",
+      "facts": {
+        "workId": "wrk:000028",
+        "date": "1992",
+        "publisher": "Viking",
+        "firstPublicationConfirmed": false
+      }
+    }
+  ],
+  "membershipReview": {
+    "promoteIds": [
+      "mem:000006",
+      "mem:000018",
+      "mem:000024",
+      "mem:000078",
+      "mem:000095"
+    ],
+    "sourceKey": "movies-memberships",
+    "editionScope": "Contents explicitly supported for publisher ISBN 9780340980309; no order or every-edition claim."
+  },
+  "secretWindowsMemberships": [
+    "wrk:000226",
+    "wrk:000235",
+    "wrk:000154"
+  ],
+  "editionPolicy": {
+    "exactIsbnAndLanguageRequired": true,
+    "webpageDateIsNotEditionDate": true,
+    "controlEnIds": [
+      "edn:000002",
+      "edn:000004",
+      "edn:000070",
+      "edn:000071",
+      "edn:000072",
+      "edn:000073"
+    ],
+    "controlNlIds": [
+      "edn:000001",
+      "edn:000003",
+      "edn:000005",
+      "edn:000006",
+      "edn:000007",
+      "edn:000008"
+    ]
+  },
+  "blockers": [
+    "Original English cover examples have no ISBN/printing identity; work-page metadata cannot identify the pictured edition. Do not bind a contemporary publisher ISBN to them.",
+    "An exact ISBN identifies an edition/product, not necessarily its printing; dates are publisher-reported edition dates.",
+    "Brooks bibliography full text not consulted; independent first-publication histories remain incomplete.",
+    "Permission drafts require owner approval, sender identity and commercial-status statement before sending. No permission established."
+  ]
+}

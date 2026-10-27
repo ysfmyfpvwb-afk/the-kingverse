@@ -1,0 +1,1766 @@
+{
+  "observedAt": "2026-10-27",
+  "records": [
+    {
+      "url": "https://stephenking.com/works/novel/talisman.html",
+      "editionId": "edn:000002",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://stephenking.com/works/novel/talisman.html",
+      "sha256": "07592568b355780d043805d2c5e0486c5359744ed576dd8697809493b6a313b8",
+      "facts": {
+        "title": "The Talisman",
+        "released": "November 1984",
+        "publisher": "G.P. Putnam's & Sons",
+        "formats": "Hardcover / Paperback / Limited Edition / Kindle / Audio",
+        "projectType": null
+      }
+    },
+    {
+      "url": "https://stephenking.com/works/novel/black-house.html",
+      "editionId": "edn:000004",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://stephenking.com/works/novel/black-house.html",
+      "sha256": "dfccc0ca390f1751bb9d7c62229b0ff9614ab5d607274a1679bfa110455f1ed7",
+      "facts": {
+        "title": "Black House",
+        "released": "September 15th, 2001",
+        "publisher": "Random House",
+        "formats": "Hardcover / Paperback / Limited Edition / Audio / Kindle",
+        "projectType": null
+      }
+    },
+    {
+      "url": "https://stephenking.com/works/novel/carrie.html",
+      "editionId": "edn:000070",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://stephenking.com/works/novel/carrie.html",
+      "sha256": "01886d93e2a0c9cf8b89ced658248b0a3bc99ef4b3cbe66c7bafbe7fc4c15f79",
+      "facts": {
+        "title": "Carrie",
+        "released": "April 5th, 1974",
+        "publisher": "Doubleday",
+        "formats": "Hardcover / Paperback / Audio / Kindle",
+        "projectType": null
+      }
+    },
+    {
+      "url": "https://stephenking.com/works/novel/salems-lot.html",
+      "editionId": "edn:000071",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://stephenking.com/works/novel/salems-lot.html",
+      "sha256": "5e14487bef24cfcea4fbf8b829ffdb1683d211b51b6c5adeeedffb3cc311280c",
+      "facts": {
+        "title": "'Salem's Lot",
+        "released": "October 17th, 1975",
+        "publisher": "Doubleday",
+        "formats": "Hardcover / Paperback / Trade / Limited Edition / Audiobook",
+        "projectType": null
+      }
+    },
+    {
+      "url": "https://stephenking.com/works/novel/shining.html",
+      "editionId": "edn:000072",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://stephenking.com/works/novel/shining.html",
+      "sha256": "7a57ca563c71cb1b6c478eab44b0e84a742acddddcb53bd0c87f645f38c3d41b",
+      "facts": {
+        "title": "The Shining",
+        "released": "January 1977",
+        "publisher": "Doubleday",
+        "formats": "Hardcover / Paperback / Trade / Kindle / Audio / Movie / TV Miniseries / DVD",
+        "projectType": null
+      }
+    },
+    {
+      "url": "https://stephenking.com/works/novel/rage.html",
+      "editionId": "edn:000073",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://stephenking.com/works/novel/rage.html",
+      "sha256": "ec6fb7f8393478c212253488f149d3763d4c2a0592f5ea7db57f487d55b0aee2",
+      "facts": {
+        "title": "Rage",
+        "released": "1977",
+        "publisher": "New American Library (NAL)",
+        "formats": "Paperback",
+        "projectType": null
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/de-talisman-pod/",
+      "editionId": "edn:000001",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/de-talisman-pod/",
+      "sha256": "307b72a407e9001eda666f8d26ea805f12c2020e7a8c77c23c7b91c133c9dd0d",
+      "facts": {
+        "title": "De talisman (POD)",
+        "isbn13": "9789021037400",
+        "language": "Nederlands",
+        "publicationDate": "17-11-2026",
+        "translator": null,
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/zwart-huis/",
+      "editionId": "edn:000003",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/zwart-huis/",
+      "sha256": "50f3e801ea131a4d20ce500906e0aa1873430b63593e9a8f15717fc59a3d8f37",
+      "facts": {
+        "title": "Zwart Huis",
+        "isbn13": "9789021048383",
+        "language": "Nederlands",
+        "publicationDate": "20-07-2024",
+        "translator": null,
+        "format": "Luisterboek"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/carrie-2/",
+      "editionId": "edn:000005",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/carrie-ebook/",
+      "sha256": "27ad9310d26616362b221411a75877bede81c3acf901a7f6225f161ced232ca1",
+      "facts": {
+        "title": "Carrie",
+        "isbn13": "9789024572045",
+        "language": "Nederlands",
+        "publicationDate": "27-10-2015",
+        "translator": "Ingrid Nijkerk",
+        "format": "Ebook"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/bezeten-stad/",
+      "editionId": "edn:000006",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/bezeten-stad/",
+      "sha256": "92a5a3fb19f8ba228c0c98c855a4a7b61913c0db325c78d86f36f9af3a89738c",
+      "facts": {
+        "title": "Bezeten stad",
+        "isbn13": "9789024578108",
+        "language": "Nederlands",
+        "publicationDate": null,
+        "translator": null,
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/de-shining/",
+      "editionId": "edn:000007",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/de-shining/",
+      "sha256": "bd0c00cad6b18352e9d71c6d4693cb69eed2ab5add2dd7cafaa4d054297a73d0",
+      "facts": {
+        "title": "De Shining (luxe editie)",
+        "isbn13": "9789021066561",
+        "language": "Nederlands",
+        "publicationDate": "18-11-2026",
+        "translator": null,
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/de-beproeving/",
+      "editionId": "edn:000008",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/de-beproeving/",
+      "sha256": "2182202dbcd57cfe94b4e11fea409557241beb60d7bb908939230f4b08f926eb",
+      "facts": {
+        "title": "De Beproeving",
+        "isbn13": "9789021027791",
+        "language": "Nederlands",
+        "publicationDate": null,
+        "translator": null,
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/de-marathon/",
+      "editionId": "edn:000009",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/de-marathon/",
+      "sha256": "235629f22812bef8425d510835bddca299ae95dafe79ce87b4abe31e1408e234",
+      "facts": {
+        "title": "De marathon",
+        "isbn13": "9789021025131",
+        "language": "Nederlands",
+        "publicationDate": null,
+        "translator": "Mariëlla Snel",
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/dodelijk-dilemma/",
+      "editionId": "edn:000010",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/dodelijk-dilemma/",
+      "sha256": "bc25c79122d8c3903fdf36f2b90e2c8f3c494c75c00c244356bd4053241648f1",
+      "facts": {
+        "title": "Dodelijk dilemma",
+        "isbn13": "9789021043425",
+        "language": "Nederlands",
+        "publicationDate": null,
+        "translator": null,
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/ogen-van-vuur/",
+      "editionId": "edn:000011",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/ogen-van-vuur/",
+      "sha256": "b4231ce1ab9300b51569c15179d7538f238ed130070222c1c5f7decc0efbf78c",
+      "facts": {
+        "title": "Ogen van vuur",
+        "isbn13": "9789024578146",
+        "language": "Nederlands",
+        "publicationDate": null,
+        "translator": "Margot Bakker",
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/werk-in-uitvoering/",
+      "editionId": "edn:000012",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/werk-in-uitvoering/",
+      "sha256": "db0e3c3c542c1181e1f471ff89e68e7fd3c91d7d804592867dd8bc13592d6813",
+      "facts": {
+        "title": "Werk in uitvoering",
+        "isbn13": "9789024578214",
+        "language": "Nederlands",
+        "publicationDate": null,
+        "translator": "Hugo Kuipers, Nienke Kuipers",
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/cujo/",
+      "editionId": "edn:000013",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/cujo/",
+      "sha256": "e47d1756d4cd6b800107aa8dc830b1db9d733158ed503c447f64bde6526ba0ee",
+      "facts": {
+        "title": "Cujo",
+        "isbn13": "9789021031354",
+        "language": "Nederlands",
+        "publicationDate": "21-09-2022",
+        "translator": null,
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/vlucht-naar-de-top/",
+      "editionId": "edn:000014",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/vlucht-naar-de-top/",
+      "sha256": "48674e0b5abc3d7ce43f196d448b5bff7e83dd5d02cdf30ffe5c94b7fad16be4",
+      "facts": {
+        "title": "Vlucht naar de top",
+        "isbn13": "9789021043449",
+        "language": "Nederlands",
+        "publicationDate": "30-11-2023",
+        "translator": null,
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/de-scherpschutter/",
+      "editionId": "edn:000015",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/de-scherpschutter/",
+      "sha256": "0822c6c967c4176da5f575e607380dfec02f0e955bf01aa894d80371367c649e",
+      "facts": {
+        "title": "De scherpschutter",
+        "isbn13": "9789021049151",
+        "language": "Nederlands",
+        "publicationDate": "10-09-2024",
+        "translator": null,
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/dodenwake/",
+      "editionId": "edn:000016",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/dodenwake/",
+      "sha256": "db585eccbc69e992d057d768494422e2edb43b42bf7799186e7c6b2bf0ec4cc6",
+      "facts": {
+        "title": "Dodenwake",
+        "isbn13": "9789021015873",
+        "language": "Nederlands",
+        "publicationDate": null,
+        "translator": "Margot Bakker",
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/de-vervloeking/",
+      "editionId": "edn:000017",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/de-vervloeking/",
+      "sha256": "d6e890184857aa8342ee3bc4039b1a3cae1edfe08be87ca6d1b9ebbbf1d86356",
+      "facts": {
+        "title": "De vervloeking",
+        "isbn13": "9789021062419",
+        "language": "Nederlands",
+        "publicationDate": null,
+        "translator": null,
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/it/",
+      "editionId": "edn:000018",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/it/",
+      "sha256": "4472c799c99b773ec18ab805e2b4913cd0778f0426f9ca57879ef038d6efced3",
+      "facts": {
+        "title": "IT",
+        "isbn13": "9789021027432",
+        "language": "Nederlands",
+        "publicationDate": null,
+        "translator": "Theo Horsten, Jacques Meerman, Jan Smit",
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/ogen-van-de-draak/",
+      "editionId": "edn:000019",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/ogen-van-de-draak/",
+      "sha256": "8d6cce7c2797e52659eff320d486c0494bd310db66bd98e5eb3a2276046b888c",
+      "facts": {
+        "title": "Ogen van de Draak",
+        "isbn13": "9789021025261",
+        "language": "Nederlands",
+        "publicationDate": null,
+        "translator": "Margot Bakker",
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/misery/",
+      "editionId": "edn:000020",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/misery/",
+      "sha256": "7719ac8bf3adc175c22b6a0c1f33c990c566175df95fdd9a200f56da9483dcad",
+      "facts": {
+        "title": "Misery",
+        "isbn13": "9789024578160",
+        "language": "Nederlands",
+        "publicationDate": null,
+        "translator": "Margot Bakker",
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/het-teken-van-drie/",
+      "editionId": "edn:000021",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/het-teken-van-drie/",
+      "sha256": "ac237253c1486cf621c818d442de42fb69aa74f647561048693753cf96389f3f",
+      "facts": {
+        "title": "Het teken van drie",
+        "isbn13": "9789021051420",
+        "language": "Nederlands",
+        "publicationDate": "19-11-2024",
+        "translator": null,
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/de-gloed-3/",
+      "editionId": "edn:000022",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/de-gloed-3/",
+      "sha256": "8eca9c551dffe407f0c245f84beacfe8897d2e8c87db73b6e4ab918dc2851435",
+      "facts": {
+        "title": "De gloed",
+        "isbn13": "9789021048390",
+        "language": "Nederlands",
+        "publicationDate": "20-09-2024",
+        "translator": null,
+        "format": "Luisterboek"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/de-duistere-kant/",
+      "editionId": "edn:000023",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/de-duistere-kant/",
+      "sha256": "48376a385d2df8fba1f11f2ec57f6b857e23d4b2ac8f0b4d1e4b46c70db664bc",
+      "facts": {
+        "title": "De duistere kant",
+        "isbn13": "9789021066547",
+        "language": "Nederlands",
+        "publicationDate": "18-11-2026",
+        "translator": null,
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/de-noodzaak/",
+      "editionId": "edn:000025",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/de-noodzaak/",
+      "sha256": "1661662560349f7aabd18fadbea731111ba4554cd19e51097cebf7a90acbe1e4",
+      "facts": {
+        "title": "De noodzaak",
+        "isbn13": "9789021037264",
+        "language": "Nederlands",
+        "publicationDate": null,
+        "translator": "Rein van Essen, Tom van Son",
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/de-spelbreker/",
+      "editionId": "edn:000026",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/de-spelbreker/",
+      "sha256": "7b60386622a1732b0da0cfb240884178df40cd1698412ff2362bb4fa2d5d67cd",
+      "facts": {
+        "title": "De spelbreker",
+        "isbn13": "9789021048413",
+        "language": "Nederlands",
+        "publicationDate": "20-11-2024",
+        "translator": null,
+        "format": "Luisterboek"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/dolores-claiborne/",
+      "editionId": "edn:000027",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/dolores-claiborne/",
+      "sha256": "a2df61fb81cae27b5f132d7968c605d161c553b48f05e156a178b2484a469250",
+      "facts": {
+        "title": "Dolores Claiborne",
+        "isbn13": "9789021064383",
+        "language": "Nederlands",
+        "publicationDate": null,
+        "translator": null,
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/insomnia/",
+      "editionId": "edn:000028",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/insomnia/",
+      "sha256": "dc5c3125eb57cd23ecb71bd774eb2e3284706c4b27f6b5c498285093e4ce4023",
+      "facts": {
+        "title": "Insomnia",
+        "isbn13": "9789021049144",
+        "language": "Nederlands",
+        "publicationDate": "10-09-2024",
+        "translator": null,
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/rosie/",
+      "editionId": "edn:000029",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/rosie/",
+      "sha256": "ad280c7ea9e98c08ead0728add52dd0998b5eb086f3bfc81ce6284b7efe7de2b",
+      "facts": {
+        "title": "Rosie",
+        "isbn13": "9789021037431",
+        "language": "Nederlands",
+        "publicationDate": null,
+        "translator": "Lucien Duzee",
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/de-groene-mijl/",
+      "editionId": "edn:000030",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/de-groene-mijl/",
+      "sha256": "b3728b7e0f64dc250494107fe84267e70d5c419af96a9c8f9ba9ba6c94c21d25",
+      "facts": {
+        "title": "De groene mijl",
+        "isbn13": "9789021025360",
+        "language": "Nederlands",
+        "publicationDate": null,
+        "translator": "Hugo Kuipers, Nienke Kuipers",
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/desperation/",
+      "editionId": "edn:000031",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/desperation/",
+      "sha256": "5fbdef5a151f08d0be4c517251cb46cc18d35805d747d5ea39468df50c8cf83c",
+      "facts": {
+        "title": "Desperation",
+        "isbn13": "9789021036830",
+        "language": "Nederlands",
+        "publicationDate": "31-05-2023",
+        "translator": "Robert Vernooy",
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/de-regelaars/",
+      "editionId": "edn:000032",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/de-regelaars/",
+      "sha256": "9413e0883c869bce123043c63091fc1ee118b5a6315cc10ae5ec9839a6ce10a6",
+      "facts": {
+        "title": "De regelaars",
+        "isbn13": "9789021037301",
+        "language": "Nederlands",
+        "publicationDate": null,
+        "translator": "Paul Hekman",
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/tovenaarsglas/",
+      "editionId": "edn:000033",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/tovenaarsglas/",
+      "sha256": "1820a4f84d2804a0d88103416ca822c5c15dc09ecbd6bac5f7434fc225ef288e",
+      "facts": {
+        "title": "Tovenaarsglas",
+        "isbn13": "9789021055725",
+        "language": "Nederlands",
+        "publicationDate": "10-09-2025",
+        "translator": "Hugo Kuipers, Nienke Kuipers",
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/vel-over-been/",
+      "editionId": "edn:000034",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/vel-over-been/",
+      "sha256": "7b70e42c6ae42fef81d2b9c23db6d5913cbd8cedd44594f5f6121e69e890418d",
+      "facts": {
+        "title": "Vel over been",
+        "isbn13": "9789021037325",
+        "language": "Nederlands",
+        "publicationDate": null,
+        "translator": "Hugo Kuipers, Nienke Kuipers",
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/het-meisje-dat-hield-van-tom-gordon/",
+      "editionId": "edn:000035",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/het-meisje-dat-hield-van-tom-gordon/",
+      "sha256": "387d9d1e7236c50cb6531f7420b52ed2440966b3ec3e4f481df89fc73788b82e",
+      "facts": {
+        "title": "Het meisje dat hield van Tom Gordon",
+        "isbn13": "9789021037332",
+        "language": "Nederlands",
+        "publicationDate": null,
+        "translator": null,
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/de-dromenvanger/",
+      "editionId": "edn:000036",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/de-dromenvanger/",
+      "sha256": "5b74f125c4699fdb1b13add58b1070d18a84d7fab7c2e2bea3bd1f0e32866c57",
+      "facts": {
+        "title": "De dromenvanger",
+        "isbn13": "9789021037356",
+        "language": "Nederlands",
+        "publicationDate": null,
+        "translator": "Hugo Kuipers, Nienke Kuipers",
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/het-geheim-van-de-buick/",
+      "editionId": "edn:000037",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/het-geheim-van-de-buick/",
+      "sha256": "755bceaef7bc494e7101abb67d720d69f5bcbbd95b4eca1ec4f5a45bafbdad99",
+      "facts": {
+        "title": "Het geheim van de Buick",
+        "isbn13": "9789021037363",
+        "language": "Nederlands",
+        "publicationDate": null,
+        "translator": "Hugo Kuipers, Nienke Kuipers",
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/wolven-van-de-calla/",
+      "editionId": "edn:000038",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/wolven-van-de-calla/",
+      "sha256": "921cac93b42f4ea39244f586845101b90d806263ad355a2bbf14beefe69bc496",
+      "facts": {
+        "title": "Wolven van de Calla",
+        "isbn13": "9789021062433",
+        "language": "Nederlands",
+        "publicationDate": null,
+        "translator": "Hugo Kuipers",
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/een-lied-van-susannah/",
+      "editionId": "edn:000039",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/een-lied-van-susannah/",
+      "sha256": "cbbb261601e2f09a088daa1dab34229c8fdaf238d051ffb07be9c7eef94efc2b",
+      "facts": {
+        "title": "Een lied van Susannah",
+        "isbn13": "9789021064390",
+        "language": "Nederlands",
+        "publicationDate": null,
+        "translator": null,
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/de-donkere-toren/",
+      "editionId": "edn:000040",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/de-donkere-toren/",
+      "sha256": "4b7ddbf986b2c4845fac2510d59dc8d6fd668d08375ccb03f70411b54d5f18bb",
+      "facts": {
+        "title": "De Donkere Toren",
+        "isbn13": "9789021066554",
+        "language": "Nederlands",
+        "publicationDate": "18-11-2026",
+        "translator": null,
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/de-colorado-kid/",
+      "editionId": "edn:000041",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/de-colorado-kid/",
+      "sha256": "d14aba93f5f061e1566058ea2d0829d813b0f4a073e1d24041cb4bc695574c8b",
+      "facts": {
+        "title": "De Colorado Kid",
+        "isbn13": "9789024578207",
+        "language": "Nederlands",
+        "publicationDate": null,
+        "translator": null,
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/mobiel/",
+      "editionId": "edn:000042",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/mobiel/",
+      "sha256": "a7a970c14034709ff6fffb9d766d855da1c7c47acd9766f3f77580aa0fbe9265",
+      "facts": {
+        "title": "Mobiel",
+        "isbn13": "9789021037448",
+        "language": "Nederlands",
+        "publicationDate": null,
+        "translator": "Hugo Kuipers",
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/de-ontvoering/",
+      "editionId": "edn:000044",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/de-ontvoering/",
+      "sha256": "a50923b38ca47945fe6291a7bdd8f8b661a95fe1c5948390a7f02b79d8dc3cb6",
+      "facts": {
+        "title": "De ontvoering",
+        "isbn13": "9789021059662",
+        "language": "Nederlands",
+        "publicationDate": null,
+        "translator": null,
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/duma/",
+      "editionId": "edn:000045",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/duma/",
+      "sha256": "784388a2208e931efee5be6bc2b6f9005b22e425f451219b61572d3015b625e2",
+      "facts": {
+        "title": "Duma",
+        "isbn13": "9789021055718",
+        "language": "Nederlands",
+        "publicationDate": "10-09-2025",
+        "translator": "Hugo Kuipers",
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/gevangen/",
+      "editionId": "edn:000046",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/gevangen/",
+      "sha256": "28d63ebe74760e5f84a56b4e61a6b6a1f39ede20e8bc0129acfc4da8ea9c1fd0",
+      "facts": {
+        "title": "Under the Dome (Gevangen)",
+        "isbn13": "9789021026152",
+        "language": "Nederlands",
+        "publicationDate": null,
+        "translator": "Hugo Kuipers",
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/11-22-63-22-11-1963/",
+      "editionId": "edn:000047",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/11-22-63-22-11-1963/",
+      "sha256": "acabd50238a7ac199ccc9de40630ec9f5616753b341c4d5b09257eda6f67914e",
+      "facts": {
+        "title": "11.22.63 (22-11-1963)",
+        "isbn13": "9789021019321",
+        "language": "Nederlands",
+        "publicationDate": "12-04-2016",
+        "translator": "Hugo Kuipers",
+        "format": "Ebook"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/de-wind-door-het-sleutelgat/",
+      "editionId": "edn:000048",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/de-wind-door-het-sleutelgat/",
+      "sha256": "c8ed0d597eb7d0ab357075b5732105375c79bf66b4dbf72539d20a63fb7b3389",
+      "facts": {
+        "title": "De wind door het sleutelgat",
+        "isbn13": "9789021037653",
+        "language": "Nederlands",
+        "publicationDate": null,
+        "translator": "Annemarie Lodewijk",
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/joyland/",
+      "editionId": "edn:000049",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/joyland/",
+      "sha256": "46d3c8ad265c64028d3e1618cc69bfd9f28df3897d3bdc0b2f32207f2afd3b14",
+      "facts": {
+        "title": "Joyland",
+        "isbn13": "9789021027784",
+        "language": "Nederlands",
+        "publicationDate": null,
+        "translator": null,
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/dr-sleep-2/",
+      "editionId": "edn:000050",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/dr-sleep-2/",
+      "sha256": "f69384c4f701fddae93ca5f116aedabd536f86365fbffbd2469d958e9bf34e52",
+      "facts": {
+        "title": "Dr. Sleep",
+        "isbn13": "9789024576135",
+        "language": "Nederlands",
+        "publicationDate": null,
+        "translator": "Annemarie Lodewijk",
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/mr-mercedes/",
+      "editionId": "edn:000051",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/mr-mercedes/",
+      "sha256": "1d23eee5241805b8e5bcda1aa70e683a7ff8cddd9247044c002e56b484c308d2",
+      "facts": {
+        "title": "Mr. Mercedes",
+        "isbn13": "9789021023281",
+        "language": "Nederlands",
+        "publicationDate": null,
+        "translator": "Annemarie Lodewijk",
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/revival/",
+      "editionId": "edn:000052",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/revival/",
+      "sha256": "b1b97c7913e1feb5f788d791d6acb0a117af464fbb8b7ef7923f1973215a013e",
+      "facts": {
+        "title": "Revival",
+        "isbn13": "9789021025285",
+        "language": "Nederlands",
+        "publicationDate": null,
+        "translator": null,
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/de-eerlijke-vinder/",
+      "editionId": "edn:000053",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/de-eerlijke-vinder/",
+      "sha256": "16785cb22b2fe53ce2f6e9bfc73c04c49fa6eb7ce6b3ed6cec90e67263f31042",
+      "facts": {
+        "title": "De eerlijke vinder",
+        "isbn13": "9789021024417",
+        "language": "Nederlands",
+        "publicationDate": null,
+        "translator": null,
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/wisseling-van-de-wacht/",
+      "editionId": "edn:000054",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/wisseling-van-de-wacht/",
+      "sha256": "5571c08f6366bab61ad2515e6968983f4e1823a4ba4e97bb348a08e80d1b0727",
+      "facts": {
+        "title": "Wisseling van de wacht",
+        "isbn13": "9789021025742",
+        "language": "Nederlands",
+        "publicationDate": null,
+        "translator": "Annemarie Lodewijk",
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/satanskinderen/",
+      "editionId": "edn:000055",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/satanskinderen/",
+      "sha256": "47c0833f5302d88700b8cbbe934230d5f6c98d95a5194e9a07db2c0a607a29f0",
+      "facts": {
+        "title": "Satanskinderen",
+        "isbn13": "9789024559688",
+        "language": "Nederlands",
+        "publicationDate": null,
+        "translator": "F.J. Bruning",
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/4-seizoenen/",
+      "editionId": "edn:000056",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/4-seizoenen/",
+      "sha256": "6be7741f29d9e62b3d00c56134596abaa900103c4829c45f087738ce0bf42680",
+      "facts": {
+        "title": "4 seizoenen",
+        "isbn13": "9789024578245",
+        "language": "Nederlands",
+        "publicationDate": null,
+        "translator": "Pauline Moody",
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/duistere-krachten/",
+      "editionId": "edn:000057",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/duistere-krachten/",
+      "sha256": "6466954ab24ec2b9c2271f61a79a9e35a65f537b6b6a50864423fb3b5aa5b784",
+      "facts": {
+        "title": "Duistere krachten",
+        "isbn13": "9789021037196",
+        "language": "Nederlands",
+        "publicationDate": null,
+        "translator": "Margot Bakker, Pauline Moody",
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/tweeduister/",
+      "editionId": "edn:000058",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/tweeduister/",
+      "sha256": "3df58335a4b2be722dacd70bc4922e9d85f21f4f3ead10137851897c72ea21d3",
+      "facts": {
+        "title": "Tweeduister",
+        "isbn13": "9789024578047",
+        "language": "Nederlands",
+        "publicationDate": null,
+        "translator": "Frank de Groot",
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/nachtmerries-en-droomlandschappen/",
+      "editionId": "edn:000059",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/nachtmerries-en-droomlandschappen/",
+      "sha256": "5ad709d58219eb8d460d7ed6422856fa900d231439383f90a4323ca35d0fa839",
+      "facts": {
+        "title": "Nachtmerries en droomlandschappen",
+        "isbn13": "9789021039800",
+        "language": "Nederlands",
+        "publicationDate": "15-08-2023",
+        "translator": "Frank de Groot, Mariëtte van Gelder",
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/harten-in-atlantis/",
+      "editionId": "edn:000060",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/harten-in-atlantis/",
+      "sha256": "ebcb68bd65009b9a69044be43226f3a0f3a72f07cd580bde245c8a71b52c94c5",
+      "facts": {
+        "title": "Harten in Atlantis",
+        "isbn13": "9789021064468",
+        "language": "Nederlands",
+        "publicationDate": "18-11-2026",
+        "translator": null,
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/alles-is-eventueel-1408/",
+      "editionId": "edn:000061",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/alles-is-eventueel-1408/",
+      "sha256": "a3bc913938e5bf452e12edf2c814cce3b35ab41cbd2460633bf3ff06f9ed26e6",
+      "facts": {
+        "title": "Alles is eventueel - 1408",
+        "isbn13": "9789021055732",
+        "language": "Nederlands",
+        "publicationDate": null,
+        "translator": null,
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/na-zonsondergang/",
+      "editionId": "edn:000062",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/na-zonsondergang/",
+      "sha256": "4b039cf62a01fd7cf6a5d4b1a2432452e817fbf5827c7dbb54d8ca5647c722b4",
+      "facts": {
+        "title": "Na zonsondergang",
+        "isbn13": "9789021062440",
+        "language": "Nederlands",
+        "publicationDate": null,
+        "translator": null,
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/aardedonker-zonder-sterren/",
+      "editionId": "edn:000063",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/aardedonker-zonder-sterren/",
+      "sha256": "0458de69a94cab39782bba80a7a59ce1a92f6a5b8869dc64b806897794d6dfe9",
+      "facts": {
+        "title": "Aardedonker, zonder sterren",
+        "isbn13": "9789024578115",
+        "language": "Nederlands",
+        "publicationDate": null,
+        "translator": "Hugo Kuipers",
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/de-bazaar-van-boze-dromen/",
+      "editionId": "edn:000064",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/de-bazaar-van-boze-dromen/",
+      "sha256": "ca68486ce89ce93e57bb49954f27a37516149e0e229cdc3db28410cf2974507c",
+      "facts": {
+        "title": "De bazaar van boze dromen",
+        "isbn13": "9789021022925",
+        "language": "Nederlands",
+        "publicationDate": null,
+        "translator": null,
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/dichte-mist-pod/",
+      "editionId": "edn:000065",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/dichte-mist-pod/",
+      "sha256": "64f4ea0d8ad7b7b4bdd9f37a84f4cec3e05d124431a511932580ac524525c9b3",
+      "facts": {
+        "title": "Dichte mist (POD)",
+        "isbn13": "9789021037226",
+        "language": "Nederlands",
+        "publicationDate": null,
+        "translator": null,
+        "format": "Paperback"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/een-goed-huwelijk/",
+      "editionId": "edn:000066",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/een-goed-huwelijk/",
+      "sha256": "376ebcf339525ad822cb5dcf353a09acd0608031d01a1f974e07f21820e8a0c3",
+      "facts": {
+        "title": "Een goed huwelijk",
+        "isbn13": "9789024567515",
+        "language": "Nederlands",
+        "publicationDate": "27-11-2014",
+        "translator": "Hugo Kuipers",
+        "format": "Ebook"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/mijl-81/",
+      "editionId": "edn:000067",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/mijl-81/",
+      "sha256": "c1513e6fedae8ac194e2d1a551214f35e6d4d38b12248b0741054b973b90739e",
+      "facts": {
+        "title": "Mijl 81",
+        "isbn13": "9789024552290",
+        "language": "Nederlands",
+        "publicationDate": "17-11-2011",
+        "translator": "Hugo Kuipers",
+        "format": "Ebook"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/het-hoge-gras/",
+      "editionId": "edn:000068",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/het-hoge-gras/",
+      "sha256": "e369e8a73c622ac74277d86b55cf75212690140526f8fb6a947b9fd9bea334b9",
+      "facts": {
+        "title": "Het hoge gras",
+        "isbn13": "9789024561179",
+        "language": "Nederlands",
+        "publicationDate": "07-06-2013",
+        "translator": "Dieuwke van der Veen",
+        "format": "Ebook"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/hoogste-versnelling/",
+      "editionId": "edn:000069",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/hoogste-versnelling/",
+      "sha256": "304e4b223d9def08c1a02d39038b3bdcd4e8878d6f2fefeb9d126b6aa2339242",
+      "facts": {
+        "title": "Hoogste versnelling",
+        "isbn13": "9789024561186",
+        "language": "Nederlands",
+        "publicationDate": "11-06-2013",
+        "translator": null,
+        "format": "Ebook"
+      }
+    },
+    {
+      "url": "https://www.lsuitgeverij.nl/boek/christine-ebook/",
+      "editionId": "edn:000154",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://www.lsuitgeverij.nl/boek/christine-ebook/",
+      "sha256": "fd6e72a187c5609fc666b74c5fddfaa68b58ad8a0103fb3ce582aa23d84ce1da",
+      "facts": {
+        "title": "Christine",
+        "isbn13": "9789024561575",
+        "language": "Nederlands",
+        "publicationDate": "10-07-2019",
+        "translator": "Margot Bakker",
+        "format": "Ebook"
+      }
+    },
+    {
+      "url": "https://stephenking.com/works/poem/paranoid-a-chant.html",
+      "legacyStoryId": "stories:paranoid-a-chant",
+      "purpose": "reported-date-gap",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://stephenking.com/works/poem/paranoid-a-chant.html",
+      "sha256": "3b91e046b53735175b18506aa9ef040a5c29173f021f0715c591d358e0e71f50",
+      "facts": {
+        "title": "Paranoid: A Chant",
+        "released": "June 1985",
+        "publisher": null,
+        "formats": null,
+        "projectType": null
+      }
+    },
+    {
+      "url": "https://stephenking.com/works/poem/for-owen.html",
+      "legacyStoryId": "stories:for-owen",
+      "purpose": "reported-date-gap",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://stephenking.com/works/poem/for-owen.html",
+      "sha256": "24b19f3c6c9f9b4440d8147b2114601662828a784fb5d1272da7548a16659126",
+      "facts": {
+        "title": "For Owen",
+        "released": "June 1985",
+        "publisher": null,
+        "formats": null,
+        "projectType": null
+      }
+    },
+    {
+      "url": "https://stephenking.com/works/screenplay/sorry-right-number.html",
+      "legacyStoryId": "stories:sorry-right-number",
+      "purpose": "reported-date-gap",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://stephenking.com/works/screenplay/sorry-right-number.html",
+      "sha256": "9d14408b76e8e892807850e69ea16dbcc4f776b9f1a8119b17349549831b391a",
+      "facts": {
+        "title": "Sorry, Right Number",
+        "released": "October 1993",
+        "publisher": "Viking Press",
+        "formats": "Not Available in Print",
+        "projectType": null
+      }
+    },
+    {
+      "url": "https://stephenking.com/works/essay/head-down.html",
+      "legacyStoryId": "stories:head-down",
+      "purpose": "reported-date-gap",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://stephenking.com/works/essay/head-down.html",
+      "sha256": "851dc30c05b9953cec11146b2bd80980dfbe6c7170598805b0445b4176a2c7a4",
+      "facts": {
+        "title": "Head Down",
+        "released": "October 1993",
+        "publisher": null,
+        "formats": null,
+        "projectType": null
+      }
+    },
+    {
+      "url": "https://stephenking.com/works/poem/brooklyn-august.html",
+      "legacyStoryId": "stories:brooklyn-august",
+      "purpose": "reported-date-gap",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://stephenking.com/works/poem/brooklyn-august.html",
+      "sha256": "ff273aa88a3b4c8155fc05abb69589711b4b56a27e70f0e82c3a272364099055",
+      "facts": {
+        "title": "Brooklyn August",
+        "released": "October 1993",
+        "publisher": null,
+        "formats": null,
+        "projectType": null
+      }
+    },
+    {
+      "url": "https://stephenking.com/works/short/fifth-step.html",
+      "legacyStoryId": "stories:the-fifth-step",
+      "purpose": "reported-date-gap",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://stephenking.com/works/short/fifth-step.html",
+      "sha256": "194033fb4b314e92bdb1555ff6ce9fdaf6e0a23bbd2977f9bd676ae6c15f6b3d",
+      "facts": {
+        "title": "The Fifth Step",
+        "released": "Unreleased",
+        "publisher": null,
+        "formats": null,
+        "projectType": null
+      }
+    },
+    {
+      "url": "https://stephenking.com/works/short/willie-the-weirdo.html",
+      "legacyStoryId": "stories:willie-the-weirdo",
+      "purpose": "reported-date-gap",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://stephenking.com/works/short/willie-the-weirdo.html",
+      "sha256": "421fda2890955a414561697830495f4fc4fe560c9fc1609c011d40d5ff19c7fa",
+      "facts": {
+        "title": "Willie the Weirdo",
+        "released": "Unreleased",
+        "publisher": null,
+        "formats": null,
+        "projectType": null
+      }
+    },
+    {
+      "url": "https://stephenking.com/works/short/finn.html",
+      "legacyStoryId": "stories:finn",
+      "purpose": "reported-date-gap",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://stephenking.com/works/short/finn.html",
+      "sha256": "c8766d5bd0630a70c44474ae3f3e0ddcbf5fbd06543acd0dcf7d6f2830473de4",
+      "facts": {
+        "title": "Finn",
+        "released": "Unreleased",
+        "publisher": null,
+        "formats": null,
+        "projectType": null
+      }
+    },
+    {
+      "url": "https://stephenking.com/works/short/on-slide-inn-road.html",
+      "legacyStoryId": "stories:on-slide-inn-road",
+      "purpose": "reported-date-gap",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://stephenking.com/works/short/on-slide-inn-road.html",
+      "sha256": "7aedcf1706befe526076cc71ebcc1514a4c12327168435ddb3aeedca497aa513",
+      "facts": {
+        "title": "On Slide Inn Road",
+        "released": "Unreleased",
+        "publisher": null,
+        "formats": null,
+        "projectType": null
+      }
+    },
+    {
+      "url": "https://stephenking.com/works/short/red-screen.html",
+      "legacyStoryId": "stories:red-screen",
+      "purpose": "reported-date-gap",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://stephenking.com/works/short/red-screen.html",
+      "sha256": "60cad74c734ef5493f322e1add97873c2e3667f1f43efe635d3d360b0380a67e",
+      "facts": {
+        "title": "Red Screen",
+        "released": "Unreleased",
+        "publisher": null,
+        "formats": null,
+        "projectType": null
+      }
+    },
+    {
+      "url": "https://stephenking.com/works/short/a-death.html",
+      "legacyStoryId": "stories:a-death",
+      "purpose": "reported-date-gap",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://stephenking.com/works/short/a-death.html",
+      "sha256": "bcd5a3a7759476cc42ce587b07d04aabb0bcf5ffd4619c331bd070ac4b2a69b1",
+      "facts": {
+        "title": "A Death",
+        "released": "Unreleased",
+        "publisher": null,
+        "formats": null,
+        "projectType": null
+      }
+    },
+    {
+      "url": "https://stephenking.com/works/poem/bone-church.html",
+      "legacyStoryId": "stories:the-bone-church",
+      "purpose": "reported-date-gap",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://stephenking.com/works/poem/bone-church.html",
+      "sha256": "1774f66e90d3268ef1ba33bffbc251c9d44a963959d22ff12818285858642340",
+      "facts": {
+        "title": "The Bone Church",
+        "released": "November 2015",
+        "publisher": null,
+        "formats": null,
+        "projectType": null
+      }
+    },
+    {
+      "url": "https://stephenking.com/works/short/afterlife.html",
+      "legacyStoryId": "stories:afterlife",
+      "purpose": "reported-date-gap",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://stephenking.com/works/short/afterlife.html",
+      "sha256": "3a356199a6f1de7694c383a4405c4cb00c78000c55a8eadf146e7845302b3272",
+      "facts": {
+        "title": "Afterlife",
+        "released": "Unreleased",
+        "publisher": null,
+        "formats": null,
+        "projectType": null
+      }
+    },
+    {
+      "url": "https://stephenking.com/works/poem/tommy.html",
+      "legacyStoryId": "stories:tommy",
+      "purpose": "reported-date-gap",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://stephenking.com/works/poem/tommy.html",
+      "sha256": "b6ca02c51a1d267c04e68ee1852ac572800dd0679055bfb45df5f701455b9fde",
+      "facts": {
+        "title": "Tommy",
+        "released": "November 2015",
+        "publisher": null,
+        "formats": null,
+        "projectType": null
+      }
+    },
+    {
+      "url": "https://stephenking.com/works/short/that-bus-is-another-world.html",
+      "legacyStoryId": "stories:that-bus-is-another-world",
+      "purpose": "reported-date-gap",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://stephenking.com/works/short/that-bus-is-another-world.html",
+      "sha256": "a7e3db328953679f8a63641d64f2ea0c3cb39ab741261fd6f3a9609b6b409028",
+      "facts": {
+        "title": "That Bus Is Another World",
+        "released": "Unreleased",
+        "publisher": null,
+        "formats": null,
+        "projectType": null
+      }
+    },
+    {
+      "url": "https://stephenking.com/works/short/a-face-in-the-crowd.html",
+      "legacyStoryId": "stories:a-face-in-the-crowd",
+      "purpose": "reported-date-gap",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://stephenking.com/works/short/a-face-in-the-crowd.html",
+      "sha256": "1230689b7e1187c197582c1b685df08d01abd4f08384ca95d58ec0db9a514556",
+      "facts": {
+        "title": "A Face in the Crowd",
+        "released": "Unreleased",
+        "publisher": null,
+        "formats": null,
+        "projectType": null
+      }
+    },
+    {
+      "url": "https://stephenking.com/works/short/before-the-play.html",
+      "legacyStoryId": "stories:before-the-play",
+      "purpose": "reported-date-gap",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://stephenking.com/works/short/before-the-play.html",
+      "sha256": "6070136ab24d26abd77f1abb89b50132bc51d4a23145a03328b586d71d328bc4",
+      "facts": {
+        "title": "Before the Play",
+        "released": "Unreleased",
+        "publisher": null,
+        "formats": null,
+        "projectType": null
+      }
+    },
+    {
+      "url": "https://stephenking.com/works/short/cookie-jar.html",
+      "legacyStoryId": "stories:cookie-jar",
+      "purpose": "reported-date-gap",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://stephenking.com/works/short/cookie-jar.html",
+      "sha256": "9f81ad699bc6a94fce142eb1cb1dcb798322dac4fa1dc03656f8c699adca01d5",
+      "facts": {
+        "title": "Cookie Jar",
+        "released": "Unreleased",
+        "publisher": null,
+        "formats": null,
+        "projectType": null
+      }
+    },
+    {
+      "url": "https://stephenking.com/works/short/dinahs-hat.html",
+      "legacyStoryId": "stories:dinah-s-hat",
+      "purpose": "reported-date-gap",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://stephenking.com/works/short/dinahs-hat.html",
+      "sha256": "9208c38e51d7dd4c579446760941d28d9d4cb105bf0c6026edaaf9cdcab17d8b",
+      "facts": {
+        "title": "Dinah's Hat",
+        "released": "Unreleased",
+        "publisher": null,
+        "formats": null,
+        "projectType": null
+      }
+    },
+    {
+      "url": "https://stephenking.com/works/short/extra-hour.html",
+      "legacyStoryId": "stories:the-extra-hour",
+      "purpose": "reported-date-gap",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://stephenking.com/works/short/extra-hour.html",
+      "sha256": "5c20792fa8b4dd3af8cdbe590320ddb52a68da350a938e5d5a4447f53833f139",
+      "facts": {
+        "title": "The Extra Hour",
+        "released": "Unreleased",
+        "publisher": null,
+        "formats": null,
+        "projectType": null
+      }
+    },
+    {
+      "url": "https://stephenking.com/works/short/fathers-day.html",
+      "legacyStoryId": "stories:father-s-day",
+      "purpose": "reported-date-gap",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://stephenking.com/works/short/fathers-day.html",
+      "sha256": "fe494fc5b3d352e211bf290694d53f41c42aa204bc9feb2e0f1adb2e7727745a",
+      "facts": {
+        "title": "Father's Day",
+        "released": "Unreleased",
+        "publisher": null,
+        "formats": null,
+        "projectType": null
+      }
+    },
+    {
+      "url": "https://stephenking.com/works/short/glass-floor.html",
+      "legacyStoryId": "stories:the-glass-floor",
+      "purpose": "reported-date-gap",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://stephenking.com/works/short/glass-floor.html",
+      "sha256": "118cfa17f5fb406726ab0cb0165995e2e55141b355679fc37647f8529d33f0c6",
+      "facts": {
+        "title": "The Glass Floor",
+        "released": "Unreleased",
+        "publisher": null,
+        "formats": null,
+        "projectType": null
+      }
+    },
+    {
+      "url": "https://stephenking.com/works/short/jumper.html",
+      "legacyStoryId": "stories:jumper",
+      "purpose": "reported-date-gap",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://stephenking.com/works/short/jumper.html",
+      "sha256": "4755fc695b583b97ffdd7745a7c5a9d3956a89f3ec753916d1649f0bf341afbe",
+      "facts": {
+        "title": "Jumper",
+        "released": "Unreleased",
+        "publisher": null,
+        "formats": null,
+        "projectType": null
+      }
+    },
+    {
+      "url": "https://stephenking.com/works/short/lonesome-death-of-jordy-verrill.html",
+      "legacyStoryId": "stories:the-lonesome-death-of-jordy-verrill",
+      "purpose": "reported-date-gap",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://stephenking.com/works/short/lonesome-death-of-jordy-verrill.html",
+      "sha256": "c2b9b166e9f6ebbefdffa5887ee00b3f9dd094c90cf27e6d5f2a7a36b533b9ed",
+      "facts": {
+        "title": "The Lonesome Death of Jordy Verrill",
+        "released": "Unreleased",
+        "publisher": null,
+        "formats": null,
+        "projectType": null
+      }
+    },
+    {
+      "url": "https://stephenking.com/works/short/man-with-a-belly.html",
+      "legacyStoryId": "stories:man-with-a-belly",
+      "purpose": "reported-date-gap",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://stephenking.com/works/short/man-with-a-belly.html",
+      "sha256": "0c0818c3c6fa872defec38894a48fbc76d11a74a452fd2457d6394e9224eb7e7",
+      "facts": {
+        "title": "Man With a Belly",
+        "released": "Unreleased",
+        "publisher": null,
+        "formats": null,
+        "projectType": null
+      }
+    },
+    {
+      "url": "https://stephenking.com/works/short/memory.html",
+      "legacyStoryId": "stories:memory",
+      "purpose": "reported-date-gap",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://stephenking.com/works/short/memory.html",
+      "sha256": "c4a4b33241b121b3ab3176b2fd337b57730cec8a2a8dbd74246a9806e908c206",
+      "facts": {
+        "title": "Memory",
+        "released": "Unreleased",
+        "publisher": null,
+        "formats": null,
+        "projectType": null
+      }
+    },
+    {
+      "url": "https://stephenking.com/works/short/old-dudes-ticker.html",
+      "legacyStoryId": "stories:the-old-dude-s-ticker",
+      "purpose": "reported-date-gap",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://stephenking.com/works/short/old-dudes-ticker.html",
+      "sha256": "9a456c0c960bd232c29f24840dc3b9d675c102315da93340e33df4717b6100fc",
+      "facts": {
+        "title": "The Old Dude's Ticker",
+        "released": "Unreleased",
+        "publisher": null,
+        "formats": null,
+        "projectType": null
+      }
+    },
+    {
+      "url": "https://stephenking.com/works/short/something-to-tide-you-over.html",
+      "legacyStoryId": "stories:something-to-tide-you-over",
+      "purpose": "reported-date-gap",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://stephenking.com/works/short/something-to-tide-you-over.html",
+      "sha256": "257599ea18e7ad90e84d37d0bf7f1f36ab9eafe388bcbe0ca9f9514daed9172e",
+      "facts": {
+        "title": "Something to Tide You Over",
+        "released": "Unreleased",
+        "publisher": null,
+        "formats": null,
+        "projectType": null
+      }
+    },
+    {
+      "url": "https://stephenking.com/works/short/they-re-creeping-up-on-you.html",
+      "legacyStoryId": "stories:they-re-creeping-up-on-you",
+      "purpose": "reported-date-gap",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://stephenking.com/works/short/they-re-creeping-up-on-you.html",
+      "sha256": "72a8e100ce0834d2c0536f4826b16c2324466a5e7dc4e8dcbf51b3d3139f1241",
+      "facts": {
+        "title": "They're Creeping Up on You",
+        "released": "Unreleased",
+        "publisher": null,
+        "formats": null,
+        "projectType": null
+      }
+    },
+    {
+      "url": "https://stephenking.com/works/short/thin-scenery.html",
+      "legacyStoryId": "stories:thin-scenery",
+      "purpose": "reported-date-gap",
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://stephenking.com/works/short/thin-scenery.html",
+      "sha256": "d75cbbdf4f36f0c5dfeb83b5cd63b05671bd3ecc88741f136e0d3aac275455ac",
+      "facts": {
+        "title": "Thin Scenery",
+        "released": "Unreleased",
+        "publisher": null,
+        "formats": null,
+        "projectType": null
+      }
+    },
+    {
+      "url": "https://stephenking.com/works/nonfiction/on-writing-a-memoir-of-the-craft.html",
+      "dossier": 1,
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://stephenking.com/works/nonfiction/on-writing-a-memoir-of-the-craft.html",
+      "sha256": "f1b74a87732ad129343f84259321e5e7aac54f2d6973f50c0e5804c72ca7c430",
+      "facts": {
+        "title": "On Writing: A Memoir of the Craft",
+        "released": "2000",
+        "publisher": "Scribner",
+        "formats": "Hardcover / Paperback / eBook / Audiobook",
+        "projectType": null
+      }
+    },
+    {
+      "url": "https://stephenking.com/works/nonfiction/danse-macabre.html",
+      "dossier": 2,
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://stephenking.com/works/nonfiction/danse-macabre.html",
+      "sha256": "57f8330a0ef3b3d46b93deba081c997ea571119510b815ba54d8bef7244bdf75",
+      "facts": {
+        "title": "Danse Macabre",
+        "released": "1981",
+        "publisher": null,
+        "formats": "Hardcover / Paperback / CD / Limited Edition",
+        "projectType": null
+      }
+    },
+    {
+      "url": "https://stephenking.com/works/nonfiction/guns.html",
+      "dossier": 3,
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://stephenking.com/works/nonfiction/guns.html",
+      "sha256": "5a9e7655dbb3713f0a71b5a144c56deb885b45e0b39ec39b3ab4e7a98dc2263c",
+      "facts": {
+        "title": "GUNS",
+        "released": "January 2013",
+        "publisher": "Amazon (Kindle Single)",
+        "formats": "Amazon Kindle Single",
+        "projectType": null
+      }
+    },
+    {
+      "url": "https://stephenking.com/works/nonfiction/secret-windows-essays-and-fiction-on-the-craft-of-writing.html",
+      "dossier": 4,
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://stephenking.com/works/nonfiction/secret-windows-essays-and-fiction-on-the-craft-of-writing.html",
+      "sha256": "b551977b6951c66ff7e7bb04e45117d3ce4003f111da2b0424dc9823b52abbec",
+      "facts": {
+        "title": "Secret Windows: Essays and Fiction on the Craft of Writing",
+        "released": "2000",
+        "publisher": "Book of the Month Club",
+        "formats": "Hardcover",
+        "projectType": null
+      }
+    },
+    {
+      "url": "https://stephenking.com/works/other-project/charlie-the-choo-choo.html",
+      "dossier": 5,
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://stephenking.com/works/other-project/charlie-the-choo-choo.html",
+      "sha256": "2114d8932b96898902460533f4b6f9091ba0f265e0843165f0c3b296553abc36",
+      "facts": {
+        "title": "Charlie the Choo-Choo",
+        "released": "November 2016",
+        "publisher": null,
+        "formats": "Hardcover / eBook",
+        "projectType": "Children's Book"
+      }
+    },
+    {
+      "url": "https://stephenking.com/works/other-project/hansel-and-gretel.html",
+      "dossier": 6,
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://stephenking.com/works/other-project/hansel-and-gretel.html",
+      "sha256": "13da99a9f5effc6f2aa2a57073009c2699bd67208e55bb310ef11d0bfc8fc732",
+      "facts": {
+        "title": "Hansel and Gretel",
+        "released": "September 2025",
+        "publisher": null,
+        "formats": "Hardcover",
+        "projectType": "Children's Book"
+      }
+    },
+    {
+      "url": "https://stephenking.com/works/other-project/plant-zenith-rising.html",
+      "dossier": 7,
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://stephenking.com/works/other-project/plant-zenith-rising.html",
+      "sha256": "e0a49b781ddff40e6b951db59a8115dff972807f52047949b0786854b64b2d99",
+      "facts": {
+        "title": "The Plant: Zenith Rising",
+        "released": "2000",
+        "publisher": null,
+        "formats": "eBook",
+        "projectType": "eBook"
+      }
+    },
+    {
+      "url": "https://stephenking.com/works/screenplay/storm-of-the-century.html",
+      "dossier": 8,
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://stephenking.com/works/screenplay/storm-of-the-century.html",
+      "sha256": "99f021c80bc0ff6ab142272259c50a85a6ca52fad8697e44aad1e7079a223f90",
+      "facts": {
+        "title": "Storm of the Century",
+        "released": "February 1999",
+        "publisher": "Pocket Books",
+        "formats": "Paperback",
+        "projectType": null
+      }
+    },
+    {
+      "url": "https://stephenking.com/works/other-project/ghost-brothers-of-darkland-county.html",
+      "dossier": 9,
+      "observedAt": "2026-10-27",
+      "status": 200,
+      "finalUrl": "https://stephenking.com/works/other-project/ghost-brothers-of-darkland-county.html",
+      "sha256": "35aaf57a7c53074c6948563081f3b7e43bc4b71dca19dd08abde3fc5a7a0dcd3",
+      "facts": {
+        "title": "Ghost Brothers of Darkland County",
+        "released": "April 2012",
+        "publisher": null,
+        "formats": "Musical Theater",
+        "projectType": "Theater"
+      }
+    }
+  ]
+}

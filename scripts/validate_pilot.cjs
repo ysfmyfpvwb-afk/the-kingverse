@@ -29,7 +29,8 @@ function validatePilotOutput(out,root=ROOT){
   if(p.media?.src){if(!p.media.src.startsWith('assets/media/')||p.media.src.split('/').includes('..')||!fs.existsSync(path.join(root,p.media.src)))fail('pilot-media',name);if(p.media.officialArtwork&&p.media.reason!=='approved-local')fail('pilot-media-permission',name);}
  }
  if(seen.size!==safe.size)fail('pilot-coverage','Every standard node needs a detail payload');
- if(out.report.counts.allEntities!==546||out.report.counts.nativeConnections!==94)fail('pilot-boundary','Pilot must not invent canonical records');
+ const expectedBundle=require('./build_completion.cjs').loadCompletion(),expectedCount=require('./explorer_ready_model.cjs').NAV_TABLES.reduce((n,t)=>n+expectedBundle[t].length,0);
+ if(out.report.counts.allEntities!==expectedCount||out.full.nodes.length!==expectedCount||out.report.counts.nativeConnections!==94)fail('pilot-boundary','Pilot must not invent canonical records');
  const html=out.files.get('explorer/pilot/index.html');for(const[,url]of html.matchAll(/(?:src|href)="([^"]+)"/g)){if(url.startsWith('#'))continue;const target=new URL(url,'https://example.test/the-kingverse/explorer/pilot/');if(!target.pathname.startsWith('/the-kingverse/'))fail('pilot-subpath',url);const local=decodeURIComponent(target.pathname.slice('/the-kingverse/'.length))+(target.pathname.endsWith('/')?'index.html':'');if(!out.files.has(local)&&!fs.existsSync(path.join(root,local)))fail('pilot-shell-link',url);}
  return errors;
 }

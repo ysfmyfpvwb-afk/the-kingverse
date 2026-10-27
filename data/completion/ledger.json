@@ -1,0 +1,3981 @@
+{
+  "version": 1,
+  "checked": "2026-10-27",
+  "scope": "Package A only; classifications are not completeness claims",
+  "dossiers": [
+    {
+      "key": "dossier-01",
+      "title": "On Writing: A Memoir of the Craft",
+      "kind": "nonfiction",
+      "url": "https://stephenking.com/works/nonfiction/on-writing-a-memoir-of-the-craft.html",
+      "reportedDate": "2000",
+      "note": "Work date is not the 2020 twentieth-anniversary edition.",
+      "summaryEn": "A memoir about becoming a writer and a practical guide to the craft, bringing together King’s personal experience and advice on storytelling.",
+      "target": {
+        "type": "work",
+        "id": "wrk:000242"
+      },
+      "status": "identity-registered-history-open"
+    },
+    {
+      "key": "dossier-02",
+      "title": "Danse Macabre",
+      "kind": "nonfiction",
+      "url": "https://stephenking.com/works/nonfiction/danse-macabre.html",
+      "reportedDate": "1981",
+      "note": "2010 edition is not a new work.",
+      "summaryEn": "King explores the horror genre through books, film and television, reflecting on the stories and ideas that have shaped it.",
+      "target": {
+        "type": "work",
+        "id": "wrk:000243"
+      },
+      "status": "identity-registered-history-open"
+    },
+    {
+      "key": "dossier-03",
+      "title": "GUNS",
+      "kind": "essay",
+      "url": "https://stephenking.com/works/nonfiction/guns.html",
+      "reportedDate": "2013-01",
+      "note": "Essay published as a Kindle Single, not a novel.",
+      "summaryEn": "An essay in which King examines gun violence and the debate over gun control in the United States.",
+      "target": {
+        "type": "work",
+        "id": "wrk:000244"
+      },
+      "status": "identity-registered-history-open"
+    },
+    {
+      "key": "dossier-04",
+      "title": "Secret Windows: Essays and Fiction on the Craft of Writing",
+      "kind": "anthology",
+      "url": "https://stephenking.com/works/nonfiction/secret-windows-essays-and-fiction-on-the-craft-of-writing.html",
+      "reportedDate": "2000",
+      "note": "Mixed nonfiction/fiction anthology; contents incomplete; Peter Straub introduction, not coauthorship.",
+      "summaryEn": "Essays, interviews and fiction about writing, collected alongside early stories and an introduction by Peter Straub.",
+      "target": {
+        "type": "collection",
+        "id": "col:000016"
+      },
+      "status": "identity-registered-history-open"
+    },
+    {
+      "key": "dossier-05",
+      "title": "Charlie the Choo-Choo",
+      "kind": "children-book",
+      "url": "https://stephenking.com/works/other-project/charlie-the-choo-choo.html",
+      "reportedDate": "2016-11",
+      "note": "Beryl Evans is a Stephen King pseudonym; no extra author identity.",
+      "summaryEn": "A picture book about engineer Bob and his unusual train, written by Stephen King as Beryl Evans and illustrated by Ned Dameron.",
+      "target": {
+        "type": "work",
+        "id": "wrk:000245"
+      },
+      "status": "identity-registered-history-open"
+    },
+    {
+      "key": "dossier-06",
+      "title": "Hansel and Gretel",
+      "kind": "children-book",
+      "url": "https://stephenking.com/works/other-project/hansel-and-gretel.html",
+      "reportedDate": "2025-09",
+      "note": "King retelling and introduction; Maurice Sendak illustrations, not textual coauthorship.",
+      "summaryEn": "King retells the classic fairy tale with illustrations by Maurice Sendak, bringing two distinctive imaginations to a familiar journey into the woods.",
+      "target": {
+        "type": "work",
+        "id": "wrk:000246"
+      },
+      "status": "identity-registered-history-open"
+    },
+    {
+      "key": "dossier-07",
+      "title": "The Plant: Zenith Rising",
+      "kind": "novel",
+      "url": "https://stephenking.com/works/other-project/plant-zenith-rising.html",
+      "reportedDate": "2000",
+      "note": "Unfinished novel; six 2000 installments and earlier limited parts are manifestations, not six works.",
+      "summaryEn": "An unfinished novel released in installments, centred on a small publishing house and an unexpected delivery.",
+      "target": {
+        "type": "work",
+        "id": "wrk:000247"
+      },
+      "status": "identity-registered-history-open"
+    },
+    {
+      "key": "dossier-08",
+      "title": "Storm of the Century",
+      "kind": "screenplay",
+      "url": "https://stephenking.com/works/screenplay/storm-of-the-century.html",
+      "reportedDate": "1999-02",
+      "note": "Published original screenplay; not a preceding novel; existing TV identity untouched.",
+      "summaryEn": "King’s published original screenplay follows an isolated island community as a fierce winter storm approaches.",
+      "target": {
+        "type": "work",
+        "id": "wrk:000248"
+      },
+      "status": "identity-registered-history-open"
+    },
+    {
+      "key": "dossier-09",
+      "title": "Ghost Brothers of Darkland County",
+      "kind": "dramatic-work",
+      "url": "https://stephenking.com/works/other-project/ghost-brothers-of-darkland-county.html",
+      "reportedDate": "2012-04",
+      "note": "Dramatic work: King book/libretto; John Mellencamp music/lyrics; stage premiere is not book publication.",
+      "summaryEn": "A stage musical with a book by Stephen King and music and lyrics by John Mellencamp, weaving a ghost story through a roots-inspired score.",
+      "target": {
+        "type": "work",
+        "id": "wrk:000249"
+      },
+      "status": "identity-registered-history-open"
+    }
+  ],
+  "editions": [
+    {
+      "editionId": "edn:000001",
+      "language": "nl",
+      "title": "De talisman (POD)",
+      "isbn13": "9789021037400",
+      "control": true,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13",
+        "publicationDate"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "translator"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/de-talisman-pod/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000002",
+      "language": "en",
+      "title": "The Talisman",
+      "isbn13": null,
+      "control": true,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": "https://stephenking.com/works/novel/talisman.html",
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000003",
+      "language": "nl",
+      "title": "Zwart Huis",
+      "isbn13": "9789021048383",
+      "control": true,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13",
+        "publicationDate"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "translator"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/zwart-huis/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000004",
+      "language": "en",
+      "title": "Black House",
+      "isbn13": null,
+      "control": true,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": "https://stephenking.com/works/novel/black-house.html",
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000005",
+      "language": "nl",
+      "title": "Carrie",
+      "isbn13": "9789024591350",
+      "control": true,
+      "status": "conflicting-isbn-retained",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "publisher",
+        "publicationDate",
+        "format",
+        "translator"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/carrie-2/",
+      "observedFacts": {
+        "title": "Carrie",
+        "isbn13": "9789024572045",
+        "language": "Nederlands",
+        "publicationDate": "27-10-2015",
+        "translator": "Ingrid Nijkerk",
+        "format": "Ebook"
+      },
+      "reason": "No enrichment without exact ISBN and actual edition language agreement."
+    },
+    {
+      "editionId": "edn:000006",
+      "language": "nl",
+      "title": "Bezeten stad",
+      "isbn13": "9789024578108",
+      "control": true,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "publicationDate",
+        "translator"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/bezeten-stad/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000007",
+      "language": "nl",
+      "title": "De Shining (luxe editie)",
+      "isbn13": "9789021066561",
+      "control": true,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13",
+        "publicationDate"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "translator"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/de-shining/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000008",
+      "language": "nl",
+      "title": "De Beproeving",
+      "isbn13": "9789021027791",
+      "control": true,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "publicationDate",
+        "translator"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/de-beproeving/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000009",
+      "language": "nl",
+      "title": "De marathon",
+      "isbn13": "9789021025131",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13",
+        "translationCredits"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "publicationDate"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/de-marathon/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000010",
+      "language": "nl",
+      "title": "Dodelijk dilemma",
+      "isbn13": "9789021043425",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "publicationDate",
+        "translator"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/dodelijk-dilemma/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000011",
+      "language": "nl",
+      "title": "Ogen van vuur",
+      "isbn13": "9789024578146",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13",
+        "translationCredits"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "publicationDate"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/ogen-van-vuur/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000012",
+      "language": "nl",
+      "title": "Werk in uitvoering",
+      "isbn13": "9789024578214",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13",
+        "translationCredits"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "publicationDate"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/werk-in-uitvoering/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000013",
+      "language": "nl",
+      "title": "Cujo",
+      "isbn13": "9789021031354",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13",
+        "publicationDate"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "translator"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/cujo/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000014",
+      "language": "nl",
+      "title": "Vlucht naar de top",
+      "isbn13": "9789021043449",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13",
+        "publicationDate"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "translator"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/vlucht-naar-de-top/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000015",
+      "language": "nl",
+      "title": "De scherpschutter",
+      "isbn13": "9789021049151",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13",
+        "publicationDate"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "translator"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/de-scherpschutter/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000016",
+      "language": "nl",
+      "title": "Dodenwake",
+      "isbn13": "9789021015873",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13",
+        "translationCredits"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "publicationDate"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/dodenwake/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000017",
+      "language": "nl",
+      "title": "De vervloeking",
+      "isbn13": "9789021062419",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "publicationDate",
+        "translator"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/de-vervloeking/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000018",
+      "language": "nl",
+      "title": "IT",
+      "isbn13": "9789021027432",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13",
+        "translationCredits"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "publicationDate"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/it/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000019",
+      "language": "nl",
+      "title": "Ogen van de Draak",
+      "isbn13": "9789021025261",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13",
+        "translationCredits"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "publicationDate"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/ogen-van-de-draak/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000020",
+      "language": "nl",
+      "title": "Misery",
+      "isbn13": "9789024578160",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13",
+        "translationCredits"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "publicationDate"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/misery/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000021",
+      "language": "nl",
+      "title": "Het teken van drie",
+      "isbn13": "9789021051420",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13",
+        "publicationDate"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "translator"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/het-teken-van-drie/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000022",
+      "language": "nl",
+      "title": "De gloed",
+      "isbn13": "9789021048390",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13",
+        "publicationDate"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "translator"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/de-gloed-3/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000023",
+      "language": "nl",
+      "title": "De duistere kant",
+      "isbn13": "9789021066547",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13",
+        "publicationDate"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "translator"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/de-duistere-kant/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000024",
+      "language": "nl",
+      "title": "Het verloren rijk",
+      "isbn13": "9789021053653",
+      "control": false,
+      "status": "blocked-missing-edition-page",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "publisher",
+        "publicationDate",
+        "format",
+        "translator"
+      ],
+      "sourceUrl": null,
+      "observedFacts": null,
+      "reason": "No enrichment without exact ISBN and actual edition language agreement."
+    },
+    {
+      "editionId": "edn:000025",
+      "language": "nl",
+      "title": "De noodzaak",
+      "isbn13": "9789021037264",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13",
+        "translationCredits"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "publicationDate"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/de-noodzaak/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000026",
+      "language": "nl",
+      "title": "De spelbreker",
+      "isbn13": "9789021048413",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13",
+        "publicationDate"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "translator"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/de-spelbreker/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000027",
+      "language": "nl",
+      "title": "Dolores Claiborne",
+      "isbn13": "9789021064383",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "publicationDate",
+        "translator"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/dolores-claiborne/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000028",
+      "language": "nl",
+      "title": "Insomnia",
+      "isbn13": "9789021049144",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13",
+        "publicationDate"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "translator"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/insomnia/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000029",
+      "language": "nl",
+      "title": "Rosie",
+      "isbn13": "9789021037431",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13",
+        "translationCredits"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "publicationDate"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/rosie/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000030",
+      "language": "nl",
+      "title": "De groene mijl",
+      "isbn13": "9789021025360",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13",
+        "translationCredits"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "publicationDate"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/de-groene-mijl/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000031",
+      "language": "nl",
+      "title": "Desperation",
+      "isbn13": "9789021036830",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13",
+        "publicationDate",
+        "translationCredits"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/desperation/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000032",
+      "language": "nl",
+      "title": "De regelaars",
+      "isbn13": "9789021037301",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13",
+        "translationCredits"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "publicationDate"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/de-regelaars/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000033",
+      "language": "nl",
+      "title": "Tovenaarsglas",
+      "isbn13": "9789021055725",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13",
+        "publicationDate",
+        "translationCredits"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/tovenaarsglas/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000034",
+      "language": "nl",
+      "title": "Vel over been",
+      "isbn13": "9789021037325",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13",
+        "translationCredits"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "publicationDate"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/vel-over-been/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000035",
+      "language": "nl",
+      "title": "Het meisje dat hield van Tom Gordon",
+      "isbn13": "9789021037332",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "publicationDate",
+        "translator"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/het-meisje-dat-hield-van-tom-gordon/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000036",
+      "language": "nl",
+      "title": "De dromenvanger",
+      "isbn13": "9789021037356",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13",
+        "translationCredits"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "publicationDate"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/de-dromenvanger/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000037",
+      "language": "nl",
+      "title": "Het geheim van de Buick",
+      "isbn13": "9789021037363",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13",
+        "translationCredits"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "publicationDate"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/het-geheim-van-de-buick/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000038",
+      "language": "nl",
+      "title": "Wolven van de Calla",
+      "isbn13": "9789021062433",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13",
+        "translationCredits"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "publicationDate"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/wolven-van-de-calla/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000039",
+      "language": "nl",
+      "title": "Een lied van Susannah",
+      "isbn13": "9789021064390",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "publicationDate",
+        "translator"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/een-lied-van-susannah/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000040",
+      "language": "nl",
+      "title": "De Donkere Toren",
+      "isbn13": "9789021066554",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13",
+        "publicationDate"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "translator"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/de-donkere-toren/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000041",
+      "language": "nl",
+      "title": "De Colorado Kid",
+      "isbn13": "9789024578207",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "publicationDate",
+        "translator"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/de-colorado-kid/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000042",
+      "language": "nl",
+      "title": "Mobiel",
+      "isbn13": "9789021037448",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13",
+        "translationCredits"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "publicationDate"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/mobiel/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000043",
+      "language": "nl",
+      "title": "Lisey's verhaal",
+      "isbn13": "9789021030098",
+      "control": false,
+      "status": "blocked-missing-edition-page",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "publisher",
+        "publicationDate",
+        "format",
+        "translator"
+      ],
+      "sourceUrl": null,
+      "observedFacts": null,
+      "reason": "No enrichment without exact ISBN and actual edition language agreement."
+    },
+    {
+      "editionId": "edn:000044",
+      "language": "nl",
+      "title": "De ontvoering",
+      "isbn13": "9789021059662",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "publicationDate",
+        "translator"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/de-ontvoering/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000045",
+      "language": "nl",
+      "title": "Duma",
+      "isbn13": "9789021055718",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13",
+        "publicationDate",
+        "translationCredits"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/duma/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000046",
+      "language": "nl",
+      "title": "Under the Dome (Gevangen)",
+      "isbn13": "9789021026152",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13",
+        "translationCredits"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "publicationDate"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/gevangen/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000047",
+      "language": "nl",
+      "title": "11.22.63 (22-11-1963)",
+      "isbn13": "9789021019321",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13",
+        "publicationDate",
+        "translationCredits"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/11-22-63-22-11-1963/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000048",
+      "language": "nl",
+      "title": "De wind door het sleutelgat",
+      "isbn13": "9789021037653",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13",
+        "translationCredits"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "publicationDate"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/de-wind-door-het-sleutelgat/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000049",
+      "language": "nl",
+      "title": "Joyland",
+      "isbn13": "9789021027784",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "publicationDate",
+        "translator"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/joyland/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000050",
+      "language": "nl",
+      "title": "Dr. Sleep",
+      "isbn13": "9789024576135",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13",
+        "translationCredits"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "publicationDate"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/dr-sleep-2/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000051",
+      "language": "nl",
+      "title": "Mr. Mercedes",
+      "isbn13": "9789021023281",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13",
+        "translationCredits"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "publicationDate"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/mr-mercedes/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000052",
+      "language": "nl",
+      "title": "Revival",
+      "isbn13": "9789021025285",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "publicationDate",
+        "translator"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/revival/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000053",
+      "language": "nl",
+      "title": "De eerlijke vinder",
+      "isbn13": "9789021024417",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "publicationDate",
+        "translator"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/de-eerlijke-vinder/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000054",
+      "language": "nl",
+      "title": "Wisseling van de wacht",
+      "isbn13": "9789021025742",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13",
+        "translationCredits"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "publicationDate"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/wisseling-van-de-wacht/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000055",
+      "language": "nl",
+      "title": "Satanskinderen",
+      "isbn13": "9789024559688",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13",
+        "translationCredits"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "publicationDate"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/satanskinderen/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000056",
+      "language": "nl",
+      "title": "4 seizoenen",
+      "isbn13": "9789024578245",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13",
+        "translationCredits"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "publicationDate"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/4-seizoenen/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000057",
+      "language": "nl",
+      "title": "Duistere krachten",
+      "isbn13": "9789021037196",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13",
+        "translationCredits"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "publicationDate"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/duistere-krachten/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000058",
+      "language": "nl",
+      "title": "Tweeduister",
+      "isbn13": "9789024578047",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13",
+        "translationCredits"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "publicationDate"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/tweeduister/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000059",
+      "language": "nl",
+      "title": "Nachtmerries en droomlandschappen",
+      "isbn13": "9789021039800",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13",
+        "publicationDate",
+        "translationCredits"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/nachtmerries-en-droomlandschappen/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000060",
+      "language": "nl",
+      "title": "Harten in Atlantis",
+      "isbn13": "9789021064468",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13",
+        "publicationDate"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "translator"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/harten-in-atlantis/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000061",
+      "language": "nl",
+      "title": "Alles is eventueel - 1408",
+      "isbn13": "9789021055732",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "publicationDate",
+        "translator"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/alles-is-eventueel-1408/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000062",
+      "language": "nl",
+      "title": "Na zonsondergang",
+      "isbn13": "9789021062440",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "publicationDate",
+        "translator"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/na-zonsondergang/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000063",
+      "language": "nl",
+      "title": "Aardedonker, zonder sterren",
+      "isbn13": "9789024578115",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13",
+        "translationCredits"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "publicationDate"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/aardedonker-zonder-sterren/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000064",
+      "language": "nl",
+      "title": "De bazaar van boze dromen",
+      "isbn13": "9789021022925",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "publicationDate",
+        "translator"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/de-bazaar-van-boze-dromen/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000065",
+      "language": "nl",
+      "title": "Dichte mist (POD)",
+      "isbn13": "9789021037226",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "publicationDate",
+        "translator"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/dichte-mist-pod/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000066",
+      "language": "nl",
+      "title": "Een goed huwelijk",
+      "isbn13": "9789024567515",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13",
+        "publicationDate",
+        "translationCredits"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/een-goed-huwelijk/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000067",
+      "language": "nl",
+      "title": "Mijl 81",
+      "isbn13": "9789024552290",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13",
+        "publicationDate",
+        "translationCredits"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/mijl-81/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000068",
+      "language": "nl",
+      "title": "Het hoge gras",
+      "isbn13": "9789024561179",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13",
+        "publicationDate",
+        "translationCredits"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/het-hoge-gras/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000069",
+      "language": "nl",
+      "title": "Hoogste versnelling",
+      "isbn13": "9789024561186",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13",
+        "publicationDate"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "translator"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/hoogste-versnelling/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    },
+    {
+      "editionId": "edn:000070",
+      "language": "en",
+      "title": "Carrie",
+      "isbn13": null,
+      "control": true,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": "https://stephenking.com/works/novel/carrie.html",
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000071",
+      "language": "en",
+      "title": "'Salem's Lot",
+      "isbn13": null,
+      "control": true,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": "https://stephenking.com/works/novel/salems-lot.html",
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000072",
+      "language": "en",
+      "title": "The Shining",
+      "isbn13": null,
+      "control": true,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": "https://stephenking.com/works/novel/shining.html",
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000073",
+      "language": "en",
+      "title": "Rage",
+      "isbn13": null,
+      "control": true,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": "https://stephenking.com/works/novel/rage.html",
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000074",
+      "language": "en",
+      "title": "The Stand",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000075",
+      "language": "en",
+      "title": "The Long Walk",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000076",
+      "language": "en",
+      "title": "The Dead Zone",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000077",
+      "language": "en",
+      "title": "Firestarter",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000078",
+      "language": "en",
+      "title": "Roadwork",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000079",
+      "language": "en",
+      "title": "Cujo",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000080",
+      "language": "en",
+      "title": "The Running Man",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000081",
+      "language": "en",
+      "title": "The Dark Tower: The Gunslinger",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000082",
+      "language": "en",
+      "title": "Christine",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000083",
+      "language": "en",
+      "title": "Pet Sematary",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000084",
+      "language": "en",
+      "title": "Cycle of the Werewolf",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000085",
+      "language": "en",
+      "title": "Thinner",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000086",
+      "language": "en",
+      "title": "IT",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000087",
+      "language": "en",
+      "title": "The Eyes of the Dragon",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000088",
+      "language": "en",
+      "title": "Misery",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000089",
+      "language": "en",
+      "title": "The Dark Tower: The Drawing of the Three",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000090",
+      "language": "en",
+      "title": "The Tommyknockers",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000091",
+      "language": "en",
+      "title": "The Dark Half",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000092",
+      "language": "en",
+      "title": "The Dark Tower: The Waste Lands",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000093",
+      "language": "en",
+      "title": "Needful Things",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000094",
+      "language": "en",
+      "title": "Gerald's Game",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000095",
+      "language": "en",
+      "title": "Dolores Claiborne",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000096",
+      "language": "en",
+      "title": "Insomnia",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000097",
+      "language": "en",
+      "title": "Rose Madder",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000098",
+      "language": "en",
+      "title": "The Green Mile",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000099",
+      "language": "en",
+      "title": "Desperation",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000100",
+      "language": "en",
+      "title": "The Regulators",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000101",
+      "language": "en",
+      "title": "The Dark Tower: Wizard and Glass",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000102",
+      "language": "en",
+      "title": "Bag of Bones",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000103",
+      "language": "en",
+      "title": "The Girl Who Loved Tom Gordon",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000104",
+      "language": "en",
+      "title": "Dreamcatcher",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000105",
+      "language": "en",
+      "title": "From a Buick 8",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000106",
+      "language": "en",
+      "title": "The Dark Tower: Wolves of the Calla",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000107",
+      "language": "en",
+      "title": "The Dark Tower: Song of Susannah",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000108",
+      "language": "en",
+      "title": "The Dark Tower",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000109",
+      "language": "en",
+      "title": "The Colorado Kid",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000110",
+      "language": "en",
+      "title": "Cell",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000111",
+      "language": "en",
+      "title": "Lisey's Story",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000112",
+      "language": "en",
+      "title": "Blaze",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000113",
+      "language": "en",
+      "title": "Duma Key",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000114",
+      "language": "en",
+      "title": "Under the Dome",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000115",
+      "language": "en",
+      "title": "11/22/63",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000116",
+      "language": "en",
+      "title": "The Dark Tower: The Wind Through the Keyhole",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000117",
+      "language": "en",
+      "title": "Joyland",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000118",
+      "language": "en",
+      "title": "Doctor Sleep",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000119",
+      "language": "en",
+      "title": "Mr. Mercedes",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000120",
+      "language": "en",
+      "title": "Revival",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000121",
+      "language": "en",
+      "title": "Finders Keepers",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000122",
+      "language": "en",
+      "title": "End of Watch",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000123",
+      "language": "en",
+      "title": "Sleeping Beauties",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000124",
+      "language": "en",
+      "title": "Gwendy's Button Box",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000125",
+      "language": "en",
+      "title": "The Outsider",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000126",
+      "language": "en",
+      "title": "Elevation",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000127",
+      "language": "en",
+      "title": "The Institute",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000128",
+      "language": "en",
+      "title": "Later",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000129",
+      "language": "en",
+      "title": "Billy Summers",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000130",
+      "language": "en",
+      "title": "Gwendy's Final Task",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000131",
+      "language": "en",
+      "title": "Fairy Tale",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000132",
+      "language": "en",
+      "title": "Holly",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000133",
+      "language": "en",
+      "title": "You Like It Darker",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000134",
+      "language": "en",
+      "title": "Never Flinch",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000135",
+      "language": "en",
+      "title": "Other Worlds Than These",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000136",
+      "language": "en",
+      "title": "Night Shift",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000137",
+      "language": "en",
+      "title": "Different Seasons",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000138",
+      "language": "en",
+      "title": "Skeleton Crew",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000139",
+      "language": "en",
+      "title": "Four Past Midnight",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000140",
+      "language": "en",
+      "title": "Nightmares & Dreamscapes",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000141",
+      "language": "en",
+      "title": "Hearts in Atlantis",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000142",
+      "language": "en",
+      "title": "Everything's Eventual",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000143",
+      "language": "en",
+      "title": "Just After Sunset",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000144",
+      "language": "en",
+      "title": "Stephen King Goes to the Movies",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000145",
+      "language": "en",
+      "title": "Full Dark, No Stars",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000146",
+      "language": "en",
+      "title": "The Bazaar of Bad Dreams",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000147",
+      "language": "en",
+      "title": "If It Bleeds",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000148",
+      "language": "en",
+      "title": "The Bachman Books",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000149",
+      "language": "en",
+      "title": "Blockade Billy",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000150",
+      "language": "en",
+      "title": "American Vampire",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000151",
+      "language": "en",
+      "title": "Faithful",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000152",
+      "language": "en",
+      "title": "Mid-Life Confidential: The Rock Bottom Remainders Tour America With Three Chords and an Attitude",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000153",
+      "language": "en",
+      "title": "Nightmares in the Sky",
+      "isbn13": null,
+      "control": false,
+      "status": "blocked-specific-edition-evidence",
+      "reviewedFields": [],
+      "open": [
+        "printing",
+        "firstEditionStatus",
+        "isbn13",
+        "publisher",
+        "publicationDate",
+        "format"
+      ],
+      "sourceUrl": null,
+      "reason": "Existing English example lacks ISBN/printing binding. A work page and its list of formats cannot identify the pictured edition."
+    },
+    {
+      "editionId": "edn:000154",
+      "language": "nl",
+      "title": "Christine",
+      "isbn13": "9789024561575",
+      "control": false,
+      "status": "field-enriched-printing-open",
+      "reviewedFields": [
+        "publisher",
+        "format",
+        "title",
+        "language",
+        "isbn13",
+        "publicationDate",
+        "translationCredits"
+      ],
+      "open": [
+        "printing",
+        "firstEditionStatus"
+      ],
+      "sourceUrl": "https://www.lsuitgeverij.nl/boek/christine-ebook/",
+      "reason": "Exact ISBN/language match; no assertion of first printing or complete edition history."
+    }
+  ],
+  "publicationGaps": [
+    {
+      "legacyId": "stories:paranoid-a-chant",
+      "workId": "wrk:000103",
+      "sourceUrl": "https://stephenking.com/works/poem/paranoid-a-chant.html",
+      "reported": "June 1985",
+      "publicationId": "pub:000249",
+      "status": "reported-date-recorded-first-publication-open",
+      "note": "Unreleased header is not evidence of non-publication."
+    },
+    {
+      "legacyId": "stories:for-owen",
+      "workId": "wrk:000110",
+      "sourceUrl": "https://stephenking.com/works/poem/for-owen.html",
+      "reported": "June 1985",
+      "publicationId": "pub:000250",
+      "status": "reported-date-recorded-first-publication-open",
+      "note": "Unreleased header is not evidence of non-publication."
+    },
+    {
+      "legacyId": "stories:sorry-right-number",
+      "workId": "wrk:000136",
+      "sourceUrl": "https://stephenking.com/works/screenplay/sorry-right-number.html",
+      "reported": "October 1993",
+      "publicationId": "pub:000251",
+      "status": "reported-date-recorded-first-publication-open",
+      "note": "Unreleased header is not evidence of non-publication."
+    },
+    {
+      "legacyId": "stories:head-down",
+      "workId": "wrk:000143",
+      "sourceUrl": "https://stephenking.com/works/essay/head-down.html",
+      "reported": "October 1993",
+      "publicationId": "pub:000252",
+      "status": "reported-date-recorded-first-publication-open",
+      "note": "Unreleased header is not evidence of non-publication."
+    },
+    {
+      "legacyId": "stories:brooklyn-august",
+      "workId": "wrk:000144",
+      "sourceUrl": "https://stephenking.com/works/poem/brooklyn-august.html",
+      "reported": "October 1993",
+      "publicationId": "pub:000253",
+      "status": "reported-date-recorded-first-publication-open",
+      "note": "Unreleased header is not evidence of non-publication."
+    },
+    {
+      "legacyId": "stories:the-fifth-step",
+      "workId": "wrk:000187",
+      "sourceUrl": "https://stephenking.com/works/short/fifth-step.html",
+      "reported": "Unreleased",
+      "publicationId": null,
+      "status": "first-publication-research-required",
+      "note": "Unreleased header is not evidence of non-publication."
+    },
+    {
+      "legacyId": "stories:willie-the-weirdo",
+      "workId": "wrk:000188",
+      "sourceUrl": "https://stephenking.com/works/short/willie-the-weirdo.html",
+      "reported": "Unreleased",
+      "publicationId": null,
+      "status": "first-publication-research-required",
+      "note": "Unreleased header is not evidence of non-publication."
+    },
+    {
+      "legacyId": "stories:finn",
+      "workId": "wrk:000190",
+      "sourceUrl": "https://stephenking.com/works/short/finn.html",
+      "reported": "Unreleased",
+      "publicationId": null,
+      "status": "first-publication-research-required",
+      "note": "Unreleased header is not evidence of non-publication."
+    },
+    {
+      "legacyId": "stories:on-slide-inn-road",
+      "workId": "wrk:000191",
+      "sourceUrl": "https://stephenking.com/works/short/on-slide-inn-road.html",
+      "reported": "Unreleased",
+      "publicationId": null,
+      "status": "first-publication-research-required",
+      "note": "Unreleased header is not evidence of non-publication."
+    },
+    {
+      "legacyId": "stories:red-screen",
+      "workId": "wrk:000192",
+      "sourceUrl": "https://stephenking.com/works/short/red-screen.html",
+      "reported": "Unreleased",
+      "publicationId": null,
+      "status": "first-publication-research-required",
+      "note": "Unreleased header is not evidence of non-publication."
+    },
+    {
+      "legacyId": "stories:a-death",
+      "workId": "wrk:000203",
+      "sourceUrl": "https://stephenking.com/works/short/a-death.html",
+      "reported": "Unreleased",
+      "publicationId": null,
+      "status": "first-publication-research-required",
+      "note": "Unreleased header is not evidence of non-publication."
+    },
+    {
+      "legacyId": "stories:the-bone-church",
+      "workId": "wrk:000204",
+      "sourceUrl": "https://stephenking.com/works/poem/bone-church.html",
+      "reported": "November 2015",
+      "publicationId": "pub:000254",
+      "status": "reported-date-recorded-first-publication-open",
+      "note": "Unreleased header is not evidence of non-publication."
+    },
+    {
+      "legacyId": "stories:afterlife",
+      "workId": "wrk:000206",
+      "sourceUrl": "https://stephenking.com/works/short/afterlife.html",
+      "reported": "Unreleased",
+      "publicationId": null,
+      "status": "first-publication-research-required",
+      "note": "Unreleased header is not evidence of non-publication."
+    },
+    {
+      "legacyId": "stories:tommy",
+      "workId": "wrk:000210",
+      "sourceUrl": "https://stephenking.com/works/poem/tommy.html",
+      "reported": "November 2015",
+      "publicationId": "pub:000255",
+      "status": "reported-date-recorded-first-publication-open",
+      "note": "Unreleased header is not evidence of non-publication."
+    },
+    {
+      "legacyId": "stories:that-bus-is-another-world",
+      "workId": "wrk:000212",
+      "sourceUrl": "https://stephenking.com/works/short/that-bus-is-another-world.html",
+      "reported": "Unreleased",
+      "publicationId": null,
+      "status": "first-publication-research-required",
+      "note": "Unreleased header is not evidence of non-publication."
+    },
+    {
+      "legacyId": "stories:a-face-in-the-crowd",
+      "workId": "wrk:000216",
+      "sourceUrl": "https://stephenking.com/works/short/a-face-in-the-crowd.html",
+      "reported": "Unreleased",
+      "publicationId": null,
+      "status": "first-publication-research-required",
+      "note": "Unreleased header is not evidence of non-publication."
+    },
+    {
+      "legacyId": "stories:before-the-play",
+      "workId": "wrk:000217",
+      "sourceUrl": "https://stephenking.com/works/short/before-the-play.html",
+      "reported": "Unreleased",
+      "publicationId": null,
+      "status": "first-publication-research-required",
+      "note": "Unreleased header is not evidence of non-publication."
+    },
+    {
+      "legacyId": "stories:cookie-jar",
+      "workId": "wrk:000219",
+      "sourceUrl": "https://stephenking.com/works/short/cookie-jar.html",
+      "reported": "Unreleased",
+      "publicationId": null,
+      "status": "first-publication-research-required",
+      "note": "Unreleased header is not evidence of non-publication."
+    },
+    {
+      "legacyId": "stories:dinah-s-hat",
+      "workId": "wrk:000221",
+      "sourceUrl": "https://stephenking.com/works/short/dinahs-hat.html",
+      "reported": "Unreleased",
+      "publicationId": null,
+      "status": "first-publication-research-required",
+      "note": "Unreleased header is not evidence of non-publication."
+    },
+    {
+      "legacyId": "stories:the-extra-hour",
+      "workId": "wrk:000222",
+      "sourceUrl": "https://stephenking.com/works/short/extra-hour.html",
+      "reported": "Unreleased",
+      "publicationId": null,
+      "status": "first-publication-research-required",
+      "note": "Unreleased header is not evidence of non-publication."
+    },
+    {
+      "legacyId": "stories:father-s-day",
+      "workId": "wrk:000223",
+      "sourceUrl": "https://stephenking.com/works/short/fathers-day.html",
+      "reported": "Unreleased",
+      "publicationId": null,
+      "status": "first-publication-research-required",
+      "note": "Unreleased header is not evidence of non-publication."
+    },
+    {
+      "legacyId": "stories:the-glass-floor",
+      "workId": "wrk:000224",
+      "sourceUrl": "https://stephenking.com/works/short/glass-floor.html",
+      "reported": "Unreleased",
+      "publicationId": null,
+      "status": "first-publication-year-source-supported",
+      "note": "Unreleased header is not evidence of non-publication."
+    },
+    {
+      "legacyId": "stories:jumper",
+      "workId": "wrk:000226",
+      "sourceUrl": "https://stephenking.com/works/short/jumper.html",
+      "reported": "Unreleased",
+      "publicationId": null,
+      "status": "first-publication-research-required",
+      "note": "Unreleased header is not evidence of non-publication."
+    },
+    {
+      "legacyId": "stories:the-lonesome-death-of-jordy-verrill",
+      "workId": "wrk:000227",
+      "sourceUrl": "https://stephenking.com/works/short/lonesome-death-of-jordy-verrill.html",
+      "reported": "Unreleased",
+      "publicationId": null,
+      "status": "first-publication-research-required",
+      "note": "Unreleased header is not evidence of non-publication."
+    },
+    {
+      "legacyId": "stories:man-with-a-belly",
+      "workId": "wrk:000228",
+      "sourceUrl": "https://stephenking.com/works/short/man-with-a-belly.html",
+      "reported": "Unreleased",
+      "publicationId": null,
+      "status": "first-publication-research-required",
+      "note": "Unreleased header is not evidence of non-publication."
+    },
+    {
+      "legacyId": "stories:memory",
+      "workId": "wrk:000229",
+      "sourceUrl": "https://stephenking.com/works/short/memory.html",
+      "reported": "Unreleased",
+      "publicationId": null,
+      "status": "first-publication-research-required",
+      "note": "Unreleased header is not evidence of non-publication."
+    },
+    {
+      "legacyId": "stories:the-old-dude-s-ticker",
+      "workId": "wrk:000232",
+      "sourceUrl": "https://stephenking.com/works/short/old-dudes-ticker.html",
+      "reported": "Unreleased",
+      "publicationId": null,
+      "status": "first-publication-research-required",
+      "note": "Unreleased header is not evidence of non-publication."
+    },
+    {
+      "legacyId": "stories:something-to-tide-you-over",
+      "workId": "wrk:000236",
+      "sourceUrl": "https://stephenking.com/works/short/something-to-tide-you-over.html",
+      "reported": "Unreleased",
+      "publicationId": null,
+      "status": "first-publication-research-required",
+      "note": "Unreleased header is not evidence of non-publication."
+    },
+    {
+      "legacyId": "stories:they-re-creeping-up-on-you",
+      "workId": "wrk:000238",
+      "sourceUrl": "https://stephenking.com/works/short/they-re-creeping-up-on-you.html",
+      "reported": "Unreleased",
+      "publicationId": null,
+      "status": "first-publication-research-required",
+      "note": "Unreleased header is not evidence of non-publication."
+    },
+    {
+      "legacyId": "stories:thin-scenery",
+      "workId": "wrk:000239",
+      "sourceUrl": "https://stephenking.com/works/short/thin-scenery.html",
+      "reported": "Unreleased",
+      "publicationId": null,
+      "status": "first-publication-research-required",
+      "note": "Unreleased header is not evidence of non-publication."
+    }
+  ],
+  "sourceConflicts": [
+    {
+      "title": "Blaze",
+      "category": "books",
+      "field": "index/detail date",
+      "index": "December 2006",
+      "detail": "2007",
+      "decision": "Use detail field; keep index as evidence",
+      "source": "https://stephenking.com/works/novel/blaze.html",
+      "reviewId": "conflict-01",
+      "status": "retained-detail-preferred-first-publication-open",
+      "reviewedAt": "2026-10-27"
+    },
+    {
+      "title": "Cycle of the Werewolf",
+      "category": "books",
+      "field": "legacy/detail year",
+      "legacy": 1983,
+      "detail": "1985-04",
+      "decision": "Retain legacy year; do not equate edition, festival, broadcast and first publication dates",
+      "source": "https://stephenking.com/works/novel/cycle-of-the-werewolf.html",
+      "reviewId": "conflict-02",
+      "status": "resolved-date-semantics-first-1983-reprint-1985",
+      "reviewedAt": "2026-10-27"
+    },
+    {
+      "title": "Dolores Claiborne",
+      "category": "books",
+      "field": "legacy/detail year",
+      "legacy": 1992,
+      "detail": "1993-11",
+      "decision": "Retain legacy year; do not equate edition, festival, broadcast and first publication dates",
+      "source": "https://stephenking.com/works/novel/dolores-claiborne.html",
+      "reviewId": "conflict-03",
+      "status": "unresolved-library-1992-official-1993",
+      "reviewedAt": "2026-10-27"
+    },
+    {
+      "title": "The Green Mile: The Complete Serial Novel",
+      "category": "books",
+      "field": "legacy/detail year",
+      "legacy": 1996,
+      "detail": "2000-10",
+      "decision": "Retain legacy year; do not equate edition, festival, broadcast and first publication dates",
+      "source": "https://stephenking.com/works/novel/green-mile-the-complete-serial-novel.html",
+      "reviewId": "conflict-04",
+      "status": "resolved-date-semantics-serial-1996-collected-2000",
+      "reviewedAt": "2026-10-27"
+    },
+    {
+      "title": "The Long Walk",
+      "category": "books",
+      "field": "index/detail date",
+      "index": "December 1978",
+      "detail": "1979",
+      "decision": "Use detail field; keep index as evidence",
+      "source": "https://stephenking.com/works/novel/long-walk.html",
+      "reviewId": "conflict-05",
+      "status": "retained-detail-preferred-first-publication-open",
+      "reviewedAt": "2026-10-27"
+    },
+    {
+      "title": "Rage",
+      "category": "books",
+      "field": "index/detail date",
+      "index": "December 1976",
+      "detail": "1977",
+      "decision": "Use detail field; keep index as evidence",
+      "source": "https://stephenking.com/works/novel/rage.html",
+      "reviewId": "conflict-06",
+      "status": "retained-detail-preferred-first-publication-open",
+      "reviewedAt": "2026-10-27"
+    },
+    {
+      "title": "The Regulators",
+      "category": "books",
+      "field": "index/detail date",
+      "index": "December 1995",
+      "detail": "1996",
+      "decision": "Use detail field; keep index as evidence",
+      "source": "https://stephenking.com/works/novel/regulators.html",
+      "reviewId": "conflict-07",
+      "status": "retained-detail-preferred-first-publication-open",
+      "reviewedAt": "2026-10-27"
+    },
+    {
+      "title": "Roadwork",
+      "category": "books",
+      "field": "index/detail date",
+      "index": "December 1980",
+      "detail": "1981",
+      "decision": "Use detail field; keep index as evidence",
+      "source": "https://stephenking.com/works/novel/roadwork.html",
+      "reviewId": "conflict-08",
+      "status": "retained-detail-preferred-first-publication-open",
+      "reviewedAt": "2026-10-27"
+    },
+    {
+      "title": "The Running Man",
+      "category": "books",
+      "field": "index/detail date",
+      "index": "December 1981",
+      "detail": "1982",
+      "decision": "Use detail field; keep index as evidence",
+      "source": "https://stephenking.com/works/novel/running-man.html",
+      "reviewId": "conflict-09",
+      "status": "retained-detail-preferred-first-publication-open",
+      "reviewedAt": "2026-10-27"
+    },
+    {
+      "title": "The Crate",
+      "category": "stories",
+      "field": "index/detail date",
+      "index": "December 1980",
+      "detail": "1981",
+      "decision": "Use detail field; keep index as evidence",
+      "source": "https://stephenking.com/works/short/crate.html",
+      "reviewId": "conflict-10",
+      "status": "retained-detail-preferred-first-publication-open",
+      "reviewedAt": "2026-10-27"
+    },
+    {
+      "title": "The Night of the Tiger",
+      "category": "stories",
+      "field": "index/detail date",
+      "index": "December 1978",
+      "detail": "1979",
+      "decision": "Use detail field; keep index as evidence",
+      "source": "https://stephenking.com/works/short/night-of-the-tiger.html",
+      "reviewId": "conflict-11",
+      "status": "retained-detail-preferred-first-publication-open",
+      "reviewedAt": "2026-10-27"
+    },
+    {
+      "title": "The Reploids",
+      "category": "stories",
+      "field": "index/detail date",
+      "index": "December 1987",
+      "detail": "1988",
+      "decision": "Use detail field; keep index as evidence",
+      "source": "https://stephenking.com/works/short/reploids.html",
+      "reviewId": "conflict-12",
+      "status": "retained-detail-preferred-first-publication-open",
+      "reviewedAt": "2026-10-27"
+    },
+    {
+      "title": "The Revelations of 'Becka Paulson",
+      "category": "stories",
+      "field": "index/detail date",
+      "index": "December 1990",
+      "detail": "1991",
+      "decision": "Use detail field; keep index as evidence",
+      "source": "https://stephenking.com/works/short/revelations-of-becka-paulson.html",
+      "reviewId": "conflict-13",
+      "status": "retained-detail-preferred-first-publication-open",
+      "reviewedAt": "2026-10-27"
+    },
+    {
+      "title": "Rush Call",
+      "category": "stories",
+      "field": "index/detail date",
+      "index": "December 1999",
+      "detail": "2000",
+      "decision": "Use detail field; keep index as evidence",
+      "source": "https://stephenking.com/works/short/rush-call.html",
+      "reviewId": "conflict-14",
+      "status": "unresolved-index-1999-secret-windows-2000",
+      "reviewedAt": "2026-10-27"
+    },
+    {
+      "title": "11/22/63",
+      "category": "films",
+      "field": "index/detail date",
+      "index": "November 19th, 2015",
+      "detail": "November 19th, 2015",
+      "decision": "Use detail field; keep index as evidence",
+      "source": "https://stephenking.com/works/television/11-22-63.html",
+      "reviewId": "conflict-15",
+      "status": "retained-deferred-package-B",
+      "reviewedAt": "2026-10-27"
+    },
+    {
+      "title": "Trucks",
+      "category": "films",
+      "field": "legacy/detail year",
+      "legacy": 1997,
+      "detail": "2000-12-26",
+      "decision": "Retain legacy year; do not equate edition, festival, broadcast and first publication dates",
+      "source": "https://stephenking.com/works/television/trucks.html",
+      "reviewId": "conflict-16",
+      "status": "retained-deferred-package-B",
+      "reviewedAt": "2026-10-27"
+    },
+    {
+      "title": "Carrie",
+      "category": "films",
+      "field": "format",
+      "bibliography": "Miniserie",
+      "current": "Televisieserie",
+      "decision": "Renewal from the cited current studio source takes precedence over the older miniseries label.",
+      "source": "https://stephenking.com/bibliography/",
+      "reviewId": "conflict-17",
+      "status": "retained-deferred-package-B",
+      "reviewedAt": "2026-10-27"
+    }
+  ],
+  "newDossierDateConflicts": [
+    {
+      "target": {
+        "type": "work",
+        "id": "wrk:000242"
+      },
+      "indexDisplayDate": "December 1999",
+      "indexNormalizedDate": "1999-12-01",
+      "detailReportedDate": "2000",
+      "sourceUrl": "https://stephenking.com/works/nonfiction/on-writing-a-memoir-of-the-craft.html",
+      "status": "detail-preferred-first-publication-open",
+      "note": "Retain index observation; do not promote a normalized month start or prior December to exact first publication."
+    },
+    {
+      "target": {
+        "type": "work",
+        "id": "wrk:000243"
+      },
+      "indexDisplayDate": "December 1980",
+      "indexNormalizedDate": "1980-12-01",
+      "detailReportedDate": "1981",
+      "sourceUrl": "https://stephenking.com/works/nonfiction/danse-macabre.html",
+      "status": "detail-preferred-first-publication-open",
+      "note": "Retain index observation; do not promote a normalized month start or prior December to exact first publication."
+    },
+    {
+      "target": {
+        "type": "collection",
+        "id": "col:000016"
+      },
+      "indexDisplayDate": "December 1999",
+      "indexNormalizedDate": "1999-12-01",
+      "detailReportedDate": "2000",
+      "sourceUrl": "https://stephenking.com/works/nonfiction/secret-windows-essays-and-fiction-on-the-craft-of-writing.html",
+      "status": "detail-preferred-first-publication-open",
+      "note": "Retain index observation; do not promote a normalized month start or prior December to exact first publication."
+    },
+    {
+      "target": {
+        "type": "work",
+        "id": "wrk:000247"
+      },
+      "indexDisplayDate": "December 1999",
+      "indexNormalizedDate": "1999-12-01",
+      "detailReportedDate": "2000",
+      "sourceUrl": "https://stephenking.com/works/other-project/plant-zenith-rising.html",
+      "status": "detail-preferred-first-publication-open",
+      "note": "Retain index observation; do not promote a normalized month start or prior December to exact first publication."
+    }
+  ],
+  "sourceUrlCollisions": [
+    {
+      "url": "https://stephenking.com/works/limited/salems-lot.html",
+      "rows": [
+        {
+          "title": "'Salem's Lot",
+          "type": "Limited Edition",
+          "displayDate": "October 2004"
+        },
+        {
+          "title": "'Salem's Lot",
+          "type": "Limited Edition",
+          "displayDate": "December 2014"
+        }
+      ],
+      "status": "repeated-source-url-retained-no-new-identity",
+      "note": "Repeated index rows are not additional unique works or proven edition identities."
+    },
+    {
+      "url": "https://stephenking.com/works/movie/firestarter.html",
+      "rows": [
+        {
+          "title": "Firestarter",
+          "type": "Movie",
+          "displayDate": "May 13th, 2022"
+        },
+        {
+          "title": "Firestarter",
+          "type": "Movie",
+          "displayDate": "May 11th, 1984"
+        }
+      ],
+      "status": "repeated-source-url-retained-no-new-identity",
+      "note": "Repeated index rows are not additional unique works or proven edition identities."
+    },
+    {
+      "url": "https://stephenking.com/works/uncollected/glass-floor.html",
+      "rows": [
+        {
+          "title": "The Glass Floor",
+          "type": "Uncollected",
+          "displayDate": "September 21st, 1967"
+        },
+        {
+          "title": "The Glass Floor",
+          "type": "Uncollected",
+          "displayDate": "September 21st, 1990"
+        }
+      ],
+      "status": "repeated-source-url-retained-no-new-identity",
+      "note": "Repeated index rows are not additional unique works or proven edition identities."
+    }
+  ],
+  "screenUrlCollisions": [
+    {
+      "url": "https://stephenking.com/works/movie/firestarter.html",
+      "legacyIds": [
+        "films:firestarter-1984",
+        "films:firestarter-2022"
+      ],
+      "resolution": "Distinct identities; 2022 metadata does not identify the 1984 film.",
+      "status": "retained-isolated-screen-identities-deferred-package-B",
+      "note": "No merge or media/credit reassignment; historical screen decisions unchanged."
+    }
+  ],
+  "blockers": [
+    "Original English cover examples have no ISBN/printing identity; work-page metadata cannot identify the pictured edition. Do not bind a contemporary publisher ISBN to them.",
+    "An exact ISBN identifies an edition/product, not necessarily its printing; dates are publisher-reported edition dates.",
+    "Brooks bibliography full text not consulted; independent first-publication histories remain incomplete.",
+    "Permission drafts require owner approval, sender identity and commercial-status statement before sending. No permission established."
+  ],
+  "counts": {
+    "baseWorks": 241,
+    "works": 249,
+    "collections": 16,
+    "dossiers": 9,
+    "newWorks": 8,
+    "newCollections": 1,
+    "memberships": 158,
+    "promotedMemberships": 5,
+    "editionExamples": 154,
+    "editionStatuses": {
+      "blocked-missing-edition-page": 2,
+      "blocked-specific-edition-evidence": 86,
+      "conflicting-isbn-retained": 1,
+      "field-enriched-printing-open": 65
+    },
+    "editionFieldsReviewed": 383,
+    "controlEn": 6,
+    "controlNl": 6,
+    "publicationGapStatuses": {
+      "first-publication-research-required": 22,
+      "first-publication-year-source-supported": 1,
+      "reported-date-recorded-first-publication-open": 7
+    },
+    "newPublicationEvents": 18,
+    "newClaims": 777,
+    "openIndexRows": 357,
+    "indexClassifications": {
+      "bibliographic-project-review-required": 7,
+      "comic-issue-and-creator-review-required": 37,
+      "contribution-container-review-required": 84,
+      "individual-contribution-review-required": 46,
+      "manifestation-candidate-no-new-work": 157,
+      "registered-identity-concordance": 22,
+      "unpublished-project-not-published-work": 4
+    },
+    "openLinkedBibliographyRows": 509,
+    "linkedClassifications": {
+      "bibliographic-project-review-required": 9,
+      "comic-issue-and-creator-review-required": 37,
+      "contribution-container-review-required": 84,
+      "individual-contribution-review-required": 39,
+      "manifestation-candidate-no-new-work": 157,
+      "registered-identity-concordance": 181,
+      "screen-or-audio-project-deferred-package-B": 2
+    },
+    "sourceConflicts": 17,
+    "newDossierDateConflicts": 4,
+    "sourceUrlCollisions": 3,
+    "externalMediaPermissionEstablished": 0
+  }
+}

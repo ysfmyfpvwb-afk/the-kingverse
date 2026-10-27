@@ -1,9 +1,9 @@
 'use strict';
 (function(root){
  const types={work:'Work',collection:'Collection',edition:'Edition',adaptation:'Screen adaptation',person:'Creator',character:'Character',location:'Place',series:'Series'};
- const kinds={novel:'Novel',novella:'Novella','short-story':'Short story',poem:'Poem',comic:'Comic',nonfiction:'Nonfiction'};
+ const kinds={novel:'Novel',novella:'Novella','short-story':'Short story',poem:'Poem',comic:'Comic',nonfiction:'Nonfiction',essay:'Essay',screenplay:'Screenplay','children-book':'Picture book','dramatic-work':'Stage musical'};
  const relations={sequel_to:['Sequel to','Continues in'],prequel_to:['Prequel to','Has a prequel'],appears_in:['Appears in','Features'],mentioned_in:['Mentioned in','Mentions'],set_in:['Set in','Setting of'],part_of_series:['Part of series','In this series'],adaptation_of:['Based on','Adapted as'],inspired_by:['Inspired by','Inspired'],shared_reference:['Shared reference','Shared reference'],shared_cosmology:['Shared world','Shared world'],thematic_parallel:['Thematic connection','Thematic connection'],same_as:['Same identity','Same identity'],shares_character_with:['Shared character','Shared character'],shares_location_with:['Shared place','Shared place'],references_work:['Refers to','Referenced by'],dark_tower_connection:['Tower connection','Tower connection'],remake_of:['Remake of','Remade as']};
- const roles={author:'Author',coauthor:'Co-author',editor:'Editor',contributor:'Contributor',illustrator:'Illustrator',photographer:'Photographer',translator:'Translator',director:'Director',actor:'Cast',screenwriter:'Screenwriter',producer:'Producer',showrunner:'Showrunner',creator:'Creator'};
+ const roles={author:'Author',coauthor:'Co-author',editor:'Editor',contributor:'Contributor',illustrator:'Illustrator',photographer:'Photographer',translator:'Translator',foreword:'Introduction',director:'Director',actor:'Cast',screenwriter:'Screenwriter',producer:'Producer',showrunner:'Showrunner',creator:'Creator'};
  const fold=s=>String(s||'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[’']/g,'').replace(/[^a-z0-9]+/g,' ');
  const validId=s=>/^(wrk|col|edn|adp|per|chr|loc|ser):\d{6}$/.test(s||'');
  function routeId(query){const id=new URLSearchParams(query).get('entity')||'wrk:000001';return validId(id)?id:null;}

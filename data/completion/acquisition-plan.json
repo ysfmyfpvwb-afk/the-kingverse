@@ -1,0 +1,492 @@
+{
+  "batches": {
+    "control": [
+      {
+        "url": "https://stephenking.com/works/novel/talisman.html",
+        "editionId": "edn:000002"
+      },
+      {
+        "url": "https://stephenking.com/works/novel/black-house.html",
+        "editionId": "edn:000004"
+      },
+      {
+        "url": "https://stephenking.com/works/novel/carrie.html",
+        "editionId": "edn:000070"
+      },
+      {
+        "url": "https://stephenking.com/works/novel/salems-lot.html",
+        "editionId": "edn:000071"
+      },
+      {
+        "url": "https://stephenking.com/works/novel/shining.html",
+        "editionId": "edn:000072"
+      },
+      {
+        "url": "https://stephenking.com/works/novel/rage.html",
+        "editionId": "edn:000073"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/de-talisman-pod/",
+        "editionId": "edn:000001"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/zwart-huis/",
+        "editionId": "edn:000003"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/carrie-2/",
+        "editionId": "edn:000005"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/bezeten-stad/",
+        "editionId": "edn:000006"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/de-shining/",
+        "editionId": "edn:000007"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/de-beproeving/",
+        "editionId": "edn:000008"
+      }
+    ],
+    "nl-1": [
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/de-marathon/",
+        "editionId": "edn:000009"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/dodelijk-dilemma/",
+        "editionId": "edn:000010"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/ogen-van-vuur/",
+        "editionId": "edn:000011"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/werk-in-uitvoering/",
+        "editionId": "edn:000012"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/cujo/",
+        "editionId": "edn:000013"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/vlucht-naar-de-top/",
+        "editionId": "edn:000014"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/de-scherpschutter/",
+        "editionId": "edn:000015"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/dodenwake/",
+        "editionId": "edn:000016"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/de-vervloeking/",
+        "editionId": "edn:000017"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/it/",
+        "editionId": "edn:000018"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/ogen-van-de-draak/",
+        "editionId": "edn:000019"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/misery/",
+        "editionId": "edn:000020"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/het-teken-van-drie/",
+        "editionId": "edn:000021"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/de-gloed-3/",
+        "editionId": "edn:000022"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/de-duistere-kant/",
+        "editionId": "edn:000023"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/de-noodzaak/",
+        "editionId": "edn:000025"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/de-spelbreker/",
+        "editionId": "edn:000026"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/dolores-claiborne/",
+        "editionId": "edn:000027"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/insomnia/",
+        "editionId": "edn:000028"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/rosie/",
+        "editionId": "edn:000029"
+      }
+    ],
+    "nl-2": [
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/de-groene-mijl/",
+        "editionId": "edn:000030"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/desperation/",
+        "editionId": "edn:000031"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/de-regelaars/",
+        "editionId": "edn:000032"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/tovenaarsglas/",
+        "editionId": "edn:000033"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/vel-over-been/",
+        "editionId": "edn:000034"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/het-meisje-dat-hield-van-tom-gordon/",
+        "editionId": "edn:000035"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/de-dromenvanger/",
+        "editionId": "edn:000036"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/het-geheim-van-de-buick/",
+        "editionId": "edn:000037"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/wolven-van-de-calla/",
+        "editionId": "edn:000038"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/een-lied-van-susannah/",
+        "editionId": "edn:000039"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/de-donkere-toren/",
+        "editionId": "edn:000040"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/de-colorado-kid/",
+        "editionId": "edn:000041"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/mobiel/",
+        "editionId": "edn:000042"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/de-ontvoering/",
+        "editionId": "edn:000044"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/duma/",
+        "editionId": "edn:000045"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/gevangen/",
+        "editionId": "edn:000046"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/11-22-63-22-11-1963/",
+        "editionId": "edn:000047"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/de-wind-door-het-sleutelgat/",
+        "editionId": "edn:000048"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/joyland/",
+        "editionId": "edn:000049"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/dr-sleep-2/",
+        "editionId": "edn:000050"
+      }
+    ],
+    "nl-3": [
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/mr-mercedes/",
+        "editionId": "edn:000051"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/revival/",
+        "editionId": "edn:000052"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/de-eerlijke-vinder/",
+        "editionId": "edn:000053"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/wisseling-van-de-wacht/",
+        "editionId": "edn:000054"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/satanskinderen/",
+        "editionId": "edn:000055"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/4-seizoenen/",
+        "editionId": "edn:000056"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/duistere-krachten/",
+        "editionId": "edn:000057"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/tweeduister/",
+        "editionId": "edn:000058"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/nachtmerries-en-droomlandschappen/",
+        "editionId": "edn:000059"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/harten-in-atlantis/",
+        "editionId": "edn:000060"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/alles-is-eventueel-1408/",
+        "editionId": "edn:000061"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/na-zonsondergang/",
+        "editionId": "edn:000062"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/aardedonker-zonder-sterren/",
+        "editionId": "edn:000063"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/de-bazaar-van-boze-dromen/",
+        "editionId": "edn:000064"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/dichte-mist-pod/",
+        "editionId": "edn:000065"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/een-goed-huwelijk/",
+        "editionId": "edn:000066"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/mijl-81/",
+        "editionId": "edn:000067"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/het-hoge-gras/",
+        "editionId": "edn:000068"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/hoogste-versnelling/",
+        "editionId": "edn:000069"
+      },
+      {
+        "url": "https://www.lsuitgeverij.nl/boek/christine-ebook/",
+        "editionId": "edn:000154"
+      }
+    ],
+    "dates-1": [
+      {
+        "url": "https://stephenking.com/works/poem/paranoid-a-chant.html",
+        "legacyStoryId": "stories:paranoid-a-chant",
+        "purpose": "reported-date-gap"
+      },
+      {
+        "url": "https://stephenking.com/works/poem/for-owen.html",
+        "legacyStoryId": "stories:for-owen",
+        "purpose": "reported-date-gap"
+      },
+      {
+        "url": "https://stephenking.com/works/screenplay/sorry-right-number.html",
+        "legacyStoryId": "stories:sorry-right-number",
+        "purpose": "reported-date-gap"
+      },
+      {
+        "url": "https://stephenking.com/works/essay/head-down.html",
+        "legacyStoryId": "stories:head-down",
+        "purpose": "reported-date-gap"
+      },
+      {
+        "url": "https://stephenking.com/works/poem/brooklyn-august.html",
+        "legacyStoryId": "stories:brooklyn-august",
+        "purpose": "reported-date-gap"
+      },
+      {
+        "url": "https://stephenking.com/works/short/fifth-step.html",
+        "legacyStoryId": "stories:the-fifth-step",
+        "purpose": "reported-date-gap"
+      },
+      {
+        "url": "https://stephenking.com/works/short/willie-the-weirdo.html",
+        "legacyStoryId": "stories:willie-the-weirdo",
+        "purpose": "reported-date-gap"
+      },
+      {
+        "url": "https://stephenking.com/works/short/finn.html",
+        "legacyStoryId": "stories:finn",
+        "purpose": "reported-date-gap"
+      },
+      {
+        "url": "https://stephenking.com/works/short/on-slide-inn-road.html",
+        "legacyStoryId": "stories:on-slide-inn-road",
+        "purpose": "reported-date-gap"
+      },
+      {
+        "url": "https://stephenking.com/works/short/red-screen.html",
+        "legacyStoryId": "stories:red-screen",
+        "purpose": "reported-date-gap"
+      },
+      {
+        "url": "https://stephenking.com/works/short/a-death.html",
+        "legacyStoryId": "stories:a-death",
+        "purpose": "reported-date-gap"
+      },
+      {
+        "url": "https://stephenking.com/works/poem/bone-church.html",
+        "legacyStoryId": "stories:the-bone-church",
+        "purpose": "reported-date-gap"
+      },
+      {
+        "url": "https://stephenking.com/works/short/afterlife.html",
+        "legacyStoryId": "stories:afterlife",
+        "purpose": "reported-date-gap"
+      },
+      {
+        "url": "https://stephenking.com/works/poem/tommy.html",
+        "legacyStoryId": "stories:tommy",
+        "purpose": "reported-date-gap"
+      },
+      {
+        "url": "https://stephenking.com/works/short/that-bus-is-another-world.html",
+        "legacyStoryId": "stories:that-bus-is-another-world",
+        "purpose": "reported-date-gap"
+      },
+      {
+        "url": "https://stephenking.com/works/short/a-face-in-the-crowd.html",
+        "legacyStoryId": "stories:a-face-in-the-crowd",
+        "purpose": "reported-date-gap"
+      },
+      {
+        "url": "https://stephenking.com/works/short/before-the-play.html",
+        "legacyStoryId": "stories:before-the-play",
+        "purpose": "reported-date-gap"
+      },
+      {
+        "url": "https://stephenking.com/works/short/cookie-jar.html",
+        "legacyStoryId": "stories:cookie-jar",
+        "purpose": "reported-date-gap"
+      },
+      {
+        "url": "https://stephenking.com/works/short/dinahs-hat.html",
+        "legacyStoryId": "stories:dinah-s-hat",
+        "purpose": "reported-date-gap"
+      },
+      {
+        "url": "https://stephenking.com/works/short/extra-hour.html",
+        "legacyStoryId": "stories:the-extra-hour",
+        "purpose": "reported-date-gap"
+      }
+    ],
+    "dates-2": [
+      {
+        "url": "https://stephenking.com/works/short/fathers-day.html",
+        "legacyStoryId": "stories:father-s-day",
+        "purpose": "reported-date-gap"
+      },
+      {
+        "url": "https://stephenking.com/works/short/glass-floor.html",
+        "legacyStoryId": "stories:the-glass-floor",
+        "purpose": "reported-date-gap"
+      },
+      {
+        "url": "https://stephenking.com/works/short/jumper.html",
+        "legacyStoryId": "stories:jumper",
+        "purpose": "reported-date-gap"
+      },
+      {
+        "url": "https://stephenking.com/works/short/lonesome-death-of-jordy-verrill.html",
+        "legacyStoryId": "stories:the-lonesome-death-of-jordy-verrill",
+        "purpose": "reported-date-gap"
+      },
+      {
+        "url": "https://stephenking.com/works/short/man-with-a-belly.html",
+        "legacyStoryId": "stories:man-with-a-belly",
+        "purpose": "reported-date-gap"
+      },
+      {
+        "url": "https://stephenking.com/works/short/memory.html",
+        "legacyStoryId": "stories:memory",
+        "purpose": "reported-date-gap"
+      },
+      {
+        "url": "https://stephenking.com/works/short/old-dudes-ticker.html",
+        "legacyStoryId": "stories:the-old-dude-s-ticker",
+        "purpose": "reported-date-gap"
+      },
+      {
+        "url": "https://stephenking.com/works/short/something-to-tide-you-over.html",
+        "legacyStoryId": "stories:something-to-tide-you-over",
+        "purpose": "reported-date-gap"
+      },
+      {
+        "url": "https://stephenking.com/works/short/they-re-creeping-up-on-you.html",
+        "legacyStoryId": "stories:they-re-creeping-up-on-you",
+        "purpose": "reported-date-gap"
+      },
+      {
+        "url": "https://stephenking.com/works/short/thin-scenery.html",
+        "legacyStoryId": "stories:thin-scenery",
+        "purpose": "reported-date-gap"
+      }
+    ],
+    "dossiers": [
+      {
+        "url": "https://stephenking.com/works/nonfiction/on-writing-a-memoir-of-the-craft.html",
+        "dossier": 1
+      },
+      {
+        "url": "https://stephenking.com/works/nonfiction/danse-macabre.html",
+        "dossier": 2
+      },
+      {
+        "url": "https://stephenking.com/works/nonfiction/guns.html",
+        "dossier": 3
+      },
+      {
+        "url": "https://stephenking.com/works/nonfiction/secret-windows-essays-and-fiction-on-the-craft-of-writing.html",
+        "dossier": 4
+      },
+      {
+        "url": "https://stephenking.com/works/other-project/charlie-the-choo-choo.html",
+        "dossier": 5
+      },
+      {
+        "url": "https://stephenking.com/works/other-project/hansel-and-gretel.html",
+        "dossier": 6
+      },
+      {
+        "url": "https://stephenking.com/works/other-project/plant-zenith-rising.html",
+        "dossier": 7
+      },
+      {
+        "url": "https://stephenking.com/works/screenplay/storm-of-the-century.html",
+        "dossier": 8
+      },
+      {
+        "url": "https://stephenking.com/works/other-project/ghost-brothers-of-darkland-county.html",
+        "dossier": 9
+      }
+    ]
+  }
+}
