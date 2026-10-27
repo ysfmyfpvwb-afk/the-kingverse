@@ -115,3 +115,12 @@ Online onderzoek is afzonderlijk: `python3 scripts/audit_migration_sources.py`. 
 De volledige suite telt 64 geslaagde tests. De shadow- en foundationvalidators geven geen fouten. Tests bewaken determinisme, volledige veldledger, baselinewijzigingen, ID/alias/creditcorruptie, Bachman, bundelclassificatie, makerrollen, eerlijke noemers en byte-identieke app/Explorer/fixture. Syntaxchecks worden voor alle JS/CJS/Python-scripts uitgevoerd. De twee bestaande catalogus-/rapportgeneratoren laten de actieve bestanden en auditcijfers ongewijzigd.
 
 Browsercontrole omvat de bestaande live coverstatus en de afzonderlijke kwaliteitsdashboardroute; de schaduwmigratie raakt geen bestaande UI-code. Dit is geen nieuwe volledige controle van alle oude routes, alle afbeeldingen, alle schermlezers of alle mobiele browsers. Push-, deployment- en live-bestandsstatus worden pas in de definitieve oplevering na controle bevestigd.
+
+
+## 1.9 — Explorer Integration Pilot
+
+De afzonderlijke publieke route is `/explorer/pilot/`, gebouwd op Batch 06 (`1bf82bb232d9f8e0f4ad8dd08724883ffa9b3c76`). Geen nieuwe migratie: dezelfde 546 identiteiten, 66 standaardrelaties en 28 plotrelaties. Alle canonieke schaduwdata en oude runtimebestanden zijn ongewijzigd. Makerscredits, bundellidmaatschappen, editievoorbeelden en onbevestigde adaptatiebronnen blijven afzonderlijk gekwalificeerd.
+
+Oplevering: een Engelse mobiele ontdekkingservaring voor acht entiteitstypen, directe trilogienavigatie, bron- en onzekerheidslabels, begrensde payloads, luie zoekindex, gepagineerde lijsten en expliciete spoilerbediening. Zie [PILOT-ACCEPTANCE.md](PILOT-ACCEPTANCE.md) en [het dashboard](migration-quality.html#explorer-pilot). `npm run build:pilot` genereert de publieke bestanden; `npm run validate:pilot` bewaakt reproduceerbaarheid, bronbehoud, verwijzingen, scope en eerdere bestanden.
+
+Publicatie wordt na commit apart gecontroleerd op de juiste SHA en live bestanden. De uitslag staat in het opleverbericht. De pilot vervangt de oorspronkelijke Explorer of standaardwebsite niet; verdere uitrol vereist een nieuwe afgebakende opdracht.

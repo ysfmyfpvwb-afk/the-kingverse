@@ -13,7 +13,9 @@
     "build:media": "node scripts/build_media_library.cjs",
     "build:readiness": "node scripts/build_explorer_ready.cjs",
     "build:readiness-fixture": "node scripts/build_explorer_ready.cjs --fixture",
-    "validate:readiness": "node scripts/validate_readiness.cjs"
+    "validate:readiness": "node scripts/validate_readiness.cjs",
+    "build:pilot": "node scripts/build_pilot.cjs",
+    "validate:pilot": "node scripts/validate_pilot.cjs"
   },
   "devDependencies": {
     "ajv": "8.20.0"

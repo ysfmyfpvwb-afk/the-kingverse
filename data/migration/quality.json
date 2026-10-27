@@ -1,6 +1,6 @@
 {
   "checked": "2026-10-26",
-  "batch": "06-explorer-readiness-media",
+  "batch": "1.9-explorer-integration-pilot",
   "fullMigration": false,
   "readiness": {
     "batch": "06",
@@ -197,6 +197,52 @@
       "defaultSha256": "bc6c239e786a8044224641f99b544068c6670bae5e6900ab83fa7bcff90f4044",
       "plotSha256": "30e40a0d003c47a3d0f123036a23e3b28f1f321088e44e1101b25c87a3b1fb5e"
     }
+  },
+  "pilot": {
+    "version": "1.9",
+    "baseCommit": "1bf82bb232d9f8e0f4ad8dd08724883ffa9b3c76",
+    "dataVersion": "98e5eabcf4ac7da3",
+    "publicRoute": "explorer/pilot/",
+    "protectedFileCount": 176,
+    "scope": "English pilot; existing website and two-work Explorer unchanged",
+    "counts": {
+      "allEntities": 546,
+      "defaultEntities": 540,
+      "plotOnlyEntities": 6,
+      "nativeConnections": 94,
+      "defaultConnections": 66,
+      "plotConnections": 28,
+      "legacyAliases": 1120
+    },
+    "payload": {
+      "limitBytes": 49152,
+      "pageSize": 6,
+      "maxEntityBytes": 28700,
+      "medianEntityBytes": 4793,
+      "maxChunkBytes": 9118,
+      "searchBytes": 89103,
+      "searchGzipBytes": 10370,
+      "shellBytes": 3301,
+      "jsBytes": 25155,
+      "jsGzipBytes": 8848,
+      "cssBytes": 8543,
+      "cssGzipBytes": 2607,
+      "initialAggregateProjectBytesLoaded": 0
+    },
+    "assets": {
+      "js": "pilot.131c5576b921.js",
+      "css": "pilot.cb31500301dd.css",
+      "search": "search.d3162edb8bd8.json"
+    },
+    "limitations": [
+      "English pilot, incomplete bibliographic and edition histories.",
+      "54 source candidates remain explicitly unconfirmed; not extra canonical adaptation links.",
+      "Seven native relationships remain provisional; derived/interpretive links keep their labels.",
+      "Zero real covers/posters cleared; approved original local SVG placeholders only.",
+      "Search contains 540 default entities; six plot-only entities are absent, including after reveal.",
+      "Public JSON is readable directly; spoiler controls are a reading preference, not access control.",
+      "No standard website or previous Explorer replacement; broader rollout requires separate review."
+    ]
   },
   "legacy": {
     "counts": {

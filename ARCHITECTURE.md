@@ -1,6 +1,6 @@
-# The Kingverse 1.6 — architectuur en The Connected Kingverse
+# The Kingverse 1.9 — architectuur en The Connected Kingverse
 
-Status: foundation fase 1 geïmplementeerd in een aparte v2-dataset; latere Explorer-/runtimefasen blijven ontwerp. Peildatum: 25 oktober 2026. Onderzochte applicatiebasis: commit `ca5f336f72ad6c41a28e30d3ac79a4667b5c9032` (1.5.1). De actieve website en catalogus blijven op de bestaande 1.5.1-runtime. De foundation voegt offline data, schema, register, validator en compatibiliteitsadapter toe zonder die runtime om te schakelen.
+Status: foundation, schaduwbatches 01–06 en de afzonderlijke Explorer-integratiepilot zijn geïmplementeerd. Een volledige runtimeomschakeling blijft ontwerp. Peildatum: 27 oktober 2026. Onderzochte applicatiebasis: commit `ca5f336f72ad6c41a28e30d3ac79a4667b5c9032` (1.5.1). De actieve website en catalogus blijven op de bestaande 1.5.1-runtime. De foundation voegt offline data, schema, register, validator en compatibiliteitsadapter toe zonder die runtime om te schakelen.
 
 ## 1. Besluiten
 
@@ -417,3 +417,16 @@ De integratiefixture wordt uitsluitend buiten de repository gebouwd via `npm run
 `data/media/library.json` bevat alle 234 geregistreerde artworkbesluiten. Afzonderlijke toestemming en metadata komen uit `data/media/permissions.json` (nu leeg), nooit uit een visuele review of HTTP-status. Bron-URL, rechtshouder indien bekend, licentievoorwaarden, technische observatie, lokale paden, varianten en integriteit zijn afzonderlijk. `assets/media/covers/` en `posters/` zijn gereserveerd voor geautoriseerde canonieke eigenaars; alleen twee originele, expliciet niet-officiële SVG-fallbacks zijn toegevoegd. Geen extern beeld is gedownload of geoptimaliseerd. Verhalen zonder eigen uitgave krijgen geen fictieve eigen cover; een voorlopige bundelrelatie wordt niet als zekere coverkoppeling gebruikt.
 
 Zie `EXPLORER-READINESS.md` voor GO/NO-GO, concrete contractvelden, uitgestelde legacyvelden, resterende bronnenvragen, testdekking en de grens vóór publieke activering. Geen nieuwe dependency, betaalde API, catalogusomschakeling of gewijzigde publieke boek-URL.
+
+
+## 1.9 — publieke pilot naast de bestaande runtimes
+
+`node scripts/build_pilot.cjs` leest de gevalideerde Batch-06-projectie en mediabeslissingen via de bestaande readinesscompiler. De canonieke bestanden, ID-registers, historische fixture, standaardapp en tweeboekenpreview veranderen niet. `data/pilot/baseline.json` controleert 176 bestaande bestanden tegen de geaccepteerde basiscommit `1bf82bb232d9f8e0f4ad8dd08724883ffa9b3c76`.
+
+De nieuwe route `explorer/pilot/index.html?entity=wrk%3A000001` heeft één statische HTML-shell en gewone JavaScript/CSS. Opaque getypeerde IDs bepalen navigatie; titels bepalen nooit identiteit. Alle acht typen krijgen een passende weergave. Native verbindingen behouden de oorspronkelijke claimscope, zekerheid, spoilerklasse en huidige verificatie. Reeksnavigatie wordt uit de canonieke reeksrelaties afgeleid. Onbevestigde adaptatiebronnen staan in een afzonderlijke sectie, met een gekwalificeerde teruglink; ze verhogen het aantal native relaties niet.
+
+Iedere entiteit heeft een `index.json` en een afzonderlijke `plot.json`. De harde payloadlimiet is 48 KiB per entiteit of lijstchunk. Lange lijsten laden zes records per chunk. De zoekindex met 540 veilige records laadt pas bij openen van Search & discover. Er is geen aggregate readiness-fetch tijdens bezoek. Contenthashes voor shellassets en een data-versieparameter laten normale browsercache toe zonder serviceworker, backend of runtimepakket. Fouten zijn opnieuw te proberen; late netwerkantwoorden worden na navigatie genegeerd.
+
+Zes plotidentiteiten krijgen in hun standaardpayload uitsluitend een naamloze gate. De client haalt hun naam en de 28 plotverbindingen pas op na expliciete keuze. Routewisseling, Back, refresh en BFCache-herstel resetten zichtbaarheid. Een hergebruikte netwerkcache vervangt nooit een nieuwe leeskeuze. De publieke JSON is **geen beveiligde opslag**. Externe bronpagina’s kunnen spoilers bevatten.
+
+De pilot gebruikt alleen de twee bestaande lokale, eigen SVG-fallbacks uit de mediabibliotheek. Geen nieuwe uitgeverscover of poster, externe hotlink, beeldresearch of dependency. Elke entiteit maakt ontbrekende gegevens zichtbaar; Engelse interface en bestaande NL-editietitels blijven gescheiden. Zie [PILOT-ACCEPTANCE.md](PILOT-ACCEPTANCE.md) voor de acceptatiegrens, prestaties en uitroladvies.

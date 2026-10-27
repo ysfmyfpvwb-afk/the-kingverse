@@ -1,6 +1,14 @@
-# The Kingverse 1.8 — uitvoerbare ontwikkelroadmap
+# The Kingverse 1.9 — uitvoerbare ontwikkelroadmap
 
-Status: foundation en Explorer 1.6.1 uitgevoerd. Schaduwmigratie 1.7 batches 01–05 (literaire en schermidentiteiten, makersrollen, bundelrelaties, publicatiewaarnemingen, editievoorbeelden en begrensde universumrelaties) uitgevoerd. Batch 06 / 1.8 levert een afzonderlijke Explorer-readinessprojectie en rechtenbewuste mediabibliotheek op; publieke integratie en volledige veldmigratie zijn niet afgerond. Peildatum: 26 oktober 2026. Basis: applicatie 1.5.1, commit `ca5f336f72ad6c41a28e30d3ac79a4667b5c9032`. Het gekozen domeinmodel, de bronhiërarchie en het concrete Talisman-voorbeeld staan in [ARCHITECTURE.md](ARCHITECTURE.md).
+Status: foundation en Explorer 1.6.1 uitgevoerd. Schaduwmigratie 1.7 batches 01–05 (literaire en schermidentiteiten, makersrollen, bundelrelaties, publicatiewaarnemingen, editievoorbeelden en begrensde universumrelaties) uitgevoerd. Batch 06 / 1.8 levert een afzonderlijke Explorer-readinessprojectie en rechtenbewuste mediabibliotheek op; de afzonderlijke publieke integratiepilot 1.9 is gebouwd. Volledige veldmigratie en omschakeling blijven open. Peildatum: 27 oktober 2026. Basis: applicatie 1.5.1, commit `ca5f336f72ad6c41a28e30d3ac79a4667b5c9032`. Het gekozen domeinmodel, de bronhiërarchie en het concrete Talisman-voorbeeld staan in [ARCHITECTURE.md](ARCHITECTURE.md).
+
+## 1.9 — geïsoleerde integratiepilot
+
+`/explorer/pilot/` ontsluit de Batch-06-projectie met acht entiteitstypen, compacte mobiele headers, canonieke reeksnavigatie, doorzoekbare veilige alternatieve titels en bronuitklappers. De Talisman-trilogie hergebruikt `wrk:000001`, `wrk:000002` en `wrk:000067`. Geen standaardroute is vervangen. De 546 detailingangen zijn geen claim van een complete bibliografie; 540 veilige records staan in de zoekindex en zes plotidentiteiten beginnen achter een naamloze keuze.
+
+Afgerond binnen deze pilot: begrensde entiteitspayloads, paginering van lange lijsten, vertraagde zoekindex, expliciete plotfetch en reset, reproduceerbare build en regressiepoort voor 176 eerdere bestanden. Zie [PILOT-ACCEPTANCE.md](PILOT-ACCEPTANCE.md). De historische Batch-06-readinessrapportage blijft intact.
+
+**Volgende veilige fase, uitsluitend na opdracht:** verzamel mobiele gebruikersfeedback en controleer echte Safari/VoiceOver; verifieer open editie-, publicatie- en relatievelden; verkrijg aantoonbare beeldrechten. Daarna pas een afzonderlijk besluit over bredere uitrol, oude routecompatibiliteit en taaluitbreiding. Deze oplevering schakelt niets om en start geen nieuwe migratiebatch.
 
 ## Uitvoeringskeuzes en volgorde
 
