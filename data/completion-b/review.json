@@ -2016,6 +2016,52 @@
         "edition publication date",
         "same previously collected literary work"
       ]
+    },
+    {
+      "key": "sometimes-again-apple",
+      "url": "https://tv.apple.com/us/movie/sometimes-they-come-backagain/umc.cmc.1yhe2bi1rn4t5ih5g7jf0ue61",
+      "locator": "Exact production title; released 1996; Adam Grossman director; US origin and English original audio; return home for funeral and danger to daughter opening only. Generic based-on-story marketing does not establish a second direct adaptation.",
+      "checkedFields": [
+        "Exact production title",
+        "released 1996",
+        "Adam Grossman director",
+        "US origin and English original audio",
+        "return home for funeral and danger to daughter opening only. Generic based-on-story marketing does not establish a second direct adaptation."
+      ],
+      "publisher": "Apple TV",
+      "sourceType": "official-production",
+      "observedAt": "2026-10-28",
+      "access": "available"
+    },
+    {
+      "key": "sometimes-more-apple",
+      "url": "https://tv.apple.com/us/movie/sometimes-they-come-backfor-more/umc.cmc.6it24zid1lz2expbz0e5dwds4",
+      "locator": "Exact production title; US catalogue released 1999; Daniel Zelik Berk director; Adam Grossman writer credit only, completeness unknown; US origin and English original audio; military investigation of Antarctic outpost opening. No score or resolution copied.",
+      "checkedFields": [
+        "Exact production title",
+        "US catalogue released 1999",
+        "Daniel Zelik Berk director",
+        "Adam Grossman writer credit only, completeness unknown",
+        "US origin and English original audio",
+        "military investigation of Antarctic outpost opening. No score or resolution copied."
+      ],
+      "publisher": "Apple TV",
+      "sourceType": "official-production",
+      "observedAt": "2026-10-28",
+      "access": "available"
+    },
+    {
+      "key": "sometimes-family-reference",
+      "url": "https://www.moviefone.com/movie/sometimes-they-come-back-again/1119628/main/",
+      "locator": "Sometimes They Come Back Collection explicitly lists 1991 original, Again 1996 and For More 1999; screen-family membership only, no common characters, chronological sequence or direct short-story adaptation.",
+      "checkedFields": [
+        "Sometimes They Come Back Collection explicitly lists 1991 original, Again 1996 and For More 1999",
+        "screen-family membership only, no common characters, chronological sequence or direct short-story adaptation."
+      ],
+      "publisher": "Moviefone",
+      "sourceType": "reference",
+      "observedAt": "2026-10-28",
+      "access": "available"
     }
   ],
   "records": [
@@ -4945,6 +4991,223 @@
         "Individual printing not established; no image acquired or rebound."
       ],
       "note": "A standalone edition of the existing novella identity. This edition date does not replace the original collection publication, create a new literary work, or imply a cover is available for display."
+    },
+    {
+      "key": "sometimes-film-series",
+      "entityType": "series",
+      "name": "Sometimes They Come Back film series",
+      "aliases": [],
+      "seriesKind": "film-series",
+      "scope": "The 1991 television film and the later productions Again and For More. A film-family browsing group, not a shared-story chronology.",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "sometimes-family-reference"
+      ],
+      "note": "The original television film retains its existing identity and direct short-story relationship. Later film-family entries do not acquire that source relationship automatically.",
+      "checked": "2026-10-28"
+    },
+    {
+      "key": "sometimes-again",
+      "entityType": "adaptation",
+      "title": "Sometimes They Come Back... Again",
+      "aliases": [],
+      "format": "film",
+      "externalIds": {},
+      "releaseYear": 1996,
+      "releaseEvents": [
+        {
+          "value": "1996",
+          "precision": "year",
+          "meaning": "source-reported-release",
+          "territory": "US"
+        }
+      ],
+      "statusHistory": [
+        {
+          "status": "released",
+          "asOf": "2026-10-28",
+          "projectScope": "Released film, year as labelled by the US distribution catalogue. No exact worldwide premiere or current streaming availability claim.",
+          "claimIds": [
+            "sometimes-again/statusHistory"
+          ]
+        }
+      ],
+      "ratingObservations": [],
+      "countries": [
+        "US"
+      ],
+      "originalLanguages": [
+        "en"
+      ],
+      "originalScreenplay": null,
+      "makerObservations": [
+        {
+          "role": "director",
+          "creditText": "Adam Grossman",
+          "scope": "Sometimes They Come Back... Again",
+          "sourceUrl": "https://tv.apple.com/us/movie/sometimes-they-come-backagain/umc.cmc.1yhe2bi1rn4t5ih5g7jf0ue61",
+          "verification": "source-supported"
+        }
+      ],
+      "distribution": [],
+      "productionUnits": [],
+      "summary": {
+        "en": "Jon Porter returns to his home town for his mother’s funeral. Memories of a family tragedy and a threat to his teenage daughter turn the visit into an encounter with the past."
+      },
+      "sourceKeys": [
+        "sometimes-again-apple"
+      ],
+      "open": [
+        "Exact first-release date, complete writing and cast credits remain unverified."
+      ],
+      "note": "Separate film identity. No direct adaptation_of or narrative sequel_to asserted from title or distributor marketing; no inherited story credits, ratings or poster.",
+      "checked": "2026-10-28"
+    },
+    {
+      "key": "sometimes-more",
+      "entityType": "adaptation",
+      "title": "Sometimes They Come Back... for More",
+      "aliases": [],
+      "format": "film",
+      "externalIds": {},
+      "releaseYear": 1999,
+      "releaseEvents": [
+        {
+          "value": "1999",
+          "precision": "year",
+          "meaning": "source-reported-release",
+          "territory": "US"
+        }
+      ],
+      "statusHistory": [
+        {
+          "status": "released",
+          "asOf": "2026-10-28",
+          "projectScope": "Released film, year as labelled by the US distribution catalogue. No exact worldwide premiere or current streaming availability claim.",
+          "claimIds": [
+            "sometimes-more/statusHistory"
+          ]
+        }
+      ],
+      "ratingObservations": [],
+      "countries": [
+        "US"
+      ],
+      "originalLanguages": [
+        "en"
+      ],
+      "originalScreenplay": null,
+      "makerObservations": [
+        {
+          "role": "director",
+          "creditText": "Daniel Zelik Berk",
+          "scope": "Sometimes They Come Back... for More",
+          "sourceUrl": "https://tv.apple.com/us/movie/sometimes-they-come-backfor-more/umc.cmc.6it24zid1lz2expbz0e5dwds4",
+          "verification": "source-supported"
+        },
+        {
+          "role": "screenwriter",
+          "creditText": "Adam Grossman",
+          "scope": "Named writer on Apple TV; complete writing credits not established.",
+          "sourceUrl": "https://tv.apple.com/us/movie/sometimes-they-come-backfor-more/umc.cmc.6it24zid1lz2expbz0e5dwds4",
+          "verification": "source-supported"
+        }
+      ],
+      "distribution": [],
+      "productionUnits": [],
+      "summary": {
+        "en": "Military officers arrive at an isolated Antarctic outpost to investigate mysterious deaths. With only a small number of survivors to question, the visitors must decide whom they can trust."
+      },
+      "sourceKeys": [
+        "sometimes-more-apple"
+      ],
+      "open": [
+        "Exact first-release date, complete writing and cast credits remain unverified.",
+        "Some secondary catalogues label the production 1998; selected 1999 is Apple TV’s US catalogue year, not an established worldwide premiere."
+      ],
+      "note": "Separate film identity. No direct adaptation_of or narrative sequel_to asserted from title or distributor marketing; no inherited story credits, ratings or poster.",
+      "checked": "2026-10-28"
+    },
+    {
+      "key": "sometimes-membership-adp:000071",
+      "entityType": "connection",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000071"
+      },
+      "predicate": "part_of_series",
+      "to": {
+        "type": "series",
+        "key": "sometimes-film-series"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The 1991 television film belongs to the Sometimes They Come Back film family."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "sometimes-family-reference"
+      ],
+      "note": "Membership only; no seriesPosition, direct literary source, shared character or narrative continuity inferred.",
+      "checked": "2026-10-28"
+    },
+    {
+      "key": "sometimes-membership-sometimes-again",
+      "entityType": "connection",
+      "from": {
+        "type": "adaptation",
+        "key": "sometimes-again"
+      },
+      "predicate": "part_of_series",
+      "to": {
+        "type": "series",
+        "key": "sometimes-film-series"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Sometimes They Come Back... Again belongs to the Sometimes They Come Back film family."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "sometimes-family-reference"
+      ],
+      "note": "Membership only; no seriesPosition, direct literary source, shared character or narrative continuity inferred.",
+      "checked": "2026-10-28"
+    },
+    {
+      "key": "sometimes-membership-sometimes-more",
+      "entityType": "connection",
+      "from": {
+        "type": "adaptation",
+        "key": "sometimes-more"
+      },
+      "predicate": "part_of_series",
+      "to": {
+        "type": "series",
+        "key": "sometimes-film-series"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Sometimes They Come Back... for More belongs to the Sometimes They Come Back film family."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "sometimes-family-reference"
+      ],
+      "note": "Membership only; no seriesPosition, direct literary source, shared character or narrative continuity inferred.",
+      "checked": "2026-10-28"
     }
   ],
   "deferred": [

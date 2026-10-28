@@ -5,7 +5,7 @@ const {extendCompletionB,validateCompletionB}=require('../scripts/completion_b.c
 const base=loadCompletion(),before=structuredClone(base),bundle=extendCompletionB(base);
 test('Bounded B additions preserve every prior identity, record, alias and manifest',()=>{
  assert.deepEqual(base,before);assert.deepEqual(validateCompletionB(bundle,base),[]);
- assert.equal(bundle.characters.length-base.characters.length,4);assert.equal(bundle.locations.length-base.locations.length,3);assert.equal(bundle.series.length-base.series.length,3);assert.equal(bundle.adaptations.length-base.adaptations.length,13);assert.equal(bundle.connections.length-base.connections.length,45);
+ assert.equal(bundle.characters.length-base.characters.length,4);assert.equal(bundle.locations.length-base.locations.length,3);assert.equal(bundle.series.length-base.series.length,4);assert.equal(bundle.adaptations.length-base.adaptations.length,15);assert.equal(bundle.connections.length-base.connections.length,48);
  assert.throws(()=>extendCompletionB(bundle),/collision|already exists/);
 });
 test('The Hodges sequence links exactly the three existing novels with supported positions',()=>{
@@ -129,4 +129,10 @@ test('Urban Harvest, Genesis and Runaway are separate screen identities with pre
 test('Five standalone novella editions reuse story identities without changing collection publication or inventing covers',()=>{
  for(const [id,work,isbn,date]of [['edn:000165','wrk:000094','9781668264164','2026-08-25'],['edn:000166','wrk:000093','9781982115449','2018-12-04'],['edn:000167','wrk:000121','9781668264201','2026-10-06'],['edn:000168','wrk:000183','9781668208786','2025-06-10'],['edn:000169','wrk:000118','9781982136055','2019-11-12']]){const e=bundle.editions.find(e=>e.id===id);assert.equal(e.publicationOf.id,work);assert.equal(e.isbn13,isbn);assert.equal(e.publicationDate.value,date);assert.equal(e.publicationDate.meaning,'edition-publication');assert.equal(e.publisher,'Scribner');assert.equal(e.language,'en');assert.ok(!bundle.artworks.some(a=>a.editionId===id));assert.deepEqual(bundle.publicationEvents.filter(p=>p.subject.id===work),base.publicationEvents.filter(p=>p.subject.id===work));}
  assert.equal(bundle.editions.length,169);assert.equal(bundle.works.length,250);
+});
+
+test('Later Sometimes films preserve the original identity and separate catalogue years from world premiere claims',()=>{
+ const original=bundle.adaptations.find(a=>a.id==='adp:000071');assert.deepEqual(original,base.adaptations.find(a=>a.id===original.id));
+ for(const [id,year,director]of [['adp:000110',1996,'Adam Grossman'],['adp:000111',1999,'Daniel Zelik Berk']]){const a=bundle.adaptations.find(a=>a.id===id);assert.equal(a.releaseYear,year);assert.equal(a.releaseEvents[0].meaning,'source-reported-release');assert.equal(a.releaseEvents[0].territory,'US');assert.equal(a.releaseEvents[0].precision,'year');assert.equal(a.makerObservations.find(m=>m.role==='director').creditText,director);assert.equal(a.ratingObservations.length,0);assert.ok(!bundle.connections.some(c=>c.from.id===id&&['adaptation_of','sequel_to'].includes(c.predicate)));}
+ assert.ok(bundle.adaptations.find(a=>a.id==='adp:000111').verification.open.some(s=>s.includes('1998')));const group=bundle.connections.filter(c=>c.to.id==='ser:000006');assert.deepEqual(group.map(c=>c.from.id),['adp:000071','adp:000110','adp:000111']);assert.ok(group.every(c=>!c.seriesPosition&&c.spoiler.level==='none'));
 });
