@@ -743,6 +743,150 @@
         "three distinct titles",
         "series membership and order"
       ]
+    },
+    {
+      "key": "book-intro-000052-source",
+      "url": "https://stephenking.com/works/novel/mr-mercedes.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap: premise, named investigators or explicitly credited collaboration. Excludes culprit identities, outcomes and hidden Tower connections.",
+      "checkedFields": [
+        "opening premise for original English introduction"
+      ]
+    },
+    {
+      "key": "book-intro-000054-source",
+      "url": "https://stephenking.com/works/novel/finders-keepers.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap: premise, named investigators or explicitly credited collaboration. Excludes culprit identities, outcomes and hidden Tower connections.",
+      "checkedFields": [
+        "opening premise for original English introduction"
+      ]
+    },
+    {
+      "key": "book-intro-000055-source",
+      "url": "https://stephenking.com/works/novel/end-of-watch.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap: premise, named investigators or explicitly credited collaboration. Excludes culprit identities, outcomes and hidden Tower connections.",
+      "checkedFields": [
+        "opening premise for original English introduction"
+      ]
+    },
+    {
+      "key": "book-intro-000056-source",
+      "url": "https://stephenking.com/works/novel/sleeping-beauties.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap: premise, named investigators or explicitly credited collaboration. Excludes culprit identities, outcomes and hidden Tower connections.",
+      "checkedFields": [
+        "opening premise for original English introduction"
+      ]
+    },
+    {
+      "key": "book-intro-000057-source",
+      "url": "https://stephenking.com/works/novella/gwendys-button-box.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap: premise, named investigators or explicitly credited collaboration. Excludes culprit identities, outcomes and hidden Tower connections.",
+      "checkedFields": [
+        "opening premise for original English introduction"
+      ]
+    },
+    {
+      "key": "book-intro-000058-source",
+      "url": "https://stephenking.com/works/novel/outsider.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap: premise, named investigators or explicitly credited collaboration. Excludes culprit identities, outcomes and hidden Tower connections.",
+      "checkedFields": [
+        "opening premise for original English introduction"
+      ]
+    },
+    {
+      "key": "book-intro-000063-source",
+      "url": "https://stephenking.com/works/novel/gwendys-final-task.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap: premise, named investigators or explicitly credited collaboration. Excludes culprit identities, outcomes and hidden Tower connections.",
+      "checkedFields": [
+        "opening premise for original English introduction"
+      ]
+    },
+    {
+      "key": "book-intro-000065-source",
+      "url": "https://stephenking.com/works/novel/holly.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap: premise, named investigators or explicitly credited collaboration. Excludes culprit identities, outcomes and hidden Tower connections.",
+      "checkedFields": [
+        "opening premise for original English introduction"
+      ]
+    },
+    {
+      "key": "edition-06-source",
+      "url": "https://www.cemeterydance.com/gwendys-final-task.html",
+      "publisher": "Cemetery Dance Publications",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Selected hardcover format; title; ISBN; imprint; explicitly listed original edition publication date.",
+      "checkedFields": [
+        "English original-language hardcover identity",
+        "ISBN",
+        "publisher",
+        "edition date",
+        "format"
+      ]
+    },
+    {
+      "key": "edition-07-source",
+      "url": "https://www.simonandschuster.com/books/Holly/Stephen-King/9781668016138",
+      "publisher": "Scribner",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Selected hardcover format; title; ISBN; imprint; explicitly listed original edition publication date.",
+      "checkedFields": [
+        "English original-language hardcover identity",
+        "ISBN",
+        "publisher",
+        "edition date",
+        "format"
+      ]
+    },
+    {
+      "key": "edition-08-source",
+      "url": "https://www.cemeterydance.com/gwendys-button-box-stephen-king-richard-chizmar.html",
+      "publisher": "Cemetery Dance Publications",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Selected hardcover format; title; ISBN; imprint; explicitly listed original edition publication date. Publisher also identifies a fourth printing in 2022 under this ISBN; this is not a separate literary work, an exact printing identification or a replacement for the original 2017 edition date.",
+      "checkedFields": [
+        "English original-language hardcover identity",
+        "ISBN",
+        "publisher",
+        "edition date",
+        "format"
+      ]
     }
   ],
   "records": [
@@ -2515,6 +2659,93 @@
         "gwendy-feather-publisher"
       ],
       "note": "Verified reading sequence; authorship remains attached to each individual work."
+    },
+    {
+      "key": "edition-06",
+      "entityType": "edition",
+      "checked": "2026-10-28",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000063"
+      },
+      "language": "en",
+      "title": "Gwendy's Final Task",
+      "isbn13": "9781587678011",
+      "publisher": "Cemetery Dance Publications",
+      "publicationDate": {
+        "value": "2022-02-15",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": "US"
+      },
+      "format": "Trade Hardcover",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "open": [
+        "Specific printing/impression not established."
+      ],
+      "sourceKeys": [
+        "edition-06-source"
+      ],
+      "note": "Publisher-identified physical English edition. No inferred cover binding and no first-printing or worldwide first-publication claim."
+    },
+    {
+      "key": "edition-07",
+      "entityType": "edition",
+      "checked": "2026-10-28",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000065"
+      },
+      "language": "en",
+      "title": "Holly",
+      "isbn13": "9781668016138",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2023-09-05",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": "US"
+      },
+      "format": "Hardcover",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "open": [
+        "Specific printing/impression not established."
+      ],
+      "sourceKeys": [
+        "edition-07-source"
+      ],
+      "note": "Publisher-identified physical English edition. No inferred cover binding and no first-printing or worldwide first-publication claim."
+    },
+    {
+      "key": "edition-08",
+      "entityType": "edition",
+      "checked": "2026-10-28",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000057"
+      },
+      "language": "en",
+      "title": "Gwendy's Button Box",
+      "isbn13": "9781587676109",
+      "publisher": "Cemetery Dance Publications",
+      "publicationDate": {
+        "value": "2017-05-16",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": "US"
+      },
+      "format": "Trade Hardcover",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "open": [
+        "Publisher lists original release May 16 2017 and fourth printing 2022 with this ISBN. Individual printing/impression not established."
+      ],
+      "sourceKeys": [
+        "edition-08-source"
+      ],
+      "note": "Publisher-identified physical English edition. No inferred cover binding and no first-printing or worldwide first-publication claim."
     }
   ],
   "deferred": [
@@ -3847,6 +4078,192 @@
       },
       "locator": "Official novel Synopsis / From the Flap; original editorial introduction, opening situation only.",
       "note": "New visitor-facing English prose; no copied synopsis, new work, edition or relationship claim."
+    },
+    {
+      "key": "book-intro-000052",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000052"
+      },
+      "field": "summary",
+      "value": {
+        "en": "An attack on a crowd waiting for a job fair leaves an unknown driver at large. The opening Bill Hodges novel turns that unresolved crime into a tense pursuit between a determined investigator and a calculating killer."
+      },
+      "sourceKeys": [
+        "book-intro-000052-source",
+        "endwatch"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000052"
+        ]
+      },
+      "locator": "Official work Synopsis / From the Flap; original wording, no ending or hidden identity.",
+      "note": "Premise-only visitor copy; existing authors, series, dates and other fields remain separately evidenced."
+    },
+    {
+      "key": "book-intro-000054",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000054"
+      },
+      "field": "summary",
+      "value": {
+        "en": "A reader’s obsession with a reclusive novelist leaves a hidden cache of unpublished writing. When a boy discovers it years later, Bill Hodges and his partners are drawn into a dangerous struggle over who controls the stories."
+      },
+      "sourceKeys": [
+        "book-intro-000054-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000054"
+        ]
+      },
+      "locator": "Official work Synopsis / From the Flap; original wording, no ending or hidden identity.",
+      "note": "Premise-only visitor copy; existing authors, series, dates and other fields remain separately evidenced."
+    },
+    {
+      "key": "book-intro-000055",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000055"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Bill Hodges and Holly Gibney investigate a disturbing case connected to the Mercedes massacre. The final novel of the Hodges trilogy brings their detective work into contact with a threat that challenges ordinary explanations."
+      },
+      "sourceKeys": [
+        "book-intro-000055-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000055"
+        ]
+      },
+      "locator": "Official work Synopsis / From the Flap; original wording, no ending or hidden identity.",
+      "note": "Premise-only visitor copy; existing authors, series, dates and other fields remain separately evidenced."
+    },
+    {
+      "key": "book-intro-000056",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000056"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Women around the world become enclosed in strange coverings when they fall asleep, leaving their communities in crisis. Written with Owen King, the novel centres on an Appalachian town where fear and division gather around one apparently unaffected woman."
+      },
+      "sourceKeys": [
+        "book-intro-000056-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000056"
+        ]
+      },
+      "locator": "Official work Synopsis / From the Flap; original wording, no ending or hidden identity.",
+      "note": "Premise-only visitor copy; existing authors, series, dates and other fields remain separately evidenced."
+    },
+    {
+      "key": "book-intro-000057",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000057"
+      },
+      "field": "summary",
+      "value": {
+        "en": "A stranger entrusts twelve-year-old Gwendy Peterson with a mysterious box during a summer in Castle Rock. Its rewards and dangerous possibilities turn a childhood encounter into a test of temptation and responsibility."
+      },
+      "sourceKeys": [
+        "book-intro-000057-source",
+        "gwendy-trilogy-publisher"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000057"
+        ]
+      },
+      "locator": "Official work Synopsis / From the Flap; original wording, no ending or hidden identity.",
+      "note": "Premise-only visitor copy; existing authors, series, dates and other fields remain separately evidenced."
+    },
+    {
+      "key": "book-intro-000058",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000058"
+      },
+      "field": "summary",
+      "value": {
+        "en": "A child’s murder seems to point unmistakably towards a respected local man, until the evidence begins to contradict itself. Detective Ralph Anderson must question an apparently solid case as the investigation moves beyond familiar explanations."
+      },
+      "sourceKeys": [
+        "book-intro-000058-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000058"
+        ]
+      },
+      "locator": "Official work Synopsis / From the Flap; original wording, no ending or hidden identity.",
+      "note": "Premise-only visitor copy; existing authors, series, dates and other fields remain separately evidenced."
+    },
+    {
+      "key": "book-intro-000063",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000063"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Gwendy Peterson must keep the dangerous button box away from forces determined to possess it. Stephen King and Richard Chizmar bring the trilogy to its final mission, taking Gwendy’s responsibility far beyond Castle Rock."
+      },
+      "sourceKeys": [
+        "book-intro-000063-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000063"
+        ]
+      },
+      "locator": "Official work Synopsis / From the Flap; original wording, no ending or hidden identity.",
+      "note": "Premise-only visitor copy; existing authors, series, dates and other fields remain separately evidenced."
+    },
+    {
+      "key": "book-intro-000065",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000065"
+      },
+      "field": "summary",
+      "value": {
+        "en": "A mother asks Holly Gibney to find her missing daughter, drawing the investigator into a series of disappearances. Careful observation and persistence become essential as Holly looks beneath an outwardly respectable community."
+      },
+      "sourceKeys": [
+        "book-intro-000065-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000065"
+        ]
+      },
+      "locator": "Official work Synopsis / From the Flap; original wording, no ending or hidden identity.",
+      "note": "Premise-only visitor copy; existing authors, series, dates and other fields remain separately evidenced."
     }
   ]
 }

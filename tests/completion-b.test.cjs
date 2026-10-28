@@ -69,14 +69,14 @@ test('Three same-title Corn productions stay distinct and only confirmed adaptat
 });
 
 test('Reviewed book introductions enrich existing identities with field-scoped evidence only',()=>{
- const review=require('../data/completion-b/review.json'),introductions=review.enrichments.filter(e=>e.subject.type==='work');assert.equal(introductions.length,24);
- for(const e of introductions){const old=base.works.find(w=>w.id===e.subject.id),w=bundle.works.find(w=>w.id===old.id);assert.equal(w.summary.en,e.value.en);assert.equal(w.originalTitle,old.originalTitle);const c=bundle.claims.find(c=>c.subject.id===w.id&&c.fieldPath==='/summary'&&c.selected);assert.equal(c.status,'verified');assert.deepEqual(c.value,w.summary);assert.ok(c.sourceIds.every(id=>bundle.sources.find(s=>s.id===id).url.startsWith('https://stephenking.com/')));}
+ const review=require('../data/completion-b/review.json'),introductions=review.enrichments.filter(e=>e.subject.type==='work');assert.equal(introductions.length,32);
+ for(const e of introductions){const old=base.works.find(w=>w.id===e.subject.id),w=bundle.works.find(w=>w.id===old.id);assert.equal(w.summary.en,e.value.en);assert.equal(w.originalTitle,old.originalTitle);const c=bundle.claims.find(c=>c.subject.id===w.id&&c.fieldPath==='/summary'&&c.selected);assert.equal(c.status,'verified');assert.deepEqual(c.value,w.summary);assert.ok(c.sourceIds.every(id=>bundle.sources.find(s=>s.id===id).url.match(/^https:\/\/(stephenking\.com|www\.simonandschuster\.com)\//)));}
  const changed=structuredClone(bundle);changed.works.find(w=>w.id==='wrk:000005').originalTitle='Wrong title';assert.ok(validateCompletionB(changed,base).some(e=>e.code==='b-baseline-record-changed'));
  const unsupported=structuredClone(bundle);unsupported.works.find(w=>w.id==='wrk:000005').summary.en='An invented ending';assert.ok(validateCompletionB(unsupported,base).some(e=>e.code==='b-editorial-evidence'));
 });
 
 test('Five publisher-identified English editions preserve all earlier edition and artwork bindings',()=>{
- assert.equal(bundle.editions.length,160);for(const old of base.editions)assert.deepEqual(bundle.editions.find(e=>e.id===old.id),old);assert.deepEqual(bundle.artworks,base.artworks);
+ assert.equal(bundle.editions.length,163);for(const old of base.editions)assert.deepEqual(bundle.editions.find(e=>e.id===old.id),old);assert.deepEqual(bundle.artworks,base.artworks);
  for(const e of bundle.editions.filter(e=>['edn:000155','edn:000156','edn:000157','edn:000158','edn:000159'].includes(e.id))){assert.equal(e.language,'en');assert.equal(e.identityStatus,'identified');assert.equal(e.publisher,'Scribner');assert.equal(e.publicationDate.meaning,'edition-publication');assert.equal(e.publicationDate.precision,'day');assert.ok(base.works.some(w=>w.id===e.publicationOf.id));assert.equal(new Set(bundle.editions.filter(x=>x.isbn13).map(x=>x.isbn13)).size,bundle.editions.filter(x=>x.isbn13).length);}
  assert.equal(bundle.editions.find(e=>e.id==='edn:000155').isbn13,'9781982159375');assert.equal(bundle.editions.find(e=>e.id==='edn:000159').format,'Hardcover');assert.equal(bundle.editions.find(e=>e.id==='edn:000088').isbn13,null);
  const invalid=structuredClone(bundle);invalid.editions.at(-1).isbn13='9781982112395';assert.ok(validateCompletionB(invalid,base).some(e=>e.code==='b-isbn-checksum'));
@@ -93,4 +93,10 @@ test('Gwendy’s middle novel has one identity, Chizmar authorship and a separat
  const credits=bundle.credits.filter(c=>c.subject.id===work.id);assert.deepEqual(credits.filter(c=>c.role==='author').map(c=>c.personId),['per:000004']);assert.equal(credits.find(c=>c.personId==='per:000001').role,'foreword');assert.equal(credits.filter(c=>c.role==='illustrator').length,2);assert.ok(!credits.some(c=>c.role==='coauthor'));
  assert.deepEqual(bundle.connections.filter(c=>c.to.id==='ser:000005').map(c=>[c.from.id,c.seriesPosition]),[['wrk:000057',1],['wrk:000250',2],['wrk:000063',3]]);
  const e=bundle.editions.find(e=>e.id==='edn:000160');assert.equal(e.publicationOf.id,work.id);assert.equal(e.isbn13,'9781587677311');assert.equal(e.publicationDate.value,'2019-11-19');assert.equal(bundle.publicationEvents.find(p=>p.id==='pub:000258').editionId,e.id);
+});
+
+test('Holly and the remaining Gwendy hardcovers have ISBN-specific dates without inventing printings',()=>{
+ for(const [id,work,isbn,date]of [['edn:000161','wrk:000063','9781587678011','2022-02-15'],['edn:000162','wrk:000065','9781668016138','2023-09-05'],['edn:000163','wrk:000057','9781587676109','2017-05-16']]){const e=bundle.editions.find(e=>e.id===id);assert.equal(e.publicationOf.id,work);assert.equal(e.isbn13,isbn);assert.equal(e.publicationDate.value,date);assert.equal(e.identityStatus,'identified');}
+ assert.ok(bundle.editions.find(e=>e.id==='edn:000163').verification.open.some(s=>s.includes('fourth printing 2022')));
+ assert.equal(bundle.works.filter(w=>w.originalTitle==="Gwendy's Button Box").length,1);assert.equal(bundle.editions.length,163);
 });
