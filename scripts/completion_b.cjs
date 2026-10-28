@@ -38,6 +38,15 @@ function extendCompletionB(input){
    add(claim);record.verification.claimIds.push(claim.id);
   }
  }
+ // Editorial additions update a reviewed field on an existing identity. They
+ // never create a second work or replace the historical source observation.
+ for(const e of review.enrichments||[]){
+  const r=map.get(e.subject.id);if(r?.entityType!=='work'||e.subject.type!=='work'||e.field!=='summary')throw Error('Unsupported B enrichment '+e.key);
+  for(const c of bundle.claims.filter(c=>c.subject.id===r.id&&c.fieldPath==='/summary'&&c.selected))c.selected=false;
+  r.summary=structuredClone(e.value);
+  const c={id:id('claim',e.key),entityType:'claim',subject:structuredClone(e.subject),fieldPath:'/summary',value:structuredClone(e.value),sourceIds:e.sourceKeys.map(k=>sourceKeys.get(k)),locator:e.locator,status:'verified',observedAt:e.checked,independentlyConfirmed:false,selected:true,decisionNote:e.note};
+  add(c);r.verification.claimIds.push(c.id);
+ }
  const problems=validateCompletionB(bundle,input);if(problems.length)throw Error(JSON.stringify(problems));
  return bundle;
 }
@@ -51,6 +60,12 @@ function validateCompletionB(bundle,baseline){
  if(records.length!==map.size)fail('b-duplicate-id','Duplicate canonical identity');
  if(new Set(Object.values(reg.allocations)).size!==Object.values(reg.allocations).length)fail('b-register-collision','Register allocation is not injective');
  const known=new Map(bundle.registry.entries.map(e=>[e.id,e.type]));
+ const editorial=new Map();
+ for(const e of review.enrichments||[]){
+  if(editorial.has(e.subject.id)||e.subject.type!=='work'||e.field!=='summary'){fail('b-enrichment-scope',e.key);continue;}editorial.set(e.subject.id,e);
+  const r=map.get(e.subject.id),c=map.get(reg.allocations['claim/'+e.key]),urls=e.sourceKeys.map(k=>review.sources.find(s=>s.key===k)?.url);
+  if(!r||r.entityType!=='work'||!c||c.subject.id!==r.id||c.subject.type!=='work'||c.fieldPath!=='/summary'||c.status!=='verified'||!c.selected||c.observedAt!==e.checked||!r.verification.claimIds.includes(c.id)||JSON.stringify(c.value)!==JSON.stringify(e.value)||JSON.stringify(r.summary)!==JSON.stringify(e.value)||JSON.stringify(c.sourceIds.map(id=>map.get(id)?.url))!==JSON.stringify(urls)||urls.some(url=>!url))fail('b-editorial-evidence',e.key);
+ }
  for(const d of review.records){
   const r=map.get(reg.allocations[d.entityType+'/'+d.key]);if(!r||known.get(r.id)!==d.entityType){fail('b-unregistered',d.key);continue;}
   const expectedKeys=new Set(['id','entityType','verification',...Object.keys(d).filter(k=>!METADATA.has(k))]);if(Object.keys(r).some(k=>!expectedKeys.has(k)))fail('b-unreviewed-field',r.id);
@@ -78,7 +93,7 @@ function validateCompletionB(bundle,baseline){
   if(r.entityType==='character'&&(r.aliases.length||r.spoiler.level!=='none'))fail('b-character-spoiler',r.id);
  }
  if(baseline){
-  for(const [table,rows]of Object.entries(baseline).filter(([,rows])=>Array.isArray(rows))){for(const r of rows){const next=bundle[table].find(x=>x.id===r.id);try{assert.deepEqual(next,r);}catch{fail('b-baseline-record-changed',r.id);}}}
+  for(const [table,rows]of Object.entries(baseline).filter(([,rows])=>Array.isArray(rows))){for(const r of rows){const next=bundle[table].find(x=>x.id===r.id),expected=structuredClone(r),e=editorial.get(r.id);if(table==='works'&&e){expected.summary=structuredClone(e.value);expected.verification.claimIds.push(reg.allocations['claim/'+e.key]);}if(table==='claims'&&editorial.has(r.subject.id)&&r.fieldPath==='/summary')expected.selected=false;try{assert.deepEqual(next,expected);}catch{fail('b-baseline-record-changed',r.id);}}}
   try{assert.deepEqual(bundle.registry.aliases,baseline.registry.aliases);assert.deepEqual(bundle.manifest,baseline.manifest);}catch{fail('b-baseline-metadata-changed','Existing aliases/manifest changed');}
   if(bundle.characters.length-baseline.characters.length!==3||bundle.locations.length-baseline.locations.length!==1||bundle.series.length-baseline.series.length!==2||bundle.connections.length-baseline.connections.length!==20||bundle.adaptations.length-baseline.adaptations.length!==10)fail('b-batch-boundary','Reviewed scope: three characters, one location, two series, ten screen productions and twenty links');
   for(const t of ['works','collections','editions','people','artworks'])if(bundle[t].length!==baseline[t].length)fail('b-out-of-scope-addition',t);

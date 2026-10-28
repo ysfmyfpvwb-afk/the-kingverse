@@ -73,3 +73,7 @@ test('Initial Talisman transfer stays below 1.9 in both raw and gzip estimates; 
 test('Primary dark-theme text and control boundaries retain measurable contrast',()=>{
  const css=out.files.get('explorer/pilot/'+out.report.assets.css),rgb=h=>h.match(/\w\w/g).map(n=>parseInt(n,16)/255).map(v=>v<=.04045?v/12.92:((v+.055)/1.055)**2.4),lum=h=>rgb(h.replace('#','')).reduce((s,v,i)=>s+v*[.2126,.7152,.0722][i],0),ratio=(a,b)=>(Math.max(lum(a),lum(b))+.05)/(Math.min(lum(a),lum(b))+.05),color=n=>css.match(new RegExp('--'+n+':(#[0-9a-f]{6})'))[1];for(const fg of ['text','gold','muted'])for(const bg of ['bg','panel'])assert.ok(ratio(color(fg),color(bg))>=4.5);assert.ok(ratio('#6d7968',color('panel'))>=3);assert.match(css,/html:has\(dialog\[open\]\)/);
 });
+
+test('Core literary premises use the same verified introductions as the main catalog',()=>{
+ for(const e of require('../data/completion-b/review.json').enrichments){const n=index(e.subject.id).node;assert.equal(n.description,e.value.en);assert.ok(n.evidence.some(c=>c.fieldPath==='/summary'&&c.status==='verified'&&c.selected));assert.ok(!n.description.includes('A novel by Stephen King.'));}
+});

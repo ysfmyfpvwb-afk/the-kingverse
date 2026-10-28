@@ -1,7 +1,7 @@
 {
   "version": 1,
   "checked": "2026-10-27",
-  "scope": "Package B: delivered universe/franchise records plus Pet Sematary Two and the independently identified 2009/2023 US-release Children of the Corn adaptations.",
+  "scope": "Delivered screen/universe records plus field-scoped editorial descriptions on existing literary identities.",
   "sources": [
     {
       "key": "characters",
@@ -345,6 +345,102 @@
         "Kurt Wimmer director",
         "reimagining of the 1984 film",
         "cast Elena Kampouris / Kate Moyer / Callan Mulvey / Bruce Spence."
+      ]
+    },
+    {
+      "key": "book-intro-000003-source",
+      "url": "https://stephenking.com/works/novel/carrie.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap: opening situation and central premise only; exclude character outcomes and ending.",
+      "checkedFields": [
+        "opening premise for original editorial description"
+      ]
+    },
+    {
+      "key": "book-intro-000004-source",
+      "url": "https://stephenking.com/works/novel/salems-lot.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap: opening situation and central premise only; exclude character outcomes and ending.",
+      "checkedFields": [
+        "opening premise for original editorial description"
+      ]
+    },
+    {
+      "key": "book-intro-000005-source",
+      "url": "https://stephenking.com/works/novel/shining.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap: opening situation and central premise only; exclude character outcomes and ending.",
+      "checkedFields": [
+        "opening premise for original editorial description"
+      ]
+    },
+    {
+      "key": "book-intro-000007-source",
+      "url": "https://stephenking.com/works/novel/stand.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap: opening situation and central premise only; exclude character outcomes and ending.",
+      "checkedFields": [
+        "opening premise for original editorial description"
+      ]
+    },
+    {
+      "key": "book-intro-000016-source",
+      "url": "https://stephenking.com/works/novel/pet-sematary.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap: opening situation and central premise only; exclude character outcomes and ending.",
+      "checkedFields": [
+        "opening premise for original editorial description"
+      ]
+    },
+    {
+      "key": "book-intro-000019-source",
+      "url": "https://stephenking.com/works/novel/it.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap: opening situation and central premise only; exclude character outcomes and ending.",
+      "checkedFields": [
+        "opening premise for original editorial description"
+      ]
+    },
+    {
+      "key": "book-intro-000021-source",
+      "url": "https://stephenking.com/works/novel/misery.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap: opening situation and central premise only; exclude character outcomes and ending.",
+      "checkedFields": [
+        "opening premise for original editorial description"
+      ]
+    },
+    {
+      "key": "book-intro-000048-source",
+      "url": "https://stephenking.com/works/novel/11-22-63.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap: opening situation and central premise only; exclude character outcomes and ending.",
+      "checkedFields": [
+        "opening premise for original editorial description"
       ]
     }
   ],
@@ -1728,6 +1824,192 @@
       "observedAt": "2026-10-27",
       "access": "blocked",
       "result": "Redirected to geographic-restriction page; no workaround and no regional streaming availability assertion."
+    }
+  ],
+  "enrichments": [
+    {
+      "key": "book-intro-000003",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000003"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Carrie White is an isolated teenager caught between a strict home life and relentless school bullying. As she discovers an extraordinary ability to move things with her mind, her longing to belong becomes increasingly dangerous."
+      },
+      "sourceKeys": [
+        "book-intro-000003-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000003"
+        ]
+      },
+      "locator": "Official work page, Synopsis / From the Flap; independently worded opening-premise introduction, no quotations or ending.",
+      "note": "Original visitor-facing English description. This verifies the premise text only; it does not certify editions, dates, complete character lists or other fields."
+    },
+    {
+      "key": "book-intro-000004",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000004"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Writer Ben Mears returns to his childhood town, hoping to work through the memories of a house that still troubles him. Familiar streets become threatening as a new evil spreads through the community."
+      },
+      "sourceKeys": [
+        "book-intro-000004-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000004"
+        ]
+      },
+      "locator": "Official work page, Synopsis / From the Flap; independently worded opening-premise introduction, no quotations or ending.",
+      "note": "Original visitor-facing English description. This verifies the premise text only; it does not certify editions, dates, complete character lists or other fields."
+    },
+    {
+      "key": "book-intro-000005",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000005"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Jack Torrance takes a winter job at the remote Overlook Hotel, bringing his wife Wendy and their son Danny. Snowbound isolation and Danny’s unusual perceptions turn the family’s hoped-for fresh start into an encounter with the hotel’s dark past."
+      },
+      "sourceKeys": [
+        "book-intro-000005-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000005"
+        ]
+      },
+      "locator": "Official work page, Synopsis / From the Flap; independently worded opening-premise introduction, no quotations or ending.",
+      "note": "Original visitor-facing English description. This verifies the premise text only; it does not certify editions, dates, complete character lists or other fields."
+    },
+    {
+      "key": "book-intro-000007",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000007"
+      },
+      "field": "summary",
+      "value": {
+        "en": "A devastating epidemic leaves scattered survivors trying to rebuild their lives and find one another. Their search for community becomes a struggle over what kind of world should rise from the ruins."
+      },
+      "sourceKeys": [
+        "book-intro-000007-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000007"
+        ]
+      },
+      "locator": "Official work page, Synopsis / From the Flap; independently worded opening-premise introduction, no quotations or ending.",
+      "note": "Original visitor-facing English description. This verifies the premise text only; it does not certify editions, dates, complete character lists or other fields."
+    },
+    {
+      "key": "book-intro-000016",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000016"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Louis Creed and his family settle into a new home in rural Maine, close to a busy road and a children’s pet cemetery. Beyond the familiar burial ground lies a deeper temptation, drawing the story into grief and the fear of letting go."
+      },
+      "sourceKeys": [
+        "book-intro-000016-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000016"
+        ]
+      },
+      "locator": "Official work page, Synopsis / From the Flap; independently worded opening-premise introduction, no quotations or ending.",
+      "note": "Original visitor-facing English description. This verifies the premise text only; it does not certify editions, dates, complete character lists or other fields."
+    },
+    {
+      "key": "book-intro-000019",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000019"
+      },
+      "field": "summary",
+      "value": {
+        "en": "A group of childhood friends is drawn back to Derry by a danger they thought they had left behind. Moving between childhood and adulthood, the novel explores the bonds that sustain them and the fears hidden beneath their town’s ordinary surface."
+      },
+      "sourceKeys": [
+        "book-intro-000019-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000019"
+        ]
+      },
+      "locator": "Official work page, Synopsis / From the Flap; independently worded opening-premise introduction, no quotations or ending.",
+      "note": "Original visitor-facing English description. This verifies the premise text only; it does not certify editions, dates, complete character lists or other fields."
+    },
+    {
+      "key": "book-intro-000021",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000021"
+      },
+      "field": "summary",
+      "value": {
+        "en": "After a car accident, novelist Paul Sheldon wakes in the care of Annie Wilkes, an intensely devoted reader. Her attachment to his fiction turns recovery into captivity, forcing him to confront the power a reader can hold over a storyteller."
+      },
+      "sourceKeys": [
+        "book-intro-000021-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000021"
+        ]
+      },
+      "locator": "Official work page, Synopsis / From the Flap; independently worded opening-premise introduction, no quotations or ending.",
+      "note": "Original visitor-facing English description. This verifies the premise text only; it does not certify editions, dates, complete character lists or other fields."
+    },
+    {
+      "key": "book-intro-000048",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000048"
+      },
+      "field": "summary",
+      "value": {
+        "en": "English teacher Jake Epping discovers a passage into 1958 and takes on a mission to prevent President Kennedy’s assassination. Building a life in another era proves as complicated as changing history, especially when the past resists interference."
+      },
+      "sourceKeys": [
+        "book-intro-000048-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000048"
+        ]
+      },
+      "locator": "Official work page, Synopsis / From the Flap; independently worded opening-premise introduction, no quotations or ending.",
+      "note": "Original visitor-facing English description. This verifies the premise text only; it does not certify editions, dates, complete character lists or other fields."
     }
   ]
 }

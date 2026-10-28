@@ -67,3 +67,10 @@ test('Three same-title Corn productions stay distinct and only confirmed adaptat
  const cinema=bundle.adaptations.find(r=>r.id==='adp:000106');assert.equal(cinema.releaseEvents[0].value,'2023-03-03');assert.equal(cinema.releaseEvents[0].territory,'US');assert.ok(cinema.verification.open.some(x=>x.includes('worldwide first-release')));assert.equal(cinema.makerObservations.find(m=>m.role==='screenwriter').creditText,'Kurt Wimmer');
  for(const r of [tv,cinema])assert.ok(!bundle.connections.some(c=>c.from.id===r.id&&c.to.id==='ser:000004'));
 });
+
+test('Reviewed book introductions enrich existing identities with field-scoped evidence only',()=>{
+ const review=require('../data/completion-b/review.json');assert.equal(review.enrichments.length,8);
+ for(const e of review.enrichments){const old=base.works.find(w=>w.id===e.subject.id),w=bundle.works.find(w=>w.id===old.id);assert.equal(w.summary.en,e.value.en);assert.equal(w.originalTitle,old.originalTitle);const c=bundle.claims.find(c=>c.subject.id===w.id&&c.fieldPath==='/summary'&&c.selected);assert.equal(c.status,'verified');assert.deepEqual(c.value,w.summary);assert.ok(c.sourceIds.every(id=>bundle.sources.find(s=>s.id===id).url.startsWith('https://stephenking.com/works/novel/')));}
+ const changed=structuredClone(bundle);changed.works.find(w=>w.id==='wrk:000005').originalTitle='Wrong title';assert.ok(validateCompletionB(changed,base).some(e=>e.code==='b-baseline-record-changed'));
+ const unsupported=structuredClone(bundle);unsupported.works.find(w=>w.id==='wrk:000005').summary.en='An invented ending';assert.ok(validateCompletionB(unsupported,base).some(e=>e.code==='b-editorial-evidence'));
+});

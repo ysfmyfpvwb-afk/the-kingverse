@@ -295,6 +295,14 @@
     "claim/connection-20/to": "clm:008331",
     "claim/connection-20/certainty": "clm:008332",
     "claim/connection-20/explanation": "clm:008333",
-    "claim/connection-20/spoiler": "clm:008334"
+    "claim/connection-20/spoiler": "clm:008334",
+    "claim/book-intro-000003": "clm:008335",
+    "claim/book-intro-000004": "clm:008336",
+    "claim/book-intro-000005": "clm:008337",
+    "claim/book-intro-000007": "clm:008338",
+    "claim/book-intro-000016": "clm:008339",
+    "claim/book-intro-000019": "clm:008340",
+    "claim/book-intro-000021": "clm:008341",
+    "claim/book-intro-000048": "clm:008342"
   }
 }
