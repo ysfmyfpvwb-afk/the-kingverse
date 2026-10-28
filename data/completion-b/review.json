@@ -1435,6 +1435,117 @@
       "checkedFields": [
         "original spoiler-aware English reading introduction"
       ]
+    },
+    {
+      "key": "book-intro-col-000001-source",
+      "url": "https://stephenking.com/works/collection/you-like-it-darker.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap and explicit contents: opening situation or collection scope only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-col-000010-source",
+      "url": "https://stephenking.com/works/collection/stephen-king-goes-to-the-movies.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap and explicit contents: opening situation or collection scope only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-col-000011-source",
+      "url": "https://stephenking.com/works/collection/full-dark-no-stars.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap and explicit contents: opening situation or collection scope only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-col-000012-source",
+      "url": "https://stephenking.com/works/collection/bazaar-of-bad-dreams.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap and explicit contents: opening situation or collection scope only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-col-000013-source",
+      "url": "https://stephenking.com/works/collection/if-it-bleeds.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap and explicit contents: opening situation or collection scope only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-col-000014-source",
+      "url": "https://stephenking.com/works/novel/bachman-books.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap and explicit contents: opening situation or collection scope only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-col-000015-source",
+      "url": "https://stephenking.com/works/nonfiction/mid-life-confidential-the-rock-bottom-remainders-tour-america-with-three-chords-and-an-attitude.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap and explicit contents: opening situation or collection scope only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-col-000016-source",
+      "url": "https://stephenking.com/works/nonfiction/secret-windows-essays-and-fiction-on-the-craft-of-writing.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap and explicit contents: opening situation or collection scope only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "movies-publisher-edition",
+      "url": "https://www.hachette.co.uk/titles/stephen-king-3/stephen-king-goes-to-the-movies/9780340980309/",
+      "publisher": "Hachette UK",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Selected Paperback / ISBN13 9780340980309; On sale 19 March 2009; description names five contents and introductions. Hachette UK page does not state the exact imprint in the selected product details.",
+      "checkedFields": [
+        "five collected works and introductions",
+        "specific English paperback ISBN",
+        "edition publication date",
+        "format"
+      ]
     }
   ],
   "records": [
@@ -3294,6 +3405,35 @@
         "edition-08-source"
       ],
       "note": "Publisher-identified physical English edition. No inferred cover binding and no first-printing or worldwide first-publication claim."
+    },
+    {
+      "key": "edition-09",
+      "entityType": "edition",
+      "checked": "2026-10-28",
+      "publicationOf": {
+        "type": "collection",
+        "id": "col:000010"
+      },
+      "language": "en",
+      "title": "Stephen King Goes to the Movies",
+      "isbn13": "9780340980309",
+      "publisher": null,
+      "publicationDate": {
+        "value": "2009-03-19",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "open": [
+        "Specific imprint and individual printing not stated on the selected Hachette product page."
+      ],
+      "sourceKeys": [
+        "movies-publisher-edition"
+      ],
+      "note": "Publisher group Hachette UK is the source, not an inferred imprint. Edition date is not the first publication of the previously published collected works; no legacy cover binding inferred."
     }
   ],
   "deferred": [
@@ -5735,7 +5875,7 @@
       },
       "field": "summary",
       "value": {
-        "en": "Four novellas follow unsettling breaks in ordinary reality: The Langoliers, Secret Window, Secret Garden, The Library Policeman and The Sun Dog. Journeys, writing, borrowed books and a camera become openings into danger."
+        "en": "Four novellas follow unsettling breaks in ordinary reality: “The Langoliers”, “Secret Window, Secret Garden”, “The Library Policeman” and “The Sun Dog”. Journeys, writing, borrowed books and a camera become openings into danger."
       },
       "sourceKeys": [
         "book-intro-col-000005-source"
@@ -5823,6 +5963,174 @@
       },
       "sourceKeys": [
         "book-intro-col-000009-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": []
+      },
+      "locator": "Official work description / explicit contents; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-col-000001",
+      "subject": {
+        "type": "collection",
+        "id": "col:000001"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Twelve stories explore mortality, chance and the uneasy places where ordinary experience gives way to something stranger. The collection includes Danny Coughlin’s Bad Dream, Rattlesnakes and The Answer Man."
+      },
+      "sourceKeys": [
+        "book-intro-col-000001-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": []
+      },
+      "locator": "Official work description / explicit contents; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-col-000010",
+      "subject": {
+        "type": "collection",
+        "id": "col:000010"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Five works with screen versions are brought together with introductions by King. The selection includes 1408, Children of the Corn and Rita Hayworth and Shawshank Redemption, connecting the original fiction with its life on film."
+      },
+      "sourceKeys": [
+        "movies-publisher-edition"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": []
+      },
+      "locator": "Hachette publisher product description names all five works and their introductions. StephenKing.com page is a stub and is not the evidence for contents.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-col-000011",
+      "subject": {
+        "type": "collection",
+        "id": "col:000011"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Four longer stories centre on retribution and the compromises people make under pressure: 1922, Big Driver, Fair Extension and A Good Marriage. The paperback release adds Under the Weather to the original group."
+      },
+      "sourceKeys": [
+        "book-intro-col-000011-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": []
+      },
+      "locator": "Official work description / explicit contents; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-col-000012",
+      "subject": {
+        "type": "collection",
+        "id": "col:000012"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Short fiction and poetry are accompanied by King’s notes on how the pieces came to be written or revised. The collection includes Mile 81, UR and Blockade Billy, with recurring questions of mortality, guilt and choices that cannot easily be undone."
+      },
+      "sourceKeys": [
+        "book-intro-col-000012-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": []
+      },
+      "locator": "Official work description / explicit contents; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-col-000013",
+      "subject": {
+        "type": "collection",
+        "id": "col:000013"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Four novellas—Mr. Harrigan’s Phone, The Life of Chuck, If It Bleeds and Rat—explore unsettling changes in familiar lives. The collection offers four distinct entry points into King’s longer short fiction."
+      },
+      "sourceKeys": [
+        "book-intro-col-000013-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": []
+      },
+      "locator": "Official work description / explicit contents; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-col-000014",
+      "subject": {
+        "type": "collection",
+        "id": "col:000014"
+      },
+      "field": "summary",
+      "value": {
+        "en": "The original omnibus gathers Rage, The Long Walk, Roadwork and The Running Man, four early novels published under King’s Richard Bachman name. Its publication history is affected by King’s later decision to withdraw Rage from reprinting."
+      },
+      "sourceKeys": [
+        "book-intro-col-000014-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": []
+      },
+      "locator": "Official work description / explicit contents; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-col-000015",
+      "subject": {
+        "type": "collection",
+        "id": "col:000015"
+      },
+      "field": "summary",
+      "value": {
+        "en": "A multi-author account of the Rock Bottom Remainders’ first tour, with writers describing their temporary lives as a rock band. Stephen King contributes alongside the other band members, and photographs by Tabitha King document the trip."
+      },
+      "sourceKeys": [
+        "book-intro-col-000015-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": []
+      },
+      "locator": "Official work description / explicit contents; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-col-000016",
+      "subject": {
+        "type": "collection",
+        "id": "col:000016"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Essays, interviews and fiction about writing are collected alongside early stories and an introduction by Peter Straub. The book offers another perspective on King’s working life and his reflections on the craft."
+      },
+      "sourceKeys": [
+        "book-intro-col-000016-source"
       ],
       "checked": "2026-10-28",
       "spoiler": {

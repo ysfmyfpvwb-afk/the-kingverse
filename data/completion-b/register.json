@@ -559,6 +559,23 @@
     "claim/book-intro-col-000006": "clm:008564",
     "claim/book-intro-col-000007": "clm:008565",
     "claim/book-intro-col-000008": "clm:008566",
-    "claim/book-intro-col-000009": "clm:008567"
+    "claim/book-intro-col-000009": "clm:008567",
+    "claim/book-intro-col-000001": "clm:008568",
+    "claim/book-intro-col-000010": "clm:008569",
+    "claim/book-intro-col-000011": "clm:008570",
+    "claim/book-intro-col-000012": "clm:008571",
+    "claim/book-intro-col-000013": "clm:008572",
+    "claim/book-intro-col-000014": "clm:008573",
+    "claim/book-intro-col-000015": "clm:008574",
+    "claim/book-intro-col-000016": "clm:008575",
+    "source/movies-publisher-edition": "src:000530",
+    "edition/edition-09": "edn:000164",
+    "claim/edition-09/publicationOf": "clm:008576",
+    "claim/edition-09/language": "clm:008577",
+    "claim/edition-09/title": "clm:008578",
+    "claim/edition-09/isbn13": "clm:008579",
+    "claim/edition-09/publicationDate": "clm:008580",
+    "claim/edition-09/format": "clm:008581",
+    "claim/edition-09/identityStatus": "clm:008582"
   }
 }
