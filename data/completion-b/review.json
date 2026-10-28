@@ -1339,6 +1339,102 @@
       "checkedFields": [
         "original spoiler-aware English reading introduction"
       ]
+    },
+    {
+      "key": "book-intro-col-000002-source",
+      "url": "https://stephenking.com/works/collection/night-shift.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap and explicit contents: opening situation or collection scope only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-col-000003-source",
+      "url": "https://stephenking.com/works/collection/different-seasons.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap and explicit contents: opening situation or collection scope only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-col-000004-source",
+      "url": "https://stephenking.com/works/collection/skeleton-crew.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap and explicit contents: opening situation or collection scope only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-col-000005-source",
+      "url": "https://stephenking.com/works/collection/four-past-midnight.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap and explicit contents: opening situation or collection scope only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-col-000006-source",
+      "url": "https://stephenking.com/works/collection/nightmares-dreamscapes.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap and explicit contents: opening situation or collection scope only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-col-000007-source",
+      "url": "https://stephenking.com/works/collection/hearts-in-atlantis.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap and explicit contents: opening situation or collection scope only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-col-000008-source",
+      "url": "https://stephenking.com/works/collection/everythings-eventual.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap and explicit contents: opening situation or collection scope only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-col-000009-source",
+      "url": "https://stephenking.com/works/collection/just-after-sunset.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap and explicit contents: opening situation or collection scope only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
     }
   ],
   "records": [
@@ -5564,6 +5660,174 @@
         "workIds": [
           "wrk:000071"
         ]
+      },
+      "locator": "Official work description / explicit contents; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-col-000002",
+      "subject": {
+        "type": "collection",
+        "id": "col:000002"
+      },
+      "field": "summary",
+      "value": {
+        "en": "An early collection of short fiction that finds danger in ordinary places, from workplaces to small towns. It includes Children of the Corn, Jerusalem’s Lot and The Boogeyman."
+      },
+      "sourceKeys": [
+        "book-intro-col-000002-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": []
+      },
+      "locator": "Official work description / explicit contents; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced. The official flap mentions nineteen pieces while its contents list twenty; this introduction makes no precise count claim."
+    },
+    {
+      "key": "book-intro-col-000003",
+      "subject": {
+        "type": "collection",
+        "id": "col:000003"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Four novellas explore imprisonment, corruption, childhood and determination: Rita Hayworth and Shawshank Redemption, Apt Pupil, The Body and The Breathing Method. Their varied settings offer four distinct ways into King’s longer short fiction."
+      },
+      "sourceKeys": [
+        "book-intro-col-000003-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": []
+      },
+      "locator": "Official work description / explicit contents; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-col-000004",
+      "subject": {
+        "type": "collection",
+        "id": "col:000004"
+      },
+      "field": "summary",
+      "value": {
+        "en": "This collection brings together works such as The Mist, The Monkey and Gramma. Familiar settings become unsettling as its stories move through technological nightmares, childhood fears and encounters with the unknown."
+      },
+      "sourceKeys": [
+        "book-intro-col-000004-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": []
+      },
+      "locator": "Official work description / explicit contents; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-col-000005",
+      "subject": {
+        "type": "collection",
+        "id": "col:000005"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Four novellas follow unsettling breaks in ordinary reality: The Langoliers, Secret Window, Secret Garden, The Library Policeman and The Sun Dog. Journeys, writing, borrowed books and a camera become openings into danger."
+      },
+      "sourceKeys": [
+        "book-intro-col-000005-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": []
+      },
+      "locator": "Official work description / explicit contents; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-col-000006",
+      "subject": {
+        "type": "collection",
+        "id": "col:000006"
+      },
+      "field": "summary",
+      "value": {
+        "en": "A wide-ranging collection combines horror stories with detective pastiche, a screenplay, poetry and nonfiction. Its mix includes Dolan’s Cadillac, The Doctor’s Case and the baseball essay Head Down."
+      },
+      "sourceKeys": [
+        "book-intro-col-000006-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": []
+      },
+      "locator": "Official work description / explicit contents; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-col-000007",
+      "subject": {
+        "type": "collection",
+        "id": "col:000007"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Five linked narratives follow lives shaped by growing up in the 1960s and by the Vietnam War. Beginning with Low Men in Yellow Coats, the book connects childhood friendships, memory and choices that echo into later life."
+      },
+      "sourceKeys": [
+        "book-intro-col-000007-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": []
+      },
+      "locator": "Official work description / explicit contents; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-col-000008",
+      "subject": {
+        "type": "collection",
+        "id": "col:000008"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Fourteen pieces of short fiction include 1408, Riding the Bullet and the title story. Encounters with the strange sit alongside ordinary anxieties in a collection that ranges across different forms of suspense and horror."
+      },
+      "sourceKeys": [
+        "book-intro-col-000008-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": []
+      },
+      "locator": "Official work description / explicit contents; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-col-000009",
+      "subject": {
+        "type": "collection",
+        "id": "col:000009"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Stories such as The Gingerbread Girl and N. turn familiar actions and places towards unease. The collection moves between psychological tension, supernatural possibilities and the uncertain boundary between them."
+      },
+      "sourceKeys": [
+        "book-intro-col-000009-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": []
       },
       "locator": "Official work description / explicit contents; independently worded visitor introduction.",
       "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."

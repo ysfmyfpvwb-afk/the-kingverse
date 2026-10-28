@@ -3846,8 +3846,8 @@
     },
     {
       "file": "data/col-000002/index.json",
-      "bytes": 7928,
-      "gzipBytes": 1439
+      "bytes": 8289,
+      "gzipBytes": 1556
     },
     {
       "file": "data/col-000002/plot.json",
@@ -3861,8 +3861,8 @@
     },
     {
       "file": "data/col-000003/index.json",
-      "bytes": 6049,
-      "gzipBytes": 1337
+      "bytes": 6478,
+      "gzipBytes": 1462
     },
     {
       "file": "data/col-000003/plot.json",
@@ -3891,8 +3891,8 @@
     },
     {
       "file": "data/col-000004/index.json",
-      "bytes": 7930,
-      "gzipBytes": 1479
+      "bytes": 8331,
+      "gzipBytes": 1621
     },
     {
       "file": "data/col-000004/plot.json",
@@ -3906,8 +3906,8 @@
     },
     {
       "file": "data/col-000005/index.json",
-      "bytes": 6047,
-      "gzipBytes": 1336
+      "bytes": 6451,
+      "gzipBytes": 1445
     },
     {
       "file": "data/col-000005/plot.json",
@@ -3936,8 +3936,8 @@
     },
     {
       "file": "data/col-000006/index.json",
-      "bytes": 8036,
-      "gzipBytes": 1505
+      "bytes": 8422,
+      "gzipBytes": 1641
     },
     {
       "file": "data/col-000006/plot.json",
@@ -3951,8 +3951,8 @@
     },
     {
       "file": "data/col-000007/index.json",
-      "bytes": 7057,
-      "gzipBytes": 1428
+      "bytes": 7461,
+      "gzipBytes": 1562
     },
     {
       "file": "data/col-000007/plot.json",
@@ -3976,8 +3976,8 @@
     },
     {
       "file": "data/col-000008/index.json",
-      "bytes": 8113,
-      "gzipBytes": 1549
+      "bytes": 8518,
+      "gzipBytes": 1693
     },
     {
       "file": "data/col-000008/plot.json",
@@ -4001,8 +4001,8 @@
     },
     {
       "file": "data/col-000009/index.json",
-      "bytes": 7971,
-      "gzipBytes": 1481
+      "bytes": 8367,
+      "gzipBytes": 1605
     },
     {
       "file": "data/col-000009/plot.json",

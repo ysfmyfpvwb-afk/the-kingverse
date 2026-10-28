@@ -92,3 +92,7 @@ test('Gwendy’s complete trilogy reuses the two prior work IDs and exposes the 
  const row=index('wrk:000250');assert.deepEqual(row.series.find(s=>s.series.id==='ser:000005').members.map(m=>[m.target.id,m.position]),[['wrk:000057',1],['wrk:000250',2],['wrk:000063',3]]);
  assert.deepEqual(row.creators.filter(c=>c.role==='author').map(c=>c.person.id),['per:000004']);assert.equal(row.sections.creators.items.find(c=>c.target.id==='per:000001').role,'foreword');assert.equal(index('edn:000160').parent.id,'wrk:000250');
 });
+
+test('Collection introductions are shared with the main catalog and retain field-level proof',()=>{
+ for(const e of require('../data/completion-b/review.json').enrichments.filter(e=>e.subject.type==='collection')){const row=index(e.subject.id);assert.equal(row.node.description,e.value.en);assert.ok(row.node.evidence.some(c=>c.fieldPath==='/summary'&&c.selected&&c.status==='verified'));assert.ok(row.sections.memberships.total>0);}
+});

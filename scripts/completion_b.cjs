@@ -42,7 +42,7 @@ function extendCompletionB(input){
  // Editorial additions update a reviewed field on an existing identity. They
  // never create a second work or replace the historical source observation.
  for(const e of review.enrichments||[]){
-  const r=map.get(e.subject.id);if(r?.entityType!==e.subject.type||!['work/summary','connection/explanation'].includes(e.subject.type+'/'+e.field))throw Error('Unsupported B enrichment '+e.key);
+  const r=map.get(e.subject.id);if(r?.entityType!==e.subject.type||!['work/summary','collection/summary','connection/explanation'].includes(e.subject.type+'/'+e.field))throw Error('Unsupported B enrichment '+e.key);
   for(const c of bundle.claims.filter(c=>c.subject.id===r.id&&c.fieldPath==='/'+e.field&&c.selected))c.selected=false;
   r[e.field]=structuredClone(e.value);
   const c={id:id('claim',e.key),entityType:'claim',subject:structuredClone(e.subject),fieldPath:'/'+e.field,value:structuredClone(e.value),sourceIds:e.sourceIds||e.sourceKeys.map(k=>sourceKeys.get(k)),locator:e.locator,status:e.status||'verified',observedAt:e.checked,independentlyConfirmed:false,selected:true,decisionNote:e.note};
@@ -54,7 +54,7 @@ function extendCompletionB(input){
 let checkSchema;
 function validateCompletionB(bundle,baseline){
  const errors=[],fail=(code,message)=>errors.push({code,message});
- if(!checkSchema){const Ajv=require('ajv/dist/2020').default,s=require('./validate_completion.cjs').schema();s.$defs.series.properties.seriesKind={enum:['literary-series','film-series']};checkSchema=new Ajv({allErrors:true,strict:true}).compile(s);}
+ if(!checkSchema){const Ajv=require('ajv/dist/2020').default,s=require('./validate_completion.cjs').schema();s.$defs.series.properties.seriesKind={enum:['literary-series','film-series']};s.$defs.collection.properties.summary={$ref:'#/$defs/text'};checkSchema=new Ajv({allErrors:true,strict:true}).compile(s);}
  if(!checkSchema(bundle))for(const e of checkSchema.errors)fail('b-schema',e.instancePath+' '+e.message);
  const review=read('data/completion-b/review.json'),reg=read('data/completion-b/register.json');
  const records=Object.values(bundle).filter(Array.isArray).flat().filter(r=>r.id),map=new Map(records.map(r=>[r.id,r]));
@@ -64,7 +64,7 @@ function validateCompletionB(bundle,baseline){
  const isbns=new Set();for(const e of bundle.editions){if(map.get(e.publicationOf.id)?.entityType!==e.publicationOf.type)fail('b-edition-owner',e.id);if(e.isbn13){const sum=[...e.isbn13.slice(0,12)].reduce((n,v,i)=>n+Number(v)*(i%2?3:1),0);if((10-sum%10)%10!==Number(e.isbn13[12]))fail('b-isbn-checksum',e.id);if(isbns.has(e.isbn13))fail('b-isbn-duplicate',e.id);isbns.add(e.isbn13);}}
  const editorial=new Map();
  for(const e of review.enrichments||[]){
-  if(editorial.has(e.subject.id)||!['work/summary','connection/explanation'].includes(e.subject.type+'/'+e.field)){fail('b-enrichment-scope',e.key);continue;}editorial.set(e.subject.id,e);
+  if(editorial.has(e.subject.id)||!['work/summary','collection/summary','connection/explanation'].includes(e.subject.type+'/'+e.field)){fail('b-enrichment-scope',e.key);continue;}editorial.set(e.subject.id,e);
   const r=map.get(e.subject.id),c=map.get(reg.allocations['claim/'+e.key]),urls=e.sourceIds?e.sourceIds.map(id=>map.get(id)?.url):e.sourceKeys.map(k=>review.sources.find(s=>s.key===k)?.url);
   if(!r||r.entityType!==e.subject.type||!c||c.subject.id!==r.id||c.subject.type!==e.subject.type||c.fieldPath!=='/'+e.field||c.status!==(e.status||'verified')||!c.selected||c.observedAt!==e.checked||!r.verification.claimIds.includes(c.id)||JSON.stringify(c.value)!==JSON.stringify(e.value)||JSON.stringify(r[e.field])!==JSON.stringify(e.value)||JSON.stringify(c.sourceIds.map(id=>map.get(id)?.url))!==JSON.stringify(urls)||urls.some(url=>!url))fail('b-editorial-evidence',e.key);
   if(e.subject.type==='connection'){
@@ -102,7 +102,7 @@ function validateCompletionB(bundle,baseline){
   if(r.entityType==='publication'&&r.editionId&&map.get(r.editionId)?.entityType!=='edition')fail('b-publication-edition',r.id);
  }
  if(baseline){
-  for(const [table,rows]of Object.entries(baseline).filter(([,rows])=>Array.isArray(rows))){for(const r of rows){const next=bundle[table].find(x=>x.id===r.id),expected=structuredClone(r),e=editorial.get(r.id);if(['works','connections'].includes(table)&&e){expected[e.field]=structuredClone(e.value);expected.verification.claimIds.push(reg.allocations['claim/'+e.key]);}if(table==='claims'&&editorial.has(r.subject.id)&&r.fieldPath==='/'+editorial.get(r.subject.id).field)expected.selected=false;try{assert.deepEqual(next,expected);}catch{fail('b-baseline-record-changed',r.id);}}}
+  for(const [table,rows]of Object.entries(baseline).filter(([,rows])=>Array.isArray(rows))){for(const r of rows){const next=bundle[table].find(x=>x.id===r.id),expected=structuredClone(r),e=editorial.get(r.id);if(['works','collections','connections'].includes(table)&&e){expected[e.field]=structuredClone(e.value);expected.verification.claimIds.push(reg.allocations['claim/'+e.key]);}if(table==='claims'&&editorial.has(r.subject.id)&&r.fieldPath==='/'+editorial.get(r.subject.id).field)expected.selected=false;try{assert.deepEqual(next,expected);}catch{fail('b-baseline-record-changed',r.id);}}}
   try{assert.deepEqual(bundle.registry.aliases,baseline.registry.aliases);assert.deepEqual(bundle.manifest,baseline.manifest);}catch{fail('b-baseline-metadata-changed','Existing aliases/manifest changed');}
   if(bundle.characters.length-baseline.characters.length!==3||bundle.locations.length-baseline.locations.length!==1||bundle.series.length-baseline.series.length!==3||bundle.connections.length-baseline.connections.length!==23||bundle.adaptations.length-baseline.adaptations.length!==10)fail('b-batch-boundary','Reviewed scope: three characters, one location, three series, ten screen productions and twenty-three links');
   if(bundle.editions.length-baseline.editions.length!==9)fail('b-edition-boundary','Exactly nine reviewed English editions');

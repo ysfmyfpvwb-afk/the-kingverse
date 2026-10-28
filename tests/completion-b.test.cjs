@@ -100,3 +100,8 @@ test('Holly and the remaining Gwendy hardcovers have ISBN-specific dates without
  assert.ok(bundle.editions.find(e=>e.id==='edn:000163').verification.open.some(s=>s.includes('fourth printing 2022')));
  assert.equal(bundle.works.filter(w=>w.originalTitle==="Gwendy's Button Box").length,1);assert.equal(bundle.editions.length,163);
 });
+
+test('Collection introductions preserve every collection identity, edition and story membership',()=>{
+ const edits=require('../data/completion-b/review.json').enrichments.filter(e=>e.subject.type==='collection');assert.equal(edits.length,8);for(const e of edits){const c=bundle.collections.find(c=>c.id===e.subject.id);assert.deepEqual(c.summary,e.value);const prior=base.collections.find(p=>p.id===c.id);assert.equal(c.originalTitle,prior.originalTitle);assert.deepEqual(c.aliases,prior.aliases);}
+ assert.deepEqual(bundle.collectionMemberships,base.collectionMemberships);for(const e of base.editions)assert.deepEqual(bundle.editions.find(n=>n.id===e.id),e);
+});
