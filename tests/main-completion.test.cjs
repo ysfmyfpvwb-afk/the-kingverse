@@ -71,3 +71,9 @@ test('Collection descriptions appear on main pages beside existing contents and 
 test('Every current main-library book and collection has its own usable English introduction',()=>{
  run("tab='books';lang='en'");assert.equal(run('B.length'),96);assert.equal(run('B.filter(b=>b.summary?.en?.length>40).length'),96);for(const id of run('B.map(b=>b.id)')){const html=run(`detailContent(B.find(b=>b.id===${JSON.stringify(id)}))`);assert.doesNotMatch(html,/A work by Stephen King\. Explore its editions|plot description has not yet been verified/);assert.match(html,/Sources & context/);}
 });
+
+test('Main book and story pages link to the new profiles and sequel without revealing Holly in The Outsider',()=>{
+ run("tab='books';lang='en'");for(const [book,target]of [['wrk:000065','chr%3A000012'],['wrk:000019','loc%3A000004'],['wrk:000012','loc%3A000005']]){const html=run(`detailContent(B.find(r=>r.canonicalId===${JSON.stringify(book)}))`);assert.ok(html.includes('entity='+target));}
+ const outside=run("detailContent(B.find(r=>r.canonicalId==='wrk:000058'))");assert.doesNotMatch(outside,/entity=chr%3A000012/);
+ run("tab='stories'");const story=run("detailContent(S.find(r=>r.canonicalId==='wrk:000195'))");assert.match(story,/Rattlesnakes.*sequel to Cujo/s);assert.match(story,/data-next="books"/);
+});

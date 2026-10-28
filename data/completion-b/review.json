@@ -1546,6 +1546,31 @@
         "edition publication date",
         "format"
       ]
+    },
+    {
+      "key": "holly-bleeds-novella",
+      "url": "https://stephenking.com/works/novella/if-it-bleeds.html",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "sourceType": "official-bibliography",
+      "publisher": "StephenKing.com",
+      "locator": "Synopsis: Holly Gibney is the investigator; Published In links to the collection of the same title. Identity and role only, no investigative discoveries.",
+      "checkedFields": [
+        "Holly Gibney appearance in the novella, not a separate novel"
+      ]
+    },
+    {
+      "key": "castle-rock-body",
+      "url": "https://www.simonandschuster.com/p/stephen-king-castle-rock-books?mcd=Stephen+King+Day",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "sourceType": "official-bibliography",
+      "publisher": "Simon & Schuster",
+      "locator": "Welcome to Castle Rock introduction: fictional Maine town; The Body entry explicitly places the boys in Castle Rock. Do not infer all listed books are wholly set inside the town.",
+      "checkedFields": [
+        "Castle Rock fictional Maine setting",
+        "The Body home-town setting"
+      ]
     }
   ],
   "records": [
@@ -3434,6 +3459,605 @@
         "movies-publisher-edition"
       ],
       "note": "Publisher group Hachette UK is the source, not an inferred imprint. Edition date is not the first publication of the previously published collected works; no legacy cover binding inferred."
+    },
+    {
+      "key": "holly-gibney",
+      "entityType": "character",
+      "name": "Holly Gibney",
+      "aliases": [],
+      "continuity": "Stephen King literary continuity",
+      "summary": {
+        "en": "Holly Gibney is a private investigator whose stories begin in the Bill Hodges trilogy. Her later cases continue in the novella If It Bleeds and the novels Holly and Never Flinch."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "book-intro-000065-source",
+        "holly-bleeds-novella",
+        "book-intro-wrk-000066-source"
+      ],
+      "note": "Reader introduction and name only. No diagnosis, character outcomes or disclosure of her appearance in The Outsider in the profile.",
+      "checked": "2026-10-28"
+    },
+    {
+      "key": "derry",
+      "entityType": "location",
+      "name": "Derry",
+      "locationKind": "place",
+      "aliases": [],
+      "continuity": "Stephen King literary setting",
+      "summary": {
+        "en": "Derry is one of the recurring Maine towns in Stephen King’s fiction. Explore its streets in It and Insomnia, or follow the childhood memories that connect Dreamcatcher to the town."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "book-intro-000019-source",
+        "book-intro-000029-source",
+        "book-intro-wrk-000037-source"
+      ],
+      "note": "Fictional literary location only; Dreamcatcher is linked for the childhood backstory, not as the setting of the main hunting trip.",
+      "checked": "2026-10-28"
+    },
+    {
+      "key": "castle-rock",
+      "entityType": "location",
+      "name": "Castle Rock",
+      "locationKind": "place",
+      "aliases": [],
+      "continuity": "Stephen King literary setting",
+      "summary": {
+        "en": "Castle Rock is a fictional town in Maine that provides a recurring home for King’s characters. Its stories range from the everyday streets of Cujo and Needful Things to the unusual experiences of Gwendy Peterson and the quiet mystery of Elevation."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "castle-rock-body",
+        "book-intro-000012-source",
+        "book-intro-000026-source",
+        "book-intro-wrk-000059-source",
+        "book-intro-000057-source"
+      ],
+      "note": "Literary town only. The television series Castle Rock remains a separate screen identity; no claim that every related work takes place wholly within town boundaries.",
+      "checked": "2026-10-28"
+    },
+    {
+      "key": "holly-wrk:000052",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "key": "holly-gibney"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000052"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Holly Gibney appears in Mr. Mercedes."
+      },
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000052"
+        ]
+      },
+      "sourceKeys": [
+        "book-intro-000065-source"
+      ],
+      "note": "Only a named character or setting in the public premise; no outcomes or later identity disclosures.",
+      "checked": "2026-10-28"
+    },
+    {
+      "key": "holly-wrk:000054",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "key": "holly-gibney"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000054"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Holly Gibney appears in Finders Keepers."
+      },
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000054"
+        ]
+      },
+      "sourceKeys": [
+        "finders"
+      ],
+      "note": "Only a named character or setting in the public premise; no outcomes or later identity disclosures.",
+      "checked": "2026-10-28"
+    },
+    {
+      "key": "holly-wrk:000055",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "key": "holly-gibney"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000055"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Holly Gibney appears in End of Watch."
+      },
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000055"
+        ]
+      },
+      "sourceKeys": [
+        "endwatch"
+      ],
+      "note": "Only a named character or setting in the public premise; no outcomes or later identity disclosures.",
+      "checked": "2026-10-28"
+    },
+    {
+      "key": "holly-wrk:000184",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "key": "holly-gibney"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000184"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Holly Gibney investigates a case in the novella If It Bleeds."
+      },
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000184"
+        ]
+      },
+      "sourceKeys": [
+        "holly-bleeds-novella"
+      ],
+      "note": "Only a named character or setting in the public premise; no outcomes or later identity disclosures.",
+      "checked": "2026-10-28"
+    },
+    {
+      "key": "holly-wrk:000065",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "key": "holly-gibney"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000065"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Holly Gibney appears in Holly."
+      },
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000065"
+        ]
+      },
+      "sourceKeys": [
+        "book-intro-000065-source"
+      ],
+      "note": "Only a named character or setting in the public premise; no outcomes or later identity disclosures.",
+      "checked": "2026-10-28"
+    },
+    {
+      "key": "holly-wrk:000066",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "key": "holly-gibney"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000066"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Holly Gibney appears in Never Flinch."
+      },
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000066"
+        ]
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000066-source"
+      ],
+      "note": "Only a named character or setting in the public premise; no outcomes or later identity disclosures.",
+      "checked": "2026-10-28"
+    },
+    {
+      "key": "holly-outsider",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "key": "holly-gibney"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000058"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Holly Gibney takes part in the investigation in The Outsider."
+      },
+      "spoiler": {
+        "level": "plot",
+        "workIds": [
+          "wrk:000058"
+        ]
+      },
+      "sourceKeys": [
+        "book-intro-000065-source"
+      ],
+      "note": "Her later arrival is hidden by default in both directions; no explanation of the mystery or character outcomes.",
+      "checked": "2026-10-28"
+    },
+    {
+      "key": "derry-wrk:000019",
+      "entityType": "connection",
+      "from": {
+        "type": "work",
+        "id": "wrk:000019"
+      },
+      "predicate": "set_in",
+      "to": {
+        "type": "location",
+        "key": "derry"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Derry is the central town in It."
+      },
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000019"
+        ]
+      },
+      "sourceKeys": [
+        "book-intro-000019-source"
+      ],
+      "note": "Only a named character or setting in the public premise; no outcomes or later identity disclosures.",
+      "checked": "2026-10-28"
+    },
+    {
+      "key": "derry-wrk:000029",
+      "entityType": "connection",
+      "from": {
+        "type": "work",
+        "id": "wrk:000029"
+      },
+      "predicate": "set_in",
+      "to": {
+        "type": "location",
+        "key": "derry"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Ralph Roberts lives in Derry in Insomnia."
+      },
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000029"
+        ]
+      },
+      "sourceKeys": [
+        "book-intro-000029-source"
+      ],
+      "note": "Only a named character or setting in the public premise; no outcomes or later identity disclosures.",
+      "checked": "2026-10-28"
+    },
+    {
+      "key": "derry-wrk:000037",
+      "entityType": "connection",
+      "from": {
+        "type": "work",
+        "id": "wrk:000037"
+      },
+      "predicate": "set_in",
+      "to": {
+        "type": "location",
+        "key": "derry"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The friends in Dreamcatcher share a childhood in Derry; their hunting trip takes place elsewhere."
+      },
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000037"
+        ]
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000037-source"
+      ],
+      "note": "Only a named character or setting in the public premise; no outcomes or later identity disclosures.",
+      "checked": "2026-10-28"
+    },
+    {
+      "key": "castle-rock-wrk:000012",
+      "entityType": "connection",
+      "from": {
+        "type": "work",
+        "id": "wrk:000012"
+      },
+      "predicate": "set_in",
+      "to": {
+        "type": "location",
+        "key": "castle-rock"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Cujo is set in Castle Rock."
+      },
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000012"
+        ]
+      },
+      "sourceKeys": [
+        "book-intro-000012-source"
+      ],
+      "note": "Only a named character or setting in the public premise; no outcomes or later identity disclosures.",
+      "checked": "2026-10-28"
+    },
+    {
+      "key": "castle-rock-wrk:000024",
+      "entityType": "connection",
+      "from": {
+        "type": "work",
+        "id": "wrk:000024"
+      },
+      "predicate": "set_in",
+      "to": {
+        "type": "location",
+        "key": "castle-rock"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Thad Beaumont has a summer home in Castle Rock in The Dark Half."
+      },
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000024"
+        ]
+      },
+      "sourceKeys": [
+        "book-intro-000024-source"
+      ],
+      "note": "Only a named character or setting in the public premise; no outcomes or later identity disclosures.",
+      "checked": "2026-10-28"
+    },
+    {
+      "key": "castle-rock-wrk:000026",
+      "entityType": "connection",
+      "from": {
+        "type": "work",
+        "id": "wrk:000026"
+      },
+      "predicate": "set_in",
+      "to": {
+        "type": "location",
+        "key": "castle-rock"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Leland Gaunt opens his shop in Castle Rock in Needful Things."
+      },
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000026"
+        ]
+      },
+      "sourceKeys": [
+        "book-intro-000026-source"
+      ],
+      "note": "Only a named character or setting in the public premise; no outcomes or later identity disclosures.",
+      "checked": "2026-10-28"
+    },
+    {
+      "key": "castle-rock-wrk:000059",
+      "entityType": "connection",
+      "from": {
+        "type": "work",
+        "id": "wrk:000059"
+      },
+      "predicate": "set_in",
+      "to": {
+        "type": "location",
+        "key": "castle-rock"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Scott Carey and his neighbours live in Castle Rock in Elevation."
+      },
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000059"
+        ]
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000059-source"
+      ],
+      "note": "Only a named character or setting in the public premise; no outcomes or later identity disclosures.",
+      "checked": "2026-10-28"
+    },
+    {
+      "key": "castle-rock-wrk:000057",
+      "entityType": "connection",
+      "from": {
+        "type": "work",
+        "id": "wrk:000057"
+      },
+      "predicate": "set_in",
+      "to": {
+        "type": "location",
+        "key": "castle-rock"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Gwendy’s Button Box begins in Castle Rock."
+      },
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000057"
+        ]
+      },
+      "sourceKeys": [
+        "book-intro-000057-source"
+      ],
+      "note": "Only a named character or setting in the public premise; no outcomes or later identity disclosures.",
+      "checked": "2026-10-28"
+    },
+    {
+      "key": "castle-rock-wrk:000250",
+      "entityType": "connection",
+      "from": {
+        "type": "work",
+        "id": "wrk:000250"
+      },
+      "predicate": "set_in",
+      "to": {
+        "type": "location",
+        "key": "castle-rock"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Gwendy returns to Castle Rock in Gwendy’s Magic Feather."
+      },
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000250"
+        ]
+      },
+      "sourceKeys": [
+        "gwendy-feather-publisher"
+      ],
+      "note": "Only a named character or setting in the public premise; no outcomes or later identity disclosures.",
+      "checked": "2026-10-28"
+    },
+    {
+      "key": "castle-rock-wrk:000063",
+      "entityType": "connection",
+      "from": {
+        "type": "work",
+        "id": "wrk:000063"
+      },
+      "predicate": "set_in",
+      "to": {
+        "type": "location",
+        "key": "castle-rock"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Castle Rock is one of the places connected by Gwendy’s journey in Gwendy’s Final Task."
+      },
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000063"
+        ]
+      },
+      "sourceKeys": [
+        "book-intro-000063-source"
+      ],
+      "note": "Only a named character or setting in the public premise; no outcomes or later identity disclosures.",
+      "checked": "2026-10-28"
+    },
+    {
+      "key": "castle-rock-wrk:000094",
+      "entityType": "connection",
+      "from": {
+        "type": "work",
+        "id": "wrk:000094"
+      },
+      "predicate": "set_in",
+      "to": {
+        "type": "location",
+        "key": "castle-rock"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The boys in The Body set out from the Castle Rock community into the surrounding countryside."
+      },
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000094"
+        ]
+      },
+      "sourceKeys": [
+        "castle-rock-body"
+      ],
+      "note": "Only a named character or setting in the public premise; no outcomes or later identity disclosures.",
+      "checked": "2026-10-28"
+    },
+    {
+      "key": "rattlesnakes-cujo",
+      "entityType": "connection",
+      "from": {
+        "type": "work",
+        "id": "wrk:000195"
+      },
+      "predicate": "sequel_to",
+      "to": {
+        "type": "work",
+        "id": "wrk:000012"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Rattlesnakes, collected in You Like It Darker, is a sequel to Cujo."
+      },
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000195"
+        ]
+      },
+      "sourceKeys": [
+        "book-intro-col-000001-source"
+      ],
+      "note": "The official collection description explicitly calls it a sequel. Do not reveal which Cujo characters return or their outcomes.",
+      "checked": "2026-10-28"
     }
   ],
   "deferred": [

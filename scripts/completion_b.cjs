@@ -54,7 +54,7 @@ function extendCompletionB(input){
 let checkSchema;
 function validateCompletionB(bundle,baseline){
  const errors=[],fail=(code,message)=>errors.push({code,message});
- if(!checkSchema){const Ajv=require('ajv/dist/2020').default,s=require('./validate_completion.cjs').schema();s.$defs.series.properties.seriesKind={enum:['literary-series','film-series']};s.$defs.collection.properties.summary={$ref:'#/$defs/text'};checkSchema=new Ajv({allErrors:true,strict:true}).compile(s);}
+ if(!checkSchema){const Ajv=require('ajv/dist/2020').default,s=require('./validate_completion.cjs').schema();s.$defs.series.properties.seriesKind={enum:['literary-series','film-series']};for(const t of ['collection','character','location'])s.$defs[t].properties.summary={$ref:'#/$defs/text'};checkSchema=new Ajv({allErrors:true,strict:true}).compile(s);}
  if(!checkSchema(bundle))for(const e of checkSchema.errors)fail('b-schema',e.instancePath+' '+e.message);
  const review=read('data/completion-b/review.json'),reg=read('data/completion-b/register.json');
  const records=Object.values(bundle).filter(Array.isArray).flat().filter(r=>r.id),map=new Map(records.map(r=>[r.id,r]));
@@ -93,7 +93,8 @@ function validateCompletionB(bundle,baseline){
   }
   if(r.entityType==='connection'){
    for(const ref of [r.from,r.to])if(map.get(ref.id)?.entityType!==ref.type)fail('b-endpoint',r.id);
-   if(r.certainty!=='explicit'||!['none','premise'].includes(r.spoiler.level))fail('b-spoiler-scope',r.id);
+   const gatedHolly=d.key==='holly-outsider'&&r.predicate==='appears_in'&&r.from.id===reg.allocations['character/holly-gibney']&&r.to.id==='wrk:000058'&&r.spoiler.level==='plot'&&JSON.stringify(r.spoiler.workIds)===JSON.stringify(['wrk:000058']);
+   if(r.certainty!=='explicit'||!['none','premise'].includes(r.spoiler.level)&&!gatedHolly)fail('b-spoiler-scope',r.id);
   }
   if(r.entityType==='adaptation')for(const h of r.statusHistory){if(h.claimIds.some(id=>map.get(id)?.subject.id!==r.id||map.get(id)?.fieldPath!=='/statusHistory'))fail('b-status-evidence',r.id);}
   if(r.entityType==='character'&&(r.aliases.length||r.spoiler.level!=='none'))fail('b-character-spoiler',r.id);
@@ -104,7 +105,7 @@ function validateCompletionB(bundle,baseline){
  if(baseline){
   for(const [table,rows]of Object.entries(baseline).filter(([,rows])=>Array.isArray(rows))){for(const r of rows){const next=bundle[table].find(x=>x.id===r.id),expected=structuredClone(r),e=editorial.get(r.id);if(['works','collections','connections'].includes(table)&&e){expected[e.field]=structuredClone(e.value);expected.verification.claimIds.push(reg.allocations['claim/'+e.key]);}if(table==='claims'&&editorial.has(r.subject.id)&&r.fieldPath==='/'+editorial.get(r.subject.id).field)expected.selected=false;try{assert.deepEqual(next,expected);}catch{fail('b-baseline-record-changed',r.id);}}}
   try{assert.deepEqual(bundle.registry.aliases,baseline.registry.aliases);assert.deepEqual(bundle.manifest,baseline.manifest);}catch{fail('b-baseline-metadata-changed','Existing aliases/manifest changed');}
-  if(bundle.characters.length-baseline.characters.length!==3||bundle.locations.length-baseline.locations.length!==1||bundle.series.length-baseline.series.length!==3||bundle.connections.length-baseline.connections.length!==23||bundle.adaptations.length-baseline.adaptations.length!==10)fail('b-batch-boundary','Reviewed scope: three characters, one location, three series, ten screen productions and twenty-three links');
+  if(bundle.characters.length-baseline.characters.length!==4||bundle.locations.length-baseline.locations.length!==3||bundle.series.length-baseline.series.length!==3||bundle.connections.length-baseline.connections.length!==42||bundle.adaptations.length-baseline.adaptations.length!==10)fail('b-batch-boundary','Reviewed scope: four characters, three locations, three series, ten screen productions and forty-two links');
   if(bundle.editions.length-baseline.editions.length!==10)fail('b-edition-boundary','Exactly ten reviewed English editions');
   for(const [t,count]of Object.entries({works:1,people:2,credits:4,publicationEvents:1,collections:0,artworks:0}))if(bundle[t].length-baseline[t].length!==count)fail('b-out-of-scope-addition',t);
  }

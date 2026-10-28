@@ -5,15 +5,15 @@ const {extendCompletionB,validateCompletionB}=require('../scripts/completion_b.c
 const base=loadCompletion(),before=structuredClone(base),bundle=extendCompletionB(base);
 test('Bounded B additions preserve every prior identity, record, alias and manifest',()=>{
  assert.deepEqual(base,before);assert.deepEqual(validateCompletionB(bundle,base),[]);
- assert.equal(bundle.characters.length-base.characters.length,3);assert.equal(bundle.locations.length-base.locations.length,1);assert.equal(bundle.series.length-base.series.length,3);assert.equal(bundle.adaptations.length-base.adaptations.length,10);assert.equal(bundle.connections.length-base.connections.length,23);
+ assert.equal(bundle.characters.length-base.characters.length,4);assert.equal(bundle.locations.length-base.locations.length,3);assert.equal(bundle.series.length-base.series.length,3);assert.equal(bundle.adaptations.length-base.adaptations.length,10);assert.equal(bundle.connections.length-base.connections.length,42);
  assert.throws(()=>extendCompletionB(bundle),/collision|already exists/);
 });
 test('The Hodges sequence links exactly the three existing novels with supported positions',()=>{
  const rows=bundle.connections.filter(c=>c.to.id==='ser:000003');assert.deepEqual(rows.map(r=>[r.from.id,r.seriesPosition]),[['wrk:000052',1],['wrk:000054',2],['wrk:000055',3]]);assert.ok(rows.every(r=>r.predicate==='part_of_series'&&r.spoiler.level==='none'));
 });
 test('New Tower names are spoiler-safe without identities, biographies or character outcomes',()=>{
- assert.deepEqual(bundle.characters.slice(-3).map(c=>c.name),['Eddie Dean','Susannah Dean','Jake Chambers']);
- assert.ok(bundle.characters.slice(-3).every(c=>c.aliases.length===0&&c.spoiler.level==='none'&&!('summary'in c)));
+ assert.deepEqual(bundle.characters.filter(c=>['chr:000009','chr:000010','chr:000011'].includes(c.id)).map(c=>c.name),['Eddie Dean','Susannah Dean','Jake Chambers']);
+ assert.ok(bundle.characters.filter(c=>['chr:000009','chr:000010','chr:000011'].includes(c.id)).every(c=>c.aliases.length===0&&c.spoiler.level==='none'&&!('summary'in c)));
  const names=['Eddie Dean','Susannah Dean','Jake Chambers'];for(const name of names)assert.equal(bundle.characters.filter(c=>c.name===name).length,1);
  const added=bundle.connections.slice(-8);assert.ok(added.every(r=>['none','premise'].includes(r.spoiler.level)&&r.certainty==='explicit'));
  assert.ok(!JSON.stringify(added).match(/death|dies|marries|revealed to be|severed|addict|Brady|suicide/i));
@@ -109,4 +109,13 @@ test('Collection introductions preserve every collection identity, edition and s
 test('The Movies paperback uses publisher-confirmed ISBN and date while leaving its unstated imprint open',()=>{
  const e=bundle.editions.find(e=>e.id==='edn:000164');assert.equal(e.publicationOf.id,'col:000010');assert.equal(e.isbn13,'9780340980309');assert.equal(e.publicationDate.value,'2009-03-19');assert.equal(e.publisher,null);assert.equal(e.format,'Paperback');assert.ok(e.verification.open.some(s=>s.includes('imprint')));
  const c=bundle.claims.find(c=>c.subject.id==='col:000010'&&c.fieldPath==='/summary'&&c.selected);assert.ok(c.sourceIds.every(id=>bundle.sources.find(s=>s.id===id).url.includes('hachette.co.uk')));
+});
+
+test('Holly, Derry and Castle Rock are unique profiles with field-scoped evidence and 19 precise links',()=>{
+ for(const [table,id,name]of [['characters','chr:000012','Holly Gibney'],['locations','loc:000004','Derry'],['locations','loc:000005','Castle Rock']]){const rows=bundle[table].filter(r=>r.name===name);assert.equal(rows.length,1);assert.equal(rows[0].id,id);assert.ok(rows[0].summary.en.length>80);assert.ok(bundle.claims.some(c=>c.subject.id===id&&c.fieldPath==='/summary'&&c.selected&&c.status==='verified'));}
+ const added=bundle.connections.filter(c=>+c.id.slice(4)>=118);assert.equal(added.length,19);assert.equal(added.filter(c=>c.from.id==='chr:000012').length,7);assert.equal(added.filter(c=>c.to.id==='loc:000004').length,3);assert.equal(added.filter(c=>c.to.id==='loc:000005').length,8);
+ assert.match(added.find(c=>c.from.id==='wrk:000037').explanation.en,/childhood.*elsewhere/);assert.match(added.find(c=>c.from.id==='wrk:000094').explanation.en,/surrounding countryside/);
+ const sequel=added.find(c=>c.from.id==='wrk:000195');assert.equal(sequel.predicate,'sequel_to');assert.equal(sequel.to.id,'wrk:000012');assert.doesNotMatch(sequel.explanation.en,/Tad|Vic|Donna|surviv|death/i);
+ const hidden=added.find(c=>c.to.id==='wrk:000058');assert.equal(hidden.spoiler.level,'plot');assert.deepEqual(hidden.spoiler.workIds,['wrk:000058']);
+ const bad=structuredClone(bundle);bad.connections.find(c=>c.id===hidden.id).spoiler.level='premise';assert.ok(validateCompletionB(bad,base).some(e=>e.code==='b-review-difference'));
 });
