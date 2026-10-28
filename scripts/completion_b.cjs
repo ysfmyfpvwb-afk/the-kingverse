@@ -4,7 +4,7 @@ const fs=require('node:fs'),path=require('node:path'),assert=require('node:asser
 const {ROOT}=require('./validate_foundation.cjs');
 const read=p=>JSON.parse(fs.readFileSync(path.join(ROOT,p),'utf8'));
 const tables={adaptation:'adaptations',character:'characters',location:'locations',series:'series',connection:'connections',source:'sources',claim:'claims'};
-const METADATA=new Set(['key','entityType','sourceKeys','note','open']);
+const METADATA=new Set(['key','entityType','sourceKeys','fieldSourceKeys','conflicts','checked','note','open']);
 function extendCompletionB(input){
  const bundle=structuredClone(input),review=read('data/completion-b/review.json'),registry=read('data/completion-b/register.json');
  const map=new Map(Object.values(bundle).filter(Array.isArray).flat().filter(r=>r.id).map(r=>[r.id,r]));
@@ -14,7 +14,7 @@ function extendCompletionB(input){
  function add(r){if(map.has(r.id)||registered.has(r.id))throw Error('B allocation collision '+r.id);bundle[tables[r.entityType]].push(r);bundle.registry.entries.push({id:r.id,type:r.entityType});registered.add(r.id);map.set(r.id,r);}
  const sources=new Map(bundle.sources.map(s=>[s.url,s.id])),sourceKeys=new Map();
  for(const s of review.sources){
-  if(s.access!=='available'||s.observedAt!==review.checked||!['stephenking.com','www.universalpicturesathome.com','www.syfy.com','www.amcglobalmedia.com'].includes(new URL(s.url).hostname))throw Error('B evidence source not reviewed '+s.key);
+  if(s.access!=='available'||![review.checked,...review.records.map(d=>d.checked)].includes(s.observedAt)||!['stephenking.com','www.universalpicturesathome.com','www.syfy.com','www.amcglobalmedia.com','www.miramax.com','catalog.afi.com','tv.apple.com'].includes(new URL(s.url).hostname))throw Error('B evidence source not reviewed '+s.key);
   if(!sources.has(s.url)){const r={id:id('source',s.key),entityType:'source',url:s.url,publisher:s.publisher||'StephenKing.com',sourceType:s.sourceType,publishedAt:null,observedAt:s.observedAt,access:s.access,snapshotRef:'data/completion-b/review.json#/sources/'+s.key,notes:'Field-limited official-source review. No biography, copied synopsis, outcomes or images retained.'};add(r);sources.set(s.url,r.id);}
   sourceKeys.set(s.key,sources.get(s.url));
  }
@@ -29,7 +29,12 @@ function extendCompletionB(input){
   const refs=d.sourceKeys.map(k=>{const s=sourceKeys.get(k);if(!s)throw Error('Unknown B source key '+k);return s;});
   for(const [field,value]of Object.entries(record)){
    if(['id','entityType','verification'].includes(field)||value===null||Array.isArray(value)&&!value.length)continue;
-   const claim={id:id('claim',d.key+'/'+field),entityType:'claim',subject:{type:record.entityType,id:record.id},fieldPath:'/'+field,value:structuredClone(value),sourceIds:[...new Set(refs)],locator:'data/completion-b/review.json#/records/'+d.key+'; '+d.sourceKeys.map(k=>review.sources.find(s=>s.key===k).locator).join(' | '),status:'verified',observedAt:review.checked,independentlyConfirmed:false,selected:true,decisionNote:d.note};
+   const fieldKeys=d.fieldSourceKeys?.[field]||d.sourceKeys;
+   const claim={id:id('claim',d.key+'/'+field),entityType:'claim',subject:{type:record.entityType,id:record.id},fieldPath:'/'+field,value:structuredClone(value),sourceIds:[...new Set(fieldKeys.map(k=>sourceKeys.get(k)))],locator:'data/completion-b/review.json#/records/'+d.key+'; '+fieldKeys.map(k=>review.sources.find(s=>s.key===k).locator).join(' | '),status:'verified',observedAt:d.checked||review.checked,independentlyConfirmed:false,selected:true,decisionNote:d.note};
+   add(claim);record.verification.claimIds.push(claim.id);
+  }
+  for(const [i,c]of (d.conflicts||[]).entries()){
+   const claim={id:id('claim',d.key+'/conflict-'+i),entityType:'claim',subject:{type:record.entityType,id:record.id},fieldPath:c.fieldPath,value:c.value,sourceIds:c.sourceKeys.map(k=>sourceKeys.get(k)),locator:'data/completion-b/review.json#/records/'+d.key+'/conflicts/'+i,status:'disputed',observedAt:d.checked||review.checked,independentlyConfirmed:false,selected:false,decisionNote:c.note};
    add(claim);record.verification.claimIds.push(claim.id);
   }
  }
@@ -39,7 +44,7 @@ function extendCompletionB(input){
 let checkSchema;
 function validateCompletionB(bundle,baseline){
  const errors=[],fail=(code,message)=>errors.push({code,message});
- if(!checkSchema){const Ajv=require('ajv/dist/2020').default;checkSchema=new Ajv({allErrors:true,strict:true}).compile(require('./validate_completion.cjs').schema());}
+ if(!checkSchema){const Ajv=require('ajv/dist/2020').default,s=require('./validate_completion.cjs').schema();s.$defs.series.properties.seriesKind={enum:['literary-series','film-series']};checkSchema=new Ajv({allErrors:true,strict:true}).compile(s);}
  if(!checkSchema(bundle))for(const e of checkSchema.errors)fail('b-schema',e.instancePath+' '+e.message);
  const review=read('data/completion-b/review.json'),reg=read('data/completion-b/register.json');
  const records=Object.values(bundle).filter(Array.isArray).flat().filter(r=>r.id),map=new Map(records.map(r=>[r.id,r]));
@@ -56,9 +61,14 @@ function validateCompletionB(bundle,baseline){
    try{assert.deepEqual(r[field],expected);}catch{fail('b-review-difference',r.id+'/'+field);}
    if(value===null||Array.isArray(value)&&!value.length)continue;
    const cid=reg.allocations['claim/'+d.key+'/'+field],c=map.get(cid);
-   if(!c||c.subject.id!==r.id||c.subject.type!==r.entityType||c.fieldPath!=='/'+field||!c.selected||c.status!=='verified'||c.observedAt!==review.checked||!r.verification.claimIds.includes(cid)){fail('b-claim',r.id+'/'+field);continue;}
+   if(!c||c.subject.id!==r.id||c.subject.type!==r.entityType||c.fieldPath!=='/'+field||!c.selected||c.status!=='verified'||c.observedAt!==(d.checked||review.checked)||!r.verification.claimIds.includes(cid)){fail('b-claim',r.id+'/'+field);continue;}
    try{assert.deepEqual(c.value,r[field]);}catch{fail('b-claim-value',c.id);}
-   if(!c.sourceIds.length||c.sourceIds.some(id=>!evidence.has(map.get(id)?.url)))fail('b-source-binding',c.id);
+   const fieldEvidence=new Set((d.fieldSourceKeys?.[field]||d.sourceKeys).map(k=>review.sources.find(s=>s.key===k).url));
+   if(!c.sourceIds.length||c.sourceIds.some(id=>!fieldEvidence.has(map.get(id)?.url)))fail('b-source-binding',c.id);
+  }
+  for(const [i,expected]of (d.conflicts||[]).entries()){
+   const c=map.get(reg.allocations['claim/'+d.key+'/conflict-'+i]);
+   if(!c||c.selected||c.status!=='disputed'||c.subject.id!==r.id||c.fieldPath!==expected.fieldPath||JSON.stringify(c.value)!==JSON.stringify(expected.value)||!r.verification.claimIds.includes(c.id)||JSON.stringify(c.sourceIds)!==JSON.stringify(expected.sourceKeys.map(k=>reg.allocations['source/'+k])))fail('b-conflict-preservation',d.key);
   }
   if(r.entityType==='connection'){
    for(const ref of [r.from,r.to])if(map.get(ref.id)?.entityType!==ref.type)fail('b-endpoint',r.id);
@@ -70,7 +80,7 @@ function validateCompletionB(bundle,baseline){
  if(baseline){
   for(const [table,rows]of Object.entries(baseline).filter(([,rows])=>Array.isArray(rows))){for(const r of rows){const next=bundle[table].find(x=>x.id===r.id);try{assert.deepEqual(next,r);}catch{fail('b-baseline-record-changed',r.id);}}}
   try{assert.deepEqual(bundle.registry.aliases,baseline.registry.aliases);assert.deepEqual(bundle.manifest,baseline.manifest);}catch{fail('b-baseline-metadata-changed','Existing aliases/manifest changed');}
-  if(bundle.characters.length-baseline.characters.length!==3||bundle.locations.length-baseline.locations.length!==1||bundle.series.length-baseline.series.length!==1||bundle.connections.length-baseline.connections.length!==10||bundle.adaptations.length-baseline.adaptations.length!==2)fail('b-batch-boundary','Exactly three characters, one location, one series, two screen productions and nine scoped links');
+  if(bundle.characters.length-baseline.characters.length!==3||bundle.locations.length-baseline.locations.length!==1||bundle.series.length-baseline.series.length!==2||bundle.connections.length-baseline.connections.length!==17||bundle.adaptations.length-baseline.adaptations.length!==7)fail('b-batch-boundary','Reviewed scope: three characters, one location, two series, seven screen productions and seventeen links');
   for(const t of ['works','collections','editions','people','artworks'])if(bundle[t].length!==baseline[t].length)fail('b-out-of-scope-addition',t);
  }
  return errors;

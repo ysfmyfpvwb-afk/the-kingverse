@@ -5,7 +5,7 @@ const {extendCompletionB,validateCompletionB}=require('../scripts/completion_b.c
 const base=loadCompletion(),before=structuredClone(base),bundle=extendCompletionB(base);
 test('Bounded B additions preserve every prior identity, record, alias and manifest',()=>{
  assert.deepEqual(base,before);assert.deepEqual(validateCompletionB(bundle,base),[]);
- assert.equal(bundle.characters.length-base.characters.length,3);assert.equal(bundle.locations.length-base.locations.length,1);assert.equal(bundle.series.length-base.series.length,1);assert.equal(bundle.adaptations.length-base.adaptations.length,2);assert.equal(bundle.connections.length-base.connections.length,10);
+ assert.equal(bundle.characters.length-base.characters.length,3);assert.equal(bundle.locations.length-base.locations.length,1);assert.equal(bundle.series.length-base.series.length,2);assert.equal(bundle.adaptations.length-base.adaptations.length,7);assert.equal(bundle.connections.length-base.connections.length,17);
  assert.throws(()=>extendCompletionB(bundle),/collision|already exists/);
 });
 test('The Hodges sequence links exactly the three existing novels with supported positions',()=>{
@@ -37,4 +37,21 @@ test('Missing 2002 and 2019 screen productions have distinct identities and fiel
 
 test('Creepshow television series links to the 1982 film without inventing a literary source',()=>{
  const rel=bundle.connections.find(c=>c.id==='rel:000104');assert.deepEqual(rel.from,{type:'adaptation',id:'adp:000098'});assert.deepEqual(rel.to,{type:'adaptation',id:'adp:000009'});assert.equal(rel.predicate,'inspired_by');assert.ok(!bundle.connections.some(c=>c.from.id==='adp:000098'&&c.to.type==='work'));
+});
+
+test('Five distinct Corn films join a film franchise without invented direct story adaptations',()=>{
+ const ids=['adp:000099','adp:000100','adp:000101','adp:000102','adp:000103'];
+ for(const id of ids){const film=bundle.adaptations.find(r=>r.id===id);assert.ok(film);assert.ok(film.summary.en.length>60);assert.equal(film.ratingObservations.length,0);assert.equal(film.makerObservations.length,1);assert.equal(film.makerObservations[0].role,'director');assert.ok(!bundle.connections.some(c=>c.from.id===id&&c.predicate==='adaptation_of'));}
+ const series=bundle.series.find(r=>r.id==='ser:000004');assert.equal(series.seriesKind,'film-series');
+ assert.deepEqual(bundle.connections.filter(r=>r.to.id===series.id).map(r=>r.from.id),['adp:000007',...ids]);
+ assert.ok(bundle.connections.filter(r=>r.to.id===series.id).every(r=>!r.seriesPosition&&r.spoiler.level==='none'));
+ assert.equal(bundle.adaptations.filter(r=>r.title==='Children of the Corn').length,1);
+});
+test('Conflicting Miramax years are retained unselected and US release is separate from screenings',()=>{
+ for(const [id,chosen,reported]of [['adp:000099',1993,1991],['adp:000102',1999,1998],['adp:000103',2001,2002]]){
+  assert.equal(bundle.adaptations.find(r=>r.id===id).releaseYear,chosen);
+  const claims=bundle.claims.filter(c=>c.subject.id===id&&c.fieldPath==='/releaseYear');assert.equal(claims.find(c=>c.selected).value,chosen);const conflict=claims.find(c=>!c.selected);assert.equal(conflict.value,reported);assert.equal(conflict.status,'disputed');assert.equal(bundle.sources.find(s=>s.id===conflict.sourceIds[0]).publisher,'Miramax');
+ }
+ const film=bundle.adaptations.find(r=>r.id==='adp:000099');assert.deepEqual(film.releaseEvents,[{value:'1993-01-29',precision:'day',meaning:'theatrical-release',territory:'US'},{value:'1992',precision:'year',meaning:'festival-premiere',territory:null}]);
+ const changed=structuredClone(bundle);changed.claims.find(c=>c.subject.id===film.id&&!c.selected).selected=true;assert.ok(validateCompletionB(changed,base).some(e=>e.code==='b-conflict-preservation'));
 });

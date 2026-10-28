@@ -1,7 +1,7 @@
 {
   "version": 1,
   "checked": "2026-10-27",
-  "scope": "Bounded Package B: literary-universe additions plus two verified missing screen productions; no images, invented book-source links or plot biographies.",
+  "scope": "Package B: previously delivered universe/television records plus five Children of the Corn films and a bounded film-franchise shelf.",
   "sources": [
     {
       "key": "characters",
@@ -132,6 +132,144 @@
         "released-status",
         "showrunner",
         "producer-observations"
+      ]
+    },
+    {
+      "key": "corn-profile",
+      "url": "https://www.miramax.com/profile/stephen-king/",
+      "publisher": "Miramax",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "sourceType": "official-production",
+      "locator": "Five named Children of the Corn productions in the Stephen King catalogue; franchise inventory, not proof of screenplay authorship",
+      "checkedFields": [
+        "Five named Children of the Corn productions in the Stephen King catalogue",
+        "franchise inventory, not proof of screenplay authorship"
+      ]
+    },
+    {
+      "key": "corn-afi",
+      "url": "https://catalog.afi.com/Film/59490-CHILDREN-OF-THE-CORN-II--THE-FINAL-SACRIFICE?cxt=filmography",
+      "publisher": "American Film Institute",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "sourceType": "reference",
+      "locator": "US theatrical release 29 January 1993; 1992 festival/screening history; 1991 principal photography; sequel to the 1984 film; subsequent film-series installments",
+      "checkedFields": [
+        "US theatrical release 29 January 1993",
+        "1992 festival/screening history",
+        "1991 principal photography",
+        "sequel to the 1984 film",
+        "subsequent film-series installments"
+      ]
+    },
+    {
+      "key": "corn-666-apple",
+      "url": "https://tv.apple.com/us/movie/children-of-the-corn-666-isaacs-return/umc.cmc.1bthximhux13t00deinduw3z",
+      "publisher": "Apple TV / Miramax",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "sourceType": "official-production",
+      "locator": "Released 1999; Kari Skogland director; Miramax studio and 1999 copyright; sixth chapter of the film series",
+      "checkedFields": [
+        "Released 1999",
+        "Kari Skogland director",
+        "Miramax studio and 1999 copyright",
+        "sixth chapter of the film series"
+      ]
+    },
+    {
+      "key": "corn-revelation-apple",
+      "url": "https://tv.apple.com/us/movie/children-of-the-corn-revelation/umc.cmc.2its4qs045koyo2di0ph5wstp",
+      "publisher": "Apple TV / Lionsgate",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "sourceType": "official-production",
+      "locator": "Released 2001; Guy Magar director; premise only, no synopsis reproduction",
+      "checkedFields": [
+        "Released 2001",
+        "Guy Magar director",
+        "premise only, no synopsis reproduction"
+      ]
+    },
+    {
+      "key": "corn-screen-03",
+      "url": "https://www.miramax.com/movie/children-of-the-corn-ii-the-final-sacrifice/",
+      "publisher": "Miramax",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "sourceType": "official-production",
+      "locator": "Production title; director; released film catalogue entry; premise; reported catalogue year 1991",
+      "checkedFields": [
+        "Production title",
+        "director",
+        "released film catalogue entry",
+        "premise",
+        "reported catalogue year 1991"
+      ]
+    },
+    {
+      "key": "corn-screen-04",
+      "url": "https://www.miramax.com/movie/children-of-the-corn-iv-the-gathering/",
+      "publisher": "Miramax",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "sourceType": "official-production",
+      "locator": "Production title; director; released film catalogue entry; premise; reported catalogue year 1996",
+      "checkedFields": [
+        "Production title",
+        "director",
+        "released film catalogue entry",
+        "premise",
+        "reported catalogue year 1996"
+      ]
+    },
+    {
+      "key": "corn-screen-05",
+      "url": "https://www.miramax.com/movie/children-of-the-corn-v-fields-of-terror/",
+      "publisher": "Miramax",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "sourceType": "official-production",
+      "locator": "Production title; director; released film catalogue entry; premise; reported catalogue year 1998",
+      "checkedFields": [
+        "Production title",
+        "director",
+        "released film catalogue entry",
+        "premise",
+        "reported catalogue year 1998"
+      ]
+    },
+    {
+      "key": "corn-screen-06",
+      "url": "https://www.miramax.com/movie/children-of-the-corn-666-isaacs-return/",
+      "publisher": "Miramax",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "sourceType": "official-production",
+      "locator": "Production title; director; released film catalogue entry; premise; reported catalogue year 1998",
+      "checkedFields": [
+        "Production title",
+        "director",
+        "released film catalogue entry",
+        "premise",
+        "reported catalogue year 1998"
+      ]
+    },
+    {
+      "key": "corn-screen-07",
+      "url": "https://www.miramax.com/movie/children-of-the-corn-7-revelation/",
+      "publisher": "Miramax",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "sourceType": "official-production",
+      "locator": "Production title; director; released film catalogue entry; premise; reported catalogue year 2002",
+      "checkedFields": [
+        "Production title",
+        "director",
+        "released film catalogue entry",
+        "premise",
+        "reported catalogue year 2002"
       ]
     }
   ],
@@ -622,6 +760,592 @@
         "creep-production"
       ],
       "note": "AMC explicitly identifies the 1982 film as the series basis. This is a screen-to-screen inspiration link, not a claim that the series adapts one literary work."
+    },
+    {
+      "key": "screen-03",
+      "entityType": "adaptation",
+      "checked": "2026-10-28",
+      "title": "Children of the Corn II: The Final Sacrifice",
+      "aliases": [],
+      "format": "film",
+      "externalIds": {},
+      "releaseYear": 1993,
+      "releaseEvents": [
+        {
+          "value": "1993-01-29",
+          "precision": "day",
+          "meaning": "theatrical-release",
+          "territory": "US"
+        },
+        {
+          "value": "1992",
+          "precision": "year",
+          "meaning": "festival-premiere",
+          "territory": null
+        }
+      ],
+      "statusHistory": [
+        {
+          "status": "released",
+          "asOf": "2026-10-28",
+          "projectScope": "Existing released film; no current streaming availability claim.",
+          "claimIds": [
+            "screen-03/statusHistory"
+          ]
+        }
+      ],
+      "ratingObservations": [],
+      "countries": [],
+      "originalLanguages": [],
+      "originalScreenplay": null,
+      "makerObservations": [
+        {
+          "role": "director",
+          "creditText": "David F. Price",
+          "scope": "Children of the Corn II: The Final Sacrifice",
+          "sourceUrl": "https://www.miramax.com/movie/children-of-the-corn-ii-the-final-sacrifice/",
+          "verification": "source-supported"
+        }
+      ],
+      "distribution": [],
+      "productionUnits": [],
+      "summary": {
+        "en": "A reporter and his son arrive in a Nebraska town as the legacy of Gatlin spreads beyond its borders. Directed by David F. Price."
+      },
+      "open": [
+        "Conflicting catalogue year: Miramax 1991; selected release year 1993."
+      ],
+      "sourceKeys": [
+        "corn-screen-03",
+        "corn-afi"
+      ],
+      "fieldSourceKeys": {
+        "releaseYear": [
+          "corn-afi"
+        ],
+        "releaseEvents": [
+          "corn-afi"
+        ],
+        "summary": [
+          "corn-screen-03"
+        ],
+        "makerObservations": [
+          "corn-screen-03"
+        ]
+      },
+      "conflicts": [
+        {
+          "fieldPath": "/releaseYear",
+          "value": 1991,
+          "sourceKeys": [
+            "corn-screen-03"
+          ],
+          "note": "Miramax lists 1991; selected 1993 is supported by AFI US theatrical release history (1992 screenings remain separate). The Miramax year is retained, not promoted to a first-release date."
+        }
+      ],
+      "note": "A distinct film-franchise installment, not a new literary work or a verified direct retelling of King’s short story. Director role only; Miramax’s generic Stephen King writer label is not treated as screenplay authorship. No ratings or images imported."
+    },
+    {
+      "key": "screen-04",
+      "entityType": "adaptation",
+      "checked": "2026-10-28",
+      "title": "Children of the Corn IV: The Gathering",
+      "aliases": [],
+      "format": "film",
+      "externalIds": {},
+      "releaseYear": 1996,
+      "releaseEvents": [
+        {
+          "value": "1996",
+          "precision": "year",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "statusHistory": [
+        {
+          "status": "released",
+          "asOf": "2026-10-28",
+          "projectScope": "Existing released film; no current streaming availability claim.",
+          "claimIds": [
+            "screen-04/statusHistory"
+          ]
+        }
+      ],
+      "ratingObservations": [],
+      "countries": [],
+      "originalLanguages": [],
+      "originalScreenplay": null,
+      "makerObservations": [
+        {
+          "role": "director",
+          "creditText": "Greg Spence",
+          "scope": "Children of the Corn IV: The Gathering",
+          "sourceUrl": "https://www.miramax.com/movie/children-of-the-corn-iv-the-gathering/",
+          "verification": "source-supported"
+        }
+      ],
+      "distribution": [],
+      "productionUnits": [],
+      "summary": {
+        "en": "A medical student returns home as a mysterious illness grips the local children. Directed by Greg Spence."
+      },
+      "open": [],
+      "sourceKeys": [
+        "corn-screen-04"
+      ],
+      "fieldSourceKeys": {
+        "releaseYear": [
+          "corn-screen-04"
+        ],
+        "releaseEvents": [
+          "corn-screen-04"
+        ],
+        "summary": [
+          "corn-screen-04"
+        ],
+        "makerObservations": [
+          "corn-screen-04"
+        ]
+      },
+      "conflicts": [],
+      "note": "A distinct film-franchise installment, not a new literary work or a verified direct retelling of King’s short story. Director role only; Miramax’s generic Stephen King writer label is not treated as screenplay authorship. No ratings or images imported."
+    },
+    {
+      "key": "screen-05",
+      "entityType": "adaptation",
+      "checked": "2026-10-28",
+      "title": "Children of the Corn V: Fields of Terror",
+      "aliases": [],
+      "format": "film",
+      "externalIds": {},
+      "releaseYear": 1998,
+      "releaseEvents": [
+        {
+          "value": "1998",
+          "precision": "year",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "statusHistory": [
+        {
+          "status": "released",
+          "asOf": "2026-10-28",
+          "projectScope": "Existing released film; no current streaming availability claim.",
+          "claimIds": [
+            "screen-05/statusHistory"
+          ]
+        }
+      ],
+      "ratingObservations": [],
+      "countries": [],
+      "originalLanguages": [],
+      "originalScreenplay": null,
+      "makerObservations": [
+        {
+          "role": "director",
+          "creditText": "Ethan Wiley",
+          "scope": "Children of the Corn V: Fields of Terror",
+          "sourceUrl": "https://www.miramax.com/movie/children-of-the-corn-v-fields-of-terror/",
+          "verification": "source-supported"
+        }
+      ],
+      "distribution": [],
+      "productionUnits": [],
+      "summary": {
+        "en": "Travelling students encounter a secluded town and its dangerous cornfield cult. Directed by Ethan Wiley."
+      },
+      "open": [],
+      "sourceKeys": [
+        "corn-screen-05"
+      ],
+      "fieldSourceKeys": {
+        "releaseYear": [
+          "corn-screen-05"
+        ],
+        "releaseEvents": [
+          "corn-screen-05"
+        ],
+        "summary": [
+          "corn-screen-05"
+        ],
+        "makerObservations": [
+          "corn-screen-05"
+        ]
+      },
+      "conflicts": [],
+      "note": "A distinct film-franchise installment, not a new literary work or a verified direct retelling of King’s short story. Director role only; Miramax’s generic Stephen King writer label is not treated as screenplay authorship. No ratings or images imported."
+    },
+    {
+      "key": "screen-06",
+      "entityType": "adaptation",
+      "checked": "2026-10-28",
+      "title": "Children of the Corn 666: Isaac's Return",
+      "aliases": [],
+      "format": "film",
+      "externalIds": {},
+      "releaseYear": 1999,
+      "releaseEvents": [
+        {
+          "value": "1999",
+          "precision": "year",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "statusHistory": [
+        {
+          "status": "released",
+          "asOf": "2026-10-28",
+          "projectScope": "Existing released film; no current streaming availability claim.",
+          "claimIds": [
+            "screen-06/statusHistory"
+          ]
+        }
+      ],
+      "ratingObservations": [],
+      "countries": [],
+      "originalLanguages": [],
+      "originalScreenplay": null,
+      "makerObservations": [
+        {
+          "role": "director",
+          "creditText": "Kari Skogland",
+          "scope": "Children of the Corn 666: Isaac's Return",
+          "sourceUrl": "https://www.miramax.com/movie/children-of-the-corn-666-isaacs-return/",
+          "verification": "source-supported"
+        }
+      ],
+      "distribution": [],
+      "productionUnits": [],
+      "summary": {
+        "en": "A young woman searching for her birth mother travels to Gatlin, where the past still shapes the town. Directed by Kari Skogland."
+      },
+      "open": [
+        "Conflicting catalogue year: Miramax 1998; selected release year 1999."
+      ],
+      "sourceKeys": [
+        "corn-screen-06",
+        "corn-666-apple"
+      ],
+      "fieldSourceKeys": {
+        "releaseYear": [
+          "corn-666-apple"
+        ],
+        "releaseEvents": [
+          "corn-666-apple"
+        ],
+        "summary": [
+          "corn-screen-06"
+        ],
+        "makerObservations": [
+          "corn-screen-06"
+        ]
+      },
+      "conflicts": [
+        {
+          "fieldPath": "/releaseYear",
+          "value": 1998,
+          "sourceKeys": [
+            "corn-screen-06"
+          ],
+          "note": "Miramax lists 1998; selected 1999 is supported by the distributor-supplied Apple TV record. The Miramax year is retained, not promoted to a first-release date."
+        }
+      ],
+      "note": "A distinct film-franchise installment, not a new literary work or a verified direct retelling of King’s short story. Director role only; Miramax’s generic Stephen King writer label is not treated as screenplay authorship. No ratings or images imported."
+    },
+    {
+      "key": "screen-07",
+      "entityType": "adaptation",
+      "checked": "2026-10-28",
+      "title": "Children of the Corn: Revelation",
+      "aliases": [
+        {
+          "language": "en",
+          "value": "Children of the Corn 7: Revelation",
+          "spoiler": {
+            "level": "none",
+            "workIds": []
+          }
+        }
+      ],
+      "format": "film",
+      "externalIds": {},
+      "releaseYear": 2001,
+      "releaseEvents": [
+        {
+          "value": "2001",
+          "precision": "year",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "statusHistory": [
+        {
+          "status": "released",
+          "asOf": "2026-10-28",
+          "projectScope": "Existing released film; no current streaming availability claim.",
+          "claimIds": [
+            "screen-07/statusHistory"
+          ]
+        }
+      ],
+      "ratingObservations": [],
+      "countries": [],
+      "originalLanguages": [],
+      "originalScreenplay": null,
+      "makerObservations": [
+        {
+          "role": "director",
+          "creditText": "Guy Magar",
+          "scope": "Children of the Corn: Revelation",
+          "sourceUrl": "https://www.miramax.com/movie/children-of-the-corn-7-revelation/",
+          "verification": "source-supported"
+        }
+      ],
+      "distribution": [],
+      "productionUnits": [],
+      "summary": {
+        "en": "A woman visits Omaha to find her missing grandmother and investigates a condemned apartment building. Directed by Guy Magar."
+      },
+      "open": [
+        "Conflicting catalogue year: Miramax 2002; selected release year 2001."
+      ],
+      "sourceKeys": [
+        "corn-screen-07",
+        "corn-revelation-apple"
+      ],
+      "fieldSourceKeys": {
+        "releaseYear": [
+          "corn-revelation-apple"
+        ],
+        "releaseEvents": [
+          "corn-revelation-apple"
+        ],
+        "summary": [
+          "corn-screen-07"
+        ],
+        "makerObservations": [
+          "corn-screen-07"
+        ]
+      },
+      "conflicts": [
+        {
+          "fieldPath": "/releaseYear",
+          "value": 2002,
+          "sourceKeys": [
+            "corn-screen-07"
+          ],
+          "note": "Miramax lists 2002; selected 2001 is supported by the distributor-supplied Apple TV record. The Miramax year is retained, not promoted to a first-release date."
+        }
+      ],
+      "note": "A distinct film-franchise installment, not a new literary work or a verified direct retelling of King’s short story. Director role only; Miramax’s generic Stephen King writer label is not treated as screenplay authorship. No ratings or images imported."
+    },
+    {
+      "key": "series-02",
+      "entityType": "series",
+      "checked": "2026-10-28",
+      "name": "Children of the Corn film series",
+      "aliases": [],
+      "seriesKind": "film-series",
+      "scope": "Film franchise originating with the 1984 adaptation. This shelf currently includes the original and five verified later films; it is not a complete franchise filmography or a story chronology.",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "corn-profile",
+        "corn-afi"
+      ],
+      "note": "A screen franchise, separate from literary series and remakes. No invented installment positions or direct literary adaptation links."
+    },
+    {
+      "key": "connection-11",
+      "entityType": "connection",
+      "checked": "2026-10-28",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000007"
+      },
+      "predicate": "part_of_series",
+      "to": {
+        "type": "series",
+        "key": "series-02"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The 1984 adaptation begins the Children of the Corn film franchise."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "corn-afi"
+      ],
+      "note": "Membership only; no claim of shared protagonists, direct adaptation or narrative order."
+    },
+    {
+      "key": "connection-12",
+      "entityType": "connection",
+      "checked": "2026-10-28",
+      "from": {
+        "type": "adaptation",
+        "key": "screen-03"
+      },
+      "predicate": "part_of_series",
+      "to": {
+        "type": "series",
+        "key": "series-02"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "This is a later film in the Children of the Corn screen franchise. Its franchise membership does not mean that it directly retells King’s short story."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "corn-profile",
+        "corn-afi"
+      ],
+      "note": "Membership only; no claim of shared protagonists, direct adaptation or narrative order."
+    },
+    {
+      "key": "connection-13",
+      "entityType": "connection",
+      "checked": "2026-10-28",
+      "from": {
+        "type": "adaptation",
+        "key": "screen-04"
+      },
+      "predicate": "part_of_series",
+      "to": {
+        "type": "series",
+        "key": "series-02"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "This is a later film in the Children of the Corn screen franchise. Its franchise membership does not mean that it directly retells King’s short story."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "corn-profile",
+        "corn-afi"
+      ],
+      "note": "Membership only; no claim of shared protagonists, direct adaptation or narrative order."
+    },
+    {
+      "key": "connection-14",
+      "entityType": "connection",
+      "checked": "2026-10-28",
+      "from": {
+        "type": "adaptation",
+        "key": "screen-05"
+      },
+      "predicate": "part_of_series",
+      "to": {
+        "type": "series",
+        "key": "series-02"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "This is a later film in the Children of the Corn screen franchise. Its franchise membership does not mean that it directly retells King’s short story."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "corn-profile",
+        "corn-afi"
+      ],
+      "note": "Membership only; no claim of shared protagonists, direct adaptation or narrative order."
+    },
+    {
+      "key": "connection-15",
+      "entityType": "connection",
+      "checked": "2026-10-28",
+      "from": {
+        "type": "adaptation",
+        "key": "screen-06"
+      },
+      "predicate": "part_of_series",
+      "to": {
+        "type": "series",
+        "key": "series-02"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "This is a later film in the Children of the Corn screen franchise. Its franchise membership does not mean that it directly retells King’s short story."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "corn-profile",
+        "corn-afi"
+      ],
+      "note": "Membership only; no claim of shared protagonists, direct adaptation or narrative order."
+    },
+    {
+      "key": "connection-16",
+      "entityType": "connection",
+      "checked": "2026-10-28",
+      "from": {
+        "type": "adaptation",
+        "key": "screen-07"
+      },
+      "predicate": "part_of_series",
+      "to": {
+        "type": "series",
+        "key": "series-02"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "This is a later film in the Children of the Corn screen franchise. Its franchise membership does not mean that it directly retells King’s short story."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "corn-profile",
+        "corn-afi"
+      ],
+      "note": "Membership only; no claim of shared protagonists, direct adaptation or narrative order."
+    },
+    {
+      "key": "connection-17",
+      "entityType": "connection",
+      "checked": "2026-10-28",
+      "from": {
+        "type": "adaptation",
+        "key": "screen-03"
+      },
+      "predicate": "sequel_to",
+      "to": {
+        "type": "adaptation",
+        "id": "adp:000007"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The Final Sacrifice is a sequel to the 1984 film, continuing the screen story beyond Gatlin."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "corn-afi"
+      ],
+      "note": "AFI production history identifies a sequel to the 1984 film; not a remake or a separate direct short-story adaptation."
     }
   ],
   "deferred": [
