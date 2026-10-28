@@ -5,7 +5,7 @@ const {extendCompletionB,validateCompletionB}=require('../scripts/completion_b.c
 const base=loadCompletion(),before=structuredClone(base),bundle=extendCompletionB(base);
 test('Bounded B additions preserve every prior identity, record, alias and manifest',()=>{
  assert.deepEqual(base,before);assert.deepEqual(validateCompletionB(bundle,base),[]);
- assert.equal(bundle.characters.length-base.characters.length,4);assert.equal(bundle.locations.length-base.locations.length,3);assert.equal(bundle.series.length-base.series.length,4);assert.equal(bundle.adaptations.length-base.adaptations.length,15);assert.equal(bundle.connections.length-base.connections.length,48);
+ assert.equal(bundle.characters.length-base.characters.length,10);assert.equal(bundle.locations.length-base.locations.length,4);assert.equal(bundle.series.length-base.series.length,4);assert.equal(bundle.adaptations.length-base.adaptations.length,15);assert.equal(bundle.connections.length-base.connections.length,56);
  assert.throws(()=>extendCompletionB(bundle),/collision|already exists/);
 });
 test('The Hodges sequence links exactly the three existing novels with supported positions',()=>{
@@ -135,4 +135,10 @@ test('Later Sometimes films preserve the original identity and separate catalogu
  const original=bundle.adaptations.find(a=>a.id==='adp:000071');assert.deepEqual(original,base.adaptations.find(a=>a.id===original.id));
  for(const [id,year,director]of [['adp:000110',1996,'Adam Grossman'],['adp:000111',1999,'Daniel Zelik Berk']]){const a=bundle.adaptations.find(a=>a.id===id);assert.equal(a.releaseYear,year);assert.equal(a.releaseEvents[0].meaning,'source-reported-release');assert.equal(a.releaseEvents[0].territory,'US');assert.equal(a.releaseEvents[0].precision,'year');assert.equal(a.makerObservations.find(m=>m.role==='director').creditText,director);assert.equal(a.ratingObservations.length,0);assert.ok(!bundle.connections.some(c=>c.from.id===id&&['adaptation_of','sequel_to'].includes(c.predicate)));}
  assert.ok(bundle.adaptations.find(a=>a.id==='adp:000111').verification.open.some(s=>s.includes('1998')));const group=bundle.connections.filter(c=>c.to.id==='ser:000006');assert.deepEqual(group.map(c=>c.from.id),['adp:000071','adp:000110','adp:000111']);assert.ok(group.every(c=>!c.seriesPosition&&c.spoiler.level==='none'));
+});
+
+test('Shining and Misery profiles preserve literary identities without film events or hidden family revelations',()=>{
+ for(const [id,name]of [['chr:000013','Danny Torrance'],['chr:000014','Jack Torrance'],['chr:000015','Wendy Torrance'],['chr:000016','Abra Stone'],['chr:000017','Paul Sheldon'],['chr:000018','Annie Wilkes']]){assert.equal(bundle.characters.filter(c=>c.name===name).length,1);const c=bundle.characters.find(c=>c.id===id);assert.equal(c.name,name);assert.ok(c.summary.en.length>80);assert.equal(c.spoiler.level,'none');assert.deepEqual(c.aliases,[]);assert.ok(bundle.claims.some(p=>p.subject.id===id&&p.fieldPath==='/summary'&&p.selected&&p.status==='verified'));}
+ const danny=bundle.connections.filter(c=>c.from.id==='chr:000013');assert.deepEqual(danny.map(c=>c.to.id),['wrk:000005','wrk:000051']);assert.ok(danny.every(c=>c.predicate==='appears_in'&&c.spoiler.level==='premise'));
+ assert.equal(bundle.locations.find(l=>l.id==='loc:000006').name,'Overlook Hotel');const hotel=bundle.connections.filter(c=>c.to.id==='loc:000006');assert.equal(hotel.length,1);assert.equal(hotel[0].from.id,'wrk:000005');assert.ok(!bundle.connections.some(c=>+c.id.slice(4)>=143&&[c.from.type,c.to.type].includes('adaptation')));
 });

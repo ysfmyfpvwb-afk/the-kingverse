@@ -11,14 +11,14 @@ test('Pilot is reproducible, all generated files match, and all earlier baseline
  assert.deepEqual(generatePilot().files,out.files);assert.deepEqual(out.base,require('../scripts/completion_pilot.cjs').completionPilot().defaultProjection);
 });
 test('Every canonical identity, type and endpoint has an independent bounded deep-link payload',()=>{
- assert.equal(out.full.nodes.length,620);for(const n of out.full.nodes){const p=index(n.id);assert.ok(p);if(out.base.nodes.some(s=>s.id===n.id)){assert.equal(p.node.id,n.id);assert.equal(p.node.type,n.type);assert.equal(p.node.label,n.label);}else assert.equal(p.scope,'gated');}
+ assert.equal(out.full.nodes.length,627);for(const n of out.full.nodes){const p=index(n.id);assert.ok(p);if(out.base.nodes.some(s=>s.id===n.id)){assert.equal(p.node.id,n.id);assert.equal(p.node.type,n.type);assert.equal(p.node.label,n.label);}else assert.equal(p.scope,'gated');}
  const types=new Set(out.full.nodes.map(n=>n.type));assert.equal(types.size,8);
  for(const[name,p]of out.payloads)if(!name.startsWith('search.')){assert.ok(Buffer.byteLength(out.files.get('explorer/pilot/'+name))<=LIMIT);for(const e of p.connections||[])assert.ok(index(e.target.id));}
  assert.equal(out.report.payload.initialAggregateProjectBytesLoaded,0);assert.ok(out.report.payload.maxEntityBytes<40000);assert.ok(out.report.payload.searchGzipBytes<13*1024);
 });
-test('All 142 relationships preserve source claims, certainty, spoiler scope and current verification in both directions',()=>{
+test('All 150 relationships preserve source claims, certainty, spoiler scope and current verification in both directions',()=>{
  const seen=new Set();for(const n of out.full.nodes){for(const e of [...index(n.id).connections||[],...plot(n.id).connections]){seen.add(e.id);const old=out.full.connections.find(c=>c.id===e.id);assert.deepEqual(e.evidence,old.evidence);assert.equal(e.certainty,old.certainty);assert.deepEqual(e.spoiler,old.spoiler);assert.equal(e.verification,old.verification);assert.equal(e.target.id,e.from.id===n.id?e.to.id:e.from.id);}}
- assert.equal(seen.size,142);assert.equal(plot('wrk:000002').connections.find(e=>e.id==='rel:000007').verification,'provisional');
+ assert.equal(seen.size,150);assert.equal(plot('wrk:000002').connections.find(e=>e.id==='rel:000007').verification,'provisional');
 });
 test('The full Talisman chain has direct sibling navigation from canonical series memberships',()=>{
  for(const id of ['wrk:000001','wrk:000002','wrk:000067']){const p=index(id),members=p.series.find(s=>s.series.id==='ser:000002').members;assert.deepEqual(members.map(m=>m.target.id),['wrk:000001','wrk:000002','wrk:000067']);assert.deepEqual(members.map(m=>m.position),[1,2,3]);}
@@ -35,7 +35,7 @@ test('Long contribution and collection lists use six-record chunks with no missi
  for(const [id,k]of [['per:000001','creators'],['col:000006','memberships']]){const section=index(id).sections[k],rows=[...section.items];let next=section.next;assert.ok(next);while(next){const p=out.payloads.get(next);assert.ok(p.items.length<=6);rows.push(...p.items);next=p.next;}assert.equal(rows.length,section.total);assert.equal(new Set(rows.map(r=>r.id)).size,rows.length);}
 });
 test('Default pages, search aliases, metadata and gated entries contain none of the six plot-only labels',()=>{
- const search=out.payloads.get(out.report.assets.search);assert.equal(search.records.length,614);
+ const search=out.payloads.get(out.report.assets.search);assert.equal(search.records.length,621);
  for(const n of out.plot.nodes){for(const name of out.report.files.filter(f=>f.file.endsWith('/index.json')).map(f=>f.file))assert.ok(!JSON.stringify(out.payloads.get(name)).includes(n.label),name);assert.ok(!JSON.stringify(search).includes(n.label));assert.ok(!out.files.get('explorer/pilot/index.html').includes(n.label));assert.ok(!('node'in index(n.id)));}
  assert.ok(plot('chr:000005').node);assert.equal(plot('chr:000005').node.label,'Father Callahan');
 });
@@ -123,4 +123,9 @@ test('Standalone editions are independently navigable while keeping original col
 test('Sometimes screen pages expose a three-production shelf with correct direct navigation and source evidence',()=>{
  for(const id of ['adp:000071','adp:000110','adp:000111']){const p=index(id),s=p.series.find(s=>s.series.id==='ser:000006');assert.deepEqual(s.members.map(m=>m.target.id),['adp:000071','adp:000110','adp:000111']);assert.ok(s.members.every(m=>m.position===null&&index(m.target.id)));}
  assert.equal(index('ser:000006').connections.length,3);for(const id of ['adp:000110','adp:000111']){const p=index(id);assert.ok(p.node.description.length>80);assert.ok(p.node.evidence.some(c=>c.fieldPath==='/summary'&&c.selected&&c.status==='verified'));assert.ok(p.connections.every(c=>c.predicate==='part_of_series'));}
+});
+
+test('Shining and Misery profiles have sourced introductions, direct book links and no accidental screen continuity',()=>{
+ for(const id of ['chr:000013','chr:000014','chr:000015','chr:000016','chr:000017','chr:000018','loc:000006']){const p=index(id);assert.ok(p.node.description.length>80);assert.ok(p.node.evidence.some(c=>c.fieldPath==='/summary'&&c.selected&&c.status==='verified'));assert.ok(p.connections.every(c=>c.target.type==='work'&&index(c.target.id)));assert.ok(out.payloads.get(out.report.assets.search).records.some(r=>r.id===id));}
+ assert.deepEqual(index('chr:000013').connections.map(c=>c.target.id),['wrk:000005','wrk:000051']);assert.equal(index('loc:000006').connections.length,1);
 });

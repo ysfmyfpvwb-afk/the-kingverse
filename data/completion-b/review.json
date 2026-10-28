@@ -380,7 +380,9 @@
       "access": "available",
       "locator": "Synopsis / From the Flap: opening situation and central premise only; exclude character outcomes and ending.",
       "checkedFields": [
-        "opening premise for original editorial description"
+        "opening premise for original editorial description",
+        "named literary characters and roles in the opening premise",
+        "Overlook Hotel literary setting"
       ]
     },
     {
@@ -428,7 +430,8 @@
       "access": "available",
       "locator": "Synopsis / From the Flap: opening situation and central premise only; exclude character outcomes and ending.",
       "checkedFields": [
-        "opening premise for original editorial description"
+        "opening premise for original editorial description",
+        "named literary characters and roles in the opening premise"
       ]
     },
     {
@@ -700,7 +703,8 @@
       "access": "available",
       "locator": "Synopsis / From the Flap: opening premise; no ending, fate or identity revelation. Green Mile serial form is explicitly stated in the official description.",
       "checkedFields": [
-        "opening premise for original editorial description"
+        "opening premise for original editorial description",
+        "named literary characters and roles in the opening premise"
       ]
     },
     {
@@ -5207,6 +5211,365 @@
         "sometimes-family-reference"
       ],
       "note": "Membership only; no seriesPosition, direct literary source, shared character or narrative continuity inferred.",
+      "checked": "2026-10-28"
+    },
+    {
+      "key": "danny-torrance",
+      "entityType": "character",
+      "name": "Danny Torrance",
+      "aliases": [],
+      "continuity": "Stephen King literary continuity",
+      "summary": {
+        "en": "Danny Torrance is the young son of Jack and Wendy in The Shining. His unusual perceptions make the family’s winter at the Overlook Hotel especially unsettling."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "book-intro-000005-source"
+      ],
+      "note": "Name, role and opening premise only, drawn from the official literary work page. No ending, hidden family relationship, diagnosis or film-specific event.",
+      "checked": "2026-10-28"
+    },
+    {
+      "key": "jack-torrance",
+      "entityType": "character",
+      "name": "Jack Torrance",
+      "aliases": [],
+      "continuity": "Stephen King literary continuity",
+      "summary": {
+        "en": "Jack Torrance is a writer who takes a winter caretaker job at the Overlook Hotel in The Shining, bringing his wife Wendy and their son Danny."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "book-intro-000005-source"
+      ],
+      "note": "Name, role and opening premise only, drawn from the official literary work page. No ending, hidden family relationship, diagnosis or film-specific event.",
+      "checked": "2026-10-28"
+    },
+    {
+      "key": "wendy-torrance",
+      "entityType": "character",
+      "name": "Wendy Torrance",
+      "aliases": [],
+      "continuity": "Stephen King literary continuity",
+      "summary": {
+        "en": "Wendy Torrance moves into the Overlook Hotel with her husband Jack and their young son Danny in The Shining. The isolated winter setting puts their family at the centre of the story."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "book-intro-000005-source"
+      ],
+      "note": "Name, role and opening premise only, drawn from the official literary work page. No ending, hidden family relationship, diagnosis or film-specific event.",
+      "checked": "2026-10-28"
+    },
+    {
+      "key": "abra-stone",
+      "entityType": "character",
+      "name": "Abra Stone",
+      "aliases": [],
+      "continuity": "Stephen King literary continuity",
+      "summary": {
+        "en": "Abra Stone is a girl with an extraordinary gift known as the shining. Her path crosses Dan Torrance’s in Doctor Sleep."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "book-intro-000051-source"
+      ],
+      "note": "Name, role and opening premise only, drawn from the official literary work page. No ending, hidden family relationship, diagnosis or film-specific event.",
+      "checked": "2026-10-28"
+    },
+    {
+      "key": "paul-sheldon",
+      "entityType": "character",
+      "name": "Paul Sheldon",
+      "aliases": [],
+      "continuity": "Stephen King literary continuity",
+      "summary": {
+        "en": "Paul Sheldon is the novelist at the centre of Misery. After a car accident, he finds himself in the care of Annie Wilkes, an intensely devoted reader of his books."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "book-intro-000021-source"
+      ],
+      "note": "Name, role and opening premise only, drawn from the official literary work page. No ending, hidden family relationship, diagnosis or film-specific event.",
+      "checked": "2026-10-28"
+    },
+    {
+      "key": "annie-wilkes",
+      "entityType": "character",
+      "name": "Annie Wilkes",
+      "aliases": [],
+      "continuity": "Stephen King literary continuity",
+      "summary": {
+        "en": "Annie Wilkes is a former nurse and devoted reader of Paul Sheldon’s novels. In Misery, she takes the injured writer into her home after his car accident."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "book-intro-000021-source"
+      ],
+      "note": "Name, role and opening premise only, drawn from the official literary work page. No ending, hidden family relationship, diagnosis or film-specific event.",
+      "checked": "2026-10-28"
+    },
+    {
+      "key": "overlook-hotel",
+      "entityType": "location",
+      "name": "Overlook Hotel",
+      "locationKind": "place",
+      "aliases": [],
+      "continuity": "The Shining literary setting",
+      "summary": {
+        "en": "The Overlook Hotel is the remote winter setting of The Shining. Jack Torrance becomes its caretaker while staying there with Wendy and Danny, cut off from the outside world."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "book-intro-000005-source"
+      ],
+      "note": "Fictional literary hotel only. Do not merge it with the real Stanley Hotel that inspired King or infer the changed ending of a screen adaptation.",
+      "checked": "2026-10-28"
+    },
+    {
+      "key": "danny-torrance-wrk:000005",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "key": "danny-torrance"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000005"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Danny Torrance stays at the Overlook with his parents in The Shining."
+      },
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000005"
+        ]
+      },
+      "sourceKeys": [
+        "book-intro-000005-source"
+      ],
+      "note": "The official public literary synopsis establishes this appearance. Danny/Dan is one identity; no outcome or novel/film continuity merge.",
+      "checked": "2026-10-28"
+    },
+    {
+      "key": "danny-torrance-wrk:000051",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "key": "danny-torrance"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000051"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Doctor Sleep follows Dan Torrance, the Danny of The Shining, in a later part of his life."
+      },
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000051"
+        ]
+      },
+      "sourceKeys": [
+        "book-intro-000051-source",
+        "book-intro-000005-source"
+      ],
+      "note": "The official public literary synopsis establishes this appearance. Danny/Dan is one identity; no outcome or novel/film continuity merge.",
+      "checked": "2026-10-28"
+    },
+    {
+      "key": "jack-torrance-wrk:000005",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "key": "jack-torrance"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000005"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Jack Torrance takes the Overlook caretaker job in The Shining."
+      },
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000005"
+        ]
+      },
+      "sourceKeys": [
+        "book-intro-000005-source"
+      ],
+      "note": "The official public literary synopsis establishes this appearance. Danny/Dan is one identity; no outcome or novel/film continuity merge.",
+      "checked": "2026-10-28"
+    },
+    {
+      "key": "wendy-torrance-wrk:000005",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "key": "wendy-torrance"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000005"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Wendy Torrance spends the winter at the Overlook with her family in The Shining."
+      },
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000005"
+        ]
+      },
+      "sourceKeys": [
+        "book-intro-000005-source"
+      ],
+      "note": "The official public literary synopsis establishes this appearance. Danny/Dan is one identity; no outcome or novel/film continuity merge.",
+      "checked": "2026-10-28"
+    },
+    {
+      "key": "abra-stone-wrk:000051",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "key": "abra-stone"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000051"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Abra Stone’s extraordinary shining brings her into Dan Torrance’s story in Doctor Sleep."
+      },
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000051"
+        ]
+      },
+      "sourceKeys": [
+        "book-intro-000051-source"
+      ],
+      "note": "The official public literary synopsis establishes this appearance. Danny/Dan is one identity; no outcome or novel/film continuity merge.",
+      "checked": "2026-10-28"
+    },
+    {
+      "key": "paul-sheldon-wrk:000021",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "key": "paul-sheldon"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000021"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Paul Sheldon is the injured novelist at the centre of Misery."
+      },
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000021"
+        ]
+      },
+      "sourceKeys": [
+        "book-intro-000021-source"
+      ],
+      "note": "The official public literary synopsis establishes this appearance. Danny/Dan is one identity; no outcome or novel/film continuity merge.",
+      "checked": "2026-10-28"
+    },
+    {
+      "key": "annie-wilkes-wrk:000021",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "key": "annie-wilkes"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000021"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Annie Wilkes takes Paul Sheldon into her home in Misery."
+      },
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000021"
+        ]
+      },
+      "sourceKeys": [
+        "book-intro-000021-source"
+      ],
+      "note": "The official public literary synopsis establishes this appearance. Danny/Dan is one identity; no outcome or novel/film continuity merge.",
+      "checked": "2026-10-28"
+    },
+    {
+      "key": "shining-overlook",
+      "entityType": "connection",
+      "from": {
+        "type": "work",
+        "id": "wrk:000005"
+      },
+      "predicate": "set_in",
+      "to": {
+        "type": "location",
+        "key": "overlook-hotel"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The Torrance family spends the winter at the Overlook Hotel in The Shining."
+      },
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000005"
+        ]
+      },
+      "sourceKeys": [
+        "book-intro-000005-source"
+      ],
+      "note": "Opening setting only. No Doctor Sleep hotel-setting link is inferred from the film or from a later plot event.",
       "checked": "2026-10-28"
     }
   ],

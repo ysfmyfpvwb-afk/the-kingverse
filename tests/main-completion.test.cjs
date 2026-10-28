@@ -100,3 +100,7 @@ test('Standalone story editions appear on every main story view with their origi
 test('Sometimes screen family connects the original main film to both later productions without false story links',()=>{
  run("tab='films';lang='en'");const original=run("detailContent(F.find(f=>f.canonicalId==='adp:000071'))");assert.match(original,/Sometimes They Come Back\.\.\. Again/);assert.match(original,/Sometimes They Come Back\.\.\. for More/);for(const id of ['adp:000110','adp:000111']){const html=run(`detailContent(F.find(f=>f.canonicalId===${JSON.stringify(id)}))`);assert.match(html,/Sometimes They Come Back film series/);assert.match(html,/Sources & context/);assert.doesNotMatch(html,/data-next="stories"/);}
 });
+
+test('Shining, Doctor Sleep and Misery main details link to their literary character and place pages',()=>{
+ run("tab='books';lang='en'");for(const [work,targets]of [['wrk:000005',['chr:000013','chr:000014','chr:000015','loc:000006']],['wrk:000051',['chr:000013','chr:000016']],['wrk:000021',['chr:000017','chr:000018']]]){const html=run(`detailContent(B.find(b=>b.canonicalId===${JSON.stringify(work)}))`);for(const id of targets)assert.ok(html.includes('entity='+encodeURIComponent(id)));}
+});
