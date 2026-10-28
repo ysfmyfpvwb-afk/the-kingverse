@@ -134,3 +134,8 @@ test('Eight film reading introductions share main-site copy and retain film-spec
  for(const e of require('../data/completion-b/review.json').enrichments.filter(e=>e.subject.type==='adaptation')){const p=index(e.subject.id);assert.equal(p.node.description,e.value.en);assert.ok(p.node.evidence.some(c=>c.fieldPath==='/summary'&&c.selected&&c.status==='verified'));assert.doesNotMatch(p.node.description,/A film in The Kingverse|production uncertainties/);for(const c of p.node.evidence.filter(c=>c.fieldPath==='/summary'&&c.selected))assert.ok(c.sourceIds.every(id=>p.sources.some(s=>s.id===id)));}
  assert.doesNotMatch(index('adp:000070').node.description,/Stanley Kubrick/);assert.match(index('adp:000048').node.description,/Oregon/);assert.doesNotMatch(index('adp:000048').node.description,/Maine/);
 });
+
+test('Everything’s Eventual story descriptions remain distinct from the collection and preserve Tower spoiler gating',()=>{
+ for(let i=150;i<=163;i++){const p=index('wrk:'+String(i).padStart(6,'0'));assert.ok(p.node.description.length>60);assert.ok(p.node.evidence.some(c=>c.fieldPath==='/summary'&&c.selected&&c.status==='verified'));assert.ok(p.sections.memberships.items.some(m=>m.target.id==='col:000008'));}
+ assert.doesNotMatch(index('wrk:000156').node.description,/Dinky Earnshaw/);assert.notEqual(index('wrk:000156').node.description,index('col:000008').node.description);assert.ok(index('wrk:000155').connections.some(c=>c.target.id==='chr:000003'));
+});
