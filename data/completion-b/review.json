@@ -1087,6 +1087,102 @@
       "checkedFields": [
         "opening premise for original English introduction"
       ]
+    },
+    {
+      "key": "book-intro-wrk-000035-source",
+      "url": "https://stephenking.com/works/novel/bag-of-bones.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap and explicit contents: opening situation or collection scope only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000036-source",
+      "url": "https://stephenking.com/works/novel/girl-who-loved-tom-gordon.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap and explicit contents: opening situation or collection scope only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000037-source",
+      "url": "https://stephenking.com/works/novel/dreamcatcher.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap and explicit contents: opening situation or collection scope only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000038-source",
+      "url": "https://stephenking.com/works/novel/from-a-buick-8.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap and explicit contents: opening situation or collection scope only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000042-source",
+      "url": "https://stephenking.com/works/novel/colorado-kid.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap and explicit contents: opening situation or collection scope only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000043-source",
+      "url": "https://stephenking.com/works/novel/cell.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap and explicit contents: opening situation or collection scope only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000044-source",
+      "url": "https://stephenking.com/works/novel/liseys-story.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap and explicit contents: opening situation or collection scope only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000046-source",
+      "url": "https://stephenking.com/works/novel/duma-key.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap and explicit contents: opening situation or collection scope only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
     }
   ],
   "records": [
@@ -4832,6 +4928,190 @@
       },
       "locator": "Official Synopsis / From the Flap and stated calendar structure; original wording.",
       "note": "Visitor introduction only; no change to publication-year conflicts, canonical identity, credits or plot scope."
+    },
+    {
+      "key": "book-intro-wrk-000035",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000035"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Widowed novelist Mike Noonan returns to his lakeside home in Maine, hoping to recover the ability to write. A custody dispute and disturbing events at the house draw him into secrets that connect grief in the present with an unsettled past."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000035-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000035"
+        ]
+      },
+      "locator": "Official work description / explicit contents; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000036",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000036"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Nine-year-old Trisha becomes lost during a family hike and must rely on her ingenuity to survive in the woods. Radio broadcasts of her favourite baseball team offer comfort as isolation and the possibility of something following her deepen her fear."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000036-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000036"
+        ]
+      },
+      "locator": "Official work description / explicit contents; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000037",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000037"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Four childhood friends reunite for their annual hunting trip in the Maine woods. The arrival of a confused stranger turns the visit into a struggle with an otherworldly threat, bringing the bonds and secrets of their shared past back into focus."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000037-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000037"
+        ]
+      },
+      "locator": "Official work description / explicit contents; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000038",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000038"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Pennsylvania state troopers have spent years keeping an abandoned Buick hidden behind their barracks. As they recount its unsettling history, the car becomes the focus of a story about loss and the desire for answers."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000038-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000038"
+        ]
+      },
+      "locator": "Official work description / explicit contents; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000042",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000042"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Two veteran newspapermen tell their young colleague about an unidentified man found dead on a Maine island. Following the clues becomes a conversation about evidence, storytelling and the drive to make sense of an unexplained death."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000042-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000042"
+        ]
+      },
+      "locator": "Official work description / explicit contents; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000043",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000043"
+      },
+      "field": "summary",
+      "value": {
+        "en": "A mysterious signal turns mobile-phone users violently against the people around them. Artist Clay Riddell joins other survivors on a journey towards his family as familiar society collapses and the changed population begins to behave in unexpected ways."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000043-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000043"
+        ]
+      },
+      "locator": "Official work description / explicit contents; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000044",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000044"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Lisey Landon begins sorting the papers of her late husband, a celebrated novelist. Threats over his unpublished work and memories of their marriage draw her towards the private world he kept close, testing the strength she has yet to recognise in herself."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000044-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000044"
+        ]
+      },
+      "locator": "Official work description / explicit contents; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000046",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000046"
+      },
+      "field": "summary",
+      "value": {
+        "en": "After a devastating accident, Edgar Freemantle moves to the Florida coast and begins painting as part of rebuilding his life. His new talent and friendships lead him towards the island’s history, where creativity and danger become closely entwined."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000046-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000046"
+        ]
+      },
+      "locator": "Official work description / explicit contents; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
     }
   ]
 }
