@@ -991,6 +991,102 @@
         "opening premise",
         "Rage reprint statement where applicable"
       ]
+    },
+    {
+      "key": "book-intro-000017-source",
+      "url": "https://stephenking.com/works/novel/cycle-of-the-werewolf.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap; Cycle calendar structure from Inspiration. Premise only, no ending or cross-book identity revelations.",
+      "checkedFields": [
+        "opening premise for original English introduction"
+      ]
+    },
+    {
+      "key": "book-intro-000020-source",
+      "url": "https://stephenking.com/works/novel/eyes-of-the-dragon.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap; Cycle calendar structure from Inspiration. Premise only, no ending or cross-book identity revelations.",
+      "checkedFields": [
+        "opening premise for original English introduction"
+      ]
+    },
+    {
+      "key": "book-intro-000023-source",
+      "url": "https://stephenking.com/works/novel/tommyknockers.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap; Cycle calendar structure from Inspiration. Premise only, no ending or cross-book identity revelations.",
+      "checkedFields": [
+        "opening premise for original English introduction"
+      ]
+    },
+    {
+      "key": "book-intro-000027-source",
+      "url": "https://stephenking.com/works/novel/geralds-game.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap; Cycle calendar structure from Inspiration. Premise only, no ending or cross-book identity revelations.",
+      "checkedFields": [
+        "opening premise for original English introduction"
+      ]
+    },
+    {
+      "key": "book-intro-000028-source",
+      "url": "https://stephenking.com/works/novel/dolores-claiborne.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap; Cycle calendar structure from Inspiration. Premise only, no ending or cross-book identity revelations.",
+      "checkedFields": [
+        "opening premise for original English introduction"
+      ]
+    },
+    {
+      "key": "book-intro-000029-source",
+      "url": "https://stephenking.com/works/novel/insomnia.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap; Cycle calendar structure from Inspiration. Premise only, no ending or cross-book identity revelations.",
+      "checkedFields": [
+        "opening premise for original English introduction"
+      ]
+    },
+    {
+      "key": "book-intro-000030-source",
+      "url": "https://stephenking.com/works/novel/rose-madder.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap; Cycle calendar structure from Inspiration. Premise only, no ending or cross-book identity revelations.",
+      "checkedFields": [
+        "opening premise for original English introduction"
+      ]
+    },
+    {
+      "key": "book-intro-000032-source",
+      "url": "https://stephenking.com/works/novel/desperation.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap; Cycle calendar structure from Inspiration. Premise only, no ending or cross-book identity revelations.",
+      "checkedFields": [
+        "opening premise for original English introduction"
+      ]
     }
   ],
   "records": [
@@ -4552,6 +4648,190 @@
       },
       "locator": "Official novel Synopsis / From the Flap and stated reprint note; original editorial wording, no ending.",
       "note": "Visitor introduction only. Existing Richard Bachman pseudonym and Stephen King person identity remain unchanged."
+    },
+    {
+      "key": "book-intro-000017",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000017"
+      },
+      "field": "summary",
+      "value": {
+        "en": "A werewolf brings recurring terror to the small town of Tarker’s Mills, while a young boy begins to suspect the truth. Moving through the months of a year, the story turns a familiar community into a place governed by fear of the next full moon."
+      },
+      "sourceKeys": [
+        "book-intro-000017-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000017"
+        ]
+      },
+      "locator": "Official Synopsis / From the Flap and stated calendar structure; original wording.",
+      "note": "Visitor introduction only; no change to publication-year conflicts, canonical identity, credits or plot scope."
+    },
+    {
+      "key": "book-intro-000020",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000020"
+      },
+      "field": "summary",
+      "value": {
+        "en": "In the kingdom of Delain, a prince is imprisoned after being accused of his father’s murder. Court intrigue, loyal friends and a dangerous magician shape a fairy-tale struggle over the future of the kingdom."
+      },
+      "sourceKeys": [
+        "book-intro-000020-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000020"
+        ]
+      },
+      "locator": "Official Synopsis / From the Flap and stated calendar structure; original wording.",
+      "note": "Visitor introduction only; no change to publication-year conflicts, canonical identity, credits or plot scope."
+    },
+    {
+      "key": "book-intro-000023",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000023"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Writer Bobbi Anderson discovers something metallic buried in the woods near her home. Her growing obsession with uncovering it accompanies unsettling changes in the town of Haven, where remarkable new abilities come at a troubling cost."
+      },
+      "sourceKeys": [
+        "book-intro-000023-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000023"
+        ]
+      },
+      "locator": "Official Synopsis / From the Flap and stated calendar structure; original wording.",
+      "note": "Visitor introduction only; no change to publication-year conflicts, canonical identity, credits or plot scope."
+    },
+    {
+      "key": "book-intro-000027",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000027"
+      },
+      "field": "summary",
+      "value": {
+        "en": "A woman left handcuffed to a bed in an isolated house must find a way to survive. With no easy route to help, fear and memory become as immediate as the physical danger."
+      },
+      "sourceKeys": [
+        "book-intro-000027-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000027"
+        ]
+      },
+      "locator": "Official Synopsis / From the Flap and stated calendar structure; original wording.",
+      "note": "Visitor introduction only; no change to publication-year conflicts, canonical identity, credits or plot scope."
+    },
+    {
+      "key": "book-intro-000028",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000028"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Suspected of killing her employer, Dolores Claiborne tells the police about her working life, her marriage and the events that still shape her island community. Her account becomes an intimate examination of loyalty, abuse and the choices made under pressure."
+      },
+      "sourceKeys": [
+        "book-intro-000028-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000028"
+        ]
+      },
+      "locator": "Official Synopsis / From the Flap and stated calendar structure; original wording.",
+      "note": "Visitor introduction only; no change to publication-year conflicts, canonical identity, credits or plot scope."
+    },
+    {
+      "key": "book-intro-000029",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000029"
+      },
+      "field": "summary",
+      "value": {
+        "en": "An older widower in Derry finds himself waking earlier each night until ordinary sleep almost disappears. Strange sights around the town lead him to wonder whether exhaustion is distorting reality or revealing another side of it."
+      },
+      "sourceKeys": [
+        "book-intro-000029-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000029"
+        ]
+      },
+      "locator": "Official Synopsis / From the Flap and stated calendar structure; original wording.",
+      "note": "Visitor introduction only; no change to publication-year conflicts, canonical identity, credits or plot scope."
+    },
+    {
+      "key": "book-intro-000030",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000030"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Rosie Daniels escapes an abusive marriage and begins building a new life in another city. A painting she finds offers a strange attraction, while the husband she left uses his police connections to pursue her."
+      },
+      "sourceKeys": [
+        "book-intro-000030-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000030"
+        ]
+      },
+      "locator": "Official Synopsis / From the Flap and stated calendar structure; original wording.",
+      "note": "Visitor introduction only; no change to publication-year conflicts, canonical identity, credits or plot scope."
+    },
+    {
+      "key": "book-intro-000032",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000032"
+      },
+      "field": "summary",
+      "value": {
+        "en": "A group of travellers is trapped in a remote Nevada mining town under the control of a terrifying lawman. Their search for escape brings them up against an older danger tied to the town’s past."
+      },
+      "sourceKeys": [
+        "book-intro-000032-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000032"
+        ]
+      },
+      "locator": "Official Synopsis / From the Flap and stated calendar structure; original wording.",
+      "note": "Visitor introduction only; no change to publication-year conflicts, canonical identity, credits or plot scope."
     }
   ]
 }
