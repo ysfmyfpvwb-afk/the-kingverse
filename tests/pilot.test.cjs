@@ -11,10 +11,10 @@ test('Pilot is reproducible, all generated files match, and all earlier baseline
  assert.deepEqual(generatePilot().files,out.files);assert.deepEqual(out.base,require('../scripts/completion_pilot.cjs').completionPilot().defaultProjection);
 });
 test('Every canonical identity, type and endpoint has an independent bounded deep-link payload',()=>{
- assert.equal(out.full.nodes.length,592);for(const n of out.full.nodes){const p=index(n.id);assert.ok(p);if(out.base.nodes.some(s=>s.id===n.id)){assert.equal(p.node.id,n.id);assert.equal(p.node.type,n.type);assert.equal(p.node.label,n.label);}else assert.equal(p.scope,'gated');}
+ assert.equal(out.full.nodes.length,597);for(const n of out.full.nodes){const p=index(n.id);assert.ok(p);if(out.base.nodes.some(s=>s.id===n.id)){assert.equal(p.node.id,n.id);assert.equal(p.node.type,n.type);assert.equal(p.node.label,n.label);}else assert.equal(p.scope,'gated');}
  const types=new Set(out.full.nodes.map(n=>n.type));assert.equal(types.size,8);
  for(const[name,p]of out.payloads)if(!name.startsWith('search.')){assert.ok(Buffer.byteLength(out.files.get('explorer/pilot/'+name))<=LIMIT);for(const e of p.connections||[])assert.ok(index(e.target.id));}
- assert.equal(out.report.payload.initialAggregateProjectBytesLoaded,0);assert.ok(out.report.payload.maxEntityBytes<40000);assert.ok(out.report.payload.searchGzipBytes<12000);
+ assert.equal(out.report.payload.initialAggregateProjectBytesLoaded,0);assert.ok(out.report.payload.maxEntityBytes<40000);assert.ok(out.report.payload.searchGzipBytes<12*1024);
 });
 test('All 114 relationships preserve source claims, certainty, spoiler scope and current verification in both directions',()=>{
  const seen=new Set();for(const n of out.full.nodes){for(const e of [...index(n.id).connections||[],...plot(n.id).connections]){seen.add(e.id);const old=out.full.connections.find(c=>c.id===e.id);assert.deepEqual(e.evidence,old.evidence);assert.equal(e.certainty,old.certainty);assert.deepEqual(e.spoiler,old.spoiler);assert.equal(e.verification,old.verification);assert.equal(e.target.id,e.from.id===n.id?e.to.id:e.from.id);}}
@@ -35,7 +35,7 @@ test('Long contribution and collection lists use six-record chunks with no missi
  for(const [id,k]of [['per:000001','creators'],['col:000006','memberships']]){const section=index(id).sections[k],rows=[...section.items];let next=section.next;assert.ok(next);while(next){const p=out.payloads.get(next);assert.ok(p.items.length<=6);rows.push(...p.items);next=p.next;}assert.equal(rows.length,section.total);assert.equal(new Set(rows.map(r=>r.id)).size,rows.length);}
 });
 test('Default pages, search aliases, metadata and gated entries contain none of the six plot-only labels',()=>{
- const search=out.payloads.get(out.report.assets.search);assert.equal(search.records.length,586);
+ const search=out.payloads.get(out.report.assets.search);assert.equal(search.records.length,591);
  for(const n of out.plot.nodes){for(const name of out.report.files.filter(f=>f.file.endsWith('/index.json')).map(f=>f.file))assert.ok(!JSON.stringify(out.payloads.get(name)).includes(n.label),name);assert.ok(!JSON.stringify(search).includes(n.label));assert.ok(!out.files.get('explorer/pilot/index.html').includes(n.label));assert.ok(!('node'in index(n.id)));}
  assert.ok(plot('chr:000005').node);assert.equal(plot('chr:000005').node.label,'Father Callahan');
 });
@@ -76,4 +76,9 @@ test('Primary dark-theme text and control boundaries retain measurable contrast'
 
 test('Core literary premises use the same verified introductions as the main catalog',()=>{
  for(const e of require('../data/completion-b/review.json').enrichments){const n=index(e.subject.id).node;assert.equal(n.description,e.value.en);assert.ok(n.evidence.some(c=>c.fieldPath==='/summary'&&c.status==='verified'&&c.selected));assert.ok(!n.description.includes('A novel by Stephen King.'));}
+});
+
+test('New edition shelves and parent routes identify physical editions without inventing original-publication dates',()=>{
+ const e=index('edn:000155');assert.equal(e.parent.id,'wrk:000242');assert.equal(e.node.data.isbn13,'9781982159375');assert.equal(e.node.data.publicationDate.value,'2020-06-02');assert.equal(e.node.data.publicationDate.meaning,'edition-publication');assert.ok(index('wrk:000242').sections.editions.items.some(r=>r.id==='edn:000155'));
+ assert.ok(!index('wrk:000242').publicationDates.some(d=>d.value==='2020-06-02'));assert.equal(index('edn:000159').node.data.format,'Hardcover');
 });

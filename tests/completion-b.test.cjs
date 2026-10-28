@@ -74,3 +74,10 @@ test('Reviewed book introductions enrich existing identities with field-scoped e
  const changed=structuredClone(bundle);changed.works.find(w=>w.id==='wrk:000005').originalTitle='Wrong title';assert.ok(validateCompletionB(changed,base).some(e=>e.code==='b-baseline-record-changed'));
  const unsupported=structuredClone(bundle);unsupported.works.find(w=>w.id==='wrk:000005').summary.en='An invented ending';assert.ok(validateCompletionB(unsupported,base).some(e=>e.code==='b-editorial-evidence'));
 });
+
+test('Five publisher-identified English editions preserve all earlier edition and artwork bindings',()=>{
+ assert.equal(bundle.editions.length,159);for(const old of base.editions)assert.deepEqual(bundle.editions.find(e=>e.id===old.id),old);assert.deepEqual(bundle.artworks,base.artworks);
+ for(const e of bundle.editions.slice(-5)){assert.equal(e.language,'en');assert.equal(e.identityStatus,'identified');assert.equal(e.publisher,'Scribner');assert.equal(e.publicationDate.meaning,'edition-publication');assert.equal(e.publicationDate.precision,'day');assert.ok(base.works.some(w=>w.id===e.publicationOf.id));assert.equal(new Set(bundle.editions.filter(x=>x.isbn13).map(x=>x.isbn13)).size,bundle.editions.filter(x=>x.isbn13).length);}
+ assert.equal(bundle.editions.find(e=>e.id==='edn:000155').isbn13,'9781982159375');assert.equal(bundle.editions.find(e=>e.id==='edn:000159').format,'Hardcover');assert.equal(bundle.editions.find(e=>e.id==='edn:000088').isbn13,null);
+ const invalid=structuredClone(bundle);invalid.editions.at(-1).isbn13='9781982112395';assert.ok(validateCompletionB(invalid,base).some(e=>e.code==='b-isbn-checksum'));
+});

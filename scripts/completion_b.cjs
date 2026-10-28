@@ -3,7 +3,7 @@
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
 const {ROOT}=require('./validate_foundation.cjs');
 const read=p=>JSON.parse(fs.readFileSync(path.join(ROOT,p),'utf8'));
-const tables={adaptation:'adaptations',character:'characters',location:'locations',series:'series',connection:'connections',source:'sources',claim:'claims'};
+const tables={adaptation:'adaptations',edition:'editions',character:'characters',location:'locations',series:'series',connection:'connections',source:'sources',claim:'claims'};
 const METADATA=new Set(['key','entityType','sourceKeys','fieldSourceKeys','conflicts','checked','note','open']);
 function extendCompletionB(input){
  const bundle=structuredClone(input),review=read('data/completion-b/review.json'),registry=read('data/completion-b/register.json');
@@ -14,7 +14,7 @@ function extendCompletionB(input){
  function add(r){if(map.has(r.id)||registered.has(r.id))throw Error('B allocation collision '+r.id);bundle[tables[r.entityType]].push(r);bundle.registry.entries.push({id:r.id,type:r.entityType});registered.add(r.id);map.set(r.id,r);}
  const sources=new Map(bundle.sources.map(s=>[s.url,s.id])),sourceKeys=new Map();
  for(const s of review.sources){
-  if(s.access!=='available'||![review.checked,...review.records.map(d=>d.checked)].includes(s.observedAt)||!['stephenking.com','www.universalpicturesathome.com','www.syfy.com','www.amcglobalmedia.com','www.miramax.com','catalog.afi.com','tv.apple.com','www.paramountmovies.com','www.netflix.com','www.amctheatres.com'].includes(new URL(s.url).hostname))throw Error('B evidence source not reviewed '+s.key);
+  if(s.access!=='available'||![review.checked,...review.records.map(d=>d.checked)].includes(s.observedAt)||!['stephenking.com','www.universalpicturesathome.com','www.syfy.com','www.amcglobalmedia.com','www.miramax.com','catalog.afi.com','tv.apple.com','www.paramountmovies.com','www.netflix.com','www.amctheatres.com','www.simonandschuster.com'].includes(new URL(s.url).hostname))throw Error('B evidence source not reviewed '+s.key);
   if(!sources.has(s.url)){const r={id:id('source',s.key),entityType:'source',url:s.url,publisher:s.publisher||'StephenKing.com',sourceType:s.sourceType,publishedAt:null,observedAt:s.observedAt,access:s.access,snapshotRef:'data/completion-b/review.json#/sources/'+s.key,notes:'Field-limited official-source review. No biography, copied synopsis, outcomes or images retained.'};add(r);sources.set(s.url,r.id);}
   sourceKeys.set(s.key,sources.get(s.url));
  }
@@ -60,6 +60,7 @@ function validateCompletionB(bundle,baseline){
  if(records.length!==map.size)fail('b-duplicate-id','Duplicate canonical identity');
  if(new Set(Object.values(reg.allocations)).size!==Object.values(reg.allocations).length)fail('b-register-collision','Register allocation is not injective');
  const known=new Map(bundle.registry.entries.map(e=>[e.id,e.type]));
+ const isbns=new Set();for(const e of bundle.editions){if(map.get(e.publicationOf.id)?.entityType!==e.publicationOf.type)fail('b-edition-owner',e.id);if(e.isbn13){const sum=[...e.isbn13.slice(0,12)].reduce((n,v,i)=>n+Number(v)*(i%2?3:1),0);if((10-sum%10)%10!==Number(e.isbn13[12]))fail('b-isbn-checksum',e.id);if(isbns.has(e.isbn13))fail('b-isbn-duplicate',e.id);isbns.add(e.isbn13);}}
  const editorial=new Map();
  for(const e of review.enrichments||[]){
   if(editorial.has(e.subject.id)||e.subject.type!=='work'||e.field!=='summary'){fail('b-enrichment-scope',e.key);continue;}editorial.set(e.subject.id,e);
@@ -96,7 +97,8 @@ function validateCompletionB(bundle,baseline){
   for(const [table,rows]of Object.entries(baseline).filter(([,rows])=>Array.isArray(rows))){for(const r of rows){const next=bundle[table].find(x=>x.id===r.id),expected=structuredClone(r),e=editorial.get(r.id);if(table==='works'&&e){expected.summary=structuredClone(e.value);expected.verification.claimIds.push(reg.allocations['claim/'+e.key]);}if(table==='claims'&&editorial.has(r.subject.id)&&r.fieldPath==='/summary')expected.selected=false;try{assert.deepEqual(next,expected);}catch{fail('b-baseline-record-changed',r.id);}}}
   try{assert.deepEqual(bundle.registry.aliases,baseline.registry.aliases);assert.deepEqual(bundle.manifest,baseline.manifest);}catch{fail('b-baseline-metadata-changed','Existing aliases/manifest changed');}
   if(bundle.characters.length-baseline.characters.length!==3||bundle.locations.length-baseline.locations.length!==1||bundle.series.length-baseline.series.length!==2||bundle.connections.length-baseline.connections.length!==20||bundle.adaptations.length-baseline.adaptations.length!==10)fail('b-batch-boundary','Reviewed scope: three characters, one location, two series, ten screen productions and twenty links');
-  for(const t of ['works','collections','editions','people','artworks'])if(bundle[t].length!==baseline[t].length)fail('b-out-of-scope-addition',t);
+  if(bundle.editions.length-baseline.editions.length!==5)fail('b-edition-boundary','Exactly five reviewed English editions');
+  for(const t of ['works','collections','people','artworks'])if(bundle[t].length!==baseline[t].length)fail('b-out-of-scope-addition',t);
  }
  return errors;
 }

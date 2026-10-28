@@ -538,6 +538,86 @@
       "checkedFields": [
         "opening premise for original editorial description"
       ]
+    },
+    {
+      "key": "edition-01-source",
+      "url": "https://www.simonandschuster.com/books/On-Writing/Stephen-King/9781982159375",
+      "publisher": "Simon & Schuster / Scribner",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Product Details ISBN13, Scribner imprint and publication date; selected physical format next to title and same ISBN in Resources. English original-language US edition; publisher book content/sample or reading guide, no translation attribution. No image imported or connected to an unidentified legacy cover.",
+      "checkedFields": [
+        "edition title and language",
+        "ISBN13",
+        "edition publication date",
+        "publisher imprint",
+        "selected format"
+      ]
+    },
+    {
+      "key": "edition-02-source",
+      "url": "https://www.simonandschuster.com/books/Danse-Macabre/Stephen-King/9781439170984",
+      "publisher": "Simon & Schuster / Scribner",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Product Details ISBN13, Scribner imprint and publication date; selected physical format next to title and same ISBN in Resources. English original-language US edition; publisher book content/sample or reading guide, no translation attribution. No image imported or connected to an unidentified legacy cover.",
+      "checkedFields": [
+        "edition title and language",
+        "ISBN13",
+        "edition publication date",
+        "publisher imprint",
+        "selected format"
+      ]
+    },
+    {
+      "key": "edition-03-source",
+      "url": "https://www.simonandschuster.com/books/Misery/Stephen-King/9781501143106",
+      "publisher": "Simon & Schuster / Scribner",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Product Details ISBN13, Scribner imprint and publication date; selected physical format next to title and same ISBN in Resources. English original-language US edition; publisher book content/sample or reading guide, no translation attribution. No image imported or connected to an unidentified legacy cover.",
+      "checkedFields": [
+        "edition title and language",
+        "ISBN13",
+        "edition publication date",
+        "publisher imprint",
+        "selected format"
+      ]
+    },
+    {
+      "key": "edition-04-source",
+      "url": "https://www.simonandschuster.com/books/It/Stephen-King/9781501142970",
+      "publisher": "Simon & Schuster / Scribner",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Product Details ISBN13, Scribner imprint and publication date; selected physical format next to title and same ISBN in Resources. English original-language US edition; publisher book content/sample or reading guide, no translation attribution. No image imported or connected to an unidentified legacy cover.",
+      "checkedFields": [
+        "edition title and language",
+        "ISBN13",
+        "edition publication date",
+        "publisher imprint",
+        "selected format"
+      ]
+    },
+    {
+      "key": "edition-05-source",
+      "url": "https://www.simonandschuster.com/books/Pet-Sematary/Stephen-King/9781982112394",
+      "publisher": "Simon & Schuster / Scribner",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Product Details ISBN13, Scribner imprint and publication date; selected physical format next to title and same ISBN in Resources. English original-language US edition; publisher book content/sample or reading guide, no translation attribution. No image imported or connected to an unidentified legacy cover.",
+      "checkedFields": [
+        "edition title and language",
+        "ISBN13",
+        "edition publication date",
+        "publisher imprint",
+        "selected format"
+      ]
     }
   ],
   "records": [
@@ -1896,6 +1976,151 @@
         "corn-2023-amc"
       ],
       "note": "Production-specific source relationship. Do not merge films with the same title or infer a shared timeline."
+    },
+    {
+      "key": "edition-01",
+      "entityType": "edition",
+      "checked": "2026-10-28",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000242"
+      },
+      "language": "en",
+      "title": "On Writing: A Memoir of the Craft",
+      "isbn13": "9781982159375",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2020-06-02",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": "US"
+      },
+      "format": "Trade Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "open": [
+        "Specific printing/impression not established; publisher-listed edition date is not the work’s first publication."
+      ],
+      "sourceKeys": [
+        "edition-01-source"
+      ],
+      "note": "Specific publisher-identified English edition, separate from existing incomplete cover examples. No first-printing claim, new literary identity or inferred cover association."
+    },
+    {
+      "key": "edition-02",
+      "entityType": "edition",
+      "checked": "2026-10-28",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000243"
+      },
+      "language": "en",
+      "title": "Danse Macabre",
+      "isbn13": "9781439170984",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2010-02-23",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": "US"
+      },
+      "format": "Trade Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "open": [
+        "Specific printing/impression not established; publisher-listed edition date is not the work’s first publication."
+      ],
+      "sourceKeys": [
+        "edition-02-source"
+      ],
+      "note": "Specific publisher-identified English edition, separate from existing incomplete cover examples. No first-printing claim, new literary identity or inferred cover association."
+    },
+    {
+      "key": "edition-03",
+      "entityType": "edition",
+      "checked": "2026-10-28",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000021"
+      },
+      "language": "en",
+      "title": "Misery",
+      "isbn13": "9781501143106",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2016-01-05",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": "US"
+      },
+      "format": "Trade Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "open": [
+        "Specific printing/impression not established; publisher-listed edition date is not the work’s first publication."
+      ],
+      "sourceKeys": [
+        "edition-03-source"
+      ],
+      "note": "Specific publisher-identified English edition, separate from existing incomplete cover examples. No first-printing claim, new literary identity or inferred cover association."
+    },
+    {
+      "key": "edition-04",
+      "entityType": "edition",
+      "checked": "2026-10-28",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000019"
+      },
+      "language": "en",
+      "title": "It",
+      "isbn13": "9781501142970",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2016-01-05",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": "US"
+      },
+      "format": "Trade Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "open": [
+        "Specific printing/impression not established; publisher-listed edition date is not the work’s first publication."
+      ],
+      "sourceKeys": [
+        "edition-04-source"
+      ],
+      "note": "Specific publisher-identified English edition, separate from existing incomplete cover examples. No first-printing claim, new literary identity or inferred cover association."
+    },
+    {
+      "key": "edition-05",
+      "entityType": "edition",
+      "checked": "2026-10-28",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000016"
+      },
+      "language": "en",
+      "title": "Pet Sematary",
+      "isbn13": "9781982112394",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2018-12-04",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": "US"
+      },
+      "format": "Hardcover",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "open": [
+        "Specific printing/impression not established; publisher-listed edition date is not the work’s first publication."
+      ],
+      "sourceKeys": [
+        "edition-05-source"
+      ],
+      "note": "Specific publisher-identified English edition, separate from existing incomplete cover examples. No first-printing claim, new literary identity or inferred cover association."
     }
   ],
   "deferred": [
