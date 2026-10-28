@@ -106,3 +106,7 @@ test('New character and town profiles open directly with useful descriptions whi
  assert.equal(index('chr:000012').connections.length,6);assert.equal(plot('chr:000012').connections.length,1);assert.equal(plot('chr:000012').connections[0].target.id,'wrk:000058');assert.ok(!index('wrk:000058').connections.some(c=>c.target.id==='chr:000012'));
  assert.equal(index('loc:000004').connections.length,3);assert.equal(index('loc:000005').connections.length,8);assert.ok(index('wrk:000195').connections.some(c=>c.predicate==='sequel_to'&&c.target.id==='wrk:000012'));
 });
+
+test('Night Shift publisher-only description evidence ships with its source and no internal source notes',()=>{
+ for(const id of ['wrk:000073','wrk:000074','wrk:000078','wrk:000084','wrk:000085']){const p=index(id),c=p.node.evidence.find(c=>c.fieldPath==='/summary'&&c.selected);assert.ok(c);assert.ok(c.sourceIds.every(id=>p.sources.some(s=>s.id===id&&new URL(s.url).hostname==='www.penguinrandomhouse.com')));assert.ok(p.sources.every(s=>!('notes'in s)&&!('snapshotRef'in s)));}
+});

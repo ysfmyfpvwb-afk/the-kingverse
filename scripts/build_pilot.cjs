@@ -17,7 +17,8 @@ function generatePilot(root=ROOT){
  const compact=r=>({...summaries.get(r.id),evidence:r.evidence});
  const files=new Map(),payloads=new Map(),stats=[];
  const version=sha(JSON.stringify([base,plot,read(root,'data/media/library.json'),sha(fs.readFileSync(__filename)),sha(fs.readFileSync(path.join(root,'scripts/pilot/descriptions.cjs'))),read(root,'data/media-release/approvals.json'),premises])).slice(0,16);
- const sources=new Map(full.sources.map(s=>[s.id,s]));
+ // Descriptions can cite a source not otherwise used by the compact graph.
+ const sources=new Map(native.sources.map(s=>[s.id,Object.fromEntries(['id','url','publisher','sourceType','observedAt','access'].map(k=>[k,s[k]]))]));
  function emit(name,value){const text=JSON.stringify(value)+'\n',bytes=Buffer.byteLength(text);if(bytes>LIMIT&&!name.includes('search.'))throw Error('Payload exceeds 48 KiB: '+name+' '+bytes);files.set('explorer/pilot/'+name,text);payloads.set(name,value);stats.push({file:name,bytes,gzipBytes:require('node:zlib').gzipSync(text).length});}
  function pack(value){const used=new Set();function walk(o){if(!o||typeof o!=='object')return;if(Array.isArray(o)){for(const v of o)walk(v);return;}if(o.sourceIds)for(const id of o.sourceIds)used.add(id);for(const [k,v]of Object.entries(o))if(k!=='sources')walk(v);}walk(value);return {...value,sources:[...used].map(id=>{const s=sources.get(id);if(!s)throw Error('Unknown source '+id);return s;})};}
  function target(id,mode){if(!map.has(id)||mode==='default'&&!safe.has(id))throw Error('Unsafe pilot target '+id);return summaries.get(id);}

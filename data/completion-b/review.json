@@ -1763,6 +1763,102 @@
       "checkedFields": [
         "original spoiler-aware English reading introduction"
       ]
+    },
+    {
+      "key": "book-intro-wrk-000073-source",
+      "url": "https://stephenking.com/works/short/graveyard-shift.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap and explicit contents: opening situation or collection scope only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000074-source",
+      "url": "https://stephenking.com/works/short/night-surf.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap and explicit contents: opening situation or collection scope only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000078-source",
+      "url": "https://stephenking.com/works/short/grey-matter.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap and explicit contents: opening situation or collection scope only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000079-source",
+      "url": "https://stephenking.com/works/short/battleground.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap and explicit contents: opening situation or collection scope only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000084-source",
+      "url": "https://stephenking.com/works/short/lawnmower-man.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap and explicit contents: opening situation or collection scope only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000085-source",
+      "url": "https://stephenking.com/works/short/quitters-inc.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap and explicit contents: opening situation or collection scope only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000087-source",
+      "url": "https://stephenking.com/works/short/children-of-the-corn.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap and explicit contents: opening situation or collection scope only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "night-shift-publisher-premises",
+      "url": "https://www.penguinrandomhouse.com/books/92976/night-shift-by-stephen-king/",
+      "publisher": "Penguin Random House / Vintage",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Book Description: named premises for Graveyard Shift, Night Surf, Gray Matter, The Lawnmower Man and Quitters, Inc. No film-source claims taken from publisher marketing.",
+      "checkedFields": [
+        "five individual story premises only"
+      ]
     }
   ],
   "records": [
@@ -7319,6 +7415,167 @@
         "level": "premise",
         "workIds": [
           "wrk:000185"
+        ]
+      },
+      "locator": "Official work description / explicit contents; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000073",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000073"
+      },
+      "field": "summary",
+      "value": {
+        "en": "A mill’s cleanup crew faces an infestation of rats in this workplace horror story from Night Shift."
+      },
+      "sourceKeys": [
+        "night-shift-publisher-premises"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000073"
+        ]
+      },
+      "locator": "Publisher Book Description explicitly pairs this story title with its premise. StephenKing.com verifies identity and collection but currently has no synopsis.",
+      "note": "Short original visitor introduction based only on the named publisher premise. No adaptation equivalence, Stand continuity, character fate or date claim added."
+    },
+    {
+      "key": "book-intro-wrk-000074",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000074"
+      },
+      "field": "summary",
+      "value": {
+        "en": "A devastating virus threatens humanity in this early apocalyptic story from Night Shift."
+      },
+      "sourceKeys": [
+        "night-shift-publisher-premises"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000074"
+        ]
+      },
+      "locator": "Publisher Book Description explicitly pairs this story title with its premise. StephenKing.com verifies identity and collection but currently has no synopsis.",
+      "note": "Short original visitor introduction based only on the named publisher premise. No adaptation equivalence, Stand continuity, character fate or date claim added."
+    },
+    {
+      "key": "book-intro-wrk-000078",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000078"
+      },
+      "field": "summary",
+      "value": {
+        "en": "A reclusive drinker begins a disturbing transformation in this tale of bodily horror from Night Shift."
+      },
+      "sourceKeys": [
+        "night-shift-publisher-premises"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000078"
+        ]
+      },
+      "locator": "Publisher Book Description explicitly pairs this story title with its premise. StephenKing.com verifies identity and collection but currently has no synopsis.",
+      "note": "Short original visitor introduction based only on the named publisher premise. No adaptation equivalence, Stand continuity, character fate or date claim added."
+    },
+    {
+      "key": "book-intro-wrk-000079",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000079"
+      },
+      "field": "summary",
+      "value": {
+        "en": "After killing a toymaker, a professional hitman becomes the target of an extraordinary counterattack. His latest assignment turns into a battle against a very unexpected enemy."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000079-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000079"
+        ]
+      },
+      "locator": "Official work description / explicit contents; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000084",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000084"
+      },
+      "field": "summary",
+      "value": {
+        "en": "An ordinary lawnmower becomes an instrument of evil in this unsettling story from Night Shift."
+      },
+      "sourceKeys": [
+        "night-shift-publisher-premises"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000084"
+        ]
+      },
+      "locator": "Publisher Book Description explicitly pairs this story title with its premise. StephenKing.com verifies identity and collection but currently has no synopsis.",
+      "note": "Short original visitor introduction based only on the named publisher premise. No adaptation equivalence, Stand continuity, character fate or date claim added."
+    },
+    {
+      "key": "book-intro-wrk-000085",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000085"
+      },
+      "field": "summary",
+      "value": {
+        "en": "A smoker willing to try anything to quit finds a disturbing answer in this story from Night Shift."
+      },
+      "sourceKeys": [
+        "night-shift-publisher-premises"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000085"
+        ]
+      },
+      "locator": "Publisher Book Description explicitly pairs this story title with its premise. StephenKing.com verifies identity and collection but currently has no synopsis.",
+      "note": "Short original visitor introduction based only on the named publisher premise. No adaptation equivalence, Stand continuity, character fate or date claim added."
+    },
+    {
+      "key": "book-intro-wrk-000087",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000087"
+      },
+      "field": "summary",
+      "value": {
+        "en": "A couple travelling through Nebraska reaches an isolated community after a road accident. The town’s children and their beliefs turn the stop into something far more disturbing than a detour."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000087-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000087"
         ]
       },
       "locator": "Official work description / explicit contents; independently worded visitor introduction.",
