@@ -11,7 +11,7 @@ test('Pilot is reproducible, all generated files match, and all earlier baseline
  assert.deepEqual(generatePilot().files,out.files);assert.deepEqual(out.base,require('../scripts/completion_pilot.cjs').completionPilot().defaultProjection);
 });
 test('Every canonical identity, type and endpoint has an independent bounded deep-link payload',()=>{
- assert.equal(out.full.nodes.length,612);for(const n of out.full.nodes){const p=index(n.id);assert.ok(p);if(out.base.nodes.some(s=>s.id===n.id)){assert.equal(p.node.id,n.id);assert.equal(p.node.type,n.type);assert.equal(p.node.label,n.label);}else assert.equal(p.scope,'gated');}
+ assert.equal(out.full.nodes.length,617);for(const n of out.full.nodes){const p=index(n.id);assert.ok(p);if(out.base.nodes.some(s=>s.id===n.id)){assert.equal(p.node.id,n.id);assert.equal(p.node.type,n.type);assert.equal(p.node.label,n.label);}else assert.equal(p.scope,'gated');}
  const types=new Set(out.full.nodes.map(n=>n.type));assert.equal(types.size,8);
  for(const[name,p]of out.payloads)if(!name.startsWith('search.')){assert.ok(Buffer.byteLength(out.files.get('explorer/pilot/'+name))<=LIMIT);for(const e of p.connections||[])assert.ok(index(e.target.id));}
  assert.equal(out.report.payload.initialAggregateProjectBytesLoaded,0);assert.ok(out.report.payload.maxEntityBytes<40000);assert.ok(out.report.payload.searchGzipBytes<13*1024);
@@ -35,7 +35,7 @@ test('Long contribution and collection lists use six-record chunks with no missi
  for(const [id,k]of [['per:000001','creators'],['col:000006','memberships']]){const section=index(id).sections[k],rows=[...section.items];let next=section.next;assert.ok(next);while(next){const p=out.payloads.get(next);assert.ok(p.items.length<=6);rows.push(...p.items);next=p.next;}assert.equal(rows.length,section.total);assert.equal(new Set(rows.map(r=>r.id)).size,rows.length);}
 });
 test('Default pages, search aliases, metadata and gated entries contain none of the six plot-only labels',()=>{
- const search=out.payloads.get(out.report.assets.search);assert.equal(search.records.length,606);
+ const search=out.payloads.get(out.report.assets.search);assert.equal(search.records.length,611);
  for(const n of out.plot.nodes){for(const name of out.report.files.filter(f=>f.file.endsWith('/index.json')).map(f=>f.file))assert.ok(!JSON.stringify(out.payloads.get(name)).includes(n.label),name);assert.ok(!JSON.stringify(search).includes(n.label));assert.ok(!out.files.get('explorer/pilot/index.html').includes(n.label));assert.ok(!('node'in index(n.id)));}
  assert.ok(plot('chr:000005').node);assert.equal(plot('chr:000005').node.label,'Father Callahan');
 });
@@ -114,4 +114,8 @@ test('Night Shift publisher-only description evidence ships with its source and 
 test('Three new Corn film pages share a navigable franchise shelf without invented story adaptation or sequence',()=>{
  const members=index('adp:000107').series.find(s=>s.series.id==='ser:000004').members;assert.equal(members.length,9);assert.equal(new Set(members.map(m=>m.target.id)).size,9);
  for(const id of ['adp:000107','adp:000108','adp:000109']){const p=index(id);assert.ok(p.node.description.length>80);assert.ok(out.payloads.get(out.report.assets.search).records.some(r=>r.id===id));assert.ok(p.connections.every(c=>c.predicate==='part_of_series'));assert.ok(p.series[0].members.every(m=>m.position===null));assert.equal(p.media?.remoteArtwork||false,false);}
+});
+
+test('Standalone editions are independently navigable while keeping original collection membership and dates',()=>{
+ for(const [id,work,date]of [['edn:000165','wrk:000094','2026-08-25'],['edn:000166','wrk:000093','2018-12-04'],['edn:000167','wrk:000121','2026-10-06'],['edn:000168','wrk:000183','2025-06-10'],['edn:000169','wrk:000118','2019-11-12']]){const p=index(id);assert.equal(p.parent.id,work);assert.equal(p.node.data.publicationDate.value,date);assert.equal(p.node.data.publicationDate.meaning,'edition-publication');assert.ok(index(work).sections.editions.items.some(e=>e.id===id));assert.ok(index(work).sections.memberships.total>=1);assert.ok(!index(work).publicationDates.some(d=>d.value===date));}
 });

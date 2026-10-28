@@ -1931,6 +1931,91 @@
         "Franchise list explicitly groups Genesis and Runaway with Children of the Corn",
         "membership only, no chronological or direct source-work relationship."
       ]
+    },
+    {
+      "key": "standalone-wrk:000094-publisher",
+      "url": "https://www.simonandschuster.com/books/The-Body/Stephen-King/9781668264164",
+      "publisher": "Simon & Schuster / Scribner",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Selected print-format header and Product Details: title, format, Scribner, ISBN13, edition publication day. About the Book identifies the novella previously collected; original English Scribner publication, not a translation or a new work. Do not import the promotional synopsis or its later plot revelations.",
+      "checkedFields": [
+        "specific standalone English print edition",
+        "ISBN13",
+        "publisher",
+        "format",
+        "edition publication date",
+        "same previously collected literary work"
+      ]
+    },
+    {
+      "key": "standalone-wrk:000093-publisher",
+      "url": "https://www.simonandschuster.com/books/Apt-Pupil/Stephen-King/9781982115449",
+      "publisher": "Simon & Schuster / Scribner",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Selected print-format header and Product Details: title, format, Scribner, ISBN13, edition publication day. About the Book identifies the novella previously collected; original English Scribner publication, not a translation or a new work. Do not import the promotional synopsis or its later plot revelations.",
+      "checkedFields": [
+        "specific standalone English print edition",
+        "ISBN13",
+        "publisher",
+        "format",
+        "edition publication date",
+        "same previously collected literary work"
+      ]
+    },
+    {
+      "key": "standalone-wrk:000121-publisher",
+      "url": "https://www.simonandschuster.com/books/The-Sun-Dog/Stephen-King/9781668264201",
+      "publisher": "Simon & Schuster / Scribner",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Selected print-format header and Product Details: title, format, Scribner, ISBN13, edition publication day. About the Book identifies the novella previously collected; original English Scribner publication, not a translation or a new work. Do not import the promotional synopsis or its later plot revelations.",
+      "checkedFields": [
+        "specific standalone English print edition",
+        "ISBN13",
+        "publisher",
+        "format",
+        "edition publication date",
+        "same previously collected literary work"
+      ]
+    },
+    {
+      "key": "standalone-wrk:000183-publisher",
+      "url": "https://www.simonandschuster.com/books/The-Life-of-Chuck/Stephen-King/9781668208786",
+      "publisher": "Simon & Schuster / Scribner",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Selected print-format header and Product Details: title, format, Scribner, ISBN13, edition publication day. About the Book identifies the novella previously collected; original English Scribner publication, not a translation or a new work. Do not import the promotional synopsis or its later plot revelations.",
+      "checkedFields": [
+        "specific standalone English print edition",
+        "ISBN13",
+        "publisher",
+        "format",
+        "edition publication date",
+        "same previously collected literary work"
+      ]
+    },
+    {
+      "key": "standalone-wrk:000118-publisher",
+      "url": "https://www.simonandschuster.com/books/The-Langoliers/Stephen-King/9781982136055",
+      "publisher": "Simon & Schuster / Scribner",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Selected print-format header and Product Details: title, format, Scribner, ISBN13, edition publication day. About the Book identifies the novella previously collected; original English Scribner publication, not a translation or a new work. Do not import the promotional synopsis or its later plot revelations.",
+      "checkedFields": [
+        "specific standalone English print edition",
+        "ISBN13",
+        "publisher",
+        "format",
+        "edition publication date",
+        "same previously collected literary work"
+      ]
     }
   ],
   "records": [
@@ -4715,6 +4800,151 @@
       ],
       "note": "Film-family membership only. No episode number, narrative continuity or direct adaptation of the short story is inferred.",
       "checked": "2026-10-28"
+    },
+    {
+      "key": "standalone-wrk:000094",
+      "entityType": "edition",
+      "checked": "2026-10-28",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000094"
+      },
+      "language": "en",
+      "title": "The Body",
+      "isbn13": "9781668264164",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2026-08-25",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Trade Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "standalone-wrk:000094-publisher"
+      ],
+      "open": [
+        "Individual printing not established; no image acquired or rebound."
+      ],
+      "note": "A standalone edition of the existing novella identity. This edition date does not replace the original collection publication, create a new literary work, or imply a cover is available for display."
+    },
+    {
+      "key": "standalone-wrk:000093",
+      "entityType": "edition",
+      "checked": "2026-10-28",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000093"
+      },
+      "language": "en",
+      "title": "Apt Pupil",
+      "isbn13": "9781982115449",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2018-12-04",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Trade Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "standalone-wrk:000093-publisher"
+      ],
+      "open": [
+        "Individual printing not established; no image acquired or rebound."
+      ],
+      "note": "A standalone edition of the existing novella identity. This edition date does not replace the original collection publication, create a new literary work, or imply a cover is available for display."
+    },
+    {
+      "key": "standalone-wrk:000121",
+      "entityType": "edition",
+      "checked": "2026-10-28",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000121"
+      },
+      "language": "en",
+      "title": "The Sun Dog",
+      "isbn13": "9781668264201",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2026-10-06",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Trade Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "standalone-wrk:000121-publisher"
+      ],
+      "open": [
+        "Individual printing not established; no image acquired or rebound."
+      ],
+      "note": "A standalone edition of the existing novella identity. This edition date does not replace the original collection publication, create a new literary work, or imply a cover is available for display."
+    },
+    {
+      "key": "standalone-wrk:000183",
+      "entityType": "edition",
+      "checked": "2026-10-28",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000183"
+      },
+      "language": "en",
+      "title": "The Life of Chuck",
+      "isbn13": "9781668208786",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2025-06-10",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Hardcover",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "standalone-wrk:000183-publisher"
+      ],
+      "open": [
+        "Individual printing not established; no image acquired or rebound."
+      ],
+      "note": "A standalone edition of the existing novella identity. This edition date does not replace the original collection publication, create a new literary work, or imply a cover is available for display."
+    },
+    {
+      "key": "standalone-wrk:000118",
+      "entityType": "edition",
+      "checked": "2026-10-28",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000118"
+      },
+      "language": "en",
+      "title": "The Langoliers",
+      "isbn13": "9781982136055",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2019-11-12",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Trade Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "standalone-wrk:000118-publisher"
+      ],
+      "open": [
+        "Individual printing not established; no image acquired or rebound."
+      ],
+      "note": "A standalone edition of the existing novella identity. This edition date does not replace the original collection publication, create a new literary work, or imply a cover is available for display."
     }
   ],
   "deferred": [
