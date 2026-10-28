@@ -41,10 +41,10 @@ function extendCompletionB(input){
  // Editorial additions update a reviewed field on an existing identity. They
  // never create a second work or replace the historical source observation.
  for(const e of review.enrichments||[]){
-  const r=map.get(e.subject.id);if(r?.entityType!=='work'||e.subject.type!=='work'||e.field!=='summary')throw Error('Unsupported B enrichment '+e.key);
-  for(const c of bundle.claims.filter(c=>c.subject.id===r.id&&c.fieldPath==='/summary'&&c.selected))c.selected=false;
-  r.summary=structuredClone(e.value);
-  const c={id:id('claim',e.key),entityType:'claim',subject:structuredClone(e.subject),fieldPath:'/summary',value:structuredClone(e.value),sourceIds:e.sourceKeys.map(k=>sourceKeys.get(k)),locator:e.locator,status:'verified',observedAt:e.checked,independentlyConfirmed:false,selected:true,decisionNote:e.note};
+  const r=map.get(e.subject.id);if(r?.entityType!==e.subject.type||!['work/summary','connection/explanation'].includes(e.subject.type+'/'+e.field))throw Error('Unsupported B enrichment '+e.key);
+  for(const c of bundle.claims.filter(c=>c.subject.id===r.id&&c.fieldPath==='/'+e.field&&c.selected))c.selected=false;
+  r[e.field]=structuredClone(e.value);
+  const c={id:id('claim',e.key),entityType:'claim',subject:structuredClone(e.subject),fieldPath:'/'+e.field,value:structuredClone(e.value),sourceIds:e.sourceIds||e.sourceKeys.map(k=>sourceKeys.get(k)),locator:e.locator,status:e.status||'verified',observedAt:e.checked,independentlyConfirmed:false,selected:true,decisionNote:e.note};
   add(c);r.verification.claimIds.push(c.id);
  }
  const problems=validateCompletionB(bundle,input);if(problems.length)throw Error(JSON.stringify(problems));
@@ -63,9 +63,13 @@ function validateCompletionB(bundle,baseline){
  const isbns=new Set();for(const e of bundle.editions){if(map.get(e.publicationOf.id)?.entityType!==e.publicationOf.type)fail('b-edition-owner',e.id);if(e.isbn13){const sum=[...e.isbn13.slice(0,12)].reduce((n,v,i)=>n+Number(v)*(i%2?3:1),0);if((10-sum%10)%10!==Number(e.isbn13[12]))fail('b-isbn-checksum',e.id);if(isbns.has(e.isbn13))fail('b-isbn-duplicate',e.id);isbns.add(e.isbn13);}}
  const editorial=new Map();
  for(const e of review.enrichments||[]){
-  if(editorial.has(e.subject.id)||e.subject.type!=='work'||e.field!=='summary'){fail('b-enrichment-scope',e.key);continue;}editorial.set(e.subject.id,e);
-  const r=map.get(e.subject.id),c=map.get(reg.allocations['claim/'+e.key]),urls=e.sourceKeys.map(k=>review.sources.find(s=>s.key===k)?.url);
-  if(!r||r.entityType!=='work'||!c||c.subject.id!==r.id||c.subject.type!=='work'||c.fieldPath!=='/summary'||c.status!=='verified'||!c.selected||c.observedAt!==e.checked||!r.verification.claimIds.includes(c.id)||JSON.stringify(c.value)!==JSON.stringify(e.value)||JSON.stringify(r.summary)!==JSON.stringify(e.value)||JSON.stringify(c.sourceIds.map(id=>map.get(id)?.url))!==JSON.stringify(urls)||urls.some(url=>!url))fail('b-editorial-evidence',e.key);
+  if(editorial.has(e.subject.id)||!['work/summary','connection/explanation'].includes(e.subject.type+'/'+e.field)){fail('b-enrichment-scope',e.key);continue;}editorial.set(e.subject.id,e);
+  const r=map.get(e.subject.id),c=map.get(reg.allocations['claim/'+e.key]),urls=e.sourceIds?e.sourceIds.map(id=>map.get(id)?.url):e.sourceKeys.map(k=>review.sources.find(s=>s.key===k)?.url);
+  if(!r||r.entityType!==e.subject.type||!c||c.subject.id!==r.id||c.subject.type!==e.subject.type||c.fieldPath!=='/'+e.field||c.status!==(e.status||'verified')||!c.selected||c.observedAt!==e.checked||!r.verification.claimIds.includes(c.id)||JSON.stringify(c.value)!==JSON.stringify(e.value)||JSON.stringify(r[e.field])!==JSON.stringify(e.value)||JSON.stringify(c.sourceIds.map(id=>map.get(id)?.url))!==JSON.stringify(urls)||urls.some(url=>!url))fail('b-editorial-evidence',e.key);
+  if(e.subject.type==='connection'){
+   const prior=(e.evidenceFromClaimIds||[]).map(id=>map.get(id));
+   if(!prior.length||prior.some(p=>p?.subject.id!==e.subject.id||p.fieldPath!=='/explanation'||p.status!==e.status)||JSON.stringify([...new Set(prior.flatMap(p=>p?.sourceIds||[]))])!==JSON.stringify(e.sourceIds))fail('b-copyedit-evidence',e.key);
+  }
  }
  for(const d of review.records){
   const r=map.get(reg.allocations[d.entityType+'/'+d.key]);if(!r||known.get(r.id)!==d.entityType){fail('b-unregistered',d.key);continue;}
@@ -94,7 +98,7 @@ function validateCompletionB(bundle,baseline){
   if(r.entityType==='character'&&(r.aliases.length||r.spoiler.level!=='none'))fail('b-character-spoiler',r.id);
  }
  if(baseline){
-  for(const [table,rows]of Object.entries(baseline).filter(([,rows])=>Array.isArray(rows))){for(const r of rows){const next=bundle[table].find(x=>x.id===r.id),expected=structuredClone(r),e=editorial.get(r.id);if(table==='works'&&e){expected.summary=structuredClone(e.value);expected.verification.claimIds.push(reg.allocations['claim/'+e.key]);}if(table==='claims'&&editorial.has(r.subject.id)&&r.fieldPath==='/summary')expected.selected=false;try{assert.deepEqual(next,expected);}catch{fail('b-baseline-record-changed',r.id);}}}
+  for(const [table,rows]of Object.entries(baseline).filter(([,rows])=>Array.isArray(rows))){for(const r of rows){const next=bundle[table].find(x=>x.id===r.id),expected=structuredClone(r),e=editorial.get(r.id);if(['works','connections'].includes(table)&&e){expected[e.field]=structuredClone(e.value);expected.verification.claimIds.push(reg.allocations['claim/'+e.key]);}if(table==='claims'&&editorial.has(r.subject.id)&&r.fieldPath==='/'+editorial.get(r.subject.id).field)expected.selected=false;try{assert.deepEqual(next,expected);}catch{fail('b-baseline-record-changed',r.id);}}}
   try{assert.deepEqual(bundle.registry.aliases,baseline.registry.aliases);assert.deepEqual(bundle.manifest,baseline.manifest);}catch{fail('b-baseline-metadata-changed','Existing aliases/manifest changed');}
   if(bundle.characters.length-baseline.characters.length!==3||bundle.locations.length-baseline.locations.length!==1||bundle.series.length-baseline.series.length!==2||bundle.connections.length-baseline.connections.length!==20||bundle.adaptations.length-baseline.adaptations.length!==10)fail('b-batch-boundary','Reviewed scope: three characters, one location, two series, ten screen productions and twenty links');
   if(bundle.editions.length-baseline.editions.length!==5)fail('b-edition-boundary','Exactly five reviewed English editions');

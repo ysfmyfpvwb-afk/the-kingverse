@@ -75,10 +75,15 @@ test('Primary dark-theme text and control boundaries retain measurable contrast'
 });
 
 test('Core literary premises use the same verified introductions as the main catalog',()=>{
- for(const e of require('../data/completion-b/review.json').enrichments){const n=index(e.subject.id).node;assert.equal(n.description,e.value.en);assert.ok(n.evidence.some(c=>c.fieldPath==='/summary'&&c.status==='verified'&&c.selected));assert.ok(!n.description.includes('A novel by Stephen King.'));}
+ for(const e of require('../data/completion-b/review.json').enrichments.filter(e=>e.subject.type==='work')){const n=index(e.subject.id).node;assert.equal(n.description,e.value.en);assert.ok(n.evidence.some(c=>c.fieldPath==='/summary'&&c.status==='verified'&&c.selected));assert.ok(!n.description.includes('A novel by Stephen King.'));}
 });
 
 test('New edition shelves and parent routes identify physical editions without inventing original-publication dates',()=>{
  const e=index('edn:000155');assert.equal(e.parent.id,'wrk:000242');assert.equal(e.node.data.isbn13,'9781982159375');assert.equal(e.node.data.publicationDate.value,'2020-06-02');assert.equal(e.node.data.publicationDate.meaning,'edition-publication');assert.ok(index('wrk:000242').sections.editions.items.some(r=>r.id==='edn:000155'));
  assert.ok(!index('wrk:000242').publicationDates.some(d=>d.value==='2020-06-02'));assert.equal(index('edn:000159').node.data.format,'Hardcover');
+});
+
+test('Public connection explanations preserve the same safe, readable copy in both navigation directions',()=>{
+ for(const e of require('../data/completion-b/review.json').enrichments.filter(e=>e.subject.type==='connection')){const c=out.full.connections.find(c=>c.id===e.subject.id);for(const id of [c.from.id,c.to.id])assert.equal(index(id).connections.find(r=>r.id===c.id).explanation,e.value.en);}
+ assert.equal(index('adp:000039').connections.find(e=>e.id==='rel:000018').certainty,'strongly-implied');
 });

@@ -69,8 +69,8 @@ test('Three same-title Corn productions stay distinct and only confirmed adaptat
 });
 
 test('Reviewed book introductions enrich existing identities with field-scoped evidence only',()=>{
- const review=require('../data/completion-b/review.json');assert.equal(review.enrichments.length,16);
- for(const e of review.enrichments){const old=base.works.find(w=>w.id===e.subject.id),w=bundle.works.find(w=>w.id===old.id);assert.equal(w.summary.en,e.value.en);assert.equal(w.originalTitle,old.originalTitle);const c=bundle.claims.find(c=>c.subject.id===w.id&&c.fieldPath==='/summary'&&c.selected);assert.equal(c.status,'verified');assert.deepEqual(c.value,w.summary);assert.ok(c.sourceIds.every(id=>bundle.sources.find(s=>s.id===id).url.startsWith('https://stephenking.com/')));}
+ const review=require('../data/completion-b/review.json'),introductions=review.enrichments.filter(e=>e.subject.type==='work');assert.equal(introductions.length,16);
+ for(const e of introductions){const old=base.works.find(w=>w.id===e.subject.id),w=bundle.works.find(w=>w.id===old.id);assert.equal(w.summary.en,e.value.en);assert.equal(w.originalTitle,old.originalTitle);const c=bundle.claims.find(c=>c.subject.id===w.id&&c.fieldPath==='/summary'&&c.selected);assert.equal(c.status,'verified');assert.deepEqual(c.value,w.summary);assert.ok(c.sourceIds.every(id=>bundle.sources.find(s=>s.id===id).url.startsWith('https://stephenking.com/')));}
  const changed=structuredClone(bundle);changed.works.find(w=>w.id==='wrk:000005').originalTitle='Wrong title';assert.ok(validateCompletionB(changed,base).some(e=>e.code==='b-baseline-record-changed'));
  const unsupported=structuredClone(bundle);unsupported.works.find(w=>w.id==='wrk:000005').summary.en='An invented ending';assert.ok(validateCompletionB(unsupported,base).some(e=>e.code==='b-editorial-evidence'));
 });
@@ -80,4 +80,10 @@ test('Five publisher-identified English editions preserve all earlier edition an
  for(const e of bundle.editions.slice(-5)){assert.equal(e.language,'en');assert.equal(e.identityStatus,'identified');assert.equal(e.publisher,'Scribner');assert.equal(e.publicationDate.meaning,'edition-publication');assert.equal(e.publicationDate.precision,'day');assert.ok(base.works.some(w=>w.id===e.publicationOf.id));assert.equal(new Set(bundle.editions.filter(x=>x.isbn13).map(x=>x.isbn13)).size,bundle.editions.filter(x=>x.isbn13).length);}
  assert.equal(bundle.editions.find(e=>e.id==='edn:000155').isbn13,'9781982159375');assert.equal(bundle.editions.find(e=>e.id==='edn:000159').format,'Hardcover');assert.equal(bundle.editions.find(e=>e.id==='edn:000088').isbn13,null);
  const invalid=structuredClone(bundle);invalid.editions.at(-1).isbn13='9781982112395';assert.ok(validateCompletionB(invalid,base).some(e=>e.code==='b-isbn-checksum'));
+});
+
+test('Thirty visitor-facing connection copyedits preserve evidence, uncertainty and spoiler boundaries',()=>{
+ const edits=require('../data/completion-b/review.json').enrichments.filter(e=>e.subject.type==='connection');assert.equal(edits.length,30);
+ for(const e of edits){const old=base.connections.find(c=>c.id===e.subject.id),c=bundle.connections.find(c=>c.id===old.id);for(const k of ['from','to','predicate','certainty','spoiler'])assert.deepEqual(c[k],old[k]);assert.equal(c.explanation.en,e.value.en);assert.doesNotMatch(c.explanation.en,/literary-source field|scene-for-scene|primary wording|production scope|explicitly scoped/);for(const id of e.evidenceFromClaimIds){const oldClaim=base.claims.find(c=>c.id===id),retained=bundle.claims.find(c=>c.id===id);assert.deepEqual(retained,{...oldClaim,selected:false});}if(c.certainty==='strongly-implied')assert.match(c.explanation.en,/uncertain/);}
+ const c=structuredClone(bundle);c.connections.find(r=>r.id==='rel:000018').certainty='explicit';assert.ok(validateCompletionB(c,base).some(e=>e.code==='b-baseline-record-changed'));
 });
