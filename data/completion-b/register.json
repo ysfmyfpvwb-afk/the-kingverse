@@ -727,6 +727,22 @@
     "claim/rattlesnakes-cujo/to": "clm:008707",
     "claim/rattlesnakes-cujo/certainty": "clm:008708",
     "claim/rattlesnakes-cujo/explanation": "clm:008709",
-    "claim/rattlesnakes-cujo/spoiler": "clm:008710"
+    "claim/rattlesnakes-cujo/spoiler": "clm:008710",
+    "claim/book-intro-wrk-000092": "clm:008711",
+    "claim/book-intro-wrk-000093": "clm:008712",
+    "claim/book-intro-wrk-000094": "clm:008713",
+    "claim/book-intro-wrk-000095": "clm:008714",
+    "claim/book-intro-wrk-000118": "clm:008715",
+    "claim/book-intro-wrk-000119": "clm:008716",
+    "claim/book-intro-wrk-000120": "clm:008717",
+    "claim/book-intro-wrk-000121": "clm:008718",
+    "claim/book-intro-wrk-000177": "clm:008719",
+    "claim/book-intro-wrk-000178": "clm:008720",
+    "claim/book-intro-wrk-000179": "clm:008721",
+    "claim/book-intro-wrk-000180": "clm:008722",
+    "claim/book-intro-wrk-000182": "clm:008723",
+    "claim/book-intro-wrk-000183": "clm:008724",
+    "claim/book-intro-wrk-000184": "clm:008725",
+    "claim/book-intro-wrk-000185": "clm:008726"
   }
 }
