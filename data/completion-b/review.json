@@ -1,7 +1,7 @@
 {
   "version": 1,
   "checked": "2026-10-27",
-  "scope": "Package B: previously delivered universe/television records plus five Children of the Corn films and a bounded film-franchise shelf.",
+  "scope": "Package B: delivered universe/franchise records plus Pet Sematary Two and the independently identified 2009/2023 US-release Children of the Corn adaptations.",
   "sources": [
     {
       "key": "characters",
@@ -270,6 +270,81 @@
         "released film catalogue entry",
         "premise",
         "reported catalogue year 2002"
+      ]
+    },
+    {
+      "key": "pet-two-afi",
+      "url": "https://catalog.afi.com/Film/59356-PET-SEMATARY-II",
+      "publisher": "American Film Institute",
+      "sourceType": "reference",
+      "locator": "US release 28 August 1992; director Mary Lambert; screenplay Richard Outten; sequel to the 1989 film; King requested omission of his name, not the screenplay author.",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "checkedFields": [
+        "US release 28 August 1992",
+        "director Mary Lambert",
+        "screenplay Richard Outten",
+        "sequel to the 1989 film",
+        "King requested omission of his name, not the screenplay author."
+      ]
+    },
+    {
+      "key": "pet-two-paramount",
+      "url": "https://www.paramountmovies.com/movies/pet-sematary-two",
+      "publisher": "Paramount Movies",
+      "sourceType": "official-production",
+      "locator": "Official product page title Pet Sematary Two; content body is JavaScript-dependent and was not used to infer dates or credits.",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "checkedFields": [
+        "Official product page title Pet Sematary Two",
+        "content body is JavaScript-dependent and was not used to infer dates or credits."
+      ]
+    },
+    {
+      "key": "corn-2009-netflix",
+      "url": "https://www.netflix.com/title/70119752",
+      "publisher": "Netflix",
+      "sourceType": "official-production",
+      "locator": "Stephen King’s Children of the Corn; year 2009; cast David Anders / Kandyse McClure; road-trip couple and deserted town premise. Page states not currently available in this region; no availability claim.",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "checkedFields": [
+        "Stephen King’s Children of the Corn",
+        "year 2009",
+        "cast David Anders / Kandyse McClure",
+        "road-trip couple and deserted town premise. Page states not currently available in this region",
+        "no availability claim."
+      ]
+    },
+    {
+      "key": "corn-2023-amc",
+      "url": "https://www.amcglobalmedia.com/2023/01/26/rlje-films-and-shudder-nab-children-of-the-corn-to-release-in-theaters-march-3-2023/",
+      "publisher": "AMC Global Media / RLJE Films / Shudder",
+      "sourceType": "official-production",
+      "locator": "Writer/director Kurt Wimmer; explicitly based on Stephen King’s short story; US theatrical distribution announced for March 3 2023 and digital March 21, not proof of worldwide first screening.",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "checkedFields": [
+        "Writer/director Kurt Wimmer",
+        "explicitly based on Stephen King’s short story",
+        "US theatrical distribution announced for March 3 2023 and digital March 21, not proof of worldwide first screening."
+      ]
+    },
+    {
+      "key": "corn-2023-theatres",
+      "url": "https://www.amctheatres.com/movies/children-of-the-corn-72734",
+      "publisher": "AMC Theatres",
+      "sourceType": "official-production",
+      "locator": "Released film catalog; March 3 2023; Kurt Wimmer director; reimagining of the 1984 film; cast Elena Kampouris / Kate Moyer / Callan Mulvey / Bruce Spence.",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "checkedFields": [
+        "Released film catalog",
+        "March 3 2023",
+        "Kurt Wimmer director",
+        "reimagining of the 1984 film",
+        "cast Elena Kampouris / Kate Moyer / Callan Mulvey / Bruce Spence."
       ]
     }
   ],
@@ -1346,6 +1421,289 @@
         "corn-afi"
       ],
       "note": "AFI production history identifies a sequel to the 1984 film; not a remake or a separate direct short-story adaptation."
+    },
+    {
+      "key": "screen-08",
+      "entityType": "adaptation",
+      "checked": "2026-10-28",
+      "title": "Pet Sematary Two",
+      "aliases": [
+        {
+          "language": "en",
+          "value": "Pet Sematary II",
+          "spoiler": {
+            "level": "none",
+            "workIds": []
+          }
+        },
+        {
+          "language": "en",
+          "value": "Pet Sematary 2",
+          "spoiler": {
+            "level": "none",
+            "workIds": []
+          }
+        }
+      ],
+      "format": "film",
+      "externalIds": {},
+      "releaseYear": 1992,
+      "releaseEvents": [
+        {
+          "value": "1992-08-28",
+          "precision": "day",
+          "meaning": "theatrical-release",
+          "territory": "US"
+        }
+      ],
+      "statusHistory": [
+        {
+          "status": "released",
+          "asOf": "2026-10-28",
+          "projectScope": "Released production; no current streaming availability or universal first-release claim.",
+          "claimIds": [
+            "screen-08/statusHistory"
+          ]
+        }
+      ],
+      "ratingObservations": [],
+      "countries": [],
+      "originalLanguages": [],
+      "originalScreenplay": null,
+      "makerObservations": [
+        {
+          "role": "director",
+          "creditText": "Mary Lambert",
+          "scope": "1992 sequel",
+          "sourceUrl": "https://catalog.afi.com/Film/59356-PET-SEMATARY-II",
+          "verification": "source-supported"
+        },
+        {
+          "role": "screenwriter",
+          "creditText": "Richard Outten",
+          "scope": "1992 sequel; not Stephen King",
+          "sourceUrl": "https://catalog.afi.com/Film/59356-PET-SEMATARY-II",
+          "verification": "source-supported"
+        }
+      ],
+      "distribution": [
+        {
+          "role": "distributor",
+          "name": "Paramount Pictures",
+          "sourceUrl": "https://catalog.afi.com/Film/59356-PET-SEMATARY-II"
+        }
+      ],
+      "productionUnits": [],
+      "summary": {
+        "en": "A teenager and his father start again in a small Maine town, where a new friendship brings him close to a burial ground with a dangerous reputation. Mary Lambert returns to direct this sequel."
+      },
+      "open": [],
+      "sourceKeys": [
+        "pet-two-afi",
+        "pet-two-paramount"
+      ],
+      "note": "AFI distinguishes the sequel’s screenplay by Richard Outten from King’s screenplay for the 1989 film. No adaptation_of link to the novel or 2019 remake."
+    },
+    {
+      "key": "screen-09",
+      "entityType": "adaptation",
+      "checked": "2026-10-28",
+      "title": "Children of the Corn",
+      "aliases": [
+        {
+          "language": "en",
+          "value": "Stephen King's Children of the Corn",
+          "spoiler": {
+            "level": "none",
+            "workIds": []
+          }
+        }
+      ],
+      "format": "tv-movie",
+      "externalIds": {},
+      "releaseYear": 2009,
+      "releaseEvents": [
+        {
+          "value": "2009",
+          "precision": "year",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "statusHistory": [
+        {
+          "status": "released",
+          "asOf": "2026-10-28",
+          "projectScope": "Released production; no current streaming availability or universal first-release claim.",
+          "claimIds": [
+            "screen-09/statusHistory"
+          ]
+        }
+      ],
+      "ratingObservations": [],
+      "countries": [],
+      "originalLanguages": [],
+      "originalScreenplay": null,
+      "makerObservations": [],
+      "distribution": [],
+      "productionUnits": [],
+      "summary": {
+        "en": "A couple’s road trip leads them into a deserted Nebraska town and the threat hidden among its cornfields. This television adaptation is separate from the 1984 film and its sequels."
+      },
+      "open": [
+        "Exact original broadcast date and complete production credits have not been independently checked in this batch."
+      ],
+      "sourceKeys": [
+        "corn-2009-netflix",
+        "corn-afi"
+      ],
+      "note": "Netflix confirms the distinct 2009 production and premise; AFI’s Children of the Corn II production history explicitly identifies the 2009 Syfy television adaptation of King’s short story as unaffiliated with the earlier Dimension sequels. No exact day, director or current streaming claim inferred."
+    },
+    {
+      "key": "screen-10",
+      "entityType": "adaptation",
+      "checked": "2026-10-28",
+      "title": "Children of the Corn",
+      "aliases": [],
+      "format": "film",
+      "externalIds": {},
+      "releaseYear": 2023,
+      "releaseEvents": [
+        {
+          "value": "2023-03-03",
+          "precision": "day",
+          "meaning": "theatrical-release",
+          "territory": "US"
+        }
+      ],
+      "statusHistory": [
+        {
+          "status": "released",
+          "asOf": "2026-10-28",
+          "projectScope": "Released production; no current streaming availability or universal first-release claim.",
+          "claimIds": [
+            "screen-10/statusHistory"
+          ]
+        }
+      ],
+      "ratingObservations": [],
+      "countries": [],
+      "originalLanguages": [],
+      "originalScreenplay": null,
+      "makerObservations": [
+        {
+          "role": "director",
+          "creditText": "Kurt Wimmer",
+          "scope": "2023 US theatrical release",
+          "sourceUrl": "https://www.amcglobalmedia.com/2023/01/26/rlje-films-and-shudder-nab-children-of-the-corn-to-release-in-theaters-march-3-2023/",
+          "verification": "source-supported"
+        },
+        {
+          "role": "screenwriter",
+          "creditText": "Kurt Wimmer",
+          "scope": "New screenplay based on Stephen King’s short story",
+          "sourceUrl": "https://www.amcglobalmedia.com/2023/01/26/rlje-films-and-shudder-nab-children-of-the-corn-to-release-in-theaters-march-3-2023/",
+          "verification": "source-supported"
+        }
+      ],
+      "distribution": [
+        {
+          "role": "distributor",
+          "name": "RLJE Films",
+          "sourceUrl": "https://www.amcglobalmedia.com/2023/01/26/rlje-films-and-shudder-nab-children-of-the-corn-to-release-in-theaters-march-3-2023/"
+        }
+      ],
+      "productionUnits": [],
+      "summary": {
+        "en": "Children in a Nebraska town turn against the adults as a sinister presence takes hold in a dying cornfield. Written and directed by Kurt Wimmer, this new take on King’s short story reached US cinemas in 2023."
+      },
+      "open": [
+        "The 2023 year identifies US theatrical distribution; the earlier 2020/2023 date discrepancy in the existing candidate list is not resolved as worldwide first-release history."
+      ],
+      "sourceKeys": [
+        "corn-2023-amc",
+        "corn-2023-theatres"
+      ],
+      "note": "The distributor’s announced March 3 US cinema date is corroborated by the exhibitor’s released-film record. No claim that 2023 is the first worldwide screening or a second identity for a 2020 screening."
+    },
+    {
+      "key": "connection-18",
+      "entityType": "connection",
+      "checked": "2026-10-28",
+      "from": {
+        "type": "adaptation",
+        "key": "screen-08"
+      },
+      "predicate": "sequel_to",
+      "to": {
+        "type": "adaptation",
+        "id": "adp:000038"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Mary Lambert’s 1992 sequel follows the 1989 film with a different family. It does not retell the novel."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "pet-two-afi"
+      ],
+      "note": "Production-specific source relationship. Do not merge films with the same title or infer a shared timeline."
+    },
+    {
+      "key": "connection-19",
+      "entityType": "connection",
+      "checked": "2026-10-28",
+      "from": {
+        "type": "adaptation",
+        "key": "screen-09"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000087"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The 2009 Syfy television film adapts King’s short story independently of the earlier film sequels."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "corn-afi",
+        "corn-2009-netflix"
+      ],
+      "note": "Production-specific source relationship. Do not merge films with the same title or infer a shared timeline."
+    },
+    {
+      "key": "connection-20",
+      "entityType": "connection",
+      "checked": "2026-10-28",
+      "from": {
+        "type": "adaptation",
+        "key": "screen-10"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000087"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Kurt Wimmer’s film takes a new approach to King’s short story; RLJE Films and Shudder explicitly identify the story as its source."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "corn-2023-amc"
+      ],
+      "note": "Production-specific source relationship. Do not merge films with the same title or infer a shared timeline."
     }
   ],
   "deferred": [

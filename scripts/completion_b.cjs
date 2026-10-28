@@ -14,7 +14,7 @@ function extendCompletionB(input){
  function add(r){if(map.has(r.id)||registered.has(r.id))throw Error('B allocation collision '+r.id);bundle[tables[r.entityType]].push(r);bundle.registry.entries.push({id:r.id,type:r.entityType});registered.add(r.id);map.set(r.id,r);}
  const sources=new Map(bundle.sources.map(s=>[s.url,s.id])),sourceKeys=new Map();
  for(const s of review.sources){
-  if(s.access!=='available'||![review.checked,...review.records.map(d=>d.checked)].includes(s.observedAt)||!['stephenking.com','www.universalpicturesathome.com','www.syfy.com','www.amcglobalmedia.com','www.miramax.com','catalog.afi.com','tv.apple.com'].includes(new URL(s.url).hostname))throw Error('B evidence source not reviewed '+s.key);
+  if(s.access!=='available'||![review.checked,...review.records.map(d=>d.checked)].includes(s.observedAt)||!['stephenking.com','www.universalpicturesathome.com','www.syfy.com','www.amcglobalmedia.com','www.miramax.com','catalog.afi.com','tv.apple.com','www.paramountmovies.com','www.netflix.com','www.amctheatres.com'].includes(new URL(s.url).hostname))throw Error('B evidence source not reviewed '+s.key);
   if(!sources.has(s.url)){const r={id:id('source',s.key),entityType:'source',url:s.url,publisher:s.publisher||'StephenKing.com',sourceType:s.sourceType,publishedAt:null,observedAt:s.observedAt,access:s.access,snapshotRef:'data/completion-b/review.json#/sources/'+s.key,notes:'Field-limited official-source review. No biography, copied synopsis, outcomes or images retained.'};add(r);sources.set(s.url,r.id);}
   sourceKeys.set(s.key,sources.get(s.url));
  }
@@ -80,7 +80,7 @@ function validateCompletionB(bundle,baseline){
  if(baseline){
   for(const [table,rows]of Object.entries(baseline).filter(([,rows])=>Array.isArray(rows))){for(const r of rows){const next=bundle[table].find(x=>x.id===r.id);try{assert.deepEqual(next,r);}catch{fail('b-baseline-record-changed',r.id);}}}
   try{assert.deepEqual(bundle.registry.aliases,baseline.registry.aliases);assert.deepEqual(bundle.manifest,baseline.manifest);}catch{fail('b-baseline-metadata-changed','Existing aliases/manifest changed');}
-  if(bundle.characters.length-baseline.characters.length!==3||bundle.locations.length-baseline.locations.length!==1||bundle.series.length-baseline.series.length!==2||bundle.connections.length-baseline.connections.length!==17||bundle.adaptations.length-baseline.adaptations.length!==7)fail('b-batch-boundary','Reviewed scope: three characters, one location, two series, seven screen productions and seventeen links');
+  if(bundle.characters.length-baseline.characters.length!==3||bundle.locations.length-baseline.locations.length!==1||bundle.series.length-baseline.series.length!==2||bundle.connections.length-baseline.connections.length!==20||bundle.adaptations.length-baseline.adaptations.length!==10)fail('b-batch-boundary','Reviewed scope: three characters, one location, two series, ten screen productions and twenty links');
   for(const t of ['works','collections','editions','people','artworks'])if(bundle[t].length!==baseline[t].length)fail('b-out-of-scope-addition',t);
  }
  return errors;

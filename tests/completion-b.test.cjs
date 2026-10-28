@@ -5,7 +5,7 @@ const {extendCompletionB,validateCompletionB}=require('../scripts/completion_b.c
 const base=loadCompletion(),before=structuredClone(base),bundle=extendCompletionB(base);
 test('Bounded B additions preserve every prior identity, record, alias and manifest',()=>{
  assert.deepEqual(base,before);assert.deepEqual(validateCompletionB(bundle,base),[]);
- assert.equal(bundle.characters.length-base.characters.length,3);assert.equal(bundle.locations.length-base.locations.length,1);assert.equal(bundle.series.length-base.series.length,2);assert.equal(bundle.adaptations.length-base.adaptations.length,7);assert.equal(bundle.connections.length-base.connections.length,17);
+ assert.equal(bundle.characters.length-base.characters.length,3);assert.equal(bundle.locations.length-base.locations.length,1);assert.equal(bundle.series.length-base.series.length,2);assert.equal(bundle.adaptations.length-base.adaptations.length,10);assert.equal(bundle.connections.length-base.connections.length,20);
  assert.throws(()=>extendCompletionB(bundle),/collision|already exists/);
 });
 test('The Hodges sequence links exactly the three existing novels with supported positions',()=>{
@@ -45,7 +45,7 @@ test('Five distinct Corn films join a film franchise without invented direct sto
  const series=bundle.series.find(r=>r.id==='ser:000004');assert.equal(series.seriesKind,'film-series');
  assert.deepEqual(bundle.connections.filter(r=>r.to.id===series.id).map(r=>r.from.id),['adp:000007',...ids]);
  assert.ok(bundle.connections.filter(r=>r.to.id===series.id).every(r=>!r.seriesPosition&&r.spoiler.level==='none'));
- assert.equal(bundle.adaptations.filter(r=>r.title==='Children of the Corn').length,1);
+ assert.equal(bundle.adaptations.filter(r=>r.title==='Children of the Corn').length,3);
 });
 test('Conflicting Miramax years are retained unselected and US release is separate from screenings',()=>{
  for(const [id,chosen,reported]of [['adp:000099',1993,1991],['adp:000102',1999,1998],['adp:000103',2001,2002]]){
@@ -54,4 +54,16 @@ test('Conflicting Miramax years are retained unselected and US release is separa
  }
  const film=bundle.adaptations.find(r=>r.id==='adp:000099');assert.deepEqual(film.releaseEvents,[{value:'1993-01-29',precision:'day',meaning:'theatrical-release',territory:'US'},{value:'1992',precision:'year',meaning:'festival-premiere',territory:null}]);
  const changed=structuredClone(bundle);changed.claims.find(c=>c.subject.id===film.id&&!c.selected).selected=true;assert.ok(validateCompletionB(changed,base).some(e=>e.code==='b-conflict-preservation'));
+});
+
+test('Pet Sematary Two is a screen sequel with its own writer and no false literary source',()=>{
+ const r=bundle.adaptations.find(r=>r.id==='adp:000104');assert.equal(r.title,'Pet Sematary Two');assert.equal(r.releaseEvents[0].value,'1992-08-28');assert.equal(r.makerObservations.find(m=>m.role==='screenwriter').creditText,'Richard Outten');
+ assert.ok(r.aliases.some(a=>a.value==='Pet Sematary II'));assert.ok(bundle.connections.some(c=>c.from.id===r.id&&c.predicate==='sequel_to'&&c.to.id==='adp:000038'));assert.ok(!bundle.connections.some(c=>c.from.id===r.id&&c.to.type==='work'));
+});
+test('Three same-title Corn productions stay distinct and only confirmed adaptations link to the story',()=>{
+ assert.deepEqual(bundle.adaptations.filter(r=>r.title==='Children of the Corn').map(r=>[r.id,r.releaseYear]),[['adp:000007',1984],['adp:000105',2009],['adp:000106',2023]]);
+ for(const id of ['adp:000105','adp:000106'])assert.ok(bundle.connections.some(c=>c.from.id===id&&c.predicate==='adaptation_of'&&c.to.id==='wrk:000087'));
+ const tv=bundle.adaptations.find(r=>r.id==='adp:000105');assert.equal(tv.format,'tv-movie');assert.equal(tv.releaseEvents[0].precision,'year');assert.equal(tv.makerObservations.length,0);
+ const cinema=bundle.adaptations.find(r=>r.id==='adp:000106');assert.equal(cinema.releaseEvents[0].value,'2023-03-03');assert.equal(cinema.releaseEvents[0].territory,'US');assert.ok(cinema.verification.open.some(x=>x.includes('worldwide first-release')));assert.equal(cinema.makerObservations.find(m=>m.role==='screenwriter').creditText,'Kurt Wimmer');
+ for(const r of [tv,cinema])assert.ok(!bundle.connections.some(c=>c.from.id===r.id&&c.to.id==='ser:000004'));
 });
