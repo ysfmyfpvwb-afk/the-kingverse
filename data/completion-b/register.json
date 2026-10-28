@@ -1001,6 +1001,16 @@
     "claim/shining-overlook/to": "clm:008935",
     "claim/shining-overlook/certainty": "clm:008936",
     "claim/shining-overlook/explanation": "clm:008937",
-    "claim/shining-overlook/spoiler": "clm:008938"
+    "claim/shining-overlook/spoiler": "clm:008938",
+    "claim/film-intro-adp-000045": "clm:008939",
+    "claim/film-intro-adp-000023": "clm:008940",
+    "source/film-intro-adp-000048-source": "src:000546",
+    "claim/film-intro-adp-000048": "clm:008941",
+    "claim/film-intro-adp-000046": "clm:008942",
+    "claim/film-intro-adp-000032": "clm:008943",
+    "claim/film-intro-adp-000015": "clm:008944",
+    "claim/film-intro-adp-000026": "clm:008945",
+    "source/film-intro-adp-000027-source": "src:000547",
+    "claim/film-intro-adp-000027": "clm:008946"
   }
 }

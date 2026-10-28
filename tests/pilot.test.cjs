@@ -129,3 +129,8 @@ test('Shining and Misery profiles have sourced introductions, direct book links 
  for(const id of ['chr:000013','chr:000014','chr:000015','chr:000016','chr:000017','chr:000018','loc:000006']){const p=index(id);assert.ok(p.node.description.length>80);assert.ok(p.node.evidence.some(c=>c.fieldPath==='/summary'&&c.selected&&c.status==='verified'));assert.ok(p.connections.every(c=>c.target.type==='work'&&index(c.target.id)));assert.ok(out.payloads.get(out.report.assets.search).records.some(r=>r.id===id));}
  assert.deepEqual(index('chr:000013').connections.map(c=>c.target.id),['wrk:000005','wrk:000051']);assert.equal(index('loc:000006').connections.length,1);
 });
+
+test('Eight film reading introductions share main-site copy and retain film-specific source proof',()=>{
+ for(const e of require('../data/completion-b/review.json').enrichments.filter(e=>e.subject.type==='adaptation')){const p=index(e.subject.id);assert.equal(p.node.description,e.value.en);assert.ok(p.node.evidence.some(c=>c.fieldPath==='/summary'&&c.selected&&c.status==='verified'));assert.doesNotMatch(p.node.description,/A film in The Kingverse|production uncertainties/);for(const c of p.node.evidence.filter(c=>c.fieldPath==='/summary'&&c.selected))assert.ok(c.sourceIds.every(id=>p.sources.some(s=>s.id===id)));}
+ assert.doesNotMatch(index('adp:000070').node.description,/Stanley Kubrick/);assert.match(index('adp:000048').node.description,/Oregon/);assert.doesNotMatch(index('adp:000048').node.description,/Maine/);
+});

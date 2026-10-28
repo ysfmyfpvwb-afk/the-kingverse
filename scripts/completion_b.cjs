@@ -14,7 +14,7 @@ function extendCompletionB(input){
  function add(r){if(map.has(r.id)||registered.has(r.id))throw Error('B allocation collision '+r.id);bundle[tables[r.entityType]].push(r);bundle.registry.entries.push({id:r.id,type:r.entityType});registered.add(r.id);map.set(r.id,r);}
  const sources=new Map(bundle.sources.map(s=>[s.url,s.id])),sourceKeys=new Map();
  for(const s of review.sources){
-  if(s.access!=='available'||![review.checked,...review.records.map(d=>d.checked)].includes(s.observedAt)||!['stephenking.com','www.universalpicturesathome.com','www.syfy.com','www.amcglobalmedia.com','www.miramax.com','catalog.afi.com','tv.apple.com','www.paramountmovies.com','www.netflix.com','www.amctheatres.com','www.simonandschuster.com','www.cemeterydance.com','www.hachette.co.uk','www.penguinrandomhouse.com','www.the-numbers.com','www.moviefone.com'].includes(new URL(s.url).hostname))throw Error('B evidence source not reviewed '+s.key);
+  if(s.access!=='available'||![review.checked,...review.records.map(d=>d.checked)].includes(s.observedAt)||!['stephenking.com','www.universalpicturesathome.com','www.syfy.com','www.amcglobalmedia.com','www.miramax.com','catalog.afi.com','tv.apple.com','www.paramountmovies.com','www.netflix.com','www.amctheatres.com','www.simonandschuster.com','www.cemeterydance.com','www.hachette.co.uk','www.penguinrandomhouse.com','www.the-numbers.com','www.moviefone.com','www.sonypictures.com','www.hulu.com'].includes(new URL(s.url).hostname))throw Error('B evidence source not reviewed '+s.key);
   if(!sources.has(s.url)){const r={id:id('source',s.key),entityType:'source',url:s.url,publisher:s.publisher||'StephenKing.com',sourceType:s.sourceType,publishedAt:null,observedAt:s.observedAt,access:s.access,snapshotRef:'data/completion-b/review.json#/sources/'+s.key,notes:'Field-limited official-source review. No biography, copied synopsis, outcomes or images retained.'};add(r);sources.set(s.url,r.id);}
   sourceKeys.set(s.key,sources.get(s.url));
  }
@@ -42,7 +42,7 @@ function extendCompletionB(input){
  // Editorial additions update a reviewed field on an existing identity. They
  // never create a second work or replace the historical source observation.
  for(const e of review.enrichments||[]){
-  const r=map.get(e.subject.id);if(r?.entityType!==e.subject.type||!['work/summary','collection/summary','connection/explanation'].includes(e.subject.type+'/'+e.field))throw Error('Unsupported B enrichment '+e.key);
+  const r=map.get(e.subject.id);if(r?.entityType!==e.subject.type||!['work/summary','collection/summary','adaptation/summary','connection/explanation'].includes(e.subject.type+'/'+e.field))throw Error('Unsupported B enrichment '+e.key);
   for(const c of bundle.claims.filter(c=>c.subject.id===r.id&&c.fieldPath==='/'+e.field&&c.selected))c.selected=false;
   r[e.field]=structuredClone(e.value);
   const c={id:id('claim',e.key),entityType:'claim',subject:structuredClone(e.subject),fieldPath:'/'+e.field,value:structuredClone(e.value),sourceIds:e.sourceIds||e.sourceKeys.map(k=>sourceKeys.get(k)),locator:e.locator,status:e.status||'verified',observedAt:e.checked,independentlyConfirmed:false,selected:true,decisionNote:e.note};
@@ -64,7 +64,7 @@ function validateCompletionB(bundle,baseline){
  const isbns=new Set();for(const e of bundle.editions){if(map.get(e.publicationOf.id)?.entityType!==e.publicationOf.type)fail('b-edition-owner',e.id);if(e.isbn13){const sum=[...e.isbn13.slice(0,12)].reduce((n,v,i)=>n+Number(v)*(i%2?3:1),0);if((10-sum%10)%10!==Number(e.isbn13[12]))fail('b-isbn-checksum',e.id);if(isbns.has(e.isbn13))fail('b-isbn-duplicate',e.id);isbns.add(e.isbn13);}}
  const editorial=new Map();
  for(const e of review.enrichments||[]){
-  if(editorial.has(e.subject.id)||!['work/summary','collection/summary','connection/explanation'].includes(e.subject.type+'/'+e.field)){fail('b-enrichment-scope',e.key);continue;}editorial.set(e.subject.id,e);
+  if(editorial.has(e.subject.id)||!['work/summary','collection/summary','adaptation/summary','connection/explanation'].includes(e.subject.type+'/'+e.field)){fail('b-enrichment-scope',e.key);continue;}editorial.set(e.subject.id,e);
   const r=map.get(e.subject.id),c=map.get(reg.allocations['claim/'+e.key]),urls=e.sourceIds?e.sourceIds.map(id=>map.get(id)?.url):e.sourceKeys.map(k=>review.sources.find(s=>s.key===k)?.url);
   if(!r||r.entityType!==e.subject.type||!c||c.subject.id!==r.id||c.subject.type!==e.subject.type||c.fieldPath!=='/'+e.field||c.status!==(e.status||'verified')||!c.selected||c.observedAt!==e.checked||!r.verification.claimIds.includes(c.id)||JSON.stringify(c.value)!==JSON.stringify(e.value)||JSON.stringify(r[e.field])!==JSON.stringify(e.value)||JSON.stringify(c.sourceIds.map(id=>map.get(id)?.url))!==JSON.stringify(urls)||urls.some(url=>!url))fail('b-editorial-evidence',e.key);
   if(e.subject.type==='connection'){
@@ -103,7 +103,7 @@ function validateCompletionB(bundle,baseline){
   if(r.entityType==='publication'&&r.editionId&&map.get(r.editionId)?.entityType!=='edition')fail('b-publication-edition',r.id);
  }
  if(baseline){
-  for(const [table,rows]of Object.entries(baseline).filter(([,rows])=>Array.isArray(rows))){for(const r of rows){const next=bundle[table].find(x=>x.id===r.id),expected=structuredClone(r),e=editorial.get(r.id);if(['works','collections','connections'].includes(table)&&e){expected[e.field]=structuredClone(e.value);expected.verification.claimIds.push(reg.allocations['claim/'+e.key]);}if(table==='claims'&&editorial.has(r.subject.id)&&r.fieldPath==='/'+editorial.get(r.subject.id).field)expected.selected=false;try{assert.deepEqual(next,expected);}catch{fail('b-baseline-record-changed',r.id);}}}
+  for(const [table,rows]of Object.entries(baseline).filter(([,rows])=>Array.isArray(rows))){for(const r of rows){const next=bundle[table].find(x=>x.id===r.id),expected=structuredClone(r),e=editorial.get(r.id);if(['works','collections','adaptations','connections'].includes(table)&&e){expected[e.field]=structuredClone(e.value);expected.verification.claimIds.push(reg.allocations['claim/'+e.key]);}if(table==='claims'&&editorial.has(r.subject.id)&&r.fieldPath==='/'+editorial.get(r.subject.id).field)expected.selected=false;try{assert.deepEqual(next,expected);}catch{fail('b-baseline-record-changed',r.id);}}}
   try{assert.deepEqual(bundle.registry.aliases,baseline.registry.aliases);assert.deepEqual(bundle.manifest,baseline.manifest);}catch{fail('b-baseline-metadata-changed','Existing aliases/manifest changed');}
   if(bundle.characters.length-baseline.characters.length!==10||bundle.locations.length-baseline.locations.length!==4||bundle.series.length-baseline.series.length!==4||bundle.connections.length-baseline.connections.length!==56||bundle.adaptations.length-baseline.adaptations.length!==15)fail('b-batch-boundary','Reviewed scope: ten characters, four locations, four series, fifteen screen productions and fifty-six links');
   if(bundle.editions.length-baseline.editions.length!==15)fail('b-edition-boundary','Exactly fifteen reviewed English editions');

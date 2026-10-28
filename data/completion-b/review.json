@@ -2066,6 +2066,102 @@
       "sourceType": "reference",
       "observedAt": "2026-10-28",
       "access": "available"
+    },
+    {
+      "key": "film-intro-adp-000045-source",
+      "url": "https://stephenking.com/works/movie/shawshank-redemption.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Film-specific Synopsis / From the Box / About or licensed streaming premise. Names, opening situation and named director or cast only where included in this original introduction. No ending, comparison to novel ending, copied synopsis or rating.",
+      "checkedFields": [
+        "original spoiler-aware English film introduction only"
+      ]
+    },
+    {
+      "key": "film-intro-adp-000023-source",
+      "url": "https://stephenking.com/works/movie/green-mile.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Film-specific Synopsis / From the Box / About or licensed streaming premise. Names, opening situation and named director or cast only where included in this original introduction. No ending, comparison to novel ending, copied synopsis or rating.",
+      "checkedFields": [
+        "original spoiler-aware English film introduction only"
+      ]
+    },
+    {
+      "key": "film-intro-adp-000048-source",
+      "url": "https://www.sonypictures.com/movies/standbyme",
+      "publisher": "Sony Pictures Entertainment",
+      "sourceType": "official-production",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Film-specific Synopsis / From the Box / About or licensed streaming premise. Names, opening situation and named director or cast only where included in this original introduction. No ending, comparison to novel ending, copied synopsis or rating.",
+      "checkedFields": [
+        "original spoiler-aware English film introduction only"
+      ]
+    },
+    {
+      "key": "film-intro-adp-000046-source",
+      "url": "https://stephenking.com/works/movie/shining.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Film-specific Synopsis / From the Box / About or licensed streaming premise. Names, opening situation and named director or cast only where included in this original introduction. No ending, comparison to novel ending, copied synopsis or rating.",
+      "checkedFields": [
+        "original spoiler-aware English film introduction only"
+      ]
+    },
+    {
+      "key": "film-intro-adp-000032-source",
+      "url": "https://stephenking.com/works/movie/misery.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Film-specific Synopsis / From the Box / About or licensed streaming premise. Names, opening situation and named director or cast only where included in this original introduction. No ending, comparison to novel ending, copied synopsis or rating.",
+      "checkedFields": [
+        "original spoiler-aware English film introduction only"
+      ]
+    },
+    {
+      "key": "film-intro-adp-000015-source",
+      "url": "https://stephenking.com/works/movie/doctor-sleep.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Film-specific Synopsis / From the Box / About or licensed streaming premise. Names, opening situation and named director or cast only where included in this original introduction. No ending, comparison to novel ending, copied synopsis or rating.",
+      "checkedFields": [
+        "original spoiler-aware English film introduction only"
+      ]
+    },
+    {
+      "key": "film-intro-adp-000026-source",
+      "url": "https://stephenking.com/works/movie/it-part-1-the-losers-club.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Film-specific Synopsis / From the Box / About or licensed streaming premise. Names, opening situation and named director or cast only where included in this original introduction. No ending, comparison to novel ending, copied synopsis or rating.",
+      "checkedFields": [
+        "original spoiler-aware English film introduction only"
+      ]
+    },
+    {
+      "key": "film-intro-adp-000027-source",
+      "url": "https://www.hulu.com/movie/it-chapter-two-5c24b596-f745-4833-bd62-b6e0b15406e5",
+      "publisher": "Hulu",
+      "sourceType": "official-production",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Film-specific Synopsis / From the Box / About or licensed streaming premise. Names, opening situation and named director or cast only where included in this original introduction. No ending, comparison to novel ending, copied synopsis or rating.",
+      "checkedFields": [
+        "original spoiler-aware English film introduction only"
+      ]
     }
   ],
   "records": [
@@ -8805,6 +8901,174 @@
       },
       "locator": "Official work description / explicit contents; independently worded visitor introduction.",
       "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "film-intro-adp-000045",
+      "subject": {
+        "type": "adaptation",
+        "id": "adp:000045"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Banker Andy Dufresne is sent to Shawshank prison, where he forms a friendship with fellow inmate Red. Life under a corrupt prison administration tests their endurance in this drama directed by Frank Darabont."
+      },
+      "sourceKeys": [
+        "film-intro-adp-000045-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": []
+      },
+      "locator": "Official film page or production/distribution About text, opening premise only; original wording.",
+      "note": "Replaces only the generic editorial placeholder on the existing film identity. All prior title, year, credits, remake/source relations, ratings and media bindings remain unchanged."
+    },
+    {
+      "key": "film-intro-adp-000023",
+      "subject": {
+        "type": "adaptation",
+        "id": "adp:000023"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Death-row officer Paul Edgecomb encounters a new prisoner, John Coffey, whose gentle manner and extraordinary abilities challenge what he believes. Frank Darabont’s film follows the guards and inmates along the prison corridor known as the Green Mile."
+      },
+      "sourceKeys": [
+        "film-intro-adp-000023-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": []
+      },
+      "locator": "Official film page or production/distribution About text, opening premise only; original wording.",
+      "note": "Replaces only the generic editorial placeholder on the existing film identity. All prior title, year, credits, remake/source relations, ratings and media bindings remain unchanged."
+    },
+    {
+      "key": "film-intro-adp-000048",
+      "subject": {
+        "type": "adaptation",
+        "id": "adp:000048"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Four boys in an Oregon town set off to find a missing teenager’s body. Their journey through the countryside becomes a story of friendship and growing up, adapted from King’s novella The Body."
+      },
+      "sourceKeys": [
+        "film-intro-adp-000048-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": []
+      },
+      "locator": "Official film page or production/distribution About text, opening premise only; original wording.",
+      "note": "Replaces only the generic editorial placeholder on the existing film identity. All prior title, year, credits, remake/source relations, ratings and media bindings remain unchanged."
+    },
+    {
+      "key": "film-intro-adp-000046",
+      "subject": {
+        "type": "adaptation",
+        "id": "adp:000046"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Jack Torrance takes a winter caretaker job at the Overlook Hotel with his wife Wendy and their son Danny. Isolation and the hotel’s disturbing presence close around the family in Stanley Kubrick’s film."
+      },
+      "sourceKeys": [
+        "film-intro-adp-000046-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": []
+      },
+      "locator": "Official film page or production/distribution About text, opening premise only; original wording.",
+      "note": "Replaces only the generic editorial placeholder on the existing film identity. All prior title, year, credits, remake/source relations, ratings and media bindings remain unchanged."
+    },
+    {
+      "key": "film-intro-adp-000032",
+      "subject": {
+        "type": "adaptation",
+        "id": "adp:000032"
+      },
+      "field": "summary",
+      "value": {
+        "en": "After a car accident, novelist Paul Sheldon is rescued by Annie Wilkes, a devoted reader of his books. Her care becomes captivity in this thriller starring James Caan and Kathy Bates."
+      },
+      "sourceKeys": [
+        "film-intro-adp-000032-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": []
+      },
+      "locator": "Official film page or production/distribution About text, opening premise only; original wording.",
+      "note": "Replaces only the generic editorial placeholder on the existing film identity. All prior title, year, credits, remake/source relations, ratings and media bindings remain unchanged."
+    },
+    {
+      "key": "film-intro-adp-000015",
+      "subject": {
+        "type": "adaptation",
+        "id": "adp:000015"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Dan Torrance is trying to build a quieter life when Abra, a teenager who shares his extraordinary gift, asks for help. Mike Flanagan’s film follows their encounter with the dangerous group known as the True Knot."
+      },
+      "sourceKeys": [
+        "film-intro-adp-000015-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": []
+      },
+      "locator": "Official film page or production/distribution About text, opening premise only; original wording.",
+      "note": "Replaces only the generic editorial placeholder on the existing film identity. All prior title, year, credits, remake/source relations, ratings and media bindings remain unchanged."
+    },
+    {
+      "key": "film-intro-adp-000026",
+      "subject": {
+        "type": "adaptation",
+        "id": "adp:000026"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Seven children form the Losers Club as they face bullying and a terrifying presence in their Maine town. The threat takes the form of Pennywise the clown in this screen adaptation of King’s novel."
+      },
+      "sourceKeys": [
+        "film-intro-adp-000026-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": []
+      },
+      "locator": "Official film page or production/distribution About text, opening premise only; original wording.",
+      "note": "Replaces only the generic editorial placeholder on the existing film identity. All prior title, year, credits, remake/source relations, ratings and media bindings remain unchanged."
+    },
+    {
+      "key": "film-intro-adp-000027",
+      "subject": {
+        "type": "adaptation",
+        "id": "adp:000027"
+      },
+      "field": "summary",
+      "value": {
+        "en": "The members of the Losers Club return to Derry as adults when an old terror resurfaces. Their reunion brings them back to Pennywise and to the fears they remember from childhood."
+      },
+      "sourceKeys": [
+        "film-intro-adp-000027-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": []
+      },
+      "locator": "Official film page or production/distribution About text, opening premise only; original wording.",
+      "note": "Replaces only the generic editorial placeholder on the existing film identity. All prior title, year, credits, remake/source relations, ratings and media bindings remain unchanged."
     }
   ]
 }

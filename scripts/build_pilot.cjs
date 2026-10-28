@@ -12,6 +12,7 @@ function generatePilot(root=ROOT){
  const baseline=checkPilotBaseline(root),ready=require('./completion_pilot.cjs').completionPilot(root),base=ready.defaultProjection,plot=ready.plotProjection,full=combineProjection(base,plot,{allowPlot:true});
  const native=ready.bundle,premises=read(root,'data/pilot/premise-review.json').claims;
  const newScreenIds=new Set(Object.entries(read(root,'data/completion-b/register.json').allocations).filter(([key])=>key.startsWith('adaptation/')).map(([,id])=>id));
+ for(const e of read(root,'data/completion-b/review.json').enrichments||[])if(e.subject.type==='adaptation'&&e.field==='summary')newScreenIds.add(e.subject.id);
  const map=new Map(full.nodes.map(n=>[n.id,n])),safe=new Map(base.nodes.map(n=>[n.id,n]));
  const summaries=new Map(full.nodes.map(n=>[n.id,{id:n.id,type:n.type,label:n.label,kind:n.data.kind||null,href:href(n.id),...(n.type==='edition'?{language:n.data.language}:{}),verification:n.verification,...(n.type==='edition'?{publisher:n.data.publisher,format:n.data.format,publicationDate:n.data.publicationDate}:{})}]));
  const compact=r=>({...summaries.get(r.id),evidence:r.evidence});
