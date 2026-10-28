@@ -618,6 +618,102 @@
         "publisher imprint",
         "selected format"
       ]
+    },
+    {
+      "key": "book-intro-000009-source",
+      "url": "https://stephenking.com/works/novel/dead-zone.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap: opening premise; no ending, fate or identity revelation. Green Mile serial form is explicitly stated in the official description.",
+      "checkedFields": [
+        "opening premise for original editorial description"
+      ]
+    },
+    {
+      "key": "book-intro-000010-source",
+      "url": "https://stephenking.com/works/novel/firestarter.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap: opening premise; no ending, fate or identity revelation. Green Mile serial form is explicitly stated in the official description.",
+      "checkedFields": [
+        "opening premise for original editorial description"
+      ]
+    },
+    {
+      "key": "book-intro-000012-source",
+      "url": "https://stephenking.com/works/novel/cujo.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap: opening premise; no ending, fate or identity revelation. Green Mile serial form is explicitly stated in the official description.",
+      "checkedFields": [
+        "opening premise for original editorial description"
+      ]
+    },
+    {
+      "key": "book-intro-000015-source",
+      "url": "https://stephenking.com/works/novel/christine.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap: opening premise; no ending, fate or identity revelation. Green Mile serial form is explicitly stated in the official description.",
+      "checkedFields": [
+        "opening premise for original editorial description"
+      ]
+    },
+    {
+      "key": "book-intro-000026-source",
+      "url": "https://stephenking.com/works/novel/needful-things.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap: opening premise; no ending, fate or identity revelation. Green Mile serial form is explicitly stated in the official description.",
+      "checkedFields": [
+        "opening premise for original editorial description"
+      ]
+    },
+    {
+      "key": "book-intro-000031-source",
+      "url": "https://stephenking.com/works/novel/green-mile-the-complete-serial-novel.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap: opening premise; no ending, fate or identity revelation. Green Mile serial form is explicitly stated in the official description.",
+      "checkedFields": [
+        "opening premise for original editorial description"
+      ]
+    },
+    {
+      "key": "book-intro-000051-source",
+      "url": "https://stephenking.com/works/novel/doctor-sleep.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap: opening premise; no ending, fate or identity revelation. Green Mile serial form is explicitly stated in the official description.",
+      "checkedFields": [
+        "opening premise for original editorial description"
+      ]
+    },
+    {
+      "key": "book-intro-000060-source",
+      "url": "https://stephenking.com/works/novel/institute.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap: opening premise; no ending, fate or identity revelation. Green Mile serial form is explicitly stated in the official description.",
+      "checkedFields": [
+        "opening premise for original editorial description"
+      ]
     }
   ],
   "records": [
@@ -3269,6 +3365,190 @@
       },
       "locator": "Editorial copyedit of clm:007309. Existing source evidence and access status retained; no new source visit or factual extension.",
       "note": "Visitor-facing wording only. Relationship, endpoints, certainty, spoiler scope and provenance remain unchanged; original explanation is retained on its earlier claim."
+    },
+    {
+      "key": "book-intro-000009",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000009"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Johnny Smith wakes from a long coma with the ability to glimpse other people’s pasts and futures through touch. Trying to rebuild his interrupted life, he faces a troubling question: what responsibility comes with knowing what may happen?"
+      },
+      "sourceKeys": [
+        "book-intro-000009-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000009"
+        ]
+      },
+      "locator": "Official novel Synopsis / From the Flap; original editorial introduction, opening situation only.",
+      "note": "New visitor-facing English prose; no copied synopsis, new work, edition or relationship claim."
+    },
+    {
+      "key": "book-intro-000010",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000010"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Young Charlie McGee can start fires with her mind, an ability that makes her a target for a secret government organisation. Her father tries to keep her safe as their pursuers seek to turn her gift into a weapon."
+      },
+      "sourceKeys": [
+        "book-intro-000010-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000010"
+        ]
+      },
+      "locator": "Official novel Synopsis / From the Flap; original editorial introduction, opening situation only.",
+      "note": "New visitor-facing English prose; no copied synopsis, new work, edition or relationship claim."
+    },
+    {
+      "key": "book-intro-000012",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000012"
+      },
+      "field": "summary",
+      "value": {
+        "en": "A beloved St Bernard becomes a threat after contracting rabies. When Donna Trenton and her young son arrive at an isolated garage, an ordinary errand becomes a struggle against heat, confinement and a dangerously changed animal."
+      },
+      "sourceKeys": [
+        "book-intro-000012-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000012"
+        ]
+      },
+      "locator": "Official novel Synopsis / From the Flap; original editorial introduction, opening situation only.",
+      "note": "New visitor-facing English prose; no copied synopsis, new work, edition or relationship claim."
+    },
+    {
+      "key": "book-intro-000015",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000015"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Teenager Arnie Cunningham becomes devoted to restoring a battered 1958 Plymouth Fury. As the car takes a stronger hold on his life, the people close to him begin to fear that his prized possession has a will of its own."
+      },
+      "sourceKeys": [
+        "book-intro-000015-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000015"
+        ]
+      },
+      "locator": "Official novel Synopsis / From the Flap; original editorial introduction, opening situation only.",
+      "note": "New visitor-facing English prose; no copied synopsis, new work, edition or relationship claim."
+    },
+    {
+      "key": "book-intro-000026",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000026"
+      },
+      "field": "summary",
+      "value": {
+        "en": "A new shop in Castle Rock seems to offer every customer the object they most desire. Its proprietor asks for small favours alongside payment, quietly turning personal wishes and old resentments against the town."
+      },
+      "sourceKeys": [
+        "book-intro-000026-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000026"
+        ]
+      },
+      "locator": "Official novel Synopsis / From the Flap; original editorial introduction, opening situation only.",
+      "note": "New visitor-facing English prose; no copied synopsis, new work, edition or relationship claim."
+    },
+    {
+      "key": "book-intro-000031",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000031"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Prison officer Paul Edgecomb looks back on an extraordinary inmate who arrived on death row in the 1930s. Originally told in six serial instalments, the novel examines punishment, compassion and the limits of human judgement."
+      },
+      "sourceKeys": [
+        "book-intro-000031-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000031"
+        ]
+      },
+      "locator": "Official novel Synopsis / From the Flap; original editorial introduction, opening situation only.",
+      "note": "New visitor-facing English prose; no copied synopsis, new work, edition or relationship claim."
+    },
+    {
+      "key": "book-intro-000051",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000051"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Dan Torrance is trying to build a steadier life when he meets a girl with an unusually strong psychic gift. Their connection draws him into danger from a travelling group that seeks out children with the shining."
+      },
+      "sourceKeys": [
+        "book-intro-000051-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000051"
+        ]
+      },
+      "locator": "Official novel Synopsis / From the Flap; original editorial introduction, opening situation only.",
+      "note": "New visitor-facing English prose; no copied synopsis, new work, edition or relationship claim."
+    },
+    {
+      "key": "book-intro-000060",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000060"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Luke Ellis wakes in a sinister facility where other children also possess unusual mental abilities. As the staff push those abilities to their limits, friendship and the hope of escape become his means of resistance."
+      },
+      "sourceKeys": [
+        "book-intro-000060-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000060"
+        ]
+      },
+      "locator": "Official novel Synopsis / From the Flap; original editorial introduction, opening situation only.",
+      "note": "New visitor-facing English prose; no copied synopsis, new work, edition or relationship claim."
     }
   ]
 }
