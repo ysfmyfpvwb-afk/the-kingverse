@@ -5,7 +5,7 @@ const {extendCompletionB,validateCompletionB}=require('../scripts/completion_b.c
 const base=loadCompletion(),before=structuredClone(base),bundle=extendCompletionB(base);
 test('Bounded B additions preserve every prior identity, record, alias and manifest',()=>{
  assert.deepEqual(base,before);assert.deepEqual(validateCompletionB(bundle,base),[]);
- assert.equal(bundle.characters.length-base.characters.length,4);assert.equal(bundle.locations.length-base.locations.length,3);assert.equal(bundle.series.length-base.series.length,3);assert.equal(bundle.adaptations.length-base.adaptations.length,10);assert.equal(bundle.connections.length-base.connections.length,42);
+ assert.equal(bundle.characters.length-base.characters.length,4);assert.equal(bundle.locations.length-base.locations.length,3);assert.equal(bundle.series.length-base.series.length,3);assert.equal(bundle.adaptations.length-base.adaptations.length,13);assert.equal(bundle.connections.length-base.connections.length,45);
  assert.throws(()=>extendCompletionB(bundle),/collision|already exists/);
 });
 test('The Hodges sequence links exactly the three existing novels with supported positions',()=>{
@@ -43,7 +43,7 @@ test('Five distinct Corn films join a film franchise without invented direct sto
  const ids=['adp:000099','adp:000100','adp:000101','adp:000102','adp:000103'];
  for(const id of ids){const film=bundle.adaptations.find(r=>r.id===id);assert.ok(film);assert.ok(film.summary.en.length>60);assert.equal(film.ratingObservations.length,0);assert.equal(film.makerObservations.length,1);assert.equal(film.makerObservations[0].role,'director');assert.ok(!bundle.connections.some(c=>c.from.id===id&&c.predicate==='adaptation_of'));}
  const series=bundle.series.find(r=>r.id==='ser:000004');assert.equal(series.seriesKind,'film-series');
- assert.deepEqual(bundle.connections.filter(r=>r.to.id===series.id).map(r=>r.from.id),['adp:000007',...ids]);
+ assert.deepEqual(bundle.connections.filter(r=>r.to.id===series.id).map(r=>r.from.id),['adp:000007',...ids,'adp:000107','adp:000108','adp:000109']);
  assert.ok(bundle.connections.filter(r=>r.to.id===series.id).every(r=>!r.seriesPosition&&r.spoiler.level==='none'));
  assert.equal(bundle.adaptations.filter(r=>r.title==='Children of the Corn').length,3);
 });
@@ -113,9 +113,15 @@ test('The Movies paperback uses publisher-confirmed ISBN and date while leaving 
 
 test('Holly, Derry and Castle Rock are unique profiles with field-scoped evidence and 19 precise links',()=>{
  for(const [table,id,name]of [['characters','chr:000012','Holly Gibney'],['locations','loc:000004','Derry'],['locations','loc:000005','Castle Rock']]){const rows=bundle[table].filter(r=>r.name===name);assert.equal(rows.length,1);assert.equal(rows[0].id,id);assert.ok(rows[0].summary.en.length>80);assert.ok(bundle.claims.some(c=>c.subject.id===id&&c.fieldPath==='/summary'&&c.selected&&c.status==='verified'));}
- const added=bundle.connections.filter(c=>+c.id.slice(4)>=118);assert.equal(added.length,19);assert.equal(added.filter(c=>c.from.id==='chr:000012').length,7);assert.equal(added.filter(c=>c.to.id==='loc:000004').length,3);assert.equal(added.filter(c=>c.to.id==='loc:000005').length,8);
+ const added=bundle.connections.filter(c=>+c.id.slice(4)>=118&&+c.id.slice(4)<=136);assert.equal(added.length,19);assert.equal(added.filter(c=>c.from.id==='chr:000012').length,7);assert.equal(added.filter(c=>c.to.id==='loc:000004').length,3);assert.equal(added.filter(c=>c.to.id==='loc:000005').length,8);
  assert.match(added.find(c=>c.from.id==='wrk:000037').explanation.en,/childhood.*elsewhere/);assert.match(added.find(c=>c.from.id==='wrk:000094').explanation.en,/surrounding countryside/);
  const sequel=added.find(c=>c.from.id==='wrk:000195');assert.equal(sequel.predicate,'sequel_to');assert.equal(sequel.to.id,'wrk:000012');assert.doesNotMatch(sequel.explanation.en,/Tad|Vic|Donna|surviv|death/i);
  const hidden=added.find(c=>c.to.id==='wrk:000058');assert.equal(hidden.spoiler.level,'plot');assert.deepEqual(hidden.spoiler.workIds,['wrk:000058']);
  const bad=structuredClone(bundle);bad.connections.find(c=>c.id===hidden.id).spoiler.level='premise';assert.ok(validateCompletionB(bad,base).some(e=>e.code==='b-review-difference'));
+});
+
+test('Urban Harvest, Genesis and Runaway are separate screen identities with precise maker roles and no invented direct story links',()=>{
+ for(const [id,year,director]of [['adp:000107',1995,'James D.R. Hickox'],['adp:000108',2011,'Joel Soisson'],['adp:000109',2018,'John Gulager']]){const a=bundle.adaptations.find(a=>a.id===id);assert.ok(a);assert.equal(a.releaseYear,year);assert.equal(a.releaseEvents[0].precision,'year');assert.equal(a.makerObservations.find(m=>m.role==='director').creditText,director);assert.equal(a.ratingObservations.length,0);assert.ok(!bundle.connections.some(c=>c.from.id===id&&['adaptation_of','sequel_to'].includes(c.predicate)));assert.ok(bundle.connections.some(c=>c.from.id===id&&c.predicate==='part_of_series'&&c.to.id==='ser:000004'&&!c.seriesPosition));}
+ const urban=bundle.adaptations.find(a=>a.id==='adp:000107');assert.equal(urban.makerObservations.find(m=>m.role==='screenwriter').creditText,'Dode B. Levenson');assert.ok(bundle.claims.some(c=>c.subject.id===urban.id&&c.fieldPath==='/releaseYear'&&c.value===1994&&!c.selected&&c.status==='disputed'));
+ assert.deepEqual(bundle.adaptations.find(a=>a.id==='adp:000108').originalLanguages,[]);assert.deepEqual(bundle.adaptations.find(a=>a.id==='adp:000109').originalLanguages,['en']);
 });

@@ -1859,6 +1859,78 @@
       "checkedFields": [
         "five individual story premises only"
       ]
+    },
+    {
+      "key": "corn-urban-miramax",
+      "url": "https://www.miramax.com/movie/children-of-the-corn-iii-urban-harvest/",
+      "publisher": "Miramax",
+      "sourceType": "official-production",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Title; director and writer roles; adopted brothers opening premise; reported 1994 year conflicts with streaming catalogue. No resolution or supernatural outcome copied.",
+      "checkedFields": [
+        "Title",
+        "director and writer roles",
+        "adopted brothers opening premise",
+        "reported 1994 year conflicts with streaming catalogue. No resolution or supernatural outcome copied."
+      ]
+    },
+    {
+      "key": "corn-urban-netflix",
+      "url": "https://www.netflix.com/title/60021423",
+      "publisher": "Netflix",
+      "sourceType": "official-production",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Title variant and 1995 catalogue year; Chicago adoptive-family premise only. No first-release day or current availability claim.",
+      "checkedFields": [
+        "Title variant and 1995 catalogue year",
+        "Chicago adoptive-family premise only. No first-release day or current availability claim."
+      ]
+    },
+    {
+      "key": "corn-genesis-apple",
+      "url": "https://tv.apple.com/us/movie/children-of-the-corn-genesis/umc.cmc.75v5fsl1h3wl8owp2n1kk9dea",
+      "publisher": "Apple TV",
+      "sourceType": "official-production",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Film identity; 2011 released year; Joel Soisson director and writer; stranded couple seek shelter opening only. Original Audio lists English and French without clear production-language distinction, so no language claim.",
+      "checkedFields": [
+        "Film identity",
+        "2011 released year",
+        "Joel Soisson director and writer",
+        "stranded couple seek shelter opening only. Original Audio lists English and French without clear production-language distinction, so no language claim."
+      ]
+    },
+    {
+      "key": "corn-runaway-apple",
+      "url": "https://tv.apple.com/us/movie/children-of-the-corn-runaway/umc.cmc.42o7us95gm5q6w8ucmvtvqoo6",
+      "publisher": "Apple TV",
+      "sourceType": "official-production",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Film identity; 2018 released year; John Gulager director; United States origin and original English audio; a mother and son living away from a cult opening premise only.",
+      "checkedFields": [
+        "Film identity",
+        "2018 released year",
+        "John Gulager director",
+        "United States origin and original English audio",
+        "a mother and son living away from a cult opening premise only."
+      ]
+    },
+    {
+      "key": "corn-franchise-numbers",
+      "url": "https://www.the-numbers.com/movies/franchise/Children-of-the-Corn",
+      "publisher": "The Numbers / Nash Information Services",
+      "sourceType": "reference",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Franchise list explicitly groups Genesis and Runaway with Children of the Corn; membership only, no chronological or direct source-work relationship.",
+      "checkedFields": [
+        "Franchise list explicitly groups Genesis and Runaway with Children of the Corn",
+        "membership only, no chronological or direct source-work relationship."
+      ]
     }
   ],
   "records": [
@@ -2737,7 +2809,7 @@
       "name": "Children of the Corn film series",
       "aliases": [],
       "seriesKind": "film-series",
-      "scope": "Film franchise originating with the 1984 adaptation. This shelf currently includes the original and five verified later films; it is not a complete franchise filmography or a story chronology.",
+      "scope": "Film franchise originating with the 1984 adaptation. These films form a browsing shelf, not a complete franchise filmography or a story chronology.",
       "spoiler": {
         "level": "none",
         "workIds": []
@@ -4345,6 +4417,303 @@
         "book-intro-col-000001-source"
       ],
       "note": "The official collection description explicitly calls it a sequel. Do not reveal which Cujo characters return or their outcomes.",
+      "checked": "2026-10-28"
+    },
+    {
+      "key": "corn-urban",
+      "entityType": "adaptation",
+      "title": "Children of the Corn III: Urban Harvest",
+      "aliases": [
+        {
+          "language": "en",
+          "value": "Children of the Corn 3: Urban Harvest",
+          "spoiler": {
+            "level": "none",
+            "workIds": []
+          }
+        }
+      ],
+      "format": "film",
+      "externalIds": {},
+      "releaseYear": 1995,
+      "releaseEvents": [
+        {
+          "value": "1995",
+          "precision": "year",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "statusHistory": [
+        {
+          "status": "released",
+          "asOf": "2026-10-28",
+          "projectScope": "Released film; no current territorial availability or streaming-subscription claim.",
+          "claimIds": [
+            "corn-urban/statusHistory"
+          ]
+        }
+      ],
+      "ratingObservations": [],
+      "countries": [],
+      "originalLanguages": [],
+      "originalScreenplay": null,
+      "makerObservations": [
+        {
+          "role": "director",
+          "creditText": "James D.R. Hickox",
+          "scope": "Children of the Corn III: Urban Harvest",
+          "sourceUrl": "https://www.miramax.com/movie/children-of-the-corn-iii-urban-harvest/",
+          "verification": "source-supported"
+        },
+        {
+          "role": "screenwriter",
+          "creditText": "Dode B. Levenson",
+          "scope": "Children of the Corn III: Urban Harvest",
+          "sourceUrl": "https://www.miramax.com/movie/children-of-the-corn-iii-urban-harvest/",
+          "verification": "source-supported"
+        }
+      ],
+      "distribution": [],
+      "productionUnits": [],
+      "summary": {
+        "en": "Two orphaned brothers are adopted by a couple in Chicago. Their arrival brings a disturbing new presence into the household in this Children of the Corn film."
+      },
+      "sourceKeys": [
+        "corn-urban-miramax",
+        "corn-urban-netflix"
+      ],
+      "open": [
+        "Exact first-release date and territory not established in this review.",
+        "Complete cast and production credits remain to be added.",
+        "1994 Miramax catalogue year differs from selected 1995 Netflix catalogue year."
+      ],
+      "note": "Distinct screen production only. No direct adaptation_of edge, shared-story chronology, rating or new poster imported.",
+      "fieldSourceKeys": {
+        "releaseYear": [
+          "corn-urban-netflix"
+        ],
+        "releaseEvents": [
+          "corn-urban-netflix"
+        ],
+        "aliases": [
+          "corn-urban-netflix"
+        ],
+        "makerObservations": [
+          "corn-urban-miramax"
+        ],
+        "summary": [
+          "corn-urban-miramax",
+          "corn-urban-netflix"
+        ]
+      },
+      "conflicts": [
+        {
+          "fieldPath": "/releaseYear",
+          "value": 1994,
+          "sourceKeys": [
+            "corn-urban-miramax"
+          ],
+          "note": "Miramax labels this production 1994; Netflix lists 1995. Retain both observations. Selected year is a distribution catalogue year, not a verified worldwide premiere."
+        }
+      ],
+      "checked": "2026-10-28"
+    },
+    {
+      "key": "corn-urban-franchise",
+      "entityType": "connection",
+      "from": {
+        "type": "adaptation",
+        "key": "corn-urban"
+      },
+      "predicate": "part_of_series",
+      "to": {
+        "type": "series",
+        "key": "series-02"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Children of the Corn III: Urban Harvest belongs to the Children of the Corn film franchise."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "corn-urban-miramax"
+      ],
+      "note": "Film-family membership only. No episode number, narrative continuity or direct adaptation of the short story is inferred.",
+      "checked": "2026-10-28"
+    },
+    {
+      "key": "corn-genesis",
+      "entityType": "adaptation",
+      "title": "Children of the Corn: Genesis",
+      "aliases": [],
+      "format": "film",
+      "externalIds": {},
+      "releaseYear": 2011,
+      "releaseEvents": [
+        {
+          "value": "2011",
+          "precision": "year",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "statusHistory": [
+        {
+          "status": "released",
+          "asOf": "2026-10-28",
+          "projectScope": "Released film; no current territorial availability or streaming-subscription claim.",
+          "claimIds": [
+            "corn-genesis/statusHistory"
+          ]
+        }
+      ],
+      "ratingObservations": [],
+      "countries": [],
+      "originalLanguages": [],
+      "originalScreenplay": null,
+      "makerObservations": [
+        {
+          "role": "director",
+          "creditText": "Joel Soisson",
+          "scope": "Children of the Corn: Genesis",
+          "sourceUrl": "https://tv.apple.com/us/movie/children-of-the-corn-genesis/umc.cmc.75v5fsl1h3wl8owp2n1kk9dea",
+          "verification": "source-supported"
+        },
+        {
+          "role": "screenwriter",
+          "creditText": "Joel Soisson",
+          "scope": "Children of the Corn: Genesis",
+          "sourceUrl": "https://tv.apple.com/us/movie/children-of-the-corn-genesis/umc.cmc.75v5fsl1h3wl8owp2n1kk9dea",
+          "verification": "source-supported"
+        }
+      ],
+      "distribution": [],
+      "productionUnits": [],
+      "summary": {
+        "en": "A stranded couple seeks shelter at a remote desert compound. Their hosts’ strict rules and the strange sounds around them turn the overnight stay into a frightening uncertainty."
+      },
+      "sourceKeys": [
+        "corn-genesis-apple"
+      ],
+      "open": [
+        "Exact first-release date and territory not established in this review.",
+        "Complete cast and production credits remain to be added."
+      ],
+      "note": "Distinct screen production only. No direct adaptation_of edge, shared-story chronology, rating or new poster imported.",
+      "checked": "2026-10-28"
+    },
+    {
+      "key": "corn-genesis-franchise",
+      "entityType": "connection",
+      "from": {
+        "type": "adaptation",
+        "key": "corn-genesis"
+      },
+      "predicate": "part_of_series",
+      "to": {
+        "type": "series",
+        "key": "series-02"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Children of the Corn: Genesis belongs to the Children of the Corn film franchise."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "corn-franchise-numbers"
+      ],
+      "note": "Film-family membership only. No episode number, narrative continuity or direct adaptation of the short story is inferred.",
+      "checked": "2026-10-28"
+    },
+    {
+      "key": "corn-runaway",
+      "entityType": "adaptation",
+      "title": "Children of the Corn: Runaway",
+      "aliases": [],
+      "format": "film",
+      "externalIds": {},
+      "releaseYear": 2018,
+      "releaseEvents": [
+        {
+          "value": "2018",
+          "precision": "year",
+          "meaning": "source-reported-release",
+          "territory": null
+        }
+      ],
+      "statusHistory": [
+        {
+          "status": "released",
+          "asOf": "2026-10-28",
+          "projectScope": "Released film; no current territorial availability or streaming-subscription claim.",
+          "claimIds": [
+            "corn-runaway/statusHistory"
+          ]
+        }
+      ],
+      "ratingObservations": [],
+      "countries": [
+        "US"
+      ],
+      "originalLanguages": [
+        "en"
+      ],
+      "originalScreenplay": null,
+      "makerObservations": [
+        {
+          "role": "director",
+          "creditText": "John Gulager",
+          "scope": "Children of the Corn: Runaway",
+          "sourceUrl": "https://tv.apple.com/us/movie/children-of-the-corn-runaway/umc.cmc.42o7us95gm5q6w8ucmvtvqoo6",
+          "verification": "source-supported"
+        }
+      ],
+      "distribution": [],
+      "productionUnits": [],
+      "summary": {
+        "en": "A mother tries to build an anonymous life with her son after escaping a violent cult. Moving to another town offers a fresh start, but her past may not be far behind."
+      },
+      "sourceKeys": [
+        "corn-runaway-apple"
+      ],
+      "open": [
+        "Exact first-release date and territory not established in this review.",
+        "Complete cast and production credits remain to be added."
+      ],
+      "note": "Distinct screen production only. No direct adaptation_of edge, shared-story chronology, rating or new poster imported.",
+      "checked": "2026-10-28"
+    },
+    {
+      "key": "corn-runaway-franchise",
+      "entityType": "connection",
+      "from": {
+        "type": "adaptation",
+        "key": "corn-runaway"
+      },
+      "predicate": "part_of_series",
+      "to": {
+        "type": "series",
+        "key": "series-02"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Children of the Corn: Runaway belongs to the Children of the Corn film franchise."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "corn-franchise-numbers"
+      ],
+      "note": "Film-family membership only. No episode number, narrative continuity or direct adaptation of the short story is inferred.",
       "checked": "2026-10-28"
     }
   ],
