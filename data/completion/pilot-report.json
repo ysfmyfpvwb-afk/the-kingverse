@@ -19,7 +19,7 @@
     "initialShellAndEntityGzipBytes": 14951,
     "limitBytes": 49152,
     "pageSize": 6,
-    "maxEntityBytes": 26262,
+    "maxEntityBytes": 26630,
     "medianEntityBytes": 3344,
     "maxChunkBytes": 9499,
     "searchBytes": 107340,
@@ -251,8 +251,8 @@
     },
     {
       "file": "data/wrk-000014/index.json",
-      "bytes": 24721,
-      "gzipBytes": 2554
+      "bytes": 25065,
+      "gzipBytes": 2656
     },
     {
       "file": "data/wrk-000014/plot.json",
@@ -371,8 +371,8 @@
     },
     {
       "file": "data/wrk-000022/index.json",
-      "bytes": 18597,
-      "gzipBytes": 2001
+      "bytes": 18948,
+      "gzipBytes": 2120
     },
     {
       "file": "data/wrk-000022/plot.json",
@@ -416,8 +416,8 @@
     },
     {
       "file": "data/wrk-000025/index.json",
-      "bytes": 26262,
-      "gzipBytes": 2567
+      "bytes": 26630,
+      "gzipBytes": 2674
     },
     {
       "file": "data/wrk-000025/plot.json",
@@ -556,8 +556,8 @@
     },
     {
       "file": "data/wrk-000034/index.json",
-      "bytes": 18557,
-      "gzipBytes": 1998
+      "bytes": 18919,
+      "gzipBytes": 2123
     },
     {
       "file": "data/wrk-000034/plot.json",
@@ -631,8 +631,8 @@
     },
     {
       "file": "data/wrk-000039/index.json",
-      "bytes": 18573,
-      "gzipBytes": 2002
+      "bytes": 18958,
+      "gzipBytes": 2131
     },
     {
       "file": "data/wrk-000039/plot.json",
@@ -646,8 +646,8 @@
     },
     {
       "file": "data/wrk-000040/index.json",
-      "bytes": 18576,
-      "gzipBytes": 2013
+      "bytes": 18963,
+      "gzipBytes": 2142
     },
     {
       "file": "data/wrk-000040/plot.json",
@@ -661,8 +661,8 @@
     },
     {
       "file": "data/wrk-000041/index.json",
-      "bytes": 18499,
-      "gzipBytes": 1987
+      "bytes": 18862,
+      "gzipBytes": 2107
     },
     {
       "file": "data/wrk-000041/plot.json",
@@ -781,8 +781,8 @@
     },
     {
       "file": "data/wrk-000049/index.json",
-      "bytes": 18423,
-      "gzipBytes": 2016
+      "bytes": 18812,
+      "gzipBytes": 2156
     },
     {
       "file": "data/wrk-000049/plot.json",

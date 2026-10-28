@@ -442,6 +442,102 @@
       "checkedFields": [
         "opening premise for original editorial description"
       ]
+    },
+    {
+      "key": "book-intro-000014-source",
+      "url": "https://stephenking.com/darktower/book/the_dark_tower_i_the_gunslinger.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / opening book overview: premise and series context only; no plot outcomes, hidden aliases or final-volume ending.",
+      "checkedFields": [
+        "opening premise for original editorial description"
+      ]
+    },
+    {
+      "key": "book-intro-000022-source",
+      "url": "https://stephenking.com/works/novel/dark-tower-the-drawing-of-the-three.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / opening book overview: premise and series context only; no plot outcomes, hidden aliases or final-volume ending.",
+      "checkedFields": [
+        "opening premise for original editorial description"
+      ]
+    },
+    {
+      "key": "book-intro-000025-source",
+      "url": "https://stephenking.com/works/novel/dark-tower-the-waste-lands.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / opening book overview: premise and series context only; no plot outcomes, hidden aliases or final-volume ending.",
+      "checkedFields": [
+        "opening premise for original editorial description"
+      ]
+    },
+    {
+      "key": "book-intro-000034-source",
+      "url": "https://stephenking.com/works/novel/dark-tower-wizard-and-glass.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / opening book overview: premise and series context only; no plot outcomes, hidden aliases or final-volume ending.",
+      "checkedFields": [
+        "opening premise for original editorial description"
+      ]
+    },
+    {
+      "key": "book-intro-000039-source",
+      "url": "https://stephenking.com/works/novel/dark-tower-wolves-of-the-calla.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / opening book overview: premise and series context only; no plot outcomes, hidden aliases or final-volume ending.",
+      "checkedFields": [
+        "opening premise for original editorial description"
+      ]
+    },
+    {
+      "key": "book-intro-000040-source",
+      "url": "https://stephenking.com/works/novel/dark-tower-song-of-susannah.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / opening book overview: premise and series context only; no plot outcomes, hidden aliases or final-volume ending.",
+      "checkedFields": [
+        "opening premise for original editorial description"
+      ]
+    },
+    {
+      "key": "book-intro-000041-source",
+      "url": "https://stephenking.com/works/novel/dark-tower.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / opening book overview: premise and series context only; no plot outcomes, hidden aliases or final-volume ending.",
+      "checkedFields": [
+        "opening premise for original editorial description"
+      ]
+    },
+    {
+      "key": "book-intro-000049-source",
+      "url": "https://stephenking.com/works/novel/dark-tower-the-wind-through-the-keyhole.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / opening book overview: premise and series context only; no plot outcomes, hidden aliases or final-volume ending.",
+      "checkedFields": [
+        "opening premise for original editorial description"
+      ]
     }
   ],
   "records": [
@@ -2010,6 +2106,190 @@
       },
       "locator": "Official work page, Synopsis / From the Flap; independently worded opening-premise introduction, no quotations or ending.",
       "note": "Original visitor-facing English description. This verifies the premise text only; it does not certify editions, dates, complete character lists or other fields."
+    },
+    {
+      "key": "book-intro-000014",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000014"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Roland Deschain crosses a harsh, fading world in pursuit of an elusive man in black. The opening volume introduces a lone gunslinger whose search points towards the mysterious Dark Tower."
+      },
+      "sourceKeys": [
+        "book-intro-000014-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000014"
+        ]
+      },
+      "locator": "Official book overview / Synopsis: independently worded reading introduction. Later-volume outcomes, cross-book identity revelations and ending omitted.",
+      "note": "Original English visitor introduction; no copied flap text and no new identity, chronology, edition or connection claim."
+    },
+    {
+      "key": "book-intro-000022",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000022"
+      },
+      "field": "summary",
+      "value": {
+        "en": "On a remote shore, Roland encounters doors that connect his world to the lives of people in New York. The second volume brings new companions and conflicting needs into the gunslinger’s quest."
+      },
+      "sourceKeys": [
+        "book-intro-000022-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000022"
+        ]
+      },
+      "locator": "Official book overview / Synopsis: independently worded reading introduction. Later-volume outcomes, cross-book identity revelations and ending omitted.",
+      "note": "Original English visitor introduction; no copied flap text and no new identity, chronology, edition or connection claim."
+    },
+    {
+      "key": "book-intro-000025",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000025"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Roland and his companions follow the Path of the Beam across a world of ruins and unfamiliar dangers. The third volume expands their journey through Mid-World as the group learns to face its challenges together."
+      },
+      "sourceKeys": [
+        "book-intro-000025-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000025"
+        ]
+      },
+      "locator": "Official book overview / Synopsis: independently worded reading introduction. Later-volume outcomes, cross-book identity revelations and ending omitted.",
+      "note": "Original English visitor introduction; no copied flap text and no new identity, chronology, edition or connection claim."
+    },
+    {
+      "key": "book-intro-000034",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000034"
+      },
+      "field": "summary",
+      "value": {
+        "en": "As the quest continues, Roland looks back to the events that shaped him as a young gunslinger. Love, loyalty and the pressures of an earlier world lie at the centre of this story within the larger journey."
+      },
+      "sourceKeys": [
+        "book-intro-000034-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000034"
+        ]
+      },
+      "locator": "Official book overview / Synopsis: independently worded reading introduction. Later-volume outcomes, cross-book identity revelations and ending omitted.",
+      "note": "Original English visitor introduction; no copied flap text and no new identity, chronology, edition or connection claim."
+    },
+    {
+      "key": "book-intro-000039",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000039"
+      },
+      "field": "summary",
+      "value": {
+        "en": "A farming community asks Roland and his companions for protection from the riders who threaten its children. The fifth volume brings the gunslingers into a town whose immediate danger is tied to the wider struggle for the Tower."
+      },
+      "sourceKeys": [
+        "book-intro-000039-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000039"
+        ]
+      },
+      "locator": "Official book overview / Synopsis: independently worded reading introduction. Later-volume outcomes, cross-book identity revelations and ending omitted.",
+      "note": "Original English visitor introduction; no copied flap text and no new identity, chronology, edition or connection claim."
+    },
+    {
+      "key": "book-intro-000040",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000040"
+      },
+      "field": "summary",
+      "value": {
+        "en": "The sixth volume divides the quest between different places and times, with Susannah at the centre of a growing crisis. The companions face dangers on more than one front as the protection of the Tower becomes increasingly urgent."
+      },
+      "sourceKeys": [
+        "book-intro-000040-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000040"
+        ]
+      },
+      "locator": "Official book overview / Synopsis: independently worded reading introduction. Later-volume outcomes, cross-book identity revelations and ending omitted.",
+      "note": "Original English visitor introduction; no copied flap text and no new identity, chronology, edition or connection claim."
+    },
+    {
+      "key": "book-intro-000041",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000041"
+      },
+      "field": "summary",
+      "value": {
+        "en": "The seventh volume carries Roland’s long quest into its final stage. The journey draws together threads from the saga and the wider King universe while asking what the Tower and its pursuit have demanded."
+      },
+      "sourceKeys": [
+        "book-intro-000041-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000041"
+        ]
+      },
+      "locator": "Official book overview / Synopsis: independently worded reading introduction. Later-volume outcomes, cross-book identity revelations and ending omitted.",
+      "note": "Original English visitor introduction; no copied flap text and no new identity, chronology, edition or connection claim."
+    },
+    {
+      "key": "book-intro-000049",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000049"
+      },
+      "field": "summary",
+      "value": {
+        "en": "While sheltering from a dangerous storm, Roland tells his companions stories from his younger days. An investigation and a fairy tale unfold within that frame, adding another perspective on Mid-World and the power of storytelling."
+      },
+      "sourceKeys": [
+        "book-intro-000049-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000049"
+        ]
+      },
+      "locator": "Official book overview / Synopsis: independently worded reading introduction. Later-volume outcomes, cross-book identity revelations and ending omitted.",
+      "note": "Original English visitor introduction; no copied flap text and no new identity, chronology, edition or connection claim."
     }
   ]
 }
