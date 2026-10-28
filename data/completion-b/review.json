@@ -1279,6 +1279,66 @@
       "checkedFields": [
         "original spoiler-aware English reading introduction"
       ]
+    },
+    {
+      "key": "book-intro-wrk-000067-source",
+      "url": "https://stephenking.com/works/novel/other-worlds-than-these.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap and explicit contents: opening situation or collection scope only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000068-source",
+      "url": "https://stephenking.com/works/novella/blockade-billy.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap and explicit contents: opening situation or collection scope only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000069-source",
+      "url": "https://stephenking.com/works/comic/american-vampire.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap and explicit contents: opening situation or collection scope only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000070-source",
+      "url": "https://stephenking.com/works/nonfiction/faithful.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap and explicit contents: opening situation or collection scope only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000071-source",
+      "url": "https://stephenking.com/works/nonfiction/nightmares-in-the-sky.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap and explicit contents: opening situation or collection scope only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
     }
   ],
   "records": [
@@ -5388,6 +5448,121 @@
         "level": "premise",
         "workIds": [
           "wrk:000066"
+        ]
+      },
+      "locator": "Official work description / explicit contents; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000067",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000067"
+      },
+      "field": "summary",
+      "value": {
+        "en": "An older Jack Sawyer faces threats spreading between America and the other worlds he has travelled. The third Talisman novel brings the series’ long journey into a struggle whose stakes extend beyond a single world."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000067-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000067"
+        ]
+      },
+      "locator": "Official work description / explicit contents; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000068",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000068"
+      },
+      "field": "summary",
+      "value": {
+        "en": "A brilliant baseball player has been deliberately erased from the record books. The story looks behind the legend of William ‘Blockade Billy’ Blakely to uncover the secret that made his exceptional talent impossible to celebrate."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000068-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000068"
+        ]
+      },
+      "locator": "Official work description / explicit contents; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000069",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000069"
+      },
+      "field": "summary",
+      "value": {
+        "en": "The opening five-issue arc of this vampire comic pairs a story by Scott Snyder with a separate storyline by Stephen King, illustrated by Rafael Albuquerque. It introduces a distinct strain of vampire against an American setting."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000069-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000069"
+        ]
+      },
+      "locator": "Official work description / explicit contents; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000070",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000070"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Stephen King and Stewart O’Nan follow the Boston Red Sox through the 2004 season in game observations and correspondence. Their shared perspective as supporters captures the anxieties, rituals and excitement of following a team together."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000070-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000070"
+        ]
+      },
+      "locator": "Official work description / explicit contents; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000071",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000071"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Photographs of gargoyles and Gothic architectural details by f-stop Fitzgerald are accompanied by a text from Stephen King. The book explores the unsettling figures that watch over everyday city life."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000071-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000071"
         ]
       },
       "locator": "Official work description / explicit contents; independently worded visitor introduction.",
