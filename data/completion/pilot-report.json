@@ -20,7 +20,7 @@
     "limitBytes": 49152,
     "pageSize": 6,
     "maxEntityBytes": 26630,
-    "medianEntityBytes": 3351,
+    "medianEntityBytes": 3352,
     "maxChunkBytes": 9499,
     "searchBytes": 110989,
     "searchGzipBytes": 12279,
@@ -131,8 +131,8 @@
     },
     {
       "file": "data/wrk-000006/index.json",
-      "bytes": 3268,
-      "gzipBytes": 1100
+      "bytes": 3634,
+      "gzipBytes": 1223
     },
     {
       "file": "data/wrk-000006/plot.json",
@@ -161,8 +161,8 @@
     },
     {
       "file": "data/wrk-000008/index.json",
-      "bytes": 3286,
-      "gzipBytes": 1108
+      "bytes": 3698,
+      "gzipBytes": 1259
     },
     {
       "file": "data/wrk-000008/plot.json",
@@ -206,8 +206,8 @@
     },
     {
       "file": "data/wrk-000011/index.json",
-      "bytes": 3273,
-      "gzipBytes": 1096
+      "bytes": 3667,
+      "gzipBytes": 1235
     },
     {
       "file": "data/wrk-000011/plot.json",
@@ -236,8 +236,8 @@
     },
     {
       "file": "data/wrk-000013/index.json",
-      "bytes": 3296,
-      "gzipBytes": 1109
+      "bytes": 3711,
+      "gzipBytes": 1257
     },
     {
       "file": "data/wrk-000013/plot.json",
@@ -311,8 +311,8 @@
     },
     {
       "file": "data/wrk-000018/index.json",
-      "bytes": 2316,
-      "gzipBytes": 944
+      "bytes": 2741,
+      "gzipBytes": 1107
     },
     {
       "file": "data/wrk-000018/plot.json",
@@ -401,8 +401,8 @@
     },
     {
       "file": "data/wrk-000024/index.json",
-      "bytes": 2313,
-      "gzipBytes": 941
+      "bytes": 2730,
+      "gzipBytes": 1091
     },
     {
       "file": "data/wrk-000024/plot.json",
@@ -541,8 +541,8 @@
     },
     {
       "file": "data/wrk-000033/index.json",
-      "bytes": 2334,
-      "gzipBytes": 949
+      "bytes": 2747,
+      "gzipBytes": 1104
     },
     {
       "file": "data/wrk-000033/plot.json",
@@ -721,8 +721,8 @@
     },
     {
       "file": "data/wrk-000045/index.json",
-      "bytes": 2302,
-      "gzipBytes": 938
+      "bytes": 2721,
+      "gzipBytes": 1097
     },
     {
       "file": "data/wrk-000045/plot.json",

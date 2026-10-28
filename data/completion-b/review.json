@@ -887,6 +887,110 @@
         "edition date",
         "format"
       ]
+    },
+    {
+      "key": "book-intro-000006-source",
+      "url": "https://stephenking.com/works/novel/rage.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap, opening situation only; Rage reprint decision explicitly stated in Notes. No outcome or hidden connection included.",
+      "checkedFields": [
+        "opening premise",
+        "Rage reprint statement where applicable"
+      ]
+    },
+    {
+      "key": "book-intro-000008-source",
+      "url": "https://stephenking.com/works/novel/long-walk.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap, opening situation only; Rage reprint decision explicitly stated in Notes. No outcome or hidden connection included.",
+      "checkedFields": [
+        "opening premise",
+        "Rage reprint statement where applicable"
+      ]
+    },
+    {
+      "key": "book-intro-000011-source",
+      "url": "https://stephenking.com/works/novel/roadwork.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap, opening situation only; Rage reprint decision explicitly stated in Notes. No outcome or hidden connection included.",
+      "checkedFields": [
+        "opening premise",
+        "Rage reprint statement where applicable"
+      ]
+    },
+    {
+      "key": "book-intro-000013-source",
+      "url": "https://stephenking.com/works/novel/running-man.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap, opening situation only; Rage reprint decision explicitly stated in Notes. No outcome or hidden connection included.",
+      "checkedFields": [
+        "opening premise",
+        "Rage reprint statement where applicable"
+      ]
+    },
+    {
+      "key": "book-intro-000018-source",
+      "url": "https://stephenking.com/works/novel/thinner.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap, opening situation only; Rage reprint decision explicitly stated in Notes. No outcome or hidden connection included.",
+      "checkedFields": [
+        "opening premise",
+        "Rage reprint statement where applicable"
+      ]
+    },
+    {
+      "key": "book-intro-000024-source",
+      "url": "https://stephenking.com/works/novel/dark-half.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap, opening situation only; Rage reprint decision explicitly stated in Notes. No outcome or hidden connection included.",
+      "checkedFields": [
+        "opening premise",
+        "Rage reprint statement where applicable"
+      ]
+    },
+    {
+      "key": "book-intro-000033-source",
+      "url": "https://stephenking.com/works/novel/regulators.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap, opening situation only; Rage reprint decision explicitly stated in Notes. No outcome or hidden connection included.",
+      "checkedFields": [
+        "opening premise",
+        "Rage reprint statement where applicable"
+      ]
+    },
+    {
+      "key": "book-intro-000045-source",
+      "url": "https://stephenking.com/works/novel/blaze.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap, opening situation only; Rage reprint decision explicitly stated in Notes. No outcome or hidden connection included.",
+      "checkedFields": [
+        "opening premise",
+        "Rage reprint statement where applicable"
+      ]
     }
   ],
   "records": [
@@ -4264,6 +4368,190 @@
       },
       "locator": "Official work Synopsis / From the Flap; original wording, no ending or hidden identity.",
       "note": "Premise-only visitor copy; existing authors, series, dates and other fields remain separately evidenced."
+    },
+    {
+      "key": "book-intro-000006",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000006"
+      },
+      "field": "summary",
+      "value": {
+        "en": "A high-school student holds a classroom hostage through a tense afternoon of confrontation. The novel explores anger and coercion; King has asked that it receive no further printings."
+      },
+      "sourceKeys": [
+        "book-intro-000006-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000006"
+        ]
+      },
+      "locator": "Official novel Synopsis / From the Flap and stated reprint note; original editorial wording, no ending.",
+      "note": "Visitor introduction only. Existing Richard Bachman pseudonym and Stephen King person identity remain unchanged."
+    },
+    {
+      "key": "book-intro-000008",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000008"
+      },
+      "field": "summary",
+      "value": {
+        "en": "One hundred teenage boys take part in a walking contest in an authoritarian America, where falling behind carries fatal consequences. Endurance, fear and friendship shape a competition that promises everything to its sole winner."
+      },
+      "sourceKeys": [
+        "book-intro-000008-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000008"
+        ]
+      },
+      "locator": "Official novel Synopsis / From the Flap and stated reprint note; original editorial wording, no ending.",
+      "note": "Visitor introduction only. Existing Richard Bachman pseudonym and Stephen King person identity remain unchanged."
+    },
+    {
+      "key": "book-intro-000011",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000011"
+      },
+      "field": "summary",
+      "value": {
+        "en": "A highway development threatens both Barton Dawes’s home and his working life. His refusal to surrender what he has built grows into an increasingly desperate confrontation with the forces reshaping his world."
+      },
+      "sourceKeys": [
+        "book-intro-000011-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000011"
+        ]
+      },
+      "locator": "Official novel Synopsis / From the Flap and stated reprint note; original editorial wording, no ending.",
+      "note": "Visitor introduction only. Existing Richard Bachman pseudonym and Stephen King person identity remain unchanged."
+    },
+    {
+      "key": "book-intro-000013",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000013"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Desperate to pay for his daughter’s medical care, Ben Richards enters a televised competition that makes him the target of a nationwide hunt. Survival depends on staying ahead of the pursuers and a public encouraged to betray him."
+      },
+      "sourceKeys": [
+        "book-intro-000013-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000013"
+        ]
+      },
+      "locator": "Official novel Synopsis / From the Flap and stated reprint note; original editorial wording, no ending.",
+      "note": "Visitor introduction only. Existing Richard Bachman pseudonym and Stephen King person identity remain unchanged."
+    },
+    {
+      "key": "book-intro-000018",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000018"
+      },
+      "field": "summary",
+      "value": {
+        "en": "After a fatal road accident, a well-connected lawyer avoids serious punishment but begins losing weight at an impossible rate. His search for an explanation becomes a confrontation with guilt, revenge and the price of escaping responsibility."
+      },
+      "sourceKeys": [
+        "book-intro-000018-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000018"
+        ]
+      },
+      "locator": "Official novel Synopsis / From the Flap and stated reprint note; original editorial wording, no ending.",
+      "note": "Visitor introduction only. Existing Richard Bachman pseudonym and Stephen King person identity remain unchanged."
+    },
+    {
+      "key": "book-intro-000024",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000024"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Writer Thad Beaumont publicly retires the pseudonym behind his successful crime novels. A series of violent crimes then threatens his family and reputation, blurring the boundary between an invented author and the man who created him."
+      },
+      "sourceKeys": [
+        "book-intro-000024-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000024"
+        ]
+      },
+      "locator": "Official novel Synopsis / From the Flap and stated reprint note; original editorial wording, no ending.",
+      "note": "Visitor introduction only. Existing Richard Bachman pseudonym and Stephen King person identity remain unchanged."
+    },
+    {
+      "key": "book-intro-000033",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000033"
+      },
+      "field": "summary",
+      "value": {
+        "en": "An ordinary suburban afternoon collapses into terror when armed strangers descend on a quiet Ohio street. As the surroundings themselves begin to change, the trapped neighbours face a reality that no longer follows familiar rules."
+      },
+      "sourceKeys": [
+        "book-intro-000033-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000033"
+        ]
+      },
+      "locator": "Official novel Synopsis / From the Flap and stated reprint note; original editorial wording, no ending.",
+      "note": "Visitor introduction only. Existing Richard Bachman pseudonym and Stephen King person identity remain unchanged."
+    },
+    {
+      "key": "book-intro-000045",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000045"
+      },
+      "field": "summary",
+      "value": {
+        "en": "A small-time criminal attempts to kidnap a wealthy family’s baby, guided by memories of his former partner. His growing attachment to the child brings the damage of his own upbringing into a crime story about vulnerability and choice."
+      },
+      "sourceKeys": [
+        "book-intro-000045-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000045"
+        ]
+      },
+      "locator": "Official novel Synopsis / From the Flap and stated reprint note; original editorial wording, no ending.",
+      "note": "Visitor introduction only. Existing Richard Bachman pseudonym and Stephen King person identity remain unchanged."
     }
   ]
 }

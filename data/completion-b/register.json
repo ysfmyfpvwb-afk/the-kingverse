@@ -514,6 +514,14 @@
     "claim/edition-08/publisher": "clm:008519",
     "claim/edition-08/publicationDate": "clm:008520",
     "claim/edition-08/format": "clm:008521",
-    "claim/edition-08/identityStatus": "clm:008522"
+    "claim/edition-08/identityStatus": "clm:008522",
+    "claim/book-intro-000006": "clm:008523",
+    "claim/book-intro-000008": "clm:008524",
+    "claim/book-intro-000011": "clm:008525",
+    "claim/book-intro-000013": "clm:008526",
+    "claim/book-intro-000018": "clm:008527",
+    "claim/book-intro-000024": "clm:008528",
+    "claim/book-intro-000033": "clm:008529",
+    "claim/book-intro-000045": "clm:008530"
   }
 }
