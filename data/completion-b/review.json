@@ -1183,6 +1183,102 @@
       "checkedFields": [
         "original spoiler-aware English reading introduction"
       ]
+    },
+    {
+      "key": "book-intro-wrk-000047-source",
+      "url": "https://stephenking.com/works/novel/under-the-dome.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap and explicit contents: opening situation or collection scope only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000050-source",
+      "url": "https://stephenking.com/works/novel/joyland.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap and explicit contents: opening situation or collection scope only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000053-source",
+      "url": "https://stephenking.com/works/novel/revival.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap and explicit contents: opening situation or collection scope only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000059-source",
+      "url": "https://stephenking.com/works/novella/elevation.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap and explicit contents: opening situation or collection scope only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000061-source",
+      "url": "https://stephenking.com/works/novel/later.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap and explicit contents: opening situation or collection scope only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000062-source",
+      "url": "https://stephenking.com/works/novel/billy-summers.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap and explicit contents: opening situation or collection scope only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000064-source",
+      "url": "https://stephenking.com/works/novel/fairy-tale.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap and explicit contents: opening situation or collection scope only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000066-source",
+      "url": "https://stephenking.com/works/novel/never-flinch.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Synopsis / From the Flap and explicit contents: opening situation or collection scope only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
     }
   ],
   "records": [
@@ -5108,6 +5204,190 @@
         "level": "premise",
         "workIds": [
           "wrk:000046"
+        ]
+      },
+      "locator": "Official work description / explicit contents; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000047",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000047"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Chester’s Mill is suddenly sealed off by an invisible barrier, separating families and cutting the town off from outside help. Residents try to understand what has happened while competing ideas of leadership turn the emergency into a struggle for control."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000047-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000047"
+        ]
+      },
+      "locator": "Official work description / explicit contents; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000050",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000050"
+      },
+      "field": "summary",
+      "value": {
+        "en": "College student Devin Jones takes a summer job at an amusement park after a broken romance. New friendships and the unsolved murder associated with the park’s haunted attraction draw him into a coming-of-age story shaped by mystery, love and loss."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000050-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000050"
+        ]
+      },
+      "locator": "Official work description / explicit contents; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000053",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000053"
+      },
+      "field": "summary",
+      "value": {
+        "en": "A musician’s life repeatedly intersects with that of a charismatic minister whose beliefs have been shattered by loss. Their shared history draws them towards an obsessive search for answers about life, death and what might lie beyond."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000053-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000053"
+        ]
+      },
+      "locator": "Official work description / explicit contents; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000059",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000059"
+      },
+      "field": "summary",
+      "value": {
+        "en": "A Castle Rock man finds his weight dropping even though his body does not change. His attempts to understand the condition and help neighbours facing prejudice turn the mystery into a story about finding common ground."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000059-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000059"
+        ]
+      },
+      "locator": "Official work description / explicit contents; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000061",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000061"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Jamie Conklin’s unusual ability brings him into contact with the dead. Drawn into a detective’s pursuit of a dangerous killer, he discovers that using the gift can carry a personal cost."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000061-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000061"
+        ]
+      },
+      "locator": "Official work description / explicit contents; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000062",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000062"
+      },
+      "field": "summary",
+      "value": {
+        "en": "A professional killer with a strict personal code accepts one last assignment before retiring. His attempt to leave violence behind becomes a story of luck, trust and the possibility of redemption."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000062-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000062"
+        ]
+      },
+      "locator": "Official work description / explicit contents; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000064",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000064"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Teenager Charlie Reade befriends an elderly neighbour and his dog, Radar, before discovering a way into another world. The bond leads him into a fantasy adventure where the dangers of that realm reach towards his own."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000064-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000064"
+        ]
+      },
+      "locator": "Official work description / explicit contents; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000066",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000066"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Holly Gibney is asked to help with a threatening letter while protecting a touring women’s rights activist from an increasingly bold stalker. Two strands of suspense follow the escalating danger around the people she is trying to help."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000066-source"
+      ],
+      "checked": "2026-10-28",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000066"
         ]
       },
       "locator": "Official work description / explicit contents; independently worded visitor introduction.",
