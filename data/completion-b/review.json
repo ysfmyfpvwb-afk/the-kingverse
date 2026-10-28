@@ -714,6 +714,35 @@
       "checkedFields": [
         "opening premise for original editorial description"
       ]
+    },
+    {
+      "key": "gwendy-feather-publisher",
+      "url": "https://www.cemeterydance.com/gwendys-magic-feather.html",
+      "publisher": "Cemetery Dance Publications",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Author Richard Chizmar; foreword by Stephen King; Ben Baldwin cover artwork; Keith Minnion interior artwork; Trade Hardcover, ISBN 9781587677311; November 19 2019; opening premise only.",
+      "checkedFields": [
+        "work identity and text author",
+        "foreword and illustration roles",
+        "specific English hardcover edition",
+        "publisher release date",
+        "premise"
+      ]
+    },
+    {
+      "key": "gwendy-trilogy-publisher",
+      "url": "https://www.simonandschuster.com/series/Gwendys-Button-Box-Trilogy",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-28",
+      "access": "available",
+      "locator": "Read Gwendy’s Button Box Trilogy Books in Order; complete trilogy names Gwendy’s Button Box, Gwendy’s Magic Feather and Gwendy’s Final Task in sequence.",
+      "checkedFields": [
+        "three distinct titles",
+        "series membership and order"
+      ]
     }
   ],
   "records": [
@@ -2217,6 +2246,275 @@
         "edition-05-source"
       ],
       "note": "Specific publisher-identified English edition, separate from existing incomplete cover examples. No first-printing claim, new literary identity or inferred cover association."
+    },
+    {
+      "key": "gwendy-feather-work",
+      "entityType": "work",
+      "checked": "2026-10-28",
+      "kind": "novel",
+      "originalTitle": "Gwendy's Magic Feather",
+      "originalLanguage": "en",
+      "aliases": [],
+      "summary": {
+        "en": "Richard Chizmar returns to Castle Rock with an adult Gwendy Peterson, whose mysterious button box reappears as children vanish from her hometown. The middle novel of the Gwendy trilogy includes a foreword by Stephen King."
+      },
+      "sourceKeys": [
+        "gwendy-feather-publisher",
+        "gwendy-trilogy-publisher"
+      ],
+      "note": "Distinct novel by Richard Chizmar, with Stephen King writing the foreword. King is not a co-author of the novel text."
+    },
+    {
+      "key": "gwendy-cover-artist",
+      "entityType": "person",
+      "checked": "2026-10-28",
+      "name": "Ben Baldwin",
+      "aliases": [],
+      "pseudonyms": [],
+      "externalIds": {},
+      "sourceKeys": [
+        "gwendy-feather-publisher"
+      ],
+      "note": "Publisher-listed fields only; no cover image imported."
+    },
+    {
+      "key": "gwendy-interior-artist",
+      "entityType": "person",
+      "checked": "2026-10-28",
+      "name": "Keith Minnion",
+      "aliases": [],
+      "pseudonyms": [],
+      "externalIds": {},
+      "sourceKeys": [
+        "gwendy-feather-publisher"
+      ],
+      "note": "Publisher-listed fields only; no cover image imported."
+    },
+    {
+      "key": "gwendy-feather-edition",
+      "entityType": "edition",
+      "checked": "2026-10-28",
+      "publicationOf": {
+        "type": "work",
+        "key": "gwendy-feather-work"
+      },
+      "language": "en",
+      "title": "Gwendy's Magic Feather",
+      "isbn13": "9781587677311",
+      "publisher": "Cemetery Dance Publications",
+      "publicationDate": {
+        "value": "2019-11-19",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": "US"
+      },
+      "format": "Trade Hardcover",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "open": [
+        "No asset linked to this identified edition."
+      ],
+      "sourceKeys": [
+        "gwendy-feather-publisher"
+      ],
+      "note": "Publisher-listed fields only; no cover image imported."
+    },
+    {
+      "key": "gwendy-feather-publication",
+      "entityType": "publication",
+      "checked": "2026-10-28",
+      "subject": {
+        "type": "work",
+        "key": "gwendy-feather-work"
+      },
+      "eventType": "edition-publication",
+      "date": {
+        "value": "2019-11-19",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": "US"
+      },
+      "editionId": "edn:000160",
+      "part": null,
+      "publisher": "Cemetery Dance Publications",
+      "sourceKeys": [
+        "gwendy-feather-publisher"
+      ],
+      "note": "Publisher-listed fields only; no cover image imported."
+    },
+    {
+      "key": "gwendy-series",
+      "entityType": "series",
+      "checked": "2026-10-28",
+      "name": "Gwendy Trilogy",
+      "aliases": [],
+      "seriesKind": "literary-series",
+      "scope": "Gwendy’s Button Box; Gwendy’s Magic Feather; Gwendy’s Final Task. The middle novel is written by Richard Chizmar with a Stephen King foreword.",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "gwendy-trilogy-publisher",
+        "gwendy-feather-publisher"
+      ],
+      "note": "Series grouping does not give every contributor authorship of every volume."
+    },
+    {
+      "key": "gwendy-feather-author",
+      "entityType": "credit",
+      "checked": "2026-10-28",
+      "personId": "per:000004",
+      "subject": {
+        "type": "work",
+        "key": "gwendy-feather-work"
+      },
+      "role": "author",
+      "creditedAs": null,
+      "scope": "Novel text by Richard Chizmar",
+      "characterId": null,
+      "sourceKeys": [
+        "gwendy-feather-publisher"
+      ],
+      "note": "Publisher-listed fields only; no cover image imported."
+    },
+    {
+      "key": "gwendy-feather-foreword",
+      "entityType": "credit",
+      "checked": "2026-10-28",
+      "personId": "per:000001",
+      "subject": {
+        "type": "work",
+        "key": "gwendy-feather-work"
+      },
+      "role": "foreword",
+      "creditedAs": null,
+      "scope": "Foreword by Stephen King; not coauthor of the novel text",
+      "characterId": null,
+      "sourceKeys": [
+        "gwendy-feather-publisher"
+      ],
+      "note": "Publisher-listed fields only; no cover image imported."
+    },
+    {
+      "key": "gwendy-feather-cover",
+      "entityType": "credit",
+      "checked": "2026-10-28",
+      "personId": "per:000050",
+      "subject": {
+        "type": "work",
+        "key": "gwendy-feather-work"
+      },
+      "role": "illustrator",
+      "creditedAs": null,
+      "scope": "Cover artwork by Ben Baldwin",
+      "characterId": null,
+      "sourceKeys": [
+        "gwendy-feather-publisher"
+      ],
+      "note": "Publisher-listed fields only; no cover image imported."
+    },
+    {
+      "key": "gwendy-feather-interior",
+      "entityType": "credit",
+      "checked": "2026-10-28",
+      "personId": "per:000051",
+      "subject": {
+        "type": "work",
+        "key": "gwendy-feather-work"
+      },
+      "role": "illustrator",
+      "creditedAs": null,
+      "scope": "Interior illustrations by Keith Minnion",
+      "characterId": null,
+      "sourceKeys": [
+        "gwendy-feather-publisher"
+      ],
+      "note": "Publisher-listed fields only; no cover image imported."
+    },
+    {
+      "key": "gwendy-membership-1",
+      "entityType": "connection",
+      "checked": "2026-10-28",
+      "from": {
+        "type": "work",
+        "id": "wrk:000057"
+      },
+      "predicate": "part_of_series",
+      "to": {
+        "type": "series",
+        "key": "gwendy-series"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Gwendy’s Button Box opens the trilogy, introducing Gwendy Peterson and the mysterious box."
+      },
+      "seriesPosition": 1,
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "gwendy-trilogy-publisher",
+        "gwendy-feather-publisher"
+      ],
+      "note": "Verified reading sequence; authorship remains attached to each individual work."
+    },
+    {
+      "key": "gwendy-membership-2",
+      "entityType": "connection",
+      "checked": "2026-10-28",
+      "from": {
+        "type": "work",
+        "key": "gwendy-feather-work"
+      },
+      "predicate": "part_of_series",
+      "to": {
+        "type": "series",
+        "key": "gwendy-series"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Gwendy’s Magic Feather is the second volume, written by Richard Chizmar with a foreword by Stephen King."
+      },
+      "seriesPosition": 2,
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "gwendy-trilogy-publisher",
+        "gwendy-feather-publisher"
+      ],
+      "note": "Verified reading sequence; authorship remains attached to each individual work."
+    },
+    {
+      "key": "gwendy-membership-3",
+      "entityType": "connection",
+      "checked": "2026-10-28",
+      "from": {
+        "type": "work",
+        "id": "wrk:000063"
+      },
+      "predicate": "part_of_series",
+      "to": {
+        "type": "series",
+        "key": "gwendy-series"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Gwendy’s Final Task is the third volume of the trilogy."
+      },
+      "seriesPosition": 3,
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "gwendy-trilogy-publisher",
+        "gwendy-feather-publisher"
+      ],
+      "note": "Verified reading sequence; authorship remains attached to each individual work."
     }
   ],
   "deferred": [

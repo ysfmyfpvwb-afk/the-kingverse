@@ -5,7 +5,7 @@ const {extendCompletionB,validateCompletionB}=require('../scripts/completion_b.c
 const base=loadCompletion(),before=structuredClone(base),bundle=extendCompletionB(base);
 test('Bounded B additions preserve every prior identity, record, alias and manifest',()=>{
  assert.deepEqual(base,before);assert.deepEqual(validateCompletionB(bundle,base),[]);
- assert.equal(bundle.characters.length-base.characters.length,3);assert.equal(bundle.locations.length-base.locations.length,1);assert.equal(bundle.series.length-base.series.length,2);assert.equal(bundle.adaptations.length-base.adaptations.length,10);assert.equal(bundle.connections.length-base.connections.length,20);
+ assert.equal(bundle.characters.length-base.characters.length,3);assert.equal(bundle.locations.length-base.locations.length,1);assert.equal(bundle.series.length-base.series.length,3);assert.equal(bundle.adaptations.length-base.adaptations.length,10);assert.equal(bundle.connections.length-base.connections.length,23);
  assert.throws(()=>extendCompletionB(bundle),/collision|already exists/);
 });
 test('The Hodges sequence links exactly the three existing novels with supported positions',()=>{
@@ -76,8 +76,8 @@ test('Reviewed book introductions enrich existing identities with field-scoped e
 });
 
 test('Five publisher-identified English editions preserve all earlier edition and artwork bindings',()=>{
- assert.equal(bundle.editions.length,159);for(const old of base.editions)assert.deepEqual(bundle.editions.find(e=>e.id===old.id),old);assert.deepEqual(bundle.artworks,base.artworks);
- for(const e of bundle.editions.slice(-5)){assert.equal(e.language,'en');assert.equal(e.identityStatus,'identified');assert.equal(e.publisher,'Scribner');assert.equal(e.publicationDate.meaning,'edition-publication');assert.equal(e.publicationDate.precision,'day');assert.ok(base.works.some(w=>w.id===e.publicationOf.id));assert.equal(new Set(bundle.editions.filter(x=>x.isbn13).map(x=>x.isbn13)).size,bundle.editions.filter(x=>x.isbn13).length);}
+ assert.equal(bundle.editions.length,160);for(const old of base.editions)assert.deepEqual(bundle.editions.find(e=>e.id===old.id),old);assert.deepEqual(bundle.artworks,base.artworks);
+ for(const e of bundle.editions.filter(e=>['edn:000155','edn:000156','edn:000157','edn:000158','edn:000159'].includes(e.id))){assert.equal(e.language,'en');assert.equal(e.identityStatus,'identified');assert.equal(e.publisher,'Scribner');assert.equal(e.publicationDate.meaning,'edition-publication');assert.equal(e.publicationDate.precision,'day');assert.ok(base.works.some(w=>w.id===e.publicationOf.id));assert.equal(new Set(bundle.editions.filter(x=>x.isbn13).map(x=>x.isbn13)).size,bundle.editions.filter(x=>x.isbn13).length);}
  assert.equal(bundle.editions.find(e=>e.id==='edn:000155').isbn13,'9781982159375');assert.equal(bundle.editions.find(e=>e.id==='edn:000159').format,'Hardcover');assert.equal(bundle.editions.find(e=>e.id==='edn:000088').isbn13,null);
  const invalid=structuredClone(bundle);invalid.editions.at(-1).isbn13='9781982112395';assert.ok(validateCompletionB(invalid,base).some(e=>e.code==='b-isbn-checksum'));
 });
@@ -86,4 +86,11 @@ test('Thirty visitor-facing connection copyedits preserve evidence, uncertainty 
  const edits=require('../data/completion-b/review.json').enrichments.filter(e=>e.subject.type==='connection');assert.equal(edits.length,30);
  for(const e of edits){const old=base.connections.find(c=>c.id===e.subject.id),c=bundle.connections.find(c=>c.id===old.id);for(const k of ['from','to','predicate','certainty','spoiler'])assert.deepEqual(c[k],old[k]);assert.equal(c.explanation.en,e.value.en);assert.doesNotMatch(c.explanation.en,/literary-source field|scene-for-scene|primary wording|production scope|explicitly scoped/);for(const id of e.evidenceFromClaimIds){const oldClaim=base.claims.find(c=>c.id===id),retained=bundle.claims.find(c=>c.id===id);assert.deepEqual(retained,{...oldClaim,selected:false});}if(c.certainty==='strongly-implied')assert.match(c.explanation.en,/uncertain/);}
  const c=structuredClone(bundle);c.connections.find(r=>r.id==='rel:000018').certainty='explicit';assert.ok(validateCompletionB(c,base).some(e=>e.code==='b-baseline-record-changed'));
+});
+
+test('Gwendy’s middle novel has one identity, Chizmar authorship and a separately credited King foreword',()=>{
+ const work=bundle.works.find(w=>w.id==='wrk:000250');assert.equal(work.originalTitle,"Gwendy's Magic Feather");assert.equal(bundle.works.filter(w=>w.originalTitle===work.originalTitle).length,1);
+ const credits=bundle.credits.filter(c=>c.subject.id===work.id);assert.deepEqual(credits.filter(c=>c.role==='author').map(c=>c.personId),['per:000004']);assert.equal(credits.find(c=>c.personId==='per:000001').role,'foreword');assert.equal(credits.filter(c=>c.role==='illustrator').length,2);assert.ok(!credits.some(c=>c.role==='coauthor'));
+ assert.deepEqual(bundle.connections.filter(c=>c.to.id==='ser:000005').map(c=>[c.from.id,c.seriesPosition]),[['wrk:000057',1],['wrk:000250',2],['wrk:000063',3]]);
+ const e=bundle.editions.find(e=>e.id==='edn:000160');assert.equal(e.publicationOf.id,work.id);assert.equal(e.isbn13,'9781587677311');assert.equal(e.publicationDate.value,'2019-11-19');assert.equal(bundle.publicationEvents.find(p=>p.id==='pub:000258').editionId,e.id);
 });

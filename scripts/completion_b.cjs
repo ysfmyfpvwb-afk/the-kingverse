@@ -3,7 +3,7 @@
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
 const {ROOT}=require('./validate_foundation.cjs');
 const read=p=>JSON.parse(fs.readFileSync(path.join(ROOT,p),'utf8'));
-const tables={adaptation:'adaptations',edition:'editions',character:'characters',location:'locations',series:'series',connection:'connections',source:'sources',claim:'claims'};
+const tables={work:'works',person:'people',credit:'credits',publication:'publicationEvents',adaptation:'adaptations',edition:'editions',character:'characters',location:'locations',series:'series',connection:'connections',source:'sources',claim:'claims'};
 const METADATA=new Set(['key','entityType','sourceKeys','fieldSourceKeys','conflicts','checked','note','open']);
 function extendCompletionB(input){
  const bundle=structuredClone(input),review=read('data/completion-b/review.json'),registry=read('data/completion-b/register.json');
@@ -14,7 +14,7 @@ function extendCompletionB(input){
  function add(r){if(map.has(r.id)||registered.has(r.id))throw Error('B allocation collision '+r.id);bundle[tables[r.entityType]].push(r);bundle.registry.entries.push({id:r.id,type:r.entityType});registered.add(r.id);map.set(r.id,r);}
  const sources=new Map(bundle.sources.map(s=>[s.url,s.id])),sourceKeys=new Map();
  for(const s of review.sources){
-  if(s.access!=='available'||![review.checked,...review.records.map(d=>d.checked)].includes(s.observedAt)||!['stephenking.com','www.universalpicturesathome.com','www.syfy.com','www.amcglobalmedia.com','www.miramax.com','catalog.afi.com','tv.apple.com','www.paramountmovies.com','www.netflix.com','www.amctheatres.com','www.simonandschuster.com'].includes(new URL(s.url).hostname))throw Error('B evidence source not reviewed '+s.key);
+  if(s.access!=='available'||![review.checked,...review.records.map(d=>d.checked)].includes(s.observedAt)||!['stephenking.com','www.universalpicturesathome.com','www.syfy.com','www.amcglobalmedia.com','www.miramax.com','catalog.afi.com','tv.apple.com','www.paramountmovies.com','www.netflix.com','www.amctheatres.com','www.simonandschuster.com','www.cemeterydance.com'].includes(new URL(s.url).hostname))throw Error('B evidence source not reviewed '+s.key);
   if(!sources.has(s.url)){const r={id:id('source',s.key),entityType:'source',url:s.url,publisher:s.publisher||'StephenKing.com',sourceType:s.sourceType,publishedAt:null,observedAt:s.observedAt,access:s.access,snapshotRef:'data/completion-b/review.json#/sources/'+s.key,notes:'Field-limited official-source review. No biography, copied synopsis, outcomes or images retained.'};add(r);sources.set(s.url,r.id);}
   sourceKeys.set(s.key,sources.get(s.url));
  }
@@ -23,8 +23,9 @@ function extendCompletionB(input){
   const record={id:id(d.entityType,d.key),entityType:d.entityType,verification:{claimIds:[],open:[...(d.open||[])]}};
   // Identity is explicitly reviewed; names never trigger an automatic merge.
   if(d.entityType==='adaptation'&&bundle.adaptations.some(a=>a.title===d.title&&a.releaseYear===d.releaseYear&&a.format===d.format))throw Error('B production already exists; review exact production binding '+d.title);
+  if(d.entityType==='work'&&bundle.works.some(w=>w.originalTitle===d.originalTitle))throw Error('B work already exists; reuse its identity '+d.originalTitle);
   if(d.name&&Object.values(bundle).filter(Array.isArray).flat().some(r=>r.name===d.name&&r.entityType===d.entityType))throw Error('B identity already exists; review register instead of merging '+d.name);
-  for(const [field,value]of Object.entries(d))if(!METADATA.has(field))record[field]=['from','to'].includes(field)?resolve(value):field==='statusHistory'?value.map(h=>({...h,claimIds:h.claimIds.map(k=>id('claim',k))})):structuredClone(value);
+  for(const [field,value]of Object.entries(d))if(!METADATA.has(field))record[field]=['from','to','subject','publicationOf'].includes(field)?resolve(value):field==='statusHistory'?value.map(h=>({...h,claimIds:h.claimIds.map(k=>id('claim',k))})):structuredClone(value);
   add(record);
   const refs=d.sourceKeys.map(k=>{const s=sourceKeys.get(k);if(!s)throw Error('Unknown B source key '+k);return s;});
   for(const [field,value]of Object.entries(record)){
@@ -77,7 +78,7 @@ function validateCompletionB(bundle,baseline){
   const evidence=new Set(d.sourceKeys.map(k=>review.sources.find(s=>s.key===k).url));
   for(const [field,value]of Object.entries(d)){
    if(METADATA.has(field))continue;
-   const expected=['from','to'].includes(field)&&value.key?{type:value.type,id:reg.allocations[value.type+'/'+value.key]}:field==='statusHistory'?value.map(h=>({...h,claimIds:h.claimIds.map(k=>reg.allocations['claim/'+k])})):value;
+   const expected=['from','to','subject','publicationOf'].includes(field)&&value.key?{type:value.type,id:reg.allocations[value.type+'/'+value.key]}:field==='statusHistory'?value.map(h=>({...h,claimIds:h.claimIds.map(k=>reg.allocations['claim/'+k])})):value;
    try{assert.deepEqual(r[field],expected);}catch{fail('b-review-difference',r.id+'/'+field);}
    if(value===null||Array.isArray(value)&&!value.length)continue;
    const cid=reg.allocations['claim/'+d.key+'/'+field],c=map.get(cid);
@@ -96,13 +97,16 @@ function validateCompletionB(bundle,baseline){
   }
   if(r.entityType==='adaptation')for(const h of r.statusHistory){if(h.claimIds.some(id=>map.get(id)?.subject.id!==r.id||map.get(id)?.fieldPath!=='/statusHistory'))fail('b-status-evidence',r.id);}
   if(r.entityType==='character'&&(r.aliases.length||r.spoiler.level!=='none'))fail('b-character-spoiler',r.id);
+  if(r.subject&&map.get(r.subject.id)?.entityType!==r.subject.type)fail('b-subject',r.id);
+  if(r.entityType==='credit'&&map.get(r.personId)?.entityType!=='person')fail('b-maker',r.id);
+  if(r.entityType==='publication'&&r.editionId&&map.get(r.editionId)?.entityType!=='edition')fail('b-publication-edition',r.id);
  }
  if(baseline){
   for(const [table,rows]of Object.entries(baseline).filter(([,rows])=>Array.isArray(rows))){for(const r of rows){const next=bundle[table].find(x=>x.id===r.id),expected=structuredClone(r),e=editorial.get(r.id);if(['works','connections'].includes(table)&&e){expected[e.field]=structuredClone(e.value);expected.verification.claimIds.push(reg.allocations['claim/'+e.key]);}if(table==='claims'&&editorial.has(r.subject.id)&&r.fieldPath==='/'+editorial.get(r.subject.id).field)expected.selected=false;try{assert.deepEqual(next,expected);}catch{fail('b-baseline-record-changed',r.id);}}}
   try{assert.deepEqual(bundle.registry.aliases,baseline.registry.aliases);assert.deepEqual(bundle.manifest,baseline.manifest);}catch{fail('b-baseline-metadata-changed','Existing aliases/manifest changed');}
-  if(bundle.characters.length-baseline.characters.length!==3||bundle.locations.length-baseline.locations.length!==1||bundle.series.length-baseline.series.length!==2||bundle.connections.length-baseline.connections.length!==20||bundle.adaptations.length-baseline.adaptations.length!==10)fail('b-batch-boundary','Reviewed scope: three characters, one location, two series, ten screen productions and twenty links');
-  if(bundle.editions.length-baseline.editions.length!==5)fail('b-edition-boundary','Exactly five reviewed English editions');
-  for(const t of ['works','collections','people','artworks'])if(bundle[t].length!==baseline[t].length)fail('b-out-of-scope-addition',t);
+  if(bundle.characters.length-baseline.characters.length!==3||bundle.locations.length-baseline.locations.length!==1||bundle.series.length-baseline.series.length!==3||bundle.connections.length-baseline.connections.length!==23||bundle.adaptations.length-baseline.adaptations.length!==10)fail('b-batch-boundary','Reviewed scope: three characters, one location, three series, ten screen productions and twenty-three links');
+  if(bundle.editions.length-baseline.editions.length!==6)fail('b-edition-boundary','Exactly six reviewed English editions');
+  for(const [t,count]of Object.entries({works:1,people:2,credits:4,publicationEvents:1,collections:0,artworks:0}))if(bundle[t].length-baseline[t].length!==count)fail('b-out-of-scope-addition',t);
  }
  return errors;
 }
