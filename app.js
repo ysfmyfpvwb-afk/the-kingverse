@@ -1,4 +1,10 @@
 'use strict';
+// Apply generated shared-catalog additions while preserving every legacy ID.
+if(typeof CATALOG_UPDATES!=='undefined')for(const [group,change]of Object.entries(CATALOG_UPDATES)){
+ const rows=DB[group];for(const update of change.update){const row=update.id?rows.find(r=>r.id===update.id):rows[update.index];if(row)Object.assign(row,update.fields);}
+ for(const row of change.add)if(!rows.some(r=>r.id===row.id))rows.push(row);
+}
+
 const $ = id => document.getElementById(id);
 const safe = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const norm = value => String(value || '').normalize('NFKC').replace(/[’‘]/g, "'").toLocaleLowerCase('en');
@@ -13,7 +19,7 @@ const tr = (nl, en) => lang === 'nl' ? nl : en;
 // The generated catalog already resolves works, editions, memberships and source conflicts.
 const B = DB.books, S = DB.stories, F = DB.films, T = DB.tower;
 const translations = {
-  'Roman / novelle':'Novel / novella', 'Roman':'Novel', 'Novelle':'Novella', 'Verhaal':'Short story', 'Gedicht':'Poem', 'Scenario':'Screenplay', 'Bijdrage':'Contribution', 'Non-fictie':'Nonfiction', 'Strip':'Comic', 'Fotoboek':'Photobook', 'Musical':'Musical', 'Bijdragenbundel':'Contributed collection', 'Prequel':'Prequel', 'Vervolgfilm':'Sequel', 'Nog te verifiëren':'Not yet verified', 'Verhalenbundel':'Story collection', 'Bundel / verzameling':'Collection', 'Film':'Film',
+  'Essay':'Essay','Kinderboek':'Picture book','Roman / novelle':'Novel / novella', 'Roman':'Novel', 'Novelle':'Novella', 'Verhaal':'Short story', 'Gedicht':'Poem', 'Scenario':'Screenplay', 'Bijdrage':'Contribution', 'Non-fictie':'Nonfiction', 'Strip':'Comic', 'Fotoboek':'Photobook', 'Musical':'Musical', 'Bijdragenbundel':'Contributed collection', 'Prequel':'Prequel', 'Vervolgfilm':'Sequel','Geïnspireerd door film':'Inspired by a film', 'Nog te verifiëren':'Not yet verified', 'Verhalenbundel':'Story collection', 'Bundel / verzameling':'Collection', 'Film':'Film',
   'Televisie':'Television · format unverified', 'Televisiefilm':'TV movie', 'Televisieserie':'TV series', 'Miniserie':'Miniseries',
   'Romanadaptatie':'Novel adaptation', 'Los geïnspireerd door':'Loosely inspired by', 'Gebaseerd op personages uit de roman':'Based on characters from the novel', 'Gebaseerd op / geïnspireerd door':'Based on / inspired by', 'Origineel scenario':'Original screenplay',
   'Hoofdreeks':'Core series', 'Tussenboek':'Interquel', 'Roland-verhaal':'Roland story', 'Personage':'Character', 'Kosmologie':'Cosmology', 'Thematisch':'Thematic',
@@ -37,7 +43,7 @@ const summaries = {
   'Misery': ['Een schrijver wordt na een ongeluk afhankelijk van zijn meest toegewijde lezer.', 'After an accident, a novelist becomes dependent on his most devoted reader.'],
   'IT': ['Jeugdvrienden keren terug naar Derry om het kwaad uit hun jeugd onder ogen te zien.', 'Childhood friends return to Derry to confront the evil of their youth.']
 };
-function edition(r) { return MEDIA.books[bn(r)]?.[lang] || null; }
+function edition(r) { return DB.editions.find(e=>r.editionIds?.includes(e.id)&&e.language===lang) || MEDIA.books[bn(r)]?.[lang] || null; }
 function title(r, kind = tab) {
   if (kind === 'books') return edition(r)?.title || (lang === 'nl' ? r['Nederlandse titel (indicatief)'] || bn(r) : bn(r));
   if (kind === 'stories') return lang === 'nl' ? r['Nederlandse verhaalnaam (geverifieerd waar bekend)'] || sn(r) : sn(r);
@@ -65,7 +71,7 @@ function field() { return ({books:'Type', stories:'Engelse bundel', films:'Mediu
 function imageMarkup(r, large = false) {
   if (!['books','stories','films'].includes(tab)) return '';
   if (tab === 'stories' && !storyArtworkBook(r) && !media(r,'stories')) return '';
-  const m = media(r), label = tab !== 'films' ? tr('Omslag nog niet geverifieerd','Cover not yet verified') : tr('Poster nog niet geverifieerd','Poster not yet verified');
+  const m = media(r), label = tab !== 'films' ? tr('Omslag niet beschikbaar','Cover not available') : tr('Poster niet beschikbaar','Poster not available');
   return `<div class="artwork${large ? ' artwork-large' : ''}"><div class="art-placeholder"${m ? ' aria-hidden="true"' : ''}><span aria-hidden="true">${tab !== 'films' ? '❦' : '▷'}</span><span>${safe(title(r))}</span><small>${safe(m ? tr('Afbeelding niet beschikbaar','Image unavailable') : label)}</small></div>${m ? `<img src="${safe(m.image)}" alt="${safe((tab !== 'films' ? tr('Boekomslag','Book cover') : tr('Officiële Engelstalige promotieafbeelding','Official English promotional artwork')) + ': ' + m.title + (tab === 'films' ? ' ('+r.Jaar+')' : ' · '+m.language.toUpperCase()))}" width="400" height="600" loading="${large ? 'eager' : 'lazy'}" decoding="async" referrerpolicy="no-referrer">` : ''}<span class="art-language">${m ? m.language.toUpperCase() + (tab !== 'films' && lang === 'nl' && m.language === 'en' ? ' · FALLBACK' : '') : tr('BEELD ONTBREEKT','ARTWORK PENDING')}</span></div>`;
 }
 const failedImages = new Set();
@@ -114,11 +120,12 @@ function section(label, content) { return `<h3>${safe(label)}</h3>${content}`; }
 function linkTo(kind, query, label, exact = null) { return `<button class="jump" data-next="${kind}" data-query="${safe(query)}"${exact === null ? '' : ` data-exact="${exact}"`}>${safe(label)} ↗</button>`; }
 function sourceLink(url, label) { return /^https:\/\//.test(url || '') ? `<a class="source" href="${safe(url)}" target="_blank" rel="noopener noreferrer">${safe(label)} ↗</a>` : ''; }
 function description(r) {
+  if(r.summary?.[lang]||r.summary?.en)return r.summary[lang]||r.summary.en;
   const key = tab === 'books' ? bn(r) : r['Bronwerk (EN)'];
   const summary = summaries[key];
   if (summary && tab === 'books') return summary[lang === 'nl' ? 0 : 1];
   if (tab === 'films' && r.Jaar === 2026 && fn(r) === 'Carrie') return tr('Mike Flanagan brengt de roman over Carrie White naar Prime Video. Het eerste seizoen telt acht afleveringen.','Mike Flanagan brings the story of Carrie White to Prime Video in an eight-episode first season.');
-  return tab === 'books' ? tr('Een werk uit de bibliografie van Stephen King. Een inhoudelijke beschrijving is nog niet geverifieerd.','A work in Stephen King’s bibliography. A plot description has not yet been verified.') : '';
+  return tab === 'books' ? tr('Een werk uit de bibliografie van Stephen King. Ontdek de uitgaven en verbanden hieronder.','A work by Stephen King. Explore its editions and connections below.') : '';
 }
 function detailContent(r) {
   let out = `<div class="eyebrow">${safe(labelHeading())}</div><h2 id="detailTitle">${safe(title(r))}</h2>${imageMarkup(r,true)}`;
@@ -130,6 +137,8 @@ function detailContent(r) {
       out += section(tr('Getoonde editie','Displayed edition'), line(tr('Taal','Language'), m.language === 'nl' ? tr('Nederlands','Dutch') : tr('Engels','English')) + line('ISBN',m.isbn || tr('Niet bevestigd voor dit omslag','Not confirmed for this cover')) + (m.publisher ? line(tr('Uitgever','Publisher'), m.publisher) : '') + `<p>${sourceLink(m.source,tr('Editiebron','Edition source'))}</p>`);
       if (lang === 'nl' && m.language === 'en') out += `<p>${tr('Geen gecontroleerde Nederlandse cover beschikbaar; Engelse cover als gemarkeerde fallback.','No verified Dutch cover available; English cover used as a labelled fallback.')}</p>`;
     }
+    const editions=DB.editions.filter(e=>r.editionIds?.includes(e.id));
+    if(editions.length)out+=section(tr('Uitgaven','Editions'),editions.map(e=>`<div class="entry"><strong>${safe(e.title)} · ${safe(e.language.toUpperCase())}</strong><small>${safe([e.isbn,e.publisher,e.format,e.publicationDate?.value,e.translators?.length?tr('Vertaling: ','Translated by ')+e.translators.join(', '):null].filter(Boolean).join(' · '))}</small></div>`).join(''));
     const stories = S.filter(s => s.collectionIds?.includes(r.id));
     if (stories.length) out += section(tr('Verhalen in deze bundel','Stories in this collection')+` (${stories.length})`,stories.map(s => linkTo('stories',sn(s),title(s,'stories'),S.indexOf(s))).join(''));
     const storyIds = S.filter(s=>s.collectionIds?.includes(r.id)).map(s=>s.id);
@@ -137,7 +146,7 @@ function detailContent(r) {
     if (films.length) out += section(tr('Verfilmingen','Screen adaptations')+` (${films.length})`,films.map(f => `<div class="adaptation-link">${linkTo('films',fn(f),`${fn(f)} (${f.Jaar || '?'}) · ${localize(f.Medium)}`,F.indexOf(f))}</div>`).join(''));
     if(r.containsWorks?.length) out += section(tr('Bevat de werken','Contains the works'),r.containsWorks.map(w=>workLink(w)).join(''));
     if(r.publications?.length) out += section(tr('Publicatiegeschiedenis en edities','Publication history and editions'),r.publications.map(p=>line(p.title,p.reportedDate||tr('Datum onbevestigd','Date unconfirmed'))+sourceLink(p.source,tr('Publicatiebron','Publication source'))).join(''));
-    if(r.firstPublication)out+=line(tr('Eerste publicatie','First publication'),r.firstPublication.date+' · '+tr('begin van de seriële uitgave','start of the serial publication'));
+    if(r.firstPublication)out+=line(tr('Eerste publicatie','First publication'),r.firstPublication.date+(r.firstPublication.kind==='serial-start'?' · '+tr('begin van de seriële uitgave','start of the serial publication'):''));
     if(r.publicationNote) out += `<p>${safe(r.publicationNote[lang])}</p>`;
   }
   if (tab === 'stories') {
@@ -166,20 +175,19 @@ function detailContent(r) {
       out+=`<p><small>${sourceLink(info.url,'IMDb')} · ${tr('Geraadpleegd','Consulted')} ${safe(info.checked)} · ${tr('Opgeslagen momentopname; geen live score.','Cached observation; not a live rating.')}</small></p>`;
     }
     if(r.distributor)out+=line(tr('Oorspronkelijke distributeur','Original distributor'),r.distributor);
-    if(r.audit?.uncertain.length)out+=`<div class="notice">${tr('Nog te controleren: ','Still to verify: ')}${safe(r.audit.uncertain.map(auditLabel).join(', '))}</div>`;
     if(r.release) out += line(r.dateMeaning==='US-series-premiere' ? tr('Première serie (VS)','US series premiere') : r.dateMeaning==='US-theatrical-release' ? tr('Bioscooprelease (VS)','US theatrical release') : r.dateMeaning==='release-year' ? tr('Releasejaar','Release year') : tr('Releasedatum','Release date'),r.release);
     if(r.directors) out += line(tr('Regie per aflevering','Episode directors'),r.directors);
     if(r.studio) out += line(tr('Productiestudio','Production studio'),r.studio);
     if(r.platform) out += line(tr('Streamingplatform','Streaming platform'),r.platform);
     if(r.episodes) out += line(tr('Afleveringen seizoen 1','Season 1 episodes'),r.episodes);
-    out += line(tr('Status','Status'),r.status === 'released' ? tr('Verschenen','Released') : tr('Nog niet onafhankelijk geverifieerd','Not independently verified'));
+    out += line(tr('Status','Status'),r.status === 'released' ? tr('Verschenen','Released') : tr('Onbekend','Unknown'));
     if(r.cast) out += section(tr('Hoofdrollen','Principal cast'),`<ul>${r.cast.map(c=>`<li>${safe(c)}</li>`).join('')}</ul>`);
     if(r.renewal) out += line(tr('Volgend seizoen','Next season'),tr('Seizoen 2 bevestigd op ','Season 2 confirmed on ')+r.renewal) + line(tr('Releasedatum seizoen 2','Season 2 release date'),tr('Niet bevestigd','Unconfirmed'));
     out += line(tr('Relatie','Relationship'),localize(r.Relatie));
     if(r['Oorspronkelijke bundel']) out += line(tr('Oorspronkelijke bundel','Original collection'),r['Oorspronkelijke bundel']);
     if(r.sourceWorks?.length) out+=section(tr('Gekoppelde bronwerken','Linked source works'),r.sourceWorks.map(w=>workLink(w)).join(''));
-    else out+=`<p>${r.Relatie==='Origineel scenario' ? tr('Origineel scenario; geen afzonderlijk bronboek vereist.','Original screenplay; a separate source book is not required.') : tr('De bronrelatie is nog niet als afzonderlijke werkkoppeling bevestigd.','The source relationship has not yet been confirmed as a separate work link.')}</p>`;
-    if(r.sources) out += r.sources.map(url=>`<p>${sourceLink(url,tr('Aanvullende bron','Additional source'))}</p>`).join('');
+    else if(r.sourceWorkKind!=='screen')out+=`<p>${r.Relatie==='Origineel scenario' ? tr('Origineel scenario; geen afzonderlijk bronboek vereist.','Original screenplay; a separate source book is not required.') : tr('De bronrelatie is nog niet als afzonderlijke werkkoppeling bevestigd.','The source relationship has not yet been confirmed as a separate work link.')}</p>`;
+
   }
   if(tab === 'tower') {
     out += line(tr('Verband','Connection'),r.description?.[lang] || localize(r.Toelichting)) + line(tr('Zekerheid','Certainty'),certainty(r.certainty)) + line(tr('Personages / concepten','Characters / concepts'),r.concepts?.join(', '));
@@ -190,24 +198,26 @@ function detailContent(r) {
     if(r.authors) out+=section(tr('Auteurs en makers','Authors and contributors'),r.authors.map(a=>line(a.name+(a.creditedAs?' ('+a.creditedAs+')':''),localizeRole(a.role))).join(''));
     const related=T.filter(t=>t.works?.some(w=>w.kind===tab && (w.id===r.id || w.title===(tab==='books'?bn(r):sn(r)))));
     if(related.length) out+=section('Dark Tower',related.map(t=>line(t.concepts.join(', '),t.description?.[lang]||t.Toelichting)+`<small>${safe(certainty(t.certainty))}</small>`+(t.works||[]).filter(w=>w.title!==(tab==='books'?bn(r):sn(r))).map(w=>workLink(w)).join('')).join(''));
-    if(r.audit?.uncertain.length) out += `<div class="notice">${tr('Nog te controleren: ','Still to verify: ')}${safe(r.audit.uncertain.map(v=>auditLabel(v)).join(', '))}</div>`;
   }
-  out += `<p>${sourceLink(r.Bron,tr('Bibliografische bron','Bibliographic source'))}</p>`;
-  const m = media(r);
-  if(m) out += `<p class="art-credit">${safe(m.credit)} · ${sourceLink(m.source,tr('Afbeeldingsbron','Artwork source'))} · ${tr('Gecontroleerd','Checked')} ${m.checked}. ${tr('Auteursrechten bij de rechthebbenden.','Copyright remains with the rights holders.')}</p>`;
-  out += `<div class="notice">${tr('Bronnen zijn per veld gecontroleerd. Dit is geen bevestiging van de volledige publicatiegeschiedenis of alle mogelijke adaptaties.','Sources are checked by field. This does not establish the full publication history or every possible adaptation.')}</div>`;
+  if(r.series?.length)for(const series of r.series)out+=section(series.name,series.members.map(m=>workLink(m.target,(m.position?tr('Deel ','Book ')+m.position+' · ':'')+m.target.title)).join(''));
+  const connected=[...new Map((r.connected||[]).filter(c=>c.target.id!==r.id).map(c=>[c.target.kind+'/'+c.target.id,c])).values()];
+  if(connected.length)out+=section(tr('Verbanden ontdekken','Explore connections'),connected.map(c=>`<p>${workLink(c.target)}<small>${safe(c.explanation)}${c.certainty==='interpretive'?' · '+tr('Interpretatie','Interpretation'):c.certainty==='strongly-implied'?' · '+tr('Sterk geïmpliceerd','Strongly implied'):''}</small></p>`).join(''));
+  if(r.canonicalId)out+=`<p><a class="source" href="explorer/pilot/?entity=${encodeURIComponent(r.canonicalId)}">${tr('Verder ontdekken in de Explorer','Explore this in the Explorer')} ↗</a></p>`;
+  const art=media(r),urls=[...new Set([r.Bron,...r.sources||[],art?.source,...(r.connected||[]).flatMap(c=>c.sourceUrls||[])].filter(Boolean))];
+  if(urls.length)out+=`<details><summary>${tr('Bronnen & verantwoording','Sources & context')}</summary>${urls.map(url=>`<p>${sourceLink(url,new URL(url).hostname)}</p>`).join('')}${art?.credit?`<p>${safe(art.credit)}</p>`:''}</details>`;
   return out;
 }
 function certainty(value) {return ({explicit:tr('Expliciet','Explicit'),'strongly-implied':tr('Sterk geïmpliceerd','Strongly implied'),interpretive:tr('Interpretatief','Interpretive')})[value] || tr('Nog te controleren','Unverified');}
-function localizeRole(role) {return ({author:tr('Auteur','Author'),coauthor:tr('Co-auteur','Co-author'),illustrator:tr('Illustrator','Illustrator'),photographer:tr('Fotograaf','Photographer'),contributor:tr('Bijdrage aan bundel','Collection contributor'),editor:tr('Redacteur','Editor'),librettist:tr('Libretto','Libretto'),composer:tr('Muziek / liedteksten','Music / lyrics'),pseudonym:tr('Pseudoniem van Stephen King','Stephen King pseudonym')})[role]||role;}
+function localizeRole(role) {return ({foreword:tr('Voorwoord','Introduction'),translator:tr('Vertaler','Translator'),author:tr('Auteur','Author'),coauthor:tr('Co-auteur','Co-author'),illustrator:tr('Illustrator','Illustrator'),photographer:tr('Fotograaf','Photographer'),contributor:tr('Bijdrage aan bundel','Collection contributor'),editor:tr('Redacteur','Editor'),librettist:tr('Libretto','Libretto'),composer:tr('Muziek / liedteksten','Music / lyrics'),pseudonym:tr('Pseudoniem van Stephen King','Stephen King pseudonym')})[role]||role;}
 function auditLabel(key) {return ({premiereDate:tr('exacte premièredatum','exact premiere date'),imdbRating:tr('IMDb-score','IMDb rating'),publicationYear:tr('eerste publicatiejaar','first publication year'),releaseDate:tr('releasedatum','release date'),dutchEdition:tr('Nederlandse editie','Dutch edition'),cast:tr('cast','cast'),directorOrShowrunner:tr('regisseur / showrunner','director / showrunner'),sourceRelationship:tr('bronrelatie','source relationship'),tvFormat:tr('TV-formaat','TV format'),referenceMatch:tr('aanvullende broncontrole','additional source check'),firstPublicationHistory:tr('eerste-publicatiegeschiedenis','first-publication history'),completeContributorList:tr('volledige makerslijst','complete contributor list'),collectionMembership:tr('bundelrelatie','collection membership'),publicationDate:tr('publicatiedatum','publication date'),sharedSourceUrlCollision:tr('bronpagina gedeeld door verschillende remakes','source page shared by distinct remakes')})[key]||key;}
 function workLink(w,label) {
+ if(w.kind==='explorer')return `<a class="jump" href="explorer/pilot/?entity=${encodeURIComponent(w.id)}">${safe(label||w.title)} ↗</a>`;
  const all=({books:B,stories:S,films:F})[w.kind];
  const i=all?.findIndex(r=>w.id ? r.id===w.id : (w.kind==='books'?bn(r):w.kind==='stories'?sn(r):fn(r))===w.title);
  return i>=0 ? linkTo(w.kind,'',label || title(all[i],w.kind),i) : `<span>${safe(w.title || tr('Werk nog niet opgenomen','Work not yet recorded'))}</span>`;
 }
 function bindJumps(root) {
- root.querySelectorAll('.jump').forEach(el=>el.onclick=()=>{
+ root.querySelectorAll('button.jump').forEach(el=>el.onclick=()=>{
   const kind=el.dataset.next,exact=el.dataset.exact;
   if(exact!==undefined) {
    tab=kind;updateTabs();$('filter').dataset.tab='';$('search').value='';render();
@@ -240,7 +250,7 @@ function applyLang() {
   $('search').setAttribute('aria-label',tr('Zoeken','Search'));$('searchButtonLabel').textContent=tr('Zoek','Search');$('searchButton').setAttribute('aria-label',tr('Zoek in de catalogus','Search the catalog'));$('filter').setAttribute('aria-label',tr('Filter op type of bundel','Filter by type or collection'));$('sort').setAttribute('aria-label',tr('Sorteren','Sort'));$('results').setAttribute('aria-label',labelHeading());
   $('sort').options[0].textContent=tr('Chronologisch','Chronological');$('sort').options[1].textContent=tr('Alfabetisch','Alphabetical');$('close').textContent=tr('✕ Sluiten','✕ Close');
   $('stats').innerHTML = [[B.length,tr('boeken en bundels','books & collections')],[S.length,tr('verhaalvermeldingen','story entries')],[F.length,tr('film- en tv-vermeldingen','film & TV entries')],[T.length,tr('Dark Tower-links','Dark Tower links')]].map(([count,label])=>`<div class="stat"><strong>${count}</strong><span>${label}</span></div>`).join('');
-  document.querySelector('footer').innerHTML = tr('THE KINGVERSE · Editie 1.5.1 · Een groeiend archief; nog niet volledig geverifieerd.','THE KINGVERSE · Edition 1.5.1 · A growing archive; not yet fully verified.') + ` <a href="about.html">${tr('Bronnen & controlestatus','Sources & verification status')}</a> · ${sourceLink('https://openlibrary.org', 'Open Library')} 🌹`;
+  document.querySelector('footer').innerHTML = tr('THE KINGVERSE · Een archief voor liefhebbers.','THE KINGVERSE · A constant reader’s archive.') + ` <a href="about.html">${tr('Over The Kingverse','About The Kingverse')}</a> 🌹`;
 }
 function setLang(next) {
   lang=next; try {localStorage.setItem('kingverse-lang',next);} catch { /* Keep the language usable without storage. */ }

@@ -3226,8 +3226,8 @@
     "data/image-review.json": "7ec410ff82c82358d7f616608c1d912883290f440de04c8e8515c4359321fbdb",
     "data/image-fetch-results.json": "fd3dfc3efb7eabc18d352edd200f48511735ea6dd541a7987e563ef03786e352",
     "data/migration/source-audit.json": "a9fee683e58f0b7c072188f62c4fd77fe6f54fa5f371aa42f96bb52ff28ab84d",
-    "data/migration/id-register.json": "5c0a2f937d83a19addc0793405a18c685435662d9e1414b1fab3f8b591d2f84a",
-    "data/migration/batch-02-register.json": "bb4e522f0542e88c992986aedf4512e94321cb39e3d8e10820489352b8fb7a5e"
+    "data/migration/id-register.json": "98f2357cd8b2283bfc9f341467914a59ab1ff019f66c8dd4bbb8488da0515861",
+    "data/migration/batch-02-register.json": "db8be816dd22ab5e7c0559e2dc7121f903fd9ce5f0d2fdf882aa71923aab6bc7"
   },
   "preservedEntities": {
     "wrk:000001": {
