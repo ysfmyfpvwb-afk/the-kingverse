@@ -7881,6 +7881,214 @@
         "Individual printing not established; no image imported or linked to an older unknown edition."
       ],
       "note": "Specific English collection edition. The 1985 collection and its existing story memberships remain unchanged; neither date is promoted to original work publication."
+    },
+    {
+      "key": "anthology-67-79",
+      "entityType": "connection",
+      "checked": "2026-10-29",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000067"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000079"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The television anthology includes an episode adapting Battleground."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "film-intro-adp-000067-source"
+      ],
+      "note": "The official production page explicitly lists this adapted story. This edge identifies one anthology contribution; it does not attribute the entire production to a single story or collection. No segment order, episode identity, release date, makers or plot outcomes inferred."
+    },
+    {
+      "key": "anthology-67-142",
+      "entityType": "connection",
+      "checked": "2026-10-29",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000067"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000142"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The television anthology includes an episode adapting Umney's Last Case."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "film-intro-adp-000067-source"
+      ],
+      "note": "The official production page explicitly lists this adapted story. This edge identifies one anthology contribution; it does not attribute the entire production to a single story or collection. No segment order, episode identity, release date, makers or plot outcomes inferred."
+    },
+    {
+      "key": "anthology-67-123",
+      "entityType": "connection",
+      "checked": "2026-10-29",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000067"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000123"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The television anthology includes an episode adapting The End of the Whole Mess."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "film-intro-adp-000067-source"
+      ],
+      "note": "The official production page explicitly lists this adapted story. This edge identifies one anthology contribution; it does not attribute the entire production to a single story or collection. No segment order, episode identity, release date, makers or plot outcomes inferred."
+    },
+    {
+      "key": "anthology-67-138",
+      "entityType": "connection",
+      "checked": "2026-10-29",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000067"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000138"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The television anthology includes an episode adapting Crouch End."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "film-intro-adp-000067-source"
+      ],
+      "note": "The official production page explicitly lists this adapted story. This edge identifies one anthology contribution; it does not attribute the entire production to a single story or collection. No segment order, episode identity, release date, makers or plot outcomes inferred."
+    },
+    {
+      "key": "anthology-67-158",
+      "entityType": "connection",
+      "checked": "2026-10-29",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000067"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000158"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The television anthology includes an episode adapting The Road Virus Heads North."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "film-intro-adp-000067-source"
+      ],
+      "note": "The official production page explicitly lists this adapted story. This edge identifies one anthology contribution; it does not attribute the entire production to a single story or collection. No segment order, episode identity, release date, makers or plot outcomes inferred."
+    },
+    {
+      "key": "anthology-67-140",
+      "entityType": "connection",
+      "checked": "2026-10-29",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000067"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000140"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The television anthology includes an episode adapting The Fifth Quarter."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "film-intro-adp-000067-source"
+      ],
+      "note": "The official production page explicitly lists this adapted story. This edge identifies one anthology contribution; it does not attribute the entire production to a single story or collection. No segment order, episode identity, release date, makers or plot outcomes inferred."
+    },
+    {
+      "key": "anthology-67-150",
+      "entityType": "connection",
+      "checked": "2026-10-29",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000067"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000150"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The television anthology includes an episode adapting Autopsy Room Four."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "film-intro-adp-000067-source"
+      ],
+      "note": "The official production page explicitly lists this adapted story. This edge identifies one anthology contribution; it does not attribute the entire production to a single story or collection. No segment order, episode identity, release date, makers or plot outcomes inferred."
+    },
+    {
+      "key": "anthology-67-132",
+      "entityType": "connection",
+      "checked": "2026-10-29",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000067"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000132"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The television anthology includes an episode adapting You Know They Got a Hell of a Band."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "film-intro-adp-000067-source"
+      ],
+      "note": "The official production page explicitly lists this adapted story. This edge identifies one anthology contribution; it does not attribute the entire production to a single story or collection. No segment order, episode identity, release date, makers or plot outcomes inferred."
     }
   ],
   "deferred": [

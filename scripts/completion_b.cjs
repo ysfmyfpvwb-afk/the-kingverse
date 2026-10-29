@@ -26,6 +26,7 @@ function extendCompletionB(input){
   if(d.entityType==='work'&&bundle.works.some(w=>w.originalTitle===d.originalTitle))throw Error('B work already exists; reuse its identity '+d.originalTitle);
   if(d.name&&Object.values(bundle).filter(Array.isArray).flat().some(r=>r.name===d.name&&r.entityType===d.entityType))throw Error('B identity already exists; review register instead of merging '+d.name);
   for(const [field,value]of Object.entries(d))if(!METADATA.has(field))record[field]=['from','to','subject','publicationOf'].includes(field)?resolve(value):field==='statusHistory'?value.map(h=>({...h,claimIds:h.claimIds.map(k=>id('claim',k))})):structuredClone(value);
+  if(d.entityType==='connection'&&bundle.connections.some(c=>c.predicate===record.predicate&&c.from.type===record.from.type&&c.from.id===record.from.id&&c.to.type===record.to.type&&c.to.id===record.to.id))throw Error('B connection already exists; reuse its identity '+d.key);
   add(record);
   const refs=d.sourceKeys.map(k=>{const s=sourceKeys.get(k);if(!s)throw Error('Unknown B source key '+k);return s;});
   for(const [field,value]of Object.entries(record)){
@@ -105,7 +106,7 @@ function validateCompletionB(bundle,baseline){
  if(baseline){
   for(const [table,rows]of Object.entries(baseline).filter(([,rows])=>Array.isArray(rows))){for(const r of rows){const next=bundle[table].find(x=>x.id===r.id),expected=structuredClone(r),e=editorial.get(r.id);if(['works','collections','adaptations','connections'].includes(table)&&e){expected[e.field]=structuredClone(e.value);expected.verification.claimIds.push(reg.allocations['claim/'+e.key]);}if(table==='claims'&&editorial.has(r.subject.id)&&r.fieldPath==='/'+editorial.get(r.subject.id).field)expected.selected=false;try{assert.deepEqual(next,expected);}catch{fail('b-baseline-record-changed',r.id);}}}
   try{assert.deepEqual(bundle.registry.aliases,baseline.registry.aliases);assert.deepEqual(bundle.manifest,baseline.manifest);}catch{fail('b-baseline-metadata-changed','Existing aliases/manifest changed');}
-  if(bundle.characters.length-baseline.characters.length!==13||bundle.locations.length-baseline.locations.length!==4||bundle.series.length-baseline.series.length!==4||bundle.connections.length-baseline.connections.length!==62||bundle.adaptations.length-baseline.adaptations.length!==15)fail('b-batch-boundary','Reviewed scope: thirteen characters, four locations, four series, fifteen screen productions and sixty-two links');
+  if(bundle.characters.length-baseline.characters.length!==13||bundle.locations.length-baseline.locations.length!==4||bundle.series.length-baseline.series.length!==4||bundle.connections.length-baseline.connections.length!==70||bundle.adaptations.length-baseline.adaptations.length!==15)fail('b-batch-boundary','Reviewed scope: thirteen characters, four locations, four series, fifteen screen productions and seventy links');
   if(bundle.editions.length-baseline.editions.length!==17)fail('b-edition-boundary','Exactly seventeen reviewed English editions');
   for(const [t,count]of Object.entries({works:1,people:2,credits:4,publicationEvents:1,collections:0,artworks:0}))if(bundle[t].length-baseline[t].length!==count)fail('b-out-of-scope-addition',t);
  }

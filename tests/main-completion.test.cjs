@@ -152,3 +152,8 @@ test('Further film introductions keep remake casts and their own opening premise
 test('Sixteen Nightmares introductions reach the main story pages with collection context and optional sources',()=>{
  run("tab='stories';lang='en'");for(const n of [122,123,124,128,129,130,131,133,134,135,138,139,141,142,143,144]){const id='wrk:'+String(n).padStart(6,'0'),rows=run(`S.filter(s=>s.canonicalId===${JSON.stringify(id)})`);assert.ok(rows.length);for(const row of rows){const html=run(`detailContent(S.find(s=>s.id===${JSON.stringify(row.id)}))`);assert.ok(html.includes(row.summary.en.replaceAll('&','&amp;').replaceAll("'",'&#39;')));assert.match(html,/Nightmares/);assert.match(html,/Sources & context/);}}
 });
+
+test('Anthology main details navigate to each adapted story and expose the film from its story',()=>{
+ run("tab='films';lang='en'");const tv=run("detailContent(F.find(f=>f.canonicalId==='adp:000067'))"),movie=run("detailContent(F.find(f=>f.canonicalId==='adp:000094'))");for(const n of [79,142,123,138,158,140,150,132]){const id='wrk:'+String(n).padStart(6,'0'),title=run(`S.find(s=>s.canonicalId===${JSON.stringify(id)} )['Engelse verhaalnaam']`);assert.ok(tv.includes(title.replaceAll('&','&amp;').replaceAll("'",'&#39;')),title);}assert.match(movie,/The Cat from Hell/);
+ run("tab='stories';lang='en'");assert.match(run("detailContent(S.find(s=>s.canonicalId==='wrk:000172'))"),/Tales from the Darkside/);assert.match(run("detailContent(S.find(s=>s.canonicalId==='wrk:000079'))"),/Nightmares/);
+});

@@ -5,7 +5,7 @@ const {extendCompletionB,validateCompletionB}=require('../scripts/completion_b.c
 const base=loadCompletion(),before=structuredClone(base),bundle=extendCompletionB(base);
 test('Bounded B additions preserve every prior identity, record, alias and manifest',()=>{
  assert.deepEqual(base,before);assert.deepEqual(validateCompletionB(bundle,base),[]);
- assert.equal(bundle.characters.length-base.characters.length,13);assert.equal(bundle.locations.length-base.locations.length,4);assert.equal(bundle.series.length-base.series.length,4);assert.equal(bundle.adaptations.length-base.adaptations.length,15);assert.equal(bundle.connections.length-base.connections.length,62);
+ assert.equal(bundle.characters.length-base.characters.length,13);assert.equal(bundle.locations.length-base.locations.length,4);assert.equal(bundle.series.length-base.series.length,4);assert.equal(bundle.adaptations.length-base.adaptations.length,15);assert.equal(bundle.connections.length-base.connections.length,70);
  assert.throws(()=>extendCompletionB(bundle),/collision|already exists/);
 });
 test('The Hodges sequence links exactly the three existing novels with supported positions',()=>{
@@ -140,7 +140,7 @@ test('Later Sometimes films preserve the original identity and separate catalogu
 test('Shining and Misery profiles preserve literary identities without film events or hidden family revelations',()=>{
  for(const [id,name]of [['chr:000013','Danny Torrance'],['chr:000014','Jack Torrance'],['chr:000015','Wendy Torrance'],['chr:000016','Abra Stone'],['chr:000017','Paul Sheldon'],['chr:000018','Annie Wilkes']]){assert.equal(bundle.characters.filter(c=>c.name===name).length,1);const c=bundle.characters.find(c=>c.id===id);assert.equal(c.name,name);assert.ok(c.summary.en.length>80);assert.equal(c.spoiler.level,'none');assert.deepEqual(c.aliases,[]);assert.ok(bundle.claims.some(p=>p.subject.id===id&&p.fieldPath==='/summary'&&p.selected&&p.status==='verified'));}
  const danny=bundle.connections.filter(c=>c.from.id==='chr:000013');assert.deepEqual(danny.map(c=>c.to.id),['wrk:000005','wrk:000051']);assert.ok(danny.every(c=>c.predicate==='appears_in'&&c.spoiler.level==='premise'));
- assert.equal(bundle.locations.find(l=>l.id==='loc:000006').name,'Overlook Hotel');const hotel=bundle.connections.filter(c=>c.to.id==='loc:000006');assert.equal(hotel.length,1);assert.equal(hotel[0].from.id,'wrk:000005');assert.ok(!bundle.connections.some(c=>+c.id.slice(4)>=143&&[c.from.type,c.to.type].includes('adaptation')));
+ assert.equal(bundle.locations.find(l=>l.id==='loc:000006').name,'Overlook Hotel');const hotel=bundle.connections.filter(c=>c.to.id==='loc:000006');assert.equal(hotel.length,1);assert.equal(hotel[0].from.id,'wrk:000005');assert.ok(!bundle.connections.some(c=>+c.id.slice(4)>=143&&+c.id.slice(4)<=150&&[c.from.type,c.to.type].includes('adaptation')));
 });
 
 test('Reviewed core film introductions replace only generic copy on existing productions with selected field evidence',()=>{
@@ -172,4 +172,10 @@ test('Nightmares reading introductions retain nonfiction and poetry while withho
  assert.match(intro(143),/nonfiction essay/);assert.match(intro(144),/poem/);assert.match(intro(141),/Holmes and Dr. Watson/);
  for(const [n,hidden]of [[123,/dementia|volcano|death/],[124,/alien|shoot|murder/],[128,/save his life|hitchhiker/],[131,/murder|ghost|drugs/],[134,/toad|sacrifice/],[139,/trap|escape|spaceship/],[142,/creator|switch places|1994/]])assert.doesNotMatch(intro(n),hidden);
  for(const n of [122,123,124,128,129,130,131,133,134,135,138,139,141,142,143,144]){const id='wrk:'+String(n).padStart(6,'0');assert.deepEqual(bundle.collectionMemberships.filter(m=>m.workId===id),base.collectionMemberships.filter(m=>m.workId===id));}
+});
+
+test('Anthology screen links reuse eight story identities with contribution-specific evidence',()=>{
+ const anthology=bundle.connections.filter(c=>c.from.id==='adp:000067');assert.deepEqual(anthology.map(c=>c.to.id),[79,142,123,138,158,140,150,132].map(n=>'wrk:'+String(n).padStart(6,'0')));const cat=bundle.connections.filter(c=>c.from.id==='adp:000094');assert.equal(cat.length,1);assert.equal(cat[0].to.id,'wrk:000172');
+ for(const c of anthology){assert.equal(c.predicate,'adaptation_of');assert.equal(c.certainty,'explicit');assert.equal(c.spoiler.level,'none');const claim=bundle.claims.find(p=>p.subject.id===c.id&&p.fieldPath==='/to'&&p.selected);assert.equal(claim.status,'verified');assert.ok(claim.sourceIds.every(id=>bundle.sources.find(s=>s.id===id).url.includes('/works/television/nightmares-dreamscapes.html')||bundle.sources.find(s=>s.id===id).url.includes('/works/movie/tales-from-the-darkside-the-movie.html')));}
+ assert.equal(bundle.works.length,250);assert.equal(bundle.adaptations.length,111);assert.ok(!anthology.some(c=>c.to.type==='collection'));
 });
