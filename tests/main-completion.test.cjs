@@ -51,7 +51,7 @@ test('Core novel introductions reach the main details without changing editions 
 
 test('New publisher editions render on main pages with edition dates separate from original work years',()=>{
  run("tab='books';lang='en'");const html=run("detailContent(B.find(r=>r.canonicalId==='wrk:000242'))");assert.match(html,/2000/);assert.match(html,/2020-06-02/);assert.match(html,/9781982159375/);assert.match(html,/Scribner/);assert.match(html,/simonandschuster\.com/);
- const misery=run("detailContent(B.find(r=>r.canonicalId==='wrk:000021'))");assert.match(misery,/2016-01-05/);assert.match(misery,/9781501143106/);assert.equal(run("media(B.find(r=>r.canonicalId==='wrk:000021')).image"),run("MEDIA.books.Misery.en.image"));assert.equal(run('DB.editions.length'),182);
+ const misery=run("detailContent(B.find(r=>r.canonicalId==='wrk:000021'))");assert.match(misery,/2016-01-05/);assert.match(misery,/9781501143106/);assert.equal(run("media(B.find(r=>r.canonicalId==='wrk:000021')).image"),run("MEDIA.books.Misery.en.image"));assert.equal(run('DB.editions.length'),188);
 });
 
 test('Visitor connection explanations use readable content while retaining optional source links',()=>{
@@ -224,4 +224,8 @@ test('Cell and both Stand miniseries remain distinct adaptations linked to their
 
 test('Three identified collection paperbacks appear on existing main collection pages',()=>{
  run("tab='books';lang='en'");for(const[id,isbn,date]of [['col:000003','9781501143489','2016-03-29'],['col:000005','9781501143496','2016-08-02'],['col:000006','9781501192036','2017-10-31']]){const html=run(`detailContent(B.find(b=>b.canonicalId===${JSON.stringify(id)}))`);assert.match(html,new RegExp(isbn));assert.match(html,new RegExp(date));assert.match(html,/Stories in this collection/);}assert.equal(run('B.length'),96);
+});
+
+test('Six further collection editions show publisher metadata without replacing collection contents',()=>{
+ run("tab='books';lang='en'");for(const[id,isbn,date]of [['col:000002','9780307947291','2012-08-07'],['col:000008','9781501197963','2018-04-17'],['col:000009','9781501197659','2018-01-23'],['col:000012','9781501197956','2018-03-20'],['col:000013','9781982137977','2020-04-21'],['col:000001','9781668037713','2024-05-21']]){const html=run(`detailContent(B.find(b=>b.canonicalId===${JSON.stringify(id)}))`);assert.match(html,new RegExp(isbn));assert.match(html,new RegExp(date));}const b=run("B.find(b=>b.canonicalId==='col:000001')");assert.equal(run(`S.filter(s=>s.collectionIds?.includes(${JSON.stringify(b.id)})).length`),12);
 });

@@ -11,7 +11,7 @@ test('Pilot is reproducible, all generated files match, and all earlier baseline
  assert.deepEqual(generatePilot().files,out.files);assert.deepEqual(out.base,require('../scripts/completion_pilot.cjs').completionPilot().defaultProjection);
 });
 test('Every canonical identity, type and endpoint has an independent bounded deep-link payload',()=>{
- assert.equal(out.full.nodes.length,645);for(const n of out.full.nodes){const p=index(n.id);assert.ok(p);if(out.base.nodes.some(s=>s.id===n.id)){assert.equal(p.node.id,n.id);assert.equal(p.node.type,n.type);assert.equal(p.node.label,n.label);}else assert.equal(p.scope,'gated');}
+ assert.equal(out.full.nodes.length,651);for(const n of out.full.nodes){const p=index(n.id);assert.ok(p);if(out.base.nodes.some(s=>s.id===n.id)){assert.equal(p.node.id,n.id);assert.equal(p.node.type,n.type);assert.equal(p.node.label,n.label);}else assert.equal(p.scope,'gated');}
  const types=new Set(out.full.nodes.map(n=>n.type));assert.equal(types.size,8);
  for(const[name,p]of out.payloads)if(!name.startsWith('search.')){assert.ok(Buffer.byteLength(out.files.get('explorer/pilot/'+name))<=LIMIT);for(const e of p.connections||[])assert.ok(index(e.target.id));}
  assert.equal(out.report.payload.initialAggregateProjectBytesLoaded,0);assert.ok(out.report.payload.maxEntityBytes<40000);assert.ok(out.report.payload.searchGzipBytes<13*1024);
@@ -35,7 +35,7 @@ test('Long contribution and collection lists use six-record chunks with no missi
  for(const [id,k]of [['per:000001','creators'],['col:000006','memberships']]){const section=index(id).sections[k],rows=[...section.items];let next=section.next;assert.ok(next);while(next){const p=out.payloads.get(next);assert.ok(p.items.length<=6);rows.push(...p.items);next=p.next;}assert.equal(rows.length,section.total);assert.equal(new Set(rows.map(r=>r.id)).size,rows.length);}
 });
 test('Default pages, search aliases, metadata and gated entries contain none of the six plot-only labels',()=>{
- const search=out.payloads.get(out.report.assets.search);assert.equal(search.records.length,639);
+ const search=out.payloads.get(out.report.assets.search);assert.equal(search.records.length,645);
  for(const n of out.plot.nodes){for(const name of out.report.files.filter(f=>f.file.endsWith('/index.json')).map(f=>f.file))assert.ok(!JSON.stringify(out.payloads.get(name)).includes(n.label),name);assert.ok(!JSON.stringify(search).includes(n.label));assert.ok(!out.files.get('explorer/pilot/index.html').includes(n.label));assert.ok(!('node'in index(n.id)));}
  assert.ok(plot('chr:000005').node);assert.equal(plot('chr:000005').node.label,'Father Callahan');
 });
@@ -185,4 +185,8 @@ test('Three further Scribner edition routes retain the correct work, ISBN and da
 
 test('Three collection edition pages preserve collection parents and existing story memberships',()=>{
  for(const[id,parent,isbn,date]of [['edn:000180','col:000003','9781501143489','2016-03-29'],['edn:000181','col:000005','9781501143496','2016-08-02'],['edn:000182','col:000006','9781501192036','2017-10-31']]){const e=index(id),c=index(parent);assert.equal(e.parent.id,parent);assert.equal(e.node.data.isbn13,isbn);assert.equal(e.node.data.publicationDate.value,date);assert.equal(e.node.data.publicationDate.meaning,'edition-publication');assert.ok(c.sections.editions.items.some(r=>r.id===id));assert.ok(c.sections.memberships.total>=4);assert.ok(!c.publicationDates.some(d=>d.value===date));}
+});
+
+test('Six further collection editions keep the exact language format date and collection identity',()=>{
+ for(const[id,parent,isbn,format]of [['edn:000183','col:000002','9780307947291','Paperback'],['edn:000184','col:000008','9781501197963','Trade Paperback'],['edn:000185','col:000009','9781501197659','Trade Paperback'],['edn:000186','col:000012','9781501197956','Trade Paperback'],['edn:000187','col:000013','9781982137977','Hardcover'],['edn:000188','col:000001','9781668037713','Hardcover']]){const e=index(id);assert.equal(e.parent.id,parent);assert.equal(e.node.data.isbn13,isbn);assert.equal(e.node.data.language,'en');assert.equal(e.node.data.format,format);assert.equal(e.node.data.publicationDate.meaning,'edition-publication');assert.ok(index(parent).sections.editions.items.some(r=>r.id===id));}assert.equal(index('col:000001').sections.memberships.total,12);
 });
