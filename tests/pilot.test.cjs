@@ -149,3 +149,8 @@ test('Hearts character pages link both ways to the correct stories while keeping
  for(const id of ['chr:000019','chr:000020','chr:000021']){const p=index(id);assert.ok(p.node.description.length>80);assert.equal(p.connections.length,2);assert.ok(p.connections.every(c=>index(c.target.id).connections.some(e=>e.id===c.id&&e.target.id===id)));}
  for(let i=145;i<=149;i++){const p=index('wrk:'+String(i).padStart(6,'0'));assert.ok(p.node.evidence.some(c=>c.fieldPath==='/summary'&&c.selected&&c.status==='verified'));assert.ok(p.sections.memberships.items.some(m=>m.target.id==='col:000007'));assert.doesNotMatch(p.node.description,/Ted Brautigan|Dark Tower|Breaker/);}
 });
+
+test('Recent story introductions keep collection membership, selected evidence and spoiler-safe Cujo links',()=>{
+ for(const n of [186,188,189,191,192,194,195,196,197]){const p=index('wrk:'+String(n).padStart(6,'0'));assert.ok(p.node.description.length>80);assert.ok(p.sections.memberships.items.some(m=>m.target.id==='col:000001'));assert.ok(p.node.evidence.some(c=>c.fieldPath==='/summary'&&c.selected&&c.status==='verified'));}
+ const r=index('wrk:000195');assert.ok(r.connections.some(c=>c.predicate==='sequel_to'&&c.target.id==='wrk:000012'));assert.doesNotMatch(r.node.description,/Vic|Tad|Donna/);
+});

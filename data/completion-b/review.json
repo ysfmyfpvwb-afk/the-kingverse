@@ -2570,6 +2570,114 @@
       "checkedFields": [
         "original spoiler-aware English reading introduction"
       ]
+    },
+    {
+      "key": "book-intro-wrk-000186-source",
+      "url": "https://stephenking.com/works/short/two-talented-bastids.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Synopsis: opening situation only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000188-source",
+      "url": "https://stephenking.com/works/short/willie-the-weirdo.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Synopsis: opening situation only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000189-source",
+      "url": "https://stephenking.com/works/short/danny-coughlins-bad-dream.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Synopsis: opening situation only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000191-source",
+      "url": "https://stephenking.com/works/short/on-slide-inn-road.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Synopsis: opening situation only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000192-source",
+      "url": "https://stephenking.com/works/short/red-screen.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Synopsis: opening situation only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000194-source",
+      "url": "https://stephenking.com/works/short/laurie.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Synopsis: opening situation only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000195-source",
+      "url": "https://stephenking.com/works/short/rattlesnakes.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Synopsis: opening situation only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000196-source",
+      "url": "https://stephenking.com/works/short/dreamers.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Synopsis: opening situation only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000197-source",
+      "url": "https://stephenking.com/works/short/answer-man.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Synopsis: opening situation only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
     }
   ],
   "records": [
@@ -10481,6 +10589,213 @@
         "level": "premise",
         "workIds": [
           "wrk:000149"
+        ]
+      },
+      "locator": "Official work description, opening situation only; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000186",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000186"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Two men’s remarkable talents have an origin they have kept hidden for years. This story explores the secret behind their abilities."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000186-source"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000186"
+        ]
+      },
+      "locator": "Official work description, opening situation only; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000188",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000188"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Willie’s fascination with dead birds, insects and destruction sets him apart from others. His grandfather shares his unusual interests and tells stories that make their bond increasingly unsettling."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000188-source"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000188"
+        ]
+      },
+      "locator": "Official work description, opening situation only; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000189",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000189"
+      },
+      "field": "summary",
+      "value": {
+        "en": "An unexpected psychic experience sets off upheaval across many lives. A brief flash of knowledge has consequences far beyond the person who experiences it."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000189-source"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000189"
+        ]
+      },
+      "locator": "Official work description, opening situation only; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000191",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000191"
+      },
+      "field": "summary",
+      "value": {
+        "en": "A family sets off to visit an elderly relative, only for their car to become stuck in a muddy rut. An ordinary road trip takes an unsettling turn."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000191-source"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000191"
+        ]
+      },
+      "locator": "Official work description, opening situation only; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000192",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000192"
+      },
+      "field": "summary",
+      "value": {
+        "en": "A detective questions a plumber who has killed his wife. What begins as an interrogation in a murder case hints at something more disturbing behind the man’s account."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000192-source"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000192"
+        ]
+      },
+      "locator": "Official work description, opening situation only; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000194",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000194"
+      },
+      "field": "summary",
+      "value": {
+        "en": "After his wife’s death, retired Florida resident Lloyd Sunderland receives a puppy from his concerned sister. The unexpected responsibility brings a new companion into his grieving life."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000194-source"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000194"
+        ]
+      },
+      "locator": "Official work description, opening situation only; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000195",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000195"
+      },
+      "field": "summary",
+      "value": {
+        "en": "A grieving widower travels to Florida hoping for a respite. An unexpected inheritance brings troubling conditions in this story, which continues a thread from Cujo."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000195-source"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000195"
+        ]
+      },
+      "locator": "Official work description, opening situation only; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000196",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000196"
+      },
+      "field": "summary",
+      "value": {
+        "en": "A quiet Vietnam veteran responds to a job advertisement. The work leads him towards unsettling possibilities beyond the familiar world."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000196-source"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000196"
+        ]
+      },
+      "locator": "Official work description, opening situation only; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000197",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000197"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Knowing what lies ahead may be a gift or a burden. This story explores foreknowledge, chance and the search for meaning in a life."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000197-source"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000197"
         ]
       },
       "locator": "Official work description, opening situation only; independently worded visitor introduction.",

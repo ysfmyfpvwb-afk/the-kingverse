@@ -1102,6 +1102,15 @@
     "claim/bobby-garfield-wrk:000149/to": "clm:009025",
     "claim/bobby-garfield-wrk:000149/certainty": "clm:009026",
     "claim/bobby-garfield-wrk:000149/explanation": "clm:009027",
-    "claim/bobby-garfield-wrk:000149/spoiler": "clm:009028"
+    "claim/bobby-garfield-wrk:000149/spoiler": "clm:009028",
+    "claim/book-intro-wrk-000186": "clm:009029",
+    "claim/book-intro-wrk-000188": "clm:009030",
+    "claim/book-intro-wrk-000189": "clm:009031",
+    "claim/book-intro-wrk-000191": "clm:009032",
+    "claim/book-intro-wrk-000192": "clm:009033",
+    "claim/book-intro-wrk-000194": "clm:009034",
+    "claim/book-intro-wrk-000195": "clm:009035",
+    "claim/book-intro-wrk-000196": "clm:009036",
+    "claim/book-intro-wrk-000197": "clm:009037"
   }
 }
