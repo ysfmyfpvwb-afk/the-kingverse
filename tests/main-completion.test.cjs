@@ -157,3 +157,8 @@ test('Anthology main details navigate to each adapted story and expose the film 
  run("tab='films';lang='en'");const tv=run("detailContent(F.find(f=>f.canonicalId==='adp:000067'))"),movie=run("detailContent(F.find(f=>f.canonicalId==='adp:000094'))");for(const n of [79,142,123,138,158,140,150,132]){const id='wrk:'+String(n).padStart(6,'0'),title=run(`S.find(s=>s.canonicalId===${JSON.stringify(id)} )['Engelse verhaalnaam']`);assert.ok(tv.includes(title.replaceAll('&','&amp;').replaceAll("'",'&#39;')),title);}assert.match(movie,/The Cat from Hell/);
  run("tab='stories';lang='en'");assert.match(run("detailContent(S.find(s=>s.canonicalId==='wrk:000172'))"),/Tales from the Darkside/);assert.match(run("detailContent(S.find(s=>s.canonicalId==='wrk:000079'))"),/Nightmares/);
 });
+
+test('Twenty additional short-work introductions reach every existing main story view',()=>{
+ run("tab='stories';lang='en'");for(const n of [216,217,219,220,222,223,224,225,226,227,229,230,232,233,234,235,237,238,240,241]){const id='wrk:'+String(n).padStart(6,'0'),rows=run(`S.filter(s=>s.canonicalId===${JSON.stringify(id)})`);assert.ok(rows.length,id);for(const row of rows){const html=run(`detailContent(S.find(s=>s.id===${JSON.stringify(row.id)}))`);assert.ok(html.includes(row.summary.en.replaceAll('&','&amp;').replaceAll("'",'&#39;')));assert.match(html,/Sources & context/);}}
+ assert.match(run("S.find(s=>s.canonicalId==='wrk:000216').summary.en"),/Stewart O/);assert.match(run("S.find(s=>s.canonicalId==='wrk:000225').summary.en"),/Joe Hill/);assert.match(run("S.find(s=>s.canonicalId==='wrk:000240').summary.en"),/Richard Matheson/);
+});

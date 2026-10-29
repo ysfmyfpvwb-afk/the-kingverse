@@ -69,7 +69,7 @@ test('Three same-title Corn productions stay distinct and only confirmed adaptat
 });
 
 test('Reviewed book introductions enrich existing identities with field-scoped evidence only',()=>{
- const review=require('../data/completion-b/review.json'),introductions=review.enrichments.filter(e=>e.subject.type==='work');assert.equal(introductions.length,170);
+ const review=require('../data/completion-b/review.json'),introductions=review.enrichments.filter(e=>e.subject.type==='work');assert.equal(introductions.length,190);
  for(const e of introductions){const old=base.works.find(w=>w.id===e.subject.id),w=bundle.works.find(w=>w.id===old.id);assert.equal(w.summary.en,e.value.en);assert.equal(w.originalTitle,old.originalTitle);const c=bundle.claims.find(c=>c.subject.id===w.id&&c.fieldPath==='/summary'&&c.selected);assert.equal(c.status,'verified');assert.deepEqual(c.value,w.summary);assert.ok(c.sourceIds.every(id=>bundle.sources.find(s=>s.id===id).url.match(/^https:\/\/(stephenking\.com|www\.simonandschuster\.com|www\.penguinrandomhouse\.com|www\.newyorker\.com)\//)));}
  const changed=structuredClone(bundle);changed.works.find(w=>w.id==='wrk:000005').originalTitle='Wrong title';assert.ok(validateCompletionB(changed,base).some(e=>e.code==='b-baseline-record-changed'));
  const unsupported=structuredClone(bundle);unsupported.works.find(w=>w.id==='wrk:000005').summary.en='An invented ending';assert.ok(validateCompletionB(unsupported,base).some(e=>e.code==='b-editorial-evidence'));
@@ -184,4 +184,10 @@ test('Recent screen introductions keep first-season scope and separate authors w
  const intro=n=>bundle.adaptations.find(a=>a.id==='adp:'+String(n).padStart(6,'0')).summary.en;
  assert.match(intro(84),/first season/);assert.match(intro(84),/Summer H. Howell/);assert.doesNotMatch(intro(84),/Season 2|second season|available now/);assert.match(intro(91),/Clive Barker/);assert.match(intro(96),/Rachel Lang/);assert.doesNotMatch(intro(96),/half-sister|Sue Snell|25%/);
  for(const n of [29,84,91,96]){const id='adp:'+String(n).padStart(6,'0'),a=bundle.adaptations.find(a=>a.id===id),old=base.adaptations.find(a=>a.id===id);assert.deepEqual(a.productionUnits,old.productionUnits);assert.deepEqual(a.statusHistory,old.statusHistory);assert.deepEqual(a.ratingObservations,old.ratingObservations);}
+});
+
+test('Loose-story introductions preserve collaboration credits and keep endings out of default copy',()=>{
+ for(const n of [216,217,219,220,222,223,224,225,226,227,229,230,232,233,234,235,237,238,240,241]){const id='wrk:'+String(n).padStart(6,'0');assert.deepEqual(bundle.credits.filter(c=>c.subject.id===id),base.credits.filter(c=>c.subject.id===id));assert.deepEqual(bundle.publicationEvents.filter(p=>p.subject.id===id),base.publicationEvents.filter(p=>p.subject.id===id));}
+ const intro=n=>bundle.works.find(w=>w.id==='wrk:'+String(n).padStart(6,'0')).summary.en;
+ assert.doesNotMatch(intro(219),/suicide|mental illness/);assert.doesNotMatch(intro(223),/killed|murder/);assert.doesNotMatch(intro(227),/walking weed|turns into/);assert.doesNotMatch(intro(232),/murder/);assert.notEqual(intro(227),intro(241));
 });
