@@ -144,7 +144,7 @@ test('Shining and Misery profiles preserve literary identities without film even
 });
 
 test('Reviewed core film introductions replace only generic copy on existing productions with selected field evidence',()=>{
- const edits=require('../data/completion-b/review.json').enrichments.filter(e=>e.subject.type==='adaptation');assert.equal(edits.length,63);for(const e of edits){const old=base.adaptations.find(a=>a.id===e.subject.id),a=bundle.adaptations.find(a=>a.id===old.id);assert.deepEqual(a.summary,e.value);assert.deepEqual(a.releaseEvents,old.releaseEvents);assert.deepEqual(a.makerObservations,old.makerObservations);assert.deepEqual(a.ratingObservations,old.ratingObservations);const c=bundle.claims.find(c=>c.subject.id===a.id&&c.fieldPath==='/summary'&&c.selected);assert.equal(c.status,'verified');assert.deepEqual(c.value,a.summary);assert.ok(c.sourceIds.length);}
+ const edits=require('../data/completion-b/review.json').enrichments.filter(e=>e.subject.type==='adaptation');assert.equal(edits.length,87);for(const e of edits){const old=base.adaptations.find(a=>a.id===e.subject.id),a=bundle.adaptations.find(a=>a.id===old.id);assert.deepEqual(a.summary,e.value);assert.deepEqual(a.releaseEvents,old.releaseEvents);assert.deepEqual(a.makerObservations,old.makerObservations);assert.deepEqual(a.ratingObservations,old.ratingObservations);const c=bundle.claims.find(c=>c.subject.id===a.id&&c.fieldPath==='/summary'&&c.selected);assert.equal(c.status,'verified');assert.deepEqual(c.value,a.summary);assert.ok(c.sourceIds.length);}
  const b=structuredClone(bundle);b.adaptations.find(a=>a.id==='adp:000045').summary.en='An invented prison ending';assert.ok(validateCompletionB(b,base).some(e=>e.code==='b-editorial-evidence'));
 });
 
@@ -158,4 +158,11 @@ test('Anthology and prequel introductions preserve production scope without reve
  assert.match(intro(5),/original screen story The General/);assert.match(intro(94),/one contribution/);assert.match(intro(95),/prequel/);
  assert.doesNotMatch(intro(7),/married|husband|wife/);assert.doesNotMatch(intro(22),/mutant|bat-rat/);assert.doesNotMatch(intro(30),/virgins|sacrific/);assert.doesNotMatch(intro(47),/Reverend|Lowe/);
  for(const n of [5,9,10,22,30,94,95])assert.deepEqual(bundle.adaptations.find(a=>a.id==='adp:'+String(n).padStart(6,'0')).sourceWorks,base.adaptations.find(a=>a.id==='adp:'+String(n).padStart(6,'0')).sourceWorks);
+});
+
+test('Television introductions keep anthology, tie-in authorship and spoiler boundaries distinct',()=>{
+ const intro=n=>bundle.adaptations.find(a=>a.id==='adp:'+String(n).padStart(6,'0')).summary.en;
+ assert.match(intro(67),/Eight separate/);assert.match(intro(85),/Ridley Pearson/);assert.match(intro(88),/Lars von Trier/);assert.match(intro(75),/separately from Maximum Overdrive/);
+ assert.doesNotMatch(intro(63),/time warp|asleep|sacrifice/);assert.doesNotMatch(intro(77),/Holly|Gibney/);assert.doesNotMatch(intro(81),/Ellen|Sukeena/);assert.doesNotMatch(intro(82),/child|son|daughter/);
+ for(const n of [54,67,75,79,85,88]){const id='adp:'+String(n).padStart(6,'0'),a=bundle.adaptations.find(a=>a.id===id),old=base.adaptations.find(a=>a.id===id);assert.deepEqual(a.releaseEvents,old.releaseEvents);assert.deepEqual(a.sourceWorks,old.sourceWorks);}
 });
