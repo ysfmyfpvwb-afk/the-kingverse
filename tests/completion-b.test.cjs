@@ -5,7 +5,7 @@ const {extendCompletionB,validateCompletionB}=require('../scripts/completion_b.c
 const base=loadCompletion(),before=structuredClone(base),bundle=extendCompletionB(base);
 test('Bounded B additions preserve every prior identity, record, alias and manifest',()=>{
  assert.deepEqual(base,before);assert.deepEqual(validateCompletionB(bundle,base),[]);
- assert.equal(bundle.characters.length-base.characters.length,10);assert.equal(bundle.locations.length-base.locations.length,4);assert.equal(bundle.series.length-base.series.length,4);assert.equal(bundle.adaptations.length-base.adaptations.length,15);assert.equal(bundle.connections.length-base.connections.length,56);
+ assert.equal(bundle.characters.length-base.characters.length,13);assert.equal(bundle.locations.length-base.locations.length,4);assert.equal(bundle.series.length-base.series.length,4);assert.equal(bundle.adaptations.length-base.adaptations.length,15);assert.equal(bundle.connections.length-base.connections.length,62);
  assert.throws(()=>extendCompletionB(bundle),/collision|already exists/);
 });
 test('The Hodges sequence links exactly the three existing novels with supported positions',()=>{
@@ -69,7 +69,7 @@ test('Three same-title Corn productions stay distinct and only confirmed adaptat
 });
 
 test('Reviewed book introductions enrich existing identities with field-scoped evidence only',()=>{
- const review=require('../data/completion-b/review.json'),introductions=review.enrichments.filter(e=>e.subject.type==='work');assert.equal(introductions.length,121);
+ const review=require('../data/completion-b/review.json'),introductions=review.enrichments.filter(e=>e.subject.type==='work');assert.equal(introductions.length,126);
  for(const e of introductions){const old=base.works.find(w=>w.id===e.subject.id),w=bundle.works.find(w=>w.id===old.id);assert.equal(w.summary.en,e.value.en);assert.equal(w.originalTitle,old.originalTitle);const c=bundle.claims.find(c=>c.subject.id===w.id&&c.fieldPath==='/summary'&&c.selected);assert.equal(c.status,'verified');assert.deepEqual(c.value,w.summary);assert.ok(c.sourceIds.every(id=>bundle.sources.find(s=>s.id===id).url.match(/^https:\/\/(stephenking\.com|www\.simonandschuster\.com|www\.penguinrandomhouse\.com)\//)));}
  const changed=structuredClone(bundle);changed.works.find(w=>w.id==='wrk:000005').originalTitle='Wrong title';assert.ok(validateCompletionB(changed,base).some(e=>e.code==='b-baseline-record-changed'));
  const unsupported=structuredClone(bundle);unsupported.works.find(w=>w.id==='wrk:000005').summary.en='An invented ending';assert.ok(validateCompletionB(unsupported,base).some(e=>e.code==='b-editorial-evidence'));
@@ -146,4 +146,9 @@ test('Shining and Misery profiles preserve literary identities without film even
 test('Eight core film introductions replace only generic copy on existing productions with selected field evidence',()=>{
  const edits=require('../data/completion-b/review.json').enrichments.filter(e=>e.subject.type==='adaptation');assert.equal(edits.length,8);for(const e of edits){const old=base.adaptations.find(a=>a.id===e.subject.id),a=bundle.adaptations.find(a=>a.id===old.id);assert.deepEqual(a.summary,e.value);assert.deepEqual(a.releaseEvents,old.releaseEvents);assert.deepEqual(a.makerObservations,old.makerObservations);assert.deepEqual(a.ratingObservations,old.ratingObservations);const c=bundle.claims.find(c=>c.subject.id===a.id&&c.fieldPath==='/summary'&&c.selected);assert.equal(c.status,'verified');assert.deepEqual(c.value,a.summary);assert.ok(c.sourceIds.length);}
  const b=structuredClone(bundle);b.adaptations.find(a=>a.id==='adp:000045').summary.en='An invented prison ending';assert.ok(validateCompletionB(b,base).some(e=>e.code==='b-editorial-evidence'));
+});
+
+test('Hearts in Atlantis reading paths reuse five story identities and three spoiler-safe recurring characters',()=>{
+ for(const[id,name]of [['chr:000019','Carol Gerber'],['chr:000020','John “Sully” Sullivan'],['chr:000021','Bobby Garfield']]){assert.equal(bundle.characters.filter(c=>c.name===name).length,1);const c=bundle.characters.find(c=>c.id===id);assert.equal(c.name,name);assert.equal(c.spoiler.level,'none');assert.deepEqual(c.aliases,[]);const links=bundle.connections.filter(c=>c.from.id===id);assert.equal(links.length,2);assert.ok(links.every(c=>c.predicate==='appears_in'&&c.certainty==='explicit'&&c.spoiler.level==='premise'));}
+ for(let i=145;i<=149;i++){const id='wrk:'+String(i).padStart(6,'0');assert.ok(bundle.works.find(w=>w.id===id).summary.en.length>80);assert.deepEqual(bundle.publicationEvents.filter(p=>p.subject.id===id),base.publicationEvents.filter(p=>p.subject.id===id));}assert.equal(bundle.works.length,250);assert.equal(bundle.collections.length,16);
 });

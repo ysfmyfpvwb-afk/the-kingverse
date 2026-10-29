@@ -2510,6 +2510,66 @@
       "checkedFields": [
         "original spoiler-aware English reading introduction"
       ]
+    },
+    {
+      "key": "book-intro-wrk-000145-source",
+      "url": "https://stephenking.com/works/novella/low-men-in-yellow-coats.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Synopsis: opening situation only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000146-source",
+      "url": "https://stephenking.com/works/novella/hearts-in-atlantis.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Synopsis: opening situation only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000147-source",
+      "url": "https://stephenking.com/works/novella/blind-willie.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Synopsis: opening situation only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000148-source",
+      "url": "https://stephenking.com/works/novella/why-we-re-in-vietnam.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Synopsis: opening situation only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000149-source",
+      "url": "https://stephenking.com/works/novella/heavenly-shades-of-night-are-falling.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Synopsis: opening situation only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
     }
   ],
   "records": [
@@ -6015,6 +6075,232 @@
       ],
       "note": "Opening setting only. No Doctor Sleep hotel-setting link is inferred from the film or from a later plot event.",
       "checked": "2026-10-28"
+    },
+    {
+      "key": "carol-gerber",
+      "entityType": "character",
+      "name": "Carol Gerber",
+      "aliases": [],
+      "continuity": "Hearts in Atlantis literary continuity",
+      "summary": {
+        "en": "Carol Gerber is one of Bobby Garfield’s friends in Low Men in Yellow Coats. Her story also crosses Pete Riley’s university life in Hearts in Atlantis."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000145-source",
+        "book-intro-wrk-000146-source"
+      ],
+      "note": "Opening roles and recurring literary names only. No hidden identity, war outcome, later romantic outcome or Dark Tower explanation.",
+      "checked": "2026-10-29"
+    },
+    {
+      "key": "sully-sullivan",
+      "entityType": "character",
+      "name": "John “Sully” Sullivan",
+      "aliases": [],
+      "continuity": "Hearts in Atlantis literary continuity",
+      "summary": {
+        "en": "John “Sully” Sullivan is a friend of Bobby Garfield and Carol Gerber in Low Men in Yellow Coats. He is one of the recurring figures in the Hearts in Atlantis collection."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000145-source"
+      ],
+      "note": "Opening roles and recurring literary names only. No hidden identity, war outcome, later romantic outcome or Dark Tower explanation.",
+      "checked": "2026-10-29"
+    },
+    {
+      "key": "bobby-garfield",
+      "entityType": "character",
+      "name": "Bobby Garfield",
+      "aliases": [],
+      "continuity": "Hearts in Atlantis literary continuity",
+      "summary": {
+        "en": "Bobby Garfield is the boy at the centre of Low Men in Yellow Coats. He lives with his mother in a boarding house, where a new neighbour gives the summer a mysterious turn."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000145-source"
+      ],
+      "note": "Opening roles and recurring literary names only. No hidden identity, war outcome, later romantic outcome or Dark Tower explanation.",
+      "checked": "2026-10-29"
+    },
+    {
+      "key": "carol-gerber-wrk:000145",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "key": "carol-gerber"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000145"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Carol Gerber is one of Bobby’s friends in Low Men in Yellow Coats."
+      },
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000145"
+        ]
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000145-source"
+      ],
+      "note": "The official public premise explicitly names the character in this story. No later event, identity reveal or relationship outcome.",
+      "checked": "2026-10-29"
+    },
+    {
+      "key": "carol-gerber-wrk:000146",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "key": "carol-gerber"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000146"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Carol Gerber meets Pete Riley during his university years in Hearts in Atlantis."
+      },
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000146"
+        ]
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000146-source"
+      ],
+      "note": "The official public premise explicitly names the character in this story. No later event, identity reveal or relationship outcome.",
+      "checked": "2026-10-29"
+    },
+    {
+      "key": "sully-sullivan-wrk:000145",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "key": "sully-sullivan"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000145"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "John “Sully” Sullivan is one of Bobby’s friends in Low Men in Yellow Coats."
+      },
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000145"
+        ]
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000145-source"
+      ],
+      "note": "The official public premise explicitly names the character in this story. No later event, identity reveal or relationship outcome.",
+      "checked": "2026-10-29"
+    },
+    {
+      "key": "sully-sullivan-wrk:000148",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "key": "sully-sullivan"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000148"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Why We’re in Vietnam follows John “Sully” Sullivan at a fellow veteran’s funeral."
+      },
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000148"
+        ]
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000148-source"
+      ],
+      "note": "The official public premise explicitly names the character in this story. No later event, identity reveal or relationship outcome.",
+      "checked": "2026-10-29"
+    },
+    {
+      "key": "bobby-garfield-wrk:000145",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "key": "bobby-garfield"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000145"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Bobby Garfield is the young protagonist of Low Men in Yellow Coats."
+      },
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000145"
+        ]
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000145-source"
+      ],
+      "note": "The official public premise explicitly names the character in this story. No later event, identity reveal or relationship outcome.",
+      "checked": "2026-10-29"
+    },
+    {
+      "key": "bobby-garfield-wrk:000149",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "key": "bobby-garfield"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000149"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Heavenly Shades of Night Are Falling follows Bobby Garfield’s return to his childhood neighbourhood."
+      },
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000149"
+        ]
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000149-source"
+      ],
+      "note": "The official public premise explicitly names the character in this story. No later event, identity reveal or relationship outcome.",
+      "checked": "2026-10-29"
     }
   ],
   "deferred": [
@@ -10080,6 +10366,121 @@
         "level": "premise",
         "workIds": [
           "wrk:000215"
+        ]
+      },
+      "locator": "Official work description, opening situation only; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000145",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000145"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Bobby Garfield befriends an elderly neighbour at the boarding house where he lives with his mother. Reading the newspaper to his new friend and watching for unusual signs around town give his summer an increasingly mysterious shape."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000145-source"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000145"
+        ]
+      },
+      "locator": "Official work description, opening situation only; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000146",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000146"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Pete Riley begins university in Maine in 1966, with the Vietnam draft making academic success especially important. An absorbing game of Hearts threatens to draw him and his fellow students away from their studies."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000146-source"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000146"
+        ]
+      },
+      "locator": "Official work description, opening situation only; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000147",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000147"
+      },
+      "field": "summary",
+      "value": {
+        "en": "A man makes his living on the streets of New York by pretending to be blind. His familiar arrangements with the police become less secure when he encounters an officer who may not accept them."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000147-source"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000147"
+        ]
+      },
+      "locator": "Official work description, opening situation only; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000148",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000148"
+      },
+      "field": "summary",
+      "value": {
+        "en": "John ‘Sully’ Sullivan attends the funeral of a fellow Vietnam veteran. The occasion brings memories of the war and people from his past into the present."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000148-source"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000148"
+        ]
+      },
+      "locator": "Official work description, opening situation only; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000149",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000149"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Bobby Garfield returns to the Broad Street house of his childhood after nearly forty years away. This closing story in Hearts in Atlantis revisits old memories while keeping an unexpected meeting ahead."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000149-source"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000149"
         ]
       },
       "locator": "Official work description, opening situation only; independently worded visitor introduction.",
