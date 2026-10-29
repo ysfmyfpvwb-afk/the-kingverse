@@ -11,7 +11,7 @@ test('Pilot is reproducible, all generated files match, and all earlier baseline
  assert.deepEqual(generatePilot().files,out.files);assert.deepEqual(out.base,require('../scripts/completion_pilot.cjs').completionPilot().defaultProjection);
 });
 test('Every canonical identity, type and endpoint has an independent bounded deep-link payload',()=>{
- assert.equal(out.full.nodes.length,630);for(const n of out.full.nodes){const p=index(n.id);assert.ok(p);if(out.base.nodes.some(s=>s.id===n.id)){assert.equal(p.node.id,n.id);assert.equal(p.node.type,n.type);assert.equal(p.node.label,n.label);}else assert.equal(p.scope,'gated');}
+ assert.equal(out.full.nodes.length,632);for(const n of out.full.nodes){const p=index(n.id);assert.ok(p);if(out.base.nodes.some(s=>s.id===n.id)){assert.equal(p.node.id,n.id);assert.equal(p.node.type,n.type);assert.equal(p.node.label,n.label);}else assert.equal(p.scope,'gated');}
  const types=new Set(out.full.nodes.map(n=>n.type));assert.equal(types.size,8);
  for(const[name,p]of out.payloads)if(!name.startsWith('search.')){assert.ok(Buffer.byteLength(out.files.get('explorer/pilot/'+name))<=LIMIT);for(const e of p.connections||[])assert.ok(index(e.target.id));}
  assert.equal(out.report.payload.initialAggregateProjectBytesLoaded,0);assert.ok(out.report.payload.maxEntityBytes<40000);assert.ok(out.report.payload.searchGzipBytes<13*1024);
@@ -35,7 +35,7 @@ test('Long contribution and collection lists use six-record chunks with no missi
  for(const [id,k]of [['per:000001','creators'],['col:000006','memberships']]){const section=index(id).sections[k],rows=[...section.items];let next=section.next;assert.ok(next);while(next){const p=out.payloads.get(next);assert.ok(p.items.length<=6);rows.push(...p.items);next=p.next;}assert.equal(rows.length,section.total);assert.equal(new Set(rows.map(r=>r.id)).size,rows.length);}
 });
 test('Default pages, search aliases, metadata and gated entries contain none of the six plot-only labels',()=>{
- const search=out.payloads.get(out.report.assets.search);assert.equal(search.records.length,624);
+ const search=out.payloads.get(out.report.assets.search);assert.equal(search.records.length,626);
  for(const n of out.plot.nodes){for(const name of out.report.files.filter(f=>f.file.endsWith('/index.json')).map(f=>f.file))assert.ok(!JSON.stringify(out.payloads.get(name)).includes(n.label),name);assert.ok(!JSON.stringify(search).includes(n.label));assert.ok(!out.files.get('explorer/pilot/index.html').includes(n.label));assert.ok(!('node'in index(n.id)));}
  assert.ok(plot('chr:000005').node);assert.equal(plot('chr:000005').node.label,'Father Callahan');
 });
@@ -158,4 +158,9 @@ test('Recent story introductions keep collection membership, selected evidence a
 test('Just After Sunset descriptions retain collection covers and original-publication evidence without quoted story text',()=>{
  for(const n of [164,165,166,167,168,169,170,171,175,176]){const p=index('wrk:'+String(n).padStart(6,'0'));assert.ok(p.node.description.length>80);assert.ok(p.sections.memberships.items.some(m=>m.target.id==='col:000009'));assert.ok(p.node.evidence.some(c=>c.fieldPath==='/summary'&&c.selected&&c.status==='verified'));}
  const p=index('wrk:000166'),c=p.node.evidence.find(c=>c.fieldPath==='/summary'&&c.selected);assert.ok(c.sourceIds.every(id=>p.sources.some(s=>s.id===id&&new URL(s.url).hostname==='www.newyorker.com')));assert.doesNotMatch(p.node.description,/Big Dog|commodore|Volvo|daughter|killed/);assert.doesNotMatch(index('wrk:000171').node.description,/suicide|kills|stone circle/i);
+});
+
+test('Skeleton Crew additions preserve story memberships and separate modern edition dates from the original collection',()=>{
+ for(const n of [96,97,98,99,100,101,102,105,115]){const p=index('wrk:'+String(n).padStart(6,'0'));assert.ok(p.node.description.length>80);assert.ok(p.node.evidence.some(c=>c.fieldPath==='/summary'&&c.selected&&c.status==='verified'));assert.ok(p.sections.memberships.items.some(m=>m.target.id==='col:000004'));}
+ for(const[id,isbn,date]of [['edn:000170','9781501143502','2016-12-06'],['edn:000171','9781668207741','2025-02-25']]){const p=index(id);assert.equal(p.parent.id,'col:000004');assert.equal(p.node.data.isbn13,isbn);assert.equal(p.node.data.publicationDate.value,date);assert.equal(p.node.data.publicationDate.meaning,'edition-publication');assert.ok(!index('col:000004').publicationDates.some(d=>d.value===date));}assert.doesNotMatch(index('wrk:000096').node.description,/suicide|kills his son|shoots|ending/);
 });

@@ -2810,6 +2810,148 @@
       "checkedFields": [
         "original English introduction to opening scene only"
       ]
+    },
+    {
+      "key": "book-intro-wrk-000096-source",
+      "url": "https://stephenking.com/works/novella/mist.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Synopsis: opening situation only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000097-source",
+      "url": "https://stephenking.com/works/short/here-there-be-tygers.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Synopsis: opening situation only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000098-source",
+      "url": "https://stephenking.com/works/short/monkey.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Synopsis: opening situation only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000099-source",
+      "url": "https://stephenking.com/works/short/cain-rose-up.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Synopsis: opening situation only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000100-source",
+      "url": "https://stephenking.com/works/short/mrs-todds-shortcut.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Synopsis: opening situation only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000101-source",
+      "url": "https://stephenking.com/works/short/jaunt.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Synopsis: opening situation only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000102-source",
+      "url": "https://stephenking.com/works/short/wedding-gig.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Synopsis: opening situation only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000105-source",
+      "url": "https://stephenking.com/works/short/word-processor-of-the-gods.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Synopsis: opening situation only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000115-source",
+      "url": "https://stephenking.com/works/short/gramma.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Synopsis: opening situation only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "skeleton-paperback-publisher",
+      "url": "https://www.simonandschuster.com/books/Skeleton-Crew/Stephen-King/9781501143502",
+      "publisher": "Simon & Schuster / Scribner",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Selected print format and Product Details: title, Scribner, ISBN13 and specific edition publication date. About the Book explicitly features The Monkey and describes an evil child’s toy; contents distinguish the stories and poems. No quotations, promotional reviews or images retained.",
+      "checkedFields": [
+        "identified English print edition",
+        "ISBN13",
+        "publisher",
+        "format",
+        "edition publication day",
+        "The Monkey opening premise"
+      ]
+    },
+    {
+      "key": "skeleton-tie-in-publisher",
+      "url": "https://www.simonandschuster.com/books/Skeleton-Crew/Stephen-King/9781668207741",
+      "publisher": "Simon & Schuster / Scribner",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Selected print format and Product Details: title, Scribner, ISBN13 and specific edition publication date. About the Book explicitly features The Monkey and describes an evil child’s toy; contents distinguish the stories and poems. No quotations, promotional reviews or images retained.",
+      "checkedFields": [
+        "identified English print edition",
+        "ISBN13",
+        "publisher",
+        "format",
+        "edition publication day",
+        "The Monkey opening premise"
+      ]
     }
   ],
   "records": [
@@ -6541,6 +6683,64 @@
       ],
       "note": "The official public premise explicitly names the character in this story. No later event, identity reveal or relationship outcome.",
       "checked": "2026-10-29"
+    },
+    {
+      "key": "skeleton-paperback",
+      "entityType": "edition",
+      "checked": "2026-10-29",
+      "publicationOf": {
+        "type": "collection",
+        "id": "col:000004"
+      },
+      "language": "en",
+      "title": "Skeleton Crew",
+      "isbn13": "9781501143502",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2016-12-06",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Trade Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "skeleton-paperback-publisher"
+      ],
+      "open": [
+        "Individual printing not established; no image imported or linked to an older unknown edition."
+      ],
+      "note": "Specific English collection edition. The 1985 collection and its existing story memberships remain unchanged; neither date is promoted to original work publication."
+    },
+    {
+      "key": "skeleton-tie-in",
+      "entityType": "edition",
+      "checked": "2026-10-29",
+      "publicationOf": {
+        "type": "collection",
+        "id": "col:000004"
+      },
+      "language": "en",
+      "title": "Skeleton Crew",
+      "isbn13": "9781668207741",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2025-02-25",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Media Tie-In Trade Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "skeleton-tie-in-publisher"
+      ],
+      "open": [
+        "Individual printing not established; no image imported or linked to an older unknown edition."
+      ],
+      "note": "Specific English collection edition. The 1985 collection and its existing story memberships remain unchanged; neither date is promoted to original work publication."
     }
   ],
   "deferred": [
@@ -11161,6 +11361,214 @@
         ]
       },
       "locator": "Official work description, opening situation only; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000096",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000096"
+      },
+      "field": "summary",
+      "value": {
+        "en": "After a violent storm, David Drayton and his son Billy join other shoppers at a grocery store. A strange mist traps them inside, while creatures outside and growing fear within threaten the group."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000096-source"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000096"
+        ]
+      },
+      "locator": "Official work description, opening situation only; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000097",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000097"
+      },
+      "field": "summary",
+      "value": {
+        "en": "For a schoolboy named Charles, the bathroom hides a terrifying tiger. An ordinary school day becomes a child’s nightmare in this early story."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000097-source"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000097"
+        ]
+      },
+      "locator": "Official story Characters section: only explicitly listed character roles, school bathroom, teleportation invention, wedding/band or nephew-built word processor used. No unrecorded powers, endings or fate inferred.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000098",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000098"
+      },
+      "field": "summary",
+      "value": {
+        "en": "A sinister toy monkey stands at the centre of this story about Hal Shelburn and his family. Something meant for a child carries a much darker presence."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000098-source",
+        "skeleton-paperback-publisher"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000098"
+        ]
+      },
+      "locator": "Official story Characters identifies the toy and Hal Shelburn family; publisher Book Description explicitly connects The Monkey to an evil child’s toy.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000099",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000099"
+      },
+      "field": "summary",
+      "value": {
+        "en": "College student Curt Garrish turns his dormitory room into the position for a shooting attack. This short story brings horror into the familiar setting of a university campus."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000099-source"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000099"
+        ]
+      },
+      "locator": "Official work description, opening situation only; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000100",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000100"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Mrs. Todd’s talent for finding shortcuts promises more than an ordinary drive. Her journeys turn the search for a shorter route into something stranger."
+      },
+      "sourceKeys": [
+        "book-intro-col-000004-source"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000100"
+        ]
+      },
+      "locator": "Official Skeleton Crew From the Flap explicitly names this story and its opening subject; no later outcome copied.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000101",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000101"
+      },
+      "field": "summary",
+      "value": {
+        "en": "A device known as the Jaunt makes teleportation possible. This technological advance provides the background to a science-fiction story narrated by Mark Oates."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000101-source"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000101"
+        ]
+      },
+      "locator": "Official story Characters section: only explicitly listed character roles, school bathroom, teleportation invention, wedding/band or nephew-built word processor used. No unrecorded powers, endings or fate inferred.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000102",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000102"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Jazz musicians and the world of small-time racketeering meet at Maureen Scollay’s wedding. The celebration brings a band and a troubled family into the same room."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000102-source"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000102"
+        ]
+      },
+      "locator": "Official story Characters section: only explicitly listed character roles, school bathroom, teleportation invention, wedding/band or nephew-built word processor used. No unrecorded powers, endings or fate inferred.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000105",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000105"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Writer and teacher Richard Hagstrom receives a word processor built by his nephew Jonathan. The unusual homemade gift becomes the centre of this tale."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000105-source"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000105"
+        ]
+      },
+      "locator": "Official story Characters section: only explicitly listed character roles, school bathroom, teleportation invention, wedding/band or nephew-built word processor used. No unrecorded powers, endings or fate inferred.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000115",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000115"
+      },
+      "field": "summary",
+      "value": {
+        "en": "A boy is left alone with his grandmother, and the familiar family home becomes a source of fear. An ordinary family responsibility takes on a frightening weight."
+      },
+      "sourceKeys": [
+        "book-intro-col-000004-source"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000115"
+        ]
+      },
+      "locator": "Official Skeleton Crew From the Flap explicitly names this story and its opening subject; no later outcome copied.",
       "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
     }
   ]

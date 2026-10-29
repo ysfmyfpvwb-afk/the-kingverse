@@ -51,7 +51,7 @@ test('Core novel introductions reach the main details without changing editions 
 
 test('New publisher editions render on main pages with edition dates separate from original work years',()=>{
  run("tab='books';lang='en'");const html=run("detailContent(B.find(r=>r.canonicalId==='wrk:000242'))");assert.match(html,/2000/);assert.match(html,/2020-06-02/);assert.match(html,/9781982159375/);assert.match(html,/Scribner/);assert.match(html,/simonandschuster\.com/);
- const misery=run("detailContent(B.find(r=>r.canonicalId==='wrk:000021'))");assert.match(misery,/2016-01-05/);assert.match(misery,/9781501143106/);assert.equal(run("media(B.find(r=>r.canonicalId==='wrk:000021')).image"),run("MEDIA.books.Misery.en.image"));assert.equal(run('DB.editions.length'),169);
+ const misery=run("detailContent(B.find(r=>r.canonicalId==='wrk:000021'))");assert.match(misery,/2016-01-05/);assert.match(misery,/9781501143106/);assert.equal(run("media(B.find(r=>r.canonicalId==='wrk:000021')).image"),run("MEDIA.books.Misery.en.image"));assert.equal(run('DB.editions.length'),171);
 });
 
 test('Visitor connection explanations use readable content while retaining optional source links',()=>{
@@ -133,4 +133,9 @@ test('Nine You Like It Darker stories have reading introductions and retain the 
 test('Ten Just After Sunset introductions reach existing main story views without giving away the central reveals',()=>{
  run("tab='stories';lang='en'");for(const n of [164,165,166,167,168,169,170,171,175,176]){const id='wrk:'+String(n).padStart(6,'0'),row=run(`S.find(s=>s.canonicalId===${JSON.stringify(id)})`),html=run(`detailContent(S.find(s=>s.canonicalId===${JSON.stringify(id)}))`);assert.ok(row);assert.ok(html.includes(row.summary.en.replaceAll('&','&amp;').replaceAll("'",'&#39;')));assert.match(html,/Just After Sunset/);assert.match(html,/Sources & context/);}
  assert.doesNotMatch(run("S.find(s=>s.canonicalId==='wrk:000164').summary.en"),/ghost|dead|afterlife/i);assert.doesNotMatch(run("S.find(s=>s.canonicalId==='wrk:000170').summary.en"),/atomic|nuclear|bomb/i);
+});
+
+test('Skeleton Crew story introductions and two dated editions appear without replacing existing collection covers',()=>{
+ run("tab='stories';lang='en'");for(const n of [96,97,98,99,100,101,102,105,115]){const id='wrk:'+String(n).padStart(6,'0'),row=run(`S.find(s=>s.canonicalId===${JSON.stringify(id)})`),html=run(`detailContent(S.find(s=>s.canonicalId===${JSON.stringify(id)}))`);assert.ok(row);assert.ok(html.includes(row.summary.en.replaceAll('&','&amp;').replaceAll("'",'&#39;')));assert.match(html,/Skeleton Crew/);}
+ run("tab='books'");const html=run("detailContent(B.find(b=>b.canonicalId==='col:000004'))");for(const s of ['9781501143502','2016-12-06','9781668207741','2025-02-25','Media Tie-In Trade Paperback'])assert.ok(html.includes(s));assert.equal(run("media(B.find(b=>b.canonicalId==='col:000004')).image"),run("MEDIA.books['Skeleton Crew'].en.image"));
 });
