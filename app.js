@@ -128,6 +128,7 @@ function description(r) {
   return tab === 'books' ? tr('Een werk uit de bibliografie van Stephen King. Ontdek de uitgaven en verbanden hieronder.','A work by Stephen King. Explore its editions and connections below.') : '';
 }
 function detailContent(r) {
+  let contextNotes = '';
   let out = `<div class="eyebrow">${safe(labelHeading())}</div><h2 id="detailTitle">${safe(title(r))}</h2>${imageMarkup(r,true)}`;
   const desc = description(r); if (desc) out += `<p>${safe(desc)}</p>`;
   if (tab === 'books') {
@@ -151,10 +152,10 @@ function detailContent(r) {
   }
   if (tab === 'stories') {
     out += line(tr('Soort werk','Work type'),localize(r.Type || 'Verhaal'));
-    if(r.reportedDate) out += line(tr('Datum in bronregistratie','Date in source record'),r.reportedDate);
-    out += `<p>${tr('Een datum bij een bundeluitgave bewijst niet wanneer het verhaal voor het eerst werd gepubliceerd.','A collection date does not establish the story’s first publication.')}</p>`;
+    if(r.reportedDate) contextNotes += line(tr('Datum in bronregistratie','Date in source record'),r.reportedDate);
+    contextNotes += `<p>${tr('Een datum bij een bundeluitgave bewijst niet wanneer het verhaal voor het eerst werd gepubliceerd.','A collection date does not establish the story’s first publication.')}</p>`;
     if(r.collectionIds?.length) out += section(tr('Opgenomen in','Collected in'),r.collectionIds.map(id=>workLink({id,kind:'books'})).join(''));
-    else out += `<p>${r.standaloneBookId || r.standalonePublications?.length ? tr('Een zelfstandige publicatie is vastgelegd; zie de editiegegevens.','A standalone publication is recorded; see the edition details.') : tr('Geen bundelrelatie vastgelegd. Een eigen boekcover is hier niet vereist.','No collection relationship recorded. A separate book cover is not required here.')}</p>`;
+    else contextNotes += `<p>${r.standaloneBookId || r.standalonePublications?.length ? tr('Een zelfstandige publicatie is vastgelegd; zie de editiegegevens.','A standalone publication is recorded; see the edition details.') : tr('Geen bundelrelatie vastgelegd. Een eigen boekcover is hier niet vereist.','No collection relationship recorded. A separate book cover is not required here.')}</p>`;
     if(r.standalonePublications?.length)out+=section(tr('Zelfstandige edities','Standalone editions'),r.standalonePublications.map(e=>line(e.title,e.isbn+' · '+e.language.toUpperCase())+sourceLink(e.source,tr('Uitgeversbron','Publisher source'))).join(''));
     const standalone = B.find(b=>b.workId===r.workId);
     if(standalone) out += workLink({id:standalone.id,kind:'books'},tr('Zelfstandige uitgave','Standalone publication'));
@@ -164,15 +165,16 @@ function detailContent(r) {
   if (tab === 'films') {
     out += line(tr('Bronwerk','Source work'),r['Bronwerk (EN)']) + line(tr('Jaar','Year'),r.Jaar || tr('Niet bevestigd','Unconfirmed')) + line(tr('Medium','Format'),localize(r.Medium));
     const m = media(r);
-    out += line(r.showrunner ? 'Showrunner' : tr('Regisseur','Director'),r.showrunner || r.director || m?.director || tr('Nog te verifiëren','Not yet verified'));
+    const director = r.showrunner || r.director || m?.director;
+    if(director) out += line(r.showrunner ? 'Showrunner' : tr('Regisseur','Director'),director);
     if(r.creators) out += line(tr('Makers','Creators'),r.creators.join(', '));
     if(r.screenwriters) out += line(tr('Scenario','Screenplay'),r.screenwriters.join(', '));
     if(r.network) out += line(tr('Oorspronkelijke zender','Original network'),r.network);
     if(r.imdb) {
       const info=r.imdb;
-      if(info.summary?.[lang] || info.summary?.en) out+=section(tr('Korte omschrijving','Short description'),`<p>${safe(info.summary[lang] || info.summary.en)}</p><small>${sourceLink(info.summarySource,tr('Bron omschrijving','Description source'))}</small>`);
-      out+=line('IMDb',info.rating==null ? tr('Score nog niet bevestigd','Rating not yet verified') : info.rating.toFixed(1)+'/10');
-      out+=`<p><small>${sourceLink(info.url,'IMDb')} · ${tr('Geraadpleegd','Consulted')} ${safe(info.checked)} · ${tr('Opgeslagen momentopname; geen live score.','Cached observation; not a live rating.')}</small></p>`;
+      if(info.summary?.[lang] || info.summary?.en) contextNotes+=section(tr('Korte omschrijving','Short description'),`<p>${safe(info.summary[lang] || info.summary.en)}</p><small>${sourceLink(info.summarySource,tr('Bron omschrijving','Description source'))}</small>`);
+      contextNotes+=line('IMDb',info.rating==null ? tr('Score nog niet bevestigd','Rating not yet verified') : info.rating.toFixed(1)+'/10');
+      contextNotes+=`<p><small>${sourceLink(info.url,'IMDb')} · ${tr('Geraadpleegd','Consulted')} ${safe(info.checked)} · ${tr('Opgeslagen momentopname; geen live score.','Cached observation; not a live rating.')}</small></p>`;
     }
     if(r.distributor)out+=line(tr('Oorspronkelijke distributeur','Original distributor'),r.distributor);
     if(r.release) out += line(r.dateMeaning==='US-series-premiere' ? tr('Première serie (VS)','US series premiere') : r.dateMeaning==='US-theatrical-release' ? tr('Bioscooprelease (VS)','US theatrical release') : r.dateMeaning==='release-year' ? tr('Releasejaar','Release year') : tr('Releasedatum','Release date'),r.release);
@@ -186,7 +188,7 @@ function detailContent(r) {
     out += line(tr('Relatie','Relationship'),localize(r.Relatie));
     if(r['Oorspronkelijke bundel']) out += line(tr('Oorspronkelijke bundel','Original collection'),r['Oorspronkelijke bundel']);
     if(r.sourceWorks?.length) out+=section(tr('Gekoppelde bronwerken','Linked source works'),r.sourceWorks.map(w=>workLink(w)).join(''));
-    else if(r.sourceWorkKind!=='screen')out+=`<p>${r.Relatie==='Origineel scenario' ? tr('Origineel scenario; geen afzonderlijk bronboek vereist.','Original screenplay; a separate source book is not required.') : tr('De bronrelatie is nog niet als afzonderlijke werkkoppeling bevestigd.','The source relationship has not yet been confirmed as a separate work link.')}</p>`;
+    else if(r.sourceWorkKind!=='screen')contextNotes+=`<p>${r.Relatie==='Origineel scenario' ? tr('Origineel scenario; geen afzonderlijk bronboek vereist.','Original screenplay; a separate source book is not required.') : tr('De bronrelatie is nog niet als afzonderlijke werkkoppeling bevestigd.','The source relationship has not yet been confirmed as a separate work link.')}</p>`;
 
   }
   if(tab === 'tower') {
@@ -204,7 +206,7 @@ function detailContent(r) {
   if(connected.length)out+=section(tr('Verbanden ontdekken','Explore connections'),connected.map(c=>`<p>${workLink(c.target)}<small>${safe(c.explanation)}${c.certainty==='interpretive'?' · '+tr('Interpretatie','Interpretation'):c.certainty==='strongly-implied'?' · '+tr('Sterk geïmpliceerd','Strongly implied'):''}</small></p>`).join(''));
   if(r.canonicalId)out+=`<p><a class="source" href="explorer/pilot/?entity=${encodeURIComponent(r.canonicalId)}">${tr('Verder ontdekken in de Explorer','Explore this in the Explorer')} ↗</a></p>`;
   const art=media(r),urls=[...new Set([r.Bron,...r.sources||[],art?.source,...(r.connected||[]).flatMap(c=>c.sourceUrls||[])].filter(Boolean))];
-  if(urls.length)out+=`<details><summary>${tr('Bronnen & verantwoording','Sources & context')}</summary>${urls.map(url=>`<p>${sourceLink(url,new URL(url).hostname)}</p>`).join('')}${art?.credit?`<p>${safe(art.credit)}</p>`:''}</details>`;
+  if(urls.length || contextNotes)out+=`<details><summary>${tr('Bronnen & verantwoording','Sources & context')}</summary>${urls.map(url=>`<p>${sourceLink(url,new URL(url).hostname)}</p>`).join('')}${contextNotes}${art?.credit?`<p>${safe(art.credit)}</p>`:''}</details>`;
   return out;
 }
 function certainty(value) {return ({explicit:tr('Expliciet','Explicit'),'strongly-implied':tr('Sterk geïmpliceerd','Strongly implied'),interpretive:tr('Interpretatief','Interpretive')})[value] || tr('Nog te controleren','Unverified');}
