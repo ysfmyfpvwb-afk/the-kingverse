@@ -4380,6 +4380,91 @@
       "checkedFields": [
         "original spoiler-aware English reading introduction"
       ]
+    },
+    {
+      "key": "talisman-hardcover-publisher",
+      "url": "https://www.simonandschuster.com/books/The-Talisman/Stephen-King/The-Talisman-Trilogy/9781451694918",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. Reissue date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "black-house-paperback-publisher",
+      "url": "https://www.simonandschuster.net/books/Black-House/Stephen-King/9781501192296",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. Reissue date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "carrie-paperback-publisher",
+      "url": "https://www.penguinrandomhouseretail.com/book/?isbn=9781984898104",
+      "publisher": "Penguin Random House",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. Reissue date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "shining-paperback-publisher",
+      "url": "https://www.penguinrandomhouse.com/books/92991/the-shining-by-stephen-king/",
+      "publisher": "Penguin Random House",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. Reissue date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "stand-paperback-publisher",
+      "url": "https://www.penguinrandomhouse.com/books/92992/the-stand-by-stephen-king/",
+      "publisher": "Penguin Random House",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. Reissue date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
     }
   ],
   "records": [
@@ -8377,6 +8462,154 @@
         "film-intro-adp-000067-source"
       ],
       "note": "The official production page explicitly lists this adapted story. This edge identifies one anthology contribution; it does not attribute the entire production to a single story or collection. No segment order, episode identity, release date, makers or plot outcomes inferred."
+    },
+    {
+      "key": "talisman-hardcover",
+      "entityType": "edition",
+      "checked": "2026-10-29",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000001"
+      },
+      "language": "en",
+      "title": "The Talisman",
+      "isbn13": "9781451694918",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2012-11-06",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Hardcover",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "talisman-hardcover-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "black-house-paperback",
+      "entityType": "edition",
+      "checked": "2026-10-29",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000002"
+      },
+      "language": "en",
+      "title": "Black House",
+      "isbn13": "9781501192296",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2018-04-17",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Trade Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "black-house-paperback-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "carrie-paperback",
+      "entityType": "edition",
+      "checked": "2026-10-29",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000003"
+      },
+      "language": "en",
+      "title": "Carrie",
+      "isbn13": "9781984898104",
+      "publisher": "Vintage",
+      "publicationDate": {
+        "value": "2018-12-31",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "carrie-paperback-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned.",
+        "Current marketing mentions a later anniversary introduction; no introduction credit or printing date is inferred for every copy using this ISBN. The generic PRH work page redirects to a separate 2026 tie-in ISBN and is not used for this 2018 edition."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "shining-paperback",
+      "entityType": "edition",
+      "checked": "2026-10-29",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000005"
+      },
+      "language": "en",
+      "title": "The Shining",
+      "isbn13": "9780345806789",
+      "publisher": "Vintage",
+      "publicationDate": {
+        "value": "2013-08-27",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "shining-paperback-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned.",
+        "Publisher page counts differ across its format display and Product Details; page count is not imported."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "stand-paperback",
+      "entityType": "edition",
+      "checked": "2026-10-29",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000007"
+      },
+      "language": "en",
+      "title": "The Stand",
+      "isbn13": "9780307947307",
+      "publisher": "Vintage",
+      "publicationDate": {
+        "value": "2012-08-07",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "stand-paperback-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned.",
+        "Publisher identifies this as the complete and uncut text, not the original 1978 text; no new work identity is created."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
     }
   ],
   "deferred": [

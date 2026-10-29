@@ -76,7 +76,7 @@ test('Reviewed book introductions enrich existing identities with field-scoped e
 });
 
 test('Five publisher-identified English editions preserve all earlier edition and artwork bindings',()=>{
- assert.equal(bundle.editions.length,171);for(const old of base.editions)assert.deepEqual(bundle.editions.find(e=>e.id===old.id),old);assert.deepEqual(bundle.artworks,base.artworks);
+ assert.equal(bundle.editions.length,176);for(const old of base.editions)assert.deepEqual(bundle.editions.find(e=>e.id===old.id),old);assert.deepEqual(bundle.artworks,base.artworks);
  for(const e of bundle.editions.filter(e=>['edn:000155','edn:000156','edn:000157','edn:000158','edn:000159'].includes(e.id))){assert.equal(e.language,'en');assert.equal(e.identityStatus,'identified');assert.equal(e.publisher,'Scribner');assert.equal(e.publicationDate.meaning,'edition-publication');assert.equal(e.publicationDate.precision,'day');assert.ok(base.works.some(w=>w.id===e.publicationOf.id));assert.equal(new Set(bundle.editions.filter(x=>x.isbn13).map(x=>x.isbn13)).size,bundle.editions.filter(x=>x.isbn13).length);}
  assert.equal(bundle.editions.find(e=>e.id==='edn:000155').isbn13,'9781982159375');assert.equal(bundle.editions.find(e=>e.id==='edn:000159').format,'Hardcover');assert.equal(bundle.editions.find(e=>e.id==='edn:000088').isbn13,null);
  const invalid=structuredClone(bundle);invalid.editions.at(-1).isbn13='9781982112395';assert.ok(validateCompletionB(invalid,base).some(e=>e.code==='b-isbn-checksum'));
@@ -98,7 +98,7 @@ test('Gwendy’s middle novel has one identity, Chizmar authorship and a separat
 test('Holly and the remaining Gwendy hardcovers have ISBN-specific dates without inventing printings',()=>{
  for(const [id,work,isbn,date]of [['edn:000161','wrk:000063','9781587678011','2022-02-15'],['edn:000162','wrk:000065','9781668016138','2023-09-05'],['edn:000163','wrk:000057','9781587676109','2017-05-16']]){const e=bundle.editions.find(e=>e.id===id);assert.equal(e.publicationOf.id,work);assert.equal(e.isbn13,isbn);assert.equal(e.publicationDate.value,date);assert.equal(e.identityStatus,'identified');}
  assert.ok(bundle.editions.find(e=>e.id==='edn:000163').verification.open.some(s=>s.includes('fourth printing 2022')));
- assert.equal(bundle.works.filter(w=>w.originalTitle==="Gwendy's Button Box").length,1);assert.equal(bundle.editions.length,171);
+ assert.equal(bundle.works.filter(w=>w.originalTitle==="Gwendy's Button Box").length,1);assert.equal(bundle.editions.length,176);
 });
 
 test('Collection introductions preserve every collection identity, edition and story membership',()=>{
@@ -128,7 +128,7 @@ test('Urban Harvest, Genesis and Runaway are separate screen identities with pre
 
 test('Five standalone novella editions reuse story identities without changing collection publication or inventing covers',()=>{
  for(const [id,work,isbn,date]of [['edn:000165','wrk:000094','9781668264164','2026-08-25'],['edn:000166','wrk:000093','9781982115449','2018-12-04'],['edn:000167','wrk:000121','9781668264201','2026-10-06'],['edn:000168','wrk:000183','9781668208786','2025-06-10'],['edn:000169','wrk:000118','9781982136055','2019-11-12']]){const e=bundle.editions.find(e=>e.id===id);assert.equal(e.publicationOf.id,work);assert.equal(e.isbn13,isbn);assert.equal(e.publicationDate.value,date);assert.equal(e.publicationDate.meaning,'edition-publication');assert.equal(e.publisher,'Scribner');assert.equal(e.language,'en');assert.ok(!bundle.artworks.some(a=>a.editionId===id));assert.deepEqual(bundle.publicationEvents.filter(p=>p.subject.id===work),base.publicationEvents.filter(p=>p.subject.id===work));}
- assert.equal(bundle.editions.length,171);assert.equal(bundle.works.length,250);
+ assert.equal(bundle.editions.length,176);assert.equal(bundle.works.length,250);
 });
 
 test('Later Sometimes films preserve the original identity and separate catalogue years from world premiere claims',()=>{
@@ -190,4 +190,9 @@ test('Loose-story introductions preserve collaboration credits and keep endings 
  for(const n of [216,217,219,220,222,223,224,225,226,227,229,230,232,233,234,235,237,238,240,241]){const id='wrk:'+String(n).padStart(6,'0');assert.deepEqual(bundle.credits.filter(c=>c.subject.id===id),base.credits.filter(c=>c.subject.id===id));assert.deepEqual(bundle.publicationEvents.filter(p=>p.subject.id===id),base.publicationEvents.filter(p=>p.subject.id===id));}
  const intro=n=>bundle.works.find(w=>w.id==='wrk:'+String(n).padStart(6,'0')).summary.en;
  assert.doesNotMatch(intro(219),/suicide|mental illness/);assert.doesNotMatch(intro(223),/killed|murder/);assert.doesNotMatch(intro(227),/walking weed|turns into/);assert.doesNotMatch(intro(232),/murder/);assert.notEqual(intro(227),intro(241));
+});
+
+test('Five identified English reissues preserve all unknown legacy edition and cover identities',()=>{
+ for(const [id,work,isbn,date]of [['edn:000172','wrk:000001','9781451694918','2012-11-06'],['edn:000173','wrk:000002','9781501192296','2018-04-17'],['edn:000174','wrk:000003','9781984898104','2018-12-31'],['edn:000175','wrk:000005','9780345806789','2013-08-27'],['edn:000176','wrk:000007','9780307947307','2012-08-07']]){const e=bundle.editions.find(e=>e.id===id);assert.equal(e.publicationOf.id,work);assert.equal(e.isbn13,isbn);assert.equal(e.language,'en');assert.equal(e.publicationDate.value,date);assert.equal(e.publicationDate.meaning,'edition-publication');assert.equal(e.identityStatus,'identified');assert.ok(!bundle.artworks.some(a=>a.editionId===id));assert.deepEqual(bundle.publicationEvents.filter(p=>p.subject.id===work),base.publicationEvents.filter(p=>p.subject.id===work));}
+ for(const e of base.editions)assert.deepEqual(bundle.editions.find(n=>n.id===e.id),e);assert.deepEqual(bundle.artworks,base.artworks);
 });

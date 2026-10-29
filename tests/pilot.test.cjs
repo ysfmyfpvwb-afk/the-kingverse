@@ -11,7 +11,7 @@ test('Pilot is reproducible, all generated files match, and all earlier baseline
  assert.deepEqual(generatePilot().files,out.files);assert.deepEqual(out.base,require('../scripts/completion_pilot.cjs').completionPilot().defaultProjection);
 });
 test('Every canonical identity, type and endpoint has an independent bounded deep-link payload',()=>{
- assert.equal(out.full.nodes.length,632);for(const n of out.full.nodes){const p=index(n.id);assert.ok(p);if(out.base.nodes.some(s=>s.id===n.id)){assert.equal(p.node.id,n.id);assert.equal(p.node.type,n.type);assert.equal(p.node.label,n.label);}else assert.equal(p.scope,'gated');}
+ assert.equal(out.full.nodes.length,637);for(const n of out.full.nodes){const p=index(n.id);assert.ok(p);if(out.base.nodes.some(s=>s.id===n.id)){assert.equal(p.node.id,n.id);assert.equal(p.node.type,n.type);assert.equal(p.node.label,n.label);}else assert.equal(p.scope,'gated');}
  const types=new Set(out.full.nodes.map(n=>n.type));assert.equal(types.size,8);
  for(const[name,p]of out.payloads)if(!name.startsWith('search.')){assert.ok(Buffer.byteLength(out.files.get('explorer/pilot/'+name))<=LIMIT);for(const e of p.connections||[])assert.ok(index(e.target.id));}
  assert.equal(out.report.payload.initialAggregateProjectBytesLoaded,0);assert.ok(out.report.payload.maxEntityBytes<40000);assert.ok(out.report.payload.searchGzipBytes<13*1024);
@@ -26,7 +26,7 @@ test('The full Talisman chain has direct sibling navigation from canonical serie
  assert.ok(index('wrk:000067').creators.some(c=>c.role==='illustrator'));assert.equal(index('wrk:000067').creators.filter(c=>['author','coauthor'].includes(c.role)).length,2);
 });
 test('Editions, multiple collections, remakes and source hypotheses remain separately navigable',()=>{
- assert.equal(index('wrk:000001').sections.editions.total,2);assert.equal(index('edn:000001').parent.id,'wrk:000001');
+ assert.equal(index('wrk:000001').sections.editions.total,3);assert.equal(index('edn:000001').parent.id,'wrk:000001');
  const m=index('wrk:000161').sections.memberships.items;assert.equal(m.length,2);assert.equal(new Set(m.map(m=>m.target.id)).size,2);assert.ok(m.every(m=>m.verification==='source-supported'));assert.equal(index('wrk:000161').media.collectionId,'col:000008');
  const fire=index('wrk:000010').connections.filter(e=>e.predicate==='adaptation_of');assert.equal(fire.length,2);assert.equal(new Set(fire.map(e=>e.target.label)).size,2);
  assert.equal(index('adp:000013').sections.candidates.total,0);assert.equal(out.full.candidates.length,54);assert.ok(index('adp:000013').connections.some(e=>e.to.type==='series'));
@@ -35,7 +35,7 @@ test('Long contribution and collection lists use six-record chunks with no missi
  for(const [id,k]of [['per:000001','creators'],['col:000006','memberships']]){const section=index(id).sections[k],rows=[...section.items];let next=section.next;assert.ok(next);while(next){const p=out.payloads.get(next);assert.ok(p.items.length<=6);rows.push(...p.items);next=p.next;}assert.equal(rows.length,section.total);assert.equal(new Set(rows.map(r=>r.id)).size,rows.length);}
 });
 test('Default pages, search aliases, metadata and gated entries contain none of the six plot-only labels',()=>{
- const search=out.payloads.get(out.report.assets.search);assert.equal(search.records.length,626);
+ const search=out.payloads.get(out.report.assets.search);assert.equal(search.records.length,631);
  for(const n of out.plot.nodes){for(const name of out.report.files.filter(f=>f.file.endsWith('/index.json')).map(f=>f.file))assert.ok(!JSON.stringify(out.payloads.get(name)).includes(n.label),name);assert.ok(!JSON.stringify(search).includes(n.label));assert.ok(!out.files.get('explorer/pilot/index.html').includes(n.label));assert.ok(!('node'in index(n.id)));}
  assert.ok(plot('chr:000005').node);assert.equal(plot('chr:000005').node.label,'Father Callahan');
 });
@@ -65,7 +65,7 @@ test('Safe bibliographic descriptions work for every projected type and do not r
  for(const n of out.full.nodes){const p=index(n.id);assert.equal(typeof describe(p,n),'string');}const text=describe(index('wrk:000001'),index('wrk:000001').node);assert.match(text,/Stephen King and Peter Straub/);assert.match(text,/Book 1 of The Talisman Trilogy/);assert.ok(!text.includes('has not yet been verified'));
 });
 test('Bibliographic data and its renderer are on demand; main payload has one copy of every native edge',()=>{
- const p=out.payloads.get('data/wrk-000001/index.json'),d=out.payloads.get('data/wrk-000001/details.json');assert.equal(p.hasDetails,true);assert.ok(!p.sections.editions);assert.equal(d.sections.editions.total,2);assert.ok(!p.sections.publications);const html=out.files.get('explorer/pilot/index.html');assert.ok(!html.includes('src="'+out.report.assets.details+'"'));assert.ok(out.files.has('explorer/pilot/'+out.report.assets.details));assert.ok(out.report.payload.maxEntityBytes<=28700);
+ const p=out.payloads.get('data/wrk-000001/index.json'),d=out.payloads.get('data/wrk-000001/details.json');assert.equal(p.hasDetails,true);assert.ok(!p.sections.editions);assert.equal(d.sections.editions.total,3);assert.ok(!p.sections.publications);const html=out.files.get('explorer/pilot/index.html');assert.ok(!html.includes('src="'+out.report.assets.details+'"'));assert.ok(out.files.has('explorer/pilot/'+out.report.assets.details));assert.ok(out.report.payload.maxEntityBytes<=28700);
 });
 test('Initial Talisman transfer stays below 1.9 in both raw and gzip estimates; only audited editorial premises are reused',()=>{
  const z=require('node:zlib');let raw=0,gzip=0;for(const p of ['index.html',out.report.assets.js,out.report.assets.css,'data/wrk-000001/index.json']){const s=out.files.get('explorer/pilot/'+p);raw+=Buffer.byteLength(s);gzip+=z.gzipSync(s).length;}assert.ok(raw<=59401,String(raw));assert.ok(gzip<=15541,String(gzip));for(const[id,claim]of [['wrk:000001','clm:000114'],['wrk:000002','clm:000115']]){const n=index(id).node;assert.ok(n.evidence.some(c=>c.id===claim&&c.fieldPath==='/summary'&&c.status==='verified'));assert.ok(!n.description.includes('A novel record'));}
@@ -173,4 +173,8 @@ test('Remake-specific summaries preserve cast, uncertain source links and defaul
 test('Further film premises use production-specific sources and keep novel and film endings out of the introductions',()=>{
  const r=index('adp:000041'),c=r.node.evidence.find(c=>c.fieldPath==='/summary'&&c.selected);assert.ok(c.sourceIds.every(id=>r.sources.some(s=>s.id===id&&s.url==='https://www.paramount.com/movies/the-running-man')));assert.doesNotMatch(r.node.description,/daughter|billion|2025/);assert.match(r.node.description,/2019/);
  for(const id of ['adp:000011','adp:000021','adp:000024','adp:000033','adp:000044'])assert.doesNotMatch(index(id).node.description,/ending|suicide|Ted Brautigan|shoots his son|cut off her hand/);const tv=index('adp:000078');assert.match(tv.node.description,/six-year coma/);assert.doesNotMatch(index('adp:000014').node.description,/six-year/);
+});
+
+test('Five English reissue pages navigate to the existing works and keep edition dates separate',()=>{
+ for(const[id,work,isbn]of [['edn:000172','wrk:000001','9781451694918'],['edn:000173','wrk:000002','9781501192296'],['edn:000174','wrk:000003','9781984898104'],['edn:000175','wrk:000005','9780345806789'],['edn:000176','wrk:000007','9780307947307']]){const e=index(id),w=index(work);assert.equal(e.parent.id,work);assert.equal(e.node.data.isbn13,isbn);assert.equal(e.node.data.publicationDate.meaning,'edition-publication');assert.ok(w.sections.editions.items.some(n=>n.id===id));assert.ok(!w.publicationDates.some(d=>d.value===e.node.data.publicationDate.value));}
 });

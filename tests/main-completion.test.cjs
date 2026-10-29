@@ -51,7 +51,7 @@ test('Core novel introductions reach the main details without changing editions 
 
 test('New publisher editions render on main pages with edition dates separate from original work years',()=>{
  run("tab='books';lang='en'");const html=run("detailContent(B.find(r=>r.canonicalId==='wrk:000242'))");assert.match(html,/2000/);assert.match(html,/2020-06-02/);assert.match(html,/9781982159375/);assert.match(html,/Scribner/);assert.match(html,/simonandschuster\.com/);
- const misery=run("detailContent(B.find(r=>r.canonicalId==='wrk:000021'))");assert.match(misery,/2016-01-05/);assert.match(misery,/9781501143106/);assert.equal(run("media(B.find(r=>r.canonicalId==='wrk:000021')).image"),run("MEDIA.books.Misery.en.image"));assert.equal(run('DB.editions.length'),171);
+ const misery=run("detailContent(B.find(r=>r.canonicalId==='wrk:000021'))");assert.match(misery,/2016-01-05/);assert.match(misery,/9781501143106/);assert.equal(run("media(B.find(r=>r.canonicalId==='wrk:000021')).image"),run("MEDIA.books.Misery.en.image"));assert.equal(run('DB.editions.length'),176);
 });
 
 test('Visitor connection explanations use readable content while retaining optional source links',()=>{
@@ -161,4 +161,9 @@ test('Anthology main details navigate to each adapted story and expose the film 
 test('Twenty additional short-work introductions reach every existing main story view',()=>{
  run("tab='stories';lang='en'");for(const n of [216,217,219,220,222,223,224,225,226,227,229,230,232,233,234,235,237,238,240,241]){const id='wrk:'+String(n).padStart(6,'0'),rows=run(`S.filter(s=>s.canonicalId===${JSON.stringify(id)})`);assert.ok(rows.length,id);for(const row of rows){const html=run(`detailContent(S.find(s=>s.id===${JSON.stringify(row.id)}))`);assert.ok(html.includes(row.summary.en.replaceAll('&','&amp;').replaceAll("'",'&#39;')));assert.match(html,/Sources & context/);}}
  assert.match(run("S.find(s=>s.canonicalId==='wrk:000216').summary.en"),/Stewart O/);assert.match(run("S.find(s=>s.canonicalId==='wrk:000225').summary.en"),/Joe Hill/);assert.match(run("S.find(s=>s.canonicalId==='wrk:000240').summary.en"),/Richard Matheson/);
+});
+
+test('Five English reissues appear on the main book pages without changing original years or covers',()=>{
+ run("tab='books';lang='en'");for(const [work,isbn,date]of [['wrk:000001','9781451694918','2012-11-06'],['wrk:000002','9781501192296','2018-04-17'],['wrk:000003','9781984898104','2018-12-31'],['wrk:000005','9780345806789','2013-08-27'],['wrk:000007','9780307947307','2012-08-07']]){const html=run(`detailContent(B.find(b=>b.canonicalId===${JSON.stringify(work)}))`);assert.match(html,new RegExp(isbn));assert.match(html,new RegExp(date));}
+ assert.equal(run("B.find(b=>b.canonicalId==='wrk:000001').Jaar"),1984);assert.equal(run("B.find(b=>b.canonicalId==='wrk:000003').Jaar"),1974);assert.equal(run("media(B.find(b=>b.canonicalId==='wrk:000005')).image"),run("MEDIA.books['The Shining'].en.image"));
 });
