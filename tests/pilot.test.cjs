@@ -154,3 +154,8 @@ test('Recent story introductions keep collection membership, selected evidence a
  for(const n of [186,188,189,191,192,194,195,196,197]){const p=index('wrk:'+String(n).padStart(6,'0'));assert.ok(p.node.description.length>80);assert.ok(p.sections.memberships.items.some(m=>m.target.id==='col:000001'));assert.ok(p.node.evidence.some(c=>c.fieldPath==='/summary'&&c.selected&&c.status==='verified'));}
  const r=index('wrk:000195');assert.ok(r.connections.some(c=>c.predicate==='sequel_to'&&c.target.id==='wrk:000012'));assert.doesNotMatch(r.node.description,/Vic|Tad|Donna/);
 });
+
+test('Just After Sunset descriptions retain collection covers and original-publication evidence without quoted story text',()=>{
+ for(const n of [164,165,166,167,168,169,170,171,175,176]){const p=index('wrk:'+String(n).padStart(6,'0'));assert.ok(p.node.description.length>80);assert.ok(p.sections.memberships.items.some(m=>m.target.id==='col:000009'));assert.ok(p.node.evidence.some(c=>c.fieldPath==='/summary'&&c.selected&&c.status==='verified'));}
+ const p=index('wrk:000166'),c=p.node.evidence.find(c=>c.fieldPath==='/summary'&&c.selected);assert.ok(c.sourceIds.every(id=>p.sources.some(s=>s.id===id&&new URL(s.url).hostname==='www.newyorker.com')));assert.doesNotMatch(p.node.description,/Big Dog|commodore|Volvo|daughter|killed/);assert.doesNotMatch(index('wrk:000171').node.description,/suicide|kills|stone circle/i);
+});

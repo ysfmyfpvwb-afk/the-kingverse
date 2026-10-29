@@ -129,3 +129,8 @@ test('Nine You Like It Darker stories have reading introductions and retain the 
  run("tab='stories';lang='en'");for(const n of [186,188,189,191,192,194,195,196,197]){const id='wrk:'+String(n).padStart(6,'0'),row=run(`S.find(s=>s.canonicalId===${JSON.stringify(id)})`),html=run(`detailContent(S.find(s=>s.canonicalId===${JSON.stringify(id)}))`);assert.ok(row);assert.ok(html.includes(row.summary.en.replaceAll('&','&amp;').replaceAll("'",'&#39;')));assert.match(html,/You Like It Darker/);}
  const html=run("detailContent(S.find(s=>s.canonicalId==='wrk:000195'))");assert.match(html,/sequel to Cujo/);assert.doesNotMatch(run("S.find(s=>s.canonicalId==='wrk:000195').summary.en"),/Vic|Tad|Donna/);
 });
+
+test('Ten Just After Sunset introductions reach existing main story views without giving away the central reveals',()=>{
+ run("tab='stories';lang='en'");for(const n of [164,165,166,167,168,169,170,171,175,176]){const id='wrk:'+String(n).padStart(6,'0'),row=run(`S.find(s=>s.canonicalId===${JSON.stringify(id)})`),html=run(`detailContent(S.find(s=>s.canonicalId===${JSON.stringify(id)}))`);assert.ok(row);assert.ok(html.includes(row.summary.en.replaceAll('&','&amp;').replaceAll("'",'&#39;')));assert.match(html,/Just After Sunset/);assert.match(html,/Sources & context/);}
+ assert.doesNotMatch(run("S.find(s=>s.canonicalId==='wrk:000164').summary.en"),/ghost|dead|afterlife/i);assert.doesNotMatch(run("S.find(s=>s.canonicalId==='wrk:000170').summary.en"),/atomic|nuclear|bomb/i);
+});

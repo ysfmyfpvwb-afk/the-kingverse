@@ -20,7 +20,7 @@
     "limitBytes": 49152,
     "pageSize": 6,
     "maxEntityBytes": 26630,
-    "medianEntityBytes": 3528,
+    "medianEntityBytes": 3584,
     "maxChunkBytes": 9499,
     "searchBytes": 116136,
     "searchGzipBytes": 12773,
@@ -2506,8 +2506,8 @@
     },
     {
       "file": "data/wrk-000164/index.json",
-      "bytes": 3299,
-      "gzipBytes": 1130
+      "bytes": 3648,
+      "gzipBytes": 1258
     },
     {
       "file": "data/wrk-000164/plot.json",
@@ -2521,8 +2521,8 @@
     },
     {
       "file": "data/wrk-000165/index.json",
-      "bytes": 3340,
-      "gzipBytes": 1146
+      "bytes": 3655,
+      "gzipBytes": 1255
     },
     {
       "file": "data/wrk-000165/plot.json",
@@ -2536,8 +2536,8 @@
     },
     {
       "file": "data/wrk-000166/index.json",
-      "bytes": 3325,
-      "gzipBytes": 1142
+      "bytes": 3865,
+      "gzipBytes": 1333
     },
     {
       "file": "data/wrk-000166/plot.json",
@@ -2551,8 +2551,8 @@
     },
     {
       "file": "data/wrk-000167/index.json",
-      "bytes": 3311,
-      "gzipBytes": 1134
+      "bytes": 3614,
+      "gzipBytes": 1240
     },
     {
       "file": "data/wrk-000167/plot.json",
@@ -2566,8 +2566,8 @@
     },
     {
       "file": "data/wrk-000168/index.json",
-      "bytes": 3329,
-      "gzipBytes": 1141
+      "bytes": 3672,
+      "gzipBytes": 1263
     },
     {
       "file": "data/wrk-000168/plot.json",
@@ -2581,8 +2581,8 @@
     },
     {
       "file": "data/wrk-000169/index.json",
-      "bytes": 3361,
-      "gzipBytes": 1158
+      "bytes": 3706,
+      "gzipBytes": 1281
     },
     {
       "file": "data/wrk-000169/plot.json",
@@ -2596,8 +2596,8 @@
     },
     {
       "file": "data/wrk-000170/index.json",
-      "bytes": 3344,
-      "gzipBytes": 1143
+      "bytes": 3687,
+      "gzipBytes": 1269
     },
     {
       "file": "data/wrk-000170/plot.json",
@@ -2611,8 +2611,8 @@
     },
     {
       "file": "data/wrk-000171/index.json",
-      "bytes": 3282,
-      "gzipBytes": 1122
+      "bytes": 3630,
+      "gzipBytes": 1240
     },
     {
       "file": "data/wrk-000171/plot.json",
@@ -2671,8 +2671,8 @@
     },
     {
       "file": "data/wrk-000175/index.json",
-      "bytes": 3299,
-      "gzipBytes": 1129
+      "bytes": 3620,
+      "gzipBytes": 1238
     },
     {
       "file": "data/wrk-000175/plot.json",
@@ -2686,8 +2686,8 @@
     },
     {
       "file": "data/wrk-000176/index.json",
-      "bytes": 3333,
-      "gzipBytes": 1146
+      "bytes": 3667,
+      "gzipBytes": 1260
     },
     {
       "file": "data/wrk-000176/plot.json",

@@ -2678,6 +2678,138 @@
       "checkedFields": [
         "original spoiler-aware English reading introduction"
       ]
+    },
+    {
+      "key": "book-intro-wrk-000164-source",
+      "url": "https://stephenking.com/works/short/willa.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Synopsis: opening situation only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000165-source",
+      "url": "https://stephenking.com/works/short/gingerbread-girl.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Synopsis: opening situation only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000166-source",
+      "url": "https://stephenking.com/works/short/harveys-dream.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Synopsis: opening situation only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000167-source",
+      "url": "https://stephenking.com/works/short/rest-stop.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Synopsis: opening situation only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000168-source",
+      "url": "https://stephenking.com/works/short/stationary-bike.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Synopsis: opening situation only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000169-source",
+      "url": "https://stephenking.com/works/short/things-they-left-behind.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Synopsis: opening situation only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000170-source",
+      "url": "https://stephenking.com/works/short/graduation-afternoon.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Synopsis: opening situation only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000171-source",
+      "url": "https://stephenking.com/works/novella/n.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Synopsis: opening situation only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000175-source",
+      "url": "https://stephenking.com/works/short/ayana.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Synopsis: opening situation only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000176-source",
+      "url": "https://stephenking.com/works/novella/a-very-tight-place.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Synopsis: opening situation only. No ending, hidden identity or new relation inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "harveys-dream-first-publication",
+      "url": "https://www.newyorker.com/magazine/2003/06/30/harveys-dream",
+      "publisher": "The New Yorker",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Stephen King byline and opening kitchen conversation, through Harvey announcing his bad dream. No later dream details, conclusion or original story text retained. Online header and print issue have different dates; no date field is being enriched.",
+      "checkedFields": [
+        "original English introduction to opening scene only"
+      ]
     }
   ],
   "records": [
@@ -10796,6 +10928,236 @@
         "level": "premise",
         "workIds": [
           "wrk:000197"
+        ]
+      },
+      "locator": "Official work description, opening situation only; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000164",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000164"
+      },
+      "field": "summary",
+      "value": {
+        "en": "While stranded travellers wait for a replacement train, David Sanderson notices that his fiancée Willa has left the station. His search takes him into a nearby town and an increasingly strange situation."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000164-source"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000164"
+        ]
+      },
+      "locator": "Official work description, opening situation only; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000165",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000165"
+      },
+      "field": "summary",
+      "value": {
+        "en": "After a devastating loss, Em turns to running and moves to a secluded part of the Florida coast. Her new routine brings her past a neighbour’s driveway and into danger."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000165-source"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000165"
+        ]
+      },
+      "locator": "Official work description, opening situation only; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000166",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000166"
+      },
+      "field": "summary",
+      "value": {
+        "en": "At their kitchen table, Harvey tells his wife Janet about a nightmare that woke him during the night. Their familiar Saturday-morning routine begins to feel unsettling as he prepares to explain it."
+      },
+      "sourceKeys": [
+        "harveys-dream-first-publication"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000166"
+        ]
+      },
+      "locator": "Opening of King’s original story published by The New Yorker; kitchen setting, couple and announcement of a nightmare only.",
+      "note": "Independently worded visitor introduction. StephenKing.com currently has no synopsis; no ending, quoted story text or publication-date correction is imported."
+    },
+    {
+      "key": "book-intro-wrk-000167",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000167"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Writer John Dykstra stops at a roadside facility on his drive home and hears a woman being abused. Alone outside, he must decide whether and how to intervene."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000167-source"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000167"
+        ]
+      },
+      "locator": "Official work description, opening situation only; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000168",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000168"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Richard Sefkitz begins exercising on a stationary bicycle and uses maps and a painted road to imagine a journey. His daily rides grow unsettling when he starts to feel that someone is following him."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000168-source"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000168"
+        ]
+      },
+      "locator": "Official work description, opening situation only; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000169",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000169"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Scott Staley lost colleagues in the World Trade Center attacks. Nearly a year later, objects from their office cubicles begin appearing in his apartment, bringing their absence into his everyday life."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000169-source"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000169"
+        ]
+      },
+      "locator": "Official work description, opening situation only; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000170",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000170"
+      },
+      "field": "summary",
+      "value": {
+        "en": "A young woman attends a high-school graduation party at her wealthy boyfriend’s Connecticut home. A celebration of the future provides the setting for an abrupt encounter with a less secure world."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000170-source"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000170"
+        ]
+      },
+      "locator": "Official work description, opening situation only; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000171",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000171"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Sheila writes to a childhood friend about her psychiatrist brother and a patient identified in his notes only as N. The correspondence opens a disturbing mystery around the patient and those records."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000171-source"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000171"
+        ]
+      },
+      "locator": "Official work description, opening situation only; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000175",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000175"
+      },
+      "field": "summary",
+      "value": {
+        "en": "A young girl visits a hospital patient who is dying of cancer. Her arrival brings an extraordinary change and draws the patient’s son into a story of miracles and obligation."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000175-source"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000175"
+        ]
+      },
+      "locator": "Official work description, opening situation only; independently worded visitor introduction.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000176",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000176"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Curtis Johnson arrives at an abandoned construction site expecting to settle a legal dispute with his neighbour. The supposed meeting for a resolution becomes a dangerous confrontation."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000176-source"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000176"
         ]
       },
       "locator": "Official work description, opening situation only; independently worded visitor introduction.",
