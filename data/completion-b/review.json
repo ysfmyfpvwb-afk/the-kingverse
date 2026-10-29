@@ -8610,6 +8610,137 @@
         "Publisher identifies this as the complete and uncut text, not the original 1978 text; no new work identity is created."
       ],
       "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "before-play-overlook",
+      "entityType": "connection",
+      "checked": "2026-10-29",
+      "from": {
+        "type": "work",
+        "id": "wrk:000217"
+      },
+      "predicate": "set_in",
+      "to": {
+        "type": "location",
+        "id": "loc:000006"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Before the Play explores events at the Overlook Hotel before the Torrance family arrives."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000217-source"
+      ],
+      "note": "The official short-work page explicitly identifies the setting or textual relationship. No new identity, publication date, plot outcome, reading order or fictional chronology is inferred."
+    },
+    {
+      "key": "before-play-shining",
+      "entityType": "connection",
+      "checked": "2026-10-29",
+      "from": {
+        "type": "work",
+        "id": "wrk:000217"
+      },
+      "predicate": "shared_reference",
+      "to": {
+        "type": "work",
+        "id": "wrk:000005"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Before the Play returns to the earlier history of the Overlook Hotel, the setting of The Shining."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000217-source",
+        "book-intro-000005-source"
+      ],
+      "note": "The official short-work page explicitly identifies the setting or textual relationship. No new identity, publication date, plot outcome, reading order or fictional chronology is inferred."
+    },
+    {
+      "key": "memory-duma-key",
+      "entityType": "connection",
+      "checked": "2026-10-29",
+      "from": {
+        "type": "work",
+        "id": "wrk:000229"
+      },
+      "predicate": "shared_reference",
+      "to": {
+        "type": "work",
+        "id": "wrk:000046"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Memory developed into the opening of Duma Key; the short piece and the novel remain separately identifiable."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000229-source"
+      ],
+      "note": "The official short-work page explicitly identifies the setting or textual relationship. No new identity, publication date, plot outcome, reading order or fictional chronology is inferred."
+    },
+    {
+      "key": "becka-tommyknockers",
+      "entityType": "connection",
+      "checked": "2026-10-29",
+      "from": {
+        "type": "work",
+        "id": "wrk:000234"
+      },
+      "predicate": "shared_reference",
+      "to": {
+        "type": "work",
+        "id": "wrk:000023"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The Revelations of 'Becka Paulson and The Tommyknockers share material concerning Becka Paulson."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000234-source"
+      ],
+      "note": "The official short-work page explicitly identifies the setting or textual relationship. No new identity, publication date, plot outcome, reading order or fictional chronology is inferred. The official page describes adaptation from a novel chapter; this undirected shared-material link does not adopt that account as publication chronology."
+    },
+    {
+      "key": "gray-dick-wolves",
+      "entityType": "connection",
+      "checked": "2026-10-29",
+      "from": {
+        "type": "work",
+        "id": "wrk:000237"
+      },
+      "predicate": "shared_reference",
+      "to": {
+        "type": "work",
+        "id": "wrk:000039"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The Tale of Gray Dick is an excerpt that also appears in Wolves of the Calla."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000237-source"
+      ],
+      "note": "The official short-work page explicitly identifies the setting or textual relationship. No new identity, publication date, plot outcome, reading order or fictional chronology is inferred."
     }
   ],
   "deferred": [

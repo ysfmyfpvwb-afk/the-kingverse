@@ -167,3 +167,7 @@ test('Five English reissues appear on the main book pages without changing origi
  run("tab='books';lang='en'");for(const [work,isbn,date]of [['wrk:000001','9781451694918','2012-11-06'],['wrk:000002','9781501192296','2018-04-17'],['wrk:000003','9781984898104','2018-12-31'],['wrk:000005','9780345806789','2013-08-27'],['wrk:000007','9780307947307','2012-08-07']]){const html=run(`detailContent(B.find(b=>b.canonicalId===${JSON.stringify(work)}))`);assert.match(html,new RegExp(isbn));assert.match(html,new RegExp(date));}
  assert.equal(run("B.find(b=>b.canonicalId==='wrk:000001').Jaar"),1984);assert.equal(run("B.find(b=>b.canonicalId==='wrk:000003').Jaar"),1974);assert.equal(run("media(B.find(b=>b.canonicalId==='wrk:000005')).image"),run("MEDIA.books['The Shining'].en.image"));
 });
+
+test('Short-work context links are visible from main story and novel details',()=>{
+ run("tab='stories';lang='en'");for(const [work,label]of [['wrk:000217','Overlook Hotel'],['wrk:000229','Duma Key'],['wrk:000234','The Tommyknockers'],['wrk:000237','Wolves of the Calla']])assert.match(run(`detailContent(S.find(s=>s.canonicalId===${JSON.stringify(work)}))`),new RegExp(label));run("tab='books';lang='en'");assert.match(run("detailContent(B.find(b=>b.canonicalId==='wrk:000046'))"),/Memory/);assert.match(run("detailContent(B.find(b=>b.canonicalId==='wrk:000005'))"),/Before the Play/);
+});

@@ -5,7 +5,7 @@ const {extendCompletionB,validateCompletionB}=require('../scripts/completion_b.c
 const base=loadCompletion(),before=structuredClone(base),bundle=extendCompletionB(base);
 test('Bounded B additions preserve every prior identity, record, alias and manifest',()=>{
  assert.deepEqual(base,before);assert.deepEqual(validateCompletionB(bundle,base),[]);
- assert.equal(bundle.characters.length-base.characters.length,13);assert.equal(bundle.locations.length-base.locations.length,4);assert.equal(bundle.series.length-base.series.length,4);assert.equal(bundle.adaptations.length-base.adaptations.length,15);assert.equal(bundle.connections.length-base.connections.length,70);
+ assert.equal(bundle.characters.length-base.characters.length,13);assert.equal(bundle.locations.length-base.locations.length,4);assert.equal(bundle.series.length-base.series.length,4);assert.equal(bundle.adaptations.length-base.adaptations.length,15);assert.equal(bundle.connections.length-base.connections.length,75);
  assert.throws(()=>extendCompletionB(bundle),/collision|already exists/);
 });
 test('The Hodges sequence links exactly the three existing novels with supported positions',()=>{
@@ -140,7 +140,7 @@ test('Later Sometimes films preserve the original identity and separate catalogu
 test('Shining and Misery profiles preserve literary identities without film events or hidden family revelations',()=>{
  for(const [id,name]of [['chr:000013','Danny Torrance'],['chr:000014','Jack Torrance'],['chr:000015','Wendy Torrance'],['chr:000016','Abra Stone'],['chr:000017','Paul Sheldon'],['chr:000018','Annie Wilkes']]){assert.equal(bundle.characters.filter(c=>c.name===name).length,1);const c=bundle.characters.find(c=>c.id===id);assert.equal(c.name,name);assert.ok(c.summary.en.length>80);assert.equal(c.spoiler.level,'none');assert.deepEqual(c.aliases,[]);assert.ok(bundle.claims.some(p=>p.subject.id===id&&p.fieldPath==='/summary'&&p.selected&&p.status==='verified'));}
  const danny=bundle.connections.filter(c=>c.from.id==='chr:000013');assert.deepEqual(danny.map(c=>c.to.id),['wrk:000005','wrk:000051']);assert.ok(danny.every(c=>c.predicate==='appears_in'&&c.spoiler.level==='premise'));
- assert.equal(bundle.locations.find(l=>l.id==='loc:000006').name,'Overlook Hotel');const hotel=bundle.connections.filter(c=>c.to.id==='loc:000006');assert.equal(hotel.length,1);assert.equal(hotel[0].from.id,'wrk:000005');assert.ok(!bundle.connections.some(c=>+c.id.slice(4)>=143&&+c.id.slice(4)<=150&&[c.from.type,c.to.type].includes('adaptation')));
+ assert.equal(bundle.locations.find(l=>l.id==='loc:000006').name,'Overlook Hotel');const hotel=bundle.connections.filter(c=>c.to.id==='loc:000006');assert.deepEqual(hotel.map(c=>c.from.id),['wrk:000005','wrk:000217']);assert.ok(!hotel.some(c=>c.from.id==='wrk:000051'));assert.ok(!bundle.connections.some(c=>+c.id.slice(4)>=143&&+c.id.slice(4)<=150&&[c.from.type,c.to.type].includes('adaptation')));
 });
 
 test('Reviewed core film introductions replace only generic copy on existing productions with selected field evidence',()=>{
@@ -195,4 +195,8 @@ test('Loose-story introductions preserve collaboration credits and keep endings 
 test('Five identified English reissues preserve all unknown legacy edition and cover identities',()=>{
  for(const [id,work,isbn,date]of [['edn:000172','wrk:000001','9781451694918','2012-11-06'],['edn:000173','wrk:000002','9781501192296','2018-04-17'],['edn:000174','wrk:000003','9781984898104','2018-12-31'],['edn:000175','wrk:000005','9780345806789','2013-08-27'],['edn:000176','wrk:000007','9780307947307','2012-08-07']]){const e=bundle.editions.find(e=>e.id===id);assert.equal(e.publicationOf.id,work);assert.equal(e.isbn13,isbn);assert.equal(e.language,'en');assert.equal(e.publicationDate.value,date);assert.equal(e.publicationDate.meaning,'edition-publication');assert.equal(e.identityStatus,'identified');assert.ok(!bundle.artworks.some(a=>a.editionId===id));assert.deepEqual(bundle.publicationEvents.filter(p=>p.subject.id===work),base.publicationEvents.filter(p=>p.subject.id===work));}
  for(const e of base.editions)assert.deepEqual(bundle.editions.find(n=>n.id===e.id),e);assert.deepEqual(bundle.artworks,base.artworks);
+});
+
+test('Five short-work context links preserve identities and avoid invented adaptation chronology',()=>{
+ const links=bundle.connections.filter(c=>+c.id.slice(4)>=165);assert.equal(links.length,5);assert.deepEqual(links.map(c=>[c.from.id,c.predicate,c.to.id]),[['wrk:000217','set_in','loc:000006'],['wrk:000217','shared_reference','wrk:000005'],['wrk:000229','shared_reference','wrk:000046'],['wrk:000234','shared_reference','wrk:000023'],['wrk:000237','shared_reference','wrk:000039']]);assert.ok(links.every(c=>c.spoiler.level==='none'&&c.certainty==='explicit'));assert.equal(bundle.works.length,250);assert.equal(bundle.locations.length,6);assert.ok(!links.some(c=>c.predicate==='adaptation_of'||c.predicate==='sequel_to'||c.predicate==='prequel_to'));
 });
