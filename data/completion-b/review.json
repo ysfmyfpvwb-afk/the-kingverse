@@ -4465,6 +4465,57 @@
         "ISBN13",
         "edition publication date"
       ]
+    },
+    {
+      "key": "dead-zone-paperback-publisher",
+      "url": "https://www.simonandschuster.net/books/The-Dead-Zone/Stephen-King/9781668094754",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. Reissue date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "firestarter-paperback-publisher",
+      "url": "https://www.simonandschuster.net/books/Firestarter/Stephen-King/9781501192319",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. Reissue date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "christine-paperback-publisher",
+      "url": "https://www.simonandschuster.com/books/Christine/Stephen-King/9781668075784",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. Reissue date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
     }
   ],
   "records": [
@@ -8741,6 +8792,93 @@
         "book-intro-wrk-000237-source"
       ],
       "note": "The official short-work page explicitly identifies the setting or textual relationship. No new identity, publication date, plot outcome, reading order or fictional chronology is inferred."
+    },
+    {
+      "key": "dead-zone-paperback",
+      "entityType": "edition",
+      "checked": "2026-10-29",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000009"
+      },
+      "language": "en",
+      "title": "The Dead Zone",
+      "isbn13": "9781668094754",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2025-08-05",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Trade Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "dead-zone-paperback-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "firestarter-paperback",
+      "entityType": "edition",
+      "checked": "2026-10-29",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000010"
+      },
+      "language": "en",
+      "title": "Firestarter",
+      "isbn13": "9781501192319",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2018-12-11",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Trade Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "firestarter-paperback-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "christine-paperback",
+      "entityType": "edition",
+      "checked": "2026-10-29",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000015"
+      },
+      "language": "en",
+      "title": "Christine",
+      "isbn13": "9781668075784",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2024-09-03",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Trade Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "christine-paperback-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
     }
   ],
   "deferred": [

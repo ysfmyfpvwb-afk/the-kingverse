@@ -51,7 +51,7 @@ test('Core novel introductions reach the main details without changing editions 
 
 test('New publisher editions render on main pages with edition dates separate from original work years',()=>{
  run("tab='books';lang='en'");const html=run("detailContent(B.find(r=>r.canonicalId==='wrk:000242'))");assert.match(html,/2000/);assert.match(html,/2020-06-02/);assert.match(html,/9781982159375/);assert.match(html,/Scribner/);assert.match(html,/simonandschuster\.com/);
- const misery=run("detailContent(B.find(r=>r.canonicalId==='wrk:000021'))");assert.match(misery,/2016-01-05/);assert.match(misery,/9781501143106/);assert.equal(run("media(B.find(r=>r.canonicalId==='wrk:000021')).image"),run("MEDIA.books.Misery.en.image"));assert.equal(run('DB.editions.length'),176);
+ const misery=run("detailContent(B.find(r=>r.canonicalId==='wrk:000021'))");assert.match(misery,/2016-01-05/);assert.match(misery,/9781501143106/);assert.equal(run("media(B.find(r=>r.canonicalId==='wrk:000021')).image"),run("MEDIA.books.Misery.en.image"));assert.equal(run('DB.editions.length'),179);
 });
 
 test('Visitor connection explanations use readable content while retaining optional source links',()=>{
@@ -170,4 +170,8 @@ test('Five English reissues appear on the main book pages without changing origi
 
 test('Short-work context links are visible from main story and novel details',()=>{
  run("tab='stories';lang='en'");for(const [work,label]of [['wrk:000217','Overlook Hotel'],['wrk:000229','Duma Key'],['wrk:000234','The Tommyknockers'],['wrk:000237','Wolves of the Calla']])assert.match(run(`detailContent(S.find(s=>s.canonicalId===${JSON.stringify(work)}))`),new RegExp(label));run("tab='books';lang='en'");assert.match(run("detailContent(B.find(b=>b.canonicalId==='wrk:000046'))"),/Memory/);assert.match(run("detailContent(B.find(b=>b.canonicalId==='wrk:000005'))"),/Before the Play/);
+});
+
+test('Three further Scribner paperbacks show correct edition metadata on existing main book pages',()=>{
+ run("tab='books';lang='en'");for(const [work,isbn,date]of [['wrk:000009','9781668094754','2025-08-05'],['wrk:000010','9781501192319','2018-12-11'],['wrk:000015','9781668075784','2024-09-03']]){const row=run(`B.find(b=>b.canonicalId===${JSON.stringify(work)})`),html=run(`detailContent(B.find(b=>b.canonicalId===${JSON.stringify(work)}))`);assert.match(html,new RegExp(isbn));assert.match(html,new RegExp(date));assert.match(html,/Scribner/);assert.notEqual(row.Jaar,+date.slice(0,4));}
 });

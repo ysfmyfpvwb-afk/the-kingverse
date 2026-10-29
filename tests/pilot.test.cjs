@@ -11,7 +11,7 @@ test('Pilot is reproducible, all generated files match, and all earlier baseline
  assert.deepEqual(generatePilot().files,out.files);assert.deepEqual(out.base,require('../scripts/completion_pilot.cjs').completionPilot().defaultProjection);
 });
 test('Every canonical identity, type and endpoint has an independent bounded deep-link payload',()=>{
- assert.equal(out.full.nodes.length,637);for(const n of out.full.nodes){const p=index(n.id);assert.ok(p);if(out.base.nodes.some(s=>s.id===n.id)){assert.equal(p.node.id,n.id);assert.equal(p.node.type,n.type);assert.equal(p.node.label,n.label);}else assert.equal(p.scope,'gated');}
+ assert.equal(out.full.nodes.length,640);for(const n of out.full.nodes){const p=index(n.id);assert.ok(p);if(out.base.nodes.some(s=>s.id===n.id)){assert.equal(p.node.id,n.id);assert.equal(p.node.type,n.type);assert.equal(p.node.label,n.label);}else assert.equal(p.scope,'gated');}
  const types=new Set(out.full.nodes.map(n=>n.type));assert.equal(types.size,8);
  for(const[name,p]of out.payloads)if(!name.startsWith('search.')){assert.ok(Buffer.byteLength(out.files.get('explorer/pilot/'+name))<=LIMIT);for(const e of p.connections||[])assert.ok(index(e.target.id));}
  assert.equal(out.report.payload.initialAggregateProjectBytesLoaded,0);assert.ok(out.report.payload.maxEntityBytes<40000);assert.ok(out.report.payload.searchGzipBytes<13*1024);
@@ -35,7 +35,7 @@ test('Long contribution and collection lists use six-record chunks with no missi
  for(const [id,k]of [['per:000001','creators'],['col:000006','memberships']]){const section=index(id).sections[k],rows=[...section.items];let next=section.next;assert.ok(next);while(next){const p=out.payloads.get(next);assert.ok(p.items.length<=6);rows.push(...p.items);next=p.next;}assert.equal(rows.length,section.total);assert.equal(new Set(rows.map(r=>r.id)).size,rows.length);}
 });
 test('Default pages, search aliases, metadata and gated entries contain none of the six plot-only labels',()=>{
- const search=out.payloads.get(out.report.assets.search);assert.equal(search.records.length,631);
+ const search=out.payloads.get(out.report.assets.search);assert.equal(search.records.length,634);
  for(const n of out.plot.nodes){for(const name of out.report.files.filter(f=>f.file.endsWith('/index.json')).map(f=>f.file))assert.ok(!JSON.stringify(out.payloads.get(name)).includes(n.label),name);assert.ok(!JSON.stringify(search).includes(n.label));assert.ok(!out.files.get('explorer/pilot/index.html').includes(n.label));assert.ok(!('node'in index(n.id)));}
  assert.ok(plot('chr:000005').node);assert.equal(plot('chr:000005').node.label,'Father Callahan');
 });
@@ -177,4 +177,8 @@ test('Further film premises use production-specific sources and keep novel and f
 
 test('Five English reissue pages navigate to the existing works and keep edition dates separate',()=>{
  for(const[id,work,isbn]of [['edn:000172','wrk:000001','9781451694918'],['edn:000173','wrk:000002','9781501192296'],['edn:000174','wrk:000003','9781984898104'],['edn:000175','wrk:000005','9780345806789'],['edn:000176','wrk:000007','9780307947307']]){const e=index(id),w=index(work);assert.equal(e.parent.id,work);assert.equal(e.node.data.isbn13,isbn);assert.equal(e.node.data.publicationDate.meaning,'edition-publication');assert.ok(w.sections.editions.items.some(n=>n.id===id));assert.ok(!w.publicationDates.some(d=>d.value===e.node.data.publicationDate.value));}
+});
+
+test('Three further Scribner edition routes retain the correct work, ISBN and date precision',()=>{
+ for(const[id,work,isbn,date]of [['edn:000177','wrk:000009','9781668094754','2025-08-05'],['edn:000178','wrk:000010','9781501192319','2018-12-11'],['edn:000179','wrk:000015','9781668075784','2024-09-03']]){const e=index(id);assert.equal(e.parent.id,work);assert.equal(e.node.data.isbn13,isbn);assert.equal(e.node.data.publicationDate.value,date);assert.equal(e.node.data.publicationDate.precision,'day');assert.equal(e.node.data.publicationDate.meaning,'edition-publication');assert.ok(index(work).sections.editions.items.some(n=>n.id===id));}
 });
