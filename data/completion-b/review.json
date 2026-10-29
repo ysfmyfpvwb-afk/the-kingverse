@@ -4906,6 +4906,58 @@
         "specific production identity",
         "credited literary source"
       ]
+    },
+    {
+      "key": "mangler-afi-source-credits",
+      "url": "https://catalog.afi.com/Film/59960-THE-MANGLER",
+      "publisher": "American Film Institute",
+      "sourceType": "reference",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "AFI SOURCES / LITERARY, Paramount Based On The Novel By credit or licensed Apple description explicitly identifies the source work. No synopsis, dates or other credits imported.",
+      "checkedFields": [
+        "specific production identity",
+        "credited literary source"
+      ]
+    },
+    {
+      "key": "running-man-1987-source-credits",
+      "url": "https://catalog.afi.com/Catalog/moviedetails/57805",
+      "publisher": "American Film Institute",
+      "sourceType": "reference",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "AFI SOURCES / LITERARY, Paramount Based On The Novel By credit or licensed Apple description explicitly identifies the source work. No synopsis, dates or other credits imported.",
+      "checkedFields": [
+        "specific production identity",
+        "credited literary source"
+      ]
+    },
+    {
+      "key": "running-man-2025-source-credits",
+      "url": "https://www.paramountmovies.com/movies/the-running-man-2025",
+      "publisher": "Paramount Pictures",
+      "sourceType": "official-production",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "AFI SOURCES / LITERARY, Paramount Based On The Novel By credit or licensed Apple description explicitly identifies the source work. No synopsis, dates or other credits imported.",
+      "checkedFields": [
+        "specific production identity",
+        "credited literary source"
+      ]
+    },
+    {
+      "key": "riding-bullet-source-credits",
+      "url": "https://tv.apple.com/ie/movie/riding-the-bullet/umc.cmc.40zs3mzr19ygagyj8uxo154ff",
+      "publisher": "Apple TV",
+      "sourceType": "official-production",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "AFI SOURCES / LITERARY, Paramount Based On The Novel By credit or licensed Apple description explicitly identifies the source work. No synopsis, dates or other credits imported. Observed in indexed licensed Apple listing; direct page read returned a cache error. No availability or full-record certification asserted.",
+      "checkedFields": [
+        "specific production identity",
+        "credited literary source"
+      ]
     }
   ],
   "records": [
@@ -9843,6 +9895,116 @@
       "sourceKeys": [
         "secret-window-afi-source-credits",
         "film-intro-adp-000044-source"
+      ],
+      "note": "AFI literary credit corroborates the official production page. Existing opaque IDs are manually reused; no collection-wide adaptation, plot outcome or release-date change."
+    },
+    {
+      "key": "mangler-afi-source",
+      "entityType": "connection",
+      "checked": "2026-10-29",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000030"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000076"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The film adapts King’s short story The Mangler."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "mangler-afi-source-credits",
+        "film-intro-adp-000030-source"
+      ],
+      "note": "AFI literary credit corroborates the official production page. Existing opaque IDs are manually reused; no collection-wide adaptation, plot outcome or release-date change."
+    },
+    {
+      "key": "running-man-1987-source",
+      "entityType": "connection",
+      "checked": "2026-10-29",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000041"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000013"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The 1987 film adapts The Running Man, published under King’s Richard Bachman pseudonym."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "running-man-1987-source-credits",
+        "film-intro-adp-000041-source",
+        "book-intro-000013-source"
+      ],
+      "note": "AFI literary credit corroborates the official production page. Existing opaque IDs are manually reused; no collection-wide adaptation, plot outcome or release-date change."
+    },
+    {
+      "key": "running-man-2025-source",
+      "entityType": "connection",
+      "checked": "2026-10-29",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000042"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000013"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The 2025 film offers another screen adaptation of the same novel, The Running Man."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "running-man-2025-source-credits",
+        "film-intro-adp-000042-source"
+      ],
+      "note": "AFI literary credit corroborates the official production page. Existing opaque IDs are manually reused; no collection-wide adaptation, plot outcome or release-date change."
+    },
+    {
+      "key": "riding-bullet-source",
+      "entityType": "connection",
+      "checked": "2026-10-29",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000040"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000162"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The film adapts Riding the Bullet, the story collected in Everything’s Eventual."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "riding-bullet-source-credits",
+        "film-intro-adp-000040-source",
+        "book-intro-wrk-000162-source"
       ],
       "note": "AFI literary credit corroborates the official production page. Existing opaque IDs are manually reused; no collection-wide adaptation, plot outcome or release-date change."
     }
