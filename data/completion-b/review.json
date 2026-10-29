@@ -4802,6 +4802,58 @@
         "production identity",
         "credited literary source"
       ]
+    },
+    {
+      "key": "christine-afi-source-credits",
+      "url": "https://catalog.afi.com/Catalog/MovieDetails/57908",
+      "publisher": "American Film Institute",
+      "sourceType": "reference",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "SOURCES / LITERARY transcribes the credited novel or novella; title, year, cast and director identify the production. Literary citation dates, synopsis and other credits are not imported.",
+      "checkedFields": [
+        "specific production identity",
+        "credited literary source"
+      ]
+    },
+    {
+      "key": "apt-pupil-afi-source-credits",
+      "url": "https://catalog.afi.com/Film/60634-APT-PUPIL",
+      "publisher": "American Film Institute",
+      "sourceType": "reference",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "SOURCES / LITERARY transcribes the credited novel or novella; title, year, cast and director identify the production. Literary citation dates, synopsis and other credits are not imported.",
+      "checkedFields": [
+        "specific production identity",
+        "credited literary source"
+      ]
+    },
+    {
+      "key": "dark-half-afi-source-credits",
+      "url": "https://catalog.afi.com/Catalog/moviedetails/59499",
+      "publisher": "American Film Institute",
+      "sourceType": "reference",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "SOURCES / LITERARY transcribes the credited novel or novella; title, year, cast and director identify the production. Literary citation dates, synopsis and other credits are not imported.",
+      "checkedFields": [
+        "specific production identity",
+        "credited literary source"
+      ]
+    },
+    {
+      "key": "dolores-afi-source-credits",
+      "url": "https://catalog.afi.com/Catalog/MovieDetails/59877",
+      "publisher": "American Film Institute",
+      "sourceType": "reference",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "SOURCES / LITERARY transcribes the credited novel or novella; title, year, cast and director identify the production. Literary citation dates, synopsis and other credits are not imported.",
+      "checkedFields": [
+        "specific production identity",
+        "credited literary source"
+      ]
     }
   ],
   "records": [
@@ -9525,6 +9577,114 @@
         "book-intro-wrk-000092-source"
       ],
       "note": "AFI transcribes the credited literary source. Official King film and novella pages confirm the distinct production and literary identities. This is not an adaptation of the whole collection."
+    },
+    {
+      "key": "christine-afi-source",
+      "entityType": "connection",
+      "checked": "2026-10-29",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000008"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000015"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "John Carpenter’s film adapts King’s novel Christine."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "christine-afi-source-credits",
+        "film-intro-adp-000008-source"
+      ],
+      "note": "AFI literary credit corroborates the official production page. Existing opaque IDs are manually reused; no collection-wide adaptation, plot outcome or release-date change."
+    },
+    {
+      "key": "apt-pupil-afi-source",
+      "entityType": "connection",
+      "checked": "2026-10-29",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000002"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000093"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Apt Pupil adapts the novella of the same name, collected in Different Seasons."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "apt-pupil-afi-source-credits",
+        "film-intro-adp-000002-source"
+      ],
+      "note": "AFI literary credit corroborates the official production page. Existing opaque IDs are manually reused; no collection-wide adaptation, plot outcome or release-date change."
+    },
+    {
+      "key": "dark-half-afi-source",
+      "entityType": "connection",
+      "checked": "2026-10-29",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000012"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000024"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "George Romero’s film adapts King’s novel The Dark Half."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "dark-half-afi-source-credits",
+        "film-intro-adp-000012-source"
+      ],
+      "note": "AFI literary credit corroborates the official production page. Existing opaque IDs are manually reused; no collection-wide adaptation, plot outcome or release-date change."
+    },
+    {
+      "key": "dolores-afi-source",
+      "entityType": "connection",
+      "checked": "2026-10-29",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000017"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000028"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The film adapts King’s novel Dolores Claiborne."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "dolores-afi-source-credits",
+        "film-intro-adp-000017-source"
+      ],
+      "note": "AFI literary credit corroborates the official production page. Existing opaque IDs are manually reused; no collection-wide adaptation, plot outcome or release-date change. AFI’s literary citation reports 1993 for the novel; that citation year is not adopted as first publication or edition date."
     }
   ],
   "deferred": [

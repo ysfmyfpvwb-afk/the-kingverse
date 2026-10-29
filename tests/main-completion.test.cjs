@@ -199,3 +199,8 @@ test('Four core screen adaptations navigate to the precise novel or novella on m
 test('Shawshank reading paths and two Night Shift introductions reach main story pages',()=>{
  run("tab='stories';lang='en'");const s=run("detailContent(S.find(s=>s.canonicalId==='wrk:000092'))");assert.match(s,/entity=chr%3A000022/);assert.match(s,/entity=loc%3A000007/);assert.match(s,/The Shawshank Redemption/);for(const n of [72,75]){const id='wrk:'+String(n).padStart(6,'0'),row=run(`S.find(s=>s.canonicalId===${JSON.stringify(id)})`);assert.ok(row.summary.en.length>80);assert.match(run(`detailContent(S.find(s=>s.canonicalId===${JSON.stringify(id)}))`),/Night Shift/);}run("tab='films';lang='en'");assert.match(run("detailContent(F.find(f=>f.canonicalId==='adp:000045'))"),/novella collected in Different Seasons/);
 });
+
+test('Four further AFI-confirmed films link back from main books and novella',()=>{
+ for(const[group,id,label]of [['books','wrk:000015','Christine'],['stories','wrk:000093','Apt Pupil'],['books','wrk:000024','The Dark Half'],['books','wrk:000028','Dolores Claiborne']]){run(`lang='en';tab=${JSON.stringify(group)}`);const html=run(`detailContent(${group==='books'?'B':'S'}.find(w=>w.canonicalId===${JSON.stringify(id)}))`);assert.match(html,new RegExp(label));assert.match(html,/Explore connections/);}
+ run("tab='films';lang='en'");assert.match(run("detailContent(F.find(f=>f.canonicalId==='adp:000002'))"),/novella of the same name, collected in Different Seasons/);
+});

@@ -5,7 +5,7 @@ const {extendCompletionB,validateCompletionB}=require('../scripts/completion_b.c
 const base=loadCompletion(),before=structuredClone(base),bundle=extendCompletionB(base);
 test('Bounded B additions preserve every prior identity, record, alias and manifest',()=>{
  assert.deepEqual(base,before);assert.deepEqual(validateCompletionB(bundle,base),[]);
- assert.equal(bundle.characters.length-base.characters.length,14);assert.equal(bundle.locations.length-base.locations.length,5);assert.equal(bundle.series.length-base.series.length,4);assert.equal(bundle.adaptations.length-base.adaptations.length,15);assert.equal(bundle.connections.length-base.connections.length,87);
+ assert.equal(bundle.characters.length-base.characters.length,14);assert.equal(bundle.locations.length-base.locations.length,5);assert.equal(bundle.series.length-base.series.length,4);assert.equal(bundle.adaptations.length-base.adaptations.length,15);assert.equal(bundle.connections.length-base.connections.length,91);
  assert.throws(()=>extendCompletionB(bundle),/collision|already exists/);
 });
 test('The Hodges sequence links exactly the three existing novels with supported positions',()=>{
@@ -218,4 +218,8 @@ test('Four core screen links reuse exact literary identities and retain film-spe
 
 test('Shawshank profiles stay literary and its film adapts the novella rather than the whole collection',()=>{
  const red=bundle.characters.find(c=>c.id==='chr:000022'),prison=bundle.locations.find(l=>l.id==='loc:000007');assert.equal(red.name,'Red');assert.deepEqual(red.aliases,[]);assert.equal(prison.name,'Shawshank Prison');assert.ok(red.summary.en.length>80&&prison.summary.en.length>80);assert.equal(red.spoiler.level,'none');assert.equal(prison.spoiler.level,'none');assert.deepEqual(bundle.connections.filter(c=>c.from.id===red.id).map(c=>c.to.id),['wrk:000092']);const film=bundle.connections.filter(c=>c.from.id==='adp:000045');assert.equal(film.length,1);assert.equal(film[0].to.id,'wrk:000092');assert.equal(film[0].spoiler.level,'none');assert.doesNotMatch(red.summary.en,/Redding|Rita Hayworth.*escape|parole|Mexico/);
+});
+
+test('Four AFI-confirmed adaptation links bind exact novels and preserve literary publication records',()=>{
+ for(const[a,w,title]of [['adp:000008','wrk:000015','Christine'],['adp:000002','wrk:000093','Apt Pupil'],['adp:000012','wrk:000024','The Dark Half'],['adp:000017','wrk:000028','Dolores Claiborne']]){assert.equal(bundle.works.find(x=>x.id===w).originalTitle,title);const edges=bundle.connections.filter(c=>c.from.id===a&&c.to.id===w&&c.predicate==='adaptation_of');assert.equal(edges.length,1);const c=bundle.claims.find(c=>c.subject.id===edges[0].id&&c.fieldPath==='/to'&&c.selected);assert.ok(c.sourceIds.some(id=>bundle.sources.find(s=>s.id===id).url.startsWith('https://catalog.afi.com/')));assert.equal(edges[0].spoiler.level,'none');assert.deepEqual(bundle.publicationEvents.filter(p=>p.subject.id===w),base.publicationEvents.filter(p=>p.subject.id===w));}
 });
