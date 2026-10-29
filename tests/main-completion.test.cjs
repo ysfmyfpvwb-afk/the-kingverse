@@ -114,3 +114,8 @@ test('All fourteen Everything’s Eventual stories have shared canonical introdu
  run("tab='stories';lang='en'");for(let i=150;i<=163;i++){const id='wrk:'+String(i).padStart(6,'0'),rows=run(`S.filter(s=>s.canonicalId===${JSON.stringify(id)})`);assert.ok(rows.length);for(const row of rows){assert.ok(row.summary.en.length>60);const html=run(`detailContent(S.find(s=>s.id===${JSON.stringify(row.id)}))`);assert.ok(html.includes(row.summary.en.replaceAll('&','&amp;').replaceAll("'",'&#39;')));assert.match(html,/Sources & context/);}}
  const story=run("S.find(s=>s.canonicalId==='wrk:000156').summary.en"),collection=run("B.find(b=>b.canonicalId==='col:000008').summary.en");assert.notEqual(story,collection);assert.doesNotMatch(story,/Dinky Earnshaw/);
 });
+
+test('Fifteen Bazaar story introductions appear on main details while poem and work identities stay distinct',()=>{
+ run("tab='stories';lang='en'");const ids=[198,199,200,201,202,203,204,205,206,207,208,211,212,214,215].map(n=>'wrk:'+String(n).padStart(6,'0'));for(const id of ids){const rows=run(`S.filter(s=>s.canonicalId===${JSON.stringify(id)})`);assert.ok(rows.length);for(const row of rows){const html=run(`detailContent(S.find(s=>s.id===${JSON.stringify(row.id)}))`);assert.ok(html.includes(row.summary.en.replaceAll('&','&amp;').replaceAll("'",'&#39;')));assert.match(html,/Sources & context/);}}
+ assert.match(run("S.find(s=>s.canonicalId==='wrk:000204').summary.en"),/narrative poem/);assert.doesNotMatch(run("S.find(s=>s.canonicalId==='wrk:000199').summary.en"),/dies|died|heart attack/);
+});

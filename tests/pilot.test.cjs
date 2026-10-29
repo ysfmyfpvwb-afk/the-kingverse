@@ -139,3 +139,8 @@ test('Everything’s Eventual story descriptions remain distinct from the collec
  for(let i=150;i<=163;i++){const p=index('wrk:'+String(i).padStart(6,'0'));assert.ok(p.node.description.length>60);assert.ok(p.node.evidence.some(c=>c.fieldPath==='/summary'&&c.selected&&c.status==='verified'));assert.ok(p.sections.memberships.items.some(m=>m.target.id==='col:000008'));}
  assert.doesNotMatch(index('wrk:000156').node.description,/Dinky Earnshaw/);assert.notEqual(index('wrk:000156').node.description,index('col:000008').node.description);assert.ok(index('wrk:000155').connections.some(c=>c.target.id==='chr:000003'));
 });
+
+test('Bazaar introductions retain source proof, collection links, poem classification and opening-only spoilers',()=>{
+ for(const n of [198,199,200,201,202,203,204,205,206,207,208,211,212,214,215]){const p=index('wrk:'+String(n).padStart(6,'0'));assert.ok(p.node.description.length>80);assert.ok(p.node.evidence.some(c=>c.fieldPath==='/summary'&&c.selected&&c.status==='verified'&&c.observedAt==='2026-10-29'));assert.ok(p.sections.memberships.items.some(m=>m.target.id==='col:000012'));}
+ assert.equal(index('wrk:000204').node.data.kind,'poem');assert.doesNotMatch(index('wrk:000200').node.description,/weapon|assault|saves/);assert.doesNotMatch(index('wrk:000198').node.description,/only living|eats|devours/);
+});

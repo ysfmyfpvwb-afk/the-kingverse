@@ -69,7 +69,7 @@ test('Three same-title Corn productions stay distinct and only confirmed adaptat
 });
 
 test('Reviewed book introductions enrich existing identities with field-scoped evidence only',()=>{
- const review=require('../data/completion-b/review.json'),introductions=review.enrichments.filter(e=>e.subject.type==='work');assert.equal(introductions.length,106);
+ const review=require('../data/completion-b/review.json'),introductions=review.enrichments.filter(e=>e.subject.type==='work');assert.equal(introductions.length,121);
  for(const e of introductions){const old=base.works.find(w=>w.id===e.subject.id),w=bundle.works.find(w=>w.id===old.id);assert.equal(w.summary.en,e.value.en);assert.equal(w.originalTitle,old.originalTitle);const c=bundle.claims.find(c=>c.subject.id===w.id&&c.fieldPath==='/summary'&&c.selected);assert.equal(c.status,'verified');assert.deepEqual(c.value,w.summary);assert.ok(c.sourceIds.every(id=>bundle.sources.find(s=>s.id===id).url.match(/^https:\/\/(stephenking\.com|www\.simonandschuster\.com|www\.penguinrandomhouse\.com)\//)));}
  const changed=structuredClone(bundle);changed.works.find(w=>w.id==='wrk:000005').originalTitle='Wrong title';assert.ok(validateCompletionB(changed,base).some(e=>e.code==='b-baseline-record-changed'));
  const unsupported=structuredClone(bundle);unsupported.works.find(w=>w.id==='wrk:000005').summary.en='An invented ending';assert.ok(validateCompletionB(unsupported,base).some(e=>e.code==='b-editorial-evidence'));
