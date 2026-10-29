@@ -144,3 +144,7 @@ test('Remake introductions use the correct cast and year on main pages without t
  run("tab='films';lang='en'");for(const [id,cast]of [['adp:000004','Sissy Spacek'],['adp:000057','Angela Bettis'],['adp:000083','Chloë Grace Moretz'],['adp:000068','David Soul'],['adp:000069','Rob Lowe'],['adp:000072','Ruby Dee'],['adp:000073','Whoopi Goldberg']]){const html=run(`detailContent(F.find(f=>f.canonicalId===${JSON.stringify(id)}))`);assert.ok(html.includes(cast));assert.doesNotMatch(run(`F.find(f=>f.canonicalId===${JSON.stringify(id)}).summary.en`),/survives|ending|massacre|Randall Flagg/);}
  assert.doesNotMatch(run("F.find(f=>f.canonicalId==='adp:000065').summary.en"),/David Drayton|Thomas Jane|Billy/);
 });
+
+test('Further film introductions keep remake casts and their own opening premises on the main site',()=>{
+ run("tab='films';lang='en'");const get=id=>run(`F.find(f=>f.canonicalId===${JSON.stringify(id)}).summary.en`);assert.match(get('adp:000019'),/Drew Barrymore/);assert.match(get('adp:000020'),/Ryan Kiera Armstrong/);assert.doesNotMatch(get('adp:000019'),/Zac Efron/);assert.match(get('adp:000041'),/2019.*Arnold Schwarzenegger|Arnold Schwarzenegger/s);assert.doesNotMatch(get('adp:000041'),/daughter|month|billion|2025/);assert.match(get('adp:000042'),/Edgar Wright.*2025/);assert.match(get('adp:000070'),/Steven Weber/);assert.doesNotMatch(get('adp:000070'),/Jack Nicholson/);assert.match(get('adp:000078'),/Anthony Michael Hall.*six-year/);assert.doesNotMatch(get('adp:000024'),/Ted Brautigan/);
+});

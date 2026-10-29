@@ -169,3 +169,8 @@ test('Remake-specific summaries preserve cast, uncertain source links and defaul
  for(const[id,cast]of [['adp:000004','Sissy Spacek'],['adp:000057','Angela Bettis'],['adp:000083','Chloë Grace Moretz'],['adp:000068','David Soul'],['adp:000069','Rob Lowe'],['adp:000072','Ruby Dee'],['adp:000073','Whoopi Goldberg']])assert.ok(index(id).node.description.includes(cast));
  for(const id of ['adp:000072','adp:000073'])assert.doesNotMatch(index(id).node.description,/Randall Flagg/);assert.doesNotMatch(index('adp:000038').node.description,/Ludlow|Gage.*dies|Ellie.*dies/);assert.doesNotMatch(index('adp:000039').node.description,/Ludlow|Gage.*dies|Ellie.*dies/);
 });
+
+test('Further film premises use production-specific sources and keep novel and film endings out of the introductions',()=>{
+ const r=index('adp:000041'),c=r.node.evidence.find(c=>c.fieldPath==='/summary'&&c.selected);assert.ok(c.sourceIds.every(id=>r.sources.some(s=>s.id===id&&s.url==='https://www.paramount.com/movies/the-running-man')));assert.doesNotMatch(r.node.description,/daughter|billion|2025/);assert.match(r.node.description,/2019/);
+ for(const id of ['adp:000011','adp:000021','adp:000024','adp:000033','adp:000044'])assert.doesNotMatch(index(id).node.description,/ending|suicide|Ted Brautigan|shoots his son|cut off her hand/);const tv=index('adp:000078');assert.match(tv.node.description,/six-year coma/);assert.doesNotMatch(index('adp:000014').node.description,/six-year/);
+});
