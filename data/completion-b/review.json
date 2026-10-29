@@ -4958,6 +4958,45 @@
         "specific production identity",
         "credited literary source"
       ]
+    },
+    {
+      "key": "gerald-netflix-source-credits",
+      "url": "https://www.netflix.com/tudum/articles/stephen-king-movies",
+      "publisher": "Netflix",
+      "sourceType": "official-production",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Production-specific Netflix Media Center logline or named show section in Netflix Tudum / Hulu guide explicitly identifies the literary adaptation. No recommendations, streaming availability, synopsis or outcomes imported.",
+      "checkedFields": [
+        "specific production identity",
+        "credited literary source"
+      ]
+    },
+    {
+      "key": "harrigan-netflix-source-credits",
+      "url": "https://media.netflix.com/en/only-on-netflix/81288353",
+      "publisher": "Netflix",
+      "sourceType": "official-production",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Production-specific Netflix Media Center logline or named show section in Netflix Tudum / Hulu guide explicitly identifies the literary adaptation. No recommendations, streaming availability, synopsis or outcomes imported.",
+      "checkedFields": [
+        "specific production identity",
+        "credited literary source"
+      ]
+    },
+    {
+      "key": "112263-hulu-source-credits",
+      "url": "https://www.hulu.com/guides/time-travel",
+      "publisher": "Hulu",
+      "sourceType": "official-production",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Production-specific Netflix Media Center logline or named show section in Netflix Tudum / Hulu guide explicitly identifies the literary adaptation. No recommendations, streaming availability, synopsis or outcomes imported.",
+      "checkedFields": [
+        "specific production identity",
+        "credited literary source"
+      ]
     }
   ],
   "records": [
@@ -10007,6 +10046,87 @@
         "book-intro-wrk-000162-source"
       ],
       "note": "AFI literary credit corroborates the official production page. Existing opaque IDs are manually reused; no collection-wide adaptation, plot outcome or release-date change."
+    },
+    {
+      "key": "gerald-netflix-source",
+      "entityType": "connection",
+      "checked": "2026-10-29",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000021"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000027"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The film adapts King’s novel Gerald’s Game."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "gerald-netflix-source-credits",
+        "film-intro-adp-000021-source"
+      ],
+      "note": "The platform’s explicit adaptation description corroborates the official King production page. Existing opaque IDs are manually reused; no collection-wide adaptation, plot outcome or release-date change."
+    },
+    {
+      "key": "harrigan-netflix-source",
+      "entityType": "connection",
+      "checked": "2026-10-29",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000035"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000182"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The film adapts King’s story Mr. Harrigan’s Phone."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "harrigan-netflix-source-credits",
+        "film-intro-adp-000035-source"
+      ],
+      "note": "The platform’s explicit adaptation description corroborates the official King production page. Existing opaque IDs are manually reused; no collection-wide adaptation, plot outcome or release-date change."
+    },
+    {
+      "key": "112263-hulu-source",
+      "entityType": "connection",
+      "checked": "2026-10-29",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000054"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000048"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The miniseries 11.22.63 adapts King’s novel 11/22/63."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "112263-hulu-source-credits",
+        "film-intro-adp-000054-source"
+      ],
+      "note": "The platform’s explicit adaptation description corroborates the official King production page. Existing opaque IDs are manually reused; no collection-wide adaptation, plot outcome or release-date change."
     }
   ],
   "deferred": [

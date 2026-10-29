@@ -212,3 +212,8 @@ test('Secret Window and Graveyard Shift point to individual stories while new no
 test('Both Running Man films share the existing novel while retaining distinct film pages',()=>{
  run("tab='books';lang='en'");const r=run("B.find(b=>b.canonicalId==='wrk:000013')"),links=r.connected.filter(c=>c.target.kind==='films'&&c.predicate==='adaptation_of');assert.equal(links.length,2);assert.equal(new Set(links.map(c=>c.target.id)).size,2);run("tab='films';lang='en'");const old=run("detailContent(F.find(f=>f.canonicalId==='adp:000041'))"),recent=run("detailContent(F.find(f=>f.canonicalId==='adp:000042'))");assert.match(old,/1987 film adapts/);assert.match(recent,/2025 film offers/);assert.match(run("detailContent(F.find(f=>f.canonicalId==='adp:000040'))"),/story collected in Everything/);assert.match(run("detailContent(F.find(f=>f.canonicalId==='adp:000030'))"),/short story The Mangler/);
 });
+
+test('Three platform-confirmed adaptations connect film or series to the existing literary page',()=>{
+ for(const[group,id,label]of [['books','wrk:000027','Gerald'],['stories','wrk:000182','Harrigan'],['books','wrk:000048','11.22.63']]){run(`tab=${JSON.stringify(group)};lang='en'`);assert.match(run(`detailContent(${group==='books'?'B':'S'}.find(r=>r.canonicalId===${JSON.stringify(id)}))`),new RegExp(label.replaceAll('.','\\.')));}
+ run("tab='films';lang='en'");assert.match(run("detailContent(F.find(f=>f.canonicalId==='adp:000054'))"),/novel 11\/22\/63/);
+});

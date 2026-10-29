@@ -5,7 +5,7 @@ const {extendCompletionB,validateCompletionB}=require('../scripts/completion_b.c
 const base=loadCompletion(),before=structuredClone(base),bundle=extendCompletionB(base);
 test('Bounded B additions preserve every prior identity, record, alias and manifest',()=>{
  assert.deepEqual(base,before);assert.deepEqual(validateCompletionB(bundle,base),[]);
- assert.equal(bundle.characters.length-base.characters.length,14);assert.equal(bundle.locations.length-base.locations.length,5);assert.equal(bundle.series.length-base.series.length,4);assert.equal(bundle.adaptations.length-base.adaptations.length,15);assert.equal(bundle.connections.length-base.connections.length,99);
+ assert.equal(bundle.characters.length-base.characters.length,14);assert.equal(bundle.locations.length-base.locations.length,5);assert.equal(bundle.series.length-base.series.length,4);assert.equal(bundle.adaptations.length-base.adaptations.length,15);assert.equal(bundle.connections.length-base.connections.length,102);
  assert.throws(()=>extendCompletionB(bundle),/collision|already exists/);
 });
 test('The Hodges sequence links exactly the three existing novels with supported positions',()=>{
