@@ -1305,6 +1305,12 @@
     "claim/anthology-67-132/to": "clm:009212",
     "claim/anthology-67-132/certainty": "clm:009213",
     "claim/anthology-67-132/explanation": "clm:009214",
-    "claim/anthology-67-132/spoiler": "clm:009215"
+    "claim/anthology-67-132/spoiler": "clm:009215",
+    "source/film-intro-adp-000029-source": "src:000554",
+    "claim/film-intro-adp-000029": "clm:009216",
+    "claim/film-intro-adp-000084": "clm:009217",
+    "claim/film-intro-adp-000091": "clm:009218",
+    "source/film-intro-adp-000096-source": "src:000555",
+    "claim/film-intro-adp-000096": "clm:009219"
   }
 }

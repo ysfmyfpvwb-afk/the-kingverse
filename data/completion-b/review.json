@@ -4092,6 +4092,54 @@
       "checkedFields": [
         "original spoiler-aware English reading introduction"
       ]
+    },
+    {
+      "key": "film-intro-adp-000029-source",
+      "url": "https://www.thelongwalk.movie/synopsis/",
+      "publisher": "Lionsgate / The Long Walk official site",
+      "sourceType": "official-production",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Production-specific Synopsis / From the Box / licensed distribution premise; only opening situation and explicitly named cast or director used. No ending, copied synopsis, rating or current availability claim.",
+      "checkedFields": [
+        "original spoiler-aware English introduction to this exact screen production"
+      ]
+    },
+    {
+      "key": "film-intro-adp-000084-source",
+      "url": "https://www.aboutamazon.com/news/entertainment/carrie-stephen-king-mike-flanagan-prime-video",
+      "publisher": "Amazon MGM Studios / About Amazon",
+      "sourceType": "official-production",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Production-specific Synopsis / From the Box / licensed distribution premise; only opening situation and explicitly named cast or director used. No ending, copied synopsis, rating or current availability claim.",
+      "checkedFields": [
+        "original spoiler-aware English introduction to this exact screen production"
+      ]
+    },
+    {
+      "key": "film-intro-adp-000091-source",
+      "url": "https://stephenking.com/works/television/quicksilver-highway.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Production-specific Synopsis / From the Box / licensed distribution premise; only opening situation and explicitly named cast or director used. No ending, copied synopsis, rating or current availability claim.",
+      "checkedFields": [
+        "original spoiler-aware English introduction to this exact screen production"
+      ]
+    },
+    {
+      "key": "film-intro-adp-000096-source",
+      "url": "https://tv.apple.com/us/movie/the-rage-carrie-2/umc.cmc.5yz4jg7cr11j63qhshqpltmqc",
+      "publisher": "Apple TV / United Artists distribution listing",
+      "sourceType": "official-production",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Production-specific Synopsis / From the Box / licensed distribution premise; only opening situation and explicitly named cast or director used. No ending, copied synopsis, rating or current availability claim.",
+      "checkedFields": [
+        "original spoiler-aware English introduction to this exact screen production"
+      ]
     }
   ],
   "records": [
@@ -14945,6 +14993,90 @@
       },
       "locator": "Official work description, opening situation only; independently worded visitor introduction.",
       "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "film-intro-adp-000029",
+      "subject": {
+        "type": "adaptation",
+        "id": "adp:000029"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Francis Lawrence directs this screen version of King's novel, with a screenplay by JT Mollner. Cooper Hoffman, David Jonsson and Mark Hamill lead an ensemble cast that also includes Judy Greer."
+      },
+      "sourceKeys": [
+        "film-intro-adp-000029-source"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": []
+      },
+      "locator": "Official production-specific description and named cast/director; independently worded opening premise.",
+      "note": "Only the existing production’s generic editorial introduction changes. Identity, title, format, release observations, credits, source/remake relationships, ratings and image binding remain unchanged."
+    },
+    {
+      "key": "film-intro-adp-000084",
+      "subject": {
+        "type": "adaptation",
+        "id": "adp:000084"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Carrie White enters public high school after a sheltered upbringing with her mother, confronting social-media bullying as telekinetic abilities emerge. Mike Flanagan's eight-episode first season stars Summer H. Howell and Samantha Sloyan in a contemporary reimagining of King's debut novel."
+      },
+      "sourceKeys": [
+        "film-intro-adp-000084-source"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": []
+      },
+      "locator": "Official production-specific description and named cast/director; independently worded opening premise.",
+      "note": "Only the existing production’s generic editorial introduction changes. Identity, title, format, release observations, credits, source/remake relationships, ratings and image binding remain unchanged."
+    },
+    {
+      "key": "film-intro-adp-000091",
+      "subject": {
+        "type": "adaptation",
+        "id": "adp:000091"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Two authors' stories meet in this television anthology: King's Chattery Teeth and Clive Barker's The Body Politic. Each contributes a separate tale, bringing their different approaches to horror into the same production."
+      },
+      "sourceKeys": [
+        "film-intro-adp-000091-source"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": []
+      },
+      "locator": "Official production-specific description and named cast/director; independently worded opening premise.",
+      "note": "Only the existing production’s generic editorial introduction changes. Identity, title, format, release observations, credits, source/remake relationships, ratings and image binding remain unchanged."
+    },
+    {
+      "key": "film-intro-adp-000096",
+      "subject": {
+        "type": "adaptation",
+        "id": "adp:000096"
+      },
+      "field": "summary",
+      "value": {
+        "en": "After the death of her closest friend, outsider Rachel Lang faces a hostile school environment and discovers extraordinary abilities of her own. Emily Bergl and Jason London star in a story of grief, attraction and revenge."
+      },
+      "sourceKeys": [
+        "film-intro-adp-000096-source"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": []
+      },
+      "locator": "Official production-specific description and named cast/director; independently worded opening premise.",
+      "note": "Only the existing production’s generic editorial introduction changes. Identity, title, format, release observations, credits, source/remake relationships, ratings and image binding remain unchanged."
     }
   ]
 }

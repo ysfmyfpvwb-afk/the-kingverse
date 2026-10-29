@@ -144,7 +144,7 @@ test('Shining and Misery profiles preserve literary identities without film even
 });
 
 test('Reviewed core film introductions replace only generic copy on existing productions with selected field evidence',()=>{
- const edits=require('../data/completion-b/review.json').enrichments.filter(e=>e.subject.type==='adaptation');assert.equal(edits.length,87);for(const e of edits){const old=base.adaptations.find(a=>a.id===e.subject.id),a=bundle.adaptations.find(a=>a.id===old.id);assert.deepEqual(a.summary,e.value);assert.deepEqual(a.releaseEvents,old.releaseEvents);assert.deepEqual(a.makerObservations,old.makerObservations);assert.deepEqual(a.ratingObservations,old.ratingObservations);const c=bundle.claims.find(c=>c.subject.id===a.id&&c.fieldPath==='/summary'&&c.selected);assert.equal(c.status,'verified');assert.deepEqual(c.value,a.summary);assert.ok(c.sourceIds.length);}
+ const edits=require('../data/completion-b/review.json').enrichments.filter(e=>e.subject.type==='adaptation');assert.equal(edits.length,91);for(const e of edits){const old=base.adaptations.find(a=>a.id===e.subject.id),a=bundle.adaptations.find(a=>a.id===old.id);assert.deepEqual(a.summary,e.value);assert.deepEqual(a.releaseEvents,old.releaseEvents);assert.deepEqual(a.makerObservations,old.makerObservations);assert.deepEqual(a.ratingObservations,old.ratingObservations);const c=bundle.claims.find(c=>c.subject.id===a.id&&c.fieldPath==='/summary'&&c.selected);assert.equal(c.status,'verified');assert.deepEqual(c.value,a.summary);assert.ok(c.sourceIds.length);}
  const b=structuredClone(bundle);b.adaptations.find(a=>a.id==='adp:000045').summary.en='An invented prison ending';assert.ok(validateCompletionB(b,base).some(e=>e.code==='b-editorial-evidence'));
 });
 
@@ -178,4 +178,10 @@ test('Anthology screen links reuse eight story identities with contribution-spec
  const anthology=bundle.connections.filter(c=>c.from.id==='adp:000067');assert.deepEqual(anthology.map(c=>c.to.id),[79,142,123,138,158,140,150,132].map(n=>'wrk:'+String(n).padStart(6,'0')));const cat=bundle.connections.filter(c=>c.from.id==='adp:000094');assert.equal(cat.length,1);assert.equal(cat[0].to.id,'wrk:000172');
  for(const c of anthology){assert.equal(c.predicate,'adaptation_of');assert.equal(c.certainty,'explicit');assert.equal(c.spoiler.level,'none');const claim=bundle.claims.find(p=>p.subject.id===c.id&&p.fieldPath==='/to'&&p.selected);assert.equal(claim.status,'verified');assert.ok(claim.sourceIds.every(id=>bundle.sources.find(s=>s.id===id).url.includes('/works/television/nightmares-dreamscapes.html')||bundle.sources.find(s=>s.id===id).url.includes('/works/movie/tales-from-the-darkside-the-movie.html')));}
  assert.equal(bundle.works.length,250);assert.equal(bundle.adaptations.length,111);assert.ok(!anthology.some(c=>c.to.type==='collection'));
+});
+
+test('Recent screen introductions keep first-season scope and separate authors without importing ratings',()=>{
+ const intro=n=>bundle.adaptations.find(a=>a.id==='adp:'+String(n).padStart(6,'0')).summary.en;
+ assert.match(intro(84),/first season/);assert.match(intro(84),/Summer H. Howell/);assert.doesNotMatch(intro(84),/Season 2|second season|available now/);assert.match(intro(91),/Clive Barker/);assert.match(intro(96),/Rachel Lang/);assert.doesNotMatch(intro(96),/half-sister|Sue Snell|25%/);
+ for(const n of [29,84,91,96]){const id='adp:'+String(n).padStart(6,'0'),a=bundle.adaptations.find(a=>a.id===id),old=base.adaptations.find(a=>a.id===id);assert.deepEqual(a.productionUnits,old.productionUnits);assert.deepEqual(a.statusHistory,old.statusHistory);assert.deepEqual(a.ratingObservations,old.ratingObservations);}
 });
