@@ -4997,6 +4997,45 @@
         "specific production identity",
         "credited literary source"
       ]
+    },
+    {
+      "key": "cell-saban-source-credits",
+      "url": "https://www.sabanfilms.com/films/cell/",
+      "publisher": "Saban Films",
+      "sourceType": "official-production",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Saban explicitly credits King’s novel; licensed Apple episode description identifies the 1994 novel adaptation; official King novel and 2020 production pages provide the named novel, matching premise and distinct cast/production identity. No episode outcomes, current availability or new dates imported.",
+      "checkedFields": [
+        "specific production identity",
+        "credited literary source"
+      ]
+    },
+    {
+      "key": "stand-1994-source-credits",
+      "url": "https://tv.apple.com/us/episode/the-plague/umc.cmc.1lu8kzlorl1mbc1qsso2bb2q5?showId=umc.cmc.5qmlkmbwgf6vl9p3ojpy48yek",
+      "publisher": "Apple TV",
+      "sourceType": "official-production",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Saban explicitly credits King’s novel; licensed Apple episode description identifies the 1994 novel adaptation; official King novel and 2020 production pages provide the named novel, matching premise and distinct cast/production identity. No episode outcomes, current availability or new dates imported.",
+      "checkedFields": [
+        "specific production identity",
+        "credited literary source"
+      ]
+    },
+    {
+      "key": "stand-2020-source-credits",
+      "url": "https://stephenking.com/works/television/stand-(2020).html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Saban explicitly credits King’s novel; licensed Apple episode description identifies the 1994 novel adaptation; official King novel and 2020 production pages provide the named novel, matching premise and distinct cast/production identity. No episode outcomes, current availability or new dates imported.",
+      "checkedFields": [
+        "specific production identity",
+        "credited literary source"
+      ]
     }
   ],
   "records": [
@@ -10127,6 +10166,89 @@
         "film-intro-adp-000054-source"
       ],
       "note": "The platform’s explicit adaptation description corroborates the official King production page. Existing opaque IDs are manually reused; no collection-wide adaptation, plot outcome or release-date change."
+    },
+    {
+      "key": "cell-saban-source",
+      "entityType": "connection",
+      "checked": "2026-10-29",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000006"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000043"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The film adapts King’s novel Cell."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "cell-saban-source-credits",
+        "film-intro-adp-000006-source"
+      ],
+      "note": "Production identity and literary source are manually corroborated against the official King pages. Existing opaque IDs are manually reused; no collection-wide adaptation, plot outcome or release-date change."
+    },
+    {
+      "key": "stand-1994-source",
+      "entityType": "connection",
+      "checked": "2026-10-29",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000072"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000007"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The 1994 miniseries adapts King’s novel The Stand."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "stand-1994-source-credits",
+        "film-intro-adp-000072-source",
+        "book-intro-000007-source"
+      ],
+      "note": "Production identity and literary source are manually corroborated against the official King pages. Existing opaque IDs are manually reused; no collection-wide adaptation, plot outcome or release-date change."
+    },
+    {
+      "key": "stand-2020-source",
+      "entityType": "connection",
+      "checked": "2026-10-29",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000073"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000007"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The 2020 miniseries is another screen adaptation of King’s novel The Stand."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "stand-2020-source-credits",
+        "film-intro-adp-000073-source",
+        "book-intro-000007-source"
+      ],
+      "note": "Production identity and literary source are manually corroborated against the official King pages. Existing opaque IDs are manually reused; no collection-wide adaptation, plot outcome or release-date change. A separate Paramount programme endpoint returned HTTP 404 and is not used or published as evidence. No new screen ending or character identity is copied from the production page."
     }
   ],
   "deferred": [

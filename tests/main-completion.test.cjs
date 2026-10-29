@@ -51,7 +51,7 @@ test('Core novel introductions reach the main details without changing editions 
 
 test('New publisher editions render on main pages with edition dates separate from original work years',()=>{
  run("tab='books';lang='en'");const html=run("detailContent(B.find(r=>r.canonicalId==='wrk:000242'))");assert.match(html,/2000/);assert.match(html,/2020-06-02/);assert.match(html,/9781982159375/);assert.match(html,/Scribner/);assert.match(html,/simonandschuster\.com/);
- const misery=run("detailContent(B.find(r=>r.canonicalId==='wrk:000021'))");assert.match(misery,/2016-01-05/);assert.match(misery,/9781501143106/);assert.equal(run("media(B.find(r=>r.canonicalId==='wrk:000021')).image"),run("MEDIA.books.Misery.en.image"));assert.equal(run('DB.editions.length'),179);
+ const misery=run("detailContent(B.find(r=>r.canonicalId==='wrk:000021'))");assert.match(misery,/2016-01-05/);assert.match(misery,/9781501143106/);assert.equal(run("media(B.find(r=>r.canonicalId==='wrk:000021')).image"),run("MEDIA.books.Misery.en.image"));assert.equal(run('DB.editions.length'),182);
 });
 
 test('Visitor connection explanations use readable content while retaining optional source links',()=>{
@@ -216,4 +216,8 @@ test('Both Running Man films share the existing novel while retaining distinct f
 test('Three platform-confirmed adaptations connect film or series to the existing literary page',()=>{
  for(const[group,id,label]of [['books','wrk:000027','Gerald'],['stories','wrk:000182','Harrigan'],['books','wrk:000048','11.22.63']]){run(`tab=${JSON.stringify(group)};lang='en'`);assert.match(run(`detailContent(${group==='books'?'B':'S'}.find(r=>r.canonicalId===${JSON.stringify(id)}))`),new RegExp(label.replaceAll('.','\\.')));}
  run("tab='films';lang='en'");assert.match(run("detailContent(F.find(f=>f.canonicalId==='adp:000054'))"),/novel 11\/22\/63/);
+});
+
+test('Cell and both Stand miniseries remain distinct adaptations linked to their existing novels',()=>{
+ run("tab='books';lang='en'");const stand=run("B.find(b=>b.canonicalId==='wrk:000007')"),screens=stand.connected.filter(c=>c.target.kind==='films'&&c.predicate==='adaptation_of');assert.equal(screens.length,2);assert.equal(new Set(screens.map(c=>c.target.id)).size,2);assert.match(run("detailContent(B.find(b=>b.canonicalId==='wrk:000043'))"),/film adapts King/);run("tab='films';lang='en'");assert.match(run("detailContent(F.find(f=>f.canonicalId==='adp:000072'))"),/1994 miniseries adapts/);assert.match(run("detailContent(F.find(f=>f.canonicalId==='adp:000073'))"),/2020 miniseries is another/);
 });
