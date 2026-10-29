@@ -221,3 +221,7 @@ test('Three platform-confirmed adaptations connect film or series to the existin
 test('Cell and both Stand miniseries remain distinct adaptations linked to their existing novels',()=>{
  run("tab='books';lang='en'");const stand=run("B.find(b=>b.canonicalId==='wrk:000007')"),screens=stand.connected.filter(c=>c.target.kind==='films'&&c.predicate==='adaptation_of');assert.equal(screens.length,2);assert.equal(new Set(screens.map(c=>c.target.id)).size,2);assert.match(run("detailContent(B.find(b=>b.canonicalId==='wrk:000043'))"),/film adapts King/);run("tab='films';lang='en'");assert.match(run("detailContent(F.find(f=>f.canonicalId==='adp:000072'))"),/1994 miniseries adapts/);assert.match(run("detailContent(F.find(f=>f.canonicalId==='adp:000073'))"),/2020 miniseries is another/);
 });
+
+test('Three identified collection paperbacks appear on existing main collection pages',()=>{
+ run("tab='books';lang='en'");for(const[id,isbn,date]of [['col:000003','9781501143489','2016-03-29'],['col:000005','9781501143496','2016-08-02'],['col:000006','9781501192036','2017-10-31']]){const html=run(`detailContent(B.find(b=>b.canonicalId===${JSON.stringify(id)}))`);assert.match(html,new RegExp(isbn));assert.match(html,new RegExp(date));assert.match(html,/Stories in this collection/);}assert.equal(run('B.length'),96);
+});

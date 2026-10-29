@@ -182,3 +182,7 @@ test('Five English reissue pages navigate to the existing works and keep edition
 test('Three further Scribner edition routes retain the correct work, ISBN and date precision',()=>{
  for(const[id,work,isbn,date]of [['edn:000177','wrk:000009','9781668094754','2025-08-05'],['edn:000178','wrk:000010','9781501192319','2018-12-11'],['edn:000179','wrk:000015','9781668075784','2024-09-03']]){const e=index(id);assert.equal(e.parent.id,work);assert.equal(e.node.data.isbn13,isbn);assert.equal(e.node.data.publicationDate.value,date);assert.equal(e.node.data.publicationDate.precision,'day');assert.equal(e.node.data.publicationDate.meaning,'edition-publication');assert.ok(index(work).sections.editions.items.some(n=>n.id===id));}
 });
+
+test('Three collection edition pages preserve collection parents and existing story memberships',()=>{
+ for(const[id,parent,isbn,date]of [['edn:000180','col:000003','9781501143489','2016-03-29'],['edn:000181','col:000005','9781501143496','2016-08-02'],['edn:000182','col:000006','9781501192036','2017-10-31']]){const e=index(id),c=index(parent);assert.equal(e.parent.id,parent);assert.equal(e.node.data.isbn13,isbn);assert.equal(e.node.data.publicationDate.value,date);assert.equal(e.node.data.publicationDate.meaning,'edition-publication');assert.ok(c.sections.editions.items.some(r=>r.id===id));assert.ok(c.sections.memberships.total>=4);assert.ok(!c.publicationDates.some(d=>d.value===date));}
+});

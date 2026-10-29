@@ -5036,6 +5036,57 @@
         "specific production identity",
         "credited literary source"
       ]
+    },
+    {
+      "key": "different-seasons-paperback-publisher",
+      "url": "https://www.simonandschuster.com/books/Different-Seasons/Stephen-King/9781501143489",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. Reissue date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "four-midnight-paperback-publisher",
+      "url": "https://www.simonandschuster.com/books/Four-Past-Midnight/Stephen-King/9781501143496",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. Reissue date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "nightmares-paperback-publisher",
+      "url": "https://www.simonandschuster.com/books/Nightmares-Dreamscapes/Stephen-King/9781501192036",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. Reissue date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
     }
   ],
   "records": [
@@ -10249,6 +10300,93 @@
         "book-intro-000007-source"
       ],
       "note": "Production identity and literary source are manually corroborated against the official King pages. Existing opaque IDs are manually reused; no collection-wide adaptation, plot outcome or release-date change. A separate Paramount programme endpoint returned HTTP 404 and is not used or published as evidence. No new screen ending or character identity is copied from the production page."
+    },
+    {
+      "key": "different-seasons-paperback",
+      "entityType": "edition",
+      "checked": "2026-10-29",
+      "publicationOf": {
+        "type": "collection",
+        "id": "col:000003"
+      },
+      "language": "en",
+      "title": "Different Seasons",
+      "isbn13": "9781501143489",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2016-03-29",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Trade Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "different-seasons-paperback-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "four-midnight-paperback",
+      "entityType": "edition",
+      "checked": "2026-10-29",
+      "publicationOf": {
+        "type": "collection",
+        "id": "col:000005"
+      },
+      "language": "en",
+      "title": "Four Past Midnight",
+      "isbn13": "9781501143496",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2016-08-02",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Trade Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "four-midnight-paperback-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "nightmares-paperback",
+      "entityType": "edition",
+      "checked": "2026-10-29",
+      "publicationOf": {
+        "type": "collection",
+        "id": "col:000006"
+      },
+      "language": "en",
+      "title": "Nightmares & Dreamscapes",
+      "isbn13": "9781501192036",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2017-10-31",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Trade Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "nightmares-paperback-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
     }
   ],
   "deferred": [
