@@ -5,7 +5,7 @@ const {extendCompletionB,validateCompletionB}=require('../scripts/completion_b.c
 const base=loadCompletion(),before=structuredClone(base),bundle=extendCompletionB(base);
 test('Bounded B additions preserve every prior identity, record, alias and manifest',()=>{
  assert.deepEqual(base,before);assert.deepEqual(validateCompletionB(bundle,base),[]);
- assert.equal(bundle.characters.length-base.characters.length,13);assert.equal(bundle.locations.length-base.locations.length,4);assert.equal(bundle.series.length-base.series.length,4);assert.equal(bundle.adaptations.length-base.adaptations.length,15);assert.equal(bundle.connections.length-base.connections.length,75);
+ assert.equal(bundle.characters.length-base.characters.length,13);assert.equal(bundle.locations.length-base.locations.length,4);assert.equal(bundle.series.length-base.series.length,4);assert.equal(bundle.adaptations.length-base.adaptations.length,15);assert.equal(bundle.connections.length-base.connections.length,80);
  assert.throws(()=>extendCompletionB(bundle),/collision|already exists/);
 });
 test('The Hodges sequence links exactly the three existing novels with supported positions',()=>{
@@ -198,10 +198,15 @@ test('Five identified English reissues preserve all unknown legacy edition and c
 });
 
 test('Five short-work context links preserve identities and avoid invented adaptation chronology',()=>{
- const links=bundle.connections.filter(c=>+c.id.slice(4)>=165);assert.equal(links.length,5);assert.deepEqual(links.map(c=>[c.from.id,c.predicate,c.to.id]),[['wrk:000217','set_in','loc:000006'],['wrk:000217','shared_reference','wrk:000005'],['wrk:000229','shared_reference','wrk:000046'],['wrk:000234','shared_reference','wrk:000023'],['wrk:000237','shared_reference','wrk:000039']]);assert.ok(links.every(c=>c.spoiler.level==='none'&&c.certainty==='explicit'));assert.equal(bundle.works.length,250);assert.equal(bundle.locations.length,6);assert.ok(!links.some(c=>c.predicate==='adaptation_of'||c.predicate==='sequel_to'||c.predicate==='prequel_to'));
+ const links=bundle.connections.filter(c=>+c.id.slice(4)>=165&&+c.id.slice(4)<=169);assert.equal(links.length,5);assert.deepEqual(links.map(c=>[c.from.id,c.predicate,c.to.id]),[['wrk:000217','set_in','loc:000006'],['wrk:000217','shared_reference','wrk:000005'],['wrk:000229','shared_reference','wrk:000046'],['wrk:000234','shared_reference','wrk:000023'],['wrk:000237','shared_reference','wrk:000039']]);assert.ok(links.every(c=>c.spoiler.level==='none'&&c.certainty==='explicit'));assert.equal(bundle.works.length,250);assert.equal(bundle.locations.length,6);assert.ok(!links.some(c=>c.predicate==='adaptation_of'||c.predicate==='sequel_to'||c.predicate==='prequel_to'));
 });
 
 test('All current screen entries have sourced introductions while five unconfirmed projects retain unknown status',()=>{
  const review=require('../data/completion-b/review.json'),reg=require('../data/completion-b/register.json'),introduced=new Set([...review.enrichments.filter(e=>e.subject.type==='adaptation').map(e=>e.subject.id),...review.records.filter(e=>e.entityType==='adaptation').map(e=>reg.allocations['adaptation/'+e.key])]);assert.equal(introduced.size,111);for(const a of bundle.adaptations)assert.ok(introduced.has(a.id)&&a.summary.en.length>60,a.id);
  for(const n of [52,53,87,90,92]){const id='adp:'+String(n).padStart(6,'0'),a=bundle.adaptations.find(a=>a.id===id),old=base.adaptations.find(a=>a.id===id);assert.equal(a.statusHistory.at(-1).status,'unknown');assert.deepEqual(a.statusHistory,old.statusHistory);assert.deepEqual(a.releaseEvents,old.releaseEvents);assert.match(a.summary.en,/unconfirmed|uncertain|without a release date/);}
+});
+
+test('Five direct screen relationships bind the reviewed story or novel, including Bachman and anthology scope',()=>{
+ for(const[adp,work,title]of [['adp:000025','wrk:000225','In the Tall Grass'],['adp:000028','wrk:000183','The Life of Chuck'],['adp:000029','wrk:000008','The Long Walk'],['adp:000091','wrk:000128','Chattery Teeth'],['adp:000049','wrk:000018','Thinner']]){assert.equal(bundle.works.find(w=>w.id===work).originalTitle,title);const edges=bundle.connections.filter(c=>c.from.id===adp&&c.to.id===work&&c.predicate==='adaptation_of');assert.equal(edges.length,1);assert.equal(edges[0].certainty,'explicit');assert.equal(edges[0].spoiler.level,'none');assert.ok(bundle.claims.some(c=>c.subject.id===edges[0].id&&c.fieldPath==='/to'&&c.selected&&c.status==='verified'));}
+ assert.ok(!bundle.connections.some(c=>c.from.id==='adp:000049'&&c.to.id==='wrk:000020'));assert.equal(bundle.works.length,250);assert.equal(bundle.adaptations.length,111);
 });

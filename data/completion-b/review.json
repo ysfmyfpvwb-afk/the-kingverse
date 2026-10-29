@@ -4648,6 +4648,71 @@
       "checkedFields": [
         "English introduction accurately attributed to the project announcement; release remains unconfirmed"
       ]
+    },
+    {
+      "key": "tall-grass-source-evidence",
+      "url": "https://media.netflix.com/en/only-on-netflix/80237905",
+      "publisher": "Netflix Media Center",
+      "sourceType": "official-production",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Exact production-specific description explicitly identifies the adapted novel, novella, story or anthology contribution. No plot outcomes, ratings, copied synopsis or images imported.",
+      "checkedFields": [
+        "production identity",
+        "literary source relationship"
+      ]
+    },
+    {
+      "key": "life-chuck-source-evidence",
+      "url": "https://stephenking.com/works/movie/life-of-chuck.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Exact production-specific description explicitly identifies the adapted novel, novella, story or anthology contribution. No plot outcomes, ratings, copied synopsis or images imported.",
+      "checkedFields": [
+        "production identity",
+        "literary source relationship"
+      ]
+    },
+    {
+      "key": "long-walk-source-evidence",
+      "url": "https://stephenking.com/works/movie/long-walk.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Exact production-specific description explicitly identifies the adapted novel, novella, story or anthology contribution. No plot outcomes, ratings, copied synopsis or images imported.",
+      "checkedFields": [
+        "production identity",
+        "literary source relationship"
+      ]
+    },
+    {
+      "key": "quicksilver-chattery-source-evidence",
+      "url": "https://stephenking.com/works/television/quicksilver-highway.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Exact production-specific description explicitly identifies the adapted novel, novella, story or anthology contribution. No plot outcomes, ratings, copied synopsis or images imported.",
+      "checkedFields": [
+        "production identity",
+        "literary source relationship"
+      ]
+    },
+    {
+      "key": "thinner-novel-source-evidence",
+      "url": "https://www.paramount.com/movies/stephen-kings-thinner",
+      "publisher": "Paramount Pictures",
+      "sourceType": "official-production",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Exact production-specific description explicitly identifies the adapted novel, novella, story or anthology contribution. No plot outcomes, ratings, copied synopsis or images imported.",
+      "checkedFields": [
+        "production identity",
+        "literary source relationship"
+      ]
     }
   ],
   "records": [
@@ -9011,6 +9076,137 @@
         "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
       ],
       "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "tall-grass-source",
+      "entityType": "connection",
+      "checked": "2026-10-29",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000025"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000225"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The film adapts the story written together by Stephen King and Joe Hill."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "tall-grass-source-evidence"
+      ],
+      "note": "Manually matched existing production and literary work IDs. Direct adaptation evidence only; collection context is not promoted to a whole-collection adaptation. Richard Bachman remains a pseudonym of Stephen King."
+    },
+    {
+      "key": "life-chuck-source",
+      "entityType": "connection",
+      "checked": "2026-10-29",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000028"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000183"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The film adapts The Life of Chuck, the novella collected in If It Bleeds."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "life-chuck-source-evidence"
+      ],
+      "note": "Manually matched existing production and literary work IDs. Direct adaptation evidence only; collection context is not promoted to a whole-collection adaptation. Richard Bachman remains a pseudonym of Stephen King."
+    },
+    {
+      "key": "long-walk-source",
+      "entityType": "connection",
+      "checked": "2026-10-29",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000029"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000008"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The film adapts The Long Walk, the novel originally published under King’s Richard Bachman pseudonym."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "long-walk-source-evidence",
+        "book-intro-000008-source"
+      ],
+      "note": "Manually matched existing production and literary work IDs. Direct adaptation evidence only; collection context is not promoted to a whole-collection adaptation. Richard Bachman remains a pseudonym of Stephen King. Existing official novel evidence supplies the Richard Bachman pseudonym attribution; the movie page supplies the adaptation relationship."
+    },
+    {
+      "key": "quicksilver-chattery-source",
+      "entityType": "connection",
+      "checked": "2026-10-29",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000091"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000128"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Quicksilver Highway includes a segment adapting Chattery Teeth; its other tale is by Clive Barker."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "quicksilver-chattery-source-evidence"
+      ],
+      "note": "Manually matched existing production and literary work IDs. Direct adaptation evidence only; collection context is not promoted to a whole-collection adaptation. Richard Bachman remains a pseudonym of Stephen King."
+    },
+    {
+      "key": "thinner-novel-source",
+      "entityType": "connection",
+      "checked": "2026-10-29",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000049"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000018"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The film adapts Thinner, the novel King published under the name Richard Bachman."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "thinner-novel-source-evidence"
+      ],
+      "note": "Manually matched existing production and literary work IDs. Direct adaptation evidence only; collection context is not promoted to a whole-collection adaptation. Richard Bachman remains a pseudonym of Stephen King."
     }
   ],
   "deferred": [

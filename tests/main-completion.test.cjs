@@ -185,3 +185,8 @@ test('Reader pages keep quality notes inside the optional sources disclosure in 
  run("lang='en';tab='films'");const old=run("detailContent(F.find(f=>f.imdb))"),visible=old.replace(/<details>[\s\S]*?<\/details>/g,'');assert.doesNotMatch(visible,/Cached observation|Rating not yet verified|not a live rating/);assert.match(old,/not a live rating/);assert.match(old,/<details><summary>Sources &amp; context|<details><summary>Sources & context/);
  const stub=run("detailContent(F.find(f=>!f.director&&!f.showrunner&&!media(f)?.director))");assert.doesNotMatch(stub.replace(/<details>[\s\S]*?<\/details>/g,''),/Not yet verified/);
 });
+
+test('Five newly connected screen productions appear from their main literary pages',()=>{
+ for(const[group,work,label]of [['stories','wrk:000225','In the Tall Grass'],['stories','wrk:000183','The Life of Chuck'],['books','wrk:000008','The Long Walk'],['stories','wrk:000128','Quicksilver Highway'],['books','wrk:000018','Thinner']]){run(`lang='en';tab=${JSON.stringify(group)}`);const html=run(`detailContent(${group==='books'?'B':'S'}.find(w=>w.canonicalId===${JSON.stringify(work)}))`);assert.match(html,new RegExp(label));assert.match(html,/Explore connections/);}
+ run("tab='films';lang='en'");assert.match(run("detailContent(F.find(f=>f.canonicalId==='adp:000091'))"),/Chattery Teeth/);assert.doesNotMatch(run("detailContent(F.find(f=>f.canonicalId==='adp:000049'))"),/The Eyes of the Dragon/);
+});
