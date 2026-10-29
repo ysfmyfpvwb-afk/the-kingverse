@@ -130,7 +130,7 @@ test('Shining and Misery profiles have sourced introductions, direct book links 
  assert.deepEqual(index('chr:000013').connections.map(c=>c.target.id),['wrk:000005','wrk:000051']);assert.equal(index('loc:000006').connections.length,1);
 });
 
-test('Eight film reading introductions share main-site copy and retain film-specific source proof',()=>{
+test('Reviewed film reading introductions share main-site copy and retain film-specific source proof',()=>{
  for(const e of require('../data/completion-b/review.json').enrichments.filter(e=>e.subject.type==='adaptation')){const p=index(e.subject.id);assert.equal(p.node.description,e.value.en);assert.ok(p.node.evidence.some(c=>c.fieldPath==='/summary'&&c.selected&&c.status==='verified'));assert.doesNotMatch(p.node.description,/A film in The Kingverse|production uncertainties/);for(const c of p.node.evidence.filter(c=>c.fieldPath==='/summary'&&c.selected))assert.ok(c.sourceIds.every(id=>p.sources.some(s=>s.id===id)));}
  assert.doesNotMatch(index('adp:000070').node.description,/Stanley Kubrick/);assert.match(index('adp:000048').node.description,/Oregon/);assert.doesNotMatch(index('adp:000048').node.description,/Maine/);
 });
@@ -163,4 +163,9 @@ test('Just After Sunset descriptions retain collection covers and original-publi
 test('Skeleton Crew additions preserve story memberships and separate modern edition dates from the original collection',()=>{
  for(const n of [96,97,98,99,100,101,102,105,115]){const p=index('wrk:'+String(n).padStart(6,'0'));assert.ok(p.node.description.length>80);assert.ok(p.node.evidence.some(c=>c.fieldPath==='/summary'&&c.selected&&c.status==='verified'));assert.ok(p.sections.memberships.items.some(m=>m.target.id==='col:000004'));}
  for(const[id,isbn,date]of [['edn:000170','9781501143502','2016-12-06'],['edn:000171','9781668207741','2025-02-25']]){const p=index(id);assert.equal(p.parent.id,'col:000004');assert.equal(p.node.data.isbn13,isbn);assert.equal(p.node.data.publicationDate.value,date);assert.equal(p.node.data.publicationDate.meaning,'edition-publication');assert.ok(!index('col:000004').publicationDates.some(d=>d.value===date));}assert.doesNotMatch(index('wrk:000096').node.description,/suicide|kills his son|shoots|ending/);
+});
+
+test('Remake-specific summaries preserve cast, uncertain source links and default spoiler boundaries',()=>{
+ for(const[id,cast]of [['adp:000004','Sissy Spacek'],['adp:000057','Angela Bettis'],['adp:000083','Chloë Grace Moretz'],['adp:000068','David Soul'],['adp:000069','Rob Lowe'],['adp:000072','Ruby Dee'],['adp:000073','Whoopi Goldberg']])assert.ok(index(id).node.description.includes(cast));
+ for(const id of ['adp:000072','adp:000073'])assert.doesNotMatch(index(id).node.description,/Randall Flagg/);assert.doesNotMatch(index('adp:000038').node.description,/Ludlow|Gage.*dies|Ellie.*dies/);assert.doesNotMatch(index('adp:000039').node.description,/Ludlow|Gage.*dies|Ellie.*dies/);
 });

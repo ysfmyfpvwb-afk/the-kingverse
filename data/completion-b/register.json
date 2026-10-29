@@ -1151,6 +1151,21 @@
     "claim/skeleton-tie-in/publisher": "clm:009069",
     "claim/skeleton-tie-in/publicationDate": "clm:009070",
     "claim/skeleton-tie-in/format": "clm:009071",
-    "claim/skeleton-tie-in/identityStatus": "clm:009072"
+    "claim/skeleton-tie-in/identityStatus": "clm:009072",
+    "claim/film-intro-adp-000004": "clm:009073",
+    "claim/film-intro-adp-000008": "clm:009074",
+    "claim/film-intro-adp-000014": "clm:009075",
+    "claim/film-intro-adp-000033": "clm:009076",
+    "claim/film-intro-adp-000038": "clm:009077",
+    "claim/film-intro-adp-000039": "clm:009078",
+    "claim/film-intro-adp-000043": "clm:009079",
+    "claim/film-intro-adp-000050": "clm:009080",
+    "claim/film-intro-adp-000057": "clm:009081",
+    "claim/film-intro-adp-000065": "clm:009082",
+    "claim/film-intro-adp-000068": "clm:009083",
+    "claim/film-intro-adp-000069": "clm:009084",
+    "claim/film-intro-adp-000072": "clm:009085",
+    "claim/film-intro-adp-000073": "clm:009086",
+    "claim/film-intro-adp-000083": "clm:009087"
   }
 }
