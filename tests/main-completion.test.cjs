@@ -175,3 +175,7 @@ test('Short-work context links are visible from main story and novel details',()
 test('Three further Scribner paperbacks show correct edition metadata on existing main book pages',()=>{
  run("tab='books';lang='en'");for(const [work,isbn,date]of [['wrk:000009','9781668094754','2025-08-05'],['wrk:000010','9781501192319','2018-12-11'],['wrk:000015','9781668075784','2024-09-03']]){const row=run(`B.find(b=>b.canonicalId===${JSON.stringify(work)})`),html=run(`detailContent(B.find(b=>b.canonicalId===${JSON.stringify(work)}))`);assert.match(html,new RegExp(isbn));assert.match(html,new RegExp(date));assert.match(html,/Scribner/);assert.notEqual(row.Jaar,+date.slice(0,4));}
 });
+
+test('Six bibliographic short-work introductions are readable without claiming an unavailable plot',()=>{
+ run("tab='stories';lang='en'");for(const n of [218,221,228,231,236,239]){const id='wrk:'+String(n).padStart(6,'0'),row=run(`S.find(s=>s.canonicalId===${JSON.stringify(id)})`),html=run(`detailContent(S.find(s=>s.canonicalId===${JSON.stringify(id)}))`);assert.ok(row.summary.en.length>60);assert.ok(html.includes(row.summary.en.replaceAll('&','&amp;').replaceAll("'",'&#39;')));assert.match(html,/Sources & context/);}assert.match(run("S.find(s=>s.canonicalId==='wrk:000221').summary.en"),/May 15, 2026/);assert.match(run("S.find(s=>s.canonicalId==='wrk:000239').summary.en"),/Ploughshares/);
+});

@@ -1446,6 +1446,12 @@
     "claim/christine-paperback/publisher": "clm:009330",
     "claim/christine-paperback/publicationDate": "clm:009331",
     "claim/christine-paperback/format": "clm:009332",
-    "claim/christine-paperback/identityStatus": "clm:009333"
+    "claim/christine-paperback/identityStatus": "clm:009333",
+    "claim/book-intro-wrk-000218": "clm:009334",
+    "claim/book-intro-wrk-000221": "clm:009335",
+    "claim/book-intro-wrk-000228": "clm:009336",
+    "claim/book-intro-wrk-000231": "clm:009337",
+    "claim/book-intro-wrk-000236": "clm:009338",
+    "claim/book-intro-wrk-000239": "clm:009339"
   }
 }

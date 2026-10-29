@@ -4516,6 +4516,78 @@
         "ISBN13",
         "edition publication date"
       ]
+    },
+    {
+      "key": "book-intro-wrk-000218-source",
+      "url": "https://stephenking.com/works/short/blue-air-compressor.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Official Notes / Available In / Characters section. Bibliographic reading context or explicitly listed relationships only; no unavailable plot synopsis invented.",
+      "checkedFields": [
+        "original English bibliographic reading context or explicitly listed character relationships"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000221-source",
+      "url": "https://stephenking.com/works/short/dinahs-hat.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Official Notes / Available In / Characters section. Bibliographic reading context or explicitly listed relationships only; no unavailable plot synopsis invented.",
+      "checkedFields": [
+        "original English bibliographic reading context or explicitly listed character relationships"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000228-source",
+      "url": "https://stephenking.com/works/short/man-with-a-belly.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Official Notes / Available In / Characters section. Bibliographic reading context or explicitly listed relationships only; no unavailable plot synopsis invented.",
+      "checkedFields": [
+        "original English bibliographic reading context or explicitly listed character relationships"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000231-source",
+      "url": "https://stephenking.com/works/short/night-of-the-tiger.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Official Notes / Available In / Characters section. Bibliographic reading context or explicitly listed relationships only; no unavailable plot synopsis invented.",
+      "checkedFields": [
+        "original English bibliographic reading context or explicitly listed character relationships"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000236-source",
+      "url": "https://stephenking.com/works/short/something-to-tide-you-over.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Official Notes / Available In / Characters section. Bibliographic reading context or explicitly listed relationships only; no unavailable plot synopsis invented.",
+      "checkedFields": [
+        "original English bibliographic reading context or explicitly listed character relationships"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000239-source",
+      "url": "https://stephenking.com/works/short/thin-scenery.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Official Notes / Available In / Characters section. Bibliographic reading context or explicitly listed relationships only; no unavailable plot synopsis invented.",
+      "checkedFields": [
+        "original English bibliographic reading context or explicitly listed character relationships"
+      ]
     }
   ],
   "records": [
@@ -16279,6 +16351,144 @@
       },
       "locator": "Official work description, opening situation only; independently worded visitor introduction.",
       "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000218",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000218"
+      },
+      "field": "summary",
+      "value": {
+        "en": "This short story appears in Shining in the Dark, an anthology published in March 2018. The anthology offers a place to find the work alongside fiction by other contributors."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000218-source"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000218"
+        ]
+      },
+      "locator": "Official Notes / Available In / Characters section. Bibliographic reading context or explicitly listed relationships only; no unavailable plot synopsis invented.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced. Bibliographic context is used where the official page has no synopsis. Publication appearances are not promoted to first-publication dates."
+    },
+    {
+      "key": "book-intro-wrk-000221",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000221"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Published in The Atlantic's June 2026 issue, this story appeared online on May 15, 2026. It is one of King's magazine contributions outside his principal story collections."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000221-source"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000221"
+        ]
+      },
+      "locator": "Official Notes / Available In / Characters section. Bibliographic reading context or explicitly listed relationships only; no unavailable plot synopsis invented.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced. Bibliographic context is used where the official page has no synopsis. Publication appearances are not promoted to first-publication dates."
+    },
+    {
+      "key": "book-intro-wrk-000228",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000228"
+      },
+      "field": "summary",
+      "value": {
+        "en": "A magazine story published in Cavalier in December 1978 and Gent in November–December 1979. It also appears in the 2017 anthology Killer Crimes, providing another place to find the work."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000228-source"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000228"
+        ]
+      },
+      "locator": "Official Notes / Available In / Characters section. Bibliographic reading context or explicitly listed relationships only; no unavailable plot synopsis invented.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced. Bibliographic context is used where the official page has no synopsis. Publication appearances are not promoted to first-publication dates."
+    },
+    {
+      "key": "book-intro-wrk-000231",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000231"
+      },
+      "field": "summary",
+      "value": {
+        "en": "This short story is included in More Tales of Unknown Horror, an anthology published in 1979. Readers can find it there as one of King's contributions to a volume shared with other writers."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000231-source"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000231"
+        ]
+      },
+      "locator": "Official Notes / Available In / Characters section. Bibliographic reading context or explicitly listed relationships only; no unavailable plot synopsis invented.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced. Bibliographic context is used where the official page has no synopsis. Publication appearances are not promoted to first-publication dates."
+    },
+    {
+      "key": "book-intro-wrk-000236",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000236"
+      },
+      "field": "summary",
+      "value": {
+        "en": "A marriage and an affair connect Richard Vickers, his wife and Harry Wentworth. These three characters form the centre of a story whose title offers an ominous suggestion of what may lie ahead."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000236-source"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000236"
+        ]
+      },
+      "locator": "Official Notes / Available In / Characters section. Bibliographic reading context or explicitly listed relationships only; no unavailable plot synopsis invented.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced. Bibliographic context is used where the official page has no synopsis. Publication appearances are not promoted to first-publication dates."
+    },
+    {
+      "key": "book-intro-wrk-000239",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000239"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Published in the Summer 2017 issue of Ploughshares, this work appears in volume 43, number 2. Its magazine publication offers a place to read it outside King's principal collections."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000239-source"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000239"
+        ]
+      },
+      "locator": "Official Notes / Available In / Characters section. Bibliographic reading context or explicitly listed relationships only; no unavailable plot synopsis invented.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced. Bibliographic context is used where the official page has no synopsis. Publication appearances are not promoted to first-publication dates."
     }
   ]
 }
