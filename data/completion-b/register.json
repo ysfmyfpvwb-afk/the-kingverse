@@ -1790,6 +1790,26 @@
     "claim/darker-hardcover/publisher": "clm:009604",
     "claim/darker-hardcover/publicationDate": "clm:009605",
     "claim/darker-hardcover/format": "clm:009606",
-    "claim/darker-hardcover/identityStatus": "clm:009607"
+    "claim/darker-hardcover/identityStatus": "clm:009607",
+    "source/hearts-atlantis-paperback-publisher": "src:000593",
+    "edition/hearts-atlantis-paperback": "edn:000189",
+    "claim/hearts-atlantis-paperback/publicationOf": "clm:009608",
+    "claim/hearts-atlantis-paperback/language": "clm:009609",
+    "claim/hearts-atlantis-paperback/title": "clm:009610",
+    "claim/hearts-atlantis-paperback/isbn13": "clm:009611",
+    "claim/hearts-atlantis-paperback/publisher": "clm:009612",
+    "claim/hearts-atlantis-paperback/publicationDate": "clm:009613",
+    "claim/hearts-atlantis-paperback/format": "clm:009614",
+    "claim/hearts-atlantis-paperback/identityStatus": "clm:009615",
+    "source/full-dark-paperback-publisher": "src:000594",
+    "edition/full-dark-paperback": "edn:000190",
+    "claim/full-dark-paperback/publicationOf": "clm:009616",
+    "claim/full-dark-paperback/language": "clm:009617",
+    "claim/full-dark-paperback/title": "clm:009618",
+    "claim/full-dark-paperback/isbn13": "clm:009619",
+    "claim/full-dark-paperback/publisher": "clm:009620",
+    "claim/full-dark-paperback/publicationDate": "clm:009621",
+    "claim/full-dark-paperback/format": "clm:009622",
+    "claim/full-dark-paperback/identityStatus": "clm:009623"
   }
 }

@@ -51,7 +51,7 @@ test('Core novel introductions reach the main details without changing editions 
 
 test('New publisher editions render on main pages with edition dates separate from original work years',()=>{
  run("tab='books';lang='en'");const html=run("detailContent(B.find(r=>r.canonicalId==='wrk:000242'))");assert.match(html,/2000/);assert.match(html,/2020-06-02/);assert.match(html,/9781982159375/);assert.match(html,/Scribner/);assert.match(html,/simonandschuster\.com/);
- const misery=run("detailContent(B.find(r=>r.canonicalId==='wrk:000021'))");assert.match(misery,/2016-01-05/);assert.match(misery,/9781501143106/);assert.equal(run("media(B.find(r=>r.canonicalId==='wrk:000021')).image"),run("MEDIA.books.Misery.en.image"));assert.equal(run('DB.editions.length'),188);
+ const misery=run("detailContent(B.find(r=>r.canonicalId==='wrk:000021'))");assert.match(misery,/2016-01-05/);assert.match(misery,/9781501143106/);assert.equal(run("media(B.find(r=>r.canonicalId==='wrk:000021')).image"),run("MEDIA.books.Misery.en.image"));assert.equal(run('DB.editions.length'),190);
 });
 
 test('Visitor connection explanations use readable content while retaining optional source links',()=>{
@@ -228,4 +228,8 @@ test('Three identified collection paperbacks appear on existing main collection 
 
 test('Six further collection editions show publisher metadata without replacing collection contents',()=>{
  run("tab='books';lang='en'");for(const[id,isbn,date]of [['col:000002','9780307947291','2012-08-07'],['col:000008','9781501197963','2018-04-17'],['col:000009','9781501197659','2018-01-23'],['col:000012','9781501197956','2018-03-20'],['col:000013','9781982137977','2020-04-21'],['col:000001','9781668037713','2024-05-21']]){const html=run(`detailContent(B.find(b=>b.canonicalId===${JSON.stringify(id)}))`);assert.match(html,new RegExp(isbn));assert.match(html,new RegExp(date));}const b=run("B.find(b=>b.canonicalId==='col:000001')");assert.equal(run(`S.filter(s=>s.collectionIds?.includes(${JSON.stringify(b.id)})).length`),12);
+});
+
+test('Hearts in Atlantis and Full Dark editions retain their collection reading routes',()=>{
+ run("tab='books';lang='en'");for(const[id,isbn,date]of [['col:000007','9781501195976','2017-11-14'],['col:000011','9781501197949','2018-06-12']]){const html=run(`detailContent(B.find(b=>b.canonicalId===${JSON.stringify(id)}))`);assert.match(html,new RegExp(isbn));assert.match(html,new RegExp(date));assert.match(html,/Stories in this collection/);}
 });

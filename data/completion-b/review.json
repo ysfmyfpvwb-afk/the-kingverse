@@ -5189,6 +5189,40 @@
         "ISBN13",
         "edition publication date"
       ]
+    },
+    {
+      "key": "hearts-atlantis-paperback-publisher",
+      "url": "https://www.simonandschuster.com/books/Hearts-in-Atlantis/Stephen-King/9781501195976",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. Reissue date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "full-dark-paperback-publisher",
+      "url": "https://www.simonandschuster.com/books/Full-Dark-No-Stars/Stephen-King/9781501197949",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. Reissue date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
     }
   ],
   "records": [
@@ -10662,6 +10696,64 @@
       "open": [
         "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned.",
         "Current publisher marketing for the 2025 paperback ISBN 9781668037720 advertises The Music Room as a bonus. Exact printing scope is not established here; this does not add that story to the original twelve-story collection or assign it a 2024 cover."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "hearts-atlantis-paperback",
+      "entityType": "edition",
+      "checked": "2026-10-29",
+      "publicationOf": {
+        "type": "collection",
+        "id": "col:000007"
+      },
+      "language": "en",
+      "title": "Hearts in Atlantis",
+      "isbn13": "9781501195976",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2017-11-14",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Trade Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "hearts-atlantis-paperback-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "full-dark-paperback",
+      "entityType": "edition",
+      "checked": "2026-10-29",
+      "publicationOf": {
+        "type": "collection",
+        "id": "col:000011"
+      },
+      "language": "en",
+      "title": "Full Dark, No Stars",
+      "isbn13": "9781501197949",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2018-06-12",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Trade Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "full-dark-paperback-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
       ],
       "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
     }

@@ -1192,6 +1192,10 @@
     "explorer/pilot/data/edn-000187/plot.json",
     "explorer/pilot/data/edn-000188/index.json",
     "explorer/pilot/data/edn-000188/plot.json",
+    "explorer/pilot/data/edn-000189/index.json",
+    "explorer/pilot/data/edn-000189/plot.json",
+    "explorer/pilot/data/edn-000190/index.json",
+    "explorer/pilot/data/edn-000190/plot.json",
     "explorer/pilot/data/adp-000001/details.json",
     "explorer/pilot/data/adp-000001/index.json",
     "explorer/pilot/data/adp-000001/plot.json",
@@ -1744,9 +1748,9 @@
     "explorer/pilot/data/chr-000008/plot.json",
     "explorer/pilot/data/loc-000002/index.json",
     "explorer/pilot/data/loc-000002/plot.json",
-    "explorer/pilot/search.aa548c08b762.json",
+    "explorer/pilot/search.f245b06a129c.json",
     "explorer/pilot/details.a489934be3d5.js",
-    "explorer/pilot/pilot.21628d59395e.js",
+    "explorer/pilot/pilot.67ee02869329.js",
     "explorer/pilot/pilot.ef2564796a88.css",
     "explorer/pilot/index.html"
   ]
