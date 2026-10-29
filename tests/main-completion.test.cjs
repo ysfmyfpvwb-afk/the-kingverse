@@ -190,3 +190,8 @@ test('Five newly connected screen productions appear from their main literary pa
  for(const[group,work,label]of [['stories','wrk:000225','In the Tall Grass'],['stories','wrk:000183','The Life of Chuck'],['books','wrk:000008','The Long Walk'],['stories','wrk:000128','Quicksilver Highway'],['books','wrk:000018','Thinner']]){run(`lang='en';tab=${JSON.stringify(group)}`);const html=run(`detailContent(${group==='books'?'B':'S'}.find(w=>w.canonicalId===${JSON.stringify(work)}))`);assert.match(html,new RegExp(label));assert.match(html,/Explore connections/);}
  run("tab='films';lang='en'");assert.match(run("detailContent(F.find(f=>f.canonicalId==='adp:000091'))"),/Chattery Teeth/);assert.doesNotMatch(run("detailContent(F.find(f=>f.canonicalId==='adp:000049'))"),/The Eyes of the Dragon/);
 });
+
+test('Four core screen adaptations navigate to the precise novel or novella on main pages',()=>{
+ for(const[group,id,label]of [['books','wrk:000031','The Green Mile'],['books','wrk:000005','The Shining'],['stories','wrk:000118','The Langoliers'],['stories','wrk:000177','1922']]){run(`lang='en';tab=${JSON.stringify(group)}`);const html=run(`detailContent(${group==='books'?'B':'S'}.find(r=>r.canonicalId===${JSON.stringify(id)}))`);assert.match(html,new RegExp(label));assert.match(html,/Explore connections/);}
+ run("tab='films';lang='en'");const l=run("detailContent(F.find(f=>f.canonicalId==='adp:000063'))"),n=run("detailContent(F.find(f=>f.canonicalId==='adp:000051'))");assert.match(l,/novella collected in Four Past Midnight/);assert.match(n,/novella collected in Full Dark, No Stars/);
+});

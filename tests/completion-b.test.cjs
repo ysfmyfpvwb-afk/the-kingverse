@@ -5,7 +5,7 @@ const {extendCompletionB,validateCompletionB}=require('../scripts/completion_b.c
 const base=loadCompletion(),before=structuredClone(base),bundle=extendCompletionB(base);
 test('Bounded B additions preserve every prior identity, record, alias and manifest',()=>{
  assert.deepEqual(base,before);assert.deepEqual(validateCompletionB(bundle,base),[]);
- assert.equal(bundle.characters.length-base.characters.length,13);assert.equal(bundle.locations.length-base.locations.length,4);assert.equal(bundle.series.length-base.series.length,4);assert.equal(bundle.adaptations.length-base.adaptations.length,15);assert.equal(bundle.connections.length-base.connections.length,80);
+ assert.equal(bundle.characters.length-base.characters.length,13);assert.equal(bundle.locations.length-base.locations.length,4);assert.equal(bundle.series.length-base.series.length,4);assert.equal(bundle.adaptations.length-base.adaptations.length,15);assert.equal(bundle.connections.length-base.connections.length,84);
  assert.throws(()=>extendCompletionB(bundle),/collision|already exists/);
 });
 test('The Hodges sequence links exactly the three existing novels with supported positions',()=>{
@@ -209,4 +209,9 @@ test('All current screen entries have sourced introductions while five unconfirm
 test('Five direct screen relationships bind the reviewed story or novel, including Bachman and anthology scope',()=>{
  for(const[adp,work,title]of [['adp:000025','wrk:000225','In the Tall Grass'],['adp:000028','wrk:000183','The Life of Chuck'],['adp:000029','wrk:000008','The Long Walk'],['adp:000091','wrk:000128','Chattery Teeth'],['adp:000049','wrk:000018','Thinner']]){assert.equal(bundle.works.find(w=>w.id===work).originalTitle,title);const edges=bundle.connections.filter(c=>c.from.id===adp&&c.to.id===work&&c.predicate==='adaptation_of');assert.equal(edges.length,1);assert.equal(edges[0].certainty,'explicit');assert.equal(edges[0].spoiler.level,'none');assert.ok(bundle.claims.some(c=>c.subject.id===edges[0].id&&c.fieldPath==='/to'&&c.selected&&c.status==='verified'));}
  assert.ok(!bundle.connections.some(c=>c.from.id==='adp:000049'&&c.to.id==='wrk:000020'));assert.equal(bundle.works.length,250);assert.equal(bundle.adaptations.length,111);
+});
+
+test('Four core screen links reuse exact literary identities and retain film-specific evidence',()=>{
+ for(const[a,w,title]of [['adp:000023','wrk:000031','The Green Mile'],['adp:000046','wrk:000005','The Shining'],['adp:000063','wrk:000118','The Langoliers'],['adp:000051','wrk:000177','1922']]){assert.equal(bundle.works.find(r=>r.id===w).originalTitle,title);const links=bundle.connections.filter(c=>c.from.id===a&&c.to.id===w&&c.predicate==='adaptation_of');assert.equal(links.length,1);assert.equal(links[0].spoiler.level,'none');assert.equal(links[0].certainty,'explicit');const claim=bundle.claims.find(c=>c.subject.id===links[0].id&&c.fieldPath==='/to'&&c.selected);assert.ok(claim.sourceIds.length>=2);}
+ assert.ok(!bundle.connections.some(c=>c.from.id==='adp:000063'&&c.to.type==='collection'));assert.ok(!bundle.connections.some(c=>c.from.id==='adp:000051'&&c.to.type==='collection'));
 });

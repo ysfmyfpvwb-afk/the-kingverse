@@ -4713,6 +4713,58 @@
         "production identity",
         "literary source relationship"
       ]
+    },
+    {
+      "key": "green-mile-source-evidence",
+      "url": "https://stephenking.com/works/movie/green-mile.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Exact production-specific description explicitly identifies the adapted novel, novella, story or anthology contribution. No plot outcomes, ratings, copied synopsis or images imported.",
+      "checkedFields": [
+        "production identity",
+        "literary source relationship"
+      ]
+    },
+    {
+      "key": "shining-kubrick-source-evidence",
+      "url": "https://stephenking.com/works/movie/shining.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Exact production-specific description explicitly identifies the adapted novel, novella, story or anthology contribution. No plot outcomes, ratings, copied synopsis or images imported.",
+      "checkedFields": [
+        "production identity",
+        "literary source relationship"
+      ]
+    },
+    {
+      "key": "langoliers-novella-source-evidence",
+      "url": "https://www.simonandschuster.com/books/The-Langoliers/Stephen-King/9781982136055",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-production",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Exact production-specific description explicitly identifies the adapted novel, novella, story or anthology contribution. No plot outcomes, ratings, copied synopsis or images imported.",
+      "checkedFields": [
+        "production identity",
+        "literary source relationship"
+      ]
+    },
+    {
+      "key": "1922-novella-source-evidence",
+      "url": "https://media.netflix.com/en/only-on-netflix/80135164",
+      "publisher": "Netflix Media Center",
+      "sourceType": "official-production",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Exact production-specific description explicitly identifies the adapted novel, novella, story or anthology contribution. No plot outcomes, ratings, copied synopsis or images imported.",
+      "checkedFields": [
+        "production identity",
+        "literary source relationship"
+      ]
     }
   ],
   "records": [
@@ -9207,6 +9259,114 @@
         "thinner-novel-source-evidence"
       ],
       "note": "Manually matched existing production and literary work IDs. Direct adaptation evidence only; collection context is not promoted to a whole-collection adaptation. Richard Bachman remains a pseudonym of Stephen King."
+    },
+    {
+      "key": "green-mile-source",
+      "entityType": "connection",
+      "checked": "2026-10-29",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000023"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000031"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The Green Mile brings King’s serial novel to the screen."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "green-mile-source-evidence",
+        "book-intro-000031-source"
+      ],
+      "note": "Manually matched existing production and literary work IDs. Direct adaptation evidence only; collection context is not promoted to a whole-collection adaptation. Richard Bachman remains a pseudonym of Stephen King. Production and literary identities are manually checked against the official work/film pages or the publisher’s explicit miniseries description. No character events are transferred between versions."
+    },
+    {
+      "key": "shining-kubrick-source",
+      "entityType": "connection",
+      "checked": "2026-10-29",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000046"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000005"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Stanley Kubrick’s film adapts The Shining; the novel and screen version have their own details."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "shining-kubrick-source-evidence",
+        "book-intro-000005-source"
+      ],
+      "note": "Manually matched existing production and literary work IDs. Direct adaptation evidence only; collection context is not promoted to a whole-collection adaptation. Richard Bachman remains a pseudonym of Stephen King. Production and literary identities are manually checked against the official work/film pages or the publisher’s explicit miniseries description. No character events are transferred between versions."
+    },
+    {
+      "key": "langoliers-novella-source",
+      "entityType": "connection",
+      "checked": "2026-10-29",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000063"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000118"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The miniseries adapts The Langoliers, the novella collected in Four Past Midnight."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "langoliers-novella-source-evidence",
+        "film-intro-adp-000063-source"
+      ],
+      "note": "Manually matched existing production and literary work IDs. Direct adaptation evidence only; collection context is not promoted to a whole-collection adaptation. Richard Bachman remains a pseudonym of Stephen King. Production and literary identities are manually checked against the official work/film pages or the publisher’s explicit miniseries description. No character events are transferred between versions."
+    },
+    {
+      "key": "1922-novella-source",
+      "entityType": "connection",
+      "checked": "2026-10-29",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000051"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000177"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The film adapts 1922, the novella collected in Full Dark, No Stars."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "1922-novella-source-evidence",
+        "film-intro-adp-000051-source"
+      ],
+      "note": "Manually matched existing production and literary work IDs. Direct adaptation evidence only; collection context is not promoted to a whole-collection adaptation. Richard Bachman remains a pseudonym of Stephen King. Production and literary identities are manually checked against the official work/film pages or the publisher’s explicit miniseries description. No character events are transferred between versions."
     }
   ],
   "deferred": [
