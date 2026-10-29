@@ -4854,6 +4854,58 @@
         "specific production identity",
         "credited literary source"
       ]
+    },
+    {
+      "key": "needful-afi-source-credits",
+      "url": "https://catalog.afi.com/Catalog/moviedetails/59615",
+      "publisher": "American Film Institute",
+      "sourceType": "reference",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "SOURCES / LITERARY transcribes the credited novel or novella; title, year, cast and director identify the production. Literary citation dates, synopsis and other credits are not imported.",
+      "checkedFields": [
+        "specific production identity",
+        "credited literary source"
+      ]
+    },
+    {
+      "key": "graveyard-afi-source-credits",
+      "url": "https://catalog.afi.com/Catalog/MovieDetails/58526",
+      "publisher": "American Film Institute",
+      "sourceType": "reference",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "SOURCES / LITERARY transcribes the credited novel or novella; title, year, cast and director identify the production. Literary citation dates, synopsis and other credits are not imported. Literary credit was visible in the indexed AFI record; the direct page fetch timed out during this check. No technical availability or complete-record certification is asserted.",
+      "checkedFields": [
+        "specific production identity",
+        "credited literary source"
+      ]
+    },
+    {
+      "key": "dreamcatcher-afi-source-credits",
+      "url": "https://catalog.afi.com/Film/62706-DREAMCATCHER",
+      "publisher": "American Film Institute",
+      "sourceType": "reference",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "SOURCES / LITERARY transcribes the credited novel or novella; title, year, cast and director identify the production. Literary citation dates, synopsis and other credits are not imported.",
+      "checkedFields": [
+        "specific production identity",
+        "credited literary source"
+      ]
+    },
+    {
+      "key": "secret-window-afi-source-credits",
+      "url": "https://catalog.afi.com/Film/63214-SECRET-WINDOW?cxt=filmography",
+      "publisher": "American Film Institute",
+      "sourceType": "reference",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "SOURCES / LITERARY transcribes the credited novel or novella; title, year, cast and director identify the production. Literary citation dates, synopsis and other credits are not imported.",
+      "checkedFields": [
+        "specific production identity",
+        "credited literary source"
+      ]
     }
   ],
   "records": [
@@ -9685,6 +9737,114 @@
         "film-intro-adp-000017-source"
       ],
       "note": "AFI literary credit corroborates the official production page. Existing opaque IDs are manually reused; no collection-wide adaptation, plot outcome or release-date change. AFI’s literary citation reports 1993 for the novel; that citation year is not adopted as first publication or edition date."
+    },
+    {
+      "key": "needful-afi-source",
+      "entityType": "connection",
+      "checked": "2026-10-29",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000036"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000026"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The film adapts King’s novel Needful Things."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "needful-afi-source-credits",
+        "film-intro-adp-000036-source"
+      ],
+      "note": "AFI literary credit corroborates the official production page. Existing opaque IDs are manually reused; no collection-wide adaptation, plot outcome or release-date change."
+    },
+    {
+      "key": "graveyard-afi-source",
+      "entityType": "connection",
+      "checked": "2026-10-29",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000022"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000073"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The film adapts Graveyard Shift, the short story collected in Night Shift."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "graveyard-afi-source-credits",
+        "film-intro-adp-000022-source"
+      ],
+      "note": "AFI literary credit corroborates the official production page. Existing opaque IDs are manually reused; no collection-wide adaptation, plot outcome or release-date change."
+    },
+    {
+      "key": "dreamcatcher-afi-source",
+      "entityType": "connection",
+      "checked": "2026-10-29",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000018"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000037"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The film adapts King’s novel Dreamcatcher."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "dreamcatcher-afi-source-credits",
+        "film-intro-adp-000018-source"
+      ],
+      "note": "AFI literary credit corroborates the official production page. Existing opaque IDs are manually reused; no collection-wide adaptation, plot outcome or release-date change."
+    },
+    {
+      "key": "secret-window-afi-source",
+      "entityType": "connection",
+      "checked": "2026-10-29",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000044"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000119"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Secret Window adapts the novella Secret Window, Secret Garden, collected in Four Past Midnight."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "secret-window-afi-source-credits",
+        "film-intro-adp-000044-source"
+      ],
+      "note": "AFI literary credit corroborates the official production page. Existing opaque IDs are manually reused; no collection-wide adaptation, plot outcome or release-date change."
     }
   ],
   "deferred": [

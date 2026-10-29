@@ -204,3 +204,7 @@ test('Four further AFI-confirmed films link back from main books and novella',()
  for(const[group,id,label]of [['books','wrk:000015','Christine'],['stories','wrk:000093','Apt Pupil'],['books','wrk:000024','The Dark Half'],['books','wrk:000028','Dolores Claiborne']]){run(`lang='en';tab=${JSON.stringify(group)}`);const html=run(`detailContent(${group==='books'?'B':'S'}.find(w=>w.canonicalId===${JSON.stringify(id)}))`);assert.match(html,new RegExp(label));assert.match(html,/Explore connections/);}
  run("tab='films';lang='en'");assert.match(run("detailContent(F.find(f=>f.canonicalId==='adp:000002'))"),/novella of the same name, collected in Different Seasons/);
 });
+
+test('Secret Window and Graveyard Shift point to individual stories while new novel links stay navigable',()=>{
+ run("tab='films';lang='en'");assert.match(run("detailContent(F.find(f=>f.canonicalId==='adp:000044'))"),/Secret Window, Secret Garden, collected in Four Past Midnight/);assert.match(run("detailContent(F.find(f=>f.canonicalId==='adp:000022'))"),/short story collected in Night Shift/);run("tab='stories';lang='en'");assert.match(run("detailContent(S.find(s=>s.canonicalId==='wrk:000119'))"),/Secret Window adapts/);run("tab='books';lang='en'");for(const id of ['wrk:000026','wrk:000037'])assert.match(run(`detailContent(B.find(b=>b.canonicalId===${JSON.stringify(id)}))`),/Explore connections/);
+});
