@@ -151,7 +151,7 @@ test('Hearts character pages link both ways to the correct stories while keeping
 });
 
 test('Recent story introductions keep collection membership, selected evidence and spoiler-safe Cujo links',()=>{
- for(const n of [186,188,189,191,192,194,195,196,197]){const p=index('wrk:'+String(n).padStart(6,'0'));assert.ok(p.node.description.length>80);assert.ok(p.sections.memberships.items.some(m=>m.target.id==='col:000001'));assert.ok(p.node.evidence.some(c=>c.fieldPath==='/summary'&&c.selected&&c.status==='verified'));}
+ for(const n of [186,187,188,189,190,191,192,193,194,195,196,197]){const p=index('wrk:'+String(n).padStart(6,'0'));assert.ok(p.node.description.length>80);assert.ok(p.sections.memberships.items.some(m=>m.target.id==='col:000001'));assert.ok(p.node.evidence.some(c=>c.fieldPath==='/summary'&&c.selected&&c.status==='verified'));}
  const r=index('wrk:000195');assert.ok(r.connections.some(c=>c.predicate==='sequel_to'&&c.target.id==='wrk:000012'));assert.doesNotMatch(r.node.description,/Vic|Tad|Donna/);
 });
 

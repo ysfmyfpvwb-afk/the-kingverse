@@ -125,8 +125,8 @@ test('Hearts story introductions and recurring-character links appear on main pa
  assert.notEqual(run("S.find(s=>s.canonicalId==='wrk:000146').summary.en"),run("B.find(b=>b.canonicalId==='col:000007').summary.en"));
 });
 
-test('Nine You Like It Darker stories have reading introductions and retain the existing Cujo continuation link',()=>{
- run("tab='stories';lang='en'");for(const n of [186,188,189,191,192,194,195,196,197]){const id='wrk:'+String(n).padStart(6,'0'),row=run(`S.find(s=>s.canonicalId===${JSON.stringify(id)})`),html=run(`detailContent(S.find(s=>s.canonicalId===${JSON.stringify(id)}))`);assert.ok(row);assert.ok(html.includes(row.summary.en.replaceAll('&','&amp;').replaceAll("'",'&#39;')));assert.match(html,/You Like It Darker/);}
+test('All twelve You Like It Darker stories have reading introductions and retain the existing Cujo continuation link',()=>{
+ run("tab='stories';lang='en'");for(const n of [186,187,188,189,190,191,192,193,194,195,196,197]){const id='wrk:'+String(n).padStart(6,'0'),row=run(`S.find(s=>s.canonicalId===${JSON.stringify(id)})`),html=run(`detailContent(S.find(s=>s.canonicalId===${JSON.stringify(id)}))`);assert.ok(row);assert.ok(html.includes(row.summary.en.replaceAll('&','&amp;').replaceAll("'",'&#39;')));assert.match(html,/You Like It Darker/);}
  const html=run("detailContent(S.find(s=>s.canonicalId==='wrk:000195'))");assert.match(html,/sequel to Cujo/);assert.doesNotMatch(run("S.find(s=>s.canonicalId==='wrk:000195').summary.en"),/Vic|Tad|Donna/);
 });
 

@@ -5223,6 +5223,54 @@
         "ISBN13",
         "edition publication date"
       ]
+    },
+    {
+      "key": "book-intro-wrk-000187-source-0",
+      "url": "https://harpers.org/archive/2020/03/the-fifth-step-stephen-king/",
+      "publisher": "Harper’s Magazine",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Accessible opening excerpt only. Original visitor introduction limited to 24 words; no subscription text, ending or later events used.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000190-source-0",
+      "url": "https://stephenking.com/news/new-short-story-may-25th-2022-734.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Official announcement: Ireland, unlucky young man and mistaken identity. Opening premise only; no ending or production claims.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000193-source-0",
+      "url": "https://www.cemeterydance.com/flight-or-fright.html",
+      "publisher": "Cemetery Dance Publications",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Publisher anthology description: aviation theme, King/Vincent editors and new King contribution. No plot or ending inferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000193-source-1",
+      "url": "https://stephenking.com/works/short/turbulence-expert.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Available In identifies Flight or Fright and You Like It Darker. Collection display date is not treated as the first story publication.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
     }
   ],
   "records": [
@@ -18446,6 +18494,76 @@
       },
       "locator": "Official Characters section: Arthur and Cory’s mission to Venus; Available In names the collection and alien-encounter anthology. No unverified body-horror events imported.",
       "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000187",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000187"
+      },
+      "field": "summary",
+      "value": {
+        "en": "A retiree’s quiet morning in Central Park is interrupted by a stranger asking for help. A brief encounter becomes an unsettling conversation."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000187-source-0"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000187"
+        ]
+      },
+      "locator": "Accessible opening excerpt only. Original visitor introduction limited to 24 words; no subscription text, ending or later events used.",
+      "note": "Only the original visitor introduction is enriched; identities, editions, first publication and collection memberships remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000190",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000190"
+      },
+      "field": "summary",
+      "value": {
+        "en": "An unlucky young man in Ireland finds himself mistaken for someone else. This darkly comic story follows Finn into a situation where other people’s power can turn an ordinary life upside down."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000190-source-0"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000190"
+        ]
+      },
+      "locator": "Official announcement: Ireland, unlucky young man and mistaken identity. Opening premise only; no ending or production claims.",
+      "note": "Only the original visitor introduction is enriched; identities, editions, first publication and collection memberships remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000193",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000193"
+      },
+      "field": "summary",
+      "value": {
+        "en": "A Stephen King story about air travel, contributed to Flight or Fright, the anthology he edited with Bev Vincent. It also appears in You Like It Darker."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000193-source-0",
+        "book-intro-wrk-000193-source-1"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000193"
+        ]
+      },
+      "locator": "Publisher anthology description: aviation theme, King/Vincent editors and new King contribution. No plot or ending inferred. | Available In identifies Flight or Fright and You Like It Darker. Collection display date is not treated as the first story publication.",
+      "note": "Only the original visitor introduction is enriched; identities, editions, first publication and collection memberships remain separately evidenced."
     }
   ]
 }

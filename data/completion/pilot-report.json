@@ -20,7 +20,7 @@
     "limitBytes": 49152,
     "pageSize": 6,
     "maxEntityBytes": 26630,
-    "medianEntityBytes": 3675,
+    "medianEntityBytes": 3684,
     "maxChunkBytes": 9499,
     "searchBytes": 123352,
     "searchGzipBytes": 13265,
@@ -2851,8 +2851,8 @@
     },
     {
       "file": "data/wrk-000187/index.json",
-      "bytes": 3236,
-      "gzipBytes": 1085
+      "bytes": 3731,
+      "gzipBytes": 1255
     },
     {
       "file": "data/wrk-000187/plot.json",
@@ -2896,8 +2896,8 @@
     },
     {
       "file": "data/wrk-000190/index.json",
-      "bytes": 3210,
-      "gzipBytes": 1078
+      "bytes": 3758,
+      "gzipBytes": 1271
     },
     {
       "file": "data/wrk-000190/plot.json",
@@ -2941,8 +2941,8 @@
     },
     {
       "file": "data/wrk-000193/index.json",
-      "bytes": 3331,
-      "gzipBytes": 1136
+      "bytes": 3843,
+      "gzipBytes": 1292
     },
     {
       "file": "data/wrk-000193/plot.json",
