@@ -4588,6 +4588,66 @@
       "checkedFields": [
         "original English bibliographic reading context or explicitly listed character relationships"
       ]
+    },
+    {
+      "key": "film-intro-adp-000052-source",
+      "url": "https://stephenking.com/works/movie/girl-who-loved-tom-gordon.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Official project listing and announcement wording only; not evidence of current attachment, continuing production or release.",
+      "checkedFields": [
+        "English introduction accurately attributed to the project announcement; release remains unconfirmed"
+      ]
+    },
+    {
+      "key": "film-intro-adp-000053-source",
+      "url": "https://stephenking.com/works/movie/suffer-the-little-children.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Official project listing and announcement wording only; not evidence of current attachment, continuing production or release.",
+      "checkedFields": [
+        "English introduction accurately attributed to the project announcement; release remains unconfirmed"
+      ]
+    },
+    {
+      "key": "film-intro-adp-000087-source",
+      "url": "https://stephenking.com/works/movie/hearts.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Official project listing and announcement wording only; not evidence of current attachment, continuing production or release.",
+      "checkedFields": [
+        "English introduction accurately attributed to the project announcement; release remains unconfirmed"
+      ]
+    },
+    {
+      "key": "film-intro-adp-000090-source",
+      "url": "https://stephenking.com/works/movie/my-pretty-pony.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Official project listing and announcement wording only; not evidence of current attachment, continuing production or release.",
+      "checkedFields": [
+        "English introduction accurately attributed to the project announcement; release remains unconfirmed"
+      ]
+    },
+    {
+      "key": "film-intro-adp-000092-source",
+      "url": "https://stephenking.com/works/television/sleeping-beauties.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Official project listing and announcement wording only; not evidence of current attachment, continuing production or release.",
+      "checkedFields": [
+        "English introduction accurately attributed to the project announcement; release remains unconfirmed"
+      ]
     }
   ],
   "records": [
@@ -16489,6 +16549,111 @@
       },
       "locator": "Official Notes / Available In / Characters section. Bibliographic reading context or explicitly listed relationships only; no unavailable plot synopsis invented.",
       "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced. Bibliographic context is used where the official page has no synopsis. Publication appearances are not promoted to first-publication dates."
+    },
+    {
+      "key": "film-intro-adp-000052",
+      "subject": {
+        "type": "adaptation",
+        "id": "adp:000052"
+      },
+      "field": "summary",
+      "value": {
+        "en": "An announced screen project whose official listing names Lynne Ramsay as director and Village Roadshow Pictures as distributor. A release date remains unconfirmed, so the listing should be read as a project announcement rather than an available film."
+      },
+      "sourceKeys": [
+        "film-intro-adp-000052-source"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": []
+      },
+      "locator": "Official project listing and announcement wording only; not evidence of current attachment, continuing production or release.",
+      "note": "Only the existing production’s generic editorial introduction changes. Identity, title, format, release observations, credits, source/remake relationships, ratings and image binding remain unchanged. Historical announcement details remain explicitly attributed to the listing. Existing unknown status and date conflicts are unchanged; no released status or current production commitment asserted."
+    },
+    {
+      "key": "film-intro-adp-000053",
+      "subject": {
+        "type": "adaptation",
+        "id": "adp:000053"
+      },
+      "field": "summary",
+      "value": {
+        "en": "King's official site lists Suffer the Little Children as a film project without a release date or further production details. Its presence here records the proposed project; it does not establish that a film has been released."
+      },
+      "sourceKeys": [
+        "film-intro-adp-000053-source"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": []
+      },
+      "locator": "Official project listing and announcement wording only; not evidence of current attachment, continuing production or release.",
+      "note": "Only the existing production’s generic editorial introduction changes. Identity, title, format, release observations, credits, source/remake relationships, ratings and image binding remain unchanged. Historical announcement details remain explicitly attributed to the listing. Existing unknown status and date conflicts are unchanged; no released status or current production commitment asserted."
+    },
+    {
+      "key": "film-intro-adp-000087",
+      "subject": {
+        "type": "adaptation",
+        "id": "adp:000087"
+      },
+      "field": "summary",
+      "value": {
+        "en": "The announced project follows college students in 1966, away from home for the first time as war casts a shadow over adulthood. Its original listing names Johannes Roberts and Ernest Riera as writers; a release remains unconfirmed."
+      },
+      "sourceKeys": [
+        "film-intro-adp-000087-source"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": []
+      },
+      "locator": "Official project listing and announcement wording only; not evidence of current attachment, continuing production or release.",
+      "note": "Only the existing production’s generic editorial introduction changes. Identity, title, format, release observations, credits, source/remake relationships, ratings and image binding remain unchanged. Historical announcement details remain explicitly attributed to the listing. Existing unknown status and date conflicts are unchanged; no released status or current production commitment asserted."
+    },
+    {
+      "key": "film-intro-adp-000090",
+      "subject": {
+        "type": "adaptation",
+        "id": "adp:000090"
+      },
+      "field": "summary",
+      "value": {
+        "en": "An announced adaptation about an elderly man giving his grandson a pocket watch and advice about time. The announcement names Luke Jaden, Tobin Bell and Noah Jupe; the production's release details remain uncertain."
+      },
+      "sourceKeys": [
+        "film-intro-adp-000090-source"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": []
+      },
+      "locator": "Official project listing and announcement wording only; not evidence of current attachment, continuing production or release.",
+      "note": "Only the existing production’s generic editorial introduction changes. Identity, title, format, release observations, credits, source/remake relationships, ratings and image binding remain unchanged. Historical announcement details remain explicitly attributed to the listing. Existing unknown status and date conflicts are unchanged; no released status or current production commitment asserted."
+    },
+    {
+      "key": "film-intro-adp-000092",
+      "subject": {
+        "type": "adaptation",
+        "id": "adp:000092"
+      },
+      "field": "summary",
+      "value": {
+        "en": "A television project whose announcement records Anonymous Content's acquisition of the adaptation rights. The official listing supplies neither a broadcaster nor an estimated air date, leaving its release unconfirmed."
+      },
+      "sourceKeys": [
+        "film-intro-adp-000092-source"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": []
+      },
+      "locator": "Official project listing and announcement wording only; not evidence of current attachment, continuing production or release.",
+      "note": "Only the existing production’s generic editorial introduction changes. Identity, title, format, release observations, credits, source/remake relationships, ratings and image binding remain unchanged. Historical announcement details remain explicitly attributed to the listing. Existing unknown status and date conflicts are unchanged; no released status or current production commitment asserted."
     }
   ]
 }

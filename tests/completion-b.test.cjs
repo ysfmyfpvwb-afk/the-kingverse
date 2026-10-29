@@ -144,7 +144,7 @@ test('Shining and Misery profiles preserve literary identities without film even
 });
 
 test('Reviewed core film introductions replace only generic copy on existing productions with selected field evidence',()=>{
- const edits=require('../data/completion-b/review.json').enrichments.filter(e=>e.subject.type==='adaptation');assert.equal(edits.length,91);for(const e of edits){const old=base.adaptations.find(a=>a.id===e.subject.id),a=bundle.adaptations.find(a=>a.id===old.id);assert.deepEqual(a.summary,e.value);assert.deepEqual(a.releaseEvents,old.releaseEvents);assert.deepEqual(a.makerObservations,old.makerObservations);assert.deepEqual(a.ratingObservations,old.ratingObservations);const c=bundle.claims.find(c=>c.subject.id===a.id&&c.fieldPath==='/summary'&&c.selected);assert.equal(c.status,'verified');assert.deepEqual(c.value,a.summary);assert.ok(c.sourceIds.length);}
+ const edits=require('../data/completion-b/review.json').enrichments.filter(e=>e.subject.type==='adaptation');assert.equal(edits.length,96);for(const e of edits){const old=base.adaptations.find(a=>a.id===e.subject.id),a=bundle.adaptations.find(a=>a.id===old.id);assert.deepEqual(a.summary,e.value);assert.deepEqual(a.releaseEvents,old.releaseEvents);assert.deepEqual(a.makerObservations,old.makerObservations);assert.deepEqual(a.ratingObservations,old.ratingObservations);const c=bundle.claims.find(c=>c.subject.id===a.id&&c.fieldPath==='/summary'&&c.selected);assert.equal(c.status,'verified');assert.deepEqual(c.value,a.summary);assert.ok(c.sourceIds.length);}
  const b=structuredClone(bundle);b.adaptations.find(a=>a.id==='adp:000045').summary.en='An invented prison ending';assert.ok(validateCompletionB(b,base).some(e=>e.code==='b-editorial-evidence'));
 });
 
@@ -199,4 +199,9 @@ test('Five identified English reissues preserve all unknown legacy edition and c
 
 test('Five short-work context links preserve identities and avoid invented adaptation chronology',()=>{
  const links=bundle.connections.filter(c=>+c.id.slice(4)>=165);assert.equal(links.length,5);assert.deepEqual(links.map(c=>[c.from.id,c.predicate,c.to.id]),[['wrk:000217','set_in','loc:000006'],['wrk:000217','shared_reference','wrk:000005'],['wrk:000229','shared_reference','wrk:000046'],['wrk:000234','shared_reference','wrk:000023'],['wrk:000237','shared_reference','wrk:000039']]);assert.ok(links.every(c=>c.spoiler.level==='none'&&c.certainty==='explicit'));assert.equal(bundle.works.length,250);assert.equal(bundle.locations.length,6);assert.ok(!links.some(c=>c.predicate==='adaptation_of'||c.predicate==='sequel_to'||c.predicate==='prequel_to'));
+});
+
+test('All current screen entries have sourced introductions while five unconfirmed projects retain unknown status',()=>{
+ const review=require('../data/completion-b/review.json'),reg=require('../data/completion-b/register.json'),introduced=new Set([...review.enrichments.filter(e=>e.subject.type==='adaptation').map(e=>e.subject.id),...review.records.filter(e=>e.entityType==='adaptation').map(e=>reg.allocations['adaptation/'+e.key])]);assert.equal(introduced.size,111);for(const a of bundle.adaptations)assert.ok(introduced.has(a.id)&&a.summary.en.length>60,a.id);
+ for(const n of [52,53,87,90,92]){const id='adp:'+String(n).padStart(6,'0'),a=bundle.adaptations.find(a=>a.id===id),old=base.adaptations.find(a=>a.id===id);assert.equal(a.statusHistory.at(-1).status,'unknown');assert.deepEqual(a.statusHistory,old.statusHistory);assert.deepEqual(a.releaseEvents,old.releaseEvents);assert.match(a.summary.en,/unconfirmed|uncertain|without a release date/);}
 });
