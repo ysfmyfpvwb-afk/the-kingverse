@@ -69,7 +69,7 @@ test('Three same-title Corn productions stay distinct and only confirmed adaptat
 });
 
 test('Reviewed book introductions enrich existing identities with field-scoped evidence only',()=>{
- const review=require('../data/completion-b/review.json'),introductions=review.enrichments.filter(e=>e.subject.type==='work');assert.equal(introductions.length,154);
+ const review=require('../data/completion-b/review.json'),introductions=review.enrichments.filter(e=>e.subject.type==='work');assert.equal(introductions.length,170);
  for(const e of introductions){const old=base.works.find(w=>w.id===e.subject.id),w=bundle.works.find(w=>w.id===old.id);assert.equal(w.summary.en,e.value.en);assert.equal(w.originalTitle,old.originalTitle);const c=bundle.claims.find(c=>c.subject.id===w.id&&c.fieldPath==='/summary'&&c.selected);assert.equal(c.status,'verified');assert.deepEqual(c.value,w.summary);assert.ok(c.sourceIds.every(id=>bundle.sources.find(s=>s.id===id).url.match(/^https:\/\/(stephenking\.com|www\.simonandschuster\.com|www\.penguinrandomhouse\.com|www\.newyorker\.com)\//)));}
  const changed=structuredClone(bundle);changed.works.find(w=>w.id==='wrk:000005').originalTitle='Wrong title';assert.ok(validateCompletionB(changed,base).some(e=>e.code==='b-baseline-record-changed'));
  const unsupported=structuredClone(bundle);unsupported.works.find(w=>w.id==='wrk:000005').summary.en='An invented ending';assert.ok(validateCompletionB(unsupported,base).some(e=>e.code==='b-editorial-evidence'));
@@ -165,4 +165,11 @@ test('Television introductions keep anthology, tie-in authorship and spoiler bou
  assert.match(intro(67),/Eight separate/);assert.match(intro(85),/Ridley Pearson/);assert.match(intro(88),/Lars von Trier/);assert.match(intro(75),/separately from Maximum Overdrive/);
  assert.doesNotMatch(intro(63),/time warp|asleep|sacrifice/);assert.doesNotMatch(intro(77),/Holly|Gibney/);assert.doesNotMatch(intro(81),/Ellen|Sukeena/);assert.doesNotMatch(intro(82),/child|son|daughter/);
  for(const n of [54,67,75,79,85,88]){const id='adp:'+String(n).padStart(6,'0'),a=bundle.adaptations.find(a=>a.id===id),old=base.adaptations.find(a=>a.id===id);assert.deepEqual(a.releaseEvents,old.releaseEvents);assert.deepEqual(a.sourceWorks,old.sourceWorks);}
+});
+
+test('Nightmares reading introductions retain nonfiction and poetry while withholding story resolutions',()=>{
+ const intro=n=>bundle.works.find(w=>w.id==='wrk:'+String(n).padStart(6,'0')).summary.en;
+ assert.match(intro(143),/nonfiction essay/);assert.match(intro(144),/poem/);assert.match(intro(141),/Holmes and Dr. Watson/);
+ for(const [n,hidden]of [[123,/dementia|volcano|death/],[124,/alien|shoot|murder/],[128,/save his life|hitchhiker/],[131,/murder|ghost|drugs/],[134,/toad|sacrifice/],[139,/trap|escape|spaceship/],[142,/creator|switch places|1994/]])assert.doesNotMatch(intro(n),hidden);
+ for(const n of [122,123,124,128,129,130,131,133,134,135,138,139,141,142,143,144]){const id='wrk:'+String(n).padStart(6,'0');assert.deepEqual(bundle.collectionMemberships.filter(m=>m.workId===id),base.collectionMemberships.filter(m=>m.workId===id));}
 });

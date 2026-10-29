@@ -148,3 +148,7 @@ test('Remake introductions use the correct cast and year on main pages without t
 test('Further film introductions keep remake casts and their own opening premises on the main site',()=>{
  run("tab='films';lang='en'");const get=id=>run(`F.find(f=>f.canonicalId===${JSON.stringify(id)}).summary.en`);assert.match(get('adp:000019'),/Drew Barrymore/);assert.match(get('adp:000020'),/Ryan Kiera Armstrong/);assert.doesNotMatch(get('adp:000019'),/Zac Efron/);assert.match(get('adp:000041'),/2019.*Arnold Schwarzenegger|Arnold Schwarzenegger/s);assert.doesNotMatch(get('adp:000041'),/daughter|month|billion|2025/);assert.match(get('adp:000042'),/Edgar Wright.*2025/);assert.match(get('adp:000070'),/Steven Weber/);assert.doesNotMatch(get('adp:000070'),/Jack Nicholson/);assert.match(get('adp:000078'),/Anthony Michael Hall.*six-year/);assert.doesNotMatch(get('adp:000024'),/Ted Brautigan/);
 });
+
+test('Sixteen Nightmares introductions reach the main story pages with collection context and optional sources',()=>{
+ run("tab='stories';lang='en'");for(const n of [122,123,124,128,129,130,131,133,134,135,138,139,141,142,143,144]){const id='wrk:'+String(n).padStart(6,'0'),rows=run(`S.filter(s=>s.canonicalId===${JSON.stringify(id)})`);assert.ok(rows.length);for(const row of rows){const html=run(`detailContent(S.find(s=>s.id===${JSON.stringify(row.id)}))`);assert.ok(html.includes(row.summary.en.replaceAll('&','&amp;').replaceAll("'",'&#39;')));assert.match(html,/Nightmares/);assert.match(html,/Sources & context/);}}
+});
