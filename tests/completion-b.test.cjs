@@ -5,7 +5,7 @@ const {extendCompletionB,validateCompletionB}=require('../scripts/completion_b.c
 const base=loadCompletion(),before=structuredClone(base),bundle=extendCompletionB(base);
 test('Bounded B additions preserve every prior identity, record, alias and manifest',()=>{
  assert.deepEqual(base,before);assert.deepEqual(validateCompletionB(bundle,base),[]);
- assert.equal(bundle.characters.length-base.characters.length,13);assert.equal(bundle.locations.length-base.locations.length,4);assert.equal(bundle.series.length-base.series.length,4);assert.equal(bundle.adaptations.length-base.adaptations.length,15);assert.equal(bundle.connections.length-base.connections.length,84);
+ assert.equal(bundle.characters.length-base.characters.length,14);assert.equal(bundle.locations.length-base.locations.length,5);assert.equal(bundle.series.length-base.series.length,4);assert.equal(bundle.adaptations.length-base.adaptations.length,15);assert.equal(bundle.connections.length-base.connections.length,87);
  assert.throws(()=>extendCompletionB(bundle),/collision|already exists/);
 });
 test('The Hodges sequence links exactly the three existing novels with supported positions',()=>{
@@ -69,7 +69,7 @@ test('Three same-title Corn productions stay distinct and only confirmed adaptat
 });
 
 test('Reviewed book introductions enrich existing identities with field-scoped evidence only',()=>{
- const review=require('../data/completion-b/review.json'),introductions=review.enrichments.filter(e=>e.subject.type==='work');assert.equal(introductions.length,196);
+ const review=require('../data/completion-b/review.json'),introductions=review.enrichments.filter(e=>e.subject.type==='work');assert.equal(introductions.length,198);
  for(const e of introductions){const old=base.works.find(w=>w.id===e.subject.id),w=bundle.works.find(w=>w.id===old.id);assert.equal(w.summary.en,e.value.en);assert.equal(w.originalTitle,old.originalTitle);const c=bundle.claims.find(c=>c.subject.id===w.id&&c.fieldPath==='/summary'&&c.selected);assert.equal(c.status,'verified');assert.deepEqual(c.value,w.summary);assert.ok(c.sourceIds.every(id=>bundle.sources.find(s=>s.id===id).url.match(/^https:\/\/(stephenking\.com|www\.simonandschuster\.com|www\.penguinrandomhouse\.com|www\.newyorker\.com)\//)));}
  const changed=structuredClone(bundle);changed.works.find(w=>w.id==='wrk:000005').originalTitle='Wrong title';assert.ok(validateCompletionB(changed,base).some(e=>e.code==='b-baseline-record-changed'));
  const unsupported=structuredClone(bundle);unsupported.works.find(w=>w.id==='wrk:000005').summary.en='An invented ending';assert.ok(validateCompletionB(unsupported,base).some(e=>e.code==='b-editorial-evidence'));
@@ -198,7 +198,7 @@ test('Five identified English reissues preserve all unknown legacy edition and c
 });
 
 test('Five short-work context links preserve identities and avoid invented adaptation chronology',()=>{
- const links=bundle.connections.filter(c=>+c.id.slice(4)>=165&&+c.id.slice(4)<=169);assert.equal(links.length,5);assert.deepEqual(links.map(c=>[c.from.id,c.predicate,c.to.id]),[['wrk:000217','set_in','loc:000006'],['wrk:000217','shared_reference','wrk:000005'],['wrk:000229','shared_reference','wrk:000046'],['wrk:000234','shared_reference','wrk:000023'],['wrk:000237','shared_reference','wrk:000039']]);assert.ok(links.every(c=>c.spoiler.level==='none'&&c.certainty==='explicit'));assert.equal(bundle.works.length,250);assert.equal(bundle.locations.length,6);assert.ok(!links.some(c=>c.predicate==='adaptation_of'||c.predicate==='sequel_to'||c.predicate==='prequel_to'));
+ const links=bundle.connections.filter(c=>+c.id.slice(4)>=165&&+c.id.slice(4)<=169);assert.equal(links.length,5);assert.deepEqual(links.map(c=>[c.from.id,c.predicate,c.to.id]),[['wrk:000217','set_in','loc:000006'],['wrk:000217','shared_reference','wrk:000005'],['wrk:000229','shared_reference','wrk:000046'],['wrk:000234','shared_reference','wrk:000023'],['wrk:000237','shared_reference','wrk:000039']]);assert.ok(links.every(c=>c.spoiler.level==='none'&&c.certainty==='explicit'));assert.equal(bundle.works.length,250);assert.equal(bundle.locations.length,7);assert.ok(!links.some(c=>c.predicate==='adaptation_of'||c.predicate==='sequel_to'||c.predicate==='prequel_to'));
 });
 
 test('All current screen entries have sourced introductions while five unconfirmed projects retain unknown status',()=>{
@@ -214,4 +214,8 @@ test('Five direct screen relationships bind the reviewed story or novel, includi
 test('Four core screen links reuse exact literary identities and retain film-specific evidence',()=>{
  for(const[a,w,title]of [['adp:000023','wrk:000031','The Green Mile'],['adp:000046','wrk:000005','The Shining'],['adp:000063','wrk:000118','The Langoliers'],['adp:000051','wrk:000177','1922']]){assert.equal(bundle.works.find(r=>r.id===w).originalTitle,title);const links=bundle.connections.filter(c=>c.from.id===a&&c.to.id===w&&c.predicate==='adaptation_of');assert.equal(links.length,1);assert.equal(links[0].spoiler.level,'none');assert.equal(links[0].certainty,'explicit');const claim=bundle.claims.find(c=>c.subject.id===links[0].id&&c.fieldPath==='/to'&&c.selected);assert.ok(claim.sourceIds.length>=2);}
  assert.ok(!bundle.connections.some(c=>c.from.id==='adp:000063'&&c.to.type==='collection'));assert.ok(!bundle.connections.some(c=>c.from.id==='adp:000051'&&c.to.type==='collection'));
+});
+
+test('Shawshank profiles stay literary and its film adapts the novella rather than the whole collection',()=>{
+ const red=bundle.characters.find(c=>c.id==='chr:000022'),prison=bundle.locations.find(l=>l.id==='loc:000007');assert.equal(red.name,'Red');assert.deepEqual(red.aliases,[]);assert.equal(prison.name,'Shawshank Prison');assert.ok(red.summary.en.length>80&&prison.summary.en.length>80);assert.equal(red.spoiler.level,'none');assert.equal(prison.spoiler.level,'none');assert.deepEqual(bundle.connections.filter(c=>c.from.id===red.id).map(c=>c.to.id),['wrk:000092']);const film=bundle.connections.filter(c=>c.from.id==='adp:000045');assert.equal(film.length,1);assert.equal(film[0].to.id,'wrk:000092');assert.equal(film[0].spoiler.level,'none');assert.doesNotMatch(red.summary.en,/Redding|Rita Hayworth.*escape|parole|Mexico/);
 });

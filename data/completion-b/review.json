@@ -4765,6 +4765,43 @@
         "production identity",
         "literary source relationship"
       ]
+    },
+    {
+      "key": "book-intro-wrk-000072-source",
+      "url": "https://stephenking.com/works/short/jerusalems-lot.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Official story collection listing and official Chapelwaite page: the source story is explicitly described as correspondence between two friends. No television-only family, setting or plot transferred.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000075-source",
+      "url": "https://stephenking.com/works/short/i-am-the-doorway.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Official Characters section: Arthur and Cory’s mission to Venus; Available In names the collection and alien-encounter anthology. No unverified body-horror events imported.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "shawshank-film-literary-credits",
+      "url": "https://catalog.afi.com/Film/55199-THE-SHAWSHANK-REDEMPTION",
+      "publisher": "American Film Institute",
+      "sourceType": "reference",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "SOURCES / LITERARY: explicit novella title, author and Different Seasons collection; production title, year and director identify this film. No synopsis or character outcomes imported.",
+      "checkedFields": [
+        "production identity",
+        "credited literary source"
+      ]
     }
   ],
   "records": [
@@ -9367,6 +9404,127 @@
         "film-intro-adp-000051-source"
       ],
       "note": "Manually matched existing production and literary work IDs. Direct adaptation evidence only; collection context is not promoted to a whole-collection adaptation. Richard Bachman remains a pseudonym of Stephen King. Production and literary identities are manually checked against the official work/film pages or the publisher’s explicit miniseries description. No character events are transferred between versions."
+    },
+    {
+      "key": "shawshank-red",
+      "entityType": "character",
+      "name": "Red",
+      "aliases": [],
+      "continuity": "Rita Hayworth and Shawshank Redemption literary continuity",
+      "summary": {
+        "en": "Red is a prisoner at Shawshank who can obtain things for a price. His place in the prison community forms part of Rita Hayworth and Shawshank Redemption."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "checked": "2026-10-29",
+      "sourceKeys": [
+        "book-intro-wrk-000092-source"
+      ],
+      "note": "Official novella Characters section, prison roles only. No ending, escape, criminal identity revelation, film-only name or biography inferred."
+    },
+    {
+      "key": "shawshank-prison",
+      "entityType": "location",
+      "name": "Shawshank Prison",
+      "locationKind": "place",
+      "aliases": [],
+      "continuity": "Rita Hayworth and Shawshank Redemption literary setting",
+      "summary": {
+        "en": "Shawshank Prison is the setting of Rita Hayworth and Shawshank Redemption. Its inmates and guards form the community at the centre of the novella."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "checked": "2026-10-29",
+      "sourceKeys": [
+        "book-intro-wrk-000092-source"
+      ],
+      "note": "Official novella Characters section, prison roles only. No ending, escape, criminal identity revelation, film-only name or biography inferred."
+    },
+    {
+      "key": "red-shawshank-novella",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "key": "shawshank-red"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000092"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Red is an inmate in the prison community of Rita Hayworth and Shawshank Redemption."
+      },
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000092"
+        ]
+      },
+      "checked": "2026-10-29",
+      "sourceKeys": [
+        "book-intro-wrk-000092-source"
+      ],
+      "note": "Official novella Characters section, prison roles only. No ending, escape, criminal identity revelation, film-only name or biography inferred."
+    },
+    {
+      "key": "shawshank-novella-setting",
+      "entityType": "connection",
+      "from": {
+        "type": "work",
+        "id": "wrk:000092"
+      },
+      "predicate": "set_in",
+      "to": {
+        "type": "location",
+        "key": "shawshank-prison"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Shawshank Prison is the setting of the novella; its prisoners and guards make up much of its cast."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "checked": "2026-10-29",
+      "sourceKeys": [
+        "book-intro-wrk-000092-source"
+      ],
+      "note": "Official novella Characters section, prison roles only. No ending, escape, criminal identity revelation, film-only name or biography inferred."
+    },
+    {
+      "key": "shawshank-film-novella",
+      "entityType": "connection",
+      "checked": "2026-10-29",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000045"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000092"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The Shawshank Redemption adapts Rita Hayworth and Shawshank Redemption, the novella collected in Different Seasons."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "shawshank-film-literary-credits",
+        "film-intro-adp-000045-source",
+        "book-intro-wrk-000092-source"
+      ],
+      "note": "AFI transcribes the credited literary source. Official King film and novella pages confirm the distinct production and literary identities. This is not an adaptation of the whole collection."
     }
   ],
   "deferred": [
@@ -17010,6 +17168,53 @@
       },
       "locator": "Official project listing and announcement wording only; not evidence of current attachment, continuing production or release.",
       "note": "Only the existing production’s generic editorial introduction changes. Identity, title, format, release observations, credits, source/remake relationships, ratings and image binding remain unchanged. Historical announcement details remain explicitly attributed to the listing. Existing unknown status and date conflicts are unchanged; no released status or current production commitment asserted."
+    },
+    {
+      "key": "book-intro-wrk-000072",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000072"
+      },
+      "field": "summary",
+      "value": {
+        "en": "An epistolary tale told through correspondence between two friends. Collected in Night Shift, Jerusalem's Lot also provided the starting point for the television series Chapelwaite."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000072-source",
+        "film-intro-adp-000058-source"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000072"
+        ]
+      },
+      "locator": "Official story collection listing and official Chapelwaite page: the source story is explicitly described as correspondence between two friends. No television-only family, setting or plot transferred.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000075",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000075"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Arthur and Cory take part in a mission to Venus, giving this Night Shift story its space-travel setting. It also appears in the anthology Thrilling, Chilling Tales of Alien Encounters."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000075-source"
+      ],
+      "checked": "2026-10-29",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000075"
+        ]
+      },
+      "locator": "Official Characters section: Arthur and Cory’s mission to Venus; Available In names the collection and alien-encounter anthology. No unverified body-horror events imported.",
+      "note": "Only the reading introduction is enriched. Existing IDs, makers, publication history, edition identities and spoiler boundaries remain separately evidenced."
     }
   ]
 }
