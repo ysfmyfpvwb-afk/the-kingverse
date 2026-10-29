@@ -144,11 +144,18 @@ test('Shining and Misery profiles preserve literary identities without film even
 });
 
 test('Reviewed core film introductions replace only generic copy on existing productions with selected field evidence',()=>{
- const edits=require('../data/completion-b/review.json').enrichments.filter(e=>e.subject.type==='adaptation');assert.equal(edits.length,40);for(const e of edits){const old=base.adaptations.find(a=>a.id===e.subject.id),a=bundle.adaptations.find(a=>a.id===old.id);assert.deepEqual(a.summary,e.value);assert.deepEqual(a.releaseEvents,old.releaseEvents);assert.deepEqual(a.makerObservations,old.makerObservations);assert.deepEqual(a.ratingObservations,old.ratingObservations);const c=bundle.claims.find(c=>c.subject.id===a.id&&c.fieldPath==='/summary'&&c.selected);assert.equal(c.status,'verified');assert.deepEqual(c.value,a.summary);assert.ok(c.sourceIds.length);}
+ const edits=require('../data/completion-b/review.json').enrichments.filter(e=>e.subject.type==='adaptation');assert.equal(edits.length,63);for(const e of edits){const old=base.adaptations.find(a=>a.id===e.subject.id),a=bundle.adaptations.find(a=>a.id===old.id);assert.deepEqual(a.summary,e.value);assert.deepEqual(a.releaseEvents,old.releaseEvents);assert.deepEqual(a.makerObservations,old.makerObservations);assert.deepEqual(a.ratingObservations,old.ratingObservations);const c=bundle.claims.find(c=>c.subject.id===a.id&&c.fieldPath==='/summary'&&c.selected);assert.equal(c.status,'verified');assert.deepEqual(c.value,a.summary);assert.ok(c.sourceIds.length);}
  const b=structuredClone(bundle);b.adaptations.find(a=>a.id==='adp:000045').summary.en='An invented prison ending';assert.ok(validateCompletionB(b,base).some(e=>e.code==='b-editorial-evidence'));
 });
 
 test('Hearts in Atlantis reading paths reuse five story identities and three spoiler-safe recurring characters',()=>{
  for(const[id,name]of [['chr:000019','Carol Gerber'],['chr:000020','John “Sully” Sullivan'],['chr:000021','Bobby Garfield']]){assert.equal(bundle.characters.filter(c=>c.name===name).length,1);const c=bundle.characters.find(c=>c.id===id);assert.equal(c.name,name);assert.equal(c.spoiler.level,'none');assert.deepEqual(c.aliases,[]);const links=bundle.connections.filter(c=>c.from.id===id);assert.equal(links.length,2);assert.ok(links.every(c=>c.predicate==='appears_in'&&c.certainty==='explicit'&&c.spoiler.level==='premise'));}
  for(let i=145;i<=149;i++){const id='wrk:'+String(i).padStart(6,'0');assert.ok(bundle.works.find(w=>w.id===id).summary.en.length>80);assert.deepEqual(bundle.publicationEvents.filter(p=>p.subject.id===id),base.publicationEvents.filter(p=>p.subject.id===id));}assert.equal(bundle.works.length,250);assert.equal(bundle.collections.length,16);
+});
+
+test('Anthology and prequel introductions preserve production scope without revealing monster identities or endings',()=>{
+ const intro=n=>bundle.adaptations.find(a=>a.id==='adp:'+String(n).padStart(6,'0')).summary.en;
+ assert.match(intro(5),/original screen story The General/);assert.match(intro(94),/one contribution/);assert.match(intro(95),/prequel/);
+ assert.doesNotMatch(intro(7),/married|husband|wife/);assert.doesNotMatch(intro(22),/mutant|bat-rat/);assert.doesNotMatch(intro(30),/virgins|sacrific/);assert.doesNotMatch(intro(47),/Reverend|Lowe/);
+ for(const n of [5,9,10,22,30,94,95])assert.deepEqual(bundle.adaptations.find(a=>a.id==='adp:'+String(n).padStart(6,'0')).sourceWorks,base.adaptations.find(a=>a.id==='adp:'+String(n).padStart(6,'0')).sourceWorks);
 });

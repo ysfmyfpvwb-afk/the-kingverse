@@ -5861,8 +5861,8 @@
     },
     {
       "file": "data/adp-000002/index.json",
-      "bytes": 4002,
-      "gzipBytes": 1076
+      "bytes": 4393,
+      "gzipBytes": 1212
     },
     {
       "file": "data/adp-000002/plot.json",
@@ -5876,8 +5876,8 @@
     },
     {
       "file": "data/adp-000003/index.json",
-      "bytes": 6037,
-      "gzipBytes": 1359
+      "bytes": 6431,
+      "gzipBytes": 1491
     },
     {
       "file": "data/adp-000003/plot.json",
@@ -5906,8 +5906,8 @@
     },
     {
       "file": "data/adp-000005/index.json",
-      "bytes": 7526,
-      "gzipBytes": 1515
+      "bytes": 7906,
+      "gzipBytes": 1618
     },
     {
       "file": "data/adp-000005/plot.json",
@@ -5921,8 +5921,8 @@
     },
     {
       "file": "data/adp-000006/index.json",
-      "bytes": 3869,
-      "gzipBytes": 1040
+      "bytes": 4252,
+      "gzipBytes": 1176
     },
     {
       "file": "data/adp-000006/plot.json",
@@ -5936,8 +5936,8 @@
     },
     {
       "file": "data/adp-000007/index.json",
-      "bytes": 25335,
-      "gzipBytes": 2759
+      "bytes": 25736,
+      "gzipBytes": 2908
     },
     {
       "file": "data/adp-000007/plot.json",
@@ -5966,8 +5966,8 @@
     },
     {
       "file": "data/adp-000009/index.json",
-      "bytes": 6184,
-      "gzipBytes": 1473
+      "bytes": 6576,
+      "gzipBytes": 1596
     },
     {
       "file": "data/adp-000009/plot.json",
@@ -5981,8 +5981,8 @@
     },
     {
       "file": "data/adp-000010/index.json",
-      "bytes": 4010,
-      "gzipBytes": 1075
+      "bytes": 4387,
+      "gzipBytes": 1212
     },
     {
       "file": "data/adp-000010/plot.json",
@@ -6026,8 +6026,8 @@
     },
     {
       "file": "data/adp-000013/index.json",
-      "bytes": 6021,
-      "gzipBytes": 1349
+      "bytes": 6407,
+      "gzipBytes": 1477
     },
     {
       "file": "data/adp-000013/plot.json",
@@ -6071,8 +6071,8 @@
     },
     {
       "file": "data/adp-000016/index.json",
-      "bytes": 4018,
-      "gzipBytes": 1076
+      "bytes": 4406,
+      "gzipBytes": 1212
     },
     {
       "file": "data/adp-000016/plot.json",
@@ -6161,8 +6161,8 @@
     },
     {
       "file": "data/adp-000022/index.json",
-      "bytes": 4035,
-      "gzipBytes": 1081
+      "bytes": 4438,
+      "gzipBytes": 1237
     },
     {
       "file": "data/adp-000022/plot.json",
@@ -6206,8 +6206,8 @@
     },
     {
       "file": "data/adp-000025/index.json",
-      "bytes": 4006,
-      "gzipBytes": 1066
+      "bytes": 4389,
+      "gzipBytes": 1191
     },
     {
       "file": "data/adp-000025/plot.json",
@@ -6251,8 +6251,8 @@
     },
     {
       "file": "data/adp-000028/index.json",
-      "bytes": 3997,
-      "gzipBytes": 1063
+      "bytes": 4593,
+      "gzipBytes": 1278
     },
     {
       "file": "data/adp-000028/plot.json",
@@ -6281,8 +6281,8 @@
     },
     {
       "file": "data/adp-000030/index.json",
-      "bytes": 3974,
-      "gzipBytes": 1064
+      "bytes": 4351,
+      "gzipBytes": 1199
     },
     {
       "file": "data/adp-000030/plot.json",
@@ -6296,8 +6296,8 @@
     },
     {
       "file": "data/adp-000031/index.json",
-      "bytes": 6119,
-      "gzipBytes": 1407
+      "bytes": 6499,
+      "gzipBytes": 1528
     },
     {
       "file": "data/adp-000031/plot.json",
@@ -6341,8 +6341,8 @@
     },
     {
       "file": "data/adp-000034/index.json",
-      "bytes": 3983,
-      "gzipBytes": 1067
+      "bytes": 4381,
+      "gzipBytes": 1202
     },
     {
       "file": "data/adp-000034/plot.json",
@@ -6356,8 +6356,8 @@
     },
     {
       "file": "data/adp-000035/index.json",
-      "bytes": 4004,
-      "gzipBytes": 1057
+      "bytes": 4396,
+      "gzipBytes": 1188
     },
     {
       "file": "data/adp-000035/plot.json",
@@ -6386,8 +6386,8 @@
     },
     {
       "file": "data/adp-000037/index.json",
-      "bytes": 4025,
-      "gzipBytes": 1085
+      "bytes": 4433,
+      "gzipBytes": 1232
     },
     {
       "file": "data/adp-000037/plot.json",
@@ -6431,8 +6431,8 @@
     },
     {
       "file": "data/adp-000040/index.json",
-      "bytes": 4045,
-      "gzipBytes": 1086
+      "bytes": 4452,
+      "gzipBytes": 1239
     },
     {
       "file": "data/adp-000040/plot.json",
@@ -6536,8 +6536,8 @@
     },
     {
       "file": "data/adp-000047/index.json",
-      "bytes": 6076,
-      "gzipBytes": 1383
+      "bytes": 6444,
+      "gzipBytes": 1493
     },
     {
       "file": "data/adp-000047/plot.json",
@@ -7171,8 +7171,8 @@
     },
     {
       "file": "data/adp-000089/index.json",
-      "bytes": 6072,
-      "gzipBytes": 1334
+      "bytes": 6512,
+      "gzipBytes": 1493
     },
     {
       "file": "data/adp-000089/plot.json",
@@ -7231,8 +7231,8 @@
     },
     {
       "file": "data/adp-000093/index.json",
-      "bytes": 3999,
-      "gzipBytes": 1067
+      "bytes": 4433,
+      "gzipBytes": 1227
     },
     {
       "file": "data/adp-000093/plot.json",
@@ -7246,8 +7246,8 @@
     },
     {
       "file": "data/adp-000094/index.json",
-      "bytes": 6077,
-      "gzipBytes": 1376
+      "bytes": 6423,
+      "gzipBytes": 1455
     },
     {
       "file": "data/adp-000094/plot.json",
@@ -7261,8 +7261,8 @@
     },
     {
       "file": "data/adp-000095/index.json",
-      "bytes": 8352,
-      "gzipBytes": 1690
+      "bytes": 8730,
+      "gzipBytes": 1812
     },
     {
       "file": "data/adp-000095/plot.json",
