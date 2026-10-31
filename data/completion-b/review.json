@@ -6682,6 +6682,142 @@
         "ISBN13",
         "edition publication date"
       ]
+    },
+    {
+      "key": "classic-209-edition-publisher",
+      "url": "https://www.simonandschuster.com/books/Cujo/Stephen-King/9781668075777",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. ISBN-specific edition date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "classic-210-edition-publisher",
+      "url": "https://www.simonandschuster.com/books/The-Long-Walk/Stephen-King/The-Bachman-Books/9781668230480",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. ISBN-specific edition date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "classic-211-edition-publisher",
+      "url": "https://www.simonandschuster.com/books/The-Running-Man/Stephen-King/9781668208120",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. ISBN-specific edition date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "classic-212-edition-publisher",
+      "url": "https://www.simonandschuster.com/books/Thinner/Stephen-King/The-Bachman-Books/9781501144523",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. ISBN-specific edition date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "classic-213-edition-publisher",
+      "url": "https://www.simonandschuster.com/books/The-Eyes-of-the-Dragon/Stephen-King/9781501192203",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. ISBN-specific edition date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "classic-214-edition-publisher",
+      "url": "https://www.simonandschuster.com/books/The-Dark-Half/Stephen-King/9781501144196",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. ISBN-specific edition date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "classic-215-edition-publisher",
+      "url": "https://www.simonandschuster.com/books/The-Tommyknockers/Stephen-King/9781501144288",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. ISBN-specific edition date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "salem-vintage-paperback-publisher",
+      "url": "https://www.penguinrandomhouse.com/books/92979/salems-lot-by-stephen-king-with-an-introduction-by-joe-hill/9780345806796/",
+      "publisher": "Penguin Random House",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. ISBN-specific edition date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
     }
   ],
   "records": [
@@ -13285,6 +13421,238 @@
       "identityStatus": "identified",
       "sourceKeys": [
         "recent-208-hardcover-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "classic-209-edition",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000012"
+      },
+      "language": "en",
+      "title": "Cujo",
+      "isbn13": "9781668075777",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2024-09-03",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Trade Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "classic-209-edition-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "classic-210-edition",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000008"
+      },
+      "language": "en",
+      "title": "The Long Walk",
+      "isbn13": "9781668230480",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2025-10-07",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Hardcover",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "classic-210-edition-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "classic-211-edition",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000013"
+      },
+      "language": "en",
+      "title": "The Running Man",
+      "isbn13": "9781668208120",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2025-11-04",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Trade Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "classic-211-edition-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "classic-212-edition",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000018"
+      },
+      "language": "en",
+      "title": "Thinner",
+      "isbn13": "9781501144523",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2016-03-08",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Trade Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "classic-212-edition-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "classic-213-edition",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000020"
+      },
+      "language": "en",
+      "title": "The Eyes of the Dragon",
+      "isbn13": "9781501192203",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2018-01-09",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Trade Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "classic-213-edition-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "classic-214-edition",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000024"
+      },
+      "language": "en",
+      "title": "The Dark Half",
+      "isbn13": "9781501144196",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2016-02-16",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Trade Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "classic-214-edition-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "classic-215-edition",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000023"
+      },
+      "language": "en",
+      "title": "The Tommyknockers",
+      "isbn13": "9781501144288",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2016-02-16",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Trade Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "classic-215-edition-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "salem-vintage-paperback",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000004"
+      },
+      "language": "en",
+      "title": "'Salem's Lot",
+      "isbn13": "9780345806796",
+      "publisher": "Vintage",
+      "publicationDate": {
+        "value": "2013-09-24",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "salem-vintage-paperback-publisher"
       ],
       "open": [
         "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
