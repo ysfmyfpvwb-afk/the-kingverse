@@ -12,7 +12,7 @@ test('Pilot is reproducible, all generated files match, and all earlier baseline
 });
 // Lazy-loaded search may grow to 16 KiB with new bibliographic entries; the initial-shell limit remains unchanged.
 test('Every canonical identity, type and endpoint has an independent bounded deep-link payload',()=>{
- assert.equal(out.full.nodes.length,713);for(const n of out.full.nodes){const p=index(n.id);assert.ok(p);if(out.base.nodes.some(s=>s.id===n.id)){assert.equal(p.node.id,n.id);assert.equal(p.node.type,n.type);assert.equal(p.node.label,n.label);}else assert.equal(p.scope,'gated');}
+ assert.equal(out.full.nodes.length,720);for(const n of out.full.nodes){const p=index(n.id);assert.ok(p);if(out.base.nodes.some(s=>s.id===n.id)){assert.equal(p.node.id,n.id);assert.equal(p.node.type,n.type);assert.equal(p.node.label,n.label);}else assert.equal(p.scope,'gated');}
  const types=new Set(out.full.nodes.map(n=>n.type));assert.equal(types.size,8);
  for(const[name,p]of out.payloads)if(!name.startsWith('search.')){assert.ok(Buffer.byteLength(out.files.get('explorer/pilot/'+name))<=LIMIT);for(const e of p.connections||[])assert.ok(index(e.target.id));}
  assert.equal(out.report.payload.initialAggregateProjectBytesLoaded,0);assert.ok(out.report.payload.maxEntityBytes<40000);assert.ok(out.report.payload.searchGzipBytes<16*1024);
@@ -36,7 +36,7 @@ test('Long contribution and collection lists use six-record chunks with no missi
  for(const [id,k]of [['per:000001','creators'],['col:000006','memberships']]){const section=index(id).sections[k],rows=[...section.items];let next=section.next;assert.ok(next);while(next){const p=out.payloads.get(next);assert.ok(p.items.length<=6);rows.push(...p.items);next=p.next;}assert.equal(rows.length,section.total);assert.equal(new Set(rows.map(r=>r.id)).size,rows.length);}
 });
 test('Default pages, search aliases, metadata and gated entries contain none of the six plot-only labels',()=>{
- const search=out.payloads.get(out.report.assets.search);assert.equal(search.records.length,707);
+ const search=out.payloads.get(out.report.assets.search);assert.equal(search.records.length,714);
  for(const n of out.plot.nodes){for(const name of out.report.files.filter(f=>f.file.endsWith('/index.json')).map(f=>f.file))assert.ok(!JSON.stringify(out.payloads.get(name)).includes(n.label),name);assert.ok(!JSON.stringify(search).includes(n.label));assert.ok(!out.files.get('explorer/pilot/index.html').includes(n.label));assert.ok(!('node'in index(n.id)));}
  assert.ok(plot('chr:000005').node);assert.equal(plot('chr:000005').node.label,'Father Callahan');
 });
@@ -246,4 +246,8 @@ test('Hard Case and remaining novel editions retain territory and existing colla
 
 test('Special editions preserve comic scope, picture-book formats and unresolved identifiers',()=>{
  for(const[e,w]of [[243,68],[244,69],[245,70],[246,245],[247,246],[248,248]]){const id='edn:'+String(e).padStart(6,'0'),work='wrk:'+String(w).padStart(6,'0');assert.equal(index(id).parent.id,work);assert.ok(index(work).sections.editions.items.some(r=>r.id===id));}assert.equal(index('edn:000244').node.data.isbn13,null);assert.equal(index('edn:000246').node.data.format,'Paper Over Board');assert.equal(index('edn:000247').node.data.isbn13,'9780062644695');const s=index('edn:000248').node.data;assert.equal(s.publicationDate.value,'1999-02');assert.equal(s.publicationDate.precision,'month');assert.equal(s.publisher,null);assert.equal(index('edn:000244').node.label,'American Vampire Vol. 1');
+});
+
+test('Rare editions keep digital publications and dated library observations distinct from new works',()=>{
+ for(const[e,owner]of [[249,'wrk:000067'],[250,'wrk:000006'],[251,'col:000014'],[252,'col:000015'],[253,'wrk:000071'],[254,'col:000016'],[255,'wrk:000244']]){const id='edn:'+String(e).padStart(6,'0'),p=index(id);assert.equal(p.parent.id,owner);assert.ok(index(owner).sections.editions.items.some(r=>r.id===id));assert.equal(p.node.data.publicationDate.meaning,'edition-publication');}assert.equal(index('edn:000249').node.data.publicationDate.value,'2026-10-06');for(const e of [250,252,253,254])assert.equal(index('edn:'+String(e).padStart(6,'0')).node.data.publicationDate.precision,'year');assert.equal(index('edn:000253').node.data.isbn13,'9780670823079');assert.equal(index('edn:000255').node.data.format,'Amazon Kindle Single');assert.equal(index('edn:000255').node.data.isbn13,null);assert.equal(index('edn:000255').node.data.publicationDate.value,'2013-01');assert.equal(index('col:000014').sections.memberships.total,4);
 });

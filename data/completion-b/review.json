@@ -7360,6 +7360,135 @@
         "ISBN13",
         "edition publication date"
       ]
+    },
+    {
+      "key": "other-worlds-hardcover-publisher",
+      "url": "https://www.simonandschuster.com/books/Other-Worlds-Than-These/Stephen-King/The-Talisman-Trilogy/9781668233092",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. ISBN-specific edition date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "rage-signet-edition-publisher",
+      "url": "https://openlibrary.org/books/OL7570400M.json",
+      "publisher": "Open Library",
+      "sourceType": "reference",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Specific public edition JSON: title, English language, ISBN, publisher, format when present and reported publication. Year/month precision only; no automatic work-level date or printing merge.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "bachman-nal-hardcover-publisher",
+      "url": "https://openlibrary.org/books/OL26875450M.json",
+      "publisher": "Open Library",
+      "sourceType": "reference",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Specific public edition JSON: title, English language, ISBN, publisher, format when present and reported publication. Year/month precision only; no automatic work-level date or printing merge.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "midlife-viking-hardcover-publisher",
+      "url": "https://openlibrary.org/books/OL7643135M.json",
+      "publisher": "Open Library",
+      "sourceType": "reference",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Specific public edition JSON: title, English language, ISBN, publisher, format when present and reported publication. Year/month precision only; no automatic work-level date or printing merge.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "nightmares-sky-viking-edition-publisher",
+      "url": "https://openlibrary.org/books/OL2043590M.json",
+      "publisher": "Open Library",
+      "sourceType": "reference",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Specific public edition JSON: title, English language, ISBN, publisher, format when present and reported publication. Year/month precision only; no automatic work-level date or printing merge. Source ISBN10 0670823074 normalized using the standard ISBN13 checksum to 9780670823079; no merge with the different Google Books identifier 9780941676113.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "secret-windows-club-hardcover-publisher",
+      "url": "https://books.google.com/books/about/Secret_Windows.html?id=Y8p60QEACAAJ",
+      "publisher": "Google Books",
+      "sourceType": "reference",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Google Books bibliographic HTML: ISBN13 9780965006439, Book-of-the-Month Club, year 2000. Language and binding separately checked through the ISBN-specific AllBookstores record. Google Books API returned HTTP 429 and was not retried or used.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "guns-original-kindle-publisher",
+      "url": "https://stephenking.com/works/nonfiction/guns.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Official work entry explicitly identifies the January 2013 Amazon Kindle Single and its publisher. Original digital publication only, no invented printed edition, ISBN or ASIN.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "secret-windows-language-format",
+      "url": "https://www.allbookstores.com/Secret-Windows-Essays-Fiction-Craft/9780965006439",
+      "publisher": "AllBookstores",
+      "sourceType": "reference",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "ISBN13-specific listing explicitly identifies English and Hardcover. Its inconsistent ISBN10 is not adopted. No copied description, price, cover or first-printing claim.",
+      "checkedFields": [
+        "English-language edition",
+        "hardcover format"
+      ]
     }
   ],
   "records": [
@@ -15130,6 +15259,225 @@
       "open": [
         "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned.",
         "Exact day not independently established; publisher listing reports February 1, 1999 and Scribner, while the official work entry names Pocket Books. Imprint left unresolved; only month adopted."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "other-worlds-hardcover",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000067"
+      },
+      "language": "en",
+      "title": "Other Worlds Than These",
+      "isbn13": "9781668233092",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2026-10-06",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Hardcover",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "other-worlds-hardcover-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "rage-signet-edition",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000006"
+      },
+      "language": "en",
+      "title": "Rage",
+      "isbn13": "9780451076458",
+      "publisher": "Signet",
+      "publicationDate": {
+        "value": "1977",
+        "precision": "year",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": null,
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "rage-signet-edition-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned.",
+        "Specific physical binding not established by the inspected edition record.",
+        "Only edition year adopted; exact catalog day is not independently certified."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "bachman-nal-hardcover",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "collection",
+        "id": "col:000014"
+      },
+      "language": "en",
+      "title": "The Bachman Books",
+      "isbn13": "9780453005074",
+      "publisher": "NAL Books / New American Library",
+      "publicationDate": {
+        "value": "1985-10",
+        "precision": "month",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Hardcover",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "bachman-nal-hardcover-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "midlife-viking-hardcover",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "collection",
+        "id": "col:000015"
+      },
+      "language": "en",
+      "title": "Mid-life Confidential: The Rock Bottom Remainders Tour America with Three Chords and an Attitude",
+      "isbn13": "9780670852345",
+      "publisher": "Viking Adult",
+      "publicationDate": {
+        "value": "1994",
+        "precision": "year",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Hardcover",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "midlife-viking-hardcover-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned.",
+        "Only edition year adopted; exact catalog day is not independently certified."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "nightmares-sky-viking-edition",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000071"
+      },
+      "language": "en",
+      "title": "Nightmares in the Sky: Gargoyles and Grotesques",
+      "isbn13": "9780670823079",
+      "publisher": "Viking Studio Books",
+      "publicationDate": {
+        "value": "1988",
+        "precision": "year",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": null,
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "nightmares-sky-viking-edition-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned.",
+        "Specific physical binding not established by the inspected edition record.",
+        "Only edition year adopted; exact catalog day is not independently certified."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "secret-windows-club-hardcover",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "collection",
+        "id": "col:000016"
+      },
+      "language": "en",
+      "title": "Secret Windows: Essays and Fiction on the Craft of Writing",
+      "isbn13": "9780965006439",
+      "publisher": "Book-of-the-Month Club",
+      "publicationDate": {
+        "value": "2000",
+        "precision": "year",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Hardcover",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "secret-windows-club-hardcover-publisher",
+        "secret-windows-language-format"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned.",
+        "AllBookstores prints an inconsistent ISBN10; canonical ISBN13 is taken from Google Books, not that malformed ISBN10. No exact date or first-printing certification."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing.",
+      "fieldSourceKeys": {
+        "language": [
+          "secret-windows-language-format"
+        ],
+        "format": [
+          "secret-windows-language-format"
+        ]
+      }
+    },
+    {
+      "key": "guns-original-kindle",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000244"
+      },
+      "language": "en",
+      "title": "GUNS",
+      "isbn13": null,
+      "publisher": "Amazon (Kindle Single)",
+      "publicationDate": {
+        "value": "2013-01",
+        "precision": "month",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Amazon Kindle Single",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "guns-original-kindle-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned.",
+        "No ISBN or ASIN supplied by the inspected official Kindle Single entry."
       ],
       "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
     }

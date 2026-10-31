@@ -51,7 +51,7 @@ test('Core novel introductions reach the main details without changing editions 
 
 test('New publisher editions render on main pages with edition dates separate from original work years',()=>{
  run("tab='books';lang='en'");const html=run("detailContent(B.find(r=>r.canonicalId==='wrk:000242'))");assert.match(html,/2000/);assert.match(html,/2020-06-02/);assert.match(html,/9781982159375/);assert.match(html,/Scribner/);assert.match(html,/simonandschuster\.com/);
- const misery=run("detailContent(B.find(r=>r.canonicalId==='wrk:000021'))");assert.match(misery,/2016-01-05/);assert.match(misery,/9781501143106/);assert.equal(run("media(B.find(r=>r.canonicalId==='wrk:000021')).image"),run("MEDIA.books.Misery.en.image"));assert.equal(run('DB.editions.length'),248);
+ const misery=run("detailContent(B.find(r=>r.canonicalId==='wrk:000021'))");assert.match(misery,/2016-01-05/);assert.match(misery,/9781501143106/);assert.equal(run("media(B.find(r=>r.canonicalId==='wrk:000021')).image"),run("MEDIA.books.Misery.en.image"));assert.equal(run('DB.editions.length'),255);
 });
 
 test('Visitor connection explanations use readable content while retaining optional source links',()=>{
@@ -288,4 +288,8 @@ test('Hard Case and remaining novels show publisher-identified editions on their
 
 test('Special publication metadata reaches main pages without false comic or children-book authorship',()=>{
  run("tab='books';lang='en'");for(const[w,isbn]of [[68,'9781587672286'],[70,'9780743267533'],[245,'9781534401235'],[246,'9780062644695'],[248,'9780671032647']]){const id='wrk:'+String(w).padStart(6,'0');assert.match(run(`detailContent(B.find(b=>b.canonicalId===${JSON.stringify(id)}))`),new RegExp(isbn));}assert.match(run("detailContent(B.find(b=>b.canonicalId==='wrk:000069'))"),/Scott Snyder/);assert.match(run("detailContent(B.find(b=>b.canonicalId==='wrk:000246'))"),/Maurice Sendak/);assert.match(run("detailContent(B.find(b=>b.canonicalId==='wrk:000248'))"),/1999-02/);
+});
+
+test('Every current library entry has an identified English edition except the serial and stage project',()=>{
+ const bundle=require('../scripts/completion_b.cjs').extendCompletionB(require('../scripts/build_completion.cjs').loadCompletion()),db=generateMainCompletion().db;const missing=db.books.filter(b=>!bundle.editions.some(e=>e.publicationOf.id===b.canonicalId&&e.language==='en'&&e.identityStatus==='identified'));assert.deepEqual(missing.map(b=>b.canonicalId),['wrk:000247','wrk:000249']);assert.equal(db.books.length,97);run("tab='books';lang='en'");assert.match(run("detailContent(B.find(b=>b.canonicalId==='wrk:000067'))"),/9781668233092/);assert.match(run("detailContent(B.find(b=>b.canonicalId==='col:000016'))"),/9780965006439/);assert.match(run("detailContent(B.find(b=>b.canonicalId==='wrk:000244'))"),/Amazon Kindle Single/);
 });
