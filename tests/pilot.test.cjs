@@ -12,7 +12,7 @@ test('Pilot is reproducible, all generated files match, and all earlier baseline
 });
 // Lazy-loaded search may grow to 14 KiB with new bibliographic entries; the initial-shell limit remains unchanged.
 test('Every canonical identity, type and endpoint has an independent bounded deep-link payload',()=>{
- assert.equal(out.full.nodes.length,689);for(const n of out.full.nodes){const p=index(n.id);assert.ok(p);if(out.base.nodes.some(s=>s.id===n.id)){assert.equal(p.node.id,n.id);assert.equal(p.node.type,n.type);assert.equal(p.node.label,n.label);}else assert.equal(p.scope,'gated');}
+ assert.equal(out.full.nodes.length,699);for(const n of out.full.nodes){const p=index(n.id);assert.ok(p);if(out.base.nodes.some(s=>s.id===n.id)){assert.equal(p.node.id,n.id);assert.equal(p.node.type,n.type);assert.equal(p.node.label,n.label);}else assert.equal(p.scope,'gated');}
  const types=new Set(out.full.nodes.map(n=>n.type));assert.equal(types.size,8);
  for(const[name,p]of out.payloads)if(!name.startsWith('search.')){assert.ok(Buffer.byteLength(out.files.get('explorer/pilot/'+name))<=LIMIT);for(const e of p.connections||[])assert.ok(index(e.target.id));}
  assert.equal(out.report.payload.initialAggregateProjectBytesLoaded,0);assert.ok(out.report.payload.maxEntityBytes<40000);assert.ok(out.report.payload.searchGzipBytes<14*1024);
@@ -36,7 +36,7 @@ test('Long contribution and collection lists use six-record chunks with no missi
  for(const [id,k]of [['per:000001','creators'],['col:000006','memberships']]){const section=index(id).sections[k],rows=[...section.items];let next=section.next;assert.ok(next);while(next){const p=out.payloads.get(next);assert.ok(p.items.length<=6);rows.push(...p.items);next=p.next;}assert.equal(rows.length,section.total);assert.equal(new Set(rows.map(r=>r.id)).size,rows.length);}
 });
 test('Default pages, search aliases, metadata and gated entries contain none of the six plot-only labels',()=>{
- const search=out.payloads.get(out.report.assets.search);assert.equal(search.records.length,683);
+ const search=out.payloads.get(out.report.assets.search);assert.equal(search.records.length,693);
  for(const n of out.plot.nodes){for(const name of out.report.files.filter(f=>f.file.endsWith('/index.json')).map(f=>f.file))assert.ok(!JSON.stringify(out.payloads.get(name)).includes(n.label),name);assert.ok(!JSON.stringify(search).includes(n.label));assert.ok(!out.files.get('explorer/pilot/index.html').includes(n.label));assert.ok(!('node'in index(n.id)));}
  assert.ok(plot('chr:000005').node);assert.equal(plot('chr:000005').node.label,'Father Callahan');
 });
@@ -234,4 +234,8 @@ test('Classic reissues retain Bachman identities and do not become original-publ
 
 test('Eight nineties editions preserve the serial novel and conservative ebook date precision',()=>{
  for(const[eid,wid]of [[217,26],[218,27],[219,28],[220,29],[221,30],[222,31],[223,32],[224,33]]){const id='edn:'+String(eid).padStart(6,'0'),work='wrk:'+String(wid).padStart(6,'0'),e=index(id);assert.equal(e.parent.id,work);assert.ok(index(work).sections.editions.items.some(n=>n.id===id));assert.equal(e.node.data.publicationDate.meaning,'edition-publication');}for(const eid of [218,219]){const e=index('edn:'+String(eid).padStart(6,'0'));assert.equal(e.node.data.format,'eBook');assert.equal(e.node.data.publicationDate.precision,'year');assert.equal(e.node.data.publicationDate.value,'2016');}assert.equal(index('edn:000222').node.data.publicationDate.value,'2000-10-03');assert.equal(out.full.nodes.filter(n=>n.type==='work'&&n.label==='The Green Mile').length,1);
+});
+
+test('Ten millennium editions preserve format distinctions and keep the time-travel novel separate from television',()=>{
+ for(const[e,w]of [[225,35],[226,36],[227,37],[228,38],[229,43],[230,44],[231,45],[232,46],[233,47],[234,48]]){const id='edn:'+String(e).padStart(6,'0'),work='wrk:'+String(w).padStart(6,'0'),p=index(id);assert.equal(p.parent.id,work);assert.equal(p.node.data.language,'en');assert.equal(p.node.data.publicationDate.meaning,'edition-publication');assert.ok(index(work).sections.editions.items.some(r=>r.id===id));}assert.equal(index('edn:000226').node.data.format,'Mass Market Paperback');assert.equal(index('edn:000229').node.data.publicationDate.value,'2026-07-14');assert.equal(index('edn:000234').parent.type,'work');assert.ok(index('wrk:000048').connections.some(e=>e.target.id==='adp:000054'));
 });
