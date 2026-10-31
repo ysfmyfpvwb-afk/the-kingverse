@@ -297,3 +297,7 @@ test('Every current library entry has an identified English edition except the s
 test('Core character and setting links are visible on the corresponding main book pages',()=>{
  run("tab='books';lang='en'");for(const[w,labels]of [[3,['Carrie White']],[9,['Johnny Smith']],[4,['Ben Mears']],[31,['John Coffey','Paul Edgecombe','Cold Mountain Penitentiary']],[14,['Gilead']]]){const id='wrk:'+String(w).padStart(6,'0'),html=run(`detailContent(B.find(b=>b.canonicalId===${JSON.stringify(id)}))`);for(const label of labels)assert.ok(html.includes(label));assert.match(html,/explorer\/pilot\//);}
 });
+
+test('Turbulence uses its verified first-publication year instead of its later collection year',()=>{
+ const row=generateMainCompletion().db.stories.find(s=>s.canonicalId==='wrk:000193');assert.equal(row.Jaar,2018);assert.equal(row.firstPublication.date,'2018-09');assert.equal(row.firstPublication.kind,'first-publication');assert.equal(row.collectionIds.length,2);run("tab='stories';lang='en'");const html=run("detailContent(S.find(s=>s.canonicalId==='wrk:000193'))");assert.match(html,/2018/);assert.match(html,/cemeterydance\.com/);
+});

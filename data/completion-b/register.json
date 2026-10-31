@@ -2773,6 +2773,12 @@
     "claim/gunslinger-gilead-reference/to": "clm:010380",
     "claim/gunslinger-gilead-reference/certainty": "clm:010381",
     "claim/gunslinger-gilead-reference/explanation": "clm:010382",
-    "claim/gunslinger-gilead-reference/spoiler": "clm:010383"
+    "claim/gunslinger-gilead-reference/spoiler": "clm:010383",
+    "publication/turbulence-first-publication": "pub:000260",
+    "claim/turbulence-first-publication/subject": "clm:010384",
+    "claim/turbulence-first-publication/eventType": "clm:010385",
+    "claim/turbulence-first-publication/date": "clm:010386",
+    "claim/turbulence-first-publication/editionId": "clm:010387",
+    "claim/turbulence-first-publication/publisher": "clm:010388"
   }
 }

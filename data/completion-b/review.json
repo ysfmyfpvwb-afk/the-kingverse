@@ -7559,6 +7559,20 @@
         "opening character role or location",
         "specific literary continuity"
       ]
+    },
+    {
+      "key": "turbulence-first-publication-source",
+      "url": "https://www.cemeterydance.com/flight-or-fright.html",
+      "publisher": "Cemetery Dance Publications",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Publisher explicitly calls King’s contribution brand new, identifies The Turbulence Expert in the contents and dates the original trade hardcover September 4, 2018. First publication recorded at month precision; the official story page’s May 2024 date describes a later collection appearance.",
+      "checkedFields": [
+        "first-publication month",
+        "original publishing collection",
+        "specific story identity"
+      ]
     }
   ],
   "records": [
@@ -15894,6 +15908,30 @@
       ],
       "open": [],
       "note": "Literary identity and opening role only. No screen-continuity merge, hidden identity, later fate, copied synopsis or new media."
+    },
+    {
+      "key": "turbulence-first-publication",
+      "entityType": "publication",
+      "checked": "2026-10-31",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000193"
+      },
+      "eventType": "first-publication",
+      "date": {
+        "value": "2018-09",
+        "precision": "month",
+        "meaning": "first-publication",
+        "territory": "US"
+      },
+      "editionId": "edn:000191",
+      "part": null,
+      "publisher": "Cemetery Dance Publications",
+      "sourceKeys": [
+        "turbulence-first-publication-source"
+      ],
+      "open": [],
+      "note": "First appearance in Flight or Fright, separate from the retained May 2024 collection-date observation. No exact first-publication day, new story identity or cover inferred."
     }
   ],
   "deferred": [
@@ -23639,20 +23677,20 @@
       },
       "field": "summary",
       "value": {
-        "en": "A Stephen King story about air travel, contributed to Flight or Fright, the anthology he edited with Bev Vincent. It also appears in You Like It Darker."
+        "en": "King’s aviation-horror story first appeared in Flight or Fright in 2018, the anthology he edited with Bev Vincent. It was later collected in You Like It Darker in 2024."
       },
       "sourceKeys": [
-        "book-intro-wrk-000193-source-0",
+        "turbulence-first-publication-source",
         "book-intro-wrk-000193-source-1"
       ],
-      "checked": "2026-10-29",
+      "checked": "2026-10-31",
       "spoiler": {
         "level": "premise",
         "workIds": [
           "wrk:000193"
         ]
       },
-      "locator": "Publisher anthology description: aviation theme, King/Vincent editors and new King contribution. No plot or ending inferred. | Available In identifies Flight or Fright and You Like It Darker. Collection display date is not treated as the first story publication.",
+      "locator": "Publisher’s brand-new story description and 2018 trade edition; official story Available In lists the 2024 collection separately. Original bibliographic introduction, without plot outcomes.",
       "note": "Only the original visitor introduction is enriched; identities, editions, first publication and collection memberships remain separately evidenced."
     },
     {

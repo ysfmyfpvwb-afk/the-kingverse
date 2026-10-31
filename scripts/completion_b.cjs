@@ -110,7 +110,7 @@ function validateCompletionB(bundle,baseline){
   try{assert.deepEqual(bundle.registry.aliases,baseline.registry.aliases);assert.deepEqual(bundle.manifest,baseline.manifest);}catch{fail('b-baseline-metadata-changed','Existing aliases/manifest changed');}
   if(bundle.characters.length-baseline.characters.length!==19||bundle.locations.length-baseline.locations.length!==7||bundle.series.length-baseline.series.length!==4||bundle.connections.length-baseline.connections.length!==127||bundle.adaptations.length-baseline.adaptations.length!==15)fail('b-batch-boundary','Reviewed scope: nineteen characters, seven locations, four series, fifteen screen productions and one hundred and twenty-seven links');
   if(bundle.editions.length-baseline.editions.length!==101)fail('b-edition-boundary','Exactly one hundred and one reviewed English editions');
-  for(const [t,count]of Object.entries({works:1,people:3,credits:8,publicationEvents:2,collections:1,collectionMemberships:1,artworks:0}))if(bundle[t].length-baseline[t].length!==count)fail('b-out-of-scope-addition',t);
+  for(const [t,count]of Object.entries({works:1,people:3,credits:8,publicationEvents:3,collections:1,collectionMemberships:1,artworks:0}))if(bundle[t].length-baseline[t].length!==count)fail('b-out-of-scope-addition',t);
  }
  return errors;
 }

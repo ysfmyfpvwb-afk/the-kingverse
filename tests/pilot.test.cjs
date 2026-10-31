@@ -255,3 +255,7 @@ test('Rare editions keep digital publications and dated library observations dis
 test('Five core literary profiles and two places navigate directly without importing movie events or endings',()=>{
  for(const[c,w]of [[23,3],[24,9],[25,4],[26,31],[27,31]]){const id='chr:'+String(c).padStart(6,'0'),work='wrk:'+String(w).padStart(6,'0'),p=index(id);assert.ok(p.node.description.length>80);assert.ok(p.connections.some(e=>e.target.id===work));assert.ok(index(work).connections.some(e=>e.target.id===id));assert.equal(p.node.spoiler.level,'none');}assert.ok(index('wrk:000031').connections.some(e=>e.target.id==='loc:000008'&&e.predicate==='set_in'));assert.ok(index('wrk:000014').connections.some(e=>e.target.id==='loc:000009'&&e.predicate==='shared_reference'));assert.doesNotMatch(index('loc:000009').node.description,/destroyed|Farson|mother/);assert.doesNotMatch(index('chr:000026').node.description,/innocent|executed|dies/);assert.equal(index('chr:000027').node.label,'Paul Edgecombe');
 });
+
+test('Turbulence first publication is separate from the later official collection-date observation',()=>{
+ const p=index('wrk:000193');assert.ok(p.publicationDates.some(d=>d.value==='2018-09'&&d.meaning==='first-publication'&&d.precision==='month'));assert.ok(p.publicationDates.some(d=>d.value==='2024-05'&&d.meaning==='source-reported-release'));assert.equal(p.sections.memberships.total,2);assert.ok(p.sections.publications.items.some(e=>e.eventType==='first-publication'&&e.editionId==='edn:000191'));
+});
