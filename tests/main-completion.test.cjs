@@ -51,7 +51,7 @@ test('Core novel introductions reach the main details without changing editions 
 
 test('New publisher editions render on main pages with edition dates separate from original work years',()=>{
  run("tab='books';lang='en'");const html=run("detailContent(B.find(r=>r.canonicalId==='wrk:000242'))");assert.match(html,/2000/);assert.match(html,/2020-06-02/);assert.match(html,/9781982159375/);assert.match(html,/Scribner/);assert.match(html,/simonandschuster\.com/);
- const misery=run("detailContent(B.find(r=>r.canonicalId==='wrk:000021'))");assert.match(misery,/2016-01-05/);assert.match(misery,/9781501143106/);assert.equal(run("media(B.find(r=>r.canonicalId==='wrk:000021')).image"),run("MEDIA.books.Misery.en.image"));assert.equal(run('DB.editions.length'),216);
+ const misery=run("detailContent(B.find(r=>r.canonicalId==='wrk:000021'))");assert.match(misery,/2016-01-05/);assert.match(misery,/9781501143106/);assert.equal(run("media(B.find(r=>r.canonicalId==='wrk:000021')).image"),run("MEDIA.books.Misery.en.image"));assert.equal(run('DB.editions.length'),224);
 });
 
 test('Visitor connection explanations use readable content while retaining optional source links',()=>{
@@ -272,4 +272,8 @@ test('Recent novel hardcovers appear on main pages without replacing coauthor cr
 
 test('Classic English edition metadata reaches the original main book routes',()=>{
  run("tab='books';lang='en'");for(const[w,isbn]of [[12,'9781668075777'],[8,'9781668230480'],[13,'9781668208120'],[18,'9781501144523'],[20,'9781501192203'],[24,'9781501144196'],[23,'9781501144288'],[4,'9780345806796']]){const id='wrk:'+String(w).padStart(6,'0');assert.match(run(`detailContent(B.find(b=>b.canonicalId===${JSON.stringify(id)}))`),new RegExp(isbn));}
+});
+
+test('Nineties editions render on main book pages with digital dates limited to the verified year',()=>{
+ run("tab='books';lang='en'");for(const[w,isbn]of [[26,'9781501147418'],[27,'9781501141225'],[28,'9781501141188'],[29,'9781501144226'],[30,'9781501192302'],[31,'9780743210898'],[32,'9781501192234'],[33,'9781501144271']]){const id='wrk:'+String(w).padStart(6,'0'),html=run(`detailContent(B.find(b=>b.canonicalId===${JSON.stringify(id)}))`);assert.match(html,new RegExp(isbn));if([27,28].includes(w)){assert.match(html,/eBook/);assert.doesNotMatch(html,/2016-01-01/);}}
 });

@@ -6818,6 +6818,142 @@
         "ISBN13",
         "edition publication date"
       ]
+    },
+    {
+      "key": "nineties-217-edition-publisher",
+      "url": "https://www.simonandschuster.com/books/Needful-Things/Stephen-King/9781501147418",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. ISBN-specific edition date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "nineties-218-edition-publisher",
+      "url": "https://www.simonandschuster.com/books/Geralds-Game/Stephen-King/9781501141225",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. ISBN-specific edition date only; no original-publication, first-printing, page-count or image claim. Publisher reports 2016-01-01 for the ebook; day/month precision not adopted. This is not the novel’s original publication.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "nineties-219-edition-publisher",
+      "url": "https://www.simonandschuster.com/books/Dolores-Claiborne/Stephen-King/9781501141188",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. ISBN-specific edition date only; no original-publication, first-printing, page-count or image claim. Publisher reports 2016-01-01 for the ebook; day/month precision not adopted. This is not the novel’s original publication.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "nineties-220-edition-publisher",
+      "url": "https://www.simonandschuster.com/books/Insomnia/Stephen-King/9781501144226",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. ISBN-specific edition date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "nineties-221-edition-publisher",
+      "url": "https://www.simonandschuster.com/books/Rose-Madder/Stephen-King/9781501192302",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. ISBN-specific edition date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "nineties-222-edition-publisher",
+      "url": "https://www.simonandschuster.com/books/The-Green-Mile/Stephen-King/9780743210898",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. ISBN-specific edition date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "nineties-223-edition-publisher",
+      "url": "https://www.simonandschuster.com/books/Desperation/Stephen-King/9781501192234",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. ISBN-specific edition date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "regulators-paperback-publisher",
+      "url": "https://www.simonandschuster.com/books/The-Regulators/Stephen-King/The-Bachman-Books/9781501144271",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. ISBN-specific edition date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
     }
   ],
   "records": [
@@ -13653,6 +13789,240 @@
       "identityStatus": "identified",
       "sourceKeys": [
         "salem-vintage-paperback-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "nineties-217-edition",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000026"
+      },
+      "language": "en",
+      "title": "Needful Things",
+      "isbn13": "9781501147418",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2018-03-20",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Trade Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "nineties-217-edition-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "nineties-218-edition",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000027"
+      },
+      "language": "en",
+      "title": "Gerald's Game",
+      "isbn13": "9781501141225",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2016",
+        "precision": "year",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "eBook",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "nineties-218-edition-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned.",
+        "Publisher reports January 1, 2016 for this digital edition. Only the year is adopted; exact release day is not independently established."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "nineties-219-edition",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000028"
+      },
+      "language": "en",
+      "title": "Dolores Claiborne",
+      "isbn13": "9781501141188",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2016",
+        "precision": "year",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "eBook",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "nineties-219-edition-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned.",
+        "Publisher reports January 1, 2016 for this digital edition. Only the year is adopted; exact release day is not independently established."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "nineties-220-edition",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000029"
+      },
+      "language": "en",
+      "title": "Insomnia",
+      "isbn13": "9781501144226",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2016-02-16",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Trade Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "nineties-220-edition-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "nineties-221-edition",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000030"
+      },
+      "language": "en",
+      "title": "Rose Madder",
+      "isbn13": "9781501192302",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2018-07-17",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Trade Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "nineties-221-edition-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "nineties-222-edition",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000031"
+      },
+      "language": "en",
+      "title": "The Green Mile",
+      "isbn13": "9780743210898",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2000-10-03",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Hardcover",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "nineties-222-edition-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "nineties-223-edition",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000032"
+      },
+      "language": "en",
+      "title": "Desperation",
+      "isbn13": "9781501192234",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2018-02-20",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Trade Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "nineties-223-edition-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "regulators-paperback",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000033"
+      },
+      "language": "en",
+      "title": "The Regulators",
+      "isbn13": "9781501144271",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2016-02-16",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Trade Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "regulators-paperback-publisher"
       ],
       "open": [
         "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
