@@ -7489,6 +7489,76 @@
         "English-language edition",
         "hardcover format"
       ]
+    },
+    {
+      "key": "profile-carrie-literary",
+      "url": "https://stephenking.com/works/novel/carrie.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Synopsis: Carrie White, high-school isolation, mother and telekinetic ability. No prom outcome.",
+      "checkedFields": [
+        "literary name",
+        "opening character role or location",
+        "specific literary continuity"
+      ]
+    },
+    {
+      "key": "profile-dead-zone-literary",
+      "url": "https://stephenking.com/works/novel/dead-zone.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Novel synopsis: former teacher Johnny Smith, coma and touch-based perception. No film-only coma duration, political outcome or character fate.",
+      "checkedFields": [
+        "literary name",
+        "opening character role or location",
+        "specific literary continuity"
+      ]
+    },
+    {
+      "key": "profile-salem-literary",
+      "url": "https://stephenking.com/works/novel/salems-lot.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Novel synopsis: author Ben Mears returns to his hometown to write about a house. No film cast, survivor list or ending.",
+      "checkedFields": [
+        "literary name",
+        "opening character role or location",
+        "specific literary continuity"
+      ]
+    },
+    {
+      "key": "profile-green-mile-literary",
+      "url": "https://stephenking.com/works/novel/green-mile-the-complete-serial-novel.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Novel synopsis, From the Flap and Characters: Coffey, E Block superintendent and narrator, and Cold Mountain Penitentiary. Characters spells the name Edgecombe while synopsis/flap uses Edgecomb; discrepancy retained. No film dates, execution outcomes or guilt revelation.",
+      "checkedFields": [
+        "literary name",
+        "opening character role or location",
+        "specific literary continuity"
+      ]
+    },
+    {
+      "key": "profile-gilead-literary",
+      "url": "https://stephenking.com/darktower/glossary.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Gilead entry: Roland’s home city in the Barony of New Canaan. Its later history and all plot outcomes deliberately omitted.",
+      "checkedFields": [
+        "literary name",
+        "opening character role or location",
+        "specific literary continuity"
+      ]
     }
   ],
   "records": [
@@ -15480,6 +15550,350 @@
         "No ISBN or ASIN supplied by the inspected official Kindle Single entry."
       ],
       "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "carrie-white",
+      "entityType": "character",
+      "checked": "2026-10-31",
+      "name": "Carrie White",
+      "aliases": [],
+      "continuity": "Carrie literary continuity",
+      "summary": {
+        "en": "A high-school student who discovers she has telekinetic abilities. Carrie’s isolation at school and difficult life with her religious mother form the opening situation of King’s first published novel."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "profile-carrie-literary"
+      ],
+      "open": [],
+      "note": "Literary identity and opening role only. No screen-continuity merge, hidden identity, later fate, copied synopsis or new media."
+    },
+    {
+      "key": "carrie-white-literary-appearance",
+      "entityType": "connection",
+      "checked": "2026-10-31",
+      "from": {
+        "type": "character",
+        "id": "chr:000023"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000003"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Carrie White is a character in Carrie. This link refers to the literary work."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "profile-carrie-literary"
+      ],
+      "open": [],
+      "note": "Literary identity and opening role only. No screen-continuity merge, hidden identity, later fate, copied synopsis or new media."
+    },
+    {
+      "key": "johnny-smith",
+      "entityType": "character",
+      "checked": "2026-10-31",
+      "name": "Johnny Smith",
+      "aliases": [],
+      "continuity": "The Dead Zone literary continuity",
+      "summary": {
+        "en": "A former schoolteacher who wakes from a coma with the ability to perceive other people’s pasts and futures through touch. His story in The Dead Zone asks what a person should do with knowledge they never wanted."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "profile-dead-zone-literary"
+      ],
+      "open": [],
+      "note": "Literary identity and opening role only. No screen-continuity merge, hidden identity, later fate, copied synopsis or new media."
+    },
+    {
+      "key": "johnny-smith-literary-appearance",
+      "entityType": "connection",
+      "checked": "2026-10-31",
+      "from": {
+        "type": "character",
+        "id": "chr:000024"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000009"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Johnny Smith is a character in The Dead Zone. This link refers to the literary work."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "profile-dead-zone-literary"
+      ],
+      "open": [],
+      "note": "Literary identity and opening role only. No screen-continuity merge, hidden identity, later fate, copied synopsis or new media."
+    },
+    {
+      "key": "ben-mears",
+      "entityType": "character",
+      "checked": "2026-10-31",
+      "name": "Ben Mears",
+      "aliases": [],
+      "continuity": "'Salem’s Lot literary continuity",
+      "summary": {
+        "en": "An author returning to his childhood hometown to write about a house that has haunted him for years. Ben Mears provides a way into the community at the centre of ’Salem’s Lot."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "profile-salem-literary"
+      ],
+      "open": [],
+      "note": "Literary identity and opening role only. No screen-continuity merge, hidden identity, later fate, copied synopsis or new media."
+    },
+    {
+      "key": "ben-mears-literary-appearance",
+      "entityType": "connection",
+      "checked": "2026-10-31",
+      "from": {
+        "type": "character",
+        "id": "chr:000025"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000004"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Ben Mears is a character in 'Salem’s Lot. This link refers to the literary work."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "profile-salem-literary"
+      ],
+      "open": [],
+      "note": "Literary identity and opening role only. No screen-continuity merge, hidden identity, later fate, copied synopsis or new media."
+    },
+    {
+      "key": "john-coffey",
+      "entityType": "character",
+      "checked": "2026-10-31",
+      "name": "John Coffey",
+      "aliases": [],
+      "continuity": "The Green Mile literary continuity",
+      "summary": {
+        "en": "A gentle prisoner whose arrival on Cold Mountain’s death row unsettles the routines of its guards. John Coffey stands at the centre of The Green Mile’s questions about judgement and compassion."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "profile-green-mile-literary"
+      ],
+      "open": [],
+      "note": "Literary identity and opening role only. No screen-continuity merge, hidden identity, later fate, copied synopsis or new media."
+    },
+    {
+      "key": "john-coffey-literary-appearance",
+      "entityType": "connection",
+      "checked": "2026-10-31",
+      "from": {
+        "type": "character",
+        "id": "chr:000026"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000031"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "John Coffey is a character in The Green Mile. This link refers to the literary work."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "profile-green-mile-literary"
+      ],
+      "open": [],
+      "note": "Literary identity and opening role only. No screen-continuity merge, hidden identity, later fate, copied synopsis or new media."
+    },
+    {
+      "key": "paul-edgecombe",
+      "entityType": "character",
+      "checked": "2026-10-31",
+      "name": "Paul Edgecombe",
+      "aliases": [],
+      "continuity": "The Green Mile literary continuity",
+      "summary": {
+        "en": "The superintendent of E Block at Cold Mountain Penitentiary and narrator of The Green Mile. His work places him among the prisoners and guards whose everyday routines are disrupted by John Coffey’s arrival."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "profile-green-mile-literary"
+      ],
+      "open": [
+        "Official page has inconsistent Edgecomb/Edgecombe spelling; no automatic name merge."
+      ],
+      "note": "Literary identity and opening role only. No screen-continuity merge, hidden identity, later fate, copied synopsis or new media.",
+      "conflicts": [
+        {
+          "fieldPath": "/name",
+          "value": "Paul Edgecomb",
+          "sourceKeys": [
+            "profile-green-mile-literary"
+          ],
+          "note": "Official synopsis/flap uses Edgecomb; detailed literary Characters entry uses Edgecombe. Display follows the character list; variation remains unselected and disputed."
+        }
+      ]
+    },
+    {
+      "key": "paul-edgecombe-literary-appearance",
+      "entityType": "connection",
+      "checked": "2026-10-31",
+      "from": {
+        "type": "character",
+        "id": "chr:000027"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000031"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Paul Edgecombe is a character in The Green Mile. This link refers to the literary work."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "profile-green-mile-literary"
+      ],
+      "open": [],
+      "note": "Literary identity and opening role only. No screen-continuity merge, hidden identity, later fate, copied synopsis or new media."
+    },
+    {
+      "key": "cold-mountain-penitentiary",
+      "entityType": "location",
+      "checked": "2026-10-31",
+      "name": "Cold Mountain Penitentiary",
+      "locationKind": "place",
+      "aliases": [],
+      "continuity": "The Green Mile literary setting",
+      "summary": {
+        "en": "The prison whose E Block is known as the Green Mile. Its death-row prisoners and guards form the community at the centre of King’s serial novel."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "profile-green-mile-literary"
+      ],
+      "open": [],
+      "note": "Literary identity and opening role only. No screen-continuity merge, hidden identity, later fate, copied synopsis or new media."
+    },
+    {
+      "key": "green-mile-cold-mountain",
+      "entityType": "connection",
+      "checked": "2026-10-31",
+      "from": {
+        "type": "work",
+        "id": "wrk:000031"
+      },
+      "predicate": "set_in",
+      "to": {
+        "type": "location",
+        "id": "loc:000008"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Cold Mountain Penitentiary’s E Block is the central prison setting of The Green Mile."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "profile-green-mile-literary"
+      ],
+      "open": [],
+      "note": "Literary identity and opening role only. No screen-continuity merge, hidden identity, later fate, copied synopsis or new media."
+    },
+    {
+      "key": "gilead-city",
+      "entityType": "location",
+      "checked": "2026-10-31",
+      "name": "Gilead",
+      "locationKind": "place",
+      "aliases": [],
+      "continuity": "The Dark Tower literary world",
+      "summary": {
+        "en": "Roland’s home city in the Barony of New Canaan. Gilead belongs to the background and traditions of the gunslinger’s world; its history can be discovered through The Dark Tower books."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "profile-gilead-literary"
+      ],
+      "open": [],
+      "note": "Literary identity and opening role only. No screen-continuity merge, hidden identity, later fate, copied synopsis or new media."
+    },
+    {
+      "key": "gunslinger-gilead-reference",
+      "entityType": "connection",
+      "checked": "2026-10-31",
+      "from": {
+        "type": "work",
+        "id": "wrk:000014"
+      },
+      "predicate": "shared_reference",
+      "to": {
+        "type": "location",
+        "id": "loc:000009"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The Gunslinger introduces Roland of Gilead; the city is part of his background."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "profile-gilead-literary",
+        "tower-192-paperback-publisher"
+      ],
+      "open": [],
+      "note": "Literary identity and opening role only. No screen-continuity merge, hidden identity, later fate, copied synopsis or new media."
     }
   ],
   "deferred": [

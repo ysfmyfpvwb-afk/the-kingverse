@@ -11,7 +11,7 @@ function assertScreenIdentityPreserved(id){
 
 test('Bounded B additions preserve every prior identity, record, alias and manifest',()=>{
  assert.deepEqual(base,before);assert.deepEqual(validateCompletionB(bundle,base),[]);
- assert.equal(bundle.characters.length-base.characters.length,14);assert.equal(bundle.locations.length-base.locations.length,5);assert.equal(bundle.series.length-base.series.length,4);assert.equal(bundle.adaptations.length-base.adaptations.length,15);assert.equal(bundle.connections.length-base.connections.length,120);
+ assert.equal(bundle.characters.length-base.characters.length,19);assert.equal(bundle.locations.length-base.locations.length,7);assert.equal(bundle.series.length-base.series.length,4);assert.equal(bundle.adaptations.length-base.adaptations.length,15);assert.equal(bundle.connections.length-base.connections.length,127);
  assert.throws(()=>extendCompletionB(bundle),/collision|already exists/);
 });
 test('The Hodges sequence links exactly the three existing novels with supported positions',()=>{
@@ -204,7 +204,7 @@ test('Five identified English reissues preserve all unknown legacy edition and c
 });
 
 test('Five short-work context links preserve identities and avoid invented adaptation chronology',()=>{
- const links=bundle.connections.filter(c=>+c.id.slice(4)>=165&&+c.id.slice(4)<=169);assert.equal(links.length,5);assert.deepEqual(links.map(c=>[c.from.id,c.predicate,c.to.id]),[['wrk:000217','set_in','loc:000006'],['wrk:000217','shared_reference','wrk:000005'],['wrk:000229','shared_reference','wrk:000046'],['wrk:000234','shared_reference','wrk:000023'],['wrk:000237','shared_reference','wrk:000039']]);assert.ok(links.every(c=>c.spoiler.level==='none'&&c.certainty==='explicit'));assert.equal(bundle.works.length,250);assert.equal(bundle.locations.length,7);assert.ok(!links.some(c=>c.predicate==='adaptation_of'||c.predicate==='sequel_to'||c.predicate==='prequel_to'));
+ const links=bundle.connections.filter(c=>+c.id.slice(4)>=165&&+c.id.slice(4)<=169);assert.equal(links.length,5);assert.deepEqual(links.map(c=>[c.from.id,c.predicate,c.to.id]),[['wrk:000217','set_in','loc:000006'],['wrk:000217','shared_reference','wrk:000005'],['wrk:000229','shared_reference','wrk:000046'],['wrk:000234','shared_reference','wrk:000023'],['wrk:000237','shared_reference','wrk:000039']]);assert.ok(links.every(c=>c.spoiler.level==='none'&&c.certainty==='explicit'));assert.equal(bundle.works.length,250);assert.equal(bundle.locations.length,9);assert.ok(!links.some(c=>c.predicate==='adaptation_of'||c.predicate==='sequel_to'||c.predicate==='prequel_to'));
 });
 
 test('All current screen entries have sourced introductions while five unconfirmed projects retain unknown status',()=>{
@@ -240,4 +240,8 @@ test('Flight or Fright reuses the Turbulence story and credits editors without i
 
 test('New anthology memberships reject wrong edition owners and duplicate story pairs',()=>{
  const wrong=structuredClone(bundle);wrong.collectionMemberships.find(m=>m.id==='mem:000159').editionIds=['edn:000188'];assert.ok(validateCompletionB(wrong,base).some(e=>e.code==='b-membership-endpoint'));const duplicate=structuredClone(bundle);duplicate.collectionMemberships.push({...structuredClone(duplicate.collectionMemberships.find(m=>m.id==='mem:000159')),id:'mem:999999'});assert.ok(validateCompletionB(duplicate,base).some(e=>e.code==='b-membership-duplicate'));
+});
+
+test('The literary Edgecombe display preserves the official alternative spelling and reused source identity',()=>{
+ const p=bundle.characters.find(c=>c.id==='chr:000027'),claims=bundle.claims.filter(c=>c.subject.id===p.id&&c.fieldPath==='/name');assert.equal(p.name,'Paul Edgecombe');assert.equal(claims.filter(c=>c.selected).length,1);const alternate=claims.find(c=>!c.selected);assert.equal(alternate.value,'Paul Edgecomb');assert.equal(alternate.status,'disputed');assert.ok(alternate.sourceIds.every(id=>bundle.sources.some(s=>s.id===id&&s.url.includes('green-mile-the-complete-serial-novel'))));const invalid=structuredClone(bundle);invalid.claims.find(c=>c.id===alternate.id).sourceIds=['src:000001'];assert.ok(validateCompletionB(invalid,base).some(e=>e.code==='b-conflict-preservation'));
 });

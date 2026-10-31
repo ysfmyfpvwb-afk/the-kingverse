@@ -293,3 +293,7 @@ test('Special publication metadata reaches main pages without false comic or chi
 test('Every current library entry has an identified English edition except the serial and stage project',()=>{
  const bundle=require('../scripts/completion_b.cjs').extendCompletionB(require('../scripts/build_completion.cjs').loadCompletion()),db=generateMainCompletion().db;const missing=db.books.filter(b=>!bundle.editions.some(e=>e.publicationOf.id===b.canonicalId&&e.language==='en'&&e.identityStatus==='identified'));assert.deepEqual(missing.map(b=>b.canonicalId),['wrk:000247','wrk:000249']);assert.equal(db.books.length,97);run("tab='books';lang='en'");assert.match(run("detailContent(B.find(b=>b.canonicalId==='wrk:000067'))"),/9781668233092/);assert.match(run("detailContent(B.find(b=>b.canonicalId==='col:000016'))"),/9780965006439/);assert.match(run("detailContent(B.find(b=>b.canonicalId==='wrk:000244'))"),/Amazon Kindle Single/);
 });
+
+test('Core character and setting links are visible on the corresponding main book pages',()=>{
+ run("tab='books';lang='en'");for(const[w,labels]of [[3,['Carrie White']],[9,['Johnny Smith']],[4,['Ben Mears']],[31,['John Coffey','Paul Edgecombe','Cold Mountain Penitentiary']],[14,['Gilead']]]){const id='wrk:'+String(w).padStart(6,'0'),html=run(`detailContent(B.find(b=>b.canonicalId===${JSON.stringify(id)}))`);for(const label of labels)assert.ok(html.includes(label));assert.match(html,/explorer\/pilot\//);}
+});

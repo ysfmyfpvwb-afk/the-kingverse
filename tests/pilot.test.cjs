@@ -12,14 +12,14 @@ test('Pilot is reproducible, all generated files match, and all earlier baseline
 });
 // Lazy-loaded search may grow to 16 KiB with new bibliographic entries; the initial-shell limit remains unchanged.
 test('Every canonical identity, type and endpoint has an independent bounded deep-link payload',()=>{
- assert.equal(out.full.nodes.length,720);for(const n of out.full.nodes){const p=index(n.id);assert.ok(p);if(out.base.nodes.some(s=>s.id===n.id)){assert.equal(p.node.id,n.id);assert.equal(p.node.type,n.type);assert.equal(p.node.label,n.label);}else assert.equal(p.scope,'gated');}
+ assert.equal(out.full.nodes.length,727);for(const n of out.full.nodes){const p=index(n.id);assert.ok(p);if(out.base.nodes.some(s=>s.id===n.id)){assert.equal(p.node.id,n.id);assert.equal(p.node.type,n.type);assert.equal(p.node.label,n.label);}else assert.equal(p.scope,'gated');}
  const types=new Set(out.full.nodes.map(n=>n.type));assert.equal(types.size,8);
  for(const[name,p]of out.payloads)if(!name.startsWith('search.')){assert.ok(Buffer.byteLength(out.files.get('explorer/pilot/'+name))<=LIMIT);for(const e of p.connections||[])assert.ok(index(e.target.id));}
  assert.equal(out.report.payload.initialAggregateProjectBytesLoaded,0);assert.ok(out.report.payload.maxEntityBytes<40000);assert.ok(out.report.payload.searchGzipBytes<16*1024);
 });
-test('All 214 relationships preserve source claims, certainty, spoiler scope and current verification in both directions',()=>{
+test('All 221 relationships preserve source claims, certainty, spoiler scope and current verification in both directions',()=>{
  const seen=new Set();for(const n of out.full.nodes){for(const e of [...index(n.id).connections||[],...plot(n.id).connections]){seen.add(e.id);const old=out.full.connections.find(c=>c.id===e.id);assert.deepEqual(e.evidence,old.evidence);assert.equal(e.certainty,old.certainty);assert.deepEqual(e.spoiler,old.spoiler);assert.equal(e.verification,old.verification);assert.equal(e.target.id,e.from.id===n.id?e.to.id:e.from.id);}}
- assert.equal(seen.size,214);assert.equal(plot('wrk:000002').connections.find(e=>e.id==='rel:000007').verification,'provisional');
+ assert.equal(seen.size,221);assert.equal(plot('wrk:000002').connections.find(e=>e.id==='rel:000007').verification,'provisional');
 });
 test('The full Talisman chain has direct sibling navigation from canonical series memberships',()=>{
  for(const id of ['wrk:000001','wrk:000002','wrk:000067']){const p=index(id),members=p.series.find(s=>s.series.id==='ser:000002').members;assert.deepEqual(members.map(m=>m.target.id),['wrk:000001','wrk:000002','wrk:000067']);assert.deepEqual(members.map(m=>m.position),[1,2,3]);}
@@ -36,7 +36,7 @@ test('Long contribution and collection lists use six-record chunks with no missi
  for(const [id,k]of [['per:000001','creators'],['col:000006','memberships']]){const section=index(id).sections[k],rows=[...section.items];let next=section.next;assert.ok(next);while(next){const p=out.payloads.get(next);assert.ok(p.items.length<=6);rows.push(...p.items);next=p.next;}assert.equal(rows.length,section.total);assert.equal(new Set(rows.map(r=>r.id)).size,rows.length);}
 });
 test('Default pages, search aliases, metadata and gated entries contain none of the six plot-only labels',()=>{
- const search=out.payloads.get(out.report.assets.search);assert.equal(search.records.length,714);
+ const search=out.payloads.get(out.report.assets.search);assert.equal(search.records.length,721);
  for(const n of out.plot.nodes){for(const name of out.report.files.filter(f=>f.file.endsWith('/index.json')).map(f=>f.file))assert.ok(!JSON.stringify(out.payloads.get(name)).includes(n.label),name);assert.ok(!JSON.stringify(search).includes(n.label));assert.ok(!out.files.get('explorer/pilot/index.html').includes(n.label));assert.ok(!('node'in index(n.id)));}
  assert.ok(plot('chr:000005').node);assert.equal(plot('chr:000005').node.label,'Father Callahan');
 });
@@ -250,4 +250,8 @@ test('Special editions preserve comic scope, picture-book formats and unresolved
 
 test('Rare editions keep digital publications and dated library observations distinct from new works',()=>{
  for(const[e,owner]of [[249,'wrk:000067'],[250,'wrk:000006'],[251,'col:000014'],[252,'col:000015'],[253,'wrk:000071'],[254,'col:000016'],[255,'wrk:000244']]){const id='edn:'+String(e).padStart(6,'0'),p=index(id);assert.equal(p.parent.id,owner);assert.ok(index(owner).sections.editions.items.some(r=>r.id===id));assert.equal(p.node.data.publicationDate.meaning,'edition-publication');}assert.equal(index('edn:000249').node.data.publicationDate.value,'2026-10-06');for(const e of [250,252,253,254])assert.equal(index('edn:'+String(e).padStart(6,'0')).node.data.publicationDate.precision,'year');assert.equal(index('edn:000253').node.data.isbn13,'9780670823079');assert.equal(index('edn:000255').node.data.format,'Amazon Kindle Single');assert.equal(index('edn:000255').node.data.isbn13,null);assert.equal(index('edn:000255').node.data.publicationDate.value,'2013-01');assert.equal(index('col:000014').sections.memberships.total,4);
+});
+
+test('Five core literary profiles and two places navigate directly without importing movie events or endings',()=>{
+ for(const[c,w]of [[23,3],[24,9],[25,4],[26,31],[27,31]]){const id='chr:'+String(c).padStart(6,'0'),work='wrk:'+String(w).padStart(6,'0'),p=index(id);assert.ok(p.node.description.length>80);assert.ok(p.connections.some(e=>e.target.id===work));assert.ok(index(work).connections.some(e=>e.target.id===id));assert.equal(p.node.spoiler.level,'none');}assert.ok(index('wrk:000031').connections.some(e=>e.target.id==='loc:000008'&&e.predicate==='set_in'));assert.ok(index('wrk:000014').connections.some(e=>e.target.id==='loc:000009'&&e.predicate==='shared_reference'));assert.doesNotMatch(index('loc:000009').node.description,/destroyed|Farson|mother/);assert.doesNotMatch(index('chr:000026').node.description,/innocent|executed|dies/);assert.equal(index('chr:000027').node.label,'Paul Edgecombe');
 });
