@@ -56,3 +56,7 @@ test('Approved local artwork shows its credit and falls back cleanly if the file
  const main=h.ids.get('main'),img=main.querySelector('img');assert.equal(img.src,'../../'+src);assert.match(main.textContent,/Artwork credit supplied with permission/);
  img.handlers.error();assert.equal(img.src,'../../'+fallback);assert.doesNotMatch(main.textContent,/Artwork credit supplied with permission/);assert.match(main.textContent,/Cover not available/);
 });
+
+test('Anthology bylines show unique editors while details retain every contribution role',async()=>{
+ const h=await harness(),find=(n,cls)=>n.className===cls?n:n.children.map(c=>find(c,cls)).find(Boolean);h.context.location.search='?entity=col%3A000017';await h.events.popstate();const by=find(h.ids.get('main'),'byline');assert.equal(by.textContent,'Edited by Stephen King · Bev Vincent');assert.equal(by.children.filter(c=>c.tagName==='a').length,2);await h.ids.get('record-open').handlers.click();assert.match(h.ids.get('record-body').textContent,/Authors & contributors · 4/);assert.equal((h.ids.get('record-body').textContent.match(/Editor/g)||[]).length,2);assert.equal((h.ids.get('record-body').textContent.match(/Contributor/g)||[]).length,2);h.context.history.state=null;await h.events.popstate();h.context.location.search='?entity=wrk%3A000056';await h.events.popstate();const authors=find(h.ids.get('main'),'byline');assert.match(authors.textContent,/^By /);assert.match(authors.textContent,/Owen King/);assert.equal(authors.children.filter(c=>c.tagName==='a'&&c.textContent==='Stephen King').length,1);
+});
