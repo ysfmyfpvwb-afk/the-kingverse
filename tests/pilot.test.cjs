@@ -12,7 +12,7 @@ test('Pilot is reproducible, all generated files match, and all earlier baseline
 });
 // Lazy-loaded search may grow to 16 KiB with new bibliographic entries; the initial-shell limit remains unchanged.
 test('Every canonical identity, type and endpoint has an independent bounded deep-link payload',()=>{
- assert.equal(out.full.nodes.length,707);for(const n of out.full.nodes){const p=index(n.id);assert.ok(p);if(out.base.nodes.some(s=>s.id===n.id)){assert.equal(p.node.id,n.id);assert.equal(p.node.type,n.type);assert.equal(p.node.label,n.label);}else assert.equal(p.scope,'gated');}
+ assert.equal(out.full.nodes.length,713);for(const n of out.full.nodes){const p=index(n.id);assert.ok(p);if(out.base.nodes.some(s=>s.id===n.id)){assert.equal(p.node.id,n.id);assert.equal(p.node.type,n.type);assert.equal(p.node.label,n.label);}else assert.equal(p.scope,'gated');}
  const types=new Set(out.full.nodes.map(n=>n.type));assert.equal(types.size,8);
  for(const[name,p]of out.payloads)if(!name.startsWith('search.')){assert.ok(Buffer.byteLength(out.files.get('explorer/pilot/'+name))<=LIMIT);for(const e of p.connections||[])assert.ok(index(e.target.id));}
  assert.equal(out.report.payload.initialAggregateProjectBytesLoaded,0);assert.ok(out.report.payload.maxEntityBytes<40000);assert.ok(out.report.payload.searchGzipBytes<16*1024);
@@ -36,7 +36,7 @@ test('Long contribution and collection lists use six-record chunks with no missi
  for(const [id,k]of [['per:000001','creators'],['col:000006','memberships']]){const section=index(id).sections[k],rows=[...section.items];let next=section.next;assert.ok(next);while(next){const p=out.payloads.get(next);assert.ok(p.items.length<=6);rows.push(...p.items);next=p.next;}assert.equal(rows.length,section.total);assert.equal(new Set(rows.map(r=>r.id)).size,rows.length);}
 });
 test('Default pages, search aliases, metadata and gated entries contain none of the six plot-only labels',()=>{
- const search=out.payloads.get(out.report.assets.search);assert.equal(search.records.length,701);
+ const search=out.payloads.get(out.report.assets.search);assert.equal(search.records.length,707);
  for(const n of out.plot.nodes){for(const name of out.report.files.filter(f=>f.file.endsWith('/index.json')).map(f=>f.file))assert.ok(!JSON.stringify(out.payloads.get(name)).includes(n.label),name);assert.ok(!JSON.stringify(search).includes(n.label));assert.ok(!out.files.get('explorer/pilot/index.html').includes(n.label));assert.ok(!('node'in index(n.id)));}
  assert.ok(plot('chr:000005').node);assert.equal(plot('chr:000005').node.label,'Father Callahan');
 });
@@ -242,4 +242,8 @@ test('Ten millennium editions preserve format distinctions and keep the time-tra
 
 test('Hard Case and remaining novel editions retain territory and existing collaborator roles',()=>{
  for(const[e,w]of [[235,11],[236,17],[237,42],[238,50],[239,51],[240,53],[241,59],[242,61]]){const id='edn:'+String(e).padStart(6,'0'),work='wrk:'+String(w).padStart(6,'0');assert.equal(index(id).parent.id,work);assert.ok(index(work).sections.editions.items.some(r=>r.id===id));}const j=index('edn:000238').node.data;assert.equal(j.publicationDate.value,'2013-06-04');assert.equal(j.publicationDate.territory,'US');assert.equal(j.isbn13,'9781781162644');assert.equal(index('edn:000237').node.data.format,'Mass Market Paperback');assert.equal(index('edn:000242').node.data.publicationDate.value,'2021-03-02');
+});
+
+test('Special editions preserve comic scope, picture-book formats and unresolved identifiers',()=>{
+ for(const[e,w]of [[243,68],[244,69],[245,70],[246,245],[247,246],[248,248]]){const id='edn:'+String(e).padStart(6,'0'),work='wrk:'+String(w).padStart(6,'0');assert.equal(index(id).parent.id,work);assert.ok(index(work).sections.editions.items.some(r=>r.id===id));}assert.equal(index('edn:000244').node.data.isbn13,null);assert.equal(index('edn:000246').node.data.format,'Paper Over Board');assert.equal(index('edn:000247').node.data.isbn13,'9780062644695');const s=index('edn:000248').node.data;assert.equal(s.publicationDate.value,'1999-02');assert.equal(s.publicationDate.precision,'month');assert.equal(s.publisher,null);assert.equal(index('edn:000244').node.label,'American Vampire Vol. 1');
 });

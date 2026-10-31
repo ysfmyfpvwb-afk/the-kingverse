@@ -51,7 +51,7 @@ test('Core novel introductions reach the main details without changing editions 
 
 test('New publisher editions render on main pages with edition dates separate from original work years',()=>{
  run("tab='books';lang='en'");const html=run("detailContent(B.find(r=>r.canonicalId==='wrk:000242'))");assert.match(html,/2000/);assert.match(html,/2020-06-02/);assert.match(html,/9781982159375/);assert.match(html,/Scribner/);assert.match(html,/simonandschuster\.com/);
- const misery=run("detailContent(B.find(r=>r.canonicalId==='wrk:000021'))");assert.match(misery,/2016-01-05/);assert.match(misery,/9781501143106/);assert.equal(run("media(B.find(r=>r.canonicalId==='wrk:000021')).image"),run("MEDIA.books.Misery.en.image"));assert.equal(run('DB.editions.length'),242);
+ const misery=run("detailContent(B.find(r=>r.canonicalId==='wrk:000021'))");assert.match(misery,/2016-01-05/);assert.match(misery,/9781501143106/);assert.equal(run("media(B.find(r=>r.canonicalId==='wrk:000021')).image"),run("MEDIA.books.Misery.en.image"));assert.equal(run('DB.editions.length'),248);
 });
 
 test('Visitor connection explanations use readable content while retaining optional source links',()=>{
@@ -284,4 +284,8 @@ test('Millennium edition metadata appears on the existing ten main literary page
 
 test('Hard Case and remaining novels show publisher-identified editions on their original routes',()=>{
  run("tab='books';lang='en'");for(const[w,isbn]of [[11,'9781501192210'],[17,'9781501177224'],[42,'9781789093896'],[50,'9781781162644'],[51,'9781668234051'],[53,'9781476770390'],[59,'9781982102319'],[61,'9781789096491']]){const id='wrk:'+String(w).padStart(6,'0');assert.match(run(`detailContent(B.find(b=>b.canonicalId===${JSON.stringify(id)}))`),new RegExp(isbn));}
+});
+
+test('Special publication metadata reaches main pages without false comic or children-book authorship',()=>{
+ run("tab='books';lang='en'");for(const[w,isbn]of [[68,'9781587672286'],[70,'9780743267533'],[245,'9781534401235'],[246,'9780062644695'],[248,'9780671032647']]){const id='wrk:'+String(w).padStart(6,'0');assert.match(run(`detailContent(B.find(b=>b.canonicalId===${JSON.stringify(id)}))`),new RegExp(isbn));}assert.match(run("detailContent(B.find(b=>b.canonicalId==='wrk:000069'))"),/Scott Snyder/);assert.match(run("detailContent(B.find(b=>b.canonicalId==='wrk:000246'))"),/Maurice Sendak/);assert.match(run("detailContent(B.find(b=>b.canonicalId==='wrk:000248'))"),/1999-02/);
 });

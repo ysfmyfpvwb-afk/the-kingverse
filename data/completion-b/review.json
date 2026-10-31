@@ -7260,6 +7260,106 @@
         "ISBN13",
         "edition publication date"
       ]
+    },
+    {
+      "key": "blockade-cemetery-hardcover-publisher",
+      "url": "https://www.cemeterydance.com/blockade-billy.html",
+      "publisher": "Cemetery Dance Publications",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. ISBN-specific edition date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "american-vampire-vol-one-hardcover-publisher",
+      "url": "https://www.dc.com/graphic-novels/american-vampire-2010/american-vampire-vol-1",
+      "publisher": "DC Comics",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Official first hardcover volume, collects American Vampire #1–5; on-sale September 29, 2010. ISBN absent. Distinct from the later Book One omnibus.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "faithful-scribner-paperback-publisher",
+      "url": "https://www.simonandschuster.com/books/Faithful/Stewart-ONan/9780743267533",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. ISBN-specific edition date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "charlie-picture-book-publisher",
+      "url": "https://www.simonandschuster.com/books/Charlie-the-Choo-Choo/Beryl-Evans/9781534401235",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. ISBN-specific edition date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "hansel-harpercollins-hardcover-publisher",
+      "url": "https://stephenking.com/works/other-project/hansel-and-gretel.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. ISBN-specific edition date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "storm-screenplay-paperback-publisher",
+      "url": "https://www.simonandschuster.net/books/Storm-of-the-Century/Stephen-King/9780671032647",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. ISBN-specific edition date only; no original-publication, first-printing, page-count or image claim. ISBN-specific trade paperback listing: February 1999. First-day date is not treated as independently confirmed; imprint conflict is left open.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
     }
   ],
   "records": [
@@ -14856,6 +14956,182 @@
         "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
       ],
       "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing. Selected US date; Joyland has a separate UK on-sale date (2013-06-07) on the same publisher record."
+    },
+    {
+      "key": "blockade-cemetery-hardcover",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000068"
+      },
+      "language": "en",
+      "title": "Blockade Billy",
+      "isbn13": "9781587672286",
+      "publisher": "Cemetery Dance Publications",
+      "publicationDate": {
+        "value": "2010-04-20",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Hardcover",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "blockade-cemetery-hardcover-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "american-vampire-vol-one-hardcover",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000069"
+      },
+      "language": "en",
+      "title": "American Vampire Vol. 1",
+      "isbn13": null,
+      "publisher": "DC Comics",
+      "publicationDate": {
+        "value": "2010-09-29",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Hardcover",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "american-vampire-vol-one-hardcover-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned.",
+        "The publisher identifies the first hardcover collection of issues 1–5 but provides no ISBN in the inspected page."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "faithful-scribner-paperback",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000070"
+      },
+      "language": "en",
+      "title": "Faithful",
+      "isbn13": "9780743267533",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2005-09-06",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Trade Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "faithful-scribner-paperback-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "charlie-picture-book",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000245"
+      },
+      "language": "en",
+      "title": "Charlie the Choo-Choo",
+      "isbn13": "9781534401235",
+      "publisher": "Simon & Schuster Books for Young Readers",
+      "publicationDate": {
+        "value": "2016-11-22",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Paper Over Board",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "charlie-picture-book-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "hansel-harpercollins-hardcover",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000246"
+      },
+      "language": "en",
+      "title": "Hansel and Gretel",
+      "isbn13": "9780062644695",
+      "publisher": "HarperCollins Children’s Books",
+      "publicationDate": {
+        "value": "2025-09-02",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Hardcover",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "hansel-harpercollins-hardcover-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "storm-screenplay-paperback",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000248"
+      },
+      "language": "en",
+      "title": "Storm of the Century",
+      "isbn13": "9780671032647",
+      "publisher": null,
+      "publicationDate": {
+        "value": "1999-02",
+        "precision": "month",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Trade Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "storm-screenplay-paperback-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned.",
+        "Exact day not independently established; publisher listing reports February 1, 1999 and Scribner, while the official work entry names Pocket Books. Imprint left unresolved; only month adopted."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
     }
   ],
   "deferred": [
