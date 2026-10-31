@@ -6286,6 +6286,97 @@
         "existing work identity",
         "existing collection context"
       ]
+    },
+    {
+      "key": "nightflier-short-source-evidence",
+      "url": "https://en.wikipedia.org/wiki/The_Night_Flier_(film)",
+      "publisher": "Wikipedia",
+      "sourceType": "reference",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Secondary production article explicitly identifies the short story and Mark Pavia/Miguel Ferrer film; corroborated by the official production entry. No new premiere date adopted.",
+      "checkedFields": [
+        "specific production identity",
+        "literary source relationship"
+      ]
+    },
+    {
+      "key": "it-chapter-two-novel-source-evidence",
+      "url": "https://en.wikipedia.org/wiki/It_Chapter_Two",
+      "publisher": "Wikipedia",
+      "sourceType": "reference",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Production article identifies the 2019 Muschietti film as the second part of the adaptation of the 1986 novel; official King production entry retained. No new sequel work invented.",
+      "checkedFields": [
+        "specific production identity",
+        "literary source relationship"
+      ]
+    },
+    {
+      "key": "it-1990-novel-source-evidence",
+      "url": "https://en.wikipedia.org/wiki/It_(miniseries)",
+      "publisher": "Wikipedia",
+      "sourceType": "reference",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Specific 1990 miniseries production infobox credits King’s novel; official King television entry separately confirms production identity. No 2017 or 2019 film credits transferred.",
+      "checkedFields": [
+        "specific production identity",
+        "literary source relationship"
+      ]
+    },
+    {
+      "key": "mist-2017-novella-source-evidence",
+      "url": "https://en.wikipedia.org/wiki/The_Mist_(TV_series)",
+      "publisher": "Wikipedia",
+      "sourceType": "reference",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "2017 television series article identifies the 1980 novella as its source and Christian Torpe as developer; official King TV entry retained. Not the 2007 film, nor all of Skeleton Crew.",
+      "checkedFields": [
+        "specific production identity",
+        "literary source relationship"
+      ]
+    },
+    {
+      "key": "dolan-2009-short-source-evidence",
+      "url": "https://stephenking.com/works/short/dolans-cadillac.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Manual comparison of official story and film: husband’s revenge following murder of his wife before testimony against a crime boss; distinct Jeff Beesley/Richard Dooling production. No publication or release-date inference.",
+      "checkedFields": [
+        "specific production identity",
+        "literary source relationship"
+      ]
+    },
+    {
+      "key": "deadzone-2002-novel-source-evidence",
+      "url": "https://tv.apple.com/us/show/the-dead-zone/umc.cmc.5syjc2wjt8qygwav1wvrb8hh3",
+      "publisher": "Apple TV",
+      "sourceType": "official-production",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Licensed series description explicitly says based on the Stephen King novel and identifies Anthony Michael Hall, Johnny Smith and 2002 series. Distinct from the 1983 film.",
+      "checkedFields": [
+        "specific production identity",
+        "literary source relationship"
+      ]
+    },
+    {
+      "key": "sometimes-1991-short-source-evidence",
+      "url": "https://en.wikipedia.org/wiki/Sometimes_They_Come_Back",
+      "publisher": "Wikipedia",
+      "sourceType": "reference",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Story article’s Adaptations section identifies the 1991 Tim Matheson television film; official King production entry retained. Film-only changes and later sequels are not assigned to the short story.",
+      "checkedFields": [
+        "specific production identity",
+        "literary source relationship"
+      ]
     }
   ],
   "records": [
@@ -12033,6 +12124,195 @@
       "sourceKeys": [
         "institute-2025-novel-source-evidence",
         "film-intro-adp-000060-source"
+      ],
+      "note": "Bounded manual source comparison. Existing opaque identities, credits, release observations, source hypotheses and publication records are retained. No plot outcome or wholesale collection adaptation inferred."
+    },
+    {
+      "key": "nightflier-short-source",
+      "entityType": "connection",
+      "checked": "2026-10-31",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000037"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000125"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The film adapts the short story The Night Flier, collected in Nightmares & Dreamscapes."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "nightflier-short-source-evidence",
+        "film-intro-adp-000037-source"
+      ],
+      "note": "Bounded manual source comparison. Existing opaque identities, credits, release observations, source hypotheses and publication records are retained. No plot outcome or wholesale collection adaptation inferred."
+    },
+    {
+      "key": "it-chapter-two-novel-source",
+      "entityType": "connection",
+      "checked": "2026-10-31",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000027"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000019"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "IT Chapter Two continues the two-film adaptation of King’s novel IT."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "it-chapter-two-novel-source-evidence",
+        "film-intro-adp-000027-source"
+      ],
+      "note": "Bounded manual source comparison. Existing opaque identities, credits, release observations, source hypotheses and publication records are retained. No plot outcome or wholesale collection adaptation inferred."
+    },
+    {
+      "key": "it-1990-novel-source",
+      "entityType": "connection",
+      "checked": "2026-10-31",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000061"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000019"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The 1990 miniseries is a separate television adaptation of the novel IT."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "it-1990-novel-source-evidence",
+        "film-intro-adp-000061-source"
+      ],
+      "note": "Bounded manual source comparison. Existing opaque identities, credits, release observations, source hypotheses and publication records are retained. No plot outcome or wholesale collection adaptation inferred."
+    },
+    {
+      "key": "mist-2017-novella-source",
+      "entityType": "connection",
+      "checked": "2026-10-31",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000065"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000096"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The television series draws on King’s novella The Mist, while developing its own characters and events."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "mist-2017-novella-source-evidence",
+        "film-intro-adp-000065-source"
+      ],
+      "note": "Bounded manual source comparison. Existing opaque identities, credits, release observations, source hypotheses and publication records are retained. No plot outcome or wholesale collection adaptation inferred."
+    },
+    {
+      "key": "dolan-2009-short-source",
+      "entityType": "connection",
+      "checked": "2026-10-31",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000016"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000122"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The film adapts the short story Dolan’s Cadillac from Nightmares & Dreamscapes."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "dolan-2009-short-source-evidence",
+        "film-intro-adp-000016-source"
+      ],
+      "note": "Bounded manual source comparison. Existing opaque identities, credits, release observations, source hypotheses and publication records are retained. No plot outcome or wholesale collection adaptation inferred."
+    },
+    {
+      "key": "deadzone-2002-novel-source",
+      "entityType": "connection",
+      "checked": "2026-10-31",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000078"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000009"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The television series adapts the novel The Dead Zone, with Anthony Michael Hall as Johnny Smith."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "deadzone-2002-novel-source-evidence",
+        "film-intro-adp-000078-source"
+      ],
+      "note": "Bounded manual source comparison. Existing opaque identities, credits, release observations, source hypotheses and publication records are retained. No plot outcome or wholesale collection adaptation inferred."
+    },
+    {
+      "key": "sometimes-1991-short-source",
+      "entityType": "connection",
+      "checked": "2026-10-31",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000071"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000081"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The 1991 television film adapts the short story from Night Shift. Later film sequels are separate productions."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "sometimes-1991-short-source-evidence",
+        "film-intro-adp-000071-source"
       ],
       "note": "Bounded manual source comparison. Existing opaque identities, credits, release observations, source hypotheses and publication records are retained. No plot outcome or wholesale collection adaptation inferred."
     }

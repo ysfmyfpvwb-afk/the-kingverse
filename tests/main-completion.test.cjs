@@ -253,3 +253,7 @@ test('Skeleton Crew descriptions reach all existing story detail views with coll
 test('Final reading introductions are visible on the existing main story routes',()=>{
  run("tab='stories';lang='en'");for(const n of [125,126,127,132,136,137,140,172,173,174,209]){const id='wrk:'+String(n).padStart(6,'0'),rows=run(`S.filter(s=>s.canonicalId===${JSON.stringify(id)})`);assert.ok(rows.length);for(const row of rows){const html=run(`detailContent(S.find(s=>s.id===${JSON.stringify(row.id)}))`);assert.ok(html.includes(row.summary.en.replaceAll('&','&amp;').replaceAll("'",'&#39;')));assert.match(html,/Sources & context/);}}
 });
+
+test('New film and series reading paths are available on existing main detail pages',()=>{
+ run("tab='films';lang='en'");for(const n of [37,27,61,65,16,78,79,71]){const id='adp:'+String(n).padStart(6,'0'),row=run(`F.find(f=>f.canonicalId===${JSON.stringify(id)})`);assert.ok(row.connected.some(c=>['adaptation_of','inspired_by'].includes(c.predicate)&&['books','stories'].includes(c.target.kind)));const html=run(`detailContent(F.find(f=>f.id===${JSON.stringify(row.id)}))`);assert.match(html,/Explore connections/);assert.match(html,/data-exact=/);}
+});
