@@ -7124,6 +7124,142 @@
         "ISBN13",
         "edition publication date"
       ]
+    },
+    {
+      "key": "roadwork-paperback-publisher",
+      "url": "https://www.simonandschuster.com/books/Roadwork/Stephen-King/The-Bachman-Books/9781501192210",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. ISBN-specific edition date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "cycle-werewolf-paperback-publisher",
+      "url": "https://www.simonandschuster.com/books/Cycle-of-the-Werewolf/Stephen-King/9781501177224",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. ISBN-specific edition date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "colorado-hardcase-paperback-publisher",
+      "url": "https://titanbooks.com/70233-the-colorado-kid/",
+      "publisher": "Titan Books",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. ISBN-specific edition date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "joyland-hardcase-paperback-publisher",
+      "url": "https://titanbooks.com/6478-joyland/",
+      "publisher": "Titan Books",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. ISBN-specific edition date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "doctor-sleep-paperback-publisher",
+      "url": "https://www.simonandschuster.com/books/Doctor-Sleep/Stephen-King/9781668234051",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. ISBN-specific edition date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "revival-paperback-publisher",
+      "url": "https://www.simonandschuster.com/books/Revival/Stephen-King/9781476770390",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. ISBN-specific edition date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "elevation-hardcover-publisher",
+      "url": "https://www.simonandschuster.com/books/Elevation/Stephen-King/9781982102319",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. ISBN-specific edition date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "later-hardcase-paperback-publisher",
+      "url": "https://titanbooks.com/70537-later/",
+      "publisher": "Titan Books",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. ISBN-specific edition date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
     }
   ],
   "records": [
@@ -14488,6 +14624,238 @@
         "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
       ],
       "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "roadwork-paperback",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000011"
+      },
+      "language": "en",
+      "title": "Roadwork",
+      "isbn13": "9781501192210",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2017-12-19",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Trade Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "roadwork-paperback-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "cycle-werewolf-paperback",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000017"
+      },
+      "language": "en",
+      "title": "Cycle of the Werewolf",
+      "isbn13": "9781501177224",
+      "publisher": "Gallery 13",
+      "publicationDate": {
+        "value": "2019-08-13",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Trade Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "cycle-werewolf-paperback-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "colorado-hardcase-paperback",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000042"
+      },
+      "language": "en",
+      "title": "The Colorado Kid",
+      "isbn13": "9781789093896",
+      "publisher": "Titan Books (Hard Case Crime)",
+      "publicationDate": {
+        "value": "2022-10-25",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": "US"
+      },
+      "format": "Mass Market Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "colorado-hardcase-paperback-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing. Selected US date; Joyland has a separate UK on-sale date (2013-06-07) on the same publisher record."
+    },
+    {
+      "key": "joyland-hardcase-paperback",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000050"
+      },
+      "language": "en",
+      "title": "Joyland",
+      "isbn13": "9781781162644",
+      "publisher": "Titan Books (Hard Case Crime)",
+      "publicationDate": {
+        "value": "2013-06-04",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": "US"
+      },
+      "format": "Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "joyland-hardcase-paperback-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing. Selected US date; Joyland has a separate UK on-sale date (2013-06-07) on the same publisher record."
+    },
+    {
+      "key": "doctor-sleep-paperback",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000051"
+      },
+      "language": "en",
+      "title": "Doctor Sleep",
+      "isbn13": "9781668234051",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2026-07-14",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Trade Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "doctor-sleep-paperback-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "revival-paperback",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000053"
+      },
+      "language": "en",
+      "title": "Revival",
+      "isbn13": "9781476770390",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2015-05-05",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Trade Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "revival-paperback-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "elevation-hardcover",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000059"
+      },
+      "language": "en",
+      "title": "Elevation",
+      "isbn13": "9781982102319",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2018-10-30",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Hardcover",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "elevation-hardcover-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "later-hardcase-paperback",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000061"
+      },
+      "language": "en",
+      "title": "Later",
+      "isbn13": "9781789096491",
+      "publisher": "Titan Books (Hard Case Crime)",
+      "publicationDate": {
+        "value": "2021-03-02",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": "US"
+      },
+      "format": "Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "later-hardcase-paperback-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing. Selected US date; Joyland has a separate UK on-sale date (2013-06-07) on the same publisher record."
     }
   ],
   "deferred": [

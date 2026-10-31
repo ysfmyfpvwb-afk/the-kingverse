@@ -51,7 +51,7 @@ test('Core novel introductions reach the main details without changing editions 
 
 test('New publisher editions render on main pages with edition dates separate from original work years',()=>{
  run("tab='books';lang='en'");const html=run("detailContent(B.find(r=>r.canonicalId==='wrk:000242'))");assert.match(html,/2000/);assert.match(html,/2020-06-02/);assert.match(html,/9781982159375/);assert.match(html,/Scribner/);assert.match(html,/simonandschuster\.com/);
- const misery=run("detailContent(B.find(r=>r.canonicalId==='wrk:000021'))");assert.match(misery,/2016-01-05/);assert.match(misery,/9781501143106/);assert.equal(run("media(B.find(r=>r.canonicalId==='wrk:000021')).image"),run("MEDIA.books.Misery.en.image"));assert.equal(run('DB.editions.length'),234);
+ const misery=run("detailContent(B.find(r=>r.canonicalId==='wrk:000021'))");assert.match(misery,/2016-01-05/);assert.match(misery,/9781501143106/);assert.equal(run("media(B.find(r=>r.canonicalId==='wrk:000021')).image"),run("MEDIA.books.Misery.en.image"));assert.equal(run('DB.editions.length'),242);
 });
 
 test('Visitor connection explanations use readable content while retaining optional source links',()=>{
@@ -280,4 +280,8 @@ test('Nineties editions render on main book pages with digital dates limited to 
 
 test('Millennium edition metadata appears on the existing ten main literary pages',()=>{
  run("tab='books';lang='en'");for(const[w,isbn]of [[35,'9781501198892'],[36,'9781501157516'],[37,'9781501192227'],[38,'9780743211376'],[43,'9781668234068'],[44,'9780743289412'],[45,'9781416554844'],[46,'9781416552512'],[47,'9781439149034'],[48,'9781451627282']]){const id='wrk:'+String(w).padStart(6,'0');assert.match(run(`detailContent(B.find(b=>b.canonicalId===${JSON.stringify(id)}))`),new RegExp(isbn));}
+});
+
+test('Hard Case and remaining novels show publisher-identified editions on their original routes',()=>{
+ run("tab='books';lang='en'");for(const[w,isbn]of [[11,'9781501192210'],[17,'9781501177224'],[42,'9781789093896'],[50,'9781781162644'],[51,'9781668234051'],[53,'9781476770390'],[59,'9781982102319'],[61,'9781789096491']]){const id='wrk:'+String(w).padStart(6,'0');assert.match(run(`detailContent(B.find(b=>b.canonicalId===${JSON.stringify(id)}))`),new RegExp(isbn));}
 });
