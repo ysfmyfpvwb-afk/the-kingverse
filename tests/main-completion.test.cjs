@@ -245,3 +245,7 @@ test('Additional screen reading paths reach the original work on main detail pag
 test('Night Shift reading introductions appear on every existing main story view',()=>{
  run("tab='stories';lang='en'");for(const n of [76,77,80,81,82,83,86,88,89,90,91]){const id='wrk:'+String(n).padStart(6,'0'),rows=run(`S.filter(s=>s.canonicalId===${JSON.stringify(id)})`);assert.ok(rows.length);for(const row of rows){const html=run(`detailContent(S.find(s=>s.id===${JSON.stringify(row.id)}))`);assert.ok(html.includes(row.summary.en.replaceAll('&','&amp;').replaceAll("'",'&#39;')));assert.match(html,/Night Shift/);assert.match(html,/Sources & context/);}}
 });
+
+test('Skeleton Crew descriptions reach all existing story detail views with collection navigation',()=>{
+ run("tab='stories';lang='en'");for(const n of [103,104,106,107,108,109,110,111,112,113,114,116,117]){const id='wrk:'+String(n).padStart(6,'0'),rows=run(`S.filter(s=>s.canonicalId===${JSON.stringify(id)})`);assert.ok(rows.length);for(const row of rows){const html=run(`detailContent(S.find(s=>s.id===${JSON.stringify(row.id)}))`);assert.ok(html.includes(row.summary.en.replaceAll('&','&amp;').replaceAll("'",'&#39;')));assert.match(html,/Skeleton Crew/);}}
+});
