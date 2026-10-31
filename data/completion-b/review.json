@@ -6529,6 +6529,159 @@
         "ISBN13",
         "edition publication date"
       ]
+    },
+    {
+      "key": "recent-200-hardcover-publisher",
+      "url": "https://www.simonandschuster.com/books/Mr-Mercedes/Stephen-King/The-Bill-Hodges-Trilogy/9781476754451",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. ISBN-specific edition date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "recent-201-hardcover-publisher",
+      "url": "https://www.simonandschuster.com/books/Finders-Keepers/Stephen-King/The-Bill-Hodges-Trilogy/9781501100079",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. ISBN-specific edition date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "recent-202-hardcover-publisher",
+      "url": "https://www.simonandschuster.com/books/End-of-Watch/Stephen-King/The-Bill-Hodges-Trilogy/9781501129742",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. ISBN-specific edition date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "recent-203-hardcover-publisher",
+      "url": "https://www.simonandschuster.com/books/Sleeping-Beauties/Stephen-King/9781501163401",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. ISBN-specific edition date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "recent-204-hardcover-publisher",
+      "url": "https://www.simonandschuster.com/books/The-Outsider/Stephen-King/9781501180989",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. ISBN-specific edition date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "recent-205-hardcover-publisher",
+      "url": "https://www.simonandschuster.com/books/The-Institute/Stephen-King/9781982110567",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. ISBN-specific edition date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "recent-206-hardcover-publisher",
+      "url": "https://www.simonandschuster.com/books/Billy-Summers/Stephen-King/9781982173616",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. ISBN-specific edition date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "recent-207-hardcover-publisher",
+      "url": "https://www.simonandschuster.com/books/Fairy-Tale/Stephen-King/9781668002179",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. ISBN-specific edition date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "recent-208-hardcover-publisher",
+      "url": "https://www.simonandschuster.com/books/Never-Flinch/Stephen-King/9781668089330",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. ISBN-specific edition date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
     }
   ],
   "records": [
@@ -12871,6 +13024,267 @@
       "identityStatus": "identified",
       "sourceKeys": [
         "tower-199-paperback-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "recent-200-hardcover",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000052"
+      },
+      "language": "en",
+      "title": "Mr. Mercedes",
+      "isbn13": "9781476754451",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2014-06-03",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Hardcover",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "recent-200-hardcover-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "recent-201-hardcover",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000054"
+      },
+      "language": "en",
+      "title": "Finders Keepers",
+      "isbn13": "9781501100079",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2015-06-02",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Hardcover",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "recent-201-hardcover-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "recent-202-hardcover",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000055"
+      },
+      "language": "en",
+      "title": "End of Watch",
+      "isbn13": "9781501129742",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2016-06-07",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Hardcover",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "recent-202-hardcover-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "recent-203-hardcover",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000056"
+      },
+      "language": "en",
+      "title": "Sleeping Beauties",
+      "isbn13": "9781501163401",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2017-09-26",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Hardcover",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "recent-203-hardcover-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "recent-204-hardcover",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000058"
+      },
+      "language": "en",
+      "title": "The Outsider",
+      "isbn13": "9781501180989",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2018-05-22",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Hardcover",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "recent-204-hardcover-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "recent-205-hardcover",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000060"
+      },
+      "language": "en",
+      "title": "The Institute",
+      "isbn13": "9781982110567",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2019-09-10",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Hardcover",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "recent-205-hardcover-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "recent-206-hardcover",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000062"
+      },
+      "language": "en",
+      "title": "Billy Summers",
+      "isbn13": "9781982173616",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2021-08-03",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Hardcover",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "recent-206-hardcover-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "recent-207-hardcover",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000064"
+      },
+      "language": "en",
+      "title": "Fairy Tale",
+      "isbn13": "9781668002179",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2022-09-06",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Hardcover",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "recent-207-hardcover-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "recent-208-hardcover",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000066"
+      },
+      "language": "en",
+      "title": "Never Flinch",
+      "isbn13": "9781668089330",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2025-05-27",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Hardcover",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "recent-208-hardcover-publisher"
       ],
       "open": [
         "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."

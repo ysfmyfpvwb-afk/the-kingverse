@@ -12,7 +12,7 @@ test('Pilot is reproducible, all generated files match, and all earlier baseline
 });
 // Lazy-loaded search may grow to 14 KiB with new bibliographic entries; the initial-shell limit remains unchanged.
 test('Every canonical identity, type and endpoint has an independent bounded deep-link payload',()=>{
- assert.equal(out.full.nodes.length,664);for(const n of out.full.nodes){const p=index(n.id);assert.ok(p);if(out.base.nodes.some(s=>s.id===n.id)){assert.equal(p.node.id,n.id);assert.equal(p.node.type,n.type);assert.equal(p.node.label,n.label);}else assert.equal(p.scope,'gated');}
+ assert.equal(out.full.nodes.length,673);for(const n of out.full.nodes){const p=index(n.id);assert.ok(p);if(out.base.nodes.some(s=>s.id===n.id)){assert.equal(p.node.id,n.id);assert.equal(p.node.type,n.type);assert.equal(p.node.label,n.label);}else assert.equal(p.scope,'gated');}
  const types=new Set(out.full.nodes.map(n=>n.type));assert.equal(types.size,8);
  for(const[name,p]of out.payloads)if(!name.startsWith('search.')){assert.ok(Buffer.byteLength(out.files.get('explorer/pilot/'+name))<=LIMIT);for(const e of p.connections||[])assert.ok(index(e.target.id));}
  assert.equal(out.report.payload.initialAggregateProjectBytesLoaded,0);assert.ok(out.report.payload.maxEntityBytes<40000);assert.ok(out.report.payload.searchGzipBytes<14*1024);
@@ -36,7 +36,7 @@ test('Long contribution and collection lists use six-record chunks with no missi
  for(const [id,k]of [['per:000001','creators'],['col:000006','memberships']]){const section=index(id).sections[k],rows=[...section.items];let next=section.next;assert.ok(next);while(next){const p=out.payloads.get(next);assert.ok(p.items.length<=6);rows.push(...p.items);next=p.next;}assert.equal(rows.length,section.total);assert.equal(new Set(rows.map(r=>r.id)).size,rows.length);}
 });
 test('Default pages, search aliases, metadata and gated entries contain none of the six plot-only labels',()=>{
- const search=out.payloads.get(out.report.assets.search);assert.equal(search.records.length,658);
+ const search=out.payloads.get(out.report.assets.search);assert.equal(search.records.length,667);
  for(const n of out.plot.nodes){for(const name of out.report.files.filter(f=>f.file.endsWith('/index.json')).map(f=>f.file))assert.ok(!JSON.stringify(out.payloads.get(name)).includes(n.label),name);assert.ok(!JSON.stringify(search).includes(n.label));assert.ok(!out.files.get('explorer/pilot/index.html').includes(n.label));assert.ok(!('node'in index(n.id)));}
  assert.ok(plot('chr:000005').node);assert.equal(plot('chr:000005').node.label,'Father Callahan');
 });
@@ -222,4 +222,8 @@ test('Flight or Fright has a navigable editor, edition and existing story withou
 
 test('Eight Tower paperbacks remain editions of existing novels with no plot or cover changes',()=>{
  for(const[eid,wid,isbn,date]of [[192,14,'9781501143519','2016-05-03'],[193,22,'9781501143533','2016-05-03'],[194,25,'9781501143540','2016-05-03'],[195,34,'9781501143557','2016-05-03'],[196,39,'9780743251624','2005-01-04'],[197,40,'9780743254557','2005-04-05'],[198,41,'9780743254564','2005-11-01'],[199,49,'9781501166228','2016-12-06']]){const id='edn:'+String(eid).padStart(6,'0'),work='wrk:'+String(wid).padStart(6,'0'),e=index(id),w=index(work);assert.equal(e.parent.id,work);assert.equal(e.node.data.isbn13,isbn);assert.equal(e.node.data.publicationDate.value,date);assert.equal(e.node.data.publicationDate.meaning,'edition-publication');assert.ok(w.sections.editions.items.some(n=>n.id===id));assert.ok(!w.publicationDates.some(d=>d.value===date));assert.ok(!e.media?.remoteArtwork);}
+});
+
+test('Nine recent hardcovers preserve original work identities and the Sleeping Beauties collaboration',()=>{
+ for(const[eid,wid]of [[200,52],[201,54],[202,55],[203,56],[204,58],[205,60],[206,62],[207,64],[208,66]]){const id='edn:'+String(eid).padStart(6,'0'),work='wrk:'+String(wid).padStart(6,'0'),e=index(id);assert.equal(e.parent.id,work);assert.equal(e.node.data.language,'en');assert.equal(e.node.data.format,'Hardcover');assert.equal(e.node.data.publicationDate.meaning,'edition-publication');assert.ok(index(work).sections.editions.items.some(n=>n.id===id));assert.ok(!e.media?.remoteArtwork);}assert.deepEqual(index('wrk:000056').creators.filter(c=>['author','coauthor'].includes(c.role)).map(c=>c.person.label).sort(),['Owen King','Stephen King']);
 });
