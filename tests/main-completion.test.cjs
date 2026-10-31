@@ -233,3 +233,7 @@ test('Six further collection editions show publisher metadata without replacing 
 test('Hearts in Atlantis and Full Dark editions retain their collection reading routes',()=>{
  run("tab='books';lang='en'");for(const[id,isbn,date]of [['col:000007','9781501195976','2017-11-14'],['col:000011','9781501197949','2018-06-12']]){const html=run(`detailContent(B.find(b=>b.canonicalId===${JSON.stringify(id)}))`);assert.match(html,new RegExp(isbn));assert.match(html,new RegExp(date));assert.match(html,/Stories in this collection/);}
 });
+
+test('Bazaar poem and bonus-story introductions are shared by existing main story details',()=>{
+ run("tab='stories';lang='en'");for(const n of [181,210,213]){const id='wrk:'+String(n).padStart(6,'0'),row=run(`S.find(s=>s.canonicalId===${JSON.stringify(id)})`);assert.ok(row);const html=run(`detailContent(S.find(s=>s.id===${JSON.stringify(row.id)}))`);assert.ok(html.includes(row.summary.en.replaceAll('&','&amp;').replaceAll("'",'&#39;')));assert.match(html,/Bazaar of Bad Dreams/);}
+});

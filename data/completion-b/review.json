@@ -5271,6 +5271,42 @@
       "checkedFields": [
         "original spoiler-aware English reading introduction"
       ]
+    },
+    {
+      "key": "book-intro-wrk-000181-source",
+      "url": "https://stephenking.com/news/under-the-weather-239.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Official 2011 announcement and official Full Dark collection update: format-specific bonus, not part of the original hardcover. Bibliographic reading context only.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000210-source",
+      "url": "https://stephenking.com/works/poem/tommy.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Official synopsis identifies elegy for classmate and the Sixties; Available In confirms collection. No quoted poem or invented events.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000213-source",
+      "url": "https://stephenking.com/works/collection/bazaar-of-bad-dreams.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "From the Flap explicitly identifies the columnist and supernatural obituary premise; no victim identities or ending disclosed.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
     }
   ],
   "records": [
@@ -18564,6 +18600,71 @@
       },
       "locator": "Publisher anthology description: aviation theme, King/Vincent editors and new King contribution. No plot or ending inferred. | Available In identifies Flight or Fright and You Like It Darker. Collection display date is not treated as the first story publication.",
       "note": "Only the original visitor introduction is enriched; identities, editions, first publication and collection memberships remain separately evidenced."
+    },
+    {
+      "key": "book-intro-wrk-000181",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000181"
+      },
+      "field": "summary",
+      "value": {
+        "en": "A short story first offered as an extra in the 2011 US paperback and new ebook edition of Full Dark, No Stars, and later collected in The Bazaar of Bad Dreams. It was absent from the original Full Dark hardcover."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000181-source"
+      ],
+      "checked": "2026-10-31",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "locator": "Official 2011 announcement and official Full Dark collection update: format-specific bonus, not part of the original hardcover. Bibliographic reading context only.",
+      "note": "Only visitor introduction enriched. Publication events, collection membership, original editions and stable IDs are unchanged."
+    },
+    {
+      "key": "book-intro-wrk-000210",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000210"
+      },
+      "field": "summary",
+      "value": {
+        "en": "An elegy remembering a classmate and the 1960s. This poem offers a different kind of reflection among the fiction in The Bazaar of Bad Dreams."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000210-source"
+      ],
+      "checked": "2026-10-31",
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "locator": "Official synopsis identifies elegy for classmate and the Sixties; Available In confirms collection. No quoted poem or invented events.",
+      "note": "Only visitor introduction enriched. Publication events, collection membership, original editions and stable IDs are unchanged."
+    },
+    {
+      "key": "book-intro-wrk-000213",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000213"
+      },
+      "field": "summary",
+      "value": {
+        "en": "An obituary writer discovers that words on a page can have consequences beyond the newsroom. This story from The Bazaar of Bad Dreams turns a familiar newspaper job into a disturbing question about power and responsibility."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000213-source"
+      ],
+      "checked": "2026-10-31",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000213"
+        ]
+      },
+      "locator": "From the Flap explicitly identifies the columnist and supernatural obituary premise; no victim identities or ending disclosed.",
+      "note": "Only visitor introduction enriched. Publication events, collection membership, original editions and stable IDs are unchanged."
     }
   ]
 }
