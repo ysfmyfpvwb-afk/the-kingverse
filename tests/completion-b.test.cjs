@@ -69,7 +69,7 @@ test('Three same-title Corn productions stay distinct and only confirmed adaptat
 });
 
 test('Reviewed book introductions enrich existing identities with field-scoped evidence only',()=>{
- const review=require('../data/completion-b/review.json'),introductions=review.enrichments.filter(e=>e.subject.type==='work');assert.equal(introductions.length,228);
+ const review=require('../data/completion-b/review.json'),introductions=review.enrichments.filter(e=>e.subject.type==='work');assert.equal(introductions.length,239);
  for(const e of introductions){const old=base.works.find(w=>w.id===e.subject.id),w=bundle.works.find(w=>w.id===old.id);assert.equal(w.summary.en,e.value.en);assert.equal(w.originalTitle,old.originalTitle);const c=bundle.claims.find(c=>c.subject.id===w.id&&c.fieldPath==='/summary'&&c.selected);assert.equal(c.status,'verified');assert.deepEqual(c.value,w.summary);assert.ok(c.sourceIds.every(id=>bundle.sources.find(s=>s.id===id).url.match(/^https:\/\/(stephenking\.com|www\.simonandschuster\.com|www\.penguinrandomhouse\.com|www\.newyorker\.com|harpers\.org|www\.cemeterydance\.com|en\.wikipedia\.org)\//)));}
  const changed=structuredClone(bundle);changed.works.find(w=>w.id==='wrk:000005').originalTitle='Wrong title';assert.ok(validateCompletionB(changed,base).some(e=>e.code==='b-baseline-record-changed'));
  const unsupported=structuredClone(bundle);unsupported.works.find(w=>w.id==='wrk:000005').summary.en='An invented ending';assert.ok(validateCompletionB(unsupported,base).some(e=>e.code==='b-editorial-evidence'));
@@ -222,4 +222,8 @@ test('Shawshank profiles stay literary and its film adapts the novella rather th
 
 test('Four AFI-confirmed adaptation links bind exact novels and preserve literary publication records',()=>{
  for(const[a,w,title]of [['adp:000008','wrk:000015','Christine'],['adp:000002','wrk:000093','Apt Pupil'],['adp:000012','wrk:000024','The Dark Half'],['adp:000017','wrk:000028','Dolores Claiborne']]){assert.equal(bundle.works.find(x=>x.id===w).originalTitle,title);const edges=bundle.connections.filter(c=>c.from.id===a&&c.to.id===w&&c.predicate==='adaptation_of');assert.equal(edges.length,1);const c=bundle.claims.find(c=>c.subject.id===edges[0].id&&c.fieldPath==='/to'&&c.selected);assert.ok(c.sourceIds.some(id=>bundle.sources.find(s=>s.id===id).url.startsWith('https://catalog.afi.com/')));assert.equal(edges[0].spoiler.level,'none');assert.deepEqual(bundle.publicationEvents.filter(p=>p.subject.id===w),base.publicationEvents.filter(p=>p.subject.id===w));}
+});
+
+test('Every registered literary work now has an original English reading introduction',()=>{
+ assert.equal(bundle.works.length,250);for(const w of bundle.works){assert.ok(w.summary?.en?.length>60,w.id+' '+w.originalTitle);assert.ok(bundle.claims.some(c=>c.subject.id===w.id&&c.fieldPath==='/summary'&&c.selected&&c.status==='verified'),w.id);}
 });

@@ -249,3 +249,7 @@ test('Night Shift reading introductions appear on every existing main story view
 test('Skeleton Crew descriptions reach all existing story detail views with collection navigation',()=>{
  run("tab='stories';lang='en'");for(const n of [103,104,106,107,108,109,110,111,112,113,114,116,117]){const id='wrk:'+String(n).padStart(6,'0'),rows=run(`S.filter(s=>s.canonicalId===${JSON.stringify(id)})`);assert.ok(rows.length);for(const row of rows){const html=run(`detailContent(S.find(s=>s.id===${JSON.stringify(row.id)}))`);assert.ok(html.includes(row.summary.en.replaceAll('&','&amp;').replaceAll("'",'&#39;')));assert.match(html,/Skeleton Crew/);}}
 });
+
+test('Final reading introductions are visible on the existing main story routes',()=>{
+ run("tab='stories';lang='en'");for(const n of [125,126,127,132,136,137,140,172,173,174,209]){const id='wrk:'+String(n).padStart(6,'0'),rows=run(`S.filter(s=>s.canonicalId===${JSON.stringify(id)})`);assert.ok(rows.length);for(const row of rows){const html=run(`detailContent(S.find(s=>s.id===${JSON.stringify(row.id)}))`);assert.ok(html.includes(row.summary.en.replaceAll('&','&amp;').replaceAll("'",'&#39;')));assert.match(html,/Sources & context/);}}
+});

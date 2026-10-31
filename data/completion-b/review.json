@@ -6011,6 +6011,281 @@
         "existing work identity",
         "existing collection context"
       ]
+    },
+    {
+      "key": "book-intro-wrk-000125-reference",
+      "url": "https://en.wikipedia.org/wiki/The_Night_Flier",
+      "publisher": "Wikipedia",
+      "sourceType": "reference",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Short-story article, opening situation in plot section only; distinct from screen adaptations. Secondary reference supplies premise where the official work entry has no synopsis. No quotations, outcomes, new dates or connections adopted.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000125-identity",
+      "url": "https://stephenking.com/works/short/night-flier.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Reused official work identity and collection observation from previous review. This entry is not asserted to supply the missing plot synopsis.",
+      "checkedFields": [
+        "existing work identity",
+        "existing collection context"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000126-reference",
+      "url": "https://en.wikipedia.org/wiki/Popsy_(short_story)",
+      "publisher": "Wikipedia",
+      "sourceType": "reference",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Short-story article, opening situation in plot section only; distinct from screen adaptations. Secondary reference supplies premise where the official work entry has no synopsis. No quotations, outcomes, new dates or connections adopted.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000126-identity",
+      "url": "https://stephenking.com/works/short/popsy.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Reused official work identity and collection observation from previous review. This entry is not asserted to supply the missing plot synopsis.",
+      "checkedFields": [
+        "existing work identity",
+        "existing collection context"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000127-reference",
+      "url": "https://en.wikipedia.org/wiki/It_Grows_on_You",
+      "publisher": "Wikipedia",
+      "sourceType": "reference",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Short-story article, opening situation in plot section only; distinct from screen adaptations. Secondary reference supplies premise where the official work entry has no synopsis. No quotations, outcomes, new dates or connections adopted.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000127-identity",
+      "url": "https://stephenking.com/works/short/it-grows-on-you.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Reused official work identity and collection observation from previous review. This entry is not asserted to supply the missing plot synopsis.",
+      "checkedFields": [
+        "existing work identity",
+        "existing collection context"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000132-reference",
+      "url": "https://en.wikipedia.org/wiki/You_Know_They_Got_a_Hell_of_a_Band",
+      "publisher": "Wikipedia",
+      "sourceType": "reference",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Short-story article, opening situation in plot section only; distinct from screen adaptations. Secondary reference supplies premise where the official work entry has no synopsis. No quotations, outcomes, new dates or connections adopted.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000132-identity",
+      "url": "https://stephenking.com/works/short/you-know-they-got-a-hell-of-a-band.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Reused official work identity and collection observation from previous review. This entry is not asserted to supply the missing plot synopsis.",
+      "checkedFields": [
+        "existing work identity",
+        "existing collection context"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000136-reference",
+      "url": "https://en.wikipedia.org/wiki/Sorry,_Right_Number",
+      "publisher": "Wikipedia",
+      "sourceType": "reference",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Short-story article, opening situation in plot section only; distinct from screen adaptations. Secondary reference supplies premise where the official work entry has no synopsis. No quotations, outcomes, new dates or connections adopted.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000136-identity",
+      "url": "https://stephenking.com/works/screenplay/sorry-right-number.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Reused official work identity and collection observation from previous review. This entry is not asserted to supply the missing plot synopsis.",
+      "checkedFields": [
+        "existing work identity",
+        "existing collection context"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000137-reference",
+      "url": "https://en.wikipedia.org/wiki/The_Ten_O%27Clock_People",
+      "publisher": "Wikipedia",
+      "sourceType": "reference",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Short-story article, opening situation in plot section only; distinct from screen adaptations. Secondary reference supplies premise where the official work entry has no synopsis. No quotations, outcomes, new dates or connections adopted.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000137-identity",
+      "url": "https://stephenking.com/works/short/ten-o-clock-people.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Reused official work identity and collection observation from previous review. This entry is not asserted to supply the missing plot synopsis.",
+      "checkedFields": [
+        "existing work identity",
+        "existing collection context"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000140-reference",
+      "url": "https://en.wikipedia.org/wiki/The_Fifth_Quarter_(short_story)",
+      "publisher": "Wikipedia",
+      "sourceType": "reference",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Short-story article, opening situation in plot section only; distinct from screen adaptations. Secondary reference supplies premise where the official work entry has no synopsis. No quotations, outcomes, new dates or connections adopted.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000140-identity",
+      "url": "https://stephenking.com/works/short/fifth-quarter.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Reused official work identity and collection observation from previous review. This entry is not asserted to supply the missing plot synopsis.",
+      "checkedFields": [
+        "existing work identity",
+        "existing collection context"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000172-reference",
+      "url": "https://en.wikipedia.org/wiki/The_Cat_from_Hell",
+      "publisher": "Wikipedia",
+      "sourceType": "reference",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Short-story article, opening situation in plot section only; distinct from screen adaptations. Secondary reference supplies premise where the official work entry has no synopsis. No quotations, outcomes, new dates or connections adopted.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000172-identity",
+      "url": "https://stephenking.com/works/short/cat-from-hell.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Reused official work identity and collection observation from previous review. This entry is not asserted to supply the missing plot synopsis.",
+      "checkedFields": [
+        "existing work identity",
+        "existing collection context"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000173-reference",
+      "url": "https://en.wikipedia.org/wiki/The_New_York_Times_at_Special_Bargain_Rates",
+      "publisher": "Wikipedia",
+      "sourceType": "reference",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Short-story article, opening situation in plot section only; distinct from screen adaptations. Secondary reference supplies premise where the official work entry has no synopsis. No quotations, outcomes, new dates or connections adopted.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000173-identity",
+      "url": "https://stephenking.com/works/short/new-york-times-at-special-bargain-rates.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Reused official work identity and collection observation from previous review. This entry is not asserted to supply the missing plot synopsis.",
+      "checkedFields": [
+        "existing work identity",
+        "existing collection context"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000174-reference",
+      "url": "https://en.wikipedia.org/wiki/Mute_(short_story)",
+      "publisher": "Wikipedia",
+      "sourceType": "reference",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Short-story article, opening situation in plot section only; distinct from screen adaptations. Secondary reference supplies premise where the official work entry has no synopsis. No quotations, outcomes, new dates or connections adopted.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000174-identity",
+      "url": "https://stephenking.com/works/short/mute.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Reused official work identity and collection observation from previous review. This entry is not asserted to supply the missing plot synopsis.",
+      "checkedFields": [
+        "existing work identity",
+        "existing collection context"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000209-reference",
+      "url": "https://en.wikipedia.org/wiki/Mister_Yummy",
+      "publisher": "Wikipedia",
+      "sourceType": "reference",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Short-story article, opening situation in plot section only; distinct from screen adaptations. Secondary reference supplies premise where the official work entry has no synopsis. No quotations, outcomes, new dates or connections adopted.",
+      "checkedFields": [
+        "original spoiler-aware English reading introduction"
+      ]
+    },
+    {
+      "key": "book-intro-wrk-000209-identity",
+      "url": "https://stephenking.com/works/short/mister-yummy.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-29",
+      "access": "available",
+      "locator": "Reused official work identity and collection observation from previous review. This entry is not asserted to supply the missing plot synopsis.",
+      "checkedFields": [
+        "existing work identity",
+        "existing collection context"
+      ]
     }
   ],
   "records": [
@@ -20157,6 +20432,270 @@
         "level": "premise",
         "workIds": [
           "wrk:000117"
+        ]
+      },
+      "locator": "Original visitor introduction from opening premise in the named secondary reference; official identity source retained separately. No ending, hidden identity or adaptation-only detail.",
+      "note": "Only reading introduction enriched. Secondary synopsis source is explicit; no claim to independent first-publication confirmation. IDs, makers, chronology, covers and memberships unchanged."
+    },
+    {
+      "key": "book-intro-wrk-000125",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000125"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Tabloid reporter Richard Dees investigates a string of murders linked to small airports and a mysterious pilot. Chasing a sensational story takes him toward a subject that may resist his usual cynicism."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000125-reference",
+        "book-intro-wrk-000125-identity"
+      ],
+      "checked": "2026-10-31",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000125"
+        ]
+      },
+      "locator": "Original visitor introduction from opening premise in the named secondary reference; official identity source retained separately. No ending, hidden identity or adaptation-only detail.",
+      "note": "Only reading introduction enriched. Secondary synopsis source is explicit; no claim to independent first-publication confirmation. IDs, makers, chronology, covers and memberships unchanged."
+    },
+    {
+      "key": "book-intro-wrk-000126",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000126"
+      },
+      "field": "summary",
+      "value": {
+        "en": "A gambler trying to pay off dangerous debts abducts a lost-looking child from a shopping centre. The boy keeps insisting that his grandfather, whom he calls Popsy, will come for him."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000126-reference",
+        "book-intro-wrk-000126-identity"
+      ],
+      "checked": "2026-10-31",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000126"
+        ]
+      },
+      "locator": "Original visitor introduction from opening premise in the named secondary reference; official identity source retained separately. No ending, hidden identity or adaptation-only detail.",
+      "note": "Only reading introduction enriched. Secondary synopsis source is explicit; no claim to independent first-publication confirmation. IDs, makers, chronology, covers and memberships unchanged."
+    },
+    {
+      "key": "book-intro-wrk-000127",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000127"
+      },
+      "field": "summary",
+      "value": {
+        "en": "The history of a notorious Castle Rock house emerges through local memories and strange events. As new sections appear on the building, its growth becomes entangled with the town’s darker stories."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000127-reference",
+        "book-intro-wrk-000127-identity"
+      ],
+      "checked": "2026-10-31",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000127"
+        ]
+      },
+      "locator": "Original visitor introduction from opening premise in the named secondary reference; official identity source retained separately. No ending, hidden identity or adaptation-only detail.",
+      "note": "Only reading introduction enriched. Secondary synopsis source is explicit; no claim to independent first-publication confirmation. IDs, makers, chronology, covers and memberships unchanged."
+    },
+    {
+      "key": "book-intro-wrk-000132",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000132"
+      },
+      "field": "summary",
+      "value": {
+        "en": "A couple taking a scenic drive through Oregon lose their way and discover a picture-perfect small town. Its nostalgic charm and musical atmosphere begin to feel a little too carefully arranged."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000132-reference",
+        "book-intro-wrk-000132-identity"
+      ],
+      "checked": "2026-10-31",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000132"
+        ]
+      },
+      "locator": "Original visitor introduction from opening premise in the named secondary reference; official identity source retained separately. No ending, hidden identity or adaptation-only detail.",
+      "note": "Only reading introduction enriched. Secondary synopsis source is explicit; no claim to independent first-publication confirmation. IDs, makers, chronology, covers and memberships unchanged."
+    },
+    {
+      "key": "book-intro-wrk-000136",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000136"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Katie receives a broken, desperate telephone call and fears that someone in her family needs help. This screenplay turns an ordinary evening and an unidentified voice into a growing mystery."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000136-reference",
+        "book-intro-wrk-000136-identity"
+      ],
+      "checked": "2026-10-31",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000136"
+        ]
+      },
+      "locator": "Original visitor introduction from opening premise in the named secondary reference; official identity source retained separately. No ending, hidden identity or adaptation-only detail.",
+      "note": "Only reading introduction enriched. Secondary synopsis source is explicit; no claim to independent first-publication confirmation. IDs, makers, chronology, covers and memberships unchanged."
+    },
+    {
+      "key": "book-intro-wrk-000137",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000137"
+      },
+      "field": "summary",
+      "value": {
+        "en": "A smoker’s break from work gives him a glimpse of something impossible. Others who share his habit may be the only people who understand what he has seen."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000137-reference",
+        "book-intro-wrk-000137-identity"
+      ],
+      "checked": "2026-10-31",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000137"
+        ]
+      },
+      "locator": "Original visitor introduction from opening premise in the named secondary reference; official identity source retained separately. No ending, hidden identity or adaptation-only detail.",
+      "note": "Only reading introduction enriched. Secondary synopsis source is explicit; no claim to independent first-publication confirmation. IDs, makers, chronology, covers and memberships unchanged."
+    },
+    {
+      "key": "book-intro-wrk-000140",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000140"
+      },
+      "field": "summary",
+      "value": {
+        "en": "A criminal pursues the men who betrayed his friend after an armoured-car robbery. Pieces of a divided map point toward the stolen money, turning revenge into a dangerous search."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000140-reference",
+        "book-intro-wrk-000140-identity"
+      ],
+      "checked": "2026-10-31",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000140"
+        ]
+      },
+      "locator": "Original visitor introduction from opening premise in the named secondary reference; official identity source retained separately. No ending, hidden identity or adaptation-only detail.",
+      "note": "Only reading introduction enriched. Secondary synopsis source is explicit; no claim to independent first-publication confirmation. IDs, makers, chronology, covers and memberships unchanged."
+    },
+    {
+      "key": "book-intro-wrk-000172",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000172"
+      },
+      "field": "summary",
+      "value": {
+        "en": "A professional hitman receives an unusual assignment: kill a cat. His wealthy client insists the animal is responsible for several deaths, but the job looks deceptively simple."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000172-reference",
+        "book-intro-wrk-000172-identity"
+      ],
+      "checked": "2026-10-31",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000172"
+        ]
+      },
+      "locator": "Original visitor introduction from opening premise in the named secondary reference; official identity source retained separately. No ending, hidden identity or adaptation-only detail.",
+      "note": "Only reading introduction enriched. Secondary synopsis source is explicit; no claim to independent first-publication confirmation. IDs, makers, chronology, covers and memberships unchanged."
+    },
+    {
+      "key": "book-intro-wrk-000173",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000173"
+      },
+      "field": "summary",
+      "value": {
+        "en": "A recently bereaved woman answers a telephone call from her husband. What should be impossible becomes an intimate, unsettling conversation about loss and the fragile connection between two lives."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000173-reference",
+        "book-intro-wrk-000173-identity"
+      ],
+      "checked": "2026-10-31",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000173"
+        ]
+      },
+      "locator": "Original visitor introduction from opening premise in the named secondary reference; official identity source retained separately. No ending, hidden identity or adaptation-only detail.",
+      "note": "Only reading introduction enriched. Secondary synopsis source is explicit; no claim to independent first-publication confirmation. IDs, makers, chronology, covers and memberships unchanged."
+    },
+    {
+      "key": "book-intro-wrk-000174",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000174"
+      },
+      "field": "summary",
+      "value": {
+        "en": "A travelling salesman offers a lift to a hitchhiker who says he cannot hear or speak. Believing his passenger cannot understand him, the driver begins to unload his private troubles."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000174-reference",
+        "book-intro-wrk-000174-identity"
+      ],
+      "checked": "2026-10-31",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000174"
+        ]
+      },
+      "locator": "Original visitor introduction from opening premise in the named secondary reference; official identity source retained separately. No ending, hidden identity or adaptation-only detail.",
+      "note": "Only reading introduction enriched. Secondary synopsis source is explicit; no claim to independent first-publication confirmation. IDs, makers, chronology, covers and memberships unchanged."
+    },
+    {
+      "key": "book-intro-wrk-000209",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000209"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Two men in an assisted-living home talk about ageing, memory and an attractive stranger one of them once saw in a nightclub. The long-ago encounter has recently taken on an unsettling new significance."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000209-reference",
+        "book-intro-wrk-000209-identity"
+      ],
+      "checked": "2026-10-31",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000209"
         ]
       },
       "locator": "Original visitor introduction from opening premise in the named secondary reference; official identity source retained separately. No ending, hidden identity or adaptation-only detail.",
