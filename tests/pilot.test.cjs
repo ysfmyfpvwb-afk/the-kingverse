@@ -198,3 +198,7 @@ test('Three more Bazaar introductions preserve poem identity and paperback-only 
 test('Eight further adaptations keep exact novels, short stories and anthology segment scope',()=>{
  for(const[a,w]of [[34,98],[50,161],[10,104],[68,4],[69,4],[74,23],[59,32],[60,60]]){const id='adp:'+String(a).padStart(6,'0'),wid='wrk:'+String(w).padStart(6,'0'),e=index(id).connections.find(e=>e.predicate==='adaptation_of'&&e.to.id===wid);assert.ok(e);assert.ok(index(wid).connections.some(r=>r.id===e.id&&r.target.id===id));assert.equal(e.spoiler.level,'none');assert.equal(e.certainty,'explicit');}const raft=index('adp:000010').connections.find(e=>e.to.id==='wrk:000104');assert.match(raft.explanation,/segment/);assert.ok(!index('adp:000010').connections.some(e=>e.to.type==='collection'));
 });
+
+test('All Night Shift stories have individual introductions without exposing the hidden resolutions',()=>{
+ for(const n of [76,77,80,81,82,83,86,88,89,90,91]){const p=index('wrk:'+String(n).padStart(6,'0'));assert.ok(p.node.description.length>80);assert.ok(p.sections.memberships.items.some(m=>m.target.id==='col:000002'));assert.ok(p.node.evidence.some(c=>c.fieldPath==='/summary'&&c.selected&&c.status==='verified'));assert.ok(p.sources.some(s=>new URL(s.url).hostname==='en.wikipedia.org'));}for(const[n,re]of [[77,/disguise|Harper is/],[82,/narrator is|himself.*killer/],[88,/suicide|call girl/],[89,/hammer|serial killer/],[91,/painkillers|euthanize/]])assert.doesNotMatch(index('wrk:'+String(n).padStart(6,'0')).node.description,re);
+});

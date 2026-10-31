@@ -241,3 +241,7 @@ test('Bazaar poem and bonus-story introductions are shared by existing main stor
 test('Additional screen reading paths reach the original work on main detail pages',()=>{
  run("tab='films';lang='en'");for(const n of [34,50,10,68,69,74,59,60]){const id='adp:'+String(n).padStart(6,'0'),row=run(`F.find(f=>f.canonicalId===${JSON.stringify(id)})`);assert.ok(row.connected.some(c=>c.predicate==='adaptation_of'&&['books','stories'].includes(c.target.kind)));const html=run(`detailContent(F.find(f=>f.id===${JSON.stringify(row.id)}))`);assert.match(html,/Explore connections/);assert.match(html,/data-exact=/);}
 });
+
+test('Night Shift reading introductions appear on every existing main story view',()=>{
+ run("tab='stories';lang='en'");for(const n of [76,77,80,81,82,83,86,88,89,90,91]){const id='wrk:'+String(n).padStart(6,'0'),rows=run(`S.filter(s=>s.canonicalId===${JSON.stringify(id)})`);assert.ok(rows.length);for(const row of rows){const html=run(`detailContent(S.find(s=>s.id===${JSON.stringify(row.id)}))`);assert.ok(html.includes(row.summary.en.replaceAll('&','&amp;').replaceAll("'",'&#39;')));assert.match(html,/Night Shift/);assert.match(html,/Sources & context/);}}
+});
