@@ -5307,6 +5307,110 @@
       "checkedFields": [
         "original spoiler-aware English reading introduction"
       ]
+    },
+    {
+      "key": "monkey-short-source-evidence",
+      "url": "https://www.neonrated.com/film/the-monkey",
+      "publisher": "NEON",
+      "sourceType": "official-production",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "NEON explicitly credits the Stephen King short story; director Osgood Perkins identifies the specific 2025 film.",
+      "checkedFields": [
+        "specific production identity",
+        "literary source relationship"
+      ]
+    },
+    {
+      "key": "1408-short-source-evidence",
+      "url": "https://catalog.afi.com/Film/64265-1408",
+      "publisher": "American Film Institute",
+      "sourceType": "reference",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "AFI Sources / Literary credit: based on the short story 1408 by Stephen King. AFI does not establish the story’s first-publication date.",
+      "checkedFields": [
+        "specific production identity",
+        "literary source relationship"
+      ]
+    },
+    {
+      "key": "creepshow-raft-segment-evidence",
+      "url": "https://stephenking.com/works/movie/creepshow-2.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Official production notes identify The Raft as one of the scenarios adapted by Romero; the separately registered short story is in Skeleton Crew. Relationship is limited to that segment.",
+      "checkedFields": [
+        "specific production identity",
+        "literary source relationship"
+      ]
+    },
+    {
+      "key": "salem-1979-novel-source-evidence",
+      "url": "https://stephenking.com/works/novel/salems-lot.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Manual comparison of official novel and 1979 television entries: Ben Mears, Marsten House, Straker and Barlow, distinct David Soul/CBS production. Not an automatic title match.",
+      "checkedFields": [
+        "specific production identity",
+        "literary source relationship"
+      ]
+    },
+    {
+      "key": "salem-2004-novel-source-evidence",
+      "url": "https://stephenking.com/works/novel/salems-lot.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Manual comparison of official novel and 2004 remake entries: Ben Mears, Marsten House, Straker and Barlow, distinct Rob Lowe/TNT production. No remake credits transferred from 1979.",
+      "checkedFields": [
+        "specific production identity",
+        "literary source relationship"
+      ]
+    },
+    {
+      "key": "tommyknockers-1993-novel-source-evidence",
+      "url": "https://stephenking.com/works/novel/tommyknockers.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Official novel explicitly lists TV Miniseries among formats; paired official production identifies Bobbi Anderson, Jim Gardener, Haven and Helgenberger/Smits. Literary and television records remain distinct.",
+      "checkedFields": [
+        "specific production identity",
+        "literary source relationship"
+      ]
+    },
+    {
+      "key": "desperation-2006-novel-source-evidence",
+      "url": "https://stephenking.com/works/novel/desperation.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Manual comparison: official novel’s Jacksons, Carvers, Marinville and Nevada setting match official 2006 television entry, which credits King’s teleplay and Mick Garris. No original screenplay identity inferred.",
+      "checkedFields": [
+        "specific production identity",
+        "literary source relationship"
+      ]
+    },
+    {
+      "key": "institute-2025-novel-source-evidence",
+      "url": "https://stephenking.com/works/novel/institute.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Manual comparison: official novel and MGM production entry both identify Luke Ellis, kidnapping, children with unusual abilities and The Institute. Distinct 2019 literary and 2025 screen identities; no season-two release claim.",
+      "checkedFields": [
+        "specific production identity",
+        "literary source relationship"
+      ]
     }
   ],
   "records": [
@@ -10840,6 +10944,222 @@
         "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
       ],
       "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "monkey-short-source",
+      "entityType": "connection",
+      "checked": "2026-10-31",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000034"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000098"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The film adapts the short story The Monkey, collected in Skeleton Crew."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "monkey-short-source-evidence",
+        "film-intro-adp-000034-source"
+      ],
+      "note": "Bounded manual source comparison. Existing opaque identities, credits, release observations, source hypotheses and publication records are retained. No plot outcome or wholesale collection adaptation inferred."
+    },
+    {
+      "key": "1408-short-source",
+      "entityType": "connection",
+      "checked": "2026-10-31",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000050"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000161"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The film adapts King’s short story 1408, collected in Everything’s Eventual."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "1408-short-source-evidence",
+        "film-intro-adp-000050-source"
+      ],
+      "note": "Bounded manual source comparison. Existing opaque identities, credits, release observations, source hypotheses and publication records are retained. No plot outcome or wholesale collection adaptation inferred."
+    },
+    {
+      "key": "creepshow-raft-segment",
+      "entityType": "connection",
+      "checked": "2026-10-31",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000010"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000104"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The Raft segment of Creepshow 2 adapts the short story from Skeleton Crew. The film also contains other segments."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "creepshow-raft-segment-evidence",
+        "film-intro-adp-000010-source"
+      ],
+      "note": "Bounded manual source comparison. Existing opaque identities, credits, release observations, source hypotheses and publication records are retained. No plot outcome or wholesale collection adaptation inferred."
+    },
+    {
+      "key": "salem-1979-novel-source",
+      "entityType": "connection",
+      "checked": "2026-10-31",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000068"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000004"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The 1979 miniseries brings King’s novel to television, with David Soul as Ben Mears."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "salem-1979-novel-source-evidence",
+        "film-intro-adp-000068-source"
+      ],
+      "note": "Bounded manual source comparison. Existing opaque identities, credits, release observations, source hypotheses and publication records are retained. No plot outcome or wholesale collection adaptation inferred."
+    },
+    {
+      "key": "salem-2004-novel-source",
+      "entityType": "connection",
+      "checked": "2026-10-31",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000069"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000004"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The 2004 miniseries is another adaptation of the novel, with Rob Lowe as Ben Mears."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "salem-2004-novel-source-evidence",
+        "film-intro-adp-000069-source"
+      ],
+      "note": "Bounded manual source comparison. Existing opaque identities, credits, release observations, source hypotheses and publication records are retained. No plot outcome or wholesale collection adaptation inferred."
+    },
+    {
+      "key": "tommyknockers-1993-novel-source",
+      "entityType": "connection",
+      "checked": "2026-10-31",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000074"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000023"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The 1993 miniseries adapts King’s novel about Bobbi Anderson and the town of Haven."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "tommyknockers-1993-novel-source-evidence",
+        "film-intro-adp-000074-source"
+      ],
+      "note": "Bounded manual source comparison. Existing opaque identities, credits, release observations, source hypotheses and publication records are retained. No plot outcome or wholesale collection adaptation inferred."
+    },
+    {
+      "key": "desperation-2006-novel-source",
+      "entityType": "connection",
+      "checked": "2026-10-31",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000059"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000032"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The television film adapts King’s novel Desperation, with a teleplay by King."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "desperation-2006-novel-source-evidence",
+        "film-intro-adp-000059-source"
+      ],
+      "note": "Bounded manual source comparison. Existing opaque identities, credits, release observations, source hypotheses and publication records are retained. No plot outcome or wholesale collection adaptation inferred."
+    },
+    {
+      "key": "institute-2025-novel-source",
+      "entityType": "connection",
+      "checked": "2026-10-31",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000060"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000060"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The series brings King’s novel The Institute to the screen."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "institute-2025-novel-source-evidence",
+        "film-intro-adp-000060-source"
+      ],
+      "note": "Bounded manual source comparison. Existing opaque identities, credits, release observations, source hypotheses and publication records are retained. No plot outcome or wholesale collection adaptation inferred."
     }
   ],
   "deferred": [

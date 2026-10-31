@@ -237,3 +237,7 @@ test('Hearts in Atlantis and Full Dark editions retain their collection reading 
 test('Bazaar poem and bonus-story introductions are shared by existing main story details',()=>{
  run("tab='stories';lang='en'");for(const n of [181,210,213]){const id='wrk:'+String(n).padStart(6,'0'),row=run(`S.find(s=>s.canonicalId===${JSON.stringify(id)})`);assert.ok(row);const html=run(`detailContent(S.find(s=>s.id===${JSON.stringify(row.id)}))`);assert.ok(html.includes(row.summary.en.replaceAll('&','&amp;').replaceAll("'",'&#39;')));assert.match(html,/Bazaar of Bad Dreams/);}
 });
+
+test('Additional screen reading paths reach the original work on main detail pages',()=>{
+ run("tab='films';lang='en'");for(const n of [34,50,10,68,69,74,59,60]){const id='adp:'+String(n).padStart(6,'0'),row=run(`F.find(f=>f.canonicalId===${JSON.stringify(id)})`);assert.ok(row.connected.some(c=>c.predicate==='adaptation_of'&&['books','stories'].includes(c.target.kind)));const html=run(`detailContent(F.find(f=>f.id===${JSON.stringify(row.id)}))`);assert.match(html,/Explore connections/);assert.match(html,/data-exact=/);}
+});

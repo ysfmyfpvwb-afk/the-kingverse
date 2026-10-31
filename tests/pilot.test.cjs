@@ -16,9 +16,9 @@ test('Every canonical identity, type and endpoint has an independent bounded dee
  for(const[name,p]of out.payloads)if(!name.startsWith('search.')){assert.ok(Buffer.byteLength(out.files.get('explorer/pilot/'+name))<=LIMIT);for(const e of p.connections||[])assert.ok(index(e.target.id));}
  assert.equal(out.report.payload.initialAggregateProjectBytesLoaded,0);assert.ok(out.report.payload.maxEntityBytes<40000);assert.ok(out.report.payload.searchGzipBytes<13*1024);
 });
-test('All 199 relationships preserve source claims, certainty, spoiler scope and current verification in both directions',()=>{
+test('All 207 relationships preserve source claims, certainty, spoiler scope and current verification in both directions',()=>{
  const seen=new Set();for(const n of out.full.nodes){for(const e of [...index(n.id).connections||[],...plot(n.id).connections]){seen.add(e.id);const old=out.full.connections.find(c=>c.id===e.id);assert.deepEqual(e.evidence,old.evidence);assert.equal(e.certainty,old.certainty);assert.deepEqual(e.spoiler,old.spoiler);assert.equal(e.verification,old.verification);assert.equal(e.target.id,e.from.id===n.id?e.to.id:e.from.id);}}
- assert.equal(seen.size,199);assert.equal(plot('wrk:000002').connections.find(e=>e.id==='rel:000007').verification,'provisional');
+ assert.equal(seen.size,207);assert.equal(plot('wrk:000002').connections.find(e=>e.id==='rel:000007').verification,'provisional');
 });
 test('The full Talisman chain has direct sibling navigation from canonical series memberships',()=>{
  for(const id of ['wrk:000001','wrk:000002','wrk:000067']){const p=index(id),members=p.series.find(s=>s.series.id==='ser:000002').members;assert.deepEqual(members.map(m=>m.target.id),['wrk:000001','wrk:000002','wrk:000067']);assert.deepEqual(members.map(m=>m.position),[1,2,3]);}
@@ -193,4 +193,8 @@ test('Six further collection editions keep the exact language format date and co
 
 test('Three more Bazaar introductions preserve poem identity and paperback-only publication context',()=>{
  for(const id of ['wrk:000181','wrk:000210','wrk:000213']){const p=index(id);assert.ok(p.node.description.length>80);assert.ok(p.sections.memberships.items.some(m=>m.target.id==='col:000012'));assert.ok(p.node.evidence.some(c=>c.fieldPath==='/summary'&&c.selected&&c.status==='verified'));}assert.equal(index('wrk:000210').node.data.kind,'poem');assert.match(index('wrk:000181').node.description,/absent from the original/);assert.doesNotMatch(index('wrk:000213').node.description,/Katie|wife|suicide/);
+});
+
+test('Eight further adaptations keep exact novels, short stories and anthology segment scope',()=>{
+ for(const[a,w]of [[34,98],[50,161],[10,104],[68,4],[69,4],[74,23],[59,32],[60,60]]){const id='adp:'+String(a).padStart(6,'0'),wid='wrk:'+String(w).padStart(6,'0'),e=index(id).connections.find(e=>e.predicate==='adaptation_of'&&e.to.id===wid);assert.ok(e);assert.ok(index(wid).connections.some(r=>r.id===e.id&&r.target.id===id));assert.equal(e.spoiler.level,'none');assert.equal(e.certainty,'explicit');}const raft=index('adp:000010').connections.find(e=>e.to.id==='wrk:000104');assert.match(raft.explanation,/segment/);assert.ok(!index('adp:000010').connections.some(e=>e.to.type==='collection'));
 });
