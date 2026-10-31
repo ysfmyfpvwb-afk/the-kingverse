@@ -10,11 +10,12 @@ test('Pilot is reproducible, all generated files match, and all earlier baseline
  for(const[p,v]of out.files)assert.equal(fs.readFileSync(path.join(ROOT,p),'utf8'),v,p);
  assert.deepEqual(generatePilot().files,out.files);assert.deepEqual(out.base,require('../scripts/completion_pilot.cjs').completionPilot().defaultProjection);
 });
+// Lazy-loaded search may grow to 14 KiB with new bibliographic entries; the initial-shell limit remains unchanged.
 test('Every canonical identity, type and endpoint has an independent bounded deep-link payload',()=>{
- assert.equal(out.full.nodes.length,653);for(const n of out.full.nodes){const p=index(n.id);assert.ok(p);if(out.base.nodes.some(s=>s.id===n.id)){assert.equal(p.node.id,n.id);assert.equal(p.node.type,n.type);assert.equal(p.node.label,n.label);}else assert.equal(p.scope,'gated');}
+ assert.equal(out.full.nodes.length,656);for(const n of out.full.nodes){const p=index(n.id);assert.ok(p);if(out.base.nodes.some(s=>s.id===n.id)){assert.equal(p.node.id,n.id);assert.equal(p.node.type,n.type);assert.equal(p.node.label,n.label);}else assert.equal(p.scope,'gated');}
  const types=new Set(out.full.nodes.map(n=>n.type));assert.equal(types.size,8);
  for(const[name,p]of out.payloads)if(!name.startsWith('search.')){assert.ok(Buffer.byteLength(out.files.get('explorer/pilot/'+name))<=LIMIT);for(const e of p.connections||[])assert.ok(index(e.target.id));}
- assert.equal(out.report.payload.initialAggregateProjectBytesLoaded,0);assert.ok(out.report.payload.maxEntityBytes<40000);assert.ok(out.report.payload.searchGzipBytes<13*1024);
+ assert.equal(out.report.payload.initialAggregateProjectBytesLoaded,0);assert.ok(out.report.payload.maxEntityBytes<40000);assert.ok(out.report.payload.searchGzipBytes<14*1024);
 });
 test('All 214 relationships preserve source claims, certainty, spoiler scope and current verification in both directions',()=>{
  const seen=new Set();for(const n of out.full.nodes){for(const e of [...index(n.id).connections||[],...plot(n.id).connections]){seen.add(e.id);const old=out.full.connections.find(c=>c.id===e.id);assert.deepEqual(e.evidence,old.evidence);assert.equal(e.certainty,old.certainty);assert.deepEqual(e.spoiler,old.spoiler);assert.equal(e.verification,old.verification);assert.equal(e.target.id,e.from.id===n.id?e.to.id:e.from.id);}}
@@ -35,7 +36,7 @@ test('Long contribution and collection lists use six-record chunks with no missi
  for(const [id,k]of [['per:000001','creators'],['col:000006','memberships']]){const section=index(id).sections[k],rows=[...section.items];let next=section.next;assert.ok(next);while(next){const p=out.payloads.get(next);assert.ok(p.items.length<=6);rows.push(...p.items);next=p.next;}assert.equal(rows.length,section.total);assert.equal(new Set(rows.map(r=>r.id)).size,rows.length);}
 });
 test('Default pages, search aliases, metadata and gated entries contain none of the six plot-only labels',()=>{
- const search=out.payloads.get(out.report.assets.search);assert.equal(search.records.length,647);
+ const search=out.payloads.get(out.report.assets.search);assert.equal(search.records.length,650);
  for(const n of out.plot.nodes){for(const name of out.report.files.filter(f=>f.file.endsWith('/index.json')).map(f=>f.file))assert.ok(!JSON.stringify(out.payloads.get(name)).includes(n.label),name);assert.ok(!JSON.stringify(search).includes(n.label));assert.ok(!out.files.get('explorer/pilot/index.html').includes(n.label));assert.ok(!('node'in index(n.id)));}
  assert.ok(plot('chr:000005').node);assert.equal(plot('chr:000005').node.label,'Father Callahan');
 });
@@ -97,8 +98,8 @@ test('Collection introductions are shared with the main catalog and retain field
  for(const e of require('../data/completion-b/review.json').enrichments.filter(e=>e.subject.type==='collection')){const row=index(e.subject.id);assert.equal(row.node.description,e.value.en);assert.ok(row.node.evidence.some(c=>c.fieldPath==='/summary'&&c.selected&&c.status==='verified'));assert.equal(row.sections.memberships.total,out.base.memberships.filter(m=>m.collectionId===e.subject.id).length);}
 });
 
-test('All 96 main-library introductions agree with their canonical Explorer pages',()=>{
- const db=require('../scripts/build_main_completion.cjs').generateMainCompletion().db;assert.equal(db.books.length,96);for(const b of db.books)assert.equal(index(b.canonicalId).node.description,b.summary.en,b['Engelse titel']);
+test('All 97 main-library introductions agree with their canonical Explorer pages',()=>{
+ const db=require('../scripts/build_main_completion.cjs').generateMainCompletion().db;assert.equal(db.books.length,97);for(const b of db.books)assert.equal(index(b.canonicalId).node.description,b.summary.en,b['Engelse titel']);
 });
 
 test('New character and town profiles open directly with useful descriptions while Holly’s later appearance stays gated',()=>{
@@ -213,4 +214,8 @@ test('Final eleven reading introductions retain formats and exclude hidden ident
 
 test('Seven further reading paths and the existing Haven link preserve miniseries remakes and distinguish loose inspiration',()=>{
  for(const[a,w,predicate]of [[37,125,'adaptation_of'],[27,19,'adaptation_of'],[61,19,'adaptation_of'],[65,96,'adaptation_of'],[16,122,'adaptation_of'],[78,9,'adaptation_of'],[79,42,'inspired_by'],[71,81,'adaptation_of']]){const id='adp:'+String(a).padStart(6,'0'),wid='wrk:'+String(w).padStart(6,'0'),e=index(id).connections.find(e=>e.predicate===predicate&&e.to.id===wid);assert.ok(e);assert.equal(e.spoiler.level,'none');assert.ok(index(wid).connections.some(r=>r.id===e.id&&r.target.id===id));}assert.ok(!index('adp:000079').connections.some(e=>e.predicate==='adaptation_of'||e.to.id==='wrk:000023'));assert.ok(!index('adp:000065').connections.some(e=>e.to.type==='collection'));
+});
+
+test('Flight or Fright has a navigable editor, edition and existing story without a fabricated cover',()=>{
+ const c=index('col:000017'),e=index('edn:000191'),w=index('wrk:000193');assert.equal(c.node.label,'Flight or Fright');assert.equal(e.parent.id,'col:000017');assert.equal(e.node.data.isbn13,'9781587676796');assert.ok(c.sections.memberships.items.some(m=>m.target.id==='wrk:000193'&&m.order===16));assert.ok(w.sections.memberships.items.some(m=>m.target.id==='col:000017'));assert.deepEqual(c.creators.filter(x=>x.role==='editor').map(x=>x.person.label),['Stephen King','Bev Vincent']);assert.ok(!c.media?.remoteArtwork);assert.ok(!e.media?.remoteArtwork);
 });

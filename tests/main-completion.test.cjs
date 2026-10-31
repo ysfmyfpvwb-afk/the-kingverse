@@ -8,7 +8,7 @@ const context=vm.createContext({URL,URLSearchParams,console,location:{hash:''},h
 for(const file of ['catalog.js','media.js','catalog-completion.js','app.js'])vm.runInContext(fs.readFileSync(file,'utf8').replace(/init\(\);\s*$/,''),context);
 const run=code=>vm.runInContext(code,context);
 test('shared additions are reproducible, unique and present in the main catalog',()=>{
- const {db,patch}=generateMainCompletion();assert.equal(db.books.length,96);assert.equal(db.films.length,111);
+ const {db,patch}=generateMainCompletion();assert.equal(db.books.length,97);assert.equal(db.films.length,111);
  assert.equal(JSON.stringify(patch),run('JSON.stringify(CATALOG_UPDATES)'));
  for(const group of ['books','stories','films','works'])assert.equal(db[group].length,new Set(db[group].map(r=>r.id)).size);
  for(const title of ['On Writing: A Memoir of the Craft','GUNS','Secret Windows: Essays and Fiction on the Craft of Writing','Hansel and Gretel'])assert.ok(db.books.some(r=>r['Engelse titel']===title),title);
@@ -27,7 +27,7 @@ test('existing images, legacy routes and enriched Dutch editions remain usable',
  run("tab='books';lang='en'");assert.equal(run("media(B.find(r=>bn(r)==='The Talisman')).image"),run("MEDIA.books['The Talisman'].en.image"));
  run("lang='nl'");assert.equal(run("title(B.find(r=>bn(r)===\"'Salem's Lot\"))"),'Bezeten stad');
  assert.ok(run('DB.editions.filter(e=>e.publisher&&e.language===\'nl\').length')>=60);
- assert.equal(run('B.filter(r=>r.id.startsWith(\'books:\')).length'),96);
+ assert.equal(run('B.filter(r=>r.id.startsWith(\'books:\')).length'),97);
  for(const group of ['B','S','F'])assert.equal(run(`${group}.every(r=>(r.connected||[]).every(c=>c.target.kind==='explorer'||({books:B,stories:S,films:F})[c.target.kind]?.some(t=>t.id===c.target.id)))`),true);
 });
 
@@ -51,7 +51,7 @@ test('Core novel introductions reach the main details without changing editions 
 
 test('New publisher editions render on main pages with edition dates separate from original work years',()=>{
  run("tab='books';lang='en'");const html=run("detailContent(B.find(r=>r.canonicalId==='wrk:000242'))");assert.match(html,/2000/);assert.match(html,/2020-06-02/);assert.match(html,/9781982159375/);assert.match(html,/Scribner/);assert.match(html,/simonandschuster\.com/);
- const misery=run("detailContent(B.find(r=>r.canonicalId==='wrk:000021'))");assert.match(misery,/2016-01-05/);assert.match(misery,/9781501143106/);assert.equal(run("media(B.find(r=>r.canonicalId==='wrk:000021')).image"),run("MEDIA.books.Misery.en.image"));assert.equal(run('DB.editions.length'),190);
+ const misery=run("detailContent(B.find(r=>r.canonicalId==='wrk:000021'))");assert.match(misery,/2016-01-05/);assert.match(misery,/9781501143106/);assert.equal(run("media(B.find(r=>r.canonicalId==='wrk:000021')).image"),run("MEDIA.books.Misery.en.image"));assert.equal(run('DB.editions.length'),191);
 });
 
 test('Visitor connection explanations use readable content while retaining optional source links',()=>{
@@ -69,7 +69,7 @@ test('Collection descriptions appear on main pages beside existing contents and 
 });
 
 test('Every current main-library book and collection has its own usable English introduction',()=>{
- run("tab='books';lang='en'");assert.equal(run('B.length'),96);assert.equal(run('B.filter(b=>b.summary?.en?.length>40).length'),96);for(const id of run('B.map(b=>b.id)')){const html=run(`detailContent(B.find(b=>b.id===${JSON.stringify(id)}))`);assert.doesNotMatch(html,/A work by Stephen King\. Explore its editions|plot description has not yet been verified/);assert.match(html,/Sources & context/);}
+ run("tab='books';lang='en'");assert.equal(run('B.length'),97);assert.equal(run('B.filter(b=>b.summary?.en?.length>40).length'),97);for(const id of run('B.map(b=>b.id)')){const html=run(`detailContent(B.find(b=>b.id===${JSON.stringify(id)}))`);assert.doesNotMatch(html,/A work by Stephen King\. Explore its editions|plot description has not yet been verified/);assert.match(html,/Sources & context/);}
 });
 
 test('Main book and story pages link to the new profiles and sequel without revealing Holly in The Outsider',()=>{
@@ -94,7 +94,7 @@ test('Three more Corn films are searchable main entries with descriptions and wo
 
 test('Standalone story editions appear on every main story view with their original collection cover and without duplicate books',()=>{
  run("tab='stories';lang='en'");for(const [id,isbn]of [['wrk:000094','9781668264164'],['wrk:000093','9781982115449'],['wrk:000121','9781668264201'],['wrk:000183','9781668208786'],['wrk:000118','9781982136055']]){const rows=run(`S.filter(s=>s.canonicalId===${JSON.stringify(id)})`);assert.ok(rows.length);for(const row of rows){const html=run(`detailContent(S.find(s=>s.id===${JSON.stringify(row.id)}))`);assert.match(html,/Standalone editions/);assert.ok(html.includes(isbn));assert.equal(row.standalonePublications.filter(p=>p.isbn===isbn).length,1);assert.ok(row.editionIds.some(e=>run(`DB.editions.find(e=>e.id===${JSON.stringify(e)})`).isbn===isbn));}}
- assert.equal(run('B.length'),96);assert.equal(run("media(S.find(s=>s.canonicalId==='wrk:000094')).image"),run("MEDIA.books['Different Seasons'].en.image"));
+ assert.equal(run('B.length'),97);assert.equal(run("media(S.find(s=>s.canonicalId==='wrk:000094')).image"),run("MEDIA.books['Different Seasons'].en.image"));
 });
 
 test('Sometimes screen family connects the original main film to both later productions without false story links',()=>{
@@ -223,7 +223,7 @@ test('Cell and both Stand miniseries remain distinct adaptations linked to their
 });
 
 test('Three identified collection paperbacks appear on existing main collection pages',()=>{
- run("tab='books';lang='en'");for(const[id,isbn,date]of [['col:000003','9781501143489','2016-03-29'],['col:000005','9781501143496','2016-08-02'],['col:000006','9781501192036','2017-10-31']]){const html=run(`detailContent(B.find(b=>b.canonicalId===${JSON.stringify(id)}))`);assert.match(html,new RegExp(isbn));assert.match(html,new RegExp(date));assert.match(html,/Stories in this collection/);}assert.equal(run('B.length'),96);
+ run("tab='books';lang='en'");for(const[id,isbn,date]of [['col:000003','9781501143489','2016-03-29'],['col:000005','9781501143496','2016-08-02'],['col:000006','9781501192036','2017-10-31']]){const html=run(`detailContent(B.find(b=>b.canonicalId===${JSON.stringify(id)}))`);assert.match(html,new RegExp(isbn));assert.match(html,new RegExp(date));assert.match(html,/Stories in this collection/);}assert.equal(run('B.length'),97);
 });
 
 test('Six further collection editions show publisher metadata without replacing collection contents',()=>{
@@ -256,4 +256,8 @@ test('Final reading introductions are visible on the existing main story routes'
 
 test('New film and series reading paths are available on existing main detail pages',()=>{
  run("tab='films';lang='en'");for(const n of [37,27,61,65,16,78,79,71]){const id='adp:'+String(n).padStart(6,'0'),row=run(`F.find(f=>f.canonicalId===${JSON.stringify(id)})`);assert.ok(row.connected.some(c=>['adaptation_of','inspired_by'].includes(c.predicate)&&['books','stories'].includes(c.target.kind)));const html=run(`detailContent(F.find(f=>f.id===${JSON.stringify(row.id)}))`);assert.match(html,/Explore connections/);assert.match(html,/data-exact=/);}
+});
+
+test('Flight or Fright is searchable as a collaboration and links its registered King story',()=>{
+ run("tab='books';lang='en'");const row=run("B.find(b=>b.canonicalId==='col:000017')");assert.ok(row);assert.equal(run("B.filter(b=>bn(b)==='Flight or Fright').length"),1);const html=run(`detailContent(B.find(b=>b.id===${JSON.stringify(row.id)}))`);assert.match(html,/Bev Vincent/);assert.match(html,/Editor/);assert.match(html,/The Turbulence Expert/);assert.match(html,/9781587676796/);assert.match(html,/2018-09-04/);assert.ok(row.collaboration);assert.ok(run(`searchText(B.find(b=>b.id===${JSON.stringify(row.id)})).includes('flight or fright')`));
 });

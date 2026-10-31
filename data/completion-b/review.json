@@ -6377,6 +6377,22 @@
         "specific production identity",
         "literary source relationship"
       ]
+    },
+    {
+      "key": "flight-fright-publisher",
+      "url": "https://www.cemeterydance.com/flight-or-fright.html",
+      "publisher": "Cemetery Dance Publications",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Publisher title, editors, ISBN, trade hardcover publication date and Table of Contents. The Turbulence Expert is the sixteenth literary item, excluding introduction and afterword. Artist and lettered editions are distinct; current second-printing stock label is not a new original-publication date.",
+      "checkedFields": [
+        "anthology identity",
+        "editor roles",
+        "named King and Vincent contributions",
+        "trade hardcover ISBN and edition date",
+        "King story membership and contents position"
+      ]
     }
   ],
   "records": [
@@ -12315,6 +12331,183 @@
         "film-intro-adp-000071-source"
       ],
       "note": "Bounded manual source comparison. Existing opaque identities, credits, release observations, source hypotheses and publication records are retained. No plot outcome or wholesale collection adaptation inferred."
+    },
+    {
+      "key": "flight-fright-anthology",
+      "entityType": "collection",
+      "checked": "2026-10-31",
+      "originalTitle": "Flight or Fright",
+      "collectionKind": "anthology",
+      "aliases": [],
+      "summary": {
+        "en": "An aviation-horror anthology edited by Stephen King and Bev Vincent, combining classic tales with new contributions from King and Joe Hill. The collection explores the fears that can accompany flying; King’s The Turbulence Expert is one of its stories."
+      },
+      "sourceKeys": [
+        "flight-fright-publisher"
+      ],
+      "open": [
+        "Other contributors’ works are outside the current King-work index; their full contents are available from the publisher."
+      ],
+      "note": "Manually registered from the publisher’s bounded anthology/edition record. Existing work identities preserved; no new image, translated title or inferred first printing."
+    },
+    {
+      "key": "bev-vincent",
+      "entityType": "person",
+      "checked": "2026-10-31",
+      "name": "Bev Vincent",
+      "aliases": [],
+      "pseudonyms": [],
+      "externalIds": {},
+      "sourceKeys": [
+        "flight-fright-publisher"
+      ],
+      "open": [],
+      "note": "Manually registered from the publisher’s bounded anthology/edition record. Existing work identities preserved; no new image, translated title or inferred first printing."
+    },
+    {
+      "key": "flight-king-editor",
+      "entityType": "credit",
+      "checked": "2026-10-31",
+      "personId": "per:000001",
+      "subject": {
+        "type": "collection",
+        "id": "col:000017"
+      },
+      "role": "editor",
+      "creditedAs": null,
+      "scope": "co-editor of the anthology",
+      "characterId": null,
+      "sourceKeys": [
+        "flight-fright-publisher"
+      ],
+      "open": [],
+      "note": "Manually registered from the publisher’s bounded anthology/edition record. Existing work identities preserved; no new image, translated title or inferred first printing."
+    },
+    {
+      "key": "flight-vincent-editor",
+      "entityType": "credit",
+      "checked": "2026-10-31",
+      "personId": "per:000052",
+      "subject": {
+        "type": "collection",
+        "id": "col:000017"
+      },
+      "role": "editor",
+      "creditedAs": null,
+      "scope": "co-editor of the anthology",
+      "characterId": null,
+      "sourceKeys": [
+        "flight-fright-publisher"
+      ],
+      "open": [],
+      "note": "Manually registered from the publisher’s bounded anthology/edition record. Existing work identities preserved; no new image, translated title or inferred first printing."
+    },
+    {
+      "key": "flight-king-contribution",
+      "entityType": "credit",
+      "checked": "2026-10-31",
+      "personId": "per:000001",
+      "subject": {
+        "type": "collection",
+        "id": "col:000017"
+      },
+      "role": "contributor",
+      "creditedAs": null,
+      "scope": "The Turbulence Expert; introduction and story notes",
+      "characterId": null,
+      "sourceKeys": [
+        "flight-fright-publisher"
+      ],
+      "open": [],
+      "note": "Manually registered from the publisher’s bounded anthology/edition record. Existing work identities preserved; no new image, translated title or inferred first printing."
+    },
+    {
+      "key": "flight-vincent-contribution",
+      "entityType": "credit",
+      "checked": "2026-10-31",
+      "personId": "per:000052",
+      "subject": {
+        "type": "collection",
+        "id": "col:000017"
+      },
+      "role": "contributor",
+      "creditedAs": null,
+      "scope": "Zombies on a Plane; afterword",
+      "characterId": null,
+      "sourceKeys": [
+        "flight-fright-publisher"
+      ],
+      "open": [],
+      "note": "Manually registered from the publisher’s bounded anthology/edition record. Existing work identities preserved; no new image, translated title or inferred first printing."
+    },
+    {
+      "key": "flight-fright-trade-hardcover",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "collection",
+        "id": "col:000017"
+      },
+      "language": "en",
+      "title": "Flight or Fright",
+      "isbn13": "9781587676796",
+      "publisher": "Cemetery Dance Publications",
+      "publicationDate": {
+        "value": "2018-09-04",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": "US"
+      },
+      "format": "Trade Hardcover",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "flight-fright-publisher"
+      ],
+      "open": [
+        "Specific printing is not identified; the product page currently sells a second printing. No approved artwork assigned."
+      ],
+      "note": "Manually registered from the publisher’s bounded anthology/edition record. Existing work identities preserved; no new image, translated title or inferred first printing."
+    },
+    {
+      "key": "flight-fright-hardcover-publication",
+      "entityType": "publication",
+      "checked": "2026-10-31",
+      "subject": {
+        "type": "collection",
+        "id": "col:000017"
+      },
+      "eventType": "edition-publication",
+      "date": {
+        "value": "2018-09-04",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": "US"
+      },
+      "editionId": "edn:000191",
+      "part": null,
+      "publisher": "Cemetery Dance Publications",
+      "sourceKeys": [
+        "flight-fright-publisher"
+      ],
+      "open": [],
+      "note": "Manually registered from the publisher’s bounded anthology/edition record. Existing work identities preserved; no new image, translated title or inferred first printing."
+    },
+    {
+      "key": "turbulence-flight-fright",
+      "entityType": "membership",
+      "checked": "2026-10-31",
+      "collectionId": "col:000017",
+      "workId": "wrk:000193",
+      "order": 16,
+      "editionIds": [
+        "edn:000191"
+      ],
+      "sourceKeys": [
+        "flight-fright-publisher"
+      ],
+      "open": [],
+      "note": "Manually registered from the publisher’s bounded anthology/edition record. Existing work identities preserved; no new image, translated title or inferred first printing."
     }
   ],
   "deferred": [

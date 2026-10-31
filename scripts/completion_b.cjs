@@ -3,7 +3,7 @@
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
 const {ROOT}=require('./validate_foundation.cjs');
 const read=p=>JSON.parse(fs.readFileSync(path.join(ROOT,p),'utf8'));
-const tables={work:'works',person:'people',credit:'credits',publication:'publicationEvents',adaptation:'adaptations',edition:'editions',character:'characters',location:'locations',series:'series',connection:'connections',source:'sources',claim:'claims'};
+const tables={collection:'collections',membership:'collectionMemberships',work:'works',person:'people',credit:'credits',publication:'publicationEvents',adaptation:'adaptations',edition:'editions',character:'characters',location:'locations',series:'series',connection:'connections',source:'sources',claim:'claims'};
 const METADATA=new Set(['key','entityType','sourceKeys','fieldSourceKeys','conflicts','checked','note','open']);
 function extendCompletionB(input){
  const bundle=structuredClone(input),review=read('data/completion-b/review.json'),registry=read('data/completion-b/register.json');
@@ -23,6 +23,7 @@ function extendCompletionB(input){
   const record={id:id(d.entityType,d.key),entityType:d.entityType,verification:{claimIds:[],open:[...(d.open||[])]}};
   // Identity is explicitly reviewed; names never trigger an automatic merge.
   if(d.entityType==='adaptation'&&bundle.adaptations.some(a=>a.title===d.title&&a.releaseYear===d.releaseYear&&a.format===d.format))throw Error('B production already exists; review exact production binding '+d.title);
+  if(d.entityType==='collection'&&bundle.collections.some(c=>c.originalTitle===d.originalTitle))throw Error('B collection already exists; reuse its identity '+d.originalTitle);
   if(d.entityType==='work'&&bundle.works.some(w=>w.originalTitle===d.originalTitle))throw Error('B work already exists; reuse its identity '+d.originalTitle);
   if(d.name&&Object.values(bundle).filter(Array.isArray).flat().some(r=>r.name===d.name&&r.entityType===d.entityType))throw Error('B identity already exists; review register instead of merging '+d.name);
   for(const [field,value]of Object.entries(d))if(!METADATA.has(field))record[field]=['from','to','subject','publicationOf'].includes(field)?resolve(value):field==='statusHistory'?value.map(h=>({...h,claimIds:h.claimIds.map(k=>id('claim',k))})):structuredClone(value);
@@ -100,6 +101,7 @@ function validateCompletionB(bundle,baseline){
   if(r.entityType==='adaptation')for(const h of r.statusHistory){if(h.claimIds.some(id=>map.get(id)?.subject.id!==r.id||map.get(id)?.fieldPath!=='/statusHistory'))fail('b-status-evidence',r.id);}
   if(r.entityType==='character'&&(r.aliases.length||r.spoiler.level!=='none'))fail('b-character-spoiler',r.id);
   if(r.subject&&map.get(r.subject.id)?.entityType!==r.subject.type)fail('b-subject',r.id);
+  if(r.entityType==='membership'){if(map.get(r.workId)?.entityType!=='work'||map.get(r.collectionId)?.entityType!=='collection'||r.editionIds.some(id=>map.get(id)?.entityType!=='edition'||map.get(id).publicationOf.id!==r.collectionId))fail('b-membership-endpoint',r.id);if(bundle.collectionMemberships.some(m=>m.id!==r.id&&m.workId===r.workId&&m.collectionId===r.collectionId))fail('b-membership-duplicate',r.id);}
   if(r.entityType==='credit'&&map.get(r.personId)?.entityType!=='person')fail('b-maker',r.id);
   if(r.entityType==='publication'&&r.editionId&&map.get(r.editionId)?.entityType!=='edition')fail('b-publication-edition',r.id);
  }
@@ -107,8 +109,8 @@ function validateCompletionB(bundle,baseline){
   for(const [table,rows]of Object.entries(baseline).filter(([,rows])=>Array.isArray(rows))){for(const r of rows){const next=bundle[table].find(x=>x.id===r.id),expected=structuredClone(r),e=editorial.get(r.id);if(['works','collections','adaptations','connections'].includes(table)&&e){expected[e.field]=structuredClone(e.value);expected.verification.claimIds.push(reg.allocations['claim/'+e.key]);}if(table==='claims'&&editorial.has(r.subject.id)&&r.fieldPath==='/'+editorial.get(r.subject.id).field)expected.selected=false;try{assert.deepEqual(next,expected);}catch{fail('b-baseline-record-changed',r.id);}}}
   try{assert.deepEqual(bundle.registry.aliases,baseline.registry.aliases);assert.deepEqual(bundle.manifest,baseline.manifest);}catch{fail('b-baseline-metadata-changed','Existing aliases/manifest changed');}
   if(bundle.characters.length-baseline.characters.length!==14||bundle.locations.length-baseline.locations.length!==5||bundle.series.length-baseline.series.length!==4||bundle.connections.length-baseline.connections.length!==120||bundle.adaptations.length-baseline.adaptations.length!==15)fail('b-batch-boundary','Reviewed scope: fourteen characters, five locations, four series, fifteen screen productions and one hundred and twenty links');
-  if(bundle.editions.length-baseline.editions.length!==36)fail('b-edition-boundary','Exactly thirty-six reviewed English editions');
-  for(const [t,count]of Object.entries({works:1,people:2,credits:4,publicationEvents:1,collections:0,artworks:0}))if(bundle[t].length-baseline[t].length!==count)fail('b-out-of-scope-addition',t);
+  if(bundle.editions.length-baseline.editions.length!==37)fail('b-edition-boundary','Exactly thirty-seven reviewed English editions');
+  for(const [t,count]of Object.entries({works:1,people:3,credits:8,publicationEvents:2,collections:1,collectionMemberships:1,artworks:0}))if(bundle[t].length-baseline[t].length!==count)fail('b-out-of-scope-addition',t);
  }
  return errors;
 }

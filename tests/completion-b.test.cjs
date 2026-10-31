@@ -3,9 +3,15 @@ const test=require('node:test'),assert=require('node:assert/strict');
 const {loadCompletion}=require('../scripts/build_completion.cjs');
 const {extendCompletionB,validateCompletionB}=require('../scripts/completion_b.cjs');
 const base=loadCompletion(),before=structuredClone(base),bundle=extendCompletionB(base);
+function assertScreenIdentityPreserved(id){
+ const prior=base.adaptations.find(a=>a.id===id),expected=structuredClone(prior),review=require('../data/completion-b/review.json'),edit=review.enrichments.find(e=>e.subject.id===id&&e.field==='summary');
+ if(edit){expected.summary=edit.value;expected.verification.claimIds.push(require('../data/completion-b/register.json').allocations['claim/'+edit.key]);}
+ assert.deepEqual(bundle.adaptations.find(a=>a.id===id),expected);
+}
+
 test('Bounded B additions preserve every prior identity, record, alias and manifest',()=>{
  assert.deepEqual(base,before);assert.deepEqual(validateCompletionB(bundle,base),[]);
- assert.equal(bundle.characters.length-base.characters.length,14);assert.equal(bundle.locations.length-base.locations.length,5);assert.equal(bundle.series.length-base.series.length,4);assert.equal(bundle.adaptations.length-base.adaptations.length,15);assert.equal(bundle.connections.length-base.connections.length,105);
+ assert.equal(bundle.characters.length-base.characters.length,14);assert.equal(bundle.locations.length-base.locations.length,5);assert.equal(bundle.series.length-base.series.length,4);assert.equal(bundle.adaptations.length-base.adaptations.length,15);assert.equal(bundle.connections.length-base.connections.length,120);
  assert.throws(()=>extendCompletionB(bundle),/collision|already exists/);
 });
 test('The Hodges sequence links exactly the three existing novels with supported positions',()=>{
@@ -27,7 +33,7 @@ test('Missing 2002 and 2019 screen productions have distinct identities and fiel
  const fire=bundle.adaptations.find(a=>a.id==='adp:000097'),creep=bundle.adaptations.find(a=>a.id==='adp:000098');
  assert.equal(fire.title,'Firestarter 2: Rekindled');assert.equal(fire.format,'miniseries');assert.equal(fire.releaseYear,2002);assert.deepEqual(fire.releaseEvents,[{value:'2002-03',precision:'month',meaning:'source-reported-release',territory:'US'}]);
  assert.equal(creep.title,'Creepshow');assert.equal(creep.format,'tv-series');assert.equal(creep.releaseYear,2019);assert.equal(creep.releaseEvents[0].value,'2019-09-26');assert.equal(creep.statusHistory[0].status,'released');
- assert.deepEqual(base.adaptations.find(a=>a.id==='adp:000009'),bundle.adaptations.find(a=>a.id==='adp:000009'));
+ assertScreenIdentityPreserved('adp:000009');
  assert.equal(bundle.adaptations.filter(a=>a.title==='Creepshow').length,2);assert.equal(bundle.adaptations.filter(a=>a.title==='Firestarter').length,2);
  const sequel=bundle.connections.find(c=>c.id==='rel:000103');assert.equal(sequel.predicate,'sequel_to');assert.equal(sequel.from.id,fire.id);assert.equal(sequel.to.id,'adp:000019');
  assert.equal(bundle.connections.some(c=>c.from.id===fire.id&&c.predicate==='adaptation_of'),false);assert.equal(bundle.connections.some(c=>c.from.id===creep.id&&c.to.type==='work'),false);
@@ -76,7 +82,7 @@ test('Reviewed book introductions enrich existing identities with field-scoped e
 });
 
 test('Five publisher-identified English editions preserve all earlier edition and artwork bindings',()=>{
- assert.equal(bundle.editions.length,190);for(const old of base.editions)assert.deepEqual(bundle.editions.find(e=>e.id===old.id),old);assert.deepEqual(bundle.artworks,base.artworks);
+ assert.equal(bundle.editions.length,191);for(const old of base.editions)assert.deepEqual(bundle.editions.find(e=>e.id===old.id),old);assert.deepEqual(bundle.artworks,base.artworks);
  for(const e of bundle.editions.filter(e=>['edn:000155','edn:000156','edn:000157','edn:000158','edn:000159'].includes(e.id))){assert.equal(e.language,'en');assert.equal(e.identityStatus,'identified');assert.equal(e.publisher,'Scribner');assert.equal(e.publicationDate.meaning,'edition-publication');assert.equal(e.publicationDate.precision,'day');assert.ok(base.works.some(w=>w.id===e.publicationOf.id));assert.equal(new Set(bundle.editions.filter(x=>x.isbn13).map(x=>x.isbn13)).size,bundle.editions.filter(x=>x.isbn13).length);}
  assert.equal(bundle.editions.find(e=>e.id==='edn:000155').isbn13,'9781982159375');assert.equal(bundle.editions.find(e=>e.id==='edn:000159').format,'Hardcover');assert.equal(bundle.editions.find(e=>e.id==='edn:000088').isbn13,null);
  const invalid=structuredClone(bundle);invalid.editions.at(-1).isbn13='9781982112395';assert.ok(validateCompletionB(invalid,base).some(e=>e.code==='b-isbn-checksum'));
@@ -98,12 +104,12 @@ test('Gwendy’s middle novel has one identity, Chizmar authorship and a separat
 test('Holly and the remaining Gwendy hardcovers have ISBN-specific dates without inventing printings',()=>{
  for(const [id,work,isbn,date]of [['edn:000161','wrk:000063','9781587678011','2022-02-15'],['edn:000162','wrk:000065','9781668016138','2023-09-05'],['edn:000163','wrk:000057','9781587676109','2017-05-16']]){const e=bundle.editions.find(e=>e.id===id);assert.equal(e.publicationOf.id,work);assert.equal(e.isbn13,isbn);assert.equal(e.publicationDate.value,date);assert.equal(e.identityStatus,'identified');}
  assert.ok(bundle.editions.find(e=>e.id==='edn:000163').verification.open.some(s=>s.includes('fourth printing 2022')));
- assert.equal(bundle.works.filter(w=>w.originalTitle==="Gwendy's Button Box").length,1);assert.equal(bundle.editions.length,190);
+ assert.equal(bundle.works.filter(w=>w.originalTitle==="Gwendy's Button Box").length,1);assert.equal(bundle.editions.length,191);
 });
 
 test('Collection introductions preserve every collection identity, edition and story membership',()=>{
  const edits=require('../data/completion-b/review.json').enrichments.filter(e=>e.subject.type==='collection');assert.equal(edits.length,16);for(const e of edits){const c=bundle.collections.find(c=>c.id===e.subject.id);assert.deepEqual(c.summary,e.value);const prior=base.collections.find(p=>p.id===c.id);assert.equal(c.originalTitle,prior.originalTitle);assert.deepEqual(c.aliases,prior.aliases);}
- assert.deepEqual(bundle.collectionMemberships,base.collectionMemberships);for(const e of base.editions)assert.deepEqual(bundle.editions.find(n=>n.id===e.id),e);
+ assert.deepEqual(bundle.collectionMemberships.filter(m=>base.collectionMemberships.some(b=>b.id===m.id)),base.collectionMemberships);for(const e of base.editions)assert.deepEqual(bundle.editions.find(n=>n.id===e.id),e);
 });
 
 test('The Movies paperback uses publisher-confirmed ISBN and date while leaving its unstated imprint open',()=>{
@@ -128,11 +134,11 @@ test('Urban Harvest, Genesis and Runaway are separate screen identities with pre
 
 test('Five standalone novella editions reuse story identities without changing collection publication or inventing covers',()=>{
  for(const [id,work,isbn,date]of [['edn:000165','wrk:000094','9781668264164','2026-08-25'],['edn:000166','wrk:000093','9781982115449','2018-12-04'],['edn:000167','wrk:000121','9781668264201','2026-10-06'],['edn:000168','wrk:000183','9781668208786','2025-06-10'],['edn:000169','wrk:000118','9781982136055','2019-11-12']]){const e=bundle.editions.find(e=>e.id===id);assert.equal(e.publicationOf.id,work);assert.equal(e.isbn13,isbn);assert.equal(e.publicationDate.value,date);assert.equal(e.publicationDate.meaning,'edition-publication');assert.equal(e.publisher,'Scribner');assert.equal(e.language,'en');assert.ok(!bundle.artworks.some(a=>a.editionId===id));assert.deepEqual(bundle.publicationEvents.filter(p=>p.subject.id===work),base.publicationEvents.filter(p=>p.subject.id===work));}
- assert.equal(bundle.editions.length,190);assert.equal(bundle.works.length,250);
+ assert.equal(bundle.editions.length,191);assert.equal(bundle.works.length,250);
 });
 
 test('Later Sometimes films preserve the original identity and separate catalogue years from world premiere claims',()=>{
- const original=bundle.adaptations.find(a=>a.id==='adp:000071');assert.deepEqual(original,base.adaptations.find(a=>a.id===original.id));
+ const original=bundle.adaptations.find(a=>a.id==='adp:000071');assertScreenIdentityPreserved(original.id);
  for(const [id,year,director]of [['adp:000110',1996,'Adam Grossman'],['adp:000111',1999,'Daniel Zelik Berk']]){const a=bundle.adaptations.find(a=>a.id===id);assert.equal(a.releaseYear,year);assert.equal(a.releaseEvents[0].meaning,'source-reported-release');assert.equal(a.releaseEvents[0].territory,'US');assert.equal(a.releaseEvents[0].precision,'year');assert.equal(a.makerObservations.find(m=>m.role==='director').creditText,director);assert.equal(a.ratingObservations.length,0);assert.ok(!bundle.connections.some(c=>c.from.id===id&&['adaptation_of','sequel_to'].includes(c.predicate)));}
  assert.ok(bundle.adaptations.find(a=>a.id==='adp:000111').verification.open.some(s=>s.includes('1998')));const group=bundle.connections.filter(c=>c.to.id==='ser:000006');assert.deepEqual(group.map(c=>c.from.id),['adp:000071','adp:000110','adp:000111']);assert.ok(group.every(c=>!c.seriesPosition&&c.spoiler.level==='none'));
 });
@@ -150,7 +156,7 @@ test('Reviewed core film introductions replace only generic copy on existing pro
 
 test('Hearts in Atlantis reading paths reuse five story identities and three spoiler-safe recurring characters',()=>{
  for(const[id,name]of [['chr:000019','Carol Gerber'],['chr:000020','John “Sully” Sullivan'],['chr:000021','Bobby Garfield']]){assert.equal(bundle.characters.filter(c=>c.name===name).length,1);const c=bundle.characters.find(c=>c.id===id);assert.equal(c.name,name);assert.equal(c.spoiler.level,'none');assert.deepEqual(c.aliases,[]);const links=bundle.connections.filter(c=>c.from.id===id);assert.equal(links.length,2);assert.ok(links.every(c=>c.predicate==='appears_in'&&c.certainty==='explicit'&&c.spoiler.level==='premise'));}
- for(let i=145;i<=149;i++){const id='wrk:'+String(i).padStart(6,'0');assert.ok(bundle.works.find(w=>w.id===id).summary.en.length>80);assert.deepEqual(bundle.publicationEvents.filter(p=>p.subject.id===id),base.publicationEvents.filter(p=>p.subject.id===id));}assert.equal(bundle.works.length,250);assert.equal(bundle.collections.length,16);
+ for(let i=145;i<=149;i++){const id='wrk:'+String(i).padStart(6,'0');assert.ok(bundle.works.find(w=>w.id===id).summary.en.length>80);assert.deepEqual(bundle.publicationEvents.filter(p=>p.subject.id===id),base.publicationEvents.filter(p=>p.subject.id===id));}assert.equal(bundle.works.length,250);assert.equal(bundle.collections.length,17);
 });
 
 test('Anthology and prequel introductions preserve production scope without revealing monster identities or endings',()=>{
@@ -226,4 +232,12 @@ test('Four AFI-confirmed adaptation links bind exact novels and preserve literar
 
 test('Every registered literary work now has an original English reading introduction',()=>{
  assert.equal(bundle.works.length,250);for(const w of bundle.works){assert.ok(w.summary?.en?.length>60,w.id+' '+w.originalTitle);assert.ok(bundle.claims.some(c=>c.subject.id===w.id&&c.fieldPath==='/summary'&&c.selected&&c.status==='verified'),w.id);}
+});
+
+test('Flight or Fright reuses the Turbulence story and credits editors without inventing a coauthored novel',()=>{
+ const c=bundle.collections.find(c=>c.id==='col:000017');assert.equal(c.originalTitle,'Flight or Fright');assert.equal(c.collectionKind,'anthology');assert.ok(!bundle.works.some(w=>w.originalTitle===c.originalTitle));const people=new Map(bundle.people.map(p=>[p.id,p.name])),credits=bundle.credits.filter(x=>x.subject.id===c.id);assert.deepEqual(credits.filter(x=>x.role==='editor').map(x=>people.get(x.personId)),['Stephen King','Bev Vincent']);assert.ok(!credits.some(x=>['author','coauthor'].includes(x.role)));const m=bundle.collectionMemberships.find(m=>m.collectionId===c.id);assert.equal(m.workId,'wrk:000193');assert.equal(m.order,16);assert.deepEqual(m.editionIds,['edn:000191']);const e=bundle.editions.find(e=>e.id==='edn:000191');assert.equal(e.isbn13,'9781587676796');assert.equal(e.publicationDate.value,'2018-09-04');assert.equal(e.publicationDate.meaning,'edition-publication');assert.ok(!bundle.artworks.some(a=>a.editionId===e.id));assert.equal(bundle.works.length,250);
+});
+
+test('New anthology memberships reject wrong edition owners and duplicate story pairs',()=>{
+ const wrong=structuredClone(bundle);wrong.collectionMemberships.find(m=>m.id==='mem:000159').editionIds=['edn:000188'];assert.ok(validateCompletionB(wrong,base).some(e=>e.code==='b-membership-endpoint'));const duplicate=structuredClone(bundle);duplicate.collectionMemberships.push({...structuredClone(duplicate.collectionMemberships.find(m=>m.id==='mem:000159')),id:'mem:999999'});assert.ok(validateCompletionB(duplicate,base).some(e=>e.code==='b-membership-duplicate'));
 });
