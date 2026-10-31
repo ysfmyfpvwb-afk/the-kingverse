@@ -6393,6 +6393,142 @@
         "trade hardcover ISBN and edition date",
         "King story membership and contents position"
       ]
+    },
+    {
+      "key": "tower-192-paperback-publisher",
+      "url": "https://www.simonandschuster.com/books/The-Dark-Tower-I/Stephen-King/The-Dark-Tower/9781501143519",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. Reissue date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "tower-193-paperback-publisher",
+      "url": "https://www.simonandschuster.com/books/The-Dark-Tower-II/Stephen-King/The-Dark-Tower/9781501143533",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. Reissue date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "tower-194-paperback-publisher",
+      "url": "https://www.simonandschuster.com/books/The-Dark-Tower-III/Stephen-King/The-Dark-Tower/9781501143540",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. Reissue date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "tower-195-paperback-publisher",
+      "url": "https://www.simonandschuster.com/books/The-Dark-Tower-IV/Stephen-King/The-Dark-Tower/9781501143557",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. Reissue date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "tower-196-paperback-publisher",
+      "url": "https://www.simonandschuster.com/books/The-Dark-Tower-V/Stephen-King/The-Dark-Tower/9780743251624",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. Reissue date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "tower-197-paperback-publisher",
+      "url": "https://www.simonandschuster.com/books/The-Dark-Tower-VI/Stephen-King/The-Dark-Tower/9780743254557",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. Reissue date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "tower-198-paperback-publisher",
+      "url": "https://www.simonandschuster.com/books/The-Dark-Tower-VII/Stephen-King/The-Dark-Tower/9780743254564",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. Reissue date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
+    },
+    {
+      "key": "tower-199-paperback-publisher",
+      "url": "https://www.simonandschuster.com/books/The-Wind-Through-the-Keyhole/Stephen-King/The-Dark-Tower/9781501166228",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-10-31",
+      "access": "available",
+      "locator": "Selected physical format and ISBN-specific Product Details / On sale. Reissue date only; no original-publication, first-printing, page-count or image claim.",
+      "checkedFields": [
+        "edition title",
+        "English-language edition",
+        "publisher imprint",
+        "format",
+        "ISBN13",
+        "edition publication date"
+      ]
     }
   ],
   "records": [
@@ -12508,6 +12644,238 @@
       ],
       "open": [],
       "note": "Manually registered from the publisher’s bounded anthology/edition record. Existing work identities preserved; no new image, translated title or inferred first printing."
+    },
+    {
+      "key": "tower-192-paperback",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000014"
+      },
+      "language": "en",
+      "title": "The Dark Tower I: The Gunslinger",
+      "isbn13": "9781501143519",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2016-05-03",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Trade Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "tower-192-paperback-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "tower-193-paperback",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000022"
+      },
+      "language": "en",
+      "title": "The Dark Tower II: The Drawing of the Three",
+      "isbn13": "9781501143533",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2016-05-03",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Trade Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "tower-193-paperback-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "tower-194-paperback",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000025"
+      },
+      "language": "en",
+      "title": "The Dark Tower III: The Waste Lands",
+      "isbn13": "9781501143540",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2016-05-03",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Trade Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "tower-194-paperback-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "tower-195-paperback",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000034"
+      },
+      "language": "en",
+      "title": "The Dark Tower IV: Wizard and Glass",
+      "isbn13": "9781501143557",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2016-05-03",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Trade Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "tower-195-paperback-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "tower-196-paperback",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000039"
+      },
+      "language": "en",
+      "title": "The Dark Tower V: Wolves of the Calla",
+      "isbn13": "9780743251624",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2005-01-04",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Trade Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "tower-196-paperback-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "tower-197-paperback",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000040"
+      },
+      "language": "en",
+      "title": "The Dark Tower VI: Song of Susannah",
+      "isbn13": "9780743254557",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2005-04-05",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Trade Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "tower-197-paperback-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "tower-198-paperback",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000041"
+      },
+      "language": "en",
+      "title": "The Dark Tower VII",
+      "isbn13": "9780743254564",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2005-11-01",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Trade Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "tower-198-paperback-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
+    },
+    {
+      "key": "tower-199-paperback",
+      "entityType": "edition",
+      "checked": "2026-10-31",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000049"
+      },
+      "language": "en",
+      "title": "The Wind Through the Keyhole",
+      "isbn13": "9781501166228",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2016-12-06",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Trade Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "tower-199-paperback-publisher"
+      ],
+      "open": [
+        "Specific printing not established; existing unknown edition examples and cover bindings are not reassigned."
+      ],
+      "note": "ISBN-specific English edition, distinct from the original work publication and unidentified legacy cover edition. No new work, artwork, copied description or inferred first printing."
     }
   ],
   "deferred": [

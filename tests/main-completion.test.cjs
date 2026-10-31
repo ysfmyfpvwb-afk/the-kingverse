@@ -51,7 +51,7 @@ test('Core novel introductions reach the main details without changing editions 
 
 test('New publisher editions render on main pages with edition dates separate from original work years',()=>{
  run("tab='books';lang='en'");const html=run("detailContent(B.find(r=>r.canonicalId==='wrk:000242'))");assert.match(html,/2000/);assert.match(html,/2020-06-02/);assert.match(html,/9781982159375/);assert.match(html,/Scribner/);assert.match(html,/simonandschuster\.com/);
- const misery=run("detailContent(B.find(r=>r.canonicalId==='wrk:000021'))");assert.match(misery,/2016-01-05/);assert.match(misery,/9781501143106/);assert.equal(run("media(B.find(r=>r.canonicalId==='wrk:000021')).image"),run("MEDIA.books.Misery.en.image"));assert.equal(run('DB.editions.length'),191);
+ const misery=run("detailContent(B.find(r=>r.canonicalId==='wrk:000021'))");assert.match(misery,/2016-01-05/);assert.match(misery,/9781501143106/);assert.equal(run("media(B.find(r=>r.canonicalId==='wrk:000021')).image"),run("MEDIA.books.Misery.en.image"));assert.equal(run('DB.editions.length'),199);
 });
 
 test('Visitor connection explanations use readable content while retaining optional source links',()=>{
@@ -260,4 +260,8 @@ test('New film and series reading paths are available on existing main detail pa
 
 test('Flight or Fright is searchable as a collaboration and links its registered King story',()=>{
  run("tab='books';lang='en'");const row=run("B.find(b=>b.canonicalId==='col:000017')");assert.ok(row);assert.equal(run("B.filter(b=>bn(b)==='Flight or Fright').length"),1);const html=run(`detailContent(B.find(b=>b.id===${JSON.stringify(row.id)}))`);assert.match(html,/Bev Vincent/);assert.match(html,/Editor/);assert.match(html,/The Turbulence Expert/);assert.match(html,/9781587676796/);assert.match(html,/2018-09-04/);assert.ok(row.collaboration);assert.ok(run(`searchText(B.find(b=>b.id===${JSON.stringify(row.id)})).includes('flight or fright')`));
+});
+
+test('Tower paperback ISBNs and edition dates appear on all eight existing main book pages',()=>{
+ run("tab='books';lang='en'");for(const[w,isbn,date]of [[14,'9781501143519','2016-05-03'],[22,'9781501143533','2016-05-03'],[25,'9781501143540','2016-05-03'],[34,'9781501143557','2016-05-03'],[39,'9780743251624','2005-01-04'],[40,'9780743254557','2005-04-05'],[41,'9780743254564','2005-11-01'],[49,'9781501166228','2016-12-06']]){const id='wrk:'+String(w).padStart(6,'0'),html=run(`detailContent(B.find(b=>b.canonicalId===${JSON.stringify(id)}))`);assert.match(html,new RegExp(isbn));assert.match(html,new RegExp(date));}assert.equal(run('B.length'),97);
 });
