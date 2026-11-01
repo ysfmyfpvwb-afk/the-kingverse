@@ -7669,6 +7669,90 @@
       "checkedFields": [
         "ISBN-specific Dutch edition metadata; only fields referenced by each claim"
       ]
+    },
+    {
+      "key": "nl-classic-6-source",
+      "url": "https://www.standaardboekhandel.be/p/bezeten-stad-9789024578108",
+      "publisher": "Standaard Boekhandel",
+      "sourceType": "reference",
+      "observedAt": "2026-11-01",
+      "access": "available",
+      "locator": "Exact ISBN 9789024578108; Dutch-language edition. Explicit translator credit: Hugo Kuipers. Edition date 2017-06-20; not original work publication. ",
+      "checkedFields": [
+        "exact ISBN edition metadata"
+      ]
+    },
+    {
+      "key": "nl-classic-8-source",
+      "url": "https://www.bol.com/nl/nl/p/de-beproeving/9300000017381961/",
+      "publisher": "bol",
+      "sourceType": "reference",
+      "observedAt": "2026-11-01",
+      "access": "available",
+      "locator": "Exact ISBN 9789021027791; Dutch-language edition. Explicit translator credit: Theo Horsten, Jacques Meerman. Edition date 2020-11-30; not original work publication. Illustrator Bernie Wrightson is not a second text author; narration field ignored. ",
+      "checkedFields": [
+        "exact ISBN edition metadata"
+      ]
+    },
+    {
+      "key": "nl-classic-10-source",
+      "url": "https://www.bol.com/nl/nl/p/dodelijk-dilemma/9300000152405441/",
+      "publisher": "bol",
+      "sourceType": "reference",
+      "observedAt": "2026-11-01",
+      "access": "available",
+      "locator": "Exact ISBN 9789021043425; Dutch-language edition. Explicit translator credit: Henny van Gulik. Edition date 2023-11-30; not original work publication. ",
+      "checkedFields": [
+        "exact ISBN edition metadata"
+      ]
+    },
+    {
+      "key": "nl-classic-13-source",
+      "url": "https://www.standaardboekhandel.be/p/cujo-9789021031354",
+      "publisher": "Standaard Boekhandel",
+      "sourceType": "reference",
+      "observedAt": "2026-11-01",
+      "access": "available",
+      "locator": "Exact ISBN 9789021031354; Dutch-language edition. Explicit translator credit: Margot Bakker. No new date adopted. Conflicting page counts between retailers not imported. ",
+      "checkedFields": [
+        "exact ISBN edition metadata"
+      ]
+    },
+    {
+      "key": "nl-classic-14-source",
+      "url": "https://metadata.isbn.nl/798348/vlucht-naar-de-top.html",
+      "publisher": "Bureau ISBN",
+      "sourceType": "reference",
+      "observedAt": "2026-11-01",
+      "access": "available",
+      "locator": "Exact ISBN 9789021043449; Dutch-language edition. Explicit translator credit: Frank de Groot. No new date adopted. Work-level named translator above variants; target ISBN listed explicitly among Dutch paperback variants. Header date belongs to another variant and is not adopted. ",
+      "checkedFields": [
+        "exact ISBN edition metadata"
+      ]
+    },
+    {
+      "key": "nl-classic-21-source",
+      "url": "https://metadata.isbn.nl/1621765/het-teken-van-drie-pod.html",
+      "publisher": "Bureau ISBN",
+      "sourceType": "reference",
+      "observedAt": "2026-11-01",
+      "access": "available",
+      "locator": "Exact ISBN 9789021051420; Dutch-language edition. Explicit translator credit: Hugo Timmerman. No new date adopted. Work-level named translator above variants; target ISBN listed explicitly among Dutch paperback variants. Header date belongs to another variant and is not adopted. ",
+      "checkedFields": [
+        "exact ISBN edition metadata"
+      ]
+    },
+    {
+      "key": "nl-classic-27-source",
+      "url": "https://shop.nbdbiblion.nl/product/dolores-claiborne?overlay=%2Falle-verschenen-artikelen%3Fordernumber%3D2026110843",
+      "publisher": "NBD Biblion",
+      "sourceType": "reference",
+      "observedAt": "2026-11-01",
+      "access": "available",
+      "locator": "Exact ISBN 9789021064383; Dutch-language edition. Edition date 2026-09-08; not original work publication. ",
+      "checkedFields": [
+        "exact ISBN edition metadata"
+      ]
     }
   ],
   "records": [
@@ -16184,6 +16268,139 @@
       "checked": "2026-11-01",
       "open": [],
       "note": "ISBN-scoped Dutch edition credit; existing identities reused. No work-level date or authorship inferred."
+    },
+    {
+      "key": "nl-classic-6-translator-000034",
+      "entityType": "credit",
+      "checked": "2026-11-01",
+      "personId": "per:000034",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000006"
+      },
+      "role": "translator",
+      "creditedAs": null,
+      "scope": "translation of ISBN 9789024578108; no individual section allocation inferred",
+      "characterId": null,
+      "sourceKeys": [
+        "nl-classic-6-source"
+      ],
+      "open": [],
+      "note": "Exact ISBN 9789024578108; Dutch-language edition. Explicit translator credit: Hugo Kuipers. Edition date 2017-06-20; not original work publication. "
+    },
+    {
+      "key": "nl-classic-8-translator-000036",
+      "entityType": "credit",
+      "checked": "2026-11-01",
+      "personId": "per:000036",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000008"
+      },
+      "role": "translator",
+      "creditedAs": null,
+      "scope": "translation of ISBN 9789021027791; no individual section allocation inferred",
+      "characterId": null,
+      "sourceKeys": [
+        "nl-classic-8-source"
+      ],
+      "open": [],
+      "note": "Exact ISBN 9789021027791; Dutch-language edition. Explicit translator credit: Theo Horsten, Jacques Meerman. Edition date 2020-11-30; not original work publication. Illustrator Bernie Wrightson is not a second text author; narration field ignored. "
+    },
+    {
+      "key": "nl-classic-8-translator-000037",
+      "entityType": "credit",
+      "checked": "2026-11-01",
+      "personId": "per:000037",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000008"
+      },
+      "role": "translator",
+      "creditedAs": null,
+      "scope": "translation of ISBN 9789021027791; no individual section allocation inferred",
+      "characterId": null,
+      "sourceKeys": [
+        "nl-classic-8-source"
+      ],
+      "open": [],
+      "note": "Exact ISBN 9789021027791; Dutch-language edition. Explicit translator credit: Theo Horsten, Jacques Meerman. Edition date 2020-11-30; not original work publication. Illustrator Bernie Wrightson is not a second text author; narration field ignored. "
+    },
+    {
+      "key": "nl-classic-10-translator-000053",
+      "entityType": "credit",
+      "checked": "2026-11-01",
+      "personId": "per:000053",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000010"
+      },
+      "role": "translator",
+      "creditedAs": null,
+      "scope": "translation of ISBN 9789021043425; no individual section allocation inferred",
+      "characterId": null,
+      "sourceKeys": [
+        "nl-classic-10-source"
+      ],
+      "open": [],
+      "note": "Exact ISBN 9789021043425; Dutch-language edition. Explicit translator credit: Henny van Gulik. Edition date 2023-11-30; not original work publication. "
+    },
+    {
+      "key": "nl-classic-13-translator-000033",
+      "entityType": "credit",
+      "checked": "2026-11-01",
+      "personId": "per:000033",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000013"
+      },
+      "role": "translator",
+      "creditedAs": null,
+      "scope": "translation of ISBN 9789021031354; no individual section allocation inferred",
+      "characterId": null,
+      "sourceKeys": [
+        "nl-classic-13-source"
+      ],
+      "open": [],
+      "note": "Exact ISBN 9789021031354; Dutch-language edition. Explicit translator credit: Margot Bakker. No new date adopted. Conflicting page counts between retailers not imported. "
+    },
+    {
+      "key": "nl-classic-14-translator-000047",
+      "entityType": "credit",
+      "checked": "2026-11-01",
+      "personId": "per:000047",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000014"
+      },
+      "role": "translator",
+      "creditedAs": null,
+      "scope": "translation of ISBN 9789021043449; no individual section allocation inferred",
+      "characterId": null,
+      "sourceKeys": [
+        "nl-classic-14-source"
+      ],
+      "open": [],
+      "note": "Exact ISBN 9789021043449; Dutch-language edition. Explicit translator credit: Frank de Groot. No new date adopted. Work-level named translator above variants; target ISBN listed explicitly among Dutch paperback variants. Header date belongs to another variant and is not adopted. "
+    },
+    {
+      "key": "nl-classic-21-translator-000055",
+      "entityType": "credit",
+      "checked": "2026-11-01",
+      "personId": "per:000055",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000021"
+      },
+      "role": "translator",
+      "creditedAs": null,
+      "scope": "translation of ISBN 9789021051420; no individual section allocation inferred",
+      "characterId": null,
+      "sourceKeys": [
+        "nl-classic-21-source"
+      ],
+      "open": [],
+      "note": "Exact ISBN 9789021051420; Dutch-language edition. Explicit translator credit: Hugo Timmerman. No new date adopted. Work-level named translator above variants; target ISBN listed explicitly among Dutch paperback variants. Header date belongs to another variant and is not adopted. "
     }
   ],
   "deferred": [
@@ -25075,6 +25292,189 @@
       "checked": "2026-11-01",
       "locator": "ISBN 9789021049151: explicit combined translator credit Hugo Timmerman en Hugo Kuipers. Split only the two named people; exact contribution scope not specified.",
       "note": "Only this exact ISBN edition is enriched; earlier observations retained. No first-printing assertion."
+    },
+    {
+      "key": "nl-classic-6-publicationDate",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000006"
+      },
+      "field": "publicationDate",
+      "value": {
+        "value": "2017-06-20",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "sourceKeys": [
+        "nl-classic-6-source"
+      ],
+      "checked": "2026-11-01",
+      "locator": "Exact ISBN 9789024578108; Dutch-language edition. Explicit translator credit: Hugo Kuipers. Edition date 2017-06-20; not original work publication. ",
+      "note": "Only evidence for this ISBN is adopted. Earlier source observations and canonical ownership retained."
+    },
+    {
+      "key": "nl-classic-6-translationCredits",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000006"
+      },
+      "field": "translationCredits",
+      "value": [
+        "crd:000366"
+      ],
+      "sourceKeys": [
+        "nl-classic-6-source"
+      ],
+      "checked": "2026-11-01",
+      "locator": "Exact ISBN 9789024578108; Dutch-language edition. Explicit translator credit: Hugo Kuipers. Edition date 2017-06-20; not original work publication. ",
+      "note": "Only evidence for this ISBN is adopted. Earlier source observations and canonical ownership retained."
+    },
+    {
+      "key": "nl-classic-8-publicationDate",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000008"
+      },
+      "field": "publicationDate",
+      "value": {
+        "value": "2020-11-30",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "sourceKeys": [
+        "nl-classic-8-source"
+      ],
+      "checked": "2026-11-01",
+      "locator": "Exact ISBN 9789021027791; Dutch-language edition. Explicit translator credit: Theo Horsten, Jacques Meerman. Edition date 2020-11-30; not original work publication. Illustrator Bernie Wrightson is not a second text author; narration field ignored. ",
+      "note": "Only evidence for this ISBN is adopted. Earlier source observations and canonical ownership retained."
+    },
+    {
+      "key": "nl-classic-8-translationCredits",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000008"
+      },
+      "field": "translationCredits",
+      "value": [
+        "crd:000367",
+        "crd:000368"
+      ],
+      "sourceKeys": [
+        "nl-classic-8-source"
+      ],
+      "checked": "2026-11-01",
+      "locator": "Exact ISBN 9789021027791; Dutch-language edition. Explicit translator credit: Theo Horsten, Jacques Meerman. Edition date 2020-11-30; not original work publication. Illustrator Bernie Wrightson is not a second text author; narration field ignored. ",
+      "note": "Only evidence for this ISBN is adopted. Earlier source observations and canonical ownership retained."
+    },
+    {
+      "key": "nl-classic-10-publicationDate",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000010"
+      },
+      "field": "publicationDate",
+      "value": {
+        "value": "2023-11-30",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "sourceKeys": [
+        "nl-classic-10-source"
+      ],
+      "checked": "2026-11-01",
+      "locator": "Exact ISBN 9789021043425; Dutch-language edition. Explicit translator credit: Henny van Gulik. Edition date 2023-11-30; not original work publication. ",
+      "note": "Only evidence for this ISBN is adopted. Earlier source observations and canonical ownership retained."
+    },
+    {
+      "key": "nl-classic-10-translationCredits",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000010"
+      },
+      "field": "translationCredits",
+      "value": [
+        "crd:000369"
+      ],
+      "sourceKeys": [
+        "nl-classic-10-source"
+      ],
+      "checked": "2026-11-01",
+      "locator": "Exact ISBN 9789021043425; Dutch-language edition. Explicit translator credit: Henny van Gulik. Edition date 2023-11-30; not original work publication. ",
+      "note": "Only evidence for this ISBN is adopted. Earlier source observations and canonical ownership retained."
+    },
+    {
+      "key": "nl-classic-13-translationCredits",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000013"
+      },
+      "field": "translationCredits",
+      "value": [
+        "crd:000370"
+      ],
+      "sourceKeys": [
+        "nl-classic-13-source"
+      ],
+      "checked": "2026-11-01",
+      "locator": "Exact ISBN 9789021031354; Dutch-language edition. Explicit translator credit: Margot Bakker. No new date adopted. Conflicting page counts between retailers not imported. ",
+      "note": "Only evidence for this ISBN is adopted. Earlier source observations and canonical ownership retained."
+    },
+    {
+      "key": "nl-classic-14-translationCredits",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000014"
+      },
+      "field": "translationCredits",
+      "value": [
+        "crd:000371"
+      ],
+      "sourceKeys": [
+        "nl-classic-14-source"
+      ],
+      "checked": "2026-11-01",
+      "locator": "Exact ISBN 9789021043449; Dutch-language edition. Explicit translator credit: Frank de Groot. No new date adopted. Work-level named translator above variants; target ISBN listed explicitly among Dutch paperback variants. Header date belongs to another variant and is not adopted. ",
+      "note": "Only evidence for this ISBN is adopted. Earlier source observations and canonical ownership retained."
+    },
+    {
+      "key": "nl-classic-21-translationCredits",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000021"
+      },
+      "field": "translationCredits",
+      "value": [
+        "crd:000372"
+      ],
+      "sourceKeys": [
+        "nl-classic-21-source"
+      ],
+      "checked": "2026-11-01",
+      "locator": "Exact ISBN 9789021051420; Dutch-language edition. Explicit translator credit: Hugo Timmerman. No new date adopted. Work-level named translator above variants; target ISBN listed explicitly among Dutch paperback variants. Header date belongs to another variant and is not adopted. ",
+      "note": "Only evidence for this ISBN is adopted. Earlier source observations and canonical ownership retained."
+    },
+    {
+      "key": "nl-classic-27-publicationDate",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000027"
+      },
+      "field": "publicationDate",
+      "value": {
+        "value": "2026-09-08",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "sourceKeys": [
+        "nl-classic-27-source"
+      ],
+      "checked": "2026-11-01",
+      "locator": "Exact ISBN 9789021064383; Dutch-language edition. Edition date 2026-09-08; not original work publication. ",
+      "note": "Only evidence for this ISBN is adopted. Earlier source observations and canonical ownership retained."
     }
   ]
 }

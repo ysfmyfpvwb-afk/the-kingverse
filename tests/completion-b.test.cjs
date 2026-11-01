@@ -254,3 +254,14 @@ test('Dutch edition enrichment preserves exact ISBN identities and assigns trans
  assert.equal(bundle.editions.length,255);assert.equal(bundle.artworks.length,base.artworks.length);
  const broken=structuredClone(bundle);broken.editions.find(e=>e.id==='edn:000043').publisher='Invented';assert.ok(validateCompletionB(broken,base).some(e=>e.code==='b-editorial-evidence'));
 });
+
+test('Dutch classic editions show verified dates and translation roles in both public projections',()=>{
+ const {db}=require('../scripts/build_main_completion.cjs').generateMainCompletion();
+ for(const[n,names,date]of [[6,['Hugo Kuipers'],'2017-06-20'],[8,['Theo Horsten','Jacques Meerman'],'2020-11-30'],[10,['Henny van Gulik'],'2023-11-30'],[13,['Margot Bakker'],null],[14,['Frank de Groot'],null],[21,['Hugo Timmerman'],null],[27,[], '2026-09-08']]){
+  const id='edn:'+String(n).padStart(6,'0'),e=db.editions.find(e=>e.canonicalId===id),native=require('../explorer/pilot/data/'+id.replace(':','-')+'/index.json'),prior=base.editions.find(e=>e.id===id);
+  assert.equal(e.isbn,prior.isbn13);assert.deepEqual(native.node.data.publicationOf,prior.publicationOf);
+  if(names.length){assert.deepEqual(e.translators,names);assert.deepEqual(native.sections.creators.items.filter(c=>c.role==='translator').map(c=>c.target.label),names);}
+  if(date){assert.equal(e.publicationDate.value,date);assert.equal(native.node.data.publicationDate.value,date);assert.equal(e.publicationDate.meaning,'edition-publication');}
+ }
+ assert.deepEqual(bundle.registry.aliases,base.registry.aliases);
+});
