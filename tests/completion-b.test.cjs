@@ -245,3 +245,12 @@ test('New anthology memberships reject wrong edition owners and duplicate story 
 test('The literary Edgecombe display preserves the official alternative spelling and reused source identity',()=>{
  const p=bundle.characters.find(c=>c.id==='chr:000027'),claims=bundle.claims.filter(c=>c.subject.id===p.id&&c.fieldPath==='/name');assert.equal(p.name,'Paul Edgecombe');assert.equal(claims.filter(c=>c.selected).length,1);const alternate=claims.find(c=>!c.selected);assert.equal(alternate.value,'Paul Edgecomb');assert.equal(alternate.status,'disputed');assert.ok(alternate.sourceIds.every(id=>bundle.sources.some(s=>s.id===id&&s.url.includes('green-mile-the-complete-serial-novel'))));const invalid=structuredClone(bundle);invalid.claims.find(c=>c.id===alternate.id).sourceIds=['src:000001'];assert.ok(validateCompletionB(invalid,base).some(e=>e.code==='b-conflict-preservation'));
 });
+
+test('Dutch edition enrichment preserves exact ISBN identities and assigns translators once per edition',()=>{
+ const expected={'edn:000015':['Hugo Timmerman','Hugo Kuipers'],'edn:000028':['Eny van Gelder'],'edn:000043':['Hugo Kuipers'],'edn:000052':['Henny van Gulik'],'edn:000053':['Annemarie Lodewijk']};
+ const map=new Map(Object.values(bundle).filter(Array.isArray).flat().map(r=>[r.id,r]));
+ for(const[id,names]of Object.entries(expected)){const e=map.get(id),old=base.editions.find(e=>e.id===id);assert.equal(e.isbn13,old.isbn13);assert.deepEqual(e.publicationOf,old.publicationOf);assert.deepEqual(e.translationCredits.map(id=>map.get(map.get(id).personId).name),names);assert.ok(e.translationCredits.every(id=>map.get(id).role==='translator'&&map.get(id).subject.id===e.id));}
+ for(const[id,date]of [['edn:000024','2025-03-11'],['edn:000043','2021-10-28'],['edn:000052','2019-11-04'],['edn:000053','2019-04-12']]){assert.equal(map.get(id).publicationDate.value,date);assert.equal(map.get(id).publicationDate.meaning,'edition-publication');}
+ assert.equal(bundle.editions.length,255);assert.equal(bundle.artworks.length,base.artworks.length);
+ const broken=structuredClone(bundle);broken.editions.find(e=>e.id==='edn:000043').publisher='Invented';assert.ok(validateCompletionB(broken,base).some(e=>e.code==='b-editorial-evidence'));
+});

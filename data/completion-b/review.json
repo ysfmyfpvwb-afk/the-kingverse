@@ -7573,6 +7573,102 @@
         "original publishing collection",
         "specific story identity"
       ]
+    },
+    {
+      "key": "nl-waste-2025",
+      "url": "https://www.lsuitgeverij.nl/boek/het-verloren-rijk/",
+      "publisher": "Luitingh-Sijthoff",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-11-01",
+      "access": "available",
+      "locator": "Product specifications: ISBN 9789021053653, Dutch, paperback, 11-03-2025. Fanclub month differs; publisher ISBN-specific date selected. Translator absent, not copied from earlier editions.",
+      "checkedFields": [
+        "ISBN-specific Dutch edition metadata; only fields referenced by each claim"
+      ]
+    },
+    {
+      "key": "nl-lisey-paperback",
+      "url": "https://www.lsuitgeverij.nl/boek/liseys-verhaal/",
+      "publisher": "Luitingh-Sijthoff",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-11-01",
+      "access": "available",
+      "locator": "ISBN 9789021030098, Dutch paperback, translator Hugo Kuipers. Publisher date --; no date inferred.",
+      "checkedFields": [
+        "ISBN-specific Dutch edition metadata; only fields referenced by each claim"
+      ]
+    },
+    {
+      "key": "nl-lisey-date",
+      "url": "https://www.boeken.nl/boeken/9789021030098/liseys-verhaal",
+      "publisher": "Boeken.nl",
+      "sourceType": "reference",
+      "observedAt": "2026-11-01",
+      "access": "available",
+      "locator": "ISBN 9789021030098 paperback, Dutch, publication 28/10/2021; date only.",
+      "checkedFields": [
+        "ISBN-specific Dutch edition metadata; only fields referenced by each claim"
+      ]
+    },
+    {
+      "key": "nl-finders-publisher",
+      "url": "https://www.lsuitgeverij.nl/boek/de-eerlijke-vinder/",
+      "publisher": "Luitingh-Sijthoff",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-11-01",
+      "access": "available",
+      "locator": "ISBN 9789021024417, Dutch paperback, publisher reports 12-04-2019. Retailer reports 16 April; publisher date selected, discrepancy retained here.",
+      "checkedFields": [
+        "ISBN-specific Dutch edition metadata; only fields referenced by each claim"
+      ]
+    },
+    {
+      "key": "nl-finders-translator",
+      "url": "https://www.bol.com/nl/nl/p/mr-mercedes-2-de-eerlijke-vinder/9200000108811192/",
+      "publisher": "bol",
+      "sourceType": "reference",
+      "observedAt": "2026-11-01",
+      "access": "available",
+      "locator": "Exact ISBN 9789021024417 translator Annemarie Lodewijk. Duplicated first/second translator is one person, not two; erroneous secondary author Finders is NOT adopted. Retailer date differs from publisher, not selected.",
+      "checkedFields": [
+        "ISBN-specific Dutch edition metadata; only fields referenced by each claim"
+      ]
+    },
+    {
+      "key": "nl-revival-metadata",
+      "url": "https://www.standaardboekhandel.be/p/revival-9789021025285",
+      "publisher": "Standaard Boekhandel",
+      "sourceType": "reference",
+      "observedAt": "2026-11-01",
+      "access": "available",
+      "locator": "Exact ISBN 9789021025285 Dutch paperback; Henny Van Gulik; 4/11/2019. Publisher page unavailable through web fetch, retailer metadata used with limited scope.",
+      "checkedFields": [
+        "ISBN-specific Dutch edition metadata; only fields referenced by each claim"
+      ]
+    },
+    {
+      "key": "nl-insomnia-translator",
+      "url": "https://www.bol.com/be/nl/p/insomnia/9300000174728103/",
+      "publisher": "bol",
+      "sourceType": "reference",
+      "observedAt": "2026-11-01",
+      "access": "available",
+      "locator": "Exact ISBN 9789021049144 Dutch paperback: translator Eny van Gelder, repeated credit deduplicated. No narration credit adopted.",
+      "checkedFields": [
+        "ISBN-specific Dutch edition metadata; only fields referenced by each claim"
+      ]
+    },
+    {
+      "key": "nl-gunslinger-translators",
+      "url": "https://www.bol.com/nl/nl/p/de-donkere-toren-1-de-scherpschutter/9300000174728062/",
+      "publisher": "bol",
+      "sourceType": "reference",
+      "observedAt": "2026-11-01",
+      "access": "available",
+      "locator": "ISBN 9789021049151: explicit combined translator credit Hugo Timmerman en Hugo Kuipers. Split only the two named people; exact contribution scope not specified.",
+      "checkedFields": [
+        "ISBN-specific Dutch edition metadata; only fields referenced by each claim"
+      ]
     }
   ],
   "records": [
@@ -15932,6 +16028,162 @@
       ],
       "open": [],
       "note": "First appearance in Flight or Fright, separate from the retained May 2024 collection-date observation. No exact first-publication day, new story identity or cover inferred."
+    },
+    {
+      "key": "translator-henny-van-gulik",
+      "entityType": "person",
+      "name": "Henny van Gulik",
+      "aliases": [],
+      "pseudonyms": [],
+      "externalIds": {},
+      "sourceKeys": [
+        "nl-revival-metadata"
+      ],
+      "checked": "2026-11-01",
+      "open": [],
+      "note": "ISBN-scoped Dutch edition credit; existing identities reused. No work-level date or authorship inferred."
+    },
+    {
+      "key": "translator-eny-van-gelder",
+      "entityType": "person",
+      "name": "Eny van Gelder",
+      "aliases": [],
+      "pseudonyms": [],
+      "externalIds": {},
+      "sourceKeys": [
+        "nl-insomnia-translator"
+      ],
+      "checked": "2026-11-01",
+      "open": [],
+      "note": "ISBN-scoped Dutch edition credit; existing identities reused. No work-level date or authorship inferred."
+    },
+    {
+      "key": "translator-hugo-timmerman",
+      "entityType": "person",
+      "name": "Hugo Timmerman",
+      "aliases": [],
+      "pseudonyms": [],
+      "externalIds": {},
+      "sourceKeys": [
+        "nl-gunslinger-translators"
+      ],
+      "checked": "2026-11-01",
+      "open": [],
+      "note": "ISBN-scoped Dutch edition credit; existing identities reused. No work-level date or authorship inferred."
+    },
+    {
+      "key": "nl-000043-translator-000034",
+      "entityType": "credit",
+      "personId": "per:000034",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000043"
+      },
+      "role": "translator",
+      "creditedAs": null,
+      "scope": "translation of ISBN 9789021030098; individual contribution not subdivided",
+      "characterId": null,
+      "sourceKeys": [
+        "nl-lisey-paperback"
+      ],
+      "checked": "2026-11-01",
+      "open": [],
+      "note": "ISBN-scoped Dutch edition credit; existing identities reused. No work-level date or authorship inferred."
+    },
+    {
+      "key": "nl-000053-translator-000044",
+      "entityType": "credit",
+      "personId": "per:000044",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000053"
+      },
+      "role": "translator",
+      "creditedAs": null,
+      "scope": "translation of ISBN 9789021024417; individual contribution not subdivided",
+      "characterId": null,
+      "sourceKeys": [
+        "nl-finders-translator"
+      ],
+      "checked": "2026-11-01",
+      "open": [],
+      "note": "ISBN-scoped Dutch edition credit; existing identities reused. No work-level date or authorship inferred."
+    },
+    {
+      "key": "nl-000052-translator-000053",
+      "entityType": "credit",
+      "personId": "per:000053",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000052"
+      },
+      "role": "translator",
+      "creditedAs": null,
+      "scope": "translation of ISBN 9789021025285; individual contribution not subdivided",
+      "characterId": null,
+      "sourceKeys": [
+        "nl-revival-metadata"
+      ],
+      "checked": "2026-11-01",
+      "open": [],
+      "note": "ISBN-scoped Dutch edition credit; existing identities reused. No work-level date or authorship inferred."
+    },
+    {
+      "key": "nl-000028-translator-000054",
+      "entityType": "credit",
+      "personId": "per:000054",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000028"
+      },
+      "role": "translator",
+      "creditedAs": null,
+      "scope": "translation of ISBN 9789021049144; individual contribution not subdivided",
+      "characterId": null,
+      "sourceKeys": [
+        "nl-insomnia-translator"
+      ],
+      "checked": "2026-11-01",
+      "open": [],
+      "note": "ISBN-scoped Dutch edition credit; existing identities reused. No work-level date or authorship inferred."
+    },
+    {
+      "key": "nl-000015-translator-000055",
+      "entityType": "credit",
+      "personId": "per:000055",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000015"
+      },
+      "role": "translator",
+      "creditedAs": null,
+      "scope": "translation of ISBN 9789021049151; individual contribution not subdivided",
+      "characterId": null,
+      "sourceKeys": [
+        "nl-gunslinger-translators"
+      ],
+      "checked": "2026-11-01",
+      "open": [],
+      "note": "ISBN-scoped Dutch edition credit; existing identities reused. No work-level date or authorship inferred."
+    },
+    {
+      "key": "nl-000015-translator-000034",
+      "entityType": "credit",
+      "personId": "per:000034",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000015"
+      },
+      "role": "translator",
+      "creditedAs": null,
+      "scope": "translation of ISBN 9789021049151; individual contribution not subdivided",
+      "characterId": null,
+      "sourceKeys": [
+        "nl-gunslinger-translators"
+      ],
+      "checked": "2026-11-01",
+      "open": [],
+      "note": "ISBN-scoped Dutch edition credit; existing identities reused. No work-level date or authorship inferred."
     }
   ],
   "deferred": [
@@ -24597,6 +24849,232 @@
       },
       "locator": "Original visitor introduction from opening premise in the named secondary reference; official identity source retained separately. No ending, hidden identity or adaptation-only detail.",
       "note": "Only reading introduction enriched. Secondary synopsis source is explicit; no claim to independent first-publication confirmation. IDs, makers, chronology, covers and memberships unchanged."
+    },
+    {
+      "key": "nl-edition-000024-publisher",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000024"
+      },
+      "field": "publisher",
+      "value": "Luitingh-Sijthoff",
+      "sourceKeys": [
+        "nl-waste-2025"
+      ],
+      "checked": "2026-11-01",
+      "locator": "Product specifications: ISBN 9789021053653, Dutch, paperback, 11-03-2025. Fanclub month differs; publisher ISBN-specific date selected. Translator absent, not copied from earlier editions.",
+      "note": "Only this exact ISBN edition is enriched; earlier observations retained. No first-printing assertion."
+    },
+    {
+      "key": "nl-edition-000024-format",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000024"
+      },
+      "field": "format",
+      "value": "Paperback",
+      "sourceKeys": [
+        "nl-waste-2025"
+      ],
+      "checked": "2026-11-01",
+      "locator": "Product specifications: ISBN 9789021053653, Dutch, paperback, 11-03-2025. Fanclub month differs; publisher ISBN-specific date selected. Translator absent, not copied from earlier editions.",
+      "note": "Only this exact ISBN edition is enriched; earlier observations retained. No first-printing assertion."
+    },
+    {
+      "key": "nl-edition-000024-publicationDate",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000024"
+      },
+      "field": "publicationDate",
+      "value": {
+        "value": "2025-03-11",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "sourceKeys": [
+        "nl-waste-2025"
+      ],
+      "checked": "2026-11-01",
+      "locator": "Product specifications: ISBN 9789021053653, Dutch, paperback, 11-03-2025. Fanclub month differs; publisher ISBN-specific date selected. Translator absent, not copied from earlier editions.",
+      "note": "Only this exact ISBN edition is enriched; earlier observations retained. No first-printing assertion."
+    },
+    {
+      "key": "nl-edition-000043-publisher",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000043"
+      },
+      "field": "publisher",
+      "value": "Luitingh-Sijthoff",
+      "sourceKeys": [
+        "nl-lisey-paperback"
+      ],
+      "checked": "2026-11-01",
+      "locator": "ISBN 9789021030098, Dutch paperback, translator Hugo Kuipers. Publisher date --; no date inferred.",
+      "note": "Only this exact ISBN edition is enriched; earlier observations retained. No first-printing assertion."
+    },
+    {
+      "key": "nl-edition-000043-format",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000043"
+      },
+      "field": "format",
+      "value": "Paperback",
+      "sourceKeys": [
+        "nl-lisey-paperback"
+      ],
+      "checked": "2026-11-01",
+      "locator": "ISBN 9789021030098, Dutch paperback, translator Hugo Kuipers. Publisher date --; no date inferred.",
+      "note": "Only this exact ISBN edition is enriched; earlier observations retained. No first-printing assertion."
+    },
+    {
+      "key": "nl-edition-000043-publicationDate",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000043"
+      },
+      "field": "publicationDate",
+      "value": {
+        "value": "2021-10-28",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "sourceKeys": [
+        "nl-lisey-date"
+      ],
+      "checked": "2026-11-01",
+      "locator": "ISBN 9789021030098 paperback, Dutch, publication 28/10/2021; date only.",
+      "note": "Only this exact ISBN edition is enriched; earlier observations retained. No first-printing assertion."
+    },
+    {
+      "key": "nl-edition-000053-publicationDate",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000053"
+      },
+      "field": "publicationDate",
+      "value": {
+        "value": "2019-04-12",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "sourceKeys": [
+        "nl-finders-publisher"
+      ],
+      "checked": "2026-11-01",
+      "locator": "ISBN 9789021024417, Dutch paperback, publisher reports 12-04-2019. Retailer reports 16 April; publisher date selected, discrepancy retained here.",
+      "note": "Only this exact ISBN edition is enriched; earlier observations retained. No first-printing assertion."
+    },
+    {
+      "key": "nl-edition-000052-publicationDate",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000052"
+      },
+      "field": "publicationDate",
+      "value": {
+        "value": "2019-11-04",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "sourceKeys": [
+        "nl-revival-metadata"
+      ],
+      "checked": "2026-11-01",
+      "locator": "Exact ISBN 9789021025285 Dutch paperback; Henny Van Gulik; 4/11/2019. Publisher page unavailable through web fetch, retailer metadata used with limited scope.",
+      "note": "Only this exact ISBN edition is enriched; earlier observations retained. No first-printing assertion."
+    },
+    {
+      "key": "nl-edition-000043-translationCredits",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000043"
+      },
+      "field": "translationCredits",
+      "value": [
+        "crd:000360"
+      ],
+      "sourceKeys": [
+        "nl-lisey-paperback"
+      ],
+      "checked": "2026-11-01",
+      "locator": "ISBN 9789021030098, Dutch paperback, translator Hugo Kuipers. Publisher date --; no date inferred.",
+      "note": "Only this exact ISBN edition is enriched; earlier observations retained. No first-printing assertion."
+    },
+    {
+      "key": "nl-edition-000053-translationCredits",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000053"
+      },
+      "field": "translationCredits",
+      "value": [
+        "crd:000361"
+      ],
+      "sourceKeys": [
+        "nl-finders-translator"
+      ],
+      "checked": "2026-11-01",
+      "locator": "Exact ISBN 9789021024417 translator Annemarie Lodewijk. Duplicated first/second translator is one person, not two; erroneous secondary author Finders is NOT adopted. Retailer date differs from publisher, not selected.",
+      "note": "Only this exact ISBN edition is enriched; earlier observations retained. No first-printing assertion."
+    },
+    {
+      "key": "nl-edition-000052-translationCredits",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000052"
+      },
+      "field": "translationCredits",
+      "value": [
+        "crd:000362"
+      ],
+      "sourceKeys": [
+        "nl-revival-metadata"
+      ],
+      "checked": "2026-11-01",
+      "locator": "Exact ISBN 9789021025285 Dutch paperback; Henny Van Gulik; 4/11/2019. Publisher page unavailable through web fetch, retailer metadata used with limited scope.",
+      "note": "Only this exact ISBN edition is enriched; earlier observations retained. No first-printing assertion."
+    },
+    {
+      "key": "nl-edition-000028-translationCredits",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000028"
+      },
+      "field": "translationCredits",
+      "value": [
+        "crd:000363"
+      ],
+      "sourceKeys": [
+        "nl-insomnia-translator"
+      ],
+      "checked": "2026-11-01",
+      "locator": "Exact ISBN 9789021049144 Dutch paperback: translator Eny van Gelder, repeated credit deduplicated. No narration credit adopted.",
+      "note": "Only this exact ISBN edition is enriched; earlier observations retained. No first-printing assertion."
+    },
+    {
+      "key": "nl-edition-000015-translationCredits",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000015"
+      },
+      "field": "translationCredits",
+      "value": [
+        "crd:000364",
+        "crd:000365"
+      ],
+      "sourceKeys": [
+        "nl-gunslinger-translators"
+      ],
+      "checked": "2026-11-01",
+      "locator": "ISBN 9789021049151: explicit combined translator credit Hugo Timmerman en Hugo Kuipers. Split only the two named people; exact contribution scope not specified.",
+      "note": "Only this exact ISBN edition is enriched; earlier observations retained. No first-printing assertion."
     }
   ]
 }
