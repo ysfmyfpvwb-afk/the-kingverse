@@ -7837,6 +7837,54 @@
       "checkedFields": [
         "exact ISBN edition metadata"
       ]
+    },
+    {
+      "key": "nl-later-17-source",
+      "url": "https://www.bibliotheek.nl/catalogus/titel.455859469.html/de-vervloeking/",
+      "publisher": "Bibliotheek.nl",
+      "sourceType": "reference",
+      "observedAt": "2026-11-01",
+      "access": "available",
+      "locator": "Exact ISBN 9789021062419; Dutch-language edition. Explicit translator credit: Thomas Nicolaas. Edition date 2026; not original work publication. Library edition record explicitly names Thomas Nicolaas. Only the library year is adopted; no invented first day. Other ISBNs/older translation credits are not merged. ",
+      "checkedFields": [
+        "exact ISBN edition metadata"
+      ]
+    },
+    {
+      "key": "nl-later-44-source",
+      "url": "https://www.standaardboekhandel.be/p/de-ontvoering-9789021059662",
+      "publisher": "Standaard Boekhandel",
+      "sourceType": "reference",
+      "observedAt": "2026-11-01",
+      "access": "available",
+      "locator": "Exact ISBN 9789021059662; Dutch-language edition. Explicit translator credit: Hugo Kuipers. Edition date 2025-11-18; not original work publication. Richard Bachman is the author pseudonym, not a second coauthor; duplicated retailer author entry not adopted. ",
+      "checkedFields": [
+        "exact ISBN edition metadata"
+      ]
+    },
+    {
+      "key": "nl-later-62-source",
+      "url": "https://www.stumpel.nl/na-zonsondergang-9789021062440",
+      "publisher": "Stumpel",
+      "sourceType": "reference",
+      "observedAt": "2026-11-01",
+      "access": "available",
+      "locator": "Exact ISBN 9789021062440; Dutch-language edition. Edition date 2026-05-20; not original work publication. ",
+      "checkedFields": [
+        "exact ISBN edition metadata"
+      ]
+    },
+    {
+      "key": "nl-later-39-source",
+      "url": "https://www.bol.com/nl/nl/p/de-donkere-toren-6-een-lied-van-susannah/9300000268259299/",
+      "publisher": "bol",
+      "sourceType": "reference",
+      "observedAt": "2026-11-01",
+      "access": "available",
+      "locator": "Exact ISBN 9789021064390; Dutch-language edition. Explicit translator credit: Hugo Kuipers. No new date adopted. ",
+      "checkedFields": [
+        "exact ISBN edition metadata"
+      ]
     }
   ],
   "records": [
@@ -16608,6 +16656,77 @@
       ],
       "open": [],
       "note": "Exact ISBN 9789021037226; Dutch-language edition. Explicit translator credit: Pauline Moody. Edition date 2023-01-31; not original work publication. "
+    },
+    {
+      "key": "translator-thomas-nicolaas",
+      "entityType": "person",
+      "checked": "2026-11-01",
+      "name": "Thomas Nicolaas",
+      "aliases": [],
+      "pseudonyms": [],
+      "externalIds": {},
+      "sourceKeys": [
+        "nl-later-17-source"
+      ],
+      "open": [],
+      "note": "Exact ISBN 9789021062419; Dutch-language edition. Explicit translator credit: Thomas Nicolaas. Edition date 2026; not original work publication. Library edition record explicitly names Thomas Nicolaas. Only the library year is adopted; no invented first day. Other ISBNs/older translation credits are not merged. "
+    },
+    {
+      "key": "nl-later-17-translator-000058",
+      "entityType": "credit",
+      "checked": "2026-11-01",
+      "personId": "per:000058",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000017"
+      },
+      "role": "translator",
+      "creditedAs": null,
+      "scope": "Dutch translation",
+      "characterId": null,
+      "sourceKeys": [
+        "nl-later-17-source"
+      ],
+      "open": [],
+      "note": "Exact ISBN 9789021062419; Dutch-language edition. Explicit translator credit: Thomas Nicolaas. Edition date 2026; not original work publication. Library edition record explicitly names Thomas Nicolaas. Only the library year is adopted; no invented first day. Other ISBNs/older translation credits are not merged. "
+    },
+    {
+      "key": "nl-later-44-translator-000034",
+      "entityType": "credit",
+      "checked": "2026-11-01",
+      "personId": "per:000034",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000044"
+      },
+      "role": "translator",
+      "creditedAs": null,
+      "scope": "Dutch translation",
+      "characterId": null,
+      "sourceKeys": [
+        "nl-later-44-source"
+      ],
+      "open": [],
+      "note": "Exact ISBN 9789021059662; Dutch-language edition. Explicit translator credit: Hugo Kuipers. Edition date 2025-11-18; not original work publication. Richard Bachman is the author pseudonym, not a second coauthor; duplicated retailer author entry not adopted. "
+    },
+    {
+      "key": "nl-later-39-translator-000034",
+      "entityType": "credit",
+      "checked": "2026-11-01",
+      "personId": "per:000034",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000039"
+      },
+      "role": "translator",
+      "creditedAs": null,
+      "scope": "Dutch translation",
+      "characterId": null,
+      "sourceKeys": [
+        "nl-later-39-source"
+      ],
+      "open": [],
+      "note": "Exact ISBN 9789021064390; Dutch-language edition. Explicit translator credit: Hugo Kuipers. No new date adopted. "
     }
   ],
   "deferred": [
@@ -25890,6 +26009,117 @@
       ],
       "checked": "2026-11-01",
       "locator": "Exact ISBN 9789021022925; Dutch-language edition. Edition date 2018-05-02; not original work publication. Translator is not adopted: another ISBN lists two translators, while this retailer repeats one name. Full credit remains open. ",
+      "note": "Only evidence for this ISBN is adopted. Earlier source observations and canonical ownership retained."
+    },
+    {
+      "key": "nl-later-17-publicationDate",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000017"
+      },
+      "field": "publicationDate",
+      "value": {
+        "value": "2026",
+        "precision": "year",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "sourceKeys": [
+        "nl-later-17-source"
+      ],
+      "checked": "2026-11-01",
+      "locator": "Exact ISBN 9789021062419; Dutch-language edition. Explicit translator credit: Thomas Nicolaas. Edition date 2026; not original work publication. Library edition record explicitly names Thomas Nicolaas. Only the library year is adopted; no invented first day. Other ISBNs/older translation credits are not merged. ",
+      "note": "Only evidence for this ISBN is adopted. Earlier source observations and canonical ownership retained."
+    },
+    {
+      "key": "nl-later-17-translationCredits",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000017"
+      },
+      "field": "translationCredits",
+      "value": [
+        "crd:000378"
+      ],
+      "sourceKeys": [
+        "nl-later-17-source"
+      ],
+      "checked": "2026-11-01",
+      "locator": "Exact ISBN 9789021062419; Dutch-language edition. Explicit translator credit: Thomas Nicolaas. Edition date 2026; not original work publication. Library edition record explicitly names Thomas Nicolaas. Only the library year is adopted; no invented first day. Other ISBNs/older translation credits are not merged. ",
+      "note": "Only evidence for this ISBN is adopted. Earlier source observations and canonical ownership retained."
+    },
+    {
+      "key": "nl-later-44-publicationDate",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000044"
+      },
+      "field": "publicationDate",
+      "value": {
+        "value": "2025-11-18",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "sourceKeys": [
+        "nl-later-44-source"
+      ],
+      "checked": "2026-11-01",
+      "locator": "Exact ISBN 9789021059662; Dutch-language edition. Explicit translator credit: Hugo Kuipers. Edition date 2025-11-18; not original work publication. Richard Bachman is the author pseudonym, not a second coauthor; duplicated retailer author entry not adopted. ",
+      "note": "Only evidence for this ISBN is adopted. Earlier source observations and canonical ownership retained."
+    },
+    {
+      "key": "nl-later-44-translationCredits",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000044"
+      },
+      "field": "translationCredits",
+      "value": [
+        "crd:000379"
+      ],
+      "sourceKeys": [
+        "nl-later-44-source"
+      ],
+      "checked": "2026-11-01",
+      "locator": "Exact ISBN 9789021059662; Dutch-language edition. Explicit translator credit: Hugo Kuipers. Edition date 2025-11-18; not original work publication. Richard Bachman is the author pseudonym, not a second coauthor; duplicated retailer author entry not adopted. ",
+      "note": "Only evidence for this ISBN is adopted. Earlier source observations and canonical ownership retained."
+    },
+    {
+      "key": "nl-later-62-publicationDate",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000062"
+      },
+      "field": "publicationDate",
+      "value": {
+        "value": "2026-05-20",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "sourceKeys": [
+        "nl-later-62-source"
+      ],
+      "checked": "2026-11-01",
+      "locator": "Exact ISBN 9789021062440; Dutch-language edition. Edition date 2026-05-20; not original work publication. ",
+      "note": "Only evidence for this ISBN is adopted. Earlier source observations and canonical ownership retained."
+    },
+    {
+      "key": "nl-later-39-translationCredits",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000039"
+      },
+      "field": "translationCredits",
+      "value": [
+        "crd:000380"
+      ],
+      "sourceKeys": [
+        "nl-later-39-source"
+      ],
+      "checked": "2026-11-01",
+      "locator": "Exact ISBN 9789021064390; Dutch-language edition. Explicit translator credit: Hugo Kuipers. No new date adopted. ",
       "note": "Only evidence for this ISBN is adopted. Earlier source observations and canonical ownership retained."
     }
   ]

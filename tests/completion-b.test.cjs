@@ -272,3 +272,10 @@ test('Dutch reading editions retain month precision and story-specific translato
  const eventual=map.get('edn:000061');assert.equal(eventual.publicationDate.precision,'month');assert.deepEqual(eventual.translationCredits.map(id=>map.get(id).scope),['Dutch translation of all stories except Lunch in het Gotham Café','Dutch translation of Lunch in het Gotham Café']);
  assert.deepEqual(map.get('edn:000064').translationCredits,[]);assert.equal(bundle.editions.length,255);
 });
+
+test('Later Dutch editions retain library year precision and Bachman ownership',()=>{
+ const {db}=require('../scripts/build_main_completion.cjs').generateMainCompletion();
+ for(const[n,date,names]of [[17,'2026',['Thomas Nicolaas']],[44,'2025-11-18',['Hugo Kuipers']],[62,'2026-05-20',[]],[39,'2026-09-15',['Hugo Kuipers']]]){const id='edn:'+String(n).padStart(6,'0'),e=db.editions.find(e=>e.canonicalId===id),native=require('../explorer/pilot/data/'+id.replace(':','-')+'/index.json');assert.equal(e.publicationDate.value,date);assert.equal(native.node.data.publicationDate.value,date);if(names.length){assert.deepEqual(e.translators,names);assert.deepEqual(native.sections.creators.items.filter(c=>c.role==='translator').map(c=>c.target.label),names);}assert.deepEqual(native.node.data.publicationOf,base.editions.find(e=>e.id===id).publicationOf);}
+ assert.equal(bundle.editions.find(e=>e.id==='edn:000017').publicationDate.precision,'year');
+ assert.deepEqual(bundle.registry.aliases,base.registry.aliases);assert.equal(bundle.editions.length,255);assert.equal(bundle.works.length,250);
+});
