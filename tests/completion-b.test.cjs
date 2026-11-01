@@ -265,3 +265,10 @@ test('Dutch classic editions show verified dates and translation roles in both p
  }
  assert.deepEqual(bundle.registry.aliases,base.registry.aliases);
 });
+
+test('Dutch reading editions retain month precision and story-specific translator scopes',()=>{
+ const {db}=require('../scripts/build_main_completion.cjs').generateMainCompletion(),map=new Map(Object.values(bundle).filter(Array.isArray).flat().map(r=>[r.id,r]));
+ for(const[n,date,names]of [[41,'2017-06-20',['Hugo Kuipers']],[49,'2020-11-23',['Mieke Trouw-Luyckx']],[35,'2023-02-15',[]],[39,'2026-09-15',[]],[61,'2025-09',['Hugo Kuipers','Anders Pieterse']],[65,'2023-01-31',['Pauline Moody']],[64,'2018-05-02',[]]]){const id='edn:'+String(n).padStart(6,'0'),e=map.get(id),main=db.editions.find(e=>e.canonicalId===id),native=require('../explorer/pilot/data/'+id.replace(':','-')+'/index.json');assert.equal(e.publicationDate.value,date);assert.equal(main.publicationDate.value,date);assert.equal(native.node.data.publicationDate.value,date);if(names.length)assert.deepEqual(main.translators,names);assert.equal(e.isbn13,base.editions.find(e=>e.id===id).isbn13);}
+ const eventual=map.get('edn:000061');assert.equal(eventual.publicationDate.precision,'month');assert.deepEqual(eventual.translationCredits.map(id=>map.get(id).scope),['Dutch translation of all stories except Lunch in het Gotham Café','Dutch translation of Lunch in het Gotham Café']);
+ assert.deepEqual(map.get('edn:000064').translationCredits,[]);assert.equal(bundle.editions.length,255);
+});

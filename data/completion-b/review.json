@@ -7753,6 +7753,90 @@
       "checkedFields": [
         "exact ISBN edition metadata"
       ]
+    },
+    {
+      "key": "nl-reading-41-source",
+      "url": "https://metadata.isbn.nl/798169/de-colorado-kid.html",
+      "publisher": "Bureau ISBN",
+      "sourceType": "reference",
+      "observedAt": "2026-11-01",
+      "access": "available",
+      "locator": "Exact ISBN 9789024578207; Dutch-language edition. Explicit translator credit: Hugo Kuipers. Edition date 2017-06-20; not original work publication. Work-level named translator above variants; target ISBN listed explicitly among Dutch paperback variants. Header date belongs to another variant and is not adopted. ",
+      "checkedFields": [
+        "exact ISBN edition metadata"
+      ]
+    },
+    {
+      "key": "nl-reading-49-source",
+      "url": "https://www.standaardboekhandel.be/p/joyland-9789021027784",
+      "publisher": "Standaard Boekhandel",
+      "sourceType": "reference",
+      "observedAt": "2026-11-01",
+      "access": "available",
+      "locator": "Exact ISBN 9789021027784; Dutch-language edition. Explicit translator credit: Mieke Trouw-Luyckx. Edition date 2020-11-23; not original work publication. ",
+      "checkedFields": [
+        "exact ISBN edition metadata"
+      ]
+    },
+    {
+      "key": "nl-reading-35-source",
+      "url": "https://boekenbase.nl/boek/het-meisje-dat-hield-van-tom-gordon-stephen-king-9789021037332?from=%2Fauteur%2Fstephen-king",
+      "publisher": "BoekenBase",
+      "sourceType": "reference",
+      "observedAt": "2026-11-01",
+      "access": "available",
+      "locator": "Exact ISBN 9789021037332; Dutch-language edition. Edition date 2023-02-15; not original work publication. ",
+      "checkedFields": [
+        "exact ISBN edition metadata"
+      ]
+    },
+    {
+      "key": "nl-reading-39-source",
+      "url": "https://shop.nbdbiblion.nl/product/een-lied-van-susannah-1?overlay=%2Falle-verschenen-artikelen%3Fordernumber%3D2026110844",
+      "publisher": "NBD Biblion",
+      "sourceType": "reference",
+      "observedAt": "2026-11-01",
+      "access": "available",
+      "locator": "Exact ISBN 9789021064390; Dutch-language edition. Edition date 2026-09-15; not original work publication. ",
+      "checkedFields": [
+        "exact ISBN edition metadata"
+      ]
+    },
+    {
+      "key": "nl-reading-61-source",
+      "url": "https://rozet.nl/catalogus/2554643/",
+      "publisher": "Rozet",
+      "sourceType": "reference",
+      "observedAt": "2026-11-01",
+      "access": "available",
+      "locator": "Exact ISBN 9789021055732; Dutch-language edition. Explicit translator credit: Hugo Kuipers, Anders Pieterse. Edition date 2025-09; not original work publication. Rozet explicitly attributes all stories except Lunch in het Gotham Café to Hugo Kuipers, and that story to Anders Pieterse. Only September 2025 precision is adopted. ",
+      "checkedFields": [
+        "exact ISBN edition metadata"
+      ]
+    },
+    {
+      "key": "nl-reading-65-source",
+      "url": "https://www.standaardboekhandel.be/p/dichte-mist-9789021037226",
+      "publisher": "Standaard Boekhandel",
+      "sourceType": "reference",
+      "observedAt": "2026-11-01",
+      "access": "available",
+      "locator": "Exact ISBN 9789021037226; Dutch-language edition. Explicit translator credit: Pauline Moody. Edition date 2023-01-31; not original work publication. ",
+      "checkedFields": [
+        "exact ISBN edition metadata"
+      ]
+    },
+    {
+      "key": "nl-reading-64-source",
+      "url": "https://www.bol.com/nl/nl/f/de-bazaar-van-boze-dromen/9200000045960980/",
+      "publisher": "bol",
+      "sourceType": "reference",
+      "observedAt": "2026-11-01",
+      "access": "available",
+      "locator": "Exact ISBN 9789021022925; Dutch-language edition. Edition date 2018-05-02; not original work publication. Translator is not adopted: another ISBN lists two translators, while this retailer repeats one name. Full credit remains open. ",
+      "checkedFields": [
+        "exact ISBN edition metadata"
+      ]
     }
   ],
   "records": [
@@ -16165,7 +16249,7 @@
       },
       "role": "translator",
       "creditedAs": null,
-      "scope": "translation of ISBN 9789021030098; individual contribution not subdivided",
+      "scope": "Dutch translation",
       "characterId": null,
       "sourceKeys": [
         "nl-lisey-paperback"
@@ -16184,7 +16268,7 @@
       },
       "role": "translator",
       "creditedAs": null,
-      "scope": "translation of ISBN 9789021024417; individual contribution not subdivided",
+      "scope": "Dutch translation",
       "characterId": null,
       "sourceKeys": [
         "nl-finders-translator"
@@ -16203,7 +16287,7 @@
       },
       "role": "translator",
       "creditedAs": null,
-      "scope": "translation of ISBN 9789021025285; individual contribution not subdivided",
+      "scope": "Dutch translation",
       "characterId": null,
       "sourceKeys": [
         "nl-revival-metadata"
@@ -16222,7 +16306,7 @@
       },
       "role": "translator",
       "creditedAs": null,
-      "scope": "translation of ISBN 9789021049144; individual contribution not subdivided",
+      "scope": "Dutch translation",
       "characterId": null,
       "sourceKeys": [
         "nl-insomnia-translator"
@@ -16241,7 +16325,7 @@
       },
       "role": "translator",
       "creditedAs": null,
-      "scope": "translation of ISBN 9789021049151; individual contribution not subdivided",
+      "scope": "Dutch translation",
       "characterId": null,
       "sourceKeys": [
         "nl-gunslinger-translators"
@@ -16260,7 +16344,7 @@
       },
       "role": "translator",
       "creditedAs": null,
-      "scope": "translation of ISBN 9789021049151; individual contribution not subdivided",
+      "scope": "Dutch translation",
       "characterId": null,
       "sourceKeys": [
         "nl-gunslinger-translators"
@@ -16280,7 +16364,7 @@
       },
       "role": "translator",
       "creditedAs": null,
-      "scope": "translation of ISBN 9789024578108; no individual section allocation inferred",
+      "scope": "Dutch translation",
       "characterId": null,
       "sourceKeys": [
         "nl-classic-6-source"
@@ -16299,7 +16383,7 @@
       },
       "role": "translator",
       "creditedAs": null,
-      "scope": "translation of ISBN 9789021027791; no individual section allocation inferred",
+      "scope": "Dutch translation",
       "characterId": null,
       "sourceKeys": [
         "nl-classic-8-source"
@@ -16318,7 +16402,7 @@
       },
       "role": "translator",
       "creditedAs": null,
-      "scope": "translation of ISBN 9789021027791; no individual section allocation inferred",
+      "scope": "Dutch translation",
       "characterId": null,
       "sourceKeys": [
         "nl-classic-8-source"
@@ -16337,7 +16421,7 @@
       },
       "role": "translator",
       "creditedAs": null,
-      "scope": "translation of ISBN 9789021043425; no individual section allocation inferred",
+      "scope": "Dutch translation",
       "characterId": null,
       "sourceKeys": [
         "nl-classic-10-source"
@@ -16356,7 +16440,7 @@
       },
       "role": "translator",
       "creditedAs": null,
-      "scope": "translation of ISBN 9789021031354; no individual section allocation inferred",
+      "scope": "Dutch translation",
       "characterId": null,
       "sourceKeys": [
         "nl-classic-13-source"
@@ -16375,7 +16459,7 @@
       },
       "role": "translator",
       "creditedAs": null,
-      "scope": "translation of ISBN 9789021043449; no individual section allocation inferred",
+      "scope": "Dutch translation",
       "characterId": null,
       "sourceKeys": [
         "nl-classic-14-source"
@@ -16394,13 +16478,136 @@
       },
       "role": "translator",
       "creditedAs": null,
-      "scope": "translation of ISBN 9789021051420; no individual section allocation inferred",
+      "scope": "Dutch translation",
       "characterId": null,
       "sourceKeys": [
         "nl-classic-21-source"
       ],
       "open": [],
       "note": "Exact ISBN 9789021051420; Dutch-language edition. Explicit translator credit: Hugo Timmerman. No new date adopted. Work-level named translator above variants; target ISBN listed explicitly among Dutch paperback variants. Header date belongs to another variant and is not adopted. "
+    },
+    {
+      "key": "nl-reading-41-translator-000034",
+      "entityType": "credit",
+      "checked": "2026-11-01",
+      "personId": "per:000034",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000041"
+      },
+      "role": "translator",
+      "creditedAs": null,
+      "scope": "Dutch translation",
+      "characterId": null,
+      "sourceKeys": [
+        "nl-reading-41-source"
+      ],
+      "open": [],
+      "note": "Exact ISBN 9789024578207; Dutch-language edition. Explicit translator credit: Hugo Kuipers. Edition date 2017-06-20; not original work publication. Work-level named translator above variants; target ISBN listed explicitly among Dutch paperback variants. Header date belongs to another variant and is not adopted. "
+    },
+    {
+      "key": "translator-mieke-trouw-luyckx",
+      "entityType": "person",
+      "checked": "2026-11-01",
+      "name": "Mieke Trouw-Luyckx",
+      "aliases": [],
+      "pseudonyms": [],
+      "externalIds": {},
+      "sourceKeys": [
+        "nl-reading-49-source"
+      ],
+      "open": [],
+      "note": "Exact ISBN 9789021027784; Dutch-language edition. Explicit translator credit: Mieke Trouw-Luyckx. Edition date 2020-11-23; not original work publication. "
+    },
+    {
+      "key": "nl-reading-49-translator-000056",
+      "entityType": "credit",
+      "checked": "2026-11-01",
+      "personId": "per:000056",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000049"
+      },
+      "role": "translator",
+      "creditedAs": null,
+      "scope": "Dutch translation",
+      "characterId": null,
+      "sourceKeys": [
+        "nl-reading-49-source"
+      ],
+      "open": [],
+      "note": "Exact ISBN 9789021027784; Dutch-language edition. Explicit translator credit: Mieke Trouw-Luyckx. Edition date 2020-11-23; not original work publication. "
+    },
+    {
+      "key": "nl-reading-61-translator-000034",
+      "entityType": "credit",
+      "checked": "2026-11-01",
+      "personId": "per:000034",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000061"
+      },
+      "role": "translator",
+      "creditedAs": null,
+      "scope": "Dutch translation of all stories except Lunch in het Gotham Café",
+      "characterId": null,
+      "sourceKeys": [
+        "nl-reading-61-source"
+      ],
+      "open": [],
+      "note": "Exact ISBN 9789021055732; Dutch-language edition. Explicit translator credit: Hugo Kuipers, Anders Pieterse. Edition date 2025-09; not original work publication. Rozet explicitly attributes all stories except Lunch in het Gotham Café to Hugo Kuipers, and that story to Anders Pieterse. Only September 2025 precision is adopted. "
+    },
+    {
+      "key": "translator-anders-pieterse",
+      "entityType": "person",
+      "checked": "2026-11-01",
+      "name": "Anders Pieterse",
+      "aliases": [],
+      "pseudonyms": [],
+      "externalIds": {},
+      "sourceKeys": [
+        "nl-reading-61-source"
+      ],
+      "open": [],
+      "note": "Exact ISBN 9789021055732; Dutch-language edition. Explicit translator credit: Hugo Kuipers, Anders Pieterse. Edition date 2025-09; not original work publication. Rozet explicitly attributes all stories except Lunch in het Gotham Café to Hugo Kuipers, and that story to Anders Pieterse. Only September 2025 precision is adopted. "
+    },
+    {
+      "key": "nl-reading-61-translator-000057",
+      "entityType": "credit",
+      "checked": "2026-11-01",
+      "personId": "per:000057",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000061"
+      },
+      "role": "translator",
+      "creditedAs": null,
+      "scope": "Dutch translation of Lunch in het Gotham Café",
+      "characterId": null,
+      "sourceKeys": [
+        "nl-reading-61-source"
+      ],
+      "open": [],
+      "note": "Exact ISBN 9789021055732; Dutch-language edition. Explicit translator credit: Hugo Kuipers, Anders Pieterse. Edition date 2025-09; not original work publication. Rozet explicitly attributes all stories except Lunch in het Gotham Café to Hugo Kuipers, and that story to Anders Pieterse. Only September 2025 precision is adopted. "
+    },
+    {
+      "key": "nl-reading-65-translator-000046",
+      "entityType": "credit",
+      "checked": "2026-11-01",
+      "personId": "per:000046",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000065"
+      },
+      "role": "translator",
+      "creditedAs": null,
+      "scope": "Dutch translation",
+      "characterId": null,
+      "sourceKeys": [
+        "nl-reading-65-source"
+      ],
+      "open": [],
+      "note": "Exact ISBN 9789021037226; Dutch-language edition. Explicit translator credit: Pauline Moody. Edition date 2023-01-31; not original work publication. "
     }
   ],
   "deferred": [
@@ -25474,6 +25681,215 @@
       ],
       "checked": "2026-11-01",
       "locator": "Exact ISBN 9789021064383; Dutch-language edition. Edition date 2026-09-08; not original work publication. ",
+      "note": "Only evidence for this ISBN is adopted. Earlier source observations and canonical ownership retained."
+    },
+    {
+      "key": "nl-reading-41-publicationDate",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000041"
+      },
+      "field": "publicationDate",
+      "value": {
+        "value": "2017-06-20",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "sourceKeys": [
+        "nl-reading-41-source"
+      ],
+      "checked": "2026-11-01",
+      "locator": "Exact ISBN 9789024578207; Dutch-language edition. Explicit translator credit: Hugo Kuipers. Edition date 2017-06-20; not original work publication. Work-level named translator above variants; target ISBN listed explicitly among Dutch paperback variants. Header date belongs to another variant and is not adopted. ",
+      "note": "Only evidence for this ISBN is adopted. Earlier source observations and canonical ownership retained."
+    },
+    {
+      "key": "nl-reading-41-translationCredits",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000041"
+      },
+      "field": "translationCredits",
+      "value": [
+        "crd:000373"
+      ],
+      "sourceKeys": [
+        "nl-reading-41-source"
+      ],
+      "checked": "2026-11-01",
+      "locator": "Exact ISBN 9789024578207; Dutch-language edition. Explicit translator credit: Hugo Kuipers. Edition date 2017-06-20; not original work publication. Work-level named translator above variants; target ISBN listed explicitly among Dutch paperback variants. Header date belongs to another variant and is not adopted. ",
+      "note": "Only evidence for this ISBN is adopted. Earlier source observations and canonical ownership retained."
+    },
+    {
+      "key": "nl-reading-49-publicationDate",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000049"
+      },
+      "field": "publicationDate",
+      "value": {
+        "value": "2020-11-23",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "sourceKeys": [
+        "nl-reading-49-source"
+      ],
+      "checked": "2026-11-01",
+      "locator": "Exact ISBN 9789021027784; Dutch-language edition. Explicit translator credit: Mieke Trouw-Luyckx. Edition date 2020-11-23; not original work publication. ",
+      "note": "Only evidence for this ISBN is adopted. Earlier source observations and canonical ownership retained."
+    },
+    {
+      "key": "nl-reading-49-translationCredits",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000049"
+      },
+      "field": "translationCredits",
+      "value": [
+        "crd:000374"
+      ],
+      "sourceKeys": [
+        "nl-reading-49-source"
+      ],
+      "checked": "2026-11-01",
+      "locator": "Exact ISBN 9789021027784; Dutch-language edition. Explicit translator credit: Mieke Trouw-Luyckx. Edition date 2020-11-23; not original work publication. ",
+      "note": "Only evidence for this ISBN is adopted. Earlier source observations and canonical ownership retained."
+    },
+    {
+      "key": "nl-reading-35-publicationDate",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000035"
+      },
+      "field": "publicationDate",
+      "value": {
+        "value": "2023-02-15",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "sourceKeys": [
+        "nl-reading-35-source"
+      ],
+      "checked": "2026-11-01",
+      "locator": "Exact ISBN 9789021037332; Dutch-language edition. Edition date 2023-02-15; not original work publication. ",
+      "note": "Only evidence for this ISBN is adopted. Earlier source observations and canonical ownership retained."
+    },
+    {
+      "key": "nl-reading-39-publicationDate",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000039"
+      },
+      "field": "publicationDate",
+      "value": {
+        "value": "2026-09-15",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "sourceKeys": [
+        "nl-reading-39-source"
+      ],
+      "checked": "2026-11-01",
+      "locator": "Exact ISBN 9789021064390; Dutch-language edition. Edition date 2026-09-15; not original work publication. ",
+      "note": "Only evidence for this ISBN is adopted. Earlier source observations and canonical ownership retained."
+    },
+    {
+      "key": "nl-reading-61-publicationDate",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000061"
+      },
+      "field": "publicationDate",
+      "value": {
+        "value": "2025-09",
+        "precision": "month",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "sourceKeys": [
+        "nl-reading-61-source"
+      ],
+      "checked": "2026-11-01",
+      "locator": "Exact ISBN 9789021055732; Dutch-language edition. Explicit translator credit: Hugo Kuipers, Anders Pieterse. Edition date 2025-09; not original work publication. Rozet explicitly attributes all stories except Lunch in het Gotham Café to Hugo Kuipers, and that story to Anders Pieterse. Only September 2025 precision is adopted. ",
+      "note": "Only evidence for this ISBN is adopted. Earlier source observations and canonical ownership retained."
+    },
+    {
+      "key": "nl-reading-61-translationCredits",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000061"
+      },
+      "field": "translationCredits",
+      "value": [
+        "crd:000375",
+        "crd:000376"
+      ],
+      "sourceKeys": [
+        "nl-reading-61-source"
+      ],
+      "checked": "2026-11-01",
+      "locator": "Exact ISBN 9789021055732; Dutch-language edition. Explicit translator credit: Hugo Kuipers, Anders Pieterse. Edition date 2025-09; not original work publication. Rozet explicitly attributes all stories except Lunch in het Gotham Café to Hugo Kuipers, and that story to Anders Pieterse. Only September 2025 precision is adopted. ",
+      "note": "Only evidence for this ISBN is adopted. Earlier source observations and canonical ownership retained."
+    },
+    {
+      "key": "nl-reading-65-publicationDate",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000065"
+      },
+      "field": "publicationDate",
+      "value": {
+        "value": "2023-01-31",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "sourceKeys": [
+        "nl-reading-65-source"
+      ],
+      "checked": "2026-11-01",
+      "locator": "Exact ISBN 9789021037226; Dutch-language edition. Explicit translator credit: Pauline Moody. Edition date 2023-01-31; not original work publication. ",
+      "note": "Only evidence for this ISBN is adopted. Earlier source observations and canonical ownership retained."
+    },
+    {
+      "key": "nl-reading-65-translationCredits",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000065"
+      },
+      "field": "translationCredits",
+      "value": [
+        "crd:000377"
+      ],
+      "sourceKeys": [
+        "nl-reading-65-source"
+      ],
+      "checked": "2026-11-01",
+      "locator": "Exact ISBN 9789021037226; Dutch-language edition. Explicit translator credit: Pauline Moody. Edition date 2023-01-31; not original work publication. ",
+      "note": "Only evidence for this ISBN is adopted. Earlier source observations and canonical ownership retained."
+    },
+    {
+      "key": "nl-reading-64-publicationDate",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000064"
+      },
+      "field": "publicationDate",
+      "value": {
+        "value": "2018-05-02",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "sourceKeys": [
+        "nl-reading-64-source"
+      ],
+      "checked": "2026-11-01",
+      "locator": "Exact ISBN 9789021022925; Dutch-language edition. Edition date 2018-05-02; not original work publication. Translator is not adopted: another ISBN lists two translators, while this retailer repeats one name. Full credit remains open. ",
       "note": "Only evidence for this ISBN is adopted. Earlier source observations and canonical ownership retained."
     }
   ]
