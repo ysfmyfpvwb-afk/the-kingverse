@@ -51,7 +51,7 @@ test('Core novel introductions reach the main details without changing editions 
 
 test('New publisher editions render on main pages with edition dates separate from original work years',()=>{
  run("tab='books';lang='en'");const html=run("detailContent(B.find(r=>r.canonicalId==='wrk:000242'))");assert.match(html,/2000/);assert.match(html,/2020-06-02/);assert.match(html,/9781982159375/);assert.match(html,/Scribner/);assert.match(html,/simonandschuster\.com/);
- const misery=run("detailContent(B.find(r=>r.canonicalId==='wrk:000021'))");assert.match(misery,/2016-01-05/);assert.match(misery,/9781501143106/);assert.equal(run("media(B.find(r=>r.canonicalId==='wrk:000021')).image"),run("MEDIA.books.Misery.en.image"));assert.equal(run('DB.editions.length'),259);
+ const misery=run("detailContent(B.find(r=>r.canonicalId==='wrk:000021'))");assert.match(misery,/2016-01-05/);assert.match(misery,/9781501143106/);assert.equal(run("media(B.find(r=>r.canonicalId==='wrk:000021')).image"),run("MEDIA.books.Misery.en.image"));assert.equal(run('DB.editions.length'),260);
 });
 
 test('Visitor connection explanations use readable content while retaining optional source links',()=>{
@@ -314,5 +314,12 @@ test('Dutch On Writing edition is searchable in either language and retains both
 test('Dutch paperbacks are separate from the existing audiobooks in both catalogs',()=>{
  const {db}=generateMainCompletion();
  for(const[n,old,owner,isbn,names,date]of [[257,3,2,'9789021064819',['Hugo Kuipers','Nienke Kuipers'],'2026-09-08'],[258,22,23,'9789021037233',['Margot Bakker'],'2023-01-31'],[259,26,27,'9789021026183',['Lucien Duzee'],'2020-04']]){const id='edn:'+String(n).padStart(6,'0'),audioId='edn:'+String(old).padStart(6,'0'),work='wrk:'+String(owner).padStart(6,'0'),e=db.editions.find(e=>e.canonicalId===id),audio=db.editions.find(e=>e.canonicalId===audioId),native=require('../explorer/pilot/data/'+id.replace(':','-')+'/index.json');assert.equal(e.format,'Paperback');assert.equal(audio.format,'Luisterboek');assert.notEqual(e.isbn,audio.isbn);assert.equal(e.isbn,isbn);assert.equal(e.publicationDate.value,date);assert.deepEqual(e.translators,names);assert.equal(native.parent.id,work);assert.equal(native.node.data.format,'Paperback');assert.equal(native.node.data.publicationDate.value,date);assert.deepEqual(native.sections.creators.items.filter(c=>c.role==='translator').map(c=>c.target.label),names);const row=db.books.find(r=>r.canonicalId===work);assert.ok(row.editionIds.includes(e.id)&&row.editionIds.includes(audio.id));assert.equal(db.books.filter(r=>r.canonicalId===work).length,1);}
- assert.equal(require('../explorer/pilot/data/edn-000259/index.json').node.data.publicationDate.precision,'month');assert.equal(db.books.length,97);assert.equal(db.editions.length,259);
+ assert.equal(require('../explorer/pilot/data/edn-000259/index.json').node.data.publicationDate.precision,'month');assert.equal(db.books.length,97);assert.equal(db.editions.length,260);
+});
+
+test('Dutch Danse Macabre is an edition of the nonfiction work and Sunset credits are deduplicated',()=>{
+ const {db}=generateMainCompletion(),e=db.editions.find(e=>e.canonicalId==='edn:000260');assert.equal(e.isbn,'9789062138449');assert.equal(e.publisher,'Loeb');assert.equal(e.publicationDate.value,'1986');assert.equal(e.publicationDate.precision,'year');assert.deepEqual(e.translators,[]);
+ const p=require('../explorer/pilot/data/edn-000260/index.json');assert.equal(p.parent.id,'wrk:000243');assert.equal(p.node.data.language,'nl');assert.equal(p.node.data.publicationDate.value,'1986');assert.equal(db.books.filter(b=>b.canonicalId==='wrk:000243').length,1);assert.equal(db.books.find(b=>b.canonicalId==='wrk:000243').Jaar,1981);
+ const sunset=db.editions.find(e=>e.canonicalId==='edn:000062');assert.deepEqual(sunset.translators,['Hugo Kuipers']);assert.deepEqual(require('../explorer/pilot/data/edn-000062/index.json').sections.creators.items.map(c=>c.target.label),['Hugo Kuipers']);
+ run("tab='books';lang='en'");const html=run("detailContent(B.find(r=>r.canonicalId==='wrk:000243'))");assert.match(html,/9789062138449/);assert.match(html,/1986/);
 });

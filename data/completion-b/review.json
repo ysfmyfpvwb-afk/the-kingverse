@@ -8017,6 +8017,42 @@
       "checkedFields": [
         "ISBN-specific Dutch paperback metadata only"
       ]
+    },
+    {
+      "key": "nov03-sunset-translator",
+      "url": "https://www.bol.com/be/nl/f/na-zonsondergang/39918751/",
+      "publisher": "bol",
+      "sourceType": "reference",
+      "observedAt": "2026-11-03",
+      "access": "available",
+      "locator": "Exact ISBN 9789021062440, Dutch paperback dated 20 May 2026. Explicit Hugo Kuipers translator credit, duplicated first/second entries deduplicated. Dutch storefront omits the field; Belgian record supplies it. No older-edition credit transfer.",
+      "checkedFields": [
+        "only exact ISBN fields identified by individual claims"
+      ]
+    },
+    {
+      "key": "nov03-danse-contemporary",
+      "url": "https://www.dbnl.org/tekst/_vri013boek06_01/_vri013boek06_01_0707.php",
+      "publisher": "DBNL / Vrij Nederland",
+      "sourceType": "reference",
+      "observedAt": "2026-11-03",
+      "access": "available",
+      "locator": "1986 contemporary bibliographic review, heading Monsters zonder ritssluiting, p. 11: Danse Macabre, Stephen King, Dutch translation, publisher Loeb. Prose/outcomes not retained. Translator wording retained as an unresolved credit observation, not merged with an existing person by similar surname.",
+      "checkedFields": [
+        "only exact ISBN fields identified by individual claims"
+      ]
+    },
+    {
+      "key": "nov03-danse-dutch-edition",
+      "url": "https://www.stephenking.nl/skfnieuw/boeken/boeken-op-titel/boek-dansemacabre/",
+      "publisher": "Stephen King Fanclub",
+      "sourceType": "reference",
+      "observedAt": "2026-11-03",
+      "access": "available",
+      "locator": "Edition table: Loeb Dutch paperback 1986, ISBN10 90-6213-844-6; standard checksum conversion to ISBN13 9789062138449. Same ISBN appears on later 1988/1989 printings; no printing-specific identity or first-printing assertion.",
+      "checkedFields": [
+        "only exact ISBN fields identified by individual claims"
+      ]
     }
   ],
   "records": [
@@ -17214,6 +17250,69 @@
         "Conflicting April day reports retained; month precision only. Earlier ebook translator credits are not transferred."
       ],
       "note": "Verified paperback of the existing canonical work; not the separately registered Dutch audiobook.",
+      "checked": "2026-11-03"
+    },
+    {
+      "key": "nov03-sunset-hugo",
+      "entityType": "credit",
+      "personId": "per:000034",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000062"
+      },
+      "role": "translator",
+      "creditedAs": null,
+      "scope": "Dutch translation",
+      "characterId": null,
+      "sourceKeys": [
+        "nov03-sunset-translator"
+      ],
+      "checked": "2026-11-03",
+      "open": [],
+      "note": "Exact ISBN and separately verified maker role; no new literary work identity."
+    },
+    {
+      "key": "danse-dutch-loeb-1986",
+      "entityType": "edition",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000243"
+      },
+      "language": "nl",
+      "title": "Danse Macabre",
+      "isbn13": "9789062138449",
+      "publisher": "Loeb",
+      "publicationDate": {
+        "value": "1986",
+        "precision": "year",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "nov03-danse-contemporary",
+        "nov03-danse-dutch-edition"
+      ],
+      "fieldSourceKeys": {
+        "isbn13": [
+          "nov03-danse-dutch-edition"
+        ],
+        "format": [
+          "nov03-danse-dutch-edition"
+        ],
+        "publicationDate": [
+          "nov03-danse-contemporary",
+          "nov03-danse-dutch-edition"
+        ]
+      },
+      "open": [
+        "Specific printing not established; later printings share this ISBN.",
+        "Contemporary review names translator Mariëlla de Kuyper. Canonical person linkage to the existing Mariëlla Snel is not established; no automatic name merge or duplicate person created.",
+        "Open Library ISBN endpoint returned HTTP 404; it was not used as evidence."
+      ],
+      "note": "Dutch edition of existing nonfiction work wrk:000243, not the French short-story collection with the same title. Bibliographic year 1986 is not the original English publication year 1981. No artwork imported.",
       "checked": "2026-11-03"
     }
   ],
@@ -26643,6 +26742,23 @@
       ],
       "checked": "2026-11-03",
       "locator": "Exact ebook ISBN translator, deduplicated.",
+      "note": "Field-scoped ISBN review. Existing source observations retained."
+    },
+    {
+      "key": "nov03-000062-translationCredits",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000062"
+      },
+      "field": "translationCredits",
+      "value": [
+        "crd:000390"
+      ],
+      "sourceKeys": [
+        "nov03-sunset-translator"
+      ],
+      "checked": "2026-11-03",
+      "locator": "ISBN-specific translator credit only; not a new work or author credit.",
       "note": "Field-scoped ISBN review. Existing source observations retained."
     }
   ]

@@ -3066,6 +3066,24 @@
     "claim/nov03-paperback-259/publicationDate": "clm:010598",
     "claim/nov03-paperback-259/format": "clm:010599",
     "claim/nov03-paperback-259/translationCredits": "clm:010600",
-    "claim/nov03-paperback-259/identityStatus": "clm:010601"
+    "claim/nov03-paperback-259/identityStatus": "clm:010601",
+    "source/nov03-sunset-translator": "src:000735",
+    "credit/nov03-sunset-hugo": "crd:000390",
+    "claim/nov03-sunset-hugo/personId": "clm:010602",
+    "claim/nov03-sunset-hugo/subject": "clm:010603",
+    "claim/nov03-sunset-hugo/role": "clm:010604",
+    "claim/nov03-sunset-hugo/scope": "clm:010605",
+    "claim/nov03-000062-translationCredits": "clm:010606",
+    "source/nov03-danse-contemporary": "src:000736",
+    "source/nov03-danse-dutch-edition": "src:000737",
+    "edition/danse-dutch-loeb-1986": "edn:000260",
+    "claim/danse-dutch-loeb-1986/publicationOf": "clm:010607",
+    "claim/danse-dutch-loeb-1986/language": "clm:010608",
+    "claim/danse-dutch-loeb-1986/title": "clm:010609",
+    "claim/danse-dutch-loeb-1986/isbn13": "clm:010610",
+    "claim/danse-dutch-loeb-1986/publisher": "clm:010611",
+    "claim/danse-dutch-loeb-1986/publicationDate": "clm:010612",
+    "claim/danse-dutch-loeb-1986/format": "clm:010613",
+    "claim/danse-dutch-loeb-1986/identityStatus": "clm:010614"
   }
 }
