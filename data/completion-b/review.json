@@ -7885,6 +7885,66 @@
       "checkedFields": [
         "exact ISBN edition metadata"
       ]
+    },
+    {
+      "key": "nov03-bazaar-translators",
+      "url": "https://www.nl.fnac.be/a13036885/Stephen-King-De-bazaar-van-boze-dromen",
+      "publisher": "Fnac",
+      "sourceType": "reference",
+      "observedAt": "2026-11-03",
+      "access": "available",
+      "locator": "ISBN 9789021022925; Dutch paperback May 2018. Both Henny Van Gulik and Annemarie Lodewijk explicitly identified as translators. Search-indexed ISBN-specific metadata inspected; direct fetch cache miss. No plot text retained.",
+      "checkedFields": [
+        "only exact ISBN fields identified by individual claims"
+      ]
+    },
+    {
+      "key": "nov03-throttle-translator",
+      "url": "https://beta.bol.com/nl/nl/p/hoogste-versnelling-ebook/9200000010977078/",
+      "publisher": "bol",
+      "sourceType": "reference",
+      "observedAt": "2026-11-03",
+      "access": "available",
+      "locator": "Exact ebook ISBN 9789024561186, Dutch, translator Yolande Ligterink. Repeated first/second translator is one person. King and Joe Hill remain coauthors. No print ISBN transferred.",
+      "checkedFields": [
+        "only exact ISBN fields identified by individual claims"
+      ]
+    },
+    {
+      "key": "nov03-on-writing-publisher",
+      "url": "https://www.lannoo.com/nl-nl/biografieen-waargebeurd/over-leven-en-schrijven-9789049205218",
+      "publisher": "Lannoo Uitgevers Groep / Boekerij",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-11-03",
+      "access": "available",
+      "locator": "Publisher-group product specifications: ISBN 9789049205218, Over leven en schrijven, Dutch, Boekerij, paperback/softback, 7 November 2024, Hugo Kuipers. No first-printing or cover claim.",
+      "checkedFields": [
+        "only exact ISBN fields identified by individual claims"
+      ]
+    },
+    {
+      "key": "nov03-on-writing-credit-list",
+      "url": "https://boekenbase.nl/boek/over-leven-en-schrijven-de-kunst-van-het-schrijven-door-de-ogen-van-me-9789049205218?from=%2Fauteur%2Fstephen-king",
+      "publisher": "BoekenBase",
+      "sourceType": "reference",
+      "observedAt": "2026-11-03",
+      "access": "available",
+      "locator": "Exact ISBN 9789049205218 lists Dutch, Hugo Kuipers and Nienke Kuipers as B06 translators. Both names retained; no allocation to individual sections inferred.",
+      "checkedFields": [
+        "only exact ISBN fields identified by individual claims"
+      ]
+    },
+    {
+      "key": "nov03-on-writing-language-conflict",
+      "url": "https://metadata.isbn.nl/1824212/over-leven-en-schrijven.html",
+      "publisher": "Bureau ISBN",
+      "sourceType": "reference",
+      "observedAt": "2026-11-03",
+      "access": "available",
+      "locator": "Same ISBN incorrectly labels language English while naming Dutch translators. Record the contradictory language observation; publisher-group page explicitly says Nederlands and takes precedence.",
+      "checkedFields": [
+        "only exact ISBN fields identified by individual claims"
+      ]
     }
   ],
   "records": [
@@ -16727,6 +16787,164 @@
       ],
       "open": [],
       "note": "Exact ISBN 9789021064390; Dutch-language edition. Explicit translator credit: Hugo Kuipers. No new date adopted. "
+    },
+    {
+      "key": "nov03-bazaar-henny",
+      "entityType": "credit",
+      "personId": "per:000053",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000064"
+      },
+      "role": "translator",
+      "creditedAs": null,
+      "scope": "Dutch translation",
+      "characterId": null,
+      "sourceKeys": [
+        "nov03-bazaar-translators"
+      ],
+      "checked": "2026-11-03",
+      "open": [],
+      "note": "Exact ISBN and separately verified maker role; no new literary work identity."
+    },
+    {
+      "key": "nov03-bazaar-annemarie",
+      "entityType": "credit",
+      "personId": "per:000044",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000064"
+      },
+      "role": "translator",
+      "creditedAs": null,
+      "scope": "Dutch translation",
+      "characterId": null,
+      "sourceKeys": [
+        "nov03-bazaar-translators"
+      ],
+      "checked": "2026-11-03",
+      "open": [],
+      "note": "Exact ISBN and separately verified maker role; no new literary work identity."
+    },
+    {
+      "key": "translator-yolande-ligterink",
+      "entityType": "person",
+      "name": "Yolande Ligterink",
+      "aliases": [],
+      "pseudonyms": [],
+      "externalIds": {},
+      "sourceKeys": [
+        "nov03-throttle-translator"
+      ],
+      "checked": "2026-11-03",
+      "open": [],
+      "note": "Exact ISBN and separately verified maker role; no new literary work identity."
+    },
+    {
+      "key": "nov03-throttle-yolande",
+      "entityType": "credit",
+      "personId": "per:000059",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000069"
+      },
+      "role": "translator",
+      "creditedAs": null,
+      "scope": "Dutch translation",
+      "characterId": null,
+      "sourceKeys": [
+        "nov03-throttle-translator"
+      ],
+      "checked": "2026-11-03",
+      "open": [],
+      "note": "Exact ISBN and separately verified maker role; no new literary work identity."
+    },
+    {
+      "key": "nov03-on-writing-hugo",
+      "entityType": "credit",
+      "personId": "per:000034",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000256"
+      },
+      "role": "translator",
+      "creditedAs": null,
+      "scope": "Dutch translation",
+      "characterId": null,
+      "sourceKeys": [
+        "nov03-on-writing-credit-list"
+      ],
+      "checked": "2026-11-03",
+      "open": [],
+      "note": "Exact ISBN and separately verified maker role; no new literary work identity."
+    },
+    {
+      "key": "nov03-on-writing-nienke",
+      "entityType": "credit",
+      "personId": "per:000035",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000256"
+      },
+      "role": "translator",
+      "creditedAs": null,
+      "scope": "Dutch translation",
+      "characterId": null,
+      "sourceKeys": [
+        "nov03-on-writing-credit-list"
+      ],
+      "checked": "2026-11-03",
+      "open": [],
+      "note": "Exact ISBN and separately verified maker role; no new literary work identity."
+    },
+    {
+      "key": "on-writing-dutch-2024",
+      "entityType": "edition",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000242"
+      },
+      "language": "nl",
+      "title": "Over leven en schrijven",
+      "isbn13": "9789049205218",
+      "publisher": "Boekerij",
+      "publicationDate": {
+        "value": "2024-11-07",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Paperback",
+      "translationCredits": [
+        "crd:000384",
+        "crd:000385"
+      ],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "nov03-on-writing-publisher",
+        "nov03-on-writing-credit-list"
+      ],
+      "fieldSourceKeys": {
+        "translationCredits": [
+          "nov03-on-writing-credit-list"
+        ]
+      },
+      "conflicts": [
+        {
+          "fieldPath": "/language",
+          "value": "en",
+          "sourceKeys": [
+            "nov03-on-writing-language-conflict"
+          ],
+          "note": "Bureau ISBN language conflicts with publisher-group Dutch-language specification. Unselected observation retained; no duplicate English edition created."
+        }
+      ],
+      "open": [
+        "Specific printing not established. Publisher lists Hugo; additional Nienke credit explicitly supplied by the ISBN-specific bibliographic record.",
+        "Standaard Boekhandel reports 6 November 2024; publisher-group 7 November selected. No exact first-translation date claim."
+      ],
+      "note": "Dutch translation of existing work wrk:000242. Bibliographic details do not create a second literary identity or reassign any cover.",
+      "checked": "2026-11-03"
     }
   ],
   "deferred": [
@@ -26121,6 +26339,41 @@
       "checked": "2026-11-01",
       "locator": "Exact ISBN 9789021064390; Dutch-language edition. Explicit translator credit: Hugo Kuipers. No new date adopted. ",
       "note": "Only evidence for this ISBN is adopted. Earlier source observations and canonical ownership retained."
+    },
+    {
+      "key": "nov03-000064-translationCredits",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000064"
+      },
+      "field": "translationCredits",
+      "value": [
+        "crd:000381",
+        "crd:000382"
+      ],
+      "sourceKeys": [
+        "nov03-bazaar-translators"
+      ],
+      "checked": "2026-11-03",
+      "locator": "ISBN 9789021022925 explicit translator names, not two copies of the first translator. Individual story allocation not established.",
+      "note": "Field-scoped ISBN review. Existing source observations retained."
+    },
+    {
+      "key": "nov03-000069-translationCredits",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000069"
+      },
+      "field": "translationCredits",
+      "value": [
+        "crd:000383"
+      ],
+      "sourceKeys": [
+        "nov03-throttle-translator"
+      ],
+      "checked": "2026-11-03",
+      "locator": "Exact ebook ISBN translator, deduplicated.",
+      "note": "Field-scoped ISBN review. Existing source observations retained."
     }
   ]
 }

@@ -51,7 +51,7 @@ test('Core novel introductions reach the main details without changing editions 
 
 test('New publisher editions render on main pages with edition dates separate from original work years',()=>{
  run("tab='books';lang='en'");const html=run("detailContent(B.find(r=>r.canonicalId==='wrk:000242'))");assert.match(html,/2000/);assert.match(html,/2020-06-02/);assert.match(html,/9781982159375/);assert.match(html,/Scribner/);assert.match(html,/simonandschuster\.com/);
- const misery=run("detailContent(B.find(r=>r.canonicalId==='wrk:000021'))");assert.match(misery,/2016-01-05/);assert.match(misery,/9781501143106/);assert.equal(run("media(B.find(r=>r.canonicalId==='wrk:000021')).image"),run("MEDIA.books.Misery.en.image"));assert.equal(run('DB.editions.length'),255);
+ const misery=run("detailContent(B.find(r=>r.canonicalId==='wrk:000021'))");assert.match(misery,/2016-01-05/);assert.match(misery,/9781501143106/);assert.equal(run("media(B.find(r=>r.canonicalId==='wrk:000021')).image"),run("MEDIA.books.Misery.en.image"));assert.equal(run('DB.editions.length'),256);
 });
 
 test('Visitor connection explanations use readable content while retaining optional source links',()=>{
@@ -300,4 +300,13 @@ test('Core character and setting links are visible on the corresponding main boo
 
 test('Turbulence uses its verified first-publication year instead of its later collection year',()=>{
  const row=generateMainCompletion().db.stories.find(s=>s.canonicalId==='wrk:000193');assert.equal(row.Jaar,2018);assert.equal(row.firstPublication.date,'2018-09');assert.equal(row.firstPublication.kind,'first-publication');assert.equal(row.collectionIds.length,2);run("tab='stories';lang='en'");const html=run("detailContent(S.find(s=>s.canonicalId==='wrk:000193'))");assert.match(html,/2018/);assert.match(html,/cemeterydance\.com/);
+});
+
+test('Dutch On Writing edition is searchable in either language and retains both translation credits',()=>{
+ run("tab='books';lang='en';$('search').value='Over leven en schrijven';render()");assert.match(element('results').innerHTML,/On Writing/);
+ assert.equal(run("B.filter(r=>r.canonicalId==='wrk:000242').length"),1);assert.equal(run('B.length'),97);
+ const html=run("detailContent(B.find(r=>r.canonicalId==='wrk:000242'))");for(const text of ['Over leven en schrijven','9789049205218','2024-11-07','Hugo Kuipers, Nienke Kuipers'])assert.ok(html.includes(text),text);
+ run("lang='nl'");assert.equal(run("title(B.find(r=>r.canonicalId==='wrk:000242'),'books')"),'Over leven en schrijven');
+ const p=require('../explorer/pilot/data/edn-000256/index.json');assert.equal(p.parent.id,'wrk:000242');assert.equal(p.node.data.language,'nl');assert.equal(p.node.data.isbn13,'9789049205218');assert.deepEqual(p.sections.creators.items.map(c=>c.target.label),['Hugo Kuipers','Nienke Kuipers']);
+ const b=require('../scripts/completion_b.cjs').extendCompletionB(require('../scripts/build_completion.cjs').loadCompletion());const e=b.editions.find(e=>e.id==='edn:000256');assert.equal(b.editions.filter(e=>e.isbn13==='9789049205218').length,1);assert.ok(b.claims.some(c=>c.subject.id===e.id&&c.fieldPath==='/language'&&c.value==='en'&&!c.selected&&c.status==='disputed'));run("lang='en';$('search').value=''");
 });
