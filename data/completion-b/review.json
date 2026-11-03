@@ -8053,6 +8053,54 @@
       "checkedFields": [
         "only exact ISBN fields identified by individual claims"
       ]
+    },
+    {
+      "key": "gwendy-omnibus-paperback",
+      "url": "https://www.lannoo.com/nl-nl/thrillers-spanning/gwendy-trilogie-9789049204815",
+      "publisher": "Lannoo Uitgevers Groep / Boekerij",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-11-03",
+      "access": "available",
+      "locator": "Publisher-group paperback: ISBN 9789049204815, Dutch, Gwendy-trilogie, Boekerij, 11 September 2024, Nathaly Schrijnder. Description explicitly lists all three volumes in reading order. Metadata and contents only; no plot text copied.",
+      "checkedFields": [
+        "only exact ISBN fields identified by individual claims"
+      ]
+    },
+    {
+      "key": "gwendy-omnibus-ebook",
+      "url": "https://www.lannoo.com/nl-nl/thrillers-spanning/gwendy-trilogie-9789402324259",
+      "publisher": "Lannoo Uitgevers Groep / Boekerij",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-11-03",
+      "access": "available",
+      "locator": "Publisher-group ebook: ISBN 9789402324259, Dutch, Boekerij, 10 September 2024, Annemarie Lodewijk. Different date/translator observation belongs to this edition; no silent transfer to paperback.",
+      "checkedFields": [
+        "only exact ISBN fields identified by individual claims"
+      ]
+    },
+    {
+      "key": "gwendy-omnibus-writer-scope",
+      "url": "https://www.cemeterydance.com/gwendys-magic-feather.html",
+      "publisher": "Cemetery Dance",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-11-03",
+      "access": "available",
+      "locator": "Reuse existing verified text-author/foreword distinction for wrk:000250: Richard Chizmar wrote the middle novel; Stephen King supplied its foreword. No new biography or work identity.",
+      "checkedFields": [
+        "only exact ISBN fields identified by individual claims"
+      ]
+    },
+    {
+      "key": "gwendy-omnibus-series-scope",
+      "url": "https://www.simonandschuster.com/series/Gwendys-Button-Box-Trilogy",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-11-03",
+      "access": "available",
+      "locator": "Reuse existing verified Gwendy trilogy identities and reading order. First/last books are King/Chizmar collaborations; middle-book author distinction is preserved separately.",
+      "checkedFields": [
+        "only exact ISBN fields identified by individual claims"
+      ]
     }
   ],
   "records": [
@@ -17314,6 +17362,290 @@
       ],
       "note": "Dutch edition of existing nonfiction work wrk:000243, not the French short-story collection with the same title. Bibliographic year 1986 is not the original English publication year 1981. No artwork imported.",
       "checked": "2026-11-03"
+    },
+    {
+      "key": "gwendy-dutch-omnibus",
+      "entityType": "collection",
+      "originalTitle": "Gwendy-trilogie",
+      "collectionKind": "collected-novels",
+      "aliases": [],
+      "summary": {
+        "en": "A Dutch omnibus bringing together Gwendy’s Button Box, Gwendy’s Magic Feather and Gwendy’s Final Task. Stephen King and Richard Chizmar co-wrote the first and last books; Chizmar wrote the middle novel, with a foreword by King. The three existing works remain separately available to explore."
+      },
+      "sourceKeys": [
+        "gwendy-omnibus-paperback",
+        "gwendy-omnibus-ebook",
+        "gwendy-omnibus-writer-scope",
+        "gwendy-omnibus-series-scope"
+      ],
+      "open": [
+        "This is a Dutch collected volume, not a newly identified English edition or a fourth Gwendy novel."
+      ],
+      "checked": "2026-11-03",
+      "note": "Exact ISBN and separately verified maker role; no new literary work identity."
+    },
+    {
+      "key": "gwendy-omnibus-king-contributions",
+      "entityType": "credit",
+      "personId": "per:000001",
+      "subject": {
+        "type": "collection",
+        "id": "col:000018"
+      },
+      "role": "contributor",
+      "creditedAs": null,
+      "scope": "Co-writer of Gwendy’s Button Box and Gwendy’s Final Task; foreword to Gwendy’s Magic Feather",
+      "characterId": null,
+      "sourceKeys": [
+        "gwendy-omnibus-paperback",
+        "gwendy-omnibus-writer-scope",
+        "gwendy-omnibus-series-scope"
+      ],
+      "checked": "2026-11-03",
+      "open": [],
+      "note": "Exact ISBN and separately verified maker role; no new literary work identity."
+    },
+    {
+      "key": "gwendy-omnibus-chizmar-contributions",
+      "entityType": "credit",
+      "personId": "per:000004",
+      "subject": {
+        "type": "collection",
+        "id": "col:000018"
+      },
+      "role": "contributor",
+      "creditedAs": null,
+      "scope": "Co-writer of Gwendy’s Button Box and Gwendy’s Final Task; sole text author of Gwendy’s Magic Feather",
+      "characterId": null,
+      "sourceKeys": [
+        "gwendy-omnibus-paperback",
+        "gwendy-omnibus-writer-scope",
+        "gwendy-omnibus-series-scope"
+      ],
+      "checked": "2026-11-03",
+      "open": [],
+      "note": "Exact ISBN and separately verified maker role; no new literary work identity."
+    },
+    {
+      "key": "translator-nathaly-schrijnder",
+      "entityType": "person",
+      "name": "Nathaly Schrijnder",
+      "aliases": [],
+      "pseudonyms": [],
+      "externalIds": {},
+      "sourceKeys": [
+        "gwendy-omnibus-paperback"
+      ],
+      "checked": "2026-11-03",
+      "open": [],
+      "note": "Exact ISBN and separately verified maker role; no new literary work identity."
+    },
+    {
+      "key": "gwendy-omnibus-translator-261",
+      "entityType": "credit",
+      "personId": "per:000060",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000261"
+      },
+      "role": "translator",
+      "creditedAs": null,
+      "scope": "Dutch translation",
+      "characterId": null,
+      "sourceKeys": [
+        "gwendy-omnibus-paperback"
+      ],
+      "checked": "2026-11-03",
+      "open": [],
+      "note": "Exact ISBN and separately verified maker role; no new literary work identity."
+    },
+    {
+      "key": "gwendy-omnibus-edition-261",
+      "entityType": "edition",
+      "publicationOf": {
+        "type": "collection",
+        "id": "col:000018"
+      },
+      "language": "nl",
+      "title": "Gwendy-trilogie",
+      "isbn13": "9789049204815",
+      "publisher": "Boekerij",
+      "publicationDate": {
+        "value": "2024-09-11",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Paperback",
+      "translationCredits": [
+        "crd:000393"
+      ],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "gwendy-omnibus-paperback"
+      ],
+      "open": [
+        "Publisher names this translator for this edition; full contribution allocation and complete translator list are not independently established.",
+        "Specific printing not established. No cover or other-edition translator is reassigned."
+      ],
+      "checked": "2026-11-03",
+      "note": "Exact ISBN and separately verified maker role; no new literary work identity."
+    },
+    {
+      "key": "gwendy-omnibus-publication-261",
+      "entityType": "publication",
+      "subject": {
+        "type": "collection",
+        "id": "col:000018"
+      },
+      "eventType": "edition-publication",
+      "date": {
+        "value": "2024-09-11",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "editionId": "edn:000261",
+      "part": null,
+      "publisher": "Boekerij",
+      "sourceKeys": [
+        "gwendy-omnibus-paperback"
+      ],
+      "checked": "2026-11-03",
+      "open": [],
+      "note": "Exact ISBN and separately verified maker role; no new literary work identity."
+    },
+    {
+      "key": "gwendy-omnibus-translator-262",
+      "entityType": "credit",
+      "personId": "per:000044",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000262"
+      },
+      "role": "translator",
+      "creditedAs": null,
+      "scope": "Dutch translation",
+      "characterId": null,
+      "sourceKeys": [
+        "gwendy-omnibus-ebook"
+      ],
+      "checked": "2026-11-03",
+      "open": [],
+      "note": "Exact ISBN and separately verified maker role; no new literary work identity."
+    },
+    {
+      "key": "gwendy-omnibus-edition-262",
+      "entityType": "edition",
+      "publicationOf": {
+        "type": "collection",
+        "id": "col:000018"
+      },
+      "language": "nl",
+      "title": "Gwendy-trilogie",
+      "isbn13": "9789402324259",
+      "publisher": "Boekerij",
+      "publicationDate": {
+        "value": "2024-09-10",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Ebook",
+      "translationCredits": [
+        "crd:000394"
+      ],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "gwendy-omnibus-ebook"
+      ],
+      "open": [
+        "Publisher names this translator for this edition; full contribution allocation and complete translator list are not independently established.",
+        "Specific printing not established. No cover or other-edition translator is reassigned."
+      ],
+      "checked": "2026-11-03",
+      "note": "Exact ISBN and separately verified maker role; no new literary work identity."
+    },
+    {
+      "key": "gwendy-omnibus-publication-262",
+      "entityType": "publication",
+      "subject": {
+        "type": "collection",
+        "id": "col:000018"
+      },
+      "eventType": "edition-publication",
+      "date": {
+        "value": "2024-09-10",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "editionId": "edn:000262",
+      "part": null,
+      "publisher": "Boekerij",
+      "sourceKeys": [
+        "gwendy-omnibus-ebook"
+      ],
+      "checked": "2026-11-03",
+      "open": [],
+      "note": "Exact ISBN and separately verified maker role; no new literary work identity."
+    },
+    {
+      "key": "gwendy-omnibus-membership-1",
+      "entityType": "membership",
+      "workId": "wrk:000057",
+      "collectionId": "col:000018",
+      "order": 1,
+      "editionIds": [
+        "edn:000261",
+        "edn:000262"
+      ],
+      "sourceKeys": [
+        "gwendy-omnibus-paperback",
+        "gwendy-omnibus-ebook",
+        "gwendy-omnibus-series-scope"
+      ],
+      "checked": "2026-11-03",
+      "open": [],
+      "note": "Exact ISBN and separately verified maker role; no new literary work identity."
+    },
+    {
+      "key": "gwendy-omnibus-membership-2",
+      "entityType": "membership",
+      "workId": "wrk:000250",
+      "collectionId": "col:000018",
+      "order": 2,
+      "editionIds": [
+        "edn:000261",
+        "edn:000262"
+      ],
+      "sourceKeys": [
+        "gwendy-omnibus-paperback",
+        "gwendy-omnibus-ebook",
+        "gwendy-omnibus-series-scope"
+      ],
+      "checked": "2026-11-03",
+      "open": [],
+      "note": "Exact ISBN and separately verified maker role; no new literary work identity."
+    },
+    {
+      "key": "gwendy-omnibus-membership-3",
+      "entityType": "membership",
+      "workId": "wrk:000063",
+      "collectionId": "col:000018",
+      "order": 3,
+      "editionIds": [
+        "edn:000261",
+        "edn:000262"
+      ],
+      "sourceKeys": [
+        "gwendy-omnibus-paperback",
+        "gwendy-omnibus-ebook",
+        "gwendy-omnibus-series-scope"
+      ],
+      "checked": "2026-11-03",
+      "open": [],
+      "note": "Exact ISBN and separately verified maker role; no new literary work identity."
     }
   ],
   "deferred": [

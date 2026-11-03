@@ -8,7 +8,7 @@ const context=vm.createContext({URL,URLSearchParams,console,location:{hash:''},h
 for(const file of ['catalog.js','media.js','catalog-completion.js','app.js'])vm.runInContext(fs.readFileSync(file,'utf8').replace(/init\(\);\s*$/,''),context);
 const run=code=>vm.runInContext(code,context);
 test('shared additions are reproducible, unique and present in the main catalog',()=>{
- const {db,patch}=generateMainCompletion();assert.equal(db.books.length,97);assert.equal(db.films.length,111);
+ const {db,patch}=generateMainCompletion();assert.equal(db.books.length,98);assert.equal(db.films.length,111);
  assert.equal(JSON.stringify(patch),run('JSON.stringify(CATALOG_UPDATES)'));
  for(const group of ['books','stories','films','works'])assert.equal(db[group].length,new Set(db[group].map(r=>r.id)).size);
  for(const title of ['On Writing: A Memoir of the Craft','GUNS','Secret Windows: Essays and Fiction on the Craft of Writing','Hansel and Gretel'])assert.ok(db.books.some(r=>r['Engelse titel']===title),title);
@@ -51,7 +51,7 @@ test('Core novel introductions reach the main details without changing editions 
 
 test('New publisher editions render on main pages with edition dates separate from original work years',()=>{
  run("tab='books';lang='en'");const html=run("detailContent(B.find(r=>r.canonicalId==='wrk:000242'))");assert.match(html,/2000/);assert.match(html,/2020-06-02/);assert.match(html,/9781982159375/);assert.match(html,/Scribner/);assert.match(html,/simonandschuster\.com/);
- const misery=run("detailContent(B.find(r=>r.canonicalId==='wrk:000021'))");assert.match(misery,/2016-01-05/);assert.match(misery,/9781501143106/);assert.equal(run("media(B.find(r=>r.canonicalId==='wrk:000021')).image"),run("MEDIA.books.Misery.en.image"));assert.equal(run('DB.editions.length'),260);
+ const misery=run("detailContent(B.find(r=>r.canonicalId==='wrk:000021'))");assert.match(misery,/2016-01-05/);assert.match(misery,/9781501143106/);assert.equal(run("media(B.find(r=>r.canonicalId==='wrk:000021')).image"),run("MEDIA.books.Misery.en.image"));assert.equal(run('DB.editions.length'),262);
 });
 
 test('Visitor connection explanations use readable content while retaining optional source links',()=>{
@@ -69,7 +69,7 @@ test('Collection descriptions appear on main pages beside existing contents and 
 });
 
 test('Every current main-library book and collection has its own usable English introduction',()=>{
- run("tab='books';lang='en'");assert.equal(run('B.length'),97);assert.equal(run('B.filter(b=>b.summary?.en?.length>40).length'),97);for(const id of run('B.map(b=>b.id)')){const html=run(`detailContent(B.find(b=>b.id===${JSON.stringify(id)}))`);assert.doesNotMatch(html,/A work by Stephen King\. Explore its editions|plot description has not yet been verified/);assert.match(html,/Sources & context/);}
+ run("tab='books';lang='en'");assert.equal(run('B.length'),98);assert.equal(run('B.filter(b=>b.summary?.en?.length>40).length'),98);for(const id of run('B.map(b=>b.id)')){const html=run(`detailContent(B.find(b=>b.id===${JSON.stringify(id)}))`);assert.doesNotMatch(html,/A work by Stephen King\. Explore its editions|plot description has not yet been verified/);assert.match(html,/Sources & context/);}
 });
 
 test('Main book and story pages link to the new profiles and sequel without revealing Holly in The Outsider',()=>{
@@ -94,7 +94,7 @@ test('Three more Corn films are searchable main entries with descriptions and wo
 
 test('Standalone story editions appear on every main story view with their original collection cover and without duplicate books',()=>{
  run("tab='stories';lang='en'");for(const [id,isbn]of [['wrk:000094','9781668264164'],['wrk:000093','9781982115449'],['wrk:000121','9781668264201'],['wrk:000183','9781668208786'],['wrk:000118','9781982136055']]){const rows=run(`S.filter(s=>s.canonicalId===${JSON.stringify(id)})`);assert.ok(rows.length);for(const row of rows){const html=run(`detailContent(S.find(s=>s.id===${JSON.stringify(row.id)}))`);assert.match(html,/Standalone editions/);assert.ok(html.includes(isbn));assert.equal(row.standalonePublications.filter(p=>p.isbn===isbn).length,1);assert.ok(row.editionIds.some(e=>run(`DB.editions.find(e=>e.id===${JSON.stringify(e)})`).isbn===isbn));}}
- assert.equal(run('B.length'),97);assert.equal(run("media(S.find(s=>s.canonicalId==='wrk:000094')).image"),run("MEDIA.books['Different Seasons'].en.image"));
+ assert.equal(run('B.length'),98);assert.equal(run("media(S.find(s=>s.canonicalId==='wrk:000094')).image"),run("MEDIA.books['Different Seasons'].en.image"));
 });
 
 test('Sometimes screen family connects the original main film to both later productions without false story links',()=>{
@@ -223,7 +223,7 @@ test('Cell and both Stand miniseries remain distinct adaptations linked to their
 });
 
 test('Three identified collection paperbacks appear on existing main collection pages',()=>{
- run("tab='books';lang='en'");for(const[id,isbn,date]of [['col:000003','9781501143489','2016-03-29'],['col:000005','9781501143496','2016-08-02'],['col:000006','9781501192036','2017-10-31']]){const html=run(`detailContent(B.find(b=>b.canonicalId===${JSON.stringify(id)}))`);assert.match(html,new RegExp(isbn));assert.match(html,new RegExp(date));assert.match(html,/Stories in this collection/);}assert.equal(run('B.length'),97);
+ run("tab='books';lang='en'");for(const[id,isbn,date]of [['col:000003','9781501143489','2016-03-29'],['col:000005','9781501143496','2016-08-02'],['col:000006','9781501192036','2017-10-31']]){const html=run(`detailContent(B.find(b=>b.canonicalId===${JSON.stringify(id)}))`);assert.match(html,new RegExp(isbn));assert.match(html,new RegExp(date));assert.match(html,/Stories in this collection/);}assert.equal(run('B.length'),98);
 });
 
 test('Six further collection editions show publisher metadata without replacing collection contents',()=>{
@@ -263,7 +263,7 @@ test('Flight or Fright is searchable as a collaboration and links its registered
 });
 
 test('Tower paperback ISBNs and edition dates appear on all eight existing main book pages',()=>{
- run("tab='books';lang='en'");for(const[w,isbn,date]of [[14,'9781501143519','2016-05-03'],[22,'9781501143533','2016-05-03'],[25,'9781501143540','2016-05-03'],[34,'9781501143557','2016-05-03'],[39,'9780743251624','2005-01-04'],[40,'9780743254557','2005-04-05'],[41,'9780743254564','2005-11-01'],[49,'9781501166228','2016-12-06']]){const id='wrk:'+String(w).padStart(6,'0'),html=run(`detailContent(B.find(b=>b.canonicalId===${JSON.stringify(id)}))`);assert.match(html,new RegExp(isbn));assert.match(html,new RegExp(date));}assert.equal(run('B.length'),97);
+ run("tab='books';lang='en'");for(const[w,isbn,date]of [[14,'9781501143519','2016-05-03'],[22,'9781501143533','2016-05-03'],[25,'9781501143540','2016-05-03'],[34,'9781501143557','2016-05-03'],[39,'9780743251624','2005-01-04'],[40,'9780743254557','2005-04-05'],[41,'9780743254564','2005-11-01'],[49,'9781501166228','2016-12-06']]){const id='wrk:'+String(w).padStart(6,'0'),html=run(`detailContent(B.find(b=>b.canonicalId===${JSON.stringify(id)}))`);assert.match(html,new RegExp(isbn));assert.match(html,new RegExp(date));}assert.equal(run('B.length'),98);
 });
 
 test('Recent novel hardcovers appear on main pages without replacing coauthor credits',()=>{
@@ -291,7 +291,7 @@ test('Special publication metadata reaches main pages without false comic or chi
 });
 
 test('Every current library entry has an identified English edition except the serial and stage project',()=>{
- const bundle=require('../scripts/completion_b.cjs').extendCompletionB(require('../scripts/build_completion.cjs').loadCompletion()),db=generateMainCompletion().db;const missing=db.books.filter(b=>!bundle.editions.some(e=>e.publicationOf.id===b.canonicalId&&e.language==='en'&&e.identityStatus==='identified'));assert.deepEqual(missing.map(b=>b.canonicalId),['wrk:000247','wrk:000249']);assert.equal(db.books.length,97);run("tab='books';lang='en'");assert.match(run("detailContent(B.find(b=>b.canonicalId==='wrk:000067'))"),/9781668233092/);assert.match(run("detailContent(B.find(b=>b.canonicalId==='col:000016'))"),/9780965006439/);assert.match(run("detailContent(B.find(b=>b.canonicalId==='wrk:000244'))"),/Amazon Kindle Single/);
+ const bundle=require('../scripts/completion_b.cjs').extendCompletionB(require('../scripts/build_completion.cjs').loadCompletion()),db=generateMainCompletion().db;const missing=db.books.filter(b=>!bundle.editions.some(e=>e.publicationOf.id===b.canonicalId&&e.language==='en'&&e.identityStatus==='identified'));assert.deepEqual(missing.map(b=>b.canonicalId),['wrk:000247','wrk:000249']);assert.equal(db.books.length,98);run("tab='books';lang='en'");assert.match(run("detailContent(B.find(b=>b.canonicalId==='wrk:000067'))"),/9781668233092/);assert.match(run("detailContent(B.find(b=>b.canonicalId==='col:000016'))"),/9780965006439/);assert.match(run("detailContent(B.find(b=>b.canonicalId==='wrk:000244'))"),/Amazon Kindle Single/);
 });
 
 test('Core character and setting links are visible on the corresponding main book pages',()=>{
@@ -304,7 +304,7 @@ test('Turbulence uses its verified first-publication year instead of its later c
 
 test('Dutch On Writing edition is searchable in either language and retains both translation credits',()=>{
  run("tab='books';lang='en';$('search').value='Over leven en schrijven';render()");assert.match(element('results').innerHTML,/On Writing/);
- assert.equal(run("B.filter(r=>r.canonicalId==='wrk:000242').length"),1);assert.equal(run('B.length'),97);
+ assert.equal(run("B.filter(r=>r.canonicalId==='wrk:000242').length"),1);assert.equal(run('B.length'),98);
  const html=run("detailContent(B.find(r=>r.canonicalId==='wrk:000242'))");for(const text of ['Over leven en schrijven','9789049205218','2024-11-07','Hugo Kuipers, Nienke Kuipers'])assert.ok(html.includes(text),text);
  run("lang='nl'");assert.equal(run("title(B.find(r=>r.canonicalId==='wrk:000242'),'books')"),'Over leven en schrijven');
  const p=require('../explorer/pilot/data/edn-000256/index.json');assert.equal(p.parent.id,'wrk:000242');assert.equal(p.node.data.language,'nl');assert.equal(p.node.data.isbn13,'9789049205218');assert.deepEqual(p.sections.creators.items.map(c=>c.target.label),['Hugo Kuipers','Nienke Kuipers']);
@@ -314,7 +314,7 @@ test('Dutch On Writing edition is searchable in either language and retains both
 test('Dutch paperbacks are separate from the existing audiobooks in both catalogs',()=>{
  const {db}=generateMainCompletion();
  for(const[n,old,owner,isbn,names,date]of [[257,3,2,'9789021064819',['Hugo Kuipers','Nienke Kuipers'],'2026-09-08'],[258,22,23,'9789021037233',['Margot Bakker'],'2023-01-31'],[259,26,27,'9789021026183',['Lucien Duzee'],'2020-04']]){const id='edn:'+String(n).padStart(6,'0'),audioId='edn:'+String(old).padStart(6,'0'),work='wrk:'+String(owner).padStart(6,'0'),e=db.editions.find(e=>e.canonicalId===id),audio=db.editions.find(e=>e.canonicalId===audioId),native=require('../explorer/pilot/data/'+id.replace(':','-')+'/index.json');assert.equal(e.format,'Paperback');assert.equal(audio.format,'Luisterboek');assert.notEqual(e.isbn,audio.isbn);assert.equal(e.isbn,isbn);assert.equal(e.publicationDate.value,date);assert.deepEqual(e.translators,names);assert.equal(native.parent.id,work);assert.equal(native.node.data.format,'Paperback');assert.equal(native.node.data.publicationDate.value,date);assert.deepEqual(native.sections.creators.items.filter(c=>c.role==='translator').map(c=>c.target.label),names);const row=db.books.find(r=>r.canonicalId===work);assert.ok(row.editionIds.includes(e.id)&&row.editionIds.includes(audio.id));assert.equal(db.books.filter(r=>r.canonicalId===work).length,1);}
- assert.equal(require('../explorer/pilot/data/edn-000259/index.json').node.data.publicationDate.precision,'month');assert.equal(db.books.length,97);assert.equal(db.editions.length,260);
+ assert.equal(require('../explorer/pilot/data/edn-000259/index.json').node.data.publicationDate.precision,'month');assert.equal(db.books.length,98);assert.equal(db.editions.length,262);
 });
 
 test('Dutch Danse Macabre is an edition of the nonfiction work and Sunset credits are deduplicated',()=>{
@@ -322,4 +322,11 @@ test('Dutch Danse Macabre is an edition of the nonfiction work and Sunset credit
  const p=require('../explorer/pilot/data/edn-000260/index.json');assert.equal(p.parent.id,'wrk:000243');assert.equal(p.node.data.language,'nl');assert.equal(p.node.data.publicationDate.value,'1986');assert.equal(db.books.filter(b=>b.canonicalId==='wrk:000243').length,1);assert.equal(db.books.find(b=>b.canonicalId==='wrk:000243').Jaar,1981);
  const sunset=db.editions.find(e=>e.canonicalId==='edn:000062');assert.deepEqual(sunset.translators,['Hugo Kuipers']);assert.deepEqual(require('../explorer/pilot/data/edn-000062/index.json').sections.creators.items.map(c=>c.target.label),['Hugo Kuipers']);
  run("tab='books';lang='en'");const html=run("detailContent(B.find(r=>r.canonicalId==='wrk:000243'))");assert.match(html,/9789062138449/);assert.match(html,/1986/);
+});
+
+test('Dutch Gwendy omnibus reuses three works and exposes the correct collection contents',()=>{
+ const {db}=generateMainCompletion(),r=db.books.find(b=>b.canonicalId==='col:000018');assert.ok(r);assert.equal(r['Engelse titel'],'Gwendy-trilogie');assert.equal(r.Jaar,2024);assert.deepEqual(r.containsWorks.map(w=>db.books.find(b=>b.id===w.id).canonicalId),['wrk:000057','wrk:000250','wrk:000063']);
+ run("tab='books';lang='en'");const html=run("detailContent(B.find(b=>b.canonicalId==='col:000018'))");for(const text of ['Contains the works','9789049204815','9789402324259','2024-09-11','2024-09-10','Nathaly Schrijnder','Annemarie Lodewijk'])assert.ok(html.includes(text),text);assert.equal(db.books.filter(b=>b.canonicalId==='wrk:000250').length,1);
+ const p=require('../explorer/pilot/data/col-000018/index.json');assert.equal(p.node.data.collectionKind,'collected-novels');assert.deepEqual(p.sections.memberships.items.map(m=>[m.target.id,m.order]),[['wrk:000057',1],['wrk:000250',2],['wrk:000063',3]]);assert.equal(require('../explorer/pilot/data/edn-000261/index.json').parent.id,'col:000018');assert.equal(require('../explorer/pilot/data/edn-000262/index.json').parent.id,'col:000018');assert.ok(p.creators.every(c=>c.role==='contributor'));
+ const bundle=require('../scripts/completion_b.cjs').extendCompletionB(require('../scripts/build_completion.cjs').loadCompletion());assert.equal(bundle.works.length,250);assert.equal(bundle.editions.length,262);assert.equal(bundle.credits.filter(c=>c.subject.id==='wrk:000250'&&c.personId==='per:000001'&&['author','coauthor'].includes(c.role)).length,0);
 });

@@ -99,7 +99,7 @@ test('Collection introductions are shared with the main catalog and retain field
 });
 
 test('All 97 main-library introductions agree with their canonical Explorer pages',()=>{
- const db=require('../scripts/build_main_completion.cjs').generateMainCompletion().db;assert.equal(db.books.length,97);for(const b of db.books)assert.equal(index(b.canonicalId).node.description,b.summary.en,b['Engelse titel']);
+ const db=require('../scripts/build_main_completion.cjs').generateMainCompletion().db;assert.equal(db.books.length,98);for(const b of db.books)assert.equal(index(b.canonicalId).node.description,b.summary.en,b['Engelse titel']);
 });
 
 test('New character and town profiles open directly with useful descriptions while Holly’s later appearance stays gated',()=>{
