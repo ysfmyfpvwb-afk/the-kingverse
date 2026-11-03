@@ -7945,6 +7945,78 @@
       "checkedFields": [
         "only exact ISBN fields identified by individual claims"
       ]
+    },
+    {
+      "key": "nov03-paperback-257",
+      "url": "https://www.lsuitgeverij.nl/boek/zwart-huis/",
+      "publisher": "Luitingh-Sijthoff",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-11-03",
+      "access": "available",
+      "locator": "Exact ISBN 9789021064819, Dutch paperback and title. Explicit named translation credit(s) in specifications. Date absent on publisher page; no work publication date substituted.",
+      "checkedFields": [
+        "ISBN-specific Dutch paperback metadata only"
+      ]
+    },
+    {
+      "key": "nov03-paperback-257-metadata",
+      "url": "https://www.standaardboekhandel.be/p/zwart-huis-9789021064819",
+      "publisher": "Standaard Boekhandel",
+      "sourceType": "reference",
+      "observedAt": "2026-11-03",
+      "access": "available",
+      "locator": "Exact ISBN 9789021064819 paperback date 2026-09-08. Edition date only, not original work year.",
+      "checkedFields": [
+        "ISBN-specific Dutch paperback metadata only"
+      ]
+    },
+    {
+      "key": "nov03-paperback-258",
+      "url": "https://www.lsuitgeverij.nl/boek/de-gloed-2/",
+      "publisher": "Luitingh-Sijthoff",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-11-03",
+      "access": "available",
+      "locator": "Exact ISBN 9789021037233, Dutch paperback and title. Explicit named translation credit(s) in specifications. Date absent on publisher page; no work publication date substituted.",
+      "checkedFields": [
+        "ISBN-specific Dutch paperback metadata only"
+      ]
+    },
+    {
+      "key": "nov03-paperback-258-metadata",
+      "url": "https://www.boeken.nl/boeken/9789021037233/de-gloed",
+      "publisher": "Boeken.nl",
+      "sourceType": "reference",
+      "observedAt": "2026-11-03",
+      "access": "available",
+      "locator": "Exact ISBN 9789021037233 paperback date 2023-01-31. Edition date only, not original work year.",
+      "checkedFields": [
+        "ISBN-specific Dutch paperback metadata only"
+      ]
+    },
+    {
+      "key": "nov03-paperback-259",
+      "url": "https://www.lsuitgeverij.nl/boek/de-spelbreker-pod/",
+      "publisher": "Luitingh-Sijthoff",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-11-03",
+      "access": "available",
+      "locator": "Exact ISBN 9789021026183, Dutch paperback and title. Translator not listed in the publisher specifications; separate ISBN-specific retailer used. Date absent on publisher page; no work publication date substituted.",
+      "checkedFields": [
+        "ISBN-specific Dutch paperback metadata only"
+      ]
+    },
+    {
+      "key": "nov03-paperback-259-metadata",
+      "url": "https://www.nl.fnac.be/a14834333/Stephen-King-De-spelbreker",
+      "publisher": "Fnac",
+      "sourceType": "reference",
+      "observedAt": "2026-11-03",
+      "access": "available",
+      "locator": "Exact ISBN 9789021026183 paperback date 2020-04. Translator Lucien Duzee. Only April 2020 adopted: retailer day reports differ, 24 versus 27.",
+      "checkedFields": [
+        "ISBN-specific Dutch paperback metadata only"
+      ]
     }
   ],
   "records": [
@@ -16944,6 +17016,204 @@
         "Standaard Boekhandel reports 6 November 2024; publisher-group 7 November selected. No exact first-translation date claim."
       ],
       "note": "Dutch translation of existing work wrk:000242. Bibliographic details do not create a second literary identity or reassign any cover.",
+      "checked": "2026-11-03"
+    },
+    {
+      "key": "nov03-paperback-257-translator-000034",
+      "entityType": "credit",
+      "personId": "per:000034",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000257"
+      },
+      "role": "translator",
+      "creditedAs": null,
+      "scope": "Dutch translation",
+      "characterId": null,
+      "sourceKeys": [
+        "nov03-paperback-257"
+      ],
+      "checked": "2026-11-03",
+      "open": [],
+      "note": "Specific printed Dutch edition, distinct from the registered audiobook. No new work or cover identity."
+    },
+    {
+      "key": "nov03-paperback-257-translator-000035",
+      "entityType": "credit",
+      "personId": "per:000035",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000257"
+      },
+      "role": "translator",
+      "creditedAs": null,
+      "scope": "Dutch translation",
+      "characterId": null,
+      "sourceKeys": [
+        "nov03-paperback-257"
+      ],
+      "checked": "2026-11-03",
+      "open": [],
+      "note": "Specific printed Dutch edition, distinct from the registered audiobook. No new work or cover identity."
+    },
+    {
+      "key": "nov03-paperback-257",
+      "entityType": "edition",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000002"
+      },
+      "language": "nl",
+      "title": "Zwart Huis",
+      "isbn13": "9789021064819",
+      "publisher": "Luitingh-Sijthoff",
+      "publicationDate": {
+        "value": "2026-09-08",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Paperback",
+      "translationCredits": [
+        "crd:000386",
+        "crd:000387"
+      ],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "nov03-paperback-257",
+        "nov03-paperback-257-metadata"
+      ],
+      "fieldSourceKeys": {
+        "publicationDate": [
+          "nov03-paperback-257-metadata"
+        ],
+        "translationCredits": [
+          "nov03-paperback-257"
+        ]
+      },
+      "open": [
+        "Specific printing not established; existing audiobook and historical cover binding are preserved."
+      ],
+      "note": "Verified paperback of the existing canonical work; not the separately registered Dutch audiobook.",
+      "checked": "2026-11-03"
+    },
+    {
+      "key": "nov03-paperback-258-translator-000033",
+      "entityType": "credit",
+      "personId": "per:000033",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000258"
+      },
+      "role": "translator",
+      "creditedAs": null,
+      "scope": "Dutch translation",
+      "characterId": null,
+      "sourceKeys": [
+        "nov03-paperback-258"
+      ],
+      "checked": "2026-11-03",
+      "open": [],
+      "note": "Specific printed Dutch edition, distinct from the registered audiobook. No new work or cover identity."
+    },
+    {
+      "key": "nov03-paperback-258",
+      "entityType": "edition",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000023"
+      },
+      "language": "nl",
+      "title": "De gloed",
+      "isbn13": "9789021037233",
+      "publisher": "Luitingh-Sijthoff",
+      "publicationDate": {
+        "value": "2023-01-31",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Paperback",
+      "translationCredits": [
+        "crd:000388"
+      ],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "nov03-paperback-258",
+        "nov03-paperback-258-metadata"
+      ],
+      "fieldSourceKeys": {
+        "publicationDate": [
+          "nov03-paperback-258-metadata"
+        ],
+        "translationCredits": [
+          "nov03-paperback-258"
+        ]
+      },
+      "open": [
+        "Specific printing not established; existing audiobook and historical cover binding are preserved."
+      ],
+      "note": "Verified paperback of the existing canonical work; not the separately registered Dutch audiobook.",
+      "checked": "2026-11-03"
+    },
+    {
+      "key": "nov03-paperback-259-translator-000041",
+      "entityType": "credit",
+      "personId": "per:000041",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000259"
+      },
+      "role": "translator",
+      "creditedAs": null,
+      "scope": "Dutch translation",
+      "characterId": null,
+      "sourceKeys": [
+        "nov03-paperback-259-metadata"
+      ],
+      "checked": "2026-11-03",
+      "open": [],
+      "note": "Specific printed Dutch edition, distinct from the registered audiobook. No new work or cover identity."
+    },
+    {
+      "key": "nov03-paperback-259",
+      "entityType": "edition",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000027"
+      },
+      "language": "nl",
+      "title": "De Spelbreker (POD)",
+      "isbn13": "9789021026183",
+      "publisher": "Luitingh-Sijthoff",
+      "publicationDate": {
+        "value": "2020-04",
+        "precision": "month",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Paperback",
+      "translationCredits": [
+        "crd:000389"
+      ],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "nov03-paperback-259",
+        "nov03-paperback-259-metadata"
+      ],
+      "fieldSourceKeys": {
+        "publicationDate": [
+          "nov03-paperback-259-metadata"
+        ],
+        "translationCredits": [
+          "nov03-paperback-259-metadata"
+        ]
+      },
+      "open": [
+        "Specific printing not established; existing audiobook and historical cover binding are preserved.",
+        "Conflicting April day reports retained; month precision only. Earlier ebook translator credits are not transferred."
+      ],
+      "note": "Verified paperback of the existing canonical work; not the separately registered Dutch audiobook.",
       "checked": "2026-11-03"
     }
   ],
