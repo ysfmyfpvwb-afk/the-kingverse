@@ -8437,6 +8437,54 @@
       "checkedFields": [
         "publication metadata only; no story text or image reused"
       ]
+    },
+    {
+      "key": "black-suit-original-issue",
+      "url": "https://www.newyorker.com/magazine/1994/10/31",
+      "publisher": "The New Yorker",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-11-07",
+      "access": "available",
+      "locator": "Publisher issue table of contents identifies Stephen King’s The Man in the Black Suit in the 31 October 1994 issue. First-publication month only; no retrospective header is interpreted as a 1994 web release.",
+      "checkedFields": [
+        "publication metadata only; no story text or image reused"
+      ]
+    },
+    {
+      "key": "batman-harpers-original",
+      "url": "https://harpers.org/archive/2012/09/batman-and-robin-have-an-altercation/",
+      "publisher": "Harper’s Magazine",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-11-07",
+      "access": "available",
+      "locator": "Indexed publisher metadata identifies Stephen King, story title and September 2012 issue. Publisher awards list independently names September 2012. Public indexed metadata only; no subscription restriction bypassed or story prose retained.",
+      "checkedFields": [
+        "publication metadata only; no story text or image reused"
+      ]
+    },
+    {
+      "key": "death-newyorker-original",
+      "url": "https://www.newyorker.com/magazine/2015/03/09/a-death-stephen-king",
+      "publisher": "The New Yorker",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-11-07",
+      "access": "available",
+      "locator": "Publisher page by Stephen King dated 2 March 2015, associated with 9 March 2015 magazine issue. Metadata only.",
+      "checkedFields": [
+        "publication metadata only; no story text or image reused"
+      ]
+    },
+    {
+      "key": "plant-author-digital-edition",
+      "url": "https://stephenking.com/works/other-project/plant-zenith-rising.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-11-07",
+      "access": "available",
+      "locator": "Author page identifies 2000 ebook, six installments distributed through the author website, and explicitly unfinished status. Earlier limited Christmas-card volumes are distinct publication history; 2000 is not asserted as first publication of the literary work. No PDFs fetched or hosted.",
+      "checkedFields": [
+        "publication metadata only; no story text or image reused"
+      ]
     }
   ],
   "records": [
@@ -19701,6 +19749,162 @@
       "reportedTitle": "Herman Wouk Is Still Alive — May 2011 print issue",
       "sourceKeys": [
         "herman-print-issue-source"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Verified publication metadata on the existing literary identity. Earlier collection observations retained; no story text or image imported."
+    },
+    {
+      "key": "black-suit-original",
+      "entityType": "publication",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000151"
+      },
+      "eventType": "first-publication",
+      "date": {
+        "value": "1994-10",
+        "precision": "month",
+        "meaning": "first-publication",
+        "territory": null
+      },
+      "editionId": null,
+      "part": null,
+      "publisher": "The New Yorker",
+      "reportedTitle": "The Man in the Black Suit — October 1994 issue",
+      "sourceKeys": [
+        "black-suit-original-issue"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Verified publication metadata on the existing literary identity. Earlier collection observations retained; no story text or image imported."
+    },
+    {
+      "key": "batman-harpers-original",
+      "entityType": "publication",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000200"
+      },
+      "eventType": "first-publication",
+      "date": {
+        "value": "2012-09",
+        "precision": "month",
+        "meaning": "first-publication",
+        "territory": null
+      },
+      "editionId": null,
+      "part": null,
+      "publisher": "Harper’s Magazine",
+      "reportedTitle": "Batman and Robin Have an Altercation — Harper’s, September 2012 issue",
+      "sourceKeys": [
+        "batman-harpers-original"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Verified publication metadata on the existing literary identity. Earlier collection observations retained; no story text or image imported."
+    },
+    {
+      "key": "death-online-first",
+      "entityType": "publication",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000203"
+      },
+      "eventType": "first-publication",
+      "date": {
+        "value": "2015-03-02",
+        "precision": "day",
+        "meaning": "first-publication",
+        "territory": null
+      },
+      "editionId": null,
+      "part": null,
+      "publisher": "The New Yorker",
+      "reportedTitle": "A Death — online publication",
+      "sourceKeys": [
+        "death-newyorker-original"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Verified publication metadata on the existing literary identity. Earlier collection observations retained; no story text or image imported."
+    },
+    {
+      "key": "death-print-issue",
+      "entityType": "publication",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000203"
+      },
+      "eventType": "source-reported-release",
+      "date": {
+        "value": "2015-03-09",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      },
+      "editionId": null,
+      "part": null,
+      "publisher": "The New Yorker",
+      "reportedTitle": "A Death — print issue dated 9 March 2015",
+      "sourceKeys": [
+        "death-newyorker-original"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Verified publication metadata on the existing literary identity. Earlier collection observations retained; no story text or image imported."
+    },
+    {
+      "key": "plant-2000-digital-edition",
+      "entityType": "edition",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000247"
+      },
+      "language": "en",
+      "title": "The Plant: Zenith Rising",
+      "isbn13": null,
+      "publisher": "StephenKing.com",
+      "publicationDate": {
+        "value": "2000",
+        "precision": "year",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Serialized ebook — six installments, unfinished",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "plant-author-digital-edition"
+      ],
+      "open": [
+        "ISBN not supplied by author source.",
+        "Exact installment dates not independently verified; year precision only.",
+        "The earlier limited printed volumes are not this digital edition."
+      ],
+      "note": "Author-distributed digital edition of the existing unfinished work, not a completed novel, new literary identity or first printing. No PDF or cover imported.",
+      "checked": "2026-11-07"
+    },
+    {
+      "key": "plant-2000-digital-publication",
+      "entityType": "publication",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000247"
+      },
+      "eventType": "edition-publication",
+      "date": {
+        "value": "2000",
+        "precision": "year",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "editionId": "edn:000265",
+      "part": null,
+      "publisher": "StephenKing.com",
+      "reportedTitle": "The Plant: Zenith Rising — six-part unfinished ebook",
+      "sourceKeys": [
+        "plant-author-digital-edition"
       ],
       "checked": "2026-11-07",
       "open": [],

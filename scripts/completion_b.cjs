@@ -110,8 +110,8 @@ function validateCompletionB(bundle,baseline){
   for(const [table,rows]of Object.entries(baseline).filter(([,rows])=>Array.isArray(rows))){for(const r of rows){const next=bundle[table].find(x=>x.id===r.id),expected=structuredClone(r);for(const e of review.enrichments||[])if(e.subject.id===r.id){expected[e.field]=structuredClone(e.value);expected.verification.claimIds.push(reg.allocations['claim/'+e.key]);}if(table==='claims'&&editorial.has(r.subject.id+r.fieldPath))expected.selected=false;try{assert.deepEqual(next,expected);}catch{fail('b-baseline-record-changed',r.id);}}}
   try{assert.deepEqual(bundle.registry.aliases,baseline.registry.aliases);assert.deepEqual(bundle.manifest,baseline.manifest);}catch{fail('b-baseline-metadata-changed','Existing aliases/manifest changed');}
   if(bundle.characters.length-baseline.characters.length!==36||bundle.locations.length-baseline.locations.length!==7||bundle.series.length-baseline.series.length!==4||bundle.connections.length-baseline.connections.length!==152||bundle.adaptations.length-baseline.adaptations.length!==18)fail('b-batch-boundary','Reviewed scope: thirty-six characters, seven locations, four series, eighteen screen productions and one hundred and fifty-two links');
-  if(bundle.editions.length-baseline.editions.length!==110)fail('b-edition-boundary','Exactly one hundred and ten reviewed editions');
-  for(const [t,count]of Object.entries({works:1,people:11,credits:44,publicationEvents:25,collections:2,collectionMemberships:4,artworks:0}))if(bundle[t].length-baseline[t].length!==count)fail('b-out-of-scope-addition',t);
+  if(bundle.editions.length-baseline.editions.length!==111)fail('b-edition-boundary','Exactly one hundred and eleven reviewed editions');
+  for(const [t,count]of Object.entries({works:1,people:11,credits:44,publicationEvents:30,collections:2,collectionMemberships:4,artworks:0}))if(bundle[t].length-baseline[t].length!==count)fail('b-out-of-scope-addition',t);
  }
  return errors;
 }
