@@ -193,7 +193,7 @@ test('Recent screen introductions keep first-season scope and separate authors w
 });
 
 test('Loose-story introductions preserve collaboration credits and keep endings out of default copy',()=>{
- for(const n of [216,217,219,220,222,223,224,225,226,227,229,230,232,233,234,235,237,238,240,241]){const id='wrk:'+String(n).padStart(6,'0');assert.deepEqual(bundle.credits.filter(c=>c.subject.id===id),base.credits.filter(c=>c.subject.id===id));assert.deepEqual(bundle.publicationEvents.filter(p=>p.subject.id===id),base.publicationEvents.filter(p=>p.subject.id===id));}
+ for(const n of [216,217,219,220,222,223,224,225,226,227,229,230,232,233,234,235,237,238,240,241]){const id='wrk:'+String(n).padStart(6,'0');assert.deepEqual(bundle.credits.filter(c=>c.subject.id===id),base.credits.filter(c=>c.subject.id===id));for(const prior of base.publicationEvents.filter(p=>p.subject.id===id))assert.deepEqual(bundle.publicationEvents.find(p=>p.id===prior.id),prior);}
  const intro=n=>bundle.works.find(w=>w.id==='wrk:'+String(n).padStart(6,'0')).summary.en;
  assert.doesNotMatch(intro(219),/suicide|mental illness/);assert.doesNotMatch(intro(223),/killed|murder/);assert.doesNotMatch(intro(227),/walking weed|turns into/);assert.doesNotMatch(intro(232),/murder/);assert.notEqual(intro(227),intro(241));
 });

@@ -8509,6 +8509,18 @@
       "checkedFields": [
         "publication metadata only; no story text or image reused"
       ]
+    },
+    {
+      "key": "additional-periodical-citations",
+      "url": "https://stephenking.com/bibliography/",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-11-07",
+      "access": "available",
+      "locator": "Field-limited publication citations: The Wedding Gig, Ellery Queen’s Mystery Magazine December 1980 (source reports 1980-12-01; retain month, exact day unconfirmed); Before the Play and It Grows on You, Whispers August 1982; The Night of the Tiger, Fantasy & Science Fiction February 1978; Weeds, Cavalier May 1976; Man With a Belly, Cavalier December 1978. All reuse existing manually identified works. No earliest-publication, unchanged-text or artwork claim.",
+      "checkedFields": [
+        "publication metadata only; no story text or image reused"
+      ]
     }
   ],
   "records": [
@@ -20147,6 +20159,170 @@
       "checked": "2026-11-07",
       "open": [
         "This verifies a periodical appearance, not complete first-publication or revision history."
+      ],
+      "note": "Verified publication metadata on the existing literary identity. Earlier collection observations retained; no story text or image imported."
+    },
+    {
+      "key": "wedding-gig-magazine",
+      "entityType": "publication",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000102"
+      },
+      "eventType": "source-reported-release",
+      "date": {
+        "value": "1980-12",
+        "precision": "month",
+        "meaning": "source-reported-release",
+        "territory": null
+      },
+      "editionId": null,
+      "part": null,
+      "publisher": "Ellery Queen’s Mystery Magazine",
+      "reportedTitle": "The Wedding Gig — Ellery Queen’s Mystery Magazine, 1980-12",
+      "sourceKeys": [
+        "additional-periodical-citations"
+      ],
+      "checked": "2026-11-07",
+      "open": [
+        "This documents an appearance; complete first-publication and textual-version history are not established.",
+        "Official bibliography supplies 1980-12-01; issue month retained without claiming a confirmed first day."
+      ],
+      "note": "Verified publication metadata on the existing literary identity. Earlier collection observations retained; no story text or image imported."
+    },
+    {
+      "key": "before-play-whispers",
+      "entityType": "publication",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000217"
+      },
+      "eventType": "source-reported-release",
+      "date": {
+        "value": "1982-08",
+        "precision": "month",
+        "meaning": "source-reported-release",
+        "territory": null
+      },
+      "editionId": null,
+      "part": null,
+      "publisher": "Whispers",
+      "reportedTitle": "Before the Play — Whispers, 1982-08",
+      "sourceKeys": [
+        "additional-periodical-citations"
+      ],
+      "checked": "2026-11-07",
+      "open": [
+        "This documents an appearance; complete first-publication and textual-version history are not established."
+      ],
+      "note": "Verified publication metadata on the existing literary identity. Earlier collection observations retained; no story text or image imported."
+    },
+    {
+      "key": "grows-whispers",
+      "entityType": "publication",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000127"
+      },
+      "eventType": "source-reported-release",
+      "date": {
+        "value": "1982-08",
+        "precision": "month",
+        "meaning": "source-reported-release",
+        "territory": null
+      },
+      "editionId": null,
+      "part": null,
+      "publisher": "Whispers",
+      "reportedTitle": "It Grows on You — Whispers, 1982-08",
+      "sourceKeys": [
+        "additional-periodical-citations"
+      ],
+      "checked": "2026-11-07",
+      "open": [
+        "This documents an appearance; complete first-publication and textual-version history are not established."
+      ],
+      "note": "Verified publication metadata on the existing literary identity. Earlier collection observations retained; no story text or image imported."
+    },
+    {
+      "key": "night-tiger-fsf",
+      "entityType": "publication",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000231"
+      },
+      "eventType": "source-reported-release",
+      "date": {
+        "value": "1978-02",
+        "precision": "month",
+        "meaning": "source-reported-release",
+        "territory": null
+      },
+      "editionId": null,
+      "part": null,
+      "publisher": "Fantasy & Science Fiction",
+      "reportedTitle": "The Night of the Tiger — Fantasy & Science Fiction, 1978-02",
+      "sourceKeys": [
+        "additional-periodical-citations"
+      ],
+      "checked": "2026-11-07",
+      "open": [
+        "This documents an appearance; complete first-publication and textual-version history are not established.",
+        "Existing 1979 source-reported work date retained separately; periodical citation is February 1978."
+      ],
+      "note": "Verified publication metadata on the existing literary identity. Earlier collection observations retained; no story text or image imported."
+    },
+    {
+      "key": "weeds-cavalier",
+      "entityType": "publication",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000241"
+      },
+      "eventType": "source-reported-release",
+      "date": {
+        "value": "1976-05",
+        "precision": "month",
+        "meaning": "source-reported-release",
+        "territory": null
+      },
+      "editionId": null,
+      "part": null,
+      "publisher": "Cavalier",
+      "reportedTitle": "Weeds — Cavalier, 1976-05",
+      "sourceKeys": [
+        "additional-periodical-citations"
+      ],
+      "checked": "2026-11-07",
+      "open": [
+        "This documents an appearance; complete first-publication and textual-version history are not established."
+      ],
+      "note": "Verified publication metadata on the existing literary identity. Earlier collection observations retained; no story text or image imported."
+    },
+    {
+      "key": "man-belly-cavalier",
+      "entityType": "publication",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000228"
+      },
+      "eventType": "source-reported-release",
+      "date": {
+        "value": "1978-12",
+        "precision": "month",
+        "meaning": "source-reported-release",
+        "territory": null
+      },
+      "editionId": null,
+      "part": null,
+      "publisher": "Cavalier",
+      "reportedTitle": "Man With a Belly — Cavalier, 1978-12",
+      "sourceKeys": [
+        "additional-periodical-citations"
+      ],
+      "checked": "2026-11-07",
+      "open": [
+        "This documents an appearance; complete first-publication and textual-version history are not established."
       ],
       "note": "Verified publication metadata on the existing literary identity. Earlier collection observations retained; no story text or image imported."
     }

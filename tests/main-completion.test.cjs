@@ -383,3 +383,9 @@ test('Verified Cavalier appearances render on both sites without false first-pub
  assert.equal(b.works.length,250);assert.equal(b.editions.length,265);assert.equal(db.stories.length,173);assert.equal(b.works.find(w=>w.id==='wrk:000078').originalTitle,'Grey Matter');
  const premium=db.stories.find(s=>s.canonicalId==='wrk:000199');assert.ok(premium.publications.some(p=>p.reportedDate==='2009-11-01'));assert.ok(premium.publications.some(p=>p.reportedDate==='2009-11-09'));
 });
+
+test('Six further periodical histories preserve source precision and existing works',()=>{
+ const b=require('../scripts/completion_b.cjs').extendCompletionB(require('../scripts/build_completion.cjs').loadCompletion()),db=generateMainCompletion().db;
+ for(const[n,date,publisher]of [[102,'1980-12',"Ellery Queen’s Mystery Magazine"],[217,'1982-08','Whispers'],[127,'1982-08','Whispers'],[231,'1978-02','Fantasy & Science Fiction'],[241,'1976-05','Cavalier'],[228,'1978-12','Cavalier']]){const id='wrk:'+String(n).padStart(6,'0'),p=b.publicationEvents.filter(p=>p.subject.id===id&&p.date.value===date);assert.equal(p.length,1);assert.equal(p[0].publisher,publisher);assert.equal(p[0].date.precision,'month');assert.equal(p[0].eventType,'source-reported-release');const row=db.stories.find(s=>s.canonicalId===id);assert.ok(row.publications.some(p=>p.reportedDate===date));run("tab='stories';lang='en'");assert.match(run(`detailContent(S.find(s=>s.canonicalId===${JSON.stringify(id)}))`),new RegExp(date));assert.ok(require('../explorer/pilot/data/'+id.replace(':','-')+'/details.json').sections.publications.items.some(p=>p.id===row.publications[0].canonicalId));}
+ assert.ok(b.publicationEvents.some(p=>p.subject.id==='wrk:000231'&&p.date.value==='1979'));assert.ok(!b.publicationEvents.some(p=>p.subject.id==='wrk:000102'&&p.date.value==='1980-12-01'));assert.equal(b.works.length,250);assert.equal(db.stories.length,173);
+});
