@@ -8641,6 +8641,30 @@
       "checkedFields": [
         "named title examples and broad writing categories only"
       ]
+    },
+    {
+      "key": "american-vampire-makers-profile",
+      "url": "https://stephenking.com/works/comic/american-vampire.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-11-07",
+      "access": "available",
+      "locator": "Author project page identifies Scott Snyder as writer and Rafael Albuquerque as artist, and two separate storylines by Snyder and King in the opening five issues. DC Vol. 1 page returned HTTP 403 on this review and was not bypassed; no new edition detail inferred.",
+      "checkedFields": [
+        "named writer and stated literary credits only; no portrait, contact details, copied biography or plot imported"
+      ]
+    },
+    {
+      "key": "fitzgerald-profile",
+      "url": "https://stephenking.com/works/nonfiction/nightmares-in-the-sky.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-11-07",
+      "access": "available",
+      "locator": "Official description explicitly assigns photographs of gargoyles and Gothic architecture to f-stop Fitzgerald and text to King. The generic Written With heading is not treated as joint prose authorship.",
+      "checkedFields": [
+        "named writer and stated literary credits only; no portrait, contact details, copied biography or plot imported"
+      ]
     }
   ],
   "records": [
@@ -30246,6 +30270,74 @@
       "checked": "2026-11-07",
       "locator": "Reuse existing independently source-supported creator scopes clm:007443 and clm:007449, Alliance Theatre production page. No new biography or production-status claim.",
       "note": "Own introduction derived from already reviewed book/libretto and music/lyrics credits. Preserve separate roles and all existing people and works."
+    },
+    {
+      "key": "snyder-introduction",
+      "subject": {
+        "type": "person",
+        "id": "per:000006"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Scott Snyder wrote one storyline in the first five issues of American Vampire, alongside a separate storyline by Stephen King. Their collaboration opens the comic’s wider series."
+      },
+      "sourceKeys": [
+        "american-vampire-makers-profile"
+      ],
+      "checked": "2026-11-07",
+      "locator": "Named creative role in the specific work and bounded contribution scope only.",
+      "note": "Own reader introduction on existing identity. Retain writing, illustration and photography as separate roles. No new work, artwork, portrait or wholesale record-verification claim."
+    },
+    {
+      "key": "albuquerque-introduction",
+      "subject": {
+        "type": "person",
+        "id": "per:000007"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Rafael Albuquerque is the artist of American Vampire’s opening five-issue arc. He illustrated the separate storylines written by Scott Snyder and Stephen King."
+      },
+      "sourceKeys": [
+        "american-vampire-makers-profile"
+      ],
+      "checked": "2026-11-07",
+      "locator": "Named creative role in the specific work and bounded contribution scope only.",
+      "note": "Own reader introduction on existing identity. Retain writing, illustration and photography as separate roles. No new work, artwork, portrait or wholesale record-verification claim."
+    },
+    {
+      "key": "fitzgerald-introduction",
+      "subject": {
+        "type": "person",
+        "id": "per:000011"
+      },
+      "field": "summary",
+      "value": {
+        "en": "f-stop Fitzgerald supplied the photographs for Nightmares in the Sky, a book pairing architectural gargoyles with text by Stephen King. His contribution is photography."
+      },
+      "sourceKeys": [
+        "fitzgerald-profile"
+      ],
+      "checked": "2026-11-07",
+      "locator": "Named creative role in the specific work and bounded contribution scope only.",
+      "note": "Own reader introduction on existing identity. Retain writing, illustration and photography as separate roles. No new work, artwork, portrait or wholesale record-verification claim."
+    },
+    {
+      "key": "sendak-introduction",
+      "subject": {
+        "type": "person",
+        "id": "per:000030"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Maurice Sendak is the illustrator of Stephen King’s retelling of Hansel and Gretel. His drawings form the visual part of this picture-book collaboration."
+      },
+      "sourceIds": [
+        "src:000490"
+      ],
+      "checked": "2026-11-07",
+      "locator": "Reuse verified illustration credit crd:000300, field claims clm:007405, clm:007407 and clm:007408; no new full biography.",
+      "note": "Own reader introduction on existing identity. Retain writing, illustration and photography as separate roles. No new work, artwork, portrait or wholesale record-verification claim."
     }
   ]
 }
