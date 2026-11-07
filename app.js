@@ -199,7 +199,7 @@ function detailContent(r) {
   }
   if(tab==='books' || tab==='stories') {
     if(r.collaboration?.note) out+=`<p>${safe(r.collaboration.note[lang])}</p>`;
-    if(r.authors) out+=section(tr('Auteurs en makers','Authors and contributors'),r.authors.map(a=>line(a.name+(a.creditedAs?' ('+a.creditedAs+')':''),localizeRole(a.role))+(a.profile?.[lang]?`<p>${safe(a.profile[lang])}</p>`:'')+(a.personId?`<p><a href="explorer/pilot/?entity=${encodeURIComponent(a.personId)}">${safe(a.name)} · ${tr('Profiel en bijdragen','Profile & contributions')} ↗</a></p>`:'')).join(''));
+    if(r.authors) out+=section(tr('Auteurs en makers','Authors and contributors'),r.authors.map((a,i,all)=>{const first=!a.personId||all.findIndex(p=>p.personId===a.personId)===i;return line(a.name+(a.creditedAs?' ('+a.creditedAs+')':''),localizeRole(a.role))+(first&&a.profile?.[lang]?`<p>${safe(a.profile[lang])}</p>`:'')+(first&&a.personId?`<p><a href="explorer/pilot/?entity=${encodeURIComponent(a.personId)}">${safe(a.name)} · ${tr('Profiel en bijdragen','Profile & contributions')} ↗</a></p>`:'');}).join(''));
     const related=T.filter(t=>t.works?.some(w=>w.kind===tab && (w.id===r.id || w.title===(tab==='books'?bn(r):sn(r)))));
     if(related.length) out+=section('Dark Tower',related.map(t=>line(t.concepts.join(', '),t.description?.[lang]||t.Toelichting)+`<small>${safe(certainty(t.certainty))}</small>`+(t.works||[]).filter(w=>w.title!==(tab==='books'?bn(r):sn(r))).map(w=>workLink(w)).join('')).join(''));
   }

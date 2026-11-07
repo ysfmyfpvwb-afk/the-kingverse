@@ -8581,6 +8581,42 @@
       "checkedFields": [
         "named writer and stated literary credits only; no portrait, contact details, copied biography or plot imported"
       ]
+    },
+    {
+      "key": "onan-faithful-profile",
+      "url": "https://www.simonandschuster.com/books/Faithful/Stewart-ONan/9780743272445",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-11-07",
+      "access": "available",
+      "locator": "Joint author byline Stewart O’Nan and Stephen King; nonfiction chronicle of Boston Red Sox 2004 season. No quoted reviews, score or synopsis imported.",
+      "checkedFields": [
+        "named writer and stated literary credits only; no portrait, contact details, copied biography or plot imported"
+      ]
+    },
+    {
+      "key": "onan-face-profile",
+      "url": "https://stephenking.com/works/short/a-face-in-the-crowd.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-11-07",
+      "access": "available",
+      "locator": "Author page explicitly names Stewart O’Nan as co-writer and introduces baseball viewing with supernatural intrusions. Unreleased header is stale and is not imported as status.",
+      "checkedFields": [
+        "named writer and stated literary credits only; no portrait, contact details, copied biography or plot imported"
+      ]
+    },
+    {
+      "key": "vincent-flight-profile",
+      "url": "https://www.cemeterydance.com/flight-or-fright.html",
+      "publisher": "Cemetery Dance Publications",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-11-07",
+      "access": "available",
+      "locator": "Publisher names Stephen King and Bev Vincent as editors. Contents list Zombies on a Plane and Afterword by Bev Vincent. No inference that he co-wrote all collected stories, and no poem/fiction/essay classification inferred for Zombies on a Plane.",
+      "checkedFields": [
+        "named writer and stated literary credits only; no portrait, contact details, copied biography or plot imported"
+      ]
     }
   ],
   "records": [
@@ -30115,6 +30151,41 @@
       "checked": "2026-11-07",
       "locator": "Named author biography and specified collaboration only.",
       "note": "Own short reader introduction on the existing person identity. No new literary work, author-role change, portrait or copied biography."
+    },
+    {
+      "key": "onan-introduction",
+      "subject": {
+        "type": "person",
+        "id": "per:000008"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Stewart O’Nan’s collaborations with Stephen King span fiction and nonfiction. Faithful chronicles the Boston Red Sox’s 2004 season; A Face in the Crowd is a supernatural story set against baseball."
+      },
+      "sourceKeys": [
+        "onan-faithful-profile",
+        "onan-face-profile"
+      ],
+      "checked": "2026-11-07",
+      "locator": "Specified coauthorship or editorial/contributor role only.",
+      "note": "Own short reader introduction on existing person. All canonical works, credits and roles remain unchanged."
+    },
+    {
+      "key": "vincent-introduction",
+      "subject": {
+        "type": "person",
+        "id": "per:000052"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Bev Vincent co-edited Flight or Fright with Stephen King, bringing together stories about frightening air journeys. His contributions to the anthology include Zombies on a Plane and the afterword."
+      },
+      "sourceKeys": [
+        "vincent-flight-profile"
+      ],
+      "checked": "2026-11-07",
+      "locator": "Specified coauthorship or editorial/contributor role only.",
+      "note": "Own short reader introduction on existing person. All canonical works, credits and roles remain unchanged."
     }
   ]
 }

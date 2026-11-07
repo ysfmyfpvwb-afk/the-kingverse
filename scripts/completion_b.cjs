@@ -77,7 +77,7 @@ function validateCompletionB(bundle,baseline){
  }
  for(const d of review.records){
   const r=map.get(reg.allocations[d.entityType+'/'+d.key]);if(!r||known.get(r.id)!==d.entityType){fail('b-unregistered',d.key);continue;}
-  const expectedKeys=new Set(['id','entityType','verification',...Object.keys(d).filter(k=>!METADATA.has(k))]);if(Object.keys(r).some(k=>!expectedKeys.has(k)))fail('b-unreviewed-field',r.id);
+  const expectedKeys=new Set(['id','entityType','verification',...Object.keys(d).filter(k=>!METADATA.has(k)),...(review.enrichments||[]).filter(e=>e.subject.id===r.id).map(e=>e.field)]);if(Object.keys(r).some(k=>!expectedKeys.has(k)))fail('b-unreviewed-field',r.id);
   const evidence=new Set(d.sourceKeys.map(k=>review.sources.find(s=>s.key===k).url));
   for(const [field,value]of Object.entries(d)){
    if(METADATA.has(field)||editorial.has(r.id+'/'+field))continue;

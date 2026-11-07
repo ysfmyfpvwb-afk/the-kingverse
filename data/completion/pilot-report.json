@@ -20,7 +20,7 @@
     "limitBytes": 49152,
     "pageSize": 6,
     "maxEntityBytes": 27467,
-    "medianEntityBytes": 3817,
+    "medianEntityBytes": 3819,
     "maxChunkBytes": 9829,
     "searchBytes": 156490,
     "searchGzipBytes": 16256,
@@ -8821,8 +8821,8 @@
     },
     {
       "file": "data/per-000008/index.json",
-      "bytes": 3885,
-      "gzipBytes": 916
+      "bytes": 4461,
+      "gzipBytes": 1118
     },
     {
       "file": "data/per-000008/plot.json",
@@ -9291,8 +9291,8 @@
     },
     {
       "file": "data/per-000052/index.json",
-      "bytes": 3712,
-      "gzipBytes": 863
+      "bytes": 4055,
+      "gzipBytes": 949
     },
     {
       "file": "data/per-000052/plot.json",
