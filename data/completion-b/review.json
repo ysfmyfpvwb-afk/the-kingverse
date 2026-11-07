@@ -8233,6 +8233,114 @@
       "checkedFields": [
         "dated development report and specific literary source only"
       ]
+    },
+    {
+      "key": "laurie-online-first",
+      "url": "https://stephenking.com/news/new-short-story-632.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-11-07",
+      "access": "available",
+      "locator": "17 May 2018 dated author announcement says Laurie is available now exclusively on the author website. No PDF fetched.",
+      "checkedFields": [
+        "publication metadata only; no story text or image reused"
+      ]
+    },
+    {
+      "key": "fifth-step-harpers-publication",
+      "url": "https://stephenking.com/works/short/fifth-step.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-11-07",
+      "access": "available",
+      "locator": "Author notes explicitly identify Harper’s March 2020 issue. The linked Harper’s page returned HTTP 402; no restriction bypassed. Header Unreleased is not used as publication status.",
+      "checkedFields": [
+        "publication metadata only; no story text or image reused"
+      ]
+    },
+    {
+      "key": "dune-granta-publication",
+      "url": "https://granta.com/the-dune/",
+      "publisher": "Granta",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-11-07",
+      "access": "available",
+      "locator": "Publisher page by Stephen King identifies Granta 117 and date 27 October 2011. Metadata only.",
+      "checkedFields": [
+        "publication metadata only; no story text or image reused"
+      ]
+    },
+    {
+      "key": "premium-newyorker-publication",
+      "url": "https://www.newyorker.com/magazine/2009/11/09/premium-harmony",
+      "publisher": "The New Yorker",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-11-07",
+      "access": "available",
+      "locator": "Publisher page by Stephen King dated 1 November 2009; separate print issue 9 November 2009. Day 1 is explicitly displayed, not synthesized.",
+      "checkedFields": [
+        "publication metadata only; no story text or image reused"
+      ]
+    },
+    {
+      "key": "harvey-publication-metadata",
+      "url": "https://www.newyorker.com/magazine/2003/06/30/harveys-dream",
+      "publisher": "The New Yorker",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-11-07",
+      "access": "available",
+      "locator": "Metadata review separate from earlier introduction review: page dated 23 June 2003; explicitly identified print issue 30 June 2003.",
+      "checkedFields": [
+        "publication metadata only; no story text or image reused"
+      ]
+    },
+    {
+      "key": "dinah-atlantic-publication",
+      "url": "https://www.theatlantic.com/magazine/2026/06/stephen-king-dinahs-hat/686930/",
+      "publisher": "The Atlantic",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-11-07",
+      "access": "available",
+      "locator": "Publisher byline Stephen King, web date 15 May 2026 and June 2026 print issue. Reuse existing work wrk:000221. No story prose or illustration imported.",
+      "checkedFields": [
+        "publication metadata only; no story text or image reused"
+      ]
+    },
+    {
+      "key": "finn-everand-ebook",
+      "url": "https://www.everand.com/book/574859784/Finn",
+      "publisher": "Everand Originals",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-11-07",
+      "access": "available",
+      "locator": "Public publisher/service metadata: English ebook, release 25 May 2022, ISBN 9781094444963. Current imprint Everand Originals; originally issued under Scribd. No preview text or artwork retained.",
+      "checkedFields": [
+        "publication metadata only; no story text or image reused"
+      ]
+    },
+    {
+      "key": "finn-everand-audio",
+      "url": "https://www.everand.com/audiobook/574948312/Finn",
+      "publisher": "Everand Originals",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-11-07",
+      "access": "available",
+      "locator": "Public publisher/service metadata: English audiobook, release 25 May 2022, ISBN 9781094444970. No narrator-to-author or translator mapping, ratings or artwork imported.",
+      "checkedFields": [
+        "publication metadata only; no story text or image reused"
+      ]
+    },
+    {
+      "key": "finn-author-release",
+      "url": "https://stephenking.com/news/new-short-story-may-25th-2022-734.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-11-07",
+      "access": "available",
+      "locator": "Author announcement identifies Finn as Scribd-exclusive ebook and audiobook released 25 May 2022; actual release separately supported by current service metadata.",
+      "checkedFields": [
+        "publication metadata only; no story text or image reused"
+      ]
     }
   ],
   "records": [
@@ -18932,6 +19040,366 @@
       "checked": "2026-11-07",
       "open": [],
       "note": "Dated development evidence only. No completed-production, release-date, cast, score or poster claim."
+    },
+    {
+      "key": "laurie-online-first",
+      "entityType": "publication",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000194"
+      },
+      "eventType": "first-publication",
+      "date": {
+        "value": "2018-05-17",
+        "precision": "day",
+        "meaning": "first-publication",
+        "territory": null
+      },
+      "editionId": null,
+      "part": null,
+      "publisher": "StephenKing.com",
+      "reportedTitle": "Laurie — first online publication",
+      "sourceKeys": [
+        "laurie-online-first"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Verified publication metadata on the existing literary identity. Earlier collection observations retained; no story text or image imported."
+    },
+    {
+      "key": "fifth-step-harpers-publication",
+      "entityType": "publication",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000187"
+      },
+      "eventType": "first-publication",
+      "date": {
+        "value": "2020-03",
+        "precision": "month",
+        "meaning": "first-publication",
+        "territory": null
+      },
+      "editionId": null,
+      "part": null,
+      "publisher": "Harper’s Magazine",
+      "reportedTitle": "The Fifth Step — Harper’s, March 2020 issue",
+      "sourceKeys": [
+        "fifth-step-harpers-publication"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Verified publication metadata on the existing literary identity. Earlier collection observations retained; no story text or image imported."
+    },
+    {
+      "key": "dune-granta-publication",
+      "entityType": "publication",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000201"
+      },
+      "eventType": "first-publication",
+      "date": {
+        "value": "2011-10-27",
+        "precision": "day",
+        "meaning": "first-publication",
+        "territory": null
+      },
+      "editionId": null,
+      "part": null,
+      "publisher": "Granta",
+      "reportedTitle": "The Dune — Granta 117",
+      "sourceKeys": [
+        "dune-granta-publication"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Verified publication metadata on the existing literary identity. Earlier collection observations retained; no story text or image imported."
+    },
+    {
+      "key": "premium-online-first",
+      "entityType": "publication",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000199"
+      },
+      "eventType": "first-publication",
+      "date": {
+        "value": "2009-11-01",
+        "precision": "day",
+        "meaning": "first-publication",
+        "territory": null
+      },
+      "editionId": null,
+      "part": null,
+      "publisher": "The New Yorker",
+      "reportedTitle": "Premium Harmony — online publication",
+      "sourceKeys": [
+        "premium-newyorker-publication"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Verified publication metadata on the existing literary identity. Earlier collection observations retained; no story text or image imported."
+    },
+    {
+      "key": "premium-print-issue",
+      "entityType": "publication",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000199"
+      },
+      "eventType": "source-reported-release",
+      "date": {
+        "value": "2009-11-09",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      },
+      "editionId": null,
+      "part": null,
+      "publisher": "The New Yorker",
+      "reportedTitle": "Premium Harmony — print issue dated 9 November 2009",
+      "sourceKeys": [
+        "premium-newyorker-publication"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Verified publication metadata on the existing literary identity. Earlier collection observations retained; no story text or image imported."
+    },
+    {
+      "key": "harvey-online-first",
+      "entityType": "publication",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000166"
+      },
+      "eventType": "first-publication",
+      "date": {
+        "value": "2003-06-23",
+        "precision": "day",
+        "meaning": "first-publication",
+        "territory": null
+      },
+      "editionId": null,
+      "part": null,
+      "publisher": "The New Yorker",
+      "reportedTitle": "Harvey’s Dream — online publication",
+      "sourceKeys": [
+        "harvey-publication-metadata"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Verified publication metadata on the existing literary identity. Earlier collection observations retained; no story text or image imported."
+    },
+    {
+      "key": "harvey-print-issue",
+      "entityType": "publication",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000166"
+      },
+      "eventType": "source-reported-release",
+      "date": {
+        "value": "2003-06-30",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      },
+      "editionId": null,
+      "part": null,
+      "publisher": "The New Yorker",
+      "reportedTitle": "Harvey’s Dream — print issue dated 30 June 2003",
+      "sourceKeys": [
+        "harvey-publication-metadata"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Verified publication metadata on the existing literary identity. Earlier collection observations retained; no story text or image imported."
+    },
+    {
+      "key": "dinah-online-first",
+      "entityType": "publication",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000221"
+      },
+      "eventType": "first-publication",
+      "date": {
+        "value": "2026-05-15",
+        "precision": "day",
+        "meaning": "first-publication",
+        "territory": null
+      },
+      "editionId": null,
+      "part": null,
+      "publisher": "The Atlantic",
+      "reportedTitle": "Dinah’s Hat — online publication",
+      "sourceKeys": [
+        "dinah-atlantic-publication"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Verified publication metadata on the existing literary identity. Earlier collection observations retained; no story text or image imported."
+    },
+    {
+      "key": "dinah-print-issue",
+      "entityType": "publication",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000221"
+      },
+      "eventType": "source-reported-release",
+      "date": {
+        "value": "2026-06",
+        "precision": "month",
+        "meaning": "source-reported-release",
+        "territory": null
+      },
+      "editionId": null,
+      "part": null,
+      "publisher": "The Atlantic",
+      "reportedTitle": "Dinah’s Hat — June 2026 print issue",
+      "sourceKeys": [
+        "dinah-atlantic-publication"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Verified publication metadata on the existing literary identity. Earlier collection observations retained; no story text or image imported."
+    },
+    {
+      "key": "finn-first-publication",
+      "entityType": "publication",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000190"
+      },
+      "eventType": "first-publication",
+      "date": {
+        "value": "2022-05-25",
+        "precision": "day",
+        "meaning": "first-publication",
+        "territory": null
+      },
+      "editionId": null,
+      "part": null,
+      "publisher": "Scribd",
+      "reportedTitle": "Finn — Scribd ebook and audiobook publication",
+      "sourceKeys": [
+        "finn-author-release",
+        "finn-everand-ebook",
+        "finn-everand-audio"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Verified publication metadata on the existing literary identity. Earlier collection observations retained; no story text or image imported."
+    },
+    {
+      "key": "finn-ebook",
+      "entityType": "edition",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000190"
+      },
+      "language": "en",
+      "title": "Finn",
+      "isbn13": "9781094444963",
+      "publisher": "Everand Originals",
+      "publicationDate": {
+        "value": "2022-05-25",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Ebook",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "finn-everand-ebook"
+      ],
+      "open": [
+        "Current service imprint is Everand Originals; original 2022 announcement names Scribd. No new cover is assigned."
+      ],
+      "checked": "2026-11-07",
+      "note": "Verified publication metadata on the existing literary identity. Earlier collection observations retained; no story text or image imported."
+    },
+    {
+      "key": "finn-ebook-publication",
+      "entityType": "publication",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000190"
+      },
+      "eventType": "edition-publication",
+      "date": {
+        "value": "2022-05-25",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "editionId": "edn:000263",
+      "part": null,
+      "publisher": "Everand Originals",
+      "reportedTitle": "Finn — ebook ISBN 9781094444963",
+      "sourceKeys": [
+        "finn-everand-ebook"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Verified publication metadata on the existing literary identity. Earlier collection observations retained; no story text or image imported."
+    },
+    {
+      "key": "finn-audiobook",
+      "entityType": "edition",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000190"
+      },
+      "language": "en",
+      "title": "Finn",
+      "isbn13": "9781094444970",
+      "publisher": "Everand Originals",
+      "publicationDate": {
+        "value": "2022-05-25",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Audiobook",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "finn-everand-audio"
+      ],
+      "open": [
+        "Current service imprint is Everand Originals; original 2022 announcement names Scribd. No new cover is assigned."
+      ],
+      "checked": "2026-11-07",
+      "note": "Verified publication metadata on the existing literary identity. Earlier collection observations retained; no story text or image imported."
+    },
+    {
+      "key": "finn-audiobook-publication",
+      "entityType": "publication",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000190"
+      },
+      "eventType": "edition-publication",
+      "date": {
+        "value": "2022-05-25",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "editionId": "edn:000264",
+      "part": null,
+      "publisher": "Everand Originals",
+      "reportedTitle": "Finn — audiobook ISBN 9781094444970",
+      "sourceKeys": [
+        "finn-everand-audio"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Verified publication metadata on the existing literary identity. Earlier collection observations retained; no story text or image imported."
     }
   ],
   "deferred": [

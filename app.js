@@ -151,12 +151,13 @@ function detailContent(r) {
     if(r.publicationNote) out += `<p>${safe(r.publicationNote[lang])}</p>`;
   }
   if (tab === 'stories') {
+    if(r.firstPublication)out+=line(tr('Eerste publicatie','First publication'),r.firstPublication.date);
     out += line(tr('Soort werk','Work type'),localize(r.Type || 'Verhaal'));
     if(r.reportedDate) contextNotes += line(tr('Datum in bronregistratie','Date in source record'),r.reportedDate);
     contextNotes += `<p>${tr('Een datum bij een bundeluitgave bewijst niet wanneer het verhaal voor het eerst werd gepubliceerd.','A collection date does not establish the story’s first publication.')}</p>`;
     if(r.collectionIds?.length) out += section(tr('Opgenomen in','Collected in'),r.collectionIds.map(id=>workLink({id,kind:'books'})).join(''));
     else contextNotes += `<p>${r.standaloneBookId || r.standalonePublications?.length ? tr('Een zelfstandige publicatie is vastgelegd; zie de editiegegevens.','A standalone publication is recorded; see the edition details.') : tr('Geen bundelrelatie vastgelegd. Een eigen boekcover is hier niet vereist.','No collection relationship recorded. A separate book cover is not required here.')}</p>`;
-    if(r.standalonePublications?.length)out+=section(tr('Zelfstandige edities','Standalone editions'),r.standalonePublications.map(e=>line(e.title,e.isbn+' · '+e.language.toUpperCase())+sourceLink(e.source,tr('Uitgeversbron','Publisher source'))).join(''));
+    if(r.standalonePublications?.length)out+=section(tr('Zelfstandige edities','Standalone editions'),r.standalonePublications.map(e=>{const edition=DB.editions.find(d=>d.canonicalId===e.editionId);return line(e.title,[e.isbn,e.language.toUpperCase(),edition?.publisher,edition?.format,edition?.publicationDate?.value].filter(Boolean).join(' · '))+sourceLink(e.source,tr('Uitgeversbron','Publisher source'));}).join(''));
     const standalone = B.find(b=>b.workId===r.workId);
     if(standalone) out += workLink({id:standalone.id,kind:'books'},tr('Zelfstandige uitgave','Standalone publication'));
     const films = F.filter(f=>f.sourceWorks?.some(w=>w.id===r.id));
