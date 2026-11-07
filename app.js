@@ -151,6 +151,7 @@ function detailContent(r) {
     if(r.publicationNote) out += `<p>${safe(r.publicationNote[lang])}</p>`;
   }
   if (tab === 'stories') {
+    if(r.publications?.length)out+=`<details><summary>${tr('Publicatiegeschiedenis','Publication history')}</summary>${r.publications.map(p=>line(p.title,p.reportedDate)+sourceLink(p.source,tr('Publicatiebron','Publication source'))).join('')}</details>`;
     if(r.firstPublication)out+=line(tr('Eerste publicatie','First publication'),r.firstPublication.date);
     out += line(tr('Soort werk','Work type'),localize(r.Type || 'Verhaal'));
     if(r.reportedDate) contextNotes += line(tr('Datum in bronregistratie','Date in source record'),r.reportedDate);

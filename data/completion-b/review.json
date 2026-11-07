@@ -8485,6 +8485,18 @@
       "checkedFields": [
         "publication metadata only; no story text or image reused"
       ]
+    },
+    {
+      "key": "night-shift-periodical-citations",
+      "url": "https://stephenking.com/bibliography/",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-11-07",
+      "access": "available",
+      "locator": "Field-limited review of four named periodical citations: Graveyard Shift, Cavalier October 1970; Gray Matter, Cavalier October 1973; Night Surf, Cavalier August 1974; The Lawnmower Man, Cavalier May 1975. Bibliography classifies these as Magazine Article. Preserve that observation; no earliest-publication, unchanged text, illustrator, new work or magazine-cover claim. Gray Matter is manually reconciled to existing Grey Matter wrk:000078.",
+      "checkedFields": [
+        "publication metadata only; no story text or image reused"
+      ]
     }
   ],
   "records": [
@@ -19908,6 +19920,114 @@
       ],
       "checked": "2026-11-07",
       "open": [],
+      "note": "Verified publication metadata on the existing literary identity. Earlier collection observations retained; no story text or image imported."
+    },
+    {
+      "key": "graveyard-cavalier",
+      "entityType": "publication",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000073"
+      },
+      "eventType": "source-reported-release",
+      "date": {
+        "value": "1970-10",
+        "precision": "month",
+        "meaning": "source-reported-release",
+        "territory": null
+      },
+      "editionId": null,
+      "part": null,
+      "publisher": "Cavalier",
+      "reportedTitle": "Graveyard Shift — Cavalier, 1970-10",
+      "sourceKeys": [
+        "night-shift-periodical-citations"
+      ],
+      "checked": "2026-11-07",
+      "open": [
+        "This verifies a periodical appearance, not complete first-publication or revision history."
+      ],
+      "note": "Verified publication metadata on the existing literary identity. Earlier collection observations retained; no story text or image imported."
+    },
+    {
+      "key": "grey-matter-cavalier",
+      "entityType": "publication",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000078"
+      },
+      "eventType": "source-reported-release",
+      "date": {
+        "value": "1973-10",
+        "precision": "month",
+        "meaning": "source-reported-release",
+        "territory": null
+      },
+      "editionId": null,
+      "part": null,
+      "publisher": "Cavalier",
+      "reportedTitle": "Gray Matter — Cavalier, 1973-10",
+      "sourceKeys": [
+        "night-shift-periodical-citations"
+      ],
+      "checked": "2026-11-07",
+      "open": [
+        "This verifies a periodical appearance, not complete first-publication or revision history."
+      ],
+      "note": "Verified publication metadata on the existing literary identity. Earlier collection observations retained; no story text or image imported."
+    },
+    {
+      "key": "night-surf-cavalier",
+      "entityType": "publication",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000074"
+      },
+      "eventType": "source-reported-release",
+      "date": {
+        "value": "1974-08",
+        "precision": "month",
+        "meaning": "source-reported-release",
+        "territory": null
+      },
+      "editionId": null,
+      "part": null,
+      "publisher": "Cavalier",
+      "reportedTitle": "Night Surf — Cavalier, 1974-08",
+      "sourceKeys": [
+        "night-shift-periodical-citations"
+      ],
+      "checked": "2026-11-07",
+      "open": [
+        "This verifies a periodical appearance, not complete first-publication or revision history."
+      ],
+      "note": "Verified publication metadata on the existing literary identity. Earlier collection observations retained; no story text or image imported."
+    },
+    {
+      "key": "lawnmower-cavalier",
+      "entityType": "publication",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000084"
+      },
+      "eventType": "source-reported-release",
+      "date": {
+        "value": "1975-05",
+        "precision": "month",
+        "meaning": "source-reported-release",
+        "territory": null
+      },
+      "editionId": null,
+      "part": null,
+      "publisher": "Cavalier",
+      "reportedTitle": "The Lawnmower Man — Cavalier, 1975-05",
+      "sourceKeys": [
+        "night-shift-periodical-citations"
+      ],
+      "checked": "2026-11-07",
+      "open": [
+        "This verifies a periodical appearance, not complete first-publication or revision history."
+      ],
       "note": "Verified publication metadata on the existing literary identity. Earlier collection observations retained; no story text or image imported."
     }
   ],
