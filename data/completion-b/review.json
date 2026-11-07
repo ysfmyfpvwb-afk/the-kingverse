@@ -8341,6 +8341,102 @@
       "checkedFields": [
         "publication metadata only; no story text or image reused"
       ]
+    },
+    {
+      "key": "rest-stop-original-source",
+      "url": "https://stephenking.com/works/short/rest-stop.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-11-07",
+      "access": "available",
+      "locator": "Author notes explicitly identify the original December 2003 Esquire issue; November 2008 is the later collection.",
+      "checkedFields": [
+        "publication metadata only; no story text or image reused"
+      ]
+    },
+    {
+      "key": "gingerbread-original-source",
+      "url": "https://stephenking.com/works/short/gingerbread-girl.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-11-07",
+      "access": "available",
+      "locator": "Author notes explicitly identify the original July 2007 Esquire issue; no precise on-sale day inferred.",
+      "checkedFields": [
+        "publication metadata only; no story text or image reused"
+      ]
+    },
+    {
+      "key": "stationary-original-source",
+      "url": "https://stephenking.com/works/short/stationary-bike.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-11-07",
+      "access": "available",
+      "locator": "Author notes identify Borderlands 5 as original publication, and Published In lists year 2003. No month or day inferred.",
+      "checkedFields": [
+        "publication metadata only; no story text or image reused"
+      ]
+    },
+    {
+      "key": "ayana-original-source",
+      "url": "https://stephenking.com/works/short/ayana.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-11-07",
+      "access": "available",
+      "locator": "Author notes explicitly identify issue 182, Fall 2007. Year precision retained; no synthesized September date.",
+      "checkedFields": [
+        "publication metadata only; no story text or image reused"
+      ]
+    },
+    {
+      "key": "willa-original-source",
+      "url": "https://stephenking.com/works/short/willa.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-11-07",
+      "access": "available",
+      "locator": "Author notes confirm December 2006 issue. October 2006 author announcement scheduled newsstand availability for 10 November. First-publication year only, rather than claiming issue date as on-sale date.",
+      "checkedFields": [
+        "publication metadata only; no story text or image reused"
+      ]
+    },
+    {
+      "key": "willa-newsstand-announcement",
+      "url": "https://stephenking.com/news/new-short-story-release-89.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-11-07",
+      "access": "available",
+      "locator": "Dated 13 October 2006: announced December Playboy issue with planned newsstand date 10 November. Announcement retained as context, not treated as proof of actual exact on-sale date.",
+      "checkedFields": [
+        "publication metadata only; no story text or image reused"
+      ]
+    },
+    {
+      "key": "herman-online-availability",
+      "url": "https://stephenking.com/news/atlantic-interview-237.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-11-07",
+      "access": "available",
+      "locator": "12 April 2011 author news confirms the story is now available online to Atlantic subscribers and announces print newsstand availability 19 April. Only month April selected; announcement does not establish a precise first web day.",
+      "checkedFields": [
+        "publication metadata only; no story text or image reused"
+      ]
+    },
+    {
+      "key": "herman-print-issue-source",
+      "url": "https://www.theatlantic.com/magazine/archive/2011/05/herman-wouk-is-still-alive/308451/",
+      "publisher": "The Atlantic",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-11-07",
+      "access": "available",
+      "locator": "Publisher byline Stephen King and May 2011 issue designation. Distinct from April online availability and November 2015 later collection.",
+      "checkedFields": [
+        "publication metadata only; no story text or image reused"
+      ]
     }
   ],
   "records": [
@@ -19396,6 +19492,215 @@
       "reportedTitle": "Finn — audiobook ISBN 9781094444970",
       "sourceKeys": [
         "finn-everand-audio"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Verified publication metadata on the existing literary identity. Earlier collection observations retained; no story text or image imported."
+    },
+    {
+      "key": "rest-stop-original",
+      "entityType": "publication",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000167"
+      },
+      "eventType": "first-publication",
+      "date": {
+        "value": "2003-12",
+        "precision": "month",
+        "meaning": "first-publication",
+        "territory": null
+      },
+      "editionId": null,
+      "part": null,
+      "publisher": "Esquire",
+      "reportedTitle": "Rest Stop — Esquire, December 2003 issue",
+      "sourceKeys": [
+        "rest-stop-original-source"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Verified publication metadata on the existing literary identity. Earlier collection observations retained; no story text or image imported."
+    },
+    {
+      "key": "gingerbread-original",
+      "entityType": "publication",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000165"
+      },
+      "eventType": "first-publication",
+      "date": {
+        "value": "2007-07",
+        "precision": "month",
+        "meaning": "first-publication",
+        "territory": null
+      },
+      "editionId": null,
+      "part": null,
+      "publisher": "Esquire",
+      "reportedTitle": "The Gingerbread Girl — Esquire, July 2007 issue",
+      "sourceKeys": [
+        "gingerbread-original-source"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Verified publication metadata on the existing literary identity. Earlier collection observations retained; no story text or image imported."
+    },
+    {
+      "key": "stationary-original",
+      "entityType": "publication",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000168"
+      },
+      "eventType": "first-publication",
+      "date": {
+        "value": "2003",
+        "precision": "year",
+        "meaning": "first-publication",
+        "territory": null
+      },
+      "editionId": null,
+      "part": null,
+      "publisher": "Borderlands Press",
+      "reportedTitle": "Stationary Bike — Borderlands 5",
+      "sourceKeys": [
+        "stationary-original-source"
+      ],
+      "checked": "2026-11-07",
+      "open": [
+        "Exact original publication month and day are not established."
+      ],
+      "note": "Verified publication metadata on the existing literary identity. Earlier collection observations retained; no story text or image imported."
+    },
+    {
+      "key": "ayana-original",
+      "entityType": "publication",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000175"
+      },
+      "eventType": "first-publication",
+      "date": {
+        "value": "2007",
+        "precision": "year",
+        "meaning": "first-publication",
+        "territory": null
+      },
+      "editionId": null,
+      "part": null,
+      "publisher": "The Paris Review",
+      "reportedTitle": "Ayana — The Paris Review 182, Fall 2007",
+      "sourceKeys": [
+        "ayana-original-source"
+      ],
+      "checked": "2026-11-07",
+      "open": [
+        "Seasonal issue date Fall 2007 is preserved in the publication label; exact month/day not inferred."
+      ],
+      "note": "Verified publication metadata on the existing literary identity. Earlier collection observations retained; no story text or image imported."
+    },
+    {
+      "key": "willa-original",
+      "entityType": "publication",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000164"
+      },
+      "eventType": "first-publication",
+      "date": {
+        "value": "2006",
+        "precision": "year",
+        "meaning": "first-publication",
+        "territory": null
+      },
+      "editionId": null,
+      "part": null,
+      "publisher": "Playboy",
+      "reportedTitle": "Willa — first publication in 2006",
+      "sourceKeys": [
+        "willa-original-source",
+        "willa-newsstand-announcement"
+      ],
+      "checked": "2026-11-07",
+      "open": [
+        "December 2006 issue and planned 10 November newsstand date are different date meanings; exact actual on-sale day not independently established."
+      ],
+      "note": "Verified publication metadata on the existing literary identity. Earlier collection observations retained; no story text or image imported."
+    },
+    {
+      "key": "willa-print-issue",
+      "entityType": "publication",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000164"
+      },
+      "eventType": "source-reported-release",
+      "date": {
+        "value": "2006-12",
+        "precision": "month",
+        "meaning": "source-reported-release",
+        "territory": null
+      },
+      "editionId": null,
+      "part": null,
+      "publisher": "Playboy",
+      "reportedTitle": "Willa — December 2006 print issue",
+      "sourceKeys": [
+        "willa-original-source"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Verified publication metadata on the existing literary identity. Earlier collection observations retained; no story text or image imported."
+    },
+    {
+      "key": "herman-online-original",
+      "entityType": "publication",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000208"
+      },
+      "eventType": "first-publication",
+      "date": {
+        "value": "2011-04",
+        "precision": "month",
+        "meaning": "first-publication",
+        "territory": null
+      },
+      "editionId": null,
+      "part": null,
+      "publisher": "The Atlantic",
+      "reportedTitle": "Herman Wouk Is Still Alive — online publication, available by 12 April 2011",
+      "sourceKeys": [
+        "herman-online-availability"
+      ],
+      "checked": "2026-11-07",
+      "open": [
+        "Exact first online day not established by the checked availability announcement."
+      ],
+      "note": "Verified publication metadata on the existing literary identity. Earlier collection observations retained; no story text or image imported."
+    },
+    {
+      "key": "herman-print-issue",
+      "entityType": "publication",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000208"
+      },
+      "eventType": "source-reported-release",
+      "date": {
+        "value": "2011-05",
+        "precision": "month",
+        "meaning": "source-reported-release",
+        "territory": null
+      },
+      "editionId": null,
+      "part": null,
+      "publisher": "The Atlantic",
+      "reportedTitle": "Herman Wouk Is Still Alive — May 2011 print issue",
+      "sourceKeys": [
+        "herman-print-issue-source"
       ],
       "checked": "2026-11-07",
       "open": [],

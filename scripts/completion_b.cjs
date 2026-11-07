@@ -111,7 +111,7 @@ function validateCompletionB(bundle,baseline){
   try{assert.deepEqual(bundle.registry.aliases,baseline.registry.aliases);assert.deepEqual(bundle.manifest,baseline.manifest);}catch{fail('b-baseline-metadata-changed','Existing aliases/manifest changed');}
   if(bundle.characters.length-baseline.characters.length!==36||bundle.locations.length-baseline.locations.length!==7||bundle.series.length-baseline.series.length!==4||bundle.connections.length-baseline.connections.length!==152||bundle.adaptations.length-baseline.adaptations.length!==18)fail('b-batch-boundary','Reviewed scope: thirty-six characters, seven locations, four series, eighteen screen productions and one hundred and fifty-two links');
   if(bundle.editions.length-baseline.editions.length!==110)fail('b-edition-boundary','Exactly one hundred and ten reviewed editions');
-  for(const [t,count]of Object.entries({works:1,people:11,credits:44,publicationEvents:17,collections:2,collectionMemberships:4,artworks:0}))if(bundle[t].length-baseline[t].length!==count)fail('b-out-of-scope-addition',t);
+  for(const [t,count]of Object.entries({works:1,people:11,credits:44,publicationEvents:25,collections:2,collectionMemberships:4,artworks:0}))if(bundle[t].length-baseline[t].length!==count)fail('b-out-of-scope-addition',t);
  }
  return errors;
 }
