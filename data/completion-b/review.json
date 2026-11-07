@@ -8137,6 +8137,78 @@
       "checkedFields": [
         "only exact ISBN fields identified by individual claims"
       ]
+    },
+    {
+      "key": "core-it-seven",
+      "url": "https://stephenking.com/works/novel/it.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-11-07",
+      "access": "available",
+      "locator": "From the Flap lists the seven childhood friends and adult professions; Characters list confirms Beverly Marsh and Stanley Uris. Names/opening roles only; exclude outcomes, spouses, biographies, deaths and the creature’s hidden identity.",
+      "checkedFields": [
+        "named literary characters and opening roles only"
+      ]
+    },
+    {
+      "key": "core-firestarter",
+      "url": "https://stephenking.com/works/novel/firestarter.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-11-07",
+      "access": "available",
+      "locator": "Synopsis and From the Flap: Charlie McGee and her father Andy; her fire-starting ability and the agency pursuit are the opening premise.",
+      "checkedFields": [
+        "named literary characters and opening roles only"
+      ]
+    },
+    {
+      "key": "core-pet-sematary",
+      "url": "https://stephenking.com/works/novel/pet-sematary.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-11-07",
+      "access": "available",
+      "locator": "Synopsis: Dr Louis Creed, wife Rachel, relocation from Chicago to rural Maine. No deaths, burial-ground effects or later events retained.",
+      "checkedFields": [
+        "named literary characters and opening roles only"
+      ]
+    },
+    {
+      "key": "core-cujo",
+      "url": "https://stephenking.com/works/novel/cujo.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-11-07",
+      "access": "available",
+      "locator": "Synopsis / From the Flap: Cujo the Camber family Saint Bernard; Donna, Vic and Tad Trenton. Opening family situation only; no outcome imported.",
+      "checkedFields": [
+        "named literary characters and opening roles only"
+      ]
+    },
+    {
+      "key": "core-hodges-finders",
+      "url": "https://stephenking.com/works/novel/finders-keepers.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-11-07",
+      "access": "available",
+      "locator": "Synopsis explicitly names Bill Hodges and Jerome Robinson in the same central trio introduced in Mr. Mercedes. Their presence only, not case resolution.",
+      "checkedFields": [
+        "named literary characters and opening roles only"
+      ]
+    },
+    {
+      "key": "core-hodges-end",
+      "url": "https://stephenking.com/works/novel/end-of-watch.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-11-07",
+      "access": "available",
+      "locator": "Synopsis and flap identify retired detective Bill Hodges, hero of Mr. Mercedes and Finders Keepers; Jerome Robinson is named in the present investigation context. No killer identity, victim outcome, illness or fate adopted.",
+      "checkedFields": [
+        "named literary characters and opening roles only"
+      ]
     }
   ],
   "records": [
@@ -17701,6 +17773,913 @@
       "checked": "2026-11-07",
       "open": [],
       "note": "Exact ISBN and separately verified maker role; no new literary work identity."
+    },
+    {
+      "key": "core-bill-denbrough",
+      "entityType": "character",
+      "name": "Bill Denbrough",
+      "aliases": [],
+      "continuity": "IT literary continuity",
+      "summary": {
+        "en": "One of IT’s seven childhood friends; he becomes a writer."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "core-it-seven"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Literary identity and premise only; no screen actor merge, hidden identity, later fate, copied biography or new image."
+    },
+    {
+      "key": "core-bill-denbrough-appears-19",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "id": "chr:000028"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000019"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Bill Denbrough appears in IT."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "core-it-seven"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Literary identity and premise only; no screen actor merge, hidden identity, later fate, copied biography or new image."
+    },
+    {
+      "key": "core-ben-hanscom",
+      "entityType": "character",
+      "name": "Ben Hanscom",
+      "aliases": [],
+      "continuity": "IT literary continuity",
+      "summary": {
+        "en": "One of Derry’s childhood friends, later an architect."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "core-it-seven"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Literary identity and premise only; no screen actor merge, hidden identity, later fate, copied biography or new image."
+    },
+    {
+      "key": "core-ben-hanscom-appears-19",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "id": "chr:000029"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000019"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Ben Hanscom appears in IT."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "core-it-seven"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Literary identity and premise only; no screen actor merge, hidden identity, later fate, copied biography or new image."
+    },
+    {
+      "key": "core-beverly-marsh",
+      "entityType": "character",
+      "name": "Beverly Marsh",
+      "aliases": [],
+      "continuity": "IT literary continuity",
+      "summary": {
+        "en": "A member of the Derry group, later a dress designer."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "core-it-seven"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Literary identity and premise only; no screen actor merge, hidden identity, later fate, copied biography or new image."
+    },
+    {
+      "key": "core-beverly-marsh-appears-19",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "id": "chr:000030"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000019"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Beverly Marsh appears in IT."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "core-it-seven"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Literary identity and premise only; no screen actor merge, hidden identity, later fate, copied biography or new image."
+    },
+    {
+      "key": "core-mike-hanlon",
+      "entityType": "character",
+      "name": "Mike Hanlon",
+      "aliases": [],
+      "continuity": "IT literary continuity",
+      "summary": {
+        "en": "The childhood friend who calls the group back to Derry."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "core-it-seven"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Literary identity and premise only; no screen actor merge, hidden identity, later fate, copied biography or new image."
+    },
+    {
+      "key": "core-mike-hanlon-appears-19",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "id": "chr:000031"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000019"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Mike Hanlon appears in IT."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "core-it-seven"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Literary identity and premise only; no screen actor merge, hidden identity, later fate, copied biography or new image."
+    },
+    {
+      "key": "core-richie-tozier",
+      "entityType": "character",
+      "name": "Richie Tozier",
+      "aliases": [],
+      "continuity": "IT literary continuity",
+      "summary": {
+        "en": "A member of the group whose adult career is in radio."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "core-it-seven"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Literary identity and premise only; no screen actor merge, hidden identity, later fate, copied biography or new image."
+    },
+    {
+      "key": "core-richie-tozier-appears-19",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "id": "chr:000032"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000019"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Richie Tozier appears in IT."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "core-it-seven"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Literary identity and premise only; no screen actor merge, hidden identity, later fate, copied biography or new image."
+    },
+    {
+      "key": "core-eddie-kaspbrak",
+      "entityType": "character",
+      "name": "Eddie Kaspbrak",
+      "aliases": [],
+      "continuity": "IT literary continuity",
+      "summary": {
+        "en": "One of Derry’s childhood friends, introduced with severe asthma."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "core-it-seven"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Literary identity and premise only; no screen actor merge, hidden identity, later fate, copied biography or new image."
+    },
+    {
+      "key": "core-eddie-kaspbrak-appears-19",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "id": "chr:000033"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000019"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Eddie Kaspbrak appears in IT."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "core-it-seven"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Literary identity and premise only; no screen actor merge, hidden identity, later fate, copied biography or new image."
+    },
+    {
+      "key": "core-stanley-uris",
+      "entityType": "character",
+      "name": "Stanley Uris",
+      "aliases": [],
+      "continuity": "IT literary continuity",
+      "summary": {
+        "en": "One of IT’s childhood friends, introduced as an accountant in adulthood."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "core-it-seven"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Literary identity and premise only; no screen actor merge, hidden identity, later fate, copied biography or new image."
+    },
+    {
+      "key": "core-stanley-uris-appears-19",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "id": "chr:000034"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000019"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Stanley Uris appears in IT."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "core-it-seven"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Literary identity and premise only; no screen actor merge, hidden identity, later fate, copied biography or new image."
+    },
+    {
+      "key": "core-charlie-mcgee",
+      "entityType": "character",
+      "name": "Charlie McGee",
+      "aliases": [],
+      "continuity": "Firestarter literary continuity",
+      "summary": {
+        "en": "A girl whose ability to start fires draws the attention of a government agency. Firestarter follows the danger facing Charlie and her family."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "core-firestarter"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Literary identity and premise only; no screen actor merge, hidden identity, later fate, copied biography or new image."
+    },
+    {
+      "key": "core-charlie-mcgee-appears-10",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "id": "chr:000035"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000010"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Charlie McGee appears in Firestarter."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "core-firestarter"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Literary identity and premise only; no screen actor merge, hidden identity, later fate, copied biography or new image."
+    },
+    {
+      "key": "core-andy-mcgee",
+      "entityType": "character",
+      "name": "Andy McGee",
+      "aliases": [],
+      "continuity": "Firestarter literary continuity",
+      "summary": {
+        "en": "Charlie McGee’s father. He tries to protect his daughter from the agency interested in her unusual ability."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "core-firestarter"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Literary identity and premise only; no screen actor merge, hidden identity, later fate, copied biography or new image."
+    },
+    {
+      "key": "core-andy-mcgee-appears-10",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "id": "chr:000036"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000010"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Andy McGee appears in Firestarter."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "core-firestarter"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Literary identity and premise only; no screen actor merge, hidden identity, later fate, copied biography or new image."
+    },
+    {
+      "key": "core-louis-creed",
+      "entityType": "character",
+      "name": "Louis Creed",
+      "aliases": [],
+      "continuity": "Pet Sematary literary continuity",
+      "summary": {
+        "en": "A doctor who moves from Chicago to rural Maine with his family. His new home stands near a busy road and a children’s pet cemetery."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "core-pet-sematary"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Literary identity and premise only; no screen actor merge, hidden identity, later fate, copied biography or new image."
+    },
+    {
+      "key": "core-louis-creed-appears-16",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "id": "chr:000037"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000016"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Louis Creed appears in Pet Sematary."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "core-pet-sematary"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Literary identity and premise only; no screen actor merge, hidden identity, later fate, copied biography or new image."
+    },
+    {
+      "key": "core-rachel-creed",
+      "entityType": "character",
+      "name": "Rachel Creed",
+      "aliases": [],
+      "continuity": "Pet Sematary literary continuity",
+      "summary": {
+        "en": "Louis Creed’s wife, who moves with their family from Chicago to rural Maine. She belongs to the family at the centre of Pet Sematary."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "core-pet-sematary"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Literary identity and premise only; no screen actor merge, hidden identity, later fate, copied biography or new image."
+    },
+    {
+      "key": "core-rachel-creed-appears-16",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "id": "chr:000038"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000016"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Rachel Creed appears in Pet Sematary."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "core-pet-sematary"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Literary identity and premise only; no screen actor merge, hidden identity, later fate, copied biography or new image."
+    },
+    {
+      "key": "core-cujo-dog",
+      "entityType": "character",
+      "name": "Cujo",
+      "aliases": [],
+      "continuity": "Cujo literary continuity",
+      "summary": {
+        "en": "The Camber family’s Saint Bernard, once a friendly companion. His dangerous change is the central threat in Cujo."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "core-cujo"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Literary identity and premise only; no screen actor merge, hidden identity, later fate, copied biography or new image."
+    },
+    {
+      "key": "core-cujo-dog-appears-12",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "id": "chr:000039"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000012"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Cujo appears in Cujo."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "core-cujo"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Literary identity and premise only; no screen actor merge, hidden identity, later fate, copied biography or new image."
+    },
+    {
+      "key": "core-donna-trenton",
+      "entityType": "character",
+      "name": "Donna Trenton",
+      "aliases": [],
+      "continuity": "Cujo literary continuity",
+      "summary": {
+        "en": "A Castle Rock mother whose car trouble leads to a terrifying encounter with Cujo. She and her son Tad are central to the novel."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "core-cujo"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Literary identity and premise only; no screen actor merge, hidden identity, later fate, copied biography or new image."
+    },
+    {
+      "key": "core-donna-trenton-appears-12",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "id": "chr:000040"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000012"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Donna Trenton appears in Cujo."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "core-cujo"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Literary identity and premise only; no screen actor merge, hidden identity, later fate, copied biography or new image."
+    },
+    {
+      "key": "core-vic-trenton",
+      "entityType": "character",
+      "name": "Vic Trenton",
+      "aliases": [],
+      "continuity": "Cujo literary continuity",
+      "summary": {
+        "en": "An advertising professional, Donna’s husband and Tad’s father. Business pressures take him away from his family during the novel’s opening situation."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "core-cujo"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Literary identity and premise only; no screen actor merge, hidden identity, later fate, copied biography or new image."
+    },
+    {
+      "key": "core-vic-trenton-appears-12",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "id": "chr:000041"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000012"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Vic Trenton appears in Cujo."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "core-cujo"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Literary identity and premise only; no screen actor merge, hidden identity, later fate, copied biography or new image."
+    },
+    {
+      "key": "core-tad-trenton",
+      "entityType": "character",
+      "name": "Tad Trenton",
+      "aliases": [],
+      "continuity": "Cujo literary continuity",
+      "summary": {
+        "en": "Donna and Vic Trenton’s young son. A trip with his mother becomes part of the novel’s dangerous encounter with Cujo."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "core-cujo"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Literary identity and premise only; no screen actor merge, hidden identity, later fate, copied biography or new image."
+    },
+    {
+      "key": "core-tad-trenton-appears-12",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "id": "chr:000042"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000012"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Tad Trenton appears in Cujo."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "core-cujo"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Literary identity and premise only; no screen actor merge, hidden identity, later fate, copied biography or new image."
+    },
+    {
+      "key": "core-bill-hodges",
+      "entityType": "character",
+      "name": "Bill Hodges",
+      "aliases": [],
+      "continuity": "Bill Hodges literary continuity",
+      "summary": {
+        "en": "A retired police detective at the centre of Mr. Mercedes, Finders Keepers and End of Watch. His investigations bring him together with Holly Gibney and Jerome Robinson."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "core-hodges-end"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Literary identity and premise only; no screen actor merge, hidden identity, later fate, copied biography or new image."
+    },
+    {
+      "key": "core-bill-hodges-appears-52",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "id": "chr:000043"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000052"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Bill Hodges appears in Mr. Mercedes."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "core-hodges-end"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Literary identity and premise only; no screen actor merge, hidden identity, later fate, copied biography or new image."
+    },
+    {
+      "key": "core-bill-hodges-appears-54",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "id": "chr:000043"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000054"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Bill Hodges appears in Finders Keepers."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "core-hodges-finders"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Literary identity and premise only; no screen actor merge, hidden identity, later fate, copied biography or new image."
+    },
+    {
+      "key": "core-bill-hodges-appears-55",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "id": "chr:000043"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000055"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Bill Hodges appears in End of Watch."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "core-hodges-end"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Literary identity and premise only; no screen actor merge, hidden identity, later fate, copied biography or new image."
+    },
+    {
+      "key": "core-jerome-robinson",
+      "entityType": "character",
+      "name": "Jerome Robinson",
+      "aliases": [],
+      "continuity": "Bill Hodges literary continuity",
+      "summary": {
+        "en": "A friend and collaborator of Bill Hodges, part of the central trio introduced in Mr. Mercedes and continued in the two sequels."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "core-hodges-finders"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Literary identity and premise only; no screen actor merge, hidden identity, later fate, copied biography or new image."
+    },
+    {
+      "key": "core-jerome-robinson-appears-52",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "id": "chr:000044"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000052"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Jerome Robinson appears in Mr. Mercedes."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "core-hodges-end"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Literary identity and premise only; no screen actor merge, hidden identity, later fate, copied biography or new image."
+    },
+    {
+      "key": "core-jerome-robinson-appears-54",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "id": "chr:000044"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000054"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Jerome Robinson appears in Finders Keepers."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "core-hodges-finders"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Literary identity and premise only; no screen actor merge, hidden identity, later fate, copied biography or new image."
+    },
+    {
+      "key": "core-jerome-robinson-appears-55",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "id": "chr:000044"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000055"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Jerome Robinson appears in End of Watch."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "core-hodges-end"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Literary identity and premise only; no screen actor merge, hidden identity, later fate, copied biography or new image."
     }
   ],
   "deferred": [
