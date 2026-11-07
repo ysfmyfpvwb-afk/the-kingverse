@@ -8617,6 +8617,30 @@
       "checkedFields": [
         "named writer and stated literary credits only; no portrait, contact details, copied biography or plot imported"
       ]
+    },
+    {
+      "key": "king-reader-profile",
+      "url": "https://stephenking.com/the-author/",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-11-07",
+      "access": "available",
+      "locator": "Official author biography and press biography describe King’s writing career, Carrie, The Shining and range of fiction. Only literary career facts used; no residential, family, health or portrait data imported.",
+      "checkedFields": [
+        "named writer and stated literary credits only; no portrait, contact details, copied biography or plot imported"
+      ]
+    },
+    {
+      "key": "king-range-profile",
+      "url": "https://stephenking.com/works/all/",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-11-07",
+      "access": "available",
+      "locator": "Existing official inventory used only for the named examples Carrie, The Shining, It and The Dark Tower, and fiction/nonfiction/script categories. No new inventory comparison or complete bibliography claim.",
+      "checkedFields": [
+        "named title examples and broad writing categories only"
+      ]
     }
   ],
   "records": [
@@ -30186,6 +30210,42 @@
       "checked": "2026-11-07",
       "locator": "Specified coauthorship or editorial/contributor role only.",
       "note": "Own short reader introduction on existing person. All canonical works, credits and roles remain unchanged."
+    },
+    {
+      "key": "king-introduction",
+      "subject": {
+        "type": "person",
+        "id": "per:000001"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Stephen King writes novels, short fiction, nonfiction and scripts. His work includes Carrie, The Shining, It and The Dark Tower sequence. He has also published fiction under the name Richard Bachman."
+      },
+      "sourceKeys": [
+        "king-reader-profile",
+        "book-intro-col-000014-source",
+        "king-range-profile"
+      ],
+      "checked": "2026-11-07",
+      "locator": "Official author biography and existing reviewed Bachman Books attribution; literary career only.",
+      "note": "Own reader introduction on existing Stephen King identity. Richard Bachman remains a pseudonym, not an additional author or person."
+    },
+    {
+      "key": "mellencamp-introduction",
+      "subject": {
+        "type": "person",
+        "id": "per:000031"
+      },
+      "field": "summary",
+      "value": {
+        "en": "John Mellencamp created the music and lyrics for Ghost Brothers of Darkland County. The musical brings his songwriting together with Stephen King’s book for the stage."
+      },
+      "sourceIds": [
+        "src:000494"
+      ],
+      "checked": "2026-11-07",
+      "locator": "Reuse existing independently source-supported creator scopes clm:007443 and clm:007449, Alliance Theatre production page. No new biography or production-status claim.",
+      "note": "Own introduction derived from already reviewed book/libretto and music/lyrics credits. Preserve separate roles and all existing people and works."
     }
   ]
 }

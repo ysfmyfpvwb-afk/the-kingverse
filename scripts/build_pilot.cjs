@@ -17,7 +17,8 @@ function generatePilot(root=ROOT){
  const summaries=new Map(full.nodes.map(n=>[n.id,{id:n.id,type:n.type,label:n.label,kind:n.data.kind||null,href:href(n.id),...(n.type==='edition'?{language:n.data.language}:{}),verification:n.verification,...(n.type==='edition'?{publisher:n.data.publisher,format:n.data.format,publicationDate:n.data.publicationDate}:{})}]));
  const compact=r=>({...summaries.get(r.id),evidence:r.evidence});
  const files=new Map(),payloads=new Map(),stats=[];
- const version=sha(JSON.stringify([base,plot,read(root,'data/media/library.json'),sha(fs.readFileSync(__filename)),sha(fs.readFileSync(path.join(root,'scripts/pilot/descriptions.cjs'))),read(root,'data/media-release/approvals.json'),premises])).slice(0,16);
+ const introductions=native.claims.filter(c=>c.fieldPath==='/summary'&&c.selected&&c.status==='verified');
+ const version=sha(JSON.stringify([base,plot,introductions,read(root,'data/media/library.json'),sha(fs.readFileSync(__filename)),sha(fs.readFileSync(path.join(root,'scripts/pilot/descriptions.cjs'))),read(root,'data/media-release/approvals.json'),premises])).slice(0,16);
  // Descriptions can cite a source not otherwise used by the compact graph.
  const sources=new Map(native.sources.map(s=>[s.id,Object.fromEntries(['id','url','publisher','sourceType','observedAt','access'].map(k=>[k,s[k]]))]));
  function emit(name,value){const text=JSON.stringify(value)+'\n',bytes=Buffer.byteLength(text);if(bytes>LIMIT&&!name.includes('search.'))throw Error('Payload exceeds 48 KiB: '+name+' '+bytes);files.set('explorer/pilot/'+name,text);payloads.set(name,value);stats.push({file:name,bytes,gzipBytes:require('node:zlib').gzipSync(text).length});}

@@ -15,7 +15,8 @@ function generateMainCompletion(){
  const dossier=new Map(JSON.parse(fs.readFileSync(path.join(ROOT,'data/completion/review.json'))).dossiers.map(d=>[d.title,d]));
  const type={novel:'Roman',novella:'Novelle','short-story':'Verhaal',nonfiction:'Non-fictie',essay:'Essay',screenplay:'Scenario','children-book':'Kinderboek','dramatic-work':'Musical',comic:'Strip'};
  for(const group of ['books','stories','films'])for(const r of db[group]){const target=aliases.get(r.id)||aliases.get(r.workId);if(target){r.canonicalId=target.id;const k=target.type+'/'+target.id;if(!legacy.has(k)||group==='books')legacy.set(k,{kind:group,id:r.id,title:r['Engelse titel']||r['Engelse verhaalnaam']||r['Verfilming (EN)']});}}
- function makers(r){return credits.filter(c=>c.subject.id===r.id).map(c=>({name:people.get(c.personId).name,role:c.scope.startsWith('music and lyrics')?'composer':c.scope.startsWith('book/libretto')?'librettist':c.role,scope:c.scope,...(c.creditedAs?{creditedAs:c.creditedAs}:{})}));}
+ const makerRole=c=>c.scope.startsWith('music and lyrics')?'composer':c.scope.startsWith('book/libretto')?'librettist':c.role;
+ function makers(r){return credits.filter(c=>c.subject.id===r.id).map(c=>({name:people.get(c.personId).name,role:makerRole(c),scope:c.scope,...(c.creditedAs?{creditedAs:c.creditedAs}:{})}));}
  const addedWorkIds=new Set(Object.entries(JSON.parse(fs.readFileSync(path.join(ROOT,'data/completion-b/register.json'))).allocations).filter(([key])=>key.startsWith('work/')||key.startsWith('collection/')).map(([,id])=>id));
  const bookNodes=bundle.works.filter(w=>dossier.has(w.originalTitle)||addedWorkIds.has(w.id)).concat(bundle.collections.filter(c=>dossier.has(c.originalTitle)||addedWorkIds.has(c.id)));
  for(const r of bookNodes){if(legacy.has(r.entityType+'/'+r.id))continue;const dates=bundle.publicationEvents.filter(p=>p.subject.id===r.id).map(p=>p.date.value).sort(),authors=makers(r);
@@ -26,7 +27,7 @@ function generateMainCompletion(){
  }
  for(const group of ['books','stories'])for(const row of db[group]){const r=canonical.get(row.canonicalId);if(!r)continue;if(r.summary)row.summary=r.summary;row.editionIds??=[];
   const profiles=credits.filter(c=>c.subject.id===r.id&&people.get(c.personId)?.summary?.en);
-  if(profiles.length){row.authors??=makers(r);row.authors=row.authors.map(a=>{const c=profiles.find(c=>people.get(c.personId).name===a.name&&c.role===a.role);if(!c)return a;const person=people.get(c.personId);row.sources=[...new Set([...(row.sources||[]),...sourceUrls(person)])];return {...a,personId:person.id,profile:person.summary};});}
+  if(profiles.length){row.authors??=makers(r);row.authors=row.authors.map(a=>{const c=profiles.find(c=>people.get(c.personId).name===a.name&&makerRole(c)===a.role);if(!c)return a;const person=people.get(c.personId);row.sources=[...new Set([...(row.sources||[]),...sourceUrls(person)])];return {...a,personId:person.id,profile:person.summary};});}
   const first=bundle.publicationEvents.find(p=>p.subject.id===r.id&&p.eventType==='first-publication');if(first&&!row.firstPublication){row.firstPublication={date:first.date.value,precision:first.date.precision,kind:'first-publication',source:sourceUrls(first)[0]};row.sources=[...new Set([...(row.sources||[]),...sourceUrls(first)])];if(group==='stories')row.Jaar=Number(first.date.value.slice(0,4));}}
  // Publish reviewed appearances without promoting a magazine citation to a first-publication claim.
  const reviewedPublications=new Set(Object.entries(JSON.parse(fs.readFileSync(path.join(ROOT,'data/completion-b/register.json'))).allocations).filter(([key])=>key.startsWith('publication/')).map(([,id])=>id));

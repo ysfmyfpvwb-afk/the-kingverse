@@ -402,3 +402,15 @@ test('ONan and Vincent profiles connect existing fiction nonfiction and antholog
  const invalid=structuredClone(b);invalid.people.find(p=>p.id==='per:000052').unreviewedBiography='unchecked';assert.ok(require('../scripts/completion_b.cjs').validateCompletionB(invalid,require('../scripts/build_completion.cjs').loadCompletion()).some(e=>e.code==='b-unreviewed-field'));
  const vincent=b.credits.filter(c=>c.personId==='per:000052');assert.deepEqual(vincent.map(c=>c.role),['editor','contributor']);assert.ok(!vincent.some(c=>c.role==='coauthor'));assert.ok(vincent[1].scope.includes('afterword'));assert.equal(b.works.length,250);assert.equal(b.people.length,60);assert.equal(db.books.length,98);assert.equal(b.credits.length,require('../scripts/build_completion.cjs').loadCompletion().credits.length+44);
 });
+
+test('King and Mellencamp reader profiles preserve pseudonym and musical creator identities',()=>{
+ const b=require('../scripts/completion_b.cjs').extendCompletionB(require('../scripts/build_completion.cjs').loadCompletion()),db=generateMainCompletion().db;
+ assert.equal(b.people.filter(p=>p.name==='Stephen King').length,1);assert.equal(b.people.filter(p=>p.name==='Richard Bachman').length,0);assert.ok(b.people.find(p=>p.id==='per:000001').pseudonyms.includes('Richard Bachman'));
+ run("tab='books';lang='en'");const r=db.books.find(r=>r.canonicalId==='wrk:000249'),html=run("detailContent(B.find(r=>r.canonicalId==='wrk:000249'))");assert.equal(r.authors.find(a=>a.personId==='per:000001').role,'librettist');assert.equal(r.authors.find(a=>a.personId==='per:000031').role,'composer');assert.match(html,/Music \/ lyrics/);assert.match(html,/book for the stage/);assert.match(html,/entity=per%3A000031/);assert.match(run("detailContent(B.find(r=>r.canonicalId==='wrk:000003'))"),/Richard Bachman/);
+ for(const n of [1,31]){const id='per:'+String(n).padStart(6,'0');assert.equal(require('../explorer/pilot/data/'+id.replace(':','-')+'/index.json').node.description,b.people.find(p=>p.id===id).summary.en);}assert.equal(b.people.length,60);assert.equal(b.works.length,250);
+});
+
+test('Editing only a verified introduction renews the Explorer cache version',()=>{
+ const model=require('../scripts/completion_pilot.cjs'),build=require('../scripts/build_pilot.cjs'),original=model.completionPilot,baseline=build.generatePilot();
+ try{model.completionPilot=(...args)=>{const out=original(...args),p=out.bundle.people.find(p=>p.id==='per:000002'),claim=out.bundle.claims.find(c=>c.subject.id===p.id&&c.fieldPath==='/summary'&&c.selected);p.summary={en:p.summary.en+' Reader profile.'};claim.value=structuredClone(p.summary);return out;};const changed=build.generatePilot();assert.notEqual(changed.report.dataVersion,baseline.report.dataVersion);assert.match(JSON.parse(changed.files.get('explorer/pilot/data/per-000002/index.json')).node.description,/Reader profile\.$/);assert.deepEqual(changed.report.counts,baseline.report.counts);}finally{model.completionPilot=original;}
+});
