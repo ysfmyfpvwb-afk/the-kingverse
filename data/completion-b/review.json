@@ -8101,6 +8101,42 @@
       "checkedFields": [
         "only exact ISBN fields identified by individual claims"
       ]
+    },
+    {
+      "key": "nov07-carrie-audio",
+      "url": "https://www.lsuitgeverij.nl/boek/carrie-luisterboek/",
+      "publisher": "Luitingh-Sijthoff",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-11-07",
+      "access": "available",
+      "locator": "Product specifications: exact ISBN 9789024591350, Dutch, Luisterboek, publication 25-10-2023. Correct endpoint found; previous generic Carrie URL pointed to a different ebook ISBN. No paperback data or narrator-as-translator credit adopted.",
+      "checkedFields": [
+        "only exact ISBN fields identified by individual claims"
+      ]
+    },
+    {
+      "key": "nov07-mariela-name-authority",
+      "url": "https://www.librarything.com/a/2016111/Mari%C3%ABlla-Snel",
+      "publisher": "LibraryThing",
+      "sourceType": "reference",
+      "observedAt": "2026-11-07",
+      "access": "available",
+      "locator": "Named-author record explicitly groups Mariëlla Snel and Mariëlla de Kuyper. Search-indexed authority grouping inspected; direct fetch cache miss. Manually reconciled with the contemporary DBNL review’s de Kuyper and de Kuyper-Snel forms; no automatic surname merge.",
+      "checkedFields": [
+        "only exact ISBN fields identified by individual claims"
+      ]
+    },
+    {
+      "key": "nov07-danse-credit-proof",
+      "url": "https://www.dbnl.org/tekst/_vri013boek06_01/_vri013boek06_01_0707.php",
+      "publisher": "DBNL / Vrij Nederland",
+      "sourceType": "reference",
+      "observedAt": "2026-11-07",
+      "access": "available",
+      "locator": "Reuse the inspected 1986 bibliographic heading: Danse Macabre, Loeb, translation Mariëlla de Kuyper; same page also credits Mariëlla de Kuyper-Snel in 4 X Stephen King. Original review text not imported.",
+      "checkedFields": [
+        "only exact ISBN fields identified by individual claims"
+      ]
     }
   ],
   "records": [
@@ -17357,10 +17393,9 @@
       },
       "open": [
         "Specific printing not established; later printings share this ISBN.",
-        "Contemporary review names translator Mariëlla de Kuyper. Canonical person linkage to the existing Mariëlla Snel is not established; no automatic name merge or duplicate person created.",
         "Open Library ISBN endpoint returned HTTP 404; it was not used as evidence."
       ],
-      "note": "Dutch edition of existing nonfiction work wrk:000243, not the French short-story collection with the same title. Bibliographic year 1986 is not the original English publication year 1981. No artwork imported.",
+      "note": "Dutch edition of existing nonfiction work wrk:000243, not the French short-story collection with the same title. Bibliographic year 1986 is not the original English publication year 1981. No artwork imported. Translator linked on 2026-11-07 by manual named-author reconciliation; canonical person retained and printed credit preserved.",
       "checked": "2026-11-03"
     },
     {
@@ -17644,6 +17679,26 @@
         "gwendy-omnibus-series-scope"
       ],
       "checked": "2026-11-03",
+      "open": [],
+      "note": "Exact ISBN and separately verified maker role; no new literary work identity."
+    },
+    {
+      "key": "nov07-danse-translator",
+      "entityType": "credit",
+      "personId": "per:000032",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000260"
+      },
+      "role": "translator",
+      "creditedAs": "Mariëlla de Kuyper",
+      "scope": "Dutch translation",
+      "characterId": null,
+      "sourceKeys": [
+        "nov07-danse-credit-proof",
+        "nov07-mariela-name-authority"
+      ],
+      "checked": "2026-11-07",
       "open": [],
       "note": "Exact ISBN and separately verified maker role; no new literary work identity."
     }
@@ -27091,6 +27146,113 @@
       ],
       "checked": "2026-11-03",
       "locator": "ISBN-specific translator credit only; not a new work or author credit.",
+      "note": "Field-scoped ISBN review. Existing source observations retained."
+    },
+    {
+      "key": "nov07-000005-publisher",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000005"
+      },
+      "field": "publisher",
+      "value": "Luitingh-Sijthoff",
+      "sourceKeys": [
+        "nov07-carrie-audio"
+      ],
+      "checked": "2026-11-07",
+      "locator": "Exact audiobook ISBN metadata, separate from the 1974 original work and other print/ebook editions.",
+      "note": "Field-scoped ISBN review. Existing source observations retained."
+    },
+    {
+      "key": "nov07-000005-format",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000005"
+      },
+      "field": "format",
+      "value": "Luisterboek",
+      "sourceKeys": [
+        "nov07-carrie-audio"
+      ],
+      "checked": "2026-11-07",
+      "locator": "Exact audiobook ISBN metadata, separate from the 1974 original work and other print/ebook editions.",
+      "note": "Field-scoped ISBN review. Existing source observations retained."
+    },
+    {
+      "key": "nov07-000005-identityStatus",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000005"
+      },
+      "field": "identityStatus",
+      "value": "identified",
+      "sourceKeys": [
+        "nov07-carrie-audio"
+      ],
+      "checked": "2026-11-07",
+      "locator": "Exact audiobook ISBN metadata, separate from the 1974 original work and other print/ebook editions.",
+      "note": "Field-scoped ISBN review. Existing source observations retained."
+    },
+    {
+      "key": "nov07-000005-publicationDate",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000005"
+      },
+      "field": "publicationDate",
+      "value": {
+        "value": "2023-10-25",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "sourceKeys": [
+        "nov07-carrie-audio"
+      ],
+      "checked": "2026-11-07",
+      "locator": "Exact audiobook ISBN metadata, separate from the 1974 original work and other print/ebook editions.",
+      "note": "Field-scoped ISBN review. Existing source observations retained."
+    },
+    {
+      "key": "nov07-000032-aliases",
+      "subject": {
+        "type": "person",
+        "id": "per:000032"
+      },
+      "field": "aliases",
+      "value": [
+        {
+          "language": "nl",
+          "value": "Mariëlla de Kuyper",
+          "spoiler": {
+            "level": "none",
+            "workIds": []
+          }
+        }
+      ],
+      "sourceKeys": [
+        "nov07-mariela-name-authority",
+        "nov07-danse-credit-proof"
+      ],
+      "checked": "2026-11-07",
+      "locator": "Manual identity reconciliation: explicit LibraryThing combined-name record, corroborated by contemporary compound-name credit. Canonical person per:000032 retained.",
+      "note": "Field-scoped ISBN review. Existing source observations retained."
+    },
+    {
+      "key": "nov07-000260-translationCredits",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000260"
+      },
+      "field": "translationCredits",
+      "value": [
+        "crd:000395"
+      ],
+      "sourceKeys": [
+        "nov07-danse-credit-proof"
+      ],
+      "checked": "2026-11-07",
+      "locator": "Contemporary Loeb edition translator credit, manually linked to the existing person after named-author reconciliation. Printed name is retained on the credit.",
       "note": "Field-scoped ISBN review. Existing source observations retained."
     }
   ]

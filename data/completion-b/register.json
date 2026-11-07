@@ -3160,6 +3160,20 @@
     "claim/gwendy-omnibus-membership-3/workId": "clm:010672",
     "claim/gwendy-omnibus-membership-3/collectionId": "clm:010673",
     "claim/gwendy-omnibus-membership-3/order": "clm:010674",
-    "claim/gwendy-omnibus-membership-3/editionIds": "clm:010675"
+    "claim/gwendy-omnibus-membership-3/editionIds": "clm:010675",
+    "source/nov07-carrie-audio": "src:000740",
+    "claim/nov07-000005-publisher": "clm:010676",
+    "claim/nov07-000005-format": "clm:010677",
+    "claim/nov07-000005-identityStatus": "clm:010678",
+    "claim/nov07-000005-publicationDate": "clm:010679",
+    "source/nov07-mariela-name-authority": "src:000741",
+    "claim/nov07-000032-aliases": "clm:010680",
+    "credit/nov07-danse-translator": "crd:000395",
+    "claim/nov07-danse-translator/personId": "clm:010681",
+    "claim/nov07-danse-translator/subject": "clm:010682",
+    "claim/nov07-danse-translator/role": "clm:010683",
+    "claim/nov07-danse-translator/creditedAs": "clm:010684",
+    "claim/nov07-danse-translator/scope": "clm:010685",
+    "claim/nov07-000260-translationCredits": "clm:010686"
   }
 }
