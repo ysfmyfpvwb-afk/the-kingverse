@@ -8209,6 +8209,30 @@
       "checkedFields": [
         "named literary characters and opening roles only"
       ]
+    },
+    {
+      "key": "screen-development-2026-interview",
+      "url": "https://www.cinemablend.com/movies/veteran-stephen-king-producer-provides-update-where-things-stand-4-developing-adaptations-king-beat",
+      "publisher": "CinemaBlend / interview with producer Roy Lee",
+      "sourceType": "reference",
+      "observedAt": "2026-11-07",
+      "access": "available",
+      "locator": "Published 19 February 2026. Interviewer asks producer Roy Lee about Cujo, The Jaunt, The Girl Who Loved Tom Gordon and The Tommyknockers; his response confirms development stages. Separate explanatory text identifies The Jaunt as a TV series. No release year or guaranteed production inferred.",
+      "checkedFields": [
+        "dated development report and specific literary source only"
+      ]
+    },
+    {
+      "key": "screen-tom-gordon-2025-announcement",
+      "url": "https://www.thewrap.com/stephen-king-the-girl-who-loved-tom-gordon-film-adaptation-jt-mollner/",
+      "publisher": "TheWrap / Lionsgate announcement",
+      "sourceType": "reference",
+      "observedAt": "2026-11-07",
+      "access": "available",
+      "locator": "24 July 2025 report of Lionsgate president Erin Westerman announcement: JT Mollner to write and direct The Girl Who Loved Tom Gordon. Specific announcement, not proof of filming or release.",
+      "checkedFields": [
+        "dated development report and specific literary source only"
+      ]
     }
   ],
   "records": [
@@ -18680,6 +18704,234 @@
       "checked": "2026-11-07",
       "open": [],
       "note": "Literary identity and premise only; no screen actor merge, hidden identity, later fate, copied biography or new image."
+    },
+    {
+      "key": "cujo-development",
+      "entityType": "adaptation",
+      "title": "Cujo",
+      "aliases": [],
+      "format": "film",
+      "externalIds": {},
+      "releaseYear": null,
+      "releaseEvents": [],
+      "statusHistory": [
+        {
+          "status": "development",
+          "asOf": "2026-02-19",
+          "projectScope": "Producer interview reports development; not proof of filming, completion or current continuation after the report date.",
+          "claimIds": [
+            "cujo-development/statusHistory"
+          ]
+        }
+      ],
+      "ratingObservations": [],
+      "countries": [],
+      "originalLanguages": [],
+      "originalScreenplay": false,
+      "makerObservations": [],
+      "distribution": [],
+      "productionUnits": [],
+      "summary": {
+        "en": "A new Cujo film project discussed by producer Roy Lee in February 2026. It is separate from the 1983 film. No release date or completed production is confirmed in the checked sources."
+      },
+      "sourceKeys": [
+        "screen-development-2026-interview"
+      ],
+      "open": [
+        "Production stage after the dated interview is not independently confirmed.",
+        "No verified release date, cast or poster.",
+        "Director negotiations and older studio reports are not promoted to confirmed current credits."
+      ],
+      "checked": "2026-11-07",
+      "note": "Dated development evidence only. No completed-production, release-date, cast, score or poster claim."
+    },
+    {
+      "key": "cujo-development-source-work",
+      "entityType": "connection",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000112"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000012"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The dated development report identifies Cujo as a project based on King’s novel."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "screen-development-2026-interview"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Dated development evidence only. No completed-production, release-date, cast, score or poster claim."
+    },
+    {
+      "key": "jaunt-development",
+      "entityType": "adaptation",
+      "title": "The Jaunt",
+      "aliases": [],
+      "format": "tv-series",
+      "externalIds": {},
+      "releaseYear": null,
+      "releaseEvents": [],
+      "statusHistory": [
+        {
+          "status": "development",
+          "asOf": "2026-02-19",
+          "projectScope": "Producer interview reports development; not proof of filming, completion or current continuation after the report date.",
+          "claimIds": [
+            "jaunt-development/statusHistory"
+          ]
+        }
+      ],
+      "ratingObservations": [],
+      "countries": [],
+      "originalLanguages": [],
+      "originalScreenplay": false,
+      "makerObservations": [],
+      "distribution": [],
+      "productionUnits": [],
+      "summary": {
+        "en": "A television project based on the short story The Jaunt. Producer Roy Lee discussed its development in February 2026. No release date or completed season is confirmed in the checked sources."
+      },
+      "sourceKeys": [
+        "screen-development-2026-interview"
+      ],
+      "open": [
+        "Production stage after the dated interview is not independently confirmed.",
+        "No verified release date, cast or poster.",
+        "Director negotiations and older studio reports are not promoted to confirmed current credits."
+      ],
+      "checked": "2026-11-07",
+      "note": "Dated development evidence only. No completed-production, release-date, cast, score or poster claim."
+    },
+    {
+      "key": "jaunt-development-source-work",
+      "entityType": "connection",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000113"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000101"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The dated development report identifies The Jaunt as a project based on King’s short story."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "screen-development-2026-interview"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Dated development evidence only. No completed-production, release-date, cast, score or poster claim."
+    },
+    {
+      "key": "tommyknockers-development",
+      "entityType": "adaptation",
+      "title": "The Tommyknockers",
+      "aliases": [],
+      "format": "film",
+      "externalIds": {},
+      "releaseYear": null,
+      "releaseEvents": [],
+      "statusHistory": [
+        {
+          "status": "development",
+          "asOf": "2026-02-19",
+          "projectScope": "Producer interview reports development; not proof of filming, completion or current continuation after the report date.",
+          "claimIds": [
+            "tommyknockers-development/statusHistory"
+          ]
+        }
+      ],
+      "ratingObservations": [],
+      "countries": [],
+      "originalLanguages": [],
+      "originalScreenplay": false,
+      "makerObservations": [],
+      "distribution": [],
+      "productionUnits": [],
+      "summary": {
+        "en": "A planned film adaptation of The Tommyknockers, separate from the 1993 miniseries. Producer Roy Lee discussed the project’s development in February 2026. No release date is confirmed in the checked sources."
+      },
+      "sourceKeys": [
+        "screen-development-2026-interview"
+      ],
+      "open": [
+        "Production stage after the dated interview is not independently confirmed.",
+        "No verified release date, cast or poster.",
+        "Director negotiations and older studio reports are not promoted to confirmed current credits."
+      ],
+      "checked": "2026-11-07",
+      "note": "Dated development evidence only. No completed-production, release-date, cast, score or poster claim."
+    },
+    {
+      "key": "tommyknockers-development-source-work",
+      "entityType": "connection",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000114"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000023"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The dated development report identifies The Tommyknockers as a project based on King’s novel."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "screen-development-2026-interview"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Dated development evidence only. No completed-production, release-date, cast, score or poster claim."
+    },
+    {
+      "key": "tom-gordon-development-source-work",
+      "entityType": "connection",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000052"
+      },
+      "predicate": "adaptation_of",
+      "to": {
+        "type": "work",
+        "id": "wrk:000036"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Lionsgate’s announced project is based on the novel The Girl Who Loved Tom Gordon."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "screen-tom-gordon-2025-announcement"
+      ],
+      "checked": "2026-11-07",
+      "open": [],
+      "note": "Dated development evidence only. No completed-production, release-date, cast, score or poster claim."
     }
   ],
   "deferred": [
@@ -28233,6 +28485,114 @@
       "checked": "2026-11-07",
       "locator": "Contemporary Loeb edition translator credit, manually linked to the existing person after named-author reconciliation. Printed name is retained on the credit.",
       "note": "Field-scoped ISBN review. Existing source observations retained."
+    },
+    {
+      "key": "screen-tom-gordon-current-intro",
+      "subject": {
+        "type": "adaptation",
+        "id": "adp:000052"
+      },
+      "field": "summary",
+      "value": {
+        "en": "A planned adaptation of The Girl Who Loved Tom Gordon. Lionsgate announced JT Mollner as writer and director in July 2025, and producer Roy Lee discussed its development in February 2026. Earlier listings named Lynne Ramsay. No release date is confirmed in the checked sources."
+      },
+      "sourceKeys": [
+        "screen-tom-gordon-2025-announcement"
+      ],
+      "checked": "2026-11-07",
+      "locator": "Dated project review. Retain earlier source observations and separate announcement/development from filming or release.",
+      "note": "The evidence describes a project at the stated report date; later production stage and release remain unconfirmed.",
+      "supersedes": "film-intro-adp-000052"
+    },
+    {
+      "key": "screen-tom-gordon-development",
+      "subject": {
+        "type": "adaptation",
+        "id": "adp:000052"
+      },
+      "field": "statusHistory",
+      "value": [
+        {
+          "status": "unknown",
+          "asOf": "2026-10-25",
+          "projectScope": "Legacy production identity; no universal first-release or current continuation claim.",
+          "claimIds": [
+            "clm:005917"
+          ]
+        },
+        {
+          "status": "development",
+          "asOf": "2026-02-19",
+          "projectScope": "Lionsgate/JT Mollner development iteration reported by producer Roy Lee; later stage and release not confirmed. Earlier unknown entry reflects the inherited listing, not a completed film.",
+          "claimIds": [
+            "clm:010882"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "screen-development-2026-interview"
+      ],
+      "checked": "2026-11-07",
+      "locator": "Dated project review. Retain earlier source observations and separate announcement/development from filming or release.",
+      "note": "The evidence describes a project at the stated report date; later production stage and release remain unconfirmed."
+    },
+    {
+      "key": "screen-tom-gordon-current-makers",
+      "subject": {
+        "type": "adaptation",
+        "id": "adp:000052"
+      },
+      "field": "makerObservations",
+      "value": [
+        {
+          "role": "director",
+          "creditText": "Lynne Ramsay",
+          "scope": "As reported; exact identity and extent remain open.",
+          "sourceUrl": "https://stephenking.com/works/movie/girl-who-loved-tom-gordon.html",
+          "verification": "carried-forward"
+        },
+        {
+          "role": "director",
+          "creditText": "JT Mollner",
+          "scope": "Lionsgate iteration announced 24 July 2025; earlier Lynne Ramsay listing retained separately",
+          "sourceUrl": "https://www.thewrap.com/stephen-king-the-girl-who-loved-tom-gordon-film-adaptation-jt-mollner/",
+          "verification": "source-supported"
+        },
+        {
+          "role": "screenwriter",
+          "creditText": "JT Mollner",
+          "scope": "Lionsgate iteration announced 24 July 2025; earlier Lynne Ramsay listing retained separately",
+          "sourceUrl": "https://www.thewrap.com/stephen-king-the-girl-who-loved-tom-gordon-film-adaptation-jt-mollner/",
+          "verification": "source-supported"
+        }
+      ],
+      "sourceKeys": [
+        "screen-tom-gordon-2025-announcement"
+      ],
+      "checked": "2026-11-07",
+      "locator": "Dated project review. Retain earlier source observations and separate announcement/development from filming or release.",
+      "note": "The evidence describes a project at the stated report date; later production stage and release remain unconfirmed."
+    },
+    {
+      "key": "screen-tom-gordon-current-studio",
+      "subject": {
+        "type": "adaptation",
+        "id": "adp:000052"
+      },
+      "field": "distribution",
+      "value": [
+        {
+          "role": "studio",
+          "name": "Lionsgate",
+          "sourceUrl": "https://www.thewrap.com/stephen-king-the-girl-who-loved-tom-gordon-film-adaptation-jt-mollner/"
+        }
+      ],
+      "sourceKeys": [
+        "screen-tom-gordon-2025-announcement"
+      ],
+      "checked": "2026-11-07",
+      "locator": "Dated project review. Retain earlier source observations and separate announcement/development from filming or release.",
+      "note": "The evidence describes a project at the stated report date; later production stage and release remain unconfirmed."
     }
   ]
 }

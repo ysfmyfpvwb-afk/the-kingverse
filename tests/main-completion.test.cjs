@@ -8,7 +8,7 @@ const context=vm.createContext({URL,URLSearchParams,console,location:{hash:''},h
 for(const file of ['catalog.js','media.js','catalog-completion.js','app.js'])vm.runInContext(fs.readFileSync(file,'utf8').replace(/init\(\);\s*$/,''),context);
 const run=code=>vm.runInContext(code,context);
 test('shared additions are reproducible, unique and present in the main catalog',()=>{
- const {db,patch}=generateMainCompletion();assert.equal(db.books.length,98);assert.equal(db.films.length,111);
+ const {db,patch}=generateMainCompletion();assert.equal(db.books.length,98);assert.equal(db.films.length,114);
  assert.equal(JSON.stringify(patch),run('JSON.stringify(CATALOG_UPDATES)'));
  for(const group of ['books','stories','films','works'])assert.equal(db[group].length,new Set(db[group].map(r=>r.id)).size);
  for(const title of ['On Writing: A Memoir of the Craft','GUNS','Secret Windows: Essays and Fiction on the Craft of Writing','Hansel and Gretel'])assert.ok(db.books.some(r=>r['Engelse titel']===title),title);
@@ -338,8 +338,16 @@ test('Carrie audiobook and reconciled Danse credit preserve existing identities'
 });
 
 test('Core literary character profiles reach both catalogs without new work or screen identities',()=>{
- const {db}=generateMainCompletion(),b=require('../scripts/completion_b.cjs').extendCompletionB(require('../scripts/build_completion.cjs').loadCompletion());assert.equal(b.characters.length,44);assert.equal(b.connections.length,242);assert.equal(b.works.length,250);assert.equal(b.adaptations.length,111);
+ const {db}=generateMainCompletion(),b=require('../scripts/completion_b.cjs').extendCompletionB(require('../scripts/build_completion.cjs').loadCompletion());assert.equal(b.characters.length,44);assert.equal(b.connections.length,246);assert.equal(b.works.length,250);assert.equal(b.adaptations.length,114);
  const expected={19:['Bill Denbrough','Ben Hanscom','Beverly Marsh','Mike Hanlon','Richie Tozier','Eddie Kaspbrak','Stanley Uris'],10:['Charlie McGee','Andy McGee'],16:['Louis Creed','Rachel Creed'],12:['Cujo','Donna Trenton','Vic Trenton','Tad Trenton'],52:['Bill Hodges','Jerome Robinson'],54:['Bill Hodges','Jerome Robinson'],55:['Bill Hodges','Jerome Robinson']};
  for(const[n,names]of Object.entries(expected)){const id='wrk:'+String(n).padStart(6,'0'),row=db.books.find(r=>r.canonicalId===id);for(const name of names){const c=b.characters.find(c=>c.name===name);assert.ok(c,name);assert.equal(b.characters.filter(c=>c.name===name).length,1);assert.ok(row.connected.some(link=>link.target.id===c.id));const p=require('../explorer/pilot/data/'+c.id.replace(':','-')+'/index.json');assert.equal(p.node.spoiler.level,'none');assert.ok(p.connections.some(e=>e.to.id===id||e.from.id===id));assert.ok(p.node.description.length>30);}}
  for(const c of b.characters.filter(c=>Number(c.id.slice(4))>=28)){assert.deepEqual(c.aliases,[]);assert.equal(c.spoiler.level,'none');assert.doesNotMatch(c.summary.en,/dies|death|suicide|killed|murdered|Ludlow/);}
+});
+
+test('Dated screen development projects stay separate from released adaptations and retain source history',()=>{
+ const {db}=generateMainCompletion(),base=require('../scripts/build_completion.cjs').loadCompletion(),{extendCompletionB,validateCompletionB}=require('../scripts/completion_b.cjs'),b=extendCompletionB(base),reg=require('../data/completion-b/register.json');
+ for(const[n,title,work,format]of [[112,'Cujo','wrk:000012','film'],[113,'The Jaunt','wrk:000101','tv-series'],[114,'The Tommyknockers','wrk:000023','film']]){const id='adp:'+String(n).padStart(6,'0'),a=b.adaptations.find(a=>a.id===id),row=db.films.find(f=>f.canonicalId===id),p=require('../explorer/pilot/data/'+id.replace(':','-')+'/index.json');assert.equal(a.title,title);assert.equal(a.format,format);assert.equal(a.releaseYear,null);assert.deepEqual(a.releaseEvents,[]);assert.equal(a.statusHistory.at(-1).status,'development');assert.equal(a.statusHistory.at(-1).asOf,'2026-02-19');assert.equal(row.Jaar,null);assert.ok(row.sourceWorks.some(s=>(db.books.concat(db.stories).find(r=>r.id===s.id))?.canonicalId===work));assert.ok(p.connections.some(c=>c.predicate==='adaptation_of'&&c.to.id===work));assert.ok(!p.media?.remoteArtwork);}
+ assert.equal(b.adaptations.find(a=>a.id==='adp:000011').releaseYear,1983);assert.equal(b.adaptations.find(a=>a.id==='adp:000074').releaseYear,1993);
+ const oldId=reg.allocations['claim/film-intro-adp-000052'],old=b.claims.find(c=>c.id===oldId);assert.equal(old.selected,false);assert.match(old.value.en,/Lynne Ramsay/);const current=db.films.find(f=>f.canonicalId==='adp:000052');assert.equal(current.director,'JT Mollner');assert.equal(current.studio,'Lionsgate');assert.equal(current.distributor,null);assert.equal(current.status,'development');assert.match(current.summary.en,/July 2025/);assert.equal(b.adaptations.filter(a=>a.title==='The Girl Who Loved Tom Gordon').length,1);assert.equal(b.adaptations.find(a=>a.id==='adp:000052').makerObservations[0].creditText,'Lynne Ramsay');
+ const bad=structuredClone(b);bad.claims.find(c=>c.id===oldId).selected=true;assert.ok(validateCompletionB(bad).some(e=>e.code==='b-editorial-evidence'));assert.equal(b.works.length,250);assert.equal(db.films.length,114);
 });

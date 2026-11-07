@@ -11,7 +11,7 @@ function assertScreenIdentityPreserved(id){
 
 test('Bounded B additions preserve every prior identity, record, alias and manifest',()=>{
  assert.deepEqual(base,before);assert.deepEqual(validateCompletionB(bundle,base),[]);
- assert.equal(bundle.characters.length-base.characters.length,36);assert.equal(bundle.locations.length-base.locations.length,7);assert.equal(bundle.series.length-base.series.length,4);assert.equal(bundle.adaptations.length-base.adaptations.length,15);assert.equal(bundle.connections.length-base.connections.length,148);
+ assert.equal(bundle.characters.length-base.characters.length,36);assert.equal(bundle.locations.length-base.locations.length,7);assert.equal(bundle.series.length-base.series.length,4);assert.equal(bundle.adaptations.length-base.adaptations.length,18);assert.equal(bundle.connections.length-base.connections.length,152);
  assert.throws(()=>extendCompletionB(bundle),/collision|already exists/);
 });
 test('The Hodges sequence links exactly the three existing novels with supported positions',()=>{
@@ -183,7 +183,7 @@ test('Nightmares reading introductions retain nonfiction and poetry while withho
 test('Anthology screen links reuse eight story identities with contribution-specific evidence',()=>{
  const anthology=bundle.connections.filter(c=>c.from.id==='adp:000067');assert.deepEqual(anthology.map(c=>c.to.id),[79,142,123,138,158,140,150,132].map(n=>'wrk:'+String(n).padStart(6,'0')));const cat=bundle.connections.filter(c=>c.from.id==='adp:000094');assert.equal(cat.length,1);assert.equal(cat[0].to.id,'wrk:000172');
  for(const c of anthology){assert.equal(c.predicate,'adaptation_of');assert.equal(c.certainty,'explicit');assert.equal(c.spoiler.level,'none');const claim=bundle.claims.find(p=>p.subject.id===c.id&&p.fieldPath==='/to'&&p.selected);assert.equal(claim.status,'verified');assert.ok(claim.sourceIds.every(id=>bundle.sources.find(s=>s.id===id).url.includes('/works/television/nightmares-dreamscapes.html')||bundle.sources.find(s=>s.id===id).url.includes('/works/movie/tales-from-the-darkside-the-movie.html')));}
- assert.equal(bundle.works.length,250);assert.equal(bundle.adaptations.length,111);assert.ok(!anthology.some(c=>c.to.type==='collection'));
+ assert.equal(bundle.works.length,250);assert.equal(bundle.adaptations.length,114);assert.ok(!anthology.some(c=>c.to.type==='collection'));
 });
 
 test('Recent screen introductions keep first-season scope and separate authors without importing ratings',()=>{
@@ -214,7 +214,7 @@ test('All current screen entries have sourced introductions while five unconfirm
 
 test('Five direct screen relationships bind the reviewed story or novel, including Bachman and anthology scope',()=>{
  for(const[adp,work,title]of [['adp:000025','wrk:000225','In the Tall Grass'],['adp:000028','wrk:000183','The Life of Chuck'],['adp:000029','wrk:000008','The Long Walk'],['adp:000091','wrk:000128','Chattery Teeth'],['adp:000049','wrk:000018','Thinner']]){assert.equal(bundle.works.find(w=>w.id===work).originalTitle,title);const edges=bundle.connections.filter(c=>c.from.id===adp&&c.to.id===work&&c.predicate==='adaptation_of');assert.equal(edges.length,1);assert.equal(edges[0].certainty,'explicit');assert.equal(edges[0].spoiler.level,'none');assert.ok(bundle.claims.some(c=>c.subject.id===edges[0].id&&c.fieldPath==='/to'&&c.selected&&c.status==='verified'));}
- assert.ok(!bundle.connections.some(c=>c.from.id==='adp:000049'&&c.to.id==='wrk:000020'));assert.equal(bundle.works.length,250);assert.equal(bundle.adaptations.length,111);
+ assert.ok(!bundle.connections.some(c=>c.from.id==='adp:000049'&&c.to.id==='wrk:000020'));assert.equal(bundle.works.length,250);assert.equal(bundle.adaptations.length,114);
 });
 
 test('Four core screen links reuse exact literary identities and retain film-specific evidence',()=>{
