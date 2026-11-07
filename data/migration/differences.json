@@ -2,7 +2,7 @@
   "batch": "05-connected-universe",
   "completeMigration": false,
   "inputSha256": "188ebe73bee8d3c955f09dba6ed9df85ce63228d9c9c3dbba37bba68284814a3",
-  "allocationSha256": "3eafe3333630ff49630f377a3f85ad9223c76e8b3e2624cc83b2799f1a2af512",
+  "allocationSha256": "34dd093910c7b8f442341878e63c0a2cab2e05d0e302db5eb7dbe1b4950271bb",
   "records": [
     {
       "sourcePointer": "/books/0",
@@ -140271,8 +140271,8 @@
     "editions": 154
   },
   "unchangedFiles": {
-    "index.html": "1a8d0b75279941c8fc083472fc6213574b8e4f62b0e726b004b187d114130094",
-    "app.js": "ffef0014a32d1d0784846e62a2bdb6bbc1e279e15f40f36cfaeb7b848a70206f",
+    "index.html": "84e79c32ad0d60ad1400935bcdc45e94ebb6599c22d6a8b79bba19063910743a",
+    "app.js": "18961d5762256a8d9998c4a62ab78956c81f936390807d33f0797165342a08e6",
     "catalog.js": "188ebe73bee8d3c955f09dba6ed9df85ce63228d9c9c3dbba37bba68284814a3",
     "media.js": "18cc37c77db4e1f59df4840b395fd1a2e2aecb308cfc1b5fa0ca5d79371134c5",
     "styles.css": "96231a71e2eaa6aaa12552c3f6f7efea3e0fb7206304e12088a4afbcbcd9113b",
@@ -140309,14 +140309,14 @@
     "data/v2/editions.json": "13b05834a21dafa7416eb12fa4d600939f88fd6b03160e38a0cb79bd28442906",
     "data/v2/externalReferences.json": "d6a1ddebe536d52c89d4dfc3b6c8c7dcf345aac30fab1d78f6ef28802d3d4cd4",
     "data/v2/locations.json": "fd8f861dedd8d78f4a4efbd6166d321413412c1da8a22871af8f995cfbd9ca7f",
-    "data/v2/manifest.json": "d4353143d66c92fedb89b070de12d96ce935efaa9398fa864a8753525729f2aa",
+    "data/v2/manifest.json": "91e90013a085e9df8fb0cae9670452f6606076c2a04b40af23b855ceebb8226f",
     "data/v2/people.json": "6ed0b3e2b62e5cc9876a505b5f25d1aa1269c8385b6d8b5e6bce717e73baf5c5",
     "data/v2/publicationEvents.json": "4f23c8729a5f1806f1fc7e7de78fbf5624b5498d9cbeb09fad4b8d202a4676e2",
     "data/v2/registry.json": "6a0c5fe2ec6d8f1bc9df9461af5ddf1c50f93b5be72c3fef240a0a3a71e41dbe",
     "data/v2/sources.json": "1c651d58fb3f103eece5168eb7203a679e238a6901c0fc2a17d784b1e38952c3",
     "data/v2/works.json": "1fe2ae3803cc0b2c84f35df33e56c43c9250c8a02d442d5c4212e9711df014f8"
   },
-  "additionalAllocationSha256": "e11367a032747305eb7b85bc67d9c0c37c570963d75431d6cc867bb602f1c79f",
+  "additionalAllocationSha256": "d7869827f8a1406e7bce24ff28f4a92387d5837c15ca2c1a95f76a41c9852a09",
   "batch01RecordCount": 86,
   "batch02RecordCount": 173,
   "definitions": {
@@ -140331,7 +140331,7 @@
     "release": "Source-reported observation with precision and territory; no universal first-premiere claim.",
     "posterReady": "Ownership + documented reuse rights + permitted reliable delivery; zero currently meet this gate."
   },
-  "batch03AllocationSha256": "818b3c1552189bbf162f18da3e941ef397deb1710a6a5d5e33905e11264f292b",
+  "batch03AllocationSha256": "62b2ed2accf96a0c97455a029522829ed921b8d80aca97bfe1d1eb2b27cce878",
   "editionRecordCount": 154,
   "editionRecords": [
     {
@@ -143131,7 +143131,7 @@
       ]
     }
   ],
-  "batch04AllocationSha256": "61fbbd9429c8dd97e188a9a22402fd90dc90fb90f01f912f5c9dfd1740036855",
+  "batch04AllocationSha256": "61c09be39992e2252c588a149409a1c9d5880c19681c529f96603eee9a35fe70",
   "screenRecords": [
     {
       "legacyId": "films:a-good-marriage-2014",

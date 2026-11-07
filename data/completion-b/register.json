@@ -3736,6 +3736,15 @@
     "claim/man-belly-cavalier/eventType": "clm:011144",
     "claim/man-belly-cavalier/date": "clm:011145",
     "claim/man-belly-cavalier/publisher": "clm:011146",
-    "claim/man-belly-cavalier/reportedTitle": "clm:011147"
+    "claim/man-belly-cavalier/reportedTitle": "clm:011147",
+    "source/straub-publisher-life": "src:000756",
+    "source/straub-publisher-books": "src:000757",
+    "source/owen-publisher-profile": "src:000758",
+    "source/chizmar-publisher-profile": "src:000759",
+    "source/hill-publisher-collaboration": "src:000760",
+    "claim/straub-introduction": "clm:011148",
+    "claim/owen-introduction": "clm:011149",
+    "claim/chizmar-introduction": "clm:011150",
+    "claim/hill-introduction": "clm:011151"
   }
 }

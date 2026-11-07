@@ -261,8 +261,8 @@
     "work:weeds"
   ],
   "runtimeHashes": {
-    "index.html": "1a8d0b75279941c8fc083472fc6213574b8e4f62b0e726b004b187d114130094",
-    "app.js": "ffef0014a32d1d0784846e62a2bdb6bbc1e279e15f40f36cfaeb7b848a70206f",
+    "index.html": "84e79c32ad0d60ad1400935bcdc45e94ebb6599c22d6a8b79bba19063910743a",
+    "app.js": "18961d5762256a8d9998c4a62ab78956c81f936390807d33f0797165342a08e6",
     "catalog.js": "188ebe73bee8d3c955f09dba6ed9df85ce63228d9c9c3dbba37bba68284814a3",
     "media.js": "18cc37c77db4e1f59df4840b395fd1a2e2aecb308cfc1b5fa0ca5d79371134c5",
     "styles.css": "96231a71e2eaa6aaa12552c3f6f7efea3e0fb7206304e12088a4afbcbcd9113b",

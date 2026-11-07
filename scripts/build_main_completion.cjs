@@ -25,6 +25,8 @@ function generateMainCompletion(){
   db.books.push(row);db.works.push({id:r.id,title:r.originalTitle,kind:r.entityType==='collection'?'collection':'literary-work',authors});legacy.set(r.entityType+'/'+r.id,{kind:'books',id:row.id,title:r.originalTitle});
  }
  for(const group of ['books','stories'])for(const row of db[group]){const r=canonical.get(row.canonicalId);if(!r)continue;if(r.summary)row.summary=r.summary;row.editionIds??=[];
+  const profiles=credits.filter(c=>c.subject.id===r.id&&people.get(c.personId)?.summary?.en);
+  if(profiles.length){row.authors??=makers(r);row.authors=row.authors.map(a=>{const c=profiles.find(c=>people.get(c.personId).name===a.name&&c.role===a.role);if(!c)return a;const person=people.get(c.personId);row.sources=[...new Set([...(row.sources||[]),...sourceUrls(person)])];return {...a,personId:person.id,profile:person.summary};});}
   const first=bundle.publicationEvents.find(p=>p.subject.id===r.id&&p.eventType==='first-publication');if(first&&!row.firstPublication){row.firstPublication={date:first.date.value,precision:first.date.precision,kind:'first-publication',source:sourceUrls(first)[0]};row.sources=[...new Set([...(row.sources||[]),...sourceUrls(first)])];if(group==='stories')row.Jaar=Number(first.date.value.slice(0,4));}}
  // Publish reviewed appearances without promoting a magazine citation to a first-publication claim.
  const reviewedPublications=new Set(Object.entries(JSON.parse(fs.readFileSync(path.join(ROOT,'data/completion-b/register.json'))).allocations).filter(([key])=>key.startsWith('publication/')).map(([,id])=>id));

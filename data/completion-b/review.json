@@ -8521,6 +8521,66 @@
       "checkedFields": [
         "publication metadata only; no story text or image reused"
       ]
+    },
+    {
+      "key": "straub-publisher-life",
+      "url": "https://www.simonandschuster.com/authors/Peter-Straub/1487530",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-11-07",
+      "access": "available",
+      "locator": "Publisher biography gives 1943–2022 and coauthorship of The Talisman and Black House.",
+      "checkedFields": [
+        "named writer and stated literary credits only; no portrait, contact details, copied biography or plot imported"
+      ]
+    },
+    {
+      "key": "straub-publisher-books",
+      "url": "https://www.penguinrandomhouse.com/authors/30097/peter-straub/",
+      "publisher": "Penguin Random House",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-11-07",
+      "access": "available",
+      "locator": "Publisher biography identifies Ghost Story and Shadowland among Straub’s novels; no full bibliography claim.",
+      "checkedFields": [
+        "named writer and stated literary credits only; no portrait, contact details, copied biography or plot imported"
+      ]
+    },
+    {
+      "key": "owen-publisher-profile",
+      "url": "https://www.simonandschuster.com/authors/Owen-King/224804448",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-11-07",
+      "access": "available",
+      "locator": "Author biography identifies Sleeping Beauties coauthorship, novels Double Feature and The Curator, and We’re All in This Together: A Novella and Stories.",
+      "checkedFields": [
+        "named writer and stated literary credits only; no portrait, contact details, copied biography or plot imported"
+      ]
+    },
+    {
+      "key": "chizmar-publisher-profile",
+      "url": "https://www.simonandschuster.com/authors/Richard-Chizmar/2141459173",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-11-07",
+      "access": "available",
+      "locator": "Biography identifies Cemetery Dance founder, joint first/third Gwendy books and solo Gwendy’s Magic Feather. No novella/novel classification is taken from this biography.",
+      "checkedFields": [
+        "named writer and stated literary credits only; no portrait, contact details, copied biography or plot imported"
+      ]
+    },
+    {
+      "key": "hill-publisher-collaboration",
+      "url": "https://www.simonandschuster.com/books/In-the-Tall-Grass/Stephen-King/9781476710822",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-11-07",
+      "access": "available",
+      "locator": "Joint author byline Stephen King and Joe Hill; Hill bio identifies Heart-Shaped Box, Horns and comic writing. No copied synopsis or time-sensitive social-media details.",
+      "checkedFields": [
+        "named writer and stated literary credits only; no portrait, contact details, copied biography or plot imported"
+      ]
     }
   ],
   "records": [
@@ -29986,6 +30046,75 @@
       "checked": "2026-11-07",
       "locator": "Dated project review. Retain earlier source observations and separate announcement/development from filming or release.",
       "note": "The evidence describes a project at the stated report date; later production stage and release remain unconfirmed."
+    },
+    {
+      "key": "straub-introduction",
+      "subject": {
+        "type": "person",
+        "id": "per:000002"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Peter Straub (1943–2022) was a novelist whose books include Ghost Story and Shadowland. He co-wrote The Talisman and Black House with Stephen King."
+      },
+      "sourceKeys": [
+        "straub-publisher-life",
+        "straub-publisher-books"
+      ],
+      "checked": "2026-11-07",
+      "locator": "Named author biography and specified collaboration only.",
+      "note": "Own short reader introduction on the existing person identity. No new literary work, author-role change, portrait or copied biography."
+    },
+    {
+      "key": "owen-introduction",
+      "subject": {
+        "type": "person",
+        "id": "per:000003"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Owen King is a novelist and short-story writer. He co-wrote Sleeping Beauties with Stephen King; his other fiction includes Double Feature, The Curator and We’re All in This Together."
+      },
+      "sourceKeys": [
+        "owen-publisher-profile"
+      ],
+      "checked": "2026-11-07",
+      "locator": "Named author biography and specified collaboration only.",
+      "note": "Own short reader introduction on the existing person identity. No new literary work, author-role change, portrait or copied biography."
+    },
+    {
+      "key": "chizmar-introduction",
+      "subject": {
+        "type": "person",
+        "id": "per:000004"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Richard Chizmar is a horror writer and the founder of Cemetery Dance. He co-wrote Gwendy’s Button Box and Gwendy’s Final Task with Stephen King, and wrote Gwendy’s Magic Feather."
+      },
+      "sourceKeys": [
+        "chizmar-publisher-profile"
+      ],
+      "checked": "2026-11-07",
+      "locator": "Named author biography and specified collaboration only.",
+      "note": "Own short reader introduction on the existing person identity. No new literary work, author-role change, portrait or copied biography."
+    },
+    {
+      "key": "hill-introduction",
+      "subject": {
+        "type": "person",
+        "id": "per:000012"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Joe Hill writes novels, short fiction and comics. His books include Heart-Shaped Box and Horns, and he collaborated with Stephen King on In the Tall Grass."
+      },
+      "sourceKeys": [
+        "hill-publisher-collaboration"
+      ],
+      "checked": "2026-11-07",
+      "locator": "Named author biography and specified collaboration only.",
+      "note": "Own short reader introduction on the existing person identity. No new literary work, author-role change, portrait or copied biography."
     }
   ]
 }

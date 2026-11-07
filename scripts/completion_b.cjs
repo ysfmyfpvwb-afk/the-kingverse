@@ -44,7 +44,7 @@ function extendCompletionB(input){
  // Editorial additions update a reviewed field on an existing identity. They
  // never create a second work or replace the historical source observation.
  for(const e of review.enrichments||[]){
-  const r=map.get(e.subject.id);if(r?.entityType!==e.subject.type||!['work/summary','collection/summary','adaptation/summary','connection/explanation','edition/publisher','edition/format','edition/publicationDate','edition/translationCredits','edition/identityStatus','person/aliases','adaptation/statusHistory','adaptation/makerObservations','adaptation/distribution'].includes(e.subject.type+'/'+e.field))throw Error('Unsupported B enrichment '+e.key);
+  const r=map.get(e.subject.id);if(r?.entityType!==e.subject.type||!['work/summary','collection/summary','adaptation/summary','connection/explanation','edition/publisher','edition/format','edition/publicationDate','edition/translationCredits','edition/identityStatus','person/summary','person/aliases','adaptation/statusHistory','adaptation/makerObservations','adaptation/distribution'].includes(e.subject.type+'/'+e.field))throw Error('Unsupported B enrichment '+e.key);
   for(const c of bundle.claims.filter(c=>c.subject.id===r.id&&c.fieldPath==='/'+e.field&&c.selected))c.selected=false;
   r[e.field]=structuredClone(e.value);
   const c={id:id('claim',e.key),entityType:'claim',subject:structuredClone(e.subject),fieldPath:'/'+e.field,value:structuredClone(e.value),sourceIds:e.sourceIds||e.sourceKeys.map(k=>sourceKeys.get(k)),locator:e.locator,status:e.status||'verified',observedAt:e.checked,independentlyConfirmed:false,selected:true,decisionNote:e.note};
@@ -56,7 +56,7 @@ function extendCompletionB(input){
 let checkSchema;
 function validateCompletionB(bundle,baseline){
  const errors=[],fail=(code,message)=>errors.push({code,message});
- if(!checkSchema){const Ajv=require('ajv/dist/2020').default,s=require('./validate_completion.cjs').schema();s.$defs.series.properties.seriesKind={enum:['literary-series','film-series']};for(const t of ['collection','character','location'])s.$defs[t].properties.summary={$ref:'#/$defs/text'};checkSchema=new Ajv({allErrors:true,strict:true}).compile(s);}
+ if(!checkSchema){const Ajv=require('ajv/dist/2020').default,s=require('./validate_completion.cjs').schema();s.$defs.series.properties.seriesKind={enum:['literary-series','film-series']};for(const t of ['collection','character','location','person'])s.$defs[t].properties.summary={$ref:'#/$defs/text'};checkSchema=new Ajv({allErrors:true,strict:true}).compile(s);}
  if(!checkSchema(bundle))for(const e of checkSchema.errors)fail('b-schema',e.instancePath+' '+e.message);
  const review=read('data/completion-b/review.json'),reg=read('data/completion-b/register.json');
  const records=Object.values(bundle).filter(Array.isArray).flat().filter(r=>r.id),map=new Map(records.map(r=>[r.id,r]));
@@ -67,7 +67,7 @@ function validateCompletionB(bundle,baseline){
  const editorial=new Map();
  for(const e of review.enrichments||[]){const key=e.subject.id+'/'+e.field,prior=editorial.get(key);if(prior&&e.supersedes!==prior.key||!prior&&e.supersedes){fail('b-enrichment-history',e.key);continue;}editorial.set(key,e);}
  for(const e of review.enrichments||[]){
-  if(!['work/summary','collection/summary','adaptation/summary','connection/explanation','edition/publisher','edition/format','edition/publicationDate','edition/translationCredits','edition/identityStatus','person/aliases','adaptation/statusHistory','adaptation/makerObservations','adaptation/distribution'].includes(e.subject.type+'/'+e.field)){fail('b-enrichment-scope',e.key);continue;}
+  if(!['work/summary','collection/summary','adaptation/summary','connection/explanation','edition/publisher','edition/format','edition/publicationDate','edition/translationCredits','edition/identityStatus','person/summary','person/aliases','adaptation/statusHistory','adaptation/makerObservations','adaptation/distribution'].includes(e.subject.type+'/'+e.field)){fail('b-enrichment-scope',e.key);continue;}
   const latest=editorial.get(e.subject.id+'/'+e.field)===e,r=map.get(e.subject.id),c=map.get(reg.allocations['claim/'+e.key]),urls=e.sourceIds?e.sourceIds.map(id=>map.get(id)?.url):e.sourceKeys.map(k=>review.sources.find(s=>s.key===k)?.url);
   if(!r||r.entityType!==e.subject.type||!c||c.subject.id!==r.id||c.subject.type!==e.subject.type||c.fieldPath!=='/'+e.field||c.status!==(e.status||'verified')||c.selected!==latest||c.observedAt!==e.checked||!r.verification.claimIds.includes(c.id)||JSON.stringify(c.value)!==JSON.stringify(e.value)||latest&&JSON.stringify(r[e.field])!==JSON.stringify(e.value)||JSON.stringify(c.sourceIds.map(id=>map.get(id)?.url))!==JSON.stringify(urls)||urls.some(url=>!url))fail('b-editorial-evidence',e.key);
   if(e.subject.type==='connection'){
