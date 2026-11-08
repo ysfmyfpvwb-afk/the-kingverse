@@ -2722,7 +2722,7 @@
     "work:herman-wouk-is-still-alive": "Herman Wouk is Still Alive"
   },
   "baselineInputs": {
-    "data/migration/id-register.json": "24fc19950bf126b5a4ff975afebafd195f3547e78b7ff7dceb819db4c9feb0d7",
+    "data/migration/id-register.json": "c61aa1ed5769dcd04ded8724158d8e1f7393e2257f4081250b77404f20a6ad85",
     "data/reference/official.json": "b4da6ddf58e35579b0b4e73756daea3bd096dda58073da4d8e8ea06d79bd6cd9",
     "data/migration/batch-02-review.json": "265fe439be5a979b323f1dc38171df3c38b8929e1bdf627b5647ef1a845c8691"
   },

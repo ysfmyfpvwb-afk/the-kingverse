@@ -3777,6 +3777,14 @@
     "claim/cujo-mentioned-sun-dog/to": "clm:011174",
     "claim/cujo-mentioned-sun-dog/certainty": "clm:011175",
     "claim/cujo-mentioned-sun-dog/explanation": "clm:011176",
-    "claim/cujo-mentioned-sun-dog/spoiler": "clm:011177"
+    "claim/cujo-mentioned-sun-dog/spoiler": "clm:011177",
+    "connection/bag-bones-derry": "rel:000251",
+    "claim/bag-bones-derry/from": "clm:011178",
+    "claim/bag-bones-derry/predicate": "clm:011179",
+    "claim/bag-bones-derry/to": "clm:011180",
+    "claim/bag-bones-derry/certainty": "clm:011181",
+    "claim/bag-bones-derry/explanation": "clm:011182",
+    "claim/bag-bones-derry/spoiler": "clm:011183",
+    "claim/derry-reading-introduction": "clm:011184"
   }
 }

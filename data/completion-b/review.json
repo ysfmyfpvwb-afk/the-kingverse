@@ -8713,6 +8713,18 @@
       "checkedFields": [
         "specific setting or named literary reference only; no plot outcome, character-list biography or source prose imported"
       ]
+    },
+    {
+      "key": "bag-bones-derry-opening",
+      "url": "https://www.simonandschuster.com/books/Bag-of-Bones/Stephen-King/9781501198892",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-11-08",
+      "access": "available",
+      "locator": "Publisher’s authorized excerpt, opening paragraphs: Mike Noonan’s household is in Derry; the synopsis separately locates Sara Laughs in western Maine. Only opening geography retained. Marketing Castle Rock universe wording is not treated as a literal Castle Rock setting. No grief details, outcome, cameo or copied novel prose imported.",
+      "checkedFields": [
+        "specific setting or named literary reference only; no plot outcome, character-list biography or source prose imported"
+      ]
     }
   ],
   "records": [
@@ -20600,6 +20612,33 @@
       "checked": "2026-11-08",
       "open": [],
       "note": "Bounded, source-supported location or named-reference connection on existing identities. No new work, character, adaptation or inferred plot relationship."
+    },
+    {
+      "key": "bag-bones-derry",
+      "entityType": "connection",
+      "from": {
+        "type": "work",
+        "id": "wrk:000035"
+      },
+      "predicate": "set_in",
+      "to": {
+        "type": "location",
+        "id": "loc:000004"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Bag of Bones opens in Derry before moving to its western Maine lakeside setting."
+      },
+      "spoiler": {
+        "level": "premise",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "bag-bones-derry-opening"
+      ],
+      "checked": "2026-11-08",
+      "open": [],
+      "note": "Bounded, source-supported location or named-reference connection on existing identities. No new work, character, adaptation or inferred plot relationship."
     }
   ],
   "deferred": [
@@ -30469,6 +30508,26 @@
       "checked": "2026-11-07",
       "locator": "Reuse verified illustration credit crd:000300, field claims clm:007405, clm:007407 and clm:007408; no new full biography.",
       "note": "Own reader introduction on existing identity. Retain writing, illustration and photography as separate roles. No new work, artwork, portrait or wholesale record-verification claim."
+    },
+    {
+      "key": "derry-reading-introduction",
+      "subject": {
+        "type": "location",
+        "id": "loc:000004"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Derry is a recurring fictional Maine city. It and Insomnia explore its streets, Dreamcatcher recalls childhood there, and Bag of Bones opens with Mike Noonan’s life in the city."
+      },
+      "sourceKeys": [
+        "book-intro-000019-source",
+        "book-intro-000029-source",
+        "book-intro-wrk-000037-source",
+        "bag-bones-derry-opening"
+      ],
+      "checked": "2026-11-08",
+      "locator": "Retain the three previously reviewed Derry works; add only the opening geography confirmed in the publisher’s Bag of Bones excerpt.",
+      "note": "Own reader introduction. Preserve the earlier introduction and claims as unselected history; do not equate Derry with the lakeside retreat or assert an additional Castle Rock town setting."
     }
   ]
 }
