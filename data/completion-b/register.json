@@ -3883,6 +3883,22 @@
     "claim/mile81-2011-release/date": "clm:011263",
     "claim/mile81-2011-release/editionId": "clm:011264",
     "claim/mile81-2011-release/publisher": "clm:011265",
-    "claim/mile81-2011-release/reportedTitle": "clm:011266"
+    "claim/mile81-2011-release/reportedTitle": "clm:011266",
+    "publication/ur-2010-audio": "pub:000313",
+    "claim/ur-2010-audio/subject": "clm:011267",
+    "claim/ur-2010-audio/eventType": "clm:011268",
+    "claim/ur-2010-audio/date": "clm:011269",
+    "claim/ur-2010-audio/publisher": "clm:011270",
+    "claim/ur-2010-audio/reportedTitle": "clm:011271",
+    "publication/ur-2015-revision": "pub:000314",
+    "claim/ur-2015-revision/subject": "clm:011272",
+    "claim/ur-2015-revision/eventType": "clm:011273",
+    "claim/ur-2015-revision/date": "clm:011274",
+    "claim/ur-2015-revision/reportedTitle": "clm:011275",
+    "publication/green-agony-2011-anthology": "pub:000315",
+    "claim/green-agony-2011-anthology/subject": "clm:011276",
+    "claim/green-agony-2011-anthology/eventType": "clm:011277",
+    "claim/green-agony-2011-anthology/date": "clm:011278",
+    "claim/green-agony-2011-anthology/reportedTitle": "clm:011279"
   }
 }

@@ -8835,6 +8835,34 @@
         "publisher",
         "specific edition retail publication date"
       ]
+    },
+    {
+      "key": "ur-versions-source",
+      "url": "https://stephenking.com/works/novella/ur.html",
+      "locator": "Official explanatory note distinguishes original Kindle download 2009-02-12 (already registered), Simon & Schuster Audio release 2010-02-16, and heavily revised text collected in The Bazaar of Bad Dreams in 2015. Available In supplies November 2015 collection month. No ISBN, narrator or new work identity inferred.",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-11-09",
+      "access": "available",
+      "checkedFields": [
+        "version or publication context",
+        "publication date with stated precision",
+        "existing work identity"
+      ]
+    },
+    {
+      "key": "green-agony-anthology-source",
+      "url": "https://stephenking.com/works/short/little-green-god-of-agony.html",
+      "locator": "Available In lists A Book of Horrors, anthology, September 2011, separately from The Bazaar of Bad Dreams November 2015. This verifies the earlier anthology appearance; no full anthology contents, publisher, editor or first-publication priority inferred.",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-11-09",
+      "access": "available",
+      "checkedFields": [
+        "version or publication context",
+        "publication date with stated precision",
+        "existing work identity"
+      ]
     }
   ],
   "records": [
@@ -21132,6 +21160,87 @@
         "Retail publication date; not a claim about earliest advance-reader access."
       ],
       "note": "Specific English digital release predates the 2015 collection; original collection date is retained independently."
+    },
+    {
+      "key": "ur-2010-audio",
+      "entityType": "publication",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000207"
+      },
+      "eventType": "source-reported-release",
+      "date": {
+        "value": "2010-02-16",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      },
+      "editionId": null,
+      "part": null,
+      "publisher": "Simon & Schuster Audio",
+      "reportedTitle": "UR — audiobook release",
+      "sourceKeys": [
+        "ur-versions-source"
+      ],
+      "checked": "2026-11-09",
+      "open": [
+        "Specific audio edition ISBN and narrator not verified in this review."
+      ],
+      "note": "Explicit official version/appearance metadata on the existing literary identity; original records preserved. No copied story text, new anthology identity or image."
+    },
+    {
+      "key": "ur-2015-revision",
+      "entityType": "publication",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000207"
+      },
+      "eventType": "revision",
+      "date": {
+        "value": "2015-11",
+        "precision": "month",
+        "meaning": "revision",
+        "territory": null
+      },
+      "editionId": null,
+      "part": null,
+      "publisher": null,
+      "reportedTitle": "UR — revised text in The Bazaar of Bad Dreams",
+      "sourceKeys": [
+        "ur-versions-source"
+      ],
+      "checked": "2026-11-09",
+      "open": [
+        "Detailed textual changes not compared; this is the author site’s explicit revision statement."
+      ],
+      "note": "Explicit official version/appearance metadata on the existing literary identity; original records preserved. No copied story text, new anthology identity or image."
+    },
+    {
+      "key": "green-agony-2011-anthology",
+      "entityType": "publication",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000211"
+      },
+      "eventType": "source-reported-release",
+      "date": {
+        "value": "2011-09",
+        "precision": "month",
+        "meaning": "source-reported-release",
+        "territory": null
+      },
+      "editionId": null,
+      "part": null,
+      "publisher": null,
+      "reportedTitle": "Little Green God of Agony — A Book of Horrors anthology",
+      "sourceKeys": [
+        "green-agony-anthology-source"
+      ],
+      "checked": "2026-11-09",
+      "open": [
+        "This registers an appearance, not an independently established first publication or new collection identity."
+      ],
+      "note": "Explicit official version/appearance metadata on the existing literary identity; original records preserved. No copied story text, new anthology identity or image."
     }
   ],
   "deferred": [
