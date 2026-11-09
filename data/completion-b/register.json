@@ -3929,6 +3929,13 @@
     "source/gabriel-profile-source": "src:000771",
     "claim/gabriel-rodriguez-reading-profile": "clm:011298",
     "claim/ben-baldwin-reading-profile": "clm:011299",
-    "claim/keith-minnion-reading-profile": "clm:011300"
+    "claim/keith-minnion-reading-profile": "clm:011300",
+    "source/ned-waste-lands-art-source": "src:000772",
+    "credit/ned-waste-lands-illustrator": "crd:000396",
+    "claim/ned-waste-lands-illustrator/personId": "clm:011301",
+    "claim/ned-waste-lands-illustrator/subject": "clm:011302",
+    "claim/ned-waste-lands-illustrator/role": "clm:011303",
+    "claim/ned-waste-lands-illustrator/scope": "clm:011304",
+    "claim/ned-dameron-reading-profile": "clm:011305"
   }
 }

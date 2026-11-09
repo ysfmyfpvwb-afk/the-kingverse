@@ -8955,6 +8955,34 @@
         "cover versus interior illustration role",
         "existing book contribution"
       ]
+    },
+    {
+      "key": "ned-charlie-profile-source",
+      "url": "https://stephenking.com/works/other-project/charlie-the-choo-choo.html",
+      "locator": "Official picture-book record identifies Ned Dameron’s illustrations; existing author/pseudonym and maker identities preserved.",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-11-09",
+      "access": "available",
+      "checkedFields": [
+        "illustrator identity",
+        "named book contribution",
+        "edition-specific scope"
+      ]
+    },
+    {
+      "key": "ned-waste-lands-art-source",
+      "url": "https://stephenking.com/works/limited/dark-tower-the-waste-lands.html",
+      "locator": "1991 hardcover publication by Donald M. Grant; explicitly illustrated by Ned Dameron. Scope the illustrator credit to this documented edition, not every translation or reissue. No artwork imported or ISBN guessed.",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-11-09",
+      "access": "available",
+      "checkedFields": [
+        "illustrator identity",
+        "named book contribution",
+        "edition-specific scope"
+      ]
     }
   ],
   "records": [
@@ -21415,6 +21443,27 @@
         "Year-level publisher history; exact issue/month/day and textual changes not independently examined."
       ],
       "note": "Publisher editorial history distinguishes original and revised text without creating another work identity. Existing 2018 anthology observation retained; no story prose or images imported."
+    },
+    {
+      "key": "ned-waste-lands-illustrator",
+      "entityType": "credit",
+      "personId": "per:000029",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000025"
+      },
+      "role": "illustrator",
+      "creditedAs": null,
+      "scope": "Illustrations for the 1991 Donald M. Grant edition",
+      "characterId": null,
+      "sourceKeys": [
+        "ned-waste-lands-art-source"
+      ],
+      "checked": "2026-11-09",
+      "open": [
+        "This credit documents the specified edition; it does not assert the same artwork in all later editions."
+      ],
+      "note": "Reuse the existing artist and work, with edition-specific contribution scope. No story authorship, artwork import or speculative ISBN."
     }
   ],
   "deferred": [
@@ -31415,6 +31464,24 @@
       "checked": "2026-11-09",
       "locator": "Named official publisher biography or specific artwork credits; independently worded reader introduction.",
       "note": "Existing person and artist roles retained. No story authorship, new relationship, art download or rights claim."
+    },
+    {
+      "key": "ned-dameron-reading-profile",
+      "subject": {
+        "type": "person",
+        "id": "per:000029"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Ned Dameron illustrated Charlie the Choo-Choo and the 1991 Donald M. Grant edition of The Dark Tower III: The Waste Lands."
+      },
+      "sourceKeys": [
+        "ned-charlie-profile-source",
+        "ned-waste-lands-art-source"
+      ],
+      "checked": "2026-11-09",
+      "locator": "Named official picture-book and limited-edition records; short reader introduction scoped to the identified illustrations.",
+      "note": "Existing person retained; visual contribution is distinct from authorship and editions are not merged."
     }
   ]
 }
