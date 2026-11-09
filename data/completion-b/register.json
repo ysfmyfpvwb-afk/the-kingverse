@@ -3866,6 +3866,23 @@
     "claim/bone-church-first/eventType": "clm:011249",
     "claim/bone-church-first/date": "clm:011250",
     "claim/bone-church-first/publisher": "clm:011251",
-    "claim/bone-church-first/reportedTitle": "clm:011252"
+    "claim/bone-church-first/reportedTitle": "clm:011252",
+    "source/mile81-english-ebook-source": "src:000765",
+    "edition/mile81-2011-ebook": "edn:000268",
+    "claim/mile81-2011-ebook/publicationOf": "clm:011253",
+    "claim/mile81-2011-ebook/language": "clm:011254",
+    "claim/mile81-2011-ebook/title": "clm:011255",
+    "claim/mile81-2011-ebook/isbn13": "clm:011256",
+    "claim/mile81-2011-ebook/publisher": "clm:011257",
+    "claim/mile81-2011-ebook/publicationDate": "clm:011258",
+    "claim/mile81-2011-ebook/format": "clm:011259",
+    "claim/mile81-2011-ebook/identityStatus": "clm:011260",
+    "publication/mile81-2011-release": "pub:000312",
+    "claim/mile81-2011-release/subject": "clm:011261",
+    "claim/mile81-2011-release/eventType": "clm:011262",
+    "claim/mile81-2011-release/date": "clm:011263",
+    "claim/mile81-2011-release/editionId": "clm:011264",
+    "claim/mile81-2011-release/publisher": "clm:011265",
+    "claim/mile81-2011-release/reportedTitle": "clm:011266"
   }
 }

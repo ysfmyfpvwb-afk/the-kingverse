@@ -8818,6 +8818,23 @@
         "date precision",
         "header versus body chronology"
       ]
+    },
+    {
+      "key": "mile81-english-ebook-source",
+      "url": "https://www.simonandschuster.com/books/Mile-81/Stephen-King/9781451665604",
+      "publisher": "Simon & Schuster / Scribner",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-11-09",
+      "access": "available",
+      "locator": "English original standalone eBook Mile 81; Product Details identify Scribner, September 1 2011, ISBN13 9781451665604. The retail date is not asserted as earliest reader access; the author’s contemporaneous promotion offered advance copies. No extra story membership or images imported.",
+      "checkedFields": [
+        "edition title",
+        "English original ebook",
+        "ISBN",
+        "format",
+        "publisher",
+        "specific edition retail publication date"
+      ]
     }
   ],
   "records": [
@@ -21058,6 +21075,63 @@
         "Source header November 2015 describes the later collection; the body explicitly identifies the November 2009 first publication."
       ],
       "note": "Explicit official publication note on the existing literary identity. Earlier source observations preserved; no copied text, invented date precision or image."
+    },
+    {
+      "key": "mile81-2011-ebook",
+      "entityType": "edition",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000198"
+      },
+      "language": "en",
+      "title": "Mile 81",
+      "isbn13": "9781451665604",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2011-09-01",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "eBook",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "mile81-english-ebook-source"
+      ],
+      "checked": "2026-11-09",
+      "open": [
+        "No artwork associated with this edition; existing collection cover retained.",
+        "Specific digital revisions and bonus contents not established."
+      ],
+      "note": "Exact publisher-identified English edition on the existing work; no first-printing, first-access or bonus-story inference."
+    },
+    {
+      "key": "mile81-2011-release",
+      "entityType": "publication",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000198"
+      },
+      "eventType": "source-reported-release",
+      "date": {
+        "value": "2011-09-01",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      },
+      "editionId": "edn:000268",
+      "part": null,
+      "publisher": "Scribner",
+      "reportedTitle": "Mile 81 — English eBook retail release, ISBN 9781451665604",
+      "sourceKeys": [
+        "mile81-english-ebook-source"
+      ],
+      "checked": "2026-11-09",
+      "open": [
+        "Retail publication date; not a claim about earliest advance-reader access."
+      ],
+      "note": "Specific English digital release predates the 2015 collection; original collection date is retained independently."
     }
   ],
   "deferred": [
