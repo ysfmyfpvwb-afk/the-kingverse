@@ -154,6 +154,7 @@ function detailContent(r) {
   if (tab === 'stories') {
     if(r.publications?.length)out+=`<details><summary>${tr('Publicatiegeschiedenis','Publication history')}</summary>${r.publications.map(p=>line(p.title,p.reportedDate)+sourceLink(p.source,tr('Publicatiebron','Publication source'))).join('')}</details>`;
     if(r.firstPublication)out+=line(tr('Eerste publicatie','First publication'),r.firstPublication.date);
+    if(r.knownAppearance)out+=line(tr('Bekende publicatie','Known publication'),[r.knownAppearance.publisher,r.knownAppearance.date.value].filter(Boolean).join(' · '));
     out += line(tr('Soort werk','Work type'),localize(r.Type || 'Verhaal'));
     if(r.reportedDate) contextNotes += line(tr('Datum in bronregistratie','Date in source record'),r.reportedDate);
     contextNotes += `<p>${tr('Een datum bij een bundeluitgave bewijst niet wanneer het verhaal voor het eerst werd gepubliceerd.','A collection date does not establish the story’s first publication.')}</p>`;

@@ -448,3 +448,9 @@ test('Edition-specific collection membership is qualified on both sites without 
  for(const id of ['wrk-000181','col-000011']){const entry=require('../explorer/pilot/data/'+id+'/index.json'),details=require('../explorer/pilot/data/'+id+'/details.json'),rows=[...(entry.sections.memberships?.items||[]),...(details.sections?.memberships?.items||[])];assert.equal(rows.find(r=>r.id==='mem:000115').editionSpecific,true);assert.ok(rows.filter(r=>r.id!=='mem:000115').every(r=>!r.editionSpecific));}
  const membership=b.collectionMemberships.find(m=>m.id==='mem:000115');assert.deepEqual(membership.editionIds,[]);assert.equal(b.collectionMemberships.filter(m=>m.collectionId==='col:000011').length,5);assert.equal(b.editions.length,267);
 });
+
+test('Earlier verified story appearances drive main browsing years without becoming first-publication claims',()=>{
+ const db=generateMainCompletion().db;
+ for(const[n,year]of [[73,1970],[78,1973],[74,1974],[84,1975],[79,1972],[76,1972],[80,1973],[81,1974]]){const id='wrk:'+String(n).padStart(6,'0'),row=db.stories.find(s=>s.canonicalId===id);assert.equal(row.Jaar,year);assert.equal(row.knownAppearance.publisher,'Cavalier');assert.ok(!row.firstPublication);const native=require('../explorer/pilot/data/'+id.replace(':','-')+'/index.json');assert.equal(Math.min(...native.publicationDates.map(d=>Number(d.value.slice(0,4)))),year);run("tab='stories';lang='en'");const html=run(`detailContent(S.find(s=>s.canonicalId===${JSON.stringify(id)}))`);assert.match(html,/Known publication/);assert.match(html,new RegExp(row.knownAppearance.date.value));assert.doesNotMatch(html,/First publication<\/b>/);assert.ok(native.publicationDates.some(p=>p.value==='1978-02'));}
+ const unconfirmed=db.stories.find(s=>s.canonicalId==='wrk:000075');assert.equal(unconfirmed.Jaar,1978);assert.ok(!unconfirmed.knownAppearance);
+});
