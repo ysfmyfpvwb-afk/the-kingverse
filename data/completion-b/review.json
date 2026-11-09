@@ -8725,6 +8725,40 @@
       "checkedFields": [
         "specific setting or named literary reference only; no plot outcome, character-list biography or source prose imported"
       ]
+    },
+    {
+      "key": "sun-dog-2018-paperback-source",
+      "url": "https://www.simonandschuster.com/books/The-Sun-Dog/Stephen-King/9781982115425",
+      "publisher": "Simon & Schuster / Scribner",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-11-08",
+      "access": "available",
+      "locator": "Product-specific title, Trade Paperback, ISBN 9781982115425 and Scribner publication date 2018-12-04. English edition supported by the title and publisher-provided English reading excerpt; no excerpt text or image imported.",
+      "checkedFields": [
+        "edition title",
+        "ISBN",
+        "format",
+        "publisher",
+        "edition date with day precision",
+        "edition language from publisher reading sample"
+      ]
+    },
+    {
+      "key": "full-dark-2010-hardcover-source",
+      "url": "https://www.simonandschuster.com/books/Full-Dark-No-Stars/Stephen-King/9781439192566",
+      "publisher": "Simon & Schuster / Scribner",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-11-08",
+      "access": "available",
+      "locator": "Product-specific title, Hardcover, ISBN 9781439192566 and Scribner publication date 2010-11-09. English edition supported by the title and publisher-provided English reading excerpt; no excerpt text or image imported.",
+      "checkedFields": [
+        "edition title",
+        "ISBN",
+        "format",
+        "publisher",
+        "edition date with day precision",
+        "edition language from publisher reading sample"
+      ]
     }
   ],
   "records": [
@@ -20639,6 +20673,116 @@
       "checked": "2026-11-08",
       "open": [],
       "note": "Bounded, source-supported location or named-reference connection on existing identities. No new work, character, adaptation or inferred plot relationship."
+    },
+    {
+      "key": "sun-dog-2018-paperback",
+      "entityType": "edition",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000121"
+      },
+      "language": "en",
+      "title": "The Sun Dog",
+      "isbn13": "9781982115425",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2018-12-04",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Trade Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "sun-dog-2018-paperback-source"
+      ],
+      "open": [
+        "Specific printing or impression not established.",
+        "No artwork linked to this edition; existing collection or edition cover behaviour retained."
+      ],
+      "checked": "2026-11-08",
+      "note": "Exact publisher-listed ISBN edition. Preserve earlier work/collection dates and unidentified historical cover examples; no first-printing, new work, cover-rights or artwork association inferred."
+    },
+    {
+      "key": "sun-dog-2018-paperback-publication",
+      "entityType": "publication",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000121"
+      },
+      "eventType": "edition-publication",
+      "date": {
+        "value": "2018-12-04",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "editionId": "edn:000266",
+      "part": null,
+      "publisher": "Scribner",
+      "reportedTitle": "The Sun Dog — Trade Paperback ISBN 9781982115425",
+      "sourceKeys": [
+        "sun-dog-2018-paperback-source"
+      ],
+      "checked": "2026-11-08",
+      "open": [],
+      "note": "Exact publisher-listed ISBN edition. Preserve earlier work/collection dates and unidentified historical cover examples; no first-printing, new work, cover-rights or artwork association inferred."
+    },
+    {
+      "key": "full-dark-2010-hardcover",
+      "entityType": "edition",
+      "publicationOf": {
+        "type": "collection",
+        "id": "col:000011"
+      },
+      "language": "en",
+      "title": "Full Dark, No Stars",
+      "isbn13": "9781439192566",
+      "publisher": "Scribner",
+      "publicationDate": {
+        "value": "2010-11-09",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Hardcover",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "full-dark-2010-hardcover-source"
+      ],
+      "open": [
+        "Specific printing or impression not established.",
+        "No artwork linked to this edition; existing collection or edition cover behaviour retained."
+      ],
+      "checked": "2026-11-08",
+      "note": "Exact publisher-listed ISBN edition. Preserve earlier work/collection dates and unidentified historical cover examples; no first-printing, new work, cover-rights or artwork association inferred."
+    },
+    {
+      "key": "full-dark-2010-hardcover-publication",
+      "entityType": "publication",
+      "subject": {
+        "type": "collection",
+        "id": "col:000011"
+      },
+      "eventType": "edition-publication",
+      "date": {
+        "value": "2010-11-09",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "editionId": "edn:000267",
+      "part": null,
+      "publisher": "Scribner",
+      "reportedTitle": "Full Dark, No Stars — Hardcover ISBN 9781439192566",
+      "sourceKeys": [
+        "full-dark-2010-hardcover-source"
+      ],
+      "checked": "2026-11-08",
+      "open": [],
+      "note": "Exact publisher-listed ISBN edition. Preserve earlier work/collection dates and unidentified historical cover examples; no first-printing, new work, cover-rights or artwork association inferred."
     }
   ],
   "deferred": [
