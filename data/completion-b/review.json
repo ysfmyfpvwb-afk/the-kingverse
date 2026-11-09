@@ -9139,6 +9139,19 @@
         "named maker role",
         "specific production identity"
       ]
+    },
+    {
+      "key": "carrie-episode-director-profiles",
+      "url": "https://stephenking.com/works/television/carrie.html",
+      "publisher": "StephenKing.com / Amazon MGM Studios production information",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-11-09",
+      "access": "available",
+      "locator": "Explicit episode-direction credits: Kate Siegel 103, Axelle Carolyn 104, Kyra Sedgwick 105, Hiromi Kamata 106; Mike Flanagan showrunner and director of other specified episodes. Profiles state episode scope without claiming whole-series direction. No casting, plot, release date or availability changes.",
+      "checkedFields": [
+        "episode-director identity and bounded role",
+        "showrunner context"
+      ]
     }
   ],
   "records": [
@@ -31977,6 +31990,74 @@
       ],
       "locator": "Existing selected verified shadow claim clm:006650 and its preserved source URLs. This reviews public projection, not a new online first-release audit.",
       "note": "Reuse the established 2014 release year for the legacy visitor card. The original 2012 pre-production observation remains in historical inputs; exact day is not inferred.",
+      "checked": "2026-11-09"
+    },
+    {
+      "key": "kate-siegel-reading-profile",
+      "subject": {
+        "type": "person",
+        "id": "per:000023"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Kate Siegel directed an episode of Carrie, the television adaptation led by showrunner Mike Flanagan."
+      },
+      "sourceKeys": [
+        "carrie-episode-director-profiles"
+      ],
+      "locator": "Production description names episode-specific direction separately from showrunner duties.",
+      "note": "Existing person and episode credit retained; concise reader introduction adds no whole-series, actor or plot claim.",
+      "checked": "2026-11-09"
+    },
+    {
+      "key": "axelle-carolyn-reading-profile",
+      "subject": {
+        "type": "person",
+        "id": "per:000024"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Axelle Carolyn is one of the episode directors of Carrie, the television adaptation of Stephen King’s novel."
+      },
+      "sourceKeys": [
+        "carrie-episode-director-profiles"
+      ],
+      "locator": "Production description names episode-specific direction separately from showrunner duties.",
+      "note": "Existing person and episode credit retained; concise reader introduction adds no whole-series, actor or plot claim.",
+      "checked": "2026-11-09"
+    },
+    {
+      "key": "kyra-sedgwick-reading-profile",
+      "subject": {
+        "type": "person",
+        "id": "per:000025"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Kyra Sedgwick directed an episode of Carrie, joining the series’ team of filmmakers."
+      },
+      "sourceKeys": [
+        "carrie-episode-director-profiles"
+      ],
+      "locator": "Production description names episode-specific direction separately from showrunner duties.",
+      "note": "Existing person and episode credit retained; concise reader introduction adds no whole-series, actor or plot claim.",
+      "checked": "2026-11-09"
+    },
+    {
+      "key": "hiromi-kamata-reading-profile",
+      "subject": {
+        "type": "person",
+        "id": "per:000026"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Hiromi Kamata is credited as an episode director on the Carrie television adaptation."
+      },
+      "sourceKeys": [
+        "carrie-episode-director-profiles"
+      ],
+      "locator": "Production description names episode-specific direction separately from showrunner duties.",
+      "note": "Existing person and episode credit retained; concise reader introduction adds no whole-series, actor or plot claim.",
       "checked": "2026-11-09"
     }
   ]
