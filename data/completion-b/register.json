@@ -3854,6 +3854,18 @@
     "claim/chattery-teeth-cemetery/eventType": "clm:011239",
     "claim/chattery-teeth-cemetery/date": "clm:011240",
     "claim/chattery-teeth-cemetery/publisher": "clm:011241",
-    "claim/chattery-teeth-cemetery/reportedTitle": "clm:011242"
+    "claim/chattery-teeth-cemetery/reportedTitle": "clm:011242",
+    "publication/afterlife-tin-house": "pub:000310",
+    "claim/afterlife-tin-house/subject": "clm:011243",
+    "claim/afterlife-tin-house/eventType": "clm:011244",
+    "claim/afterlife-tin-house/date": "clm:011245",
+    "claim/afterlife-tin-house/publisher": "clm:011246",
+    "claim/afterlife-tin-house/reportedTitle": "clm:011247",
+    "publication/bone-church-first": "pub:000311",
+    "claim/bone-church-first/subject": "clm:011248",
+    "claim/bone-church-first/eventType": "clm:011249",
+    "claim/bone-church-first/date": "clm:011250",
+    "claim/bone-church-first/publisher": "clm:011251",
+    "claim/bone-church-first/reportedTitle": "clm:011252"
   }
 }

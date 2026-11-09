@@ -8788,6 +8788,36 @@
         "reported issue or season",
         "date precision"
       ]
+    },
+    {
+      "key": "afterlife-publication-source",
+      "url": "https://stephenking.com/works/short/afterlife.html",
+      "locator": "Afterlife explicitly published in Tin House Summer 2013 issue 56. The page header says Unreleased; this conflicts with its own publication note and named 2015 collection. Retain year precision and the season in reportedTitle.",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-11-09",
+      "access": "available",
+      "checkedFields": [
+        "named publication",
+        "periodical",
+        "date precision",
+        "header versus body chronology"
+      ]
+    },
+    {
+      "key": "bone-church-publication-source",
+      "url": "https://stephenking.com/works/poem/bone-church.html",
+      "locator": "The narrative poem was first published in Playboy November 2009. Header November 2015 is the later Bazaar collection context; no synthesized day or publication of earlier drafts inferred.",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-11-09",
+      "access": "available",
+      "checkedFields": [
+        "named publication",
+        "periodical",
+        "date precision",
+        "header versus body chronology"
+      ]
     }
   ],
   "records": [
@@ -20974,6 +21004,60 @@
         "This verifies an appearance; complete first-publication and revision history remain unconfirmed."
       ],
       "note": "Official bibliography citation on the existing work. Original issue wording preserved; no synthesized day/month, new story identity, copied prose or image."
+    },
+    {
+      "key": "afterlife-tin-house",
+      "entityType": "publication",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000206"
+      },
+      "eventType": "source-reported-release",
+      "date": {
+        "value": "2013",
+        "precision": "year",
+        "meaning": "source-reported-release",
+        "territory": null
+      },
+      "editionId": null,
+      "part": null,
+      "publisher": "Tin House",
+      "reportedTitle": "Afterlife — Tin House #56, Summer 2013",
+      "sourceKeys": [
+        "afterlife-publication-source"
+      ],
+      "checked": "2026-11-09",
+      "open": [
+        "Official header says Unreleased, while the same page explicitly records Summer 2013 publication and collection in The Bazaar of Bad Dreams. Season retained without a synthesized month."
+      ],
+      "note": "Explicit official publication note on the existing literary identity. Earlier source observations preserved; no copied text, invented date precision or image."
+    },
+    {
+      "key": "bone-church-first",
+      "entityType": "publication",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000204"
+      },
+      "eventType": "first-publication",
+      "date": {
+        "value": "2009-11",
+        "precision": "month",
+        "meaning": "first-publication",
+        "territory": null
+      },
+      "editionId": null,
+      "part": null,
+      "publisher": "Playboy",
+      "reportedTitle": "The Bone Church — Playboy, November 2009",
+      "sourceKeys": [
+        "bone-church-publication-source"
+      ],
+      "checked": "2026-11-09",
+      "open": [
+        "Source header November 2015 describes the later collection; the body explicitly identifies the November 2009 first publication."
+      ],
+      "note": "Explicit official publication note on the existing literary identity. Earlier source observations preserved; no copied text, invented date precision or image."
     }
   ],
   "deferred": [
