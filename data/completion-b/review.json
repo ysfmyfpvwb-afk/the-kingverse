@@ -9073,6 +9073,33 @@
         "director identity",
         "original/remake year binding"
       ]
+    },
+    {
+      "key": "carrie2013-maker-profiles",
+      "url": "https://www.demilofilm.com/works/carrie",
+      "publisher": "DeMilo Films",
+      "sourceType": "official-production",
+      "observedAt": "2026-11-09",
+      "access": "available",
+      "locator": "2013 Carrie production: directed by Kimberly Peirce; screenplay by Lawrence D. Cohen and Roberto Aguirre-Sacasa; based on Carrie by Stephen King. Only production-specific maker roles retained; no synopsis, release-status change or image.",
+      "checkedFields": [
+        "director and separate screenwriters",
+        "2013 production binding"
+      ]
+    },
+    {
+      "key": "good-marriage-askin-profile",
+      "url": "https://stephenking.com/works/movie/a-good-marriage.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-11-09",
+      "access": "available",
+      "locator": "A Good Marriage released 2014; director Peter Askin and screenplay by Stephen King adapting his short fiction. Existing typed credits retained; no new maker or story identity.",
+      "checkedFields": [
+        "director",
+        "year",
+        "King screenplay versus source authorship"
+      ]
     }
   ],
   "records": [
@@ -31737,6 +31764,74 @@
       ],
       "locator": "Universal production-specific director credit, independently worded reader profile.",
       "note": "Existing person and credits retained; no new adaptation or media import.",
+      "checked": "2026-11-09"
+    },
+    {
+      "key": "kimberly-peirce-reading-profile",
+      "subject": {
+        "type": "person",
+        "id": "per:000019"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Kimberly Peirce directed the 2013 adaptation of Carrie, based on Stephen King’s novel."
+      },
+      "sourceKeys": [
+        "carrie2013-maker-profiles"
+      ],
+      "locator": "Named production-specific maker credits, independently worded short reader profile.",
+      "note": "Existing person, credit and remake identities retained; no copied description or new production.",
+      "checked": "2026-11-09"
+    },
+    {
+      "key": "lawrence-cohen-reading-profile",
+      "subject": {
+        "type": "person",
+        "id": "per:000020"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Lawrence D. Cohen is a screenwriter credited alongside Roberto Aguirre-Sacasa on the 2013 film Carrie."
+      },
+      "sourceKeys": [
+        "carrie2013-maker-profiles"
+      ],
+      "locator": "Named production-specific maker credits, independently worded short reader profile.",
+      "note": "Existing person, credit and remake identities retained; no copied description or new production.",
+      "checked": "2026-11-09"
+    },
+    {
+      "key": "roberto-aguirre-reading-profile",
+      "subject": {
+        "type": "person",
+        "id": "per:000021"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Roberto Aguirre-Sacasa shares the screenplay credit for Carrie (2013) with Lawrence D. Cohen."
+      },
+      "sourceKeys": [
+        "carrie2013-maker-profiles"
+      ],
+      "locator": "Named production-specific maker credits, independently worded short reader profile.",
+      "note": "Existing person, credit and remake identities retained; no copied description or new production.",
+      "checked": "2026-11-09"
+    },
+    {
+      "key": "peter-askin-reading-profile",
+      "subject": {
+        "type": "person",
+        "id": "per:000013"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Peter Askin directed A Good Marriage (2014), with a screenplay by Stephen King based on his own short fiction."
+      },
+      "sourceKeys": [
+        "good-marriage-askin-profile"
+      ],
+      "locator": "Named production-specific maker credits, independently worded short reader profile.",
+      "note": "Existing person, credit and remake identities retained; no copied description or new production.",
       "checked": "2026-11-09"
     }
   ]
