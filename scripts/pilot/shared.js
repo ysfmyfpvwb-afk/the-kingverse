@@ -6,7 +6,7 @@
  const roles={author:'Author',coauthor:'Co-author',editor:'Editor',contributor:'Contributor',illustrator:'Illustrator',photographer:'Photographer',translator:'Translator',foreword:'Introduction',director:'Director',actor:'Cast',screenwriter:'Screenwriter',producer:'Producer',showrunner:'Showrunner',creator:'Creator'};
  const fold=s=>String(s||'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[’']/g,'').replace(/[^a-z0-9]+/g,' ');
  const validId=s=>/^(wrk|col|edn|adp|per|chr|loc|ser):\d{6}$/.test(s||'');
- function routeId(query){const id=new URLSearchParams(query).get('entity')||'wrk:000001';return validId(id)?id:null;}
+ function routeId(query){const id=new URLSearchParams(query).get('entity');return validId(id)?id:null;}
  function relationLabel(e){return (relations[e.predicate]||['Connection','Connection'])[e.reverse?1:0];}
  function typeLabel(n){return kinds[n.kind||n.data?.kind]||types[n.type]||'Record';}
  function filterConnections(rows,kind='all',certainty='all'){return rows.filter(e=>(kind==='all'||(kind==='books'?['work','collection'].includes(e.target.type):e.target.type===kind))&&(certainty==='all'||e.certainty===certainty));}
