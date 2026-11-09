@@ -16,6 +16,8 @@ function completionPilot(root=ROOT){
  const artworks=new Map(bundle.artworks.map(r=>[r.id,r]));
  const review=read('data/migration/batch-05-review.json');
  const p=createReadyProjection(projectionBundle,{assessments:review.assessments,screenCandidates:review.screenCandidates,storyViews:read('data/migration/story-views.json').views,media:media.registry});
+ const editionSpecific=new Set(bundle.collectionMemberships.filter(m=>m.verification.open.includes('editionSpecificMembership')).map(m=>m.id));
+ for(const projection of [p.defaultProjection,p.plotProjection])for(const membership of projection.memberships)if(editionSpecific.has(membership.id))membership.editionSpecific=true;
  for(const projection of [p.defaultProjection,p.plotProjection])for(const node of projection.nodes)if(node.type==='adaptation'){const record=bundle.adaptations.find(r=>r.id===node.id);node.label=record.title+(record.releaseYear?' ('+record.releaseYear+')':'');}
  function displayChoice(selected){if(selected?.officialArtwork){selected.credit=media.credits.get(selected.artworkId);selected.validUntil=media.terms.get(selected.artworkId)?.validUntil||null;}else if(selected?.artworkId){const art=artworks.get(selected.artworkId),image=art&&archiveImages.get(art.url);if(image&&image.language===art.language&&(art.editionId||art.adaptationId)===selected.ownerId){selected.src=image.image;selected.remoteArtwork=true;selected.reason='archive-source';selected.credit={text:image.credit||new URL(image.source).hostname,url:image.source};}}return selected;}
  p.defaultProjection.mediaChoices=Object.fromEntries(p.defaultProjection.nodes.map(n=>{let selected=displayChoice(selectMedia(p.defaultProjection,n.id));

@@ -61,9 +61,10 @@ function storyArtworkBook(r) {
   const standalone = B.find(b => b.workId === r.workId && b.Type !== 'Bundel / verzameling');
   return B.find(b => b.id === r.defaultCollectionId) || standalone || null;
 }
+function collectionEditionNote(r,id) {return r.editionSpecificCollections?.includes(id)?tr(' — in bepaalde uitgaven',' — in selected editions'):'';}
 function collectionLabel(r) {
   const b=B.find(b => b.id === r.defaultCollectionId);
-  return b ? linkTo('books',bn(b),tr('Onderdeel van ','Collected in ')+title(b,'books'),B.indexOf(b)) : '';
+  return b ? linkTo('books',bn(b),tr('Onderdeel van ','Collected in ')+title(b,'books')+collectionEditionNote(r,b.id),B.indexOf(b)) : '';
 }
 function labelHeading() { return ({books:tr('Boeken en bundels','Books & collections'),stories:tr('Verhalen','Short stories'),films:tr('Verfilmingen','Screen adaptations'),tower:tr('Verbindingen met de Toren','Connections to the Tower')})[tab]; }
 function rows() { return ({books:B,stories:S,films:F,tower:T})[tab]; }
@@ -141,7 +142,7 @@ function detailContent(r) {
     const editions=DB.editions.filter(e=>r.editionIds?.includes(e.id));
     if(editions.length)out+=section(tr('Uitgaven','Editions'),editions.map(e=>`<div class="entry"><strong>${safe(e.title)} · ${safe(e.language.toUpperCase())}</strong><small>${safe([e.isbn,e.publisher,e.format,e.publicationDate?.value,e.translators?.length?tr('Vertaling: ','Translated by ')+e.translators.join(', '):null].filter(Boolean).join(' · '))}</small></div>`).join(''));
     const stories = S.filter(s => s.collectionIds?.includes(r.id));
-    if (stories.length) out += section(tr('Verhalen in deze bundel','Stories in this collection')+` (${stories.length})`,stories.map(s => linkTo('stories',sn(s),title(s,'stories'),S.indexOf(s))).join(''));
+    if (stories.length) out += section(tr('Verhalen in deze bundel','Stories in this collection')+` (${stories.length})`,stories.map(s => linkTo('stories',sn(s),title(s,'stories')+collectionEditionNote(s,r.id),S.indexOf(s))).join(''));
     const storyIds = S.filter(s=>s.collectionIds?.includes(r.id)).map(s=>s.id);
     const films = F.filter(f => f.sourceWorks?.some(w=>w.id===r.id || storyIds.includes(w.id)) || norm(f['Oorspronkelijke bundel'])===norm(bn(r)));
     if (films.length) out += section(tr('Verfilmingen','Screen adaptations')+` (${films.length})`,films.map(f => `<div class="adaptation-link">${linkTo('films',fn(f),`${fn(f)} (${f.Jaar || '?'}) · ${localize(f.Medium)}`,F.indexOf(f))}</div>`).join(''));
@@ -156,7 +157,7 @@ function detailContent(r) {
     out += line(tr('Soort werk','Work type'),localize(r.Type || 'Verhaal'));
     if(r.reportedDate) contextNotes += line(tr('Datum in bronregistratie','Date in source record'),r.reportedDate);
     contextNotes += `<p>${tr('Een datum bij een bundeluitgave bewijst niet wanneer het verhaal voor het eerst werd gepubliceerd.','A collection date does not establish the story’s first publication.')}</p>`;
-    if(r.collectionIds?.length) out += section(tr('Opgenomen in','Collected in'),r.collectionIds.map(id=>workLink({id,kind:'books'})).join(''));
+    if(r.collectionIds?.length) out += section(tr('Opgenomen in','Collected in'),r.collectionIds.map(id=>workLink({id,kind:'books'})+safe(collectionEditionNote(r,id))).join(''));
     else contextNotes += `<p>${r.standaloneBookId || r.standalonePublications?.length ? tr('Een zelfstandige publicatie is vastgelegd; zie de editiegegevens.','A standalone publication is recorded; see the edition details.') : tr('Geen bundelrelatie vastgelegd. Een eigen boekcover is hier niet vereist.','No collection relationship recorded. A separate book cover is not required here.')}</p>`;
     if(r.standalonePublications?.length)out+=section(tr('Zelfstandige edities','Standalone editions'),r.standalonePublications.map(e=>{const edition=DB.editions.find(d=>d.canonicalId===e.editionId);return line(e.title,[e.isbn,e.language.toUpperCase(),edition?.publisher,edition?.format,edition?.publicationDate?.value].filter(Boolean).join(' · '))+sourceLink(e.source,tr('Uitgeversbron','Publisher source'));}).join(''));
     const standalone = B.find(b=>b.workId===r.workId);
