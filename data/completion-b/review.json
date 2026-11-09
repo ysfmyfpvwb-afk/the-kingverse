@@ -9252,6 +9252,102 @@
       "checkedFields": [
         "specific production and maker role only"
       ]
+    },
+    {
+      "key": "cronenberg-dead-zone",
+      "url": "https://stephenking.com/works/movie/dead-zone.html",
+      "locator": "The Dead Zone (1983) names David Cronenberg as director. Maker roles only; no plot, cast, exact date or images imported.",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-11-09",
+      "access": "available",
+      "checkedFields": [
+        "specific production maker role"
+      ]
+    },
+    {
+      "key": "romero-creepshow",
+      "url": "https://stephenking.com/works/movie/creepshow.html",
+      "locator": "Creepshow (1982) names George Romero as director and Stephen King as screenwriter. Maker roles only; no plot, cast, exact date or images imported.",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-11-09",
+      "access": "available",
+      "checkedFields": [
+        "specific production maker role"
+      ]
+    },
+    {
+      "key": "romero-dark-half",
+      "url": "https://stephenking.com/works/movie/dark-half.html",
+      "locator": "The Dark Half (1993) names George A. Romero as director and writer. Maker roles only; no plot, cast, exact date or images imported.",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-11-09",
+      "access": "available",
+      "checkedFields": [
+        "specific production maker role"
+      ]
+    },
+    {
+      "key": "garris-sleepwalkers",
+      "url": "https://stephenking.com/works/movie/sleepwalkers.html",
+      "locator": "Sleepwalkers (1992) names Mick Garris as director and Stephen King as writer; original screen project, not an inferred novel adaptation. Maker roles only; no plot, cast, exact date or images imported.",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-11-09",
+      "access": "available",
+      "checkedFields": [
+        "specific production maker role"
+      ]
+    },
+    {
+      "key": "garris-desperation",
+      "url": "https://stephenking.com/works/television/desperation.html",
+      "locator": "Desperation explicitly directed by Mick Garris, teleplay by Stephen King. Maker roles only; no plot, cast, exact date or images imported.",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-11-09",
+      "access": "available",
+      "checkedFields": [
+        "specific production maker role"
+      ]
+    },
+    {
+      "key": "garris-riding-bullet",
+      "url": "https://stephenking.com/works/movie/riding-the-bullet.html",
+      "locator": "Riding the Bullet (2004) director and writer Mick Garris. Maker roles only; no plot, cast, exact date or images imported.",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-11-09",
+      "access": "available",
+      "checkedFields": [
+        "specific production maker role"
+      ]
+    },
+    {
+      "key": "garris-director-bio",
+      "url": "https://www.mickgarrisinterviews.com/about",
+      "publisher": "Mick Garris / Nice Guy Productions",
+      "sourceType": "reference",
+      "observedAt": "2026-11-09",
+      "access": "available",
+      "locator": "Historical director biography explicitly names The Stand (1994), The Shining (1997), Quicksilver Highway (1997) and Bag of Bones (2011). Only past direction credits used; dated upcoming/current-project language, personal details and images excluded.",
+      "checkedFields": [
+        "historical production-specific direction"
+      ]
+    },
+    {
+      "key": "garris-director-guild",
+      "url": "https://www.dga.org/craft/dgaq/issues/0401-january-2004/dont-look-in-the-theater",
+      "publisher": "Directors Guild of America",
+      "sourceType": "reference",
+      "observedAt": "2026-11-09",
+      "access": "available",
+      "locator": "January 2004 David Geffner article discusses Mick Garris directing The Stand and The Shining miniseries and shooting Riding the Bullet. Only director identity and past miniseries roles used; no quotations or opinions imported.",
+      "checkedFields": [
+        "independent historical direction context"
+      ]
     }
   ],
   "records": [
@@ -22096,6 +22192,359 @@
       "checked": "2026-11-09",
       "open": [],
       "note": "Manually reviewed production-specific credit; preserve literary authorship, existing maker IDs and separate remake identities."
+    },
+    {
+      "key": "david-cronenberg",
+      "entityType": "person",
+      "name": "David Cronenberg",
+      "aliases": [],
+      "pseudonyms": [],
+      "externalIds": {},
+      "summary": {
+        "en": "David Cronenberg directed the 1983 film The Dead Zone, an adaptation of Stephen King’s novel."
+      },
+      "sourceKeys": [
+        "cronenberg-dead-zone"
+      ],
+      "checked": "2026-11-09",
+      "open": [],
+      "note": "Manually reviewed new maker identity, no existing canonical duplicate."
+    },
+    {
+      "key": "george-romero",
+      "entityType": "person",
+      "name": "George A. Romero",
+      "aliases": [
+        {
+          "language": "en",
+          "value": "George Romero",
+          "spoiler": {
+            "level": "none",
+            "workIds": []
+          }
+        }
+      ],
+      "pseudonyms": [],
+      "externalIds": {},
+      "summary": {
+        "en": "George A. Romero directed Creepshow from Stephen King’s screenplay and adapted The Dark Half for film."
+      },
+      "sourceKeys": [
+        "romero-creepshow",
+        "romero-dark-half"
+      ],
+      "checked": "2026-11-09",
+      "open": [],
+      "note": "Manual identity review binds the two documented forms George Romero and George A. Romero; literal film credits preserved.",
+      "fieldSourceKeys": {
+        "aliases": [
+          "romero-creepshow"
+        ]
+      }
+    },
+    {
+      "key": "mick-garris",
+      "entityType": "person",
+      "name": "Mick Garris",
+      "aliases": [],
+      "pseudonyms": [],
+      "externalIds": {},
+      "summary": {
+        "en": "Mick Garris has directed several Stephen King screen projects, including Sleepwalkers, the 1994 miniseries The Stand and the 1997 miniseries The Shining."
+      },
+      "sourceKeys": [
+        "garris-sleepwalkers",
+        "garris-director-bio",
+        "garris-director-guild"
+      ],
+      "checked": "2026-11-09",
+      "open": [],
+      "note": "Manually reviewed new maker identity across individually documented productions; no complete filmography claim."
+    },
+    {
+      "key": "cronenberg-deadzone-director",
+      "entityType": "credit",
+      "personId": "per:000065",
+      "subject": {
+        "type": "adaptation",
+        "id": "adp:000014"
+      },
+      "role": "director",
+      "creditedAs": null,
+      "scope": "Production director",
+      "characterId": null,
+      "sourceKeys": [
+        "cronenberg-dead-zone"
+      ],
+      "checked": "2026-11-09",
+      "open": [],
+      "note": "Individually reviewed production-specific role using stable identities; no remake merge, inferred story relation or new media."
+    },
+    {
+      "key": "romero-creepshow-director",
+      "entityType": "credit",
+      "personId": "per:000066",
+      "subject": {
+        "type": "adaptation",
+        "id": "adp:000009"
+      },
+      "role": "director",
+      "creditedAs": "George Romero",
+      "scope": "Production director",
+      "characterId": null,
+      "sourceKeys": [
+        "romero-creepshow"
+      ],
+      "checked": "2026-11-09",
+      "open": [],
+      "note": "Individually reviewed production-specific role using stable identities; no remake merge, inferred story relation or new media."
+    },
+    {
+      "key": "romero-darkhalf-director",
+      "entityType": "credit",
+      "personId": "per:000066",
+      "subject": {
+        "type": "adaptation",
+        "id": "adp:000012"
+      },
+      "role": "director",
+      "creditedAs": "George A. Romero",
+      "scope": "Production director",
+      "characterId": null,
+      "sourceKeys": [
+        "romero-dark-half"
+      ],
+      "checked": "2026-11-09",
+      "open": [],
+      "note": "Individually reviewed production-specific role using stable identities; no remake merge, inferred story relation or new media."
+    },
+    {
+      "key": "garris-sleepwalkers-director",
+      "entityType": "credit",
+      "personId": "per:000067",
+      "subject": {
+        "type": "adaptation",
+        "id": "adp:000093"
+      },
+      "role": "director",
+      "creditedAs": null,
+      "scope": "Production director",
+      "characterId": null,
+      "sourceKeys": [
+        "garris-sleepwalkers"
+      ],
+      "checked": "2026-11-09",
+      "open": [],
+      "note": "Individually reviewed production-specific role using stable identities; no remake merge, inferred story relation or new media."
+    },
+    {
+      "key": "garris-desperation-director",
+      "entityType": "credit",
+      "personId": "per:000067",
+      "subject": {
+        "type": "adaptation",
+        "id": "adp:000059"
+      },
+      "role": "director",
+      "creditedAs": null,
+      "scope": "Production director",
+      "characterId": null,
+      "sourceKeys": [
+        "garris-desperation"
+      ],
+      "checked": "2026-11-09",
+      "open": [],
+      "note": "Individually reviewed production-specific role using stable identities; no remake merge, inferred story relation or new media."
+    },
+    {
+      "key": "garris-bullet-director",
+      "entityType": "credit",
+      "personId": "per:000067",
+      "subject": {
+        "type": "adaptation",
+        "id": "adp:000040"
+      },
+      "role": "director",
+      "creditedAs": null,
+      "scope": "Production director",
+      "characterId": null,
+      "sourceKeys": [
+        "garris-riding-bullet"
+      ],
+      "checked": "2026-11-09",
+      "open": [],
+      "note": "Individually reviewed production-specific role using stable identities; no remake merge, inferred story relation or new media."
+    },
+    {
+      "key": "garris-stand1994-director",
+      "entityType": "credit",
+      "personId": "per:000067",
+      "subject": {
+        "type": "adaptation",
+        "id": "adp:000072"
+      },
+      "role": "director",
+      "creditedAs": null,
+      "scope": "Production director",
+      "characterId": null,
+      "sourceKeys": [
+        "garris-director-bio"
+      ],
+      "checked": "2026-11-09",
+      "open": [],
+      "note": "Individually reviewed production-specific role using stable identities; no remake merge, inferred story relation or new media."
+    },
+    {
+      "key": "garris-shining1997-director",
+      "entityType": "credit",
+      "personId": "per:000067",
+      "subject": {
+        "type": "adaptation",
+        "id": "adp:000070"
+      },
+      "role": "director",
+      "creditedAs": null,
+      "scope": "Production director",
+      "characterId": null,
+      "sourceKeys": [
+        "garris-director-bio"
+      ],
+      "checked": "2026-11-09",
+      "open": [],
+      "note": "Individually reviewed production-specific role using stable identities; no remake merge, inferred story relation or new media."
+    },
+    {
+      "key": "garris-bones-director",
+      "entityType": "credit",
+      "personId": "per:000067",
+      "subject": {
+        "type": "adaptation",
+        "id": "adp:000055"
+      },
+      "role": "director",
+      "creditedAs": null,
+      "scope": "Production director",
+      "characterId": null,
+      "sourceKeys": [
+        "garris-director-bio"
+      ],
+      "checked": "2026-11-09",
+      "open": [],
+      "note": "Individually reviewed production-specific role using stable identities; no remake merge, inferred story relation or new media."
+    },
+    {
+      "key": "garris-quicksilver-director",
+      "entityType": "credit",
+      "personId": "per:000067",
+      "subject": {
+        "type": "adaptation",
+        "id": "adp:000091"
+      },
+      "role": "director",
+      "creditedAs": null,
+      "scope": "Production director",
+      "characterId": null,
+      "sourceKeys": [
+        "garris-director-bio"
+      ],
+      "checked": "2026-11-09",
+      "open": [],
+      "note": "Individually reviewed production-specific role using stable identities; no remake merge, inferred story relation or new media."
+    },
+    {
+      "key": "romero-darkhalf-screenwriter",
+      "entityType": "credit",
+      "personId": "per:000066",
+      "subject": {
+        "type": "adaptation",
+        "id": "adp:000012"
+      },
+      "role": "screenwriter",
+      "creditedAs": null,
+      "scope": "Screenplay / teleplay",
+      "characterId": null,
+      "sourceKeys": [
+        "romero-dark-half"
+      ],
+      "checked": "2026-11-09",
+      "open": [],
+      "note": "Individually reviewed production-specific role using stable identities; no remake merge, inferred story relation or new media."
+    },
+    {
+      "key": "king-creepshow-screenwriter",
+      "entityType": "credit",
+      "personId": "per:000001",
+      "subject": {
+        "type": "adaptation",
+        "id": "adp:000009"
+      },
+      "role": "screenwriter",
+      "creditedAs": null,
+      "scope": "Screenplay / teleplay",
+      "characterId": null,
+      "sourceKeys": [
+        "romero-creepshow"
+      ],
+      "checked": "2026-11-09",
+      "open": [],
+      "note": "Individually reviewed production-specific role using stable identities; no remake merge, inferred story relation or new media."
+    },
+    {
+      "key": "king-sleepwalkers-screenwriter",
+      "entityType": "credit",
+      "personId": "per:000001",
+      "subject": {
+        "type": "adaptation",
+        "id": "adp:000093"
+      },
+      "role": "screenwriter",
+      "creditedAs": null,
+      "scope": "Screenplay / teleplay",
+      "characterId": null,
+      "sourceKeys": [
+        "garris-sleepwalkers"
+      ],
+      "checked": "2026-11-09",
+      "open": [],
+      "note": "Individually reviewed production-specific role using stable identities; no remake merge, inferred story relation or new media."
+    },
+    {
+      "key": "king-desperation-screenwriter",
+      "entityType": "credit",
+      "personId": "per:000001",
+      "subject": {
+        "type": "adaptation",
+        "id": "adp:000059"
+      },
+      "role": "screenwriter",
+      "creditedAs": null,
+      "scope": "Screenplay / teleplay",
+      "characterId": null,
+      "sourceKeys": [
+        "garris-desperation"
+      ],
+      "checked": "2026-11-09",
+      "open": [],
+      "note": "Individually reviewed production-specific role using stable identities; no remake merge, inferred story relation or new media."
+    },
+    {
+      "key": "garris-bullet-screenwriter",
+      "entityType": "credit",
+      "personId": "per:000067",
+      "subject": {
+        "type": "adaptation",
+        "id": "adp:000040"
+      },
+      "role": "screenwriter",
+      "creditedAs": null,
+      "scope": "Screenplay / teleplay",
+      "characterId": null,
+      "sourceKeys": [
+        "garris-riding-bullet"
+      ],
+      "checked": "2026-11-09",
+      "open": [],
+      "note": "Individually reviewed production-specific role using stable identities; no remake merge, inferred story relation or new media."
     }
   ],
   "deferred": [
