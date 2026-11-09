@@ -21,7 +21,7 @@
 })(typeof globalThis==='undefined'?this:globalThis);
 
 'use strict';
-const VERSION='55437c14594a7609',SEARCH_FILE='search.5df5b5ca76cf.json',C=PilotCore;
+const VERSION='d96df04f3dc7e887',SEARCH_FILE='search.5df5b5ca76cf.json',C=PilotCore;
 const $=id=>document.getElementById(id),element=(tag,text,cls)=>{const e=document.createElement(tag);if(text!==undefined)e.textContent=text;if(cls)e.className=cls;return e;};
 const link=(id,label,cls)=>{const a=element('a',label,cls);a.href='?entity='+encodeURIComponent(id);return a;};
 const cache=new Map();let epoch=0,entry,plotData,revealed=false,searchData,searchOffset=12,searchEpoch=0,kind='all',certainty='all',mapLimit=6,navStart=0,networkBytes=0;

@@ -3948,6 +3948,12 @@
     "claim/flanagan-sleep-director/subject": "clm:011311",
     "claim/flanagan-sleep-director/role": "clm:011312",
     "claim/flanagan-sleep-director/scope": "clm:011313",
-    "claim/flanagan-reading-profile": "clm:011314"
+    "claim/flanagan-reading-profile": "clm:011314",
+    "credit/mary-pet-two-director": "crd:000399",
+    "claim/mary-pet-two-director/personId": "clm:011315",
+    "claim/mary-pet-two-director/subject": "clm:011316",
+    "claim/mary-pet-two-director/role": "clm:011317",
+    "claim/mary-pet-two-director/scope": "clm:011318",
+    "claim/mary-lambert-reading-profile": "clm:011319"
   }
 }

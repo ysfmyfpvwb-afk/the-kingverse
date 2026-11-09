@@ -9009,6 +9009,32 @@
         "director identity",
         "specific production binding"
       ]
+    },
+    {
+      "key": "mary-pet89-direction",
+      "url": "https://stephenking.com/works/movie/pet-sematary-(1989).html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-11-09",
+      "access": "available",
+      "locator": "Explicit 1989 production heading and Director(s) Mary Lambert. No 2019 remake, character outcome, synopsis or image imported.",
+      "checkedFields": [
+        "director identity",
+        "production year binding"
+      ]
+    },
+    {
+      "key": "mary-pet-two-direction",
+      "url": "https://catalog.afi.com/Film/59356-PET-SEMATARY-II",
+      "publisher": "American Film Institute",
+      "sourceType": "reference",
+      "observedAt": "2026-11-09",
+      "access": "available",
+      "locator": "1992 Pet Sematary II; director Mary Lambert in header and production credits. Writer Richard Outten is separate. Existing sequel/source relationship retained; no King screenplay claim.",
+      "checkedFields": [
+        "director credit",
+        "specific sequel production identity"
+      ]
     }
   ],
   "records": [
@@ -21528,6 +21554,25 @@
       "checked": "2026-11-09",
       "open": [],
       "note": "Verified production-specific direction credit on existing maker and adaptation identities. Earlier textual maker observations remain preserved; no screenplay or cast identity inferred."
+    },
+    {
+      "key": "mary-pet-two-director",
+      "entityType": "credit",
+      "personId": "per:000016",
+      "subject": {
+        "type": "adaptation",
+        "id": "adp:000104"
+      },
+      "role": "director",
+      "creditedAs": null,
+      "scope": "Film director",
+      "characterId": null,
+      "sourceKeys": [
+        "mary-pet-two-direction"
+      ],
+      "checked": "2026-11-09",
+      "open": [],
+      "note": "Named AFI direction credit reuses existing Mary Lambert and 1992 sequel identities; independent of the 2019 remake and story authorship."
     }
   ],
   "deferred": [
@@ -31564,6 +31609,24 @@
       "checked": "2026-11-09",
       "locator": "Named official director credits for the two existing productions; short independently worded reader profile.",
       "note": "No new production, film release date or first-publication claim."
+    },
+    {
+      "key": "mary-lambert-reading-profile",
+      "subject": {
+        "type": "person",
+        "id": "per:000016"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Mary Lambert directed Pet Sematary in 1989 and its 1992 sequel, Pet Sematary Two. Her work connects the two films through their director."
+      },
+      "sourceKeys": [
+        "mary-pet89-direction",
+        "mary-pet-two-direction"
+      ],
+      "checked": "2026-11-09",
+      "locator": "Production-specific director fields on the official King page and AFI catalog.",
+      "note": "Short reader introduction; preserves original, sequel and remake identities and distinct screenplay credits."
     }
   ]
 }
