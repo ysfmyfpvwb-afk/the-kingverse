@@ -441,7 +441,7 @@ test('Two publisher-identified English editions reach both sites with dates sepa
 
 test('Edition-specific collection membership is qualified on both sites without inferring ISBN scope',()=>{
  const b=require('../scripts/completion_b.cjs').extendCompletionB(require('../scripts/build_completion.cjs').loadCompletion()),db=generateMainCompletion().db,story=db.stories.find(r=>r.canonicalId==='wrk:000181'),collection=db.books.find(r=>r.canonicalId==='col:000011');
- assert.deepEqual(story.editionSpecificCollections,[collection.id]);
+ assert.deepEqual(story.editionSpecificCollections,[collection.id]);assert.equal(require('../explorer/pilot/data/wrk-000181/index.json').media.editionSpecific,true);assert.ok(!require('../explorer/pilot/data/wrk-000177/index.json').media.editionSpecific);
  run("lang='en';tab='books'");assert.match(run("detailContent(B.find(r=>r.canonicalId==='col:000011'))"),/Under the Weather — in selected editions/);
  run("tab='stories'");const html=run("detailContent(S.find(r=>r.canonicalId==='wrk:000181'))");assert.match(html,/in selected editions/);assert.match(run("collectionLabel(S.find(r=>r.canonicalId==='wrk:000181'))"),/in selected editions/);
  run("lang='nl'");assert.match(run("detailContent(S.find(r=>r.canonicalId==='wrk:000181'))"),/in bepaalde uitgaven/);

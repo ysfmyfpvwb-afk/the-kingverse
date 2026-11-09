@@ -23,6 +23,7 @@ function completionPilot(root=ROOT){
  p.defaultProjection.mediaChoices=Object.fromEntries(p.defaultProjection.nodes.map(n=>{let selected=displayChoice(selectMedia(p.defaultProjection,n.id));
   // A coverless digital edition must not hide a collected story's existing cover.
   if(n.type==='work'&&['short-story','novella','poem'].includes(n.data.kind)&&!selected?.officialArtwork&&!selected?.remoteArtwork){const collectionOnly={...p.defaultProjection,nodes:p.defaultProjection.nodes.filter(e=>e.type!=='edition'||e.data.publicationOf.id!==n.id)},collected=displayChoice(selectMedia(collectionOnly,n.id));if(collected?.collectionId&&(collected.officialArtwork||collected.remoteArtwork))selected=collected;}
+  if(selected?.collectionId&&bundle.collectionMemberships.some(m=>m.workId===n.id&&m.collectionId===selected.collectionId&&editionSpecific.has(m.id)))selected.editionSpecific=true;
   return [n.id,selected];}).filter(([,v])=>v));
  return {...p,bundle};
 }
