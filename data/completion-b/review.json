@@ -8759,6 +8759,20 @@
         "edition date with day precision",
         "edition language from publisher reading sample"
       ]
+    },
+    {
+      "key": "three-cavalier-appearances-nov9",
+      "url": "https://stephenking.com/bibliography/",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-11-09",
+      "access": "available",
+      "locator": "Named periodical citations: The Boogeyman, Cavalier March 1973; Strawberry Spring, Cavalier November 1975; Suffer the Little Children, Cavalier February 1972. Month precision only. These citations establish appearances, not complete first-publication or revision histories.",
+      "checkedFields": [
+        "title binding to existing work",
+        "periodical",
+        "appearance month and year"
+      ]
     }
   ],
   "records": [
@@ -20783,6 +20797,87 @@
       "checked": "2026-11-08",
       "open": [],
       "note": "Exact publisher-listed ISBN edition. Preserve earlier work/collection dates and unidentified historical cover examples; no first-printing, new work, cover-rights or artwork association inferred."
+    },
+    {
+      "key": "boogeyman-cavalier",
+      "entityType": "publication",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000077"
+      },
+      "eventType": "source-reported-release",
+      "date": {
+        "value": "1973-03",
+        "precision": "month",
+        "meaning": "source-reported-release",
+        "territory": null
+      },
+      "editionId": null,
+      "part": null,
+      "publisher": "Cavalier",
+      "reportedTitle": "The Boogeyman — Cavalier, 1973-03",
+      "sourceKeys": [
+        "three-cavalier-appearances-nov9"
+      ],
+      "checked": "2026-11-09",
+      "open": [
+        "This verifies a periodical appearance; complete first-publication and textual-version history remain unconfirmed."
+      ],
+      "note": "Named official bibliography citation on an existing literary identity. No invented day, new work, story text or artwork. Earlier collection evidence retained."
+    },
+    {
+      "key": "strawberry-spring-cavalier",
+      "entityType": "publication",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000082"
+      },
+      "eventType": "source-reported-release",
+      "date": {
+        "value": "1975-11",
+        "precision": "month",
+        "meaning": "source-reported-release",
+        "territory": null
+      },
+      "editionId": null,
+      "part": null,
+      "publisher": "Cavalier",
+      "reportedTitle": "Strawberry Spring — Cavalier, 1975-11",
+      "sourceKeys": [
+        "three-cavalier-appearances-nov9"
+      ],
+      "checked": "2026-11-09",
+      "open": [
+        "This verifies a periodical appearance; complete first-publication and textual-version history remain unconfirmed."
+      ],
+      "note": "Named official bibliography citation on an existing literary identity. No invented day, new work, story text or artwork. Earlier collection evidence retained."
+    },
+    {
+      "key": "suffer-children-cavalier",
+      "entityType": "publication",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000124"
+      },
+      "eventType": "source-reported-release",
+      "date": {
+        "value": "1972-02",
+        "precision": "month",
+        "meaning": "source-reported-release",
+        "territory": null
+      },
+      "editionId": null,
+      "part": null,
+      "publisher": "Cavalier",
+      "reportedTitle": "Suffer the Little Children — Cavalier, 1972-02",
+      "sourceKeys": [
+        "three-cavalier-appearances-nov9"
+      ],
+      "checked": "2026-11-09",
+      "open": [
+        "This verifies a periodical appearance; complete first-publication and textual-version history remain unconfirmed."
+      ],
+      "note": "Named official bibliography citation on an existing literary identity. No invented day, new work, story text or artwork. Earlier collection evidence retained."
     }
   ],
   "deferred": [

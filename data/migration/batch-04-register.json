@@ -2369,9 +2369,9 @@
     "data/editorial.json": "364bc83c4026aa7edb5e1fc28dd273cb18c18d7e29fe17733d7fee186bb43291",
     "data/reviews/screen-data-rights.json": "81e28fad1aa0a9c08da9bca593879521c55634d08fa74fc582b4e4d7d5a23142",
     "data/migration/batch-04-review.json": "d560ce473043aa32bf257dc6feda7336c251c41367f762ab4cea41177baa7172",
-    "data/migration/id-register.json": "8fa655eff2d8e89603207401d8dd8866ce6340b44dc7c89b765d962643c1410e",
-    "data/migration/batch-02-register.json": "fb6c135923a2a5b75f55e79b986273edc4a9ff8d409eb1172031764eae4ca4ab",
-    "data/migration/batch-03-register.json": "1c371d0b7b274e5fe553beecc1ef69099277d11b936c828a7b8c9a2c21d1b2e7"
+    "data/migration/id-register.json": "15d4cc90473930f57f1c18cfba8192a97584562a6748c57e6acec95586a7683a",
+    "data/migration/batch-02-register.json": "7317e017b46723658182e0e7a012449cfb09fa4b655c24c1d2a5ce88d3555579",
+    "data/migration/batch-03-register.json": "9bc2c4648b4cdeb3885d02542426128a0a49c9d4eeae01be084ff1a24738a273"
   },
   "preservedEntities": {
     "wrk:000001": {

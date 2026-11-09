@@ -3818,6 +3818,24 @@
     "claim/full-dark-2010-hardcover-publication/date": "clm:011209",
     "claim/full-dark-2010-hardcover-publication/editionId": "clm:011210",
     "claim/full-dark-2010-hardcover-publication/publisher": "clm:011211",
-    "claim/full-dark-2010-hardcover-publication/reportedTitle": "clm:011212"
+    "claim/full-dark-2010-hardcover-publication/reportedTitle": "clm:011212",
+    "publication/boogeyman-cavalier": "pub:000304",
+    "claim/boogeyman-cavalier/subject": "clm:011213",
+    "claim/boogeyman-cavalier/eventType": "clm:011214",
+    "claim/boogeyman-cavalier/date": "clm:011215",
+    "claim/boogeyman-cavalier/publisher": "clm:011216",
+    "claim/boogeyman-cavalier/reportedTitle": "clm:011217",
+    "publication/strawberry-spring-cavalier": "pub:000305",
+    "claim/strawberry-spring-cavalier/subject": "clm:011218",
+    "claim/strawberry-spring-cavalier/eventType": "clm:011219",
+    "claim/strawberry-spring-cavalier/date": "clm:011220",
+    "claim/strawberry-spring-cavalier/publisher": "clm:011221",
+    "claim/strawberry-spring-cavalier/reportedTitle": "clm:011222",
+    "publication/suffer-children-cavalier": "pub:000306",
+    "claim/suffer-children-cavalier/subject": "clm:011223",
+    "claim/suffer-children-cavalier/eventType": "clm:011224",
+    "claim/suffer-children-cavalier/date": "clm:011225",
+    "claim/suffer-children-cavalier/publisher": "clm:011226",
+    "claim/suffer-children-cavalier/reportedTitle": "clm:011227"
   }
 }
