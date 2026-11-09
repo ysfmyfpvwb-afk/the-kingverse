@@ -8983,6 +8983,32 @@
         "named book contribution",
         "edition-specific scope"
       ]
+    },
+    {
+      "key": "flanagan-gerald-director",
+      "url": "https://www.netflix.com/tudum/articles/stephen-king-movies?inapp=true",
+      "publisher": "Netflix Tudum",
+      "locator": "Gerald’s Game section explicitly identifies Mike Flanagan as director and the Stephen King novel as source. Director identity and role only; no streaming availability, copied description, cast roles or images imported.",
+      "sourceType": "official-production",
+      "observedAt": "2026-11-09",
+      "access": "available",
+      "checkedFields": [
+        "director identity",
+        "specific production binding"
+      ]
+    },
+    {
+      "key": "flanagan-sleep-director",
+      "url": "https://stephenking.com/works/movie/doctor-sleep.html",
+      "publisher": "StephenKing.com / Warner Bros. production text",
+      "locator": "Director field and production text identify Mike Flanagan. Writer header mentions Akiva Goldsman while prose says Flanagan’s own screenplay; no screenwriting-credits resolution asserted. Director fact only.",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-11-09",
+      "access": "available",
+      "checkedFields": [
+        "director identity",
+        "specific production binding"
+      ]
     }
   ],
   "records": [
@@ -21464,6 +21490,44 @@
         "This credit documents the specified edition; it does not assert the same artwork in all later editions."
       ],
       "note": "Reuse the existing artist and work, with edition-specific contribution scope. No story authorship, artwork import or speculative ISBN."
+    },
+    {
+      "key": "flanagan-gerald-director",
+      "entityType": "credit",
+      "personId": "per:000022",
+      "subject": {
+        "type": "adaptation",
+        "id": "adp:000021"
+      },
+      "role": "director",
+      "creditedAs": null,
+      "scope": "Film director",
+      "characterId": null,
+      "sourceKeys": [
+        "flanagan-gerald-director"
+      ],
+      "checked": "2026-11-09",
+      "open": [],
+      "note": "Verified production-specific direction credit on existing maker and adaptation identities. Earlier textual maker observations remain preserved; no screenplay or cast identity inferred."
+    },
+    {
+      "key": "flanagan-sleep-director",
+      "entityType": "credit",
+      "personId": "per:000022",
+      "subject": {
+        "type": "adaptation",
+        "id": "adp:000015"
+      },
+      "role": "director",
+      "creditedAs": null,
+      "scope": "Film director",
+      "characterId": null,
+      "sourceKeys": [
+        "flanagan-sleep-director"
+      ],
+      "checked": "2026-11-09",
+      "open": [],
+      "note": "Verified production-specific direction credit on existing maker and adaptation identities. Earlier textual maker observations remain preserved; no screenplay or cast identity inferred."
     }
   ],
   "deferred": [
@@ -31482,6 +31546,24 @@
       "checked": "2026-11-09",
       "locator": "Named official picture-book and limited-edition records; short reader introduction scoped to the identified illustrations.",
       "note": "Existing person retained; visual contribution is distinct from authorship and editions are not merged."
+    },
+    {
+      "key": "flanagan-reading-profile",
+      "subject": {
+        "type": "person",
+        "id": "per:000022"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Mike Flanagan is a filmmaker who directed Gerald’s Game and Doctor Sleep, adapting two Stephen King novels for the screen."
+      },
+      "sourceKeys": [
+        "flanagan-gerald-director",
+        "flanagan-sleep-director"
+      ],
+      "checked": "2026-11-09",
+      "locator": "Named official director credits for the two existing productions; short independently worded reader profile.",
+      "note": "No new production, film release date or first-publication claim."
     }
   ]
 }

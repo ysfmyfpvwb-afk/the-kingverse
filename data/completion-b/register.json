@@ -3936,6 +3936,18 @@
     "claim/ned-waste-lands-illustrator/subject": "clm:011302",
     "claim/ned-waste-lands-illustrator/role": "clm:011303",
     "claim/ned-waste-lands-illustrator/scope": "clm:011304",
-    "claim/ned-dameron-reading-profile": "clm:011305"
+    "claim/ned-dameron-reading-profile": "clm:011305",
+    "source/flanagan-gerald-director": "src:000773",
+    "credit/flanagan-gerald-director": "crd:000397",
+    "claim/flanagan-gerald-director/personId": "clm:011306",
+    "claim/flanagan-gerald-director/subject": "clm:011307",
+    "claim/flanagan-gerald-director/role": "clm:011308",
+    "claim/flanagan-gerald-director/scope": "clm:011309",
+    "credit/flanagan-sleep-director": "crd:000398",
+    "claim/flanagan-sleep-director/personId": "clm:011310",
+    "claim/flanagan-sleep-director/subject": "clm:011311",
+    "claim/flanagan-sleep-director/role": "clm:011312",
+    "claim/flanagan-sleep-director/scope": "clm:011313",
+    "claim/flanagan-reading-profile": "clm:011314"
   }
 }
