@@ -8891,6 +8891,21 @@
         "publisher",
         "language context"
       ]
+    },
+    {
+      "key": "blue-air-version-history-source",
+      "url": "https://diezukunft.de/news/buch/koenigliche-raritaet",
+      "publisher": "Die Zukunft / Heyne Verlag",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-11-09",
+      "access": "available",
+      "locator": "Christian Endres, Königliche Rarität, 11 January 2018: The Blue Air Compressor published in Onan Magazine at the University of Maine in 1971, revised for Heavy Metal in 1981. The publisher portal footer identifies Heyne. Keep year precision; do not infer January/July or a date from copyright. Official StephenKing.com 2018 anthology appearance remains separate. Festa page timed out; not used as inspected evidence.",
+      "checkedFields": [
+        "existing story identity",
+        "original periodical and year",
+        "revised periodical and year",
+        "no synthesized month/day"
+      ]
     }
   ],
   "records": [
@@ -21297,6 +21312,60 @@
         "This is a French publication, not an English release date. German edition metadata and specific translation credits are outside this review."
       ],
       "note": "Author announcement binds the translated title to the existing work; publisher metadata confirms the French digital release. Preserve the later 2015 English collection observation and all canonical identities."
+    },
+    {
+      "key": "blue-air-1971-onan",
+      "entityType": "publication",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000218"
+      },
+      "eventType": "first-publication",
+      "date": {
+        "value": "1971",
+        "precision": "year",
+        "meaning": "first-publication",
+        "territory": null
+      },
+      "editionId": null,
+      "part": null,
+      "publisher": "Onan Magazine",
+      "reportedTitle": "The Blue Air Compressor — Onan Magazine original publication",
+      "sourceKeys": [
+        "blue-air-version-history-source"
+      ],
+      "checked": "2026-11-09",
+      "open": [
+        "Year-level publisher history; exact issue/month/day and textual changes not independently examined."
+      ],
+      "note": "Publisher editorial history distinguishes original and revised text without creating another work identity. Existing 2018 anthology observation retained; no story prose or images imported."
+    },
+    {
+      "key": "blue-air-1981-revision",
+      "entityType": "publication",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000218"
+      },
+      "eventType": "revision",
+      "date": {
+        "value": "1981",
+        "precision": "year",
+        "meaning": "revision",
+        "territory": null
+      },
+      "editionId": null,
+      "part": null,
+      "publisher": "Heavy Metal",
+      "reportedTitle": "The Blue Air Compressor — revised text in Heavy Metal",
+      "sourceKeys": [
+        "blue-air-version-history-source"
+      ],
+      "checked": "2026-11-09",
+      "open": [
+        "Year-level publisher history; exact issue/month/day and textual changes not independently examined."
+      ],
+      "note": "Publisher editorial history distinguishes original and revised text without creating another work identity. Existing 2018 anthology observation retained; no story prose or images imported."
     }
   ],
   "deferred": [

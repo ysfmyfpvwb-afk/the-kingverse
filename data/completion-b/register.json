@@ -3908,6 +3908,19 @@
     "claim/bad-kid-french-2014-appearance/date": "clm:011282",
     "claim/bad-kid-french-2014-appearance/publisher": "clm:011283",
     "claim/bad-kid-french-2014-appearance/reportedTitle": "clm:011284",
-    "claim/bad-kid-publication-context": "clm:011285"
+    "claim/bad-kid-publication-context": "clm:011285",
+    "source/blue-air-version-history-source": "src:000768",
+    "publication/blue-air-1971-onan": "pub:000317",
+    "claim/blue-air-1971-onan/subject": "clm:011286",
+    "claim/blue-air-1971-onan/eventType": "clm:011287",
+    "claim/blue-air-1971-onan/date": "clm:011288",
+    "claim/blue-air-1971-onan/publisher": "clm:011289",
+    "claim/blue-air-1971-onan/reportedTitle": "clm:011290",
+    "publication/blue-air-1981-revision": "pub:000318",
+    "claim/blue-air-1981-revision/subject": "clm:011291",
+    "claim/blue-air-1981-revision/eventType": "clm:011292",
+    "claim/blue-air-1981-revision/date": "clm:011293",
+    "claim/blue-air-1981-revision/publisher": "clm:011294",
+    "claim/blue-air-1981-revision/reportedTitle": "clm:011295"
   }
 }
