@@ -3921,6 +3921,10 @@
     "claim/blue-air-1981-revision/eventType": "clm:011292",
     "claim/blue-air-1981-revision/date": "clm:011293",
     "claim/blue-air-1981-revision/publisher": "clm:011294",
-    "claim/blue-air-1981-revision/reportedTitle": "clm:011295"
+    "claim/blue-air-1981-revision/reportedTitle": "clm:011295",
+    "source/dave-barry-profile-source": "src:000769",
+    "source/amy-tan-profile-source": "src:000770",
+    "claim/dave-barry-reading-profile": "clm:011296",
+    "claim/amy-tan-reading-profile": "clm:011297"
   }
 }

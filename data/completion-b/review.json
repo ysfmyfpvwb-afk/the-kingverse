@@ -8906,6 +8906,30 @@
         "revised periodical and year",
         "no synthesized month/day"
       ]
+    },
+    {
+      "key": "dave-barry-profile-source",
+      "url": "https://www.simonandschuster.com/authors/Dave-Barry/1327372",
+      "publisher": "Simon & Schuster",
+      "locator": "About the Author: humor writing, syndicated columnist, Swamp Story, Lessons from Lucy and 1988 Pulitzer Prize for commentary. No residence, contact details or image imported.",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-11-09",
+      "access": "available",
+      "checkedFields": [
+        "short English maker introduction only; existing King contributions unchanged"
+      ]
+    },
+    {
+      "key": "amy-tan-profile-source",
+      "url": "https://www.penguinrandomhouse.com/authors/30521/amy-tan/",
+      "publisher": "Penguin Random House",
+      "locator": "Author biography identifies The Joy Luck Club and The Bonesetter’s Daughter, and co-screenwriter/co-producer roles on The Joy Luck Club film. No residence, contact details or image imported.",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-11-09",
+      "access": "available",
+      "checkedFields": [
+        "short English maker introduction only; existing King contributions unchanged"
+      ]
     }
   ],
   "records": [
@@ -31281,6 +31305,40 @@
       },
       "locator": "Existing official reading introduction, author’s 2014 announcement, French publisher publication metadata and official story’s later English collection entry.",
       "note": "Preserve the premise and add explicit language context so a 2014 work year is not mistaken for English publication."
+    },
+    {
+      "key": "dave-barry-reading-profile",
+      "subject": {
+        "type": "person",
+        "id": "per:000009"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Dave Barry is a humor writer and syndicated columnist. His books include Swamp Story and Lessons from Lucy, and he received the 1988 Pulitzer Prize for commentary."
+      },
+      "sourceKeys": [
+        "dave-barry-profile-source"
+      ],
+      "checked": "2026-11-09",
+      "locator": "Named official publisher author biography; independently worded short reader profile.",
+      "note": "Add a visitor introduction to an existing maker. Existing Mid-Life Confidential contributor roles and literary identities remain unchanged."
+    },
+    {
+      "key": "amy-tan-reading-profile",
+      "subject": {
+        "type": "person",
+        "id": "per:000010"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Amy Tan is a novelist whose books include The Joy Luck Club and The Bonesetter’s Daughter. She also worked as a co-screenwriter and co-producer on the film of The Joy Luck Club."
+      },
+      "sourceKeys": [
+        "amy-tan-profile-source"
+      ],
+      "checked": "2026-11-09",
+      "locator": "Named official publisher author biography; independently worded short reader profile.",
+      "note": "Add a visitor introduction to an existing maker. Existing Mid-Life Confidential contributor roles and literary identities remain unchanged."
     }
   ]
 }
