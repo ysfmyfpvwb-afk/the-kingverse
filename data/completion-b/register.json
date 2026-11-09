@@ -3925,6 +3925,10 @@
     "source/dave-barry-profile-source": "src:000769",
     "source/amy-tan-profile-source": "src:000770",
     "claim/dave-barry-reading-profile": "clm:011296",
-    "claim/amy-tan-reading-profile": "clm:011297"
+    "claim/amy-tan-reading-profile": "clm:011297",
+    "source/gabriel-profile-source": "src:000771",
+    "claim/gabriel-rodriguez-reading-profile": "clm:011298",
+    "claim/ben-baldwin-reading-profile": "clm:011299",
+    "claim/keith-minnion-reading-profile": "clm:011300"
   }
 }

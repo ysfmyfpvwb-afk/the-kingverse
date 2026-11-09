@@ -8930,6 +8930,31 @@
       "checkedFields": [
         "short English maker introduction only; existing King contributions unchanged"
       ]
+    },
+    {
+      "key": "gabriel-profile-source",
+      "url": "https://idwpublishing.com/blogs/news/idwbrands-com-idw-previews-four-tantalizing-pages-from-2021s-most-hotly-anticipated-comic-book-crossover-locke-key-the-sandman-universe-hell-gone",
+      "publisher": "IDW Publishing",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-11-09",
+      "access": "available",
+      "locator": "About the Creators identifies Gabriel Rodríguez as illustrator and Locke & Key co-creator with Joe Hill. No story crossover or King-universe connection inferred from that separate comics collaboration.",
+      "checkedFields": [
+        "short maker biography only"
+      ]
+    },
+    {
+      "key": "gwendy-artist-profiles-source",
+      "url": "https://www.cemeterydance.com/gwendys-magic-feather.html",
+      "publisher": "Cemetery Dance Publications",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-11-09",
+      "access": "available",
+      "locator": "Named credits: Ben Baldwin cover artwork; Keith Minnion interior artwork; Richard Chizmar author; Stephen King foreword. Only short introductions for the existing illustrator identities added.",
+      "checkedFields": [
+        "cover versus interior illustration role",
+        "existing book contribution"
+      ]
     }
   ],
   "records": [
@@ -31339,6 +31364,57 @@
       "checked": "2026-11-09",
       "locator": "Named official publisher author biography; independently worded short reader profile.",
       "note": "Add a visitor introduction to an existing maker. Existing Mid-Life Confidential contributor roles and literary identities remain unchanged."
+    },
+    {
+      "key": "gabriel-rodriguez-reading-profile",
+      "subject": {
+        "type": "person",
+        "id": "per:000005"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Gabriel Rodríguez is a comics artist who co-created Locke & Key with writer Joe Hill. His work includes illustrations for horror and fantasy comics."
+      },
+      "sourceKeys": [
+        "gabriel-profile-source"
+      ],
+      "checked": "2026-11-09",
+      "locator": "Named official publisher biography or specific artwork credits; independently worded reader introduction.",
+      "note": "Existing person and artist roles retained. No story authorship, new relationship, art download or rights claim."
+    },
+    {
+      "key": "ben-baldwin-reading-profile",
+      "subject": {
+        "type": "person",
+        "id": "per:000050"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Ben Baldwin is the cover artist for Gwendy’s Magic Feather, Richard Chizmar’s novel in the Gwendy sequence. His artwork appears on the Cemetery Dance edition."
+      },
+      "sourceKeys": [
+        "gwendy-artist-profiles-source"
+      ],
+      "checked": "2026-11-09",
+      "locator": "Named official publisher biography or specific artwork credits; independently worded reader introduction.",
+      "note": "Existing person and artist roles retained. No story authorship, new relationship, art download or rights claim."
+    },
+    {
+      "key": "keith-minnion-reading-profile",
+      "subject": {
+        "type": "person",
+        "id": "per:000051"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Keith Minnion created the interior illustrations for Gwendy’s Magic Feather. His artwork accompanies Richard Chizmar’s novel in the Cemetery Dance edition."
+      },
+      "sourceKeys": [
+        "gwendy-artist-profiles-source"
+      ],
+      "checked": "2026-11-09",
+      "locator": "Named official publisher biography or specific artwork credits; independently worded reader introduction.",
+      "note": "Existing person and artist roles retained. No story authorship, new relationship, art download or rights claim."
     }
   ]
 }
