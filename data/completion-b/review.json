@@ -9047,6 +9047,32 @@
       "checkedFields": [
         "specific film director"
       ]
+    },
+    {
+      "key": "firestarter-lester-profile",
+      "url": "https://www.universalpicturesathome.com/movies/firestarter-1984?page=1",
+      "publisher": "Universal Pictures Home Entertainment",
+      "sourceType": "official-production",
+      "observedAt": "2026-11-09",
+      "access": "available",
+      "locator": "Production-specific heading, release year and Directed By field. Only named director and specific version used; existing posters, actors and dates not reassigned.",
+      "checkedFields": [
+        "director identity",
+        "original/remake year binding"
+      ]
+    },
+    {
+      "key": "firestarter-thomas-profile",
+      "url": "https://www.universalpicturesathome.com/movies/firestarter-2022",
+      "publisher": "Universal Pictures Home Entertainment",
+      "sourceType": "official-production",
+      "observedAt": "2026-11-09",
+      "access": "available",
+      "locator": "Production-specific heading, release year and Directed By field. Only named director and specific version used; existing posters, actors and dates not reassigned.",
+      "checkedFields": [
+        "director identity",
+        "original/remake year binding"
+      ]
     }
   ],
   "records": [
@@ -31678,6 +31704,40 @@
       "note": "Extend the existing maker profile; preserve the earlier sourced description as an unselected claim.",
       "checked": "2026-11-09",
       "supersedes": "flanagan-reading-profile"
+    },
+    {
+      "key": "firestarter-lester-profile",
+      "subject": {
+        "type": "person",
+        "id": "per:000014"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Mark L. Lester directed the 1984 film adaptation of Firestarter, based on Stephen King’s novel."
+      },
+      "sourceKeys": [
+        "firestarter-lester-profile"
+      ],
+      "locator": "Universal production-specific director credit, independently worded reader profile.",
+      "note": "Existing person and credits retained; no new adaptation or media import.",
+      "checked": "2026-11-09"
+    },
+    {
+      "key": "firestarter-thomas-profile",
+      "subject": {
+        "type": "person",
+        "id": "per:000015"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Keith Thomas directed Firestarter in 2022, bringing Stephen King’s novel to the screen in a later film adaptation."
+      },
+      "sourceKeys": [
+        "firestarter-thomas-profile"
+      ],
+      "locator": "Universal production-specific director credit, independently worded reader profile.",
+      "note": "Existing person and credits retained; no new adaptation or media import.",
+      "checked": "2026-11-09"
     }
   ]
 }
