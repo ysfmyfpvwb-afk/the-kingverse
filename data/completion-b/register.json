@@ -3954,6 +3954,12 @@
     "claim/mary-pet-two-director/subject": "clm:011316",
     "claim/mary-pet-two-director/role": "clm:011317",
     "claim/mary-pet-two-director/scope": "clm:011318",
-    "claim/mary-lambert-reading-profile": "clm:011319"
+    "claim/mary-lambert-reading-profile": "clm:011319",
+    "credit/flanagan-chuck-director": "crd:000400",
+    "claim/flanagan-chuck-director/personId": "clm:011320",
+    "claim/flanagan-chuck-director/subject": "clm:011321",
+    "claim/flanagan-chuck-director/role": "clm:011322",
+    "claim/flanagan-chuck-director/scope": "clm:011323",
+    "claim/flanagan-three-films-profile": "clm:011324"
   }
 }
