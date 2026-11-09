@@ -9216,6 +9216,42 @@
       "checkedFields": [
         "specific 2007 film direction"
       ]
+    },
+    {
+      "key": "kubrick-shining",
+      "url": "https://stephenking.com/works/movie/shining.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-11-09",
+      "access": "available",
+      "locator": "Production-specific Director(s) field; Carrie also names Lawrence D. Cohen as screenwriter, Maximum Overdrive names Stephen King as both writer and director. No complete screenplay-team claim for The Shining, source synopsis, rating or image imported.",
+      "checkedFields": [
+        "specific production and maker role only"
+      ]
+    },
+    {
+      "key": "depalma-carrie",
+      "url": "https://stephenking.com/works/movie/carrie.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-11-09",
+      "access": "available",
+      "locator": "Production-specific Director(s) field; Carrie also names Lawrence D. Cohen as screenwriter, Maximum Overdrive names Stephen King as both writer and director. No complete screenplay-team claim for The Shining, source synopsis, rating or image imported.",
+      "checkedFields": [
+        "specific production and maker role only"
+      ]
+    },
+    {
+      "key": "king-maximum-overdrive",
+      "url": "https://stephenking.com/works/movie/maximum-overdrive.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-11-09",
+      "access": "available",
+      "locator": "Production-specific Director(s) field; Carrie also names Lawrence D. Cohen as screenwriter, Maximum Overdrive names Stephen King as both writer and director. No complete screenplay-team claim for The Shining, source synopsis, rating or image imported.",
+      "checkedFields": [
+        "specific production and maker role only"
+      ]
     }
   ],
   "records": [
@@ -21926,6 +21962,140 @@
       "checked": "2026-11-09",
       "open": [],
       "note": "Production-specific credit on the manually reviewed new Darabont identity; not the 2017 series."
+    },
+    {
+      "key": "stanley-kubrick",
+      "entityType": "person",
+      "name": "Stanley Kubrick",
+      "aliases": [],
+      "pseudonyms": [],
+      "externalIds": {},
+      "summary": {
+        "en": "Stanley Kubrick directed the 1980 film The Shining, adapting Stephen King’s novel for the screen."
+      },
+      "sourceKeys": [
+        "kubrick-shining"
+      ],
+      "checked": "2026-11-09",
+      "open": [],
+      "note": "New explicitly reviewed maker identity, independent of title/year and without an existing canonical duplicate."
+    },
+    {
+      "key": "brian-de-palma",
+      "entityType": "person",
+      "name": "Brian De Palma",
+      "aliases": [],
+      "pseudonyms": [],
+      "externalIds": {},
+      "summary": {
+        "en": "Brian De Palma directed Carrie in 1976, the film adaptation starring Sissy Spacek."
+      },
+      "fieldSourceKeys": {
+        "summary": [
+          "depalma-carrie"
+        ]
+      },
+      "sourceKeys": [
+        "depalma-carrie"
+      ],
+      "checked": "2026-11-09",
+      "open": [],
+      "note": "New explicitly reviewed maker identity; 1976 production distinct from later remakes."
+    },
+    {
+      "key": "kubrick-shining-director",
+      "entityType": "credit",
+      "personId": "per:000063",
+      "subject": {
+        "type": "adaptation",
+        "id": "adp:000046"
+      },
+      "role": "director",
+      "creditedAs": null,
+      "scope": "Film director",
+      "characterId": null,
+      "sourceKeys": [
+        "kubrick-shining"
+      ],
+      "checked": "2026-11-09",
+      "open": [],
+      "note": "Manually reviewed production-specific credit; preserve literary authorship, existing maker IDs and separate remake identities."
+    },
+    {
+      "key": "depalma-carrie-director",
+      "entityType": "credit",
+      "personId": "per:000064",
+      "subject": {
+        "type": "adaptation",
+        "id": "adp:000004"
+      },
+      "role": "director",
+      "creditedAs": null,
+      "scope": "Film director",
+      "characterId": null,
+      "sourceKeys": [
+        "depalma-carrie"
+      ],
+      "checked": "2026-11-09",
+      "open": [],
+      "note": "Manually reviewed production-specific credit; preserve literary authorship, existing maker IDs and separate remake identities."
+    },
+    {
+      "key": "king-overdrive-director",
+      "entityType": "credit",
+      "personId": "per:000001",
+      "subject": {
+        "type": "adaptation",
+        "id": "adp:000031"
+      },
+      "role": "director",
+      "creditedAs": null,
+      "scope": "Film director",
+      "characterId": null,
+      "sourceKeys": [
+        "king-maximum-overdrive"
+      ],
+      "checked": "2026-11-09",
+      "open": [],
+      "note": "Manually reviewed production-specific credit; preserve literary authorship, existing maker IDs and separate remake identities."
+    },
+    {
+      "key": "king-overdrive-screenwriter",
+      "entityType": "credit",
+      "personId": "per:000001",
+      "subject": {
+        "type": "adaptation",
+        "id": "adp:000031"
+      },
+      "role": "screenwriter",
+      "creditedAs": null,
+      "scope": "Screenplay",
+      "characterId": null,
+      "sourceKeys": [
+        "king-maximum-overdrive"
+      ],
+      "checked": "2026-11-09",
+      "open": [],
+      "note": "Manually reviewed production-specific credit; preserve literary authorship, existing maker IDs and separate remake identities."
+    },
+    {
+      "key": "cohen-carrie1976-screenwriter",
+      "entityType": "credit",
+      "personId": "per:000020",
+      "subject": {
+        "type": "adaptation",
+        "id": "adp:000004"
+      },
+      "role": "screenwriter",
+      "creditedAs": null,
+      "scope": "Screenplay",
+      "characterId": null,
+      "sourceKeys": [
+        "depalma-carrie"
+      ],
+      "checked": "2026-11-09",
+      "open": [],
+      "note": "Manually reviewed production-specific credit; preserve literary authorship, existing maker IDs and separate remake identities."
     }
   ],
   "deferred": [
@@ -32255,6 +32425,25 @@
       "locator": "Production description names episode-specific direction separately from showrunner duties.",
       "note": "Existing person and episode credit retained; concise reader introduction adds no whole-series, actor or plot claim.",
       "checked": "2026-11-09"
+    },
+    {
+      "key": "lawrence-cohen-two-carrie-profile",
+      "subject": {
+        "type": "person",
+        "id": "per:000020"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Lawrence D. Cohen wrote the screenplay for Carrie (1976) and shares the screenplay credit for the 2013 adaptation with Roberto Aguirre-Sacasa."
+      },
+      "sourceKeys": [
+        "depalma-carrie",
+        "carrie2013-maker-profiles"
+      ],
+      "locator": "Separate named screenplay credits on the official 1976 work page and the 2013 production-company page.",
+      "note": "Extend the existing maker profile across two specifically verified productions without merging remakes or screenwriting partners.",
+      "checked": "2026-11-09",
+      "supersedes": "lawrence-cohen-reading-profile"
     }
   ]
 }
