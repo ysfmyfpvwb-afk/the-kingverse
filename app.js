@@ -257,7 +257,7 @@ function applyLang() {
   $('search').setAttribute('aria-label',tr('Zoeken','Search'));$('searchButtonLabel').textContent=tr('Zoek','Search');$('searchButton').setAttribute('aria-label',tr('Zoek in de catalogus','Search the catalog'));$('filter').setAttribute('aria-label',tr('Filter op type of bundel','Filter by type or collection'));$('sort').setAttribute('aria-label',tr('Sorteren','Sort'));$('results').setAttribute('aria-label',labelHeading());
   $('sort').options[0].textContent=tr('Chronologisch','Chronological');$('sort').options[1].textContent=tr('Alfabetisch','Alphabetical');$('close').textContent=tr('✕ Sluiten','✕ Close');
   $('stats').innerHTML = [[B.length,tr('boeken en bundels','books & collections')],[S.length,tr('verhaalvermeldingen','story entries')],[F.length,tr('film- en tv-vermeldingen','film & TV entries')],[T.length,tr('Dark Tower-links','Dark Tower links')]].map(([count,label])=>`<div class="stat"><strong>${count}</strong><span>${label}</span></div>`).join('');
-  document.querySelector('footer').innerHTML = tr('THE KINGVERSE · Een archief voor liefhebbers.','THE KINGVERSE · A constant reader’s archive.') + ` <a href="about.html">${tr('Over The Kingverse','About The Kingverse')}</a> 🌹`;
+  document.querySelector('footer').innerHTML = tr('THE KINGVERSE · Every story has a connection.','THE KINGVERSE · Every story has a connection.') + ` <a href="about.html">${tr('Over The Kingverse','About The Kingverse')}</a> 🌹`;
 }
 function setLang(next) {
   lang=next; try {localStorage.setItem('kingverse-lang',next);} catch { /* Keep the language usable without storage. */ }

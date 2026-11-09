@@ -2,7 +2,7 @@
   "batch": "05-connected-universe",
   "completeMigration": false,
   "inputSha256": "188ebe73bee8d3c955f09dba6ed9df85ce63228d9c9c3dbba37bba68284814a3",
-  "allocationSha256": "2e540d21c07b4fcc186aca4d920dcb43ea309da1a95c82e0c2d9865c9227a130",
+  "allocationSha256": "b3f57d17b167ccca21961fec922919bf8bb5bcdae825fe525709073abaecb902",
   "records": [
     {
       "sourcePointer": "/books/0",
@@ -140271,32 +140271,32 @@
     "editions": 154
   },
   "unchangedFiles": {
-    "index.html": "ac8ae5c881e5b20e77046a8fa498a90563a733a308d0c90b7ee649202208c5db",
-    "app.js": "a9dfb0bf874d23f96ea0cb267cf2b05a09345faf09bc67f47b3700e844144ef3",
+    "index.html": "875b59f5a71412363b4aaa67cd170f02d0fc82e92358a5fbd5e5c3abbaa14259",
+    "app.js": "7e9496264c6e61ae36b9952192994b741b7e08f4c18676c5e0b650f9e7e0e1b9",
     "catalog.js": "188ebe73bee8d3c955f09dba6ed9df85ce63228d9c9c3dbba37bba68284814a3",
     "media.js": "18cc37c77db4e1f59df4840b395fd1a2e2aecb308cfc1b5fa0ca5d79371134c5",
     "styles.css": "96231a71e2eaa6aaa12552c3f6f7efea3e0fb7206304e12088a4afbcbcd9113b",
-    "about.html": "440907754a9d78614f8ad534660e8e8e08c6dcdb91e54c497a4585ee17f12001",
+    "about.html": "728f2054032d6e7a73900aaf849571e024abdd9a57d683560ac3aba3d4458241",
     "about.js": "25f02fe0094dfdf71590c562153e12fb966543fdba713ee77d71d69e9b4f1270",
     "data/import-v1.4.json": "3dd5e83e846bbf42c22a734dc968eedc2cb3054212d524c8c10d310fc6aa5221",
     "data/legacy-v1.4.json": "311a955db6ea8a1a41787ad0af5660776016c4edc7fcc2477344c5cdfb800a92",
-    "explorer/character/000001/index.html": "940b77fb83110b0d1bc3588ba01a1346ac080498c241564705d05114416c3302",
+    "explorer/character/000001/index.html": "1815eaee35d8448ec77027ca83492da1960be85a16d573b55224c16619fc13d5",
     "explorer/character/000001/plot.json": "ac835e5f801f060b8ab24ee954b77f42ffc65490c77c8891524f65ab1e6a7f90",
-    "explorer/character/000002/index.html": "03603f587f48c36f461cc066038a2cc491710736fb2f897d2d6dcdad3cb7322a",
+    "explorer/character/000002/index.html": "ee8c2e1b350787b283c269bd7364b2e9ff945b42fd7daae5a3ed13be50ed74e5",
     "explorer/character/000002/plot.json": "ac835e5f801f060b8ab24ee954b77f42ffc65490c77c8891524f65ab1e6a7f90",
     "explorer/explorer.css": "e317010b9a604c5d5c8415b05993f4312598ae025ff0c22826ea2a0abf8c0ee6",
     "explorer/explorer.js": "f50ec1b434cfc0b6b600932797a9e94b1c98f5a92751e80b1399b55fe350c58b",
-    "explorer/index.html": "bb863e6b22c067f4fb366a83bafe1540785f580055cb51141a47597b8341d2c5",
-    "explorer/location/000001/index.html": "957a3ef1b02ebd378526d23f419d7764b40ff1d9e23ff2508dd0be8b31493b9b",
+    "explorer/index.html": "42cc883267d94d2809bb6bc1727c5d37afd4b2a9dccdfaa606cd593f2c53d743",
+    "explorer/location/000001/index.html": "ca8fb0926f946ed87fc7d5530a7dde614e49cb5a37b5e8a8de120becbb659955",
     "explorer/location/000001/plot.json": "ac835e5f801f060b8ab24ee954b77f42ffc65490c77c8891524f65ab1e6a7f90",
-    "explorer/person/000001/index.html": "d6ed0b9a48a84b927697b59df44fae05471164aa75a869ab34c794dbf6b0bbad",
+    "explorer/person/000001/index.html": "b5065cff917b6db17d7ea2a393e260a77dbc52ba95bf1c1f5865c7fbf613914a",
     "explorer/person/000001/plot.json": "ac835e5f801f060b8ab24ee954b77f42ffc65490c77c8891524f65ab1e6a7f90",
-    "explorer/person/000002/index.html": "a8df8b0b8b33635f2816e5f920cf1282c95918cba23115b605e8bbd19617a90d",
+    "explorer/person/000002/index.html": "2d6e66c47bb34cb0a4182be7f7852a2e83e2de46184cb3229307a281c31fb22a",
     "explorer/person/000002/plot.json": "ac835e5f801f060b8ab24ee954b77f42ffc65490c77c8891524f65ab1e6a7f90",
     "explorer/plot.json": "13dc8ccd6dbfd970a53285941b9bf7a3db2933e9ce3d96d6351713b8627dfb7b",
-    "explorer/work/000001/index.html": "94fa22cad005b2a6be6e4c2abf890d3116901cbb88504e51ca72b6f1e75f7e85",
+    "explorer/work/000001/index.html": "82a0c5d74b7ef3edc570eaaeefebe432971f5861a784af004e15270d0aadbf54",
     "explorer/work/000001/plot.json": "88b0de3847a44687cdc558533640da3dead15cd2b6b29edb3778d84e08046475",
-    "explorer/work/000002/index.html": "96f6e7aaa4005778bb77c1c9c1328dce1027fa5e629af06d223230d8a1a4f278",
+    "explorer/work/000002/index.html": "ba14cab079f2023eabe5ad33e17ecc43e65f315a8ee12b31ea26b841eba92eb6",
     "explorer/work/000002/plot.json": "9f72093ed604a7a2a21b9d72a3ebf1a5dac8b619a86e166986181990f8ee7978",
     "data/v2/adaptations.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
     "data/v2/artworks.json": "f91f2f611e24c21d9245719d1386902cb1aa3ab8a0f1df1ac6f6629446c77138",
@@ -140309,14 +140309,14 @@
     "data/v2/editions.json": "13b05834a21dafa7416eb12fa4d600939f88fd6b03160e38a0cb79bd28442906",
     "data/v2/externalReferences.json": "d6a1ddebe536d52c89d4dfc3b6c8c7dcf345aac30fab1d78f6ef28802d3d4cd4",
     "data/v2/locations.json": "fd8f861dedd8d78f4a4efbd6166d321413412c1da8a22871af8f995cfbd9ca7f",
-    "data/v2/manifest.json": "e6d2b97c2ef447add1ce399422c2609eff4d8fa613bae563fa98cdf500d8a1be",
+    "data/v2/manifest.json": "60f606dede349ab1486e6bb68e6a0516d7e3f4587de562d53b81fb3ce6adcf7b",
     "data/v2/people.json": "6ed0b3e2b62e5cc9876a505b5f25d1aa1269c8385b6d8b5e6bce717e73baf5c5",
     "data/v2/publicationEvents.json": "4f23c8729a5f1806f1fc7e7de78fbf5624b5498d9cbeb09fad4b8d202a4676e2",
     "data/v2/registry.json": "6a0c5fe2ec6d8f1bc9df9461af5ddf1c50f93b5be72c3fef240a0a3a71e41dbe",
     "data/v2/sources.json": "1c651d58fb3f103eece5168eb7203a679e238a6901c0fc2a17d784b1e38952c3",
     "data/v2/works.json": "1fe2ae3803cc0b2c84f35df33e56c43c9250c8a02d442d5c4212e9711df014f8"
   },
-  "additionalAllocationSha256": "fcf52368c694936812179384ea3209511aa8f9fe2ee5c8bf8605136030c26660",
+  "additionalAllocationSha256": "a85f175420a2081a2b6518ddd87efd5d9c0ae4ed1859f961c0931a50cae0d748",
   "batch01RecordCount": 86,
   "batch02RecordCount": 173,
   "definitions": {
@@ -140331,7 +140331,7 @@
     "release": "Source-reported observation with precision and territory; no universal first-premiere claim.",
     "posterReady": "Ownership + documented reuse rights + permitted reliable delivery; zero currently meet this gate."
   },
-  "batch03AllocationSha256": "cb91525e3c56c471c818ddacb21a273c76e6b560253e0c6400dd19aac5d6e518",
+  "batch03AllocationSha256": "df19e37375c16f6fa635a2505324e7f5a586ae2fff60b468ae771c40dbd5ac62",
   "editionRecordCount": 154,
   "editionRecords": [
     {
@@ -143131,7 +143131,7 @@
       ]
     }
   ],
-  "batch04AllocationSha256": "cf7b5747d030bfad3f7996845fdd6505e22b762b2ee2a9df22a2986bc20025da",
+  "batch04AllocationSha256": "c62cb97c018dcf5c5163355e96a3b749045591629a6a18f9e3ce16b6c175c762",
   "screenRecords": [
     {
       "legacyId": "films:a-good-marriage-2014",
