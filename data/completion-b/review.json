@@ -9152,6 +9152,70 @@
         "episode-director identity and bounded role",
         "showrunner context"
       ]
+    },
+    {
+      "key": "darabont-shawshank",
+      "url": "https://stephenking.com/works/movie/shawshank-redemption.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-11-09",
+      "access": "available",
+      "locator": "Specific film Director(s) field. Only maker identity and direction used; no plot, exact release-date correction, cast or image imported.",
+      "checkedFields": [
+        "specific production director",
+        "manually reviewed maker identity across the named film pair"
+      ]
+    },
+    {
+      "key": "darabont-green-mile",
+      "url": "https://stephenking.com/works/movie/green-mile.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-11-09",
+      "access": "available",
+      "locator": "Specific film Director(s) field. Only maker identity and direction used; no plot, exact release-date correction, cast or image imported.",
+      "checkedFields": [
+        "specific production director",
+        "manually reviewed maker identity across the named film pair"
+      ]
+    },
+    {
+      "key": "reiner-stand-by-me",
+      "url": "https://stephenking.com/works/movie/stand-by-me.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-11-09",
+      "access": "available",
+      "locator": "Specific film Director(s) field. Only maker identity and direction used; no plot, exact release-date correction, cast or image imported.",
+      "checkedFields": [
+        "specific production director",
+        "manually reviewed maker identity across the named film pair"
+      ]
+    },
+    {
+      "key": "reiner-misery",
+      "url": "https://stephenking.com/works/movie/misery.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-11-09",
+      "access": "available",
+      "locator": "Specific film Director(s) field. Only maker identity and direction used; no plot, exact release-date correction, cast or image imported.",
+      "checkedFields": [
+        "specific production director",
+        "manually reviewed maker identity across the named film pair"
+      ]
+    },
+    {
+      "key": "darabont-mist",
+      "url": "https://stephenking.com/works/movie/mist.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-11-09",
+      "access": "available",
+      "locator": "2007 film The Mist explicitly names Frank Darabont as director. Only the film credit used; 2017 television series, plot details, screenplay and release-date corrections not imported.",
+      "checkedFields": [
+        "specific 2007 film direction"
+      ]
     }
   ],
   "records": [
@@ -21730,6 +21794,138 @@
         "This adds Beer’s individually documented credit; it does not claim a newly canonicalized full screenwriting team."
       ],
       "note": "Primary creator interview confirms the co-writing role separately from direction. No new person or film identity."
+    },
+    {
+      "key": "frank-darabont",
+      "entityType": "person",
+      "name": "Frank Darabont",
+      "aliases": [],
+      "pseudonyms": [],
+      "externalIds": {},
+      "summary": {
+        "en": "Frank Darabont directed The Shawshank Redemption, The Green Mile and The Mist, three films based on Stephen King’s fiction."
+      },
+      "sourceKeys": [
+        "darabont-shawshank",
+        "darabont-green-mile",
+        "darabont-mist"
+      ],
+      "checked": "2026-11-09",
+      "open": [],
+      "note": "New manually reviewed maker identity; existing register has no Frank Darabont person. Two named King-film credits bound explicitly, without automatic name merging."
+    },
+    {
+      "key": "rob-reiner",
+      "entityType": "person",
+      "name": "Rob Reiner",
+      "aliases": [],
+      "pseudonyms": [],
+      "externalIds": {},
+      "summary": {
+        "en": "Rob Reiner directed Stand by Me and Misery, bringing two Stephen King stories to the screen."
+      },
+      "sourceKeys": [
+        "reiner-stand-by-me",
+        "reiner-misery"
+      ],
+      "checked": "2026-11-09",
+      "open": [],
+      "note": "New manually reviewed maker identity on two specific film credits; no biography dates, current-status claim or automatic name merge."
+    },
+    {
+      "key": "darabont-shawshank",
+      "entityType": "credit",
+      "personId": "per:000061",
+      "subject": {
+        "type": "adaptation",
+        "id": "adp:000045"
+      },
+      "role": "director",
+      "creditedAs": null,
+      "scope": "Film director",
+      "characterId": null,
+      "sourceKeys": [
+        "darabont-shawshank"
+      ],
+      "checked": "2026-11-09",
+      "open": [],
+      "note": "Manually bound production-specific director credit; original literary authorship, screenwriting observations, movie IDs and posters preserved."
+    },
+    {
+      "key": "darabont-green-mile",
+      "entityType": "credit",
+      "personId": "per:000061",
+      "subject": {
+        "type": "adaptation",
+        "id": "adp:000023"
+      },
+      "role": "director",
+      "creditedAs": null,
+      "scope": "Film director",
+      "characterId": null,
+      "sourceKeys": [
+        "darabont-green-mile"
+      ],
+      "checked": "2026-11-09",
+      "open": [],
+      "note": "Manually bound production-specific director credit; original literary authorship, screenwriting observations, movie IDs and posters preserved."
+    },
+    {
+      "key": "reiner-stand-by-me",
+      "entityType": "credit",
+      "personId": "per:000062",
+      "subject": {
+        "type": "adaptation",
+        "id": "adp:000048"
+      },
+      "role": "director",
+      "creditedAs": null,
+      "scope": "Film director",
+      "characterId": null,
+      "sourceKeys": [
+        "reiner-stand-by-me"
+      ],
+      "checked": "2026-11-09",
+      "open": [],
+      "note": "Manually bound production-specific director credit; original literary authorship, screenwriting observations, movie IDs and posters preserved."
+    },
+    {
+      "key": "reiner-misery",
+      "entityType": "credit",
+      "personId": "per:000062",
+      "subject": {
+        "type": "adaptation",
+        "id": "adp:000032"
+      },
+      "role": "director",
+      "creditedAs": null,
+      "scope": "Film director",
+      "characterId": null,
+      "sourceKeys": [
+        "reiner-misery"
+      ],
+      "checked": "2026-11-09",
+      "open": [],
+      "note": "Manually bound production-specific director credit; original literary authorship, screenwriting observations, movie IDs and posters preserved."
+    },
+    {
+      "key": "darabont-mist",
+      "entityType": "credit",
+      "personId": "per:000061",
+      "subject": {
+        "type": "adaptation",
+        "id": "adp:000033"
+      },
+      "role": "director",
+      "creditedAs": null,
+      "scope": "Film director",
+      "characterId": null,
+      "sourceKeys": [
+        "darabont-mist"
+      ],
+      "checked": "2026-11-09",
+      "open": [],
+      "note": "Production-specific credit on the manually reviewed new Darabont identity; not the 2017 series."
     }
   ],
   "deferred": [
