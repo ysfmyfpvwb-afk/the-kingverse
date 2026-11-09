@@ -8773,6 +8773,21 @@
         "periodical",
         "appearance month and year"
       ]
+    },
+    {
+      "key": "three-magazine-appearances-nov9",
+      "url": "https://stephenking.com/bibliography/",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-11-09",
+      "access": "available",
+      "locator": "Named magazine citations: The Ballad of the Flexible Bullet, Fantasy & Science Fiction June 1984; Everything’s Eventual, Fantasy & Science Fiction October/November 1997; Chattery Teeth, Cemetery Dance Fall 1992. Preserve the combined issue and season in the reported title; retain year precision where the model cannot encode them. No first-publication or textual-version assertion.",
+      "checkedFields": [
+        "named work binding",
+        "magazine",
+        "reported issue or season",
+        "date precision"
+      ]
     }
   ],
   "records": [
@@ -20878,6 +20893,87 @@
         "This verifies a periodical appearance; complete first-publication and textual-version history remain unconfirmed."
       ],
       "note": "Named official bibliography citation on an existing literary identity. No invented day, new work, story text or artwork. Earlier collection evidence retained."
+    },
+    {
+      "key": "ballad-flexible-bullet-fsf",
+      "entityType": "publication",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000116"
+      },
+      "eventType": "source-reported-release",
+      "date": {
+        "value": "1984-06",
+        "precision": "month",
+        "meaning": "source-reported-release",
+        "territory": null
+      },
+      "editionId": null,
+      "part": null,
+      "publisher": "Fantasy & Science Fiction",
+      "reportedTitle": "The Ballad of the Flexible Bullet — Fantasy & Science Fiction, June 1984",
+      "sourceKeys": [
+        "three-magazine-appearances-nov9"
+      ],
+      "checked": "2026-11-09",
+      "open": [
+        "This verifies an appearance; complete first-publication and revision history remain unconfirmed."
+      ],
+      "note": "Official bibliography citation on the existing work. Original issue wording preserved; no synthesized day/month, new story identity, copied prose or image."
+    },
+    {
+      "key": "everythings-eventual-fsf",
+      "entityType": "publication",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000156"
+      },
+      "eventType": "source-reported-release",
+      "date": {
+        "value": "1997",
+        "precision": "year",
+        "meaning": "source-reported-release",
+        "territory": null
+      },
+      "editionId": null,
+      "part": null,
+      "publisher": "Fantasy & Science Fiction",
+      "reportedTitle": "Everything’s Eventual — Fantasy & Science Fiction, October/November 1997",
+      "sourceKeys": [
+        "three-magazine-appearances-nov9"
+      ],
+      "checked": "2026-11-09",
+      "open": [
+        "This verifies an appearance; complete first-publication and revision history remain unconfirmed."
+      ],
+      "note": "Official bibliography citation on the existing work. Original issue wording preserved; no synthesized day/month, new story identity, copied prose or image."
+    },
+    {
+      "key": "chattery-teeth-cemetery",
+      "entityType": "publication",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000128"
+      },
+      "eventType": "source-reported-release",
+      "date": {
+        "value": "1992",
+        "precision": "year",
+        "meaning": "source-reported-release",
+        "territory": null
+      },
+      "editionId": null,
+      "part": null,
+      "publisher": "Cemetery Dance",
+      "reportedTitle": "Chattery Teeth — Cemetery Dance, Fall 1992",
+      "sourceKeys": [
+        "three-magazine-appearances-nov9"
+      ],
+      "checked": "2026-11-09",
+      "open": [
+        "This verifies an appearance; complete first-publication and revision history remain unconfirmed."
+      ],
+      "note": "Official bibliography citation on the existing work. Original issue wording preserved; no synthesized day/month, new story identity, copied prose or image."
     }
   ],
   "deferred": [

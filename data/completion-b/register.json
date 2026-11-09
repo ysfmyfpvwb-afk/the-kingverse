@@ -3836,6 +3836,24 @@
     "claim/suffer-children-cavalier/eventType": "clm:011224",
     "claim/suffer-children-cavalier/date": "clm:011225",
     "claim/suffer-children-cavalier/publisher": "clm:011226",
-    "claim/suffer-children-cavalier/reportedTitle": "clm:011227"
+    "claim/suffer-children-cavalier/reportedTitle": "clm:011227",
+    "publication/ballad-flexible-bullet-fsf": "pub:000307",
+    "claim/ballad-flexible-bullet-fsf/subject": "clm:011228",
+    "claim/ballad-flexible-bullet-fsf/eventType": "clm:011229",
+    "claim/ballad-flexible-bullet-fsf/date": "clm:011230",
+    "claim/ballad-flexible-bullet-fsf/publisher": "clm:011231",
+    "claim/ballad-flexible-bullet-fsf/reportedTitle": "clm:011232",
+    "publication/everythings-eventual-fsf": "pub:000308",
+    "claim/everythings-eventual-fsf/subject": "clm:011233",
+    "claim/everythings-eventual-fsf/eventType": "clm:011234",
+    "claim/everythings-eventual-fsf/date": "clm:011235",
+    "claim/everythings-eventual-fsf/publisher": "clm:011236",
+    "claim/everythings-eventual-fsf/reportedTitle": "clm:011237",
+    "publication/chattery-teeth-cemetery": "pub:000309",
+    "claim/chattery-teeth-cemetery/subject": "clm:011238",
+    "claim/chattery-teeth-cemetery/eventType": "clm:011239",
+    "claim/chattery-teeth-cemetery/date": "clm:011240",
+    "claim/chattery-teeth-cemetery/publisher": "clm:011241",
+    "claim/chattery-teeth-cemetery/reportedTitle": "clm:011242"
   }
 }
