@@ -9100,6 +9100,45 @@
         "year",
         "King screenplay versus source authorship"
       ]
+    },
+    {
+      "key": "pet2019-director-profiles",
+      "url": "https://stephenking.com/works/movie/pet-sematary-(2019).html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "locator": "2019 production-specific director field: existing Kevin Kolsch and Dennis Widmyer identities. Preserve the original encoding-damaged source observation; no renaming or automatic merge.",
+      "observedAt": "2026-11-09",
+      "access": "available",
+      "checkedFields": [
+        "named maker role",
+        "specific production identity"
+      ]
+    },
+    {
+      "key": "mercy-director-profile",
+      "url": "https://stephenking.com/works/movie/mercy.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "locator": "Director Peter Cornwell; based on Gramma. The stale 2012 pre-production header is not reused as a release date or current status. Only direction and source-title context checked.",
+      "observedAt": "2026-11-09",
+      "access": "available",
+      "checkedFields": [
+        "named maker role",
+        "specific production identity"
+      ]
+    },
+    {
+      "key": "bloodlines-maker-interview",
+      "url": "https://rue-morgue.com/exclusive-interview-director-co-writer-lindsey-anderson-beer-digs-into-pet-sematary-bloodlines/",
+      "publisher": "Rue Morgue / Michael Gingold interview",
+      "sourceType": "reference",
+      "locator": "3 October 2023 direct interview with director/co-writer Lindsey Anderson Beer; intro separately names screenplay by Jeff Buhler and Beer. Only her direction and co-screenwriting role used. No plot, cast roles, speculative sequel or quote imported.",
+      "observedAt": "2026-11-09",
+      "access": "available",
+      "checkedFields": [
+        "named maker role",
+        "specific production identity"
+      ]
     }
   ],
   "records": [
@@ -21657,6 +21696,27 @@
       "checked": "2026-11-09",
       "open": [],
       "note": "Distributor-confirmed direction credit using existing person and production identities. No film date or story relationship changed."
+    },
+    {
+      "key": "bloodlines-beer-screenwriter",
+      "entityType": "credit",
+      "personId": "per:000028",
+      "subject": {
+        "type": "adaptation",
+        "id": "adp:000095"
+      },
+      "role": "screenwriter",
+      "creditedAs": null,
+      "scope": "Screenplay co-written with Jeff Buhler",
+      "characterId": null,
+      "sourceKeys": [
+        "bloodlines-maker-interview"
+      ],
+      "checked": "2026-11-09",
+      "open": [
+        "This adds Beer’s individually documented credit; it does not claim a newly canonicalized full screenwriting team."
+      ],
+      "note": "Primary creator interview confirms the co-writing role separately from direction. No new person or film identity."
     }
   ],
   "deferred": [
@@ -31832,6 +31892,91 @@
       ],
       "locator": "Named production-specific maker credits, independently worded short reader profile.",
       "note": "Existing person, credit and remake identities retained; no copied description or new production.",
+      "checked": "2026-11-09"
+    },
+    {
+      "key": "kevin-kolsch-reading-profile",
+      "subject": {
+        "type": "person",
+        "id": "per:000017"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Kevin Kolsch co-directed the 2019 adaptation of Pet Sematary with Dennis Widmyer."
+      },
+      "sourceKeys": [
+        "pet2019-director-profiles"
+      ],
+      "locator": "Named director/creator credit in the specific source; short independently worded visitor introduction.",
+      "note": "Existing people and productions retained; no release-date, source-text, cast or artwork changes.",
+      "checked": "2026-11-09"
+    },
+    {
+      "key": "dennis-widmyer-reading-profile",
+      "subject": {
+        "type": "person",
+        "id": "per:000018"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Dennis Widmyer co-directed Pet Sematary (2019) with Kevin Kolsch, adapting Stephen King’s novel."
+      },
+      "sourceKeys": [
+        "pet2019-director-profiles"
+      ],
+      "locator": "Named director/creator credit in the specific source; short independently worded visitor introduction.",
+      "note": "Existing people and productions retained; no release-date, source-text, cast or artwork changes.",
+      "checked": "2026-11-09"
+    },
+    {
+      "key": "peter-cornwell-reading-profile",
+      "subject": {
+        "type": "person",
+        "id": "per:000027"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Peter Cornwell directed Mercy, a film adaptation of Stephen King’s short story Gramma."
+      },
+      "sourceKeys": [
+        "mercy-director-profile"
+      ],
+      "locator": "Named director/creator credit in the specific source; short independently worded visitor introduction.",
+      "note": "Existing people and productions retained; no release-date, source-text, cast or artwork changes.",
+      "checked": "2026-11-09"
+    },
+    {
+      "key": "lindsey-beer-reading-profile",
+      "subject": {
+        "type": "person",
+        "id": "per:000028"
+      },
+      "field": "summary",
+      "value": {
+        "en": "Lindsey Anderson Beer directed and co-wrote Pet Sematary: Bloodlines, a prequel film in the Pet Sematary screen series."
+      },
+      "sourceKeys": [
+        "bloodlines-maker-interview"
+      ],
+      "locator": "Named director/creator credit in the specific source; short independently worded visitor introduction.",
+      "note": "Existing people and productions retained; no release-date, source-text, cast or artwork changes.",
+      "checked": "2026-11-09"
+    },
+    {
+      "key": "mercy-public-year-projection",
+      "subject": {
+        "type": "adaptation",
+        "id": "adp:000089"
+      },
+      "field": "releaseYear",
+      "value": 2014,
+      "sourceIds": [
+        "src:000439",
+        "src:000440",
+        "src:000441"
+      ],
+      "locator": "Existing selected verified shadow claim clm:006650 and its preserved source URLs. This reviews public projection, not a new online first-release audit.",
+      "note": "Reuse the established 2014 release year for the legacy visitor card. The original 2012 pre-production observation remains in historical inputs; exact day is not inferred.",
       "checked": "2026-11-09"
     }
   ]

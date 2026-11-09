@@ -3966,6 +3966,16 @@
     "claim/kimberly-peirce-reading-profile": "clm:011327",
     "claim/lawrence-cohen-reading-profile": "clm:011328",
     "claim/roberto-aguirre-reading-profile": "clm:011329",
-    "claim/peter-askin-reading-profile": "clm:011330"
+    "claim/peter-askin-reading-profile": "clm:011330",
+    "credit/bloodlines-beer-screenwriter": "crd:000401",
+    "claim/bloodlines-beer-screenwriter/personId": "clm:011331",
+    "claim/bloodlines-beer-screenwriter/subject": "clm:011332",
+    "claim/bloodlines-beer-screenwriter/role": "clm:011333",
+    "claim/bloodlines-beer-screenwriter/scope": "clm:011334",
+    "claim/kevin-kolsch-reading-profile": "clm:011335",
+    "claim/dennis-widmyer-reading-profile": "clm:011336",
+    "claim/peter-cornwell-reading-profile": "clm:011337",
+    "claim/lindsey-beer-reading-profile": "clm:011338",
+    "claim/mercy-public-year-projection": "clm:011339"
   }
 }
