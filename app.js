@@ -248,7 +248,7 @@ function close() {
 function updateTabs() {document.querySelectorAll('#tabs [data-tab]').forEach(el=> {el.classList.toggle('active',el.dataset.tab === tab); el.setAttribute('aria-pressed',String(el.dataset.tab === tab));});}
 function navigate(next,query='') {close();tab=next;updateTabs();$('search').value=query;$('filter').dataset.tab='';render();$('search').focus();if(!restoringRoute)updateRoute(null,true);}
 function applyLang() {
-  document.documentElement.lang = lang; $('aboutLink').textContent=tr('Bronnen & Werkwijze','Sources & Method');
+  document.documentElement.lang = lang; $('aboutLink').textContent=tr('Over The Kingverse','About');
   for(const code of ['nl','en']) { const el = $(code === 'nl' ? 'langNL' : 'langEN');el.classList.toggle('selected',lang === code);el.setAttribute('aria-pressed',String(lang === code)); }
   const labels = {books:'📚 '+tr('Bibliotheek','Library'),stories:'✒️ '+tr('Verhalen','Stories'),films:'🎬 '+tr('Verfilmingen','Adaptations'),tower:'🌹 Dark Tower'};
   document.querySelectorAll('#tabs [data-tab]').forEach(el=>el.textContent=labels[el.dataset.tab]);

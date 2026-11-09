@@ -2,21 +2,21 @@
 const {test}=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm');
 const {ROOT}=require('../scripts/validate_foundation.cjs');const {generatePilot}=require('../scripts/build_pilot.cjs');const C=require('../scripts/pilot/shared.js');
 const out=generatePilot();
-async function harness(mediaOverride){
+async function harness(mediaOverride,route='?entity=wrk%3A000001',storage=new Map()){
  const ids=new Map(),events={},calls=[];let holdPlot=false,resolvePlot;
  class Element{
   constructor(tag){this.tagName=tag;this.children=[];this.attrs={};this.handlers={};this.value='';this._text='';this.dataset={};this.classList={add(){}};}
   set id(v){this._id=v;ids.set(v,this);}get id(){return this._id;}set textContent(v){this._text=String(v);this.children=[];}get textContent(){return this._text+this.children.map(n=>n.textContent||'').join('');}
   get childNodes(){return this.children;}get lastElementChild(){return this.children.at(-1);}
-  append(...nodes){for(const n of nodes){n.parent=this;this.children.push(n);}}replaceChildren(...nodes){this.children=[];this._text='';this.append(...nodes);}
+  append(...nodes){for(const n of nodes){n.parent=this;this.children.push(n);}}prepend(...nodes){for(const n of nodes)n.parent=this;this.children.unshift(...nodes);}replaceChildren(...nodes){this.children=[];this._text='';this.append(...nodes);}
   replaceWith(node){const p=this.parent;if(p)p.children[p.children.indexOf(this)]=node;}
-  removeAttribute(k){delete this.attrs[k];}setAttribute(k,v){this.attrs[k]=v;}getAttribute(k){return this.attrs[k]||null;}addEventListener(k,f){this.handlers[k]=f;}focus(){document.activeElement=this;}showModal(){this.open=true;}close(){this.open=false;}
+  removeAttribute(k){delete this.attrs[k];}setAttribute(k,v){this.attrs[k]=v;}getAttribute(k){return this.attrs[k]||this[k]||null;}addEventListener(k,f){this.handlers[k]=f;}focus(){document.activeElement=this;}showModal(){this.open=true;}close(){this.open=false;}
   querySelector(tag){for(const c of this.children){if(c.tagName===tag)return c;const n=c.querySelector?.(tag);if(n)return n;}return null;}
  }
  const document={body:{style:{}},title:'',activeElement:null,createElement:t=>new Element(t),createTextNode:t=>{const n=new Element('#text');n.textContent=t;return n;},getElementById:id=>ids.get(id),addEventListener:(k,f)=>{events[k]=f;}};
- for(const id of ['main','back','trail','discover','record-dialog','record-title','record-body','close-record','search-dialog','query','close-search','search-form','search-type','search-more','search-status','search-results']){const n=new Element('div');n.id=id;}ids.get('search-type').value='all';
- const history={state:null,back(){},pushState(s){this.state=s;},replaceState(s){this.state=s;}},location={search:'',origin:'https://example.test',pathname:'/the-kingverse/explorer/pilot/',href:'https://example.test/the-kingverse/explorer/pilot/'};let clock=0;
- const context={document,history,location,window:{addEventListener:(k,f)=>{events[k]=f;},scrollTo(){}},PilotCore:C,performance:{now:()=>++clock},TextEncoder,structuredClone,URL,URLSearchParams,Map,Set,setTimeout,clearTimeout,
+ for(const id of ['main','back','trail','breadcrumbs','explorer-home','discover','record-dialog','record-title','record-body','close-record','search-dialog','query','close-search','search-form','search-type','search-more','search-status','search-results']){const n=new Element('div');n.id=id;}ids.get('search-type').value='all';
+ const history={state:null,back(){},pushState(s,_,href){this.state=s;applyUrl(href);},replaceState(s,_,href){this.state=s;applyUrl(href);}},location={search:route,origin:'https://example.test',pathname:'/the-kingverse/explorer/pilot/',href:'https://example.test/the-kingverse/explorer/pilot/'+route};function applyUrl(href){if(href){const u=new URL(href,location.href);Object.assign(location,{href:u.href,search:u.search,pathname:u.pathname});}}let clock=0;
+ const context={document,history,location,sessionStorage:{getItem:k=>storage.get(k)||null,setItem:(k,v)=>storage.set(k,v)},window:{addEventListener:(k,f)=>{events[k]=f;},scrollTo(){}},PilotCore:C,performance:{now:()=>++clock},TextEncoder,structuredClone,URL,URLSearchParams,Map,Set,setTimeout,clearTimeout,
  fetch:url=>{calls.push(url);const file=url.split('?')[0],original=out.files.get('explorer/pilot/'+file),text=mediaOverride&&file==='data/wrk-000001/index.json'?JSON.stringify({...JSON.parse(original),media:mediaOverride}):original;const response={ok:!!text,text:async()=>text};if(holdPlot&&file.endsWith('/plot.json')){holdPlot=false;return new Promise(resolve=>{resolvePlot=()=>resolve(response);});}return Promise.resolve(response);}};
  document.head={append(script){calls.push(script.src);vm.runInNewContext(fs.readFileSync(ROOT+'/scripts/pilot/details.js','utf8'),context);script.handlers.load();}};
  vm.runInNewContext(fs.readFileSync(ROOT+'/scripts/pilot/pilot.js','utf8').replaceAll('__VERSION__',out.report.dataVersion).replaceAll('__SEARCH__',out.report.assets.search).replaceAll('__DETAILS__',out.report.assets.details),context);
@@ -63,4 +63,16 @@ test('Anthology bylines show unique editors while details retain every contribut
 
 test('Collected novels use book labels and preserve direct membership navigation',async()=>{
  const h=await harness();h.context.location.search='?entity=col%3A000018';await h.events.popstate();const main=h.ids.get('main');assert.match(main.textContent,/Books in this volume · 3/);assert.equal((main.textContent.match(/Read this book/g)||[]).length,3);assert.match(main.textContent,/Book 1/);assert.match(main.textContent,/Book 3/);assert.doesNotMatch(main.textContent,/Story [123]/);assert.match(main.textContent,/Chizmar wrote the middle novel/);
+});
+
+test('Explorer breadcrumbs and previous discovery use a bounded tab trail, including refresh and direct entry',async()=>{
+ const storage=new Map(),h=await harness(undefined,'',storage);
+ assert.equal(h.ids.get('back').hidden,true);assert.match(h.ids.get('main').textContent,/Every story has a connection/);assert.match(h.ids.get('breadcrumbs').textContent,/HomeExplorer Home/);
+ const click=async(a)=>{h.events.click({target:{closest:()=>a},button:0,preventDefault(){}});await h.settle();};
+ const a=h.document.createElement('a');a.href='?entity=wrk%3A000001';await click(a);assert.match(h.ids.get('breadcrumbs').textContent,/The Talisman/);assert.equal(h.ids.get('back').href,'./');
+ a.href='?entity=wrk%3A000002';await click(a);assert.match(h.ids.get('breadcrumbs').textContent,/Black House/);assert.equal(h.ids.get('back').href,'?entity=wrk%3A000001');
+ await click(h.ids.get('back'));assert.match(h.ids.get('main').textContent,/The Talisman/);assert.equal(h.context.location.search,'?entity=wrk%3A000001');
+ const refreshed=await harness(undefined,'?entity=wrk%3A000001',storage);assert.equal(refreshed.ids.get('back').hidden,false);assert.equal(refreshed.ids.get('back').href,'./');
+ const direct=await harness(undefined,'?entity=chr%3A000005');assert.equal(direct.ids.get('back').hidden,true);assert.doesNotMatch(direct.ids.get('breadcrumbs').textContent,/Father Callahan/);
+ const saved=JSON.parse(storage.get('kingverse-explorer-trail'));assert.deepEqual(saved,[null,'wrk:000001']);
 });

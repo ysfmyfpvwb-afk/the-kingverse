@@ -7,12 +7,12 @@
     "work:black-house"
   ],
   "runtimeHashes": {
-    "index.html": "875b59f5a71412363b4aaa67cd170f02d0fc82e92358a5fbd5e5c3abbaa14259",
-    "app.js": "7e9496264c6e61ae36b9952192994b741b7e08f4c18676c5e0b650f9e7e0e1b9",
+    "index.html": "7c0d1e1d8b673f9267b7b7735015b91dc47a1f1d0baa1557b7e529a2a849cfdf",
+    "app.js": "c5c2e90c66eb8ad4e753d7c25c351067bb57e60910d441eaf2724522dabd25e4",
     "catalog.js": "188ebe73bee8d3c955f09dba6ed9df85ce63228d9c9c3dbba37bba68284814a3",
     "media.js": "18cc37c77db4e1f59df4840b395fd1a2e2aecb308cfc1b5fa0ca5d79371134c5",
-    "styles.css": "96231a71e2eaa6aaa12552c3f6f7efea3e0fb7206304e12088a4afbcbcd9113b",
-    "about.html": "728f2054032d6e7a73900aaf849571e024abdd9a57d683560ac3aba3d4458241",
+    "styles.css": "035886c0ec9aae31a79368398d6837b334296be89d3268457f94a5acb3cd9339",
+    "about.html": "b3a4d49be4d068bd436d9f1f08183f3d13add6a8050aa1cb71caddb26a463022",
     "about.js": "25f02fe0094dfdf71590c562153e12fb966543fdba713ee77d71d69e9b4f1270"
   },
   "notes": [
