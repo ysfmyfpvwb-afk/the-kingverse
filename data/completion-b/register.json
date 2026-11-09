@@ -3899,6 +3899,15 @@
     "claim/green-agony-2011-anthology/subject": "clm:011276",
     "claim/green-agony-2011-anthology/eventType": "clm:011277",
     "claim/green-agony-2011-anthology/date": "clm:011278",
-    "claim/green-agony-2011-anthology/reportedTitle": "clm:011279"
+    "claim/green-agony-2011-anthology/reportedTitle": "clm:011279",
+    "source/bad-kid-2014-author-source": "src:000766",
+    "source/bad-kid-2014-french-source": "src:000767",
+    "publication/bad-kid-french-2014-appearance": "pub:000316",
+    "claim/bad-kid-french-2014-appearance/subject": "clm:011280",
+    "claim/bad-kid-french-2014-appearance/eventType": "clm:011281",
+    "claim/bad-kid-french-2014-appearance/date": "clm:011282",
+    "claim/bad-kid-french-2014-appearance/publisher": "clm:011283",
+    "claim/bad-kid-french-2014-appearance/reportedTitle": "clm:011284",
+    "claim/bad-kid-publication-context": "clm:011285"
   }
 }

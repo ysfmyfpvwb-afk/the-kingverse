@@ -8863,6 +8863,34 @@
         "publication date with stated precision",
         "existing work identity"
       ]
+    },
+    {
+      "key": "bad-kid-2014-author-source",
+      "url": "https://stephenking.com/news/2014.html",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-11-09",
+      "access": "available",
+      "locator": "28 February 2014 notice Exclusive French and German release binds Bad Little Kid to French Sale Gosse and German Böser kleiner Junge, scheduled for 14 March 2014. Used for identity and language context, with actual French publisher metadata confirming publication.",
+      "checkedFields": [
+        "canonical story binding",
+        "French and German release context"
+      ]
+    },
+    {
+      "key": "bad-kid-2014-french-source",
+      "url": "https://www.albin-michel.fr/sale-gosse-9782226311399",
+      "publisher": "Éditions Albin Michel",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-11-09",
+      "access": "available",
+      "locator": "Sale gosse by Stephen King, digital publication 14 March 2014, EAN 9782226311399; publisher describes advance world release for French and German readers. Only the French publication event is entered; no French edition identity, artwork or copied synopsis.",
+      "checkedFields": [
+        "specific publication date",
+        "French title and medium",
+        "publisher",
+        "language context"
+      ]
     }
   ],
   "records": [
@@ -21241,6 +21269,34 @@
         "This registers an appearance, not an independently established first publication or new collection identity."
       ],
       "note": "Explicit official version/appearance metadata on the existing literary identity; original records preserved. No copied story text, new anthology identity or image."
+    },
+    {
+      "key": "bad-kid-french-2014-appearance",
+      "entityType": "publication",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000202"
+      },
+      "eventType": "source-reported-release",
+      "date": {
+        "value": "2014-03-14",
+        "precision": "day",
+        "meaning": "source-reported-release",
+        "territory": null
+      },
+      "editionId": null,
+      "part": null,
+      "publisher": "Albin Michel",
+      "reportedTitle": "Bad Little Kid — French eBook publication as Sale gosse",
+      "sourceKeys": [
+        "bad-kid-2014-author-source",
+        "bad-kid-2014-french-source"
+      ],
+      "checked": "2026-11-09",
+      "open": [
+        "This is a French publication, not an English release date. German edition metadata and specific translation credits are outside this review."
+      ],
+      "note": "Author announcement binds the translated title to the existing work; publisher metadata confirms the French digital release. Preserve the later 2015 English collection observation and all canonical identities."
     }
   ],
   "deferred": [
@@ -31130,6 +31186,32 @@
       "checked": "2026-11-08",
       "locator": "Retain the three previously reviewed Derry works; add only the opening geography confirmed in the publisher’s Bag of Bones excerpt.",
       "note": "Own reader introduction. Preserve the earlier introduction and claims as unselected history; do not equate Derry with the lakeside retreat or assert an additional Castle Rock town setting."
+    },
+    {
+      "key": "bad-kid-publication-context",
+      "subject": {
+        "type": "work",
+        "id": "wrk:000202"
+      },
+      "field": "summary",
+      "value": {
+        "en": "In prison, George Hallas tells his attorney about a mysterious boy whose appearances have marked his life. His account links those encounters to the loss of people he loved. The story was released in French and German in 2014 before its English appearance in The Bazaar of Bad Dreams in 2015."
+      },
+      "sourceKeys": [
+        "book-intro-wrk-000202-source",
+        "bad-kid-2014-author-source",
+        "bad-kid-2014-french-source"
+      ],
+      "checked": "2026-11-09",
+      "supersedes": "book-intro-wrk-000202",
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000202"
+        ]
+      },
+      "locator": "Existing official reading introduction, author’s 2014 announcement, French publisher publication metadata and official story’s later English collection entry.",
+      "note": "Preserve the premise and add explicit language context so a 2014 work year is not mistaken for English publication."
     }
   ]
 }
