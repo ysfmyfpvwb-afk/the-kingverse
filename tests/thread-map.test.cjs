@@ -2,8 +2,8 @@
 const {test}=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path');
 const {generatePilot}=require('../scripts/build_pilot.cjs'),M=require('../scripts/thread/core.js'),cytoscape=require('../assets/vendor/cytoscape-3.34.4/cytoscape.min.js');
 const out=generatePilot(),file=[...out.files.keys()].find(p=>/thread\/map\..*\.json$/.test(p)),graph=JSON.parse(out.files.get(file)),ids=['loc:000007','wrk:000092','adp:000045'];
-test('Shawshank map preserves the existing two sourced, safe edges and edition-specific collection artwork',()=>{
- assert.deepEqual(graph.nodes.map(n=>n.id),ids);assert.equal(graph.edges.length,2);
+test('Expanded map preserves safe canonical edges, the original Shawshank route and edition-specific artwork',()=>{
+ for(const id of ids)assert.ok(graph.nodes.some(n=>n.id===id));assert.equal(graph.edges.length,out.base.connections.filter(e=>e.certainty==='explicit'&&['none','premise'].includes(e.spoiler.level)).length);assert.equal(graph.edges.filter(e=>ids.includes(e.from)&&ids.includes(e.to)).length,2);for(const n of graph.nodes)assert.ok(out.base.nodes.some(original=>original.id===n.id));assert.ok(graph.starts.includes('loc:000005'));assert.ok(graph.starts.includes('ser:000001'));
  for(const e of graph.edges){const original=out.base.connections.find(c=>c.id===e.id);assert.ok(original);assert.equal(e.from,original.from.id);assert.equal(e.to,original.to.id);assert.equal(e.explanation,original.explanation);assert.deepEqual(e.evidence,original.evidence);assert.equal(e.certainty,'explicit');assert.ok(['none','premise'].includes(e.spoiler.level));for(const claim of e.evidence)for(const source of claim.sourceIds)assert.ok(graph.sources.some(s=>s.id===source));}
  const novella=graph.nodes.find(n=>n.id===ids[1]);assert.equal(novella.media.collectionId,'col:000003');assert.ok(novella.media.editionId);assert.equal(graph.nodes.find(n=>n.id===ids[2]).releaseYear,1994);
 });
@@ -13,4 +13,8 @@ test('Indirect discoveries traverse the novella in both directions and never cre
 });
 test('Map assets and detail links remain inside GitHub Pages subpaths; the library is bundled locally',()=>{
  const html=out.files.get('explorer/pilot/thread/index.html'),root=path.resolve(__dirname,'..');for(const [,url]of html.matchAll(/(?:href|src)="([^"]+)"/g)){if(url.startsWith('https:')||url.startsWith('#'))continue;const u=new URL(url,'https://example.test/the-kingverse/explorer/pilot/thread/');assert.ok(u.pathname.startsWith('/the-kingverse/'));let p=u.pathname.replace('/the-kingverse/','');if(p.endsWith('/'))p+='index.html';assert.ok(out.files.has(p)||fs.existsSync(path.join(root,p)),p);}assert.ok(html.includes('cytoscape-3.34.4/cytoscape.min.js'));assert.ok(fs.existsSync(path.join(root,'assets/vendor/cytoscape-3.34.4/LICENSE')));
+});
+
+test('Busy places reveal at most four new neighbors at a time and two-step suggestions do not duplicate direct connections',()=>{
+ const id='loc:000005',adjacent=M.neighbors(graph,id);assert.ok(adjacent.length>4);let visible=M.reveal(graph,id,new Set([id]));assert.equal(visible.size,5);visible=M.reveal(graph,id,visible);assert.equal(visible.size,9);const direct=new Set([id,...adjacent.map(r=>r.node.id)]),indirect=M.twoHop(graph,id);assert.ok(indirect.length);assert.equal(new Set(indirect.map(r=>r.n.id)).size,indirect.length);for(const r of indirect){assert.ok(!direct.has(r.n.id));assert.equal(r.path.length,3);for(let i=1;i<r.path.length;i++)assert.ok(M.neighbors(graph,r.path[i-1]).some(n=>n.node.id===r.path[i]));}assert.equal(M.edgeLabel({predicate:'appears_in'}),'Character appearance');assert.equal(M.edgeLabel({predicate:'part_of_series'}),'Series connection');
 });
