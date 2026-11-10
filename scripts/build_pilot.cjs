@@ -55,11 +55,12 @@ function generatePilot(root=ROOT){
  }
 
  const raw=new Map(['works','collections','editions','adaptations','people','characters','locations','series'].flatMap(t=>native[t]).map(n=>[n.id,n]));
+ const threadIds=new Set(base.nodes.filter(n=>!['edition','person','adaptation'].includes(n.type)&&!(n.type==='series'&&n.data.seriesKind!=='literary-series')).map(n=>n.id)),threadNeighbors=new Map([...threadIds].map(id=>[id,new Set()]));for(const e of base.connections)if(threadIds.has(e.from.id)&&threadIds.has(e.to.id)&&e.from.id!==e.to.id){threadNeighbors.get(e.from.id).add(e.to.id);threadNeighbors.get(e.to.id).add(e.from.id);}
  const search=base.nodes.map(n=>{
   const r=raw.get(n.id),alternatives=[...(r.aliases||[]).map(a=>a.value),...(r.pseudonyms||[]),...base.nodes.filter(e=>e.type==='edition'&&e.data.publicationOf.id===n.id).map(e=>e.data.title)];
   // Search builds links from the stable ID; omit the duplicate serialized URL.
   const summary={...summaries.get(n.id)};delete summary.href;
-  return {...summary,hasConnectionMap:payloads.get('data/'+slug(n.id)+'/index.json').hasConnectionMap,alternatives:[...new Set(alternatives.filter(x=>x!==n.label))]};
+  return {...summary,hasConnectionMap:payloads.get('data/'+slug(n.id)+'/index.json').hasConnectionMap,connectionCount:threadNeighbors.get(n.id)?.size||0,alternatives:[...new Set(alternatives.filter(x=>x!==n.label))]};
  });
  const searchText=JSON.stringify({scope:'default',records:search})+'\n';const searchName='search.'+sha(searchText).slice(0,12)+'.json';files.set('explorer/pilot/'+searchName,searchText);payloads.set(searchName,JSON.parse(searchText));
  const shared=fs.readFileSync(path.join(root,'scripts/pilot/shared.js'),'utf8');

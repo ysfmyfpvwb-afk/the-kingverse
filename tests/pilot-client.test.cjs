@@ -66,7 +66,7 @@ test('Collected novels use book labels and preserve direct membership navigation
 
 test('Explorer breadcrumbs and previous discovery use a bounded tab trail, including refresh and direct entry',async()=>{
  const storage=new Map(),h=await harness(undefined,'',storage);
- assert.equal(h.ids.get('back').hidden,true);assert.match(h.ids.get('main').textContent,/Every story has a connection/);assert.match(h.ids.get('breadcrumbs').textContent,/HomeExplorer Home/);
+ assert.equal(h.ids.get('back').hidden,true);assert.match(h.ids.get('main').textContent,/The Kingverse Explorer/);assert.match(h.ids.get('breadcrumbs').textContent,/HomeExplorer Home/);
  const click=async(a)=>{h.events.click({target:{closest:()=>a},button:0,preventDefault(){}});await h.settle();};
  const a=h.document.createElement('a');a.href='?entity=wrk%3A000001';await click(a);assert.match(h.ids.get('breadcrumbs').textContent,/The Talisman/);assert.equal(h.ids.get('back').href,'./');
  a.href='?entity=wrk%3A000002';await click(a);assert.match(h.ids.get('breadcrumbs').textContent,/Black House/);assert.equal(h.ids.get('back').href,'?entity=wrk%3A000001');
@@ -76,18 +76,14 @@ test('Explorer breadcrumbs and previous discovery use a bounded tab trail, inclu
  const saved=JSON.parse(storage.get('kingverse-explorer-trail'));assert.deepEqual(saved,[null,'wrk:000001']);
 });
 
-test('Forest home opens the map directly through its main button, themes, book covers and search; detail search stays on details',async()=>{
- const h=await harness(undefined,'');await h.settle();assert.ok(!h.ids.has('enter-map'));assert.equal(h.ids.get('home-submit').textContent,'Start exploring →');
- const links=[];const walk=n=>{if(n.tagName==='a')links.push(n);for(const c of n.children||[])walk(c);};walk(h.ids.get('main'));
- for(const name of ['The Dark Tower','Castle Rock','The Talisman','The Shining','The Stand'])assert.ok(links.some(a=>a.textContent.includes(name)&&a.href.startsWith('thread/?entity=')),name);
- assert.ok(!h.ids.get('main').textContent.includes('From page to screen'));
- h.ids.get('query').value='Shining';await h.ids.get('discover').handlers.click();assert.match(h.ids.get('search-results').textContent,/The Shining/);for(const li of h.ids.get('search-results').children){const a=li.children[0];assert.ok(a.href.startsWith('thread/?entity='));assert.ok(!/adp%3A|edn%3A|per%3A/.test(a.href));}
- const d=await harness();d.ids.get('query').value='Shining';await d.ids.get('discover').handlers.click();for(const li of d.ids.get('search-results').children)assert.ok(li.children[0].href.startsWith('?entity='));
+test('Crossroads has three semantic entrances and preserves thematic and book links into the map',async()=>{
+ const h=await harness(undefined,'');assert.equal(h.ids.get('crossroads-thread').tagName,'button');assert.equal(h.ids.get('crossroads-path').href,'#rabbit-holes');assert.equal(h.ids.get('crossroads-find').tagName,'button');assert.ok(!h.ids.has('home-query'));assert.match(h.ids.get('main').textContent,/The Kingverse Explorer/);
+ const links=[];const walk=n=>{if(n.tagName==='a')links.push(n);for(const c of n.children||[])walk(c);};walk(h.ids.get('main'));for(const name of ['The Dark Tower','Castle Rock','The Talisman','The Shining','The Stand'])assert.ok(links.some(a=>a.textContent.includes(name)&&a.href.startsWith('thread/?entity=')),name);
+ h.ids.get('crossroads-path').handlers.click({preventDefault(){}});assert.equal(h.document.activeElement.id,'rabbit-title');
+ await h.ids.get('crossroads-find').handlers.click();assert.equal(h.ids.get('search-dialog').open,true);h.ids.get('query').value='Shining';h.ids.get('search-form').handlers.submit({preventDefault(){}});await h.settle();assert.match(h.ids.get('search-results').textContent,/The Shining/);for(const li of h.ids.get('search-results').children){assert.ok(li.children[0].href.startsWith('thread/?entity='));assert.ok(!/adp%3A|edn%3A|per%3A/.test(li.children[0].href));}
 });
 
-test('One forest entrance supports live matches, keyboard selection, clearing and an empty-query entry into the map',async()=>{
- const h=await harness(undefined,'');const input=h.ids.get('home-query'),form=h.ids.get('home-search');
- input.value='Shining';await input.handlers.input();assert.equal(h.ids.get('home-submit').textContent,'Find connections →');assert.match(h.ids.get('home-results').textContent,/The Shining/);assert.equal(h.ids.get('home-results').children.length,1);assert.ok(!h.ids.get('search-dialog').open);
- input.handlers.keydown({key:'ArrowDown',preventDefault(){}});assert.equal(h.document.activeElement.href,'thread/?entity=wrk%3A000005');await form.handlers.submit({preventDefault(){}});assert.equal(h.context.location.href,'thread/?entity=wrk%3A000005');
- input.handlers.keydown({key:'Escape'});assert.equal(h.ids.get('home-results').children.length,0);assert.equal(h.ids.get('home-submit').textContent,'Start exploring →');await form.handlers.submit({preventDefault(){}});assert.equal(h.context.location.href,'thread/');
+test('Follow a Thread picks a real connected entity and avoids repeating the previous starting point',async()=>{
+ const h=await harness(undefined,'');const search=JSON.parse(out.files.get('explorer/pilot/'+out.report.assets.search));const select=async()=>{await h.ids.get('crossroads-thread').handlers.click();const route=new URL(h.context.location.href,'https://example.test/the-kingverse/explorer/pilot/'),id=route.searchParams.get('entity');assert.equal(route.pathname,'/the-kingverse/explorer/pilot/thread/');const entry=search.records.find(r=>r.id===id);assert.ok(entry?.hasConnectionMap);assert.ok(entry.connectionCount>=2);return id;};
+ const first=await select();h.context.location.search='';await h.events.pageshow({persisted:true});await h.settle();const second=await select();assert.notEqual(second,first);
 });
