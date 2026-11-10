@@ -5,7 +5,7 @@ const hash=s=>crypto.createHash('sha256').update(s).digest('hex').slice(0,12);
 function generateThreadMap(files,root){
  const records=[...files.entries()].filter(([name])=>/^explorer\/pilot\/data\/[^/]+\/index\.json$/.test(name)).map(([,text])=>JSON.parse(text)).filter(r=>r.scope==='default'&&['none','premise'].includes(r.node.spoiler.level));
  const safeIds=new Set(records.map(r=>r.node.id)),sources=new Map(),edges=new Map();
- for(const record of records)for(const edge of record.connections)if(safeIds.has(edge.from.id)&&safeIds.has(edge.to.id)&&edge.certainty==='explicit'&&['none','premise'].includes(edge.spoiler.level))edges.set(edge.id,{id:edge.id,from:edge.from.id,to:edge.to.id,predicate:edge.predicate,explanation:edge.explanation,certainty:edge.certainty,spoiler:edge.spoiler,evidence:edge.evidence});
+ for(const record of records)for(const edge of record.connections)if(safeIds.has(edge.from.id)&&safeIds.has(edge.to.id)&&edge.certainty==='explicit'&&['none','premise'].includes(edge.spoiler.level))edges.set(edge.id,{id:edge.id,from:edge.from.id,to:edge.to.id,predicate:edge.predicate,...(edge.seriesPosition!==undefined?{seriesPosition:edge.seriesPosition}:{}),explanation:edge.explanation,certainty:edge.certainty,spoiler:edge.spoiler,evidence:edge.evidence});
  const connected=new Set([...edges.values()].flatMap(e=>[e.from,e.to]));
  const selected=records.filter(r=>connected.has(r.node.id));for(const record of selected)for(const source of record.sources)sources.set(source.id,source);
  const starts=['loc:000007','loc:000005','loc:000004','loc:000006','ser:000001'].filter(id=>connected.has(id));
