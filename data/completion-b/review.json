@@ -9374,6 +9374,20 @@
         "Doctor Sleep screen sequel to Kubrick’s The Shining",
         "distinct screen and literary continuity"
       ]
+    },
+    {
+      "key": "official-story-connections-20261110",
+      "url": "https://stephenking.com/darktower/connections/",
+      "publisher": "StephenKing.com",
+      "sourceType": "official-bibliography",
+      "observedAt": "2026-11-10",
+      "access": "available",
+      "locator": "Named character and place entries under Black House, Hearts in Atlantis, 11/22/63, Autopsy Room Four, Lisey’s Story, The Eyes of the Dragon and Cujo. Appearance and mention are distinguished. Cross-book identities stay plot-gated.",
+      "checkedFields": [
+        "named appearances",
+        "explicit mentions",
+        "partial setting"
+      ]
     }
   ],
   "records": [
@@ -22630,6 +22644,931 @@
       "checked": "2026-11-10",
       "open": [],
       "note": "Direct director/producer Q&A identifies Kubrick film continuity. The endpoint is the existing 1980 production, not the 1997 miniseries. Original novel adaptation edge is retained; no continuity merge, new screen production or plot revelation."
+    },
+    {
+      "key": "story-thread-01",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "id": "chr:000009"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000022"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Eddie Dean appears here."
+      },
+      "spoiler": {
+        "level": "plot",
+        "workIds": [
+          "wrk:000022"
+        ]
+      },
+      "sourceKeys": [
+        "official-story-connections-20261110"
+      ],
+      "checked": "2026-11-10",
+      "note": "Named reference checked against the official connections page; no inferred appearance or outcome."
+    },
+    {
+      "key": "story-thread-02",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "id": "chr:000009"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000039"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Eddie Dean appears here."
+      },
+      "spoiler": {
+        "level": "plot",
+        "workIds": [
+          "wrk:000039"
+        ]
+      },
+      "sourceKeys": [
+        "official-story-connections-20261110"
+      ],
+      "checked": "2026-11-10",
+      "note": "Named reference checked against the official connections page; no inferred appearance or outcome."
+    },
+    {
+      "key": "story-thread-03",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "id": "chr:000009"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000040"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Eddie Dean appears here."
+      },
+      "spoiler": {
+        "level": "plot",
+        "workIds": [
+          "wrk:000040"
+        ]
+      },
+      "sourceKeys": [
+        "official-story-connections-20261110"
+      ],
+      "checked": "2026-11-10",
+      "note": "Named reference checked against the official connections page; no inferred appearance or outcome."
+    },
+    {
+      "key": "story-thread-04",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "id": "chr:000009"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000041"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Eddie Dean appears here."
+      },
+      "spoiler": {
+        "level": "plot",
+        "workIds": [
+          "wrk:000041"
+        ]
+      },
+      "sourceKeys": [
+        "official-story-connections-20261110"
+      ],
+      "checked": "2026-11-10",
+      "note": "Named reference checked against the official connections page; no inferred appearance or outcome."
+    },
+    {
+      "key": "story-thread-05",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "id": "chr:000010"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000022"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Susannah Dean appears here."
+      },
+      "spoiler": {
+        "level": "plot",
+        "workIds": [
+          "wrk:000022"
+        ]
+      },
+      "sourceKeys": [
+        "official-story-connections-20261110"
+      ],
+      "checked": "2026-11-10",
+      "note": "Named reference checked against the official connections page; no inferred appearance or outcome."
+    },
+    {
+      "key": "story-thread-06",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "id": "chr:000010"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000039"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Susannah Dean appears here."
+      },
+      "spoiler": {
+        "level": "plot",
+        "workIds": [
+          "wrk:000039"
+        ]
+      },
+      "sourceKeys": [
+        "official-story-connections-20261110"
+      ],
+      "checked": "2026-11-10",
+      "note": "Named reference checked against the official connections page; no inferred appearance or outcome."
+    },
+    {
+      "key": "story-thread-07",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "id": "chr:000010"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000040"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Susannah Dean appears here."
+      },
+      "spoiler": {
+        "level": "plot",
+        "workIds": [
+          "wrk:000040"
+        ]
+      },
+      "sourceKeys": [
+        "official-story-connections-20261110"
+      ],
+      "checked": "2026-11-10",
+      "note": "Named reference checked against the official connections page; no inferred appearance or outcome."
+    },
+    {
+      "key": "story-thread-08",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "id": "chr:000010"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000041"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Susannah Dean appears here."
+      },
+      "spoiler": {
+        "level": "plot",
+        "workIds": [
+          "wrk:000041"
+        ]
+      },
+      "sourceKeys": [
+        "official-story-connections-20261110"
+      ],
+      "checked": "2026-11-10",
+      "note": "Named reference checked against the official connections page; no inferred appearance or outcome."
+    },
+    {
+      "key": "story-thread-09",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "id": "chr:000011"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000022"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Jake Chambers appears here."
+      },
+      "spoiler": {
+        "level": "plot",
+        "workIds": [
+          "wrk:000022"
+        ]
+      },
+      "sourceKeys": [
+        "official-story-connections-20261110"
+      ],
+      "checked": "2026-11-10",
+      "note": "Named reference checked against the official connections page; no inferred appearance or outcome."
+    },
+    {
+      "key": "story-thread-10",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "id": "chr:000011"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000034"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Jake Chambers appears here."
+      },
+      "spoiler": {
+        "level": "plot",
+        "workIds": [
+          "wrk:000034"
+        ]
+      },
+      "sourceKeys": [
+        "official-story-connections-20261110"
+      ],
+      "checked": "2026-11-10",
+      "note": "Named reference checked against the official connections page; no inferred appearance or outcome."
+    },
+    {
+      "key": "story-thread-11",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "id": "chr:000011"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000039"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Jake Chambers appears here."
+      },
+      "spoiler": {
+        "level": "plot",
+        "workIds": [
+          "wrk:000039"
+        ]
+      },
+      "sourceKeys": [
+        "official-story-connections-20261110"
+      ],
+      "checked": "2026-11-10",
+      "note": "Named reference checked against the official connections page; no inferred appearance or outcome."
+    },
+    {
+      "key": "story-thread-12",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "id": "chr:000011"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000040"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Jake Chambers appears here."
+      },
+      "spoiler": {
+        "level": "plot",
+        "workIds": [
+          "wrk:000040"
+        ]
+      },
+      "sourceKeys": [
+        "official-story-connections-20261110"
+      ],
+      "checked": "2026-11-10",
+      "note": "Named reference checked against the official connections page; no inferred appearance or outcome."
+    },
+    {
+      "key": "story-thread-13",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "id": "chr:000011"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000041"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Jake Chambers appears here."
+      },
+      "spoiler": {
+        "level": "plot",
+        "workIds": [
+          "wrk:000041"
+        ]
+      },
+      "sourceKeys": [
+        "official-story-connections-20261110"
+      ],
+      "checked": "2026-11-10",
+      "note": "Named reference checked against the official connections page; no inferred appearance or outcome."
+    },
+    {
+      "key": "story-thread-14",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "id": "chr:000009"
+      },
+      "predicate": "mentioned_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000002"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Eddie Dean is referenced here."
+      },
+      "spoiler": {
+        "level": "plot",
+        "workIds": [
+          "wrk:000002"
+        ]
+      },
+      "sourceKeys": [
+        "official-story-connections-20261110"
+      ],
+      "checked": "2026-11-10",
+      "note": "Named reference checked against the official connections page; no inferred appearance or outcome."
+    },
+    {
+      "key": "story-thread-15",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "id": "chr:000010"
+      },
+      "predicate": "mentioned_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000002"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Susannah Dean is referenced here."
+      },
+      "spoiler": {
+        "level": "plot",
+        "workIds": [
+          "wrk:000002"
+        ]
+      },
+      "sourceKeys": [
+        "official-story-connections-20261110"
+      ],
+      "checked": "2026-11-10",
+      "note": "Named reference checked against the official connections page; no inferred appearance or outcome."
+    },
+    {
+      "key": "story-thread-16",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "id": "chr:000011"
+      },
+      "predicate": "mentioned_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000002"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Jake Chambers is referenced here."
+      },
+      "spoiler": {
+        "level": "plot",
+        "workIds": [
+          "wrk:000002"
+        ]
+      },
+      "sourceKeys": [
+        "official-story-connections-20261110"
+      ],
+      "checked": "2026-11-10",
+      "note": "Named reference checked against the official connections page; no inferred appearance or outcome."
+    },
+    {
+      "key": "story-thread-17",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "id": "chr:000003"
+      },
+      "predicate": "mentioned_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000002"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Roland Deschain is referenced here."
+      },
+      "spoiler": {
+        "level": "plot",
+        "workIds": [
+          "wrk:000002"
+        ]
+      },
+      "sourceKeys": [
+        "official-story-connections-20261110"
+      ],
+      "checked": "2026-11-10",
+      "note": "Named reference checked against the official connections page; no inferred appearance or outcome."
+    },
+    {
+      "key": "story-thread-18",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "id": "chr:000006"
+      },
+      "predicate": "mentioned_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000002"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Ted Brautigan is referenced here."
+      },
+      "spoiler": {
+        "level": "plot",
+        "workIds": [
+          "wrk:000002"
+        ]
+      },
+      "sourceKeys": [
+        "official-story-connections-20261110"
+      ],
+      "checked": "2026-11-10",
+      "note": "Named reference checked against the official connections page; no inferred appearance or outcome."
+    },
+    {
+      "key": "story-thread-19",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "id": "chr:000005"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000040"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Father Callahan appears here."
+      },
+      "spoiler": {
+        "level": "plot",
+        "workIds": [
+          "wrk:000040"
+        ]
+      },
+      "sourceKeys": [
+        "official-story-connections-20261110"
+      ],
+      "checked": "2026-11-10",
+      "note": "Named reference checked against the official connections page; no inferred appearance or outcome."
+    },
+    {
+      "key": "story-thread-20",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "id": "chr:000005"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000041"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Father Callahan appears here."
+      },
+      "spoiler": {
+        "level": "plot",
+        "workIds": [
+          "wrk:000041"
+        ]
+      },
+      "sourceKeys": [
+        "official-story-connections-20261110"
+      ],
+      "checked": "2026-11-10",
+      "note": "Named reference checked against the official connections page; no inferred appearance or outcome."
+    },
+    {
+      "key": "story-thread-21",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "id": "chr:000006"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000149"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Ted Brautigan appears here."
+      },
+      "spoiler": {
+        "level": "plot",
+        "workIds": [
+          "wrk:000149"
+        ]
+      },
+      "sourceKeys": [
+        "official-story-connections-20261110"
+      ],
+      "checked": "2026-11-10",
+      "note": "Named reference checked against the official connections page; no inferred appearance or outcome."
+    },
+    {
+      "key": "story-thread-22",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "id": "chr:000006"
+      },
+      "predicate": "mentioned_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000148"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Ted Brautigan is mentioned here."
+      },
+      "spoiler": {
+        "level": "plot",
+        "workIds": [
+          "wrk:000148"
+        ]
+      },
+      "sourceKeys": [
+        "official-story-connections-20261110"
+      ],
+      "checked": "2026-11-10",
+      "note": "Named reference checked against the official connections page; no inferred appearance or outcome."
+    },
+    {
+      "key": "story-thread-23",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "id": "chr:000019"
+      },
+      "predicate": "mentioned_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000041"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Carol Gerber is mentioned here."
+      },
+      "spoiler": {
+        "level": "plot",
+        "workIds": [
+          "wrk:000041"
+        ]
+      },
+      "sourceKeys": [
+        "official-story-connections-20261110"
+      ],
+      "checked": "2026-11-10",
+      "note": "Named reference checked against the official connections page; no inferred appearance or outcome."
+    },
+    {
+      "key": "story-thread-24",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "id": "chr:000020"
+      },
+      "predicate": "mentioned_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000041"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Sully Sullivan is mentioned here."
+      },
+      "spoiler": {
+        "level": "plot",
+        "workIds": [
+          "wrk:000041"
+        ]
+      },
+      "sourceKeys": [
+        "official-story-connections-20261110"
+      ],
+      "checked": "2026-11-10",
+      "note": "Named reference checked against the official connections page; no inferred appearance or outcome."
+    },
+    {
+      "key": "story-thread-25",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "id": "chr:000021"
+      },
+      "predicate": "mentioned_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000041"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Bobby Garfield is mentioned here."
+      },
+      "spoiler": {
+        "level": "plot",
+        "workIds": [
+          "wrk:000041"
+        ]
+      },
+      "sourceKeys": [
+        "official-story-connections-20261110"
+      ],
+      "checked": "2026-11-10",
+      "note": "Named reference checked against the official connections page; no inferred appearance or outcome."
+    },
+    {
+      "key": "story-thread-26",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "id": "chr:000003"
+      },
+      "predicate": "mentioned_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000145"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Roland Deschain is mentioned here."
+      },
+      "spoiler": {
+        "level": "plot",
+        "workIds": [
+          "wrk:000145"
+        ]
+      },
+      "sourceKeys": [
+        "official-story-connections-20261110"
+      ],
+      "checked": "2026-11-10",
+      "note": "Named reference checked against the official connections page; no inferred appearance or outcome."
+    },
+    {
+      "key": "story-thread-27",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "id": "chr:000004"
+      },
+      "predicate": "appears_in",
+      "to": {
+        "type": "series",
+        "id": "ser:000001"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Randall Flagg crosses into this series."
+      },
+      "spoiler": {
+        "level": "plot",
+        "workIds": [
+          "wrk:000007",
+          "wrk:000020"
+        ]
+      },
+      "sourceKeys": [
+        "official-story-connections-20261110"
+      ],
+      "checked": "2026-11-10",
+      "note": "Named reference checked against the official connections page; no inferred appearance or outcome."
+    },
+    {
+      "key": "story-thread-28",
+      "entityType": "connection",
+      "from": {
+        "type": "location",
+        "id": "loc:000001"
+      },
+      "predicate": "mentioned_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000025"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The Territories are mentioned here."
+      },
+      "spoiler": {
+        "level": "plot",
+        "workIds": [
+          "wrk:000025"
+        ]
+      },
+      "sourceKeys": [
+        "official-story-connections-20261110"
+      ],
+      "checked": "2026-11-10",
+      "note": "Named reference checked against the official connections page; no inferred appearance or outcome."
+    },
+    {
+      "key": "story-thread-29",
+      "entityType": "connection",
+      "from": {
+        "type": "location",
+        "id": "loc:000001"
+      },
+      "predicate": "mentioned_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000044"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "The Territories are mentioned here."
+      },
+      "spoiler": {
+        "level": "plot",
+        "workIds": [
+          "wrk:000044"
+        ]
+      },
+      "sourceKeys": [
+        "official-story-connections-20261110"
+      ],
+      "checked": "2026-11-10",
+      "note": "Named reference checked against the official connections page; no inferred appearance or outcome."
+    },
+    {
+      "key": "story-thread-30",
+      "entityType": "connection",
+      "from": {
+        "type": "work",
+        "id": "wrk:000048"
+      },
+      "predicate": "set_in",
+      "to": {
+        "type": "location",
+        "id": "loc:000004"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Derry forms part of the setting."
+      },
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000048"
+        ]
+      },
+      "sourceKeys": [
+        "official-story-connections-20261110"
+      ],
+      "checked": "2026-11-10",
+      "note": "Named reference checked against the official connections page; no inferred appearance or outcome."
+    },
+    {
+      "key": "story-thread-31",
+      "entityType": "connection",
+      "from": {
+        "type": "location",
+        "id": "loc:000004"
+      },
+      "predicate": "mentioned_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000150"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Derry is referenced here."
+      },
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000150"
+        ]
+      },
+      "sourceKeys": [
+        "official-story-connections-20261110"
+      ],
+      "checked": "2026-11-10",
+      "note": "Named reference checked against the official connections page; no inferred appearance or outcome."
+    },
+    {
+      "key": "story-thread-32",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "id": "chr:000017"
+      },
+      "predicate": "mentioned_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000030"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Paul Sheldon is mentioned here."
+      },
+      "spoiler": {
+        "level": "plot",
+        "workIds": [
+          "wrk:000030"
+        ]
+      },
+      "sourceKeys": [
+        "official-story-connections-20261110"
+      ],
+      "checked": "2026-11-10",
+      "note": "Named reference checked against the official connections page; no inferred appearance or outcome."
+    },
+    {
+      "key": "story-thread-33",
+      "entityType": "connection",
+      "from": {
+        "type": "character",
+        "id": "chr:000017"
+      },
+      "predicate": "mentioned_in",
+      "to": {
+        "type": "work",
+        "id": "wrk:000120"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Paul Sheldon is mentioned here."
+      },
+      "spoiler": {
+        "level": "plot",
+        "workIds": [
+          "wrk:000120"
+        ]
+      },
+      "sourceKeys": [
+        "official-story-connections-20261110"
+      ],
+      "checked": "2026-11-10",
+      "note": "Named reference checked against the official connections page; no inferred appearance or outcome."
     }
   ],
   "deferred": [

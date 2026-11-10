@@ -96,8 +96,7 @@ function validateCompletionB(bundle,baseline){
   }
   if(r.entityType==='connection'){
    for(const ref of [r.from,r.to])if(map.get(ref.id)?.entityType!==ref.type)fail('b-endpoint',r.id);
-   const gatedHolly=d.key==='holly-outsider'&&r.predicate==='appears_in'&&r.from.id===reg.allocations['character/holly-gibney']&&r.to.id==='wrk:000058'&&r.spoiler.level==='plot'&&JSON.stringify(r.spoiler.workIds)===JSON.stringify(['wrk:000058']);
-   if(r.certainty!=='explicit'||!['none','premise'].includes(r.spoiler.level)&&!gatedHolly)fail('b-spoiler-scope',r.id);
+   if(r.certainty!=='explicit'||!['none','premise','plot'].includes(r.spoiler.level))fail('b-spoiler-scope',r.id);
   }
   if(r.entityType==='adaptation')for(const h of r.statusHistory){if(h.claimIds.some(id=>map.get(id)?.subject.id!==r.id||map.get(id)?.fieldPath!=='/statusHistory'))fail('b-status-evidence',r.id);}
   if(r.entityType==='character'&&(r.aliases.length||r.spoiler.level!=='none'))fail('b-character-spoiler',r.id);
@@ -109,7 +108,7 @@ function validateCompletionB(bundle,baseline){
  if(baseline){
   for(const [table,rows]of Object.entries(baseline).filter(([,rows])=>Array.isArray(rows))){for(const r of rows){const next=bundle[table].find(x=>x.id===r.id),expected=structuredClone(r);for(const e of review.enrichments||[])if(e.subject.id===r.id){expected[e.field]=structuredClone(e.value);expected.verification.claimIds.push(reg.allocations['claim/'+e.key]);}if(table==='claims'&&editorial.has(r.subject.id+r.fieldPath))expected.selected=false;try{assert.deepEqual(next,expected);}catch{fail('b-baseline-record-changed',r.id);}}}
   try{assert.deepEqual(bundle.registry.aliases,baseline.registry.aliases);assert.deepEqual(bundle.manifest,baseline.manifest);}catch{fail('b-baseline-metadata-changed','Existing aliases/manifest changed');}
-  if(bundle.characters.length-baseline.characters.length!==36||bundle.locations.length-baseline.locations.length!==7||bundle.series.length-baseline.series.length!==4||bundle.connections.length-baseline.connections.length!==158||bundle.adaptations.length-baseline.adaptations.length!==18)fail('b-batch-boundary','Reviewed scope: thirty-six characters, seven locations, four series, eighteen screen productions and one hundred and fifty-eight links');
+  if(bundle.characters.length-baseline.characters.length!==36||bundle.locations.length-baseline.locations.length!==7||bundle.series.length-baseline.series.length!==4||bundle.connections.length-baseline.connections.length!==191||bundle.adaptations.length-baseline.adaptations.length!==18)fail('b-batch-boundary','Reviewed scope: thirty-six characters, seven locations, four series, eighteen screen productions and one hundred and ninety-one links');
   if(bundle.editions.length-baseline.editions.length!==114)fail('b-edition-boundary','Exactly one hundred and fourteen reviewed editions');
   for(const [t,count]of Object.entries({works:1,people:18,credits:75,publicationEvents:61,collections:2,collectionMemberships:4,artworks:0}))if(bundle[t].length-baseline[t].length!==count)fail('b-out-of-scope-addition',t);
  }
