@@ -15,8 +15,8 @@
     "legacyAliases": 1120
   },
   "payload": {
-    "initialShellAndEntityBytes": 69729,
-    "initialShellAndEntityGzipBytes": 18519,
+    "initialShellAndEntityBytes": 73119,
+    "initialShellAndEntityGzipBytes": 19333,
     "limitBytes": 49152,
     "pageSize": 6,
     "maxEntityBytes": 47416,
@@ -25,17 +25,17 @@
     "searchBytes": 155289,
     "searchGzipBytes": 13780,
     "shellBytes": 3613,
-    "jsBytes": 32017,
+    "jsBytes": 33989,
     "detailsJsBytes": 1007,
     "detailsJsGzipBytes": 578,
-    "jsGzipBytes": 10616,
-    "cssBytes": 13205,
-    "cssGzipBytes": 3797,
+    "jsGzipBytes": 11122,
+    "cssBytes": 14623,
+    "cssGzipBytes": 4106,
     "initialAggregateProjectBytesLoaded": 0
   },
   "assets": {
-    "js": "pilot.86f91f50a4b0.js",
-    "css": "pilot.16eafb03f470.css",
+    "js": "pilot.f870c031aef5.js",
+    "css": "pilot.de92dc3cef11.css",
     "search": "search.7f4cf492e061.json",
     "details": "details.a489934be3d5.js"
   },

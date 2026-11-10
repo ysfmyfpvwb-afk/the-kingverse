@@ -77,10 +77,17 @@ test('Explorer breadcrumbs and previous discovery use a bounded tab trail, inclu
 });
 
 test('Forest home opens the map directly through its main button, themes, book covers and search; detail search stays on details',async()=>{
- const h=await harness(undefined,'');await h.settle();assert.equal(h.ids.get('enter-map').href,'thread/');
+ const h=await harness(undefined,'');await h.settle();assert.ok(!h.ids.has('enter-map'));assert.equal(h.ids.get('home-submit').textContent,'Start exploring →');
  const links=[];const walk=n=>{if(n.tagName==='a')links.push(n);for(const c of n.children||[])walk(c);};walk(h.ids.get('main'));
  for(const name of ['The Dark Tower','Castle Rock','The Talisman','The Shining','The Stand'])assert.ok(links.some(a=>a.textContent.includes(name)&&a.href.startsWith('thread/?entity=')),name);
  assert.ok(!h.ids.get('main').textContent.includes('From page to screen'));
  h.ids.get('query').value='Shining';await h.ids.get('discover').handlers.click();assert.match(h.ids.get('search-results').textContent,/The Shining/);for(const li of h.ids.get('search-results').children){const a=li.children[0];assert.ok(a.href.startsWith('thread/?entity='));assert.ok(!/adp%3A|edn%3A|per%3A/.test(a.href));}
  const d=await harness();d.ids.get('query').value='Shining';await d.ids.get('discover').handlers.click();for(const li of d.ids.get('search-results').children)assert.ok(li.children[0].href.startsWith('?entity='));
+});
+
+test('One forest entrance supports live matches, keyboard selection, clearing and an empty-query entry into the map',async()=>{
+ const h=await harness(undefined,'');const input=h.ids.get('home-query'),form=h.ids.get('home-search');
+ input.value='Shining';await input.handlers.input();assert.equal(h.ids.get('home-submit').textContent,'Find connections →');assert.match(h.ids.get('home-results').textContent,/The Shining/);assert.equal(h.ids.get('home-results').children.length,1);assert.ok(!h.ids.get('search-dialog').open);
+ input.handlers.keydown({key:'ArrowDown',preventDefault(){}});assert.equal(h.document.activeElement.href,'thread/?entity=wrk%3A000005');await form.handlers.submit({preventDefault(){}});assert.equal(h.context.location.href,'thread/?entity=wrk%3A000005');
+ input.handlers.keydown({key:'Escape'});assert.equal(h.ids.get('home-results').children.length,0);assert.equal(h.ids.get('home-submit').textContent,'Start exploring →');await form.handlers.submit({preventDefault(){}});assert.equal(h.context.location.href,'thread/');
 });
