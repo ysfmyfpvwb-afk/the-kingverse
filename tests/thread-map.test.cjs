@@ -22,3 +22,16 @@ test('Busy places reveal at most four new neighbors at a time and two-step sugge
 test('Series membership lists all eight Tower novels separately from its film and related works, without numbering the companion novel',()=>{
  assert.equal(M.seriesMembers(graph,'ser:000004').length,0);const members=M.seriesMembers(graph,'ser:000001');assert.equal(members.length,8);assert.deepEqual(members.slice(0,7).map(r=>r.position),[1,2,3,4,5,6,7]);assert.equal(members.at(-1).node.id,'wrk:000049');assert.equal(members.at(-1).position,undefined);assert.ok(!members.some(r=>r.node.id==='wrk:000067'||r.node.id==='adp:000013'));for(const m of members){const original=out.base.connections.find(e=>e.id===m.edge.id);assert.equal(m.position,original.seriesPosition);}
 });
+
+test('Connected series exposes the Talisman–Tower bridge both ways with its actual intermediary and evidence',()=>{
+ for(const[from,to]of [['ser:000001','ser:000002'],['ser:000002','ser:000001']]){const bridge=M.seriesConnections(graph,from).find(r=>r.n.id===to);assert.ok(bridge);assert.deepEqual(bridge.path,[from,'wrk:000067',to]);assert.equal(bridge.edges.length,2);for(const edge of bridge.edges){assert.ok(graph.edges.some(e=>e.id===edge.id));assert.ok(edge.evidence.length);}}
+ assert.deepEqual(M.seriesConnections(graph,'chr:000003'),[]);assert.ok(graph.starts.includes('ser:000002'));
+});
+
+test('Shining and Doctor Sleep have a sourced literary sequel link, independent of the 1997 screen continuity',()=>{
+ const next=M.storySequence(graph,'wrk:000005').find(r=>r.node.id==='wrk:000051');assert.ok(next);assert.equal(next.label,'Continues in');assert.equal(M.storySequence(graph,'wrk:000051').find(r=>r.node.id==='wrk:000005').label,'Sequel to');assert.ok(next.sequenceEdge.evidence.length);assert.deepEqual(M.path(graph,'adp:000070','wrk:000051'),['adp:000070','wrk:000005','wrk:000051']);assert.ok(!graph.edges.some(e=>e.predicate==='sequel_to'&&e.from==='adp:000015'&&e.to==='adp:000070'));
+});
+
+test('Doctor Sleep is a screen sequel to Kubrick’s 1980 film with separate source evidence and no 1997 sequel edge',()=>{
+ const next=M.storySequence(graph,'adp:000046').find(r=>r.node.id==='adp:000015');assert.ok(next);assert.equal(next.label,'Continues in');assert.equal(M.storySequence(graph,'adp:000015').find(r=>r.node.id==='adp:000046').label,'Sequel to');assert.ok(next.sequenceEdge.evidence.flatMap(c=>c.sourceIds).some(id=>graph.sources.find(s=>s.id===id)?.url.includes('bloody-disgusting.com/interviews/3567118')));assert.ok(!M.storySequence(graph,'adp:000070').some(r=>r.node.id==='adp:000015'));assert.ok(M.neighbors(graph,'adp:000015').some(r=>r.node.id==='wrk:000051'&&r.edges.some(e=>e.predicate==='adaptation_of')));
+});

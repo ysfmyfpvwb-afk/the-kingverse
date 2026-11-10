@@ -9348,6 +9348,32 @@
       "checkedFields": [
         "independent historical direction context"
       ]
+    },
+    {
+      "key": "doctor-sleep-novel-sequel-evidence",
+      "url": "https://www.simonandschuster.com/books/Doctor-Sleep/Stephen-King/9781668234051",
+      "publisher": "Simon & Schuster",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-11-10",
+      "access": "available",
+      "locator": "About the Book explicitly identifies Doctor Sleep as the sequel to The Shining and identifies the adult Dan Torrance. Only the novel-to-novel sequel and opening character continuity were checked; no synopsis text, edition date or screen-continuity inference imported.",
+      "checkedFields": [
+        "literary sequel to The Shining",
+        "adult Dan Torrance in the opening premise"
+      ]
+    },
+    {
+      "key": "doctor-sleep-kubrick-filmmaker-qa",
+      "url": "https://bloody-disgusting.com/interviews/3567118/eight-new-things-weve-learned-doctor-sleep/",
+      "publisher": "Bloody Disgusting — Mike Flanagan and Trevor Macy press Q&A",
+      "sourceType": "reference",
+      "observedAt": "2026-11-10",
+      "access": "available",
+      "locator": "Section Doctor Sleep is a Sequel to Stephen King’s Novel AND Stanley Kubrick’s Film: direct filmmaker statements establish the same cinematic universe as Kubrick’s adaptation and the simultaneous adaptation of the Doctor Sleep novel. Only the screen-sequel relation was checked. No ending comparisons, quotes, stills or synopsis copied.",
+      "checkedFields": [
+        "Doctor Sleep screen sequel to Kubrick’s The Shining",
+        "distinct screen and literary continuity"
+      ]
     }
   ],
   "records": [
@@ -22545,6 +22571,65 @@
       "checked": "2026-11-09",
       "open": [],
       "note": "Individually reviewed production-specific role using stable identities; no remake merge, inferred story relation or new media."
+    },
+    {
+      "key": "doctor-sleep-shining-novel-sequel",
+      "entityType": "connection",
+      "from": {
+        "type": "work",
+        "id": "wrk:000051"
+      },
+      "predicate": "sequel_to",
+      "to": {
+        "type": "work",
+        "id": "wrk:000005"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Doctor Sleep is the sequel to The Shining, following Dan Torrance later in life."
+      },
+      "spoiler": {
+        "level": "premise",
+        "workIds": [
+          "wrk:000005",
+          "wrk:000051"
+        ]
+      },
+      "sourceKeys": [
+        "doctor-sleep-novel-sequel-evidence",
+        "book-intro-000051-source"
+      ],
+      "checked": "2026-11-10",
+      "open": [],
+      "note": "Reviewed literary sequel relation between existing canonical works. Does not merge novel and film continuities or assert that Doctor Sleep is a sequel to the 1997 miniseries. Publisher About the Book and official novel premise checked on 2026-11-10."
+    },
+    {
+      "key": "doctor-sleep-kubrick-screen-sequel",
+      "entityType": "connection",
+      "from": {
+        "type": "adaptation",
+        "id": "adp:000015"
+      },
+      "predicate": "sequel_to",
+      "to": {
+        "type": "adaptation",
+        "id": "adp:000046"
+      },
+      "certainty": "explicit",
+      "explanation": {
+        "en": "Doctor Sleep (2019) continues the screen story of Stanley Kubrick’s The Shining (1980), while also adapting King’s Doctor Sleep novel."
+      },
+      "spoiler": {
+        "level": "none",
+        "workIds": []
+      },
+      "sourceKeys": [
+        "doctor-sleep-kubrick-filmmaker-qa",
+        "film-intro-adp-000015-source"
+      ],
+      "checked": "2026-11-10",
+      "open": [],
+      "note": "Direct director/producer Q&A identifies Kubrick film continuity. The endpoint is the existing 1980 production, not the 1997 miniseries. Original novel adaptation edge is retained; no continuity merge, new screen production or plot revelation."
     }
   ],
   "deferred": [

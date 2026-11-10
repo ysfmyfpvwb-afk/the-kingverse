@@ -8,7 +8,7 @@ function generateThreadMap(files,root){
  for(const record of records)for(const edge of record.connections)if(safeIds.has(edge.from.id)&&safeIds.has(edge.to.id)&&edge.certainty==='explicit'&&['none','premise'].includes(edge.spoiler.level))edges.set(edge.id,{id:edge.id,from:edge.from.id,to:edge.to.id,predicate:edge.predicate,...(edge.seriesPosition!==undefined?{seriesPosition:edge.seriesPosition}:{}),explanation:edge.explanation,certainty:edge.certainty,spoiler:edge.spoiler,evidence:edge.evidence});
  const connected=new Set([...edges.values()].flatMap(e=>[e.from,e.to]));
  const selected=records.filter(r=>connected.has(r.node.id));for(const record of selected)for(const source of record.sources)sources.set(source.id,source);
- const starts=['loc:000007','loc:000005','loc:000004','loc:000006','ser:000001'].filter(id=>connected.has(id));
+ const starts=['loc:000007','loc:000005','loc:000004','loc:000006','ser:000001','ser:000002'].filter(id=>connected.has(id));
  const graph={startId:IDS[0],starts,nodes:selected.map(r=>({id:r.node.id,label:r.node.label,type:r.node.type,kind:r.node.data.kind,format:r.node.data.format,releaseYear:r.node.data.releaseYear,description:r.node.description,media:r.media,evidence:r.node.evidence})),edges:[...edges.values()],sources:[...sources.values()]};
  for(const id of IDS)if(!connected.has(id))throw Error('Missing original Shawshank stop');
  const data=JSON.stringify(graph)+'\n',dataName='map.'+hash(data)+'.json';

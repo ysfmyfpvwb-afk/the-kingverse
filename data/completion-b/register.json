@@ -4139,6 +4139,21 @@
     "claim/garris-bullet-screenwriter/subject": "clm:011465",
     "claim/garris-bullet-screenwriter/role": "clm:011466",
     "claim/garris-bullet-screenwriter/scope": "clm:011467",
-    "claim/george-romero/aliases": "clm:011468"
+    "claim/george-romero/aliases": "clm:011468",
+    "connection/doctor-sleep-shining-novel-sequel": "rel:000252",
+    "claim/doctor-sleep-shining-novel-sequel/from": "clm:011469",
+    "claim/doctor-sleep-shining-novel-sequel/predicate": "clm:011470",
+    "claim/doctor-sleep-shining-novel-sequel/to": "clm:011471",
+    "claim/doctor-sleep-shining-novel-sequel/certainty": "clm:011472",
+    "claim/doctor-sleep-shining-novel-sequel/explanation": "clm:011473",
+    "claim/doctor-sleep-shining-novel-sequel/spoiler": "clm:011474",
+    "source/doctor-sleep-kubrick-filmmaker-qa": "src:000776",
+    "connection/doctor-sleep-kubrick-screen-sequel": "rel:000253",
+    "claim/doctor-sleep-kubrick-screen-sequel/from": "clm:011475",
+    "claim/doctor-sleep-kubrick-screen-sequel/predicate": "clm:011476",
+    "claim/doctor-sleep-kubrick-screen-sequel/to": "clm:011477",
+    "claim/doctor-sleep-kubrick-screen-sequel/certainty": "clm:011478",
+    "claim/doctor-sleep-kubrick-screen-sequel/explanation": "clm:011479",
+    "claim/doctor-sleep-kubrick-screen-sequel/spoiler": "clm:011480"
   }
 }
