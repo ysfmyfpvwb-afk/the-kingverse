@@ -75,3 +75,12 @@ test('Explorer breadcrumbs and previous discovery use a bounded tab trail, inclu
  const direct=await harness(undefined,'?entity=chr%3A000005');assert.equal(direct.ids.get('back').hidden,true);assert.match(direct.ids.get('breadcrumbs').textContent,/Father Callahan/);
  const saved=JSON.parse(storage.get('kingverse-explorer-trail'));assert.deepEqual(saved,[null,'wrk:000001']);
 });
+
+test('Forest home opens the map directly through its main button, themes, book covers and search; detail search stays on details',async()=>{
+ const h=await harness(undefined,'');await h.settle();assert.equal(h.ids.get('enter-map').href,'thread/');
+ const links=[];const walk=n=>{if(n.tagName==='a')links.push(n);for(const c of n.children||[])walk(c);};walk(h.ids.get('main'));
+ for(const name of ['The Dark Tower','Castle Rock','The Talisman','The Shining','The Stand'])assert.ok(links.some(a=>a.textContent.includes(name)&&a.href.startsWith('thread/?entity=')),name);
+ assert.ok(!h.ids.get('main').textContent.includes('From page to screen'));
+ h.ids.get('query').value='Shining';await h.ids.get('discover').handlers.click();assert.match(h.ids.get('search-results').textContent,/The Shining/);for(const li of h.ids.get('search-results').children){const a=li.children[0];assert.ok(a.href.startsWith('thread/?entity='));assert.ok(!/adp%3A|edn%3A|per%3A/.test(a.href));}
+ const d=await harness();d.ids.get('query').value='Shining';await d.ids.get('discover').handlers.click();for(const li of d.ids.get('search-results').children)assert.ok(li.children[0].href.startsWith('?entity='));
+});

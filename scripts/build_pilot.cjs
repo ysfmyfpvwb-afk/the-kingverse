@@ -59,7 +59,7 @@ function generatePilot(root=ROOT){
   const r=raw.get(n.id),alternatives=[...(r.aliases||[]).map(a=>a.value),...(r.pseudonyms||[]),...base.nodes.filter(e=>e.type==='edition'&&e.data.publicationOf.id===n.id).map(e=>e.data.title)];
   // Search builds links from the stable ID; omit the duplicate serialized URL.
   const summary={...summaries.get(n.id)};delete summary.href;
-  return {...summary,alternatives:[...new Set(alternatives.filter(x=>x!==n.label))]};
+  return {...summary,hasConnectionMap:payloads.get('data/'+slug(n.id)+'/index.json').hasConnectionMap,alternatives:[...new Set(alternatives.filter(x=>x!==n.label))]};
  });
  const searchText=JSON.stringify({scope:'default',records:search})+'\n';const searchName='search.'+sha(searchText).slice(0,12)+'.json';files.set('explorer/pilot/'+searchName,searchText);payloads.set(searchName,JSON.parse(searchText));
  const shared=fs.readFileSync(path.join(root,'scripts/pilot/shared.js'),'utf8');
