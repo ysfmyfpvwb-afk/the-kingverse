@@ -37,7 +37,7 @@
     "data/migration/story-views.json": "118d5fc76c6285f7752f3db0879752e8f3b53fd2a38cde105d94ae89ed11264f",
     "data/migration/universe-plot.json": "0ec189b540af95e7f63618ab70759951b574f8ada36f33b2ee93a5c3d23ddd31",
     "data/migration/universe-safe.json": "e9b7c249a9266860fb69d523998ec0ea3d97556ab34707b617d1c811f6a824ad",
-    "data/pilot/baseline.json": "939ac0826a91f2aa311b065d67bbfaee39a43d9183fb453fdf9dc8a0cd1a0f7e",
+    "data/pilot/baseline.json": "4a7a3a48e21ac259aa06fe082d9676b43f047921e659f0e429a21756988a2f10",
     "data/pilot/premise-review.json": "f01dcc09ef6d7f6c0d2b3ccb72aea24b511a84a13cd33c354ee9a0f69df1ffc0",
     "data/pilot/refinement-baseline.json": "969be3c991337ef9c12c289f576f01b6aa9f3b86dd2c8dab66a30dedbcbf9058",
     "data/readiness/batch-06-baseline.json": "2e19ddc043651484e28344da5e448f00074c9efab9bc67627f5a06669e6cf949",
@@ -98,7 +98,7 @@
     "explorer/work/000001/plot.json": "88b0de3847a44687cdc558533640da3dead15cd2b6b29edb3778d84e08046475",
     "explorer/work/000002/index.html": "b20639f6a9d35eba03e575930b5726f2968a3f15fb2b7dbd5731c7422cbb02b2",
     "explorer/work/000002/plot.json": "9f72093ed604a7a2a21b9d72a3ebf1a5dac8b619a86e166986181990f8ee7978",
-    "index.html": "1a0e40f732a84a1232b6a3e84837ff26242354efeb8592f4d3ed806f4868e15a",
+    "index.html": "6f33a73506c5dbd23a3ee74f6ba3e31b2028b85b602232cd5ca3f7770336b2e8",
     "media.js": "18cc37c77db4e1f59df4840b395fd1a2e2aecb308cfc1b5fa0ca5d79371134c5",
     "styles.css": "035886c0ec9aae31a79368398d6837b334296be89d3268457f94a5acb3cd9339"
   },
