@@ -21,7 +21,7 @@
 })(typeof globalThis==='undefined'?this:globalThis);
 
 'use strict';
-const VERSION='efe9169e7ded3e53',SEARCH_FILE='search.c79fada46095.json',C=PilotCore;
+const VERSION='3c2b287d3698449f',SEARCH_FILE='search.c79fada46095.json',C=PilotCore;
 const $=id=>document.getElementById(id),element=(tag,text,cls)=>{const e=document.createElement(tag);if(text!==undefined)e.textContent=text;if(cls)e.className=cls;return e;};
 const link=(id,label,cls)=>{const a=element('a',label,cls);a.href='?entity='+encodeURIComponent(id);return a;};
 const mapLink=(id,label,cls)=>{const a=element('a',label,cls);a.href='thread/'+(id?'?entity='+encodeURIComponent(id):'');return a;};

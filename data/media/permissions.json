@@ -50,6 +50,78 @@
         "No local copy, redistribution or free-licence claim."
       ],
       "deliveryHost": "ia800502.us.archive.org"
+    },
+    {
+      "editionId": "edn:000248",
+      "workId": "wrk:000248",
+      "language": "en",
+      "title": "Storm of the Century",
+      "isbn13": "9780671032647",
+      "coverId": 14651955,
+      "src": "https://covers.openlibrary.org/b/id/14651955-M.jpg?default=false",
+      "source": "https://openlibrary.org/books/OL91075M",
+      "permissionSource": "https://openlibrary.org/dev/docs/api/covers",
+      "permission": "service-authorized-remote-display",
+      "checked": "2026-11-13",
+      "review": {
+        "status": "verified",
+        "sha256": "70448292ccc3689376a510ea7a88c77290c6b3660058adc8722476f634128408",
+        "method": "Visual English title/author/edition comparison; ISBN-specific Open Library record; successful image response with Kingverse Referer"
+      },
+      "credit": "Open Library",
+      "conditions": [
+        "Remote display only using covers.openlibrary.org; link to the edition record.",
+        "No local copy, redistribution or free-licence claim."
+      ],
+      "deliveryHost": "ia601601.us.archive.org"
+    },
+    {
+      "editionId": "edn:000191",
+      "workId": "col:000017",
+      "language": "en",
+      "title": "Flight or Fright",
+      "isbn13": "9781587676796",
+      "coverId": 12895868,
+      "src": "https://covers.openlibrary.org/b/id/12895868-M.jpg?default=false",
+      "source": "https://openlibrary.org/books/OL26772366M",
+      "permissionSource": "https://openlibrary.org/dev/docs/api/covers",
+      "permission": "service-authorized-remote-display",
+      "checked": "2026-11-13",
+      "review": {
+        "status": "verified",
+        "sha256": "e80cbd55ee085d73414177a9170f64cb97ccea38d2f9507124870d2063331b37",
+        "method": "Visual English title/author/edition comparison; ISBN-specific Open Library record; successful image response with Kingverse Referer"
+      },
+      "credit": "Open Library",
+      "conditions": [
+        "Remote display only using covers.openlibrary.org; link to the edition record.",
+        "No local copy, redistribution or free-licence claim."
+      ],
+      "deliveryHost": "ia800505.us.archive.org"
+    },
+    {
+      "editionId": "edn:000246",
+      "workId": "wrk:000245",
+      "language": "en",
+      "title": "Charlie the Choo-Choo",
+      "isbn13": "9781534401235",
+      "coverId": 14657246,
+      "src": "https://covers.openlibrary.org/b/id/14657246-M.jpg?default=false",
+      "source": "https://openlibrary.org/books/OL32048251M",
+      "permissionSource": "https://openlibrary.org/dev/docs/api/covers",
+      "permission": "service-authorized-remote-display",
+      "checked": "2026-11-13",
+      "review": {
+        "status": "verified",
+        "sha256": "c7af614c0c780943c82821c9a2b0235190b16aa77389eb12095798a3f37c8983",
+        "method": "Visual English title/author/edition comparison; ISBN-specific Open Library record; successful image response with Kingverse Referer"
+      },
+      "credit": "Open Library",
+      "conditions": [
+        "Remote display only using covers.openlibrary.org; link to the edition record.",
+        "No local copy, redistribution or free-licence claim."
+      ],
+      "deliveryHost": "ia801601.us.archive.org"
     }
   ]
 }
