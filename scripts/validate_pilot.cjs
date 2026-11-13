@@ -5,6 +5,7 @@ function validatePilotOutput(out,root=ROOT){
  const errors=[],fail=(code,message)=>errors.push({code,message});
  const expectedBundle=require('./completion_b.cjs').extendCompletionB(require('./build_completion.cjs').loadCompletion());
  const archive=require('./foundation_compat.cjs').readGenerated('media.js','MEDIA',root),archiveUrls=new Set([...Object.values(archive.books).flatMap(Object.values),...Object.values(archive.films)].filter(r=>r.imageStatus==='verified').map(r=>r.image));
+ const serviceCovers=require('./release_media.cjs').remoteCovers(expectedBundle,root);
  const map=new Map(out.full.nodes.map(n=>[n.id,n])),safe=new Set(out.base.nodes.map(n=>n.id));
  const native=new Map(out.full.connections.map(e=>[e.id,e]));
  const seen=new Map();
@@ -28,7 +29,7 @@ function validatePilotOutput(out,root=ROOT){
   for(const section of Object.values(p.sections||{}))if(section.next&&!out.payloads.has(section.next))fail('pilot-next',section.next);
   if(p.next&&!out.payloads.has(p.next))fail('pilot-next',p.next);
   for(const s of p.series||[]){if(id!==s.series.id&&!out.base.connections.some(e=>e.from.id===id&&e.to.id===s.series.id&&e.predicate==='part_of_series'))fail('pilot-series-owner',name);for(const m of s.members){if(!safe.has(m.target.id)||!out.base.connections.some(e=>e.id===m.connectionId&&e.from.id===m.target.id&&e.to.id===s.series.id&&e.predicate==='part_of_series'))fail('pilot-series-navigation',name);}}
-  if(p.media?.src){if(p.media.remoteArtwork){const art=expectedBundle.artworks.find(a=>a.id===p.media.artworkId);if(!archiveUrls.has(p.media.src)||art?.url!==p.media.src||(art.editionId||art.adaptationId)!==p.media.ownerId)fail('pilot-archive-media',name);}else{if(!/^assets\/(media|explorer-media)\//.test(p.media.src)||p.media.src.split('/').includes('..')||!fs.existsSync(path.join(root,p.media.src)))fail('pilot-media',name);if(p.media.officialArtwork&&p.media.reason!=='approved-local')fail('pilot-media-permission',name);}}
+  if(p.media?.src){if(p.media.apiArtwork){const cover=serviceCovers.find(r=>r.ownerId===p.media.ownerId);if(!cover||p.media.src!==cover.src||p.media.language!==cover.language||JSON.stringify(p.media.credit)!==JSON.stringify(cover.credit)||!(cover.workId===id||cover.editionId===id||out.base.memberships.some(m=>m.workId===id&&m.collectionId===cover.workId)))fail('pilot-service-media',name);}else if(p.media.remoteArtwork){const art=expectedBundle.artworks.find(a=>a.id===p.media.artworkId);if(!archiveUrls.has(p.media.src)||art?.url!==p.media.src||(art.editionId||art.adaptationId)!==p.media.ownerId)fail('pilot-archive-media',name);}else{if(!/^assets\/(media|explorer-media)\//.test(p.media.src)||p.media.src.split('/').includes('..')||!fs.existsSync(path.join(root,p.media.src)))fail('pilot-media',name);if(p.media.officialArtwork&&p.media.reason!=='approved-local')fail('pilot-media-permission',name);}}
  }
  if(seen.size!==safe.size)fail('pilot-coverage','Every standard node needs a detail payload');
  const expectedCount=require('./explorer_ready_model.cjs').NAV_TABLES.reduce((n,t)=>n+expectedBundle[t].length,0);

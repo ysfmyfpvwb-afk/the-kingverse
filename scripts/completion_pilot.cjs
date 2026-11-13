@@ -12,6 +12,7 @@ function completionPilot(root=ROOT){
  const bundle=require('./completion_b.cjs').extendCompletionB(baseline),media=require('./release_media.cjs').releaseMedia(bundle,{root});
  const selected=new Set(bundle.claims.filter(c=>c.selected).map(c=>c.id)),projectionBundle=structuredClone(bundle);for(const table of Object.values(projectionBundle).filter(Array.isArray))for(const r of table)if(r.verification)r.verification.claimIds=r.verification.claimIds.filter(id=>selected.has(id));
  const archive=require('./foundation_compat.cjs').readGenerated('media.js','MEDIA',root);
+ const remoteCovers=require('./release_media.cjs').remoteCovers(bundle,root);
  const archiveImages=new Map([...Object.values(archive.books).flatMap(Object.values),...Object.values(archive.films)].filter(r=>r.imageStatus==='verified').map(r=>[r.image,r]));
  const artworks=new Map(bundle.artworks.map(r=>[r.id,r]));
  const review=read('data/migration/batch-05-review.json');
@@ -23,6 +24,7 @@ function completionPilot(root=ROOT){
  p.defaultProjection.mediaChoices=Object.fromEntries(p.defaultProjection.nodes.map(n=>{let selected=displayChoice(selectMedia(p.defaultProjection,n.id));
   // A coverless digital edition must not hide a collected story's existing cover.
   if(n.type==='work'&&['short-story','novella','poem'].includes(n.data.kind)&&!selected?.officialArtwork&&!selected?.remoteArtwork){const collectionOnly={...p.defaultProjection,nodes:p.defaultProjection.nodes.filter(e=>e.type!=='edition'||e.data.publicationOf.id!==n.id)},collected=displayChoice(selectMedia(collectionOnly,n.id));if(collected?.collectionId&&(collected.officialArtwork||collected.remoteArtwork))selected=collected;}
+  if(!selected?.officialArtwork&&!selected?.remoteArtwork){const cover=remoteCovers.find(r=>r.language==='en'&&(r.workId===n.id||r.editionId===n.id||r.workId===selected?.collectionId));if(cover)selected={...selected,...cover,...(cover.workId!==n.id&&n.type==='work'?{collectionId:cover.workId}:{})};}
   if(selected?.collectionId&&bundle.collectionMemberships.some(m=>m.workId===n.id&&m.collectionId===selected.collectionId&&editionSpecific.has(m.id)))selected.editionSpecific=true;
   return [n.id,selected];}).filter(([,v])=>v));
  return {...p,bundle};

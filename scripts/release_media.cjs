@@ -42,4 +42,15 @@ function releaseMedia(bundle,{root=ROOT,approvals,asOf=new Date().toISOString().
  }
  return {registry:out,credits,terms};
 }
-module.exports={releaseMedia,imageInfo,SITE,digest};
+// Small, edition-bound supplement for cover services that expressly offer remote display.
+// It does not approve local redistribution or change the historical artwork registry.
+function remoteCovers(bundle,root=ROOT){
+ const rows=JSON.parse(fs.readFileSync(path.join(root,'data/media/permissions.json'),'utf8')).remoteCovers||[];
+ const seen=new Set();
+ return rows.map(r=>{
+  const e=bundle.editions.find(e=>e.id===r.editionId);
+  if(!e||e.publicationOf.id!==r.workId||e.language!==r.language||e.isbn13!==r.isbn13||e.title!==r.title||seen.has(e.id)||r.permission!=='service-authorized-remote-display'||r.permissionSource!=='https://openlibrary.org/dev/docs/api/covers'||r.src!==`https://covers.openlibrary.org/b/id/${r.coverId}-M.jpg?default=false`||!Number.isSafeInteger(r.coverId)||!/^https:\/\/openlibrary.org\/books\/OL\d+M$/.test(r.source)||r.review?.status!=='verified'||!/^[a-f0-9]{64}$/.test(r.review.sha256))throw Error('Unverified remote edition cover '+r.editionId);
+  seen.add(e.id);return {...r,image:r.src,imageStatus:'verified',remoteArtwork:true,apiArtwork:true,ownerId:e.id,reason:'approved-remote-service',credit:{text:r.credit,url:r.source}};
+ });
+}
+module.exports={releaseMedia,remoteCovers,imageInfo,SITE,digest};

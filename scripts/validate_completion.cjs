@@ -19,9 +19,9 @@ function validateCompletion(bundle=loadCompletion(),{checkGenerated=true,checkBa
   const c=structuredClone(bundle);c.manifest.scope='shadow-universe-batch-05';
   for(const w of c.works)if(['children-book','dramatic-work'].includes(w.kind)){w.kind=w.kind==='children-book'?'contribution':'screenplay';for(const cl of c.claims.filter(cl=>cl.subject.id===w.id&&cl.fieldPath==='/kind'))cl.value=w.kind;}
   for(const p of c.publicationEvents)if(p.eventType==='performance-premiere'){p.eventType='source-reported-release';p.date.meaning=p.eventType;for(const cl of c.claims.filter(cl=>cl.subject.id===p.id)){if(cl.fieldPath==='/eventType')cl.value=p.eventType;if(cl.fieldPath==='/date')cl.value=structuredClone(p.date);}}
-  // The Reading Room replaces only the homepage under the current approved baseline.
-  // Keep every runtime check enabled; all other Foundation runtime hashes stay frozen.
-  c.manifest.runtimeHashes['index.html']=read('data/completion/baseline.json').sha256['index.html'];
+  // The approved homepage and edition-cover hookup use the current baseline.
+  // Keep every runtime check enabled; all other Foundation hashes stay frozen.
+  for(const file of ['index.html','app.js'])c.manifest.runtimeHashes[file]=read('data/completion/baseline.json').sha256[file];
   errors.push(...validate(c,{checkCompatibility:false}).errors);
  }
  try{

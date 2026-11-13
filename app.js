@@ -5,6 +5,8 @@ if(typeof CATALOG_UPDATES!=='undefined')for(const [group,change]of Object.entrie
  for(const row of change.add)if(!rows.some(r=>r.id===row.id))rows.push(row);
 }
 
+if(typeof MEDIA_UPDATES!=='undefined')for(const [title,images]of Object.entries(MEDIA_UPDATES.books))MEDIA.books[title]={...MEDIA.books[title],...images};
+
 const $ = id => document.getElementById(id);
 const safe = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const norm = value => String(value || '').normalize('NFKC').replace(/[’‘]/g, "'").toLocaleLowerCase('en');

@@ -58,7 +58,8 @@ function generateMainCompletion(){
  }
  for(const r of db.tower){const book=db.books.find(b=>b['Engelse titel']===r['Werk / verwijzing']);if(book){r.canonicalId=book.canonicalId;r.connected=(book.connected||[]).filter(c=>['character','location'].includes(canonical.get(c.target.id)?.entityType));}}
  const patch={};for(const group of ['books','stories','films','tower','editions','works']){const old=new Map(base[group].map((r,i)=>[r.id||'row-'+i,r]));patch[group]={add:[],update:[]};for(const [i,r]of db[group].entries()){const key=r.id||'row-'+i,prior=old.get(key);if(!prior)patch[group].add.push(r);else{const fields=Object.fromEntries(Object.entries(r).filter(([k,v])=>JSON.stringify(v)!==JSON.stringify(prior[k])));if(Object.keys(fields).length)patch[group].update.push({id:r.id,index:i,fields});}}}
- return {db,patch};
+ const mediaPatch={books:{}};for(const r of require('./release_media.cjs').remoteCovers(bundle)){const {credit,...image}=r;mediaPatch.books[r.title]??={};mediaPatch.books[r.title][r.language]={...image,isbn:r.isbn13,publisher:bundle.editions.find(e=>e.id===r.editionId).publisher,credit:credit.text,editionId:r.ownerId};}
+ return {db,patch,mediaPatch};
 }
-function build(){const out=generateMainCompletion();fs.writeFileSync(path.join(ROOT,'catalog-completion.js'),'// Generated from the shared canonical completion records; no separate editorial source.\nconst CATALOG_UPDATES = '+JSON.stringify(out.patch)+';\n');console.log(JSON.stringify({books:out.db.books.length,stories:out.db.stories.length,films:out.db.films.length,editions:out.db.editions.length}));return out;}
+function build(){const out=generateMainCompletion();fs.writeFileSync(path.join(ROOT,'catalog-completion.js'),'// Generated from the shared canonical completion records; no separate editorial source.\nconst CATALOG_UPDATES = '+JSON.stringify(out.patch)+';\nconst MEDIA_UPDATES = '+JSON.stringify(out.mediaPatch)+';\n');console.log(JSON.stringify({books:out.db.books.length,stories:out.db.stories.length,films:out.db.films.length,editions:out.db.editions.length}));return out;}
 if(require.main===module)build();module.exports={generateMainCompletion,build};
