@@ -15,8 +15,8 @@
     "legacyAliases": 1120
   },
   "payload": {
-    "initialShellAndEntityBytes": 77203,
-    "initialShellAndEntityGzipBytes": 20519,
+    "initialShellAndEntityBytes": 77000,
+    "initialShellAndEntityGzipBytes": 20489,
     "limitBytes": 49152,
     "pageSize": 6,
     "maxEntityBytes": 47416,
@@ -24,7 +24,7 @@
     "maxChunkBytes": 9829,
     "searchBytes": 170813,
     "searchGzipBytes": 14190,
-    "shellBytes": 4126,
+    "shellBytes": 3923,
     "jsBytes": 34621,
     "detailsJsBytes": 1007,
     "detailsJsGzipBytes": 578,
