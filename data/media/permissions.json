@@ -122,6 +122,54 @@
         "No local copy, redistribution or free-licence claim."
       ],
       "deliveryHost": "ia801601.us.archive.org"
+    },
+    {
+      "editionId": "edn:000247",
+      "workId": "wrk:000246",
+      "language": "en",
+      "title": "Hansel and Gretel",
+      "isbn13": "9780062644695",
+      "coverId": 15131772,
+      "src": "https://covers.openlibrary.org/b/id/15131772-M.jpg?default=false",
+      "source": "https://openlibrary.org/books/OL60469259M",
+      "permissionSource": "https://openlibrary.org/dev/docs/api/covers",
+      "permission": "service-authorized-remote-display",
+      "checked": "2026-11-13",
+      "review": {
+        "status": "verified",
+        "sha256": "41094518508ac0cd5fffc519ea9575676078e8f0ef1bd6f79aac28a4521470b5",
+        "method": "Visual English title/author/edition comparison; ISBN-specific Open Library record; successful image response with Kingverse Referer"
+      },
+      "credit": "Open Library",
+      "conditions": [
+        "Remote display only using covers.openlibrary.org; link to the edition record.",
+        "No local copy, redistribution or free-licence claim."
+      ],
+      "deliveryHost": "covers.openlibrary.org"
+    },
+    {
+      "editionId": "edn:000160",
+      "workId": "wrk:000250",
+      "language": "en",
+      "title": "Gwendy's Magic Feather",
+      "isbn13": "9781587677311",
+      "coverId": 9249362,
+      "src": "https://covers.openlibrary.org/b/id/9249362-M.jpg?default=false",
+      "source": "https://openlibrary.org/books/OL27894683M",
+      "permissionSource": "https://openlibrary.org/dev/docs/api/covers",
+      "permission": "service-authorized-remote-display",
+      "checked": "2026-11-13",
+      "review": {
+        "status": "verified",
+        "sha256": "3fb2864cd198ed0137daa9c6592a86826cd900532a536e71f78e52c7e0a9be6a",
+        "method": "Visual English title/author/edition comparison; ISBN-specific Open Library record; successful image response with Kingverse Referer"
+      },
+      "credit": "Open Library",
+      "conditions": [
+        "Remote display only using covers.openlibrary.org; link to the edition record.",
+        "No local copy, redistribution or free-licence claim."
+      ],
+      "deliveryHost": "ia803200.us.archive.org"
     }
   ]
 }

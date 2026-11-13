@@ -3,7 +3,7 @@ const {test}=require('node:test'),assert=require('node:assert/strict');
 const {remoteCovers}=require('../scripts/release_media.cjs');
 const bundle=require('../scripts/completion_b.cjs').extendCompletionB(require('../scripts/build_completion.cjs').loadCompletion());
 test('Remote service covers match existing edition, language, ISBN and work identities',()=>{
- const covers=remoteCovers(bundle);assert.equal(covers.length,5);
+ const covers=remoteCovers(bundle);assert.equal(covers.length,7);
  for(const c of covers){const e=bundle.editions.find(e=>e.id===c.editionId);assert.equal(c.ownerId,e.id);assert.equal(c.language,e.language);assert.equal(c.isbn13,e.isbn13);assert.equal(c.workId,e.publicationOf.id);assert.match(c.src,/^https:\/\/covers\.openlibrary\.org\/b\/id\/\d+-M\.jpg\?default=false$/);}
  const wrong=structuredClone(bundle);wrong.editions.find(e=>e.id==='edn:000155').isbn13='9781439170984';assert.throws(()=>remoteCovers(wrong),/Unverified remote edition/);
 });
