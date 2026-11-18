@@ -170,6 +170,30 @@
         "No local copy, redistribution or free-licence claim."
       ],
       "deliveryHost": "ia803200.us.archive.org"
+    },
+    {
+      "editionId": "edn:000269",
+      "workId": "col:000016",
+      "language": "en",
+      "title": "Secret Windows: Essays and Fiction on the Craft of Writing",
+      "isbn13": "9780965018517",
+      "coverId": 13855458,
+      "src": "https://covers.openlibrary.org/b/id/13855458-M.jpg?default=false",
+      "source": "https://openlibrary.org/books/OL8528179M",
+      "permissionSource": "https://openlibrary.org/dev/docs/api/covers",
+      "permission": "service-authorized-remote-display",
+      "checked": "2026-11-18",
+      "review": {
+        "status": "verified",
+        "sha256": "1e5b44e27512b80909e61d564abf55ef3c64f4c1fb208fd744253ecaaac8c2e4",
+        "method": "Visual title/author/English cover comparison with ISBN-specific paperback edition OL8528179M. HTTP 200 using normal Kingverse Referer."
+      },
+      "credit": "Open Library",
+      "conditions": [
+        "Remote display only using covers.openlibrary.org; link to the edition record.",
+        "No local copy, redistribution or free-licence claim."
+      ],
+      "deliveryHost": "ia800502.us.archive.org"
     }
   ]
 }

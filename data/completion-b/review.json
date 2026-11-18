@@ -9388,6 +9388,23 @@
         "explicit mentions",
         "partial setting"
       ]
+    },
+    {
+      "key": "secret-windows-qpb-openlibrary",
+      "url": "https://openlibrary.org/books/OL8528179M",
+      "publisher": "Open Library",
+      "sourceType": "reference",
+      "observedAt": "2026-11-18",
+      "access": "available",
+      "locator": "Edition OL8528179M and its JSON record: English paperback, Quality Paperback Bookclub, 2000, ISBN 9780965018517. ISBN differs from the preserved Book-of-the-Month Club hardcover. Year precision only; no first-printing claim.",
+      "checkedFields": [
+        "edition title",
+        "language",
+        "paperback format",
+        "publisher",
+        "edition publication year",
+        "ISBN13"
+      ]
     }
   ],
   "records": [
@@ -23569,6 +23586,35 @@
       ],
       "checked": "2026-11-10",
       "note": "Named reference checked against the official connections page; no inferred appearance or outcome."
+    },
+    {
+      "key": "secret-windows-qpb-paperback-2000",
+      "entityType": "edition",
+      "checked": "2026-11-18",
+      "publicationOf": {
+        "type": "collection",
+        "id": "col:000016"
+      },
+      "language": "en",
+      "title": "Secret Windows: Essays and Fiction on the Craft of Writing",
+      "isbn13": "9780965018517",
+      "publisher": "Quality Paperback Bookclub",
+      "publicationDate": {
+        "value": "2000",
+        "precision": "year",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Paperback",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "secret-windows-qpb-openlibrary"
+      ],
+      "open": [
+        "Specific printing not independently established. Year is from this edition record, not an inferred original-publication date."
+      ],
+      "note": "Separate ISBN-bound paperback edition. Existing hardcover edn:000254 and its conflicting Open Library ISBN lookup remain untouched; no new collection identity."
     }
   ],
   "deferred": [

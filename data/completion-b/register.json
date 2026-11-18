@@ -4386,6 +4386,16 @@
     "claim/story-thread-33/to": "clm:011675",
     "claim/story-thread-33/certainty": "clm:011676",
     "claim/story-thread-33/explanation": "clm:011677",
-    "claim/story-thread-33/spoiler": "clm:011678"
+    "claim/story-thread-33/spoiler": "clm:011678",
+    "source/secret-windows-qpb-openlibrary": "src:000778",
+    "edition/secret-windows-qpb-paperback-2000": "edn:000269",
+    "claim/secret-windows-qpb-paperback-2000/publicationOf": "clm:011679",
+    "claim/secret-windows-qpb-paperback-2000/language": "clm:011680",
+    "claim/secret-windows-qpb-paperback-2000/title": "clm:011681",
+    "claim/secret-windows-qpb-paperback-2000/isbn13": "clm:011682",
+    "claim/secret-windows-qpb-paperback-2000/publisher": "clm:011683",
+    "claim/secret-windows-qpb-paperback-2000/publicationDate": "clm:011684",
+    "claim/secret-windows-qpb-paperback-2000/format": "clm:011685",
+    "claim/secret-windows-qpb-paperback-2000/identityStatus": "clm:011686"
   }
 }
