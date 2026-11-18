@@ -16,6 +16,7 @@
  function icon(n,predicate){return predicate==='dark_tower_connection'?'⊙':({work:'▤',collection:'▥',edition:'▧',adaptation:'▷',person:'○',character:'♙',location:'◇',series:'↗'}[n.type]||'·');}
 
  function artworkInTerm(media,day=new Date().toISOString().slice(0,10)){return !media?.validUntil||/^\d{4}-\d{2}-\d{2}$/.test(media.validUntil)&&day<=media.validUntil;}
- const api={artworkInTerm,types,roles,validId,routeId,relationLabel,typeLabel,filterConnections,search,dateLabel,groupConnections,icon};
+ function editionFormat(value){return value==='Luisterboek'?'Audiobook':value||'';}
+ const api={editionFormat,artworkInTerm,types,roles,validId,routeId,relationLabel,typeLabel,filterConnections,search,dateLabel,groupConnections,icon};
  if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.PilotCore=Object.freeze(api);
 })(typeof globalThis==='undefined'?this:globalThis);

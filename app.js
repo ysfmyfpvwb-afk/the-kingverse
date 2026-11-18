@@ -21,6 +21,7 @@ const tr = (nl, en) => lang === 'nl' ? nl : en;
 // The generated catalog already resolves works, editions, memberships and source conflicts.
 const B = DB.books, S = DB.stories, F = DB.films, T = DB.tower;
 const translations = {
+  'Luisterboek':'Audiobook',
   'Essay':'Essay','Kinderboek':'Picture book','Roman / novelle':'Novel / novella', 'Roman':'Novel', 'Novelle':'Novella', 'Verhaal':'Short story', 'Gedicht':'Poem', 'Scenario':'Screenplay', 'Bijdrage':'Contribution', 'Non-fictie':'Nonfiction', 'Strip':'Comic', 'Fotoboek':'Photobook', 'Musical':'Musical', 'Bijdragenbundel':'Contributed collection', 'Prequel':'Prequel', 'Vervolgfilm':'Sequel','Geïnspireerd door film':'Inspired by a film', 'Nog te verifiëren':'Not yet verified', 'Verhalenbundel':'Story collection', 'Bundel / verzameling':'Collection', 'Film':'Film',
   'Televisie':'Television · format unverified', 'Televisiefilm':'TV movie', 'Televisieserie':'TV series', 'Miniserie':'Miniseries',
   'Romanadaptatie':'Novel adaptation', 'Los geïnspireerd door':'Loosely inspired by', 'Gebaseerd op personages uit de roman':'Based on characters from the novel', 'Gebaseerd op / geïnspireerd door':'Based on / inspired by', 'Origineel scenario':'Original screenplay',
@@ -142,7 +143,7 @@ function detailContent(r) {
       if (lang === 'nl' && m.language === 'en') out += `<p>${tr('Geen gecontroleerde Nederlandse cover beschikbaar; Engelse cover als gemarkeerde fallback.','No verified Dutch cover available; English cover used as a labelled fallback.')}</p>`;
     }
     const editions=DB.editions.filter(e=>r.editionIds?.includes(e.id));
-    if(editions.length)out+=section(tr('Uitgaven','Editions'),editions.map(e=>`<div class="entry"><strong>${safe(e.title)} · ${safe(e.language.toUpperCase())}</strong><small>${safe([e.isbn,e.publisher,e.format,e.publicationDate?.value,e.translators?.length?tr('Vertaling: ','Translated by ')+e.translators.join(', '):null].filter(Boolean).join(' · '))}</small></div>`).join(''));
+    if(editions.length)out+=section(tr('Uitgaven','Editions'),editions.map(e=>`<div class="entry"><strong>${safe(e.title)} · ${safe(e.language.toUpperCase())}</strong><small>${safe([e.isbn,e.publisher,localize(e.format),e.publicationDate?.value,e.translators?.length?tr('Vertaling: ','Translated by ')+e.translators.join(', '):null].filter(Boolean).join(' · '))}</small></div>`).join(''));
     const stories = S.filter(s => s.collectionIds?.includes(r.id));
     if (stories.length) out += section(tr('Verhalen in deze bundel','Stories in this collection')+` (${stories.length})`,stories.map(s => linkTo('stories',sn(s),title(s,'stories')+collectionEditionNote(s,r.id),S.indexOf(s))).join(''));
     const storyIds = S.filter(s=>s.collectionIds?.includes(r.id)).map(s=>s.id);
@@ -162,7 +163,7 @@ function detailContent(r) {
     contextNotes += `<p>${tr('Een datum bij een bundeluitgave bewijst niet wanneer het verhaal voor het eerst werd gepubliceerd.','A collection date does not establish the story’s first publication.')}</p>`;
     if(r.collectionIds?.length) out += section(tr('Opgenomen in','Collected in'),r.collectionIds.map(id=>workLink({id,kind:'books'})+safe(collectionEditionNote(r,id))).join(''));
     else contextNotes += `<p>${r.standaloneBookId || r.standalonePublications?.length ? tr('Een zelfstandige publicatie is vastgelegd; zie de editiegegevens.','A standalone publication is recorded; see the edition details.') : tr('Geen bundelrelatie vastgelegd. Een eigen boekcover is hier niet vereist.','No collection relationship recorded. A separate book cover is not required here.')}</p>`;
-    if(r.standalonePublications?.length)out+=section(tr('Zelfstandige edities','Standalone editions'),r.standalonePublications.map(e=>{const edition=DB.editions.find(d=>d.canonicalId===e.editionId);return line(e.title,[e.isbn,e.language.toUpperCase(),edition?.publisher,edition?.format,edition?.publicationDate?.value].filter(Boolean).join(' · '))+sourceLink(e.source,tr('Uitgeversbron','Publisher source'));}).join(''));
+    if(r.standalonePublications?.length)out+=section(tr('Zelfstandige edities','Standalone editions'),r.standalonePublications.map(e=>{const edition=DB.editions.find(d=>d.canonicalId===e.editionId);return line(e.title,[e.isbn,e.language.toUpperCase(),edition?.publisher,localize(edition?.format),edition?.publicationDate?.value].filter(Boolean).join(' · '))+sourceLink(e.source,tr('Uitgeversbron','Publisher source'));}).join(''));
     const standalone = B.find(b=>b.workId===r.workId);
     if(standalone) out += workLink({id:standalone.id,kind:'books'},tr('Zelfstandige uitgave','Standalone publication'));
     const films = F.filter(f=>f.sourceWorks?.some(w=>w.id===r.id));

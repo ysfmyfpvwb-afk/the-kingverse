@@ -33963,6 +33963,27 @@
       "note": "Extend the existing maker profile across two specifically verified productions without merging remakes or screenwriting partners.",
       "checked": "2026-11-09",
       "supersedes": "lawrence-cohen-reading-profile"
+    },
+    {
+      "key": "nov18-carrie-2002-reader-connection",
+      "subject": {
+        "type": "connection",
+        "id": "rel:000082"
+      },
+      "field": "explanation",
+      "value": {
+        "en": "The 2002 television film adapts King’s novel Carrie."
+      },
+      "sourceIds": [
+        "src:000471"
+      ],
+      "checked": "2026-11-18",
+      "locator": "Production description, notes or writer source credit on this exact production page. See the corresponding per-candidate review.",
+      "note": "Reader-facing wording of the existing verified adaptation link. Removes internal source-review phrasing and does not call the 1976 film a remake. No new relationship or production claim.",
+      "status": "verified",
+      "evidenceFromClaimIds": [
+        "clm:007249"
+      ]
     }
   ]
 }
