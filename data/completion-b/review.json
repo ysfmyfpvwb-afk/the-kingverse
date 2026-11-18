@@ -9405,6 +9405,39 @@
         "edition publication year",
         "ISBN13"
       ]
+    },
+    {
+      "key": "guns-mp3-openlibrary",
+      "url": "https://openlibrary.org/books/OL32735585M",
+      "publisher": "Open Library",
+      "sourceType": "reference",
+      "observedAt": "2026-11-18",
+      "access": "available",
+      "locator": "ISBN-specific edition JSON: Guns, Brilliance Audio, MP3 CD, ISBN 9781531885243. English title and AUDIOBOOK label visually checked. Record reports 25 October 2016; only year precision adopted, not an original-work date. Christian Rummel is not imported as a co-author.",
+      "checkedFields": [
+        "edition title",
+        "English audiobook identity",
+        "MP3 CD format",
+        "publisher",
+        "ISBN13",
+        "edition publication year"
+      ]
+    },
+    {
+      "key": "guns-mp3-iberlibro",
+      "url": "https://www.iberlibro.com/9781531885243/Guns-King-Stephen-1531885241/plp",
+      "publisher": "IberLibro",
+      "sourceType": "reference",
+      "observedAt": "2026-11-18",
+      "access": "available",
+      "locator": "ISBN-specific edition details: ISBN 9781531885243, Inglés, CD MP3, BRILLIANCE AUDIO, 2016. Retail catalogue corroboration only; not an original-publication or exact-day claim.",
+      "checkedFields": [
+        "English-language edition",
+        "MP3 CD format",
+        "publisher",
+        "edition publication year",
+        "ISBN13"
+      ]
     }
   ],
   "records": [
@@ -23615,6 +23648,42 @@
         "Specific printing not independently established. Year is from this edition record, not an inferred original-publication date."
       ],
       "note": "Separate ISBN-bound paperback edition. Existing hardcover edn:000254 and its conflicting Open Library ISBN lookup remain untouched; no new collection identity."
+    },
+    {
+      "key": "guns-brilliance-mp3-2016",
+      "entityType": "edition",
+      "checked": "2026-11-18",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000244"
+      },
+      "language": "en",
+      "title": "Guns",
+      "isbn13": "9781531885243",
+      "publisher": "Brilliance Audio",
+      "publicationDate": {
+        "value": "2016",
+        "precision": "year",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "MP3 CD audiobook",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "guns-mp3-openlibrary",
+        "guns-mp3-iberlibro"
+      ],
+      "open": [
+        "Exact edition day and individual pressing not independently confirmed. Open Library reports 2016-10-25; only 2016 is selected.",
+        "Narration credit not yet canonically modeled; Christian Rummel must not be treated as a co-author."
+      ],
+      "note": "Separate ISBN-bound audio edition, not a fabricated printed edition or an amendment to the original Kindle Single edn:000255. Original work and all earlier publication evidence retained.",
+      "fieldSourceKeys": {
+        "language": [
+          "guns-mp3-iberlibro"
+        ]
+      }
     }
   ],
   "deferred": [

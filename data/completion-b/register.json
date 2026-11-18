@@ -4397,6 +4397,17 @@
     "claim/secret-windows-qpb-paperback-2000/publicationDate": "clm:011684",
     "claim/secret-windows-qpb-paperback-2000/format": "clm:011685",
     "claim/secret-windows-qpb-paperback-2000/identityStatus": "clm:011686",
-    "claim/nov18-carrie-2002-reader-connection": "clm:011687"
+    "claim/nov18-carrie-2002-reader-connection": "clm:011687",
+    "source/guns-mp3-openlibrary": "src:000779",
+    "edition/guns-brilliance-mp3-2016": "edn:000270",
+    "claim/guns-brilliance-mp3-2016/publicationOf": "clm:011688",
+    "claim/guns-brilliance-mp3-2016/language": "clm:011689",
+    "claim/guns-brilliance-mp3-2016/title": "clm:011690",
+    "claim/guns-brilliance-mp3-2016/isbn13": "clm:011691",
+    "claim/guns-brilliance-mp3-2016/publisher": "clm:011692",
+    "claim/guns-brilliance-mp3-2016/publicationDate": "clm:011693",
+    "claim/guns-brilliance-mp3-2016/format": "clm:011694",
+    "claim/guns-brilliance-mp3-2016/identityStatus": "clm:011695",
+    "source/guns-mp3-iberlibro": "src:000780"
   }
 }

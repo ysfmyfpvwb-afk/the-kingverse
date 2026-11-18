@@ -194,6 +194,30 @@
         "No local copy, redistribution or free-licence claim."
       ],
       "deliveryHost": "ia800502.us.archive.org"
+    },
+    {
+      "editionId": "edn:000270",
+      "workId": "wrk:000244",
+      "language": "en",
+      "title": "Guns",
+      "isbn13": "9781531885243",
+      "coverId": 11361952,
+      "src": "https://covers.openlibrary.org/b/id/11361952-M.jpg?default=false",
+      "source": "https://openlibrary.org/books/OL32735585M",
+      "permissionSource": "https://openlibrary.org/dev/docs/api/covers",
+      "permission": "service-authorized-remote-display",
+      "checked": "2026-11-18",
+      "review": {
+        "status": "verified",
+        "sha256": "3266b0a682ed375339e0db6207aebf5266397c53eb50c38c346a73137acfe221",
+        "method": "Visual English GUNS / Stephen King / AUDIOBOOK comparison with ISBN-specific MP3 CD edition OL32735585M. Normal Kingverse Referer returned HTTP 200."
+      },
+      "credit": "Open Library",
+      "conditions": [
+        "Remote display only using covers.openlibrary.org; link to the edition record.",
+        "No local copy, redistribution or free-licence claim."
+      ],
+      "deliveryHost": "ia800505.us.archive.org"
     }
   ]
 }

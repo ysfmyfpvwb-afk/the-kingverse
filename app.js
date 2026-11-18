@@ -139,7 +139,7 @@ function detailContent(r) {
     out += line(tr('Originele titel','Original title'), bn(r)) + line(tr('Nederlandse titel','Dutch title'), MEDIA.books[bn(r)]?.nl?.title || r['Nederlandse titel (indicatief)'] || tr('Nog niet bevestigd; Engelse titel getoond','Unconfirmed; showing English title')) + line(tr('Bibliografisch jaar','Bibliographic year'), r.Jaar) + line(tr('Type','Type'),localize(r.Type)) + line(tr('Auteur','Author'), r.Auteur);
     const m = media(r);
     if (m) {
-      out += section(tr('Getoonde editie','Displayed edition'), line(tr('Taal','Language'), m.language === 'nl' ? tr('Nederlands','Dutch') : tr('Engels','English')) + line('ISBN',m.isbn || tr('Niet bevestigd voor dit omslag','Not confirmed for this cover')) + (m.publisher ? line(tr('Uitgever','Publisher'), m.publisher) : '') + `<p>${sourceLink(m.source,tr('Editiebron','Edition source'))}</p>`);
+      out += section(tr('Getoonde editie','Displayed edition'), line(tr('Taal','Language'), m.language === 'nl' ? tr('Nederlands','Dutch') : tr('Engels','English')) + line('ISBN',m.isbn || tr('Niet bevestigd voor dit omslag','Not confirmed for this cover')) + (m.publisher ? line(tr('Uitgever','Publisher'), m.publisher) : '') + (m.format ? line(tr('Uitvoering','Format'),localize(m.format)) : '') + `<p>${sourceLink(m.source,tr('Editiebron','Edition source'))}</p>`);
       if (lang === 'nl' && m.language === 'en') out += `<p>${tr('Geen gecontroleerde Nederlandse cover beschikbaar; Engelse cover als gemarkeerde fallback.','No verified Dutch cover available; English cover used as a labelled fallback.')}</p>`;
     }
     const editions=DB.editions.filter(e=>r.editionIds?.includes(e.id));
