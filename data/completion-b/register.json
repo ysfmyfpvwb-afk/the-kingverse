@@ -4411,6 +4411,15 @@
     "source/guns-mp3-iberlibro": "src:000780",
     "claim/nov19-mist-reader-connection": "clm:011696",
     "claim/nov19-shining-1997-reader-connection": "clm:011697",
-    "claim/nov19-salem-2004-reader-connection": "clm:011698"
+    "claim/nov19-salem-2004-reader-connection": "clm:011698",
+    "source/nov19-carrie-audio-narration": "src:000781",
+    "person/carrie-audio-reader-willemijn": "per:000068",
+    "credit/carrie-audio-narration": "crd:000427",
+    "claim/carrie-audio-reader-willemijn/name": "clm:011699",
+    "claim/carrie-audio-narration/personId": "clm:011700",
+    "claim/carrie-audio-narration/subject": "clm:011701",
+    "claim/carrie-audio-narration/role": "clm:011702",
+    "claim/carrie-audio-narration/scope": "clm:011703",
+    "claim/carrie-audio-reader-willemijn/externalIds": "clm:011704"
   }
 }

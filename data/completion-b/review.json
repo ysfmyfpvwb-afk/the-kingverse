@@ -9438,6 +9438,19 @@
         "edition publication year",
         "ISBN13"
       ]
+    },
+    {
+      "key": "nov19-carrie-audio-narration",
+      "url": "https://www.lsuitgeverij.nl/boek/carrie/",
+      "publisher": "Luitingh-Sijthoff",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-11-19",
+      "access": "available",
+      "locator": "Audiobook product specifications: Dutch, ISBN 9789024591350, Lezer: Willemijn de Vries, published 25-10-2023. This exact audiobook credit only; no translation, co-authorship or biography inferred.",
+      "checkedFields": [
+        "ISBN-specific audiobook identity",
+        "narrator credit"
+      ]
     }
   ],
   "records": [
@@ -23684,6 +23697,37 @@
           "guns-mp3-iberlibro"
         ]
       }
+    },
+    {
+      "key": "carrie-audio-reader-willemijn",
+      "entityType": "person",
+      "checked": "2026-11-19",
+      "name": "Willemijn de Vries",
+      "aliases": [],
+      "pseudonyms": [],
+      "externalIds": {},
+      "sourceKeys": [
+        "nov19-carrie-audio-narration"
+      ],
+      "note": "Exact publisher-listed reader name only; no biography or author credit inferred."
+    },
+    {
+      "key": "carrie-audio-narration",
+      "entityType": "credit",
+      "checked": "2026-11-19",
+      "personId": "per:000068",
+      "subject": {
+        "type": "edition",
+        "id": "edn:000005"
+      },
+      "role": "contributor",
+      "creditedAs": null,
+      "scope": "narration (Dutch audiobook ISBN 9789024591350)",
+      "characterId": null,
+      "sourceKeys": [
+        "nov19-carrie-audio-narration"
+      ],
+      "note": "Existing contributor role with explicit narration scope. Edition-bound reading performance; not authorship or translation."
     }
   ],
   "deferred": [

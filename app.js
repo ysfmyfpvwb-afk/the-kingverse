@@ -143,7 +143,7 @@ function detailContent(r) {
       if (lang === 'nl' && m.language === 'en') out += `<p>${tr('Geen gecontroleerde Nederlandse cover beschikbaar; Engelse cover als gemarkeerde fallback.','No verified Dutch cover available; English cover used as a labelled fallback.')}</p>`;
     }
     const editions=DB.editions.filter(e=>r.editionIds?.includes(e.id));
-    if(editions.length)out+=section(tr('Uitgaven','Editions'),editions.map(e=>`<div class="entry"><strong>${safe(e.title)} · ${safe(e.language.toUpperCase())}</strong><small>${safe([e.isbn,e.publisher,localize(e.format),e.publicationDate?.value,e.translators?.length?tr('Vertaling: ','Translated by ')+e.translators.join(', '):null].filter(Boolean).join(' · '))}</small></div>`).join(''));
+    if(editions.length)out+=section(tr('Uitgaven','Editions'),editions.map(e=>`<div class="entry"><strong>${safe(e.title)} · ${safe(e.language.toUpperCase())}</strong><small>${safe([e.isbn,e.publisher,localize(e.format),e.publicationDate?.value,e.translators?.length?tr('Vertaling: ','Translated by ')+e.translators.join(', '):null,e.narrators?.length?tr('Voorgelezen door ','Read by ')+e.narrators.join(', '):null].filter(Boolean).join(' · '))}</small></div>`).join(''));
     const stories = S.filter(s => s.collectionIds?.includes(r.id));
     if (stories.length) out += section(tr('Verhalen in deze bundel','Stories in this collection')+` (${stories.length})`,stories.map(s => linkTo('stories',sn(s),title(s,'stories')+collectionEditionNote(s,r.id),S.indexOf(s))).join(''));
     const storyIds = S.filter(s=>s.collectionIds?.includes(r.id)).map(s=>s.id);
