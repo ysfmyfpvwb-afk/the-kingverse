@@ -9451,6 +9451,23 @@
         "ISBN-specific audiobook identity",
         "narrator credit"
       ]
+    },
+    {
+      "key": "nov19-gloed-ebook-publisher",
+      "url": "https://www.lsuitgeverij.nl/boek/de-gloed/",
+      "publisher": "Luitingh-Sijthoff",
+      "sourceType": "official-publisher",
+      "observedAt": "2026-11-19",
+      "access": "available",
+      "locator": "ISBN-specific publisher product specifications: De gloed; Ebook; Nederlands; ISBN 9789021037240; Publicatiedatum 12-11-2022. Historical edition metadata; not a claim about current availability or original novel publication. No translator listed for this ISBN.",
+      "checkedFields": [
+        "edition title",
+        "Dutch language",
+        "ebook format",
+        "publisher",
+        "ISBN13",
+        "edition publication date"
+      ]
     }
   ],
   "records": [
@@ -23728,6 +23745,36 @@
         "nov19-carrie-audio-narration"
       ],
       "note": "Existing contributor role with explicit narration scope. Edition-bound reading performance; not authorship or translation."
+    },
+    {
+      "key": "gloed-ls-ebook-2022",
+      "entityType": "edition",
+      "checked": "2026-11-19",
+      "publicationOf": {
+        "type": "work",
+        "id": "wrk:000023"
+      },
+      "language": "nl",
+      "title": "De gloed",
+      "isbn13": "9789021037240",
+      "publisher": "Luitingh-Sijthoff",
+      "publicationDate": {
+        "value": "2022-11-12",
+        "precision": "day",
+        "meaning": "edition-publication",
+        "territory": null
+      },
+      "format": "Ebook",
+      "translationCredits": [],
+      "identityStatus": "identified",
+      "sourceKeys": [
+        "nov19-gloed-ebook-publisher"
+      ],
+      "open": [
+        "Translator for this ISBN is not supplied by the consulted publisher page; no credit copied from another edition.",
+        "Publisher-listed ebook publication date only; no first-translation or first-printing assertion."
+      ],
+      "note": "Distinct Dutch ebook edition of the existing The Tommyknockers work. Existing audiobook, English editions, cover bindings and original publication remain unchanged."
     }
   ],
   "deferred": [
@@ -34160,6 +34207,69 @@
       "checked": "2026-11-19",
       "locator": "Production description, notes or writer source credit on this exact production page. See the corresponding per-candidate review.",
       "note": "Reader-facing wording of the existing verified relationship. No new connection, remake identity or release date; original source observation retained."
+    },
+    {
+      "key": "nov19-cujo-project-reader",
+      "subject": {
+        "type": "connection",
+        "id": "rel:000244"
+      },
+      "field": "explanation",
+      "value": {
+        "en": "A proposed screen adaptation of King’s novel Cujo. Release details remain unconfirmed."
+      },
+      "sourceIds": [
+        "src:000742"
+      ],
+      "status": "verified",
+      "evidenceFromClaimIds": [
+        "clm:010895"
+      ],
+      "checked": "2026-11-19",
+      "locator": "data/completion-b/review.json#/records/cujo-development-source-work; Published 19 February 2026. Interviewer asks producer Roy Lee about Cujo, The Jaunt, The Girl Who Loved Tom Gordon and The Tommyknockers; his response confirms development stages. Separate explanatory text identifies The Jaunt as a TV series. No release year or guaranteed production inferred.",
+      "note": "Reader-facing wording of the existing historically reported development link. Keeps uncertainty visible; does not assert current production, casting, release or completion."
+    },
+    {
+      "key": "nov19-jaunt-project-reader",
+      "subject": {
+        "type": "connection",
+        "id": "rel:000245"
+      },
+      "field": "explanation",
+      "value": {
+        "en": "A proposed screen adaptation of King’s short story The Jaunt. Release details remain unconfirmed."
+      },
+      "sourceIds": [
+        "src:000742"
+      ],
+      "status": "verified",
+      "evidenceFromClaimIds": [
+        "clm:010907"
+      ],
+      "checked": "2026-11-19",
+      "locator": "data/completion-b/review.json#/records/jaunt-development-source-work; Published 19 February 2026. Interviewer asks producer Roy Lee about Cujo, The Jaunt, The Girl Who Loved Tom Gordon and The Tommyknockers; his response confirms development stages. Separate explanatory text identifies The Jaunt as a TV series. No release year or guaranteed production inferred.",
+      "note": "Reader-facing wording of the existing historically reported development link. Keeps uncertainty visible; does not assert current production, casting, release or completion."
+    },
+    {
+      "key": "nov19-tommy-project-reader",
+      "subject": {
+        "type": "connection",
+        "id": "rel:000246"
+      },
+      "field": "explanation",
+      "value": {
+        "en": "A proposed screen adaptation of King’s novel The Tommyknockers. Release details remain unconfirmed."
+      },
+      "sourceIds": [
+        "src:000742"
+      ],
+      "status": "verified",
+      "evidenceFromClaimIds": [
+        "clm:010919"
+      ],
+      "checked": "2026-11-19",
+      "locator": "data/completion-b/review.json#/records/tommyknockers-development-source-work; Published 19 February 2026. Interviewer asks producer Roy Lee about Cujo, The Jaunt, The Girl Who Loved Tom Gordon and The Tommyknockers; his response confirms development stages. Separate explanatory text identifies The Jaunt as a TV series. No release year or guaranteed production inferred.",
+      "note": "Reader-facing wording of the existing historically reported development link. Keeps uncertainty visible; does not assert current production, casting, release or completion."
     }
   ]
 }

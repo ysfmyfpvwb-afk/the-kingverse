@@ -4420,6 +4420,19 @@
     "claim/carrie-audio-narration/subject": "clm:011701",
     "claim/carrie-audio-narration/role": "clm:011702",
     "claim/carrie-audio-narration/scope": "clm:011703",
-    "claim/carrie-audio-reader-willemijn/externalIds": "clm:011704"
+    "claim/carrie-audio-reader-willemijn/externalIds": "clm:011704",
+    "source/nov19-gloed-ebook-publisher": "src:000782",
+    "edition/gloed-ls-ebook-2022": "edn:000271",
+    "claim/gloed-ls-ebook-2022/publicationOf": "clm:011705",
+    "claim/gloed-ls-ebook-2022/language": "clm:011706",
+    "claim/gloed-ls-ebook-2022/title": "clm:011707",
+    "claim/gloed-ls-ebook-2022/isbn13": "clm:011708",
+    "claim/gloed-ls-ebook-2022/publisher": "clm:011709",
+    "claim/gloed-ls-ebook-2022/publicationDate": "clm:011710",
+    "claim/gloed-ls-ebook-2022/format": "clm:011711",
+    "claim/gloed-ls-ebook-2022/identityStatus": "clm:011712",
+    "claim/nov19-cujo-project-reader": "clm:011713",
+    "claim/nov19-jaunt-project-reader": "clm:011714",
+    "claim/nov19-tommy-project-reader": "clm:011715"
   }
 }
