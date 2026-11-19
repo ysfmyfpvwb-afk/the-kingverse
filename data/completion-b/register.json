@@ -4408,6 +4408,9 @@
     "claim/guns-brilliance-mp3-2016/publicationDate": "clm:011693",
     "claim/guns-brilliance-mp3-2016/format": "clm:011694",
     "claim/guns-brilliance-mp3-2016/identityStatus": "clm:011695",
-    "source/guns-mp3-iberlibro": "src:000780"
+    "source/guns-mp3-iberlibro": "src:000780",
+    "claim/nov19-mist-reader-connection": "clm:011696",
+    "claim/nov19-shining-1997-reader-connection": "clm:011697",
+    "claim/nov19-salem-2004-reader-connection": "clm:011698"
   }
 }

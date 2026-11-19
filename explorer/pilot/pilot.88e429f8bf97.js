@@ -22,7 +22,7 @@
 })(typeof globalThis==='undefined'?this:globalThis);
 
 'use strict';
-const VERSION='a910e5ce48a864f7',SEARCH_FILE='search.7416c964262a.json',C=PilotCore;
+const VERSION='b2ed325230f3c0c5',SEARCH_FILE='search.7416c964262a.json',C=PilotCore;
 const $=id=>document.getElementById(id),element=(tag,text,cls)=>{const e=document.createElement(tag);if(text!==undefined)e.textContent=text;if(cls)e.className=cls;return e;};
 const link=(id,label,cls)=>{const a=element('a',label,cls);a.href='?entity='+encodeURIComponent(id);return a;};
 const mapLink=(id,label,cls)=>{const a=element('a',label,cls);a.href='thread/'+(id?'?entity='+encodeURIComponent(id):'');return a;};

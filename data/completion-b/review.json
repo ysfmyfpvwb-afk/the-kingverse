@@ -34053,6 +34053,69 @@
       "evidenceFromClaimIds": [
         "clm:007249"
       ]
+    },
+    {
+      "key": "nov19-mist-reader-connection",
+      "subject": {
+        "type": "connection",
+        "id": "rel:000076"
+      },
+      "field": "explanation",
+      "value": {
+        "en": "The 2007 film adapts The Mist, the novella collected in Skeleton Crew."
+      },
+      "sourceIds": [
+        "src:000465"
+      ],
+      "status": "verified",
+      "evidenceFromClaimIds": [
+        "clm:007213"
+      ],
+      "checked": "2026-11-19",
+      "locator": "Production description, notes or writer source credit on this exact production page. See the corresponding per-candidate review.",
+      "note": "Reader-facing wording of the existing verified relationship. No new connection, remake identity or release date; original source observation retained."
+    },
+    {
+      "key": "nov19-shining-1997-reader-connection",
+      "subject": {
+        "type": "connection",
+        "id": "rel:000087"
+      },
+      "field": "explanation",
+      "value": {
+        "en": "The 1997 television miniseries adapts King’s novel The Shining."
+      },
+      "sourceIds": [
+        "src:000476"
+      ],
+      "status": "verified",
+      "evidenceFromClaimIds": [
+        "clm:007279"
+      ],
+      "checked": "2026-11-19",
+      "locator": "Production description, notes or writer source credit on this exact production page. See the corresponding per-candidate review.",
+      "note": "Reader-facing wording of the existing verified relationship. No new connection, remake identity or release date; original source observation retained."
+    },
+    {
+      "key": "nov19-salem-2004-reader-connection",
+      "subject": {
+        "type": "connection",
+        "id": "rel:000094"
+      },
+      "field": "explanation",
+      "value": {
+        "en": "The 2004 television miniseries is a remake of the 1979 television adaptation of ’Salem’s Lot."
+      },
+      "sourceIds": [
+        "src:000482"
+      ],
+      "status": "verified",
+      "evidenceFromClaimIds": [
+        "clm:007321"
+      ],
+      "checked": "2026-11-19",
+      "locator": "Production description, notes or writer source credit on this exact production page. See the corresponding per-candidate review.",
+      "note": "Reader-facing wording of the existing verified relationship. No new connection, remake identity or release date; original source observation retained."
     }
   ]
 }
