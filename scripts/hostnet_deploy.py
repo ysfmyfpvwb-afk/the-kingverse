@@ -115,12 +115,15 @@ def package():
     refs = check_references(files)
     if SITE.exists():
         shutil.rmtree(SITE)
-    SITE.mkdir()
+    SITE.mkdir(mode=0o755)
+    SITE.chmod(0o755)
     for name in files:
         dest = SITE / name
         dest.parent.mkdir(parents=True, exist_ok=True)
         shutil.copyfile(ROOT / name, dest)
         dest.chmod(0o644)
+    for folder, _, _ in os.walk(SITE):
+        Path(folder).chmod(0o755)
     manifest = {'commit': subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT).decode().strip(),
                 'files': {p: sha(SITE / p) for p in files}, 'localReferences': refs}
     (LOCAL / 'manifest.json').write_text(json.dumps(manifest, indent=2) + '\n')
@@ -229,6 +232,10 @@ def verify(c, manifest=None):
     print(f'HTTPS verified: {len(samples)} published files match the release exactly.')
 
 
+def rsync_options(c):
+    return ['rsync', '-rtp', '--delay-updates', '-e', shlex.join(['ssh', *ssh_options(c)])]
+
+
 def upload(c):
     if subprocess.check_output(['git', 'status', '--porcelain'], cwd=ROOT).strip():
         raise ValueError('Commit the reviewed changes before deployment')
@@ -244,8 +251,7 @@ def upload(c):
         actual = subprocess.check_output(ssh(c, f'cd {root}; sha256sum ' + shlex.quote(name)), text=True).split()[0]
         if actual != expected:
             raise ValueError('Reviewed server configuration has changed: ' + name)
-    transport = shlex.join(['ssh', *ssh_options(c)])
-    common = ['rsync', '-rtp', '--delay-updates', '--chmod=D755,F644', '-e', transport]
+    common = rsync_options(c)
     dest = c['host'] + ':' + c['remoteRoot'] + '/'
     # Preserve previous assets and unrelated files. New HTML is uploaded last.
     run([*common, '--exclude=*.html', str(SITE) + '/', dest])

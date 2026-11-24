@@ -1,6 +1,8 @@
 import importlib.util
 from pathlib import Path
 import tempfile
+import shutil
+import subprocess
 import unittest
 from unittest.mock import patch
 
@@ -61,6 +63,20 @@ class HostnetDeployment(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, 'configuration has changed'):
                 m.deploy(config)
             transfer.assert_not_called()
+
+    @unittest.skipUnless(shutil.which('rsync'), 'rsync is required for publication')
+    def test_installed_rsync_accepts_upload_options_and_preserves_public_bytes(self):
+        with tempfile.TemporaryDirectory() as folder:
+            source, destination = Path(folder) / 'source', Path(folder) / 'destination'
+            source.mkdir(mode=0o755)
+            destination.mkdir()
+            page = source / 'index.html'
+            page.write_text('<h1>Unchanged</h1>')
+            page.chmod(0o644)
+            config = {'identityFile': '/unused/key', 'knownHostsFile': '/unused/known_hosts', 'port': 22, 'user': 'test'}
+            subprocess.run([*m.rsync_options(config), str(source) + '/', str(destination) + '/'], check=True)
+            self.assertEqual((destination / 'index.html').read_bytes(), page.read_bytes())
+            self.assertEqual((destination / 'index.html').stat().st_mode & 0o777, 0o644)
 
     def test_transport_keeps_host_checking_and_key_only_authentication(self):
         c = {'identityFile': '/private/key', 'knownHostsFile': '/private/known_hosts', 'port': 22, 'user': 'test'}
