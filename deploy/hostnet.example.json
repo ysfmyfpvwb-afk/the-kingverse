@@ -1,0 +1,10 @@
+{
+  "host": "ssh.cxek53six.service.one",
+  "user": "cxek53six_u",
+  "port": 22,
+  "identityFile": "~/.ssh/hostnet_ed25519",
+  "knownHostsFile": "~/.ssh/known_hosts",
+  "remoteRoot": "/EXACT/VERIFIED/KINGVERSE/WEBROOT",
+  "baseUrl": "https://kingverse.eddyhuisman.nl/",
+  "approvedServerConfig": {}
+}
